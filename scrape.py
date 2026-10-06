@@ -45,19 +45,21 @@ def parse_match(a):
         before = [x for x in toks[: toks.index(rnd)] if not TIME.match(x)]
         if before:
             chan = before[0]
-    if len(alts) >= 2:
+    # team names: the visible text is the most reliable (logo alt texts are sometimes wrong)
+    start = max([toks.index(x) + 1 for x in (rnd, status) if x in toks] or [0])
+    skip = {t, rnd, status, chan, "-"}
+    names = [undouble(x) for x in toks[start:] if x not in skip and not re.fullmatch(r"[\d\s:-]+", x)
+                 and not ROUND.match(x) and not any(x.startswith(s) for s in STATUS) and x != "التفاصيل"]
+    uniq = []
+    for x in names:
+        if x not in uniq:
+            uniq.append(x)
+    if len(uniq) >= 2:
+        h, aw = uniq[0], uniq[-1]
+    elif len(alts) >= 2:
         h, aw = undouble(alts[0]), undouble(alts[-1])
     else:
-        skip = {t, rnd, status, chan, "-"}
-        names = [undouble(x) for x in toks if x not in skip and not re.fullmatch(r"[\d\s:-]+", x)
-                 and not ROUND.match(x) and not any(x.startswith(s) for s in STATUS) and x != "التفاصيل"]
-        uniq = []
-        for x in names:
-            if x not in uniq:
-                uniq.append(x)
-        if len(uniq) < 2:
-            return None
-        h, aw = uniq[0], uniq[-1]
+        return None
     if not t or not h or not aw or h == aw:
         return None
     if status.startswith("لم تبدأ"):
