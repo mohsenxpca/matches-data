@@ -1,0 +1,35 @@
+name: تحديث المباريات
+
+on:
+  schedule:
+    - cron: "41 0 * * *"    # ~2:40-3:40 بالليل بتوقيت القاهرة (بعد آخر ماتش)
+    - cron: "41 12 * * *"   # ~2:40-3:40 العصر (قبل ماتشات الليل)
+  workflow_dispatch: {}      # زرار "Run workflow" للتشغيل اليدوي
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-matches
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - run: python scrape.py 1 10
+      - name: Commit data.json
+        run: |
+          git config user.name "matches-bot"
+          git config user.email "matches-bot@users.noreply.github.com"
+          git add data.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "update matches $(TZ=Africa/Cairo date +%F_%H:%M)"
+          git pull --rebase origin main
+          git push origin main
