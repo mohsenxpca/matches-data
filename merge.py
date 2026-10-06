@@ -98,6 +98,9 @@ def main():
             old[day] = [m for m in prev_list if (m["h"], m["a"]) not in keys] + ms
         changed.append(day)
     out = sorted((m for ms in old.values() for m in ms), key=lambda m: (m["d"], m["t"]))
+    if out == data["matches"]:
+        print("no changes")
+        return
     data["matches"] = out
     data["updated"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     with open("data.json", "w", encoding="utf-8") as f:
