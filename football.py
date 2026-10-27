@@ -186,7 +186,12 @@ def gemini(prompt):
                 parts = []
                 for line in r.iter_lines(decode_unicode=True):
                     if line and line.startswith("data:"):
-                        d = json.loads(line[5:])
+                        try:
+                            d = json.loads(line[5:])
+                        except ValueError:
+                            continue
+                        if d.get("error"):
+                            raise requests.exceptions.RequestException(str(d["error"])[:150])
                         for c in d.get("candidates", []):
                             for p in c.get("content", {}).get("parts", []):
                                 if p.get("text") and not p.get("thought"):
