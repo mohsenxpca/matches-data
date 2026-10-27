@@ -129,53 +129,57 @@ def team_matches(text, data):
     return rows[:6]
 
 
-_MODEL = None
+_MODELS = None
 
 
-def pick_model(key):
-    """Newest available Flash model that supports generateContent (model names change over time)."""
-    global _MODEL
-    if _MODEL:
-        return _MODEL
+def models(key):
+    """Flash models that support generateContent, newest first, then flash-lite ones (names change over time).
+    The newest model is often overloaded on the free tier, so gemini() falls back down this list."""
+    global _MODELS
+    if _MODELS:
+        return _MODELS
     if os.environ.get("GEMINI_MODEL"):
-        _MODEL = os.environ["GEMINI_MODEL"]
-        return _MODEL
+        _MODELS = [os.environ["GEMINI_MODEL"]]
+        return _MODELS
     r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", headers={"x-goog-api-key": key},
                      params={"pageSize": 200}, timeout=30)
     if r.status_code != 200:
         sys.exit(f"Gemini key problem ({r.status_code}): {r.text[:200]}")
     names = [m["name"].split("/", 1)[1] for m in r.json().get("models", [])
              if "generateContent" in m.get("supportedGenerationMethods", [])]
-    flash = [n for n in names if re.fullmatch(r"gemini-[\d.]+-flash(-latest)?", n)]
+
     def ver(n):
         return tuple(int(x) for x in re.findall(r"\d+", n.split("-flash")[0]))
-    flash.sort(key=lambda n: (ver(n), n.endswith("latest")), reverse=True)
-    _MODEL = flash[0] if flash else ("gemini-flash-latest" if "gemini-flash-latest" in names else names[0])
-    print("Gemini model:", _MODEL)
-    return _MODEL
+    flash = sorted((n for n in names if re.fullmatch(r"gemini-[\d.]+-flash", n)), key=ver, reverse=True)
+    lite = sorted((n for n in names if re.fullmatch(r"gemini-[\d.]+-flash-lite", n)), key=ver, reverse=True)
+    _MODELS = (flash[:3] + lite[:2]) or [n for n in names if "flash" in n][:3] or names[:1]
+    print("Gemini models to try:", _MODELS)
+    return _MODELS
 
 
 _THINK = {"thinkingConfig": {"thinkingLevel": "low"}}
 
 
 def gemini(prompt):
-    """Streams the answer (SSE) so long generations don't get their connection dropped."""
+    """Streams the answer (SSE) so long generations don't get their connection dropped;
+    moves to the next model when one is overloaded or silent."""
     global _THINK
     key = secret("GEMINI_API_KEY")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model(key)}:streamGenerateContent"
-    for t in range(4):
+    plan = [m for m in models(key) for _ in range(2)]
+    for t, model in enumerate(plan):
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:streamGenerateContent"
         cfg = {"temperature": 0.7, "responseMimeType": "application/json", **_THINK}
         body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}], "generationConfig": cfg}
         t0 = time.time()
         try:
             with requests.post(url, params={"alt": "sse"}, headers={"x-goog-api-key": key}, json=body,
-                               stream=True, timeout=(30, 300)) as r:
+                               stream=True, timeout=(30, 180)) as r:
                 if r.status_code == 400 and _THINK and "think" in r.text.lower():
                     _THINK = {}  # this model doesn't take thinkingLevel
                     continue
-                if r.status_code in (429, 500, 503):
-                    print("  Gemini busy", r.status_code)
-                    time.sleep(30 * (t + 1))
+                if r.status_code in (404, 429, 500, 503):
+                    print(f"  {model} busy/unavailable ({r.status_code})")
+                    time.sleep(20)
                     continue
                 if r.status_code != 200:
                     sys.exit(f"Gemini error {r.status_code}: {r.text[:300]}")
@@ -188,11 +192,11 @@ def gemini(prompt):
                                 if p.get("text") and not p.get("thought"):
                                     parts.append(p["text"])
         except requests.exceptions.RequestException as e:
-            print("  Gemini connection dropped, retrying:", type(e).__name__, f"after {int(time.time() - t0)}s")
+            print(f"  {model} connection dropped:", type(e).__name__, f"after {int(time.time() - t0)}s")
             time.sleep(15)
             continue
         txt = "".join(parts).strip()
-        print(f"  Gemini wrote {len(txt)} chars in {int(time.time() - t0)}s")
+        print(f"  {model} wrote {len(txt)} chars in {int(time.time() - t0)}s")
         try:
             return json.loads(re.sub(r"^```(json)?|```$", "", txt))
         except ValueError:
