@@ -22,7 +22,7 @@ HEAD = {"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML
         "Accept-Language": "ar,en;q=0.8"}
 COUNT = int(os.environ.get("COUNT", "2"))
 DRY = os.environ.get("DRY_RUN") == "1"
-DAY_CAP = 10          # same cap as blogger_api.py on Mohsen's PC: never more than 10 posts a day on Egyptaway
+DAY_CAP = int(os.environ.get("DAY_CAP") or 10)  # same cap as blogger_api.py on Mohsen's PC; a manual run can raise it
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 BANNED = ["يلا كورة", "يلاكورة", "yallakora", "يلا كوره"]
 PRIORITY = ["egyptian-league", "egypt-cup", "african-champions-league", "african-confederation-cup", "can-qualifiers",
