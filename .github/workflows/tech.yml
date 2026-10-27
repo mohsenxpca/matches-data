@@ -1,0 +1,49 @@
+name: أخبار التقنية على ايجبتاوى
+
+on:
+  schedule:
+    - cron: "40 8 * * *"   # كل يوم الصبح، والنشر بيتجدول في مواعيد عشوائية
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "عدد الأخبار"
+        default: "2"
+      day_cap:
+        description: "أقصى عدد مقالات في اليوم"
+        default: "18"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tech-posts
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 lxml pillow arabic-reshaper python-bidi
+      - run: python -u tech.py
+        env:
+          COUNT: ${{ github.event.inputs.count || '2' }}
+          DAY_CAP: ${{ github.event.inputs.day_cap || '18' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name "matches-bot"
+          git config user.email "matches-bot@users.noreply.github.com"
+          git add tech_posted.json img 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "tech posts $(TZ=Africa/Cairo date +%F_%H:%M)"
+          git pull --rebase origin main
+          git push origin main
