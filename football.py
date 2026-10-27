@@ -57,11 +57,21 @@ def numbers(text):
     return {n.lstrip("0") or "0" for n in re.findall(r"\d+(?:[.,]\d+)?", t)}
 
 
+def secret(name):
+    """Secret value, tolerant of pasted spaces / quotes / trailing commas."""
+    return os.environ.get(name, "").strip().strip(",").strip().strip('"').strip("'").strip()
+
+
 def token():
     r = requests.post("https://oauth2.googleapis.com/token", data={
-        "client_id": os.environ["BLOGGER_CLIENT_ID"], "client_secret": os.environ["BLOGGER_CLIENT_SECRET"],
-        "refresh_token": os.environ["BLOGGER_REFRESH_TOKEN"], "grant_type": "refresh_token"}, timeout=30)
-    r.raise_for_status()
+        "client_id": secret("BLOGGER_CLIENT_ID"), "client_secret": secret("BLOGGER_CLIENT_SECRET"),
+        "refresh_token": secret("BLOGGER_REFRESH_TOKEN"), "grant_type": "refresh_token"}, timeout=30)
+    if r.status_code != 200:
+        cid = secret("BLOGGER_CLIENT_ID")
+        sys.exit(f"Google login failed ({r.status_code}): {r.text[:200]} | client_id looks "
+                 f"{'OK' if cid.endswith('.apps.googleusercontent.com') else 'WRONG'}, "
+                 f"client_secret starts {'GOCSPX-' if secret('BLOGGER_CLIENT_SECRET').startswith('GOCSPX-') else 'with something else'}, "
+                 f"refresh_token starts {'1//' if secret('BLOGGER_REFRESH_TOKEN').startswith('1//') else 'with something else'}")
     return r.json()["access_token"]
 
 
@@ -120,7 +130,7 @@ def team_matches(text, data):
 
 
 def gemini(prompt):
-    key = os.environ["GEMINI_API_KEY"]
+    key = secret("GEMINI_API_KEY")
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.7, "responseMimeType": "application/json"}}
