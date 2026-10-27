@@ -8,6 +8,9 @@ on:
       count:
         description: "عدد الأخبار"
         default: "2"
+      day_cap:
+        description: "أقصى عدد مقالات في اليوم على ايجبتاوى"
+        default: "10"
 
 permissions:
   contents: write
@@ -30,6 +33,7 @@ jobs:
       - run: python football.py
         env:
           COUNT: ${{ github.event.inputs.count || '2' }}
+          DAY_CAP: ${{ github.event.inputs.day_cap || '10' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
