@@ -33,6 +33,7 @@ def first_image(body):
 def main():
     key = f.secret("ONESIGNAL_API_KEY")
     dry = os.environ.get("DRY_RUN") == "1"
+    force = os.environ.get("FORCE") == "1"  # manual test: ignore quiet hours, gap and daily cap
     if not key and not dry:
         print("ONESIGNAL_API_KEY secret is missing, nothing sent")
         return
@@ -42,21 +43,21 @@ def main():
         state = {"sent": []}
     now = datetime.datetime.now(f.CAIRO)
     today = now.date().isoformat()
-    if now.hour in QUIET:
+    if now.hour in QUIET and not force:
         print("quiet hours")
         return
     sent_today = [s for s in state["sent"] if s.get("at", "").startswith(today)]
-    if len(sent_today) >= PER_DAY:
+    if len(sent_today) >= PER_DAY and not force:
         print(f"daily cap reached ({PER_DAY})")
         return
-    if state["sent"]:
+    if state["sent"] and not force:
         last = datetime.datetime.fromisoformat(state["sent"][-1]["at"])
         if (now - last).total_seconds() < GAP_MIN * 60:
             print("last push was less than", GAP_MIN, "minutes ago")
             return
     done = {s["url"] for s in state["sent"]}
     tok = f.token()
-    since = (now - datetime.timedelta(hours=LOOKBACK_H)).isoformat(timespec="seconds")
+    since = (now - datetime.timedelta(hours=24 if force else LOOKBACK_H)).isoformat(timespec="seconds")
     res = f.api("GET", f"/blogs/{f.BLOG}/posts", tok, {"status": "live", "startDate": since, "maxResults": 10,
                                                       "fetchBodies": "true", "fetchImages": "true"})
     posts = [p for p in res.get("items", []) if p.get("url") and p["url"] not in done]
@@ -80,6 +81,9 @@ def main():
     print("OneSignal", r.status_code, r.text[:300])
     if r.status_code >= 400:
         sys.exit(1)
+    if not r.json().get("id"):
+        print("not sent (no subscribers yet?)")
+        return
     state["sent"].append({"url": p["url"], "title": title, "at": now.isoformat(timespec="seconds")})
     state["sent"] = state["sent"][-300:]
     json.dump(state, open("notify_sent.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
