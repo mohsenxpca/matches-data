@@ -66,7 +66,8 @@ def fmt(x, d=2):
 def links(skip):
     L = [("prayer", "مواقيت الصلاة", "/p/prayer-times-egypt.html"), ("currency", "أسعار العملات", "/p/currency-prices-egypt.html"),
          ("gold", "أسعار الذهب", "/p/gold-prices-egypt.html"), ("weather", "الطقس", "/p/weather-egypt.html"),
-         ("m", "مواعيد المباريات", "/p/matches-today.html")]
+         ("m", "مواعيد المباريات", "/p/matches-today.html"), ("gsa", "الذهب في السعودية", "/p/gold-sa.html"),
+         ("gae", "الذهب في الإمارات", "/p/gold-ae.html"), ("psa", "الصلاة في السعودية", "/p/prayer-sa.html")]
     return '<div class="sv-links">' + "".join(f'<a href="{SITE}{u}">{t}</a>' for k, t, u in L if k != skip) + "</div>"
 
 

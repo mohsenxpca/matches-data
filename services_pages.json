@@ -52,5 +52,43 @@
    "id": "1023306226008435410",
    "url": "https://www.egyptaway.com/p/gbp-100-to-egp.html"
   }
+ },
+ "gulf": {
+  "gold-sa": {
+   "id": "3311013437765204932",
+   "url": "https://www.egyptaway.com/p/gold-sa.html"
+  },
+  "prayer-sa": {
+   "id": "4271608727521919454",
+   "url": "https://www.egyptaway.com/p/prayer-sa.html"
+  },
+  "currency-sa": {
+   "id": "1267829852211720723",
+   "url": "https://www.egyptaway.com/p/currency-sa.html"
+  },
+  "gold-ae": {
+   "id": "8547244205685365718",
+   "url": "https://www.egyptaway.com/p/gold-ae.html"
+  },
+  "prayer-ae": {
+   "id": "3163261750808216692",
+   "url": "https://www.egyptaway.com/p/prayer-ae.html"
+  },
+  "currency-ae": {
+   "id": "1839747066459593870",
+   "url": "https://www.egyptaway.com/p/currency-ae.html"
+  },
+  "gold-kw": {
+   "id": "1482533411616464595",
+   "url": "https://www.egyptaway.com/p/gold-kw.html"
+  },
+  "prayer-kw": {
+   "id": "5629783319153117969",
+   "url": "https://www.egyptaway.com/p/prayer-kw.html"
+  },
+  "currency-kw": {
+   "id": "8207214978917734783",
+   "url": "https://www.egyptaway.com/p/currency-kw.html"
+  }
  }
 }
