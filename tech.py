@@ -3,7 +3,7 @@
 Runs daily on GitHub Actions (.github/workflows/tech.yml). Picks fresh stories from a few English tech feeds, reads the
 article, asks Gemini (same writer/checker/scheduler as football.py), draws a 3D-icon cover, and schedules them at random
 times today. Phone launch stories are skipped (those go to Review / the phone-news routine).
-Env: COUNT (default 2), DAY_CAP (default 18).
+Env: COUNT (default 2), DAY_CAP (default 18), PROFILE = tech (default) | games (gaming news) | deals (free-game offers).
 """
 import datetime, html, json, os, random, re, sys
 import requests
@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 import football as f
 import cover
 
+PROFILE = os.environ.get("PROFILE") or "tech"  # tech | games | deals
 COUNT = int(os.environ.get("COUNT") or 2)
 f.DAY_CAP = int(os.environ.get("DAY_CAP") or 18)
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
@@ -27,8 +28,32 @@ TOPICS = [  # (regex on the English title, label, kicker word, 3D icon, priority
     (r"ios|iphone|apple|mac", "تطبيقات", "أبل", "Mobile phone/3D/mobile_phone_3d.png", 4),
 ]
 SKIP = r"launch(es|ed)? .*(galaxy|iphone|pixel|phone)|hands-on|review:|deal|% off|sale|best .* to buy|podcast|newsletter|funding|raises \$|series [a-e]"
+LABEL0 = "أخبار"
 
-PROMPT = """أنت محرر تقنية في موقع ايجبتاوى المصري. اكتب خبر تقنية أصلي بالكامل بالعربي البسيط القريب من المصري عن الموضوع ده.
+# Week 2 of the ramp-up (mohsen 2026-10-27): gaming news (3/day) and free-game deals (1/day) on the same writer/checker.
+GAME_FEEDS = [("https://www.pocketgamer.com/rss/", "Pocket Gamer"), ("https://www.dexerto.com/feed/", "Dexerto"),
+              ("https://www.eurogamer.net/feed", "Eurogamer"), ("https://www.pcgamer.com/rss/", "PC Gamer"),
+              ("https://www.gamespot.com/feeds/news/", "GameSpot")]
+GAMEPAD = "Video game/3D/video_game_3d.png"
+GAME_TOPICS = [
+    (r"pubg|bgmi|free fire|efootball|ea sports fc|\bfc 2\d|call of duty mobile|cod mobile|mobile legends|clash|brawl stars|supercell", "العاب", "ألعاب الموبايل", GAMEPAD, 0),
+    (r"gta|grand theft auto|fortnite|minecraft|roblox|call of duty|warzone|valorant|league of legends|genshin|honkai", "العاب", "أخبار الألعاب", GAMEPAD, 1),
+    (r"playstation|ps5|ps6|xbox|nintendo|switch 2|steam deck|steam", "العاب", "منصات الألعاب", GAMEPAD, 2),
+    (r"android|ios|iphone|mobile", "العاب", "ألعاب الموبايل", GAMEPAD, 2),
+]
+GAME_SKIP = r"review|podcast|quiz|wordle|connections|crossword|codes?\b|deal|% off|sale|best .* (deals|to buy)|giveaway"
+DEAL_TOPICS = [(r"free (game|games|to keep|on (the )?epic|this week|weekend)|epic games store.*free|prime gaming|free-to-keep|claim .* free"
+                r"|ps plus|playstation plus|game pass",
+                "عروض", "ألعاب مجانية", "Wrapped gift/3D/wrapped_gift_3d.png", 0)]
+if PROFILE == "games":
+    FEEDS, TOPICS, SKIP, LABEL0 = GAME_FEEDS, GAME_TOPICS, GAME_SKIP, "أخبار الألعاب"
+elif PROFILE == "deals":
+    FEEDS, TOPICS, SKIP, LABEL0 = GAME_FEEDS, DEAL_TOPICS, r"podcast|quiz|review", "أخبار الألعاب"
+STATE = "tech_posted.json" if PROFILE == "tech" else f"{PROFILE}_posted.json"
+
+KIND = {"tech": "تقنية", "games": "ألعاب", "deals": "ألعاب (عرض لعبة مجانية أو تخفيض رسمي)"}[PROFILE]
+PROMPT = """أنت محرر """ + KIND + """ في موقع ايجبتاوى المصري. اكتب خبر """ + KIND + """ أصلي بالكامل بالعربي البسيط القريب من المصري عن الموضوع ده.
+- لو الخبر عن لعبة: اذكر المنصات اللي اللعبة عليها لو مكتوبة في المصدر، وممنوع تذكر روابط تحميل أو نسخ مهكرة.
 
 قواعد صارمة:
 - استخدم المعلومات اللي في «النص المصدر» بس. ممنوع تضيف أي رقم أو تاريخ أو سعر أو ميزة مش موجودة فيه.
@@ -98,7 +123,7 @@ def build(art, c, cover_url):
 
 def main():
     try:
-        state = json.load(open("tech_posted.json", encoding="utf-8"))
+        state = json.load(open(STATE, encoding="utf-8"))
     except Exception:
         state = {"done": []}
     done = {d["u"] for d in state["done"]}
@@ -150,13 +175,13 @@ def main():
         cover.make_topic_cover(FLUENT.format(requests.utils.quote(icon, safe="/")), art.get("kicker") or kick,
                                art.get("headline") or art["title"], p)
         html_out = build(art, c, f.CDN + p)
-        fin = f.schedule(tok, art, html_out, ["أخبار", label], times[made])
+        fin = f.schedule(tok, art, html_out, list(dict.fromkeys([LABEL0, label])), times[made])
         state["done"][-1].update({"url": fin.get("url"), "title": art["title"]})
         print("SCHEDULED", times[made].strftime("%H:%M"), fin.get("url"), "|", art["title"])
         existing.append(art["title"])
         made += 1
     state["done"] = state["done"][-400:]
-    json.dump(state, open("tech_posted.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(state, open(STATE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"done: {made} tech post(s)")
 
 
