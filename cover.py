@@ -111,3 +111,51 @@ def make_cover(teams, kicker, out_path):
     d.text((W - 30, H - 26), ar("ايجبتاوى"), font=font(30), fill=GOLD, anchor="rm")
     img.convert("RGB").save(out_path, "JPEG", quality=86, optimize=True, progressive=True)
     return True
+
+
+def wrap(d, text, max_w, f):
+    """Split Arabic text into lines that fit max_w (measured after shaping)."""
+    words, lines, cur = text.split(), [], ""
+    for w in words:
+        t = (cur + " " + w).strip()
+        if d.textlength(ar(t), font=f) <= max_w or not cur:
+            cur = t
+        else:
+            lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def make_topic_cover(icon_url, kicker, headline, out_path):
+    """Tech/news cover: big 3D icon on one side, the headline on the other, Egyptaway colours."""
+    img = Image.new("RGBA", (W, H), NAVY)
+    d = ImageDraw.Draw(img)
+    for y in range(H):
+        k = y / H
+        d.line([(0, y), (W, y)], fill=tuple(int(NAVY[i] * (1 - k) + NAVY2[i] * k) for i in range(3)))
+    glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(glow).ellipse((90, 150, 470, 530), fill=(245, 158, 11, 70))
+    img.alpha_composite(glow.filter(ImageFilter.GaussianBlur(60)))
+    d.rectangle((0, 0, W, 64), fill=GOLD)
+    d.rectangle((0, 58, W, 64), fill=ORANGE)
+    d.text((W // 2, 32), ar(kicker), font=fit(d, kicker, W - 80, 34), fill=NAVY, anchor="mm")
+    try:
+        r = requests.get(icon_url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+        ic = Image.open(io.BytesIO(r.content)).convert("RGBA").resize((300, 300), Image.LANCZOS)
+        sh = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        sh.paste((0, 0, 0, 90), (130, 210, 430, 510), ic.split()[3])
+        img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(12)))
+        img.alpha_composite(ic, (130, 190))
+    except Exception:
+        pass
+    f = font(50)
+    lines = wrap(d, headline, 600, f)[:4]
+    y0 = 350 - len(lines) * 36
+    for i, ln in enumerate(lines):
+        d.text((W - 60, y0 + i * 74), ar(ln), font=f, fill=(255, 255, 255), anchor="rm")
+    d.rectangle((W - 60 - 120, y0 + len(lines) * 74 + 4, W - 60, y0 + len(lines) * 74 + 10), fill=GOLD)
+    d.text((W - 30, H - 26), ar("ايجبتاوى"), font=font(30), fill=GOLD, anchor="rm")
+    img.convert("RGB").save(out_path, "JPEG", quality=86, optimize=True, progressive=True)
+    return True
