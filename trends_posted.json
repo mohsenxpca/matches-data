@@ -1,0 +1,19 @@
+{
+ "done": [
+  {
+   "q": "weather tomorrow",
+   "at": "2026-10-27",
+   "ok": false
+  },
+  {
+   "q": "al-shamal vs al-hilal",
+   "at": "2026-10-27",
+   "ok": false
+  },
+  {
+   "q": "الدخول العالمي",
+   "at": "2026-10-27",
+   "ok": false
+  }
+ ]
+}
