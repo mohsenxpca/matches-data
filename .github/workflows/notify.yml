@@ -1,4 +1,4 @@
-name: إشعارات المقالات الجديدة (Push + تليجرام + IndexNow)
+name: إشعارات المقالات الجديدة (Push + تليجرام + فيسبوك + IndexNow)
 
 on:
   schedule:
@@ -35,6 +35,8 @@ jobs:
           FORCE: ${{ github.event.inputs.force || '0' }}
           ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
