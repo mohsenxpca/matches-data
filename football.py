@@ -73,8 +73,14 @@ def api(method, path, tok, params=None, body=None):
     return r.json() if r.text else {}
 
 
-def site_posts():
-    """Recent Egyptaway posts (title, url, labels, published) from the public feed."""
+def site_posts(tok=None):
+    """Recent Egyptaway posts (title, url, labels, published). Uses the API on GitHub (the site's
+    public feed is blocked for datacenter IPs), the public feed otherwise."""
+    if tok:
+        res = api("GET", f"/blogs/{BLOG}/posts", tok, {"fetchBodies": "false", "maxResults": 200, "status": "live",
+                                                    "fields": "items(title,url,labels,published)"})
+        return [{"t": p.get("title", ""), "u": p.get("url", ""), "l": p.get("labels", []), "p": p.get("published", "")}
+                for p in res.get("items", [])]
     r = requests.get(SITE + "/feeds/posts/summary", params={"alt": "json", "max-results": 150}, headers=HEAD, timeout=40)
     out = []
     for e in r.json().get("feed", {}).get("entry", []):
@@ -241,11 +247,11 @@ def main():
     except Exception:
         state = {"done": []}
     done_ids = {d["id"] for d in state["done"]}
-    posts = site_posts()
+    tok = None if DRY else token()
+    posts = site_posts(tok)
     existing = [p["t"] for p in posts]
     today = datetime.datetime.now(CAIRO).date().isoformat()
 
-    tok = None if DRY else token()
     taken = []
     if not DRY:
         sched = api("GET", f"/blogs/{BLOG}/posts", tok, {"status": ["live", "scheduled"], "fetchBodies": "false",
