@@ -127,23 +127,24 @@ def fx():
 
 
 def currency(now, rates, prev):
-    cards = "".join(f'<div class="sv-card"><div class="k">{f} {E(n)}</div><div class="v">{fmt(rates[c])}</div><div class="k">جنيه</div></div>'
+    cards = "".join(f'<div class="sv-card"><div class="k">{f} {E(n)}</div><div class="v" data-fx="{c}">{fmt(rates[c])}</div><div class="k">جنيه</div></div>'
                     for c, n, f in CURR[:6] if c in rates)
     def chg(c):
         if not prev or c not in prev:
             return "-"
         d = rates[c] - prev[c]
         return ("▲ " if d > 0 else "▼ " if d < 0 else "") + fmt(abs(d), 3)
-    tr = "".join(f"<tr><td>{f} <b>{E(n)}</b></td><td>{fmt(rates[c], 3)}</td><td>{fmt(1 / rates[c], 4)}</td><td>{chg(c)}</td></tr>"
+    tr = "".join(f"<tr><td>{f} <b>{E(n)}</b></td><td data-fx='{c}' data-n='3'>{fmt(rates[c], 3)}</td><td>{fmt(1 / rates[c], 4)}</td><td>{chg(c)}</td></tr>"
                  for c, n, f in CURR if c in rates)
     opts = "".join(f'<option value="{c}">{E(n)}</option>' for c, n, _ in CURR if c in rates)
     usd = rates["USD"]
     body = f"""{CSS}<div class="sv">
-<div class="sv-hero">سعر الدولار اليوم في مصر <b>{fmt(usd)} جنيه</b> · {stamp(now)}<br><small>أسعار الصرف الرسمية العالمية، وبتتحدث لوحدها كذا مرة في اليوم</small></div>
+<div class="sv-hero">سعر الدولار اليوم في مصر <b><span data-fx="USD">{fmt(usd)}</span> جنيه</b> · {stamp(now)}<br><small>سعر الصرف الرسمي في مصر · الصفحة بتشيّك على السعر كل دقيقة · آخر تحديث <span id="sv-upd">{now:%H:%M}</span></small></div>
 <div class="sv-grid">{cards}</div>
 <div class="sv-tool"><b>حوّل بين العملات والجنيه:</b><br><input id="sv-a" type="number" value="100" min="0"> <select id="sv-c">{opts}</select>
 <select id="sv-d"><option value="1">إلى جنيه مصري</option><option value="0">من جنيه مصري</option></select><div class="out" id="sv-r"></div></div>
-<script>(function(){{var R={json.dumps({c: round(v, 5) for c, v in rates.items()})},N={json.dumps({c: n for c, n, _ in CURR})};function g(i){{return document.getElementById(i)}}function f(){{var a=parseFloat(g('sv-a').value)||0,c=g('sv-c').value,r=R[c];g('sv-r').textContent=g('sv-d').value=='1'?(a+' '+N[c]+' = '+(a*r).toFixed(2)+' جنيه'):(a+' جنيه = '+(a/r).toFixed(3)+' '+N[c])}}['sv-a','sv-c','sv-d'].forEach(function(i){{g(i).oninput=f;g(i).onchange=f}});f();}})();</script>
+<script>(function(){{var R0={json.dumps({c: round(v, 5) for c, v in rates.items()})},N={json.dumps({c: n for c, n, _ in CURR})};function g(i){{return document.getElementById(i)}}function f(){{var R=(window.__G&&window.__G.fx)||R0,a=parseFloat(g('sv-a').value)||0,c=g('sv-c').value,r=R[c];g('sv-r').textContent=g('sv-d').value=='1'?(a+' '+N[c]+' = '+(a*r).toFixed(2)+' جنيه'):(a+' جنيه = '+(a/r).toFixed(3)+' '+N[c])}}['sv-a','sv-c','sv-d'].forEach(function(i){{g(i).oninput=f;g(i).onchange=f}});window.__onlive=f;f();}})();</script>
+{LIVE_JS}
 <h2>أسعار العملات مقابل الجنيه المصري اليوم</h2>
 <div class="sv-wrap"><table class="sv-t"><thead><tr><th>العملة</th><th>بالجنيه</th><th>الجنيه يساوي</th><th>التغيير من امبارح</th></tr></thead><tbody>{tr}</tbody></table></div>
 <p class="sv-note">الأسعار دي متوسط سعر الصرف العالمي، وأسعار البيع والشراء في البنوك وشركات الصرافة بتختلف عنها شوية حسب كل بنك.</p>
@@ -163,38 +164,51 @@ def xau():
     return (p["bid"] + p["ask"]) / 2
 
 
+LIVE = "https://raw.githubusercontent.com/mohsenxpca/matches-data/live/live.json"
+LIVE_JS = """<script>(function(){var L='""" + LIVE + """';function upd(){Promise.all([fetch(L+'?t='+Math.floor(Date.now()/60000)).then(function(r){return r.json()}),fetch('https://api.gold-api.com/price/XAU').then(function(r){return r.json()}).catch(function(){return null})]).then(function(a){var d=a[0],x=a[1],k=(x&&x.price&&d.xau)?x.price/d.xau:1;window.__G=d;window.__K=k;[].forEach.call(document.querySelectorAll('[data-g]'),function(el){var p=el.getAttribute('data-g').split('.'),v=d.gold[p[0]]&&d.gold[p[0]][p[1]];if(v)el.textContent=Math.round(v*k).toLocaleString('en-US')});[].forEach.call(document.querySelectorAll('[data-fx]'),function(el){var c=el.getAttribute('data-fx'),v=d.fx&&d.fx[c];if(v)el.textContent=v.toFixed(el.getAttribute('data-n')?+el.getAttribute('data-n'):2)});var u=document.getElementById('sv-upd');if(u)u.textContent=new Date().toLocaleTimeString('ar-EG-u-nu-latn',{hour:'2-digit',minute:'2-digit',timeZone:'Africa/Cairo'});if(window.__onlive)window.__onlive()}).catch(function(){})}upd();setInterval(upd,60000);})();</script>"""
+
+
 def gold(now, oz_usd, usd, prev):
-    g24 = oz_usd / 31.1035 * usd
-    K = [("عيار 24", g24), ("عيار 22", g24 * 22 / 24), ("عيار 21", g24 * 21 / 24), ("عيار 18", g24 * 18 / 24), ("عيار 14", g24 * 14 / 24)]
-    pound = g24 * 21 / 24 * 8
-    cards = "".join(f'<div class="sv-card"><div class="k">جرام {k}</div><div class="v">{fmt(v, 0)}</div><div class="k">جنيه</div></div>' for k, v in K[:4])
-    cards += f'<div class="sv-card"><div class="k">الجنيه الذهب</div><div class="v">{fmt(pound, 0)}</div><div class="k">جنيه</div></div>'
+    from goldlive import market
+    m = market()
+    K = [("24", "عيار 24"), ("22", "عيار 22"), ("21", "عيار 21"), ("18", "عيار 18"), ("14", "عيار 14"), ("12", "عيار 12")]
+    K = [(k, n) for k, n in K if k in m]
+    pound = m.get("pound")
+    cards = "".join(f'<div class="sv-card"><div class="k">جرام {n}</div><div class="v" data-g="{k}.sell">{fmt(m[k]["sell"], 0)}</div>'
+                    f'<div class="k">شراء منك: <span data-g="{k}.buy">{fmt(m[k]["buy"], 0)}</span></div></div>' for k, n in K if k in ("24", "21", "18"))
+    if pound:
+        cards += (f'<div class="sv-card"><div class="k">الجنيه الذهب</div><div class="v" data-g="pound.sell">{fmt(pound["sell"], 0)}</div>'
+                  f'<div class="k">شراء منك: <span data-g="pound.buy">{fmt(pound["buy"], 0)}</span></div></div>')
     p21 = prev.get("g21") if prev else None
     trend = ""
     if p21:
-        d = g24 * 21 / 24 - p21
+        d = m["21"]["sell"] - p21
         trend = f"، {'زيادة' if d > 0 else 'انخفاض'} {fmt(abs(d), 0)} جنيه عن امبارح" if abs(d) >= 1 else "، تقريبًا نفس سعر امبارح"
-    tr = "".join(f"<tr><td><b>{k}</b></td><td>{fmt(v, 0)}</td><td>{fmt(v / usd, 2)} $</td></tr>" for k, v in K)
-    tr += f"<tr><td><b>الجنيه الذهب (8 جرام عيار 21)</b></td><td>{fmt(pound, 0)}</td><td>{fmt(pound / usd, 0)} $</td></tr>"
-    tr += f"<tr><td><b>الأونصة</b></td><td>{fmt(oz_usd * usd, 0)}</td><td>{fmt(oz_usd, 0)} $</td></tr>"
+    tr = "".join(f'<tr><td><b>{n}</b></td><td data-g="{k}.sell">{fmt(m[k]["sell"], 0)}</td><td data-g="{k}.buy">{fmt(m[k]["buy"], 0)}</td></tr>' for k, n in K)
+    if pound:
+        tr += f'<tr><td><b>الجنيه الذهب (8 جرام عيار 21)</b></td><td data-g="pound.sell">{fmt(pound["sell"], 0)}</td><td data-g="pound.buy">{fmt(pound["buy"], 0)}</td></tr>'
+    tr += f'<tr><td><b>الأونصة عالميًا</b></td><td colspan="2">{fmt(oz_usd, 0)} دولار = {fmt(oz_usd * usd, 0)} جنيه</td></tr>'
     body = f"""{CSS}<div class="sv">
-<div class="sv-hero">سعر جرام الذهب عيار 21 اليوم <b>{fmt(g24 * 21 / 24, 0)} جنيه</b>{trend}<br><small>{stamp(now)} · محسوب من سعر البورصة العالمية ({fmt(oz_usd, 0)} دولار للأونصة) وسعر الدولار</small></div>
+<div class="sv-hero">سعر جرام الذهب عيار 21 في مصر اليوم <b><span data-g="21.sell">{fmt(m["21"]["sell"], 0)}</span> جنيه</b>{trend}<br><small>أسعار سوق الصاغة في مصر (بيع وشراء من غير مصنعية) · بتتحدث كل دقيقة · آخر تحديث <span id="sv-upd">{now:%H:%M}</span></small></div>
 <div class="sv-grid">{cards}</div>
 <div class="sv-tool"><b>احسب تمن الذهب اللي معاك:</b><br><input id="sv-w" type="number" value="10" min="0" step="0.1"> جرام
-<select id="sv-k"><option value="24">عيار 24</option><option value="21" selected>عيار 21</option><option value="18">عيار 18</option><option value="14">عيار 14</option></select>
-<div class="out" id="sv-g"></div><div class="sv-note">من غير المصنعية، والصاغة بتزوّدها على السعر ده.</div></div>
-<script>(function(){{var G={round(g24, 2)};function g(i){{return document.getElementById(i)}}function f(){{var w=parseFloat(g('sv-w').value)||0,k=+g('sv-k').value;g('sv-g').textContent=(w*G*k/24).toLocaleString('ar-EG',{{maximumFractionDigits:0}})+' جنيه'}}g('sv-w').oninput=f;g('sv-k').onchange=f;f();}})();</script>
+<select id="sv-k">{"".join(f'<option value="{k}"{" selected" if k == "21" else ""}>{n}</option>' for k, n in K)}</select>
+<select id="sv-s"><option value="buy">لو هتبيع (سعر الشراء منك)</option><option value="sell">لو هتشتري (سعر البيع)</option></select>
+<div class="out" id="sv-g"></div><div class="sv-note">من غير المصنعية والدمغة.</div></div>
+<script>(function(){{var B={json.dumps({k: m[k] for k, _ in K})};function g(i){{return document.getElementById(i)}}function f(){{var d=(window.__G&&window.__G.gold)||B,kk=window.__K||1,w=parseFloat(g('sv-w').value)||0,k=g('sv-k').value,s=g('sv-s').value;g('sv-g').textContent=Math.round(w*d[k][s]*kk).toLocaleString('en-US')+' جنيه'}}['sv-w','sv-k','sv-s'].forEach(function(i){{g(i).oninput=f;g(i).onchange=f}});window.__onlive=f;f();}})();</script>
+{LIVE_JS}
 <h2>أسعار الذهب في مصر اليوم بالجنيه</h2>
-<div class="sv-wrap"><table class="sv-t"><thead><tr><th>النوع</th><th>بالجنيه</th><th>بالدولار</th></tr></thead><tbody>{tr}</tbody></table></div>
-<p class="sv-note"><b>مهم:</b> الأسعار دي محسوبة من سعر الأونصة في البورصة العالمية وسعر الدولار الرسمي، وسعر البيع عند الصاغة بيكون أعلى منها شوية بسبب المصنعية والدمغة، وسعر الشراء منك بيكون أقل.</p>
+<div class="sv-wrap"><table class="sv-t"><thead><tr><th>العيار</th><th>سعر البيع</th><th>سعر الشراء منك</th></tr></thead><tbody>{tr}</tbody></table></div>
+<p class="sv-note">الأسعار دي أسعار سوق الذهب في مصر للجرام من غير مصنعية، وبتتحرك كل دقيقة مع سعر الأونصة العالمي. المصنعية والدمغة بتختلف من محل للتاني.</p>
 <h2>الفرق بين عيار 24 و21 و18</h2>
 <p>العيار بيقول نسبة الذهب الصافي في القطعة: عيار 24 ذهب صافي تقريبًا، وعيار 21 فيه 87.5% ذهب وده الأكتر انتشارًا في مصر، وعيار 18 فيه 75% ذهب وبيستخدم في الحلي الخفيفة. والجنيه الذهب وزنه 8 جرام عيار 21.</p>
-{faq([("سعر جرام الذهب عيار 21 النهارده كام؟", f"جرام عيار 21 النهارده حوالي {fmt(g24 * 21 / 24, 0)} جنيه من غير مصنعية."),
-      ("سعر الجنيه الذهب النهارده كام؟", f"الجنيه الذهب حوالي {fmt(pound, 0)} جنيه من غير مصنعية."),
-      ("ليه السعر عند الصايغ مختلف؟", "لأن الصايغ بيزوّد المصنعية والدمغة وهامش ربحه على سعر الذهب الخام.")])}
+<h2>إيه الفرق بين سعر البيع وسعر الشراء؟</h2>
+<p>سعر البيع هو اللي بتشتري بيه الذهب من المحل، وسعر الشراء هو اللي المحل بيشتري بيه منك لو بعت. الفرق بينهم هو هامش التاجر، وفوق سعر البيع بتتحسب المصنعية حسب نوع القطعة.</p>
+{faq([("سعر جرام الذهب عيار 21 النهارده كام؟", f"جرام عيار 21 النهارده بيتباع بحوالي {fmt(m['21']['sell'], 0)} جنيه ويتشري بحوالي {fmt(m['21']['buy'], 0)} جنيه من غير مصنعية."),
+      ("سعر الجنيه الذهب النهارده كام؟", f"الجنيه الذهب حوالي {fmt(pound['sell'], 0) if pound else '-'} جنيه من غير مصنعية."),
+      ("الأسعار بتتحدث كل قد إيه؟", "كل دقيقة وانت فاتح الصفحة.")])}
 {links("gold")}</div>"""
-    return body, {"g24": round(g24, 2), "g21": round(g24 * 21 / 24, 2), "oz_usd": round(oz_usd, 2)}
-
+    return body, {"g24": m["24"]["sell"], "g21": m["21"]["sell"], "oz_usd": round(oz_usd, 2)}
 
 # ---------------------------------------------------------------- weather
 def weather(now):
