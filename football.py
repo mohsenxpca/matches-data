@@ -249,7 +249,7 @@ PREVIEW_PROMPT = """أنت محرر رياضي في موقع ايجبتاوى ا
 - ممنوع تذكر اسم أي موقع.
 - العنوان لازم يبدأ بـ «موعد مباراة» وفيه اسم الفريقين والقناة.
 - المحتوى: الموعد بتوقيت القاهرة، القناة، البطولة والجولة، موقف الفريقين في الجدول لو موجود، آخر نتايج كل فريق المكتوبة تحت، وأهمية الماتش، ونصيحة للمتابعة القانونية على القناة الرسمية.
-- الطول: الـ body من 450 لـ 700 كلمة، بعناوين h2 (من 3 لـ 5) وفقرات <p>. من غير صور ومن غير روابط.
+- الطول: الـ body من 450 لـ 700 كلمة (اكتب كتير: كل قسم 3 فقرات)، بعناوين h2 (من 3 لـ 5) وفقرات <p>. من غير صور ومن غير روابط.
 
 رجّع JSON بالشكل ده بالظبط:
 {{"title": "موعد مباراة .. أقل من 65 حرف", "kicker": "3-5 كلمات زي: الدوري المصري · الجولة 8", "slug": "3 to 6 english words with hyphens", "desc": "وصف للبحث من 140 لـ 160 حرف", "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "إمتى ماتش ..؟", "a": ".."}}, {{"q": "القناة الناقلة ..؟", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
@@ -269,7 +269,7 @@ def preview_candidates(data, done_keys):
     for m in data.get("matches", []):
         if m["d"] != tmr:
             continue
-        key = f"{m['d']}|{m['h']}|{m['a']}"
+        key = f"{m['d']}|{m['h']}|{m['a']}|p"
         if key in done_keys:
             continue
         rank = min([BIG.index(t) for t in (m["h"], m["a"]) if t in BIG] or [99])
@@ -325,7 +325,7 @@ def check(art, src, tbl_text, existing, min_words=700):
             break
     if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+){2,6}", art.get("slug", "")):
         errs.append("الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات")
-    if not (120 <= len(art.get("desc", "")) <= 170):
+    if not (110 <= len(art.get("desc", "")) <= 175):
         errs.append("الوصف لازم 140-160 حرف")
     return errs
 
@@ -551,15 +551,15 @@ def make_previews(previews, data, existing, state, tok, times, today):
         extra, art, errs = "", None, ["no draft"]
         for attempt in range(2):
             art = gemini(PREVIEW_PROMPT.format(extra=extra, facts=facts))
-            errs = check(art, facts, facts, existing, min_words=400)
+            errs = check(art, facts, facts, existing, min_words=300)
             if not errs:
                 break
             print("  preview retry:", errs)
             extra = "\nتصحيحات لازم تتعمل في النسخة دي: " + " | ".join(errs) + "\n"
-        state.setdefault("previews", []).append(key)
         if errs:
             print("PREVIEW SKIPPED", key, errs)
             continue
+        state.setdefault("previews", []).append(key)
         rows = team_matches(m["h"] + " " + m["a"], data)
         try:
             timgs = team_images(art, rows, [m["h"], m["a"]])
