@@ -1,4 +1,4 @@
-name: صفحات الخدمات (الصلاة والعملات والذهب والطقس)
+name: صفحات الخدمات (الصلاة والعملات والذهب والطقس + الخليج)
 
 on:
   schedule:
@@ -16,7 +16,7 @@ concurrency:
 jobs:
   pages:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,7 +28,13 @@ jobs:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - run: python -u gulf.py
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
       - name: Commit history
+        if: always()
         run: |
           git config user.name "matches-bot"
           git config user.email "matches-bot@users.noreply.github.com"
