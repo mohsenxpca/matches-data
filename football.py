@@ -21,6 +21,7 @@ CAIRO = ZoneInfo("Africa/Cairo")
 HEAD = {"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Mobile Safari/537.36",
         "Accept-Language": "ar,en;q=0.8"}
 COUNT = int(os.environ.get("COUNT", "2"))
+PREVIEWS = int(os.environ.get("PREVIEWS") or 2)  # 'match time & channel' articles for tomorrow's big matches
 DRY = os.environ.get("DRY_RUN") == "1"
 DAY_CAP = int(os.environ.get("DAY_CAP") or 10)  # same cap as blogger_api.py on Mohsen's PC; a manual run can raise it
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
@@ -240,7 +241,63 @@ PROMPT = """أنت محرر رياضي في موقع ايجبتاوى المصر
 """
 
 
-def check(art, src, tbl_text, existing):
+PREVIEW_PROMPT = """أنت محرر رياضي في موقع ايجبتاوى المصري. اكتب مقال «موعد المباراة والقناة الناقلة» قبل الماتش ده بيوم.
+
+قواعد صارمة:
+- استخدم «بيانات الماتش» تحت بس. ممنوع تخترع تشكيل أو إصابات أو تصريحات أو أرقام أو نتايج مش مكتوبة تحت.
+- اكتب كل الأرقام بالأرقام (17:00، 21 نقطة، 2-1)، مش بالحروف.
+- ممنوع تذكر اسم أي موقع.
+- العنوان لازم يبدأ بـ «موعد مباراة» وفيه اسم الفريقين والقناة.
+- المحتوى: الموعد بتوقيت القاهرة، القناة، البطولة والجولة، موقف الفريقين في الجدول لو موجود، آخر نتايج كل فريق المكتوبة تحت، وأهمية الماتش، ونصيحة للمتابعة القانونية على القناة الرسمية.
+- الطول: الـ body من 450 لـ 700 كلمة، بعناوين h2 (من 3 لـ 5) وفقرات <p>. من غير صور ومن غير روابط.
+
+رجّع JSON بالشكل ده بالظبط:
+{{"title": "موعد مباراة .. أقل من 65 حرف", "kicker": "3-5 كلمات زي: الدوري المصري · الجولة 8", "slug": "3 to 6 english words with hyphens", "desc": "وصف للبحث من 140 لـ 160 حرف", "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "إمتى ماتش ..؟", "a": ".."}}, {{"q": "القناة الناقلة ..؟", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
+{extra}
+بيانات الماتش:
+{facts}
+"""
+
+BIG = ["الأهلي", "الزمالك", "بيراميدز", "المصري", "مصر", "ليفربول", "ريال مدريد", "برشلونة", "مانشستر سيتي",
+       "مانشستر يونايتد", "أرسنال", "الهلال", "النصر", "الاتحاد", "بايرن ميونخ", "باريس سان جيرمان"]
+
+
+def preview_candidates(data, done_keys):
+    """Tomorrow's matches (Cairo) with a big team, Egyptian clubs first."""
+    tmr = (datetime.datetime.now(CAIRO) + datetime.timedelta(days=1)).date().isoformat()
+    out = []
+    for m in data.get("matches", []):
+        if m["d"] != tmr:
+            continue
+        key = f"{m['d']}|{m['h']}|{m['a']}"
+        if key in done_keys:
+            continue
+        rank = min([BIG.index(t) for t in (m["h"], m["a"]) if t in BIG] or [99])
+        if rank < 99:
+            out.append((rank, key, m))
+    return [(k, m) for _, k, m in sorted(out)]
+
+
+def match_facts(m, data):
+    def last(team, n=3):
+        rows = [x for x in data.get("matches", []) if team in (x["h"], x["a"]) and x.get("s") and x["d"] < m["d"]]
+        rows.sort(key=lambda x: x["d"], reverse=True)
+        return "، ".join(f"{x['h']} {x['s']} {x['a']} ({x['l']}، {x['d']})" for x in rows[:n]) or "مش متاح"
+    lines = [f"البطولة: {m['l']}", f"الجولة: {m.get('r') or '-'}", f"اليوم: {m['d']}", f"الساعة بتوقيت القاهرة: {m['t']}",
+             f"صاحب الأرض: {m['h']}", f"الضيف: {m['a']}", f"القناة الناقلة: {m.get('c') or 'لم تُعلن'}",
+             f"آخر نتايج {m['h']}: {last(m['h'])}", f"آخر نتايج {m['a']}: {last(m['a'])}"]
+    try:
+        st = json.load(open("standings.json", encoding="utf-8"))["rows"]
+        if m["l"] == "الدوري المصري":
+            for i, r in enumerate(st, 1):
+                if r["team"] in (m["h"], m["a"]):
+                    lines.append(f"ترتيب {r['team']} في الدوري: المركز {i} برصيد {r['pts']} نقطة من {r['p']} ماتش (له {r['gf']} وعليه {r['ga']})")
+    except Exception:
+        pass
+    return "\n".join(lines)
+
+
+def check(art, src, tbl_text, existing, min_words=700):
     errs = []
     full = " ".join([art.get("title", ""), art.get("kicker", ""), art.get("body", ""), art.get("desc", "")] +
                     [f["q"] + " " + f["a"] for f in art.get("faq", [])])
@@ -257,8 +314,8 @@ def check(art, src, tbl_text, existing):
     if "رسميا" in norm(full) and "رسميا" not in norm(src):
         errs.append("كلمة رسميًا مش موجودة في المصدر، احذفها")
     words = len(BeautifulSoup(art.get("body", ""), "html.parser").get_text(" ").split())
-    if words < 700:
-        errs.append(f"الـ body {words} كلمة بس، لازم 750 على الأقل")
+    if words < min_words:
+        errs.append(f"الـ body {words} كلمة بس، لازم {min_words + 50} على الأقل")
     t = art.get("title", "")
     if not t or len(t) > 70:
         errs.append("العنوان لازم أقل من 70 حرف")
@@ -404,13 +461,18 @@ def main():
             return
         n_target = min(COUNT, room)
     else:
+        room = COUNT + PREVIEWS
         n_target = COUNT
 
+    previews = preview_candidates(data, set(state.get("previews", [])))[:max(0, min(PREVIEWS, room - n_target))]
     cands = [x for x in news if x["id"] not in done_ids and x["s"] in PRIORITY]
     cands.sort(key=lambda x: (PRIORITY.index(x["s"]), -x["id"]))
-    times = [] if DRY else schedule_times(n_target, taken)
-    if not DRY and len(times) < n_target:
-        n_target = len(times)
+    times = [] if DRY else schedule_times(n_target + len(previews), taken)
+    if not DRY and len(times) < n_target + len(previews):
+        n_target = max(0, len(times) - len(previews))
+    random.shuffle(times)  # previews and news interleaved through the day
+    p_times, times = times[:len(previews)], sorted(times[len(previews):])
+    made_prev = make_previews(previews, data, existing, state, tok, p_times, today)
     made = 0
     used_imgs = []
     for c in cands:
@@ -467,8 +529,55 @@ def main():
         existing.append(art["title"])
         made += 1
     state["done"] = state["done"][-300:]
+    state["previews"] = state.get("previews", [])[-300:]
     json.dump(state, open("football_posted.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"done: {made} post(s)")
+    print(f"done: {made} news post(s), {made_prev} match preview(s)")
+
+
+def schedule(tok, art, html_out, labels, when):
+    """Draft with the slug as title (Blogger builds the URL from it), schedule, then set the Arabic title."""
+    d = api("POST", f"/blogs/{BLOG}/posts", tok, {"isDraft": "true"},
+            {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": html_out, "labels": labels})
+    api("POST", f"/blogs/{BLOG}/posts/{d['id']}/publish", tok, {"publishDate": when.isoformat()})
+    api("PATCH", f"/blogs/{BLOG}/posts/{d['id']}", tok, None, {"title": art["title"]})
+    return api("GET", f"/blogs/{BLOG}/posts/{d['id']}", tok, {"view": "ADMIN"})
+
+
+def make_previews(previews, data, existing, state, tok, times, today):
+    """'Match time and channel' articles for tomorrow's big matches."""
+    made = 0
+    for (key, m), when in zip(previews, times or [None] * len(previews)):
+        facts = match_facts(m, data)
+        extra, art, errs = "", None, ["no draft"]
+        for attempt in range(2):
+            art = gemini(PREVIEW_PROMPT.format(extra=extra, facts=facts))
+            errs = check(art, facts, facts, existing, min_words=400)
+            if not errs:
+                break
+            print("  preview retry:", errs)
+            extra = "\nتصحيحات لازم تتعمل في النسخة دي: " + " | ".join(errs) + "\n"
+        state.setdefault("previews", []).append(key)
+        if errs:
+            print("PREVIEW SKIPPED", key, errs)
+            continue
+        rows = team_matches(m["h"] + " " + m["a"], data)
+        try:
+            timgs = team_images(art, rows, [m["h"], m["a"]])
+        except Exception as ex:
+            print("  cover failed:", ex)
+            timgs = []
+        html_out = build_html(art, rows, random.choice(IMAGES), None, timgs[:1])
+        labels = ["أخبار الكورة", "مواعيد المباريات"] + (["الدوري المصري"] if m["l"] == "الدوري المصري" else [])
+        if DRY:
+            os.makedirs("out", exist_ok=True)
+            open(f"out/{art['slug']}.html", "w", encoding="utf-8").write(f"<h1>{html.escape(art['title'])}</h1>\n" + html_out)
+            print("DRY PREVIEW", art["title"])
+        else:
+            fin = schedule(tok, art, html_out, labels, when)
+            print("PREVIEW SCHEDULED", when.strftime("%H:%M"), fin.get("url"), "|", art["title"])
+        existing.append(art["title"])
+        made += 1
+    return made
 
 
 if __name__ == "__main__":
