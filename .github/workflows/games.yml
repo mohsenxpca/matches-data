@@ -1,0 +1,60 @@
+name: أخبار الألعاب والعروض على ايجبتاوى
+
+on:
+  schedule:
+    - cron: "40 9 * * *"     # كل يوم (~12 الظهر بتوقيت القاهرة): 3 أخبار ألعاب + عرض لعبة مجانية، بتتجدول في مواعيد متفرقة
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "عدد أخبار الألعاب"
+        default: "3"
+      day_cap:
+        description: "أقصى عدد مقالات في اليوم على ايجبتاوى"
+        default: "24"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: football-posts
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 lxml pillow arabic-reshaper python-bidi
+      - run: python -u tech.py
+        env:
+          PROFILE: games
+          COUNT: ${{ github.event.inputs.count || '3' }}
+          DAY_CAP: ${{ github.event.inputs.day_cap || '24' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - run: python -u tech.py
+        if: always()
+        env:
+          PROFILE: deals
+          COUNT: "1"
+          DAY_CAP: ${{ github.event.inputs.day_cap || '24' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name "matches-bot"
+          git config user.email "matches-bot@users.noreply.github.com"
+          git add games_posted.json deals_posted.json img 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "games posts $(TZ=Africa/Cairo date +%F_%H:%M)"
+          git pull --rebase origin main
+          git push origin main
