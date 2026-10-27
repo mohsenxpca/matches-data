@@ -228,7 +228,7 @@ PROMPT = """أنت محرر رياضي في موقع ايجبتاوى المصر
 - الطول: الـ body لا يقل عن 750 كلمة، مقسم بعناوين h2 (من 4 لـ 6)، وفقرات <p>، وممكن <ul>. من غير صور ومن غير روابط.
 
 رجّع JSON بالشكل ده بالظبط:
-{{"title": "عنوان جذاب وصادق أقل من 65 حرف بدون اسم أي موقع", "slug": "3 to 6 english words with hyphens", "desc": "وصف للبحث من 140 لـ 160 حرف", "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "سؤال", "a": "إجابة من المعلومات المتاحة بس"}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
+{{"title": "عنوان جذاب وصادق أقل من 65 حرف بدون اسم أي موقع", "kicker": "جملة قصيرة جدًا للصورة (3-5 كلمات) زي: كأس مصر · مواجهة تاريخية", "slug": "3 to 6 english words with hyphens", "desc": "وصف للبحث من 140 لـ 160 حرف", "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "سؤال", "a": "إجابة من المعلومات المتاحة بس"}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
 {extra}
 عنوان الخبر الأصلي: {title}
 
@@ -242,7 +242,7 @@ PROMPT = """أنت محرر رياضي في موقع ايجبتاوى المصر
 
 def check(art, src, tbl_text, existing):
     errs = []
-    full = " ".join([art.get("title", ""), art.get("body", ""), art.get("desc", "")] +
+    full = " ".join([art.get("title", ""), art.get("kicker", ""), art.get("body", ""), art.get("desc", "")] +
                     [f["q"] + " " + f["a"] for f in art.get("faq", [])])
     allowed = numbers(src) | numbers(tbl_text) | {str(datetime.date.today().year), str(datetime.date.today().year + 1)}
     bad = sorted(n for n in numbers(BeautifulSoup(full, "html.parser").get_text(" ")) if n not in allowed)
@@ -273,9 +273,56 @@ def check(art, src, tbl_text, existing):
     return errs
 
 
-def build_html(art, rows, img, related):
+CDN = "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/"
+try:
+    TEAM_LOGOS = json.load(open("logos.json", encoding="utf-8"))["logos"]
+except Exception:
+    TEAM_LOGOS = {}
+
+
+def story_teams(title, src):
+    """Up to 2 teams the story is about: names in the title first (in order), then the most mentioned in the text."""
+    nt, ns = norm(title), norm(src)
+    keys = [k for k in TEAM_LOGOS if len(norm(k)) > 2]
+    in_title = sorted((nt.find(norm(k)), k) for k in keys if norm(k) in nt)
+    picked = []
+    for _, k in in_title:
+        if not any(norm(k) in norm(p) or norm(p) in norm(k) for p in picked):
+            picked.append(k)
+    if len(picked) < 2:
+        counts = sorted(((ns.count(norm(k)), k) for k in keys if norm(k) in ns and k not in picked), reverse=True)
+        for n, k in counts:
+            if len(picked) >= 2 or (picked and n < 3):
+                break
+            if not any(norm(k) in norm(p) or norm(p) in norm(k) for p in picked):
+                picked.append(k)
+    return picked[:2]
+
+
+def team_images(art, rows, teams):
+    """Cover with the story's teams + (if any) a card for their next match. Files go to img/ and are served by jsDelivr."""
+    import cover
+    os.makedirs("img", exist_ok=True)
+    out = []
+    kicker = (art.get("kicker") or "أخبار الكورة").strip()[:40]
+    p = f"img/{art['slug']}.jpg"
+    if teams and cover.make_cover([(t, TEAM_LOGOS.get(t)) for t in teams], kicker, p):
+        out.append((CDN + p, "شعار " + " و".join(teams)))
+    nxt = next((m for m in rows if any(norm(t) in (norm(m["h"]), norm(m["a"])) for t in teams)), None) if teams else None
+    if nxt:
+        p2 = f"img/{art['slug']}-next.jpg"
+        k2 = f"الماتش الجاي · {nxt['d'][8:]}/{nxt['d'][5:7]} الساعة {nxt['t']}"
+        if cover.make_cover([(nxt["h"], TEAM_LOGOS.get(nxt["h"])), (nxt["a"], TEAM_LOGOS.get(nxt["a"]))], k2, p2):
+            out.append((CDN + p2, f"مباراة {nxt['h']} و{nxt['a']} يوم {nxt['d']}"))
+    return out
+
+
+def build_html(art, rows, img, related, team_imgs=()):
     e = html.escape
-    first = f'<img src="{PEX.format(i=img[0])}" alt="{e(img[1])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
+    if team_imgs:
+        first = f'<img src="{team_imgs[0][0]}" alt="{e(team_imgs[0][1])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
+    else:
+        first = f'<img src="{PEX.format(i=img[0])}" alt="{e(img[1])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
     tbl = ""
     if rows:
         trs = "".join(f"<tr><td>{e(m['d'][5:].replace('-', '/'))}</td><td>{e(m['t'])}</td><td>{e(m['h'])} × {e(m['a'])}</td>"
@@ -298,11 +345,16 @@ def build_html(art, rows, img, related):
              ".fbn-t th{background:#fff7ed}.fbn-btn{border:0;border-radius:999px;padding:7px 16px;margin:6px 0;font:inherit;font-weight:700;color:#fff;"
              "background:linear-gradient(135deg,#f59e0b,#ea580c);cursor:pointer}</style>")
     body = art["body"]
-    # second image after the second h2, lazy
-    img2 = random.choice([x for x in IMAGES if x != img])
-    second = f'<img src="{PEX.format(i=img2[0])}" alt="{e(img2[1])}" width="1000" height="563" loading="lazy" style="width:100%;height:auto;border-radius:12px">'
+    # second image after the second h2, lazy: the next-match card, or a generic photo when the story has no team
+    if len(team_imgs) > 1:
+        second = f'<img src="{team_imgs[1][0]}" alt="{e(team_imgs[1][1])}" width="1200" height="675" loading="lazy" style="width:100%;height:auto;border-radius:12px">'
+    elif team_imgs:
+        second = ""
+    else:
+        img2 = random.choice([x for x in IMAGES if x != img])
+        second = f'<img src="{PEX.format(i=img2[0])}" alt="{e(img2[1])}" width="1000" height="563" loading="lazy" style="width:100%;height:auto;border-radius:12px">'
     parts = body.split("<h2>")
-    if len(parts) > 2:
+    if second and len(parts) > 2:
         body = "<h2>".join(parts[:2]) + second + "<h2>" + "<h2>".join(parts[2:])
     return first + style + body + tbl + links + faq
 
@@ -390,7 +442,14 @@ def main():
         img = random.choice([x for x in IMAGES if x not in used_imgs])
         used_imgs.append(img)
         rel = next((p for p in posts if "أخبار الكورة" in p["l"] or "الدوري المصري" in p["l"]), None)
-        html_out = build_html(art, rows, img, rel)
+        teams = story_teams(c["t"] + " " + art["title"], src)
+        try:
+            timgs = team_images(art, rows, teams)
+        except Exception as ex:
+            print("  cover failed:", ex)
+            timgs = []
+        print("  teams:", teams, "| images:", len(timgs))
+        html_out = build_html(art, rows, img, rel, timgs)
         labels = ["أخبار الكورة"] + ([LABELS[c["s"]]] if c["s"] in LABELS else [])
         if DRY:
             os.makedirs("out", exist_ok=True)
