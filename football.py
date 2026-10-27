@@ -129,9 +129,35 @@ def team_matches(text, data):
     return rows[:6]
 
 
+_MODEL = None
+
+
+def pick_model(key):
+    """Newest available Flash model that supports generateContent (model names change over time)."""
+    global _MODEL
+    if _MODEL:
+        return _MODEL
+    if os.environ.get("GEMINI_MODEL"):
+        _MODEL = os.environ["GEMINI_MODEL"]
+        return _MODEL
+    r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", headers={"x-goog-api-key": key},
+                     params={"pageSize": 200}, timeout=30)
+    if r.status_code != 200:
+        sys.exit(f"Gemini key problem ({r.status_code}): {r.text[:200]}")
+    names = [m["name"].split("/", 1)[1] for m in r.json().get("models", [])
+             if "generateContent" in m.get("supportedGenerationMethods", [])]
+    flash = [n for n in names if re.fullmatch(r"gemini-[\d.]+-flash(-latest)?", n)]
+    def ver(n):
+        return tuple(int(x) for x in re.findall(r"\d+", n.split("-flash")[0]))
+    flash.sort(key=lambda n: (ver(n), n.endswith("latest")), reverse=True)
+    _MODEL = flash[0] if flash else ("gemini-flash-latest" if "gemini-flash-latest" in names else names[0])
+    print("Gemini model:", _MODEL)
+    return _MODEL
+
+
 def gemini(prompt):
     key = secret("GEMINI_API_KEY")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model(key)}:generateContent"
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.7, "responseMimeType": "application/json"}}
     for t in range(4):
@@ -139,7 +165,8 @@ def gemini(prompt):
         if r.status_code in (429, 500, 503):
             time.sleep(30 * (t + 1))
             continue
-        r.raise_for_status()
+        if r.status_code != 200:
+            sys.exit(f"Gemini error {r.status_code}: {r.text[:300]}")
         txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
         return json.loads(re.sub(r"^```(json)?|```$", "", txt.strip()))
     raise RuntimeError("Gemini unavailable")
