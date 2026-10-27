@@ -8,6 +8,9 @@ on:
       dry_run:
         description: "تجربة من غير إرسال (1 = تجربة)"
         default: "0"
+      force:
+        description: "إرسال للتجربة حتى في أوقات الهدوء (1 = أيوه)"
+        default: "0"
 
 permissions:
   contents: write
@@ -29,6 +32,7 @@ jobs:
       - run: python -u notify.py
         env:
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          FORCE: ${{ github.event.inputs.force || '0' }}
           ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
