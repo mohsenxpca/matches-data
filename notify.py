@@ -69,6 +69,19 @@ def telegram(p, dry):
     return r.ok
 
 
+def facebook(p, dry):
+    tok, page = f.secret("FB_PAGE_TOKEN"), f.secret("FB_PAGE_ID")
+    if dry or not tok or not page:
+        print("Facebook", "(dry)" if dry else "(no FB_PAGE_TOKEN/FB_PAGE_ID)", p["title"][:60])
+        return False
+    title = html.unescape(p["title"])
+    msg = f"{title}\n\n{snippet(p.get('content'), 220)}"
+    r = requests.post(f"https://graph.facebook.com/v21.0/{page}/feed", timeout=30,
+                      data={"message": msg, "link": p["url"].replace("http://", "https://"), "access_token": tok})
+    print("Facebook", r.status_code, r.text[:150] if not r.ok else title)
+    return r.ok
+
+
 def push(posts, state, now, key, dry, force):
     today = now.date().isoformat()
     if not key and not dry:
@@ -121,7 +134,7 @@ def main():
         state = json.load(open("notify_sent.json", encoding="utf-8"))
     except Exception:
         state = {}
-    for k in ("sent", "indexed", "tg"):
+    for k in ("sent", "indexed", "tg", "fb"):
         state.setdefault(k, [])
     now = datetime.datetime.now(f.CAIRO)
     tok = f.token()
@@ -139,9 +152,13 @@ def main():
         if telegram(p, dry):
             state["tg"].append(p["url"])
 
+    for p in [p for p in posts if p["url"] not in state["fb"]][:2]:
+        if facebook(p, dry):
+            state["fb"].append(p["url"])
+
     push(posts, state, now, f.secret("ONESIGNAL_API_KEY"), dry, force)
 
-    for k in ("sent", "indexed", "tg"):
+    for k in ("sent", "indexed", "tg", "fb"):
         state[k] = state[k][-400:]
     if not dry:
         json.dump(state, open("notify_sent.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
