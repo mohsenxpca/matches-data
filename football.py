@@ -161,7 +161,12 @@ def gemini(prompt):
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.7, "responseMimeType": "application/json"}}
     for t in range(4):
-        r = requests.post(url, headers={"x-goog-api-key": key}, json=body, timeout=180)
+        try:
+            r = requests.post(url, headers={"x-goog-api-key": key}, json=body, timeout=600)
+        except requests.exceptions.RequestException as e:
+            print("  Gemini slow/unreachable, retrying:", type(e).__name__)
+            time.sleep(20)
+            continue
         if r.status_code in (429, 500, 503):
             time.sleep(30 * (t + 1))
             continue
