@@ -58,7 +58,7 @@ def all_urls(tok):
 
 def path(u):
     p = urllib.parse.urlparse(u)
-    return p.path.rstrip("/")
+    return urllib.parse.unquote(p.path).rstrip("/")  # links written with %20 vs spaces must compare equal
 
 
 def img_ok(u):
