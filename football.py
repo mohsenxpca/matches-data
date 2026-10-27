@@ -209,7 +209,14 @@ def gemini(prompt):
         txt = "".join(parts).strip()
         print(f"  {model} wrote {len(txt)} chars in {int(time.time() - t0)}s (finish: {finish})")
         try:
-            return json.loads(re.sub(r"^```(json)?|```$", "", txt))
+            out = json.loads(re.sub(r"^```(json)?|```$", "", txt))
+            if isinstance(out, list):
+                out = out[0] if out and isinstance(out[0], dict) else {}
+            out["faq"] = [{"q": str(x.get("q") or x.get("question") or ""), "a": str(x.get("a") or x.get("answer") or "")}
+                          for x in (out.get("faq") or []) if isinstance(x, dict) and (x.get("q") or x.get("question")) and (x.get("a") or x.get("answer"))]
+            for k in ("title", "slug", "desc", "body", "kicker", "headline"):
+                out[k] = str(out.get(k) or "")
+            return out
         except ValueError:
             print("  Gemini returned broken JSON, retrying:", txt[:120].replace("\n", " "))
             continue
