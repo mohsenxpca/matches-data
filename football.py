@@ -413,7 +413,7 @@ def build_html(art, rows, img, related, team_imgs=()):
     parts = body.split("<h2>")
     if second and len(parts) > 2:
         body = "<h2>".join(parts[:2]) + second + "<h2>" + "<h2>".join(parts[2:])
-    return first + style + body + tbl + links + faq
+    return first + body + tbl + links + faq + style  # style last: Blogger builds the homepage snippet from the first text
 
 
 def schedule_times(n, taken):
