@@ -32,6 +32,8 @@ NAMES = {
  "النجم الساحلى":"النجم الساحلي",
 }
 
+DEFAULT_CHANNEL = {"الدوري المصري": "ON Sport"}
+
 def name(s):
     s = re.sub(r"[ـ‏‎]", "", s).strip().replace("نادى ", "نادي ")
     s = re.sub(r"\s+", " ", s)
@@ -98,6 +100,9 @@ def main():
             old[day] = [m for m in prev_list if (m["h"], m["a"]) not in keys] + ms
         changed.append(day)
     out = sorted((m for ms in old.values() for m in ms), key=lambda m: (m["d"], m["t"]))
+    for m in out:  # league's broadcaster when the channel isn't announced yet (Mohsen 2026-10-27)
+        if m.get("c") in (None, "", "-", "لم تُعلن") and m.get("l") in DEFAULT_CHANNEL:
+            m["c"] = DEFAULT_CHANNEL[m["l"]]
     if out == data["matches"]:
         print("no changes")
         return
