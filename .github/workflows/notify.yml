@@ -1,0 +1,45 @@
+name: إشعارات المقالات الجديدة
+
+on:
+  schedule:
+    - cron: "20,50 * * * *"   # كل نص ساعة؛ أقصى 6 إشعارات في اليوم وبينهم ساعة ونص، ومفيش إشعارات من 12 بالليل لـ 9 الصبح
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "تجربة من غير إرسال (1 = تجربة)"
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: push-notify
+  cancel-in-progress: false
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - run: python -u notify.py
+        env:
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name "matches-bot"
+          git config user.email "matches-bot@users.noreply.github.com"
+          git add notify_sent.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "push sent $(TZ=Africa/Cairo date +%F_%H:%M)"
+          git pull --rebase origin main
+          git push origin main
