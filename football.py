@@ -152,7 +152,8 @@ def models(key):
         return tuple(int(x) for x in re.findall(r"\d+", n.split("-flash")[0]))
     flash = sorted((n for n in names if re.fullmatch(r"gemini-[\d.]+-flash", n)), key=ver, reverse=True)
     lite = sorted((n for n in names if re.fullmatch(r"gemini-[\d.]+-flash-lite", n)), key=ver, reverse=True)
-    _MODELS = (flash[:3] + lite[:2]) or [n for n in names if "flash" in n][:3] or names[:1]
+    # the big Flash models were overloaded/silent for minutes on the free tier (2026-10-27); lite answers in seconds
+    _MODELS = (flash[:1] + lite[:1] + flash[1:2] + lite[1:2]) or [n for n in names if "flash" in n][:3] or names[:1]
     print("Gemini models to try:", _MODELS)
     return _MODELS
 
@@ -168,12 +169,12 @@ def gemini(prompt):
     plan = [m for m in models(key) for _ in range(2)]
     for t, model in enumerate(plan):
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:streamGenerateContent"
-        cfg = {"temperature": 0.7, "responseMimeType": "application/json", **_THINK}
+        cfg = {"temperature": 0.7, "responseMimeType": "application/json", "maxOutputTokens": 8192, **_THINK}
         body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}], "generationConfig": cfg}
         t0 = time.time()
         try:
             with requests.post(url, params={"alt": "sse"}, headers={"x-goog-api-key": key}, json=body,
-                               stream=True, timeout=(30, 180)) as r:
+                               stream=True, timeout=(30, 240)) as r:
                 if r.status_code == 400 and _THINK and "think" in r.text.lower():
                     _THINK = {}  # this model doesn't take thinkingLevel
                     continue
@@ -183,9 +184,12 @@ def gemini(prompt):
                     continue
                 if r.status_code != 200:
                     sys.exit(f"Gemini error {r.status_code}: {r.text[:300]}")
-                parts = []
-                for line in r.iter_lines(decode_unicode=True):
-                    if line and line.startswith("data:"):
+                parts, finish = [], ""
+                # bytes, split on \n only: decoding first (latin-1 by default) turns Arabic bytes like 0x85
+                # into line breaks and cuts the JSON chunks
+                for raw in r.iter_lines():
+                    line = raw.decode("utf-8", "replace") if raw else ""
+                    if line.startswith("data:"):
                         try:
                             d = json.loads(line[5:])
                         except ValueError:
@@ -193,6 +197,7 @@ def gemini(prompt):
                         if d.get("error"):
                             raise requests.exceptions.RequestException(str(d["error"])[:150])
                         for c in d.get("candidates", []):
+                            finish = c.get("finishReason") or finish
                             for p in c.get("content", {}).get("parts", []):
                                 if p.get("text") and not p.get("thought"):
                                     parts.append(p["text"])
@@ -201,11 +206,11 @@ def gemini(prompt):
             time.sleep(15)
             continue
         txt = "".join(parts).strip()
-        print(f"  {model} wrote {len(txt)} chars in {int(time.time() - t0)}s")
+        print(f"  {model} wrote {len(txt)} chars in {int(time.time() - t0)}s (finish: {finish})")
         try:
             return json.loads(re.sub(r"^```(json)?|```$", "", txt))
         except ValueError:
-            print("  Gemini returned broken JSON, retrying")
+            print("  Gemini returned broken JSON, retrying:", txt[:120].replace("\n", " "))
             continue
     raise RuntimeError("Gemini unavailable")
 
