@@ -2,15 +2,15 @@ name: أخبار الكورة على ايجبتاوى
 
 on:
   schedule:
-    - cron: "5 7 * * *"     # كل يوم الصبح (~9-10 بتوقيت القاهرة)، والنشر نفسه بيتجدول في مواعيد عشوائية من 11 لـ 11 بالليل
+    - cron: "5 7 * * *"→ Runs at 07:05     # كل يوم الصبح (~9-10 بتوقيت القاهرة)، والنشر نفسه بيتجدول في مواعيد عشوائية من 11 لـ 11 بالليل
   workflow_dispatch:
     inputs:
       count:
         description: "عدد الأخبار"
-        default: "2"
+        default: "4"
       day_cap:
         description: "أقصى عدد مقالات في اليوم على ايجبتاوى"
-        default: "10"
+        default: "18"
 
 permissions:
   contents: write
@@ -32,8 +32,8 @@ jobs:
       - run: python news.py || true
       - run: python -u football.py
         env:
-          COUNT: ${{ github.event.inputs.count || '2' }}
-          DAY_CAP: ${{ github.event.inputs.day_cap || '10' }}
+          COUNT: ${{ github.event.inputs.count || '4' }}
+          DAY_CAP: ${{ github.event.inputs.day_cap || '18' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
@@ -48,3 +48,4 @@ jobs:
           git commit -m "football posts $(TZ=Africa/Cairo date +%F_%H:%M)"
           git pull --rebase origin main
           git push origin main
+
