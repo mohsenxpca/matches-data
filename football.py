@@ -155,25 +155,49 @@ def pick_model(key):
     return _MODEL
 
 
+_THINK = {"thinkingConfig": {"thinkingLevel": "low"}}
+
+
 def gemini(prompt):
+    """Streams the answer (SSE) so long generations don't get their connection dropped."""
+    global _THINK
     key = secret("GEMINI_API_KEY")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model(key)}:generateContent"
-    body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": 0.7, "responseMimeType": "application/json"}}
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{pick_model(key)}:streamGenerateContent"
     for t in range(4):
+        cfg = {"temperature": 0.7, "responseMimeType": "application/json", **_THINK}
+        body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}], "generationConfig": cfg}
+        t0 = time.time()
         try:
-            r = requests.post(url, headers={"x-goog-api-key": key}, json=body, timeout=600)
+            with requests.post(url, params={"alt": "sse"}, headers={"x-goog-api-key": key}, json=body,
+                               stream=True, timeout=(30, 300)) as r:
+                if r.status_code == 400 and _THINK and "think" in r.text.lower():
+                    _THINK = {}  # this model doesn't take thinkingLevel
+                    continue
+                if r.status_code in (429, 500, 503):
+                    print("  Gemini busy", r.status_code)
+                    time.sleep(30 * (t + 1))
+                    continue
+                if r.status_code != 200:
+                    sys.exit(f"Gemini error {r.status_code}: {r.text[:300]}")
+                parts = []
+                for line in r.iter_lines(decode_unicode=True):
+                    if line and line.startswith("data:"):
+                        d = json.loads(line[5:])
+                        for c in d.get("candidates", []):
+                            for p in c.get("content", {}).get("parts", []):
+                                if p.get("text") and not p.get("thought"):
+                                    parts.append(p["text"])
         except requests.exceptions.RequestException as e:
-            print("  Gemini slow/unreachable, retrying:", type(e).__name__)
-            time.sleep(20)
+            print("  Gemini connection dropped, retrying:", type(e).__name__, f"after {int(time.time() - t0)}s")
+            time.sleep(15)
             continue
-        if r.status_code in (429, 500, 503):
-            time.sleep(30 * (t + 1))
+        txt = "".join(parts).strip()
+        print(f"  Gemini wrote {len(txt)} chars in {int(time.time() - t0)}s")
+        try:
+            return json.loads(re.sub(r"^```(json)?|```$", "", txt))
+        except ValueError:
+            print("  Gemini returned broken JSON, retrying")
             continue
-        if r.status_code != 200:
-            sys.exit(f"Gemini error {r.status_code}: {r.text[:300]}")
-        txt = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-        return json.loads(re.sub(r"^```(json)?|```$", "", txt.strip()))
     raise RuntimeError("Gemini unavailable")
 
 
