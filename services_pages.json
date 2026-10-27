@@ -14,5 +14,43 @@
  "weather": {
   "id": "1108997435733720934",
   "url": "https://www.egyptaway.com/p/weather-egypt.html"
+ },
+ "conv": {
+  "USD-100": {
+   "id": "4319116164906073250",
+   "url": "https://www.egyptaway.com/p/usd-100-to-egp.html"
+  },
+  "USD-1000": {
+   "id": "3678816830518429260",
+   "url": "https://www.egyptaway.com/p/usd-1000-to-egp.html"
+  },
+  "SAR-100": {
+   "id": "3799596131757133598",
+   "url": "https://www.egyptaway.com/p/sar-100-to-egp.html"
+  },
+  "SAR-1000": {
+   "id": "1528680127836854407",
+   "url": "https://www.egyptaway.com/p/sar-1000-to-egp.html"
+  },
+  "EUR-100": {
+   "id": "8909611171223828793",
+   "url": "https://www.egyptaway.com/p/eur-100-to-egp.html"
+  },
+  "AED-100": {
+   "id": "6575243020518793986",
+   "url": "https://www.egyptaway.com/p/aed-100-to-egp.html"
+  },
+  "AED-1000": {
+   "id": "482057260569504851",
+   "url": "https://www.egyptaway.com/p/aed-1000-to-egp.html"
+  },
+  "KWD-100": {
+   "id": "4613691318242819615",
+   "url": "https://www.egyptaway.com/p/kwd-100-to-egp.html"
+  },
+  "GBP-100": {
+   "id": "1023306226008435410",
+   "url": "https://www.egyptaway.com/p/gbp-100-to-egp.html"
+  }
  }
 }

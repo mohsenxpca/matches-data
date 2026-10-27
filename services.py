@@ -150,6 +150,7 @@ def currency(now, rates, prev):
 <p class="sv-note">الأسعار دي متوسط سعر الصرف العالمي، وأسعار البيع والشراء في البنوك وشركات الصرافة بتختلف عنها شوية حسب كل بنك.</p>
 <h2>إيه اللي بيأثر على سعر الدولار في مصر؟</h2>
 <p>سعر الصرف بيتأثر بحجم الطلب على الدولار في الاستيراد، وتحويلات المصريين في الخارج، وإيرادات السياحة وقناة السويس، وقرارات البنك المركزي في الفايدة. ولو بتحوّل فلوس أو بتشتري من برا، قارن سعر أكتر من بنك قبل ما تحوّل.</p>
+<h2>تحويلات شائعة</h2><div class="sv-links">{"".join(f'<a href="{SITE}/p/{c2.lower()}-{a2}-to-egp.html">{a2:,} {CUR_SHORT[c2]} كام جنيه</a>' for c2, a2 in CONV)}</div>
 {faq([("سعر الدولار النهارده كام في مصر؟", f"متوسط سعر الدولار النهارده {fmt(usd)} جنيه (آخر تحديث {stamp(now)})."),
       ("سعر الريال السعودي النهارده كام؟", f"الريال السعودي النهارده حوالي {fmt(rates.get('SAR', 0))} جنيه."),
       ("الأسعار بتتحدث إمتى؟", "الصفحة بتتحدث لوحدها كذا مرة في اليوم.")])}
@@ -256,13 +257,49 @@ def token():
     return r.json()["access_token"]
 
 
+# ---------------------------------------------------------------- conversion pages ("100 دولار كام جنيه")
+CONV = [("USD", 100), ("USD", 1000), ("SAR", 100), ("SAR", 1000), ("EUR", 100), ("AED", 100), ("AED", 1000), ("KWD", 100), ("GBP", 100)]
+CUR_NAME = {c: n for c, n, _ in CURR}
+CUR_SHORT = {"USD": "دولار", "SAR": "ريال سعودي", "EUR": "يورو", "AED": "درهم إماراتي", "KWD": "دينار كويتي", "GBP": "جنيه إسترليني"}
+
+
+def conv_key(c, a):
+    return f"{c}-{a}"
+
+
+def convert(now, rates, c, amount):
+    r = rates[c]
+    short = CUR_SHORT[c]
+    mult = [1, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000]
+    t1 = "".join(f"<tr{' class=on' if m == amount else ''}><td>{m:,} {short}</td><td data-cx='{m}'>{fmt(m * r)} جنيه</td></tr>" for m in mult)
+    egp = [100, 500, 1000, 5000, 10000, 50000, 100000]
+    t2 = "".join(f"<tr><td>{m:,} جنيه</td><td data-cr='{m}'>{fmt(m / r)} {short}</td></tr>" for m in egp)
+    others = "".join(f'<a href="{SITE}/p/{c2.lower()}-{a2}-to-egp.html">{a2:,} {CUR_SHORT[c2]}</a>' for c2, a2 in CONV if (c2, a2) != (c, amount))
+    body = f"""{CSS}<div class="sv">
+<div class="sv-hero">{amount:,} {short} كام جنيه مصري النهارده؟<br><b style="font-size:28px"><span data-cx="{amount}">{fmt(amount * r)} جنيه</span></b><br><small>سعر {E(CUR_NAME[c])} = <span data-fx="{c}" data-n="4">{r:.4f}</span> جنيه · السعر الرسمي · بيتحدث كل دقيقة · آخر تحديث <span id="sv-upd">{now:%H:%M}</span></small></div>
+<div class="sv-tool"><b>حوّل أي مبلغ:</b><br><input id="sv-a" type="number" value="{amount}" min="0"> {short} = <span class="out" id="sv-r"></span></div>
+<script>(function(){{var C='{c}',R0={r:.6f};function rate(){{return (window.__G&&window.__G.fx&&window.__G.fx[C])||R0}}function g(i){{return document.getElementById(i)}}function f(){{var r=rate(),a=parseFloat(g('sv-a').value)||0;g('sv-r').textContent=(a*r).toLocaleString('en-US',{{maximumFractionDigits:2}})+' جنيه';[].forEach.call(document.querySelectorAll('[data-cx]'),function(e){{e.textContent=(+e.getAttribute('data-cx')*r).toLocaleString('en-US',{{minimumFractionDigits:2,maximumFractionDigits:2}})+' جنيه'}});[].forEach.call(document.querySelectorAll('[data-cr]'),function(e){{e.textContent=(+e.getAttribute('data-cr')/r).toLocaleString('en-US',{{maximumFractionDigits:2}})+' {short}'}})}}g('sv-a').oninput=f;window.__onlive=f;f();}})();</script>
+{LIVE_JS}
+<h2>جدول تحويل {E(CUR_NAME[c])} للجنيه المصري</h2>
+<div class="sv-wrap"><table class="sv-t"><thead><tr><th>المبلغ</th><th>بالجنيه المصري</th></tr></thead><tbody>{t1}</tbody></table></div>
+<h2>الجنيه المصري كام {short}؟</h2>
+<div class="sv-wrap"><table class="sv-t"><thead><tr><th>بالجنيه</th><th>يساوي</th></tr></thead><tbody>{t2}</tbody></table></div>
+<p class="sv-note">الأسعار دي سعر الصرف الرسمي، وأسعار البنوك وشركات الصرافة ممكن تزيد أو تقل شوية حسب كل بنك.</p>
+<h2>تحويلات تانية</h2><div class="sv-links">{others}</div>
+{faq([(f"{amount:,} {short} كام جنيه مصري؟", f"{amount:,} {short} يساوي حوالي {fmt(amount * r)} جنيه مصري بسعر الصرف الرسمي النهارده."),
+      (f"سعر {CUR_NAME[c]} النهارده كام؟", f"{CUR_NAME[c]} النهارده حوالي {r:.2f} جنيه."),
+      ("السعر بيتحدث كل قد إيه؟", "الصفحة بتشيّك على السعر كل دقيقة وانت فاتحها.")])}
+{links("currency")}</div>"""
+    return body
+
+
 def build(keys):
     now = datetime.datetime.now(CAIRO)
     hist = json.load(open("services_history.json", encoding="utf-8")) if os.path.exists("services_history.json") else []
     yday = next((h for h in reversed(hist) if h["date"] < now.date().isoformat()), {})
     out, snap = {}, {"date": now.date().isoformat()}
     rates = None
-    if "currency" in keys or "gold" in keys:
+    if "currency" in keys or "gold" in keys or "convert" in keys:
         rates, _ = fx()
         snap["fx"] = {c: round(v, 4) for c, v in rates.items()}
     if "prayer" in keys:
@@ -275,13 +312,16 @@ def build(keys):
         snap.update(g)
     if "weather" in keys:
         out["weather"] = weather(now)
+    if "convert" in keys:
+        for c, a in CONV:
+            out[conv_key(c, a)] = convert(now, rates, c, a)
     hist = [h for h in hist if h["date"] != snap["date"]] + [{**next((h for h in hist if h["date"] == snap["date"]), {}), **snap}]
     json.dump(hist[-400:], open("services_history.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     return out
 
 
 def main():
-    keys = ["prayer", "currency", "gold", "weather"]
+    keys = ["prayer", "currency", "gold", "weather", "convert"]
     if "--only" in sys.argv:
         keys = sys.argv[sys.argv.index("--only") + 1].split(",")
     if "--html" in sys.argv:
@@ -291,7 +331,7 @@ def main():
     pages = build(keys)
     tok = token()
     for k, body in pages.items():
-        pid = PAGES.get(k, {}).get("id")
+        pid = (PAGES.get(k) or PAGES.get("conv", {}).get(k) or {}).get("id")
         if not pid:
             print("no page id for", k)
             continue
