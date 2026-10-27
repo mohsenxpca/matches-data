@@ -22,7 +22,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,7 +30,7 @@ jobs:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4
       - run: python news.py || true
-      - run: python football.py
+      - run: python -u football.py
         env:
           COUNT: ${{ github.event.inputs.count || '2' }}
           DAY_CAP: ${{ github.event.inputs.day_cap || '10' }}
