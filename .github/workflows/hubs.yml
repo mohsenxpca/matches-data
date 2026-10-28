@@ -1,0 +1,44 @@
+name: صفحات المرتبات والامتحانات والقطارات
+
+on:
+  schedule:
+    - cron: "40 3,9,15,21 * * *"   # كل 6 ساعات: الصفحات بتتكتب من جديد من آخر الأخبار
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "صفحة واحدة بس (salaries / exams / trains) أو فاضي للكل"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hubs
+  cancel-in-progress: false
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 lxml
+      - run: python -u hubs.py ${{ github.event.inputs.only && format('--only {0}', github.event.inputs.only) || '' }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: Commit page ids
+        if: always()
+        run: |
+          git config user.name "matches-bot"
+          git config user.email "matches-bot@users.noreply.github.com"
+          git add services_pages.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "hub pages $(TZ=Africa/Cairo date +%F_%H:%M)"
+          git pull --rebase origin main
+          git push origin main
