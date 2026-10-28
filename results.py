@@ -71,7 +71,7 @@ def main():
     if not cands:
         print("no finished big match to cover")
         return
-    tok = None if dry else f.token()
+    tok = f.token()  # the public feed is blocked for GitHub runners, so even a dry run reads posts via the API
     existing = [p["t"] for p in f.site_posts(tok)]
     taken = []
     if not dry:
