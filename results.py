@@ -97,10 +97,14 @@ def main():
                 break
             print("  retry:", errs)
             extra = "\nتصحيحات لازم تتعمل في النسخة دي: " + " | ".join(errs) + "\n"
-        state.setdefault("results", []).append(key)  # one try per match, even if skipped
+        tries = state.setdefault("tries", {})
+        tries[key] = tries.get(key, 0) + 1
         if errs:
-            print("RESULT SKIPPED", key, errs)
+            print("RESULT SKIPPED", key, errs, "| try", tries[key])
+            if tries[key] >= 3:  # give up after 3 runs (the writer model may just be busy for a while)
+                state.setdefault("results", []).append(key)
             continue
+        state.setdefault("results", []).append(key)
         rows = f.team_matches(m["h"] + " " + m["a"], data)
         try:
             timgs = f.team_images(art, rows, [m["h"], m["a"]])
@@ -118,6 +122,7 @@ def main():
             when += datetime.timedelta(minutes=25)
         existing.append(art["title"])
     state["results"] = state.get("results", [])[-300:]
+    state["tries"] = dict(list(state.get("tries", {}).items())[-100:])
     if not dry:
         json.dump(state, open("results_posted.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
