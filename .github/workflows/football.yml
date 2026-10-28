@@ -1,10 +1,10 @@
 name: أخبار الكورة على ايجبتاوى
 
+# بيتشغّل من Cloudflare (egyptaway-scheduler) مش من cron جيت هب (جيت هب كان بيأخره ساعات ويكرره):
+#   07:05 UTC الصبح: خبرين + مقالات «موعد المباراة» لماتشات بكرة الكبيرة
+#   كل ساعتين من 06 لـ 20 UTC: خبر عاجل واحد (fast=1)
 on:
-  schedule:
-    - cron: "5 7 * * *"        # الصبح: خبرين في مواعيد متفرقة + مقالات «موعد المباراة» لماتشات بكرة الكبيرة
-    - cron: "35 6-20/2 * * *"  # كل ساعتين (أخبار عاجلة): أحدث خبر ينزل خلال ساعة ونص
-  workflow_dispatch:            # كمان بيتشغّل من Cloudflare (egyptaway-scheduler) لو جيت هب فوّت الميعاد
+  workflow_dispatch:
     inputs:
       count:
         description: "عدد الأخبار"
@@ -36,9 +36,9 @@ jobs:
       - run: python news.py || true
       - run: python -u football.py
         env:
-          FAST: ${{ (github.event.schedule == '35 6-20/2 * * *' || github.event.inputs.fast == '1') && '1' || '0' }}
-          COUNT: ${{ (github.event.schedule == '35 6-20/2 * * *' || github.event.inputs.fast == '1') && '1' || github.event.inputs.count || '2' }}
-          PREVIEWS: ${{ (github.event.schedule == '35 6-20/2 * * *' || github.event.inputs.fast == '1') && '0' || '2' }}
+          FAST: ${{ github.event.inputs.fast == '1' && '1' || '0' }}
+          COUNT: ${{ github.event.inputs.fast == '1' && '1' || github.event.inputs.count || '2' }}
+          PREVIEWS: ${{ github.event.inputs.fast == '1' && '0' || '2' }}
           DAY_CAP: ${{ github.event.inputs.day_cap || '30' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
