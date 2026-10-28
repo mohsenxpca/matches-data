@@ -305,8 +305,9 @@ def match_facts(m, data):
     return "\n".join(lines)
 
 
-LENGTHEN_PROMPT = """المقال ده قصير ({words} كلمة) ومحتاج يبقى {target} كلمة على الأقل. طوّله بنفس الأسلوب والعناوين:
-- زوّد شرح وتفاصيل وفقرات جديدة من «المصادر» تحت بس، وممكن تضيف أقسام h2 جديدة زي: يعني إيه ده للقارئ، الخطوة الجاية، أسئلة الناس.
+LENGTHEN_PROMPT = """المقال ده قصير ({words} كلمة) ومحتاج يبقى حوالي {target} كلمة (مش أكتر من كده بكتير). طوّله بنفس الأسلوب والعناوين:
+- زوّد معلومات مفيدة جديدة من «المصادر» تحت بس (تفاصيل، مواعيد، خطوات، معنى الخبر للقارئ)، وممكن قسم h2 واحد أو اتنين جداد.
+- ممنوع الحشو والتكرار والجمل العامة اللي ملهاش لازمة: كل فقرة لازم فيها معلومة. خليه سهل القراية وفقرات قصيرة.
 - ممنوع تخترع أي رقم أو تاريخ أو اسم أو تصريح مش موجود في المصادر. اكتب الأرقام بالأرقام. ممنوع اسم أي موقع.
 - رجّع المقال كامل بعد التطويل (مش الإضافة بس).
 
@@ -327,7 +328,7 @@ def lengthen(art, src, min_words):
     if not art.get("body") or words >= min_words + 50 or words < 80:
         return
     try:
-        out = gemini(LENGTHEN_PROMPT.format(words=words, target=min_words + 100, body=art["body"], src=src[:9000]))
+        out = gemini(LENGTHEN_PROMPT.format(words=words, target=min_words + 70, body=art["body"], src=src[:9000]))
     except Exception as e:
         print("  lengthen failed:", e)
         return
