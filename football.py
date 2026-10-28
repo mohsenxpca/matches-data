@@ -305,7 +305,41 @@ def match_facts(m, data):
     return "\n".join(lines)
 
 
+LENGTHEN_PROMPT = """المقال ده قصير ({words} كلمة) ومحتاج يبقى {target} كلمة على الأقل. طوّله بنفس الأسلوب والعناوين:
+- زوّد شرح وتفاصيل وفقرات جديدة من «المصادر» تحت بس، وممكن تضيف أقسام h2 جديدة زي: يعني إيه ده للقارئ، الخطوة الجاية، أسئلة الناس.
+- ممنوع تخترع أي رقم أو تاريخ أو اسم أو تصريح مش موجود في المصادر. اكتب الأرقام بالأرقام. ممنوع اسم أي موقع.
+- رجّع المقال كامل بعد التطويل (مش الإضافة بس).
+
+رجّع JSON بالشكل ده بالظبط: {{"body": "<h2>..</h2><p>..</p>..."}}
+
+المقال الحالي:
+{body}
+
+المصادر:
+{src}
+"""
+
+
+def lengthen(art, src, min_words):
+    """Second pass when the writer (often the lite model when Flash is busy) came back too short: ask it to expand the
+    same article from the same sources. Updates art['body'] in place; the normal checks still run on the result."""
+    words = len(BeautifulSoup(art.get("body", ""), "html.parser").get_text(" ").split())
+    if not art.get("body") or words >= min_words + 50 or words < 80:
+        return
+    try:
+        out = gemini(LENGTHEN_PROMPT.format(words=words, target=min_words + 100, body=art["body"], src=src[:9000]))
+    except Exception as e:
+        print("  lengthen failed:", e)
+        return
+    new = out.get("body") or ""
+    n2 = len(BeautifulSoup(new, "html.parser").get_text(" ").split())
+    print(f"  lengthened {words} -> {n2} words")
+    if n2 > words:
+        art["body"] = new
+
+
 def check(art, src, tbl_text, existing, min_words=700):
+    lengthen(art, src + "\n" + (tbl_text or ""), min_words)
     errs = []
     full = " ".join([art.get("title", ""), art.get("kicker", ""), art.get("body", ""), art.get("desc", "")] +
                     [f["q"] + " " + f["a"] for f in art.get("faq", [])])
