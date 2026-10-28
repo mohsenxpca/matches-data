@@ -77,9 +77,17 @@ def token():
     return r.json()["access_token"]
 
 
+_FRESH = {}  # access tokens last ~1 hour; long runs (slow Gemini) get a new one transparently
+
+
 def api(method, path, tok, params=None, body=None):
-    r = requests.request(method, "https://www.googleapis.com/blogger/v3" + path, params=params, json=body,
-                         headers={"Authorization": "Bearer " + tok}, timeout=60)
+    def call(t):
+        return requests.request(method, "https://www.googleapis.com/blogger/v3" + path, params=params, json=body,
+                                headers={"Authorization": "Bearer " + t}, timeout=60)
+    r = call(_FRESH.get(tok, tok))
+    if r.status_code == 401:
+        _FRESH[tok] = token()
+        r = call(_FRESH[tok])
     if r.status_code >= 400:
         raise RuntimeError(f"Blogger {r.status_code}: {r.text[:300]}")
     return r.json() if r.text else {}
