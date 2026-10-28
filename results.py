@@ -88,6 +88,8 @@ def main():
             return
     when = now + datetime.timedelta(minutes=3)
     for key, m in cands:
+        if f._DOWN:
+            break
         facts = f.match_facts(m, data) + f"\nالنتيجة النهائية: {m['h']} {m['s']} {m['a']}" + \
             f"\nالماتش الجاي لـ {m['h']}: {next_match(m['h'], data, m['d'])}\nالماتش الجاي لـ {m['a']}: {next_match(m['a'], data, m['d'])}"
         extra, art, errs = "", None, ["no draft"]

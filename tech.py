@@ -149,6 +149,8 @@ def main():
     made = 0
     os.makedirs("img", exist_ok=True)
     for c in candidates(done):
+        if f._DOWN:
+            break
         if made >= len(times):
             break
         try:

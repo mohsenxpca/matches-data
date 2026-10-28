@@ -201,7 +201,8 @@ def gemini(prompt):
                     time.sleep(20)
                     continue
                 if r.status_code != 200:
-                    sys.exit(f"Gemini error {r.status_code}: {r.text[:300]}")
+                    print(f"  {model} error {r.status_code}: {r.text[:200]}")
+                    continue
                 parts, finish = [], ""
                 # bytes, split on \n only: decoding first (latin-1 by default) turns Arabic bytes like 0x85
                 # into line breaks and cuts the JSON chunks
@@ -237,7 +238,15 @@ def gemini(prompt):
         except ValueError:
             print("  Gemini returned broken JSON, retrying:", txt[:120].replace("\n", " "))
             continue
-    raise RuntimeError("Gemini unavailable")
+    # every model is down or out of quota: don't crash the job (and email Mohsen); callers see an empty draft that
+    # fails the checks, and their loops stop on _DOWN so the next scheduled run simply tries again
+    global _DOWN
+    _DOWN = True
+    print("Gemini unavailable right now - skipping, the next run will try again")
+    return {"title": "", "slug": "", "desc": "", "body": "", "kicker": "", "headline": "", "faq": []}
+
+
+_DOWN = False
 
 
 PROMPT = """أنت محرر رياضي في موقع ايجبتاوى المصري. اكتب خبر كرة قدم أصلي بالكامل بأسلوبنا عن الموضوع ده.
@@ -542,6 +551,8 @@ def main():
     made = 0
     used_imgs = []
     for c in cands:
+        if _DOWN:
+            break
         if made >= n_target:
             break
         if any(difflib.SequenceMatcher(None, norm(c["t"]), norm(d.get("t", ""))).ratio() > 0.6 for d in state["done"][-60:]):
@@ -613,6 +624,8 @@ def make_previews(previews, data, existing, state, tok, times, today):
     """'Match time and channel' articles for tomorrow's big matches."""
     made = 0
     for (key, m), when in zip(previews, times or [None] * len(previews)):
+        if _DOWN:
+            break
         facts = match_facts(m, data)
         extra, art, errs = "", None, ["no draft"]
         for attempt in range(2):

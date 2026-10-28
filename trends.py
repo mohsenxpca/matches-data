@@ -105,6 +105,8 @@ def main():
         when += datetime.timedelta(minutes=15)
     when = when.replace(second=0, microsecond=0)
     for c in cands[:3]:
+        if f._DOWN:
+            break
         parts = []
         for u, t in c["news"][:3]:
             try:

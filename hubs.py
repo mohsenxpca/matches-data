@@ -142,6 +142,8 @@ def main():
     existing = [p["t"] for p in f.site_posts(tok)]
     ids = S.PAGES.get("hubs", {})
     for topic in only:
+        if f._DOWN:
+            break
         res = build(topic, existing)
         if not res:
             continue
