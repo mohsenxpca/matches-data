@@ -21,7 +21,8 @@ CAIRO = ZoneInfo("Africa/Cairo")
 HEAD = {"User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Mobile Safari/537.36",
         "Accept-Language": "ar,en;q=0.8"}
 COUNT = int(os.environ.get("COUNT", "2"))
-PREVIEWS = int(os.environ.get("PREVIEWS") or 2)  # 'match time & channel' articles for tomorrow's big matches
+PREVIEWS = int(os.environ.get("PREVIEWS") if os.environ.get("PREVIEWS") is not None else 2)  # 'match time & channel' articles for tomorrow's big matches
+FAST = os.environ.get("FAST") == "1"  # breaking-news run (every 2h): newest story first, published within the next ~1.5h
 DRY = os.environ.get("DRY_RUN") == "1"
 DAY_CAP = int(os.environ.get("DAY_CAP") or 10)  # same cap as blogger_api.py on Mohsen's PC; a manual run can raise it
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
@@ -428,13 +429,18 @@ def schedule_times(n, taken):
     now = datetime.datetime.now(CAIRO)
     start = max(now + datetime.timedelta(minutes=20), now.replace(hour=11, minute=0, second=0, microsecond=0))
     end = now.replace(hour=23, minute=0, second=0, microsecond=0)
+    gap_out, gap_taken = 9000, 2700
+    if FAST:
+        start = max(now + datetime.timedelta(minutes=10), now.replace(hour=9, minute=0, second=0, microsecond=0))
+        end = min(now + datetime.timedelta(minutes=100), now.replace(hour=23, minute=30, second=0, microsecond=0))
+        gap_out, gap_taken = 2700, 1500
     out = []
     for _ in range(400):
         if len(out) == n or start >= end:
             break
         t = start + datetime.timedelta(seconds=random.randint(0, int((end - start).total_seconds())))
         t = t.replace(second=0, microsecond=0)
-        if all(abs((t - x).total_seconds()) >= 9000 for x in out) and all(abs((t - x).total_seconds()) >= 2700 for x in taken):
+        if all(abs((t - x).total_seconds()) >= gap_out for x in out) and all(abs((t - x).total_seconds()) >= gap_taken for x in taken):
             out.append(t)
     return sorted(out)
 
@@ -473,7 +479,9 @@ def main():
 
     previews = preview_candidates(data, set(state.get("previews", [])))[:max(0, min(PREVIEWS, room - n_target))]
     cands = [x for x in news if x["id"] not in done_ids and x["s"] in PRIORITY]
-    cands.sort(key=lambda x: (PRIORITY.index(x["s"]), -x["id"]))
+    cands.sort(key=lambda x: (-x["id"],) if FAST else (PRIORITY.index(x["s"]), -x["id"]))
+    if FAST:  # breaking mode: only stories from the latest news batch
+        cands = cands[:15]
     times = [] if DRY else schedule_times(n_target + len(previews), taken)
     if not DRY and len(times) < n_target + len(previews):
         n_target = max(0, len(times) - len(previews))
