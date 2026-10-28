@@ -170,8 +170,13 @@ def models(key):
         return tuple(int(x) for x in re.findall(r"\d+", n.split("-flash")[0]))
     flash = sorted((n for n in names if re.fullmatch(r"gemini-[\d.]+-flash", n)), key=ver, reverse=True)
     lite = sorted((n for n in names if re.fullmatch(r"gemini-[\d.]+-flash-lite", n)), key=ver, reverse=True)
-    # the big Flash models were overloaded/silent for minutes on the free tier (2026-10-27); lite answers in seconds
-    _MODELS = (flash[:1] + lite[:1] + flash[1:2] + lite[1:2]) or [n for n in names if "flash" in n][:3] or names[:1]
+    # Mohsen 2026-10-28: paid key on a ~$3/month budget -> Flash-Lite only (cheap; the lengthen pass makes up for
+    # shorter drafts). Set GEMINI_TIER=flash in a workflow to put the bigger Flash models back first.
+    if os.environ.get("GEMINI_TIER") == "flash":
+        _MODELS = flash[:1] + lite[:1] + flash[1:2] + lite[1:2]
+    else:
+        _MODELS = lite[:2]
+    _MODELS = _MODELS or [n for n in names if "flash" in n][:3] or names[:1]
     print("Gemini models to try:", _MODELS)
     return _MODELS
 
