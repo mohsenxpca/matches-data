@@ -1,4 +1,4 @@
-name: صفحات الخدمات (الصلاة والعملات والذهب والطقس + الخليج)
+name: صفحات الخدمات (الصلاة والعملات والذهب والطقس + الخليج + المواسم)
 
 on:
   schedule:
@@ -29,6 +29,13 @@ jobs:
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
       - run: python -u gulf.py
+        if: always()
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - run: python -u seasonal.py
+        if: always() && github.event.schedule == '7 21 * * *'
         env:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
