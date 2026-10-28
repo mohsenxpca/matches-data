@@ -90,5 +90,15 @@
    "id": "8207214978917734783",
    "url": "https://www.egyptaway.com/p/currency-kw.html"
   }
+ },
+ "seasonal": {
+  "holidays": {
+   "id": "5782699490327690933",
+   "url": "https://www.egyptaway.com/p/official-holidays-egypt.html"
+  },
+  "imsakia": {
+   "id": "8314579314206841592",
+   "url": "https://www.egyptaway.com/p/ramadan-imsakia-egypt.html"
+  }
  }
 }
