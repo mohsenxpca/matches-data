@@ -43,6 +43,19 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/10/winter-hours-restaurants-shops-egypt.html",
    "title": "مواعيد غلق المطاعم والمحلات مع تطبيق التوقيت الشتوي في مصر"
+  },
+  {
+   "q": "harleen deol",
+   "at": "2026-10-28",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "عداد كهرباء",
+   "at": "2026-10-28",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/10/electricity-meters-update-2026.html",
+   "title": "تطورات عدادات الكهرباء وأسعار التركيب"
   }
  ]
 }
