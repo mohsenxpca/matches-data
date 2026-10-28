@@ -1,3 +1,86 @@
 {
- "done": []
+ "done": [
+  {
+   "u": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+   "t": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+   "at": "2026-10-28",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/10/openai-gpt-6-1-terra-safety-tests.html",
+   "title": "OpenAI تكشف نتائج أمان نموذج GPT-6.1 Terra الجديد"
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+   "t": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+   "at": "2026-10-28",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/",
+   "t": "Apple rolls out iOS 27.2 with new Siri AI languages and security fixes",
+   "at": "2026-10-28",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+   "t": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+   "at": "2026-10-28",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+   "t": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+   "at": "2026-10-28",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+   "t": "Former pentester used ARTEX AI to steal 8.2 million data records",
+   "at": "2026-10-28",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+   "t": "Warp discloses breach exposing AI agent logs, user telemetry data",
+   "at": "2026-10-28",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+   "t": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+   "at": "2026-10-28",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+   "t": "VisionQuest is what happens when AI really goes rogue",
+   "at": "2026-10-28",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+   "t": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+   "at": "2026-10-28",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+   "t": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+   "at": "2026-10-28",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+   "t": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+   "at": "2026-10-28",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/android-launcher-nobody-talks-about-that-actually-beats-the-giants/",
+   "t": "The Android launcher nobody talks about that actually beats the giants",
+   "at": "2026-10-28",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/10/smart-launcher-android-review.html",
+   "title": "مشكلة الـ Launcher في أندرويد والحل هنا"
+  }
+ ]
 }
