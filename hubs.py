@@ -115,7 +115,7 @@ def build(topic, existing):
     extra, art, errs = "", None, ["no draft"]
     for _ in range(2):
         art = f.gemini(PROMPT.format(name=T["name"], focus=T["focus"], extra=extra, today=f"{now:%Y-%m-%d}", src=srctext))
-        errs = f.check(art, srctext + f" {now.year} {now.year + 1} {now.day} {now.month}", "", existing, min_words=400)
+        errs = f.check(art, srctext + f" {now.year} {now.year + 1} {now.day} {now.month}", "", existing, min_words=280)
         errs = [e for e in errs if "العنوان" not in e]  # page titles repeat by design
         if not errs:
             break

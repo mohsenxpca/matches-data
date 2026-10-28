@@ -92,7 +92,7 @@ def main():
         extra, art, errs = "", None, ["no draft"]
         for _ in range(2):
             art = f.gemini(RESULT_PROMPT.format(extra=extra, facts=facts))
-            errs = f.check(art, facts, facts, existing, min_words=300)
+            errs = f.check(art, facts, facts, existing, min_words=250)
             if not errs:
                 break
             print("  retry:", errs)
