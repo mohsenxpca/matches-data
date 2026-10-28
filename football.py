@@ -82,8 +82,16 @@ _FRESH = {}  # access tokens last ~1 hour; long runs (slow Gemini) get a new one
 
 def api(method, path, tok, params=None, body=None):
     def call(t):
-        return requests.request(method, "https://www.googleapis.com/blogger/v3" + path, params=params, json=body,
-                                headers={"Authorization": "Bearer " + t}, timeout=60)
+        for i in range(3):  # network hiccups / Blogger 5xx: retry instead of failing the whole run
+            try:
+                r = requests.request(method, "https://www.googleapis.com/blogger/v3" + path, params=params, json=body,
+                                     headers={"Authorization": "Bearer " + t}, timeout=60)
+                if r.status_code < 500 or i == 2 or method == "POST":  # a POST may have gone through: never repeat it
+                    return r
+            except requests.ConnectionError:  # nothing was sent, safe to retry any method
+                if i == 2:
+                    raise
+            time.sleep(10 * (i + 1))
     r = call(_FRESH.get(tok, tok))
     if r.status_code == 401:
         _FRESH[tok] = token()
