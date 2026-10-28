@@ -602,7 +602,7 @@ def main():
         else:
             when = times[made]
             d = api("POST", f"/blogs/{BLOG}/posts", tok, {"isDraft": "true"},
-                    {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": html_out, "labels": labels})
+                    {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": with_desc(html_out, art), "labels": labels})
             api("POST", f"/blogs/{BLOG}/posts/{d['id']}/publish", tok, {"publishDate": when.isoformat()})
             api("PATCH", f"/blogs/{BLOG}/posts/{d['id']}", tok, None, {"title": art["title"]})
             fin = api("GET", f"/blogs/{BLOG}/posts/{d['id']}", tok, {"view": "ADMIN"})
@@ -616,10 +616,17 @@ def main():
     print(f"done: {made} news post(s), {made_prev} match preview(s)")
 
 
+def with_desc(html_out, art):
+    """Blogger's API can't set the post's search description, so we tuck it into the post as a hidden span; the
+    theme block <!-- ea meta description --> copies it into the page's meta description."""
+    d = (art.get("desc") or "").strip()
+    return html_out + (f'<span class="ea-desc" hidden>{html.escape(d)}</span>' if d else "")
+
+
 def schedule(tok, art, html_out, labels, when):
     """Draft with the slug as title (Blogger builds the URL from it), schedule, then set the Arabic title."""
     d = api("POST", f"/blogs/{BLOG}/posts", tok, {"isDraft": "true"},
-            {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": html_out, "labels": labels})
+            {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": with_desc(html_out, art), "labels": labels})
     api("POST", f"/blogs/{BLOG}/posts/{d['id']}/publish", tok, {"publishDate": when.isoformat()})
     api("PATCH", f"/blogs/{BLOG}/posts/{d['id']}", tok, None, {"title": art["title"]})
     return api("GET", f"/blogs/{BLOG}/posts/{d['id']}", tok, {"view": "ADMIN"})
