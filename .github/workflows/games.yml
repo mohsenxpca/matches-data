@@ -1,8 +1,7 @@
 name: أخبار الألعاب والعروض على ايجبتاوى
 
+# بيتشغّل كل يوم 09:40 UTC من Cloudflare (egyptaway-scheduler) مش من cron جيت هب، علشان جيت هب كان بيأخره ساعات ويكرره
 on:
-  schedule:
-    - cron: "40 9 * * *"     # كل يوم (~12 الظهر بتوقيت القاهرة): 3 أخبار ألعاب + عرض لعبة مجانية، بتتجدول في مواعيد متفرقة
   workflow_dispatch:
     inputs:
       count:
@@ -10,7 +9,7 @@ on:
         default: "3"
       day_cap:
         description: "أقصى عدد مقالات في اليوم على ايجبتاوى"
-        default: "24"
+        default: "30"
 
 permissions:
   contents: write
@@ -33,7 +32,7 @@ jobs:
         env:
           PROFILE: games
           COUNT: ${{ github.event.inputs.count || '3' }}
-          DAY_CAP: ${{ github.event.inputs.day_cap || '24' }}
+          DAY_CAP: ${{ github.event.inputs.day_cap || '30' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
@@ -43,7 +42,7 @@ jobs:
         env:
           PROFILE: deals
           COUNT: "1"
-          DAY_CAP: ${{ github.event.inputs.day_cap || '24' }}
+          DAY_CAP: ${{ github.event.inputs.day_cap || '30' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
