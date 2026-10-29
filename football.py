@@ -10,10 +10,11 @@ Runs daily on GitHub Actions (.github/workflows/football.yml):
 Secrets: GEMINI_API_KEY, BLOGGER_CLIENT_ID, BLOGGER_CLIENT_SECRET, BLOGGER_REFRESH_TOKEN.
 Env: COUNT (posts per run, default 2), DRY_RUN=1 (write files to out/ instead of publishing).
 """
-import datetime, difflib, html, json, os, random, re, sys, time, urllib.parse
+import datetime, difflib, html, io, json, os, random, re, sys, time, urllib.parse
 from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
+from PIL import Image, ImageDraw, ImageFilter
 
 BLOG = "8325646053257070334"
 SITE = "https://www.egyptaway.com"
@@ -405,7 +406,8 @@ def check(art, src, tbl_text, existing, min_words=700):
 
 CDN = "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/"
 try:
-    TEAM_LOGOS = json.load(open("logos.json", encoding="utf-8"))["logos"]
+    _logos_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logos.json")
+    TEAM_LOGOS = json.load(open(_logos_path, encoding="utf-8"))["logos"]
 except Exception:
     TEAM_LOGOS = {}
 
@@ -429,8 +431,109 @@ def story_teams(title, src):
     return picked[:2]
 
 
+def make_player_action_shot(img_url, out_path, team_logo_url=None):
+    """Downloads player shot, flips horizontally (mirror) + slight angle tilt & crop, overlays club badge."""
+    try:
+        try_urls = [img_url.replace('/thumb/', '/original/'), img_url.replace('/thumb/', '/large/'), img_url]
+        im = None
+        for u in try_urls:
+            try:
+                r = requests.get(u, timeout=12, headers=HEAD)
+                if r.status_code == 200 and len(r.content) > 1000:
+                    im = Image.open(io.BytesIO(r.content)).convert('RGBA')
+                    break
+            except Exception:
+                continue
+        if not im:
+            return False
+
+        # 1. Flip horizontally (عكس كالمرآة)
+        im = im.transpose(Image.FLIP_LEFT_RIGHT)
+
+        # 2. Slight angle rotation (تغيير زاوية) + crop to avoid black edges
+        angle = random.choice([-1.2, 1.2])
+        rot = im.rotate(angle, resample=Image.BICUBIC)
+        w, h = rot.size
+        mx, my = int(w * 0.025), int(h * 0.025)
+        cropped = rot.crop((mx, my, w - mx, h - my)).resize((1000, 563), Image.LANCZOS)
+
+        # 3. Optional: Club logo badge in top corner
+        if team_logo_url:
+            try:
+                lr = requests.get(team_logo_url, timeout=10, headers=HEAD)
+                if lr.status_code == 200:
+                    lg = Image.open(io.BytesIO(lr.content)).convert('RGBA')
+                    lg.thumbnail((110, 110), Image.LANCZOS)
+                    badge = Image.new('RGBA', (130, 130), (0, 0, 0, 0))
+                    bd = ImageDraw.Draw(badge)
+                    bd.ellipse((0, 0, 129, 129), fill=(255, 255, 255, 235), outline=(245, 158, 11, 255), width=3)
+                    bx = (130 - lg.width) // 2
+                    by = (130 - lg.height) // 2
+                    badge.alpha_composite(lg, (bx, by))
+                    cropped.alpha_composite(badge, (850, 20))
+            except Exception:
+                pass
+
+        os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
+        cropped.convert('RGB').save(out_path, 'JPEG', quality=88, optimize=True)
+        return True
+    except Exception as ex:
+        print('  make_player_action_shot failed:', ex)
+        return False
+
+
+def make_club_logo_cover(teams, bg_img_url, out_path):
+    """Draws clean club logo(s) on a real stadium background without redundant text overlays."""
+    try:
+        r = requests.get(bg_img_url, timeout=15, headers=HEAD)
+        if r.status_code != 200:
+            return False
+        bg = Image.open(io.BytesIO(r.content)).convert('RGBA').resize((1000, 563), Image.LANCZOS)
+        blur = bg.filter(ImageFilter.GaussianBlur(3))
+        dark = Image.new('RGBA', (1000, 563), (20, 28, 45, 130))
+        bg = Image.alpha_composite(blur, dark)
+
+        def fetch_logo(u, size=150):
+            lr = requests.get(u, timeout=10, headers=HEAD)
+            im = Image.open(io.BytesIO(lr.content)).convert('RGBA')
+            im.thumbnail((size, size), Image.LANCZOS)
+            return im
+
+        d = ImageDraw.Draw(bg)
+        cy = 281
+        valid_teams = [t for t in teams if t and t[1]]
+        if len(valid_teams) >= 2:
+            xs = [710, 290]  # RTL: right is first team
+            for (name, u), x in zip(valid_teams[:2], xs):
+                r_disc = 95
+                d.ellipse((x - r_disc, cy - r_disc, x + r_disc, cy + r_disc), fill=(255, 255, 255, 240), outline=(245, 158, 11), width=4)
+                lg = fetch_logo(u, 140)
+                bg.alpha_composite(lg, (x - lg.width // 2, cy - lg.height // 2))
+            d.ellipse((500 - 36, cy - 36, 500 + 36, cy + 36), fill=(245, 158, 11), outline=(255, 255, 255), width=3)
+            try:
+                import cover
+                f = cover.font(36, "Black")
+                d.text((500, cy), "VS", font=f, fill=(31, 42, 68), anchor="mm")
+            except Exception:
+                d.text((500, cy), "VS", fill=(31, 42, 68), anchor="mm")
+        elif len(valid_teams) == 1:
+            name, u = valid_teams[0]
+            r_disc = 115
+            d.ellipse((500 - r_disc, cy - r_disc, 500 + r_disc, cy + r_disc), fill=(255, 255, 255, 245), outline=(245, 158, 11), width=4)
+            lg = fetch_logo(u, 170)
+            bg.alpha_composite(lg, (500 - lg.width // 2, cy - lg.height // 2))
+        else:
+            return False
+
+        os.makedirs(os.path.dirname(os.path.abspath(out_path)), exist_ok=True)
+        bg.convert('RGB').save(out_path, 'JPEG', quality=88, optimize=True)
+        return True
+    except Exception as ex:
+        print('  make_club_logo_cover failed:', ex)
+        return False
+
+
 def team_images(art, rows, teams):
-    """Real authentic photography mode (Mohsen request 2026-10-29): synthetic covers disabled."""
     return []
 
 
@@ -576,13 +679,28 @@ def main():
         used_imgs.append(img)
         rel = next((p for p in posts if "أخبار الكورة" in p["l"] or "الدوري المصري" in p["l"]), None)
         teams = story_teams(c["t"] + " " + art["title"], src)
-        real_img = None
+        p = f"img/{art['slug']}.jpg"
         raw_i = (c.get("i") or "").strip()
+        first_logo = TEAM_LOGOS.get(teams[0]) if teams else None
+        lead_img_url = None
+
+        # 1. First priority: Real player action shot (mirrored + angle tilt)
         if raw_i and raw_i.startswith("http"):
-            clean_i = raw_i.replace("/thumb/", "/")
-            real_img = f"https://wsrv.nl/?url={urllib.parse.quote(clean_i)}&w=1000&output=webp&q=80"
-        print("  teams:", teams, "| real_img:", bool(real_img))
-        html_out = build_html(art, rows, img, rel, (), real_img_url=real_img)
+            if make_player_action_shot(raw_i, p, first_logo):
+                lead_img_url = CDN + p
+
+        # 2. Second priority: Club logo on stadium background
+        if not lead_img_url and teams:
+            team_tuples = [(t, TEAM_LOGOS.get(t)) for t in teams if TEAM_LOGOS.get(t)]
+            if team_tuples and make_club_logo_cover(team_tuples, PEX.format(i=img[0]), p):
+                lead_img_url = CDN + p
+
+        # 3. Third priority: Clean Pexels stadium photo
+        if not lead_img_url:
+            lead_img_url = PEX.format(i=img[0])
+
+        print("  teams:", teams, "| lead_img:", lead_img_url[:60])
+        html_out = build_html(art, rows, img, rel, (), real_img_url=lead_img_url)
         labels = ["أخبار الكورة"] + ([LABELS[c["s"]]] if c["s"] in LABELS else [])
         if DRY:
             os.makedirs("out", exist_ok=True)
@@ -641,7 +759,15 @@ def make_previews(previews, data, existing, state, tok, times, today):
             continue
         state.setdefault("previews", []).append(key)
         rows = team_matches(m["h"] + " " + m["a"], data)
-        html_out = build_html(art, rows, random.choice(IMAGES), None, ())
+        p = f"img/{art['slug']}.jpg"
+        team_tuples = [(m["h"], TEAM_LOGOS.get(m["h"])), (m["a"], TEAM_LOGOS.get(m["a"]))]
+        bg_url = PEX.format(i=random.choice(IMAGES)[0])
+        lead_img_url = None
+        if make_club_logo_cover(team_tuples, bg_url, p):
+            lead_img_url = CDN + p
+        else:
+            lead_img_url = bg_url
+        html_out = build_html(art, rows, random.choice(IMAGES), None, (), real_img_url=lead_img_url)
         labels = ["أخبار الكورة", "مواعيد المباريات"] + (["الدوري المصري"] if m["l"] == "الدوري المصري" else [])
         if DRY:
             os.makedirs("out", exist_ok=True)

@@ -109,7 +109,15 @@ def main():
             continue
         state.setdefault("results", []).append(key)
         rows = f.team_matches(m["h"] + " " + m["a"], data)
-        html_out = f.build_html(art, rows, random.choice(f.IMAGES), None, ())
+        p = f"img/{art['slug']}.jpg"
+        team_tuples = [(m["h"], f.TEAM_LOGOS.get(m["h"])), (m["a"], f.TEAM_LOGOS.get(m["a"]))]
+        bg_url = f.PEX.format(i=random.choice(f.IMAGES)[0])
+        lead_img_url = None
+        if f.make_club_logo_cover(team_tuples, bg_url, p):
+            lead_img_url = f.CDN + p
+        else:
+            lead_img_url = bg_url
+        html_out = f.build_html(art, rows, random.choice(f.IMAGES), None, (), real_img_url=lead_img_url)
         labels = ["أخبار الكورة", "نتائج المباريات"] + (["الدوري المصري"] if m["l"] == "الدوري المصري" else [])
         if dry:
             print("DRY RESULT", art["title"], "|", art["desc"])
