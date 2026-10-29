@@ -180,17 +180,12 @@ def main():
   </div>
 </div>'''
 
-        lead_img_src = news_down.get(sid) or f"{f.CDN}img/{art['slug']}.jpg"
+        lead_img_src = news_down.get(sid) or "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop"
         body = (f'<img src="{lead_img_src}" alt="{html.escape(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px;margin-bottom:14px">'
                 + callout
                 + art["body"]
                 + "<h2>أسئلة شائعة</h2>" + "".join(f"<details><summary>{html.escape(q['q'])}</summary><p>{html.escape(q['a'])}</p></details>" for q in art.get("faq", [])[:4])
                 + callout)
-
-        os.makedirs("img", exist_ok=True)
-        img_path = f"img/{art['slug']}.jpg"
-        if not news_down.get(sid):
-            cover.make_topic_cover(WARNING_ICON, f"عاجل · عطل {svc['name']}", art.get("headline") or art["title"], img_path)
 
         if dry:
             print("DRY RUN:", art["title"])

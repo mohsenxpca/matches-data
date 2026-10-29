@@ -60,10 +60,39 @@ def trends():
     return out
 
 
-def text(url):
+# High-res natural editorial trend photography fallbacks (no text overlays)
+TREND_FALLBACKS = {
+    "prayer": "https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "gold": "https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "weather": "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "sports": "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "general": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+}
+
+def get_trend_fallback(text):
+    t = text.lower()
+    if re.search(r"صلاة|أذان|مواقيت|مسجد|فجر|ظهر|عصر|مغرب|عشاء|رمضان|جمعة", t):
+        return TREND_FALLBACKS["prayer"]
+    if re.search(r"ذهب|عيار|دولار|عملات|جنيه|بورصة|سعر الذهب", t):
+        return TREND_FALLBACKS["gold"]
+    if re.search(r"طقس|أرصاد|مطر|حرارة|شتاء|صيف|رياح", t):
+        return TREND_FALLBACKS["weather"]
+    if re.search(r"مباراة|دوري|أهلي|زمالك|كورة|منتخب", t):
+        return TREND_FALLBACKS["sports"]
+    return TREND_FALLBACKS["general"]
+
+
+def fetch_trend_source(url):
     s = BeautifulSoup(requests.get(url, headers=UA, timeout=25).text, "html.parser")
+    real_img = None
+    og = s.find("meta", property="og:image") or s.find("meta", attrs={"name": "twitter:image"})
+    if og and og.get("content"):
+        u = og["content"].strip()
+        if u.startswith("http") and not any(x in u for x in ["default", "placeholder", "logo", "avatar", "icon"]):
+            real_img = u
     box = s.find("article") or s.find("main") or s
-    return "\n".join(p for p in (x.get_text(" ", strip=True) for x in box.find_all("p")) if len(p) > 60)
+    txt = "\n".join(p for p in (x.get_text(" ", strip=True) for x in box.find_all("p")) if len(p) > 60)
+    return real_img, txt
 
 
 def main():
@@ -108,9 +137,12 @@ def main():
         if f._DOWN:
             break
         parts = []
+        trend_real_img = None
         for u, t in c["news"][:3]:
             try:
-                tx = text(u)
+                u_img, tx = fetch_trend_source(u)
+                if u_img and not trend_real_img:
+                    trend_real_img = u_img
             except Exception:
                 continue
             if len(tx) > 300:
@@ -131,11 +163,12 @@ def main():
         if errs:
             print("SKIPPED", c["q"], errs)
             continue
-        os.makedirs("img", exist_ok=True)
-        p = f"img/{art['slug']}.jpg"
-        cover.make_topic_cover(FIRE, "تريند · " + (art.get("kicker") or c["q"])[:30], art.get("headline") or art["title"], p)
         e = html.escape
-        body = (f'<img src="{f.CDN + p}" alt="{e(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
+        if trend_real_img:
+            lead_img_url = f"https://wsrv.nl/?url={requests.utils.quote(trend_real_img, safe='')}&w=1000&output=webp&q=80"
+        else:
+            lead_img_url = get_trend_fallback(c["q"] + " " + art["title"])
+        body = (f'<img src="{lead_img_url}" alt="{e(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
                 + art["body"]
                 + '<p><button type="button" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden" style="border:0;border-radius:999px;padding:7px 16px;font:inherit;font-weight:700;color:#fff;background:linear-gradient(135deg,#f59e0b,#ea580c);cursor:pointer">الخلاصة</button>'
                   f'<span hidden style="display:block;margin-top:8px;padding:10px;border-radius:10px;background:#fff7ed">{e(art.get("desc", ""))}</span></p>'

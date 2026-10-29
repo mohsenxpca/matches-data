@@ -102,16 +102,52 @@ def candidates(done):
     return out
 
 
-def article_text(url):
+# High-res natural editorial tech photography fallbacks (no text overlays)
+TECH_FALLBACKS = {
+    "ai": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "code": "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "mobile": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "pc": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "security": "https://images.pexels.com/photos/538064/pexels-photo-538064.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "gaming": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "general": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+}
+
+def get_tech_fallback(text):
+    t = text.lower()
+    if re.search(r"ai|chatgpt|gemini|claude|deepseek|grok|ذكاء", t):
+        return TECH_FALLBACKS["ai"]
+    if re.search(r"game|gaming|steam|ps5|xbox|لعب", t):
+        return TECH_FALLBACKS["gaming"]
+    if re.search(r"program|code|developer|برمج", t):
+        return TECH_FALLBACKS["code"]
+    if re.search(r"phone|android|ios|iphone|whatsapp|هاتف|موبايل|تطبيق", t):
+        return TECH_FALLBACKS["mobile"]
+    if re.search(r"security|hack|malware|scam|أمان|اختراق", t):
+        return TECH_FALLBACKS["security"]
+    if re.search(r"windows|pc|laptop|كمبيوتر|لابتوب", t):
+        return TECH_FALLBACKS["pc"]
+    return TECH_FALLBACKS["general"]
+
+
+def article_content(url):
+    """Fetches the real article, extracts the real editorial photo (og:image) and text."""
     s = BeautifulSoup(requests.get(url, headers=UA, timeout=30).text, "html.parser")
+    real_img = None
+    og = s.find("meta", property="og:image") or s.find("meta", attrs={"name": "twitter:image"})
+    if og and og.get("content"):
+        u = og["content"].strip()
+        if u.startswith("http") and not any(x in u for x in ["default", "placeholder", "logo", "avatar", "icon"]):
+            real_img = u
     box = s.find("article") or s.find("main") or s
     ps = [p.get_text(" ", strip=True) for p in box.find_all("p")]
-    return "\n".join(p for p in ps if len(p) > 60)
+    txt = "\n".join(p for p in ps if len(p) > 60)
+    return real_img, txt
 
 
 def build(art, c, cover_url):
     e = html.escape
-    first = f'<img src="{cover_url}" alt="{e(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
+    first = f'<img src="{cover_url}" alt="{e(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
     faq = "<h2>أسئلة شائعة</h2>" + "".join(f"<details><summary>{e(q['q'])}</summary><p>{e(q['a'])}</p></details>" for q in art.get("faq", [])[:4])
     tool = ('<p><button type="button" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden" '
             'style="border:0;border-radius:999px;padding:7px 16px;font:inherit;font-weight:700;color:#fff;background:linear-gradient(135deg,#f59e0b,#ea580c);cursor:pointer">'
@@ -154,7 +190,7 @@ def main():
         if made >= len(times):
             break
         try:
-            src = article_text(c["u"])
+            real_img, src = article_content(c["u"])
         except Exception as ex:
             print("source failed", c["u"], ex)
             continue
@@ -173,10 +209,11 @@ def main():
             print("SKIPPED", c["t"], errs)
             continue
         label, kick, icon, _ = c["topic"]
-        p = f"img/{art['slug']}.jpg"
-        cover.make_topic_cover(FLUENT.format(requests.utils.quote(icon, safe="/")), art.get("kicker") or kick,
-                               art.get("headline") or art["title"], p)
-        html_out = build(art, c, f.CDN + p)
+        if real_img:
+            cover_url = f"https://wsrv.nl/?url={requests.utils.quote(real_img, safe='')}&w=1000&output=webp&q=80"
+        else:
+            cover_url = get_tech_fallback(art["title"] + " " + c["t"])
+        html_out = build(art, c, cover_url)
         fin = f.schedule(tok, art, html_out, list(dict.fromkeys([LABEL0, label])), times[made])
         state["done"][-1].update({"url": fin.get("url"), "title": art["title"]})
         print("SCHEDULED", times[made].strftime("%H:%M"), fin.get("url"), "|", art["title"])

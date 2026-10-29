@@ -430,27 +430,16 @@ def story_teams(title, src):
 
 
 def team_images(art, rows, teams):
-    """Cover with the story's teams + (if any) a card for their next match. Files go to img/ and are served by jsDelivr."""
-    import cover
-    os.makedirs("img", exist_ok=True)
-    out = []
-    kicker = (art.get("kicker") or "أخبار الكورة").strip()[:40]
-    p = f"img/{art['slug']}.jpg"
-    if teams and cover.make_cover([(t, TEAM_LOGOS.get(t)) for t in teams], kicker, p):
-        out.append((CDN + p, "شعار " + " و".join(teams)))
-    nxt = next((m for m in rows if any(norm(t) in (norm(m["h"]), norm(m["a"])) for t in teams)), None) if teams else None
-    if nxt:
-        p2 = f"img/{art['slug']}-next.jpg"
-        k2 = f"الماتش الجاي · {nxt['d'][8:]}/{nxt['d'][5:7]} الساعة {nxt['t']}"
-        if cover.make_cover([(nxt["h"], TEAM_LOGOS.get(nxt["h"])), (nxt["a"], TEAM_LOGOS.get(nxt["a"]))], k2, p2):
-            out.append((CDN + p2, f"مباراة {nxt['h']} و{nxt['a']} يوم {nxt['d']}"))
-    return out
+    """Real authentic photography mode (Mohsen request 2026-10-29): synthetic covers disabled."""
+    return []
 
 
-def build_html(art, rows, img, related, team_imgs=()):
+def build_html(art, rows, img, related, team_imgs=(), real_img_url=None):
     e = html.escape
-    if team_imgs:
-        first = f'<img src="{team_imgs[0][0]}" alt="{e(team_imgs[0][1])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
+    if real_img_url:
+        first = f'<img src="{real_img_url}" alt="{e(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
+    elif team_imgs:
+        first = f'<img src="{team_imgs[0][0]}" alt="{e(team_imgs[0][1])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
     else:
         first = f'<img src="{PEX.format(i=img[0])}" alt="{e(img[1])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
     tbl = ""
@@ -587,13 +576,13 @@ def main():
         used_imgs.append(img)
         rel = next((p for p in posts if "أخبار الكورة" in p["l"] or "الدوري المصري" in p["l"]), None)
         teams = story_teams(c["t"] + " " + art["title"], src)
-        try:
-            timgs = team_images(art, rows, teams)
-        except Exception as ex:
-            print("  cover failed:", ex)
-            timgs = []
-        print("  teams:", teams, "| images:", len(timgs))
-        html_out = build_html(art, rows, img, rel, timgs)
+        real_img = None
+        raw_i = (c.get("i") or "").strip()
+        if raw_i and raw_i.startswith("http"):
+            clean_i = raw_i.replace("/thumb/", "/")
+            real_img = f"https://wsrv.nl/?url={urllib.parse.quote(clean_i)}&w=1000&output=webp&q=80"
+        print("  teams:", teams, "| real_img:", bool(real_img))
+        html_out = build_html(art, rows, img, rel, (), real_img_url=real_img)
         labels = ["أخبار الكورة"] + ([LABELS[c["s"]]] if c["s"] in LABELS else [])
         if DRY:
             os.makedirs("out", exist_ok=True)
@@ -652,12 +641,7 @@ def make_previews(previews, data, existing, state, tok, times, today):
             continue
         state.setdefault("previews", []).append(key)
         rows = team_matches(m["h"] + " " + m["a"], data)
-        try:
-            timgs = team_images(art, rows, [m["h"], m["a"]])
-        except Exception as ex:
-            print("  cover failed:", ex)
-            timgs = []
-        html_out = build_html(art, rows, random.choice(IMAGES), None, timgs[:1])
+        html_out = build_html(art, rows, random.choice(IMAGES), None, ())
         labels = ["أخبار الكورة", "مواعيد المباريات"] + (["الدوري المصري"] if m["l"] == "الدوري المصري" else [])
         if DRY:
             os.makedirs("out", exist_ok=True)

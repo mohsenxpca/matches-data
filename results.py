@@ -109,12 +109,7 @@ def main():
             continue
         state.setdefault("results", []).append(key)
         rows = f.team_matches(m["h"] + " " + m["a"], data)
-        try:
-            timgs = f.team_images(art, rows, [m["h"], m["a"]])
-        except Exception as ex:
-            print("  cover failed:", ex)
-            timgs = []
-        html_out = f.build_html(art, rows, random.choice(f.IMAGES), None, timgs[:1])
+        html_out = f.build_html(art, rows, random.choice(f.IMAGES), None, ())
         labels = ["أخبار الكورة", "نتائج المباريات"] + (["الدوري المصري"] if m["l"] == "الدوري المصري" else [])
         if dry:
             print("DRY RESULT", art["title"], "|", art["desc"])
