@@ -259,7 +259,7 @@ def main():
 
         labels = ["أخبار", "تريند الخليج", cand["country_short"]]
         try:
-            res = f.schedule(tok, art, full_html, labels, now + datetime.timedelta(minutes=1))
+            res = f.publish_live(tok, art, full_html, labels)
             post_url = res.get("url", "")
             print(f"  >>> PUBLISHED GULF TREND: {post_url} | {art['title']}")
             state["done"].append({
