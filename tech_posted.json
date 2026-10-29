@@ -81,6 +81,82 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/10/smart-launcher-android-review.html",
    "title": "مشكلة الـ Launcher في أندرويد والحل هنا"
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+   "t": "Microsoft recorded $10 billion in revenue from OpenAI",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+   "t": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026",
+   "t": "Google says its investments in AI are driving more searches",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/samsung-new-ai-sleep-apnea-feature-coming-older-galaxy-watches/",
+   "t": "Samsung’s new AI sleep apnea detection is coming to older Galaxy Watches",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+   "t": "Anthropic just launched tools to show companies what their AI spending is buying",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+   "t": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+   "t": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+   "t": "Voice AI in vogue: Nvidia releases new open transcription model",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+   "t": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+   "t": "Google expands AI Search ads globally as core ad growth slows",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+   "t": "AI execs may be too out of touch to build for the general public",
+   "at": "2026-10-29",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/10/ai-execs-out-of-touch.html",
+   "title": "قادة الذكاء الاصطناعي منفصلون عن الواقع؟"
+  },
+  {
+   "u": "https://www.androidpolice.com/learning-to-write-code-with-help-from-gemini-notebook-as-personal-programming-tutor/",
+   "t": "I am learning to write code with help from Gemini Notebook as my personal programming tutor",
+   "at": "2026-10-29",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/10/gemini-notebook-coding-tutor.html",
+   "title": "كيف ساعدني Gemini Notebook في تعلم البرمجة"
   }
  ]
 }
