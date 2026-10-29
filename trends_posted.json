@@ -136,6 +136,24 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/10/ronaldo-2008-best-ballon-dor.html",
    "title": "تفاصيل اختيار نسخة رونالدو 2008 الأفضل بالكرة الذهبية"
+  },
+  {
+   "q": "الاهلي",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "q": "afghanistan vs zimbabwe",
+   "at": "2026-10-29",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "المغرب اليوم",
+   "at": "2026-10-29",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/10/prayer-times-egypt-winter-time.html",
+   "title": "مواقيت الصلاة اليوم بعد التوقيت الشتوي"
   }
  ]
 }
