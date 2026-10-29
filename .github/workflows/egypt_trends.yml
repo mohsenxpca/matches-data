@@ -1,0 +1,52 @@
+name: تغطية تريندات مصر العاجلة (نشر فوري بدون جدولة)
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "موضوع التريند بالاسم (اختياري: اتركه فارغاً للرصد التلقائي لأحدث تريند مصري)"
+        default: ""
+      dry_run:
+        description: "تجربة بدون نشر (1 = تجربة)"
+        default: "0"
+  schedule:
+    - cron: "15 */2 * * *"  # كل ساعتين: رصد أحدث تريند عام ساخن في مصر ونشره فوراً
+
+permissions:
+  contents: write
+
+concurrency:
+  group: egypt-trends
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 lxml pillow
+      - run: python -u egypt_trends.py ${{ github.event.inputs.topic && format('"{0}"', github.event.inputs.topic) || '' }}
+        env:
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name "trends-bot"
+          git config user.email "trends-bot@users.noreply.github.com"
+          git add egypt_trends_posted.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "egypt trend post $(TZ=Africa/Cairo date +%F_%H:%M)"
+          git pull --rebase origin main
+          git push origin main
