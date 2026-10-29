@@ -1,0 +1,40 @@
+name: تغطية تريند السعودية ودول الخليج لحظة بلحظة
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"  # every 30 minutes
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gulf-trends
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - run: python gulf_trends.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name "gulf-trends-bot"
+          git config user.email "gulf-trends-bot@users.noreply.github.com"
+          git add gulf_trends_posted.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "gulf trends check $(TZ=Africa/Cairo date +%F_%H:%M)"
+          git pull --rebase origin main
+          git push origin main

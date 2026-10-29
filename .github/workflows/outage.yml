@@ -1,0 +1,42 @@
+name: رصد وتغطية أعطال الخدمات بمصر
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/20 * * * *"  # every 20 minutes
+
+permissions:
+  contents: write
+
+concurrency:
+  group: outage-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 pillow arabic-reshaper python-bidi
+      - run: python outage.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name "outage-bot"
+          git config user.email "outage-bot@users.noreply.github.com"
+          git add outage_posted.json img/ 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "outage check $(TZ=Africa/Cairo date +%F_%H:%M)"
+          git pull --rebase origin main
+          git push origin main

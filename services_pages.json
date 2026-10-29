@@ -113,6 +113,30 @@
   "trains": {
    "id": "7577286990937601056",
    "url": "https://www.egyptaway.com/p/trains-egypt.html"
+  },
+  "banks": {
+   "id": "2029408522222112415",
+   "url": "https://www.egyptaway.com/p/bank-certificates-egypt.html"
+  },
+  "fuel": {
+   "id": "3569779428026837186",
+   "url": "https://www.egyptaway.com/p/fuel-prices-egypt.html"
+  },
+  "housing": {
+   "id": "8549482493518011212",
+   "url": "https://www.egyptaway.com/p/housing-egypt.html"
+  },
+  "coordination": {
+   "id": "2831576448325690330",
+   "url": "https://www.egyptaway.com/p/egypt-coordination.html"
+  },
+  "visas": {
+   "id": "4720125625538461003",
+   "url": "https://www.egyptaway.com/p/gulf-work-visas.html"
+  },
+  "outage": {
+   "id": "2260655455986950294",
+   "url": "https://www.egyptaway.com/p/is-it-down-egypt.html"
   }
  }
 }
