@@ -589,15 +589,16 @@ def build_html(art, rows, img, related, team_imgs=(), real_img_url=None):
 
 
 def schedule_times(n, taken):
-    """n random Cairo times today between now+20min and 23:00, at least 2.5h apart and away from taken times."""
+    """n random Cairo times. 24/7 continuous publishing enabled."""
     now = datetime.datetime.now(CAIRO)
-    start = max(now + datetime.timedelta(minutes=20), now.replace(hour=11, minute=0, second=0, microsecond=0))
-    end = now.replace(hour=23, minute=0, second=0, microsecond=0)
-    gap_out, gap_taken = 9000, 2700
     if FAST:
-        start = max(now + datetime.timedelta(minutes=10), now.replace(hour=9, minute=0, second=0, microsecond=0))
-        end = min(now + datetime.timedelta(minutes=100), now.replace(hour=23, minute=30, second=0, microsecond=0))
+        start = now + datetime.timedelta(minutes=10)
+        end = now + datetime.timedelta(minutes=100)
         gap_out, gap_taken = 2700, 1500
+    else:
+        start = now + datetime.timedelta(minutes=20)
+        end = now + datetime.timedelta(hours=6)
+        gap_out, gap_taken = 5400, 2700
     out = []
     for _ in range(400):
         if len(out) == n or start >= end:

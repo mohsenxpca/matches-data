@@ -105,9 +105,8 @@ def main():
     if len([d for d in state["done"] if d.get("at") == today and d.get("ok")]) >= PER_DAY:
         print("trend posts for today done")
         return
-    if not (9 <= now.hour <= 22):
-        print("outside publishing hours")
-        return
+    # 24/7 publishing allowed
+    pass
     seen = {f.norm(d["q"]) for d in state["done"][-200:]}
     cands = [t for t in trends() if t["traffic"] >= MIN_TRAFFIC and t["news"] and f.norm(t["q"]) not in seen
              and not re.search(AVOID, t["q"] + " " + " ".join(n[1] for n in t["news"]), re.I)]

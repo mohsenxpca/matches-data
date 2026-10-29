@@ -343,12 +343,6 @@ def main():
     dry = "--dry" in sys.argv or os.environ.get("DRY_RUN") == "1"
     custom_query = next((arg for arg in sys.argv[1:] if not arg.startswith("--")), None)
 
-    # 🛑 Enforce strict quiet hours: No publishing on Review from 8:00 PM (20:00) to 10:00 AM Cairo
-    now_cairo = datetime.datetime.now(CAIRO)
-    if (now_cairo.hour >= 20 or now_cairo.hour < 10) and not custom_query and not dry:
-        print(f"Review publishing window is closed ({now_cairo.hour:02d}:00 Cairo). Quiet hours: 8:00 PM to 10:00 AM. Exiting.")
-        return
-
     # State
     try:
         state = json.load(open(STATE_FILE, encoding="utf-8"))

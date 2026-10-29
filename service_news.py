@@ -235,12 +235,7 @@ def ping_indexnow(urls):
 
 def main():
     dry = os.environ.get("DRY_RUN") == "1"
-        # Enforce strict quiet hours: No publishing on Egyptaway from 11:00 PM (23:00) to 9:00 AM Cairo
-    now = datetime.datetime.now(CAIRO)
-    if (now.hour >= 23 or now.hour < 9) and not dry:
-        print(f"Egyptaway publishing window is closed ({now.hour:02d}:00 Cairo). Quiet hours: 11:00 PM to 9:00 AM. Exiting.")
-        return
-
+        now = datetime.datetime.now(CAIRO)
 
     today = now.date().isoformat()
     print(f"[{now:%Y-%m-%d %H:%M}] Starting Service News Engine...")
