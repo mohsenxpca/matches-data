@@ -107,6 +107,23 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/10/duhr-prayer-time-egypt.html",
    "title": "موعد صلاة الظهر في مصر اليوم الخميس 29 أكتوبر 2026"
+  },
+  {
+   "q": "كهرباء",
+   "at": "2026-10-29",
+   "ok": false
+  },
+  {
+   "q": "england vs sri lanka",
+   "at": "2026-10-29",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "سعر الفائدة",
+   "at": "2026-10-29",
+   "ok": false,
+   "why": "no source text"
   }
  ]
 }
