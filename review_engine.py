@@ -22,7 +22,7 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari
 REVIEW_BLOG = "2997328666613207792"
 REVIEW_HOST = "www.review-mobile.com"
 STATE_FILE = "review_posted.json"
-REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "8"))
+REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "10"))
 
 EUR_RATES = {"egp": 52.0, "sar": 4.05, "aed": 3.97}
 CNY_RATES = {"egp": 6.8, "sar": 0.527, "aed": 0.516}
