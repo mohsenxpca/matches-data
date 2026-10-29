@@ -1,0 +1,50 @@
+name: محرك مراجعات وأخبار الهواتف لموقع رفيو (نشر فوري بدون تكرار)
+
+on:
+  workflow_dispatch:
+    inputs:
+      phone_model:
+        description: "اسم الهاتف أو الموضوع (اختياري: اتركه فارغاً للرصد التلقائي لأحدث الهواتف)"
+        default: ""
+      dry_run:
+        description: "تجربة بدون نشر (1 = تجربة)"
+        default: "0"
+  schedule:
+    - cron: "25 7-21/2 * * *"  # كل ساعتين من 9:25 صباحاً إلى 11:25 مساءً بتوقيت القاهرة
+
+permissions:
+  contents: write
+
+concurrency:
+  group: review-engine
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 lxml pillow
+      - run: python -u review_engine.py ${{ github.event.inputs.phone_model && format('"{0}"', github.event.inputs.phone_model) || '' }}
+        env:
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+      - name: Commit state
+        if: always()
+        run: |
+          git config user.name "review-bot"
+          git config user.email "review-bot@users.noreply.github.com"
+          git add review_posted.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "review post $(TZ=Africa/Cairo date +%F_%H:%M)"
+          git pull --rebase origin main
+          git push origin main
