@@ -166,7 +166,13 @@ def main():
     tok = f.token()
     posts = f.site_posts(tok)
     existing = [p["t"] for p in posts]
-    now = datetime.datetime.now(f.CAIRO)
+        now = datetime.datetime.now(f.CAIRO)
+    # Enforce strict quiet hours: No publishing on Egyptaway from 11:00 PM (23:00) to 9:00 AM Cairo
+    if (now.hour >= 23 or now.hour < 9):
+        print(f"Egyptaway publishing window is closed ({now.hour:02d}:00 Cairo). Quiet hours: 11:00 PM to 9:00 AM. Exiting.")
+        return
+
+
     today = now.date().isoformat()
     sched = f.api("GET", f"/blogs/{f.BLOG}/posts", tok, {"status": ["live", "scheduled"], "fetchBodies": "false",
                                                         "startDate": today + "T00:00:00+02:00", "maxResults": 60, "view": "ADMIN"})

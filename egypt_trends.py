@@ -259,6 +259,12 @@ def main():
             custom_topic = arg.strip()
             break
 
+    # 🛑 Enforce strict quiet hours: No publishing on Egyptaway from 11:00 PM (23:00) to 9:00 AM Cairo
+    now_c = datetime.datetime.now(CAIRO)
+    if (now_c.hour >= 23 or now_c.hour < 9) and not custom_topic and not dry:
+        print(f"Egyptaway publishing window is closed ({now_c.hour:02d}:00 Cairo). Quiet hours: 11:00 PM to 9:00 AM. Exiting.")
+        return
+
     print("=" * 65)
     print("🚀 EGYPTAWAY INSTANT BREAKING TRENDS ENGINE (نشر فوري)")
     print(f"⏰ Time: {datetime.datetime.now(CAIRO).strftime('%Y-%m-%d %H:%M')} Cairo")
@@ -301,7 +307,7 @@ def main():
         return
 
     # Check daily cap if automated
-    today_str = datetime.datetime.now(CAIRO).date().isoformat()
+        today_str = datetime.datetime.now(CAIRO).date().isoformat()
     today_posts = [d for d in state.get("done", []) if d.get("at", "").startswith(today_str) and d.get("ok")]
     if len(today_posts) >= DAY_CAP and not custom_topic and not dry:
         print(f"Reached daily cap ({DAY_CAP} posts). Exiting.")
