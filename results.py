@@ -9,7 +9,7 @@ Env: DAY_CAP (default 30), DRY_RUN=1.
 import datetime, html, json, os, random
 import football as f
 
-f.DAY_CAP = int(os.environ.get("DAY_CAP") or 30)
+f.DAY_CAP = int(os.environ.get("DAY_CAP") or 50)
 DONE_AFTER = datetime.timedelta(minutes=140)
 
 RESULT_PROMPT = """أنت محرر رياضي في موقع ايجبتاوى المصري. الماتش ده لسه خلصان، اكتب مقال «نتيجة المباراة» سريع ومفيد.

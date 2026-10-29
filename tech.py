@@ -13,7 +13,7 @@ import cover
 
 PROFILE = os.environ.get("PROFILE") or "tech"  # tech | games | deals
 COUNT = int(os.environ.get("COUNT") or 2)
-f.DAY_CAP = int(os.environ.get("DAY_CAP") or 18)
+f.DAY_CAP = int(os.environ.get("DAY_CAP") or 50)
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
 FEEDS = [("https://techcrunch.com/feed/", "TechCrunch"), ("https://www.bleepingcomputer.com/feed/", "BleepingComputer"),
          ("https://www.androidpolice.com/feed/", "Android Police"), ("https://www.theverge.com/rss/index.xml", "The Verge")]

@@ -11,8 +11,8 @@ from bs4 import BeautifulSoup
 import football as f
 import cover
 
-f.DAY_CAP = int(os.environ.get("DAY_CAP") or 18)
-PER_DAY = int(os.environ.get("PER_DAY") or 4)
+f.DAY_CAP = int(os.environ.get("DAY_CAP") or 50)
+PER_DAY = int(os.environ.get("PER_DAY") or 12)
 MIN_TRAFFIC = int(os.environ.get("MIN_TRAFFIC") or 200)
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
 FIRE = "https://wsrv.nl/?url=cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/Fire/3D/fire_3d.png&w=300&h=300&output=png"

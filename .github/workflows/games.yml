@@ -32,7 +32,7 @@ jobs:
         env:
           PROFILE: games
           COUNT: ${{ github.event.inputs.count || '3' }}
-          DAY_CAP: ${{ github.event.inputs.day_cap || '30' }}
+          DAY_CAP: ${{ github.event.inputs.day_cap || '50' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
@@ -42,7 +42,7 @@ jobs:
         env:
           PROFILE: deals
           COUNT: "1"
-          DAY_CAP: ${{ github.event.inputs.day_cap || '30' }}
+          DAY_CAP: ${{ github.event.inputs.day_cap || '50' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}

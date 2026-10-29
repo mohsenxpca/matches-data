@@ -24,7 +24,7 @@ COUNT = int(os.environ.get("COUNT", "2"))
 PREVIEWS = int(os.environ.get("PREVIEWS") if os.environ.get("PREVIEWS") is not None else 2)  # 'match time & channel' articles for tomorrow's big matches
 FAST = os.environ.get("FAST") == "1"  # breaking-news run (every 2h): newest story first, published within the next ~1.5h
 DRY = os.environ.get("DRY_RUN") == "1"
-DAY_CAP = int(os.environ.get("DAY_CAP") or 10)  # same cap as blogger_api.py on Mohsen's PC; a manual run can raise it
+DAY_CAP = int(os.environ.get("DAY_CAP") or 50)  # same cap as blogger_api.py on Mohsen's PC; a manual run can raise it
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 BANNED = ["يلا كورة", "يلاكورة", "yallakora", "يلا كوره"]
 PRIORITY = ["egyptian-league", "egypt-cup", "african-champions-league", "african-confederation-cup", "can-qualifiers",

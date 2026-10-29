@@ -22,7 +22,7 @@ CAIRO = ZoneInfo("Africa/Cairo")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
 INDEXNOW_KEY = "e3b3e2ee8cd741f59f1b91e73c0f9090"
 STATE_FILE = "phone_news_posted.json"
-DAY_CAP = int(os.environ.get("PHONE_NEWS_DAY_CAP", "12"))
+DAY_CAP = int(os.environ.get("PHONE_NEWS_DAY_CAP", "25"))
 
 # Live feeds for phone launches & leaks
 FEEDS = [
