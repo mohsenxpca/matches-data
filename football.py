@@ -14,7 +14,6 @@ import datetime, difflib, html, io, json, os, random, re, sys, time, urllib.pars
 from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
-from PIL import Image, ImageDraw, ImageFilter
 
 BLOG = "8325646053257070334"
 SITE = "https://www.egyptaway.com"
@@ -432,6 +431,10 @@ def story_teams(title, src):
 
 
 def make_player_action_shot(img_url, out_path, team_logo_url=None):
+    try:
+        from PIL import Image, ImageDraw, ImageFilter
+    except ImportError:
+        return False
     """Downloads player shot, flips horizontally (mirror) + slight angle tilt & crop, overlays club badge."""
     try:
         try_urls = [img_url.replace('/thumb/', '/original/'), img_url.replace('/thumb/', '/large/'), img_url]
@@ -483,6 +486,10 @@ def make_player_action_shot(img_url, out_path, team_logo_url=None):
 
 
 def make_club_logo_cover(teams, bg_img_url, out_path):
+    try:
+        from PIL import Image, ImageDraw, ImageFilter
+    except ImportError:
+        return False
     """Draws clean club logo(s) on a real stadium background without redundant text overlays."""
     try:
         r = requests.get(bg_img_url, timeout=15, headers=HEAD)

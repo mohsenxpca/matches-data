@@ -119,7 +119,8 @@ def push(posts, state, now, key, dry, force):
                       headers={"Authorization": "Key " + key, "Content-Type": "application/json"})
     print("OneSignal", r.status_code, r.text[:300])
     if r.status_code >= 400:
-        sys.exit(1)
+        print("OneSignal failed gracefully, continuing.")
+        return
     if not r.json().get("id"):
         print("push: not sent (no subscribers yet?)")
         return
@@ -145,18 +146,30 @@ def main():
     print(len(posts), "live post(s) in the window")
 
     new = [p["url"].replace("http://", "https://") for p in posts if p["url"] not in state["indexed"]]
-    if indexnow(new, dry):
-        state["indexed"] += [p["url"] for p in posts if p["url"] not in state["indexed"]]
+    try:
+        if indexnow(new, dry):
+            state["indexed"] += [p["url"] for p in posts if p["url"] not in state["indexed"]]
+    except Exception as ex:
+        print("IndexNow step error:", ex)
 
     for p in [p for p in posts if p["url"] not in state["tg"]][:TG_PER_RUN]:
-        if telegram(p, dry):
-            state["tg"].append(p["url"])
+        try:
+            if telegram(p, dry):
+                state["tg"].append(p["url"])
+        except Exception as ex:
+            print("Telegram step error:", ex)
 
     for p in [p for p in posts if p["url"] not in state["fb"]][:2]:
-        if facebook(p, dry):
-            state["fb"].append(p["url"])
+        try:
+            if facebook(p, dry):
+                state["fb"].append(p["url"])
+        except Exception as ex:
+            print("Facebook step error:", ex)
 
-    push(posts, state, now, f.secret("ONESIGNAL_API_KEY"), dry, force)
+    try:
+        push(posts, state, now, f.secret("ONESIGNAL_API_KEY"), dry, force)
+    except Exception as ex:
+        print("Push step error:", ex)
 
     for k in ("sent", "indexed", "tg", "fb"):
         state[k] = state[k][-400:]
