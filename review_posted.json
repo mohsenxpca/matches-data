@@ -127,6 +127,56 @@
    "at": "2026-10-30T21:01:24.778567+02:00",
    "ok": true,
    "brand": "اخرى"
+  },
+  {
+   "title": "Vivo S70 revealed to feature Snapdragon 8-series chip, dedicated teleconverter",
+   "url": "https://www.gizmochina.com/2026/10/30/vivo-s70-snapdragon-8s-gen-4-64mp-periscope-200mm-teleconverter/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Model code [s70] found in existing: مراجعة هاتف vivo S70: المواصفات الكاملة والتحليل الشامل للكاميرات"
+  },
+  {
+   "title": "iQOO Neo 12 vs OnePlus Ace 7: Both have cooling fans, but which is better?",
+   "url": "https://www.gizmochina.com/2026/10/30/iqoo-neo-12-vs-oneplus-ace-7-both-have-cooling-fans-but-which-is-better/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Phrase [iqoo neo] found in existing: مراجعة iQOO Neo12: بطارية 9000 مللي وشاشة 185Hz للألعاب"
+  },
+  {
+   "title": "Samsung Galaxy S27 fast charging capabilities revealed through new certification",
+   "url": "https://www.gizmochina.com/2026/10/30/samsung-galaxy-s27-fast-charging-ul-solutions-certification/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
+  },
+  {
+   "title": "OnePlus Ace 7 Pro outsells Ace 6 by 125% in its first sales",
+   "url": "https://www.gizmochina.com/2026/10/30/oneplus-ace-7-pro-sales-225-percent-of-ace-6/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "Oppo Reno17 series confirmed to launch next month, blind pre-orders go live",
+   "url": "https://www.gsmarena.com/oppo_reno17_series_confirmed_to_launch_next_month_blind_preorders_go_live-news-75287.php",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Model code [reno17] found in existing: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
+  },
+  {
+   "title": "Oppo Reno17 F 5G gets NBTC certified",
+   "url": "https://www.gsmarena.com/oppo_reno17_f_5g_nbtc_certified-news-75284.php",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Model code [reno17] found in existing: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
+  },
+  {
+   "title": "مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة",
+   "url": "https://www.gsmarena.com/the_nokia_2360_flip_is_a_dualdisplay_feature_phone_with_an_sos_button-news-75278.php",
+   "post_url": "https://www.review-mobile.com/2026/10/nokia-2360-flip-review.html",
+   "at": "2026-10-30T21:32:11.879297+02:00",
+   "ok": true,
+   "brand": "نوكيا"
   }
  ]
 }
