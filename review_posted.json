@@ -265,6 +265,19 @@
    "at": "2026-10-30T22:10:22.840245+02:00",
    "ok": true,
    "brand": "هونر"
+  },
+  {
+   "title": "A new vulnerability can brick your Android phone when receiving the SMS of Death",
+   "url": "https://www.gsmarena.com/a_new_android_vulnerability_can_leave_your_phone_unusable_when_receiving_the_sms_of_death-news-75288.php",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
+    "العنوان غير صالح أو أطول من 75 حرف (0 حرف)",
+    "الـ slug غير صالح (): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة",
+    "وصف البحث (0 حرف) يجب أن يكون بين 110 و 175 حرفاً",
+    "المراجعة يجب أن تحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
