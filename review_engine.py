@@ -10,6 +10,7 @@ Usage:
   python review_engine.py --dry                  # Dry run (prints draft without publishing)
 """
 import datetime, difflib, html, json, os, random, re, sys, time, urllib.parse
+sys.stdout.reconfigure(encoding="utf-8")
 from zoneinfo import ZoneInfo
 import xml.etree.ElementTree as ET
 import requests
@@ -22,7 +23,8 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari
 REVIEW_BLOG = "2997328666613207792"
 REVIEW_HOST = "www.review-mobile.com"
 STATE_FILE = "review_posted.json"
-REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "10"))
+REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "20"))
+COUNT = int(os.environ.get("COUNT", "2"))
 
 EUR_RATES = {"egp": 52.0, "sar": 4.05, "aed": 3.97}
 CNY_RATES = {"egp": 6.8, "sar": 0.527, "aed": 0.516}
@@ -228,25 +230,74 @@ def find_review_internal_links(brand_name, tok, limit=3):
 
 
 def fetch_phone_candidates():
-    """Scrapes GSMArena RSS and Google News for fresh phone launches and reviews."""
+    """Scrapes top global & regional mobile authorities (Gizmochina, GSMArena, SamMobile, Masrawy Tech)."""
     cands = []
+    seen = set()
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
-    
-    # 1. GSMArena Direct RSS
+
+    # 1. Gizmochina RSS (World's fastest flagship & mid-range phone launch tracker)
     try:
-        r = requests.get("https://www.gsmarena.com/rss-news-reviews.php3", headers=headers, timeout=15)
+        r = requests.get("https://www.gizmochina.com/feed/", headers=headers, timeout=15, verify=False)
         if r.status_code == 200:
-            root = ET.fromstring(r.content)
-            for it in root.findall(".//item"):
-                title = it.find("title").text or ""
-                link = it.find("link").text or ""
-                # Filter for phones/devices, skip accessories/watches/tvs
-                if re.search(r"watch|buds|speaker|echo|tv|laptop|macbook|ring|clip", title, re.I):
+            soup = BeautifulSoup(r.content, "xml")
+            for it in soup.find_all("item")[:20]:
+                title = (it.find("title").text if it.find("title") else "").strip()
+                link = (it.find("link").text if it.find("link") else "").strip()
+                if not title or link in seen or re.search(r"watch|buds|speaker|tv|laptop|macbook|ring|car|ev|auto", title, re.I):
+                    continue
+                if re.search(r"phone|smartphone|galaxy|xiaomi|redmi|poco|oppo|vivo|iqoo|honor|realme|huawei|motorola|oneplus|infinix|tecno|pixel|pro|ultra|plus|max|fold|flip|5g", title, re.I):
+                    seen.add(link)
+                    cands.append({"title": title, "link": link, "source": "gizmochina"})
+    except Exception as e:
+        print("Gizmochina RSS error:", e)
+
+    # 2. GSMArena Direct RSS
+    try:
+        r = requests.get("https://www.gsmarena.com/rss-news-reviews.php3", headers=headers, timeout=15, verify=False)
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.content, "xml")
+            for it in soup.find_all("item")[:20]:
+                title = (it.find("title").text if it.find("title") else "").strip()
+                link = (it.find("link").text if it.find("link") else "").strip()
+                if not title or link in seen or re.search(r"watch|buds|speaker|echo|tv|laptop|macbook|ring|clip", title, re.I):
                     continue
                 if re.search(r"phone|galaxy|xiaomi|redmi|poco|oppo|vivo|iqoo|honor|realme|huawei|motorola|oneplus|infinix|tecno|pixel|rog|speed|w27|t1", title, re.I):
+                    seen.add(link)
                     cands.append({"title": title, "link": link, "source": "gsmarena"})
     except Exception as e:
         print("GSMArena RSS error:", e)
+
+    # 3. SamMobile RSS (Samsung Galaxy launches & leaks)
+    try:
+        r = requests.get("https://www.sammobile.com/feed/", headers=headers, timeout=15, verify=False)
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.content, "xml")
+            for it in soup.find_all("item")[:10]:
+                title = (it.find("title").text if it.find("title") else "").strip()
+                link = (it.find("link").text if it.find("link") else "").strip()
+                if not title or link in seen or re.search(r"tv|watch|ring|earbuds|buds|monitor", title, re.I):
+                    continue
+                if re.search(r"galaxy|s25|s24|a56|a36|z fold|z flip|phone", title, re.I):
+                    seen.add(link)
+                    cands.append({"title": title, "link": link, "source": "sammobile"})
+    except Exception as e:
+        print("SamMobile RSS error:", e)
+
+    # 4. Masrawy Tech RSS (Local market releases & mobile prices in Egypt)
+    try:
+        r = requests.get("https://www.masrawy.com/rss/feed/382/" + urllib.parse.quote("علوم-وتكنولوجيا"), headers=headers, timeout=15, verify=False)
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.content, "xml")
+            for it in soup.find_all("item")[:10]:
+                title = (it.find("title").text if it.find("title") else "").strip()
+                link = (it.find("link").text if it.find("link") else "").strip()
+                if not title or link in seen:
+                    continue
+                if re.search(r"موبايل|هاتف|سامسونج|آيفون|ايفون|شاومي|ريدمي|ريلمي|أوبو|اوبو|فيفو|هواوي|honor|infinix", title, re.I):
+                    seen.add(link)
+                    cands.append({"title": title, "link": link, "source": "masrawy_tech"})
+    except Exception as e:
+        print("Masrawy Tech RSS error:", e)
 
     # 2. Google News Phone RSS
     gn_urls = [
@@ -282,7 +333,7 @@ def fetch_article_data(url):
     """Fetches real article text and extracts authentic phone photos."""
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
     try:
-        r = requests.get(url, headers=headers, timeout=20)
+        r = requests.get(url, headers=headers, timeout=20, verify=False)
         if r.status_code != 200:
             return None, []
         soup = BeautifulSoup(r.text, "html.parser")
@@ -540,7 +591,11 @@ def main():
             print(f"Word count approx: {len(full_html.split())}")
             print(f"HTML Preview (first 250 chars):\n{full_html[:250]}...")
             published_count += 1
-            break
+            if published_count >= COUNT:
+                print(f"\n🎯 Reached review batch target ({COUNT} reviews published). Exiting.")
+                break
+            print(f"\n⏳ Pausing 20 seconds before next review...")
+            time.sleep(20)
 
         # ⚡ LIVE INSTANT PUBLISHING TO REVIEW BLOG ⚡
         now_cairo = datetime.datetime.now(CAIRO)

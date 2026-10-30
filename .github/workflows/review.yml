@@ -10,7 +10,7 @@ on:
         description: "تجربة بدون نشر (1 = تجربة)"
         default: "0"
   schedule:
-    - cron: "20 * * * *"  # كل ساعة على مدار الـ 24 ساعة بدون توقف
+    - cron: "*/30 * * * *"  # كل ساعة على مدار الـ 24 ساعة بدون توقف
 
 permissions:
   contents: write
