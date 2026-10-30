@@ -170,6 +170,18 @@
    "at": "2026-10-30",
    "ok": false,
    "why": "no source text"
+  },
+  {
+   "q": "ترتيب هدافي الدوري السعودي",
+   "at": "2026-10-30",
+   "ok": false
+  },
+  {
+   "q": "shahid",
+   "at": "2026-10-30",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/10/shahid-drones-bases-update.html",
+   "title": "تفاصيل تطورات قواعد طائرات شاهد في القرم وروسيا"
   }
  ]
 }
