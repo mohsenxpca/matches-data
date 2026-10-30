@@ -203,9 +203,15 @@ def main():
             }
             errs = []
         else:
-            prompt = GULF_PROMPT.format(q=cand["q"], country_full=cand["country_full"], country_short=cand["country_short"], src_text=combined_src[:5500])
-            art = f.gemini(prompt)
-            errs = f.check(art, combined_src + " " + cand["q"], "", all_known_titles, min_words=450)
+            extra, art, errs = "", None, ["no draft"]
+            for attempt in range(2):
+                prompt = GULF_PROMPT.format(q=cand["q"], country_full=cand["country_full"], country_short=cand["country_short"], src_text=combined_src[:5500]) + extra
+                art = f.gemini(prompt)
+                errs = f.check(art, combined_src + " " + cand["q"], "", all_known_titles, min_words=400)
+                if not errs:
+                    break
+                print(f"  Retry needed ({len(errs)} issues): {errs}")
+                extra = "\nتنبيه: أعد كتابة التقرير وتصحيح الملاحظات بدقة مع تجاوز 420 كلمة: " + " | ".join(errs) + "\n"
 
         if errs:
             print("  Fact check failed:", errs)

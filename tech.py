@@ -215,9 +215,9 @@ def main():
         else:
             cover_url = get_tech_fallback(art["title"] + " " + c["t"])
         html_out = build(art, c, cover_url)
-        fin = f.schedule(tok, art, html_out, list(dict.fromkeys([LABEL0, label])), times[made])
+        fin = f.publish_live(tok, art, html_out, list(dict.fromkeys([LABEL0, label])))
         state["done"][-1].update({"url": fin.get("url"), "title": art["title"]})
-        print("SCHEDULED", times[made].strftime("%H:%M"), fin.get("url"), "|", art["title"])
+        print("PUBLISHED LIVE", fin.get("url"), "|", art["title"])
         existing.append(art["title"])
         made += 1
     state["done"] = state["done"][-400:]

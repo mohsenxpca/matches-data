@@ -26,6 +26,14 @@ REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "10"))
 
 EUR_RATES = {"egp": 52.0, "sar": 4.05, "aed": 3.97}
 CNY_RATES = {"egp": 6.8, "sar": 0.527, "aed": 0.516}
+
+FALLBACK_PHONE_PHOTOS = [
+    "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "https://images.pexels.com/photos/40739/mobile-phone-smartphone-tablet-touch-screen-40739.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+]
+
 DISCLAIMER = "هذه المراجعة مبنية على المواصفات الرسمية والمصادر المعلنة، وليست تجربة استخدام شخصية."
 
 BRANDS = [
@@ -441,6 +449,8 @@ def main():
             pub_url = cand["link"]
 
         src_text, photos = fetch_article_data(pub_url)
+        if not photos:
+            photos = random.sample(FALLBACK_PHONE_PHOTOS, 3)
         if not src_text or len(src_text) < 400:
             print(f"  Insufficient text ({len(src_text) if src_text else 0} chars). Skipping.")
             continue

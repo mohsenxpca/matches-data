@@ -120,6 +120,34 @@ def ping_indexnow(urls):
         pass
 
 
+
+def check_phone_news(art, src_text, orig_title, existing_titles, min_words=450):
+    if not art or not isinstance(art, dict):
+        return ["لم يتم استلام مسودة صالحة"]
+    errs = []
+    body_text = BeautifulSoup(art.get("body", ""), "html.parser").get_text(" ")
+    words = len(body_text.split())
+    if words < min_words:
+        errs.append(f"طول الخبر قصير ({words} كلمة، والمطلوب {min_words}+ كلمة)")
+    title = art.get("title", "").strip()
+    if not title or len(title) > 75:
+        errs.append(f"العنوان غير صالح أو أطول من 75 حرف ({len(title)} حرف)")
+    for ex in existing_titles:
+        if difflib.SequenceMatcher(None, f.norm(title), f.norm(ex)).ratio() >= 0.75:
+            errs.append(f"العنوان مكرر أو قريب جداً من خبر منشور: {ex}")
+            break
+    slug = art.get("slug", "").strip()
+    if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+){2,6}", slug):
+        errs.append(f"الـ slug غير صالح ({slug}): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة")
+    desc = art.get("desc", "").strip()
+    if len(desc) < 90 or len(desc) > 185:
+        errs.append(f"وصف البحث ({len(desc)} حرف) يجب أن يكون بين 100 و 175 حرفاً")
+    full_text = (title + " " + body_text + " " + desc).lower()
+    for b in f.BANNED:
+        if b.lower() in full_text:
+            errs.append(f"تم ذكر اسم موقع محظور ({b}) في صلب الخبر")
+    return errs
+
 def main():
     dry = os.environ.get("DRY_RUN") == "1"
     now = datetime.datetime.now(CAIRO)
@@ -216,9 +244,15 @@ def main():
             }
             errs = []
         else:
-            prompt = PHONE_PROMPT.format(orig_title=cand["title"], src_text=src_text[:5000])
-            art = f.gemini(prompt)
-            errs = f.check(art, src_text + " " + cand["title"], "", all_known_titles, min_words=450)
+            extra, art, errs = "", None, ["no draft"]
+            for attempt in range(2):
+                prompt = PHONE_PROMPT.format(orig_title=cand["title"], src_text=src_text[:5000]) + extra
+                art = f.gemini(prompt)
+                errs = check_phone_news(art, src_text, cand["title"], all_known_titles, min_words=450)
+                if not errs:
+                    break
+                print(f"  Retry needed ({len(errs)} issues): {errs}")
+                extra = "\nتنبيه: أعد كتابة الخبر وتصحيح الملاحظات بدقة مع تجاوز 450 كلمة: " + " | ".join(errs) + "\n"
 
         if errs:
             print("  Fact check failed:", errs)

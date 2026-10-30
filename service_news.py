@@ -326,9 +326,15 @@ def main():
                 }
                 errs = []
             else:
-                prompt = PROMPT_TEMPLATE.format(orig_title=orig_title, src_text=src_text[:6000])
-                art = f.gemini(prompt)
-                errs = check_facts(art, src_text, all_known_titles)
+                extra, art, errs = "", None, ["no draft"]
+                for attempt in range(2):
+                    prompt = PROMPT_TEMPLATE.format(orig_title=orig_title, src_text=src_text[:6000]) + extra
+                    art = f.gemini(prompt)
+                    errs = check_facts(art, src_text, all_known_titles)
+                    if not errs:
+                        break
+                    print(f"    Fact check retry needed ({len(errs)} issues): {errs}")
+                    extra = "\nتنبيه: أعد صياغة الخبر وتصحيح الملاحظات بدقة (ممنوع ذكر اسم أي جريدة أو موقع إخباري، واجعل نص المقال طويلاً ومفصلاً يتجاوز 450 كلمة): " + " | ".join(errs) + "\n"
 
             if errs:
                 print("    Fact check failed:", errs)

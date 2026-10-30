@@ -714,6 +714,10 @@ def main():
             os.makedirs("out", exist_ok=True)
             open(f"out/{art['slug']}.html", "w", encoding="utf-8").write(f"<h1>{html.escape(art['title'])}</h1>\n" + html_out)
             print("DRY", art["title"], "->", f"out/{art['slug']}.html", "| desc:", art["desc"])
+        elif FAST:
+            fin = publish_live(tok, art, html_out, labels)
+            state["done"][-1].update({"url": fin.get("url"), "when": datetime.datetime.now(CAIRO).isoformat(), "title": art["title"], "desc": art["desc"]})
+            print("PUBLISHED LIVE", fin.get("status"), fin.get("url"), "|", art["title"])
         else:
             when = times[made]
             d = api("POST", f"/blogs/{BLOG}/posts", tok, {"isDraft": "true"},
