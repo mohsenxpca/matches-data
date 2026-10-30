@@ -17,6 +17,7 @@ Usage:
   python egypt_trends.py --dry               # Dry run (prints draft without publishing)
 """
 import datetime, difflib, html, json, os, random, re, sys, time, urllib.parse
+sys.stdout.reconfigure(encoding="utf-8")
 from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
@@ -141,7 +142,7 @@ def decode_gn_link(link):
 def fetch_publisher_article(url):
     """Fetches publisher URL, extracts real high-res news photo (og:image) and full factual text."""
     try:
-        resp = requests.get(url, headers=UA, timeout=25)
+        resp = requests.get(url, headers=UA, timeout=25, verify=False)
         if resp.status_code != 200:
             return None, None
         soup = BeautifulSoup(resp.text, "html.parser")
@@ -165,7 +166,7 @@ def fetch_publisher_article(url):
                         break
 
         # 2. Extract clean body text
-        container = soup.find("article") or soup.find("div", class_=re.compile(r"article-body|story-body|post-content|entry-content", re.I)) or soup.find("main") or soup
+        container = soup.find("div", id="articleBody") or soup.find("article") or soup.find("div", class_=re.compile(r"article-body|story-body|post-content|entry-content|news-details|details", re.I)) or soup.find("main") or soup
         for unwanted in container.find_all(["script", "style", "iframe", "noscript", "nav", "aside", "header", "footer"]):
             unwanted.decompose()
 
@@ -179,9 +180,32 @@ def fetch_publisher_article(url):
 
 
 def get_trend_candidates(custom_query=None):
-    """Gathers fresh Egyptian trend candidates."""
+    """Gathers fresh Egyptian trend candidates from major publishers (Masrawy, Youm7, Elbalad) & Google Trends."""
     candidates = []
     seen_urls = set()
+
+    # 1. Direct High-Authority Egyptian Publishers (Masrawy, Youm7, Elbalad, Almasry Alyoum)
+    direct_feeds = [
+        ("Masrawy Breaking", "https://www.masrawy.com/rss/feed/25/" + urllib.parse.quote("أخبار")),
+        ("Masrawy Egypt", "https://www.masrawy.com/rss/feed/35/" + urllib.parse.quote("مصر")),
+        ("Masrawy Economy", "https://www.masrawy.com/rss/feed/206/" + urllib.parse.quote("إقتصاد")),
+        ("Masrawy Sports", "https://www.masrawy.com/rss/feed/27/" + urllib.parse.quote("رياضة")),
+        ("Youm7 Breaking", "https://www.youm7.com/rss/SectionRss?SectionID=65"),
+        ("Elbalad Breaking", "https://www.elbalad.news/rss.aspx"),
+        ("Almasry Alyoum", "https://www.almasryalyoum.com/rss/rssfeeds")
+    ]
+    for feed_name, feed_url in direct_feeds:
+        try:
+            r = requests.get(feed_url, headers=UA, timeout=12, verify=False)
+            soup = BeautifulSoup(r.content, "xml")
+            for it in soup.find_all("item")[:6]:
+                t = (it.find("title").text if it.find("title") else "").strip()
+                link = (it.find("link").text if it.find("link") else "").strip()
+                if t and link and link not in seen_urls and not re.search(AVOID_REGEX, t, re.I):
+                    seen_urls.add(link)
+                    candidates.append({"t": t, "link": link, "type": "publisher_rss", "source": feed_name})
+        except Exception as e:
+            print(f"Warning: {feed_name} feed error: {e}")
 
     # If user provided a specific topic on the command line
     if custom_query:
@@ -435,7 +459,11 @@ def main():
 
             existing_site_titles.append(art["title"])
             published_count += 1
-            break  # Post 1 breaking trend per run
+            if published_count >= COUNT:
+                print(f"\n🎯 Reached batch target ({COUNT} posts published). Exiting.")
+                break
+            print(f"\n⏳ Pausing 20 seconds before next breaking trend...")
+            time.sleep(20)
         except Exception as e:
             print(f"❌ Failed to publish post: {e}")
             state["done"].append({"u": cand["link"], "t": cand["t"], "at": today_str, "ok": False, "reason": str(e)})
