@@ -39,6 +39,72 @@
    "at": "2026-10-30T20:01:35.399749+02:00",
    "ok": true,
    "brand": "اخرى"
+  },
+  {
+   "title": "OnePlus 16 vs OPPO Find X10: Snapdragon Power or 200MP Camera?",
+   "url": "https://www.gizmochina.com/2026/10/30/oneplus-16-vs-oppo-find-x10/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Model code [x10] found in existing: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
+  },
+  {
+   "title": "Motorola Signature 27, Razr Flex 27 retail listings hint at $1,500+ price tag",
+   "url": "https://www.gizmochina.com/2026/10/30/motorola-signature-27-razr-flex-27-retail-listings-hint-at-1500-price-tag/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
+  },
+  {
+   "title": "Huawei’s next-foldable could feature 50MP RYYB telephoto and Kirin 9050 Pro",
+   "url": "https://www.gizmochina.com/2026/10/30/huawei-mate-x8-kirin-9050-pro-camera-matepad-mini-2nd-gen-leak/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": [
+    "العنوان غير صالح أو أطول من 75 حرف (82 حرف)"
+   ]
+  },
+  {
+   "title": "Huawei MatePad Pro Review: The Screen Alone Is Worth a Look",
+   "url": "https://www.gizmochina.com/2026/10/30/huawei-matepad-pro-review-the-screen-alone-is-worth-a-look/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (719 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
+   ]
+  },
+  {
+   "title": "Are Robots Really Productive? AGIBOT’s New Worken Framework Has an Answer",
+   "url": "https://www.gizmochina.com/2026/10/30/agibot-worken-robot-productivity-framework/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": [
+    "العنوان غير صالح أو أطول من 75 حرف (85 حرف)"
+   ]
+  },
+  {
+   "title": "Google’s Pixel 11 drops to $699 on Amazon US, and the rest of the lineup is on sale too",
+   "url": "https://www.gizmochina.com/2026/10/30/googles-pixel-11-drops-to-699-on-amazon-us-and-the-rest-of-the-lineup-is-on-sale-too/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Phrase [google pixel] found in existing: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
+  },
+  {
+   "title": "Samsung launches a premium version of the Z Fold 8 Ultra in China for $2,850",
+   "url": "https://www.gizmochina.com/2026/10/30/samsung-launches-a-premium-version-of-the-z-fold-8-ultra-in-china-for-2850/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (873 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
+    "العنوان غير صالح أو أطول من 75 حرف (78 حرف)"
+   ]
+  },
+  {
+   "title": "مراجعة Honor 700 و 700 Pro: ثورة في التصوير والشاشات الخلفية بمواصفات خارقة",
+   "url": "https://www.gizmochina.com/2026/10/30/honor-700-series-telephoto-extender-rear-display-leak/",
+   "post_url": "https://www.review-mobile.com/2026/10/honor-700-pro-review-specs.html",
+   "at": "2026-10-30T20:41:51.810522+02:00",
+   "ok": true,
+   "brand": "هونر"
   }
  ]
 }
