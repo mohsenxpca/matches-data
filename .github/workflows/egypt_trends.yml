@@ -29,9 +29,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4 lxml pillow
-      - run: python -u egypt_trends.py ${{ github.event.inputs.topic && format('"{0}"', github.event.inputs.topic) || '' }}
+      - run: python -u egypt_trends.py
         env:
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          TOPIC: ${{ github.event.inputs.topic || '' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
@@ -48,5 +49,6 @@ jobs:
           git add egypt_trends_posted.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "egypt trend post $(TZ=Africa/Cairo date +%F_%H:%M)"
-          git pull --rebase origin main
-          git push origin main
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done

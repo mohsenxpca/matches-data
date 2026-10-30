@@ -136,7 +136,7 @@ def ping_indexnow(urls):
 
 def main():
     dry = os.environ.get("DRY_RUN") == "1"
-        now = datetime.datetime.now(CAIRO)
+    now = datetime.datetime.now(CAIRO)
 
     today = now.date().isoformat()
     print(f"[{now:%Y-%m-%d %H:%M}] Starting Saudi & Gulf Trends Engine...")

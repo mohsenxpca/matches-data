@@ -29,9 +29,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4 lxml pillow
-      - run: python -u review_engine.py ${{ github.event.inputs.phone_model && format('"{0}"', github.event.inputs.phone_model) || '' }}
+      - run: python -u review_engine.py
         env:
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          PHONE_MODEL: ${{ github.event.inputs.phone_model || '' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
@@ -46,5 +47,6 @@ jobs:
           git add review_posted.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "review post $(TZ=Africa/Cairo date +%F_%H:%M)"
-          git pull --rebase origin main
-          git push origin main
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done

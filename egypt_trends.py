@@ -253,11 +253,11 @@ def get_trend_candidates(custom_query=None):
 
 def main():
     dry = "--dry" in sys.argv or os.environ.get("DRY_RUN") == "1"
-    custom_topic = None
-    for arg in sys.argv[1:]:
-        if not arg.startswith("--"):
-            custom_topic = arg.strip()
-            break
+    custom_topic = os.environ.get("TOPIC") or next((arg for arg in sys.argv[1:] if not arg.startswith("--")), None)
+    if custom_topic:
+        custom_topic = custom_topic.strip()
+    if not custom_topic:
+        custom_topic = None
 
     print("=" * 65)
     print("🚀 EGYPTAWAY INSTANT BREAKING TRENDS ENGINE (نشر فوري)")
@@ -301,7 +301,7 @@ def main():
         return
 
     # Check daily cap if automated
-        today_str = datetime.datetime.now(CAIRO).date().isoformat()
+    today_str = datetime.datetime.now(CAIRO).date().isoformat()
     today_posts = [d for d in state.get("done", []) if d.get("at", "").startswith(today_str) and d.get("ok")]
     if len(today_posts) >= DAY_CAP and not custom_topic and not dry:
         print(f"Reached daily cap ({DAY_CAP} posts). Exiting.")

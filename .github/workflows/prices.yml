@@ -39,5 +39,6 @@ jobs:
           git add phones.json auto_phones.json pages.json
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "prices $(TZ=Africa/Cairo date +%F)"
-          git pull --rebase origin main
-          git push origin main
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done

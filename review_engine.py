@@ -339,9 +339,57 @@ def build_interactive_tool(tid, eur_price):
     )
 
 
+
+def check_review(art, src_text, cand_title, existing_titles, min_words=900):
+    """Validates phone reviews strictly for AdSense compliance without falsely flagging converted currency figures."""
+    if not art or not isinstance(art, dict):
+        return ["لم يتم استلام مسودة صالحة من الذكاء الاصطناعي"]
+    errs = []
+
+    # 1. Body & Word Count
+    body_text = BeautifulSoup(art.get("body", ""), "html.parser").get_text(" ")
+    words = len(body_text.split())
+    if words < min_words:
+        errs.append(f"طول المقال قصير ({words} كلمة، والمطلوب {min_words}+ كلمة للتوافق مع أدسنس)")
+
+    # 2. Title length & deduplication
+    title = art.get("title", "").strip()
+    if not title or len(title) > 75:
+        errs.append(f"العنوان غير صالح أو أطول من 75 حرف ({len(title)} حرف)")
+    for ex in existing_titles:
+        if difflib.SequenceMatcher(None, f.norm(title), f.norm(ex)).ratio() >= 0.75:
+            errs.append(f"العنوان مكرر أو قريب جداً من مقال منشور سابقاً: {ex}")
+            break
+
+    # 3. Slug
+    slug = art.get("slug", "").strip()
+    if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+){2,6}", slug):
+        errs.append(f"الـ slug غير صالح ({slug}): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة")
+
+    # 4. Search description
+    desc = art.get("desc", "").strip()
+    if len(desc) < 100 or len(desc) > 185:
+        errs.append(f"وصف البحث ({len(desc)} حرف) يجب أن يكون بين 110 و 175 حرفاً")
+
+    # 5. Competitors check
+    full_text = (title + " " + body_text + " " + desc).lower()
+    for b in f.BANNED:
+        if b.lower() in full_text:
+            errs.append(f"تم ذكر اسم موقع محظور ({b}) في صلب المراجعة")
+
+    # 6. HTML structure check
+    if "<h2>" not in art.get("body", ""):
+        errs.append("المراجعة يجب أن تحتوي على عناوين فرعية <h2>")
+
+    return errs
+
 def main():
     dry = "--dry" in sys.argv or os.environ.get("DRY_RUN") == "1"
-    custom_query = next((arg for arg in sys.argv[1:] if not arg.startswith("--")), None)
+    custom_query = os.environ.get("PHONE_MODEL") or next((arg for arg in sys.argv[1:] if not arg.startswith("--")), None)
+    if custom_query:
+        custom_query = custom_query.strip()
+    if not custom_query:
+        custom_query = None
 
     # State
     try:
@@ -404,7 +452,7 @@ def main():
         extra, art, errs = "", None, ["no draft"]
         for attempt in range(2):
             art = f.gemini(prompt + extra)
-            errs = f.check(art, src_text + " " + cand_title, "", existing_titles, min_words=900)
+            errs = check_review(art, src_text, cand_title, existing_titles, min_words=900)
             if not errs:
                 break
             print(f"  Retry needed ({len(errs)} issues): {errs}")

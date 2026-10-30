@@ -166,7 +166,7 @@ def main():
     tok = f.token()
     posts = f.site_posts(tok)
     existing = [p["t"] for p in posts]
-        now = datetime.datetime.now(f.CAIRO)
+    now = datetime.datetime.now(f.CAIRO)
 
     today = now.date().isoformat()
     sched = f.api("GET", f"/blogs/{f.BLOG}/posts", tok, {"status": ["live", "scheduled"], "fetchBodies": "false",

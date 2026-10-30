@@ -36,5 +36,6 @@ jobs:
           git add phone_news_posted.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "phone news check $(TZ=Africa/Cairo date +%F_%H:%M)"
-          git pull --rebase origin main
-          git push origin main
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done
