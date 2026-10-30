@@ -81,7 +81,10 @@ def links(skip):
 
 
 def faq(items):
-    return "<h2>أسئلة شائعة</h2>" + "".join(f"<details><summary>{E(q)}</summary><p>{E(a)}</p></details>" for q, a in items)
+    entities = [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in items]
+    schema = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": entities}
+    schema_script = f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>'
+    return "<h2>أسئلة شائعة</h2>" + "".join(f"<details><summary>{E(q)}</summary><p>{E(a)}</p></details>" for q, a in items) + schema_script
 
 
 # ---------------------------------------------------------------- prayer
