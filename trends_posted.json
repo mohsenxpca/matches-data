@@ -154,6 +154,22 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/10/prayer-times-egypt-winter-time.html",
    "title": "مواقيت الصلاة اليوم بعد التوقيت الشتوي"
+  },
+  {
+   "q": "موعد اذان الفجر",
+   "at": "2026-10-30",
+   "ok": false
+  },
+  {
+   "q": "benfica vs gil vicente",
+   "at": "2026-10-30",
+   "ok": false
+  },
+  {
+   "q": "al-riyadh vs al-qadsiah fc standings",
+   "at": "2026-10-30",
+   "ok": false,
+   "why": "no source text"
   }
  ]
 }
