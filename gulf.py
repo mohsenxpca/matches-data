@@ -22,6 +22,12 @@ COUNTRIES = {
                                           ("Al Ain", "العين"), ("Ras Al Khaimah", "رأس الخيمة"), ("Fujairah", "الفجيرة")]},
     "kw": {"name": "الكويت", "cur": "KWD", "cur_ar": "دينار", "cur_full": "الدينار الكويتي", "country": "Kuwait", "method": 9,
            "tz": "Asia/Kuwait", "cities": [("Kuwait City", "مدينة الكويت"), ("Al Ahmadi", "الأحمدي"), ("Hawalli", "حولي"), ("Al Jahra", "الجهراء")]},
+    "qa": {"name": "قطر", "cur": "QAR", "cur_ar": "ريال", "cur_full": "الريال القطري", "country": "Qatar", "method": 4,
+           "tz": "Asia/Qatar", "cities": [("Doha", "الدوحة"), ("Al Rayyan", "الريان"), ("Al Wakrah", "الوكرة")]},
+    "bh": {"name": "البحرين", "cur": "BHD", "cur_ar": "دينار", "cur_full": "الدينار البحريني", "country": "Bahrain", "method": 4,
+           "tz": "Asia/Bahrain", "cities": [("Manama", "المنامة"), ("Riffa", "الرفاع"), ("Muharraq", "المحرق")]},
+    "om": {"name": "سلطنة عمان", "cur": "OMR", "cur_ar": "ريال", "cur_full": "الريال العماني", "country": "Oman", "method": 4,
+           "tz": "Asia/Muscat", "cities": [("Muscat", "مسقط"), ("Salalah", "صلالة"), ("Sohar", "صحار")]},
 }
 KARATS = [("24", 1.0), ("22", 22 / 24), ("21", 21 / 24), ("18", 18 / 24)]
 FX_LIST = ["USD", "EUR", "GBP", "EGP", "SAR", "AED", "KWD", "QAR", "OMR", "BHD", "JOD", "TRY", "CNY", "INR", "PKR", "PHP"]

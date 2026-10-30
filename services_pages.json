@@ -89,6 +89,42 @@
   "currency-kw": {
    "id": "8207214978917734783",
    "url": "https://www.egyptaway.com/p/currency-kw.html"
+  },
+  "gold-qa": {
+   "id": "2362665277187118734",
+   "url": "https://www.egyptaway.com/p/gold-qa.html"
+  },
+  "prayer-qa": {
+   "id": "6023612628603155464",
+   "url": "https://www.egyptaway.com/p/prayer-qa.html"
+  },
+  "currency-qa": {
+   "id": "9296558033223915",
+   "url": "https://www.egyptaway.com/p/currency-qa.html"
+  },
+  "gold-bh": {
+   "id": "4760078448869279132",
+   "url": "https://www.egyptaway.com/p/gold-bh.html"
+  },
+  "prayer-bh": {
+   "id": "1513278999010102012",
+   "url": "https://www.egyptaway.com/p/prayer-bh.html"
+  },
+  "currency-bh": {
+   "id": "1318467967336356559",
+   "url": "https://www.egyptaway.com/p/currency-bh.html"
+  },
+  "gold-om": {
+   "id": "8430671220923540082",
+   "url": "https://www.egyptaway.com/p/gold-om.html"
+  },
+  "prayer-om": {
+   "id": "5101661837720420676",
+   "url": "https://www.egyptaway.com/p/prayer-om.html"
+  },
+  "currency-om": {
+   "id": "4551029887786096972",
+   "url": "https://www.egyptaway.com/p/currency-om.html"
   }
  },
  "seasonal": {
