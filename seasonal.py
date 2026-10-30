@@ -19,6 +19,13 @@ AR_NAMES = {"Christmas Day (Orthodox)": "عيد الميلاد المجيد", "R
 DAYS = S.AR_DAYS
 
 
+
+HERO_IMGS = {
+    "holidays": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="جدول الإجازات الرسمية والعطلات في مصر والاستجمام على شاطئ البحر" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "imsakia": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/6207735/pexels-photo-6207735.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="إمساكية شهر رمضان المبارك وفانوس رمضان وهلال الشهر الكريم" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+}
+
+
 def ar_date(d):
     return f"{DAYS[d.weekday()]} {d.day} {S.AR_MONTHS[d.month - 1]} {d.year}"
 
@@ -59,6 +66,7 @@ def holidays(now):
     count_left = len([m for m in merged if m[0] >= today and m[0].year == today.year])
     body = f"""{CSS}<div class="sv">
 <div class="sv-hero">الإجازة الرسمية الجاية: <b>{E(nxt[1]) if nxt else '-'}</b> · {span(nxt) if nxt else ''}<br>فاضل عليها: <b id="sv-cd">-</b><br><small>باقي {count_left} إجازة رسمية في {today.year} · آخر تحديث {ar_date(today)}</small></div>
+{HERO_IMGS["holidays"]}
 {js}
 <h2>جدول الإجازات الرسمية في مصر {today.year}</h2>
 <div class="sv-wrap"><table class="sv-t"><thead><tr><th>المناسبة</th><th>الموعد</th><th></th></tr></thead><tbody>{tr}</tbody></table></div>
@@ -94,6 +102,7 @@ def imsakia(now):
     js = (f"<script>(function(){{var T=new Date('{d0.isoformat()}T00:00:00+02:00'),o=document.getElementById('sv-cd');function f(){{var s=(T-new Date())/1000|0;if(s<=0){{o.textContent='رمضان كريم 🌙';return}}var d=s/86400|0,h=s%86400/3600|0;o.textContent=d+' يوم و'+h+' ساعة'}}f();setInterval(f,60000)}})();</script>")
     body = f"""{CSS}<div class="sv">
 <div class="sv-hero">إمساكية شهر رمضان {hy} هـ في القاهرة<br>أول أيام رمضان المتوقع فلكيًا: <b>{ar_date(d0)}</b><br>فاضل على رمضان: <b id="sv-cd">-</b><br><small>المواعيد بتوقيت القاهرة وبطريقة الهيئة المصرية العامة للمساحة · آخر تحديث {ar_date(now.date())}</small></div>
+{HERO_IMGS["imsakia"]}
 {js}
 <h2>إمساكية رمضان {d0.year} في القاهرة</h2>
 <div class="sv-wrap"><table class="sv-t"><thead><tr><th>اليوم</th><th>التاريخ</th><th>الإمساك</th><th>الفجر</th><th>الظهر</th><th>العصر</th><th>المغرب (الفطار)</th><th>العشاء</th></tr></thead><tbody>{tr}</tbody></table></div>

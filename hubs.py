@@ -45,6 +45,14 @@ PROMPT = """أنت محرر خدمات في موقع ايجبتاوى المصر
 """
 
 
+
+HUB_IMGS = {
+    "salaries": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="مواعيد صرف المرتبات والمعاشات وماكينات الصراف الآلي في مصر" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "exams": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="جداول ومواعيد الامتحانات والمذاكرة والكتب المدرسية في مصر" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "trains": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/221387/pexels-photo-221387.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="مواعيد قطارات السكك الحديدية في مصر ومحطات القطار" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+}
+
+
 def gn_items(q):
     url = "https://news.google.com/rss/search?q=" + urllib.parse.quote(q + " site:elbalad.news when:14d") + "&hl=ar&gl=EG&ceid=EG:ar"
     x = requests.get(url, headers=UA, timeout=30).text
@@ -129,6 +137,7 @@ def build(topic, existing):
     links = '<div class="sv-links">' + "".join(f'<a href="{S.SITE}{u}">{t}</a>' for k, t, u in LINKS if k != topic) + "</div>"
     body = (f'{S.CSS}<div class="sv"><div class="sv-hero"><b>{E(art.get("headline") or art["title"])}</b><br>'
             f'<small>آخر تحديث: {S.stamp(now)} · الصفحة بتتحدث لوحدها كل 6 ساعات من آخر الأخبار</small></div>'
+            + HUB_IMGS.get(topic, "")
             + art["body"].replace("<table", '<div class="sv-wrap"><table class="sv-t"').replace("</table>", "</table></div>")
             + S.faq([(q["q"], q["a"]) for q in art.get("faq", [])[:4]])
             + f'<p class="sv-note">المصادر: {srcs}</p>' + links + "</div>")

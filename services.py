@@ -43,6 +43,15 @@ CSS = ("<style>.sv{--n:#1f2a44;--g:#f59e0b;--o:#ea580c;--c:#fff7ed}.sv-hero{back
        ".sv-note{font-size:13px;color:#6b7280}</style>")
 
 
+
+HERO_IMGS = {
+    "prayer": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/3290075/pexels-photo-3290075.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="مواقيت الصلاة ومآذن مساجد القاهرة التاريخية وقت الغروب" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "currency": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="أسعار العملات وسعر صرف الدولار والجنيه المصري" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "gold": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/8369648/pexels-photo-8369648.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="سعر الذهب وسبائك الذهب عيار 21 وسوق الصاغة في مصر" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "weather": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="حالة الطقس ودرجات الحرارة والسحب في سماء مصر" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+}
+
+
 def get(url, **kw):
     for t in range(3):
         try:
@@ -101,6 +110,7 @@ def prayer(now):
     data = json.dumps([t for _, t in rows])
     body = f"""{CSS}<div class="sv">
 <div class="sv-hero">مواقيت الصلاة في القاهرة اليوم <b>{stamp(now).split(' الساعة')[0]}</b> الموافق <b>{hijri}</b><br>الصلاة الجاية: <b id="sv-next">{nxt[0]} {nxt[1]}</b><br><small>آخر تحديث: {stamp(now)} بتوقيت القاهرة</small></div>
+{HERO_IMGS["prayer"]}
 <div class="sv-grid">{cards}</div>
 <script>(function(){{var T={json.dumps(cairo)},N={json.dumps(dict(PRAYERS))},n=new Date(new Date().toLocaleString("en-US",{{timeZone:"Africa/Cairo"}})),h=("0"+n.getHours()).slice(-2)+":"+("0"+n.getMinutes()).slice(-2),k=["Fajr","Dhuhr","Asr","Maghrib","Isha"].find(function(x){{return T[x]>h}})||"Fajr";document.getElementById("sv-next").textContent=N[k]+" "+T[k];}})();</script>
 <div class="sv-tool"><b>مواقيت الصلاة في محافظتك:</b> <select id="sv-city">{opts}</select><div class="out" id="sv-out"></div></div>
@@ -141,6 +151,7 @@ def currency(now, rates, prev):
     usd = rates["USD"]
     body = f"""{CSS}<div class="sv">
 <div class="sv-hero">سعر الدولار اليوم في مصر <b><span data-fx="USD">{fmt(usd)}</span> جنيه</b> · {stamp(now)}<br><small>سعر الصرف الرسمي في مصر · الصفحة بتشيّك على السعر كل دقيقة · آخر تحديث <span id="sv-upd">{now:%H:%M}</span></small></div>
+{HERO_IMGS["currency"]}
 <div class="sv-grid">{cards}</div>
 <div class="sv-tool"><b>حوّل بين العملات والجنيه:</b><br><input id="sv-a" type="number" value="100" min="0"> <select id="sv-c">{opts}</select>
 <select id="sv-d"><option value="1">إلى جنيه مصري</option><option value="0">من جنيه مصري</option></select><div class="out" id="sv-r"></div></div>
@@ -192,6 +203,7 @@ def gold(now, oz_usd, usd, prev):
     tr += f'<tr><td><b>الأونصة عالميًا</b></td><td colspan="2">{fmt(oz_usd, 0)} دولار = {fmt(oz_usd * usd, 0)} جنيه</td></tr>'
     body = f"""{CSS}<div class="sv">
 <div class="sv-hero">سعر جرام الذهب عيار 21 في مصر اليوم <b><span data-g="21.sell">{fmt(m["21"]["sell"], 0)}</span> جنيه</b>{trend}<br><small>أسعار سوق الصاغة في مصر (بيع وشراء من غير مصنعية) · بتتحدث كل دقيقة · آخر تحديث <span id="sv-upd">{now:%H:%M}</span></small></div>
+{HERO_IMGS["gold"]}
 <div class="sv-grid">{cards}</div>
 <div class="sv-tool"><b>احسب تمن الذهب اللي معاك:</b><br><input id="sv-w" type="number" value="10" min="0" step="0.1"> جرام
 <select id="sv-k">{"".join(f'<option value="{k}"{" selected" if k == "21" else ""}>{n}</option>' for k, n in K)}</select>
@@ -234,6 +246,7 @@ def weather(now):
     ic, tx = WCODE.get(c0["weather_code"], ("🌡️", ""))
     body = f"""{CSS}<div class="sv">
 <div class="sv-hero">الطقس في القاهرة دلوقتي <b>{ic} {round(c0["temperature_2m"])}°</b> {tx} · الرطوبة {c0["relative_humidity_2m"]}% · الرياح {round(c0["wind_speed_10m"])} كم/س<br><small>آخر تحديث: {stamp(now)}</small></div>
+{HERO_IMGS["weather"]}
 <div class="sv-grid">{cards}</div>
 <h2>توقعات الطقس في مصر لمدة 7 أيام</h2>
 <div class="sv-wrap"><table class="sv-t"><thead><tr><th>المحافظة</th>{days}</tr></thead><tbody>{tr}</tbody></table></div>
