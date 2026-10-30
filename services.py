@@ -291,6 +291,7 @@ def convert(now, rates, c, amount):
     others = "".join(f'<a href="{SITE}/p/{c2.lower()}-{a2}-to-egp.html">{a2:,} {CUR_SHORT[c2]}</a>' for c2, a2 in CONV if (c2, a2) != (c, amount))
     body = f"""{CSS}<div class="sv">
 <div class="sv-hero">{amount:,} {short} كام جنيه مصري النهارده؟<br><b style="font-size:28px"><span data-cx="{amount}">{fmt(amount * r)} جنيه</span></b><br><small>سعر {E(CUR_NAME[c])} = <span data-fx="{c}" data-n="4">{r:.4f}</span> جنيه · السعر الرسمي · بيتحدث كل دقيقة · آخر تحديث <span id="sv-upd">{now:%H:%M}</span></small></div>
+{HERO_IMGS["currency"]}
 <div class="sv-tool"><b>حوّل أي مبلغ:</b><br><input id="sv-a" type="number" value="{amount}" min="0"> {short} = <span class="out" id="sv-r"></span></div>
 <script>(function(){{var C='{c}',R0={r:.6f};function rate(){{return (window.__G&&window.__G.fx&&window.__G.fx[C])||R0}}function g(i){{return document.getElementById(i)}}function f(){{var r=rate(),a=parseFloat(g('sv-a').value)||0;g('sv-r').textContent=(a*r).toLocaleString('en-US',{{maximumFractionDigits:2}})+' جنيه';[].forEach.call(document.querySelectorAll('[data-cx]'),function(e){{e.textContent=(+e.getAttribute('data-cx')*r).toLocaleString('en-US',{{minimumFractionDigits:2,maximumFractionDigits:2}})+' جنيه'}});[].forEach.call(document.querySelectorAll('[data-cr]'),function(e){{e.textContent=(+e.getAttribute('data-cr')/r).toLocaleString('en-US',{{maximumFractionDigits:2}})+' {short}'}})}}g('sv-a').oninput=f;window.__onlive=f;f();}})();</script>
 {LIVE_JS}

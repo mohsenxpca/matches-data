@@ -31,6 +31,16 @@ FX_AR = {"USD": "الدولار الأمريكي", "EUR": "اليورو", "GBP":
          "PHP": "البيزو الفلبيني"}
 
 
+
+GULF_HERO_IMGS = {
+    "gold": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/8369648/pexels-photo-8369648.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="سعر الذهب وسبائك الذهب في الخليج" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "prayer-sa": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/4388164/pexels-photo-4388164.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="مواقيت الصلاة في مكة المكرمة والمسجد الحرام والكعبة المشرفة" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "prayer-ae": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="مواقيت الصلاة في الإمارات وجامع الشيخ زايد الكبير بأبوظبي" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "prayer-kw": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/3290075/pexels-photo-3290075.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="مواقيت الصلاة في الكويت ومآذن المساجد" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "currency": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="أسعار العملات وصرف العملات العربية والخليجية" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+}
+
+
 def gulf_links(skip):
     L = []
     for cc, c in COUNTRIES.items():
@@ -64,6 +74,7 @@ def gold(cc, now, oz_usd, R):
           f"['sv-w','sv-k'].forEach(function(i){{g(i).oninput=function(){{put(window.__X||B)}};g(i).onchange=g(i).oninput}});put(B);upd();setInterval(upd,60000);}})();</script>")
     body = f"""{CSS}<div class="sv">
 <div class="sv-hero">سعر جرام الذهب عيار 21 في {c['name']} اليوم <b><span data-k="{21 / 24}">{fmt(g['21'], dec)}</span> {c['cur_ar']}</b> · عيار 24 <b><span data-k="1">{fmt(g['24'], dec)}</span> {c['cur_ar']}</b><br><small>{stamp(now)} · محسوب من سعر الأونصة العالمي ويتحدث كل دقيقة · آخر تحديث <span id="sv-upd">{now:%H:%M}</span></small></div>
+{GULF_HERO_IMGS["gold"]}
 <div class="sv-grid">{cards}</div>
 <div class="sv-tool"><b>احسب قيمة الذهب الذي تملكه:</b><br><input id="sv-w" type="number" value="10" min="0" step="0.1"> جرام
 <select id="sv-k">{"".join(f'<option value="{p}"{" selected" if k == "21" else ""}>عيار {k}</option>' for k, p in KARATS)}</select>
@@ -98,6 +109,7 @@ def prayer(cc, now):
     opts = "".join(f'<option value="{i}">{E(n)}</option>' for i, (n, _) in enumerate(rows))
     body = f"""{CSS}<div class="sv">
 <div class="sv-hero">مواقيت الصلاة في {cap} اليوم <b>{stamp(now)}</b> الموافق <b>{hijri}</b><br>الصلاة القادمة: <b id="sv-next">-</b><br><small>بتوقيت {c['name']} المحلي · يتم التحديث يوميًا</small></div>
+{GULF_HERO_IMGS.get(f"prayer-{cc}", GULF_HERO_IMGS["prayer-sa"])}
 <div class="sv-grid">{cards}</div>
 <script>(function(){{var T={json.dumps(first)},N={json.dumps(dict(S.PRAYERS))},n=new Date(new Date().toLocaleString("en-US",{{timeZone:"{c['tz']}"}})),h=("0"+n.getHours()).slice(-2)+":"+("0"+n.getMinutes()).slice(-2),k=["Fajr","Dhuhr","Asr","Maghrib","Isha"].find(function(x){{return T[x]>h}})||"Fajr";document.getElementById("sv-next").textContent=N[k]+" "+T[k];}})();</script>
 <div class="sv-tool"><b>مواقيت الصلاة في مدينتك:</b> <select id="sv-city">{opts}</select><div class="out" id="sv-out"></div></div>
@@ -123,6 +135,7 @@ def currency(cc, now, R):
     opts = "".join(f'<option value="{x}">{E(FX_AR[x])}</option>' for x in rate)
     body = f"""{CSS}<div class="sv">
 <div class="sv-hero">سعر الدولار في {c['name']} اليوم <b>{fmt(rate['USD'], 4)} {c['cur_ar']}</b> · الجنيه المصري <b>{fmt(rate['EGP'], 4)} {c['cur_ar']}</b><br><small>{stamp(now)} · أسعار الصرف المرجعية · آخر تحديث {now:%H:%M}</small></div>
+{GULF_HERO_IMGS["currency"]}
 <div class="sv-grid">{cards}</div>
 <div class="sv-tool"><b>حوّل بين العملات و{E(c['cur_full'])}:</b><br><input id="sv-a" type="number" value="100" min="0"> <select id="sv-c">{opts}</select>
 <select id="sv-d"><option value="1">إلى {c['cur_ar']}</option><option value="0">من {c['cur_ar']}</option></select><div class="out" id="sv-r"></div></div>
