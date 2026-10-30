@@ -524,28 +524,39 @@ def main():
             state["done"].append({"title": cand_title, "url": cand["link"], "at": today_str, "ok": False, "reason": errs})
             continue
 
-        # 4. Construct Authentic Phone Images (3-4 photos with wsrv.nl proxy)
-        lead_img_html = ""
+        # 4. Construct Authentic Phone Images (Direct URLs for instant Blogger thumbnail generation)
+        clean_photos = []
+        for p in photos:
+            if not p:
+                continue
+            if p.startswith("//"):
+                p = "https:" + p
+            p = p.replace("&amp;", "&").replace("&", "&amp;")
+            clean_photos.append(p)
+
+        if not clean_photos:
+            clean_photos = [random.choice(FALLBACK_PHONE_PHOTOS)]
+
+        p0 = clean_photos[0]
+        lead_img_html = (f'<figure class="rv-fig">'
+                         f'<img src="{p0}" alt="{html.escape(art["title"])}" width="1000" height="563" loading="eager"/>'
+                         f'<figcaption>الهاتف {html.escape(art.get("brand", ""))} في أحدث ظهور رسمي له</figcaption>'
+                         f'</figure>')
+
         second_img_html = ""
         third_img_html = ""
-        if photos:
-            p0 = f"https://wsrv.nl/?url={urllib.parse.quote(photos[0])}&w=1000&output=webp&q=75"
-            lead_img_html = (f'<figure class="rv-fig">'
-                             f'<img src="{p0}" alt="{html.escape(art["title"])}" width="1000" height="563" loading="eager"/>'
-                             f'<figcaption>الهاتف {html.escape(art.get("brand", ""))} في أحدث ظهور رسمي له</figcaption>'
+        if len(clean_photos) > 1:
+            p1 = clean_photos[1]
+            second_img_html = (f'<figure class="rv-fig">'
+                              f'<img src="{p1}" alt="تفاصيل تصميم {html.escape(art["title"])}" width="1000" height="563" loading="lazy"/>'
+                              f'<figcaption>تصميم الكاميرات والواجهة الخلفية</figcaption>'
+                              f'</figure>')
+        if len(clean_photos) > 2:
+            p2 = clean_photos[2]
+            third_img_html = (f'<figure class="rv-fig">'
+                             f'<img src="{p2}" alt="مواصفات شاشة ومنافذ {html.escape(art["title"])}" width="1000" height="563" loading="lazy"/>'
+                             f'<figcaption>الشاشة ومنافذ الهاتف</figcaption>'
                              f'</figure>')
-            if len(photos) > 1:
-                p1 = f"https://wsrv.nl/?url={urllib.parse.quote(photos[1])}&w=1000&output=webp&q=75"
-                second_img_html = (f'<figure class="rv-fig">'
-                                   f'<img src="{p1}" alt="تفاصيل تصميم {html.escape(art["title"])}" width="1000" height="563" loading="lazy"/>'
-                                   f'<figcaption>تفاصيل الكاميرات والخامات الخلفية للهاتف</figcaption>'
-                                   f'</figure>')
-            if len(photos) > 2:
-                p2 = f"https://wsrv.nl/?url={urllib.parse.quote(photos[2])}&w=1000&output=webp&q=75"
-                third_img_html = (f'<figure class="rv-fig">'
-                                  f'<img src="{p2}" alt="شاشة وتصميم {html.escape(art["title"])}" width="1000" height="563" loading="lazy"/>'
-                                  f'<figcaption>واجهة وشاشة الهاتف والألوان المتاحة</figcaption>'
-                                  f'</figure>')
 
         # 5. Interactive Tool & Structure
         tid = "rv" + str(random.randint(100, 999))
