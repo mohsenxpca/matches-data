@@ -314,6 +314,44 @@
       "has_real_photo": true,
       "at": "2026-10-30T21:01:06.308895+02:00",
       "ok": true
+    },
+    {
+      "title": "أسبوع مهلة جديدة، رابط حجز شقق الإيجار سكن لكل المصريين 9",
+      "url": "https://www.vetogate.com/5760214",
+      "at": "2026-10-30T21:31:06.334749+02:00",
+      "ok": false,
+      "err": [
+        "طول المقال قصير جداً (448 كلمة، المطلوب 450+)"
+      ]
+    },
+    {
+      "title": "هل تنطبق عليك شروط \"سكن لكل المصريين 9\"؟ تعرف على السن والدخل المطلوب",
+      "url": "https://www.dostor.org/5758156",
+      "at": "2026-10-30T21:31:06.334749+02:00",
+      "ok": false,
+      "err": [
+        "طول المقال قصير جداً (439 كلمة، المطلوب 450+)"
+      ]
+    },
+    {
+      "title": "استثمار 100 ألف جنيه في بنك مصر: تعرف على عوائد الشهادات",
+      "orig": "لو معاك 100 ألف جنيه.. كم تحصل على عائد من شهادات بنك مصر؟",
+      "url": "https://www.almasryalyoum.com/news/details/4397114",
+      "post_url": "https://www.egyptaway.com/2026/10/bank-misr-certificates-returns-100k.html",
+      "topic": "banks",
+      "has_real_photo": true,
+      "at": "2026-10-30T21:31:06.334749+02:00",
+      "ok": true
+    },
+    {
+      "title": "أسعار الوقود الجديدة: تقلبات عالمية وزيادات محلية في الأسواق",
+      "orig": "أسعار الوقود اليوم، 30 أكتوبر 2026: تتقلب الأسعار المحلية والدولية في اتجاهين متعاكسين.",
+      "url": "https://www.vietnam.vn/ar/gia-xang-dau-hom-nay-30-10-2026-trong-nuoc-va-the-gioi-bien-dong-trai-chieu",
+      "post_url": "https://www.egyptaway.com/2026/10/fuel-prices-global-local-update.html",
+      "topic": "fuel",
+      "has_real_photo": true,
+      "at": "2026-10-30T21:31:06.334749+02:00",
+      "ok": true
     }
   ]
 }
