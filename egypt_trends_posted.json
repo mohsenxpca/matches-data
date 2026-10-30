@@ -228,6 +228,30 @@
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
     "الوصف لازم 140-160 حرف"
    ]
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_egypt/details/2026/10/31/3071171/%D9%85%D8%A7-%D8%AD%D9%83%D9%85-%D8%A7%D8%B3%D8%AA%D8%B9%D8%B1%D8%A7%D8%B6-%D8%A7%D9%84%D9%86%D8%B9%D9%85-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D8%A7%D9%82%D8%B9-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B5%D9%84-%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0-%D9%81%D9%82%D9%87-%D9%8A%D9%88%D8%B6%D8%AD",
+   "t": "ما حكم استعراض النعم على مواقع التواصل؟.. أستاذ فقه يوضح",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Blogger 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Resource has been exhausted (e.g. check quota).\",\n    \"errors\": [\n      {\n        \"message\": \"Resource has been exhausted (e.g. check quota).\",\n        \"domain\": \"global\",\n        \"reason\": \"rateLimitExceeded\"\n      }\n    ],\n    \"status\": \"RESOURCE_EXH"
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_egypt/details/2026/10/31/3071206/-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%85%D9%84%D8%AA%D9%82%D9%89-%D8%A7%D9%84%D9%87%D9%86%D8%A7%D8%AC%D8%B1-%D9%8A%D9%86%D8%A7%D9%82%D8%B4-%D9%83%D9%8A%D9%81-%D8%A3%D8%B5%D8%A8%D8%AD-%D8%B9%D8%A8%D9%88%D8%B1-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-%D8%B0%D8%A7%D9%83%D8%B1%D8%A9-%D9%88%D8%B7%D9%86",
+   "t": "اليوم.. ملتقى الهناجر يناقش كيف أصبح عبور أكتوبر ذاكرة وطن",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 7",
+    "الـ body 478 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_egypt/details/2026/10/31/3071173/%D8%A3%D8%B3%D8%AA%D8%A7%D8%B0-%D8%A8%D8%A7%D9%84%D8%A3%D8%B2%D9%87%D8%B1-%D9%8A%D9%88%D8%B6%D8%AD-%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9-%D9%81%D9%8A-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%A8%D9%86%D8%A7%D8%A1-%D9%85%D9%86-%D9%85%D8%AE%D8%A7%D8%B7%D8%B1-%D8%A7%D9%84%D9%87%D9%88%D8%A7%D8%AA%D9%81-%D9%88%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA",
+   "t": "أستاذ بالأزهر يوضح دور الأسرة في حماية الأبناء من مخاطر الهواتف والتطبيقات",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Blogger 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Resource has been exhausted (e.g. check quota).\",\n    \"errors\": [\n      {\n        \"message\": \"Resource has been exhausted (e.g. check quota).\",\n        \"domain\": \"global\",\n        \"reason\": \"rateLimitExceeded\"\n      }\n    ],\n    \"status\": \"RESOURCE_EXH"
   }
  ]
 }
