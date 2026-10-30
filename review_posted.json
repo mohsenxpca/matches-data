@@ -177,6 +177,94 @@
    "at": "2026-10-30T21:32:11.879297+02:00",
    "ok": true,
    "brand": "نوكيا"
+  },
+  {
+   "title": "Oppo Find X10 review",
+   "url": "https://www.gsmarena.com/oppo_find_x10-review-3007.php",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Model code [x10] found in existing: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
+  },
+  {
+   "title": "Motorola confirms the Signature 27's exact launch date",
+   "url": "https://www.gsmarena.com/motorola_confirms_the_exact_signature_27_launch_date-news-75275.php",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
+  },
+  {
+   "title": "Oppo Find X10 Ultra could be heading for a chipset switch",
+   "url": "https://www.gsmarena.com/oppo_find_x10_ultra_could_be_heading_for_a_chipset_switch-news-75271.php",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Model code [x10] found in existing: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
+  },
+  {
+   "title": "iPhone Air 2 specs surface again in new leak",
+   "url": "https://www.gsmarena.com/iphone_air_2_specs_surface_again_in_new_leak-news-75274.php",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (683 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
+   ]
+  },
+  {
+   "title": "Trump Mobile T1 Phone teardown video confirms everyone's suspicions",
+   "url": "https://www.gsmarena.com/trump_mobile_t1_phone_teardown_video_confirms_everyones_suspicions-news-75265.php",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (752 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
+    "العنوان غير صالح أو أطول من 75 حرف (80 حرف)"
+   ]
+  },
+  {
+   "title": "OnePlus Ace 7 and Ace 7 Pro announced with cooling fans and 185Hz displays",
+   "url": "https://www.gsmarena.com/oneplus_ace_7_and_ace_7_pro_announced_in_china_with_cooling_fans_and_185hz_displays-news-75273.php",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "Samsung sees more pain for your phone prices in the near future",
+   "url": "https://www.sammobile.com/news/samsungs-seeing-more-pain-for-your-phone-prices-in-the-near-future/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (693 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung may use this chip for Galaxy S27 Ultra in Europe",
+   "url": "https://www.sammobile.com/news/samsung-may-use-this-chip-galaxy-s27-ultra-europe/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
+  },
+  {
+   "title": "Galaxy S27 charging speed may disappoint you",
+   "url": "https://www.sammobile.com/news/galaxy-s27-charging-speed-may-disappoint-you/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
+  },
+  {
+   "title": "سامسونج تٌسجل أعلى أرباحها في الربع الثالث بسبب رقائق الذكاء الاصطناعي",
+   "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/29/3070349/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%AA-%D8%B3%D8%AC%D9%84-%D8%A3%D8%B9%D9%84%D9%89-%D8%A3%D8%B1%D8%A8%D8%A7%D8%AD%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (899 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
+    "العنوان غير صالح أو أطول من 75 حرف (91 حرف)"
+   ]
+  },
+  {
+   "title": "مراجعة حاسب ألعاب Honor الجديد: وحش الأداء بشاشة 240Hz وتقنيات مستقبلية",
+   "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/25/3068208/%D9%85%D8%A7-%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA-%D9%88%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA-%D8%AD%D8%A7%D8%B3%D8%A8-%D8%A3%D9%84%D8%B9%D8%A7%D8%A8-honor-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-",
+   "post_url": "https://www.review-mobile.com/2026/10/honor-new-gaming-tablet-review.html",
+   "at": "2026-10-30T22:10:22.840245+02:00",
+   "ok": true,
+   "brand": "هونر"
   }
  ]
 }
