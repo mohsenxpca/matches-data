@@ -105,6 +105,28 @@
    "at": "2026-10-30T20:41:51.810522+02:00",
    "ok": true,
    "brand": "هونر"
+  },
+  {
+   "title": "Honor X9e s launches with 8,560mAh battery and Snapdragon 6 Gen 4 chip",
+   "url": "https://www.gizmochina.com/2026/10/30/honor-x9e-s-launches-with-8560mah-battery-and-snapdragon-6-gen-4-chip/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Model code [x9e] found in existing: مراجعة Honor X9e Pro 2026: بطارية 11000 مللي ومقاومة IP69K والسعر"
+  },
+  {
+   "title": "Oppo Find X10 Ultra Dimensity 9600 Pro Edition could be in the works",
+   "url": "https://www.gizmochina.com/2026/10/30/oppo-find-x10-ultra-dimensity-9600-pro-edition-leak/",
+   "at": "2026-10-30",
+   "ok": false,
+   "reason": "Model code [x10] found in existing: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
+  },
+  {
+   "title": "مراجعة آي باد ميني 2026: تفوق مذهل على آي باد برو في الأداء الفردي",
+   "url": "https://www.gizmochina.com/2026/10/30/ipad-mini-2026-geekbench-scores-versus-m5-ipad-pro/",
+   "post_url": "https://www.review-mobile.com/2026/10/ipad-mini-2026-benchmark-review.html",
+   "at": "2026-10-30T21:01:24.778567+02:00",
+   "ok": true,
+   "brand": "اخرى"
   }
  ]
 }
