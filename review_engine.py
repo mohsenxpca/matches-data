@@ -374,7 +374,16 @@ def fetch_article_data(url):
 
 def build_interactive_tool(tid, eur_price):
     """Builds the inline interactive price conversion tool for AdSense."""
-    p = round(eur_price) if eur_price else 400
+    try:
+        if isinstance(eur_price, (int, float)):
+            p = round(eur_price)
+        elif isinstance(eur_price, str):
+            digits = re.findall(r"\d+", eur_price)
+            p = int(digits[0]) if digits else 400
+        else:
+            p = 400
+    except Exception:
+        p = 400
     return (
         f'<h2>أداة: محوّل سعر الهاتف بالعملات العربية</h2>'
         f'<div class="rv-tool">'
@@ -486,131 +495,138 @@ def main():
         cand_title = cand["title"]
         print(f"\nEvaluating: {cand_title[:75]}...")
 
-        # 1. Deduplication check against all existing Review articles
-        already, reason = is_already_covered(cand_title, existing_titles)
-        if already:
-            print(f"  Skipped (Duplicate): {reason}")
-            state["done"].append({"title": cand_title, "url": cand["link"], "at": today_str, "ok": False, "reason": reason})
-            continue
-
-        # 2. Fetch source content and real photos
-        if cand["source"] == "googlenews":
-            pub_url = f.decode_gn_link(cand["link"]) or cand["link"]
-        else:
-            pub_url = cand["link"]
-
-        src_text, photos = fetch_article_data(pub_url)
-        if not photos:
-            photos = random.sample(FALLBACK_PHONE_PHOTOS, 3)
-        if not src_text or len(src_text) < 400:
-            print(f"  Insufficient text ({len(src_text) if src_text else 0} chars). Skipping.")
-            continue
-
-        print(f"  Source text length: {len(src_text)} chars | Photos found: {len(photos)}")
-
-        # 3. AI Generation with Gemini
-        prompt = PROMPT_TEMPLATE.format(phone_name=cand_title, src_text=src_text[:6500])
-        extra, art, errs = "", None, ["no draft"]
-        for attempt in range(2):
-            art = f.gemini(prompt + extra)
-            errs = check_review(art, src_text, cand_title, existing_titles, min_words=900)
-            if not errs:
-                break
-            print(f"  Retry needed ({len(errs)} issues): {errs}")
-            extra = "\nتنبيه: أعد كتابة المقال مع تصحيح المشاكل الآتية بدقة واجعل النص غنياً وتجاوز 1000 كلمة: " + " | ".join(errs) + "\n"
-
-        if errs:
-            print(f"  Draft check failed ({errs}). Skipping.")
-            state["done"].append({"title": cand_title, "url": cand["link"], "at": today_str, "ok": False, "reason": errs})
-            continue
-
-        # 4. Construct Authentic Phone Images (Direct URLs for instant Blogger thumbnail generation)
-        clean_photos = []
-        for p in photos:
-            if not p:
+        try:
+            # 1. Deduplication check against all existing Review articles
+            already, reason = is_already_covered(cand_title, existing_titles)
+            if already:
+                print(f"  Skipped (Duplicate): {reason}")
+                state["done"].append({"title": cand_title, "url": cand["link"], "at": today_str, "ok": False, "reason": reason})
                 continue
-            if p.startswith("//"):
-                p = "https:" + p
-            p = p.replace("&amp;", "&").replace("&", "&amp;")
-            clean_photos.append(p)
 
-        if not clean_photos:
-            clean_photos = [random.choice(FALLBACK_PHONE_PHOTOS)]
+            # 2. Fetch source content and real photos
+            if cand["source"] == "googlenews":
+                pub_url = f.decode_gn_link(cand["link"]) or cand["link"]
+            else:
+                pub_url = cand["link"]
 
-        p0 = clean_photos[0]
-        lead_img_html = (f'<figure class="rv-fig">'
-                         f'<img src="{p0}" alt="{html.escape(art["title"])}" width="1000" height="563" loading="eager"/>'
-                         f'<figcaption>الهاتف {html.escape(art.get("brand", ""))} في أحدث ظهور رسمي له</figcaption>'
-                         f'</figure>')
+            src_text, photos = fetch_article_data(pub_url)
+            if not photos:
+                photos = random.sample(FALLBACK_PHONE_PHOTOS, 3)
+            if not src_text or len(src_text) < 400:
+                print(f"  Insufficient text ({len(src_text) if src_text else 0} chars). Skipping.")
+                continue
 
-        second_img_html = ""
-        third_img_html = ""
-        if len(clean_photos) > 1:
-            p1 = clean_photos[1]
-            second_img_html = (f'<figure class="rv-fig">'
-                              f'<img src="{p1}" alt="تفاصيل تصميم {html.escape(art["title"])}" width="1000" height="563" loading="lazy"/>'
-                              f'<figcaption>تصميم الكاميرات والواجهة الخلفية</figcaption>'
-                              f'</figure>')
-        if len(clean_photos) > 2:
-            p2 = clean_photos[2]
-            third_img_html = (f'<figure class="rv-fig">'
-                             f'<img src="{p2}" alt="مواصفات شاشة ومنافذ {html.escape(art["title"])}" width="1000" height="563" loading="lazy"/>'
-                             f'<figcaption>الشاشة ومنافذ الهاتف</figcaption>'
+            print(f"  Source text length: {len(src_text)} chars | Photos found: {len(photos)}")
+
+            # 3. AI Generation with Gemini
+            prompt = PROMPT_TEMPLATE.format(phone_name=cand_title, src_text=src_text[:6500])
+            extra, art, errs = "", None, ["no draft"]
+            for attempt in range(2):
+                art = f.gemini(prompt + extra)
+                errs = check_review(art, src_text, cand_title, existing_titles, min_words=900)
+                if not errs:
+                    break
+                print(f"  Retry needed ({len(errs)} issues): {errs}")
+                extra = "\nتنبيه: أعد كتابة المقال مع تصحيح المشاكل الآتية بدقة واجعل النص غنياً وتجاوز 1000 كلمة: " + " | ".join(errs) + "\n"
+
+            if errs:
+                print(f"  Draft check failed ({errs}). Skipping.")
+                state["done"].append({"title": cand_title, "url": cand["link"], "at": today_str, "ok": False, "reason": errs})
+                continue
+
+            # 4. Construct Authentic Phone Images
+            clean_photos = []
+            for p in photos:
+                if not p:
+                    continue
+                if p.startswith("//"):
+                    p = "https:" + p
+                elif not p.startswith("http"):
+                    continue
+                p = p.replace("&amp;", "&")
+                try:
+                    chk = requests.head(p, headers={"User-Agent": "Mozilla/5.0"}, timeout=3, allow_redirects=True)
+                    if chk.status_code == 200:
+                        clean_photos.append(p.replace("&", "&amp;"))
+                except Exception:
+                    pass
+
+            for fb in FALLBACK_PHONE_PHOTOS:
+                if len(clean_photos) >= 3:
+                    break
+                clean_photos.append(fb.replace("&", "&amp;"))
+
+            p0 = clean_photos[0]
+            lead_img_html = (f'<figure class="rv-fig">'
+                             f'<img src="{p0}" alt="{html.escape(art["title"])}" width="1000" height="563" loading="eager"/>'
+                             f'<figcaption>الهاتف {html.escape(art.get("brand", "")) } في أحدث ظهور رسمي له</figcaption>'
                              f'</figure>')
 
-        # 5. Interactive Tool & Structure
-        tid = "rv" + str(random.randint(100, 999))
-        tool_html = build_interactive_tool(tid, art.get("price_eur", 400))
-        disclaimer_html = f'<div class="rv-box"><strong>تنويه تحريري:</strong> {DISCLAIMER}</div>'
+            second_img_html = ""
+            third_img_html = ""
+            if len(clean_photos) > 1:
+                p1 = clean_photos[1]
+                second_img_html = (f'<figure class="rv-fig">'
+                                  f'<img src="{p1}" alt="تفاصيل تصميم {html.escape(art["title"])}" width="1000" height="563" loading="lazy"/>'
+                                  f'<figcaption>تصميم الكاميرات والواجهة الخلفية</figcaption>'
+                                  f'</figure>')
+            if len(clean_photos) > 2:
+                p2 = clean_photos[2]
+                third_img_html = (f'<figure class="rv-fig">'
+                                 f'<img src="{p2}" alt="مواصفات شاشة ومنافذ {html.escape(art["title"])}" width="1000" height="563" loading="lazy"/>'
+                                 f'<figcaption>الشاشة ومنافذ الهاتف</figcaption>'
+                                 f'</figure>')
 
-        # 6. Internal Links
-        brand_label = extract_brand(art["title"] + " " + cand_title)
-        internal_links = find_review_internal_links(brand_label, tok, limit=2)
-        interlink_html = ""
-        if internal_links:
-            links_li = "".join(f'<li><a href="{u}">{html.escape(t)}</a></li>' for t, u in internal_links)
-            interlink_html = f'<h3>مراجعات أخرى قد تهمك في نفس الفئة:</h3><ul>{links_li}</ul>'
+            # 5. Interactive Tool & Structure
+            tid = "rv" + str(random.randint(100, 999))
+            tool_html = build_interactive_tool(tid, art.get("price_eur", 400))
+            disclaimer_html = f'<div class="rv-box"><strong>تنويه تحريري:</strong> {DISCLAIMER}</div>'
 
-        # 7. FAQs
-        faq_html = ""
-        if art.get("faq"):
-            items = "".join(f"<details><summary>{html.escape(q['q'])}</summary><p>{html.escape(q['a'])}</p></details>" for q in art["faq"])
-            faq_html = f"<h2>الأسئلة الشائعة حول {html.escape(cand_title)}</h2>" + items
+            # 6. Internal Links
+            brand_label = extract_brand(art["title"] + " " + cand_title)
+            internal_links = find_review_internal_links(brand_label, tok, limit=2)
+            interlink_html = ""
+            if internal_links:
+                links_li = "".join(f'<li><a href="{u}">{html.escape(t)}</a></li>' for t, u in internal_links)
+                interlink_html = f'<h3>مراجعات أخرى قد تهمك في نفس الفئة:</h3><ul>{links_li}</ul>'
 
-        # Assemble Full Article
-        full_html = (
-            CSS +
-            '<div dir="rtl" class="rv-wrap">' +
-            lead_img_html +
-            disclaimer_html +
-            art["body"] +
-            second_img_html +
-            tool_html +
-            third_img_html +
-            interlink_html +
-            faq_html +
-            f'<p style="font-size:14px;color:#64748b;margin-top:24px">المصادر الرسمية: <a href="{pub_url}" rel="nofollow noopener" target="_blank">المصدر التقني المعلن</a>.</p>' +
-            '</div>'
-        )
+            # 7. FAQs
+            faq_html = ""
+            if art.get("faq"):
+                items = "".join(f"<details><summary>{html.escape(q['q'])}</summary><p>{html.escape(q['a'])}</p></details>" for q in art["faq"])
+                faq_html = f"<h2>الأسئلة الشائعة حول {html.escape(cand_title)}</h2>" + items
 
-        labels = [brand_label]
+            # Assemble Full Article
+            full_html = (
+                CSS +
+                '<div dir="rtl" class="rv-wrap">' +
+                lead_img_html +
+                disclaimer_html +
+                art["body"] +
+                second_img_html +
+                tool_html +
+                third_img_html +
+                interlink_html +
+                faq_html +
+                f'<p style="font-size:14px;color:#64748b;margin-top:24px">المصادر الرسمية: <a href="{pub_url}" rel="nofollow noopener" target="_blank">المصدر التقني المعلن</a>.</p>' +
+                '</div>'
+            )
 
-        if dry:
-            print(f"\n[DRY RUN] Title: {art['title']}")
-            print(f"Slug: {art['slug']}")
-            print(f"Brand: {brand_label}")
-            print(f"Word count approx: {len(full_html.split())}")
-            print(f"HTML Preview (first 250 chars):\n{full_html[:250]}...")
-            published_count += 1
-            if published_count >= COUNT:
-                print(f"\n🎯 Reached review batch target ({COUNT} reviews published). Exiting.")
-                break
-            print(f"\n⏳ Pausing 20 seconds before next review...")
-            time.sleep(20)
+            labels = [brand_label]
 
-        # ⚡ LIVE INSTANT PUBLISHING TO REVIEW BLOG ⚡
-        now_cairo = datetime.datetime.now(CAIRO)
-        try:
+            if dry:
+                print(f"\n[DRY RUN] Title: {art['title']}")
+                print(f"Slug: {art['slug']}")
+                print(f"Brand: {brand_label}")
+                print(f"Word count approx: {len(full_html.split())}")
+                published_count += 1
+                if published_count >= COUNT:
+                    print(f"\n🎯 Reached review batch target ({COUNT} reviews published). Exiting.")
+                    break
+                continue
+
+            # ⚡ LIVE INSTANT PUBLISHING TO REVIEW BLOG ⚡
+            now_cairo = datetime.datetime.now(CAIRO)
             # 1. Create Post with Slug as initial title
             d = f.api("POST", f"/blogs/{REVIEW_BLOG}/posts", tok, {"isDraft": "true"}, {
                 "kind": "blogger#post",
@@ -619,8 +635,9 @@ def main():
                 "labels": labels
             })
 
-            # 2. Publish immediately at current time
-            f.api("POST", f"/blogs/{REVIEW_BLOG}/posts/{d['id']}/publish", tok, {"publishDate": now_cairo.isoformat()})
+            # 2. Publish immediately at current time (clean RFC3339)
+            clean_now = now_cairo.replace(microsecond=0).isoformat()
+            f.api("POST", f"/blogs/{REVIEW_BLOG}/posts/{d['id']}/publish", tok, {"publishDate": clean_now})
 
             # 3. Patch Arabic Title
             f.api("PATCH", f"/blogs/{REVIEW_BLOG}/posts/{d['id']}", tok, None, {"title": art["title"]})
@@ -641,7 +658,7 @@ def main():
                 "title": art["title"],
                 "url": cand["link"],
                 "post_url": post_url,
-                "at": now_cairo.isoformat(),
+                "at": clean_now,
                 "ok": True,
                 "brand": brand_label
             })
@@ -650,8 +667,9 @@ def main():
             published_count += 1
             break  # Publish 1 high-quality review/news per run to maintain even pacing
         except Exception as e:
-            print(f"❌ Failed to publish post: {e}")
+            print(f"❌ Error processing candidate: {e}")
             state["done"].append({"title": cand_title, "url": cand["link"], "at": today_str, "ok": False, "reason": str(e)})
+            continue
 
     # Save state
     state["done"] = state["done"][-400:]

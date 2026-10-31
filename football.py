@@ -82,6 +82,9 @@ def token():
         "client_id": secret("BLOGGER_CLIENT_ID"), "client_secret": secret("BLOGGER_CLIENT_SECRET"),
         "refresh_token": secret("BLOGGER_REFRESH_TOKEN"), "grant_type": "refresh_token"}, timeout=30)
     if r.status_code != 200:
+        if r.status_code in (429, 500, 502, 503) or "RESOURCE_EXHAUSTED" in r.text or "rateLimitExceeded" in r.text:
+            print(f"⚠️ [Google OAuth / Blogger Quota] Status {r.status_code}. Skipping run peacefully.")
+            sys.exit(0)
         cid = secret("BLOGGER_CLIENT_ID")
         sys.exit(f"Google login failed ({r.status_code}): {r.text[:200]} | client_id looks "
                  f"{'OK' if cid.endswith('.apps.googleusercontent.com') else 'WRONG'}, "
@@ -176,12 +179,19 @@ def models(key):
     if os.environ.get("GEMINI_MODEL"):
         _MODELS = [os.environ["GEMINI_MODEL"]]
         return _MODELS
-    r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", headers={"x-goog-api-key": key},
-                     params={"pageSize": 200}, timeout=30)
-    if r.status_code != 200:
-        sys.exit(f"Gemini key problem ({r.status_code}): {r.text[:200]}")
-    names = [m["name"].split("/", 1)[1] for m in r.json().get("models", [])
-             if "generateContent" in m.get("supportedGenerationMethods", [])]
+    try:
+        r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", headers={"x-goog-api-key": key},
+                         params={"pageSize": 200}, timeout=30)
+        if r.status_code != 200:
+            print(f"⚠️ [Gemini Models] Status {r.status_code}: {r.text[:120]}. Using fallback models.")
+            _MODELS = ["gemini-1.5-flash-8b", "gemini-1.5-flash"]
+            return _MODELS
+        names = [m["name"].split("/", 1)[1] for m in r.json().get("models", [])
+                 if "generateContent" in m.get("supportedGenerationMethods", [])]
+    except Exception as e:
+        print(f"⚠️ [Gemini Models] Network error ({e}). Using fallback models.")
+        _MODELS = ["gemini-1.5-flash-8b", "gemini-1.5-flash"]
+        return _MODELS
 
     def ver(n):
         return tuple(int(x) for x in re.findall(r"\d+", n.split("-flash")[0]))
