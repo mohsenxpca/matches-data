@@ -319,6 +319,16 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/10/fuel-prices-today-egypt.html",
    "title": "تعرف على سعر البنزين اليوم في مصر"
+  },
+  {
+   "q": "سعر الدولار اليوم الجنيه المصري",
+   "at": "2026-10-31",
+   "ok": false
+  },
+  {
+   "q": "شركة",
+   "at": "2026-10-31",
+   "ok": false
   }
  ]
 }
