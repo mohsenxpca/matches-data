@@ -1004,6 +1004,41 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 9",
     "الـ body 451 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/10/31/هل-تنخفض-كفاءة-بطارية-السيارة-بنسبة-30-خلال-الشتاء-خبراء/7600343",
+   "t": "هل تنخفض كفاءة بطارية السيارة بنسبة 30% خلال الشتاء؟.. خبراء يوضحون",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 389 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/10/31/%D9%83%D8%B3%D9%88%D9%81%D8%A7%D9%86-%D9%84%D9%84%D8%B4%D9%85%D8%B3-%D9%883-%D8%AE%D8%B3%D9%88%D9%81%D8%A7%D8%AA-%D9%84%D9%84%D9%82%D9%85%D8%B1-%D9%85%D9%88%D8%B9%D8%AF-%D8%A3%D9%88%D9%84-%D9%83%D8%B3%D9%88%D9%81-%D8%B4%D9%85%D8%B3%D9%89-%D9%85%D8%B1%D8%AA%D9%82%D8%A8/7596781",
+   "t": "كسوفان للشمس و3 خسوفات للقمر.. موعد أول كسوف شمسى مرتقب وأماكن رؤيته",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 281.6، 4، 7، 92.8",
+    "الـ body 292 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.bbc.com/news/articles/crz9824d5e88o",
+   "t": "Police deployed during stand-off over control of top Poland court",
+   "title": "تحرك عاجل ونشر شرطة مكافحة الشغب بالمحكمة الدستورية في بولندا",
+   "url": "https://www.egyptaway.com/2026/10/polish-president-constitutional-court.html",
+   "at": "2026-10-31T11:52:01.364768+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://www.bbc.com/news/articles/crz9824d5e88o",
+   "t": "Police deployed during stand-off over control of top Poland court",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
   }
  ]
 }
