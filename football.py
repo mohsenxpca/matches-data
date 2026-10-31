@@ -97,6 +97,10 @@ def api(method, path, tok, params=None, body=None):
         _FRESH[tok] = token()
         r = call(_FRESH[tok])
     if r.status_code >= 400:
+        if r.status_code == 429 or "rateLimitExceeded" in r.text or "RESOURCE_EXHAUSTED" in r.text or "dailyLimitExceeded" in r.text:
+            print(f"⚠️ [Blogger API Quota] تم استنفاد الحد اليومي لنشر بلوجر (Google Blogger API 429 rateLimitExceeded).")
+            print("   سيتم التخطي بسلام بدون فشل وسيعاود النشر تلقائياً فور تجدد كوتا جوجل اليومية.")
+            sys.exit(0)
         raise RuntimeError(f"Blogger {r.status_code}: {r.text[:300]}")
     return r.json() if r.text else {}
 

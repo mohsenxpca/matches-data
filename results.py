@@ -123,9 +123,15 @@ def main():
             print("DRY RESULT", art["title"], "|", art["desc"])
         else:
             when = max(when, datetime.datetime.now(f.CAIRO) + datetime.timedelta(minutes=2))
-            fin = f.schedule(tok, art, html_out, labels, when)
-            print("RESULT SCHEDULED", when.strftime("%H:%M"), fin.get("url"), "|", art["title"])
-            when += datetime.timedelta(minutes=25)
+            try:
+                fin = f.schedule(tok, art, html_out, labels, when)
+                print("RESULT SCHEDULED", when.strftime("%H:%M"), fin.get("url"), "|", art["title"])
+                when += datetime.timedelta(minutes=25)
+            except Exception as e:
+                print(f"Error scheduling result for {key}: {e}")
+                if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+                    state.setdefault("results", []).append(key)
+                    break
         existing.append(art["title"])
     state["results"] = state.get("results", [])[-300:]
     state["tries"] = dict(list(state.get("tries", {}).items())[-100:])

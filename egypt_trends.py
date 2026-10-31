@@ -416,7 +416,7 @@ def main():
         now_cairo = datetime.datetime.now(CAIRO)
         try:
             # 1. Create Post with Slug as initial title
-            d = f.api("POST", f"/blogs/{f.BLOG}/posts", tok, {"isDraft": "false"}, {
+            d = f.api("POST", f"/blogs/{f.BLOG}/posts", tok, {"isDraft": "true"}, {
                 "kind": "blogger#post",
                 "title": art["slug"].replace("-", " "),
                 "content": f.with_desc(full_html, art),
