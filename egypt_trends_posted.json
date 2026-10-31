@@ -1473,6 +1473,18 @@
    "reason": [
     "الـ body 368 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.mancity.com/news/mens/enzo-maresca-brighton-squad-update-63928963",
+   "t": "City only missing Semenyo ahead of Brighton clash",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
+   ]
   }
  ]
 }
