@@ -113,6 +113,26 @@ GULF_PROMPT = """أنت محرر شؤون الخليج العربي في موق�
 """
 
 
+GULF_EDITORIAL_FALLBACKS = {
+    "SA": "https://images.pexels.com/photos/4488636/pexels-photo-4488636.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "AE": "https://images.pexels.com/photos/1470405/pexels-photo-1470405.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "KW": "https://images.pexels.com/photos/1538177/pexels-photo-1538177.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "gold": "https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "sports": "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "tech": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "general": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+}
+
+def pick_gulf_fallback(geo, title=""):
+    t = title.lower()
+    if re.search(r"ذهب|عيار|سعر الذهب", t):
+        return GULF_EDITORIAL_FALLBACKS["gold"]
+    if re.search(r"مباراة|دوري|الهلال|النصر|الاتحاد|كورة", t):
+        return GULF_EDITORIAL_FALLBACKS["sports"]
+    if re.search(r"هاتف|موبايل|آيفون|سامسونج|تطبيق|ذكاء", t):
+        return GULF_EDITORIAL_FALLBACKS["tech"]
+    return GULF_EDITORIAL_FALLBACKS.get(geo, GULF_EDITORIAL_FALLBACKS["general"])
+
 def fetch_gulf_trends():
     trends = []
     for geo, short_name, full_name in COUNTRIES:
@@ -278,8 +298,21 @@ def main():
             state["done"].append({"q": cand["q"], "country": cand["geo"], "at": now.isoformat(), "ok": False, "err": errs})
             continue
 
-        # Format Post HTML
-        lead_img_html = f'<img src="{real_img}" alt="{html.escape(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' if real_img else ""
+        # Ensure valid working lead image with fallback
+        final_img = None
+        if real_img:
+            try:
+                chk = requests.head(real_img, headers=UA, timeout=3, allow_redirects=True)
+                if chk.status_code == 200:
+                    final_img = real_img
+                else:
+                    print(f"  Real img check status {chk.status_code}. Using fallback.")
+            except Exception:
+                pass
+        if not final_img:
+            final_img = pick_gulf_fallback(cand["geo"], art["title"])
+
+        lead_img_html = f'<img src="{final_img}" alt="{html.escape(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' 
 
         # Contextual Gulf Service Callout
         if cand["geo"] == "SA":

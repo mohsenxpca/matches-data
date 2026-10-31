@@ -45,6 +45,12 @@ BRANDS = [
     (r"tecno", "تكنو", "Tecno"),
 ]
 
+PHONE_FALLBACKS = [
+    "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+]
+
 SKIP_TITLES = r"deal|deals|% off|sale|discount|best .* to buy|podcast|newsletter|poll results|weekly poll|counterpoint|idc report"
 
 PHONE_PROMPT = """أنت محرر ومراجع هواتف محترَف في موقع ايجبتاوى. اكتب خبر هاتف ذكي أصلي بالكامل بالعربي السلس والممتع عن الهاتف المذكور، بناءً على النص المصدر فقط.
