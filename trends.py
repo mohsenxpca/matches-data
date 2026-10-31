@@ -76,6 +76,22 @@ PROMPT = """أنت محرر أخبار في موقع ايجبتاوى المصر
 """
 
 
+def detect_trend_labels(text, q=""):
+    """تصنيف تريندات جوجل حسب المجال الدقيق."""
+    t = (text + " " + q).lower()
+    if re.search(r"كورة|مباراة|مباريات|دوري|الأهلي|الزمالك|ليفربول|ريال مدريد|برشلونة|صلاح|رونالدو", t):
+        return ["أخبار الكورة", "رياضة"]
+    if re.search(r"هاتف|موبايل|تطبيق|سامسونج|آيفون|شاومي|ذكاء اصطناعي|تحديث|أندرويد", t):
+        return ["تقنية", "هواتف"]
+    if re.search(r"لعبة|ألعاب|ببجي|جيمنج|شحن", t):
+        return ["العاب", "أخبار الألعاب"]
+    if re.search(r"ذهب|دولار|عملات|شهادة|شهادات|بنوك|سعر الفائدة|اقتصاد", t):
+        return ["اقتصاد", "خدمات"]
+    if re.search(r"طقس|أرصاد|مطر|حرارة|سيول|نوة|ساعة|توقيت|قطار|مترو|إسكان|بنزين|تموين|مرتب|معاش|امتحان", t):
+        return ["خدمات"]
+    return ["منوعات"]
+
+
 def trends():
     out = []
     for geo, name in (("EG", "مصر"), ("SA", "السعودية")):
@@ -225,7 +241,8 @@ def main():
                 + '<p><button type="button" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden" style="border:0;border-radius:999px;padding:7px 16px;font:inherit;font-weight:700;color:#fff;background:linear-gradient(135deg,#f59e0b,#ea580c);cursor:pointer">الخلاصة</button>'
                   f'<span hidden style="display:block;margin-top:8px;padding:10px;border-radius:10px;background:#fff7ed">{e(art.get("desc", ""))}</span></p>'
                 + "<h2>أسئلة شائعة</h2>" + "".join(f"<details><summary>{e(q['q'])}</summary><p>{e(q['a'])}</p></details>" for q in art.get("faq", [])[:4]))
-        fin = f.schedule(tok, art, body, ["أخبار", "تريند"], when)
+        labels = detect_trend_labels(art["title"], c["q"])
+        fin = f.schedule(tok, art, body, labels, when)
         state["done"][-1].update({"url": fin.get("url"), "title": art["title"]})
         print("SCHEDULED", when.strftime("%H:%M"), fin.get("url"), "|", art["title"], "| trend:", c["q"], c["traffic"])
         break

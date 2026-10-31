@@ -289,7 +289,7 @@ def main():
             published_urls.append("dry-run-phone")
             break
 
-        labels = ["أخبار", "أخبار الموبايلات", cand["brand_ar"]]
+        labels = ["هواتف", cand["brand_ar"]]
         try:
             res = f.publish_live(tok, art, full_html, labels)
             post_url = res.get("url", "")

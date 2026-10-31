@@ -167,6 +167,38 @@ def pick_hub_callout(text):
     return ""
 
 
+def detect_trend_category_labels(text, query=""):
+    """تصنيف دقيق للموضوع بحسب أقسام الموقع الرسمية بدلاً من كلمة أخبار العامة."""
+    t = (text + " " + query).lower()
+    if re.search(r"طقس|أرصاد|أمطار|سيول|حرارة|رياح|نوة|عاصفة|درجات الحرارة", t):
+        return ["خدمات", "طقس"]
+    if re.search(r"ساعة|توقيت|الشتوي|الصيفي|تأخير|تقديم", t):
+        return ["خدمات", "توقيت"]
+    if re.search(r"امتحان|امتحانات|مدارس|مدرسة|جامعة|جامعات|تعليم|نتيجة|تنسيق|دراسة|شهادة", t):
+        return ["خدمات", "تعليم"]
+    if re.search(r"قطار|قطارات|سكة حديد|مترو|مواصلات|تذكرة|تذاكر", t):
+        return ["خدمات", "قطارات"]
+    if re.search(r"تموين|سلع|خبز|معرض|أهلا رمضان|سكر|زيت|بطاقة التموين", t):
+        return ["خدمات", "تموين"]
+    if re.search(r"مرتب|مرتبات|معاش|معاشات|صرف|أجور|حد أدنى|تكافل وكرامة", t):
+        return ["خدمات", "مرتبات"]
+    if re.search(r"إسكان|شقق|سكن لكل المصريين|مسكن|كراسة شروط|طرح وحدات|جنة|سكن مصر|دار مصر", t):
+        return ["خدمات", "إسكان"]
+    if re.search(r"بنزين|سولار|وقود|محروقات|لجنة التسعير|غاز|أنبوبة", t):
+        return ["خدمات", "أسعار البنزين"]
+    if re.search(r"ذهب|عيار 21|جنيه ذهب", t):
+        return ["اقتصاد", "أسعار الذهب"]
+    if re.search(r"بنك|بنوك|شهادة|شهادات|فائدة|دولار|عملات", t):
+        return ["اقتصاد", "شهادات البنوك"]
+    if re.search(r"سامسونج|شاومي|آيفون|ايفون|هاتف|موبايل|تطبيق|واتساب|ذكاء اصطناعي", t):
+        return ["تقنية", "هواتف"]
+    if re.search(r"الأهلي|الزمالك|كورة|مباراة|مباريات|دوري|منتخب|صلاح", t):
+        return ["أخبار الكورة", "رياضة"]
+    if re.search(r"إجازة|اجازة|عطلة|إجازات", t):
+        return ["خدمات", "إجازات رسمية"]
+    return ["خدمات", "منوعات"]
+
+
 def decode_gn_link(link):
     """Decodes Google News RSS redirect link to original publisher URL."""
     try:
@@ -460,10 +492,8 @@ def main():
 
         full_html = lead_img_html + summary_btn + art["body"] + hub_callout + faq_html
 
-        # Labels
-        labels = ["أخبار", "تريند مصر"]
-        if cand.get("query") and len(cand["query"]) <= 20:
-            labels.append(cand["query"])
+        # Labels - تصنيف دقيق بحسب أقسام وتصنيفات الموقع
+        labels = detect_trend_category_labels(art["title"] + " " + cand["t"], cand.get("query", ""))
 
         if dry:
             print(f"\n[DRY RUN] Title: {art['title']}")

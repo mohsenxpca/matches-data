@@ -210,6 +210,26 @@ def ping_indexnow(urls):
         pass
 
 
+def detect_gulf_labels(text, country_short):
+    """تصنيف تريندات الخليج حسب الموضوع بدلاً من وسم أخبار العام."""
+    t = text.lower()
+    if re.search(r"دوري روشن|الهلال|النصر|الاتحاد|الأهلي السعودي|كورة|مباراة|دوري أبطال|رونالدو|ميسي", t):
+        return ["أخبار الكورة", "دوري روشن", country_short]
+    if re.search(r"ذهب|عيار|أسعار الذهب", t):
+        return ["اقتصاد", "أسعار الذهب", country_short]
+    if re.search(r"ريال|درهم|دينار|عملة|سعر الصرف|دولار", t):
+        return ["اقتصاد", "أسعار العملات", country_short]
+    if re.search(r"تأشيرة|تأشيرات|فيزا|إقامة|قوى|أبشر|عقد عمل|وظائف", t):
+        return ["خدمات", "وظائف وتأشيرات", country_short]
+    if re.search(r"طقس|أرصاد|مطر|سيول|حرارة|غبار", t):
+        return ["خدمات", "طقس", country_short]
+    if re.search(r"هاتف|موبايل|تطبيق|سامسونج|آيفون|ذكاء اصطناعي", t):
+        return ["تقنية", country_short]
+    if re.search(r"لعبة|ألعاب|ببجي|جيمنج", t):
+        return ["العاب", country_short]
+    return ["منوعات", "شؤون الخليج", country_short]
+
+
 def main():
     dry = os.environ.get("DRY_RUN") == "1"
     now = datetime.datetime.now(CAIRO)
@@ -357,7 +377,7 @@ def main():
             published_urls.append("dry-run-gulf-trend")
             break
 
-        labels = ["أخبار", "تريند الخليج", cand["country_short"]]
+        labels = detect_gulf_labels(art["title"] + " " + cand.get("q", ""), cand["country_short"])
         try:
             res = f.publish_live(tok, art, full_html, labels)
             post_url = res.get("url", "")

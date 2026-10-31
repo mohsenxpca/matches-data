@@ -28,7 +28,7 @@ TOPICS = [  # (regex on the English title, label, kicker word, 3D icon, priority
     (r"ios|iphone|apple|mac", "تطبيقات", "أبل", "Mobile phone/3D/mobile_phone_3d.png", 4),
 ]
 SKIP = r"launch(es|ed)? .*(galaxy|iphone|pixel|phone)|hands-on|review:|deal|% off|sale|best .* to buy|podcast|newsletter|funding|raises \$|series [a-e]"
-LABEL0 = "أخبار"
+LABEL0 = "تقنية"
 
 # Week 2 of the ramp-up (mohsen 2026-10-27): gaming news (3/day) and free-game deals (1/day) on the same writer/checker.
 GAME_FEEDS = [("https://www.pocketgamer.com/rss/", "Pocket Gamer"), ("https://www.dexerto.com/feed/", "Dexerto"),
@@ -46,9 +46,9 @@ DEAL_TOPICS = [(r"free (game|games|to keep|on (the )?epic|this week|weekend)|epi
                 r"|ps plus|playstation plus|game pass",
                 "عروض", "ألعاب مجانية", "Wrapped gift/3D/wrapped_gift_3d.png", 0)]
 if PROFILE == "games":
-    FEEDS, TOPICS, SKIP, LABEL0 = GAME_FEEDS, GAME_TOPICS, GAME_SKIP, "أخبار الألعاب"
+    FEEDS, TOPICS, SKIP, LABEL0 = GAME_FEEDS, GAME_TOPICS, GAME_SKIP, "العاب"
 elif PROFILE == "deals":
-    FEEDS, TOPICS, SKIP, LABEL0 = GAME_FEEDS, DEAL_TOPICS, r"podcast|quiz|review", "أخبار الألعاب"
+    FEEDS, TOPICS, SKIP, LABEL0 = GAME_FEEDS, DEAL_TOPICS, r"podcast|quiz|review", "العاب"
 STATE = "tech_posted.json" if PROFILE == "tech" else f"{PROFILE}_posted.json"
 
 KIND = {"tech": "تقنية", "games": "ألعاب", "deals": "ألعاب (عرض لعبة مجانية أو تخفيض رسمي)"}[PROFILE]
