@@ -306,6 +306,19 @@
    "at": "2026-10-31",
    "ok": false,
    "reason": "Blogger 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Resource has been exhausted (e.g. check quota).\",\n    \"errors\": [\n      {\n        \"message\": \"Resource has been exhausted (e.g. check quota).\",\n        \"domain\": \"global\",\n        \"reason\": \"rateLimitExceeded\"\n      }\n    ],\n    \"status\": \"RESOURCE_EXH"
+  },
+  {
+   "title": "Redmi K100 on first sale today with 10,000mAh battery",
+   "url": "https://www.gizmochina.com/2026/10/31/redmi-k100-on-first-sale-today-with-10000mah-battery/",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
+    "العنوان غير صالح أو أطول من 75 حرف (0 حرف)",
+    "الـ slug غير صالح (): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة",
+    "وصف البحث (0 حرف) يجب أن يكون بين 110 و 175 حرفاً",
+    "المراجعة يجب أن تحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
