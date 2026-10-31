@@ -1372,6 +1372,54 @@
    "reason": [
     "الـ body 399 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/10/31/3071401/%D8%B1%D8%B6%D8%A7-%D8%B3%D9%84%D9%8A%D9%85-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%81%D9%8A-%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%A7%D9%84%D9%81%D8%A7%D8%B3%D9%8A-%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D8%B5%D8%A9-",
+   "t": "رضا سليم مطلوب في نادي المغرب الفاسي.. ما القصة ؟",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 320 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7162546",
+   "t": "تموين بني سويف: تحرير أكثر من 500 محضرًا لمخالفات بالمخابز والأسواق خلال حملات رقابية بالتعاون مع الجهات المعنية",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 412 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/10/31/%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%84%D9%8A%D9%81%D8%A7%D9%86%D8%AA%D9%8A-%D8%B6%D8%AF-%D8%A3%D8%AA%D9%84%D8%AA%D9%8A%D9%83%D9%88-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%81%D9%89-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A/7600497",
+   "t": "تشكيل مباراة ليفانتي ضد أتلتيكو مدريد فى الدوري الإسباني",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 347 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.si.com/es-us/como-ver-el-partido-levante-vs-atletico-de-madrid-en-tv-y-streaming",
+   "t": "¿Cómo ver el partido Levante vs Atlético de Madrid en TV y streaming?",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 6",
+    "الـ body 416 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DRlBhQjd6bWcyaDJvb1JzQzVOaGRfWjZGUkh2cDBZY3JrQTRCYXJSTUZkaUpqOG9GVXp6ZkhGb3c5ck9TcW9nS0FOOFEzMTlHakhkLXlBSWM2SGl6QTdv?oc=5",
+   "t": "موعد امتحانات الترم الأول 2027 لصفوف النقل.. التعليم تحدد وإجازة نصف العام تبدأ 23 يناير - المصري اليوم",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 371 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
