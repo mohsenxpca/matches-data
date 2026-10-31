@@ -1699,6 +1699,25 @@
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
     "الوصف لازم 140-160 حرف"
    ]
+  },
+  {
+   "u": "https://www.bbc.com/sport/football/live/cwg7xe5g11m0t",
+   "t": "Barcelona 6-1 Alaves: Lamine Yamal and Raphinha each score twice as Barca return to top of La Liga",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 9",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'رشلونه', 'افيس'}) مع تشابه نصي مع: نتيجة مباراة برشلونة وألافيس 6-1 في الدوري الإسباني)"
+   ]
+  },
+  {
+   "u": "https://barcauniversal.com/barcelona-captain-raphinha-has-a-scoring-record-to-settle-against-alaves/",
+   "t": "Barcelona captain Raphinha has a scoring record to settle against Alaves",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 4"
+   ]
   }
  ]
 }
