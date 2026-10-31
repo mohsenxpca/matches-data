@@ -1289,6 +1289,89 @@
     "كلمة رسميًا مش موجودة في المصدر، احذفها",
     "الـ body 390 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/10/31/إنتل-الأمريكية-للتكنولوجيا-تتكبد-أكبر-تراجع-فى-أسهمها-منذ-عقود/7600498",
+   "t": "\"إنتل\" الأمريكية للتكنولوجيا تتكبد أكبر تراجع فى أسهمها منذ عقود",
+   "title": "انهيار تاريخي لأسهم «إنتل» الأمريكية بنسبة 29% وتراجع قياسي",
+   "url": "https://www.egyptaway.com/2026/10/intel-shares-historic-decline.html",
+   "at": "2026-10-31T14:31:24.997323+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/10/31/إنتل-الأمريكية-للتكنولوجيا-تتكبد-أكبر-تراجع-فى-أسهمها-منذ-عقود/7600498",
+   "t": "\"إنتل\" الأمريكية للتكنولوجيا تتكبد أكبر تراجع فى أسهمها منذ عقود",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/10/31/3071381/%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%8A%D8%AE%D8%B7%D8%B7-%D9%84%D9%81%D8%B3%D8%AE-%D8%B9%D9%82%D8%AF-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A-%D8%A7%D9%84%D8%B6%D8%A7%D9%88%D9%8A-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%88-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84",
+   "t": "الأهلي يخطط لفسخ عقد التونسي الضاوي كريستو.. تفاصيل",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 288 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.marca.com/futbol/atletico/2026/10/30/levante-vs-atletico-maldicion-tormenta.html",
+   "t": "Levante vs Atlético: Maldición antes de la tormenta",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 6",
+    "الـ body 427 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.notimerica.com/deportes/noticia-luis-castro-atletico-muy-diferente-tiene-mas-soluciones-colectivas-individuales-20261030171312.html",
+   "t": "Luís Castro: \"Es un Atlético muy diferente, tiene más soluciones colectivas e individuales\"",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 380 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.vetogate.com/5760007",
+   "t": "انخفاض المسكوفي والساسو، أسعار الكتاكيت والبط اليوم الخميس ببورصة الدواجن",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 390 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.elconsolto.com/news/health-news/details/2026/10/31/3071291/%D8%B9%D8%A7%D8%AC%D9%84-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-10-%D9%88%D9%81%D9%8A%D8%A7%D8%AA-%D9%8824-%D9%85%D8%B5%D8%A7%D8%A8-%D8%A7-%D9%81%D9%8A-%D8%AA%D8%B5%D8%A7%D8%AF%D9%85-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9",
+   "t": "عاجل.. الصحة: 10 وفيات و24 مصابًا في تصادم الطريق الأوسطي بالجيزة",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 34",
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 348 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://en.as.com/soccer/chelsea-vs-manchester-united-live-online-score-stats-goals-updates-premier-league-202627-f202610-n/",
+   "t": "Chelsea vs Manchester United live online: score, stats, goals & updates | Premier League 2026/27",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 389 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOWnBOM1dlU0k3MFRHcmRTd254WkZGUHR1OTRMYlo2TXZNaVB0MGhvX2JSR1otMHpXVV9CaktoTjQ4WTdaSHJudGZtbkduZWlSMDQ2YUNVQ2VDWVJkVHJGWF83QklCOHZIZlNhNlFXQW9tWGUtb1B6YlNXWl9yamxuRzgxWkZvR2gwZUs2Q1I5RXBKY0xhX3R2UHkwREJ2UWhYN04zNUdhRjFqM3RkdDZYWnVYVFJtZG9rVHdpbWxoX25vSHRGS0hudFh4cGpEd0ExRENSeUVtNS02cXA1TzE2Zk80S2hWdWRzX3V5bTRIbTAzaTBYSVFFejU4NWRtVTZmUUZFM3pQODZPTl9DS25yYUlWYkFFYXFhaFNEd05QbGFYd0g5SUJ3UklvMTAzaDhMVDYzNjBRQVpMR3RaNlNlUnZXMUs3anF3eUhSeVBNRjVHUkgybXNZdERnYVdZUTZFd0xrTkxCX3FNYmVna0lyUm50YmljTDg?oc=5",
+   "t": "التعليم تحسم الجدل بشأن رسوم امتحانات الهوية الوطنية لطلاب المدارس الدولية - بوابة أخبار اليوم الإلكترونية",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 399 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
