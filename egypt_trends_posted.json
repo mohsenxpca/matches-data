@@ -1718,6 +1718,28 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 4"
    ]
+  },
+  {
+   "u": "https://latr3.it/2026/10/31/interviste-seacily-2026-tamajo-e-russo-a-castellammare-per-il-rilancio-della-blue-economy-siciliana/",
+   "t": "INTERVISTE- Seacily 2026: Tamajo e Russo a Castellammare per il rilancio della Blue Economy siciliana",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 475 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في 7 كيانات جوهرية ({'انطلاق', 'سيسلي', 'ايطاليا', 'قوارب', 'تاسعه', 'معرض', 'نسخته'}) مع: انطلاق معرض سيسلي للقوارب بنسخته التاسعة في إيطاليا)"
+   ]
+  },
+  {
+   "u": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261031/1004241204/flick-llega-100-victorias-barca.html",
+   "t": "Flick llega a las 100 victorias con el Barça",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
+   ]
   }
  ]
 }
