@@ -252,6 +252,18 @@
    "at": "2026-10-31",
    "ok": false,
    "reason": "Blogger 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Resource has been exhausted (e.g. check quota).\",\n    \"errors\": [\n      {\n        \"message\": \"Resource has been exhausted (e.g. check quota).\",\n        \"domain\": \"global\",\n        \"reason\": \"rateLimitExceeded\"\n      }\n    ],\n    \"status\": \"RESOURCE_EXH"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/10/31/حادث-أمني-يعطل-موقع-القصص-AO3-حتى-4-أسابيع/7599648",
+   "t": "حادث أمني يعطل موقع القصص AO3 حتى 4 أسابيع",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
+   ]
   }
  ]
 }
