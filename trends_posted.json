@@ -336,6 +336,24 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/10/levante-vs-atletico-madrid.html",
    "title": "تفاصيل مواجهة ليفانتي وأتلتيكو مدريد بالدوري"
+  },
+  {
+   "q": "موعد صلاه المغرب",
+   "at": "2026-10-31",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "اذان المغرب",
+   "at": "2026-10-31",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "مان سيتي ضد برايتون",
+   "at": "2026-10-31",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
