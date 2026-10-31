@@ -596,6 +596,20 @@
    "at": "2026-10-31T23:12:52+02:00",
    "ok": true,
    "brand": "شاومي"
+  },
+  {
+   "title": "Nothing Phone (4a), (4a) Pro, (3a), and (3a) Pro are now receiving the stable update to Android 17",
+   "url": "https://www.gsmarena.com/nothing_phone_4a_4a_pro_3a_and_3a_pro_are_now_receiving_the_stable_update_to_android_17-news-75296.php",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Model code [3a] found in existing: مراجعة سعر ومواصفات هاتف Nothing Phone (3a) Pro"
+  },
+  {
+   "title": "The Nokia 2360 Flip is a dual-display feature phone with an SOS button - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaGRPUXl0QkJCTEx6ZHpjTDltSVdlS3gxdUVWTTdIZXZLZnZGYWVUbVZaZnA0SHVBVzluU1E5N0dBdnN0YnpHbll0Uk5LZU9VLTVCME1lWGQ1X05Mb3I1MmJla0lxN1EyVDdxZWhITDE4aVRBNVlDVldBSUNQdnd3TDVXUTI3LU5hZEtnSEllNU1OcmxLU19oWHVDcUxreWhQU3Rmb2haRXVPSlFNQmc?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
   }
  ]
 }
