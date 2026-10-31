@@ -620,6 +620,59 @@
    "reason": [
     "الـ body 420 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7162259",
+   "t": "الكارت الموحد 2026.. خطوات وشروط الحصول على البديل الرقمي لبطاقة التموين",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQZUZEWlFmdG5ZMFYwOXBaM3N4emc4M3ZXbTZaUU84V1BtRS02eGlRQXpxek9nMG4yZnVsOXpXdWpZVjZMRW1GVGJWUUtkb19aX2Qzd2Z2c25xak5iYjRHODIzR2NuMnJrMVVGUGw0RzMyRGFFTEpkVy1BcXFxblVseFdXUS1WUXBWWHNZVGNub1NaM3BIT0F1SnRWTlR0WXRib0FKOTFmSWNOcE1Ua1FScXc5Mzd3V0dfLUdWWnpQMnc3TV9YemNQSHZRN3lwcWJxTzRxWHFsdjNVZWFIaElwMzF4Z2ZOeTJTWmsyLUI1ZHUxbHZ0ekhtdDljMzhFc3V2bjJRSFRER0Y0U0RQRVotcGx6ZGRGeHFZM1F3MVpVZ0lTenFSMWw0V2NzYWc5c0RIaXlSWjRCamRYN1ctU3c?oc=5",
+   "t": "مواعيد المدارس بالتوقيت الشتوي 2026.. موعد الطابور والحصة الأولى بعد تأخير الساعة - قناة صدى البلد",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 424 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5PeEF3NzM4bjJOanJDaGpPUkU4X196RF9CaEZBaXJhU21BTFpHSmR6MWg3TVB0RHY1X1RfZHJ5anpTR1NDejBV?oc=5",
+   "t": "التوقيت الصيفي وترشيد الكهرباء.. 40 ألف ميجاوات في الصيف مقابل 30 ألفًا بالشتاء - صدى البلد",
+   "title": "حقيقة استهلاك الكهرباء بين الصيف والشتاء في مصر",
+   "url": "https://www.egyptaway.com/2026/10/egypt-electricity-consumption-winter.html",
+   "at": "2026-10-31T09:52:12.525284+02:00",
+   "ok": true,
+   "type": "public_query"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5PeEF3NzM4bjJOanJDaGpPUkU4X196RF9CaEZBaXJhU21BTFpHSmR6MWg3TVB0RHY1X1RfZHJ5anpTR1NDejBV?oc=5",
+   "t": "التوقيت الصيفي وترشيد الكهرباء.. 40 ألف ميجاوات في الصيف مقابل 30 ألفًا بالشتاء - صدى البلد",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMivwRBVV95cUxOc0RMRXhsdksxTFlOS3JCNzgtSk9NWFQyc3BDalpJNlE1ek4xRG9qaE45QmdWdmlqQ3pLenNLc1FPMDBvWlYzcWw5RHpTaGsxaWlTdEpXdDlBUF9ycmtwUzJlMGQtWlRWcFVoc3RUMmhrYm9idGNjOUhLQ1E4REpwbm9ZOVVfaWNzV1ExOFFDSkNsd2V6TmJlMW1YZXVaTHB5ZHZfaWI5OEpsZTJGaWkzdENtTFhqZ1F4NlBwbjhJMGtDNTAtcExaZUd3S05UVWY5d2tuUXphNF9EdkNWNURxRU10V0YwNFlTd2hFMkhYWS0tMDhSbWFfWjFQdld1eXpMMHZ2NmxWSUF4MGE2M2JQM1IyTklDZ1FrZ19LSU0tR2xTOEVLSUxBdlNmSVRkSHYzM2ZPaDJMQnBCVkY1SUk3SXpubENLRjJDUUZNQldEQS1oQkRheVNQRXctbEdWeFh0RVA5VWxCU1R6cE1WVERsTGNCY2pJS1doNXE2RTk0VUtUSlJkcklHS28wOWdBZFR4OTVvZ1pEY3lSSTVOSVNJc05wYkNKS1doVFBJczhhQjFNMnZuTGRONkVTZWsyc29sRkxXYzA1X2lUTXpoT19CcE5TOUUyWGlubFlaTVhiOFlhMlJ5ZWsxYnU3d3l5TnBrUnQ0SEhmdUE3Z2IwT19FZjZVMWg1RHRxRUtGM2NJcF9IRjRyd3RPVXJHX2t1R2ZIUUhqQjB2TzEtZ0xzN2F0YS1ENlhOb0F0TkduTld1ONIBugRBVV95cUxPRGlNdDBaYUM5U0F5Rk92T2ozQ2drbFRwRS1RNGFSUmJLXzJqR3dKdDRVenkyRk5yN2ZQLXFmSkVMVWh6RmVXa2U3ampCU0pZb3dMUlQ0WGJjbTNIRjNvbzdnbEo2VDN2QXhGdmdjbGRDZUVqVUwwaXAzSUY5aVUxUG9UTERtSlgya1dOWENVZUNWX2h3eXFBMXFrcEptSEJpbnUzdWpSeFg1c1hyVXJ4WjR6bmpUM2xOWGZVUEdGdVFXQURXMGhNdC0xcWZqd2dHY28zOFM3bXdoUVJjNUk2V3FoMmgwVXNNWWRBNnI0M25iM1RyY2IwaTF5c3pIN2tWbkFkRG9zNUFiTlN6UnR1TmpSS1pJQkJkTzM5Wi1yVXVKMVBsZHJ0eGo0SFF2YVY3YkQwNnR3QjhlMGQwQkM2RkJObmhCN2lwT1cyb3l0MzFDeDFoM0dhV2V6b1FCVXBSOERmQVRmRDR3c2plN2JsYWhuYnktQkdGUHZLazBQTWdrakd6ZDlrWmdYcG5sOXFLUWxTbkh4anhNQnR4M3ZrbUVXbVV3ems4UVZLNjNld1VBeVJUOTA0cTVaNGsxWURlR2t4MS1uOTctMHFUeEY5anBEekgtQzBiTnF4OEY4X1FHN2JSMF81LUdMM211MllpLXFYX1h4cGtQQTFxY2tmZjdFUHl2Rkd0VlVnSUtjZlYtcVJJX28tZ1FkU1FXV0tnYjFGbDctMVo0Tml4aTJaSkZEVEd2M2RoT0E?oc=5",
+   "t": "الطقس اليوم.. انخفاض بالحرارة وفرص أمطار ببعض المناطق والصغرى بالقاهرة 18 - اليوم السابع",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 437 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiiANBVV95cUxPRE5EUkZ0YXpjaEJPQzh4Zi15Y2w5Q20zZWVJRTIwUFNOMklxYm9pTExTTExZd3d1SWpmTHk2SVpYU2k5VkNKYjlodDBMN1FNQUVnN0dzV2Utb0RTQURtSVNxT3RELVNBeVF3MXluUkNHbTFETHpuTlRubS02NkRWaUdJMi1fcEtnMkhwRUlEMHotQ2V2dFNUcDF1NDk1SmVVamc0dU9JT2F0YnBKTUQtMVVmQkxGU1c2UnJiS0d3YXpUcXA4UEpEMW9UMnN5U1VlTEd0T2hDcmRyZGNNYldVVmFnU1ctTTJUQlZXNWlhOGJtMFc3SnpLVnVCc0MtY3VLdFpoclJkaTV6NmV3eTlYdkZLVlgyRjVKX3dUVWRsSzF0Wmt6eWZadEY5S2pndk9TUkNWM1B5cjVQR0RiemlZWnZCTk5CR0dXRkcyUFRfTGFHRkNjRkcyaTdVRTIzY0FTUTc1TlRyTnlpZ01qd3pxV0dudXp0Mm1IWGVzX012bHU2aUI5MkNxVw?oc=5",
+   "t": "التعليم تناشد طلاب الشهادة الإعدادية بسرعة تسجيل استمارة الامتحانات - الأخبار المسائى",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 427 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
