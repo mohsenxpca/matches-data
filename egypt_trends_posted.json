@@ -1555,6 +1555,16 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 4، 5، 7"
    ]
+  },
+  {
+   "u": "https://www.the-sun.com/sport/17234326/coventry-vs-sunderland-live-score-result-premier-league-updates/",
+   "t": "Coventry vs Sunderland LIVE SCORE: Latest Premier League updates",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 3، 5، 6",
+    "الـ body 310 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
