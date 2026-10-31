@@ -207,9 +207,18 @@ def main():
             print("SKIPPED", c["q"], errs)
             continue
         e = html.escape
+        lead_img_url = None
         if trend_real_img:
-            lead_img_url = f"https://wsrv.nl/?url={requests.utils.quote(trend_real_img, safe='')}&w=1000&output=webp&q=80"
-        else:
+            candidate_proxy = f"https://wsrv.nl/?url={requests.utils.quote(trend_real_img, safe='')}&w=1000&output=webp&q=80"
+            try:
+                chk = requests.head(candidate_proxy, headers=UA, timeout=3, allow_redirects=True)
+                if chk.status_code == 200:
+                    lead_img_url = candidate_proxy
+                else:
+                    print(f"  Trend img proxy returned {chk.status_code}. Using fallback.")
+            except Exception as e:
+                print(f"  Trend img proxy check failed ({e}). Using fallback.")
+        if not lead_img_url:
             lead_img_url = get_trend_fallback(c["q"] + " " + art["title"])
         body = (f'<img src="{lead_img_url}" alt="{e(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
                 + art["body"]

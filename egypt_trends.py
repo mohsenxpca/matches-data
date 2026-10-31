@@ -422,10 +422,19 @@ def main():
             state["done"].append({"u": cand["link"], "t": cand["t"], "at": today_str, "ok": False, "reason": errs})
             continue
 
-        # Choose lead photo: Real news photo first, or clean Pexels fallback
+        # Choose lead photo: Real news photo (only if proxy succeeds without 404/403), or clean Pexels fallback
+        proxied_img = None
         if real_img:
-            proxied_img = f"https://wsrv.nl/?url={urllib.parse.quote(real_img)}&w=1000&output=webp&q=80"
-        else:
+            candidate_proxy = f"https://wsrv.nl/?url={urllib.parse.quote(real_img)}&w=1000&output=webp&q=80"
+            try:
+                chk = requests.head(candidate_proxy, headers=UA, timeout=3, allow_redirects=True)
+                if chk.status_code == 200:
+                    proxied_img = candidate_proxy
+                else:
+                    print(f"  Real img proxy returned {chk.status_code}. Using fallback photo.")
+            except Exception as e:
+                print(f"  Real img proxy check failed ({e}). Using fallback photo.")
+        if not proxied_img:
             proxied_img = pick_fallback_photo(art["title"] + " " + cand["t"])
 
         lead_img_html = f'<img src="{proxied_img}" alt="{html.escape(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px;margin-bottom:16px">'

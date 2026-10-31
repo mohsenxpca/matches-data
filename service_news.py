@@ -48,6 +48,21 @@ BANNED_TOPICS_REGEX = (
     r"قتل|مقتل|جريم|اغتصاب|تحرش|انتحار|ذبح|طعن|مخدرات|إرهاب|ارهاب|فضيحة|فيديو إباحي|اباحي|شذوذ|فضايح|sex|porn|murder|suicide"
 )
 
+SERVICE_FALLBACKS = {
+    "housing": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "banks": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "fuel": "https://images.pexels.com/photos/9796/gas-station-fuel-oil-diesel.jpg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "coordination": "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "holidays": "https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "trains": "https://images.pexels.com/photos/72594/japan-train-railroad-transportation-72594.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "salaries": "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "outage": "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "general": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+}
+
+def pick_service_fallback(topic_key, title=""):
+    return SERVICE_FALLBACKS.get(topic_key, SERVICE_FALLBACKS["general"])
+
 TOPICS = {
     "housing": {
         "name": "طروحات الإسكان وبوابة مسكن",
@@ -363,12 +378,22 @@ def main():
                 state["done"].append({"title": orig_title, "url": pub_url, "at": now.isoformat(), "ok": False, "err": errs})
                 continue
 
-            # Ensure REAL image with reliable proxy
+            # Ensure REAL image with reliable proxy or high-res editorial fallback
+            lead_img_url = None
             if real_img:
-                proxied_img = f"https://wsrv.nl/?url={urllib.parse.quote(real_img)}&w=1000&output=webp&q=80"
-                lead_img_html = f'<img src="{proxied_img}" alt="{html.escape(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">'
-            else:
-                lead_img_html = ""
+                candidate_proxy = f"https://wsrv.nl/?url={urllib.parse.quote(real_img)}&w=1000&output=webp&q=80"
+                try:
+                    chk = requests.head(candidate_proxy, headers=UA, timeout=3, allow_redirects=True)
+                    if chk.status_code == 200:
+                        lead_img_url = candidate_proxy
+                    else:
+                        print(f"    Real img proxy returned {chk.status_code}. Using fallback.")
+                except Exception as e:
+                    print(f"    Real img proxy check failed ({e}). Using fallback.")
+            if not lead_img_url:
+                lead_img_url = pick_service_fallback(cand_top, art["title"])
+
+            lead_img_html = f'<img src="{lead_img_url}" alt="{html.escape(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' 
 
             # Internal Cross-link & Hub Callout Card
             callout_html = f'''<div style="background:#eff6ff;border:2px solid #3b82f6;border-radius:14px;padding:16px;margin:20px 0;text-align:center;box-shadow:0 4px 12px rgba(59,130,246,.1);">
