@@ -343,6 +343,195 @@
    "at": "2026-10-31T14:36:17.096092+02:00",
    "ok": true,
    "brand": "اخرى"
+  },
+  {
+   "title": "Redmi K80 Pro vs OnePlus Ace 7 Pro: Is the Newer Flagship Worth the Extra Money?",
+   "url": "https://www.gizmochina.com/2026/10/31/redmi-k80-pro-vs-oneplus-ace-7-pro/",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "RedMagic 12 Pro+ vs OnePlus 16: Dedicated Gaming Fan vs 200MP Camera",
+   "url": "https://www.gizmochina.com/2026/10/31/redmagic-12-pro-plus-vs-oneplus-16/",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [redmagic 12] found in existing: مراجعة RedMagic 12 Pro+ 2026: تبريد سائل وشاشة 185 هرتز والسعر"
+  },
+  {
+   "title": "Honor Win 2 Delta Force Professional League Edition opens for pre-order ahead of launch",
+   "url": "https://www.gizmochina.com/2026/10/31/honor-win-2-delta-force-professional-league-edition-opens-for-pre-order-ahead-of-launch/",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [honor win] found in existing: مراجعة Honor Win2 RT 2026: شاشة 185 هرتز وكاميرا 200 ميجا والسعر"
+  },
+  {
+   "title": "Motorola Signature 27 flexes muscle on Geekbench ahead of November 5 launch",
+   "url": "https://www.gsmarena.com/motorola_signature_27_key_specs_geekbench-news-75301.php",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
+  },
+  {
+   "title": "Samsung Galaxy Fit4 leaks, key features revealed",
+   "url": "https://www.gsmarena.com/samsung_galaxy_fit4_leaks_key_features_revealed_-news-75289.php",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
+  },
+  {
+   "title": "Samsung Galaxy Fit4 leaks, key features revealed - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNVhHNGlKUEUzV3p6a0RJOEc1Y1RZRkdheWJzeGQ5Z0lzZW5zc0NtZGYxYndPQ1ZoT0dMU2hfNGJwZGo4UjhoeEQ1MFEwSDkzU0dGVVExbzJlWFBVUVVKeE9ibURHaDEtRG94Y2IxZ2dVZC1QeXdjU1BBeWZ1T0EwakdwMXBReEdFRzVvUlEyaEVWd9IBjgFBVV95cUxQWnY2N3VDNXljeUhtZTRSX2J0YTFKZUdVOWFydVU2NVA5S2FZNzJPTVJwRjM1WUlZTFdDaFl4eTJXeFRvZFpMenFJQUpjQjVHSkpScUVybHFiaXZIUElUMF82OUYxdWxUZ2FnMUdNeDBndC0zZlpGZ1FxenNsSUJfdlhseGRKaEhlUzZOWlVn?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
+  },
+  {
+   "title": "The Galaxy S27 Ultra chipset saga continues, here's the latest twist - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRThneDhXZFZGa1hzUzBZWUN2M0RDVVFFemZMODZpb0xQMVhGUG9tTkhoLUFCdEk3MnZyU2RCNXNYTUFvOWpBcndCWWNSOVl2aGc0Nmw0czA2YXR2OUJIdEFKUmZnTlprVGlkYnJvbm5qS3FXWXVEbUtWZXBfTG92SldJTTNhZjF5VkVmTmRYaE0wMU0yRWw2LU5IelNzZmowWmhyek9kWk9JZ9IBpgFBVV95cUxONm5wbFBQZ3ZLNVpLSE95emRUeUUxWHpFLUx4MDVVT0FlSllVSExQMVBfV29sS0hTX3phNEJ3d1hRSTI4VjR5QnhFME12dlNKOS01Y3VJOVl1SDF2MEFZZGJMTmtxVmxjb1JKZkx3c3V4N1M2RkpTM1g1N1EzZzB2VWNrZFpQR0tickQ1Ti0zTk5YblU3N2xobFNRNzVqYV91aF9JX013?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
+  },
+  {
+   "title": "Motorola Signature 27 flexes muscle on Geekbench ahead of November 5 launch - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT2pyTV84Y3ltSFlyT1FOMm4yWHR4MW9hYURPbFFHdkY3Y3dmdTZfTE8yMnBWTDJReTBwcV94cjdYNDNwM24xZk5LSGZTRVVFdkFUalpkRy1CbkpIOTRkV3dtbFNJdW5fNlNBaGFheG9QUzc0OUoyckJ3M0pwSkE1cDlYYzB5Wkhs0gGEAUFVX3lxTE1DaUFjeUxSRzVfeXhhMDBiYmJIeDZUaU52WEg5ZkJ4VUk4Ul96TC1Jb2JwNmxxR1VMMGhMOWV0RnNlTnQwbE56eVRqTHlMV0ZhMDViRFc2WUZNRW9XaGdsalJNYTYyenk2Vy10WU5HSGwteXBzY3pZOGJZaHRTMmxVVl9lQw?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
+  },
+  {
+   "title": "Oppo Find X10 review - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WclkxOXFBT0ZwVFRRZUgwLXhsWnBQdXBZUTg2R1BNMjQxeDBKVjkxZzJXMGxJMlNmR1lMaGo0S2wtMjNIT1RJcG1PMzVldUI4NkJfZGZZUlZ1WUlLVjB4SWRGd3I?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Model code [x10] found in existing: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
+  },
+  {
+   "title": "Apple iPhone 18 Pro vs. iPhone 18 Pro Max - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZHNmaklWVWNScVNJTTFKclFsQU92MXJNZXpNemVzakcydnQzR2tKT3VxOG15Q25CZXZFU1lWM2JGNFd0dzUtRkJwZ19YemJ1X0RJb0N5TFMzVVppLWxscGc2UklfemNSNHJRcXY5QThrOXpHaHlibTFzZ05Na3N3ZDJFNkRLTE5LZnB5TnV4U0xzRmNHcERINXlzdmtIWko0RDhieDBxa3FEZjlQOHJB?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
+  },
+  {
+   "title": "The Nokia 2360 Flip is a dual-display feature phone with an SOS button - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaGRPUXl0QkJCTEx6ZHpjTDltSVdlS3gxdUVWTTdIZXZLZnZGYWVUbVZaZnA0SHVBVzluU1E5N0dBdnN0YnpHbll0Uk5LZU9VLTVCME1lWGQ1X05Mb3I1MmJla0lxN1EyVDdxZWhITDE4aVRBNVlDVldBSUNQdnd3TDVXUTI3LU5hZEtnSEllNU1OcmxLU19oWHVDcUxreWhQU3Rmb2haRXVPSlFNQmfSAaoBQVVfeXFMUGQzMFJKSzBHWW5PTDdQdFVrcHZhN2hDZl82dWVnR0Y1Z0x3Vnd6TE9zT1RnYkMxdl90cXVUS2JTMzBfZWpDV2dnOU50Ym1VOXlsUFNGNlFYbF9WbWE0Wm9zVDVpVHRwcVFTS2MwQjRKT2c1NllEc3dOVlRlbFVGMC1BbWhXMUhFQnZmY3NUNktPSUdDaXlfZFJHcGZLX0pXNHhBbzBIMy1OSkE?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
+  },
+  {
+   "title": "Oppo Reno17 series confirmed to launch next month, blind pre-orders go live - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNHFoSlYtSWtsSFNhcnJLV0JpdDFoWXc4c2RGcTVEVXRUQlpBNFVFcDdYTUY3cXAyYkpCam41VWYzcFFLdGlxM1RVR1VPQTRXLXR3aVUwZTBsTFo3cGx4T3BRbm95RHNLcENzMnZxOTMxZDFCTUxKdkFzQllWLXBfMXQyOS1SeHBqNEJyc1R4ZDZXNVBWY2c4N0ctMkl0OFdKZnYxdWh5UU9zV0IzcGphaUFJd9IBrwFBVV95cUxOM09GS3FTYlRsaUszenZxeEFESktad1I0cjlPenZnWDFoVmlvQ2pJSUJvZ21vcEhQZDdIWWVBaVNfNU9jS19KOFc0a2RDbW9vVDM3NUlpWTM2bTQ4U0RrVUVQSTNmZUFpRThQZVc0dGU2cVFxandWSW5HZ3F3NlotNFZlYzcyQzh0NGxETVVvR2VOYTRDUEk3NEtqNW4tWUpXSXJYMi03ZzJzeVNnMVFR?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Model code [reno17] found in existing: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
+  },
+  {
+   "title": "Nokia 2360 Flip - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KX1BIQ2xwU0NsMDRYcTZvMXVKa3JPckxsRHN6ZTItLTVwTXZBbVBId0VCaHAzUHp3VFAySVZzOEd1ZUh6TW5nTENJeklKX3ZlTE5LOHd3UEVZU2djNTF3?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
+  },
+  {
+   "title": "Motorola confirms the Signature 27's exact launch date - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU1RMOG5kUlpPZkZqbURqV0tvRVp6VjAtOVZ0M0x0WFpnMmhla0k1MHgzWGtqampSM21ieFM2ZFcyb09NUF9zMUxWYzJsdVEzM2M1MGl4Z2h4Smk4SU94ck5QSUVTSGVoNktQY2FhVjJ6bmNpVk1aeVhXSFVCQ2Q4ZEFLVWt1MWVYMlhxZUJqMzcxRUJxa2pN0gGTAUFVX3lxTE13aXZXRk1Gc2lSeEo1OGdlTV9FS1VvaG5GOFZCRkt1VEtLMFZlRnBaZ2tmRXBTVkJsc0JQdi1XeFhKdlg1UkUxLTNzNnV3QWxmaTAtdF9wUWRpdGNMVUxFX0NhdjBfVWMwUE1xaHdHem1tQVdQdm1rZjdhd3RfRkxRQ25vQW5kUkNrYzZfek9DWm9CUQ?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
+  },
+  {
+   "title": "Samsung Galaxy Z Fold 8 Ultra is here: Everything you need to know - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQanJEbTlIWGVNS2lhcUV3YlZIMVNVQUVoMGtHMWJ3RkFnZld5WVlIWGxXbWJFSHQtT3lLNW0yU09OekhQTV9MRXp6bzlCX2toRWZXdFFZQnpYT01GZ1RSdW9zZFF0N1dmSC1qRGQ0bUV0OERkTUZ3eWxicmdERnVOdlI2OGZGNWtxLTJyenJnNW1KSjQ?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
+  },
+  {
+   "title": "Xiaomi's Black Shark 3 Pro is a massive gaming phone with beastly specs - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6UWpEeHpUMU52WVNUWGVTb2FZbU50TFdQN2luLWhrVXhNcUZXa3lGX3hKOTU3UmIzRHFEWDMtZ1RLTFlOS2ZYb3lHd20yZXFoTVd2SWpwM3hmcy1DZEtvRFRRcw?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
+  },
+  {
+   "title": "OnePlus Ace 7 vs Ace 7 Pro: Specs, Camera, and Price Differences Explained - Nokiamob",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlU2R3BuQ0pmUWg2V09ZNGhCWlVGb0d6eWE0X1NuODhJYzA1dUZpSGhQNnZaMDU5UUlJeFRjR0lHd24zMS1oY2pmMElKTmxnTDdPdnNOVjBBUFNMMnFzalZxLVA3S1RELW1RaTNNVndGa0wzNnRJbllCcHdMYVpOQ1dFN0tFUm1QS2x0b0xXUGhWV254UUktN2JEdFc1MUZRREN0QW11QQ?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "Nothing OS 5.0 Rolls Out Early to Phone 3a and 4a Series - Android Headlines",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbV9Eb1dCSldXMmEwaFZTM0ZzR1UxR2Y1RVFoSnh2N3N4VE81TDg1YmFYd2xyQ1VCc1BKX1RRSTlmM1lReVc1c0sydzhqX24wNmx1VEpGM1NyU1FKYW94eDlqZ2FLekNBUjBTeWVOS0ZGaFlGMUNxVWJoWkstOEdpOXF0a2R6dDZaY091a2x2eDVHUmRwemRFRVBfWQ?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Model code [3a] found in existing: مراجعة سعر ومواصفات هاتف Nothing Phone (3a) Pro"
+  },
+  {
+   "title": "Trump T1 Phone meets JerryRigEverything's Zack Nelson and several truths are revealed - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zZTdhNy1JVHZGcmJLNzUtSmpFQi16SUF6NUU3Q1ZTTkc3SVpKdUwzZktQNHpCRmNoU1ZUSzFZNEhQcHZUc0pYcms1cnlkZVdodGgzQUtVQzZaSjNGSS1uUWtxa2xocDl5VGlzNzVCdHRkWGNIWm5uVldYZw?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
+  },
+  {
+   "title": "If these iPhone Air 2 specs are real, it’ll be a phone with a purpose - Tech Advisor",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR2hyeXdLZDkya0NyWHpHVVlaWmtfbWhhSWdrX0d3SnZyV2RNNFRpQ3V2OUJZZElfOHNHdUhHTExrN0dSM2ZyQmlxMnI5Rkk2cWk3Ymk1a1IyYmkxOUJzVVI0WDh3YmNLb0NFeEtrajY5QXl0SW1FdHcxeGZuQko5b1RMdkstS3VnZVY2TnBLdEFSUlo0d2FQUlRCUWZyTHI0V1E?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
+  },
+  {
+   "title": "17 Massachusetts School Districts Get $625K in State Grants for Phone-Free Learning - Boston's ROCK 92.9",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdXp4czRlaEdYa0dfR0tnUERUelUzM1RERnRKQTVyZ2EzRTg1SjRjeUc0dTRvWnZJRG9jUTlHQ3VUMFhuMzEzWE1mbDU0aHZpYndOLWJnTDdSTThyNjNvYnhLdlUyaUowU2huaFFKOGlpbDNzVWVmUUNyQU4yaWFqbnZuS0FHMExsbEFwYzQxVmc5UzAzeXFsMTZTMGtJRnVwcUt3blp3TzA2OVF6UmlDazEtbFFBazRrTFRR?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
+  },
+  {
+   "title": "Samsung launches a premium version of Galaxy Z Fold 8 Ultra - SamMobile",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX1JTY1dIZTRISEFfTV9uWW9BeFdqVmV3eUxQMUZWSWtpeXBSd0hBV1R2bGZ5SktoQ3BtaDVvMFRkZXNfcFRwd09CN0JkNXVSTjV1dVNKSVowZWliaDgwbmhReF9hNU9Nbk93ZjZXU0lZdGs3M2hqSThTOGdHdlBTeVdtVHEwSlVoR2V0dDk5VEpVMkI0?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
+  },
+  {
+   "title": "Nokia 2360 flip phone launched for students and seniors that has parentel control, limit on calls and SMS; - The Economic Times",
+   "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPWE14R0JfeXRqbVZVYlYxbV9vMjlVYXQwNVJEWjU0czBTcHlMOHlXYlFUX2Raa1RURnBwRHhEaXJITFBtM3ZPMFdoR3l1VGNWdXBHOVowZ242UFBUaHd6Q1UxeXAtUUZYS0h5UV8xQlhqaUlLMURudHhxLTNXbnBfdE5wMTMxdDg5WVNMY3pFY0dmcXFWb1ZMdURvWE84TDJjcjJHdDZkVFgwbzJkay1SYWFMWi00TzBSdUtSeHVZZG0yR0RBVjlVN3BpOTc5alN5UlpXcXBKRy1Wc2hoVmRVeWVhM2JKY2V1MDZJOWhiQXdQejdINWZKQVpuX1Z2c0EzV1F5TXJPR2stZEo2aU43bmpiYm0teUUybDNHcnI5ekJ0b0NOcnFOZ2JnU1U5a0xFUi1fM3AySjNuUE9UYUdFazZiRDFNeTDSAcACQVVfeXFMTWs2bXZNNHo3ajJfN050TWhJaGJFbWg5WWlZSmxuLUEyNnFYeXg5QkNkLTc0c3ZfZHpsV3ZMOWlZa1RMc1BrR1FpTzAzRkExWTFVbkxmQktSbVJ1N1NFU3pQeFQ5c0EwLURXSTMycU4tTTJmNVZmU3ZGcm1ya0tPZlFfOWd6aklpRHJwRDBENXVBbkMweUw2dkJNbklMTnRycTgzZ1VhN1FuNG5CUHJsU09OWVM4bzc0WS1hWmxxeVo5TFpocWJLNXE1NTZYc1BnYURiUDdjd1FXSnp1bzFySkJDYWNSM3VCUlhackU4T1Z1cGk3ZndNQWM2R3kzWUV1eW9rRTN3ZjNqNUFWMy1zMXh0V3Qyb2RPUy03THlkSGx2SnplSm5Ic1RQcWVYYkJzQzBkMl9wTnRmVkh3YUMyOVU?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
+  },
+  {
+   "title": "Samsung Unveils Premium W27 Smartphone Based on Galaxy Fold8 Ultra in China for $3,300 - Mezha",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNUEteGg5eTRLY2xKVkhaeXFacGozLWFpdjFacHlueUdiWVpxMmRXbUJZNGphSlg3aU1JZ0tTeDVRMTJPNk9QODdxUzR3a0xqemR0eC1IOFVWaTFjUkNwOG0tRUtqR1BVQmFYTVgwbDZQelpWbnNsVVI2dlpEMHNrUzlrZEhmTHdFTkR1WmV6Sml1Z9IBlwFBVV95cUxPZm82cm1qZFRwTHF4bEcyVWt4R3R6d1RvSDVFTHdWN1FqMVhfYUt2ZHdCZWFlYi1DOTZheXNxNm9feHVOV1ZSbjhWODdSRzF1MEVvRjE5d1pSdmpwdXdLQmlNajlUM3dncndvOUhqYkRuMFlYb3FzVS1ibk9PUUJpTkcwdlJBd2JfR1Fpb0NHbklIQzQ2YlFF?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
+  },
+  {
+   "title": "OPPO just teased a world-first triple 200MP camera setup for its new flagship - Nokiapoweruser",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeS1iMGdaUDJBNVZObHR5emMtMF9NcGRKNGVpR0N0NHpIV3FwVHg5eEF0U29VR2p3QmJMRVlmLXl2UWNyX3FwU3hNbTY2aHdMcWh1bUR6T2hJNnowOXhmZmNONWpuUEMwREdKMFplWjVKVkc2YlRxUUw1VXVhbmlHWUdobEt1NmFUcVE?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
+  },
+  {
+   "title": "iPhone 17 vs. iPhone 15: Specs, screen size, and more - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzTks0WmZ2ZUZiaHRuS0JHN09zeUxVRU9TWm5rUE9aZ1Zib0dGazV2VHZaRS1OY2tUNUZLaW1xbVNnSmlFb3RMZjl6WEJSd3pwSnBPNWswZi1adjlEUDV2VUtzYjhaOHZ2SWNMVGtUSzF2MGoybDRpc1ZZeXVWaEk?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "Phrase [iphone 17] found in existing: مراجعة iPhone 17e: معالج A19 وكاميرا 48 ميجابكسل ودعم MagSafe بسعر 599 دولار"
+  },
+  {
+   "title": "The OnePlus 16R preview got monstrous specs and cooling fans that’ll make you jealous - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSVpOVHMxMFFDYjVKSjNGdTFSbGo2RGQ2TTV5bnBTNTl1VWVNM0dxX3RoVGdCZWhOZzQ5dC1EdVdrS1N5cDFtREhHN2tMbnNRZndiaVA2a3dKZjlzQlp0dlA1NEs0d3VhMGlMY1Q2Mk5IVU9aQk9Qd2hwUm4zMFgyMUtvRURUYUM4aXBlWnhIdndpc3R6SFJHeFV4VnRPNHRsX2I0X0loTVgxN1M0STh6RFhrR2lTT29Fa3VScjIyV3pjZHc?oc=5",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
   }
  ]
 }
