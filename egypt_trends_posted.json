@@ -376,6 +376,177 @@
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
     "الوصف لازم 140-160 حرف"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/10/31/فضلوا-البورصة-والذهب-كواليس-أضخم-إعادة-هيكلة-لثروات-المصريين/7599774",
+   "t": "فضلوا البورصة والذهب.. كواليس أضخم إعادة هيكلة لثروات المصريين",
+   "title": "فضلوا البورصة والذهب.. أضخم إعادة هيكلة لثروات المصريين",
+   "url": "https://www.egyptaway.com/2026/10/egyptian-wealth-restructuring-gold.html",
+   "at": "2026-10-31T09:11:22.759345+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/10/31/فضلوا-البورصة-والذهب-كواليس-أضخم-إعادة-هيكلة-لثروات-المصريين/7599774",
+   "t": "فضلوا البورصة والذهب.. كواليس أضخم إعادة هيكلة لثروات المصريين",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://www.elbalad.news/7162206",
+   "t": "مشجع درجة تالتة رهيب.. هشام حنفي يتحدث عن عشقه للأهلي ومغامراته أمام الزمالك",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 415 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.silverscreenandroll.com/lakers-scores-results/128177/lakers-vs-warriors-recap-box-score-stats-final-austin-reaves-luka-doncic",
+   "t": "Lakers blow huge early lead in ugly loss to Warriors",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 5، 8"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/10/30/%D8%AC%D8%A7%D9%84%D8%A7%D8%AA%D8%A7-%D8%B3%D8%B1%D8%A7%D9%8A-%D9%8A%D9%81%D9%88%D8%B2-%D8%B9%D9%84%D9%89-%D9%83%D9%88%D9%86%D9%8A%D8%A7-%D8%B3%D8%A8%D9%88%D8%B1-4-0-%D8%A8%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D9%85%D8%B5%D8%B7%D9%81%D9%89/7599819",
+   "t": "جالاتا سراي يفوز على كونيا سبور 4-0 بمشاركة مصطفى محمد",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 276 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGX2cwMGFOMnY1VzNqdTJwMUZrLWs2UjRqU00weDMyYW5QREpudGdjRERRenI2eGQwQUdnbWhRbEtRd09xaEd5a3BVREc2Y2lJdy1TNElTem5JRTBWLWxZ?oc=5",
+   "t": "بعد تأخير الساعة 60 دقيقة.. مواعيد المدارس وطابور الصباح بالتوقيت الشتوي 2026 - المصري اليوم",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA0RkZYcEZKV29iOVRUVEdsN05RRmc1Uk9FSG1JUGtwcG9Demc2aDFLUjN6TExIZzJNZUpSX2VJNnZHNnN1T1dV?oc=5",
+   "t": "بعد تغيير الساعة.. موعد صلاة الجمعة اليوم بالتوقيت الشتوي - صدى البلد",
+   "title": "مواعيد الصلاة بالتوقيت الشتوي وحكم دار الإفتاء",
+   "url": "https://www.egyptaway.com/2026/10/winter-time-prayer-times-dar-al-ifta.html",
+   "at": "2026-10-31T09:13:04.736814+02:00",
+   "ok": true,
+   "type": "public_query"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA0RkZYcEZKV29iOVRUVEdsN05RRmc1Uk9FSG1JUGtwcG9Demc2aDFLUjN6TExIZzJNZUpSX2VJNnZHNnN1T1dV?oc=5",
+   "t": "بعد تغيير الساعة.. موعد صلاة الجمعة اليوم بالتوقيت الشتوي - صدى البلد",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxNanFSU09MZHhoWUk1QzZidzM3QjI5cWhxRFlRMFFRNXpxa3RwOFE5SjBXRVdmNkpkeWNzYk1sdGRIczZqRUdvN0tVdDdRNk96YmpWTzh5YXVYX0E4ekZuT0k0OXhBOW9LVGdkTFE1MlhCWEdlWnp6eURtdjlHSE5VUkJ6Qm9ub250cjNjRnA1Zzl4bldhQ3JDM0NzS0NidjlXbnM5aTE5VzI4YzlEWGhTRVo3djVsSWdFTzdnUE1zUGd2c1RnWlprWmM4QXdsV2JLa3AzNHJWR0xaN1pmVDQ1VmpNMGQ2SXBYT2ltRVRwWUluX01FVU1jSlBOOFZqXzdSOFA4V2VmT296cjFWMHotWHVPVDhxX2RYUDByeUs3eEo4OU5WV3NQQnNObEJQLXNJOGJTYWdIdjgwcXRhM2M2RnR3WnBITFhXZk1HYUtTWWJGa0lmaDJnMUlpdDBBSkJNQXZxV3lHZVpZUWZ0Q2hQMU1aaWZtbEpFa2pjLTl2YVE2MEo5b0l3V0JaLTR0ZEFHSkc4Ql81bkV5MzN4Slp2bDBGaTlTd1JRNHJKWkpVWFVRcmF3cXNRakVlZ09IOFlOeTI5YWluZ1BnUjFENHE1aXdTZmNfcDDSAdIDQVVfeXFMUGxqMjhTV2tFbTBWWmtjb0V1MTlsbzNadWJ4dUxxcnJfemh3MVNzZTNCOG5rRHN5ZEg4cFZBdmVXa0ZaS1YtU3I5N2dfNVFFQnVxNlFIbnEtWGlWSWhBdVlSZ1A4VzNuTnppNnd1Zk1TeE1fZ1RlWl9BTjl3QUF6YmpQUEdsSkFIMDZjbUNXVnZuTkVaVGtfSVV6aTMtcnhGRTUtWktKWk5HbFdDVWQ1Q282WGJ6NmF3YTZET3lfd2ZUc2RUSGwwLUVNMVEzTFRBeHBDcVNqVFl5RktOX3RaV09keExTSjAzcDlMTW1lSjNKSnZ6dTMwSElsWTJHSGFBQUV0X2Rha0d6SjZDcmRtLVRzYnJCMlpkekdxQmpTcS1UbUJiTTQ4d1VGZWUxT3RUZFFqM2hVSjYtV00zTjhubllibWhaZmczOEJ4RWIzX1A1cEpFQlJlY29yY1NmYm5INmFDM3RXQ2xVVjVYODdJRnAtTEsxSnFJcVFMRU9ORTNYWTBlQlEzQTcyanlETjA3YzRHVGcyeHBkb0dNY25xaHk5b1Y2WjZEUzFhczRJNWFleGM1dmRWTng1MlRPTVQ4WWRSV1JPbm1DaEVIaDZIUXh4dw?oc=5",
+   "t": "تفاصيل طقس اليوم السبت .. شبورة كثيفة وأمطار على عدة مناطق.. فيديو - اليوم السابع",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 9",
+    "الـ body 374 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi5wRBVV95cUxPY3NmZi1XTC1OTnpDMUV1ODA0UlZzUXBIRnlLbmE4ckxzWnk4aFJuZ2Vva1JBaG0xX2RnR2FtMzQxMnNHYjRRbG1sVVdrTFBSbWU3a1pWdGRPOFBSX1A5Y0JHdFJYX0hjOTBnZG1Ed0EtamExaUJzQ0F0UmtmUTVtdTI3Um5JMzUza3Nzalo5S3RRck9WU1RJdnhhdnFZSmRXMHloUTRhTzVZZmRNU2RoTW5CTjNCd05qOTkzS0hVNHcyamN6aE1pbkxwR0kzd243d0sxQmJJQ2gtV3FQaEEyR1dmZGZVZE9QeEFIa040S3BYVmlzVEI1X25UcDQzZml5Mm93eXphQUk2cWd1a2k4YlNBWWNkZmM5d3dZaFl1bGFHbU5oRnBTNVByQkREY19seTl1T0l0ODVSLVAwazk3TmppcFdYRVpRdFZEOUk1MzZ5ZHE5dW9SbEVwZXBlUms5S1g1Tkx4TDF0eF83c3BMZWhYdnRPMW5qamFPQ1ZmQk9kOFZrY0JoSVdERmROSEd4aXowc2x1c01XM0RrdjBkNzZfckVhMkYwcUpoUDRqem5pdzNLSzhNY200bXVqeWhCenI2UVlQSGNpSVRhdnZPdktZcUdCcW1vMUVtcmhfdzdpakdWMzZOcjB5TG0wcVJQQWxpRXV2Z1huUUo2bWszWW5kYXo4QkZhYW1zQnpCbjMwRmJkT25YTm9qc3BDQUlNVXdEN3dxVHJaOWd6bjE2ZjFRa0JsTzhDNjhmYWI1SU10VFNuazRrQnpxSV9nXzlrbTE4dlRpM3IwSV9UMG9aR2Q1dWZDbXfSAewEQVVfeXFMT2Q0anNiNHEyaGdsZFRqcGNWOE9jWlFnSWxFcXBnSFc2YWJKeHhPRWs1aEh5b2hQOW5rYnZWZ1NGRWQtUVNsNGFUMmxiOWVsWFQ0a0kzeUlteU1iUWZTZ2hZN1NkdTY0SjZjYWhpdllfUWF6a3hvekl3RTNYNVE3QndTd0pHblNzd1pmT2E2OENtY1YtWGhib1YyTFNudktjWkxjLXh5LV9NNzhDVXJMOGFQQ0V5T1VBZkc0ODBkcVhhWFZsLVZLZHM5RUFacjYyQno4UU55Yk9DRDc2OEUxcEliM095MjZIYm8weVJOUkNrdWJQM0ZzRXBISkpMRlNGRzFvMXpLUmVybWdac1ZSTlhvd29UZjdlRGkzN1NleXUzTktCR1E4V2hPck0tV3ZuQkxFVkQ4enVON1JqVngyczNwMmJFZWlkQXRrdXM4TkZaV3VvU2FRS2pXUXlTZjVqRmxDTnIzZFU1NmtYdUdIdW40Z1V4akRUZkNWM2tGWXE2ZzBmcEJPcEVicHpsY0xBOEh3YUlhR0NHWnVoQ0RJd19rTEU0SUxyVTZRNEROVVVOd1ZRbWd6SGlxNWtSZS1KVmk5Tm1sWjE0YmR2LUkxVklQMGJ4UV9hamNqOFR6anp1RmpjbFlvcG9VYld6OU5kTk9sSUgtRmFGazh2TGtyaDFxVG5DaXN5ZWJRM2pQMzRLbWNPZ21mbFRDZndXY1pwdW1QRVpkRXhpd0V5TXVBLS0zUUxvTFlQaFQ4VUlWeUpmX0JMTFBHeXpqMXlicHgzVnFDZnIyRG44WktGTWZzTzYxT3BWWmJYTEMzNVg?oc=5",
+   "t": "ارتفاع الحرارة ونشاط الرياح.. الأرصاد تكشف تفاصيل طقس أول أسبوع من نوفمبر - Masrawy",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 437 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMijgRBVV95cUxOMWdweGpCYlpjSjBsNlZWdFBNQmZMRmJ6Q24xaFJ1M096aDkyMmJ0ZWtEeElKaE9BckRuaDY2XzBWTEhPMDFhOGRXcm9CczRNTXBvUUNsYWdsUmxZUnJpUVI4Ti1RWGptU1c0SHZxQ0ltTXh2MVVRTkJ1QzdUci14SXJDRWZPUjQ5ZlVycWZWTmlJSV83Y2pxcWppZmkzOGU2cG90ZFdoNzFMVHE2QndVajJCYmdjSTFnTVRfLXd5R0ZSQ0ozTUJHV19uSmJkOThuZ2NWVXFtY2xERkljeVVXUm9IX0V5N253OENGX2tiS3I3cTB2eWcxQy1wVTd5ejZ2aGVpWmI2dXpKUDlRTW5GY2NuX09iZTNuMldpOEp6T0FsV05NVmh3bXRfRmhGZFl1MTFHQXFNcXdZeUt2cHN2OWIzaEJtWVp0NUw1WjhDcV8zQlAwU1RSUkJMeGU0TVpMNUgzWkFwT0hDN0haUGRGbU5WVTZPMzlLWGlKaTZ0X1lrY1VmUmpOZ09YckJRVzFuUk4wMy1TZ1NTSXhsX05zU1RZSVVsZlhoQlVPeURQRGphMUtlUTliR0U4a1VqUXVwRE40b0NtS3BCbG8wRTlKaDd3Q0FtdU1QRm0tcEhaWlZrTGltWjRIa1IyV2l6X255V2RaQUkzdDQ2TmxhaWgyQ2E5dmpqZUdpZUgzNGd30gGTBEFVX3lxTE1tTEh0Si05ZWR4Wk4tby1CRzRkTHBVa3J4aXNCc19NWXZWTTJmRXVuNlk3dHIta201OWJQaG9oRmtPTVBqNVJDM3RoVzE1RWtwUmVOeTg3VHp5OThXNzhUT1NsempWNDlyVVlWRGtDVFh1YkpSQmVuOFlRLW1iZFFTVXlyejVIalBLUTVZYkRwSksyVEVFZEFmblBCY2owVnV2dVBNNUJBYUlVYnhCYlYyOHJEVXp1RE1HN3pKLTM4Mk5GdGE4b2Q4Zy10a2NyeEpkOThMUDZfNEZsZ2owTG9nd2twcUhBdXFWMHdILWhja0pnRmdDamRKZmVnMlhyQlhYN3YxMTdNNzgxNnRNWUsyYm9tOTRFc2ZQTlE2ajFIZ1VFY1JISDJ0aEhmUFNJaTN4Z1Qwclo4MEJWcFE3cGZzb2U0emFLRjJrTVk2V2xtdmF4bEpsX3pPSUlheVloNFJ2Z3JqaU82SUNWVm5SVG9Rd2NCUWY4UVVma0MwR1JlX2VOODJGUUgtOFpkcHYtU1NpT2x2aW1RZTNFaWpwZnAwWGdhSlZhTklxeW55TmZNSjh1RWgtdzZCUzBmeVR2ZVppVjM2Q2tQc1ljaU00R1p3VFYyaWZ5SERoUF9EWGkzWUx4cFlvNnpRczdiNmd6clpfUGlrZnN2cVk0LWxvYmVEaE1aSnNsT0s2SUFZM3hSUDZoRQ?oc=5",
+   "t": "أسباب وقف بطاقة التموين 2026 والأوراق المطلوبة لإعادة تفعيلها - Masrawy",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 450 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBnbkdDNDVKUUhSQWR6M2xyWk5zYVdoQjdfODBVbEZCdVNUaC1fYnFPR21oYm9FZDQyLUlLQ2VLNVFYeVVYS1pv?oc=5",
+   "t": "30 سلعة بأسعار مخفضة ضمن مقررات تموين شهر نوفمبر 2026.. تعرف عليها - صدى البلد",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 357 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1maW9hWGhiSkl2U3NXX2h6RFlrZGxneFdhS285UV9SQWg1cWQ4R3VNZGwyc01PWExTeFJueVVMQ2JEVGJyM2FuaQ?oc=5",
+   "t": "موعد صرف التموين لشهر نوفمبر 2026 وحصة الفرد من السلع - الأسبوع",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 262 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0MTlzbHowWDVOSlhsTWo2aVRsbTFEN2RZRGhGc0llX09wZGJMRFpaSzFDeWNXaENjLXVZS2cwN19ZQklGM01fZzg3ckpnejAzOWt6Z1Z5WXRsMXdkZUhj?oc=5",
+   "t": "اختبارات شهر نوفمبر 2026.. موعد امتحانات صفوف النقل وحقيقة تأجيلها - المصري اليوم",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 450 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMipANBVV95cUxNZ2NJWkFUYzBBamZTcEtBX0dxNUJnbVUzQzdjYjNOTm8ycFN0bHRmWnI0eVh1TElyV2R1S25qbVpheGExVzBHVUZiQnZHNnI5YmRwQm1EN09WTDdkTDVrR2hZOV85MVhKOXVuRTlsSHcyREJqNW02TXFNaEYwYkZjV3M2OUtHcDJPT1Q3Zlc5aGVaWHhMV2Fta3N1dW9NWEVWZjZaOTI5NVMwbXpNUEVzaHptWDhLeDY1RXdtSmZxNEVXRFhCdkQ1UEt4LWM1T2lTMTlyNlJzX0N0X09hR2wzSnJvXzBrbng2U3hJck5JV0tRM0VudWlnejhiX1hYMVItX3JvRTFLY0dOdkQzWDRBeTdIdkhLbjVRZVNLUHNycjNrOU0xdl9iS0tiUWtLTk1PUDEyN21UMm5EM1hhY3lzZW8tbFFXcGFfaU9GdnRERmZDRFNYUnVNUVBKTmwteF9Pb2hWOW5kOUZnOVZEMGFRU0VybUdaZEpMV3AyVXZaX0xWMVBVaDBRbkNIamR5STRXd005dHBscW9ZZ1NidWhwaWE2U3nSAZ8DQVVfeXFMTnR2MUFIOE9XTFYwQnJWcXRXdUY4MDZueUNXSDZJdUkxc285Q2hXbU8tZzVwLVJ0UmYweEVScmJGaHUtbmNoaDhoMllJUVlEc1RXQzMxZXlzUmoySmNOQUJIYW1Qd0VFUmVJeTZjZnduOVhVWlFmLWx3azNWYUlSVlNqSHFoZjNhcF9lZFZvNkQwaWZ3Rm1wX0FwNl9jX2F5Q2dqQXBucUZxZ0tHelZ4RGdDM0NCTVZWSGVHVWJhaFcwTVF5bWNVVXVDMFFsRUtyU29YNm5yT2RMSkpMcndoNUY1NUp5Qm1iVk5fZUE2R1NfVWlwbGJVekNOWTE0SEFldFVhTTNGSUU3QVVaTWxTMWlaeVdTMTBuSGYyeExMaUM1S3Y3QlVVWHZLNkduMEtrYTUtODNnQ0QxNFVEYkc0djZzRXlWVW5vbFRaUzFGckNuNTNrTUgtTV9IS2FRV09FV3Jhc29ScUNDajZkQlNtT1pDX1FEbHY4V0hpTElPZWgtMjAzTHQ4czNRVGs3TWNhbGZjbmFOM1FzZlFjMTZ1SQ?oc=5",
+   "t": "قطار تالجو.. مواعيد الرحلات على خطوط السكة الحديد - اليوم السابع",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 398 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1BTlZUZjJVb1k2ZHc3VHBmRkpmUmtKeWd5S3lDT19XaFdxQmgtSlFwSzA0aWhLQW5vSmlUY1B1ZVpHTGFNN3Vz?oc=5",
+   "t": "مواعيد القطارات من أسوان إلى القاهرة اليوم السبت 31-10-2026 - صدى البلد",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 368 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBVR1hhRng1SndNQkc3b0VIbGJETkRfVUs2VHl4Szc5aXJtalZmVW9hdlUwbXV0MHREYkt1c0lJdHprTzRoUlVRRg?oc=5",
+   "t": "موعد صرف تكافل وكرامة لشهر نوفمبر 2026.. رابط وخطوات الاستعلام عن المعاش - الأسبوع",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 420 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB4alQxa3JheERBX1BvenNpaWlacFB4N3pOcGU4SkVMOTI1dVVMV1RwVy1iekhXWmU1SzZtNnNNNTZuZm9aM0ZNbQ?oc=5",
+   "t": "بعد ساعات.. صرف معاشات نوفمبر 2026 | أماكن الصرف وطرق الاستعلام بالرقم القومي - الأسبوع",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 395 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMivwRBVV95cUxPZWNfYmJuRGh4ZHprRzQtb3laYTFkeTRFSXlCVXdJQ0l0QnJVQ1ZzUWsxZURlcVFUaXp2RktlbGpIU2JiRzQtZ1kybWYxSWViQUQ2WUlxeEhQQVFIVFFfTTFpWFlOT1dYYzVPYmE1ZmF6RVhMbnRJcHpOaDlLbjdRZEZVUGpuNUFJTE1OQ0RyZ2wxeHR1NmIwdFZ5bUd6VHk5cUppNmxMSm9maUx4ZXBqUDNscl9hdVU2TWtPNmRteWc2UmdDUTlLRUMtUlRERXVyLTJKbmtLT3ItNWplSWdHY3liWW5iWW8xa25fTUZqajRPVlpuSEthMlZ3U3ZWQXFZR1BHZTlhaU5NQ1JsZDdPd1BTb3V0bDM2cV9LeGZjMFgxOVpWYnlSZGVBNDNWRlJKcUlhXzQyb0NpTFFudHFFajJ3QWJrTzNLdU4tNUpfUk15U3kxVl9LeXlzWUlleFp6azFmT2N5RXRKU1hTVm53TEM1NTY4cThJYkdSVTMwRXlseFBnT2xta1c0aEUtR0toWGE0aFZraHQxWTJsX0xMV2ZGNDBxZlJsWExZWG1PT1FiS0ljaGhUVzJyNnE1c1dfSlgydWliQS10eUdkVHpuRkROTk9xT2Rpb0lab2M3OTljZ0hPSDRTWHR5b1JYTjJCV2xORkdEMGtBRWhIN29hSFJ1VVFWRjFtS2pIajk4alZoN0ZuaTJtS2xobkRQaEJLU29jT1ZlLVlScmU0RU9vUWVzbW9mUE9uNUktUlUwMNIBugRBVV95cUxQN0UtZEx0QlJqejV2NWZ3ejFSWlJySTE3NVVSSG42Y2FCT1V1bnhTdGlSd2VLM2ttcTZCTnpycEZud1hoX0FBcEhLUXZLRmNRT2t6NWh6WkZYc1BBR2g0Z1lKNlFsbWxfaFNKRjRkUWwwbUJqRFQ1LXNscU54dWVjaWNvZDk0enFqb1RZY0psWms3UFpKWnJyR0pKRUlKZVVuTFpMTThjeU44SkpCVV9RRjBnME5QUEVPbkVTbmlZdjZKeEktX0dGVDViNk1QM09tSk1vRmpJeGJSUWFNRVdVVDhVRXBXendOTWhfMWV6emtCeFZscGZYZ2Y0WWttMmY3aU9JcTl3TmhxWkZ3Tk5GMW05cU54M2VIanJhMGVmcExHWkpra3dvckdHU09NQ1lZcndMVVU3TVpqTURteWVsWmNtZ1p1aXU3bUFLNUVLVXdhUzRkZC0xSnF0SUtoNDVfWkctV0RfSDcxbVVCc0NNUzFnRFlaQ0xQX21manJ5bnMtTkZBZDZoUzdrZjJWa0VLWDJpRll6VXFKb2RpZzEweC10aXJOVzh0cVZ1a2ZQdHo4cWs2SnRzeUluSzlib2VTdG1OWDFkWlMxTW1fVDUtWmxFLWtTcE42SkVmcVg2VjlVU0dLSjYzd0V3NmR1dzRxSFIxbWRWOC12cGpOZzdQZE1xa0dEY3BWbmFobzEtNGpuOFBoN3FKcTdfbVQ5OHNHYVlyRDZTZms0aDVQVUdTcjNnOGZXNlMxM0E?oc=5",
+   "t": "أمطار وانخفاض الحرارة.. الأرصاد تكشف الظواهر الجوية وخرائط الأمطار غدا - اليوم السابع",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 436 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
