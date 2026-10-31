@@ -54,7 +54,55 @@ HUB_LINKS = {
              '<a href="https://www.egyptaway.com/p/gold-prices-egypt.html">أسعار الذهب اليوم في مصر</a>.</p>')
 }
 
-AVOID_REGEX = r"قتل|مقتل|جريم|اغتصاب|تحرش|انتحار|ذبح|طعن|مخدرات|إرهاب|ارهاب|فضيحة|فيديو إباحي|اباحي|شذوذ|فضايح|sex|porn|murder|suicide"
+# فلترة صارمة لمنع أي أخبار سياسية أو حروب أو شؤون فنية (قرار محسن 2026-10-31)
+BANNED_TOPICS_REGEX = (
+    # السياسة واللقاءات والحكومات والدبلوماسية
+    r"رئيس الجمهورية|السيسي|الرئيس|الحكومة|مجلس الوزراء|رئيس الوزراء|مدبولي|وزير الخارجية|وزير العدل|"
+    r"البرلمان|مجلس النواب|مجلس الشيوخ|أحزاب|انتخابات|سياسي|سياسة|دبلوماسي|سفير|سفارة|مباحثات|"
+    r"مستشار|لقاء|استقبل|استقبال|مؤتمر صحفي|بيان رسمي|زيارة رسمية|قمة|اتفاقية دولية|معاهدة|شأن سياسي|"
+    # الحروب والنزاعات والعمليات العسكرية والصراعات
+    r"حرب|حروب|معركة|معارك|عسكري|جيش|قوات|صواريخ|صاروخ|طائرات حربية|غارة|غارات|قصف|انفجار|استهداف|"
+    r"هجوم|مسيرة|مسيّرة|طائرة مسيرة|مسيرات|مقذوف|شهداء|قتلى|جرحى|إيران|طهران|إسرائيل|تل أبيب|"
+    r"غزة|لبنان|حزب الله|الحوثي|اليمن|سوريا|روسيا|أوكرانيا|الشرق الأوسط|نووي|أسلحة|دبابات|غارات جوية|"
+    # الفن والغناء والرقص والتمثيل والمهرجانات الفنية
+    r"فنان|فنانة|ممثل|ممثلة|نجوم الفن|مطرب|مطربة|مغني|مغنية|غناء|أغنية|كليب|فيديو كليب|رقص|راقصة|"
+    r"مهرجان الجونة|مهرجان القاهرة|مسلسل|مسلسلات|فيلم|أفلام|سينما|دراما|تيك توك|مشاهير|زواج الفنان|طلاق الفنان|فستان|"
+    # الجرائم والحوادث البشعة
+    r"قتل|مقتل|جريم|اغتصاب|تحرش|انتحار|ذبح|طعن|مخدرات|إرهاب|ارهاب|فضيحة|فيديو إباحي|اباحي|شذوذ|فضايح|sex|porn|murder|suicide"
+)
+
+# الاقتصار حصراً على مجالات موقعنا وأقسامه وصفحات الخدمات والتكنولوجيا والألعاب والرياضة
+ALLOWED_TOPICS_REGEX = (
+    # 1. التكنولوجيا والهواتف والذكاء الاصطناعي والتطبيقات
+    r"تكنولوجي|هاتف|هواتف|موبايل|موبايلات|أندرويد|آيفون|سامسونج|شاومي|هونر|أوبو|فيفو|ريلمي|موتورولا|"
+    r"ذكاء اصطناعي|شات جي بي تي|جيميني|تطبيق|تطبيقات|واتساب|فيسبوك|تحديث|معالج|كاميرا|شاشة|بطارية|تسريب|مواصفات|"
+    # 2. الألعاب والجيمنج
+    r"لعبة|ألعاب|جيمنج|ببجي|فري فاير|كول أوف ديوتي|إي فوتبول|فيفا|فورتنايت|ماين كرافت|روبلوكس|شحن|أكواد|جواهر|شدات|"
+    # 3. الرياضة وكرة القدم
+    r"كرة قدم|كورة|مباراة|مباريات|الأهلي|الزمالك|بيراميدز|الدوري المصري|دوري أبطال|محمد صلاح|ريال مدريد|برشلونة|ليفربول|مانشستر|"
+    # 4. الخدمات والصفحات التي أنشأناها بموقعنا
+    r"ذهب|عيار 21|الجنيه الذهب|سعر الذهب|بورصة الذهب|"
+    r"دولار|عملات|سعر الدولار|سعر الصرف|سعر الفائدة|شهادات|البنك الأهلي|بنك مصر|البنك المركزي|شهادة ادخار|"
+    r"طقس|أرصاد|درجات الحرارة|أمطار|سيول|حالة الجو|بيان الأرصاد|نوة|"
+    r"مواقيت الصلاة|موعد أذان|الفجر|المغرب|العشاء|الجمعة|"
+    r"قطارات|قطار|مواعيد القطارات|سكة حديد|مترو|مواعيد المترو|تذاكر|"
+    r"مرتبات|صرف المرتبات|معاشات|صرف المعاشات|تكافل وكرامة|حد أدنى للأجور|"
+    r"امتحانات|جدول الامتحانات|مواعيد الامتحانات|مدارس|جامعات|إجازة رسمية|إجازات|عطلة رسمية|التوقيت الشتوي|التوقيت الصيفي|تغيير الساعة|"
+    r"إسكان|شقق|سكن لكل المصريين|مسكن|كراسة شروط|طرح وحدات|أراضي الإسكان|"
+    r"بنزين|سولار|أسعار البنزين|وقود|لجنة التسعير|تموين|بطاقات التموين|صرف السلع|"
+    r"عطل|إنستاباي|فودافون كاش|انقطاع الإنترنت|شبكة المحمول|فوري"
+)
+
+def is_valid_topic(title):
+    if not title:
+        return False
+    if re.search(BANNED_TOPICS_REGEX, title, re.I):
+        return False
+    if not re.search(ALLOWED_TOPICS_REGEX, title, re.I):
+        return False
+    return True
+
+AVOID_REGEX = BANNED_TOPICS_REGEX
 
 TREND_QUERIES = [
     "تغيير الساعة OR التوقيت الشتوي OR التوقيت الصيفي when:24h",
@@ -185,14 +233,14 @@ def get_trend_candidates(custom_query=None):
     seen_urls = set()
 
     # 1. Direct High-Authority Egyptian Publishers (Masrawy, Youm7, Elbalad, Almasry Alyoum)
+    # مصادر مقتصرة حصراً على التكنولوجيا والاقتصاد والرياضة والخدمات (بدون أي أقسام سياسية)
     direct_feeds = [
-        ("Masrawy Breaking", "https://www.masrawy.com/rss/feed/25/" + urllib.parse.quote("أخبار")),
-        ("Masrawy Egypt", "https://www.masrawy.com/rss/feed/35/" + urllib.parse.quote("مصر")),
+        ("Masrawy Tech", "https://www.masrawy.com/rss/feed/209/" + urllib.parse.quote("تكنولوجيا")),
+        ("Youm7 Tech", "https://www.youm7.com/rss/SectionRss?SectionID=328"),
         ("Masrawy Economy", "https://www.masrawy.com/rss/feed/206/" + urllib.parse.quote("إقتصاد")),
+        ("Youm7 Economy", "https://www.youm7.com/rss/SectionRss?SectionID=297"),
         ("Masrawy Sports", "https://www.masrawy.com/rss/feed/27/" + urllib.parse.quote("رياضة")),
-        ("Youm7 Breaking", "https://www.youm7.com/rss/SectionRss?SectionID=65"),
-        ("Elbalad Breaking", "https://www.elbalad.news/rss.aspx"),
-        ("Almasry Alyoum", "https://www.almasryalyoum.com/rss/rssfeeds")
+        ("Elbalad Tech", "https://www.elbalad.news/rss.aspx?catid=10")
     ]
     for feed_name, feed_url in direct_feeds:
         try:
@@ -201,7 +249,7 @@ def get_trend_candidates(custom_query=None):
             for it in soup.find_all("item")[:6]:
                 t = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if t and link and link not in seen_urls and not re.search(AVOID_REGEX, t, re.I):
+                if t and link and link not in seen_urls and is_valid_topic(t):
                     seen_urls.add(link)
                     candidates.append({"t": t, "link": link, "type": "publisher_rss", "source": feed_name})
         except Exception as e:
@@ -217,7 +265,7 @@ def get_trend_candidates(custom_query=None):
             for it in soup.find_all("item")[:8]:
                 t = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if t and link and not re.search(AVOID_REGEX, t, re.I):
+                if t and link and is_valid_topic(t):
                     candidates.append({"t": t, "link": link, "type": "custom", "query": custom_query})
         except Exception as e:
             print(f"Custom query fetch failed: {e}")
@@ -252,7 +300,7 @@ def get_trend_candidates(custom_query=None):
             for it in soup.find_all("item")[:4]:
                 t = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if t and link and link not in seen_urls and not re.search(AVOID_REGEX, t, re.I):
+                if t and link and link not in seen_urls and is_valid_topic(t):
                     seen_urls.add(link)
                     clean_q = q_term.split("when:")[0].replace("OR", "").strip()
                     candidates.append({"t": t, "link": link, "type": "public_query", "query": clean_q})
@@ -266,7 +314,7 @@ def get_trend_candidates(custom_query=None):
         for it in soup.find_all("item")[:8]:
             t = (it.find("title").text if it.find("title") else "").strip()
             link = (it.find("link").text if it.find("link") else "").strip()
-            if t and link and link not in seen_urls and not re.search(AVOID_REGEX, t, re.I):
+            if t and link and link not in seen_urls and is_valid_topic(t):
                 seen_urls.add(link)
                 candidates.append({"t": t, "link": link, "type": "nation", "query": "شؤون مصرية"})
     except Exception:
@@ -347,6 +395,11 @@ def main():
         real_img, src_text = fetch_publisher_article(pub_url)
         if not src_text or len(src_text) < 450:
             print(f"  Insufficient text ({len(src_text) if src_text else 0} chars). Skipping.")
+            continue
+
+        # فحص إضافي لمحتوى المقال نفسه للتأكد من خلوه تماماً من السياسة والحروب والفن
+        if re.search(BANNED_TOPICS_REGEX, src_text[:2000], re.I):
+            print("  Article body contains banned political/war/art content. Skipping.")
             continue
 
         print(f"  Source text length: {len(src_text)} chars | Real Photo: {bool(real_img)}")

@@ -31,6 +31,23 @@ INDEXNOW_KEY = "e3b3e2ee8cd741f59f1b91e73c0f9090"
 STATE_FILE = "service_news_posted.json"
 DAY_CAP = int(os.environ.get("SERVICE_NEWS_DAY_CAP", "30"))
 
+# فلترة صارمة لمنع أي أخبار سياسية أو حروب أو شؤون فنية (قرار محسن 2026-10-31)
+BANNED_TOPICS_REGEX = (
+    # السياسة واللقاءات والحكومات والدبلوماسية
+    r"رئيس الجمهورية|السيسي|الرئيس|الحكومة|مجلس الوزراء|رئيس الوزراء|مدبولي|وزير الخارجية|وزير العدل|"
+    r"البرلمان|مجلس النواب|مجلس الشيوخ|أحزاب|انتخابات|سياسي|سياسة|دبلوماسي|سفير|سفارة|مباحثات|"
+    r"مستشار|لقاء|استقبل|استقبال|مؤتمر صحفي|بيان رسمي|زيارة رسمية|قمة|اتفاقية دولية|معاهدة|شأن سياسي|"
+    # الحروب والنزاعات والعمليات العسكرية والصراعات
+    r"حرب|حروب|معركة|معارك|عسكري|جيش|قوات|صواريخ|صاروخ|طائرات حربية|غارة|غارات|قصف|انفجار|استهداف|"
+    r"هجوم|مسيرة|مسيّرة|طائرة مسيرة|مسيرات|مقذوف|شهداء|قتلى|جرحى|إيران|طهران|إسرائيل|تل أبيب|"
+    r"غزة|لبنان|حزب الله|الحوثي|اليمن|سوريا|روسيا|أوكرانيا|الشرق الأوسط|نووي|أسلحة|دبابات|غارات جوية|"
+    # الفن والغناء والرقص والتمثيل والمهرجانات الفنية
+    r"فنان|فنانة|ممثل|ممثلة|نجوم الفن|مطرب|مطربة|مغني|مغنية|غناء|أغنية|كليب|فيديو كليب|رقص|راقصة|"
+    r"مهرجان الجونة|مهرجان القاهرة|مسلسل|مسلسلات|فيلم|أفلام|سينما|دراما|تيك توك|مشاهير|زواج الفنان|طلاق الفنان|فستان|"
+    # الجرائم والحوادث البشعة
+    r"قتل|مقتل|جريم|اغتصاب|تحرش|انتحار|ذبح|طعن|مخدرات|إرهاب|ارهاب|فضيحة|فيديو إباحي|اباحي|شذوذ|فضايح|sex|porn|murder|suicide"
+)
+
 TOPICS = {
     "housing": {
         "name": "طروحات الإسكان وبوابة مسكن",
@@ -292,6 +309,8 @@ def main():
         for t, l in items:
             if not re.search(top["must"], t):
                 continue
+            if re.search(BANNED_TOPICS_REGEX, t, re.I):
+                continue
             if any(difflib.SequenceMatcher(None, f.norm(t), f.norm(ex)).ratio() > 0.70 for ex in all_known_titles[-80:]):
                 continue
             filtered.append((t, l))
@@ -309,6 +328,9 @@ def main():
             real_img, src_text = fetch_publisher_article(pub_url)
             if not src_text or len(src_text) < 400:
                 print("    Source text too short or unreadable. Skipping.")
+                continue
+            if re.search(BANNED_TOPICS_REGEX, src_text[:2000], re.I):
+                print("    Source contains banned political/war/art content. Skipping.")
                 continue
 
             print(f"    Source decoded: {pub_url[:65]}")
