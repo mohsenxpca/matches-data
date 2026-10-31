@@ -871,6 +871,50 @@
    "reason": [
     "الـ body 435 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_economy/details/2026/10/31/3071247/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A2%D9%84%D9%8A%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D8%AA%D8%B3%D8%B1%D9%8A%D8%B9-%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D8%AA%D8%B1%D8%A7%D8%AE%D9%8A%D8%B5-%D8%A7%D9%84%D8%A8%D9%86%D8%A7%D8%A1",
+   "t": "التنمية الصناعية تعلن تطبيق آلية جديدة لتسريع إصدار تراخيص البناء",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 389 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7162329",
+   "t": "بالأرقام.. عموتة يعادل كولر وموسيماني في أول 11 مباراة مع الأهلي ويتفوق على فايلر",
+   "title": "عموتة يعادل كولر وموسيماني ويتفوق على فايلر مع الأهلي",
+   "url": "https://www.egyptaway.com/2026/10/amouta-equals-koller-mosimane-ahly.html",
+   "at": "2026-10-31T11:11:43.367909+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7162329",
+   "t": "بالأرقام.. عموتة يعادل كولر وموسيماني في أول 11 مباراة مع الأهلي ويتفوق على فايلر",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://www.yahoo.com/news/politics/articles/polish-ambassadors-resign-response-constitutional-083322778.html",
+   "t": "Polish ambassadors resign in response to Constitutional Court crisis",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 458 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQS1hwZ2pwMDZ3SHRDancxallrMUc3NjFXeGp5OUVLN0h0M2xaS3lsWnFqck1rZkQ4S1I4V1YtZ1ppck5EcWw2US1NU0JqT2RpWTQtOEJFUkZwSW1QVWY4eExEQ0E5RWdodk5zcld0RDcyM0ZSTlV3TnJCRmo5TWNEemt5RzJrUVY5cnBnTWhoTlJKa1FlNW5Va2RvNG4wdUg1ZXVQUTFwVUVDXy1BR0x5QzgxVkNHSW5pQ2hTbWcwYkRvRzV5bkdqR3RrZXhFa3NjQ3dfb2w3eHlxSUQ1UGk4VnlIa1l6WlBuUm5YdWlPWEFrYjVxUE9ZclAyREV4dWpwdXpUbktrSU1HOUtxaHNiSTNnM2Q4bElveGRMY0xqWmlEVG52MzFneHBDT2Y0ZVZDM2lyejZSeHE0bEx4a0JVYzhaQ21YZGJQRWlfTExRb3M3ODMzckFB0gHXAkFVX3lxTFBLWHBnanAwNndIdENqdzFqWWsxRzc2MVd4ank5RUs3SHQzbFpLeWxacWpyTWtmRDhLUjhXVi1nWmlyTkRxbDZRLU1TQmpPZGlZNC04QkVSRnBJbVBVZjh4TERDQTlFZ2h2TnNyV3RENzIzRlJOVXdOckJGajlNY0R6a3lHMmtRVjlycGdNaGhOUkprUWU1blVrZG80bjB1SDVldVBRMXBVRUNfLUFHTHlDODFWQ0dJbmlDaFNtZzBiRG9HNXluR2pHdGtleEVrc2NDd19vbDd4eXFJRDVQaThWeUhrWXpaUG5Sblh1aU9YQWtiNXFQT1lyUDJERXh1anB1elRuS2tJTUc5S3Foc2JJM2czZDhsSW94ZExjTGpaaURUbnYzMWd4cENPZjRlVkMzaXJ6NlJ4cTRsTHhrQlVjOFpDbVhkYlBFaV9MTFFvczc4MzNyQUE?oc=5",
+   "t": "موعد وطريقة تغيير الساعة: خطوات ضبط الهاتف والأجهزة مع بدء التوقيت الشتوي – دليل البلد - دليل البلد",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 399 كلمة بس، لازم 530 على الأقل",
+    "العنوان شبه عنوان منشور قبل كده: بدء تطبيق التوقيت الشتوي في مصر وتأخير الساعة 60 دقيقة"
+   ]
   }
  ]
 }
