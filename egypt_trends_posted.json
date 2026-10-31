@@ -1073,6 +1073,33 @@
    "reason": [
     "الـ body 408 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7162434",
+   "t": "موعد مباراة طرابزون وكونيا سبور في الدوري التركي",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 302 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.bbc.com/sport/football/articles/cked3zen65d1o",
+   "t": "Time to invest in Bournemouth? - FPL gameweek nine dilemmas",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 6.0"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03RU02QVhqX3JINmNzZTVsWWl2aE5KTU04bzZFMGptREtCeG82MTRmd0dVeGtIZmM5X01DYXljc3JEbG5BOXVDZVFMSzhIQXNrME1PMXVmRFJhVFhlZ3lZ?oc=5",
+   "t": "الأرصاد تكشف مفاجآت بشأن حالة الطقس: درجة الحرارة تقفز 5 مئوية - المصري اليوم",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الـ body 421 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
