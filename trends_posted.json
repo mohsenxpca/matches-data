@@ -312,6 +312,13 @@
    "at": "2026-10-31",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "سعر البنزين اليوم",
+   "at": "2026-10-31",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/10/fuel-prices-today-egypt.html",
+   "title": "تعرف على سعر البنزين اليوم في مصر"
   }
  ]
 }
