@@ -396,6 +396,87 @@ def lengthen(art, src, min_words):
         art["body"] = new
 
 
+# Deduplication Shield (درع منع التكرار الدلالي والمحتوى)
+_RAW_BOILERPLATE = [
+    "موعد", "مباراة", "مباريات", "القنوات", "الناقلة", "القناة", "الدوري", "المصري", "الإنجليزي",
+    "الإسباني", "السعودي", "الإيطالي", "الفرنسي", "الألماني", "أبطال", "أوروبا", "إفريقيا", "افريقيا",
+    "كأس", "بطولة", "تشكيل", "تشكيلة", "التشكيل", "المتوقع", "الرسمي", "اليوم", "الليلة", "الان",
+    "الآن", "ضد", "أمام", "امام", "مع", "في", "من", "على", "إلى", "عن", "هذا", "هذه", "تم",
+    "كان", "أن", "إن", "هل", "بعد", "قبل", "عند", "خلال", "بين", "حول", "كل", "ما", "لا",
+    "أو", "ثم", "له", "لها", "به", "بها", "منه", "منها", "فيه", "فيها", "عليه", "عليها",
+    "الجديد", "الجديدة", "رسميا", "تفاصيل", "أول", "أخر", "آخر", "بسبب", "تطورات", "موقف",
+    "رسالة", "قرار", "بيان", "عاجل", "يكشف", "تحذير", "مفاجأة", "شاهد", "فيديو", "تقرير",
+    "طريق", "طريقة", "كيف", "أبرز", "أهم", "تعرف", "لـ", "خطوة", "بشأن", "عقب", "أثناء",
+    "تعلن", "يعلن", "يعلنها", "توضيح", "توضح", "يلتقي", "يواجه", "مواجهة", "يستعد", "استعدادا",
+    "ناقلة", "قناة", "قنوات", "دوري", "كاس", "بطوله", "تشكيله", "رسمي", "متوقع"
+]
+
+_DEDUP_BOILERPLATE = set()
+for _b in _RAW_BOILERPLATE:
+    _nb = norm(_b)
+    _DEDUP_BOILERPLATE.add(_nb)
+    if _nb.startswith("ال") and len(_nb) > 4:
+        _DEDUP_BOILERPLATE.add(_nb[2:])
+
+def _dedup_stem(w):
+    while len(w) > 4 and (w.startswith("و") or w.startswith("ف") or w.startswith("ب") or w.startswith("ل") or w.startswith("ك")):
+        w = w[1:]
+    if w.startswith("ال") and len(w) > 4:
+        w = w[2:]
+    return w
+
+def extract_core_entities(text):
+    text_norm = norm(text)
+    words = re.findall(r'\b[\u0621-\u064A\w]{3,}\b', text_norm)
+    entities = set()
+    for w in words:
+        sw = _dedup_stem(w)
+        if sw not in _DEDUP_BOILERPLATE and len(sw) >= 3:
+            entities.add(sw)
+    return entities
+
+def strip_boilerplate(text):
+    words = [_dedup_stem(w) for w in norm(text).split() if _dedup_stem(w) not in _DEDUP_BOILERPLATE]
+    return " ".join(words)
+
+def is_semantic_duplicate(new_title, existing_titles, new_slug=None, existing_slugs=None):
+    """الدرع الدلالي: يكشف المقالات المكررة حتى لو قام الذكاء الاصطناعي بإعادة صياغة العنوان تماماً."""
+    ent_new = extract_core_entities(new_title)
+    stripped_new = strip_boilerplate(new_title)
+
+    # 1. مطابقة الـ slug لمنع التكرار المباشر أو اللاحقات الرقمية في بلوجر
+    if new_slug and existing_slugs:
+        clean_new = re.sub(r'[_\-\d]+', '', new_slug.lower())
+        for es in existing_slugs:
+            clean_es = re.sub(r'[_\-\d]+', '', es.lower())
+            if clean_new and clean_new == clean_es:
+                return True, f"نفس الرابط الثابت (Slug) موجود مسبقاً: {new_slug} ~ {es}"
+
+    for ext in existing_titles:
+        ent_ext = extract_core_entities(ext)
+        common = ent_new.intersection(ent_ext)
+        stripped_ext = strip_boilerplate(ext)
+
+        s_ratio = difflib.SequenceMatcher(None, stripped_new, stripped_ext).ratio() if stripped_new and stripped_ext else 0
+        raw_ratio = difflib.SequenceMatcher(None, norm(new_title), norm(ext)).ratio()
+
+        # أ. تطابق 3 كيانات جوهرية أو أكثر (اسم الناديين، الشخصيات، المكان والحدث)
+        if len(common) >= 3:
+            return True, f"تطابق في {len(common)} كيانات جوهرية ({common}) مع: {ext}"
+
+        # ب. تطابق كيانين جوهريين مع تقارب في الصياغة العامة أو النص المجرد
+        if len(common) >= 2:
+            jaccard = len(common) / len(ent_new.union(ent_ext)) if ent_new.union(ent_ext) else 0
+            if s_ratio >= 0.40 or jaccard >= 0.20 or raw_ratio >= 0.45:
+                return True, f"تطابق في الكيانات ({common}) مع تشابه نصي مع: {ext}"
+
+        # ج. نسبة تشابه عالية في النص الأساسي
+        if s_ratio >= 0.65 or raw_ratio >= 0.60:
+            return True, f"نسبة تطابق مرتفعة مع مقال منشور: {ext}"
+
+    return False, ""
+
+
 def check(art, src, tbl_text, existing, min_words=700):
     lengthen(art, src + "\n" + (tbl_text or ""), min_words)
     errs = []
@@ -419,10 +500,12 @@ def check(art, src, tbl_text, existing, min_words=700):
     t = art.get("title", "")
     if not t or len(t) > 70:
         errs.append("العنوان لازم أقل من 70 حرف")
-    for e in existing:
-        if difflib.SequenceMatcher(None, norm(t), norm(e)).ratio() >= 0.75:
-            errs.append(f"العنوان شبه عنوان منشور قبل كده: {e}")
-            break
+
+    # فحص التكرار عبر درع الحماية الدلالي
+    is_dup, dup_reason = is_semantic_duplicate(t, existing, new_slug=art.get("slug"))
+    if is_dup:
+        errs.append(f"الموضوع منشور مسبقاً ({dup_reason})")
+
     if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+){2,6}", art.get("slug", "")):
         errs.append("الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات")
     if not (110 <= len(art.get("desc", "")) <= 175):

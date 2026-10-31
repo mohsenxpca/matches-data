@@ -424,17 +424,23 @@ def main():
         print("No new candidate trend found.")
         return
 
-    # Filter candidates
+    tok = None if dry else f.token()
+    existing_site_titles = [p["t"] for p in f.site_posts(tok)] if tok else []
+    all_known_titles = existing_site_titles + done_titles
+
+    # Filter candidates using Deduplication Shield
     viable = []
     for c in cands:
         if c["link"] in done_urls:
             continue
-        # Check title similarity
-        if any(difflib.SequenceMatcher(None, f.norm(c["t"]), f.norm(dt)).ratio() > 0.82 for dt in done_titles):
+        # فحص استباقي عبر الدرع الدلالي قبل المعالجة لتوفير الاستهلاك ومنع التكرار نهائياً
+        is_dup, reason = f.is_semantic_duplicate(c["t"], all_known_titles)
+        if is_dup:
+            print(f"  [Shield Skipped] {c['t'][:60]}... ({reason})")
             continue
         viable.append(c)
 
-    print(f"Viable candidates after dedup: {len(viable)}")
+    print(f"Viable candidates after dedup shield: {len(viable)}")
     if not viable:
         print("All candidate stories have already been covered.")
         return
@@ -445,9 +451,6 @@ def main():
     if len(today_posts) >= DAY_CAP and not custom_topic and not dry:
         print(f"Reached daily cap ({DAY_CAP} posts). Exiting.")
         return
-
-    tok = None if dry else f.token()
-    existing_site_titles = [p["t"] for p in f.site_posts(tok)] if tok else []
 
     published_count = 0
     for cand in viable:

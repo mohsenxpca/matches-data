@@ -262,7 +262,7 @@ def main():
     all_known_titles = existing_posts + done_titles
 
     trends = fetch_gulf_trends()
-    candidates = [t for t in trends if f.norm(t["q"]) not in done_queries and re.search(GULF_ALLOWED_TOPICS_REGEX, t["q"], re.I) and not re.search(BANNED_TOPICS_REGEX, t["q"], re.I)]
+    candidates = [t for t in trends if f.norm(t["q"]) not in done_queries and re.search(GULF_ALLOWED_TOPICS_REGEX, t["q"], re.I) and not re.search(BANNED_TOPICS_REGEX, t["q"], re.I) and not f.is_semantic_duplicate(t["q"], all_known_titles)[0]]
     print(f"Found {len(candidates)} candidate Gulf trends.")
     if not candidates:
         return

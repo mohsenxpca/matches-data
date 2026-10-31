@@ -207,6 +207,10 @@ def main():
     for c in cands[:3]:
         if f._DOWN:
             break
+        is_dup, reason = f.is_semantic_duplicate(c["q"], existing)
+        if is_dup:
+            print(f"  [Shield Skipped] {c['q']} ({reason})")
+            continue
         parts = []
         trend_real_img = None
         for u, t in c["news"][:3]:
