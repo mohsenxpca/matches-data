@@ -118,7 +118,7 @@ def main():
         else:
             lead_img_url = bg_url
         html_out = f.build_html(art, rows, random.choice(f.IMAGES), None, (), real_img_url=lead_img_url)
-        labels = ["أخبار الكورة", "نتائج المباريات"] + (["الدوري المصري"] if m["l"] == "الدوري المصري" else [])
+        labels = ["رياضة", "أخبار الكورة", "نتائج المباريات"] + (["الدوري المصري"] if m["l"] == "الدوري المصري" else [])
         if dry:
             print("DRY RESULT", art["title"], "|", art["desc"])
         else:

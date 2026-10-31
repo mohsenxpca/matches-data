@@ -736,7 +736,7 @@ def main():
 
         print("  teams:", teams, "| lead_img:", lead_img_url[:60])
         html_out = build_html(art, rows, img, rel, (), real_img_url=lead_img_url)
-        labels = ["أخبار الكورة"] + ([LABELS[c["s"]]] if c["s"] in LABELS else [])
+        labels = ["رياضة", "أخبار الكورة"] + ([LABELS[c["s"]]] if c["s"] in LABELS else [])
         if DRY:
             os.makedirs("out", exist_ok=True)
             open(f"out/{art['slug']}.html", "w", encoding="utf-8").write(f"<h1>{html.escape(art['title'])}</h1>\n" + html_out)
@@ -817,7 +817,7 @@ def make_previews(previews, data, existing, state, tok, times, today):
         else:
             lead_img_url = bg_url
         html_out = build_html(art, rows, random.choice(IMAGES), None, (), real_img_url=lead_img_url)
-        labels = ["أخبار الكورة", "مواعيد المباريات"] + (["الدوري المصري"] if m["l"] == "الدوري المصري" else [])
+        labels = ["رياضة", "أخبار الكورة", "مواعيد المباريات"] + (["الدوري المصري"] if m["l"] == "الدوري المصري" else [])
         if DRY:
             os.makedirs("out", exist_ok=True)
             open(f"out/{art['slug']}.html", "w", encoding="utf-8").write(f"<h1>{html.escape(art['title'])}</h1>\n" + html_out)
