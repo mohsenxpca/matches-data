@@ -1546,6 +1546,15 @@
    "at": "2026-10-31",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://www.kingsofanglia.com/news/26681174.hull-city-v-ipswich-town---meet-referee-thomas-kirk/",
+   "t": "Who is the man in the middle for Town's trip to Hull City tomorrow?",
+   "at": "2026-10-31",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 5، 7"
+   ]
   }
  ]
 }
