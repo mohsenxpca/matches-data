@@ -911,6 +911,20 @@
    "at": "2026-11-01T20:46:20+02:00",
    "ok": true,
    "brand": "شاومي"
+  },
+  {
+   "title": "Apple’s busy week, iPhone Duo troubles and Poco X8s debut, Week 43 in review",
+   "url": "https://www.gsmarena.com/apples_busy_week_iphone_duo_troubles_and_poco_x8s_debut_week_43_in_review-news-75299.php",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "Model code [x8s] found in existing: مراجعة Poco X8s: أصغر هاتف بـ6330 مللي وشاشة 6.35 بوصة"
+  },
+  {
+   "title": "Nothing OS 5.0 Arrives Early for Phone 4a and 3a Series - Nokiamob",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUXNIVWRTeDJ6N1JaR2JmeU0xUTZoR2I2UlJxRGpvMk5PXzBDVXZsMllucFdBMVNuQ3dqWFNQU3NaVFNLUEg3S1BnMHhZVi1NZ2tEMk9CeEw1VkdvUUt6OS13WEdFOW90cl9uMG5pYkVrUkFubWozQnQ3WVpMMXAyNkIyVy1YZHZBaF9Mbk5RWWI3LWI2RGUzckxWd1JmU0JzRmJoZEU0NEdZUEdYTGc?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "Model code [3a] found in existing: مراجعة سعر ومواصفات هاتف Nothing Phone (3a) Pro"
   }
  ]
 }
