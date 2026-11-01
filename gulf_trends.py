@@ -17,6 +17,7 @@ from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 import football as f
+import topic_guard
 
 CAIRO = ZoneInfo("Africa/Cairo")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
@@ -291,6 +292,9 @@ def main():
         if re.search(BANNED_TOPICS_REGEX, combined_src[:2500], re.I):
             print("  Banned political/war/art content found in source. Skipping:", cand["q"])
             state["done"].append({"q": cand["q"], "country": cand["geo"], "at": now.isoformat(), "ok": False, "err": ["banned topic"]})
+            continue
+        if not topic_guard.allowed(cand["q"], combined_src):  # allow-list (mohsen 2026-11-01)
+            state["done"].append({"q": cand["q"], "country": cand["geo"], "at": now.isoformat(), "ok": False, "err": ["off-topic"]})
             continue
 
         print(f"  Real Photo Found: {real_img is not None}")

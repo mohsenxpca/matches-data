@@ -22,6 +22,7 @@ from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 import football as f
+import topic_guard
 import notify
 
 CAIRO = ZoneInfo("Africa/Cairo")
@@ -470,6 +471,8 @@ def main():
         # فحص إضافي لمحتوى المقال نفسه للتأكد من خلوه تماماً من السياسة والحروب والفن
         if re.search(BANNED_TOPICS_REGEX, src_text[:2000], re.I):
             print("  Article body contains banned political/war/art content. Skipping.")
+            continue
+        if not topic_guard.allowed(cand.get("query") or cand["t"], src_text):  # allow-list (mohsen 2026-11-01)
             continue
 
         print(f"  Source text length: {len(src_text)} chars | Real Photo: {bool(real_img)}")

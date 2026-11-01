@@ -9,6 +9,7 @@ import datetime, html, json, os, random, re
 import requests
 from bs4 import BeautifulSoup
 import football as f
+import topic_guard
 import cover
 
 f.DAY_CAP = int(os.environ.get("DAY_CAP") or 50)
@@ -229,6 +230,9 @@ def main():
         if re.search(BANNED_TOPICS_REGEX, src[:2500], re.I):
             print("  Banned political/war/art content found in source. Skipping:", c["q"])
             state["done"].append({"q": c["q"], "at": today, "ok": False, "why": "banned topic"})
+            continue
+        if not topic_guard.allowed(c["q"], src):  # allow-list: only the site's sections (mohsen 2026-11-01)
+            state["done"].append({"q": c["q"], "at": today, "ok": False, "why": "off-topic"})
             continue
         extra, art, errs = "", None, ["no draft"]
         for _ in range(2):
