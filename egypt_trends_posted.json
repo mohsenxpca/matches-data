@@ -2511,6 +2511,42 @@
    "reason": [
     "الـ body 392 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://football-italia.net/cannavaro-spalletti-and-allegri-are-similar/",
+   "t": "Cannavaro: ‘Spalletti and Allegri are similar, Kolo Muani and Hojlund less killer than strikers of my era’",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 21"
+   ]
+  },
+  {
+   "u": "https://www.juventus.com/en/news/articles/luciano-spalletti-s-press-conference-ahead-of-juventus-napoli",
+   "t": "Luciano Spalletti's press conference ahead of Juventus-Napoli",
+   "title": "يوفنتوس ضد نابولي: تصريحات نارية قبل القمة المرتقبة في الدوري",
+   "url": "https://www.egyptaway.com/2026/11/juventus-vs-napoli-match-preview.html",
+   "at": "2026-11-01T21:25:26.127238+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://www.wetteronline.de/wetterticker/wetterticker-kaltstart-in-die-neue-woche--7877d093-dd38-462a-89bc-2cbed81d514e",
+   "t": "WetterTicker: Kaltstart in die neue Woche",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 0"
+   ]
+  },
+  {
+   "u": "https://www.n-tv.de/panorama/Klaus-kommt-und-verdraengt-Wind-und-Regen-id31482179.html",
+   "t": "\"Klaus\" kommt - und verdrängt Wind und Regen",
+   "title": "حالة الطقس: عواصف تضرب أوروبا وتحذيرات من فيضانات بالمتوسط",
+   "url": "https://www.egyptaway.com/2026/11/european-weather-forecast-storms.html",
+   "at": "2026-11-01T21:33:10.815250+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
