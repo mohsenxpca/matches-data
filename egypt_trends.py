@@ -29,6 +29,7 @@ CAIRO = ZoneInfo("Africa/Cairo")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
 STATE_FILE = "egypt_trends_posted.json"
 DAY_CAP = int(os.environ.get("EGYPT_TRENDS_DAY_CAP", "30"))
+COUNT = int(os.environ.get("COUNT", "2"))
 
 # Curated high-res natural photography fallbacks (no text overlays)
 TREND_PHOTO_POOLS = {

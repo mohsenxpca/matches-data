@@ -138,6 +138,27 @@ def site_posts(tok=None):
     return out
 
 
+
+def decode_gn_link(link):
+    """Decodes Google News RSS redirect link to original publisher URL."""
+    try:
+        aid = link.split("/articles/")[1].split("?")[0]
+        h = requests.get(f"https://news.google.com/rss/articles/{aid}", headers=HEAD, timeout=20).text
+        sg_m = re.search(r'data-n-a-sg="([^"]+)"', h)
+        ts_m = re.search(r'data-n-a-ts="([^"]+)"', h)
+        if not sg_m or not ts_m:
+            return None
+        sg, ts = sg_m.group(1), ts_m.group(1)
+        inner = ["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1, None, None, None, None, None, 0, 1],
+                                "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0], aid, int(ts), sg]
+        r = requests.post("https://news.google.com/_/DotsSplashUi/data/batchexecute", timeout=20,
+                          headers={**HEAD, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+                          data="f.req=" + urllib.parse.quote(json.dumps([[["Fbv4je", json.dumps(inner), None, "generic"]]])))
+        return json.loads(json.loads(r.text.split("\n\n")[1])[0][2])[1]
+    except Exception:
+        return None
+
+
 def source_text(url):
     r = requests.get(url, headers=HEAD, timeout=40)
     r.raise_for_status()
