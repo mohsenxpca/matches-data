@@ -1912,6 +1912,31 @@
     "كلمة رسميًا مش موجودة في المصدر، احذفها",
     "الـ body 437 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.bbc.com/news/videos/cj040yd1xdrlo",
+   "t": "Watch: Heidi Klum as giant severed hand for Halloween bash",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 295 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.yahoo.com/entertainment/celebrity/articles/maya-sir-mo-farah-heidi-081728280.html",
+   "t": "From Maya as Sir Mo Farah to Heidi as her own left hand: The best Halloween looks",
+   "title": "تفاصيل تن التنكر الأسطوري لعارضة الأزياء هايدي كلوم",
+   "url": "https://www.egyptaway.com/2026/11/heidi-klums-halloween-costume-party.html",
+   "at": "2026-11-01T11:32:17.010953+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://www.yahoo.com/entertainment/celebrity/articles/maya-sir-mo-farah-heidi-081728280.html",
+   "t": "From Maya as Sir Mo Farah to Heidi as her own left hand: The best Halloween looks",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
   }
  ]
 }
