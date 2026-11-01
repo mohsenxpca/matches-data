@@ -2375,6 +2375,25 @@
     "الـ body 342 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'يواصل', 'تالق'}) مع تشابه نصي مع: برشلونة يواصل التألق في الليجا بفضل توهج رافينيا الاستثنائي)"
    ]
+  },
+  {
+   "u": "https://www.standard.co.uk/sport/football/gary-neville-arsenal-fc-gabriel-embarrassing-b1303161.html",
+   "t": "Gary Neville names 'embarrassing' Arsenal player who 'lets himself down at times'",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 336 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.mirror.co.uk/sport/football/news/liverpool-arsenal-premier-league-neville-37832111",
+   "t": "Gary Neville singles out 'embarrassing' Arsenal star minutes into Liverpool clash",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 426 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'يفربول', 'ارسنال'}) مع تشابه نصي مع: موعد مباراة ليفربول وأرسنال والقناة الناقلة بالدوري الإنجليزي)"
+   ]
   }
  ]
 }
