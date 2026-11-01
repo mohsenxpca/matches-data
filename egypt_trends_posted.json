@@ -2216,6 +2216,34 @@
     "الـ body 409 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'راسينج', 'مدريد', 'سانتاندير', 'ريال'}) مع: موعد مباراة راسينج سانتاندير وريال مدريد والقناة)"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7163914",
+   "t": "محمد عبدالجليل: الأهلي بقى منتخب أندية ومبقاش فيه حد من أبناء النادي",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 331 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.afyonturkeligazetesi.com/trabzonspor-baskani-ertugrul-dogandan-olay-sozler-messi-ronaldo-salah-iste-salah-trabzonsporda/148747",
+   "t": "Trabzonspor Başkanı Ertuğrul Doğan’dan Olay Sözler! “Messi, Ronaldo, Salah… İşte Salah Trabzonspor’da!”",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 377 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'تصريحات', 'تثير'}) مع تشابه نصي مع: تصريحات عماد متعب تثير الجدل حول استبعاد ثنائي الأهلي)"
+   ]
+  },
+  {
+   "u": "https://www.fanatik.com.tr/trabzonspor/trabzonsporda-ertugrul-dogan-camiaya-seslendi-trabzonsporun-haklarini-korumak-icin-dimdik-ayaktayim-2643043",
+   "t": "Trabzonspor'da Ertuğrul Doğan camiaya seslendi: 'Trabzonspor'un haklarını korumak için dimdik ayaktayım",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 410 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
