@@ -714,6 +714,13 @@
    "at": "2026-11-01",
    "ok": false,
    "reason": "Phrase [iphone 17] found in existing: مراجعة iPhone 17e: معالج A19 وكاميرا 48 ميجابكسل ودعم MagSafe بسعر 599 دولار"
+  },
+  {
+   "title": "Honor launches its super-thin, foldable Magic V2 phone in Europe - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44ampuR1BOOEljX0t2Vm96clVadkxMdDdXakxGT1RodFJwYmpsVmQzQ1NETzhNRlZFRTFBTDJvcVRnYW1Nc2NlOUthTVRMUGo5aFUxNS13?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
   }
  ]
 }
