@@ -1761,6 +1761,18 @@
    "reason": [
     "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'هانزي', 'رشلونه', 'فليك'}) مع: برشلونة يستعد لمواجهة ألافيس: هانزي فليك يحدد أهدافه)"
    ]
+  },
+  {
+   "u": "https://www.goal.com/en/news/in-the-footsteps-of-kaka-and-calhanoglu-rabiot-writes-an-exceptional-chapter-with-milan/blt02cba0df9cf4e96d",
+   "t": "In the footsteps of Kaká and Çalhanoğlu: Rabiot writes an exceptional chapter with Milan",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
+   ]
   }
  ]
 }
