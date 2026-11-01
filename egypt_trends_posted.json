@@ -2470,6 +2470,38 @@
    "reason": [
     "كلمة رسميًا مش موجودة في المصدر، احذفها"
    ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/1/3072075/%D9%85%D8%AF%D8%B1%D8%A8-%D8%AD%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%BA%D9%8A%D9%86%D9%8A-%D9%8A%D8%AA%D8%AD%D8%AF%D9%89-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D8%B9%D8%A8%D8%B1-%D9%85%D8%B5%D8%B1%D8%A7%D9%88%D9%8A-%D9%84%D8%A7-%D9%86%D8%AE%D8%B4%D9%89-%D8%A3%D9%8A-%D9%85%D9%86%D8%A7%D9%81%D8%B3-%D9%88%D8%B3%D9%86%D8%AB%D8%A8%D8%AA-%D8%B0%D9%84%D9%83-%D8%AF%D8%A7%D8%AE%D9%84-%D8%A7%D9%84%D9%85%D9%84%D8%B9%D8%A8",
+   "t": "مدرب حوريا الغيني يتحدى بيراميدز عبر \"مصراوي\": لا نخشى أي منافس.. وسنثبت ذلك داخل الملعب",
+   "title": "مدرب حوريا الغيني يتحدى بيراميدز قبل مواجهة دوري أبطال أفريقيا",
+   "url": "https://www.egyptaway.com/2026/11/horoya-coach-challenges-pyramids.html",
+   "at": "2026-11-01T20:28:29.126131+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/1/3072075/%D9%85%D8%AF%D8%B1%D8%A8-%D8%AD%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%BA%D9%8A%D9%86%D9%8A-%D9%8A%D8%AA%D8%AD%D8%AF%D9%89-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D8%B9%D8%A8%D8%B1-%D9%85%D8%B5%D8%B1%D8%A7%D9%88%D9%8A-%D9%84%D8%A7-%D9%86%D8%AE%D8%B4%D9%89-%D8%A3%D9%8A-%D9%85%D9%86%D8%A7%D9%81%D8%B3-%D9%88%D8%B3%D9%86%D8%AB%D8%A8%D8%AA-%D8%B0%D9%84%D9%83-%D8%AF%D8%A7%D8%AE%D9%84-%D8%A7%D9%84%D9%85%D9%84%D8%B9%D8%A8",
+   "t": "مدرب حوريا الغيني يتحدى بيراميدز عبر \"مصراوي\": لا نخشى أي منافس.. وسنثبت ذلك داخل الملعب",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://www.elbalad.news/7164242",
+   "t": "مفاجأة بشأن عقوبة شيكوبانزا بعد واقعة خلع ملابسه أمام جماهير الزمالك",
+   "title": "مفاجأة: لا عقوبة على شيكو بانزا بعد واقعة خلع ملابسه",
+   "url": "https://www.egyptaway.com/2026/11/chico-banza-no-punishment-incident.html",
+   "at": "2026-11-01T20:32:18.265458+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7164242",
+   "t": "مفاجأة بشأن عقوبة شيكوبانزا بعد واقعة خلع ملابسه أمام جماهير الزمالك",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
   }
  ]
 }
