@@ -758,6 +758,22 @@
    "at": "2026-11-01",
    "ok": false,
    "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
+  },
+  {
+   "title": "Best Headphones in 2026",
+   "url": "https://www.gizmochina.com/2026/11/01/best-headphones/",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (637 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
+   ]
+  },
+  {
+   "title": "Huawei Starlight sub-brand phone may adopt notable cooling specs - Huawei Central",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT1NmNU9CNUR6NjdzX0dCNFZHcWkwMEpObVpOZ3NUNXJsalhISmM1SmxObWUxZGZRN2wwZ0cxQXM5LUV5ZFBJS29KWVE0UkI3ZXhyOFF5c255MjVMOV9BS0xHQTVVUEg4VW84ZFFEdVZveVpBTVR0Z01jTUtOWUtXMWlJcVEzbXFvTWtQRlM5RFZPYmx1RlZNUElTdFo3akxL0gGgAUFVX3lxTFBPU2Y1T0I1RHo2N3NfR0I0VkdxaTAwSk5tWk5nc1Q1cmxqWEhKYzVKbE5tZTFkZlE3bDBnRzFBczktRXlkUElLb0pZUTRSQjdleHI4UXlzbnkyNUw5X0FLTEdBNVVQSDhVbzhkUUR1Vm95WkFNVHRnTWNNS05ZS1cxaUlxUTNtcW9Na1BGUzlEVk9ibHVGVk1QSVN0WjdqTEs?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
   }
  ]
 }
