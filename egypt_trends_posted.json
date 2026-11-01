@@ -2665,6 +2665,18 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 3"
    ]
+  },
+  {
+   "u": "https://holanews.com/2-1-el-athletic-toma-impulso-y-frena-a-la-real-en-un-derbi-electrico/",
+   "t": "2-1. El Athletic toma impulso y frena a la Real en un derbi eléctrico",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
+   ]
   }
  ]
 }
