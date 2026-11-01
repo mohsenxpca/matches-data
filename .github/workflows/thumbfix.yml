@@ -1,0 +1,34 @@
+name: صور الرئيسية للمقالات الجديدة
+
+on:
+  # started by the Cloudflare Worker egyptaway-scheduler every 20 minutes (no GitHub cron: it runs late)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "تجربة من غير تعديل (1 = تجربة)"
+        default: "0"
+      hours:
+        description: "المقالات اللي اتنشرت في آخر كام ساعة"
+        default: "48"
+
+concurrency:
+  group: thumbfix
+  cancel-in-progress: false
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 lxml pillow arabic-reshaper python-bidi
+      - run: python -u thumbfix.py
+        env:
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          HOURS: ${{ github.event.inputs.hours || '48' }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
