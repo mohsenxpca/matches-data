@@ -810,6 +810,21 @@
    "at": "2026-11-01T14:46:29+02:00",
    "ok": true,
    "brand": "سامسونج"
+  },
+  {
+   "title": "Galaxy S26 Ultra gets a $250 price cut on Amazon",
+   "url": "https://www.gizmochina.com/2026/11/01/galaxy-s26-ultra-gets-a-250-price-cut-on-amazon/",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "Model code [s26] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
+  },
+  {
+   "title": "مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع",
+   "url": "https://www.gizmochina.com/2026/11/01/galaxy-fit-4-features-revealed-in-app-teardown-leak/",
+   "post_url": "https://www.review-mobile.com/2026/11/galaxy-fit-4-leaks-review.html",
+   "at": "2026-11-01T15:16:20+02:00",
+   "ok": true,
+   "brand": "سامسونج"
   }
  ]
 }
