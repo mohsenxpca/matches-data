@@ -742,6 +742,22 @@
    "at": "2026-11-01",
    "ok": false,
    "reason": "Phrase [iphone duo] found in existing: مراجعة iPhone Duo 2026: المواصفات والسعر والمميزات والعيوب"
+  },
+  {
+   "title": "Lava smartphones will get expensive in India from November 15",
+   "url": "https://www.gsmarena.com/lava_smartphone_price_hike_india-news-75300.php",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "العنوان غير صالح أو أطول من 75 حرف (89 حرف)"
+   ]
+  },
+  {
+   "title": "Here's exactly when you'll find out everything there is to know about the Motorola Signature 27 - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaGstSHdMV3hnVjI4OHVBWm5HaFFRdmJOb0pWWHdWMlR0bDcyRXpxT1o1Y3J2TS0zWmZhMzZFVHhNX25ORHZmeE5VNVNlUGl4cV94bTY5ZDU3Z1FOUlNvUEtZQy1TeXowQ2RpSF9qNHlVOVhNcGgzU0RqcHFsM0pld0xMTXFfT3l4VkViOGNXeldrcHIzR0ctQkFiRWlyT2NQZ0R0dw?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
   }
  ]
 }
