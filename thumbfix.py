@@ -20,15 +20,27 @@ DRY = os.environ.get("DRY_RUN") == "1"
 HOURS = int(os.environ.get("HOURS") or 48)
 
 
+def via_translate(url):
+    """Cloudflare's Bot Fight Mode answers GitHub runners with 403, so read the page through Google Translate's proxy
+    (www.egyptaway.com -> www-egyptaway-com.translate.goog); it keeps the og:image meta as is."""
+    host, path = re.match(r"https?://([^/]+)(/.*)?$", url).groups()
+    return "https://" + host.replace("-", "--").replace(".", "-") + ".translate.goog" + (path or "/") + \
+        "?_x_tr_sl=ar&_x_tr_tl=en&_x_tr_hl=en"
+
+
 def proxy_for(url):
-    """Google-hosted link Blogger made for the post's first image, or None (also None if the page is blocked)."""
-    try:
-        r = requests.get(url, headers=f.HEAD, timeout=40)
-    except requests.RequestException as e:
-        print("  page error:", e)
-        return None
-    if r.status_code != 200:
-        print("  page status", r.status_code, "(blocked?)", url)
+    """Google-hosted link Blogger made for the post's first image, or None."""
+    r = None
+    for u in (url, via_translate(url)):
+        try:
+            r = requests.get(u, headers=f.HEAD, timeout=40)
+        except requests.RequestException as e:
+            print("  page error:", e)
+            continue
+        if r.status_code == 200:
+            break
+    if r is None or r.status_code != 200:
+        print("  page not readable", r.status_code if r is not None else "", url)
         return None
     og = re.search(r"""<meta[^>]+property=['"]og:image['"][^>]+content=['"]([^'"]+)""", r.text) or \
         re.search(r"""<meta[^>]+content=['"]([^'"]+)['"][^>]+property=['"]og:image""", r.text)
