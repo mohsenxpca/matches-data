@@ -673,6 +673,19 @@
    "at": "2026-11-01",
    "ok": false,
    "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
+  },
+  {
+   "title": "Redmi Band 4 vs Xiaomi Smart Band 11: Which Fitness Band Should You Buy?",
+   "url": "https://www.gizmochina.com/2026/11/01/redmi-band-4-vs-xiaomi-smart-band-11/",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
+    "العنوان غير صالح أو أطول من 75 حرف (0 حرف)",
+    "الـ slug غير صالح (): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة",
+    "وصف البحث (0 حرف) يجب أن يكون بين 110 و 175 حرفاً",
+    "المراجعة يجب أن تحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
