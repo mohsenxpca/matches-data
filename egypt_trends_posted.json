@@ -1955,6 +1955,41 @@
    "reason": [
     "الـ body 420 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.gamesradar.com/edge/gtavi-cover/",
+   "t": "Grand Theft Auto VI exclusive – The state that never sleeps",
+   "title": "تفاصيل كواليس تطوير لعبة gta 6 وأسرار استوديو روكستار",
+   "url": "https://www.egyptaway.com/2026/11/gta-6-rockstar-north-secrets.html",
+   "at": "2026-11-01T12:14:22.262833+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://www.gamesradar.com/edge/gtavi-cover/",
+   "t": "Grand Theft Auto VI exclusive – The state that never sleeps",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://www.creativebloq.com/news/rockstar-art-directed-600-000-animations-so-that-gta-6s-passers-by-feel-like-real-people",
+   "t": "Rockstar art-directed 600,000 animations, so that GTA 6’s passers-by feel like real people",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 600",
+    "الـ body 425 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.ign.com/articles/costco-reveals-its-full-black-friday-ad-and-sale-dates-for-2026",
+   "t": "Costco Reveals Its Full Black Friday Ad and Sale Dates for 2026, Discounts Include Frozen Food and Gaming PCs",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 1000"
+   ]
   }
  ]
 }
