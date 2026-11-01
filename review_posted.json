@@ -874,6 +874,13 @@
    "at": "2026-11-01",
    "ok": false,
    "reason": "module 'football' has no attribute 'decode_gn_link'"
+  },
+  {
+   "title": "One hidden text can crash Android’s Phone service - Techish Kenya",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT3ExeEg2S3N4bnd6ZWxiaXh5RU5vUjdia2lkc3JCQklfMGdlSGoyUDJoQnFGeEZKM3FOY2tqY085Y1ZBaEZ2NzR4NGlIMVdxTUltTmt1a1Jxd01VLW9pTUhnWi1DOU1NY0NodmZacE51YkFMejN6aEdHUnExUnl4Y190MjNULV9p?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
   }
  ]
 }
