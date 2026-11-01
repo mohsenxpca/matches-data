@@ -2602,6 +2602,24 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 10، 1000",
     "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'غدا', 'طقس', 'روده'}) مع: الأرصاد: طقس حار نهاراً ومائل للبرودة ليلاً غداً الأحد)"
    ]
+  },
+  {
+   "u": "https://www.goal.com/en/lists/juventus-napoli-0-0-live-superb-save-from-vicario-to-deny-lucca/blt28bb1d3400499c4a",
+   "t": "Juventus-Napoli 0-0 LIVE: superb save by Vicario from Lucca",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'قمه', 'نابولي', 'يوفنتوس'}) مع: يوفنتوس ضد نابولي: تصريحات نارية قبل القمة المرتقبة في الدوري)"
+   ]
+  },
+  {
+   "u": "https://www.wetter.net/wetter-news/trueb-mit-bergschnee-an-den-alpen-abends-regen-an-der-nordsee",
+   "t": "Trüb mit Bergschnee an den Alpen, abends Regen an der Nordsee",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حاله', 'طقس'}) مع تشابه نصي مع: حالة الطقس: عواصف تضرب أوروبا وتحذيرات من فيضانات بالمتوسط)"
+   ]
   }
  ]
 }
