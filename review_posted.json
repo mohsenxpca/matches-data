@@ -781,6 +781,13 @@
    "at": "2026-11-01",
    "ok": false,
    "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
+  },
+  {
+   "title": "WINNERS ANNOUNCED AT SMART PHONE OPERA HOUSE FINALS - FilmInk",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc01lbVI2N2tEcWtjNVhjOGJkQ0g4d2FpZXBSV2ZFaHJfRHBxWU9qSkVYY0F4M0FHUjJxdlRRMEd2TWRLbXNfLWpjWUdjX0pDc1ZMeTFwOWUzY1J1WDJFYzZyaHd0MjFSWmR2M1RYQzZzNmRtYkhxbGY5a0w0UnJXY213b1Bzb3RlSUFVX0pwYTBSY2hFS01rNQ?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
   }
  ]
 }
