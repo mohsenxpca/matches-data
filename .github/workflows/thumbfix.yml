@@ -1,7 +1,9 @@
 name: صور الرئيسية للمقالات الجديدة
 
+
 on:
-  # started by the Cloudflare Worker egyptaway-scheduler every 20 minutes (no GitHub cron: it runs late)
+  schedule:
+    - cron: "7,27,47 * * * *"   # كل 20 دقيقة (لو اتأخر مش مشكلة: التشغيل الجاي بيصلح آخر 48 ساعة)
   workflow_dispatch:
     inputs:
       dry_run:
@@ -11,9 +13,11 @@ on:
         description: "المقالات اللي اتنشرت في آخر كام ساعة"
         default: "48"
 
+
 concurrency:
   group: thumbfix
   cancel-in-progress: false
+
 
 jobs:
   fix:
@@ -32,3 +36,4 @@ jobs:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+
