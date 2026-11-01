@@ -941,6 +941,27 @@
    "reason": [
     "طول المقال قصير (871 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
    ]
+  },
+  {
+   "title": "Deals: the Pixel 11 series is on sale and so is the Galaxy S26 series",
+   "url": "https://www.gsmarena.com/deals_the_pixel_11_series_is_on_sale_and_so_is_the_galaxy_s26_series-news-75282.php",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "Model code [s26] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
+  },
+  {
+   "title": "Apple’s busy week, iPhone Duo troubles and Poco X8s debut, Week 43 in review - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM3RIRGpWamNWTWdoeHJweWNacXBYWVNjMmxpVWg0UE5RNzkzeS1UVkl3X2VqZGlGZDRBejNiNjZGS1pTVC1TRTV6SXRsTllja0lkbkZHc1RybDZLMWdQSGk3dFBjUUxOTW9rejN4dk1sRmxRb3VURzctbndEX0RGb2sycHB4dkZBbTVoVzVITGYxX2ROSEJoV2U3UVNNQnNVLTk2SDhuYUtLMlVRN1dvWGhOa9IBrwFBVV95cUxPMFU1dWRTNFExUDNpbnNsMm1LNzY1WjNSSjJOZlNoSG9hMV9idEhsYXJBTmVTLWNvX0I1bkM1bFJDdTY0cUUtMVYzYjFxOEJSNGgtSk9qdEkzSnBtSDJoNVJfY2dLNlRzbjA3eEwwMFJZa2Z4RU0wNUF1NmFJOF9mY0ZBOHBWNGI1ZXZ6TVNlNDNqeF9JeEFhSFhJLTJBbTFDTVo3TXpwOXFpNnFDNS1n?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "Model code [x8s] found in existing: مراجعة Poco X8s: أصغر هاتف بـ6330 مللي وشاشة 6.35 بوصة"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max Could Be Xiaomi's Most Powerful Phone Yet - Nokiapoweruser",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvZU9UaHZFbzdPdHZZZllFM3BCWlViSDJRMFp6Ti1vWnJGX0NGLWhOaV9rTzJUZWNvSm1UbkRCSmg4TVhVbkRYb1ZiNGU0SXdtM0loaUFJOElDS284QlAwc01xOERNMkk?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
   }
  ]
 }
