@@ -2151,6 +2151,40 @@
     "الـ body 357 كلمة بس، لازم 530 على الأقل",
     "الوصف لازم 140-160 حرف"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/1/لطلاب-المدارس-والجامعات-كيف-تستفيد-من-مكتبة-جوجل-المجانية-واختباراتها/7601916",
+   "t": "لطلاب المدارس والجامعات.. كيف تستفيد من مكتبة جوجل المجانية واختباراتها؟",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 354 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://karadenizgazete.com.tr/spor/futbol/akyazida-35-bin-firtina/631139",
+   "t": "Akyazı'da 35 Bin Fırtına",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 406 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RZE9PQ3JpMmozQnJtQWl0N3l4QWpva1F0SVczTnFxcnRlVVZ0cWdFX0U2bC1wcUxVMEdJak5ndm1lanZtalpnWUJHTmtnLWpmRmdrcnBoc01PUjdtUjNVTmNYVU9vYWFicXZKeUNsQ3RtSmVmR0tqLVZGaUZLVXc?oc=5",
+   "t": "دراسة تحذر من مخاطر اعتماد التوقيت الصيفي الدائم على سلامة الأطفال - جريدة القدس",
+   "title": "مخاطر التوقيت الصيفي على سلامة الأطفال وحوادث السير",
+   "url": "https://www.egyptaway.com/2026/11/daylight-saving-time-children-safety.html",
+   "at": "2026-11-01T16:12:27.701246+02:00",
+   "ok": true,
+   "type": "public_query"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RZE9PQ3JpMmozQnJtQWl0N3l4QWpva1F0SVczTnFxcnRlVVZ0cWdFX0U2bC1wcUxVMEdJak5ndm1lanZtalpnWUJHTmtnLWpmRmdrcnBoc01PUjdtUjNVTmNYVU9vYWFicXZKeUNsQ3RtSmVmR0tqLVZGaUZLVXc?oc=5",
+   "t": "دراسة تحذر من مخاطر اعتماد التوقيت الصيفي الدائم على سلامة الأطفال - جريدة القدس",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
   }
  ]
 }
