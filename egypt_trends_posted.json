@@ -2050,6 +2050,24 @@
    "at": "2026-11-01",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://anecdotarios.com/2026/11/01/venezia-se-concentra-para-salir-del-ultimo-lugar-ante-como-1907/",
+   "t": "Venezia se concentra para salir del último lugar ante Como 1907",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 9"
+   ]
+  },
+  {
+   "u": "https://www.lavanguardia.com/deportes/futbol/20261101/2453/como-venecia-serie-a-ca-en-directo-ctx.html",
+   "t": "Como – Venecia el partido de fútbol de la jornada 10 de la Serie A, en directo",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 426 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
