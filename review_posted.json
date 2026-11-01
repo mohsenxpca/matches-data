@@ -825,6 +825,20 @@
    "at": "2026-11-01T15:16:20+02:00",
    "ok": true,
    "brand": "سامسونج"
+  },
+  {
+   "title": "Deals: Apple, Oppo, and Samsung’s flagship smartphones are available at reduced prices - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOFYtdGdqVFloNE80Qi1WUlExeWdrZVYxT0FMOWZyOFpfSWkwNDh6MmFkRmtZbzdjMlNDWGxpMU4wVEs4SWVCSmQ5eTY3eTVDYnBRX1NHWGxxVE5EMkxNQmc5OUc5R2hnNmJoaVV2UXIyYmV5T09PLUk1dlJCWVRfdVRCNk9xVng2UVlNNFhuWmZITkJmellmejJaMlVjRlJJSVo2ZjgtT2w3RmVCSTYyaWpoNkZCMVl5WF9iNGtETkxJTUx6NjVwZ9IBxAFBVV95cUxQVklIc0FKZFVGd0tQSzZkZGptMXJkaVk1dkpkN3R6U1VZLW1KX3E3N081cXJYWHpHalZJSGd6MGtlajg1cXBzN0t2YVpqMnlTZnNfR1hrXy1mM3RudW9OVGhFc0pkN0ttcnNkYnhxbjAyWkR0bzI0WDF1d19SUHo5NHQyS2VDV2h4VFBwZEFoQTBvQkNQYUJvNEVvSUNWeTJyX0plV1VEOUotdnBQcUtrZi0yUUR3alJNekEzSWFWSlpzQXRp?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
+  },
+  {
+   "title": "Will Galaxy S27 Ultra and Pixel 12 mark the end of the flagship era of smartphones? - 9to5Google",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaTJaSlYxdXRWcGFud0RnLUtEUkRRWDBBM0N6ZHB6THVMLVNMb1V0MHdpUlVyclV4ODZtSlpYOTYyaTNNLWFOWnRaNVRNMHZCUVB1UnMwazBtS3NkZEJ4SXpTc19RZ2NhRUFYc2pCMG1reGhhZllZMmtuanFQalUzS0Rmcw?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
   }
  ]
 }
