@@ -2677,6 +2677,25 @@
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
     "الوصف لازم 140-160 حرف"
    ]
+  },
+  {
+   "u": "https://racingnews365.com/live-2026-f1-mexico-city-grand-prix",
+   "t": "LIVE: Reaction as Kimi Antonelli makes F1 history in Mexico as Ferrari civil war brews",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 455 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://as.com/futbol/primera/la-real-pierde-la-brujula-f202611-n/",
+   "t": "La Real pierde la brújula",
+   "title": "أتلتيك بلباو يوقف قطار ريال سوسيداد في ديربي الباسك",
+   "url": "https://www.egyptaway.com/2026/11/athletic-bilbao-real-sociedad-analysis.html",
+   "at": "2026-11-02T01:16:52.748056+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
