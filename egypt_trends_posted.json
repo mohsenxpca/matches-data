@@ -2705,6 +2705,24 @@
    "at": "2026-11-02T01:27:51.938592+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.bbc.com/sport/formula1/live/clyr72l2mzvt",
+   "t": "F1 LIVE: Mexico City Grand Prix 2026 UK time, start time, grid, radio & updates",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في 5 كيانات جوهرية ({'اصغر', 'بطل', 'كيمي', 'تاريخ', 'انطونيلي'}) مع: كيمي أنطونيلي أصغر بطل للعالم في تاريخ الفورمولا 1)"
+   ]
+  },
+  {
+   "u": "https://mezha.net/eng/news/mezha-b77fe289a31d84bf9d8df686_antonelli_-_the/",
+   "t": "Antonelli – the boy ‘born in a garage’ who became world champion",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في 7 كيانات جوهرية ({'اصغر', 'بطل', 'كيمي', 'تاريخ', 'انطونيلي', 'عالم', 'فورمولا'}) مع: كيمي أنطونيلي أصغر بطل للعالم في تاريخ الفورمولا 1)"
+   ]
   }
  ]
 }
