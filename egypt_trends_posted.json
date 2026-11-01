@@ -2394,6 +2394,73 @@
     "الـ body 426 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'يفربول', 'ارسنال'}) مع تشابه نصي مع: موعد مباراة ليفربول وأرسنال والقناة الناقلة بالدوري الإنجليزي)"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/1/واتساب-يتيح-إجراء-مكالمات-صوتية-مع-أشخاص-لا-يمتلكون-حسابا/7602086",
+   "t": "واتساب يتيح إجراء مكالمات صوتية مع أشخاص لا يمتلكون حسابا..  خطوات التطبيق",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 423 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7164169",
+   "t": "ياسر إدريس يهنىء زين هشام عقب تتويجه بالميدالية الذهبية",
+   "title": "ياسر إدريس يهنىء زين هشام لتتويجه بذهبية أولمبياد الشباب",
+   "url": "https://www.egyptaway.com/2026/11/yasser-idris-congratulates-zain-hisham.html",
+   "at": "2026-11-01T19:45:05.408642+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7164169",
+   "t": "ياسر إدريس يهنىء زين هشام عقب تتويجه بالميدالية الذهبية",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://www.bbc.com/arabic/articles/cqly3prdpz3po",
+   "t": "كيليان مبابي: الصين تجبر اللاعب الفرنسي على الاعتذار، لكن كثيرين لا يعرفون بالضبط ما قاله",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها"
+   ]
+  },
+  {
+   "u": "https://www.bbc.com/sport/football/articles/ck9dz2yned67o",
+   "t": "'Best thing is keep your mouth shut' - Mourinho on Mbappe-Mao row",
+   "title": "مبابي يعتذر عن تصريحاته بشأن ماو تسي تونغ ومورينيو يعلق",
+   "url": "https://www.egyptaway.com/2026/11/kylian-mbappe-apology-mourinho-comments.html",
+   "at": "2026-11-01T19:53:39.362561+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://www.bbc.com/sport/football/articles/ck9dz2yned67o",
+   "t": "'Best thing is keep your mouth shut' - Mourinho on Mbappe-Mao row",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://www.vietnam.vn/ar/nhan-dinh-paris-fc-vs-monaco-diem-nong-cuoc-dua-top-dau",
+   "t": "توقعات مباراة باريس إف سي ضد موناكو: نقطة ساخنة في سباق الصدارة",
+   "title": "موعد مباراة باريس ضد موناكو وترتيب الفريقين في الدوري",
+   "url": "https://www.egyptaway.com/2026/11/paris-vs-monaco-match-details.html",
+   "at": "2026-11-01T19:55:25.375070+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://www.vietnam.vn/ar/nhan-dinh-paris-fc-vs-monaco-diem-nong-cuoc-dua-top-dau",
+   "t": "توقعات مباراة باريس إف سي ضد موناكو: نقطة ساخنة في سباق الصدارة",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
   }
  ]
 }
