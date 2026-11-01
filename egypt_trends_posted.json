@@ -2327,6 +2327,17 @@
    "reason": [
     "كلمة رسميًا مش موجودة في المصدر، احذفها"
    ]
+  },
+  {
+   "u": "https://www.telegraph.co.uk/football/2026/10/30/liverpool-excited-title-challenge-arsenal-andoni-iraola/",
+   "t": "Jamie Carragher: Liverpool have emerged as Arsenal’s biggest title challengers",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 5، 6، 9",
+    "الـ body 377 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'يفربول', 'ارسنال'}) مع تشابه نصي مع: موعد مباراة ليفربول وأرسنال والقناة الناقلة بالدوري الإنجليزي)"
+   ]
   }
  ]
 }
