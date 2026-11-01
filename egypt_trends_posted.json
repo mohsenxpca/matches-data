@@ -2103,6 +2103,34 @@
    "at": "2026-11-01",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/1/قيمة-أكبر-وعقود-أقل-قفزة-بـ10-مليارات-جنيه-بالتمويل-العقاري/7602032",
+   "t": "قيمة أكبر وعقود أقل.. قفزة بـ10 مليارات جنيه بالتمويل العقاري تعكس غلاء الشقق بمصر",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 436 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://karlobag.eu/en/sports/news/getafe-cf-vs-sevilla-fc-at-coliseum-laliga-tickets-8d4yo/",
+   "t": "Getafe CF vs Sevilla FC at Coliseum — LaLiga Tickets",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 10، 8",
+    "الموضوع منشور مسبقاً (نسبة تطابق مرتفعة مع مقال منشور: موعد مباراة ليفربول وأرسنال والقناة الناقلة بالدوري الإنجليزي)"
+   ]
+  },
+  {
+   "u": "https://www.fotomac.com.tr/trabzonspor/2026/11/01/onuachu-gantepi-seviyor",
+   "t": "Onuachu, G.Antep’i seviyor",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "الـ body 351 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
