@@ -1886,6 +1886,32 @@
    "reason": [
     "الـ body 361 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://fortune.com/2026/10/31/california-billionaire-wealth-tax-prop-40-revenue-prop-13-texas-taxes/",
+   "t": "If California matched Texas on taxing property, it would raise more revenue than the billionaire tax",
+   "title": "تفاصيل مقترح ضريبة الثروة في كاليفورنيا ومعضلة قانون 1978 العقاري",
+   "url": "https://www.egyptaway.com/2026/11/california-wealth-tax-prop-40.html",
+   "at": "2026-11-01T10:08:53.046454+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://fortune.com/2026/10/31/california-billionaire-wealth-tax-prop-40-revenue-prop-13-texas-taxes/",
+   "t": "If California matched Texas on taxing property, it would raise more revenue than the billionaire tax",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "name 'COUNT' is not defined"
+  },
+  {
+   "u": "https://www.latimes.com/california/story/2026-10-31/proposed-billionaire-tax-disproportionate-impact-california-sports-teams",
+   "t": "Proposed billionaire tax could impact California sports teams",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 437 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
