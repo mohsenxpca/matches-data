@@ -645,6 +645,34 @@
    "at": "2026-11-01",
    "ok": false,
    "reason": "Model code [3a] found in existing: مراجعة سعر ومواصفات هاتف Nothing Phone (3a) Pro"
+  },
+  {
+   "title": "Vivo X500 Pro Max vs Xiaomi 17 Ultra: Is Xiaomi Worth the Extra $300?",
+   "url": "https://www.gizmochina.com/2026/11/01/vivo-x500-pro-max-vs-xiaomi-17-ultra/",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "Model code [x500] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
+  },
+  {
+   "title": "Honor launches affordable phone with 8,560mAh battery and AMOLED display - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRnVVa1k2QTFORjBpR21waElfM2VNU2Vnd1k5TjNEMVdISDdmXzJNOEY1MFNhdjk5akZYVm5FbUo3S0toZkNYMzNRTGRZdV9FdHpfaDFESVdpblpDaUFORXZmYlBLbFlaWVBlZHpXdS00aW9yd1JFRDN5TkRLS1JkVkMtWEE1OTlJaTZpRXZzREpNc3FPZ05nelFBZjJNQXpsNFR1dHVSSkhLdWI0ZXFpWDhKOVpkWUNQ?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
+  },
+  {
+   "title": "Oppo's Wide Phone Leak Packs Two 200MP Cameras and 8,000mAh. Huawei's $895 Pura X View Finally Has a Rival - Memeburn",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0xR1V2WUVjdWw2cWI4WWNEVElYcjVBX3dOQk5xZFpxZkxJYmdraUZwNlc5el82RFZ2Ri13RHQ5OTNiNUUtczh4S2t1eTJObU1qRDVUR2dFNA?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "module 'football' has no attribute 'decode_gn_link'"
+  },
+  {
+   "title": "HMD Announces Nokia 2360 Flip Phone with Remote Management Features - Nokiamob",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVWpWWHVMQ2tBY3JFMW94a2g0TUdIcGVmS1R6N044VXNaWU9pMmZOUE1jMWhvSHM2LURmV1JMZzhtZXFTZUFHRGQ4SFdQR0QtVjRPSjRGTk4tT0dfeXBhZ0s3UlJ6QW9nMUJXdWJMb2Z4X2xVbFFsSnJMNHZndDZONFcxLVJ4WEpTaC0tNzNjX0dCbHh5c3E4cTdvckZTelktVFpBa2RR?oc=5",
+   "at": "2026-11-01",
+   "ok": false,
+   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
   }
  ]
 }
