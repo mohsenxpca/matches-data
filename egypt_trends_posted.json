@@ -3240,6 +3240,18 @@
    "at": "2026-11-02T21:32:50.427763+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.newcastleunited.com/en/news/everton-h-team-news-26-27",
+   "t": "Latest. Confirmed line-up: Elanga in for Everton",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
+   ]
   }
  ]
 }
