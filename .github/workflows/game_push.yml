@@ -1,0 +1,37 @@
+name: تذكير لعبة مين اللاعب
+
+on:
+  schedule:
+    - cron: "30 7 * * *"   # 9:30 الصبح بتوقيت القاهرة (للي داسوا «فكّرني كل يوم» بس)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: game-push
+  cancel-in-progress: false
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python -u game_push.py
+        env:
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+      - name: Commit state
+        run: |
+          git config user.name "matches-bot"
+          git config user.email "matches-bot@users.noreply.github.com"
+          [ -f game_push_state.json ] && git add game_push_state.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "game push $(TZ=Africa/Cairo date +%F)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done
