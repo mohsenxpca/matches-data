@@ -337,6 +337,58 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/manage-google-photos-snapgate.html",
    "title": "حل مشكلة زحمة صور Google Photos بتطبيق جديد"
+  },
+  {
+   "u": "https://www.androidpolice.com/googlebook-wont-win-over-samsung-with-flagship-hardware/",
+   "t": "I compared Googlebook and Samsung DeX; Galaxy users have little reason to switch",
+   "at": "2026-11-02",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/google-tests-three-small-android-changes-make-big-difference/",
+   "t": "Google tests three small Android changes that could make a big difference",
+   "at": "2026-11-02",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/i-saved-50-by-using-a-simple-android-phone-feature/",
+   "t": "Stuck without a hard drive, I saved $50 by turning my Android phone into one",
+   "at": "2026-11-02",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features",
+   "t": "Apple’s HomeView could add security camera features",
+   "at": "2026-11-02",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+   "t": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
+   "at": "2026-11-02",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/synology-nas-c3rb3r-ransomware-attacks.html",
+   "title": "تحذير عاجل من Synology بسبب هجمات الفدية"
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+   "t": "Binance resumes withdrawals following $6.3 billion breach",
+   "at": "2026-11-02",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+   "t": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+   "at": "2026-11-02",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "t": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "at": "2026-11-02",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/chainalysis-security-breach-data.html",
+   "title": "اختراق شركة Chainalysis وتقارير عن تسريب بيانات"
   }
  ]
 }
