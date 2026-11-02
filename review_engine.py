@@ -319,6 +319,25 @@ def fetch_phone_candidates():
         except Exception:
             pass
 
+    # 5. GSMArena Fresh Devices Fallback (guarantees Review never starves or halts publishing)
+    try:
+        r = requests.get("https://www.gsmarena.com/", headers=headers, timeout=12, verify=False)
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.text, "html.parser")
+            for a in soup.find_all("a"):
+                href = a.get("href", "")
+                strong = a.find("strong")
+                span = a.find("span")
+                txt = (strong.get_text() if strong else (span.get_text() if span else a.get_text())).strip()
+                if re.search(r"-\d+\.php$", href) and not re.search(r"-(news|phones)-\d+\.php$", href):
+                    if txt and len(txt) > 3 and not re.search(r"specs|pictures|opinion|compare|watch|buds|tv|band|pad|tab", txt, re.I):
+                        full_link = "https://www.gsmarena.com/" + href
+                        if full_link not in seen:
+                            seen.add(full_link)
+                            cands.append({"title": txt, "link": full_link, "source": "gsmarena_db"})
+    except Exception as e:
+        print("GSMArena Devices Fallback error:", e)
+
     # Deduplicate candidate links
     unique = []
     seen_links = set()
@@ -429,7 +448,7 @@ def build_interactive_tool(tid, eur_price):
 
 
 
-def check_review(art, src_text, cand_title, existing_titles, min_words=900):
+def check_review(art, src_text, cand_title, existing_titles, ea_phone_titles=None, min_words=900):
     """Validates phone reviews strictly for AdSense compliance without falsely flagging converted currency figures."""
     if not art or not isinstance(art, dict):
         return ["لم يتم استلام مسودة صالحة من الذكاء الاصطناعي"]
@@ -445,7 +464,7 @@ def check_review(art, src_text, cand_title, existing_titles, min_words=900):
     title = art.get("title", "").strip()
     if not title or len(title) > 75:
         errs.append(f"العنوان غير صالح أو أطول من 75 حرف ({len(title)} حرف)")
-    for ex in (existing_titles + ea_phone_titles):
+    for ex in (existing_titles + (ea_phone_titles or [])):
         if difflib.SequenceMatcher(None, f.norm(title), f.norm(ex)).ratio() >= 0.75:
             errs.append(f"العنوان مكرر أو قريب جداً من مقال منشور سابقاً: {ex}")
             break
@@ -553,7 +572,7 @@ def main():
             extra, art, errs = "", None, ["no draft"]
             for attempt in range(2):
                 art = f.gemini(prompt + extra)
-                errs = check_review(art, src_text, cand_title, existing_titles, min_words=900)
+                errs = check_review(art, src_text, cand_title, existing_titles, ea_phone_titles, min_words=900)
                 if not errs:
                     break
                 print(f"  Retry needed ({len(errs)} issues): {errs}")

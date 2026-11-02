@@ -1,0 +1,55 @@
+name: حارس ومراقب النشر الذكي (Watchdog & Health Monitor)
+
+on:
+  workflow_dispatch:
+    inputs:
+      kick:
+        description: "فرض تشغيل مهام الإنقاذ فوراً (1 = نعم، 0 = فحص ذكي)"
+        required: false
+        default: "0"
+  schedule:
+    - cron: "*/20 * * * *"  # فحص نبض النشر كل 20 دقيقة على مدار الـ 24 ساعة
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: watchdog-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Watchdog Monitor
+        run: |
+          if [ "${{ github.event.inputs.kick }}" = "1" ]; then
+            python watchdog.py --kick
+          else
+            python watchdog.py
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ADMIN_CHAT: ${{ secrets.TELEGRAM_ADMIN_CHAT }}
+
+      - name: Commit Watchdog State
+        if: always()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Watchdog Bot"
+          if [ -f watchdog_state.json ]; then
+            git add watchdog_state.json || true
+            git commit -m "Update watchdog state [skip ci]" || true
+            git pull --rebase --autostash origin main || true
+            git push origin main || true
+          fi
