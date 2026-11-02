@@ -1012,6 +1012,20 @@
    "at": "2026-11-02",
    "ok": false,
    "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
+  },
+  {
+   "title": "Vivo Y32 5G launches with 8,000mAh battery, Snapdragon 4 Gen 2, and IP69 rating",
+   "url": "https://www.gizmochina.com/2026/11/02/vivo-y32-5g-launched-8000mah-snapdragon-4-gen-2/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Model code [ip69] found in existing: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
+  },
+  {
+   "title": "Love My Phone Repair Unveils Fast iPhone 14 Pro Max Repairs in Kissimmee - FinancialContent",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSmVNckRCcEtnMklIYk80Q3lZYlBid0VEcXE4akJQaVROWndCTGppT0l2dzRSb2UtcE9yajZCaWxmbF9MM0tUTlBkTVNjeFlwWl91dzdvT1ZESmZ0Ym1idFlXZ3R3YVJoTW93emtxTjdQdFpoT1F1aXhsc0xhOUozVldxejNrWEN6ZmY3Y21LUThYUHUwb1pVNWZoN2E3TTBTbHVxY0w3cl9vaXZuR3lIZ2JVWjdCSTVWWGNBdFF5OTNLcGVHcmE0cV9WYVBxekxiU3hpXw?oc=5",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
   }
  ]
 }
