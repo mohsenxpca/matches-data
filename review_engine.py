@@ -303,6 +303,27 @@ def extract_model_terms(text):
     return [w for w in clean.split() if len(w) > 1 and w not in STOP_WORDS]
 
 
+VARIANTS = {"pro", "max", "ultra", "plus", "lite", "fe", "mini", "neo", "edge", "fold", "flip", "power", "turbo", "air", "prime"}
+NEWS_EVENT_WORDS = ("update", "android 1", "one ui", "hyperos", "coloros", "origin os", "funtouch", "magicos",
+                    "price cut", "discount", "deal", "sale", "recall", "problem", "issue", "bug", "battery drain",
+                    "تحديث", "تخفيض", "خصم", "عرض", "مشكلة", "عطل")
+
+
+def model_keys(text):
+    """Phone model keys like 's26 ultra', 'x500 pro max', 'note 15 pro plus' (Arabic or English titles)."""
+    toks = re.sub(r"[^\w\s+]", " ", text.lower()).replace("+", " plus ").split()
+    keys = set()
+    for i, t in enumerate(toks):
+        if not re.search(r"\d", t) or re.fullmatch(r"\d+(hz|mah|mp|w|gb|tb|g|k|mm|nm)|20\d\d", t):
+            continue
+        j, var = i + 1, []
+        while j < len(toks) and toks[j] in VARIANTS:
+            var.append(toks[j]); j += 1
+        head = [toks[i - 1]] if t.isdigit() and i > 0 else []
+        keys.add(" ".join(head + [t] + var))
+    return keys
+
+
 def is_already_covered(cand, existing_titles, done_urls):
     """
     Strict deduplication logic:
@@ -338,7 +359,14 @@ def is_already_covered(cand, existing_titles, done_urls):
             if ratio > 0.68:
                 return True, f"High review similarity ({ratio:.2f}) with: {t}"
     else:
-        # News deduplication
+        # News about a phone we already reviewed is a duplicate (AdSense: same phone twice),
+        # unless it's a real event like an update, price cut or problem.
+        if not any(w in cand_title.lower() for w in NEWS_EVENT_WORDS):
+            keys = model_keys(cand_title)
+            if keys:
+                for t in existing_titles:
+                    if keys & model_keys(t):
+                        return True, f"Phone {sorted(keys & model_keys(t))[0]!r} already covered in: {t}"
         cand_norm = f.norm(cand_title)
         for t in existing_titles:
             ratio = difflib.SequenceMatcher(None, cand_norm, f.norm(t)).ratio()
