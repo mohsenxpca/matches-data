@@ -1812,6 +1812,15 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Samsung’s Android XR ‘Intelligent Eyewear’ reportedly launches in December - 9to5Google",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUTdmLVBqU19UQy1Za292VUtIVG9lcFVyeWh5TDBCMkE5WWRUWV96cy1kbHhCOEVEX05IR2tFSEVlb1pmMm5ZaFd5UnM5Uk9mVlpuOWVCVEtjSDU4R1FURFktOS02cjQtV3dIcVpIdF8teVRhOTF4SlZuQUlhZXBSVHY3TmIwdlJWUDlLallKd0lmMmFPYWF0eFpGTVVFbW1IYnN2MDJaTDVlZw?oc=5",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (206 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
