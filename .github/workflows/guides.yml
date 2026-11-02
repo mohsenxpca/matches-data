@@ -1,0 +1,70 @@
+name: Egyptaway Daily Evergreen Search Guide
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "تجربة من غير نشر (1 = تجربة بدون نشر، 0 = كتابة وجدولة بين 12 الضهر و9 بالليل)"
+        required: false
+        default: "0"
+      topic_id:
+        description: "تحديد موضوع معين اختيارياً (اتركه فارغاً لاختيار موضوع جديد تلقائياً)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: guides-daily
+  cancel-in-progress: false
+
+jobs:
+  publish-guide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate and Schedule Daily Guide (12 PM - 9 PM Cairo)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+        run: |
+          if [ -n "${{ github.event.inputs.topic_id }}" ]; then
+            python guides.py --topic-id "${{ github.event.inputs.topic_id }}"
+          else
+            python guides.py
+          fi
+
+      - name: Upload preview artifact on dry run
+        if: github.event.inputs.dry_run == '1'
+        uses: actions/upload-artifact@v4
+        with:
+          name: guide-dry-run-preview
+          path: out/*.html
+          if-no-files-found: ignore
+
+      - name: Save state (non-blocking rebase push)
+        if: github.event.inputs.dry_run != '1'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add guides_posted.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update guides_posted.json [skip ci]"
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main && git push origin main && break
+              sleep 3
+            done
+          fi

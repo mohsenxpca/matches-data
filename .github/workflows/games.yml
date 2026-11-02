@@ -9,13 +9,13 @@ on:
         default: "3"
       day_cap:
         description: "أقصى عدد مقالات في اليوم على ايجبتاوى"
-        default: "30"
+        default: "200"
 
 permissions:
   contents: write
 
 concurrency:
-  group: football-posts
+  group: games-posts
   cancel-in-progress: false
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
         env:
           PROFILE: games
           COUNT: ${{ github.event.inputs.count || '3' }}
-          DAY_CAP: ${{ github.event.inputs.day_cap || '50' }}
+          DAY_CAP: ${{ github.event.inputs.day_cap || '200' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
@@ -42,7 +42,7 @@ jobs:
         env:
           PROFILE: deals
           COUNT: "1"
-          DAY_CAP: ${{ github.event.inputs.day_cap || '50' }}
+          DAY_CAP: ${{ github.event.inputs.day_cap || '200' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}

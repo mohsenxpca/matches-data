@@ -24,7 +24,7 @@ COUNT = int(os.environ.get("COUNT", "2"))
 PREVIEWS = int(os.environ.get("PREVIEWS") if os.environ.get("PREVIEWS") is not None else 2)  # 'match time & channel' articles for tomorrow's big matches
 FAST = os.environ.get("FAST") == "1"  # breaking-news run (every 2h): newest story first, published within the next ~1.5h
 DRY = os.environ.get("DRY_RUN") == "1"
-DAY_CAP = int(os.environ.get("DAY_CAP") or 50)  # same cap as blogger_api.py on Mohsen's PC; a manual run can raise it
+DAY_CAP = int(os.environ.get("DAY_CAP") or 200)  # same cap as blogger_api.py on Mohsen's PC; a manual run can raise it
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 BANNED = ["يلا كورة", "يلاكورة", "yallakora", "يلا كوره"]
 # فلترة صارمة لمنع أي أخبار سياسية أو حروب أو شؤون فنية (قرار محسن 2026-10-31)
@@ -695,7 +695,7 @@ def build_html(art, rows, img, related, team_imgs=(), real_img_url=None):
     else:
         tbl = (f'<p>وعشان ما يفوتكش ماتش، تابع <a href="{MATCHES_PAGE}">مواعيد مباريات اليوم والقنوات الناقلة</a> '
                '<button type="button" class="fbn-btn" onclick="location.href=this.previousElementSibling.href">افتح جدول المباريات</button></p>')
-    links = f'<p>ولو بتدور على مكان تتابع فيه الماتشات، اقرأ <a href="{EGYNOW}">بديل ايجي ناو لمتابعة المباريات</a>'
+    links = f'<p>ولو بتدور على مكان تتابع فيه الماتشات، اقرأ <a href="{EGYNOW}">ايجي ناو بث مباشر مباريات اليوم</a>'
     if related:
         links += f'، وشوف كمان <a href="{related["u"]}">{e(related["t"])}</a>'
     links += ".</p>"
@@ -737,6 +737,14 @@ def schedule_times(n, taken):
         t = start + datetime.timedelta(seconds=random.randint(0, int((end - start).total_seconds())))
         t = t.replace(second=0, microsecond=0)
         if all(abs((t - x).total_seconds()) >= gap_out for x in out) and all(abs((t - x).total_seconds()) >= gap_taken for x in taken):
+            out.append(t)
+    # Fallback so other workflows' posts never block scheduling slots
+    for _ in range(400):
+        if len(out) >= n:
+            break
+        t = start + datetime.timedelta(seconds=random.randint(0, max(60, int((end - start).total_seconds()))))
+        t = t.replace(second=0, microsecond=0)
+        if all(abs((t - x).total_seconds()) >= 180 for x in out):
             out.append(t)
     return sorted(out)
 

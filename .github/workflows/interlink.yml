@@ -18,6 +18,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: interlink-daily
+  cancel-in-progress: false
+
 jobs:
   interlink:
     runs-on: ubuntu-latest
@@ -43,6 +47,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add interlink_posted.json || true
-          git commit -m "update: contextual interlinking log $(date +'%Y-%m-%d_%H:%M')" || exit 0
-          git push origin main || true
+          git add interlink_posted.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "update: contextual interlinking log $(date +'%Y-%m-%d_%H:%M')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done
