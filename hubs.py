@@ -19,9 +19,27 @@ TOPICS = {
               "focus": "جداول ومواعيد الامتحانات القادمة (الثانوية العامة والدبلومات والإعدادية والابتدائية والجامعات والتيرم)، ومواعيد النتايج لو مذكورة"},
     "trains": {"q": ["مواعيد قطارات", "مواعيد القطارات"], "name": "مواعيد القطارات في مصر", "must": r"قطار",
                "focus": "مواعيد قيام ووصول القطارات بين المحافظات (القاهرة والإسكندرية والصعيد والقناة) وأسعار التذاكر لو مذكورة، في جدول واضح"},
+    # mohsen 2026-11-02: one page per main line, and fixed pages for supply cards and exam results
+    "trains-alexandria": {"q": ["مواعيد قطارات القاهرة الإسكندرية", "قطارات الإسكندرية"], "name": "مواعيد قطارات القاهرة الإسكندرية",
+                          "must": r"(مواعيد|جدول|تذاكر|أسعار).*قطار.*(إسكندرية|اسكندرية)", "min": 2,
+                          "focus": "مواعيد قيام ووصول قطارات خط القاهرة والإسكندرية في الاتجاهين (الروسي والتالجو والمكيف والمميز)، وأرقام القطارات وأسعار التذاكر لو مذكورة، في جدول واضح"},
+    "trains-aswan": {"q": ["مواعيد قطارات القاهرة أسوان", "قطارات الصعيد"], "name": "مواعيد قطارات القاهرة أسوان والصعيد",
+                     "must": r"(مواعيد|جدول|تذاكر|أسعار).*قطار.*(أسوان|اسوان|الصعيد|الأقصر|سوهاج|أسيوط)", "min": 2,
+                     "focus": "مواعيد قيام ووصول قطارات خط القاهرة وأسوان (الأقصر وقنا وسوهاج وأسيوط والمنيا) في الاتجاهين، وقطارات النوم والتالجو، وأسعار التذاكر لو مذكورة، في جدول واضح"},
+    "trains-mansoura": {"q": ["مواعيد قطارات القاهرة المنصورة", "قطارات المنصورة"], "name": "مواعيد قطارات القاهرة المنصورة",
+                        "must": r"(مواعيد|جدول|تذاكر|أسعار).*قطار.*(المنصورة|دمياط)", "min": 2,
+                        "focus": "مواعيد قيام ووصول قطارات خط القاهرة والمنصورة ودمياط في الاتجاهين، وأسعار التذاكر لو مذكورة، في جدول واضح"},
+    "tamween": {"q": ["صرف مقررات التموين", "بطاقات التموين"], "name": "صرف التموين وبطاقات التموين", "must": r"تموين|التموينية", "min": 2,
+                "focus": "موعد صرف مقررات التموين للشهر الحالي ومواعيد عمل المنافذ، وقيمة الدعم وأسعار السلع لو مذكورة، وخطوات إضافة المواليد أو تحديث البطاقة والخط الساخن لو مذكور"},
+    "results": {"q": ["نتيجة الامتحانات", "موعد إعلان نتيجة"], "name": "نتائج الامتحانات في مصر", "min": 2,
+                "must": r"نتيج[ةه] (امتحان|الامتحانات|الثانوية|الشهادة|الإعدادية|الاعدادية|الابتدائية|الدبلوم|الصف|الترم|التيرم|نصف العام|الجامعات|طلاب|تنسيق)",
+                "focus": "مواعيد إعلان نتايج الامتحانات القادمة أو اللي ظهرت (الثانوية العامة والإعدادية والابتدائية والدبلومات والجامعات)، وإزاي تستعلم عن النتيجة برقم الجلوس من الموقع الرسمي، ومواعيد التظلمات لو مذكورة"},
 }
 LINKS = [("salaries", "مواعيد المرتبات", "/p/salaries-egypt.html"), ("exams", "جداول الامتحانات", "/p/exams-egypt.html"),
-         ("trains", "مواعيد القطارات", "/p/trains-egypt.html"), ("h", "الإجازات الرسمية", "/p/official-holidays-egypt.html"),
+         ("results", "نتائج الامتحانات", "/p/results-egypt.html"), ("tamween", "صرف التموين", "/p/tamween-egypt.html"),
+         ("trains", "مواعيد القطارات", "/p/trains-egypt.html"), ("trains-alexandria", "قطارات الإسكندرية", "/p/trains-alexandria-egypt.html"),
+         ("trains-aswan", "قطارات أسوان والصعيد", "/p/trains-aswan-egypt.html"), ("trains-mansoura", "قطارات المنصورة", "/p/trains-mansoura-egypt.html"),
+         ("h", "الإجازات الرسمية", "/p/official-holidays-egypt.html"),
          ("g", "أسعار الذهب", "/p/gold-prices-egypt.html"), ("c", "أسعار العملات", "/p/currency-prices-egypt.html")]
 
 PROMPT = """أنت محرر خدمات في موقع ايجبتاوى المصري. اكتب محتوى صفحة ثابتة بتتحدث باستمرار عن «{name}»، من الأخبار اللي تحت بس.
@@ -51,6 +69,9 @@ HUB_IMGS = {
     "exams": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop" alt="جداول ومواعيد الامتحانات والمذاكرة والكتب المدرسية في مصر" width="1200" height="675" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
     "trains": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/221387/pexels-photo-221387.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop" alt="مواعيد قطارات السكك الحديدية في مصر ومحطات القطار" width="1200" height="675" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
 }
+for _k in ("trains-alexandria", "trains-aswan", "trains-mansoura"):
+    HUB_IMGS[_k] = HUB_IMGS["trains"]
+HUB_IMGS["results"] = HUB_IMGS["exams"]
 
 
 def gn_items(q):
@@ -115,8 +136,8 @@ def sources(topic):
 def build(topic, existing):
     now = datetime.datetime.now(S.CAIRO)
     src = sources(topic)
-    if not src:
-        print(topic, "no sources")
+    if len(src) < TOPICS[topic].get("min", 1):
+        print(topic, "not enough sources", len(src))
         return None
     srctext = "\n\n".join(f"[{x['when']:%Y-%m-%d}] {x['t']}\n{x['text'][:3500]}" for x in src)
     T = TOPICS[topic]
@@ -134,7 +155,9 @@ def build(topic, existing):
         return None
     E = html.escape
     srcs = " · ".join(f'<a href="{E(x["u"])}" rel="nofollow noopener" target="_blank">{E(x["t"][:60])}</a>' for x in src)
-    links = '<div class="sv-links">' + "".join(f'<a href="{S.SITE}{u}">{t}</a>' for k, t, u in LINKS if k != topic) + "</div>"
+    live = json.load(open("services_pages.json", encoding="utf-8")).get("hubs", {})
+    links = '<div class="sv-links">' + "".join(f'<a href="{S.SITE}{u}">{t}</a>' for k, t, u in LINKS
+                                               if k != topic and (k not in TOPICS or k in live)) + "</div>"
     body = (f'{S.CSS}<div class="sv"><div class="sv-hero"><b>{E(art.get("headline") or art["title"])}</b><br>'
             f'<small>آخر تحديث: {S.stamp(now)} · الصفحة بتتحدث لوحدها كل 6 ساعات من آخر الأخبار</small></div>'
             + HUB_IMGS.get(topic, "")

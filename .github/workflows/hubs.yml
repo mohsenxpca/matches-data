@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       only:
-        description: "صفحة واحدة بس (salaries / exams / trains) أو فاضي للكل"
+        description: "صفحة واحدة بس (salaries / exams / trains / trains-alexandria / trains-aswan / trains-mansoura / tamween / results) أو فاضي للكل"
         default: ""
 
 permissions:
@@ -19,7 +19,7 @@ concurrency:
 jobs:
   pages:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

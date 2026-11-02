@@ -9,6 +9,7 @@ Usage: python services.py [--html KEY] [--only KEY,KEY]
 import datetime, html, json, os, sys, time
 from zoneinfo import ZoneInfo
 import requests
+from egypt_govs import gov_links_html
 
 BLOG = "8325646053257070334"
 SITE = "https://www.egyptaway.com"
@@ -128,7 +129,8 @@ def prayer(now):
 {faq([("ميعاد صلاة الفجر النهارده في القاهرة كام؟", f"صلاة الفجر النهارده في القاهرة الساعة {cairo['Fajr']} والشروق {cairo['Sunrise']}."),
       ("ميعاد أذان المغرب النهارده كام؟", f"أذان المغرب في القاهرة النهارده الساعة {cairo['Maghrib']}."),
       ("المواعيد دي بتتحدث إمتى؟", "الصفحة بتتحدث لوحدها كل يوم بعد نص الليل.")])}
-{links("prayer")}</div>"""
+{links("prayer")}
+{gov_links_html(title="مواقيت الصلاة في كل محافظة")}</div>"""
     return body, {"hijri": hijri, "cairo": cairo}
 
 
@@ -258,7 +260,8 @@ def weather(now):
 <script>(function(){{var s=document.getElementById('sv-wc'),o=document.getElementById('sv-wo');function f(){{var t=+s.value;o.textContent=t>=30?'الجو حر، لبس خفيف واشرب مية كتير':t>=22?'الجو لطيف، لبس عادي':t>=16?'خد جاكيت خفيف معاك':'الجو برد، البس تقيل'}}s.onchange=f;f();}})();</script>
 {faq([("درجة الحرارة في القاهرة النهارده كام؟", f"درجة الحرارة في القاهرة دلوقتي {round(c0['temperature_2m'])}° ({tx})."),
       ("التوقعات دي بتتحدث إمتى؟", "الصفحة بتتحدث لوحدها كل كام ساعة من بيانات الأرصاد العالمية.")])}
-{links("weather")}</div>"""
+{links("weather")}
+{gov_links_html(title="الطقس في كل محافظة")}</div>"""
     return body
 
 

@@ -174,5 +174,115 @@
    "id": "2260655455986950294",
    "url": "https://www.egyptaway.com/p/is-it-down-egypt.html"
   }
+ },
+ "gov": {
+  "cairo": {
+   "id": "8149608614983377065",
+   "url": "https://www.egyptaway.com/p/prayer-weather-cairo.html"
+  },
+  "giza": {
+   "id": "1644032387446312791",
+   "url": "https://www.egyptaway.com/p/prayer-weather-giza.html"
+  },
+  "alexandria": {
+   "id": "1661254715820314594",
+   "url": "https://www.egyptaway.com/p/prayer-weather-alexandria.html"
+  },
+  "qalyubia": {
+   "id": "8604953013956021835",
+   "url": "https://www.egyptaway.com/p/prayer-weather-qalyubia.html"
+  },
+  "sharqia": {
+   "id": "8976800593196195001",
+   "url": "https://www.egyptaway.com/p/prayer-weather-sharqia.html"
+  },
+  "dakahlia": {
+   "id": "3232944104883990858",
+   "url": "https://www.egyptaway.com/p/prayer-weather-dakahlia.html"
+  },
+  "gharbia": {
+   "id": "8256723124519187070",
+   "url": "https://www.egyptaway.com/p/prayer-weather-gharbia.html"
+  },
+  "monufia": {
+   "id": "6677047094479985422",
+   "url": "https://www.egyptaway.com/p/prayer-weather-monufia.html"
+  },
+  "beheira": {
+   "id": "2160625134799060864",
+   "url": "https://www.egyptaway.com/p/prayer-weather-beheira.html"
+  },
+  "kafr-el-sheikh": {
+   "id": "8755147208983596641",
+   "url": "https://www.egyptaway.com/p/prayer-weather-kafr-el-sheikh.html"
+  },
+  "damietta": {
+   "id": "9183114338126115612",
+   "url": "https://www.egyptaway.com/p/prayer-weather-damietta.html"
+  },
+  "port-said": {
+   "id": "6421377577687141289",
+   "url": "https://www.egyptaway.com/p/prayer-weather-port-said.html"
+  },
+  "ismailia": {
+   "id": "1261079107372079647",
+   "url": "https://www.egyptaway.com/p/prayer-weather-ismailia.html"
+  },
+  "suez": {
+   "id": "9103643363882474697",
+   "url": "https://www.egyptaway.com/p/prayer-weather-suez.html"
+  },
+  "faiyum": {
+   "id": "2219555568731599979",
+   "url": "https://www.egyptaway.com/p/prayer-weather-faiyum.html"
+  },
+  "beni-suef": {
+   "id": "5892379151809563528",
+   "url": "https://www.egyptaway.com/p/prayer-weather-beni-suef.html"
+  },
+  "minya": {
+   "id": "9139959183898315419",
+   "url": "https://www.egyptaway.com/p/prayer-weather-minya.html"
+  },
+  "asyut": {
+   "id": "3939634308119153054",
+   "url": "https://www.egyptaway.com/p/prayer-weather-asyut.html"
+  },
+  "sohag": {
+   "id": "2700644899220606875",
+   "url": "https://www.egyptaway.com/p/prayer-weather-sohag.html"
+  },
+  "qena": {
+   "id": "949834052128079201",
+   "url": "https://www.egyptaway.com/p/prayer-weather-qena.html"
+  },
+  "luxor": {
+   "id": "7289213345659181079",
+   "url": "https://www.egyptaway.com/p/prayer-weather-luxor.html"
+  },
+  "aswan": {
+   "id": "1407324124237068095",
+   "url": "https://www.egyptaway.com/p/prayer-weather-aswan.html"
+  },
+  "red-sea": {
+   "id": "888384622733625844",
+   "url": "https://www.egyptaway.com/p/prayer-weather-red-sea.html"
+  },
+  "new-valley": {
+   "id": "4477054647270358640",
+   "url": "https://www.egyptaway.com/p/prayer-weather-new-valley.html"
+  },
+  "matrouh": {
+   "id": "3729874086687146455",
+   "url": "https://www.egyptaway.com/p/prayer-weather-matrouh.html"
+  },
+  "north-sinai": {
+   "id": "2459364509293515655",
+   "url": "https://www.egyptaway.com/p/prayer-weather-north-sinai.html"
+  },
+  "south-sinai": {
+   "id": "4047306312024535552",
+   "url": "https://www.egyptaway.com/p/prayer-weather-south-sinai.html"
+  }
  }
 }
