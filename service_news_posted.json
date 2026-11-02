@@ -794,6 +794,16 @@
       "err": [
         "طول المقال قصير جداً (428 كلمة، المطلوب 450+)"
       ]
+    },
+    {
+      "title": "طرح 20 ألف شقة في سكن لكل المصريين 2026 بفائدة 8%",
+      "orig": "سكن لكل المصريين 2026.. طرح 20 ألف شقة بمساحة 90 مترًا وفائدة 8%",
+      "url": "https://www.matnnews.com/311002",
+      "post_url": "https://www.egyptaway.com/2026/11/sakkat-kol-elmasryeen-2026.html",
+      "topic": "housing",
+      "has_real_photo": true,
+      "at": "2026-11-02T14:36:05.082863+02:00",
+      "ok": true
     }
   ]
 }
