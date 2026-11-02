@@ -39,7 +39,7 @@ CAIRO = ZoneInfo("Africa/Cairo")
 BLOG_ID = "8325646053257070334"
 SITE_HOST = "www.egyptaway.com"
 STATE_FILE = "guides_posted.json"
-DRY = os.environ.get("DRY_RUN") == "1"
+DRY = os.environ.get("DRY_RUN") in ("1", "true", "True")
 
 PEXELS_TPL = "https://images.pexels.com/photos/{id}/pexels-photo-{id}.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop"
 
@@ -957,7 +957,8 @@ def main():
 
     # Strict 1 post per day guard (unless dry run)
     posted_today = [d for d in state.get("done", []) if d.get("date") == today_str and d.get("ok")]
-    if posted_today and not is_dry:
+    # Strict 1 post per day guard (unless dry run or explicit topic_id)
+    if posted_today and not is_dry and not args.topic_id:
         print(f"Already published/scheduled 1 guide today ({posted_today[0].get('title')}). Max 1 per day. Exiting.")
         return
 
