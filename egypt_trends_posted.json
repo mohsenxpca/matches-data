@@ -2771,6 +2771,16 @@
    "at": "2026-11-02T04:08:26.829338+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMUVjbHJqT0pSODlMY05wLWg5MGwwS0FiQl9tN1VpUGpNYWdzTlJUcEhKUXFHZHk1NEFCT25KQXk4Nk5ib2U4ZUJYR2Z5R29HTzZPSEtOYjM5Znl0YjUtZWE4cnZoWnI1NVl3SkFPdGF2MGlOQzJYQm9qamVBX2xVeVNwajB5VVdjZGc?oc=5",
+   "t": "كوريا الجنوبية تعدل القانون: الغش باستخدام نظارات الذكاء الاصطناعي سيؤدي إلى حظر الامتحانات لمدة 3 سنوات. - Vietnam.vn",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 19",
+    "كلمة رسميًا مش موجودة في المصدر، احذفها"
+   ]
   }
  ]
 }
