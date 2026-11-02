@@ -1047,6 +1047,29 @@
    "at": "2026-11-02",
    "ok": false,
    "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
+  },
+  {
+   "title": "Xiaomi 18 Pro series is going global this month",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_series_is_going_global_this_month-news-75305.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Phrase [xiaomi 18] found in existing: مراجعة Xiaomi 18 Fold 2026: معالج Xring O3 وبطارية 6000 والسعر"
+  },
+  {
+   "title": "Redmi M100 Pro Launched With 1.5K OLED Display, Dimensity 7300-Ultra and 50MP Camera - My Mobile India",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTHhwc20zZmQzbXBUdk9iSlNXbVpXX1FZRDlCNFJ6RDdjYk9LTEVKLVFiLUdIVEhSa2xVVHlDcXVPSnlFa003OWE2ZlN2bTZLLXE0UnFRTXU1V2tSYXZwYk9TbEhJeXg5SEtZajhCMWk5YmV6aGVOZG95NHBQSHBFM2ZSUV9kWlpuaVNxcGIyTnlIb3JxdUF4QU41cnhGd0tZRE16aU81TmVKd2pmQ1lxNW5mRnY?oc=5",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Model code [m100] found in existing: مراجعة هاتف Redmi M100 Pro: المواصفات الكاملة، السعر، المميزات والعيوب"
+  },
+  {
+   "title": "OnePlus Turbo 6Vs Launched with 9,000mAh Battery and Snapdragon 7s Gen 4 Processor - Beebom Gadgets",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZXpZT0kzZkp1N2hIekJHN1dFTHRBNEdqR2ZxY0NxYU45NzYxODRHNU5qZXJ3MGNmanM2a00xcm5NMkp2WXhRSXF1dXh4WGgtdmFYb0NUTEk4X0F5dnE4OW5fWGR0cTM5ZGVtek1HODVIUVNnYVk3Z1U4ZVNHYXdlNy0zcENpSHFFWTdzZVJxVldtNnlNakxCdmlub0NZSE0?oc=5",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (763 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
+   ]
   }
  ]
 }
