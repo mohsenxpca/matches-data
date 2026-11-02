@@ -31,34 +31,42 @@ SITES = {
             {
                 "url": "https://www.egyptaway.com/p/egyptian-league-table.html",
                 "anchors": ["جدول ترتيب الدوري المصري", "ترتيب الدوري المصري", "جدول الدوري المصري", "الدوري المصري الممتاز", "الدوري المصري"],
+                "topic": "sports"
             },
             {
                 "url": "https://www.egyptaway.com/p/matches-today.html",
                 "anchors": ["مواعيد مباريات اليوم", "جدول مباريات اليوم", "مباريات اليوم", "مباريات الليلة"],
+                "topic": "sports"
             },
             {
                 "url": "https://www.egyptaway.com/p/gold-prices-egypt.html",
                 "anchors": ["أسعار الذهب اليوم في مصر", "أسعار الذهب في مصر", "سعر الذهب اليوم", "سعر جرام الذهب", "عيار 21", "سعر الذهب", "أسعار الذهب"],
+                "topic": "economy"
             },
             {
                 "url": "https://www.egyptaway.com/p/currency-prices-egypt.html",
                 "anchors": ["أسعار العملات في مصر", "سعر الدولار اليوم في مصر", "أسعار الدولار في البنوك", "سعر الدولار اليوم", "سعر الدولار في مصر", "سعر الدولار", "أسعار العملات"],
+                "topic": "economy"
             },
             {
                 "url": "https://www.egyptaway.com/p/prayer-times-egypt.html",
                 "anchors": ["مواقيت الصلاة في مصر", "مواقيت الصلاة اليوم", "مواعيد الصلاة في مصر", "مواقيت الصلاة"],
+                "topic": "services"
             },
             {
                 "url": "https://www.egyptaway.com/p/weather-egypt.html",
                 "anchors": ["حالة الطقس في مصر", "درجات الحرارة المتوقعة في مصر", "هيئة الأرصاد الجوية", "حالة الطقس اليوم", "حالة الطقس", "درجات الحرارة المتوقعة"],
+                "topic": "services"
             },
             {
                 "url": "https://www.egyptaway.com/p/official-holidays-egypt.html",
                 "anchors": ["الإجازات الرسمية في مصر", "مواعيد الإجازات الرسمية", "العطلات الرسمية في مصر", "الإجازات الرسمية"],
+                "topic": "services"
             },
             {
                 "url": "https://www.egyptaway.com/p/ramadan-imsakia-egypt.html",
                 "anchors": ["إمساكية شهر رمضان", "إمساكية رمضان في مصر", "إمساكية رمضان"],
+                "topic": "services"
             },
         ]
     },
@@ -67,6 +75,12 @@ SITES = {
         "domain": "www.review-mobile.com",
         "hubs": []
     }
+}
+
+ALLOWED_SINGLE_EN_WORDS = {
+    "whatsapp", "minecraft", "fortnite", "roblox", "chatgpt", "gemini",
+    "android", "iphone", "xiaomi", "samsung", "playstation", "rockstar",
+    "efootball", "brawl", "binance", "windows", "chrome", "firefox", "steam"
 }
 
 GENERIC_BANNED = {
@@ -98,7 +112,6 @@ def secret(name):
 
 
 def get_token():
-    # 1. Try GitHub Secrets / environment
     cid = secret("BLOGGER_CLIENT_ID")
     csec = secret("BLOGGER_CLIENT_SECRET")
     rtok = secret("BLOGGER_REFRESH_TOKEN")
@@ -110,7 +123,6 @@ def get_token():
             return r.json()["access_token"]
         print(f"Warning: OAuth refresh failed with status {r.status_code}: {r.text[:100]}")
 
-    # 2. Try local token.json if available
     for candidate in [
         r"C:\Users\H\Documents\blogger-pipeline\token.json",
         os.path.join(os.path.dirname(__file__), "token.json"),
@@ -168,39 +180,40 @@ def fetch_live_posts(tok, blog_id, max_posts=600, fetch_bodies=False):
 
 def is_topical_anchor(phrase):
     phrase = phrase.strip()
-    # 1. No pure numbers or years
     if re.fullmatch(r'\d+', phrase):
         return False
     if len(phrase) < 4:
         return False
-    # 2. No dates or calendar month/day references with digits
+    # No dates with numbers (e.g. 29 أكتوبر)
     months_days = ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر",
                    "السبت", "الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة"]
     if any(m in phrase for m in months_days) and re.search(r'\d+', phrase):
         return False
-    # 3. No banned generic phrases
-    if phrase in GENERIC_BANNED or phrase.lower() in {"shop", "auto", "software", "post", "news", "google", "apple", "user"}:
+    # No numbers + time/period words
+    if re.search(r'\b\d+\s*(مباراة|مباريات|أيام|يوم|شهور|شهر|سنة|سنوات|ساعات|ساعة|دقائق|دقيقة)\b', phrase):
         return False
-    # 4. If English word, must be an established entity (game, brand, phone)
-    if re.fullmatch(r'[A-Za-z0-9\+\-\. ]+', phrase):
-        if not re.search(r'[A-Za-z]', phrase):
-            return False
-        if len(phrase) < 4 and phrase.lower() not in {"gta", "f1", "ps5", "ios"}:
-            return False
-        if phrase.lower() in {"with", "from", "that", "this", "news", "post", "shop", "auto", "update", "game", "free", "more", "best", "last"}:
-            return False
-        return True
-    # 5. Arabic topical filter
+    if phrase in GENERIC_BANNED:
+        return False
+
+    # English phrases
+    if re.search(r'[A-Za-z]', phrase):
+        # Single English word
+        if " " not in phrase:
+            return phrase.lower() in ALLOWED_SINGLE_EN_WORDS
+        # Multi-word English phrase: must be specific (e.g. Call of Duty, Modern Warfare, GTA 6)
+        return len(phrase) >= 5
+
+    # Arabic topical filter
     return any(k in phrase for k in TOPICAL_KEYWORDS)
 
 
 def build_entity_map(posts):
-    """Generates an inverted index mapping topical phrases to high-relevance posts."""
     entity_to_posts = {}
     for p in posts:
         u = p.get("url", "").split("?")[0]
         t = p.get("title", "")
         pub = p.get("published", "")[:10]
+        labels = p.get("labels", [])
         words = re.findall(r'[\w\u0621-\u064A]+', t)
         
         # 2-word, 3-word n-grams from title
@@ -211,21 +224,20 @@ def build_entity_map(posts):
                     continue
                 phrase = " ".join(ngram)
                 if is_topical_anchor(phrase):
-                    entity_to_posts.setdefault(phrase, []).append((u, t, pub))
+                    entity_to_posts.setdefault(phrase, []).append((u, t, pub, labels))
                     
         # Distinct proper nouns
         for w in words:
             if len(w) >= 4 and not w.isdigit():
-                if re.match(r'^[A-Za-z0-9\+\-\.]+$', w) and w.lower() not in {"with", "from", "that", "this", "news", "post", "shop", "auto"}:
-                    entity_to_posts.setdefault(w, []).append((u, t, pub))
-                elif w in {"الزمالك", "الأهلي", "ليفربول", "برشلونة", "مدريد", "مرموش", "كولر", "جوميز", "واتساب", "ماينكرافت", "فورتنايت", "روبلوكس"}:
-                    entity_to_posts.setdefault(w, []).append((u, t, pub))
+                if w.lower() in ALLOWED_SINGLE_EN_WORDS:
+                    entity_to_posts.setdefault(w, []).append((u, t, pub, labels))
+                elif w in {"الزمالك", "الأهلي", "ليفربول", "برشلونة", "مرموش", "كولر", "جوميز", "واتساب", "ماينكرافت", "فورتنايت", "روبلوكس"}:
+                    entity_to_posts.setdefault(w, []).append((u, t, pub, labels))
                     
     return entity_to_posts
 
 
 def inject_anchor_in_soup(soup, anchor_phrase, target_url):
-    """Finds natural occurrence of anchor_phrase in <p> text nodes and turns it into <a href=...>."""
     pattern = re.compile(rf"(?<![\w\u0621-\u064A])({re.escape(anchor_phrase)})(?![\w\u0621-\u064A])", re.IGNORECASE)
     for p in soup.find_all("p"):
         if p.find_parent(["nav", "footer", "header", "details", "table"]):
@@ -259,8 +271,7 @@ def inject_anchor_in_soup(soup, anchor_phrase, target_url):
     return False
 
 
-def link_article(html_content, post_url, entity_map, hubs, domain, max_links=3):
-    """Analyzes article HTML and injects contextual internal links up to max_links."""
+def link_article(html_content, post_url, entity_map, hubs, domain, post_title="", max_links=3):
     soup = BeautifulSoup(html_content, "html.parser")
     existing_hrefs = {a.get("href", "").split("?")[0] for a in soup.find_all("a") if a.get("href")}
     
@@ -271,6 +282,7 @@ def link_article(html_content, post_url, entity_map, hubs, domain, max_links=3):
     planned_links = []
     used_urls = set(existing_hrefs) | {post_url}
     used_anchors = set()
+    full_text = soup.get_text(" ", strip=True)
 
     # 1. Match Hubs
     for hub in hubs:
@@ -278,6 +290,10 @@ def link_article(html_content, post_url, entity_map, hubs, domain, max_links=3):
             break
         if hub["url"] in used_urls or hub["url"] == post_url:
             continue
+        # Context guard for sports hubs
+        if hub.get("topic") == "sports":
+            if not any(k in full_text for k in ["دوري", "مباراة", "الأهلي", "الزمالك", "كأس", "كرة", "منتخب"]):
+                continue
         for anchor in sorted(hub["anchors"], key=lambda a: -len(a)):
             if anchor in used_anchors:
                 continue
@@ -295,10 +311,16 @@ def link_article(html_content, post_url, entity_map, hubs, domain, max_links=3):
             break
         if ent in used_anchors or not is_topical_anchor(ent):
             continue
+        
+        # Category check for sports club names like الأهلي / الزمالك
+        if ent in {"الأهلي", "الزمالك", "ليفربول", "برشلونة", "ريال مدريد"}:
+            if not any(k in full_text for k in ["دوري", "مباراة", "كأس", "كرة", "رياضة", "منتخب", "لاعب"]):
+                continue
+
         candidates = [c for c in entity_map[ent] if c[0] not in used_urls and c[0] != post_url]
         if not candidates:
             continue
-        target_url, target_title, target_pub = candidates[0]
+        target_url, target_title, target_pub, target_labels = candidates[0]
         if inject_anchor_in_soup(soup, ent, target_url):
             used_urls.add(target_url)
             used_anchors.add(ent)
@@ -375,7 +397,7 @@ def run_pipeline(site_key="egyptaway", days=1, confirm=False, all_missing=False,
         pcontent = post.get("content", "")
         pub_date = post.get("published", "")[:10]
 
-        new_html, num_added, links_added = link_article(pcontent, purl, entity_map, hubs, domain, max_links=3)
+        new_html, num_added, links_added = link_article(pcontent, purl, entity_map, hubs, domain, post_title=ptitle, max_links=3)
         if not new_html or num_added == 0:
             continue
 
