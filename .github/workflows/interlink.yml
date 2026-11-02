@@ -1,0 +1,48 @@
+name: الربط الداخلي التلقائي (Contextual Interlinking)
+
+on:
+  schedule:
+    - cron: "30 2 * * *"   # كل يوم الساعة 4:30 فجراً بتوقيت القاهرة
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "عدد الأيام السابقة لفحص مقالاتها (الافتراضي 1 = مقالات الأمس)"
+        required: false
+        default: "1"
+      all_missing:
+        description: "فحص وتحديث كل مقالات الموقع التي ينقصها روابط داخلية (true/false)"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  interlink:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - name: Run Contextual Interlinker
+        run: |
+          if [ "${{ github.event.inputs.all_missing }}" = "true" ]; then
+            python -u interlink_engine.py --all-missing --confirm
+          else
+            python -u interlink_engine.py --days "${{ github.event.inputs.days || 1 }}" --confirm
+          fi
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: Commit Interlink State
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add interlink_posted.json || true
+          git commit -m "update: contextual interlinking log $(date +'%Y-%m-%d_%H:%M')" || exit 0
+          git push origin main || true
