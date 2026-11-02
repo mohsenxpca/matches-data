@@ -484,6 +484,22 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/messi-inter-miami-new-england-rule.html",
    "title": "لماذا يشارك ميسي ضد نيو إنجلاند رغم تراكم الإنذارات؟"
+  },
+  {
+   "q": "قائمة منتخب مصر",
+   "at": "2026-11-02",
+   "ok": false
+  },
+  {
+   "q": "عاصفة رعدية",
+   "at": "2026-11-02",
+   "ok": false,
+   "why": "off-topic"
+  },
+  {
+   "q": "طقس",
+   "at": "2026-11-02",
+   "ok": false
   }
  ]
 }
