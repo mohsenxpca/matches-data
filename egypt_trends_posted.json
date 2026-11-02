@@ -2791,6 +2791,17 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 3، 9",
     "الـ body 468 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.marca.com/en/football/mls/2026/11/02/lionel-messi-s-masterclass-puts-cristiano-ronaldo-under-pressure-in-the-race-to-1-000-goals.html",
+   "t": "Lionel Messi’s masterclass puts Cristiano Ronaldo under pressure in the race to 1,000 goals",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 1000، 3",
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'نيو', 'ميسي', 'انجلاند'}) مع: لماذا يشارك ميسي ضد نيو إنجلاند رغم تراكم الإنذارات؟)"
+   ]
   }
  ]
 }
