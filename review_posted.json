@@ -1158,6 +1158,43 @@
    "at": "2026-11-02T10:31:43+02:00",
    "ok": true,
    "brand": "اخرى"
+  },
+  {
+   "title": "Vivo X500 Pro vs iPhone 17 Pro: Can Vivo Beat Apple’s Flagship?",
+   "url": "https://www.gizmochina.com/2026/11/02/vivo-x500-pro-vs-iphone-17-pro/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Model code [x500] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
+  },
+  {
+   "title": "Honor Magic 9 series launching globally this week with Snapdragon 8 Elite Extreme Gen 6",
+   "url": "https://www.gizmochina.com/2026/11/02/honor-magic-9-series-launching-globally-this-week-with-snapdragon-8-elite-extreme-gen-6/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Phrase [honor magic] found in existing: إطلاق سلسلة Honor Magic 7 رسميًا بكاميرا 200MP وذكاء اصطناعي 2026"
+  },
+  {
+   "title": "Exclusive: Samsung improves Privacy Display for Galaxy S27 Pro and S27 Ultra",
+   "url": "https://www.sammobile.com/news/galaxy-s27-pro-ultra-improved-privacy-display/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
+  },
+  {
+   "title": "OnePlus Turbo 6Vs launched in China as a rebranded Nord CE 6 - Sportskeeda Tech",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZms2dUJzNEsxZ0hublVydmcxSktRenVkc0o5SjZSdkNGenB2MGxsbXBJelpSUDl2aHVvYkVvcUtBeHBManBKRndfY0FSOUtKR2hycWNMQUEyUGxsUEtJbkRpUFBqclJHczZ3b2psT2dTaVdBRm9pZkdVM3NuV0cxa2U2Q0ZCU3ZQZ1lUcDdHbTFwV2I0MG15NzZn?oc=5",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (880 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
+   ]
+  },
+  {
+   "title": "vivo Y32 5G launched: 8,000 mAh battery, IP68 and IP69 ratings, Snapdragon 4 Gen 2 chip for the mainstream segment. - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc1pvQ3piRE4wOG1xMWRuUlRYNmhWY2lIMnVWTHp1WG80TnhGc0p0TjdzYUljQnhiczk1MWRKODEwTHkzVThlX2tybC1vdDlfX29PVEdoMFZuUEtYc09Tb0RCbGU3R29xbEVPaGtCa3gzUUlWdlpnb1VBWVhudktUNnhCTWNCT2hqUTlaNW9ELWhlQmVoRFk2QkdrUGJXV0h1MkJGQ1U1ZjB1Q0ZKekFpVVFHS2ZiUUNrMFhEWA?oc=5",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Model code [ip69] found in existing: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
   }
  ]
 }
