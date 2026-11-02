@@ -303,6 +303,40 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/android-sms-of-death-exploit.html",
    "title": "ثغرة خطيرة تهدد هواتف أندرويد برسالة نصية"
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+   "t": "AI can make tech CEOs’ lives easier. What about everyone else?",
+   "at": "2026-11-02",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/ai-tech-ceos-out-of-touch.html",
+   "title": "ليه رؤساء شركات التكنولوجيا مش حاسين بالناس؟"
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+   "t": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+   "at": "2026-11-02",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+   "t": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+   "at": "2026-11-02",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/after-editing-100-pictures-google-photos-new-gemini-task-integration-good-horrible/",
+   "t": "After testing it on 100 photos, Google Photos' new Gemini integration is both good and horrible",
+   "at": "2026-11-02",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/stopped-google-photos-backing-up/",
+   "t": "I stopped Google Photos from backing up everything with this app",
+   "at": "2026-11-02",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/manage-google-photos-snapgate.html",
+   "title": "حل مشكلة زحمة صور Google Photos بتطبيق جديد"
   }
  ]
 }
