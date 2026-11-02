@@ -8,9 +8,13 @@ on:
         required: false
         default: "2"
       phone_model:
-        description: "اسم الهاتف أو الموديل (اختياري: اتركه فارغاً للرصد التلقائي لأحدث الهواتف غير المنشورة)"
+        description: "اسم الهاتف أو موضوع الخبر اختيارياً (اتركه فارغاً للرصد التلقائي لأحدث الهواتف والأخبار)"
         required: false
         default: ""
+      mode:
+        description: "نوع المحتوى: all (مراجعات وأخبار تلقائياً) أو news (أخبار وتسريبات فقط) أو review (مراجعات هواتف فقط)"
+        required: false
+        default: "all"
       dry_run:
         description: "تجربة بدون نشر (1 = تجربة، 0 = نشر مباشر)"
         required: false
@@ -40,6 +44,7 @@ jobs:
           COUNT: ${{ github.event.inputs.count || '2' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
           PHONE_MODEL: ${{ github.event.inputs.phone_model || '' }}
+          MODE: ${{ github.event.inputs.mode || 'all' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
@@ -51,9 +56,9 @@ jobs:
         run: |
           git config user.name "review-bot"
           git config user.email "review-bot@users.noreply.github.com"
-          git add review_posted.json 2>/dev/null || true
+          git add review_posted.json img 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
-          git commit -m "review post $(TZ=Africa/Cairo date +%F_%H:%M)"
+          git commit -m "review post and clean phone images $(TZ=Africa/Cairo date +%F_%H:%M)"
           for i in 1 2 3 4 5; do
             git pull --rebase origin main && git push origin main && break || sleep 3
           done
