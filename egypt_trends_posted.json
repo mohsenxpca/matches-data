@@ -3060,6 +3060,65 @@
    "reason": [
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/2/على-شاشة-الإغلاق-هبوط-حاد-للمؤشرات-للجلسة-الرابعة-ورأس-المال/7603371",
+   "t": "على شاشة الإغلاق.. هبوط حاد للمؤشرات للجلسة الرابعة ورأس المال يفقد 65 مليارًا",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الـ body 404 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حاد', 'هبوط'}) مع تشابه نصي مع: هبوط حاد في أسعار الذهب عالميًا ومحليًا.. إليك التفاصيل)"
+   ]
+  },
+  {
+   "u": "https://www.ysscores.com/en/lineup/6050088/Pakhtakor-Tashkent-vs-Al-Nassr-FC",
+   "t": "Pakhtakor vs Al Nassr FC match lineup | AFC Champions League Elite · 2 Nov 2026",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 90",
+    "الـ body 340 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.sportsadda.asia/football/news-football/ronaldo-scored-three-on-thursday-and-postecoglou-has-left-him-out-of-al-nassrs-champions-league-trip-to-pakhtakor/",
+   "t": "Ronaldo scored three on Thursday, and Postecoglou has left him out of Al-Nassr’s Champions League trip to Pakhtakor",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 1000"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7164102",
+   "t": "رفض تظلم الشناوي.. قرار جديد يلزم حارس بيراميدز برد 8ملايين جنيه للزمالك",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 365 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.notebookcheck.net/PS5-users-can-access-GTA-6-up-to-18-hours-early-on-its-release-date-with-PSN-workaround.1439752.0.html",
+   "t": "PS5 users can access GTA 6 up to 18 hours early on its release date with PSN workaround",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 398 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.pcguide.com/news/psn-trick-will-let-you-play-gta-6-up-to-18-hours-early-on-the-ps5/",
+   "t": "PSN trick will let you play GTA 6 up to 18 hours early on the PS5",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'لعبه', 'gta'}) مع تشابه نصي مع: تفاصيل كواليس تطوير لعبة gta 6 وأسرار استوديو روكستار)"
+   ]
   }
  ]
 }
