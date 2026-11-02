@@ -115,13 +115,13 @@ GULF_PROMPT = """أنت محرر شؤون الخليج العربي في موق�
 
 
 GULF_EDITORIAL_FALLBACKS = {
-    "SA": "https://images.pexels.com/photos/4488636/pexels-photo-4488636.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "AE": "https://images.pexels.com/photos/1470405/pexels-photo-1470405.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "KW": "https://images.pexels.com/photos/1538177/pexels-photo-1538177.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "gold": "https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "sports": "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "tech": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "general": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "SA": "https://images.pexels.com/photos/4488636/pexels-photo-4488636.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "AE": "https://images.pexels.com/photos/1470405/pexels-photo-1470405.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "KW": "https://images.pexels.com/photos/1538177/pexels-photo-1538177.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "gold": "https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "sports": "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "tech": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "general": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
 }
 
 def pick_gulf_fallback(geo, title=""):
@@ -187,7 +187,7 @@ def fetch_trend_story(url):
         if og and og.get("content"):
             c = og["content"].strip()
             if c.startswith("http") and not any(bad in c.lower() for bad in ["logo", "favicon", "avatar", "icon", "pixel"]):
-                img_url = f"https://wsrv.nl/?url={urllib.parse.quote(c)}&w=1000&output=webp&q=82"
+                img_url = f"https://wsrv.nl/?url={urllib.parse.quote(c)}&w=1200&output=webp&q=82"
 
         # Article text
         box = soup.find("article") or soup.find("main") or soup.find("div", class_=re.compile(r"article|content|story", re.I)) or soup
@@ -340,7 +340,7 @@ def main():
         if not final_img:
             final_img = pick_gulf_fallback(cand["geo"], art["title"])
 
-        lead_img_html = f'<img src="{final_img}" alt="{html.escape(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' 
+        lead_img_html = f'<img src="{final_img}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' 
 
         # Contextual Gulf Service Callout
         if cand["geo"] == "SA":

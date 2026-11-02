@@ -33,14 +33,14 @@ COUNT = int(os.environ.get("COUNT", "2"))
 
 # Curated high-res natural photography fallbacks (no text overlays)
 TREND_PHOTO_POOLS = {
-    "clock": "https://images.pexels.com/photos/1198264/pexels-photo-1198264.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop",
-    "weather": "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop",
-    "supply": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop",
-    "transport": "https://images.pexels.com/photos/221387/pexels-photo-221387.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop",
-    "education": "https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop",
-    "money": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop",
-    "holidays": "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop",
-    "cairo": "https://images.pexels.com/photos/3290075/pexels-photo-3290075.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop",
+    "clock": "https://images.pexels.com/photos/1198264/pexels-photo-1198264.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    "weather": "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    "supply": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    "transport": "https://images.pexels.com/photos/221387/pexels-photo-221387.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    "education": "https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    "money": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    "holidays": "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    "cairo": "https://images.pexels.com/photos/3290075/pexels-photo-3290075.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
 }
 
 # Cross-link suggestions to relevant Egyptaway hub pages
@@ -499,7 +499,7 @@ def main():
         # Choose lead photo: Real news photo (only if proxy succeeds without 404/403), or clean Pexels fallback
         proxied_img = None
         if real_img:
-            candidate_proxy = f"https://wsrv.nl/?url={urllib.parse.quote(real_img)}&w=1000&output=webp&q=80"
+            candidate_proxy = f"https://wsrv.nl/?url={urllib.parse.quote(real_img)}&w=1200&output=webp&q=80"
             try:
                 chk = requests.head(candidate_proxy, headers=UA, timeout=3, allow_redirects=True)
                 if chk.status_code == 200:
@@ -511,7 +511,7 @@ def main():
         if not proxied_img:
             proxied_img = pick_fallback_photo(art["title"] + " " + cand["t"])
 
-        lead_img_html = f'<img src="{proxied_img}" alt="{html.escape(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px;margin-bottom:16px">'
+        lead_img_html = f'<img src="{proxied_img}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px;margin-bottom:16px">'
 
         # Interactive Callout & Summary Button
         summary_btn = ('<p><button type="button" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden" '

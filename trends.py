@@ -134,11 +134,11 @@ def trends():
 
 # High-res natural editorial trend photography fallbacks (no text overlays)
 TREND_FALLBACKS = {
-    "prayer": "https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "gold": "https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "weather": "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "sports": "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "general": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "prayer": "https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "gold": "https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "weather": "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "sports": "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "general": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
 }
 
 def get_trend_fallback(text):
@@ -249,7 +249,7 @@ def main():
         e = html.escape
         lead_img_url = None
         if trend_real_img:
-            candidate_proxy = f"https://wsrv.nl/?url={requests.utils.quote(trend_real_img, safe='')}&w=1000&output=webp&q=80"
+            candidate_proxy = f"https://wsrv.nl/?url={requests.utils.quote(trend_real_img, safe='')}&w=1200&output=webp&q=80"
             try:
                 chk = requests.head(candidate_proxy, headers=UA, timeout=3, allow_redirects=True)
                 if chk.status_code == 200:
@@ -260,7 +260,7 @@ def main():
                 print(f"  Trend img proxy check failed ({e}). Using fallback.")
         if not lead_img_url:
             lead_img_url = get_trend_fallback(c["q"] + " " + art["title"])
-        body = (f'<img src="{lead_img_url}" alt="{e(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
+        body = (f'<img src="{lead_img_url}" alt="{e(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
                 + art["body"]
                 + '<p><button type="button" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden" style="border:0;border-radius:999px;padding:7px 16px;font:inherit;font-weight:700;color:#fff;background:linear-gradient(135deg,#f59e0b,#ea580c);cursor:pointer">الخلاصة</button>'
                   f'<span hidden style="display:block;margin-top:8px;padding:10px;border-radius:10px;background:#fff7ed">{e(art.get("desc", ""))}</span></p>'

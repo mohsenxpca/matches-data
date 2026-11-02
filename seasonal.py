@@ -21,8 +21,8 @@ DAYS = S.AR_DAYS
 
 
 HERO_IMGS = {
-    "holidays": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="جدول الإجازات الرسمية والعطلات في مصر والاستجمام على شاطئ البحر" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
-    "imsakia": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/6207735/pexels-photo-6207735.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop" alt="إمساكية شهر رمضان المبارك وفانوس رمضان وهلال الشهر الكريم" width="1000" height="563" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "holidays": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop" alt="جدول الإجازات الرسمية والعطلات في مصر والاستجمام على شاطئ البحر" width="1200" height="675" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
+    "imsakia": '<div class="sv-img" style="margin:14px 0;text-align:center;"><img src="https://images.pexels.com/photos/6207735/pexels-photo-6207735.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop" alt="إمساكية شهر رمضان المبارك وفانوس رمضان وهلال الشهر الكريم" width="1200" height="675" style="width:100%;max-width:100%;height:auto;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,0.08);display:block;margin:0 auto;" /></div>',
 }
 
 

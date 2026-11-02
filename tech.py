@@ -104,13 +104,13 @@ def candidates(done):
 
 # High-res natural editorial tech photography fallbacks (no text overlays)
 TECH_FALLBACKS = {
-    "ai": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "code": "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "mobile": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "pc": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "security": "https://images.pexels.com/photos/538064/pexels-photo-538064.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "gaming": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "general": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "ai": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "code": "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "mobile": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "pc": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "security": "https://images.pexels.com/photos/538064/pexels-photo-538064.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "gaming": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "general": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
 }
 
 def get_tech_fallback(text):
@@ -147,7 +147,7 @@ def article_content(url):
 
 def build(art, c, cover_url):
     e = html.escape
-    first = f'<img src="{cover_url}" alt="{e(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
+    first = f'<img src="{cover_url}" alt="{e(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
     faq = "<h2>أسئلة شائعة</h2>" + "".join(f"<details><summary>{e(q['q'])}</summary><p>{e(q['a'])}</p></details>" for q in art.get("faq", [])[:4])
     tool = ('<p><button type="button" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden" '
             'style="border:0;border-radius:999px;padding:7px 16px;font:inherit;font-weight:700;color:#fff;background:linear-gradient(135deg,#f59e0b,#ea580c);cursor:pointer">'
@@ -211,7 +211,7 @@ def main():
             continue
         label, kick, icon, _ = c["topic"]
         if real_img:
-            cover_url = f"https://wsrv.nl/?url={requests.utils.quote(real_img, safe='')}&w=1000&output=webp&q=80"
+            cover_url = f"https://wsrv.nl/?url={requests.utils.quote(real_img, safe='')}&w=1200&output=webp&q=80"
         else:
             cover_url = get_tech_fallback(art["title"] + " " + c["t"])
         html_out = build(art, c, cover_url)

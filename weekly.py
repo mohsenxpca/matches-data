@@ -64,7 +64,7 @@ def main():
         raise SystemExit(f"skipped: {errs}")
     img = random.choice(IMGS)
     e = html.escape
-    body = (f'<img src="{PEX.format(i=img[0])}" alt="{e(img[1])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
+    body = (f'<img src="{PEX.format(i=img[0])}" alt="{e(img[1])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
             + art["body"]
             + f'<p>تابع السعر لحظة بلحظة في <a href="{SITE}/p/gold-prices-egypt.html">صفحة أسعار الذهب اليوم</a> و<a href="{SITE}/p/currency-prices-egypt.html">صفحة أسعار العملات</a>، '
               '<button type="button" onclick="location.href=\'' + SITE + '/p/gold-prices-egypt.html\'" style="border:0;border-radius:999px;padding:7px 16px;font:inherit;font-weight:700;color:#fff;background:linear-gradient(135deg,#f59e0b,#ea580c);cursor:pointer">احسب تمن ذهبك</button></p>'

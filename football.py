@@ -46,7 +46,7 @@ PRIORITY = ["egyptian-league", "egypt-cup", "african-champions-league", "african
 LABELS = {"egyptian-league": "الدوري المصري", "egypt-cup": "الدوري المصري"}
 MATCHES_PAGE = SITE + "/p/matches-today.html"
 EGYNOW = SITE + "/2024/03/egynow.html"
-PEX = "https://images.pexels.com/photos/{i}/pexels-photo-{i}.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop"
+PEX = "https://images.pexels.com/photos/{i}/pexels-photo-{i}.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop"
 IMAGES = [  # checked by eye 2026-10-27
     (19875973, "جمهور كرة قدم في المدرجات بيرفع أعلام مصر"),
     (36227922, "ملعب كرة قدم وقت الغروب والمدرجات فيها جمهور"),
@@ -678,11 +678,11 @@ def team_images(art, rows, teams):
 def build_html(art, rows, img, related, team_imgs=(), real_img_url=None):
     e = html.escape
     if real_img_url:
-        first = f'<img src="{real_img_url}" alt="{e(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
+        first = f'<img src="{real_img_url}" alt="{e(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
     elif team_imgs:
-        first = f'<img src="{team_imgs[0][0]}" alt="{e(team_imgs[0][1])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
+        first = f'<img src="{team_imgs[0][0]}" alt="{e(team_imgs[0][1])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
     else:
-        first = f'<img src="{PEX.format(i=img[0])}" alt="{e(img[1])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px">'
+        first = f'<img src="{PEX.format(i=img[0])}" alt="{e(img[1])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
     tbl = ""
     if rows:
         trs = "".join(f"<tr><td>{e(m['d'][5:].replace('-', '/'))}</td><td>{e(m['t'])}</td><td>{e(m['h'])} × {e(m['a'])}</td>"
@@ -712,7 +712,7 @@ def build_html(art, rows, img, related, team_imgs=(), real_img_url=None):
         second = ""
     else:
         img2 = random.choice([x for x in IMAGES if x != img])
-        second = f'<img src="{PEX.format(i=img2[0])}" alt="{e(img2[1])}" width="1000" height="563" loading="lazy" style="width:100%;height:auto;border-radius:12px">'
+        second = f'<img src="{PEX.format(i=img2[0])}" alt="{e(img2[1])}" width="1200" height="675" loading="lazy" style="width:100%;height:auto;border-radius:12px">'
     parts = body.split("<h2>")
     if second and len(parts) > 2:
         body = "<h2>".join(parts[:2]) + second + "<h2>" + "<h2>".join(parts[2:])

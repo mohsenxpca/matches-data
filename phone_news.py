@@ -46,9 +46,9 @@ BRANDS = [
 ]
 
 PHONE_FALLBACKS = [
-    "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
 ]
 
 SKIP_TITLES = r"deal|deals|% off|sale|discount|best .* to buy|podcast|newsletter|poll results|weekly poll|counterpoint|idc report"
@@ -94,7 +94,7 @@ def extract_highres_image(orig_img_url, soup=None):
     # Upgrade GSMArena thumbnail to high-res full render
     clean = re.sub(r"/-(?:184x111|300x180|120x120)/", "/", orig_img_url)
     clean = re.sub(r"-\d+x\d+\.(jpg|jpeg|png|webp)", r".\1", clean)
-    return f"https://wsrv.nl/?url={urllib.parse.quote(clean)}&w=1000&output=webp&q=82"
+    return f"https://wsrv.nl/?url={urllib.parse.quote(clean)}&w=1200&output=webp&q=82"
 
 
 def fetch_article_text(url):
@@ -266,7 +266,7 @@ def main():
             continue
 
         # Format Post HTML
-        lead_img_html = f'<img src="{real_img}" alt="{html.escape(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' if real_img else ""
+        lead_img_html = f'<img src="{real_img}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' if real_img else ""
 
         # Price Hub Callout Card
         callout_html = '''<div style="background:#f8fafc;border:2px solid #cbd5e1;border-radius:14px;padding:16px;margin:20px 0;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,.04);">

@@ -49,15 +49,15 @@ BANNED_TOPICS_REGEX = (
 )
 
 SERVICE_FALLBACKS = {
-    "housing": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "banks": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "fuel": "https://images.pexels.com/photos/9796/gas-station-fuel-oil-diesel.jpg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "coordination": "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "holidays": "https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "trains": "https://images.pexels.com/photos/72594/japan-train-railroad-transportation-72594.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "salaries": "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "outage": "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "general": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "housing": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "banks": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "fuel": "https://images.pexels.com/photos/9796/gas-station-fuel-oil-diesel.jpg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "coordination": "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "holidays": "https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "trains": "https://images.pexels.com/photos/72594/japan-train-railroad-transportation-72594.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "salaries": "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "outage": "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "general": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
 }
 
 def pick_service_fallback(topic_key, title=""):
@@ -381,7 +381,7 @@ def main():
             # Ensure REAL image with reliable proxy or high-res editorial fallback
             lead_img_url = None
             if real_img:
-                candidate_proxy = f"https://wsrv.nl/?url={urllib.parse.quote(real_img)}&w=1000&output=webp&q=80"
+                candidate_proxy = f"https://wsrv.nl/?url={urllib.parse.quote(real_img)}&w=1200&output=webp&q=80"
                 try:
                     chk = requests.head(candidate_proxy, headers=UA, timeout=3, allow_redirects=True)
                     if chk.status_code == 200:
@@ -393,7 +393,7 @@ def main():
             if not lead_img_url:
                 lead_img_url = pick_service_fallback(cand_top, art["title"])
 
-            lead_img_html = f'<img src="{lead_img_url}" alt="{html.escape(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' 
+            lead_img_html = f'<img src="{lead_img_url}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' 
 
             # Internal Cross-link & Hub Callout Card
             callout_html = f'''<div style="background:#eff6ff;border:2px solid #3b82f6;border-radius:14px;padding:16px;margin:20px 0;text-align:center;box-shadow:0 4px 12px rgba(59,130,246,.1);">

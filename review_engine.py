@@ -30,10 +30,10 @@ EUR_RATES = {"egp": 52.0, "sar": 4.05, "aed": 3.97}
 CNY_RATES = {"egp": 6.8, "sar": 0.527, "aed": 0.516}
 
 FALLBACK_PHONE_PHOTOS = [
-    "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-    "https://images.pexels.com/photos/40739/mobile-phone-smartphone-tablet-touch-screen-40739.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
+    "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "https://images.pexels.com/photos/40739/mobile-phone-smartphone-tablet-touch-screen-40739.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
 ]
 
 DISCLAIMER = "هذه المراجعة مبنية على المواصفات الرسمية والمصادر المعلنة، وليست تجربة استخدام شخصية."
@@ -579,7 +579,7 @@ def main():
 
             p0 = clean_photos[0]
             lead_img_html = (f'<figure class="rv-fig">'
-                             f'<img src="{p0}" alt="{html.escape(art["title"])}" width="1000" height="563" loading="eager"/>'
+                             f'<img src="{p0}" alt="{html.escape(art["title"])}" width="1200" height="675" loading="eager"/>'
                              f'<figcaption>الهاتف {html.escape(art.get("brand", "")) } في أحدث ظهور رسمي له</figcaption>'
                              f'</figure>')
 
@@ -588,13 +588,13 @@ def main():
             if len(clean_photos) > 1:
                 p1 = clean_photos[1]
                 second_img_html = (f'<figure class="rv-fig">'
-                                  f'<img src="{p1}" alt="تفاصيل تصميم {html.escape(art["title"])}" width="1000" height="563" loading="lazy"/>'
+                                  f'<img src="{p1}" alt="تفاصيل تصميم {html.escape(art["title"])}" width="1200" height="675" loading="lazy"/>'
                                   f'<figcaption>تصميم الكاميرات والواجهة الخلفية</figcaption>'
                                   f'</figure>')
             if len(clean_photos) > 2:
                 p2 = clean_photos[2]
                 third_img_html = (f'<figure class="rv-fig">'
-                                 f'<img src="{p2}" alt="مواصفات شاشة ومنافذ {html.escape(art["title"])}" width="1000" height="563" loading="lazy"/>'
+                                 f'<img src="{p2}" alt="مواصفات شاشة ومنافذ {html.escape(art["title"])}" width="1200" height="675" loading="lazy"/>'
                                  f'<figcaption>الشاشة ومنافذ الهاتف</figcaption>'
                                  f'</figure>')
 

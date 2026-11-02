@@ -108,7 +108,7 @@ def fetch_news_outages():
                                 if og and og.get("content"):
                                     c = og["content"].strip()
                                     if c.startswith("http") and not any(bad in c.lower() for bad in ["logo", "favicon", "avatar", "icon", "pixel"]):
-                                        photo = f"https://wsrv.nl/?url={urllib.parse.quote(c)}&w=1000&output=webp&q=80"
+                                        photo = f"https://wsrv.nl/?url={urllib.parse.quote(c)}&w=1200&output=webp&q=80"
                         except Exception:
                             photo = None
                         out[sid] = photo
@@ -180,8 +180,8 @@ def main():
   </div>
 </div>'''
 
-        lead_img_src = news_down.get(sid) or "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop"
-        body = (f'<img src="{lead_img_src}" alt="{html.escape(art["title"])}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px;margin-bottom:14px">'
+        lead_img_src = news_down.get(sid) or "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop"
+        body = (f'<img src="{lead_img_src}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px;margin-bottom:14px">'
                 + callout
                 + art["body"]
                 + "<h2>أسئلة شائعة</h2>" + "".join(f"<details><summary>{html.escape(q['q'])}</summary><p>{html.escape(q['a'])}</p></details>" for q in art.get("faq", [])[:4])
