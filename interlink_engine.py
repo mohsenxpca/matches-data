@@ -74,6 +74,11 @@ SITES = {
                 "topic": "tech"
             },
             {
+                "url": "https://www.egyptaway.com/p/compare-phones.html",
+                "anchors": ["مقارنة شاملة بين الموبايلات", "مقارنة الهواتف راس براس", "أداة مقارنة الموبايلات", "مقارنة بين هاتفين"],
+                "topic": "tech"
+            },
+            {
                 "url": "https://www.egyptaway.com/p/best-phone-for-budget.html",
                 "anchors": ["أفضل موبايل لميزانيتك", "أحسن موبايل في الفئة المتوسطة", "أفضل هاتف للشراء", "ترشيحات الهواتف"],
                 "topic": "tech"
@@ -144,6 +149,11 @@ SITES = {
         "blog_id": "2997328666613207792",
         "domain": "www.review-mobile.com",
         "hubs": [
+            {
+                "url": "https://www.review-mobile.com/p/compare-phones_01466757070.html",
+                "anchors": ["مقارنة شاملة بين الموبايلات", "مقارنة الهواتف راس براس", "أداة مقارنة الموبايلات", "مقارنة بين هاتفين"],
+                "topic": "tech"
+            },
             {
                 "url": "https://www.review-mobile.com/p/best-phone-for-budget.html",
                 "anchors": ["أفضل موبايل لميزانيتك", "أحسن موبايل في الفئة المتوسطة", "ترشيحات الهواتف حسب السعر", "أفضل هاتف للشراء"],

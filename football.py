@@ -905,6 +905,7 @@ ENTITY_HUBS = [
     ("https://www.egyptaway.com/p/weather-egypt.html", ["حالة الطقس في مصر", "درجات الحرارة المتوقعة", "حالة الطقس اليوم"]),
     ("https://www.egyptaway.com/p/mobile-prices-egypt.html", ["أسعار الموبايلات في مصر", "أسعار الهواتف في مصر", "جدول أسعار الموبايلات"]),
     ("https://www.egyptaway.com/p/best-phone-for-budget.html", ["أفضل موبايل لميزانيتك", "أحسن موبايل في الفئة المتوسطة", "ترشيحات الموبايلات"]),
+    ("https://www.egyptaway.com/p/compare-phones.html", ["مقارنة شاملة بين الموبايلات", "مقارنة الهواتف راس براس", "أداة مقارنة الموبايلات"]),
     ("https://www.egyptaway.com/p/download-games.html", ["تحميل ألعاب موبايل وكمبيوتر", "تنزيل ألعاب رسمية", "صفحة تحميل الألعاب"]),
     ("https://www.egyptaway.com/p/pubg-uc-freefire-diamonds-prices.html", ["أسعار شدات ببجي", "شحن شدات ببجي", "شحن جواهر فري فاير"]),
     ("https://www.egyptaway.com/p/make-money-online-egypt.html", ["طرق الربح من الإنترنت", "الربح من الموبايل", "الربح فودافون كاش"]),
