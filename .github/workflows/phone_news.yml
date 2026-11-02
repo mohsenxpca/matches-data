@@ -2,6 +2,19 @@ name: تغطية أخبار الهواتف الذكية والتسريبات ل�
 
 on:
   workflow_dispatch:
+    inputs:
+      count:
+        description: "عدد أخبار الهواتف المطلوب نشرها"
+        required: false
+        default: "2"
+      brand:
+        description: "ماركة معينة اختيارياً (مثال: سامسونج، أبل، شاومي - اتركه فارغاً للرصد التلقائي وسامسونج أولاً)"
+        required: false
+        default: ""
+      dry_run:
+        description: "تجربة بدون نشر (1 = تجربة، 0 = نشر مباشر)"
+        required: false
+        default: "0"
   schedule:
     - cron: "*/30 * * * *"  # every 30 minutes
 
@@ -22,8 +35,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4 pillow
-      - run: python phone_news.py
+      - run: python -u phone_news.py
         env:
+          COUNT: ${{ github.event.inputs.count || '2' }}
+          BRAND: ${{ github.event.inputs.brand || '' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
@@ -35,7 +51,7 @@ jobs:
           git config user.email "phone-news-bot@users.noreply.github.com"
           git add phone_news_posted.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
-          git commit -m "phone news check $(TZ=Africa/Cairo date +%F_%H:%M)"
+          git commit -m "phone news update $(TZ=Africa/Cairo date +%F_%H:%M)"
           for i in 1 2 3 4 5; do
             git pull --rebase origin main && git push origin main && break || sleep 3
           done

@@ -1,48 +1,53 @@
-"""Egyptaway Automated Live Phone News Engine (mohsen 2026-10-29).
-Tracks breaking smartphone news (Samsung, Apple/iPhone, Xiaomi, Realme, Oppo, Vivo, Honor, Google Pixel) 24/7.
+"""Egyptaway Automated Live Phone News Engine (mohsen 2026-10-29, updated 2026-11-02).
+Tracks breaking smartphone news (Samsung first, Apple, Xiaomi, Realme, Oppo, Vivo, Honor, Google Pixel, etc.) 24/7.
 Features:
 - Monitors GSMArena, SamMobile, and Gizmochina feeds in real time.
+- Prioritizes Samsung news first, followed by major flagships and mid-rangers.
 - Extracts high-resolution official device renders/photos and serves them via wsrv.nl proxy.
 - Formats rich articles with specs matrix, expected/official pricing in EGP, SAR, AED, USD, and pros/cons.
 - Internal cross-linking to Egyptaway's live phone price comparison page (/p/phones-prices-egypt.html).
-- Instant publishing with clean permalinks + IndexNow notification.
+- Instant live publishing with clean permalinks + IndexNow notification.
 
-Runs via GitHub Actions (.github/workflows/phone_news.yml) every 30 minutes.
+Runs via GitHub Actions (.github/workflows/phone_news.yml) every 30 minutes, or manually on demand.
 Usage:
-  python phone_news.py           # live publish
-  DRY_RUN=1 python phone_news.py # dry run
+  python phone_news.py                     # default 2 posts (Samsung first)
+  python phone_news.py --count 3           # publish 3 phone stories
+  python phone_news.py --brand "سامسونج"   # specific brand
+  python phone_news.py --dry               # dry run
 """
-import datetime, difflib, html, json, os, random, re, sys, time, urllib.parse
+import argparse, datetime, difflib, html, io, json, os, random, re, sys, time, urllib.parse
 from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 import football as f
 
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+
 CAIRO = ZoneInfo("Africa/Cairo")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
 INDEXNOW_KEY = "e3b3e2ee8cd741f59f1b91e73c0f9090"
 STATE_FILE = "phone_news_posted.json"
-DAY_CAP = int(os.environ.get("PHONE_NEWS_DAY_CAP", "25"))
+DAY_CAP = int(os.environ.get("PHONE_NEWS_DAY_CAP", "50"))
 
 # Live feeds for phone launches & leaks
 FEEDS = [
-    ("https://www.gsmarena.com/rss-news-reviews.php3", "GSMArena"),
     ("https://www.sammobile.com/feed/", "SamMobile"),
+    ("https://www.gsmarena.com/rss-news-reviews.php3", "GSMArena"),
     ("https://www.gizmochina.com/feed/", "Gizmochina"),
 ]
 
 BRANDS = [
-    (r"galaxy|samsung", "سامسونج", "Samsung"),
-    (r"iphone|apple|ipad", "ابل", "Apple"),
-    (r"redmi|poco|xiaomi", "شاومي", "Xiaomi"),
-    (r"realme", "ريلمي", "Realme"),
-    (r"oppo|find x|reno", "اوبو", "Oppo"),
-    (r"vivo|iqoo", "فيفو", "Vivo"),
-    (r"honor|magic", "هونر", "Honor"),
-    (r"pixel", "جوجل", "Google Pixel"),
-    (r"oneplus", "ون بلس", "OnePlus"),
-    (r"infinix", "انفنكس", "Infinix"),
-    (r"tecno", "تكنو", "Tecno"),
+    (r"galaxy|samsung", "سامسونج", "Samsung", 0),  # Priority 0: Samsung first
+    (r"iphone|apple|ipad", "ابل", "Apple", 1),
+    (r"redmi|poco|xiaomi", "شاومي", "Xiaomi", 2),
+    (r"realme", "ريلمي", "Realme", 3),
+    (r"oppo|find x|reno", "اوبو", "Oppo", 4),
+    (r"vivo|iqoo", "فيفو", "Vivo", 5),
+    (r"honor|magic", "هونر", "Honor", 6),
+    (r"pixel", "جوجل", "Google Pixel", 7),
+    (r"oneplus", "ون بلس", "OnePlus", 8),
+    (r"infinix", "انفنكس", "Infinix", 9),
+    (r"tecno", "تكنو", "Tecno", 10),
 ]
 
 PHONE_FALLBACKS = [
@@ -53,7 +58,7 @@ PHONE_FALLBACKS = [
 
 SKIP_TITLES = r"deal|deals|% off|sale|discount|best .* to buy|podcast|newsletter|poll results|weekly poll|counterpoint|idc report"
 
-PHONE_PROMPT = """أنت محرر ومراجع هواتف محترَف في موقع ايجبتاوى. اكتب خبر هاتف ذكي أصلي بالكامل بالعربي السلس والممتع عن الهاتف المذكور، بناءً على النص المصدر فقط.
+PHONE_PROMPT = """أنت محرر ومراجع هواتف محترف في موقع ايجبتاوى. اكتب خبر هاتف ذكي أصلي بالكامل بالعربي السلس والممتع عن الهاتف المذكور، بناءً على النص المصدر فقط.
 
 قواعد مهنية صارمة:
 - الحقيقة والمصداقية: لا تخترع أي مواصفة أو رقم أو تاريخ أو سعر غير مذكور في النص.
@@ -75,19 +80,18 @@ PHONE_PROMPT = """أنت محرر ومراجع هواتف محترَف في مو
 
 
 def detect_brand(title):
-    for rx, ar_name, en_name in BRANDS:
+    for rx, ar_name, en_name, prio in BRANDS:
         if re.search(rx, title, re.I):
-            return ar_name, en_name
-    return "هواتف ذكية", "Smartphone"
+            return ar_name, en_name, prio
+    return "هواتف ذكية", "Smartphone", 99
 
 
 def extract_highres_image(orig_img_url, soup=None):
     """Upgrades thumbnail images from GSMArena/SamMobile to high-res and proxies via wsrv.nl."""
-    if not orig_img_url:
-        if soup:
-            og = soup.find("meta", property="og:image") or soup.find("meta", attrs={"name": "twitter:image"})
-            if og and og.get("content"):
-                orig_img_url = og["content"].strip()
+    if not orig_img_url and soup:
+        og = soup.find("meta", property="og:image") or soup.find("meta", attrs={"name": "twitter:image"})
+        if og and og.get("content"):
+            orig_img_url = og["content"].strip()
     if not orig_img_url:
         return None
 
@@ -103,8 +107,6 @@ def fetch_article_text(url):
         if r.status_code != 200:
             return None, None
         soup = BeautifulSoup(r.text, "html.parser")
-        
-        # Extract main text
         box = soup.find("div", id="review-body") or soup.find("article") or soup.find("div", class_=re.compile(r"entry-content|post-content", re.I)) or soup
         paras = [p.get_text(" ", strip=True) for p in box.find_all("p") if len(p.get_text(" ", strip=True)) > 40]
         text = "\n".join(paras)
@@ -124,7 +126,6 @@ def ping_indexnow(urls):
         requests.post("https://api.indexnow.org/IndexNow", json=data, timeout=15)
     except Exception:
         pass
-
 
 
 def check_phone_news(art, src_text, orig_title, existing_titles, min_words=450):
@@ -154,12 +155,21 @@ def check_phone_news(art, src_text, orig_title, existing_titles, min_words=450):
             errs.append(f"تم ذكر اسم موقع محظور ({b}) في صلب الخبر")
     return errs
 
-def main():
-    dry = os.environ.get("DRY_RUN") == "1"
-    now = datetime.datetime.now(CAIRO)
 
+def main():
+    parser = argparse.ArgumentParser(description="Egyptaway Automated Phone News Engine")
+    parser.add_argument("--count", type=int, default=int(os.environ.get("COUNT", "2")), help="Number of phone news to publish")
+    parser.add_argument("--brand", type=str, default=os.environ.get("BRAND", ""), help="Filter by specific brand (e.g. سامسونج)")
+    parser.add_argument("--dry", action="store_true", help="Dry run without publishing to Blogger")
+    args = parser.parse_args()
+
+    dry = args.dry or os.environ.get("DRY_RUN") in ("1", "true", "True")
+    target_count = max(1, args.count)
+    brand_filter = args.brand.strip()
+
+    now = datetime.datetime.now(CAIRO)
     today = now.date().isoformat()
-    print(f"[{now:%Y-%m-%d %H:%M}] Starting Phone News Live Engine...")
+    print(f"[{now:%Y-%m-%d %H:%M}] Starting Phone News Engine (Target: {target_count} post(s), Brand filter: '{brand_filter or 'All - Samsung first'}')...")
 
     state = {"done": []}
     if os.path.exists(STATE_FILE):
@@ -173,7 +183,7 @@ def main():
 
     # Daily cap check
     today_posts = [d for d in state.get("done", []) if d.get("at", "").startswith(today) and d.get("ok")]
-    if len(today_posts) >= DAY_CAP:
+    if len(today_posts) >= DAY_CAP and not dry:
         print(f"Daily phone news cap ({DAY_CAP}) reached. Exiting.")
         return
 
@@ -186,7 +196,7 @@ def main():
         try:
             resp = requests.get(feed_url, headers=UA, timeout=20)
             soup = BeautifulSoup(resp.content, "xml")
-            items = soup.find_all("item")[:20]
+            items = soup.find_all("item")[:25]
             for it in items:
                 title = it.find("title").text.strip() if it.find("title") else ""
                 link = it.find("link").text.strip() if it.find("link") else ""
@@ -196,12 +206,13 @@ def main():
                 if re.search(SKIP_TITLES, title, re.I):
                     continue
 
-                # Must match at least one phone brand
-                brand_ar, brand_en = detect_brand(title)
+                brand_ar, brand_en, priority = detect_brand(title)
                 if brand_en == "Smartphone":
                     continue
 
-                # Extract thumbnail from description or enclosure
+                if brand_filter and (brand_filter.lower() not in brand_en.lower() and brand_filter not in brand_ar):
+                    continue
+
                 img_url = None
                 img_m = re.search(r'src=["\']([^"\']+\.(?:jpg|jpeg|png|webp))["\']', desc, re.I)
                 if img_m:
@@ -215,38 +226,46 @@ def main():
                     "img": img_url,
                     "src": feed_name,
                     "brand_ar": brand_ar,
-                    "brand_en": brand_en
+                    "brand_en": brand_en,
+                    "priority": priority
                 })
         except Exception as e:
             print(f"Feed {feed_name} failed:", e)
 
-    print(f"Found {len(candidates)} fresh phone stories.")
+    # Sort candidates: Samsung (priority 0) first, then Apple (1), Xiaomi (2), etc.
+    candidates.sort(key=lambda c: (c["priority"], c["title"]))
+    print(f"Found {len(candidates)} fresh matching phone stories.")
     if not candidates:
+        print("No new phone stories found right now.")
+        with open(STATE_FILE, "w", encoding="utf-8") as f_st:
+            json.dump(state, f_st, ensure_ascii=False, indent=2)
         return
 
     published_urls = []
-    for cand in candidates[:3]:
-        if len(published_urls) >= 1:  # 1 phone story per scheduled run to keep pacing smooth
+    for cand in candidates:
+        if len(published_urls) >= target_count:
             break
 
-        print(f"Processing: {cand['title'][:60]} ({cand['brand_en']})...")
+        print(f"\nProcessing [{cand['brand_en']}]: {cand['title'][:65]}...")
         src_text, soup = fetch_article_text(cand["link"])
         if not src_text or len(src_text) < 300:
-            print("  Article body too short. Skipping.")
+            print("  Article body too short (<300 chars). Skipping.")
             continue
 
         real_img = extract_highres_image(cand["img"], soup)
+        if not real_img:
+            real_img = random.choice(PHONE_FALLBACKS)
         print(f"  Real Device Image: {real_img is not None}")
 
         if dry and not f.secret("GEMINI_API_KEY"):
-            print("  [DRY RUN - No Gemini Key] Simulating phone news draft...")
+            print("  [DRY RUN - Local] Simulating phone news draft...")
             art = {
-                "title": f"مواصفات وسعر هاتف {cand['brand_ar']} الجديد 2026",
-                "slug": "new-phone-specs-price-2026",
-                "desc": f"تعرف على مواصفات وسعر هاتف {cand['brand_ar']} الجديد وأبرز مميزاته وعيوبه.",
+                "title": f"مواصفات وسعر هاتف {cand['brand_ar']} الجديد 2026 ومميزاته",
+                "slug": f"new-{cand['brand_en'].lower()}-phone-specs-price-2026",
+                "desc": f"تعرف على مواصفات وسعر هاتف {cand['brand_ar']} الجديد لعام 2026 مع جدول المواصفات الفنية بالكامل.",
                 "brand": cand["brand_ar"],
-                "body": f"<h2>مواصفات الهاتف الرسمية</h2><p>{src_text[:400]}</p>",
-                "faq": [{"q": "كم يبلغ سعر الهاتف المتوقع؟", "a": "السعر يبدأ من حوالي 350 دولاراً عالمياً."}]
+                "body": f"<h2>مواصفات الهاتف الرسمية</h2><p>{src_text[:600]}</p><h2>السعر وموعد التوفر</h2><p>من المنتظر إطلاقه قريباً.</p>",
+                "faq": [{"q": "كم يبلغ سعر الهاتف المتوقع؟", "a": "يبدأ السعر من حوالي 350 دولاراً عالمياً وفق المصادر المعلنة."}]
             }
             errs = []
         else:
@@ -254,19 +273,25 @@ def main():
             for attempt in range(2):
                 prompt = PHONE_PROMPT.format(orig_title=cand["title"], src_text=src_text[:5000]) + extra
                 art = f.gemini(prompt)
+                if f._DOWN:
+                    print("Gemini API unavailable; exiting gracefully.")
+                    break
                 errs = check_phone_news(art, src_text, cand["title"], all_known_titles, min_words=450)
                 if not errs:
                     break
                 print(f"  Retry needed ({len(errs)} issues): {errs}")
                 extra = "\nتنبيه: أعد كتابة الخبر وتصحيح الملاحظات بدقة مع تجاوز 450 كلمة: " + " | ".join(errs) + "\n"
 
+        if f._DOWN:
+            break
+
         if errs:
             print("  Fact check failed:", errs)
-            state["done"].append({"title": cand["title"], "orig_link": cand["link"], "at": now.isoformat(), "ok": False, "err": errs})
+            state.setdefault("done", []).append({"title": cand["title"], "orig_link": cand["link"], "at": now.isoformat(), "ok": False, "err": errs})
             continue
 
-        # Format Post HTML
-        lead_img_html = f'<img src="{real_img}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' if real_img else ""
+        # Format Post HTML with Discover-optimized 1200x675 image & price comparison widget
+        lead_img_html = f'<p><img src="{real_img}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager"></p>\n'
 
         # Price Hub Callout Card
         callout_html = '''<div style="background:#f8fafc;border:2px solid #cbd5e1;border-radius:14px;padding:16px;margin:20px 0;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,.04);">
@@ -285,16 +310,17 @@ def main():
         if dry:
             print(f"  [DRY RUN] Would publish: {art['title']}")
             print(f"  Slug: {art['slug']} | Real Image: {bool(real_img)}")
-            state["done"].append({"title": art["title"], "orig_link": cand["link"], "at": now.isoformat(), "ok": True, "dry": True})
+            state.setdefault("done", []).append({"title": art["title"], "orig_link": cand["link"], "at": now.isoformat(), "ok": True, "dry": True})
             published_urls.append("dry-run-phone")
-            break
+            done_links.add(cand["link"])
+            continue
 
         labels = ["هواتف", cand["brand_ar"]]
         try:
             res = f.publish_live(tok, art, full_html, labels)
             post_url = res.get("url", "")
             print(f"  >>> PUBLISHED PHONE NEWS: {post_url} | {art['title']}")
-            state["done"].append({
+            state.setdefault("done", []).append({
                 "title": art["title"],
                 "orig_link": cand["link"],
                 "post_url": post_url,
@@ -304,13 +330,13 @@ def main():
                 "ok": True
             })
             published_urls.append(post_url)
+            done_links.add(cand["link"])
             all_known_titles.append(art["title"])
-            break
         except Exception as ex:
-            print("  Publishing failed:", ex)
-            break
+            print(f"  Publishing candidate failed: {ex}. Continuing to next candidate...")
+            continue
 
-    state["done"] = state["done"][-300:]
+    state["done"] = state.get("done", [])[-300:]
     with open(STATE_FILE, "w", encoding="utf-8") as f_st:
         json.dump(state, f_st, ensure_ascii=False, indent=2)
 
@@ -319,7 +345,7 @@ def main():
         if valid_urls:
             ping_indexnow(valid_urls)
 
-    print(f"Phone news run completed. Published: {len(published_urls)} post(s).")
+    print(f"\nPhone news run completed. Published {len(published_urls)} of {target_count} requested story(ies).")
 
 
 if __name__ == "__main__":

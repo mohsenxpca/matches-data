@@ -906,7 +906,7 @@ def with_desc(html_out, art):
 def publish_live(tok, art, html_out, labels):
     """Publishes post LIVE immediately with clean slug URL and Arabic title (no scheduling delay)."""
     now = datetime.datetime.now(CAIRO)
-    d = api("POST", f"/blogs/{BLOG}/posts", tok, {"isDraft": "false"},
+    d = api("POST", f"/blogs/{BLOG}/posts", tok, {"isDraft": "true"},
             {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": with_desc(html_out, art), "labels": list(dict.fromkeys(labels))})
     api("POST", f"/blogs/{BLOG}/posts/{d['id']}/publish", tok, {"publishDate": now.isoformat()})
     api("PATCH", f"/blogs/{BLOG}/posts/{d['id']}", tok, None, {"title": art["title"]})
