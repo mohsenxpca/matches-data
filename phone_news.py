@@ -5,7 +5,7 @@ Features:
 - Prioritizes Samsung news first, followed by major flagships and mid-rangers.
 - Extracts high-resolution official device renders/photos and serves them via wsrv.nl proxy.
 - Formats rich articles with specs matrix, expected/official pricing in EGP, SAR, AED, USD, and pros/cons.
-- Internal cross-linking to Egyptaway's live phone price comparison page (/p/phones-prices-egypt.html).
+- Internal cross-linking to Egyptaway's live phone price comparison page (/p/mobile-prices-egypt.html).
 - Instant live publishing with clean permalinks + IndexNow notification.
 
 Runs via GitHub Actions (.github/workflows/phone_news.yml) every 30 minutes, or manually on demand.
@@ -307,7 +307,7 @@ def main():
         callout_html = '''<div style="background:#f8fafc;border:2px solid #cbd5e1;border-radius:14px;padding:16px;margin:20px 0;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,.04);">
   <div style="font-size:17px;font-weight:900;color:#0f172a;margin-bottom:6px;">📱 أسعار الموبايلات المحدثة أسبوعياً في مصر والدول العربية</div>
   <p style="font-size:14px;color:#475569;margin:0 0 12px;">لو عايز تقارن أسعار ومواصفات كل الهواتف المتوفرة بالسوق المصري والخليجي، ادخل على دليل الأسعار الشامل:</p>
-  <a href="https://www.egyptaway.com/p/phones-prices-egypt.html" style="background:#0f172a;color:#fff!important;text-decoration:none!important;font-weight:800;padding:10px 22px;border-radius:10px;font-size:14.5px;display:inline-block;">🔍 جدول أسعار الموبايلات 2026 في مصر</a>
+  <a href="https://www.egyptaway.com/p/mobile-prices-egypt.html" style="background:#0f172a;color:#fff!important;text-decoration:none!important;font-weight:800;padding:10px 18px;border-radius:10px;font-size:14px;display:inline-block;margin:4px;">🔍 جدول أسعار الموبايلات 2026</a><a href="https://www.egyptaway.com/p/best-phone-for-budget.html" style="background:#0d47a1;color:#fff!important;text-decoration:none!important;font-weight:800;padding:10px 18px;border-radius:10px;font-size:14px;display:inline-block;margin:4px;">🧭 أداة أحسن موبايل لميزانيتك</a>
 </div>'''
 
         faq_html = ""

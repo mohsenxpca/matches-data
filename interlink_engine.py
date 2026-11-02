@@ -68,12 +68,93 @@ SITES = {
                 "anchors": ["إمساكية شهر رمضان", "إمساكية رمضان في مصر", "إمساكية رمضان"],
                 "topic": "services"
             },
+            {
+                "url": "https://www.egyptaway.com/p/mobile-prices-egypt.html",
+                "anchors": ["أسعار الموبايلات في مصر", "أسعار الهواتف في مصر", "جدول أسعار الموبايلات", "أسعار الموبايلات اليوم"],
+                "topic": "tech"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/best-phone-for-budget.html",
+                "anchors": ["أفضل موبايل لميزانيتك", "أحسن موبايل في الفئة المتوسطة", "أفضل هاتف للشراء", "ترشيحات الهواتف"],
+                "topic": "tech"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/download-games.html",
+                "anchors": ["تحميل ألعاب موبايل وكمبيوتر", "تنزيل ألعاب رسمية", "تحميل ألعاب الأندرويد", "تحميل ألعاب"],
+                "topic": "games"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/pubg-uc-freefire-diamonds-prices.html",
+                "anchors": ["أسعار شدات ببجي", "شحن شدات ببجي", "شحن جواهر فري فاير", "أسعار جواهر فري فاير"],
+                "topic": "games"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/make-money-online-egypt.html",
+                "anchors": ["طرق الربح من الإنترنت", "الربح من الموبايل", "الربح من الإنترنت في مصر", "الربح فودافون كاش"],
+                "topic": "economy"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/ai-tools-arabic-guide.html",
+                "anchors": ["أدوات الذكاء الاصطناعي", "مواقع الذكاء الاصطناعي المجانية", "تطبيقات الذكاء الاصطناعي"],
+                "topic": "tech"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/instapay-fees-calculator.html",
+                "anchors": ["حاسبة رسوم إنستاباي", "رسوم تحويل إنستاباي", "تطبيق إنستاباي", "الحد الأقصى للتحويل في إنستاباي"],
+                "topic": "economy"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/is-it-down-egypt.html",
+                "anchors": ["صفحة رصد الأعطال", "رصد الأعطال في مصر", "عطل فودافون", "عطل إنستاباي"],
+                "topic": "services"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/bank-certificates-egypt.html",
+                "anchors": ["شهادات البنوك المصرية", "أعلى عائد شهادات ادخار", "شهادات البنك الأهلي وبنك مصر"],
+                "topic": "economy"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/fuel-prices-egypt.html",
+                "anchors": ["أسعار البنزين والسولار", "أسعار البنزين اليوم في مصر", "لجنة التسعير التلقائي للوقود"],
+                "topic": "economy"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/housing-egypt.html",
+                "anchors": ["شقق الإسكان الاجتماعي", "سكن لكل المصريين", "كراسة شروط الإسكان"],
+                "topic": "services"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/trains-egypt.html",
+                "anchors": ["مواعيد القطارات", "قطارات السكة الحديد", "حجز تذاكر القطارات"],
+                "topic": "services"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/salaries-egypt.html",
+                "anchors": ["مواعيد صرف المرتبات", "جدول صرف المرتبات", "تبكير صرف المرتبات"],
+                "topic": "economy"
+            },
+            {
+                "url": "https://www.egyptaway.com/p/exams-egypt.html",
+                "anchors": ["جداول الامتحانات", "نتائج الامتحانات", "موعد امتحانات نصف العام"],
+                "topic": "services"
+            }
         ]
     },
     "review": {
         "blog_id": "2997328666613207792",
         "domain": "www.review-mobile.com",
-        "hubs": []
+        "hubs": [
+            {
+                "url": "https://www.review-mobile.com/p/best-phone-for-budget.html",
+                "anchors": ["أفضل موبايل لميزانيتك", "أحسن موبايل في الفئة المتوسطة", "ترشيحات الهواتف حسب السعر", "أفضل هاتف للشراء"],
+                "topic": "tech"
+            },
+            {
+                "url": "https://www.review-mobile.com/p/mobile-reviews-hub.html",
+                "anchors": ["دليل مراجعات الموبايلات", "مقارنة مواصفات الهواتف", "مراجعات الهواتف الذكية"],
+                "topic": "tech"
+            }
+        ]
     }
 }
 

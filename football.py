@@ -896,11 +896,125 @@ def main():
     print(f"done: {made} news post(s), {made_prev} match preview(s)")
 
 
+ENTITY_HUBS = [
+    ("https://www.egyptaway.com/p/egyptian-league-table.html", ["جدول ترتيب الدوري المصري", "ترتيب الدوري المصري", "جدول الدوري المصري"]),
+    ("https://www.egyptaway.com/p/matches-today.html", ["جدول مباريات اليوم", "مواعيد مباريات اليوم", "مباريات اليوم"]),
+    ("https://www.egyptaway.com/p/gold-prices-egypt.html", ["أسعار الذهب اليوم في مصر", "سعر الذهب اليوم", "أسعار الذهب في مصر", "سعر جرام الذهب"]),
+    ("https://www.egyptaway.com/p/currency-prices-egypt.html", ["أسعار العملات في مصر", "سعر الدولار اليوم", "أسعار الدولار في البنوك"]),
+    ("https://www.egyptaway.com/p/prayer-times-egypt.html", ["مواقيت الصلاة في مصر", "مواقيت الصلاة اليوم", "مواعيد الصلاة"]),
+    ("https://www.egyptaway.com/p/weather-egypt.html", ["حالة الطقس في مصر", "درجات الحرارة المتوقعة", "حالة الطقس اليوم"]),
+    ("https://www.egyptaway.com/p/mobile-prices-egypt.html", ["أسعار الموبايلات في مصر", "أسعار الهواتف في مصر", "جدول أسعار الموبايلات"]),
+    ("https://www.egyptaway.com/p/best-phone-for-budget.html", ["أفضل موبايل لميزانيتك", "أحسن موبايل في الفئة المتوسطة", "ترشيحات الموبايلات"]),
+    ("https://www.egyptaway.com/p/download-games.html", ["تحميل ألعاب موبايل وكمبيوتر", "تنزيل ألعاب رسمية", "صفحة تحميل الألعاب"]),
+    ("https://www.egyptaway.com/p/pubg-uc-freefire-diamonds-prices.html", ["أسعار شدات ببجي", "شحن شدات ببجي", "شحن جواهر فري فاير"]),
+    ("https://www.egyptaway.com/p/make-money-online-egypt.html", ["طرق الربح من الإنترنت", "الربح من الموبايل", "الربح فودافون كاش"]),
+    ("https://www.egyptaway.com/p/ai-tools-arabic-guide.html", ["أدوات الذكاء الاصطناعي", "مواقع الذكاء الاصطناعي المجانية"]),
+    ("https://www.egyptaway.com/p/instapay-fees-calculator.html", ["حاسبة رسوم إنستاباي", "رسوم تحويل إنستاباي", "تطبيق إنستاباي"]),
+    ("https://www.egyptaway.com/p/is-it-down-egypt.html", ["صفحة رصد الأعطال", "رصد الأعطال في مصر"]),
+    ("https://www.egyptaway.com/p/bank-certificates-egypt.html", ["شهادات البنوك المصرية", "أعلى عائد شهادات ادخار"]),
+    ("https://www.egyptaway.com/p/fuel-prices-egypt.html", ["أسعار البنزين والسولار", "أسعار البنزين اليوم"]),
+    ("https://www.egyptaway.com/p/housing-egypt.html", ["شقق الإسكان الاجتماعي", "سكن لكل المصريين"]),
+    ("https://www.egyptaway.com/p/trains-egypt.html", ["مواعيد القطارات", "قطارات السكة الحديد"]),
+    ("https://www.egyptaway.com/p/salaries-egypt.html", ["مواعيد صرف المرتبات", "جدول صرف المرتبات"]),
+    ("https://www.egyptaway.com/p/exams-egypt.html", ["جداول الامتحانات", "نتائج الامتحانات"]),
+    ("https://www.egyptaway.com/p/official-holidays-egypt.html", ["الإجازات الرسمية في مصر", "مواعيد الإجازات الرسمية"]),
+]
+
+
+def _enrich_seo_html(html_out, art):
+    """Automatically injects Jump-to-Section IDs/TOC, Second-0 Entity Hub links, and JSON-LD Schema."""
+    if not html_out or not isinstance(art, dict):
+        return html_out
+    out = html_out
+
+    # 1. Second-0 Contextual Entity Hub Auto-Linker (up to 2 hub links inside <p> tags)
+    linked_count = 0
+    for hub_url, phrases in ENTITY_HUBS:
+        if linked_count >= 2:
+            break
+        if hub_url in out:
+            continue
+        for ph in phrases:
+            # Match phrase inside a <p> tag that does not already contain an <a> tag around it
+            pattern = re.compile(r"(<p[^>]*>(?:(?!</p>|<a).)*?)(" + re.escape(ph) + r")((?:(?!</p>).)*?</p>)", re.DOTALL)
+            if pattern.search(out):
+                out = pattern.sub(r'\1<a href="' + hub_url + r'">\2</a>\3', out, count=1)
+                linked_count += 1
+                break
+
+    # 2. Jump-to-Section IDs & Quick TOC Box (if >= 3 <h2> tags and no jump box yet)
+    if 'id="sec-1"' not in out and 'class="ea-jump"' not in out and 'class="rv-jump"' not in out:
+        headings = []
+        def _h2_repl(m):
+            idx = len(headings) + 1
+            inner = m.group(1)
+            clean_txt = re.sub(r"<[^>]+>", "", inner).strip()
+            headings.append((f"sec-{idx}", clean_txt))
+            return f'<h2 id="sec-{idx}">{inner}</h2>'
+        out = re.sub(r"<h2>(.*?)</h2>", _h2_repl, out, flags=re.DOTALL)
+        if len(headings) >= 3:
+            items = "".join(f'<li><a href="#{hid}" style="color:#1565c0;text-decoration:none;font-weight:600">{html.escape(htxt)}</a></li>' for hid, htxt in headings)
+            jump_box = (
+                '<details class="ea-jump" open style="background:#f8fafc;border:1px solid #dbe4ff;border-right:4px solid #0d47a1;border-radius:10px;padding:10px 14px;margin:14px 0">'
+                '<summary style="font-weight:800;cursor:pointer;color:#0d47a1">📌 عناصر الموضوع السريعة (اضغط للانتقال المباشر)</summary>'
+                f'<ol style="margin:8px 0 0;padding-right:20px;line-height:1.75">{items}</ol></details>'
+            )
+            first_h2 = out.find('<h2 id="sec-1">')
+            if first_h2 != -1:
+                out = out[:first_h2] + jump_box + out[first_h2:]
+
+    # 3. Full JSON-LD Schema (@graph: NewsArticle + Author E-E-A-T + FAQPage)
+    if "application/ld+json" not in out and art.get("title"):
+        imgs = re.findall(r'<img[^>]+src="([^"]+)"', out)
+        clean_imgs = [i.replace("&amp;", "&") for i in imgs[:3] if i.startswith("http")]
+        now_iso = datetime.datetime.now(CAIRO).replace(microsecond=0).isoformat()
+        is_rev = "rv-wrap" in out
+        art_node = {
+            "@type": "NewsArticle",
+            "headline": art.get("title", "")[:110],
+            "description": (art.get("desc") or art.get("title") or "").strip(),
+            "datePublished": now_iso,
+            "dateModified": now_iso,
+            "inLanguage": "ar",
+            "author": {
+                "@type": "Person",
+                "name": "محسن فاروق",
+                "jobTitle": "رئيس التحرير",
+                "url": "https://www.review-mobile.com" if is_rev else "https://www.egyptaway.com/p/editor-mohsen.html"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "رفيو موبايل" if is_rev else "ايجبتاوى",
+                "url": "https://www.review-mobile.com" if is_rev else "https://www.egyptaway.com"
+            }
+        }
+        if clean_imgs:
+            art_node["image"] = clean_imgs
+        graph = [art_node]
+        faqs = art.get("faq") or []
+        if not faqs:
+            raw_faqs = re.findall(r"<details[^>]*>\s*<summary[^>]*>(.*?)</summary>\s*<p[^>]*>(.*?)</p>\s*</details>", out, flags=re.DOTALL | re.I)
+            faqs = [{"q": re.sub(r"<[^>]+>", "", q).strip(), "a": re.sub(r"<[^>]+>", "", a).strip()} for q, a in raw_faqs]
+        valid_faqs = [q for q in faqs if isinstance(q, dict) and q.get("q") and q.get("a")]
+        if valid_faqs:
+            graph.append({
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": q["q"], "acceptedAnswer": {"@type": "Answer", "text": q["a"]}}
+                    for q in valid_faqs[:6]
+                ]
+            })
+        schema_str = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)
+        out += f'<script type="application/ld+json">{schema_str}</script>'
+    return out
+
+
 def with_desc(html_out, art):
     """Blogger's API can't set the post's search description, so we tuck it into the post as a hidden span; the
     theme block <!-- ea meta description --> copies it into the page's meta description."""
+    enriched = _enrich_seo_html(html_out, art)
     d = (art.get("desc") or "").strip()
-    return html_out + (f'<span class="ea-desc" hidden>{html.escape(d)}</span>' if d else "")
+    return enriched + (f'<span class="ea-desc" hidden>{html.escape(d)}</span>' if d else "")
 
 
 def publish_live(tok, art, html_out, labels):

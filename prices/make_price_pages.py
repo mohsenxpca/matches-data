@@ -182,7 +182,7 @@ def hub_html(phones, updated):
     src_html = ' · '.join(f'<a href="{u}" rel="nofollow noopener" target="_blank">{E(b)}</a>' for b, u in srcs)
     bopts = ''.join(f'<option>{E(b)}</option>' for b in brands)
     return f'''<div dir="rtl" class="pp">
-<p>أسعار الموبايلات في <strong>مصر والسعودية والإمارات</strong> النهارده من المتاجر الكبيرة، محدثة بتاريخ {ar_date(updated)}. اختار الماركة والعملة والميزانية، وادخل على صفحة أي موبايل تشوف سعر كل نسخة بالجنيه والريال والدرهم والتقسيط الشهري والمواصفات.</p>
+<p>أسعار الموبايلات في <strong>مصر والسعودية والإمارات</strong> النهارده من المتاجر الكبيرة، محدثة بتاريخ {ar_date(updated)}. اختار الماركة والعملة والميزانية، وادخل على صفحة أي موبايل تشوف سعر كل نسخة بالجنيه والريال والدرهم والتقسيط الشهري والمواصفات. ولو محتار تشترى إيه، جرّب <a href="https://www.egyptaway.com/p/best-phone-for-budget.html"><strong>أداة اختيار أحسن موبايل لميزانيتك 2026</strong></a>.</p>
 <figure style="text-align:center;margin:16px 0"><img src="{HUB_IMG}" alt="أسعار الموبايلات في مصر والسعودية والإمارات اليوم محدثة يوميًا" width="1200" height="675" style="max-width:100%;height:auto"/></figure>
 <div class="pp-tool">
 <p><label>ابحث: <input id="hb-q" type="search" placeholder="مثلًا A57 أو ريدمي أو iPhone"/></label></p>
@@ -192,7 +192,7 @@ def hub_html(phones, updated):
 <label>الترتيب: <select id="hb-s"><option value="a">الأرخص الأول</option><option value="d">الأغلى الأول</option></select></label></p>
 <div class="pp-scroll"><table class="pp-t"><thead><tr><th>الموبايل</th><th>الماركة</th><th>🇪🇬 مصر (جنيه)</th><th>🇸🇦 السعودية (ريال)</th><th>🇦🇪 الإمارات (درهم)</th></tr></thead><tbody id="hb-t"></tbody></table></div>
 <p class="pp-note" id="hb-c"></p>
-<p class="pp-note">الأسعار "يبدأ من" لأرخص نسخة في المتاجر لشهر أكتوبر 2026، حسب قوائم Phones7: {src_html}. الموبايلات اللي عليها رابط ليها صفحة كاملة عندنا بسعر كل نسخة في مصر والسعودية والإمارات والتقسيط.</p>
+<p class="pp-note">الأسعار "يبدأ من" لأرخص نسخة في المتاجر لشهر {MONTHS[int(updated.split("-")[1]) - 1]} {updated.split("-")[0]}، حسب قوائم Phones7: {src_html}. الموبايلات اللي عليها رابط ليها صفحة كاملة عندنا بسعر كل نسخة في مصر والسعودية والإمارات والتقسيط.</p>
 </div>
 <h2>إزاي تستخدم صفحة أسعار الموبايلات في مصر والخليج؟</h2>
 <p>كل موبايل له صفحة مستقلة فيها متوسط وأقل سعر في مصر بالجنيه المصري، والسعر في السعودية بالريال السعودي، والسعر في الإمارات بالدرهم الإماراتي، مع حاسبة تقسيط شهري (تشمل تقسيط البنوك في مصر أو تابي وتمارا في السعودية والإمارات)، ومواصفات ومميزات وعيوب الهاتف.</p>
