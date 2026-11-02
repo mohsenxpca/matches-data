@@ -28,11 +28,16 @@ jobs:
           cache-dependency-path: .github/requirements.txt
       - run: pip install -r .github/requirements.txt
       - run: python scrape.py 1 0
+      - run: python -u team_push.py   # إشعار قبل ماتش الفريق المفضل وبعده (للي معلّمين الفريق بس)
+        continue-on-error: true
+        env:
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
       - name: Commit data.json
         run: |
           git config user.name "matches-bot"
           git config user.email "matches-bot@users.noreply.github.com"
           git add data.json
+          [ -f team_push_state.json ] && git add team_push_state.json
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "live $(TZ=Africa/Cairo date +%F_%H:%M)"
           for i in 1 2 3 4 5; do
