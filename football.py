@@ -675,7 +675,26 @@ def team_images(art, rows, teams):
     return []
 
 
-def build_html(art, rows, img, related, team_imgs=(), real_img_url=None):
+def live_box(m):
+    """Score box for a match article: kick-off countdown, then the live score (data.json is refreshed every 5 minutes
+    by live.yml), then the final score. Score only, no stream links."""
+    key = json.dumps({"d": m["d"], "t": m["t"], "h": m["h"], "a": m["a"]}, ensure_ascii=False)
+    return ('<div class="fbn-live" style="border:2px solid #f59e0b;border-radius:14px;padding:12px;margin:12px 0;text-align:center;background:#fff7ed">'
+            f'<b>{html.escape(m["h"])} × {html.escape(m["a"])}</b><div class="fbn-live-s" style="font-size:20px;font-weight:800;color:#c2410c;margin-top:6px">'
+            f'الماتش {html.escape(m["d"][5:].replace("-", "/"))} الساعة {html.escape(m["t"])} بتوقيت القاهرة</div>'
+            '<small style="color:#6b7280">النتيجة بتتحدث هنا لوحدها وقت الماتش</small></div>'
+            "<script>(function(){var M=" + key + ",b=document.currentScript.previousElementSibling.querySelector('.fbn-live-s');"
+            "function cairo(){return new Date(new Date().toLocaleString('en-US',{timeZone:'Africa/Cairo'}))}"
+            "function show(x){var k=new Date(M.d+'T'+M.t+':00'),n=cairo(),m=(n-k)/60000,s=x&&x.s?x.s.split('-'):null;"
+            "if(m<0){var h=Math.floor(-m/60),mm=Math.floor(-m%60);b.textContent='الماتش يبدأ بعد '+(h>=48?Math.floor(h/24)+' يوم':(h?h+' ساعة و':'')+mm+' دقيقة')+(x&&x.c&&x.c!='لم تُعلن'?' · على '+x.c:'')}"
+            "else if(m<140){b.textContent=s?'النتيجة دلوقتي: '+M.h+' '+s[0]+' - '+s[1]+' '+M.a:'الماتش شغال دلوقتي'}"
+            "else if(s){b.textContent='النتيجة النهائية: '+M.h+' '+s[0]+' - '+s[1]+' '+M.a}}"
+            "function load(){fetch('https://raw.githubusercontent.com/mohsenxpca/matches-data/main/data.json').then(function(r){return r.json()})"
+            ".then(function(d){show((d.matches||[]).filter(function(x){return x.d==M.d&&x.h==M.h&&x.a==M.a})[0])}).catch(function(){show(null)})}"
+            "load();setInterval(load,120000);})();</script>")
+
+
+def build_html(art, rows, img, related, team_imgs=(), real_img_url=None, live=None):
     e = html.escape
     if real_img_url:
         first = f'<img src="{real_img_url}" alt="{e(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
@@ -705,6 +724,9 @@ def build_html(art, rows, img, related, team_imgs=(), real_img_url=None):
              ".fbn-t th{background:#fff7ed}.fbn-btn{border:0;border-radius:999px;padding:7px 16px;margin:6px 0;font:inherit;font-weight:700;color:#fff;"
              "background:linear-gradient(135deg,#f59e0b,#ea580c);cursor:pointer}</style>")
     body = art["body"]
+    if live:  # after the first paragraph, so the homepage snippet still comes from the article text
+        i = body.find("</p>")
+        body = body[:i + 4] + live_box(live) + body[i + 4:] if i >= 0 else live_box(live) + body
     # second image after the second h2, lazy: the next-match card, or a generic photo when the story has no team
     if len(team_imgs) > 1:
         second = f'<img src="{team_imgs[1][0]}" alt="{e(team_imgs[1][1])}" width="1200" height="675" loading="lazy" style="width:100%;height:auto;border-radius:12px">'
@@ -928,7 +950,7 @@ def make_previews(previews, data, existing, state, tok, times, today):
             lead_img_url = CDN + p
         else:
             lead_img_url = bg_url
-        html_out = build_html(art, rows, random.choice(IMAGES), None, (), real_img_url=lead_img_url)
+        html_out = build_html(art, rows, random.choice(IMAGES), None, (), real_img_url=lead_img_url, live=m)
         labels = ["رياضة", "أخبار الكورة", "مواعيد المباريات"] + (["الدوري المصري"] if m["l"] == "الدوري المصري" else [])
         if DRY:
             os.makedirs("out", exist_ok=True)
