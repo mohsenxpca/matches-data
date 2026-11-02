@@ -562,6 +562,12 @@
    "at": "2026-11-02",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "إنترنت",
+   "at": "2026-11-02",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
