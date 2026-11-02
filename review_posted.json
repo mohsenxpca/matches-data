@@ -1334,6 +1334,13 @@
    "at": "2026-11-02",
    "ok": false,
    "reason": "name 'ea_phone_titles' is not defined"
+  },
+  {
+   "title": "Motorola Signature 27 flexes muscle on Geekbench ahead of November 5 launch - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1ZG1ab1NHVjZMTi1tMG9vbW5UdzZOWVYyN2RpQTBZMEd5UXdsMkpmeVdUOHctQmd0YmZreTJyZ2dLUVVQMDNaeHZWb2hjTThBamVV?oc=5",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
   }
  ]
 }
