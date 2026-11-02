@@ -28,7 +28,7 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari
 REVIEW_BLOG = "2997328666613207792"
 REVIEW_HOST = "www.review-mobile.com"
 STATE_FILE = "review_posted.json"
-REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "25"))
+REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "3"))
 COUNT = int(os.environ.get("COUNT", "2"))
 CDN = "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/"
 IMG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "img")
@@ -68,6 +68,12 @@ BRANDS = [
     ("سوني", re.compile(r"sony|xperia|إكسبيريا", re.I)),
     ("ناثينج", re.compile(r"nothing\s*phone|ناثينج|cmf", re.I)),
 ]
+
+
+HALLUCINATED_OR_FAKE_EXCLUSIONS = re.compile(
+    r"\b(s27|s28|s29|s30|z fold9|z fold10|android\s*(?:1[7-9]|[2-9]\d)|ios\s*(?:2[2-9]|[3-9]\d)|one\s*ui\s*(?:9|\d{2})|x500|x600|honor\s*(?:600|700|x80)|signature\s*27|iphone\s*duo|11000\s*mah|12000\s*mah|doorbell|projector|headphones?|earbuds?|smartwatch(?:es)?)\b",
+    re.I
+)
 
 NON_PHONE_EXCLUSIONS = re.compile(
     r"\b(watch(?:es)?|smartwatch(?:es)?|band\b|buds|earbuds|airpods|headphones?|speakers?|soundbars?|laptops?|macbooks?|ipads?|tablets?|pads?|tab\b|tvs?|television|vacuum|cleaners?|cars?|ev\b|auto\b|ring\b|projectors?|doorbells?|drones?|refrigerators?|washers?|washing|shoes?)\b",
@@ -423,7 +429,7 @@ def fetch_phone_candidates():
             for it in soup.find_all("item")[:20]:
                 title = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title):
+                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title):
                     continue
                 if PHONE_TOPICS_REGEX.search(title):
                     seen.add(link)
@@ -439,7 +445,7 @@ def fetch_phone_candidates():
             for it in soup.find_all("item")[:20]:
                 title = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title):
+                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title):
                     continue
                 if PHONE_TOPICS_REGEX.search(title):
                     seen.add(link)
@@ -455,7 +461,7 @@ def fetch_phone_candidates():
             for it in soup.find_all("item")[:15]:
                 title = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title):
+                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title):
                     continue
                 if re.search(r"galaxy|s25|s26|s27|a56|a36|z fold|z flip|one ui|snapdragon|exynos|phone", title, re.I):
                     seen.add(link)
@@ -471,7 +477,7 @@ def fetch_phone_candidates():
             for it in soup.find_all("item")[:15]:
                 title = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title):
+                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title):
                     continue
                 if PHONE_TOPICS_REGEX.search(title):
                     seen.add(link)
@@ -509,7 +515,7 @@ def fetch_phone_candidates():
                 for it in root.findall(".//item")[:15]:
                     title = (it.find("title").text or "").strip()
                     link = (it.find("link").text or "").strip()
-                    if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title):
+                    if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title):
                         continue
                     if PHONE_TOPICS_REGEX.search(title):
                         seen.add(link)
@@ -669,26 +675,10 @@ def check_content(art, cand_title, existing_titles, ea_phone_titles=None, kind="
         title = title[:67].rsplit(" ", 1)[0]
     art["title"] = title
 
-    # 4. Auto-expand word count if deficit
-    min_words = 900 if kind == "review" else 750
+    # 4. Check word count strictly without repetitive boilerplate
+    min_words = 850 if kind == "review" else 700
     body_text = BeautifulSoup(art.get("body", ""), "html.parser").get_text(" ")
     words = len(body_text.split())
-    if words < min_words:
-        brand_label = html.escape(art.get("brand", "الهواتف الذكية"))
-        if kind == "review":
-            art["body"] += f'''
-<h2>تحليل إضافي وتوقعات الأداء للمستخدم</h2>
-<p>بالنظر إلى مواصفات {html.escape(cand_title)}، يبرز الهاتف كخيار استراتيجي من شركة {brand_label} يستهدف تقديم تجربة متوازنة تجمع بين كفاءة استهلاك الطاقة والأداء القوي في المهام المتعددة والتصوير اليومي والتطبيقات المتقدمة.</p>
-<p>كما تساهم الواجهة المحدثة ودعم التحديثات الأمنية المنتظمة في تعزيز القيمة الاستثمارية للهاتف على المدى الطويل، مما يجعله منافساً جديراً بالمتابعة في فئته السعرية ضمن اختيارات عام 2026.</p>
-'''
-        else:
-            art["body"] += f'''
-<h2>الأثر المتوقع على المنافسة وسوق الهواتف الذكية</h2>
-<p>يمثل هذا التطور خطوة هامة في مسار شركة {brand_label} لمواكبة التنافسية المحتدمة في قطاع الهواتف الذكية، حيث بات المستخدمون يبحثون عن حلول متكاملة تجمع بين قوة العتاد وسرعة الاستجابة وكفاءة استهلاك البطارية ودعم تقنيات الذكاء الاصطناعي.</p>
-<p>ومن المتوقع أن يدفع هذا الإعلان الشركات المنافسة إلى تسريع وتيرة ابتكاراتها في مجالات المعالجة والذكاء الاصطناعي وتقنيات الشحن لتقديم بدائل قوية للمستهلكين خلال الأشهر المقبلة.</p>
-'''
-        body_text = BeautifulSoup(art.get("body", ""), "html.parser").get_text(" ")
-        words = len(body_text.split())
 
     errs = []
     if words < min_words:
@@ -706,6 +696,9 @@ def check_content(art, cand_title, existing_titles, ea_phone_titles=None, kind="
 
     if "<h2>" not in art.get("body", ""):
         errs.append("المقال يجب أن يحتوي على عناوين فرعية <h2>")
+
+    if HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(full_text):
+        errs.append("المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)")
 
     return errs
 

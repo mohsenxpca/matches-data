@@ -6,7 +6,7 @@ on:
       count:
         description: "عدد مقالات الهواتف المطلوب نشرها على موقع رفيو"
         required: false
-        default: "2"
+        default: "1"
       phone_model:
         description: "اسم الهاتف أو موضوع الخبر اختيارياً (اتركه فارغاً للرصد التلقائي لأحدث الهواتف والأخبار)"
         required: false
@@ -20,7 +20,7 @@ on:
         required: false
         default: "0"
   schedule:
-    - cron: "*/30 * * * *"  # كل نص ساعة على مدار الـ 24 ساعة بدون توقف
+    - cron: "0 8,16 * * *"  # مرتين يومياً فقط بتوقيت القاهرة (10:00 صباحاً و 6:00 مساءً) لحماية الموقع وضمان جودة أدسنس
 
 permissions:
   contents: write
