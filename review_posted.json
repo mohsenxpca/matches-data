@@ -1639,6 +1639,15 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Motorola Signature 27 stars in hands-on promo video ahead of launch",
+   "url": "https://www.gsmarena.com/motorola_signature_27_stars_in_handson_promo_video_ahead_of_launch-news-75315.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (206 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
