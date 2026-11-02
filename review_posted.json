@@ -1785,6 +1785,33 @@
    "ok": true,
    "kind": "news",
    "brand": "هواتف ذكية"
+  },
+  {
+   "title": "Change of plans? Samsung's Intelligent Eyewear sees December launch rumored - Android Central",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMVhtclR2UHppd2gwSUpDWVRjNTQ2T2VsRGR5SWl1ZXpqSnNQUk5qVUJQNmlnU3k4a0J3R0wzQXJvX0ktU3h1cXNiZ3JkTklCRmJpM0c0SVhuT0tYU0hYY2VFM3piNkFvUE1fcnZIVWp1R1ktWmUzRDhETW1JT0ZTNWoxSXROWjlYOFZubkEyTklwbE8yN2RVN29VQ0hVRW5UZ0wxWEs1V0JmSnYwQ1E?oc=5",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (705 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "حقيقة تسريب iPhone Duo 2: هل الصور مجرد خدعة ذكاء اصطناعي؟",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb3VXTjBqR2M5SDJUYzBaRDZBcmE1enVrM3lXVGk5aWhtUm53OF94aEJManQ4b1Ribnc0dm5zLWpSRmZWa2VmWldmZzB1Y3cxRUFxNVBKc3cxQWxTZkFJM1JHeGs2cjE1b1dlWmkwb3poeFR1a19JUXA0dUxBU3BFVENSbUJNSG9VTTZmTGZtNTBpV3BiTmxsSE5NVldPV2FJMVhXR1dTMV_SAa4BQVVfeXFMUEFGYUhIekx5Z3UyZ1IzdlRPSDc4SG4tcVV4aWV3T3hWZEg5a1lFOUtBNUExOGlyOG9rY29uaTAxTXFZbFpUai15d1c1dk1aNE1oNFpuM1lTbzlCRlZLUm9nN1QyVlRCWmlma3dxMDZiQnc3RzVqYUpmY1FjaS1HMzBzREJkaFp5Q2VFSnR3M3dqbEU4RERoWDJVbjlRVzJkTUZMUmVLcW1iRXA4MVJR?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/iphone-duo-2-cad-leak-debunked.html",
+   "at": "2026-11-03T01:13:34+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
+  },
+  {
+   "title": "تحديثات هامة لتطبيقات زووم ومايكروسوفت على هاتف iPhone Duo",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSUZqaEZGWENfX1FYLUp5WG5MSTAybXFxX2xDMFduektlM1FFU1RadkIxLXpta0dfUEZwVnRBbVlTSkZXTWdCai10OE5fOHQtRnFGU24zQmdWSHpSamFFNHc0Qm0zZ2lqaERmdDVRUnVBakNZTlhZRFNUQ0I0TnhTYVc2ckM?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/zoom-microsoft-apps-optimized-iphone-duo.html",
+   "at": "2026-11-03T01:15:10+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
