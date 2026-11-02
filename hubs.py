@@ -35,7 +35,7 @@ TOPICS = {
                 "must": r"نتيج[ةه] (امتحان|الامتحانات|الثانوية|الشهادة|الإعدادية|الاعدادية|الابتدائية|الدبلوم|الصف|الترم|التيرم|نصف العام|الجامعات|طلاب|تنسيق)",
                 "focus": "مواعيد إعلان نتايج الامتحانات القادمة أو اللي ظهرت (الثانوية العامة والإعدادية والابتدائية والدبلومات والجامعات)، وإزاي تستعلم عن النتيجة برقم الجلوس من الموقع الرسمي، ومواعيد التظلمات لو مذكورة"},
 }
-LINKS = [("salaries", "مواعيد المرتبات", "/p/salaries-egypt.html"), ("exams", "جداول الامتحانات", "/p/exams-egypt.html"),
+LINKS = [("st", "مركز الطالب", "/p/student-hub.html"), ("salaries", "مواعيد المرتبات", "/p/salaries-egypt.html"), ("exams", "جداول الامتحانات", "/p/exams-egypt.html"),
          ("results", "نتائج الامتحانات", "/p/results-egypt.html"), ("tamween", "صرف التموين", "/p/tamween-egypt.html"),
          ("trains", "مواعيد القطارات", "/p/trains-egypt.html"), ("trains-alexandria", "قطارات الإسكندرية", "/p/trains-alexandria-egypt.html"),
          ("trains-aswan", "قطارات أسوان والصعيد", "/p/trains-aswan-egypt.html"), ("trains-mansoura", "قطارات المنصورة", "/p/trains-mansoura-egypt.html"),
@@ -195,6 +195,30 @@ def main():
             print(topic, "created", p.get("url"))
         f.api("PATCH", f"/blogs/{f.BLOG}/pages/{pid}", tok, None, {"content": body, "title": art["title"]})
         print(topic, "updated |", art["title"])
+        if topic in ("exams", "results"):
+            student_push(topic, art, pid)
+
+
+def student_push(topic, art, pid):
+    """Push to people who subscribed on /p/student-hub.html (tag 'student'), at most once every 3 days per page."""
+    key = os.environ.get("ONESIGNAL_API_KEY")
+    pages = json.load(open("services_pages.json", encoding="utf-8"))
+    h = pages.setdefault("hubs", {}).setdefault(topic, {"id": pid})
+    now = datetime.datetime.now(S.CAIRO)
+    last = h.get("push_at")
+    if not key or now.hour < 9 or now.hour >= 23 or (last and now - datetime.datetime.fromisoformat(last) < datetime.timedelta(days=3)):
+        return
+    url = h.get("url") or f"{S.SITE}/p/{topic}-egypt.html"
+    text = (art.get("headline") or art["title"])[:120]
+    msg = {"app_id": "c6f8318f-a6ce-4e8d-b9f0-f329f31e2a72", "target_channel": "push",
+           "filters": [{"field": "tag", "key": "student", "relation": "exists"}],
+           "headings": {"ar": "📚 " + TOPICS[topic]["name"], "en": TOPICS[topic]["name"]}, "contents": {"ar": text, "en": text},
+           "web_url": url + "?utm_source=push&utm_medium=student", "name": "student " + topic}
+    r = requests.post("https://api.onesignal.com/notifications?c=push", json=msg, timeout=30, headers={"Authorization": "Key " + key})
+    print("student push", topic, r.status_code, r.text[:150])
+    if r.status_code < 300:
+        h["push_at"] = now.isoformat(timespec="minutes")
+        json.dump(pages, open("services_pages.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
 if __name__ == "__main__":
