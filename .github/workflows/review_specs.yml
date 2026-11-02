@@ -1,0 +1,40 @@
+name: كتالوج مواصفات رفيو للمقارنة
+
+on:
+  schedule:
+    - cron: "20 3 * * *"   # كل يوم: أي مراجعة جديدة على رفيو بتدخل أداة المقارنة
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: review-specs
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python -u review_specs.py
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: Commit catalog
+        run: |
+          git config user.name "matches-bot"
+          git config user.email "matches-bot@users.noreply.github.com"
+          git add review_specs.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "review specs $(TZ=Africa/Cairo date +%F)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done
+          curl -s "https://purge.jsdelivr.net/gh/mohsenxpca/matches-data@main/review_specs.json" > /dev/null || true

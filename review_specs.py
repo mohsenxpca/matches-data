@@ -1,0 +1,136 @@
+"""Phone spec catalog for review-mobile.com's comparison tool (/p/compare-phones.html), built ONLY from Review's own posts
+(the spec tables in our reviews, which already cite official sources) + Egyptaway's Egypt prices (prices/phones.json).
+No third-party spec database is copied. A field missing in our review stays empty.
+Output: review_specs.json (served to the page through jsDelivr). Runs daily (review_specs.yml) so each new review joins.
+Usage: python review_specs.py            (Blogger API, needs BLOGGER_* secrets)
+       python review_specs.py raw.json   (from a local dump of posts)
+"""
+import html, json, os, re, sys
+import requests
+
+BLOG = "2997328666613207792"
+FIELDS = [  # key, Arabic label, keywords in our table labels
+    ("screen", "الشاشة", ["الشاشة", "حجم الشاشة", "الدقة"]),
+    ("chip", "المعالج", ["المعالج", "الشريحة"]),
+    ("mem", "الرامات والتخزين", ["الرام", "الذاكرة", "التخزين"]),
+    ("rear", "الكاميرا الخلفية", ["الكاميرا الخلفية", "الكاميرات الخلفية", "الكاميرا الرئيسية", "الكاميرات", "📷", "الكاميرا"]),
+    ("front", "الكاميرا الأمامية", ["الأمامية", "السيلفي"]),
+    ("battery", "البطارية والشحن", ["البطارية", "الشحن"]),
+    ("os", "نظام التشغيل", ["النظام", "نظام التشغيل"]),
+    ("body", "التصميم والوزن", ["الأبعاد", "الوزن", "التصميم", "الهيكل", "السمك", "السُمك"]),
+    ("protect", "المقاومة والحماية", ["المقاومة", "الحماية", "المتانة"]),
+    ("conn", "الاتصال", ["الاتصال", "الشبكة", "الاتصالات"]),
+    ("audio", "الصوت", ["الصوت"]),
+    ("colors", "الألوان", ["الألوان"]),
+    ("price", "السعر في المراجعة", ["السعر"]),
+]
+SKIP_TITLE = re.compile(r"أفضل|افضل|مقارنة|قائمة|دليل|أرخص|ارخص|ضد الماء|vs\b|top|\b(watch|fit|band|buds|earbuds)\b|ساعة|سماعة", re.I)
+EMOJI = re.compile(r"[^\w\s/()+\-.،,]", re.U)
+
+
+def secret(n):
+    return os.environ.get(n, "").strip().strip('"')
+
+
+def token():
+    r = requests.post("https://oauth2.googleapis.com/token", data={
+        "client_id": secret("BLOGGER_CLIENT_ID"), "client_secret": secret("BLOGGER_CLIENT_SECRET"),
+        "refresh_token": secret("BLOGGER_REFRESH_TOKEN"), "grant_type": "refresh_token"}, timeout=30)
+    r.raise_for_status()
+    return r.json()["access_token"]
+
+
+def posts():
+    if len(sys.argv) > 1:
+        return json.load(open(sys.argv[1], encoding="utf-8"))
+    tok, out, page = token(), [], None
+    while True:
+        p = {"maxResults": 50, "status": "live", "fields": "nextPageToken,items(title,url,labels,published,content)"}
+        if page:
+            p["pageToken"] = page
+        r = requests.get(f"https://www.googleapis.com/blogger/v3/blogs/{BLOG}/posts", params=p,
+                         headers={"Authorization": "Bearer " + tok}, timeout=60).json()
+        out += r.get("items", [])
+        page = r.get("nextPageToken")
+        if not page:
+            return out
+
+
+def text(s):
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s))).strip()
+
+
+def field_of(label):
+    lab = EMOJI.sub("", label).strip()
+    if any(k in lab for k in ("الأمامية", "السيلفي")):
+        return "front"
+    for key, _, kws in FIELDS:
+        if key != "front" and any(k.replace("📷", "") and k in lab for k in kws):
+            return key
+    if "📷" in label:
+        return "rear"
+    return None
+
+
+def model_name(title):
+    t = re.sub(r"^\s*(مراجعة|مواصفات|سعر)\s*(هاتف|موبايل)?\s*", "", title)
+    t = re.split(r"\s*[:|–—،]\s*|\s+-\s+", t)[0]
+    m = re.search(r"[A-Za-z][A-Za-z0-9+ ()'\-.]{2,40}", t)
+    if not m:
+        return None
+    name = re.sub(r"\s+(5G|4G)$", r" \1", m.group(0)).strip(" -.(")
+    if len(name) < 4 or not re.search(r"\d|[A-Z]{2}", name):
+        return None
+    return name
+
+
+def specs(content):
+    out = {}
+    for tbl in re.findall(r"<table.*?</table>", content, re.S)[:3]:
+        for tr in re.findall(r"<tr.*?</tr>", tbl, re.S):
+            cells = [text(c) for c in re.findall(r"<t[hd][^>]*>(.*?)</t[hd]>", tr, re.S)]
+            if len(cells) != 2 or not cells[1] or len(cells[0]) > 30:
+                continue
+            k = field_of(cells[0])
+            if k and cells[1] not in out.get(k, ""):
+                out[k] = (out[k] + " · " + cells[1]) if k in out else cells[1]
+    return out
+
+
+def egypt_prices():
+    p = os.path.join("prices", "phones.json")
+    if not os.path.exists(p):
+        return {}
+    d = json.load(open(p, encoding="utf-8"))
+    out = {}
+    for x in d.get("phones", []):
+        v = [r[1] for r in x.get("variants", []) if isinstance(r[1], (int, float)) and r[1] > 0]
+        if v:
+            out[re.sub(r"[^a-z0-9]", "", x["name"].lower().replace("samsung", ""))] = {"egp": min(v), "page": f"https://www.egyptaway.com/p/{x['slug']}.html"}
+    return out
+
+
+def main():
+    P, prices, cat, seen = posts(), egypt_prices(), [], set()
+    for p in sorted(P, key=lambda x: x.get("published", ""), reverse=True):
+        if SKIP_TITLE.search(p["title"]):
+            continue
+        name = model_name(p["title"])
+        sp = specs(p.get("content", ""))
+        if not name or len([k for k in sp if k != "price"]) < 4:
+            continue
+        key = re.sub(r"[^a-z0-9]", "", name.lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        slug = p["url"].rstrip("/").rsplit("/", 1)[-1].replace(".html", "")
+        pr = prices.get(key.replace("samsung", "")) or {}
+        cat.append({"id": slug, "n": name, "t": p["title"], "b": (p.get("labels") or [""])[0], "u": p["url"],
+                    "s": sp, "egp": pr.get("egp"), "pp": pr.get("page")})
+    data = {"fields": [[k, ar] for k, ar, _ in FIELDS], "phones": cat}
+    json.dump(data, open("review_specs.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    print("phones", len(cat))
+
+
+if __name__ == "__main__":
+    main()
