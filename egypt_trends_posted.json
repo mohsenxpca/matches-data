@@ -3166,6 +3166,25 @@
    "at": "2026-11-02T18:06:36.980320+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://bamsmackpow.com/avengers-doomsday-pre-sales-already-making-mcu-box-office-history",
+   "t": "Avengers: Doomsday pre-sales are already making MCU box office history",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 456 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.goal.com/en/news/a-long-awaited-breakthrough-at-al-ahly-before-the-asian-clash-with-al-sadd/blt7d5dbf21ae81fe1f",
+   "t": "A long-awaited breakthrough at Al-Ahly before the Asian clash with Al-Sadd",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الـ body 414 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
