@@ -1729,6 +1729,44 @@
    "ok": true,
    "kind": "news",
    "brand": "موتورولا"
+  },
+  {
+   "title": "OnePlus Turbo 7 key specs leak, and it's a big step up - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRERXZmFLVTF4RThIaGdMYlpoN1BuXzlnQkFiVmRqVmp0b0N0ZjZKOTdoZFFVZkFjek1nUW9pdUVqcnNqaEFiZjEzZlZCQXIwT25qZ0k2Um9JRWhlZlg5Yk94U1g2ZkVick1aaVdvN0JOYlNEZ2xYTi1DUlhWOE0xTE9ET2x0TXh3TlZacUtjMlBEUU3SAZMBQVVfeXFMUEREV2ZhS1UxeEU4SGhnTGJaaDdQbl85Z0JBYlZkalZqdG9DdGY2Sjk3aGRRVWZBY3pNZ1FvaXVFanJzamhBYmYxM2ZWQkFyME9uamdJNlJvSUVoZWZYOWJPeFNYNmZFYnJNWmlXbzdCTmJTRGdsWE4tQ1JYVjhNMUxPRE9sdE14d05WWnFLYzJQRFFN?oc=5",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (726 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)",
+    "العنوان مكرر أو قريب جداً من مقال منشور: تسريب مواصفات OnePlus Turbo 7: قفزة تقنية هائلة للأداء"
+   ]
+  },
+  {
+   "title": "Motorola Signature 27 Specs Revealed Ahead Of Launch And They Sound Impressive - Gizbot",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ3kwRFFmMHhNbkkxMGozTkVabjJzbm1kVVpnM1d3NkF0T0twNDRuWndIM3VmRU5FWnJDeVpSLUVjUGhxZGt5emNlT2N4Wi1TaGZ0NWNhYXhkdmdFVkN1MHZTTW9EaEdfdjhCWEh1aklsMWlkLTVhc0haa0hsblNaald3eDA0dVdncEVxUmxvT1llNHM1NkY1UDFZMHN0dXVFeFk5Y3lSSkwxSDJ4Mm9LY0N0ZXI5WUl4TDcyb1RzaFY4RHc?oc=5",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (715 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)",
+    "العنوان مكرر أو قريب جداً من مقال منشور: موتورولا Signature 27: وحش الأداء القادم بمواصفات ثورية"
+   ]
+  },
+  {
+   "title": "سامسونج Galaxy S27 Ultra: ثورة الكاميرا ومعالج عالمي موحد",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LY0ZTQXk1RzVtaDZ0T3l3WWMzeU9hWWQ0cW5xT1diZWdfZlRrYjlFOEY5QlQwWXVMRmJyWkd5MkdqVFE4SEtMU1B5cEpjU1FRcE9YUG5STWhySHJXOTBlY0pQNWRhc09ocmFYbXNBcWdncXM?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-s27-ultra-leaked-specs.html",
+   "at": "2026-11-03T00:16:43+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
+  },
+  {
+   "title": "هواتف Nothing تحصل رسمياً على تحديث Android 17 الجديد",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQWJfYlFrbnFFc0xIdFh2MDNPZ1FNZzZWd09nc0h3RWd2elBucFNhTHg0dHc4UGJPck1hSElveUFBMDRnUUdDZk5uY3VKQ3Fja2hPN3RrS243ajFMbS1JaVFOZ3NodVg3cHJrbFJ2ektQdThnQjc0bmFSWWZIdXBZSGtHVlA1djNteVJxVVh4d1BLMXVjTlVqTU1PM2tNZw?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/nothing-phones-receive-android-17-update.html",
+   "at": "2026-11-03T00:17:50+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "ناثينج"
   }
  ]
 }
