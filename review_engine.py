@@ -445,7 +445,7 @@ def check_review(art, src_text, cand_title, existing_titles, min_words=900):
     title = art.get("title", "").strip()
     if not title or len(title) > 75:
         errs.append(f"العنوان غير صالح أو أطول من 75 حرف ({len(title)} حرف)")
-    for ex in existing_titles:
+    for ex in (existing_titles + ea_phone_titles):
         if difflib.SequenceMatcher(None, f.norm(title), f.norm(ex)).ratio() >= 0.75:
             errs.append(f"العنوان مكرر أو قريب جداً من مقال منشور سابقاً: {ex}")
             break
@@ -488,6 +488,15 @@ def main():
 
     tok = None if dry else f.token()
     existing_titles = fetch_live_review_titles(tok) if tok else []
+
+    # Cross-site deduplication: avoid repeating anything published on Egyptaway phone news
+    ea_phone_titles = []
+    if os.path.exists("phone_news_posted.json"):
+        try:
+            ea_st = json.load(open("phone_news_posted.json", encoding="utf-8"))
+            ea_phone_titles = [d.get("title", "") for d in ea_st.get("done", []) if d.get("title")]
+        except Exception:
+            pass
 
     today_str = datetime.datetime.now(CAIRO).date().isoformat()
     today_posts = [d for d in state.get("done", []) if d.get("at", "").startswith(today_str) and d.get("ok")]

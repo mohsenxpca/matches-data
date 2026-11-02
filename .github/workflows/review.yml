@@ -1,16 +1,22 @@
-name: محرك مراجعات وأخبار الهواتف لموقع رفيو (نشر فوري بدون تكرار)
+name: مراجعات وأخبار الهواتف لموقع رفيو (نشر فوري معايير أدسنس)
 
 on:
   workflow_dispatch:
     inputs:
+      count:
+        description: "عدد مقالات الهواتف المطلوب نشرها على موقع رفيو"
+        required: false
+        default: "2"
       phone_model:
-        description: "اسم الهاتف أو الموضوع (اختياري: اتركه فارغاً للرصد التلقائي لأحدث الهواتف)"
+        description: "اسم الهاتف أو الموديل (اختياري: اتركه فارغاً للرصد التلقائي لأحدث الهواتف غير المنشورة)"
+        required: false
         default: ""
       dry_run:
-        description: "تجربة بدون نشر (1 = تجربة)"
+        description: "تجربة بدون نشر (1 = تجربة، 0 = نشر مباشر)"
+        required: false
         default: "0"
   schedule:
-    - cron: "*/30 * * * *"  # كل ساعة على مدار الـ 24 ساعة بدون توقف
+    - cron: "*/30 * * * *"  # كل نص ساعة على مدار الـ 24 ساعة بدون توقف
 
 permissions:
   contents: write
@@ -31,6 +37,7 @@ jobs:
       - run: pip install requests beautifulsoup4 lxml pillow
       - run: python -u review_engine.py
         env:
+          COUNT: ${{ github.event.inputs.count || '2' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
           PHONE_MODEL: ${{ github.event.inputs.phone_model || '' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

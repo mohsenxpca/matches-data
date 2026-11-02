@@ -181,6 +181,16 @@ def main():
     done_links = {d.get("orig_link") for d in state.get("done", []) if d.get("orig_link")}
     done_titles = [d.get("title", "") for d in state.get("done", [])]
 
+    # Cross-site deduplication: avoid repeating anything published on Review (review-mobile.com)
+    review_titles = []
+    if os.path.exists("review_posted.json"):
+        try:
+            rev_st = json.load(open("review_posted.json", encoding="utf-8"))
+            review_titles = [d.get("title", "") for d in rev_st.get("done", []) if d.get("title")]
+            done_links.update(d.get("url") for d in rev_st.get("done", []) if d.get("url"))
+        except Exception:
+            pass
+
     # Daily cap check
     today_posts = [d for d in state.get("done", []) if d.get("at", "").startswith(today) and d.get("ok")]
     if len(today_posts) >= DAY_CAP and not dry:
@@ -189,7 +199,7 @@ def main():
 
     tok = None if dry else f.token()
     existing_posts = [p["t"] for p in f.site_posts(tok)] if not dry else []
-    all_known_titles = existing_posts + done_titles
+    all_known_titles = existing_posts + done_titles + review_titles
 
     candidates = []
     for feed_url, feed_name in FEEDS:

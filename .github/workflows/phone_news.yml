@@ -1,10 +1,10 @@
-name: تغطية أخبار الهواتف الذكية والتسريبات لحظة بلحظة
+name: أخبار وتسريبات الهواتف الذكية على ايجبتاوى (نشر فوري)
 
 on:
   workflow_dispatch:
     inputs:
       count:
-        description: "عدد أخبار الهواتف المطلوب نشرها"
+        description: "عدد أخبار الهواتف المطلوب نشرها على موقع ايجبتاوى"
         required: false
         default: "2"
       brand:
