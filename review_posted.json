@@ -1612,6 +1612,33 @@
    "ok": true,
    "kind": "news",
    "brand": "هواتف ذكية"
+  },
+  {
+   "title": "استراتيجية سامسونج الجديدة: هل تخدعنا بهاتف Galaxy S27 Pro؟",
+   "url": "https://www.sammobile.com/opinion/galaxy-s27-pro-samsung-raises-prices-giving-an-illusion-of-choice/",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-s27-pro-price-strategy.html",
+   "at": "2026-11-02T20:42:49+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
+  },
+  {
+   "title": "vivo iQOO Neo12 - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xdjI0T3hVdnlJNTRUaVQzUzhldVM1TU92d1JIUl9nYWx0dE5uRXBFTlk5Mm0yNkdnUjg0RkhEbE5mOGdHSFM4NGNzYUJXd0YySUVRN3ZLOEtkQVpfUmtJbklWZUtjekRlS2swNjVR?oc=5",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (723 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "سامسونج Galaxy A57: وحش الفئة المتوسطة الجديد بمواصفات ثورية",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE92SkprNjhrdGFQaVJybXZpel9iVXlJUWo5cmRYUFc0OERWQWlvMEpLa25BeXRyblNHYURtV0FGRGxyV090RjF3S2tlNV9EZ0FFZDVWQ2VEeFFVSmNoZ1F5bnBvVng?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-a57-full-specs-analysis.html",
+   "at": "2026-11-02T20:48:05+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
