@@ -1426,6 +1426,65 @@
    "at": "2026-11-02T18:31:26+02:00",
    "ok": true,
    "brand": "اخرى"
+  },
+  {
+   "title": "Xiaomi Redmi M100 Pro",
+   "url": "https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Model code [m100] found in existing: مراجعة هاتف Redmi M100 Pro: المواصفات الكاملة، السعر، المميزات والعيوب"
+  },
+  {
+   "title": "OnePlus Ace 7 Pro",
+   "url": "https://www.gsmarena.com/oneplus_ace_7_pro_5g-15045.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "Xiaomi Poco X8s",
+   "url": "https://www.gsmarena.com/xiaomi_poco_x8s_5g-15038.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Model code [x8s] found in existing: مراجعة Poco X8s: أصغر هاتف بـ6330 مللي وشاشة 6.35 بوصة"
+  },
+  {
+   "title": "ZEED Z-Pro",
+   "url": "https://www.gsmarena.com/zeed_z_pro_5g-15055.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "العنوان مكرر أو قريب جداً من مقال منشور سابقاً: مراجعة هاتف Redmi M100 Pro: المواصفات الكاملة، السعر، المميزات والعيوب"
+   ]
+  },
+  {
+   "title": "vivo iQOO Neo12",
+   "url": "https://www.gsmarena.com/vivo_iqoo_neo12_5g_(china)-15041.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Model code [neo12] found in existing: مراجعة iQOO Neo12: بطارية 9000 مللي وشاشة 185Hz للألعاب"
+  },
+  {
+   "title": "Nokia 2360 Flip",
+   "url": "https://www.gsmarena.com/nokia_2360_flip-15048.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
+  },
+  {
+   "title": "OnePlus Ace 7",
+   "url": "https://www.gsmarena.com/oneplus_ace_7_5g-14672.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "مراجعة هاتف Honor 600s: التحليل الشامل للمواصفات، السعر، والمميزات",
+   "url": "https://www.gsmarena.com/honor_600s_5g-15047.php",
+   "post_url": "https://www.review-mobile.com/2026/11/honor-600s-review-specs-price.html",
+   "at": "2026-11-02T19:01:51+02:00",
+   "ok": true,
+   "brand": "هونر"
   }
  ]
 }
