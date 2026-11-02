@@ -539,6 +539,23 @@
    "at": "2026-11-02",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "السد ضد الأهلي",
+   "at": "2026-11-02",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "كاس اسيا",
+   "at": "2026-11-02",
+   "ok": false
+  },
+  {
+   "q": "سياحة",
+   "at": "2026-11-02",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
