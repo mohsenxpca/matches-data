@@ -1558,6 +1558,60 @@
    "ok": true,
    "kind": "news",
    "brand": "هواتف ذكية"
+  },
+  {
+   "title": "Google Pixel 11 Pro gets a $300 Amazon discount to $799",
+   "url": "https://www.androidauthority.com/google-pixel-11-pro-deal-amazon-3730752/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (641 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Garmin Vivoactive 5 falls to record-low price with $130 off",
+   "url": "https://www.androidauthority.com/deal-garmin-vivoactive-5-3730723/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (664 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Your PS5 can now run Android, Switch 2, and PC games, if you get your hands dirty",
+   "url": "https://www.androidauthority.com/ps5-run-android-switch-2-pc-games-3730686/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (744 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Save $300 on the Samsung Galaxy Z Fold 8 in Amazon price drop",
+   "url": "https://www.androidauthority.com/deal-galaxy-z-fold-8-3730703/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (709 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "تحديث One UI 9: إشادة واسعة من مستخدمي سامسونج وتخوفات من البطارية",
+   "url": "https://www.androidauthority.com/one-ui-9-update-first-impressions-poll-results-3730542/",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-one-ui-9-update-review.html",
+   "at": "2026-11-02T20:20:02+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
+  },
+  {
+   "title": "كيف تستعيد 15 جيجابايت من مساحة هاتفك بعد تحديث iOS 27؟",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaldfdW9sYzZIY1FsVmRHU2tDdmhxTnhfNDZDTWE1YjJBM2RUbjJ0ZzNGeEFMY1p2RFctODVBNXcxcGxxcjZkSUZrbkFjZDBwZURpeHk2b0dTZjFSdndJRk5jcmpSeWF3bURITFFneFFuaDRYbElPdXZaNnpvRDZlTUlWYUNBTEVUdXNTUDJ0NVdnYk5fNFo5TnVRUWthMldVRHBXbGxzMS1WcXNFWGtBSGg0djVKUmp0dE1oWFBkTWpsaXo4OG1WV0VQamctWG5G0gHMAUFVX3lxTFA5Z1BQbDFSazhnUW82X09zRnNPdmNHRnFoTDlKQTJFNTMyMkV2aXJuTWFBUDNpbW9KYTh1azhtYnNNS3d6NjgxaktWSTBuVUtpUXphb3BsVnZ5alEydUp6ZDh6bmg3NWN0eUNKZzNwWWtfcTBuNjFGckNLcXBJTU54c2VoZmtiOXZJVEZpR01HSG9COXlpRHFwcGJmTEk5ZVN2TzN6ZG40OGwwN3FjVF8wUE1mcUhrOThyakVfNmdpRXVERnRhdmVRWmFVNg?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/reclaim-storage-after-ios-27-update.html",
+   "at": "2026-11-02T20:21:49+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هواتف ذكية"
   }
  ]
 }
