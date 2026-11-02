@@ -12,6 +12,7 @@ Capabilities:
 import argparse, datetime, json, os, re, sys, time, urllib.parse, urllib.request
 from zoneinfo import ZoneInfo
 import xml.etree.ElementTree as ET
+sys.stdout.reconfigure(encoding="utf-8")
 
 CAIRO = ZoneInfo("Africa/Cairo")
 REPO = "mohsenxpca/matches-data"
@@ -19,19 +20,21 @@ STATE_FILE = "watchdog_state.json"
 
 SITES = {
     "egyptaway": {
-        "name": "ايجبتاوى",
+        "name": "????????",
         "domain": "www.egyptaway.com",
+        "blog_id": "8325646053257070334",
         "feed": "https://www.egyptaway.com/feeds/posts/default?max-results=3",
-        "day_max_gap_min": 120,    # 2 hours
-        "night_max_gap_min": 180,  # 3 hours
-        "recovery_workflows": ["phone_news.yml", "tech.yml", "service_news.yml"]
+        "day_max_gap_min": 50,     # ???? ?? 50 ????? ?????? ???? ???? ?? ???? ???? ???
+        "night_max_gap_min": 60,   # ???? ?? 60 ????? ?????
+        "recovery_workflows": ["egypt_trends.yml", "phone_news.yml", "service_news.yml"]
     },
     "review": {
-        "name": "رفيو موبايل",
+        "name": "???? ??????",
         "domain": "www.review-mobile.com",
+        "blog_id": "2997328666613207792",
         "feed": "https://www.review-mobile.com/feeds/posts/default?max-results=3",
-        "day_max_gap_min": 120,    # 2 hours
-        "night_max_gap_min": 180,  # 3 hours
+        "day_max_gap_min": 50,     # ???? ?? 50 ????? ??????
+        "night_max_gap_min": 60,   # ???? ?? 60 ????? ?????
         "recovery_workflows": ["review.yml"]
     }
 }
@@ -77,36 +80,59 @@ def gh_api(path, method="GET", body=None, token=None):
 
 
 def check_site_pulse(site_key):
-    """Fetches Atom feed and returns minutes since last post, post title, and post URL."""
+    """Reads latest live post via Blogger API (or Atom feed proxy fallback)."""
     cfg = SITES[site_key]
-    req = urllib.request.Request(cfg["feed"], headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
     now = datetime.datetime.now(CAIRO)
-    try:
-        with urllib.request.urlopen(req, timeout=12) as r:
-            root = ET.fromstring(r.read())
-            ns = {"atom": "http://www.w3.org/2005/Atom"}
-            entry = root.find("atom:entry", ns)
-            if entry is not None:
-                title = (entry.find("atom:title", ns).text or "").strip()
-                pub_str = entry.find("atom:published", ns).text
-                pub_dt = datetime.datetime.fromisoformat(pub_str).astimezone(CAIRO)
+
+    # 1. Try Blogger API first if tokens present (100% immune to Cloudflare bot blocks)
+    if os.environ.get("BLOGGER_REFRESH_TOKEN") and os.environ.get("BLOGGER_CLIENT_ID"):
+        try:
+            import football as f
+            tok = f.token()
+            res = f.api("GET", f"/blogs/{cfg['blog_id']}/posts", tok, {"status": "live", "maxResults": 1, "view": "ADMIN"})
+            items = res.get("items", [])
+            if items:
+                it = items[0]
+                pub_dt = datetime.datetime.fromisoformat(it["published"]).astimezone(CAIRO)
                 diff_sec = (now - pub_dt).total_seconds()
                 diff_min = max(0, int(diff_sec / 60))
-                link_el = entry.find("atom:link[@rel='alternate']", ns)
-                url = link_el.get("href", "") if link_el is not None else ""
                 return {
                     "ok": True,
                     "diff_min": diff_min,
-                    "last_title": title,
-                    "last_url": url,
+                    "last_title": it.get("title", "").strip(),
+                    "last_url": it.get("url", ""),
                     "last_published": pub_dt.strftime("%Y-%m-%d %H:%M:%S")
                 }
-    except Exception as e:
-        return {"ok": False, "error": str(e), "diff_min": 9999, "last_title": "", "last_url": "", "last_published": ""}
+        except Exception:
+            pass
 
-    return {"ok": False, "error": "No entries found", "diff_min": 9999, "last_title": "", "last_url": "", "last_published": ""}
+    # 2. Fallback to public feed (with translate.goog proxy option if blocked)
+    for feed_url in [cfg["feed"], f"https://{cfg['domain'].replace('.', '-')}.translate.goog/feeds/posts/default?max-results=3&_x_tr_sl=auto&_x_tr_tl=ar&_x_tr_hl=ar"]:
+        try:
+            req = urllib.request.Request(feed_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+            with urllib.request.urlopen(req, timeout=10) as r:
+                root = ET.fromstring(r.read())
+                ns = {"atom": "http://www.w3.org/2005/Atom"}
+                entry = root.find("atom:entry", ns)
+                if entry is not None:
+                    title = (entry.find("atom:title", ns).text or "").strip()
+                    pub_str = entry.find("atom:published", ns).text
+                    pub_dt = datetime.datetime.fromisoformat(pub_str).astimezone(CAIRO)
+                    diff_sec = (now - pub_dt).total_seconds()
+                    diff_min = max(0, int(diff_sec / 60))
+                    link_el = entry.find("atom:link[@rel='alternate']", ns)
+                    url = link_el.get("href", "") if link_el is not None else ""
+                    return {
+                        "ok": True,
+                        "diff_min": diff_min,
+                        "last_title": title,
+                        "last_url": url,
+                        "last_published": pub_dt.strftime("%Y-%m-%d %H:%M:%S")
+                    }
+        except Exception:
+            continue
 
-
+    return {"ok": False, "error": "Could not read pulse", "diff_min": 9999, "last_title": "", "last_url": "", "last_published": ""}
 def check_github_workflows():
     """Inspects recent workflow runs for failures or issues."""
     data = gh_api("/actions/runs?per_page=35")

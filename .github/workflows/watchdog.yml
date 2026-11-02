@@ -8,7 +8,7 @@ on:
         required: false
         default: "0"
   schedule:
-    - cron: "*/20 * * * *"  # فحص نبض النشر كل 20 دقيقة على مدار الـ 24 ساعة
+    - cron: "*/15 * * * *"  # فحص نبض النشر كل 15 دقيقة على مدار الـ 24 ساعة (أقصى فجوة 50 دقيقة)
 
 permissions:
   contents: write
@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
       - name: Run Watchdog Monitor
         run: |
           if [ "${{ github.event.inputs.kick }}" = "1" ]; then
@@ -39,6 +42,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_ADMIN_CHAT: ${{ secrets.TELEGRAM_ADMIN_CHAT }}
 
@@ -50,6 +56,7 @@ jobs:
           if [ -f watchdog_state.json ]; then
             git add watchdog_state.json || true
             git commit -m "Update watchdog state [skip ci]" || true
-            git pull --rebase --autostash origin main || true
-            git push origin main || true
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main && git push origin main && break || sleep 3
+            done
           fi
