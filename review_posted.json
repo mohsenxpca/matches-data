@@ -1218,6 +1218,16 @@
    "at": "2026-11-02",
    "ok": false,
    "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
+  },
+  {
+   "title": "OnePlus Turbo 6Vs debuts quietly with same specs as Turbo 6V",
+   "url": "https://www.gsmarena.com/oneplus_turbo_6vs_debuts_quietly_with_same_specs_as_turbo_6v-news-75306.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "العنوان غير صالح أو أطول من 75 حرف (81 حرف)",
+    "العنوان مكرر أو قريب جداً من مقال منشور سابقاً: مراجعة هاتف Redmi M100 Pro: المواصفات الكاملة، السعر، المميزات والعيوب"
+   ]
   }
  ]
 }
