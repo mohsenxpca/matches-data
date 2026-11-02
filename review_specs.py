@@ -45,7 +45,7 @@ def posts():
         return json.load(open(sys.argv[1], encoding="utf-8"))
     tok, out, page = token(), [], None
     while True:
-        p = {"maxResults": 50, "status": "live", "fields": "nextPageToken,items(title,url,labels,published,content)"}
+        p = {"maxResults": 50, "status": "live", "fields": "nextPageToken,items(id,title,url,labels,published,content)"}
         if page:
             p["pageToken"] = page
         r = requests.get(f"https://www.googleapis.com/blogger/v3/blogs/{BLOG}/posts", params=p,
@@ -126,7 +126,8 @@ def main():
         slug = p["url"].rstrip("/").rsplit("/", 1)[-1].replace(".html", "")
         pr = prices.get(key.replace("samsung", "")) or {}
         img = re.search(r'<img[^>]+src="([^"]+)"', p.get("content", ""))
-        cat.append({"id": slug, "n": name, "t": p["title"], "b": (p.get("labels") or [""])[0], "u": p["url"],
+        cat.append({"id": slug, "pid": p.get("id", ""), "big": thumb(img.group(1), 480) if img else "",
+                    "n": name, "t": p["title"], "b": (p.get("labels") or [""])[0], "u": p["url"],
                     "s": sp, "egp": pr.get("egp"), "pp": pr.get("page"), "img": thumb(img.group(1)) if img else "",
                     "d": p.get("published", "")[:10]})
     data = {"fields": [[k, ar] for k, ar, _ in FIELDS], "phones": cat}
