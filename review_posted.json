@@ -1119,6 +1119,23 @@
    "at": "2026-11-02",
    "ok": false,
    "reason": "Phrase [100 pro] found in existing: مراجعة هاتف Redmi M100 Pro: المواصفات الكاملة، السعر، المميزات والعيوب"
+  },
+  {
+   "title": "Lenovo Xiaoxin Pro 27 Vitality Edition launches with 13mm body and 120Hz QHD screen",
+   "url": "https://www.gizmochina.com/2026/11/02/lenovo-xiaoxin-pro-27-vitality-edition-launches-with-13mm-body-and-120hz-qhd-screen/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (726 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
+    "العنوان غير صالح أو أطول من 75 حرف (90 حرف)"
+   ]
+  },
+  {
+   "title": "Xiaomi revives old Redmi Note series phone with bright AMOLED display - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdVpKVHlVbTNibGZzUUVYZXRNM25ncEdmUjlvbGFpODJxb3EzRFlzbzhaUGd3REdTR0IxbTlmd3pKTzBxOVBwanhNd1Z0OVlKM0x2S1hPcmxMd0JzbjVHbTJZSS1rOE9xaXJXX0xsZWtCMlBfYURJc0MyVEtBcTVHQ010Y2NWbjktQlpsblZXSXppYTJ4MzBuZnBKNkZMUEFmWm5GMHpnTkZ2S0NLUDRvTHNKMEU?oc=5",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "Phrase [redmi note] found in existing: Redmi Note 17 5G: شاشة ضخمة وبطارية تكفي يومين"
   }
  ]
 }
