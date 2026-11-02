@@ -1,4 +1,11 @@
 {
-  "alerts": {},
+  "alerts": {
+    "review": {
+      "alerted": true,
+      "time": 1793663422.7239513,
+      "diff_min": 66,
+      "last_title": "لماذا يصبح هاتفك بطيئاً بعد التحديث؟ الأسباب والحلول"
+    }
+  },
   "last_posts": {}
 }
