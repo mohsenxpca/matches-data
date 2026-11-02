@@ -1320,6 +1320,20 @@
    "at": "2026-11-02",
    "ok": false,
    "reason": "Phrase [karbonn rebel] found in existing: مراجعة هواتف Karbonn Rebel و Rebel Pro: عودة قوية للفئة الاقتصادية"
+  },
+  {
+   "title": "Your new Galaxy flagship supports seamless updates, so stop putting them off!",
+   "url": "https://www.sammobile.com/news/your-new-galaxy-flagship-phone-tablet-supports-seamless-updates/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "name 'ea_phone_titles' is not defined"
+  },
+  {
+   "title": "OnePlus Turbo 6Vs debuts quietly with same specs as Turbo 6V - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX05vc0JBTnpyU0tla0Mta1FOMDAtN0VqWDlRVjk5V2FDWUU2N284LTNGZklpclU0Q1JRWDg4Ukl2Tk1lR3V3V0tycDhKaU1sX2hxVC11Tk5LaHN5N3FTeWc5bnJDTHFVaXF2dENjcUZKZEVUUGRmT21JUWNjMjlucHNBVWJzemg2bTVNSm1tS2JNcXFhS1BfbHFjUUpfVnlpZFHSAZ4BQVVfeXFMT1ByODN6bmVOMUJpVzBKZWROck1leG90UmMtcHF0TXlBRko0bXVLcll4b0N1X29wLTF5UmFQMS0zRnlFZ0FsMGx6eUNOWG96YTdkMFFQOUExQlMzazdGd3c4dnExRnEyajE3N2ZmREtOeWxfQ3ozNmVvMnc0eS1WcVlnN01Tbm5PeUI1WmNPemIyams4Z0s4LVVCV1E5ckE?oc=5",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": "name 'ea_phone_titles' is not defined"
   }
  ]
 }
