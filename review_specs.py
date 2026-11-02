@@ -125,11 +125,43 @@ def main():
         seen.add(key)
         slug = p["url"].rstrip("/").rsplit("/", 1)[-1].replace(".html", "")
         pr = prices.get(key.replace("samsung", "")) or {}
+        img = re.search(r'<img[^>]+src="([^"]+)"', p.get("content", ""))
         cat.append({"id": slug, "n": name, "t": p["title"], "b": (p.get("labels") or [""])[0], "u": p["url"],
-                    "s": sp, "egp": pr.get("egp"), "pp": pr.get("page")})
+                    "s": sp, "egp": pr.get("egp"), "pp": pr.get("page"), "img": thumb(img.group(1)) if img else "",
+                    "d": p.get("published", "")[:10]})
     data = {"fields": [[k, ar] for k, ar, _ in FIELDS], "phones": cat}
     json.dump(data, open("review_specs.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    side(cat)
     print("phones", len(cat))
+
+
+def thumb(u, w=200):
+    """Small, sharp sidebar thumbnail: Blogger images by size suffix, anything else through wsrv.nl."""
+    u = html.unescape(u)
+    if "blogger.googleusercontent.com" in u or "bp.blogspot.com" in u:
+        return re.sub(r"/(s\d+[^/]*|w\d+[^/]*)/(?=[^/]+$)", f"/w{w}-h{w}-p-k-no-nu/", u)
+    if "wsrv.nl" in u:
+        return re.sub(r"([?&])w=\d+", rf"\g<1>w={w}", u)
+    return "https://wsrv.nl/?url=" + requests.utils.quote(u, safe="") + f"&w={w}&h={w}&fit=contain&output=webp&q=80"
+
+
+def side(cat):
+    """review_side.json: the small data file the sidebar loads on every page."""
+    latest = [{"n": p["n"], "u": p["u"], "img": p["img"]} for p in sorted(cat, key=lambda x: x["d"], reverse=True) if p["img"]][:9]
+    prices = []
+    pj = os.path.join("prices", "phones.json")
+    if os.path.exists(pj):
+        rev = {re.sub(r"[^a-z0-9]", "", p["n"].lower().replace("samsung", "")): p["u"] for p in cat}
+        for x in json.load(open(pj, encoding="utf-8")).get("phones", []):
+            v = [r[1] for r in x.get("variants", []) if isinstance(r[1], (int, float)) and r[1] > 0]
+            if not v:
+                continue
+            k = re.sub(r"[^a-z0-9]", "", x["name"].lower().replace("samsung", ""))
+            prices.append({"n": x["name"], "b": x["brand"], "egp": min(v), "img": thumb(x.get("img", "")) if x.get("img") else "",
+                           "u": rev.get(k) or f"https://www.egyptaway.com/p/{x['slug']}.html"})
+    search = [[p["n"], p["b"], p["u"]] for p in cat]
+    json.dump({"latest": latest, "prices": prices, "search": search}, open("review_side.json", "w", encoding="utf-8"),
+              ensure_ascii=False, separators=(",", ":"))
 
 
 if __name__ == "__main__":
