@@ -6,7 +6,7 @@
 Each page is plain HTML (indexable) rewritten through the Blogger API; a daily snapshot goes to services_history.json.
 Usage: python services.py [--html KEY] [--only KEY,KEY]
 """
-import datetime, html, json, os, sys, time
+import datetime, html, json, os, re, sys, time
 from zoneinfo import ZoneInfo
 import requests
 from egypt_govs import gov_links_html
@@ -142,7 +142,46 @@ def fx():
     return {c: egp / r[c] for c, _, _ in CURR if c in r}, d.get("time_last_update_unix")
 
 
-def currency(now, rates, prev):
+CBE_URL = "https://www.cbe.org.eg/en/economic-research/statistics/exchange-rates"
+CBE_AR = {"US Dollar": "الدولار الأمريكي", "Euro": "اليورو", "Pound Sterling": "الجنيه الإسترليني", "Swiss Franc": "الفرنك السويسري",
+          "Japanese Yen 100": "الين الياباني (100 ين)", "Saudi Riyal": "الريال السعودي", "Kuwaiti Dinar": "الدينار الكويتي",
+          "UAE Dirham": "الدرهم الإماراتي", "Chinese yuan": "اليوان الصيني"}
+
+
+def cbe():
+    """Official average buy/sell rates published by the Central Bank of Egypt; None when the page can't be read."""
+    try:
+        r = requests.get(CBE_URL, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130 Safari/537.36"}, timeout=40)
+        r.raise_for_status()
+        t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", r.text, flags=re.S)
+        t = html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "|", t)))
+        day = re.search(r"Last Updated:\s*\|*\s*(\d{1,2} \w{3} \d{4})", t)
+        rows = []
+        for en, ar in CBE_AR.items():
+            m = re.search(re.escape(en) + r"\s*\|[\s|]*(\d+\.\d+)[\s|]*(\d+\.\d+)", t)
+            if m:
+                rows.append((ar, float(m.group(1)), float(m.group(2))))
+        if len(rows) < 5:
+            return None
+        return {"day": day.group(1) if day else "", "rows": rows}
+    except Exception as e:
+        print("CBE rates failed:", e)
+        return None
+
+
+def cbe_html(c):
+    if not c:
+        return ""
+    tr = "".join(f"<tr><td><b>{E(n)}</b></td><td>{b:.4f}</td><td>{s:.4f}</td></tr>" for n, b, s in c["rows"])
+    usd = next((r for r in c["rows"] if r[0] == "الدولار الأمريكي"), None)
+    lead = f"<p>سعر الدولار الرسمي في البنك المركزي المصري: <b>{usd[1]:.4f}</b> جنيه للشراء و<b>{usd[2]:.4f}</b> جنيه للبيع.</p>" if usd else ""
+    return (f'<h2>السعر الرسمي في البنك المركزي المصري</h2>{lead}<div class="sv-wrap"><table class="sv-t"><thead><tr><th>العملة</th>'
+            f'<th>شراء</th><th>بيع</th></tr></thead><tbody>{tr}</tbody></table></div>'
+            f'<p class="sv-note">متوسط سعر السوق المعلن من البنك المركزي المصري{" بتاريخ " + E(c["day"]) if c["day"] else ""}. '
+            f'البنوك بتعلن أسعارها قريبة من السعر ده. المصدر: <a href="{CBE_URL}" rel="nofollow noopener" target="_blank">البنك المركزي المصري</a>.</p>')
+
+
+def currency(now, rates, prev, official=None):
     cards = "".join(f'<div class="sv-card"><div class="k">{f} {E(n)}</div><div class="v" data-fx="{c}">{fmt(rates[c])}</div><div class="k">جنيه</div></div>'
                     for c, n, f in CURR[:6] if c in rates)
     def chg(c):
@@ -165,6 +204,7 @@ def currency(now, rates, prev):
 <h2>أسعار العملات مقابل الجنيه المصري اليوم</h2>
 <div class="sv-wrap"><table class="sv-t"><thead><tr><th>العملة</th><th>بالجنيه</th><th>الجنيه يساوي</th><th>التغيير من امبارح</th></tr></thead><tbody>{tr}</tbody></table></div>
 <p class="sv-note">الأسعار دي متوسط سعر الصرف العالمي، وأسعار البيع والشراء في البنوك وشركات الصرافة بتختلف عنها شوية حسب كل بنك.</p>
+{cbe_html(official)}
 <h2>إيه اللي بيأثر على سعر الدولار في مصر؟</h2>
 <p>سعر الصرف بيتأثر بحجم الطلب على الدولار في الاستيراد، وتحويلات المصريين في الخارج، وإيرادات السياحة وقناة السويس، وقرارات البنك المركزي في الفايدة. ولو بتحوّل فلوس أو بتشتري من برا، قارن سعر أكتر من بنك قبل ما تحوّل.</p>
 <h2>تحويلات شائعة</h2><div class="sv-links">{"".join(f'<a href="{SITE}/p/{c2.lower()}-{a2}-to-egp.html">{a2:,} {CUR_SHORT[c2]} كام جنيه</a>' for c2, a2 in CONV)}</div>
@@ -327,7 +367,7 @@ def build(keys):
         out["prayer"], p = prayer(now)
         snap.update(p)
     if "currency" in keys:
-        out["currency"] = currency(now, rates, yday.get("fx"))
+        out["currency"] = currency(now, rates, yday.get("fx"), cbe())
     if "gold" in keys:
         out["gold"], g = gold(now, xau(), rates["USD"], yday)
         snap.update(g)
