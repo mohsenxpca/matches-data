@@ -978,10 +978,9 @@ def _enrich_seo_html(html_out, art):
             "dateModified": now_iso,
             "inLanguage": "ar",
             "author": {
-                "@type": "Person",
-                "name": "محسن فاروق",
-                "jobTitle": "رئيس التحرير",
-                "url": "https://www.review-mobile.com" if is_rev else "https://www.egyptaway.com/p/editor-mohsen.html"
+                "@type": "Organization",
+                "name": "رفيو موبايل" if is_rev else "ايجبتاوى",
+                "url": "https://www.review-mobile.com" if is_rev else "https://www.egyptaway.com"
             },
             "publisher": {
                 "@type": "Organization",
