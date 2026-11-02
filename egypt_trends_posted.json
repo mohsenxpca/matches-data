@@ -1,34 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7160941",
-   "t": "بصرف على الامتحانات 18 ألف جنيه من قوت عيالي.. مدير مدرسة يعلن استقالته بفيسبوك",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "الـ body 472 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.cairo24.com/2520605",
-   "t": "أول رد من تعليم طما بسوهاج على استقالة مدير مدرسة نجع خروف: تدويره بسبب التعدي على متابعين ومخالفات متعددة",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "الـ body 426 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.skynewsarabia.com/middle-east/1901463-%D9%81%D8%B1%D8%B2-%D8%A7%D9%84%D8%A3%D8%B5%D9%88%D8%A7%D8%AA-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%88%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%A7%D9%84%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A7%D9%84%D9%86%D9%87%D8%A7%D8%A6%D9%8A%D8%A9",
-   "t": "فرز جميع الأصوات في انتخابات إسرائيل وإعلان النتائج النهائية",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 297 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.skynewsarabia.com/middle-east/1901460-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D8%A7%D8%AA-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D8%B6%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D9%84%D8%A8%D8%AD%D8%AB-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81-%D8%AD%D9%83%D9%88%D9%85%D9%8A",
    "t": "اجتماعات للمعارضة الإسرائيلية لبحث تشكيل ائتلاف حكومي",
    "at": "2026-10-30",
@@ -3252,6 +3224,34 @@
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
     "الوصف لازم 140-160 حرف"
    ]
+  },
+  {
+   "u": "https://www.101greatgoals.com/football/premier-league/tip-of-the-day-harvey-barnes-to-star-with-goals-for-both-sides-at-st-james-park/",
+   "t": "Tip of the Day: Barnes to star with goals for both sides at St James’ Park",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 90",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'نيوكاسل', 'ايفرتون'}) مع تشابه نصي مع: أزمة جاك غريليش تثير الجدل قبل مواجهة نيوكاسل وإيفرتون)"
+   ]
+  },
+  {
+   "u": "https://www.bild.de/news/wetter/von-frost-bis-sonne-so-wirbelt-das-wetter-deutschland-durch-die-woche-6ae67da4aedea8cd9ffc0169",
+   "t": "Von Frost bis Sonne: So wirbelt das Wetter Deutschland durch die Woche",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'حاله', 'طقس', 'اسبوع'}) مع: حالة الطقس في روسيا: بداية أسبوع بتباين واسع واقتراب الشتاء)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWjJjRWxCakxRYThRYzZEekJRcFJJRm1ISFBST18wT3N1dHJPR21uVUZ3VkFWSXZlZ1JocVlLWXpabFdtbzczTVRhM0pPT19IMDVIT0k2Tm82RW5WYlk2MUNrRnV4ZFNVek5DWS1jc1JzZ1N1TlRyUC0tRHVKQ183bDJscUtVRUZLOWo5QlkzaU5KRlBpZk1MTy1aSDNIamFGeXRIQzN3SUNUUFEzMUJHVlBRMVJZWnNQVnVzdlhBVVg?oc=5",
+   "t": "تغيير الساعة في كندا يشعل ردود فعل متباينة.. الأسر ترحب والشركات تخشى ارتباك المواعيد - arabcanadanews.ca",
+   "title": "تغيير الساعة: دروس من تجربة كندا في تثبيت التوقيت",
+   "url": "https://www.egyptaway.com/2026/11/time-change-canada-lessons.html",
+   "at": "2026-11-02T22:38:15.337503+02:00",
+   "ok": true,
+   "type": "public_query"
   }
  ]
 }
