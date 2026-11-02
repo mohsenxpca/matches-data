@@ -1485,6 +1485,79 @@
    "at": "2026-11-02T19:01:51+02:00",
    "ok": true,
    "brand": "هونر"
+  },
+  {
+   "title": "Xiaomi Mijia shoe washing machine hits crowdfunding for just $110",
+   "url": "https://www.gizmochina.com/2026/11/02/xiaomi-mijia-3kg-shoe-washing-machine-launched-specs-price/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (656 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "أبل تخطط لتحديث ثلاثة أجهزة آيباد في النصف الأول من 2027",
+   "url": "https://www.gsmarena.com/apple_plans_to_refresh_three_ipads_in_the_first_half_of_2027-news-75312.php",
+   "post_url": "https://www.review-mobile.com/2026/11/apple-refresh-three-ipads-2027.html",
+   "at": "2026-11-02T20:02:23+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
+  },
+  {
+   "title": "Here's how to reclaim 15GB of storage after iOS 27 update",
+   "url": "https://www.gsmarena.com/users_report_abnormally_high_storage_allocation_for_apple_intelligence_after_updating_to_ios_27-news-75256.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (727 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "HMD Pulse Pro 2nd Edition shows up at a retailer with a new chipset",
+   "url": "https://www.gsmarena.com/hmd_pulse_pro_2nd_edition_shows_up_at_a_retailer_with_a_new_chipset-news-75294.php",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (529 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Galaxy Watches could soon get a major UX change with a software update",
+   "url": "https://www.sammobile.com/news/galaxy-watches-get-system-status-bar-wear-os-update/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (663 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Galaxy Z Fold 9 could bring back a feature Samsung abandoned last year",
+   "url": "https://www.sammobile.com/news/galaxy-z-fold-9-bring-under-display-camera/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (645 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)",
+    "الـ slug غير صالح (samsung-galaxy-z-fold-9-under-display-camera): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+   ]
+  },
+  {
+   "title": "Stop new app shortcuts from messing up your One UI home screen",
+   "url": "https://www.sammobile.com/news/stop-new-app-shortcuts-from-messing-up-your-one-ui-home-screen/",
+   "at": "2026-11-02",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (631 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "ويندوز 11 يتيح تشغيل تطبيقات أندرويد مباشرة من شريط البحث",
+   "url": "https://www.androidauthority.com/windows-11-search-android-app-actions-3730729/",
+   "post_url": "https://www.review-mobile.com/2026/11/windows-11-search-android-apps.html",
+   "at": "2026-11-02T20:10:36+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هواتف ذكية"
   }
  ]
 }
