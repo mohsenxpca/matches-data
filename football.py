@@ -686,7 +686,7 @@ def live_box(m):
             "<script>(function(){var M=" + key + ",b=document.currentScript.previousElementSibling.querySelector('.fbn-live-s');"
             "function cairo(){return new Date(new Date().toLocaleString('en-US',{timeZone:'Africa/Cairo'}))}"
             "function show(x){var k=new Date(M.d+'T'+M.t+':00'),n=cairo(),m=(n-k)/60000,s=x&&x.s?x.s.split('-'):null;"
-            "if(m<0){var h=Math.floor(-m/60),mm=Math.floor(-m%60);b.textContent='الماتش يبدأ بعد '+(h>=48?Math.floor(h/24)+' يوم':(h?h+' ساعة و':'')+mm+' دقيقة')+(x&&x.c&&x.c!='لم تُعلن'?' · على '+x.c:'')}"
+            "if(m<0){var h=Math.floor(-m/60),mm=Math.floor(-m%60);b.textContent='الماتش يبدأ بعد '+(h>=48?Math.floor(h/24)+' يوم':(h?h+' ساعة و':'')+mm+' دقيقة')+(x&&x.c&&x.c.indexOf('لم ت')!=0?' · على '+x.c:'')}"
             "else if(m<140){b.textContent=s?'النتيجة دلوقتي: '+M.h+' '+s[0]+' - '+s[1]+' '+M.a:'الماتش شغال دلوقتي'}"
             "else if(s){b.textContent='النتيجة النهائية: '+M.h+' '+s[0]+' - '+s[1]+' '+M.a}}"
             "function load(){fetch('https://raw.githubusercontent.com/mohsenxpca/matches-data/main/data.json').then(function(r){return r.json()})"
