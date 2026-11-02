@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.skynewsarabia.com/middle-east/1901460-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D8%A7%D8%AA-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D8%B1%D8%B6%D8%A9-%D8%A7%D9%84%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D9%84%D8%A8%D8%AD%D8%AB-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A7%D8%A6%D8%AA%D9%84%D8%A7%D9%81-%D8%AD%D9%83%D9%88%D9%85%D9%8A",
-   "t": "اجتماعات للمعارضة الإسرائيلية لبحث تشكيل ائتلاف حكومي",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "الـ body 378 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://ismailyclub.org/en/news/%D8%A8%D9%8A%D8%A7%D9%86-%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A-f4c89f",
-   "t": "بيان توضيحي",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "الـ body 457 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/28/%D9%85%D8%A7%D9%8A%D8%A7-%D8%AF%D9%8A%D8%A7%D8%A8-%D8%AA%D8%AE%D8%B7%D9%81-%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D8%A7%D8%B1-%D8%A8%D8%A5%D8%B7%D9%84%D8%A7%D9%84%D8%A9-%D9%81%D8%B6%D9%8A%D8%A9-%D8%A8%D8%B1%D8%A7%D9%82%D8%A9-%D9%81%D9%8A-%D8%A3%D8%B3%D8%A8%D9%88%D8%B9-%D8%A7%D9%84%D8%A3%D8%B2%D9%8A%D8%A7%D8%A1/7597627",
    "t": "مايا دياب تخطف الأنظار بإطلالة فضية براقة في أسبوع الأزياء بدبي",
    "at": "2026-10-30",
@@ -3252,6 +3234,24 @@
    "at": "2026-11-02T22:38:15.337503+02:00",
    "ok": true,
    "type": "public_query"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/3/3072774/%D8%AA%D9%83%D8%B1%D9%8A%D9%85-%D8%AE%D8%A7%D8%B5-%D9%84%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%8A%D8%A7%D9%86%D9%88-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%88%D8%A8%D8%A7%D8%AE%D8%AA%D8%A7%D9%83%D9%88%D8%B1-%D8%A7%D9%84%D8%A3%D9%88%D8%B2%D8%A8%D9%83%D9%8A",
+   "t": "تكريم خاص لكريستيانو رونالدو خلال مباراة النصر وباختاكور الأوزبكي",
+   "title": "تكريم جماهيري خاص لكريستيانو رونالدو في مباراة النصر وباختاكور",
+   "url": "https://www.egyptaway.com/2026/11/ronaldo-tribute-alnassr-pakhtakor-match.html",
+   "at": "2026-11-03T00:24:56.816288+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.vietnam.vn/ar/nhan-dinh-deportivo-la-coruna-vs-osasuna-bai-toan-luc-luong-cua-chu-nha",
+   "t": "توقع مباراة ديبورتيفو لاكورونيا ضد أوساسونا: تحدي تشكيلة الفريق المضيف",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الـ body 449 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
