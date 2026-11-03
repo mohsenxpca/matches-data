@@ -1,0 +1,90 @@
+name: تحديث مقالات العام الجديد (Annual Year Rollover)
+
+on:
+  schedule:
+    - cron: "0 2 15,25 12 *"   # يشتغل تلقائياً كل سنة في شهر ديسمبر (15 و 25 ديسمبر) الساعة 4:00 فجراً بتوقيت القاهرة
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "تأكيد النشر لايف على بلوجر (ضع صح للتطبيق المباشر، أو اتركها فارغة للمعاينة التجريبية)"
+        type: boolean
+        required: false
+        default: false
+      site:
+        description: "الموقع المستهدف"
+        type: choice
+        options:
+          - all
+          - egyptaway
+          - review
+        default: all
+      from_year:
+        description: "السنة المراد استبدالها (اتركها فارغة للتحديد التلقائي)"
+        required: false
+        default: ""
+      to_year:
+        description: "السنة القادمة الجديدة (اتركها فارغة للتحديد التلقائي)"
+        required: false
+        default: ""
+      mode:
+        description: "طريقة التحديث (update لتغيير السنة أو strip لحذفها)"
+        type: choice
+        options:
+          - update
+          - strip
+        default: update
+
+permissions:
+  contents: write
+
+concurrency:
+  group: year-rollover
+  cancel-in-progress: false
+
+jobs:
+  rollover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - name: Run Annual Year Rollover Engine
+        run: |
+          ARGS="--site ${{ github.event.inputs.site || 'all' }} --mode ${{ github.event.inputs.mode || 'update' }}"
+          
+          # If from_year specified
+          if [ -n "${{ github.event.inputs.from_year }}" ]; then
+            ARGS="$ARGS --from-year ${{ github.event.inputs.from_year }}"
+          fi
+          
+          # If to_year specified
+          if [ -n "${{ github.event.inputs.to_year }}" ]; then
+            ARGS="$ARGS --to-year ${{ github.event.inputs.to_year }}"
+          fi
+          
+          # Auto-confirm if run on schedule (December), or if confirmed in manual dispatch
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.confirm }}" = "true" ]; then
+            ARGS="$ARGS --confirm"
+          fi
+          
+          echo "Running: python -u year_rollover.py $ARGS"
+          python -u year_rollover.py $ARGS
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          GITHUB_STEP_SUMMARY: ${{ env.GITHUB_STEP_SUMMARY }}
+
+      - name: Commit Audit Log
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add year_rollover_log.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No log changes"; exit 0; fi
+          git commit -m "chore(seo): annual year rollover log $(date +'%Y-%m-%d_%H:%M')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done
