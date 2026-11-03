@@ -1,0 +1,50 @@
+name: زيدا شوب - مراقب كاري فيرست (الباقات غير المتوفرة)
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "تجربة بس من غير تعديل الموقع (1 = نعم)"
+        required: false
+        default: "0"
+  schedule:
+    - cron: "23 * * * *"  # every hour
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zeda-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Check Carry1st and update Zeda pages
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "1" ]; then python zeda_watch.py --dry-run; else python zeda_watch.py; fi
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ADMIN_CHAT: ${{ secrets.TELEGRAM_ADMIN_CHAT }}
+      - name: Save state
+        if: always()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Zeda Watch Bot"
+          if [ -f zeda_stock.json ]; then
+            git add zeda_stock.json || true
+            git commit -m "zeda stock state [skip ci]" || true
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main && git push origin main && break || sleep 3
+            done
+          fi
