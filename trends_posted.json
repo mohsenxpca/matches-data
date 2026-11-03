@@ -607,6 +607,24 @@
    "at": "2026-11-03",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "المغرب",
+   "at": "2026-11-03",
+   "ok": false,
+   "why": "off-topic"
+  },
+  {
+   "q": "استقلال ضد الشمال",
+   "at": "2026-11-03",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "عجز في الميزانية",
+   "at": "2026-11-03",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
