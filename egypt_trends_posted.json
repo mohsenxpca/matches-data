@@ -1,17 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/news/news_egypt/details/2026/10/29/3070815/%D9%85%D9%88%D8%A7%D9%82%D9%8A%D8%AA-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%A3%D8%AE%D9%8A%D8%B1-%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A9-60-%D8%AF%D9%82%D9%8A%D9%82%D8%A9",
-   "t": "مواقيت الصلاة في القاهرة والمحافظات بعد تأخير الساعة 60 دقيقة",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 365 كلمة بس، لازم 530 على الأقل",
-    "العنوان شبه عنوان منشور قبل كده: مواقيت الصلاة اليوم بعد التوقيت الشتوي"
-   ]
-  },
-  {
    "u": "https://www.cnn.com/2026/10/29/health/daylight-saving-time-children-sleep-wellness",
    "t": "Permanent Daylight Saving Time could put schoolchildren’s lives at risk. An expert explains",
    "at": "2026-10-30",
@@ -3252,6 +3241,15 @@
    "reason": [
     "كلمة رسميًا مش موجودة في المصدر، احذفها"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/3/تسريبات-تكشف-ميزة-غير-مسبوقة-فى-شاشة-Apple-الذكية-القادمة/7603076",
+   "t": "تسريبات تكشف ميزة غير مسبوقة فى شاشة Apple الذكية القادمة",
+   "title": "تسريبات تكشف ميزة كاميرا المراقبة فى شاشة Apple الذكية القادمة",
+   "url": "https://www.egyptaway.com/2026/11/apple-smart-display-surveillance-camera.html",
+   "at": "2026-11-03T07:23:07.563419+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
