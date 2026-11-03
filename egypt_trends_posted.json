@@ -1,35 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxNanFSU09MZHhoWUk1QzZidzM3QjI5cWhxRFlRMFFRNXpxa3RwOFE5SjBXRVdmNkpkeWNzYk1sdGRIczZqRUdvN0tVdDdRNk96YmpWTzh5YXVYX0E4ekZuT0k0OXhBOW9LVGdkTFE1MlhCWEdlWnp6eURtdjlHSE5VUkJ6Qm9ub250cjNjRnA1Zzl4bldhQ3JDM0NzS0NidjlXbnM5aTE5VzI4YzlEWGhTRVo3djVsSWdFTzdnUE1zUGd2c1RnWlprWmM4QXdsV2JLa3AzNHJWR0xaN1pmVDQ1VmpNMGQ2SXBYT2ltRVRwWUluX01FVU1jSlBOOFZqXzdSOFA4V2VmT296cjFWMHotWHVPVDhxX2RYUDByeUs3eEo4OU5WV3NQQnNObEJQLXNJOGJTYWdIdjgwcXRhM2M2RnR3WnBITFhXZk1HYUtTWWJGa0lmaDJnMUlpdDBBSkJNQXZxV3lHZVpZUWZ0Q2hQMU1aaWZtbEpFa2pjLTl2YVE2MEo5b0l3V0JaLTR0ZEFHSkc4Ql81bkV5MzN4Slp2bDBGaTlTd1JRNHJKWkpVWFVRcmF3cXNRakVlZ09IOFlOeTI5YWluZ1BnUjFENHE1aXdTZmNfcDDSAdIDQVVfeXFMUGxqMjhTV2tFbTBWWmtjb0V1MTlsbzNadWJ4dUxxcnJfemh3MVNzZTNCOG5rRHN5ZEg4cFZBdmVXa0ZaS1YtU3I5N2dfNVFFQnVxNlFIbnEtWGlWSWhBdVlSZ1A4VzNuTnppNnd1Zk1TeE1fZ1RlWl9BTjl3QUF6YmpQUEdsSkFIMDZjbUNXVnZuTkVaVGtfSVV6aTMtcnhGRTUtWktKWk5HbFdDVWQ1Q282WGJ6NmF3YTZET3lfd2ZUc2RUSGwwLUVNMVEzTFRBeHBDcVNqVFl5RktOX3RaV09keExTSjAzcDlMTW1lSjNKSnZ6dTMwSElsWTJHSGFBQUV0X2Rha0d6SjZDcmRtLVRzYnJCMlpkekdxQmpTcS1UbUJiTTQ4d1VGZWUxT3RUZFFqM2hVSjYtV00zTjhubllibWhaZmczOEJ4RWIzX1A1cEpFQlJlY29yY1NmYm5INmFDM3RXQ2xVVjVYODdJRnAtTEsxSnFJcVFMRU9ORTNYWTBlQlEzQTcyanlETjA3YzRHVGcyeHBkb0dNY25xaHk5b1Y2WjZEUzFhczRJNWFleGM1dmRWTng1MlRPTVQ4WWRSV1JPbm1DaEVIaDZIUXh4dw?oc=5",
-   "t": "تفاصيل طقس اليوم السبت .. شبورة كثيفة وأمطار على عدة مناطق.. فيديو - اليوم السابع",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 9",
-    "الـ body 374 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://news.google.com/rss/articles/CBMi5wRBVV95cUxPY3NmZi1XTC1OTnpDMUV1ODA0UlZzUXBIRnlLbmE4ckxzWnk4aFJuZ2Vva1JBaG0xX2RnR2FtMzQxMnNHYjRRbG1sVVdrTFBSbWU3a1pWdGRPOFBSX1A5Y0JHdFJYX0hjOTBnZG1Ed0EtamExaUJzQ0F0UmtmUTVtdTI3Um5JMzUza3Nzalo5S3RRck9WU1RJdnhhdnFZSmRXMHloUTRhTzVZZmRNU2RoTW5CTjNCd05qOTkzS0hVNHcyamN6aE1pbkxwR0kzd243d0sxQmJJQ2gtV3FQaEEyR1dmZGZVZE9QeEFIa040S3BYVmlzVEI1X25UcDQzZml5Mm93eXphQUk2cWd1a2k4YlNBWWNkZmM5d3dZaFl1bGFHbU5oRnBTNVByQkREY19seTl1T0l0ODVSLVAwazk3TmppcFdYRVpRdFZEOUk1MzZ5ZHE5dW9SbEVwZXBlUms5S1g1Tkx4TDF0eF83c3BMZWhYdnRPMW5qamFPQ1ZmQk9kOFZrY0JoSVdERmROSEd4aXowc2x1c01XM0RrdjBkNzZfckVhMkYwcUpoUDRqem5pdzNLSzhNY200bXVqeWhCenI2UVlQSGNpSVRhdnZPdktZcUdCcW1vMUVtcmhfdzdpakdWMzZOcjB5TG0wcVJQQWxpRXV2Z1huUUo2bWszWW5kYXo4QkZhYW1zQnpCbjMwRmJkT25YTm9qc3BDQUlNVXdEN3dxVHJaOWd6bjE2ZjFRa0JsTzhDNjhmYWI1SU10VFNuazRrQnpxSV9nXzlrbTE4dlRpM3IwSV9UMG9aR2Q1dWZDbXfSAewEQVVfeXFMT2Q0anNiNHEyaGdsZFRqcGNWOE9jWlFnSWxFcXBnSFc2YWJKeHhPRWs1aEh5b2hQOW5rYnZWZ1NGRWQtUVNsNGFUMmxiOWVsWFQ0a0kzeUlteU1iUWZTZ2hZN1NkdTY0SjZjYWhpdllfUWF6a3hvekl3RTNYNVE3QndTd0pHblNzd1pmT2E2OENtY1YtWGhib1YyTFNudktjWkxjLXh5LV9NNzhDVXJMOGFQQ0V5T1VBZkc0ODBkcVhhWFZsLVZLZHM5RUFacjYyQno4UU55Yk9DRDc2OEUxcEliM095MjZIYm8weVJOUkNrdWJQM0ZzRXBISkpMRlNGRzFvMXpLUmVybWdac1ZSTlhvd29UZjdlRGkzN1NleXUzTktCR1E4V2hPck0tV3ZuQkxFVkQ4enVON1JqVngyczNwMmJFZWlkQXRrdXM4TkZaV3VvU2FRS2pXUXlTZjVqRmxDTnIzZFU1NmtYdUdIdW40Z1V4akRUZkNWM2tGWXE2ZzBmcEJPcEVicHpsY0xBOEh3YUlhR0NHWnVoQ0RJd19rTEU0SUxyVTZRNEROVVVOd1ZRbWd6SGlxNWtSZS1KVmk5Tm1sWjE0YmR2LUkxVklQMGJ4UV9hamNqOFR6anp1RmpjbFlvcG9VYld6OU5kTk9sSUgtRmFGazh2TGtyaDFxVG5DaXN5ZWJRM2pQMzRLbWNPZ21mbFRDZndXY1pwdW1QRVpkRXhpd0V5TXVBLS0zUUxvTFlQaFQ4VUlWeUpmX0JMTFBHeXpqMXlicHgzVnFDZnIyRG44WktGTWZzTzYxT3BWWmJYTEMzNVg?oc=5",
-   "t": "ارتفاع الحرارة ونشاط الرياح.. الأرصاد تكشف تفاصيل طقس أول أسبوع من نوفمبر - Masrawy",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 437 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://news.google.com/rss/articles/CBMijgRBVV95cUxOMWdweGpCYlpjSjBsNlZWdFBNQmZMRmJ6Q24xaFJ1M096aDkyMmJ0ZWtEeElKaE9BckRuaDY2XzBWTEhPMDFhOGRXcm9CczRNTXBvUUNsYWdsUmxZUnJpUVI4Ti1RWGptU1c0SHZxQ0ltTXh2MVVRTkJ1QzdUci14SXJDRWZPUjQ5ZlVycWZWTmlJSV83Y2pxcWppZmkzOGU2cG90ZFdoNzFMVHE2QndVajJCYmdjSTFnTVRfLXd5R0ZSQ0ozTUJHV19uSmJkOThuZ2NWVXFtY2xERkljeVVXUm9IX0V5N253OENGX2tiS3I3cTB2eWcxQy1wVTd5ejZ2aGVpWmI2dXpKUDlRTW5GY2NuX09iZTNuMldpOEp6T0FsV05NVmh3bXRfRmhGZFl1MTFHQXFNcXdZeUt2cHN2OWIzaEJtWVp0NUw1WjhDcV8zQlAwU1RSUkJMeGU0TVpMNUgzWkFwT0hDN0haUGRGbU5WVTZPMzlLWGlKaTZ0X1lrY1VmUmpOZ09YckJRVzFuUk4wMy1TZ1NTSXhsX05zU1RZSVVsZlhoQlVPeURQRGphMUtlUTliR0U4a1VqUXVwRE40b0NtS3BCbG8wRTlKaDd3Q0FtdU1QRm0tcEhaWlZrTGltWjRIa1IyV2l6X255V2RaQUkzdDQ2TmxhaWgyQ2E5dmpqZUdpZUgzNGd30gGTBEFVX3lxTE1tTEh0Si05ZWR4Wk4tby1CRzRkTHBVa3J4aXNCc19NWXZWTTJmRXVuNlk3dHIta201OWJQaG9oRmtPTVBqNVJDM3RoVzE1RWtwUmVOeTg3VHp5OThXNzhUT1NsempWNDlyVVlWRGtDVFh1YkpSQmVuOFlRLW1iZFFTVXlyejVIalBLUTVZYkRwSksyVEVFZEFmblBCY2owVnV2dVBNNUJBYUlVYnhCYlYyOHJEVXp1RE1HN3pKLTM4Mk5GdGE4b2Q4Zy10a2NyeEpkOThMUDZfNEZsZ2owTG9nd2twcUhBdXFWMHdILWhja0pnRmdDamRKZmVnMlhyQlhYN3YxMTdNNzgxNnRNWUsyYm9tOTRFc2ZQTlE2ajFIZ1VFY1JISDJ0aEhmUFNJaTN4Z1Qwclo4MEJWcFE3cGZzb2U0emFLRjJrTVk2V2xtdmF4bEpsX3pPSUlheVloNFJ2Z3JqaU82SUNWVm5SVG9Rd2NCUWY4UVVma0MwR1JlX2VOODJGUUgtOFpkcHYtU1NpT2x2aW1RZTNFaWpwZnAwWGdhSlZhTklxeW55TmZNSjh1RWgtdzZCUzBmeVR2ZVppVjM2Q2tQc1ljaU00R1p3VFYyaWZ5SERoUF9EWGkzWUx4cFlvNnpRczdiNmd6clpfUGlrZnN2cVk0LWxvYmVEaE1aSnNsT0s2SUFZM3hSUDZoRQ?oc=5",
-   "t": "أسباب وقف بطاقة التموين 2026 والأوراق المطلوبة لإعادة تفعيلها - Masrawy",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 450 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBnbkdDNDVKUUhSQWR6M2xyWk5zYVdoQjdfODBVbEZCdVNUaC1fYnFPR21oYm9FZDQyLUlLQ2VLNVFYeVVYS1pv?oc=5",
    "t": "30 سلعة بأسعار مخفضة ضمن مقررات تموين شهر نوفمبر 2026.. تعرف عليها - صدى البلد",
    "at": "2026-10-31",
@@ -3250,6 +3221,36 @@
    "ok": false,
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 3"
+   ]
+  },
+  {
+   "u": "https://pogoda.mail.ru/news/72949010/",
+   "t": "Гидрометцентр: завтра в России поднимется метель",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 9",
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'حاله', 'طقس', 'روسيا'}) مع: حالة الطقس في روسيا: بداية أسبوع بتباين واسع واقتراب الشتاء)"
+   ]
+  },
+  {
+   "u": "https://www.wetteronline.de/wetterticker/wetterticker-durch-wind-fuehlt-es-sich-kaelter-an--0e915e13-17cb-4bef-a65b-26d436526cf4",
+   "t": "WetterTicker: Durch Wind fühlt es sich kälter an",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 45",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'طقس', 'حاله'}) مع تشابه نصي مع: حالة الطقس في روسيا: بداية أسبوع بتباين واسع واقتراب الشتاء)"
+   ]
+  },
+  {
+   "u": "https://www.bbc.com/sport/football/articles/c5ev3m9ddzgmo",
+   "t": "Aston Villa: Unai Emery aims to prove Villa's worth among the elite against Barcelona in the Champions League",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 3، 9",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'فيلا', 'استون'}) مع تشابه نصي مع: أزمة أستون فيلا وجيمي كاراغر: اعتذار رسمي بعد تهديد قانوني)"
    ]
   }
  ]
