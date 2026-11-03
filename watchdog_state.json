@@ -2,9 +2,15 @@
   "alerts": {
     "review": {
       "alerted": true,
-      "time": 1793686870.9066188,
-      "diff_min": 457,
+      "time": 1793716493.886171,
+      "diff_min": 950,
       "last_title": "لماذا يصبح هاتفك بطيئاً بعد التحديث؟ الأسباب والحلول"
+    },
+    "egyptaway": {
+      "alerted": true,
+      "time": 1793716491.0210462,
+      "diff_min": 87,
+      "last_title": "موقف حارس أندورا بعد وفاة مهاجم تينيريفي"
     }
   },
   "last_posts": {}
