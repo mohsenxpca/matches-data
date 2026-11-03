@@ -20,7 +20,12 @@ on:
         required: false
         default: "0"
   schedule:
-    - cron: "0 8,16 * * *"  # مرتين يومياً فقط بتوقيت القاهرة (10:00 صباحاً و 6:00 مساءً) لحماية الموقع وضمان جودة أدسنس
+    - cron: "*/30 * * * *"  # كل نصف ساعة على مدار الـ 24 ساعة بدون توقف (قرار محسن للنشر المستمر)
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/review.yml"
 
 permissions:
   contents: write

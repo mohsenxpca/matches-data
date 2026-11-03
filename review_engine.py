@@ -28,7 +28,7 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari
 REVIEW_BLOG = "2997328666613207792"
 REVIEW_HOST = "www.review-mobile.com"
 STATE_FILE = "review_posted.json"
-REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "3"))
+REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "15"))
 COUNT = int(os.environ.get("COUNT", "2"))
 CDN = "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/"
 IMG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "img")
@@ -734,7 +734,7 @@ def main():
             pass
 
     today_str = datetime.datetime.now(CAIRO).date().isoformat()
-    today_posts = [d for d in state.get("done", []) if d.get("at", "").startswith(today_str) and d.get("ok")]
+    today_posts = [d for d in state.get("done", []) if d.get("at", "").startswith(today_str) and d.get("ok") and not d.get("reverted")]
 
     if len(today_posts) >= REVIEW_CAP and not custom_query and not dry:
         print(f"Review daily cap ({REVIEW_CAP}) reached today. Exiting.")
