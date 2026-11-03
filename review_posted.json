@@ -2113,6 +2113,33 @@
    "ok": true,
    "kind": "news",
    "brand": "ريلمى"
+  },
+  {
+   "title": "Official Refresh of Google Messages, Phone, and Contacts Icons Announced - jetstream.blog",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42MnNYOEhZZVUtRWpDaURVZ1RVaktvUUJDUU5OZC1JSVdFZVFscXc5dmU2R09kdWZSeGlkS0lKYkpsXzZiQ25uSHZhT1EyQjlmWDQtWEl1cmw0TDVwNGRoSnhZbEw2bFVqYTZkMHZPNVFBWVd5UHZndTZYQQ?oc=5",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (623 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "OnePlus Turbo 6Vs 2026: Same Phone as Turbo 6V, 76% Pricier - Memeburn",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMUFiem55YThObWwycjVmbHdxcWhsVlhzREdMWXlBSURLNkhndy1SVW4zVVM3emdaRGpFRXEyLTJWcUR2ZGlnamtZZFBwb2Fucm1JOXp6OWhqNWctTlZBbmx6Sjk1TldBS2M4WWdmWmFVcDFVeVR0QmNDdHlUajR6cmw4bGY?oc=5",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (675 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "نهاية حقبة: هل تنسحب أسوس نهائياً من سوق الهواتف الذكية؟",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JLXdzYk16NW5oMzJ4VXVZa2trdks2NFZyanFqdDZZSHRvZWpPZEdweWkzaEFGajlmTjYyaWxKWVNNMGwxR3p3YUdvSjZrQ3JqRTRSREx6eU5hczBlN3AxblRIYUJKeVhEWGxPWlBCT0V3YzRoQmc?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/asus-phone-market-exit-analysis.html",
+   "at": "2026-11-04T01:11:45+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اسوس"
   }
  ]
 }
