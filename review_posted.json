@@ -2140,6 +2140,16 @@
    "ok": true,
    "kind": "news",
    "brand": "اسوس"
+  },
+  {
+   "title": "Android and iOS apps will be able to bypass the share sheet next year",
+   "url": "https://www.gsmarena.com/android_and_ios_apps_will_be_able_to_bypass_the_share_sheet_next_year-news-75328.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
