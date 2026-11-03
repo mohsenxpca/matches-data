@@ -2025,6 +2025,26 @@
    "ok": true,
    "kind": "news",
    "brand": "اوبو"
+  },
+  {
+   "title": "One of Android’s biggest software rollouts is here, with over 80 devices on the guest list",
+   "url": "https://www.androidauthority.com/xiaomi-hyperos-4-android-17-global-rollout-schedule-3731257/",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (675 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Galaxy S26 FE 256GB gets a $100 Amazon discount",
+   "url": "https://www.androidauthority.com/galaxy-s26-fe-256gb-deal-3731227/",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (679 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
   }
  ]
 }
