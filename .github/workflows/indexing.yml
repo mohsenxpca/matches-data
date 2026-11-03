@@ -1,0 +1,48 @@
+name: محرك الأرشفة اليومي الشامل (Daily Indexing & SEO Boost)
+
+on:
+  schedule:
+    # 04:30 فجراً بتوقيت القاهرة (02:30 UTC) - أفضل توقيت يومي لموجة زحف عناكب جوجل الصباحية قبل ساعات الذروة
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/indexing.yml"
+      - "indexing_engine.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: indexing-daily
+  cancel-in-progress: false
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4
+      - name: Run Autonomous Indexing Engine
+        run: python -u indexing_engine.py
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+      - name: Commit Indexing Summary
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add indexing_summary.md 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes to commit"; exit 0; fi
+          git commit -m "update: daily indexing summary $(date +'%Y-%m-%d_%H:%M')"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done
