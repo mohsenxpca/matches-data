@@ -1943,6 +1943,22 @@
    "ok": true,
    "kind": "news",
    "brand": "هونر"
+  },
+  {
+   "title": "Realme 17T design revealed in leaked live images",
+   "url": "https://www.gsmarena.com/realme_17t_design_revealed_in_leaked_live_images-news-75324.php",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": "Phone '17t' already covered in: مراجعة Xiaomi 17T المواصفات والسعر في مصر وهل يستحق الشراء؟"
+  },
+  {
+   "title": "أرباح قياسية لأبل: مبيعات الآيفون والخدمات تحطم الأرقام",
+   "url": "https://www.gsmarena.com/apple_reports_record_quarter__iphone_and_mac_sales_are_up_services_reach_an_alltime_high-news-75321.php",
+   "post_url": "https://www.review-mobile.com/2026/11/apple-record-q4-financial-results.html",
+   "at": "2026-11-03T20:43:10+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
