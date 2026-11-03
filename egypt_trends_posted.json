@@ -3,15 +3,6 @@
   {
    "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA0RkZYcEZKV29iOVRUVEdsN05RRmc1Uk9FSG1JUGtwcG9Demc2aDFLUjN6TExIZzJNZUpSX2VJNnZHNnN1T1dV?oc=5",
    "t": "بعد تغيير الساعة.. موعد صلاة الجمعة اليوم بالتوقيت الشتوي - صدى البلد",
-   "title": "مواعيد الصلاة بالتوقيت الشتوي وحكم دار الإفتاء",
-   "url": "https://www.egyptaway.com/2026/10/winter-time-prayer-times-dar-al-ifta.html",
-   "at": "2026-10-31T09:13:04.736814+02:00",
-   "ok": true,
-   "type": "public_query"
-  },
-  {
-   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA0RkZYcEZKV29iOVRUVEdsN05RRmc1Uk9FSG1JUGtwcG9Demc2aDFLUjN6TExIZzJNZUpSX2VJNnZHNnN1T1dV?oc=5",
-   "t": "بعد تغيير الساعة.. موعد صلاة الجمعة اليوم بالتوقيت الشتوي - صدى البلد",
    "at": "2026-10-31",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
@@ -3248,6 +3239,15 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 4",
     "كلمة رسميًا مش موجودة في المصدر، احذفها",
     "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'بطل', 'عالم', 'انطونيلي', 'كيمي'}) مع: كيمي أنطونيلي أصغر بطل للعالم في تاريخ الفورمولا 1)"
+   ]
+  },
+  {
+   "u": "https://www.gambling911.com/galatasaray-v-stuttgart-goalscorer-betting-markets-victor-osimhen",
+   "t": "Galatasaray vs Stuttgart Goalscorer Betting Markets: Victor Osimhen, Deniz Undav, Ermedin Demirovic",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 6، 7، 8، 9"
    ]
   }
  ]
