@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA0RkZYcEZKV29iOVRUVEdsN05RRmc1Uk9FSG1JUGtwcG9Demc2aDFLUjN6TExIZzJNZUpSX2VJNnZHNnN1T1dV?oc=5",
-   "t": "بعد تغيير الساعة.. موعد صلاة الجمعة اليوم بالتوقيت الشتوي - صدى البلد",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxNanFSU09MZHhoWUk1QzZidzM3QjI5cWhxRFlRMFFRNXpxa3RwOFE5SjBXRVdmNkpkeWNzYk1sdGRIczZqRUdvN0tVdDdRNk96YmpWTzh5YXVYX0E4ekZuT0k0OXhBOW9LVGdkTFE1MlhCWEdlWnp6eURtdjlHSE5VUkJ6Qm9ub250cjNjRnA1Zzl4bldhQ3JDM0NzS0NidjlXbnM5aTE5VzI4YzlEWGhTRVo3djVsSWdFTzdnUE1zUGd2c1RnWlprWmM4QXdsV2JLa3AzNHJWR0xaN1pmVDQ1VmpNMGQ2SXBYT2ltRVRwWUluX01FVU1jSlBOOFZqXzdSOFA4V2VmT296cjFWMHotWHVPVDhxX2RYUDByeUs3eEo4OU5WV3NQQnNObEJQLXNJOGJTYWdIdjgwcXRhM2M2RnR3WnBITFhXZk1HYUtTWWJGa0lmaDJnMUlpdDBBSkJNQXZxV3lHZVpZUWZ0Q2hQMU1aaWZtbEpFa2pjLTl2YVE2MEo5b0l3V0JaLTR0ZEFHSkc4Ql81bkV5MzN4Slp2bDBGaTlTd1JRNHJKWkpVWFVRcmF3cXNRakVlZ09IOFlOeTI5YWluZ1BnUjFENHE1aXdTZmNfcDDSAdIDQVVfeXFMUGxqMjhTV2tFbTBWWmtjb0V1MTlsbzNadWJ4dUxxcnJfemh3MVNzZTNCOG5rRHN5ZEg4cFZBdmVXa0ZaS1YtU3I5N2dfNVFFQnVxNlFIbnEtWGlWSWhBdVlSZ1A4VzNuTnppNnd1Zk1TeE1fZ1RlWl9BTjl3QUF6YmpQUEdsSkFIMDZjbUNXVnZuTkVaVGtfSVV6aTMtcnhGRTUtWktKWk5HbFdDVWQ1Q282WGJ6NmF3YTZET3lfd2ZUc2RUSGwwLUVNMVEzTFRBeHBDcVNqVFl5RktOX3RaV09keExTSjAzcDlMTW1lSjNKSnZ6dTMwSElsWTJHSGFBQUV0X2Rha0d6SjZDcmRtLVRzYnJCMlpkekdxQmpTcS1UbUJiTTQ4d1VGZWUxT3RUZFFqM2hVSjYtV00zTjhubllibWhaZmczOEJ4RWIzX1A1cEpFQlJlY29yY1NmYm5INmFDM3RXQ2xVVjVYODdJRnAtTEsxSnFJcVFMRU9ORTNYWTBlQlEzQTcyanlETjA3YzRHVGcyeHBkb0dNY25xaHk5b1Y2WjZEUzFhczRJNWFleGM1dmRWTng1MlRPTVQ4WWRSV1JPbm1DaEVIaDZIUXh4dw?oc=5",
    "t": "تفاصيل طقس اليوم السبت .. شبورة كثيفة وأمطار على عدة مناطق.. فيديو - اليوم السابع",
    "at": "2026-10-31",
@@ -3248,6 +3241,15 @@
    "ok": false,
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 4، 6، 7، 8، 9"
+   ]
+  },
+  {
+   "u": "https://www.tribalfootball.com/article/stuttgart-defender-warns-teammates-of-osimhen-threat-334da4a8-809a-46c7-bd0e-f8fcdf275909",
+   "t": "Stuttgart defender warns teammates of Osimhen threat",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 3"
    ]
   }
  ]
