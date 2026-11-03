@@ -155,11 +155,11 @@ def main():
             continue
         url = f"{API}/blogs/{cfg['blog']}/posts/{game['post_id']}"
         h = {"Authorization": f"Bearer {tok}"}
-        post = requests.get(url, headers=h, params={"fields": "content,url"}, timeout=40)
+        post = requests.get(url, headers=h, params={"view": "ADMIN"}, timeout=40)
         if post.status_code in (403, 404):  # this Google account can't see the Zeda blog
             me = requests.get(f"{API}/users/self", headers=h, timeout=30).json()
             blogs = requests.get(f"{API}/users/self/blogs", headers=h, params={"fields": "items(id,url)"}, timeout=30).json()
-            sys.exit(f"No access to the Zeda blog with this Blogger login (HTTP {post.status_code}: {post.text[:150]}). "
+            sys.exit(f"No access to Zeda post {game['post_id']} with this Blogger login (HTTP {post.status_code}: {post.text[:150]}). "
                      f"Logged in as: {me.get('displayName')} {me.get('url')}; blogs it sees: {[b.get('url') for b in blogs.get('items', [])]}")
         post.raise_for_status()
         post = post.json()
