@@ -1,33 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.silverscreenandroll.com/lakers-scores-results/128177/lakers-vs-warriors-recap-box-score-stats-final-austin-reaves-luka-doncic",
-   "t": "Lakers blow huge early lead in ugly loss to Warriors",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 5، 8"
-   ]
-  },
-  {
-   "u": "https://www.youm7.com/story/2026/10/30/%D8%AC%D8%A7%D9%84%D8%A7%D8%AA%D8%A7-%D8%B3%D8%B1%D8%A7%D9%8A-%D9%8A%D9%81%D9%88%D8%B2-%D8%B9%D9%84%D9%89-%D9%83%D9%88%D9%86%D9%8A%D8%A7-%D8%B3%D8%A8%D9%88%D8%B1-4-0-%D8%A8%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D9%85%D8%B5%D8%B7%D9%81%D9%89/7599819",
-   "t": "جالاتا سراي يفوز على كونيا سبور 4-0 بمشاركة مصطفى محمد",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 276 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGX2cwMGFOMnY1VzNqdTJwMUZrLWs2UjRqU00weDMyYW5QREpudGdjRERRenI2eGQwQUdnbWhRbEtRd09xaEd5a3BVREc2Y2lJdy1TNElTem5JRTBWLWxZ?oc=5",
-   "t": "بعد تأخير الساعة 60 دقيقة.. مواعيد المدارس وطابور الصباح بالتوقيت الشتوي 2026 - المصري اليوم",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA0RkZYcEZKV29iOVRUVEdsN05RRmc1Uk9FSG1JUGtwcG9Demc2aDFLUjN6TExIZzJNZUpSX2VJNnZHNnN1T1dV?oc=5",
    "t": "بعد تغيير الساعة.. موعد صلاة الجمعة اليوم بالتوقيت الشتوي - صدى البلد",
    "title": "مواعيد الصلاة بالتوقيت الشتوي وحكم دار الإفتاء",
@@ -3246,6 +3219,35 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 1987",
     "كلمة رسميًا مش موجودة في المصدر، احذفها",
     "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'كيمي', 'فورمولا', 'انطونيلي'}) مع: كيمي أنطونيلي أصغر بطل للعالم في تاريخ الفورمولا 1)"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_economy/details/2026/11/3/3073146/%D9%83%D9%85-%D8%AA%D8%B3%D8%AC%D9%84-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%B3%D8%A8%D8%A7%D8%A6%D9%83-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-",
+   "t": "كم تسجل أسعار سبائك الذهب اليوم؟",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'2026', 'مصر'}) مع تشابه نصي مع: عطل مفاجئ يضرب واتساب في مصر 2026)"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7166922",
+   "t": "بقميص الزمالك.. عمرو الدردير يكشف تفاصيل إهداء عبد الله السعيد لميار الشوربجي",
+   "title": "عبد الله السعيد يهدي ميار الشوربجي قميص الزمالك بعد تتويجها",
+   "url": "https://www.egyptaway.com/2026/11/abdullah-said-gifts-zamalek-shirt-to.html",
+   "at": "2026-11-03T19:43:28.538457+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.formula1.com/en/latest/article/gallery-the-best-images-from-antonellis-title-celebrations.3c1keK7GIQDiP4ylcXr6Ox",
+   "t": "The best images from Antonelli's title-winning celebrations",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 4",
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'بطل', 'عالم', 'انطونيلي', 'كيمي'}) مع: كيمي أنطونيلي أصغر بطل للعالم في تاريخ الفورمولا 1)"
    ]
   }
  ]
