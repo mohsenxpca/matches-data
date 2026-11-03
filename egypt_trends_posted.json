@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1BTlZUZjJVb1k2ZHc3VHBmRkpmUmtKeWd5S3lDT19XaFdxQmgtSlFwSzA0aWhLQW5vSmlUY1B1ZVpHTGFNN3Vz?oc=5",
-   "t": "مواعيد القطارات من أسوان إلى القاهرة اليوم السبت 31-10-2026 - صدى البلد",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 368 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBVR1hhRng1SndNQkc3b0VIbGJETkRfVUs2VHl4Szc5aXJtalZmVW9hdlUwbXV0MHREYkt1c0lJdHprTzRoUlVRRg?oc=5",
    "t": "موعد صرف تكافل وكرامة لشهر نوفمبر 2026.. رابط وخطوات الاستعلام عن المعاش - الأسبوع",
    "at": "2026-10-31",
@@ -3251,6 +3242,15 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 2008، 9",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'تصريحات', 'مرتقبه'}) مع تشابه نصي مع: يوفنتوس ضد نابولي: تصريحات نارية قبل القمة المرتقبة في الدوري)"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/3/3073244/%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D9%8A%D9%81%D9%88%D8%B2-%D8%B9%D9%84%D9%89-%D8%B3%D9%85%D9%88%D8%AD%D8%A9-%D9%88%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1%D8%A7%D8%AA%D9%87-%D9%81%D9%8A-%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B7%D8%A9",
+   "t": "بيراميدز يفوز على  سموحة ويواصل انتصاراته في كأس الرابطة",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الـ body 451 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
