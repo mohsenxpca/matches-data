@@ -1925,6 +1925,24 @@
    "ok": true,
    "kind": "news",
    "brand": "فيفو"
+  },
+  {
+   "title": "Redmi Turbo 6 Max / Poco X9 Pro Max tipped with 7-inch 2K 185Hz LIPO display",
+   "url": "https://www.gizmochina.com/2026/11/03/redmi-turbo-6-max-7-inch-2k-185hz-lipo-display-leak/",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (659 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "هاتف من هونر ببطارية 14,000 مللي أمبير: هل انتهى عصر الشحن اليومي؟",
+   "url": "https://www.gsmarena.com/honors_14000mah_smartphone_battery_can_reportedly_last_a_week-news-75326.php",
+   "post_url": "https://www.review-mobile.com/2026/11/honor-14000mah-battery-smartphone-leak.html",
+   "at": "2026-11-03T20:18:52+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هونر"
   }
  ]
 }
