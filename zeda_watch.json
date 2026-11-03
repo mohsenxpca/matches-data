@@ -3,6 +3,53 @@
  "prices_from": "2026-10-25",
  "games": [
   {
+   "key": "mobile-legends",
+   "coda": "mobile-legends",
+   "post_id": "1589240712986412041",
+   "skus": [
+    [
+     "diamond_codashopEGP_50",
+     "155 جوهرة (141 + 14)"
+    ],
+    [
+     "diamond_codashopEGP_100",
+     "311 جوهرة (280 + 31)"
+    ],
+    [
+     "diamond_codashopEGP_300",
+     "949 جوهرة (840 + 109)"
+    ],
+    [
+     "diamond_codashopEGP_500",
+     "1,617 جوهرة (1,400 + 217)"
+    ],
+    [
+     "diamond_codashopEGP_1000",
+     "3,331 جوهرة (2,799 + 532)"
+    ],
+    [
+     "diamond_codashopEGP_1500",
+     "4,997 جوهرة (4,199 + 798)"
+    ],
+    [
+     "diamond_codashopEGP_2000",
+     "6,718 جوهرة (5,598 + 1,120)"
+    ],
+    [
+     "diamond_codashopEGP_2500",
+     "8,396 جوهرة (6,997 + 1,399)"
+    ],
+    [
+     "diamond_codashopEGP_3000",
+     "10,075 جوهرة (8,396 + 1,679)"
+    ],
+    [
+     "diamond_codashopEGP_3500",
+     "11,755 جوهرة (9,796 + 1,959)"
+    ]
+   ]
+  },
+  {
    "key": "blood-strike",
    "c1": "bloodstrike",
    "post_id": "6720374811127615064",
@@ -777,6 +824,601 @@
      "40000 جواهر",
      44317.78,
      "40000 جواهر"
+    ]
+   ]
+  },
+  {
+   "key": "valorant",
+   "coda": "valorant",
+   "post_id": "989744363936894749",
+   "skus": [
+    [
+     "b6eab794-3d69-4707-bbf3-b0e86d8121dc",
+     "475 Points"
+    ],
+    [
+     "2c2804b8-926c-49ca-8378-93372bc9b508",
+     "1000 Points"
+    ],
+    [
+     "9ad0ea0e-856b-48a6-8663-72419004f202",
+     "2050 Points"
+    ],
+    [
+     "3c4dcb47-b008-44ba-8a2f-348f88a55161",
+     "3650 Points"
+    ],
+    [
+     "660c2a95-50aa-458d-aca4-8f5510be49a8",
+     "5350 Points"
+    ],
+    [
+     "9562d7ca-9af7-4605-a26e-ca48e3a06105",
+     "11000 Points"
+    ]
+   ]
+  },
+  {
+   "key": "league-of-legends",
+   "coda": "league-of-legends",
+   "post_id": "5883340987340783688",
+   "skus": [
+    [
+     "82b12ca9-fc39-421e-b0ad-5d1ea36d199d",
+     "575 RP"
+    ],
+    [
+     "0e694567-c2d8-4392-aa6d-e8a49eb6e65b",
+     "1380 RP"
+    ],
+    [
+     "650431f6-2ef2-454e-9e78-f29111e0674a",
+     "2800 RP"
+    ],
+    [
+     "6aa5a28a-00c7-4c00-bcd6-40ab2a3dcbf8",
+     "4500 RP"
+    ],
+    [
+     "6d63527b-79df-4d05-99f9-54e233b4229e",
+     "6500 RP"
+    ],
+    [
+     "09153dd7-7513-4b4b-83f4-bd137ef3066b",
+     "13500 RP"
+    ]
+   ]
+  },
+  {
+   "key": "wild-rift",
+   "coda": "league-of-legends-wild-rift",
+   "post_id": "691051902571692874",
+   "skus": [
+    [
+     "7aeb70a6-c4cd-43c0-86c1-e2178a4b0ea0",
+     "Stellacorn’s Gift"
+    ],
+    [
+     "6df3e2f6-f873-4de8-964a-fb98fa66af83",
+     "425 Wild Cores"
+    ],
+    [
+     "6ec5c950-9587-4bb3-8550-c6011ed6636a",
+     "1000 Wild Cores"
+    ],
+    [
+     "894d459f-a1e0-41e2-8765-e9602303e0aa",
+     "1850 Wild Cores"
+    ],
+    [
+     "3575e5f9-81e9-4d22-8c19-c8a4967e95b4",
+     "Celestial Blessing"
+    ],
+    [
+     "e099cdd4-5854-4693-b4f9-0fb9054ed67d",
+     "3275 Wild Cores"
+    ],
+    [
+     "17ce482c-7a38-4d0b-9e80-36381503ca44",
+     "4800 Wild Cores"
+    ],
+    [
+     "9aad1781-c70d-4b48-affc-5ef65949ce14",
+     "10000 Wild Cores"
+    ]
+   ]
+  },
+  {
+   "key": "captain-tsubasa",
+   "coda": "captain-tsubasa-dream-team",
+   "post_id": "8398937499514409606",
+   "skus": [
+    [
+     "42316",
+     "1 Dreamballs"
+    ],
+    [
+     "42317",
+     "12 Dreamballs"
+    ],
+    [
+     "42318",
+     "30 Dreamballs"
+    ],
+    [
+     "42319",
+     "60 Dreamballs"
+    ],
+    [
+     "42320",
+     "80 Dreamballs"
+    ],
+    [
+     "42321",
+     "135 Dreamballs"
+    ],
+    [
+     "42322",
+     "175 Dreamballs"
+    ]
+   ]
+  },
+  {
+   "key": "8-ball-pool",
+   "coda": "8-ball-pool",
+   "post_id": "3649223420030094337",
+   "skus": [
+    [
+     "24306",
+     "20 Cash"
+    ],
+    [
+     "24308",
+     "50 Cash"
+    ],
+    [
+     "24311",
+     "110 Cash"
+    ],
+    [
+     "24314",
+     "250 Cash"
+    ],
+    [
+     "24316",
+     "800 Cash"
+    ],
+    [
+     "24318",
+     "Cash 2 000"
+    ],
+    [
+     "24307",
+     "Coins 20 000"
+    ],
+    [
+     "24309",
+     "Coins 52 000"
+    ],
+    [
+     "24312",
+     "Coins 112 000"
+    ],
+    [
+     "24315",
+     "Coins 256 000"
+    ],
+    [
+     "24317",
+     "Coins 800 000"
+    ],
+    [
+     "24319",
+     "Coins 2 000 000"
+    ],
+    [
+     "24305",
+     "5 Scratchers"
+    ],
+    [
+     "24304",
+     "3  Golden Shots"
+    ],
+    [
+     "24310",
+     "15 Scratchers"
+    ],
+    [
+     "24313",
+     "Pool Coda Bundle"
+    ]
+   ]
+  },
+  {
+   "key": "top-eleven",
+   "coda": "top-eleven",
+   "post_id": "6610568931696433543",
+   "skus": [
+    [
+     "19602",
+     "14 Tokens"
+    ],
+    [
+     "19603",
+     "37 Tokens"
+    ],
+    [
+     "19604",
+     "80 Tokens"
+    ],
+    [
+     "19605",
+     "176 Tokens"
+    ],
+    [
+     "19606",
+     "500 Tokens"
+    ],
+    [
+     "19607",
+     "1031 Tokens"
+    ]
+   ]
+  },
+  {
+   "key": "banishers",
+   "coda": "banishers-faiths-entwined",
+   "post_id": "1814874883830364938",
+   "skus": [
+    [
+     "com.eyougame.ftt.1099",
+     "6+1 Token"
+    ],
+    [
+     "com.eyougame.ftt.10499",
+     "30+5 Token"
+    ],
+    [
+     "com.eyougame.ftt.10999",
+     "68+10 Token"
+    ],
+    [
+     "com.eyougame.ftt.101499",
+     "98+12 Token"
+    ],
+    [
+     "com.eyougame.ftt.101999",
+     "128+18 Token"
+    ],
+    [
+     "com.eyougame.ftt.102999",
+     "198+22 Token"
+    ],
+    [
+     "com.eyougame.ftt.104999",
+     "328+42 Token"
+    ],
+    [
+     "com.eyougame.ftt.109999",
+     "648+92 Token"
+    ],
+    [
+     "com.eyougame.ftt.1019999",
+     "1300+200 Token"
+    ],
+    [
+     "com.eyougame.ftt.1049999",
+     "3300+500 Token"
+    ]
+   ]
+  },
+  {
+   "key": "world-war-heroes",
+   "coda": "world-war-heroes",
+   "post_id": "8746247202655853303",
+   "skus": [
+    [
+     "gold_1.codashop",
+     "100 Gold"
+    ],
+    [
+     "miner_gold_7.codashop",
+     "Supply 7 days (700 gold)"
+    ],
+    [
+     "gold_2.codashop",
+     "300 Gold"
+    ],
+    [
+     "gold_3.codashop",
+     "550 Gold"
+    ],
+    [
+     "gold_41.codashop",
+     "1400 Gold"
+    ],
+    [
+     "gold_5.codashop",
+     "3000 Gold"
+    ],
+    [
+     "gold_6.codashop",
+     "7800 Gold"
+    ],
+    [
+     "gold_7.codashop",
+     "16000 Gold"
+    ],
+    [
+     "gacha_1.codashop",
+     "2100 Keys"
+    ],
+    [
+     "gacha_2.codashop",
+     "4250 Keys"
+    ],
+    [
+     "gacha_3.codashop",
+     "8750 Keys"
+    ],
+    [
+     "gacha_4.codashop",
+     "22500 Keys"
+    ],
+    [
+     "battle_pass_premium",
+     "Battle Pass"
+    ]
+   ]
+  },
+  {
+   "key": "modern-strike",
+   "coda": "modern-strike-online",
+   "post_id": "2292065781977804579",
+   "skus": [
+    [
+     "38746",
+     "10000 gold"
+    ],
+    [
+     "38747",
+     "16000 gold"
+    ],
+    [
+     "38748",
+     "35000 gold"
+    ],
+    [
+     "38749",
+     "60000 gold"
+    ],
+    [
+     "123207",
+     "300000 gold"
+    ],
+    [
+     "123239",
+     "10000 credits"
+    ],
+    [
+     "123251",
+     "25000 credits"
+    ],
+    [
+     "123266",
+     "55000 credits"
+    ],
+    [
+     "123281",
+     "100000 credits"
+    ],
+    [
+     "123296",
+     "VIP 7 days"
+    ],
+    [
+     "123310",
+     "VIP 14 days"
+    ],
+    [
+     "123322",
+     "VIP 30 days"
+    ],
+    [
+     "123334",
+     "VIP 60 days"
+    ]
+   ]
+  },
+  {
+   "key": "ludo-club",
+   "coda": "ludo-club",
+   "post_id": "8628363821268119560",
+   "skus": [
+    [
+     "cash_pack_120",
+     "Cash Pack - 120"
+    ],
+    [
+     "cash_pack_250",
+     "Cash Pack - 250"
+    ],
+    [
+     "cash_pack_700",
+     "Cash Pack - 700"
+    ],
+    [
+     "cash_pack_3200",
+     "Cash Pack - 3200"
+    ],
+    [
+     "cash_pack_10800",
+     "Cash Pack - 10800"
+    ],
+    [
+     "cash_pack_20000",
+     "Cash Pack - 20000"
+    ],
+    [
+     "coin_pack_30k",
+     "Coin Pack - 30k"
+    ],
+    [
+     "coin_pack_150k",
+     "Coin Pack - 150k"
+    ],
+    [
+     "coin_pack_1m",
+     "Coin Pack - 1m"
+    ],
+    [
+     "coin_pack_2.5m",
+     "Coin Pack - 2.5m"
+    ],
+    [
+     "coin_pack_10m",
+     "Coin Pack - 10m"
+    ],
+    [
+     "coin_pack_50m",
+     "Coin Pack - 50m"
+    ]
+   ]
+  },
+  {
+   "key": "maple-haven",
+   "coda": "maple-haven-city-rush",
+   "post_id": "2208033634585715808",
+   "skus": [
+    [
+     "bundle_starter",
+     "Starter Bundle"
+    ],
+    [
+     "gems_pack_01",
+     "Gems Pack 01 (Pocket Boost (+20 Gems First-time Bonus)"
+    ],
+    [
+     "gems_pack_02",
+     "Gems Pack 02 (Popular Choice (+60 Gems First-time Bonus)"
+    ],
+    [
+     "gems_pack_03",
+     "Gems Pack 03 (Double Value Pack (+250 Gems First-time Bonus)"
+    ],
+    [
+     "gems_pack_04",
+     "Gems Pack 04 (Power Value (+300 Gems First-time Bonus)"
+    ],
+    [
+     "gems_pack_05",
+     "Gems Pack 05 (Pro Gem Vault (+400 Gems First-time Bonus)"
+    ],
+    [
+     "gems_pack_06",
+     "Gems Pack 06 (Ultimate Gem Treasure (+1800 Gems First-time Bonus)"
+    ]
+   ]
+  },
+  {
+   "key": "mafia42",
+   "coda": "mafia42-mafia-party-game",
+   "post_id": "6396309912163515434",
+   "skus": [
+    [
+     "7",
+     "90 لونا (42+48) (ضعف لونا مع كل شراء!)"
+    ],
+    [
+     "8",
+     "300 لونا (142+158) (ضعف لونا مع كل شراء!)"
+    ],
+    [
+     "9",
+     "882 لونا (420+462) (ضعف لونا مع كل شراء!)"
+    ],
+    [
+     "1324_409_1",
+     "حزمة التثبيت (المستوى 1) (حزمة الحدث المستوى 1 + 25 لونا مكافأة)"
+    ],
+    [
+     "10",
+     "2982 لونا (1420+1562) (ضعف لونا مع كل شراء!)"
+    ],
+    [
+     "1157_39_0",
+     "Season 18 Mafia Pass"
+    ],
+    [
+     "1325_410_1",
+     "حزمة التحديث (المستوى 2) (حزمة الحدث المستوى 2 + 150 لونا مكافأة)"
+    ],
+    [
+     "11",
+     "8910 لونا (4242+4668) (ضعف لونا مع كل شراء!)"
+    ],
+    [
+     "1326_411_1",
+     "حزمة CorGear إيفوليوشن (المستوى 3) (حزمة الحدث المستوى 3 + 300 لونا مكافأة)"
+    ]
+   ]
+  },
+  {
+   "key": "zepeto",
+   "coda": "zepeto",
+   "post_id": "477583869504601429",
+   "skus": [
+    [
+     "zem_7_n",
+     "7 ZEMs"
+    ],
+    [
+     "zem_14_n",
+     "14 ZEMs"
+    ],
+    [
+     "zem_28",
+     "28 ZEMs"
+    ],
+    [
+     "zem_58",
+     "58 ZEMs"
+    ],
+    [
+     "zem_128",
+     "128 ZEMs"
+    ],
+    [
+     "zem_323",
+     "323 ZEMs"
+    ],
+    [
+     "zem_1000",
+     "1,000 ZEMs"
+    ],
+    [
+     "n_coin_4680",
+     "4680 Coins"
+    ],
+    [
+     "n_coin_9700",
+     "9,700 Coins"
+    ],
+    [
+     "n_coin_25200",
+     "25200 Coins"
+    ],
+    [
+     "n_coin_40700",
+     "40,700 Coins"
+    ],
+    [
+     "n_coin_110000",
+     "110,000 Coins"
+    ],
+    [
+     "n_coin_300000",
+     "300000 Coins"
     ]
    ]
   }

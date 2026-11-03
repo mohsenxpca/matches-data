@@ -73,7 +73,38 @@ def match(items, bundles):
     return out
 
 
+def codashop(slug):
+    """-> (in stock on the page?, {sku id: out of stock?}); ({} = page gone or no packages)."""
+    r = requests.get("https://www.codashop.com/ar-eg/" + slug, headers={"User-Agent": UA, "Accept-Language": "ar"}, timeout=40)
+    if r.status_code in (404, 410):
+        return False, {}
+    r.raise_for_status()
+    h = r.text
+    if "sku-item-tile-" not in h and "<html" not in h[:2000].lower():
+        raise RuntimeError("unexpected page (blocked?)")
+    starts = [m.start() for m in re.finditer(r'<div id="sku-item-tile-', h)] + [len(h)]
+    skus = {}
+    for a, b in zip(starts, starts[1:]):
+        t = h[a:min(b, a + 6000)]
+        sid = re.search(r'capture-custom-sku-id="([^"]+)"', t)
+        if sid:
+            skus[sid.group(1)] = bool(re.search(r"out-of-stock|sold-out|disabled|نفذ|غير متوفر|Out of stock|Sold out", t, re.I))
+    avail = re.search(r'"availability":"https?://schema.org/(\w+)"', h)
+    return (avail.group(1) == "InStock") if avail else bool(skus), skus
+
+
 def wanted_off(game):
+    if "coda" in game:
+        ok, skus = codashop(game["coda"])
+        if not ok or not skus:
+            return {name: "اللعبة اتشالت أو اتوقفت على كوداشوب" for _, name in game["skus"]}
+        off = {}
+        for sid, name in game["skus"]:
+            if sid not in skus:
+                off[name] = "الباقة اتشالت من كوداشوب"
+            elif skus[sid]:
+                off[name] = "الباقة نفذت على كوداشوب"
+        return off
     prod, bundles, txt = carry1st(game["c1"])
     whole = None
     if prod is None:
@@ -145,11 +176,11 @@ def main():
         key = game["key"]
         try:
             off = wanted_off(game)
-        except Exception as e:  # Carry1st down / blocked: change nothing for this game
-            print(f"{key}: Carry1st check failed ({str(e)[:100]}), left as is")
+        except Exception as e:  # Carry1st / Codashop down or blocked: change nothing for this game
+            print(f"{key}: source check failed ({str(e)[:100]}), left as is")
             continue
         mine = state.get(key, {})
-        print(f"{key}: {len(off)} off on Carry1st" + (" " + str(sorted(off)) if off else ""))
+        print(f"{key}: {len(off)} off on {'Codashop' if 'coda' in game else 'Carry1st'}" + (" " + str(sorted(off)) if off else ""))
         if dry:
             state[key] = off
             continue
