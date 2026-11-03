@@ -2054,6 +2054,16 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Apple reports record quarter - iPhone and Mac sales are up, Services reach an all-time high - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQWd4Qlp4bm9BbHBRYVB0dlZQR05lV013RGdqTFV5WDM2VHpUc0dGcWhPUUhqZDRDbE0zZ19sUWppV1I1U0RyZnRSUVZMMkZKeVEyNlFhVVk5cDFOUzFkSm1YMlY0S0J1ZWFxb3drRlRzMGNPWXNiV3N4cDFHMVdtQlBBNk1rY29fOU0tYXZFVnFHOEVVVVlHNFpSS1U3aVFUNjRMVG54V3Z0ODVBcVc4Q3JqazJoaGlTUDBjQXlIb1BZNE1DRFZF0gHDAUFVX3lxTE5EWElyd2NWM0VFSXRQNGcyNlY2V2hSNXRSVG01LUhSZzFlR0NEYnBHbG1ibjVwcjhESWx4WDdOeWVzSzJ1RW1seWZ1eGNBVHExYTROMzVScDJVQzFGZi1rWTV1dml4bWF5VlpGTkowdW5XQlVHLUhORzlZRWxqNU41VUVaa1lUZWZlTGJjX1VJUTVUWGl5Z3ZUVW01SzVJUU1iM1RSb2hVRUpxdFRBbXFJb3VMRjd4a21XaG5PZ2luYjNuMA?oc=5",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
