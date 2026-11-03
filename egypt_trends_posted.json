@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.cnn.com/2026/10/29/health/daylight-saving-time-children-sleep-wellness",
-   "t": "Permanent Daylight Saving Time could put schoolchildren’s lives at risk. An expert explains",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 16000"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiogNBVV95cUxQT1FGamQyNkdyaUtYanFtbndwd1B1NFFCb2I0SWtmaHV6SEZEbVZmeWFGNklQbldnTDROTTR5QmpfV3VWelhDZ2tQUGRoT1BrN1ppbWk5YVhvZW9kRllnT29IMlpES2lzV3VVSVIybWRPMmd1V3hGQThMLTNJanYwZ0RjRjRrNGFCblJlWXFBd3R6YUhadHpZMTRob3JfemthamRVVUFpOXRNemlkaWE0enlkZjJHb3lmU3gtN1hJZjBGMDdNeUw2ZjkzY01HVEh1aGRSenhfOEJsdGVSNEpWWUx3YzVRaXVDa0lVX2hsNkoxb3dLdkw0aEtrTmkxbjJqdDRhZG50bEtFOURxM0g2MVBPVDZIa0xVOEVDUXZVZV84dWtaUVZOMDhQaUtVRFJidWdCVmJjbjVNYXcycks1NEg2YnllTFlaSlpoZ0RyZjdTVEoxRlFST0FNQlJBeDJHZ0ptdlh5aVNHNWt5YWROc2V2OHdseE5Rb0x4Q2lhRHp3TS13WHJrVkM3aEJpVUNJZUdETnl2eWVLbzV4NW9GOFBB0gGcA0FVX3lxTE1MZmg5elg5YUVWZEdCcU04eHc0YlR2UVRQTXVRM29TSlU2dUFJV0Z4d1lXWHF4d2hRZEI1RUE4N05uZWdEam4zT213b3A4WFNsZGJvQjc3NUctY1Y5UzFLa2ViaVExc1IxbjlMSWJXNEpwMU9udGgtNmsySnk1T084V2w1N0xrbFNYMjlMLUxCQ3FBMmZqZmpEQ0tTbjJOcnFFZVBTdHVMamJUbzF1U0t4Yjh6djZjSnVtTTFEMUNGSGhNZHhLSGZhb3YtZHd3ZHV3SXhxMGxfSXJfYlBvSUNobkxHaDhtQXBqeUxieEFDZ1l0N2xlZTVqdm9SOFVEd0s4WkVuazJMQzZVUDR5cmtpV0RDZEtNaEx2Nk9reHpELXZKM2NmS3RUR1lyQVB3bFR1VzFCcmxzWHN2djE2SjRsRWhxZmlKWHRJaUxwTV9QQnpFLVl4NHd2T2dhdFlqSzdDVzNMWTR5aWRtYUFBNGtWWlRQVVpXbjNxSDUzOXhFRjdUbDJPSVVmYXRxVWg5ZGk2MWwwV2NUNjVwVXk?oc=5",
    "t": "قبل تأخير الساعة 60 دقيقة الليلة.. كل ما تريد معرفته عن التوقيت الشتوى - اليوم السابع",
    "at": "2026-10-30",
@@ -3250,6 +3241,15 @@
    "at": "2026-11-03T07:23:07.563419+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://annahar-news.com/news/single/39405",
+   "t": "الأخضر يستهدف عرش آسيا من بوابة الأرض والجمهور",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 3"
+   ]
   }
  ]
 }
