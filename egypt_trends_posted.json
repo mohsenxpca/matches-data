@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMivwRBVV95cUxPZWNfYmJuRGh4ZHprRzQtb3laYTFkeTRFSXlCVXdJQ0l0QnJVQ1ZzUWsxZURlcVFUaXp2RktlbGpIU2JiRzQtZ1kybWYxSWViQUQ2WUlxeEhQQVFIVFFfTTFpWFlOT1dYYzVPYmE1ZmF6RVhMbnRJcHpOaDlLbjdRZEZVUGpuNUFJTE1OQ0RyZ2wxeHR1NmIwdFZ5bUd6VHk5cUppNmxMSm9maUx4ZXBqUDNscl9hdVU2TWtPNmRteWc2UmdDUTlLRUMtUlRERXVyLTJKbmtLT3ItNWplSWdHY3liWW5iWW8xa25fTUZqajRPVlpuSEthMlZ3U3ZWQXFZR1BHZTlhaU5NQ1JsZDdPd1BTb3V0bDM2cV9LeGZjMFgxOVpWYnlSZGVBNDNWRlJKcUlhXzQyb0NpTFFudHFFajJ3QWJrTzNLdU4tNUpfUk15U3kxVl9LeXlzWUlleFp6azFmT2N5RXRKU1hTVm53TEM1NTY4cThJYkdSVTMwRXlseFBnT2xta1c0aEUtR0toWGE0aFZraHQxWTJsX0xMV2ZGNDBxZlJsWExZWG1PT1FiS0ljaGhUVzJyNnE1c1dfSlgydWliQS10eUdkVHpuRkROTk9xT2Rpb0lab2M3OTljZ0hPSDRTWHR5b1JYTjJCV2xORkdEMGtBRWhIN29hSFJ1VVFWRjFtS2pIajk4alZoN0ZuaTJtS2xobkRQaEJLU29jT1ZlLVlScmU0RU9vUWVzbW9mUE9uNUktUlUwMNIBugRBVV95cUxQN0UtZEx0QlJqejV2NWZ3ejFSWlJySTE3NVVSSG42Y2FCT1V1bnhTdGlSd2VLM2ttcTZCTnpycEZud1hoX0FBcEhLUXZLRmNRT2t6NWh6WkZYc1BBR2g0Z1lKNlFsbWxfaFNKRjRkUWwwbUJqRFQ1LXNscU54dWVjaWNvZDk0enFqb1RZY0psWms3UFpKWnJyR0pKRUlKZVVuTFpMTThjeU44SkpCVV9RRjBnME5QUEVPbkVTbmlZdjZKeEktX0dGVDViNk1QM09tSk1vRmpJeGJSUWFNRVdVVDhVRXBXendOTWhfMWV6emtCeFZscGZYZ2Y0WWttMmY3aU9JcTl3TmhxWkZ3Tk5GMW05cU54M2VIanJhMGVmcExHWkpra3dvckdHU09NQ1lZcndMVVU3TVpqTURteWVsWmNtZ1p1aXU3bUFLNUVLVXdhUzRkZC0xSnF0SUtoNDVfWkctV0RfSDcxbVVCc0NNUzFnRFlaQ0xQX21manJ5bnMtTkZBZDZoUzdrZjJWa0VLWDJpRll6VXFKb2RpZzEweC10aXJOVzh0cVZ1a2ZQdHo4cWs2SnRzeUluSzlib2VTdG1OWDFkWlMxTW1fVDUtWmxFLWtTcE42SkVmcVg2VjlVU0dLSjYzd0V3NmR1dzRxSFIxbWRWOC12cGpOZzdQZE1xa0dEY3BWbmFobzEtNGpuOFBoN3FKcTdfbVQ5OHNHYVlyRDZTZms0aDVQVUdTcjNnOGZXNlMxM0E?oc=5",
-   "t": "أمطار وانخفاض الحرارة.. الأرصاد تكشف الظواهر الجوية وخرائط الأمطار غدا - اليوم السابع",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 436 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/31/سعر-الدرهم-الإماراتى-فى-عطلة-السبت-الشراء-والبيع-بكام/7599304",
    "t": "سعر الدرهم الإماراتى فى عطلة السبت.. الشراء والبيع بكام؟",
    "at": "2026-10-31",
@@ -3255,6 +3246,18 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 5",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ميونخ', 'ايرن'}) مع تشابه نصي مع: دير كلاسيكو.. بايرن ميونخ يسعى لمنافسة الكلاسيكو عالمياً)"
+   ]
+  },
+  {
+   "u": "https://dailysports.net/news/total-chaos-at-old-trafford-furious-man-united-fans-throw-rubbish-towards-their-own-players-video/",
+   "t": "Total chaos at Old Trafford! Furious Man United fans throw rubbish towards their own players. VIDEO",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
    ]
   }
  ]
