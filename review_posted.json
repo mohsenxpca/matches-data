@@ -1968,6 +1968,54 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "vivo V80 FE listed online with Dimensity 7400-Turbo SoC and 7,000mAh battery",
+   "url": "https://www.gsmarena.com/vivo_v80_fe_listed_online_with_dimensity_7400turbo_soc_and_7000mah_battery-news-75320.php",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": "Phone 'v80 fe' already covered in: إطلاق هاتف Vivo V80 FE ببطارية 7000 ملي أمبير وكاميرات ZEISS"
+  },
+  {
+   "title": "Oppo Reno17 and Reno17 Pro's specs, colors, and configurations leak",
+   "url": "https://www.gsmarena.com/oppo_reno17_and_reno17_pro_specs_colors_and_configurations_leak-news-75318.php",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
+  },
+  {
+   "title": "Thinking of buying a Galaxy S25 Ultra or S26 Ultra in India? Now’s the time",
+   "url": "https://www.sammobile.com/news/thinking-buying-galaxy-s25-ultra-s26-ultra-india-nows-the-time/",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": "Phone 's26 ultra' already covered in: مراجعة Samsung Galaxy S26 Ultra: كاميرا 200 ميجابكسل وشاشة الخصوصية وشحن 60 وات"
+  },
+  {
+   "title": "Here’s what the new Galaxy S25 update brings",
+   "url": "https://www.sammobile.com/news/heres-what-new-galaxy-s25-update-brings/",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (600 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung is bringing a battery upgrade with the Galaxy A38",
+   "url": "https://www.sammobile.com/news/galaxy-a38-battery-capacity-leaks/",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (692 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "ميزة Quick Share قادمة لتطبيقات أندرويد وآيفون الخارجية قريباً",
+   "url": "https://www.sammobile.com/news/quick-share-come-third-party-android-iphone-apps/",
+   "post_url": "https://www.review-mobile.com/2026/11/quick-share-integration-third-party-apps.html",
+   "at": "2026-11-03T21:46:53+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
