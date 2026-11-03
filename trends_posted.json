@@ -574,6 +574,18 @@
    "at": "2026-11-03",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "اجازة رسمية",
+   "at": "2026-11-03",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "العراق",
+   "at": "2026-11-03",
+   "ok": false,
+   "why": "off-topic"
   }
  ]
 }
