@@ -156,6 +156,10 @@ def main():
         url = f"{API}/blogs/{cfg['blog']}/posts/{game['post_id']}"
         h = {"Authorization": f"Bearer {tok}"}
         post = requests.get(url, headers=h, params={"fields": "content,url"}, timeout=40)
+        if post.status_code in (403, 404):  # this Google account can't see the Zeda blog
+            me = requests.get(f"{API}/users/self", headers=h, timeout=30).json()
+            sys.exit(f"No access to the Zeda blog with this Blogger login (HTTP {post.status_code}). "
+                     f"Logged in as: {me.get('displayName')} {me.get('url')} - add it as an admin of zeda-shop.com in Blogger.")
         post.raise_for_status()
         post = post.json()
         try:
