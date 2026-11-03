@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/10/28/%D9%85%D8%A7%D9%8A%D8%A7-%D8%AF%D9%8A%D8%A7%D8%A8-%D8%AA%D8%AE%D8%B7%D9%81-%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D8%A7%D8%B1-%D8%A8%D8%A5%D8%B7%D9%84%D8%A7%D9%84%D8%A9-%D9%81%D8%B6%D9%8A%D8%A9-%D8%A8%D8%B1%D8%A7%D9%82%D8%A9-%D9%81%D9%8A-%D8%A3%D8%B3%D8%A8%D9%88%D8%B9-%D8%A7%D9%84%D8%A3%D8%B2%D9%8A%D8%A7%D8%A1/7597627",
-   "t": "مايا دياب تخطف الأنظار بإطلالة فضية براقة في أسبوع الأزياء بدبي",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "الـ body 409 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://arabic.cnn.com/style/article/2026/10/28/italian-summer-style-at-dubai-fashion-week",
-   "t": "دراجات ملوّنة وأزهار.. مشهد إيطالي غير مألوف في أسبوع الموضة بدبي",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "الـ body 348 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/29/%D8%A7%D8%AD%D8%B0%D8%B1-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D9%86%D9%83%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%AD%D9%88%D9%8A%D9%84%D8%A7%D8%AA-%D9%81%D9%89-%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D9%8A%D8%AA-%D8%A7%D9%84%D9%84%D9%8A%D9%84%D8%A9/7598998",
    "t": "احذر استخدام التطبيقات البنكية والتحويلات فى هذا التوقيت الليلة",
    "at": "2026-10-30",
@@ -3251,6 +3233,25 @@
    "ok": false,
    "reason": [
     "الـ body 449 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7165926",
+   "t": "مهاجم وصانع ألعاب.. الاتحاد السكندري يحدد أولوياته في الميركاتو الشتوي",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الـ body 464 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.mansfieldradio.co.uk/newsandsport/news-and-sport/national-sport/newcastle-are-flat-and-boring-jamie-carragher-warns-magpies-face-tough-premier-league-season-after-everton-defeat/",
+   "t": "'Newcastle are flat and boring' – Jamie Carragher warns Magpies face tough Premier League season after Everton defeat",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 5",
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'نيوكاسل', 'ايفرتون', 'ازمه'}) مع: أزمة جاك غريليش تثير الجدل قبل مواجهة نيوكاسل وإيفرتون)"
    ]
   }
  ]
