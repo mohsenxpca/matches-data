@@ -1898,6 +1898,33 @@
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
+  },
+  {
+   "title": "Xiaomi’s new smart lock has a fingerprint reader, a USB-C port, and eight AA batteries",
+   "url": "https://www.gizmochina.com/2026/11/03/xiaomis-new-smart-lock-has-a-fingerprint-reader-a-usb-c-port-and-eight-aa-batteries/",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (634 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Huawei Pura X View surpassed 750,000 units in sales",
+   "url": "https://www.gizmochina.com/2026/11/03/huawei-pura-x-view-surpassed-750000-units-in-sales/",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (614 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "إطلاق هاتف Vivo V80 FE ببطارية 7000 ملي أمبير وكاميرات ZEISS",
+   "url": "https://www.gizmochina.com/2026/11/03/vivo-v80-fe-goes-official/",
+   "post_url": "https://www.review-mobile.com/2026/11/vivo-v80-fe-launch-specs.html",
+   "at": "2026-11-03T19:45:45+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "فيفو"
   }
  ]
 }
