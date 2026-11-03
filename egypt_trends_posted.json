@@ -1,33 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/10/30/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%A8%D9%86%D8%B2%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%B3%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%89-%D9%85%D8%AD%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-30-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1/7600012",
-   "t": "سعر البنزين والسولار فى محطات الوقود اليوم الجمعة 30 أكتوبر 2026",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 289 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.almasryalyoum.com/news/details/4397319",
-   "t": "سعر أنبوبة البوتاجاز للمنازل اليوم السبت.. رسميًا بعد قرار لجنة التسعير",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 471 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://heavy.com/sports/nba/golden-state-warriors/injury-report-vs-lakers-october-30/",
-   "t": "Golden State Warriors Announce Injury Report for Lakers Rematch (Oct. 30)",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBVWkFPNGl6MnlNSEpWSWI3dU1udHBPeXhMaUpsVkRQN2JPZG00ZnU1VlRSdkRmQ0dJZ2o4OU5XOHhJN3h0?oc=5",
    "t": "سعر الدولار اليوم السبت 31 أكتوبر 2026.. آخر تحديث لأسعار العملة الأمريكية في البنوك المصرية - جريدة الدستور",
    "at": "2026-10-31",
@@ -3261,6 +3234,33 @@
    "at": "2026-11-04T00:28:27.616766+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.football365.fr/barcelone-aston-villa-yamal-bouillant-son-superbe-but-en-video-10325228.html",
+   "t": "Barcelone-Aston Villa : Yamal bouillant ! Son superbe but en vidéo",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'يامال', 'لفوز', 'امين'}) مع: هانسي فليك: لامين يامال يمتلك مستوى يؤهله للفوز بالكرة الذهبية)"
+   ]
+  },
+  {
+   "u": "https://www.goal.com/fr/news/un-casse-tete-pour-flick-le-barca-dans-l-embarras-avant-le-choc-contre-aston-villa/bltfe97feee034d0178",
+   "t": "Un casse-tête pour Flick : le Barça dans l'embarras avant le choc contre Aston Villa",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'رشلونه', 'ازمه'}) مع تشابه نصي مع: برشلونة يراقب ليساندرو مارتينيز: أزمة مدافع اليونايتد تفتح الباب)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLTVhVZDU5RC00Tzc1VVVDSmVmM2RLM24yaHJZNnlCd0Y3QkJodnVtUE1XUWhhd1FPWHRGMzRVR1Vhb1RZTGV5OG9GTVB2RDJzVjl1OFlqNS1JTEJyVW5v?oc=5",
+   "t": "بيان عاجل بشأن الطقس اليوم : اتخذوا التدابير والاستعدادات اللازمة - المصري اليوم",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'طقس', 'حاله'}) مع تشابه نصي مع: حالة الطقس في روسيا: بداية أسبوع بتباين واسع واقتراب الشتاء)"
+   ]
   }
  ]
 }
