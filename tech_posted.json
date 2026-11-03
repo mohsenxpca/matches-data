@@ -389,6 +389,64 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/chainalysis-security-breach-data.html",
    "title": "اختراق شركة Chainalysis وتقارير عن تسريب بيانات"
+  },
+  {
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+   "t": "Anthropic clamps down on Claude’s AI video game clones",
+   "at": "2026-11-03",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/anthropic-claude-video-games.html",
+   "title": "أنتروبيك تمنع استنساخ ألعاب الفيديو بأداة Claude"
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+   "t": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+   "at": "2026-11-03",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+   "t": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+   "at": "2026-11-03",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+   "t": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+   "at": "2026-11-03",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+   "t": "Apple may try to increase revenue by doing…something with third-party AI apps",
+   "at": "2026-11-03",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+   "t": "OpenAI pitches data center power plants as a way to protect nearby areas",
+   "at": "2026-11-03",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+   "t": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+   "at": "2026-11-03",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+   "t": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+   "at": "2026-11-03",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+   "t": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+   "at": "2026-11-03",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/garry-tan-ai-tokens-spending.html",
+   "title": "رئيس Y Combinator ينفق 200 ألف دولار على الـ AI"
   }
  ]
 }
