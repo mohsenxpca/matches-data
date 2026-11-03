@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://arabic.cnn.com/miscellaneous/article/2026/10/30/winter-time-begins-in-egypt-clocks-set-back-60-minutes",
-   "t": "بدء تطبيق التوقيت الشتوي في مصر.. وتأخير الساعة 60 دقيقة",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "الـ body 401 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/29/%D9%85%D9%88%D8%A7%D9%82%D9%8A%D8%AA-%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-30-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-2026-%D9%85%D8%B9-%D8%A8%D8%AF%D8%A1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A8%D8%A7%D9%84%D8%AA%D9%88%D9%82%D9%8A%D8%AA/7599039",
    "t": "مواقيت الصلاة الجمعة 30 أكتوبر 2026 مع بدء العمل بالتوقيت الشتوى",
    "at": "2026-10-30",
@@ -3252,6 +3243,15 @@
    "at": "2026-11-03T03:43:43.766772+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.aol.com/articles/produced-kind-performance-moyes-loves-220848000.html",
+   "t": "Who produced the kind of performance Moyes loves? - player ratings",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'نيوكاسل', 'ايفرتون'}) مع تشابه نصي مع: أزمة جاك غريليش تثير الجدل قبل مواجهة نيوكاسل وإيفرتون)"
+   ]
   }
  ]
 }
