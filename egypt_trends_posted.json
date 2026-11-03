@@ -1,32 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/10/31/فضلوا-البورصة-والذهب-كواليس-أضخم-إعادة-هيكلة-لثروات-المصريين/7599774",
-   "t": "فضلوا البورصة والذهب.. كواليس أضخم إعادة هيكلة لثروات المصريين",
-   "title": "فضلوا البورصة والذهب.. أضخم إعادة هيكلة لثروات المصريين",
-   "url": "https://www.egyptaway.com/2026/10/egyptian-wealth-restructuring-gold.html",
-   "at": "2026-10-31T09:11:22.759345+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
-   "u": "https://www.youm7.com/story/2026/10/31/فضلوا-البورصة-والذهب-كواليس-أضخم-إعادة-هيكلة-لثروات-المصريين/7599774",
-   "t": "فضلوا البورصة والذهب.. كواليس أضخم إعادة هيكلة لثروات المصريين",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
-   "u": "https://www.elbalad.news/7162206",
-   "t": "مشجع درجة تالتة رهيب.. هشام حنفي يتحدث عن عشقه للأهلي ومغامراته أمام الزمالك",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 415 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.silverscreenandroll.com/lakers-scores-results/128177/lakers-vs-warriors-recap-box-score-stats-final-austin-reaves-luka-doncic",
    "t": "Lakers blow huge early lead in ugly loss to Warriors",
    "at": "2026-10-31",
@@ -3240,6 +3214,38 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 3، 7",
     "اكتب الأرقام بالأرقام مش بالحروف (مئة)"
+   ]
+  },
+  {
+   "u": "https://turkish-football.com/okan-buruk-finalizes-lineup-as-galatasaray-target-fifth-straight-win-against-vfb-stuttgart/",
+   "t": "Okan Buruk Finalizes Lineup as Galatasaray Target Fifth Straight Win Against VfB Stuttgart",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 3، 5",
+    "الـ body 377 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (نسبة تطابق مرتفعة مع مقال منشور: تشكيل برشلونة الرسمي لمواجهة ديبورتيفو ألافيس في الدوري الإسباني)"
+   ]
+  },
+  {
+   "u": "https://www.formula1.com/en/latest/article/f1s-youngest-world-champions-as-antonelli-smashes-the-record.4otUr4h4wmWd6VmIEaNjzV",
+   "t": "F1’s youngest World Champions as Antonelli smashes the record",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الـ body 453 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في 7 كيانات جوهرية ({'فورمولا', 'عالم', 'تاريخ', 'بطل', 'اصغر', 'انطونيلي', 'كيمي'}) مع: كيمي أنطونيلي أصغر بطل للعالم في تاريخ الفورمولا 1)"
+   ]
+  },
+  {
+   "u": "https://www.the-race.com/formula-1/why-antonellis-rejecting-1-for-2027-f1-season/",
+   "t": "Why Antonelli's rejecting #1 for 2027 F1 season",
+   "at": "2026-11-03",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 1987",
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'كيمي', 'فورمولا', 'انطونيلي'}) مع: كيمي أنطونيلي أصغر بطل للعالم في تاريخ الفورمولا 1)"
    ]
   }
  ]
