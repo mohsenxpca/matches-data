@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.yahoo.com/news/politics/articles/polish-ambassadors-resign-response-constitutional-083322778.html",
-   "t": "Polish ambassadors resign in response to Constitutional Court crisis",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 458 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQS1hwZ2pwMDZ3SHRDancxallrMUc3NjFXeGp5OUVLN0h0M2xaS3lsWnFqck1rZkQ4S1I4V1YtZ1ppck5EcWw2US1NU0JqT2RpWTQtOEJFUkZwSW1QVWY4eExEQ0E5RWdodk5zcld0RDcyM0ZSTlV3TnJCRmo5TWNEemt5RzJrUVY5cnBnTWhoTlJKa1FlNW5Va2RvNG4wdUg1ZXVQUTFwVUVDXy1BR0x5QzgxVkNHSW5pQ2hTbWcwYkRvRzV5bkdqR3RrZXhFa3NjQ3dfb2w3eHlxSUQ1UGk4VnlIa1l6WlBuUm5YdWlPWEFrYjVxUE9ZclAyREV4dWpwdXpUbktrSU1HOUtxaHNiSTNnM2Q4bElveGRMY0xqWmlEVG52MzFneHBDT2Y0ZVZDM2lyejZSeHE0bEx4a0JVYzhaQ21YZGJQRWlfTExRb3M3ODMzckFB0gHXAkFVX3lxTFBLWHBnanAwNndIdENqdzFqWWsxRzc2MVd4ank5RUs3SHQzbFpLeWxacWpyTWtmRDhLUjhXVi1nWmlyTkRxbDZRLU1TQmpPZGlZNC04QkVSRnBJbVBVZjh4TERDQTlFZ2h2TnNyV3RENzIzRlJOVXdOckJGajlNY0R6a3lHMmtRVjlycGdNaGhOUkprUWU1blVrZG80bjB1SDVldVBRMXBVRUNfLUFHTHlDODFWQ0dJbmlDaFNtZzBiRG9HNXluR2pHdGtleEVrc2NDd19vbDd4eXFJRDVQaThWeUhrWXpaUG5Sblh1aU9YQWtiNXFQT1lyUDJERXh1anB1elRuS2tJTUc5S3Foc2JJM2czZDhsSW94ZExjTGpaaURUbnYzMWd4cENPZjRlVkMzaXJ6NlJ4cTRsTHhrQlVjOFpDbVhkYlBFaV9MTFFvczc4MzNyQUE?oc=5",
-   "t": "موعد وطريقة تغيير الساعة: خطوات ضبط الهاتف والأجهزة مع بدء التوقيت الشتوي – دليل البلد - دليل البلد",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 399 كلمة بس، لازم 530 على الأقل",
-    "العنوان شبه عنوان منشور قبل كده: بدء تطبيق التوقيت الشتوي في مصر وتأخير الساعة 60 دقيقة"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/31/بآلاف-الرخص-والشهادات-كيف-دعم-جهاز-تنمية-المشروعات-دمج-الاقتصاد/7596611",
    "t": "بآلاف الرخص والشهادات.. كيف دعم جهاز تنمية المشروعات دمج الاقتصاد غير الرسمي؟",
    "at": "2026-10-31",
@@ -3289,6 +3270,24 @@
     "العنوان لازم أقل من 70 حرف",
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
     "الوصف لازم 140-160 حرف"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/4/هل-يستطيع-هاتفك-معرفة-أنك-متوتر-تقنيات-جديدة-تراقب-مؤشرات/7605548",
+   "t": "هل يستطيع هاتفك معرفة أنك متوتر؟ تقنيات جديدة تراقب مؤشرات الجسم",
+   "title": "هاتفك يراقب توترك.. تقنيات جديدة تكشف حالتك الصحية",
+   "url": "https://www.egyptaway.com/2026/11/smartphone-stress-monitoring-technology.html",
+   "at": "2026-11-04T19:14:18.131017+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/4/3073726/%D9%85%D8%A7-%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%B9%D8%AF%D9%8A-%D8%A7%D9%84%D8%AF%D8%A8%D8%A7%D8%BA-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%8A%D9%88%D8%B6%D8%AD-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84",
+   "t": "ما طبيعة إصابة عدي الدباغ؟ الزمالك يوضح التفاصيل",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 100، 8"
    ]
   }
  ]
