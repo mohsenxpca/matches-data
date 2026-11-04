@@ -2523,6 +2523,16 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Xiaomi announces new electric toothbrush with a color screen and 190-day battery",
+   "url": "https://www.gizmochina.com/2026/11/04/xiaomi-mijia-electric-toothbrush-2-pro-launch-specs-price/",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
