@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7162295",
-   "t": "لو محتارة كيف تتألقين في الطقس المتقلب؟ أسرار إطلالات ما بين الفصول",
-   "title": "أسرار إطلالات ما بين الفصول للتعامل مع الطقس المتقلب",
-   "url": "https://www.egyptaway.com/2026/10/transitional-fashion-tips.html",
-   "at": "2026-10-31T11:33:35.796111+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
-   "u": "https://www.elbalad.news/7162295",
-   "t": "لو محتارة كيف تتألقين في الطقس المتقلب؟ أسرار إطلالات ما بين الفصول",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://www.elbalad.news/7162253",
    "t": "رياح وأمطار رغم ارتفاع الحرارة.. طقس مفاجئ خلال الأسبوع الحالي",
    "title": "تقلبات الطقس: أمطار ورياح رغم ارتفاع الحرارة",
@@ -3291,6 +3275,27 @@
    "at": "2026-11-04T20:35:20.659058+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.vietnam.vn/ru/video-du-bao-thoi-tiet-dem-nay-va-ngay-mai-5-11-bac-bo-ngay-nang-canh-bao-dong-loc-tren-bien",
+   "t": "[Видео] Прогноз погоды на сегодня и завтра, 5 ноября: Солнечно в Северном Вьетнаме, предупреждение о грозах и сильном ветре на море.",
+   "title": "حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام",
+   "url": "https://www.egyptaway.com/2026/11/weather-forecast-vietnam-tomorrow.html",
+   "at": "2026-11-04T21:06:25.068255+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://whatson.ae/2026/10/dubai-rain-el-nino-stormwater-drainage/",
+   "t": "El Niño could bring heavy rain to Dubai, here’s how the city is preparing",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
+   ]
   }
  ]
 }
