@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/10/31/%D9%83%D8%B3%D9%88%D9%81%D8%A7%D9%86-%D9%84%D9%84%D8%B4%D9%85%D8%B3-%D9%883-%D8%AE%D8%B3%D9%88%D9%81%D8%A7%D8%AA-%D9%84%D9%84%D9%82%D9%85%D8%B1-%D9%85%D9%88%D8%B9%D8%AF-%D8%A3%D9%88%D9%84-%D9%83%D8%B3%D9%88%D9%81-%D8%B4%D9%85%D8%B3%D9%89-%D9%85%D8%B1%D8%AA%D9%82%D8%A8/7596781",
-   "t": "كسوفان للشمس و3 خسوفات للقمر.. موعد أول كسوف شمسى مرتقب وأماكن رؤيته",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 281.6، 4، 7، 92.8",
-    "الـ body 292 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.bbc.com/news/articles/crz9824d5e88o",
    "t": "Police deployed during stand-off over control of top Poland court",
    "title": "تحرك عاجل ونشر شرطة مكافحة الشغب بالمحكمة الدستورية في بولندا",
@@ -3303,6 +3293,17 @@
     "العنوان لازم أقل من 70 حرف",
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
     "الوصف لازم 140-160 حرف"
+   ]
+  },
+  {
+   "u": "https://isport.blesk.cz/clanek/fotbal-evropske-pohary-liga-mistru/481729/trpisovsky-vs-arteta-ctvrte-dejstvi-brutalni-rozdil-v-platu-ale-stejna-posedlost-detaily.html",
+   "t": "Trpišovský versus Arteta: Roční plat 30 proti 750 milionům",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 2019",
+    "الـ body 436 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'ارسنال', 'براغ', 'سلافيا'}) مع: عودة ويليام ساليبا تدعم أرسنال قبل مواجهة سلافيا براغ الحاسمة)"
    ]
   }
  ]
