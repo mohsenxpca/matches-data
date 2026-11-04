@@ -3,15 +3,6 @@
   {
    "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5PeEF3NzM4bjJOanJDaGpPUkU4X196RF9CaEZBaXJhU21BTFpHSmR6MWg3TVB0RHY1X1RfZHJ5anpTR1NDejBV?oc=5",
    "t": "التوقيت الصيفي وترشيد الكهرباء.. 40 ألف ميجاوات في الصيف مقابل 30 ألفًا بالشتاء - صدى البلد",
-   "title": "حقيقة استهلاك الكهرباء بين الصيف والشتاء في مصر",
-   "url": "https://www.egyptaway.com/2026/10/egypt-electricity-consumption-winter.html",
-   "at": "2026-10-31T09:52:12.525284+02:00",
-   "ok": true,
-   "type": "public_query"
-  },
-  {
-   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5PeEF3NzM4bjJOanJDaGpPUkU4X196RF9CaEZBaXJhU21BTFpHSmR6MWg3TVB0RHY1X1RfZHJ5anpTR1NDejBV?oc=5",
-   "t": "التوقيت الصيفي وترشيد الكهرباء.. 40 ألف ميجاوات في الصيف مقابل 30 ألفًا بالشتاء - صدى البلد",
    "at": "2026-10-31",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
@@ -3262,6 +3253,15 @@
     "كلمة رسميًا مش موجودة في المصدر، احذفها",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'مصريه', 'كره'}) مع تشابه نصي مع: استاد القاهرة يحتضن قطبي الكرة المصرية أفريقيًا)"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7167399",
+   "t": "كيف تتأكد من تلف كارت شحن الكهرباء.. وما هي رسوم استبداله؟",
+   "title": "كيف تتأكد من تلف كارت عداد الكهرباء؟ وخطوات استبداله ورسومه",
+   "url": "https://www.egyptaway.com/2026/11/how-to-check-electricity-card-damage.html",
+   "at": "2026-11-04T07:07:51.575884+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
