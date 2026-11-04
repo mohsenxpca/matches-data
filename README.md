@@ -119,6 +119,12 @@
 - **[Zeda Shop Egypt 35 Game Top-Ups Open Directory 2026 (زيدا شوب)](https://huggingface.co/datasets/mohsenxpc/zeda-shop-game-topup-egypt-2026)**
 
 
+
+
+### 👩‍💻 مقالات التوثيق التقني على Dev.to العالمية (DR 90 - Dofollow):
+- **[Building an Open Digital Services & Mobile Tech Hub for Egypt (2026)](https://dev.to/mohsen_farouk_f7b2b69b81b/building-an-open-digital-services-mobile-tech-hub-for-egypt-2026-2enc)**
+
+
 ## 🔗 الروابط الرسمية المعتمدة
 - **موقع ايجبتاوى:** [https://www.egyptaway.com/](https://www.egyptaway.com/)
 - **موقع رفيو موبايل:** [https://www.review-mobile.com/](https://www.review-mobile.com/)
