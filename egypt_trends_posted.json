@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQNHp4aVZqdDJkQUtrZXNsVl9BTGFicEI5dUxVNG1tRllsNDlpR0tQdVVRZ2pSN1BHcGZ3RGlxNzJPdFJfZkw1T2ZVc2FnbGtOT0x1MHlNTGYwN284bi1YWl9ZeVJJY2tJd056S2lNdkNWdzZOZ2xGeV9YT2ptS3A0S0FaakNYSGMyM2JrOXVsUXM1WUVnVEVzQ3lXTl9wRkhwN2FJa1U4RDJYSDhCcFBxb3pHVmVEb19qbVAtUFBGT3NaSGdpUFdSODdMME8tV2pPWlNYZ0d1ck9VaFZJNHQ1c1lmZVNlSzh0NV9CcXBLcEY4S3RGMU5TR25oTE1EUURaQzgzWm5lV05hTFdLaTE2V2cwZTZwc0wyNUY0VzlPWk5UUUREQWpOZmhXdUlvNjZVVVdRWGx2Z0dHSlhPU3ZPYXF5eGNzb2NmWGZTY0ZFeWJHcW5MRThDYXRudjI3cWl0Z0U3MURfOXA0dGJETFRMVTNxS2s0LUJybkQ0UFRB?oc=5",
-   "t": "موعد ارتداء الملابس الشتوية.. «الأرصاد» تكشف تفاصيل طقس الأيام المقبلة - بوابة أخبار اليوم الإلكترونية",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 425 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9EQjJ3LXprbmw3MEJXbEh0SU8wWnhROS16dGN2ZUJRdEsxUXhqWWs4Z1k5d2Yta3dqUzRpWmdfa3ZuOTBBV21j?oc=5",
-   "t": "رياح وأمطار رغم ارتفاع الحرارة.. طقس مفاجئ خلال الأسبوع الحالي - صدى البلد",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 9",
-    "الـ body 451 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/31/هل-تنخفض-كفاءة-بطارية-السيارة-بنسبة-30-خلال-الشتاء-خبراء/7600343",
    "t": "هل تنخفض كفاءة بطارية السيارة بنسبة 30% خلال الشتاء؟.. خبراء يوضحون",
    "at": "2026-10-31",
@@ -3300,6 +3281,25 @@
     "العنوان لازم أقل من 70 حرف",
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
     "الوصف لازم 140-160 حرف"
+   ]
+  },
+  {
+   "u": "https://www.seznamzpravy.cz/clanek/sport-fotbal-muj-arsenal-zpoved-cecha-ktery-se-zamiloval-do-soupere-slavie-319651",
+   "t": "Šídlo & Arsenal: Proč jsem se zamiloval do soupeře Slavie",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 23، 9",
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'براغ', 'سلافيا', 'ارسنال'}) مع: عودة ويليام ساليبا تدعم أرسنال قبل مواجهة سلافيا براغ الحاسمة)"
+   ]
+  },
+  {
+   "u": "https://www.idnes.cz/fotbal/pohary/slavia-narazi-na-skalu-z-arsenalu-bielsa-ho-odmitl-sanci-mu-prihral-i-zaskolak.A261103_121327_fot_pohary_jic",
+   "t": "Slavia narazí na skálu z Arsenalu. Bielsa ho odmítl, šanci mu přihrál i záškolák",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'براغ', 'سلافيا', 'ارسنال'}) مع: عودة ويليام ساليبا تدعم أرسنال قبل مواجهة سلافيا براغ الحاسمة)"
    ]
   }
  ]
