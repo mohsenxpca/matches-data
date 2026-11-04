@@ -851,23 +851,26 @@ def main():
         used_imgs.append(img)
         rel = next((p for p in posts if "أخبار الكورة" in p["l"] or "الدوري المصري" in p["l"]), None)
         teams = story_teams(c["t"] + " " + art["title"], src)
-        p = f"img/{art['slug']}.jpg"
         raw_i = (c.get("i") or "").strip()
-        first_logo = TEAM_LOGOS.get(teams[0]) if teams else None
         lead_img_url = None
 
-        # 1. First priority: Real player action shot (mirrored + angle tilt)
+        # 1. First priority: Real player/match action shot via wsrv proxy with horizontal mirror (flop=true)
         if raw_i and raw_i.startswith("http"):
-            if make_player_action_shot(raw_i, p, first_logo):
-                lead_img_url = CDN + p
+            clean_i = raw_i.replace("/thumb/", "/large/")
+            cand_proxy = f"https://wsrv.nl/?url={urllib.parse.quote(clean_i)}&w=1200&h=675&fit=cover&flop=true&output=webp&q=80"
+            try:
+                chk = requests.head(cand_proxy, headers=HEAD, timeout=4, allow_redirects=True)
+                if chk.status_code == 200:
+                    lead_img_url = cand_proxy.replace("&", "&amp;")
+                else:
+                    cand_proxy2 = f"https://wsrv.nl/?url={urllib.parse.quote(raw_i)}&w=1200&h=675&fit=cover&flop=true&output=webp&q=80"
+                    chk2 = requests.head(cand_proxy2, headers=HEAD, timeout=4, allow_redirects=True)
+                    if chk2.status_code == 200:
+                        lead_img_url = cand_proxy2.replace("&", "&amp;")
+            except Exception as ex:
+                print("  wsrv proxy check failed:", ex)
 
-        # 2. Second priority: Club logo on stadium background
-        if not lead_img_url and teams:
-            team_tuples = [(t, TEAM_LOGOS.get(t)) for t in teams if TEAM_LOGOS.get(t)]
-            if team_tuples and make_club_logo_cover(team_tuples, PEX.format(i=img[0]), p):
-                lead_img_url = CDN + p
-
-        # 3. Third priority: Clean Pexels stadium photo
+        # 2. Fallback: Clean Pexels stadium photo
         if not lead_img_url:
             lead_img_url = PEX.format(i=img[0])
 
