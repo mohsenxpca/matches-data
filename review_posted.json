@@ -2905,6 +2905,22 @@
    "ok": true,
    "kind": "news",
    "brand": "موتورولا"
+  },
+  {
+   "title": "REDMI 17 5G Launched With Massive 7,500mAh Battery, 120Hz Display: Price and Specs - My Mobile India",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ3hWdG05cDdCRG9zWFJiWGV6QjVueDRUWFE3bjRVTmVRNWFvREFESXhQVEVVSTMtUG9mcUhOd0NSOGxkeVh4a0ttTzNPRkhLMGZGNUZYZUE2OHc1UHlEZkgtaW9WN3FxQjV4MTd3MjNka2F4QXI2U05lNWYtMFkybmlPbERQTkEtRnhPYnVFNWdVeFRvQWdFa3dmMDQyUnVjT3ZCMlFHeURYYVNOMThF?oc=5",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [redmi 17] found in review: مراجعة Redmi 17C 5G 2026: المواصفات والسعر"
+  },
+  {
+   "title": "The first Snapdragon phone with Android Linux Terminal support is here - 9to5Google",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcGMwSjdMRXVZTTV1aHpZemRiUENabXU2c0tMcV85SG5rNmdxVXdpbEdlUTBhN1RFOVhZWi1QWnRwV21jdjMtVjZzOVY0ZnctZFBVb3gzZHNnTFFUb09kcHRkUE9Ebl9WX2NqOFdmR2JIdElNQTRrVXdhYUhRdzJYd2ptcmlwUk9Ra0hEYm5YaDhkS3kxeEZhZzBjSlpPM01lSWVOV0NNTUg?oc=5",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (515 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
