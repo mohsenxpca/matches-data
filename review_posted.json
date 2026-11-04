@@ -2931,6 +2931,23 @@
     "طول المقال قصير (423 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
    ]
+  },
+  {
+   "title": "Honor Magic9 Pro Max in for review",
+   "url": "https://www.gsmarena.com/honor_magic9_pro_max_in_for_review-news-75351.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "Moto One phones are getting ready for a comeback, and here’s a first look at the hardware",
+   "url": "https://www.androidauthority.com/moto-one-wpc-listing-3731740/",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
