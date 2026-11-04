@@ -37,7 +37,11 @@ jobs:
           if [ "${{ github.event.inputs.all_missing }}" = "true" ]; then
             python -u interlink_engine.py --all-missing --confirm
           else
-            python -u interlink_engine.py --days "${{ github.event.inputs.days || 1 }}" --confirm
+            DAYS="${{ github.event.inputs.days }}"
+            if [ -z "$DAYS" ] || [ "$DAYS" = "true" ] || [ "$DAYS" = "false" ]; then
+              DAYS="1"
+            fi
+            python -u interlink_engine.py --days "$DAYS" --confirm
           fi
         env:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}

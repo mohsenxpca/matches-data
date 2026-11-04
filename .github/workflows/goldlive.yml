@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: goldlive
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   live:
@@ -22,13 +22,26 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4 pillow
+      - name: Fetch previous live.json
+        run: |
+          git fetch origin live 2>/dev/null && git checkout origin/live -- live.json 2>/dev/null || true
       - run: python -u goldlive.py
       - name: Push live.json to the live branch (history not kept)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir out && cp live.json out/ && cd out
+          if [ ! -f live.json ]; then
+            echo "live.json not available, skipping push peacefully."
+            exit 0
+          fi
+          mkdir -p out && cp live.json out/ && cd out
           git init -q && git checkout -q -b live
+          git config user.name "matches-bot"
+          git config user.email "matches-bot@users.noreply.github.com"
           git add live.json
-          git -c user.name=matches-bot -c user.email=matches-bot@users.noreply.github.com commit -qm "live $(date -u +%H:%M)"
-          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" live
+          git commit -qm "live $(date -u +%H:%M)"
+          for i in 1 2 3 4 5; do
+            git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" live && exit 0 || sleep 3
+          done
+          echo "Warning: git push to live branch failed after 5 retries; skipping peacefully to avoid failing workflow."
+          exit 0

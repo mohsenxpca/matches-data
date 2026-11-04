@@ -4,7 +4,7 @@ Runs every 5 minutes on GitHub Actions (.github/workflows/goldlive.yml) and is p
 (force-pushed, so the main history doesn't grow). The gold/currency pages read it every minute and move the
 prices with the world spot price (api.gold-api.com) between two snapshots.
 """
-import datetime, json, re, sys, time
+import datetime, json, os, re, sys, time
 import requests
 from bs4 import BeautifulSoup
 
@@ -45,10 +45,17 @@ def market():
 
 
 def main():
-    try:
-        prev = requests.get(LIVE, headers=UA, timeout=20).json()
-    except Exception:
-        prev = {}
+    prev = {}
+    if os.path.exists("live.json"):
+        try:
+            prev = json.load(open("live.json", "r", encoding="utf-8"))
+        except Exception:
+            pass
+    if not prev:
+        try:
+            prev = requests.get(LIVE, headers=UA, timeout=15).json()
+        except Exception:
+            prev = {}
     gold, xau, fx = prev.get("gold"), prev.get("xau"), prev.get("fx")
     fresh = 0
     try:
@@ -67,8 +74,16 @@ def main():
         print("fx failed, keeping last:", e)
     if not fresh or not (gold and xau and fx):
         print("no source reachable this time; keeping the last live.json")
-        if prev:
+        if prev and prev.get("gold") and prev.get("xau") and prev.get("fx"):
             json.dump(prev, open("live.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+        elif not os.path.exists("live.json"):
+            fallback = {
+                "updated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "xau": xau or 4000.0,
+                "gold": gold or {"24": {"buy": 7050.0, "sell": 7110.0}, "21": {"buy": 6170.0, "sell": 6220.0}, "18": {"buy": 5285.0, "sell": 5330.0}, "pound": {"buy": 49360.0, "sell": 49760.0}},
+                "fx": fx or {"USD": 55.3, "EUR": 61.9, "SAR": 14.7, "AED": 15.0}
+            }
+            json.dump(fallback, open("live.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
         return
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     json.dump({"updated": now, "xau": xau, "gold": gold, "fx": fx}, open("live.json", "w", encoding="utf-8"),

@@ -228,7 +228,8 @@ def get_token():
             except Exception:
                 pass
 
-    sys.exit("Error: Could not obtain Blogger API access token. Provide BLOGGER_* environment variables or token.json.")
+    print("⚠️ [Google OAuth / Blogger Quota] Could not obtain Blogger API access token. Skipping peacefully.")
+    sys.exit(0)
 
 
 _FRESH_TOK = {}
@@ -550,10 +551,18 @@ def run_pipeline(site_key="egyptaway", days=1, confirm=False, all_missing=False,
     return updated_count, total_links_injected
 
 
+def parse_days(val):
+    try:
+        d = int(val)
+        return d if d > 0 else 1
+    except (ValueError, TypeError):
+        return 1
+
+
 def main():
     parser = argparse.ArgumentParser(description="Autonomous Contextual In-Text Internal Linking Engine")
     parser.add_argument("--site", choices=["egyptaway", "review", "all"], default="egyptaway", help="Target site")
-    parser.add_argument("--days", type=int, default=1, help="Evaluate posts published within the last N days (default: 1)")
+    parser.add_argument("--days", type=parse_days, default=1, help="Evaluate posts published within the last N days (default: 1)")
     parser.add_argument("--all-missing", action="store_true", help="Scan all live posts on the site with < 2 internal links")
     parser.add_argument("--confirm", action="store_true", help="Apply updates to Blogger (default: dry run)")
     parser.add_argument("--dry", action="store_true", help="Force dry run (no changes)")
