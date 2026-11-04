@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7162329",
-   "t": "بالأرقام.. عموتة يعادل كولر وموسيماني في أول 11 مباراة مع الأهلي ويتفوق على فايلر",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://www.yahoo.com/news/politics/articles/polish-ambassadors-resign-response-constitutional-083322778.html",
    "t": "Polish ambassadors resign in response to Constitutional Court crisis",
    "at": "2026-10-31",
@@ -3284,6 +3277,18 @@
    "ok": false,
    "reason": [
     "الـ body 426 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/4/3073723/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A3%D9%87%D8%AF%D8%A7%D9%81-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC",
+   "t": "فيديو أهداف مباراة مصر والإمارات في نهائي كأس الخليج",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
    ]
   }
  ]
