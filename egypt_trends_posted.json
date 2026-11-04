@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.bbc.com/news/articles/crz9824d5e88o",
-   "t": "Police deployed during stand-off over control of top Poland court",
-   "title": "تحرك عاجل ونشر شرطة مكافحة الشغب بالمحكمة الدستورية في بولندا",
-   "url": "https://www.egyptaway.com/2026/10/polish-president-constitutional-court.html",
-   "at": "2026-10-31T11:52:01.364768+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
-   "u": "https://www.bbc.com/news/articles/crz9824d5e88o",
-   "t": "Police deployed during stand-off over control of top Poland court",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://www.masrawy.com/sports/sports_news/details/2026/10/31/3071283/%D8%A3%D8%AD%D9%85%D8%AF-%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86-%D9%8A%D8%B1%D9%81%D8%B6-%D8%A5%D9%82%D8%A7%D9%85%D8%A9-%D8%B9%D9%85%D9%88%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-%D9%88%D9%8A%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8",
    "t": "أحمد سليمان يرفض إقامة عمومية الزمالك الثلاثاء ويكشف الأسباب",
    "at": "2026-10-31",
@@ -3304,6 +3288,26 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 2019",
     "الـ body 436 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'ارسنال', 'براغ', 'سلافيا'}) مع: عودة ويليام ساليبا تدعم أرسنال قبل مواجهة سلافيا براغ الحاسمة)"
+   ]
+  },
+  {
+   "u": "https://www.livescore.com/en/news/football/more/farioli-a-privilege-and-honour-to-share-a-touchline-with-italian-giant-allegri-football-italia/",
+   "t": "Farioli: ‘A privilege and honour to share a touchline with Italian giant Allegri’",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (نسبة تطابق مرتفعة مع مقال منشور: سبورتنج لشبونة يهزم شاختار دونيتسك في دوري أبطال أوروبا)"
+   ]
+  },
+  {
+   "u": "https://www.napolicalcionews.it/news-calcio-napoli/Porto-Napoli--Farioli-a-Prime-Video---Affrontare-Allegri-e-un-privilegio--In-Champions-ci-manca-esperienza--151203.aspx",
+   "t": "Porto-Napoli, Farioli a Prime Video: ''Affrontare Allegri è un privilegio. In Champions ci manca esperienza''",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 3",
+    "الـ body 450 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'قمه', 'نابولي', 'تصريحات'}) مع: يوفنتوس ضد نابولي: تصريحات نارية قبل القمة المرتقبة في الدوري)"
    ]
   }
  ]
