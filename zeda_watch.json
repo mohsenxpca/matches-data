@@ -1,6 +1,6 @@
 {
  "blog": "3985701759472630579",
- "prices_from": "2026-10-25",
+ "prices_from": "2026-11-04",
  "games": [
   {
    "key": "mobile-legends",
@@ -824,6 +824,451 @@
      "40000 جواهر",
      44317.78,
      "40000 جواهر"
+    ]
+   ]
+  },
+  {
+   "key": "zenless-zone-zero",
+   "c1": "zenless-zone-zero-monochrome",
+   "post_id": "7788818510688190827",
+   "items": [
+    [
+     "60 Monochrome",
+     55.04,
+     "60 Monochrome"
+    ],
+    [
+     "300+30  Monochrome",
+     277.44,
+     "300+30  Monochrome"
+    ],
+    [
+     "Inter-Knot Membership",
+     277.44,
+     "Inter-Knot Membership"
+    ],
+    [
+     "980+110 Monochrome",
+     833.44,
+     "980+110 Monochrome"
+    ],
+    [
+     "1980+260 Monochrome",
+     1667.44,
+     "1980+260 Monochrome"
+    ],
+    [
+     "3280+600 Monochrome",
+     2779.44,
+     "3280+600 Monochrome"
+    ],
+    [
+     "6480+1600 Monochrome",
+     5559.44,
+     "6480+1600 Monochrome"
+    ]
+   ]
+  },
+  {
+   "key": "wuthering-waves",
+   "c1": "wuthering-waves-top-up",
+   "post_id": "4318232442101769887",
+   "items": [
+    [
+     "60 Lunites",
+     55.04,
+     "60 Lunites"
+    ],
+    [
+     "300 + 30 Lunites",
+     277.44,
+     "300 + 30 Lunites"
+    ],
+    [
+     "980 + 110 Lunites",
+     833.44,
+     "980 + 110 Lunites"
+    ],
+    [
+     "1980 + 260 Lunites",
+     1667.44,
+     "1980 + 260 Lunites"
+    ],
+    [
+     "3280 + 600 Lunites",
+     2779.44,
+     "3280 + 600 Lunites"
+    ],
+    [
+     "6480 + 1600 Lunites",
+     5559.44,
+     "6480 + 1600 Lunites"
+    ]
+   ]
+  },
+  {
+   "key": "asphalt-legends",
+   "c1": "mobile-gaming-asphalt-9-legends-tokens",
+   "post_id": "7580826928697394208",
+   "items": [
+    [
+     "40 Tokens",
+     59.49,
+     "40 Tokens"
+    ],
+    [
+     "105 Tokens",
+     147.89,
+     "105 Tokens"
+    ],
+    [
+     "220 Tokens",
+     280.78,
+     "220 Tokens"
+    ],
+    [
+     "470 Tokens",
+     575.46,
+     "470 Tokens"
+    ],
+    [
+     "1275 Tokens",
+     1462.28,
+     "1275 Tokens"
+    ]
+   ]
+  },
+  {
+   "key": "love-and-deepspace",
+   "c1": "love-and-deepspace-top-up",
+   "post_id": "4757891938519767986",
+   "items": [
+    [
+     "60 Crystals",
+     67.27,
+     "60 Crystals"
+    ],
+    [
+     "Aurum Pass (30 Days)",
+     313.58,
+     "Aurum Pass (30 Days)"
+    ],
+    [
+     "300 Crystals+30 Diamonds",
+     313.58,
+     "300 Crystals+30 Diamonds"
+    ],
+    [
+     "980 Crystals+150 Diamonds",
+     956.32,
+     "980 Crystals+150 Diamonds"
+    ],
+    [
+     "Companionship Pack",
+     1229.87,
+     "Companionship Pack"
+    ],
+    [
+     "1980 Crystals+360 Diamonds",
+     1777.53,
+     "1980 Crystals+360 Diamonds"
+    ],
+    [
+     "3280 Crystals+720 Diamonds",
+     3145.29,
+     "3280 Crystals+720 Diamonds"
+    ],
+    [
+     "6480 Crystals+1600 Diamonds",
+     6839.35,
+     "6480 Crystals+1600 Diamonds"
+    ]
+   ]
+  },
+  {
+   "key": "once-human",
+   "c1": "gift-cards-once-human-crystgin-top-up",
+   "post_id": "5425917500118172764",
+   "items": [
+    [
+     "62 Crystgin",
+     55.04,
+     "62 Crystgin"
+    ],
+    [
+     "Shining New Star Selection Gift Pack",
+     55.04,
+     "Shining New Star Selection Gift Pack"
+    ],
+    [
+     "339 Crystgin",
+     277.44,
+     "339 Crystgin"
+    ],
+    [
+     "Meta Pass (30Days)",
+     277.44,
+     "Meta Pass (30Days)"
+    ],
+    [
+     "Battle Pass (Advanced)",
+     555.44,
+     "Battle Pass (Advanced)"
+    ],
+    [
+     "1120 Crystgin",
+     833.44,
+     "1120 Crystgin"
+    ],
+    [
+     "Battle Pass (Deluxe)",
+     1333.84,
+     "Battle Pass (Deluxe)"
+    ],
+    [
+     "2340 Crystgin",
+     1667.44,
+     "2340 Crystgin"
+    ],
+    [
+     "3979 Crystgin",
+     2779.44,
+     "3979 Crystgin"
+    ],
+    [
+     "8075 Crystgin",
+     5559.44,
+     "8075 Crystgin"
+    ]
+   ]
+  },
+  {
+   "key": "ragnarok-origin",
+   "c1": "ragnarok-origin",
+   "post_id": "7285876098051537386",
+   "items": [
+    [
+     "40 Nyan Berry",
+     62.82,
+     "40 Nyan Berry"
+    ],
+    [
+     "125 Nyan Berry",
+     185.7,
+     "125 Nyan Berry"
+    ],
+    [
+     "210 Nyan Berry",
+     308.58,
+     "210 Nyan Berry"
+    ],
+    [
+     "430 Nyan Berry",
+     595.47,
+     "430 Nyan Berry"
+    ],
+    [
+     "900 Nyan Berry",
+     1237.65,
+     "900 Nyan Berry"
+    ],
+    [
+     "2,300 Nyan Berry",
+     3150.29,
+     "2,300 Nyan Berry"
+    ],
+    [
+     "4,800 Nyan Berry",
+     6429.58,
+     "4,800 Nyan Berry"
+    ]
+   ]
+  },
+  {
+   "key": "where-winds-meet",
+   "c1": "where-winds-meet",
+   "post_id": "8429195753125249688",
+   "items": [
+    [
+     "60 Echo Beads",
+     55.04,
+     "60 Echo Beads"
+    ],
+    [
+     "180 Echo Beads",
+     166.24,
+     "180 Echo Beads"
+    ],
+    [
+     "300 Echo Beads",
+     277.44,
+     "300 Echo Beads"
+    ],
+    [
+     "600 Echo Beads",
+     555.44,
+     "600 Echo Beads"
+    ],
+    [
+     "900 Echo Beads",
+     833.44,
+     "900 Echo Beads"
+    ],
+    [
+     "1800 Echo Beads",
+     1667.44,
+     "1800 Echo Beads"
+    ],
+    [
+     "3000 Echo Beads",
+     2779.44,
+     "3000 Echo Beads"
+    ],
+    [
+     "6000 Echo Beads",
+     5559.44,
+     "6000 Echo Beads"
+    ],
+    [
+     "12000 Echo Beads",
+     11119.44,
+     "12000 Echo Beads"
+    ]
+   ]
+  },
+  {
+   "key": "tarbi3ah-baloot",
+   "c1": "tarbi3ah-baloot-dtu",
+   "post_id": "8953547049786451018",
+   "items": [
+    [
+     "32800 Gold",
+     77.28,
+     "32800 Gold"
+    ],
+    [
+     "94300 Gold",
+     221.84,
+     "94300 Gold"
+    ],
+    [
+     "215800 Gold",
+     444.24,
+     "215800 Gold"
+    ],
+    [
+     "406800 Gold",
+     744.48,
+     "406800 Gold"
+    ],
+    [
+     "1080000 Gold",
+     1778.64,
+     "1080000 Gold"
+    ],
+    [
+     "2376000 Gold",
+     3557.84,
+     "2376000 Gold"
+    ],
+    [
+     "5427000 Gold",
+     7449.84,
+     "5427000 Gold"
+    ],
+    [
+     "11113600 Gold",
+     14844.64,
+     "11113600 Gold"
+    ],
+    [
+     "19980000 Gold",
+     26687.44,
+     "19980000 Gold"
+    ]
+   ]
+  },
+  {
+   "key": "sawa-play",
+   "c1": "sawa-play-dtu",
+   "post_id": "6835510587776656212",
+   "items": [
+    [
+     "220 Coins",
+     121.2,
+     "220 Coins"
+    ],
+    [
+     "625 Coins",
+     333.6,
+     "625 Coins"
+    ],
+    [
+     "5710 Coins",
+     2946.8,
+     "5710 Coins"
+    ],
+    [
+     "12830 Coins",
+     6616.4,
+     "12830 Coins"
+    ],
+    [
+     "37721 Coins",
+     19404.4,
+     "37721 Coins"
+    ]
+   ]
+  },
+  {
+   "key": "football-dream",
+   "c1": "football-dream",
+   "post_id": "3568528034114254203",
+   "items": [
+    [
+     "60 Supreme Points",
+     55.04,
+     "60 Supreme Points"
+    ],
+    [
+     "180 Supreme Points",
+     166.24,
+     "180 Supreme Points"
+    ],
+    [
+     "300 Supreme Points",
+     277.44,
+     "300 Supreme Points"
+    ],
+    [
+     "680 Supreme Points",
+     555.44,
+     "680 Supreme Points"
+    ],
+    [
+     "940 Supreme Points",
+     833.44,
+     "940 Supreme Points"
+    ],
+    [
+     "1280 Supreme Points",
+     1111.44,
+     "1280 Supreme Points"
+    ],
+    [
+     "1980 Supreme Points",
+     1667.44,
+     "1980 Supreme Points"
+    ],
+    [
+     "3120 Supreme Points",
+     2779.44,
+     "3120 Supreme Points"
+    ],
+    [
+     "6480 Supreme Points",
+     5559.44,
+     "6480 Supreme Points"
     ]
    ]
   },
