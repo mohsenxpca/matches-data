@@ -2725,6 +2725,56 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "OnePlus Ace 7 Pro vs Realme GT 8 Pro: Which Snapdragon 8 Elite Gen 5 Flagship Is Better?",
+   "url": "https://www.gizmochina.com/2026/11/04/oneplus-ace-7-pro-vs-realme-gt-8-pro/",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phone 'ace 7 pro' already covered in: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "Apple’s split launch strategy may have driven record revenues",
+   "url": "https://www.gizmochina.com/2026/11/04/apple-q4-2026-revenue-and-split-launch-strategy/",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (505 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Xiaomi unveils the HyperOS 4 update rollout schedule",
+   "url": "https://www.gsmarena.com/xiaomi_sets_the_hyperos_4_update_rollout_schedule-news-75340.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (611 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "This upcoming Google Photos tool could let you lean into that grainy, film camera look",
+   "url": "https://www.androidauthority.com/google-photos-image-adjustment-tools-apk-teardown-3731544/",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (541 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "My first Snapdragon 8 Elite Extreme Gen 6 phone doesn’t live up to the hype",
+   "url": "https://www.androidauthority.com/snapdragon-elite-gen-6-phone-test-3730103/",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phone 'snapdragon 8' already covered in: مراجعة OnePlus 16 قبل الإطلاق: Snapdragon 8 Elite Extreme وشاشة 185Hz"
+  },
+  {
+   "title": "آبل تستعد لإطلاق آيفون 18 بترقيات ضخمة وزيادة جديدة بالأسعار",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV1l6THJmcjNwVkJVdzNLeTNzd0NfTXVkd2ZlZWFBaURFNDFCQ2gwUThXbGN5LW1iQVE4OVdMN3dSa1Z6dEtqLUFHb0dNXzI2SlpZWU5lQlZxdTEzcjBhUlE5ak81RGtZcmNBWm41YmJ2TFNxQm9TN2oxOWp2YUc5bDNzVm5VWWNxeDdudFRHVlN4YUxWLVNSN1RnbWZJUlBPRjJPcmIxZnZLbU3SAacBQVVfeXFMUFU0bGJndW1PSnlzeHZGY0VCMTY0d2ozVXJjZWNLcWhRX19ab0RxNU51ZmRnQldKM2VvbkVSdm0zZTBfbmttRUtGTURxRkRfc3I5SUd1VFlwS28tcjBxUmVSRGFfYXBrRW5CTFlRVjF1MDF4eTdCTHIwN1pLLXpWNGlIaVZMQ1NvTzJkbmRkbGphR2pkSDBYWVhrejB3YUhSUmd0YkVUTWc?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/iphone-18-major-upgrades-price-hike.html",
+   "at": "2026-11-04T13:42:12+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
