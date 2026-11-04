@@ -2887,6 +2887,24 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Oppo Find N7 officially confirmed to arrive in Europe",
+   "url": "https://www.gsmarena.com/oppo_find_n7_officially_confirmed_to_arrive_in_europe-news-75346.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (448 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "موتورولا تحيي سلسلة Moto One بهاتف خارق بمعالج Snapdragon 8 Gen 5",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPamFNS0piYlk3YnhXbkxZSHM3VVd2Yk9tblFHUERtSXpzRjZqRmF4SVJJVjVGVFI5ZllvU0s5SXhKc2xGUFAybGN5VUhTNjJTaHpDSExxOFFTaExXcVVCajAxMmhxT3Q1YUpJVmtBQjF3S1daNE1NM0ZaLUh5c1FQZ1Jfd1E4OFVRUEI1dE1BTXBPcm41cl9iU2s4MjV0NmRFa1FVRHJoX1J5eHc5MEN1Vw?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/motorola-reviving-moto-one-series-leak.html",
+   "at": "2026-11-04T19:13:56+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "موتورولا"
   }
  ]
 }
