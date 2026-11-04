@@ -549,6 +549,8 @@ def main():
 
         # Labels - تصنيف دقيق بحسب أقسام وتصنيفات الموقع
         labels = detect_trend_category_labels(art["title"] + " " + cand["t"], cand.get("query", ""))
+        if not dry:
+            labels = f.site_labels(art, full_html, labels)
 
         if dry:
             print(f"\n[DRY RUN] Title: {art['title']}")

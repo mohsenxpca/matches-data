@@ -884,6 +884,7 @@ def main():
             print("PUBLISHED LIVE", fin.get("status"), fin.get("url"), "|", art["title"])
         else:
             when = times[made]
+            labels = site_labels(art, html_out, labels)
             d = api("POST", f"/blogs/{BLOG}/posts", tok, {"isDraft": "true"},
                     {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": with_desc(html_out, art), "labels": labels})
             api("POST", f"/blogs/{BLOG}/posts/{d['id']}/publish", tok, {"publishDate": when.isoformat()})
@@ -1020,9 +1021,17 @@ def with_desc(html_out, art):
     return enriched + (f'<span class="ea-desc" hidden>{html.escape(d)}</span>' if d else "")
 
 
+def site_labels(art, html_out, labels):
+    """One of the site's 13 sections + the menu labels, chosen from the article itself (labeler.py, mohsen
+    2026-11-04). The labels the engine passes are only the fallback hint."""
+    import labeler
+    return labeler.pick(art.get("title", ""), html_out, labels)
+
+
 def publish_live(tok, art, html_out, labels):
     """Publishes post LIVE immediately with clean slug URL and Arabic title (no scheduling delay)."""
     now = datetime.datetime.now(CAIRO)
+    labels = site_labels(art, html_out, labels)
     d = api("POST", f"/blogs/{BLOG}/posts", tok, {"isDraft": "true"},
             {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": with_desc(html_out, art), "labels": list(dict.fromkeys(labels))})
     api("POST", f"/blogs/{BLOG}/posts/{d['id']}/publish", tok, {"publishDate": now.isoformat()})
@@ -1032,6 +1041,7 @@ def publish_live(tok, art, html_out, labels):
 
 def schedule(tok, art, html_out, labels, when):
     """Draft with the slug as title (Blogger builds the URL from it), schedule, then set the Arabic title."""
+    labels = site_labels(art, html_out, labels)
     d = api("POST", f"/blogs/{BLOG}/posts", tok, {"isDraft": "true"},
             {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": with_desc(html_out, art), "labels": labels})
     api("POST", f"/blogs/{BLOG}/posts/{d['id']}/publish", tok, {"publishDate": when.isoformat()})
