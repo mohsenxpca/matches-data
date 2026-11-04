@@ -634,7 +634,7 @@ def build_interactive_tool(tid, eur_price, kind="review"):
         f'var egp=Math.round(e*r);'
         f'var sar=Math.round(e*{EUR_RATES["sar"]});'
         f'var aed=Math.round(e*{EUR_RATES["aed"]});'
-        f'document.getElementById(\'{tid}-out\').innerHTML=\'<div class=\"rv-box\">'
+        f'document.getElementById(\'{tid}-out\').innerHTML=\'<div class=&quot;rv-box&quot;>'
         f'<strong>النتائج التقديرية بالعملات العربية:</strong><br>'
         f'🇪🇬 بالمصري: <strong>\'+egp.toLocaleString()+\' جنيه</strong><br>'
         f'🇸🇦 بالسعودي: <strong>\'+sar.toLocaleString()+\' ريال</strong><br>'
