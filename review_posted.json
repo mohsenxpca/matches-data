@@ -2585,6 +2585,50 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "Stable HyperOS 4 rollout begins: 33 out of 82 devices scheduled for early November",
+   "url": "https://www.gizmochina.com/2026/11/04/stable-hyperos-4-rollout-begins-33-out-of-82-devices-scheduled-for-early-november/",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (621 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Don’t expect better cameras with Galaxy Z Fold 9 and Z Fold 9 Ultra",
+   "url": "https://www.sammobile.com/news/galaxy-z-fold-9-ultra-no-camera-hardware-upgrade/",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "iPhone 15 vs Z Flip 5 vs Z Fold 5: Comparing specs, price, cameras - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUW1mRzBkVnV0dGZvSmUwZUN1eU1TV1hQSm5CWDBkLXFCdElyb3ZoLWtmMmM5ZXBWZWplSXBOUGtOc2w4TmFLQTFoXzRjR1lObkZSYnczVktTX2M5NXlmNDNudVhfX1pvRUloWjVzUzBfSXZsOTYtOS1RdDJ1d2phSTIyUGlOa1JTWnE4?oc=5",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phone 'iphone 15' already covered in: سعر ومواصفات iPhone 15 (آيفون 15): المميزات والعيوب الكاملة"
+  },
+  {
+   "title": "Samsung phones are getting October 2026 Google Play system update - SamMobile",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWHZqSHZEeUFGcm5vZ2Rvd0dhcG9BUjJwbDh5T0ZWUnphdDBCNHhqRnhPNF9yWV9abS1MUkdKem1TWU1GZ1YtcWxLeDVrdlZoeURPaHhyTVo4d2R3ZTZIMllWejI2Q1lEZWlxV2xyZFhYOUQ4WVVWT0Q0SFMzNTN4TFlXc01ibzNCYmhaQm9odVBCejNmOHktc2lVbmVoQWFy?oc=5",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (455 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Is Finelo legit or a scam? What we found on iPhone and Android - 2-Spyware",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yM05jaWUyZTBSX19ld25PZGlCV1J6QXhsQkMxSGZKVjRKS2xzaXRodmtmOFdTVk42OHVzUXhmR2FHU0RsQXlfWlZrWEdRQlpNSW1QSkdCTE1aRWNuejAzNU9ZUERiVldpeFE?oc=5",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (654 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
