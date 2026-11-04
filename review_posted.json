@@ -2707,6 +2707,24 @@
    "reason": [
     "طول المقال قصير (622 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "Another major Android brand wants your next phone to be wider, not taller",
+   "url": "https://www.androidauthority.com/xiaomi-wide-slab-phone-3731491/",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (662 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "9 نصائح ذهبية لإطالة عمر هاتفك القابل للطي",
+   "url": "https://www.androidauthority.com/foldable-phone-durability-and-protection-tips-3729982/",
+   "post_url": "https://www.review-mobile.com/2026/11/9-tips-to-keep-foldable-alive.html",
+   "at": "2026-11-04T13:11:51+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
