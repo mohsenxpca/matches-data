@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7162259",
-   "t": "الكارت الموحد 2026.. خطوات وشروط الحصول على البديل الرقمي لبطاقة التموين",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQZUZEWlFmdG5ZMFYwOXBaM3N4emc4M3ZXbTZaUU84V1BtRS02eGlRQXpxek9nMG4yZnVsOXpXdWpZVjZMRW1GVGJWUUtkb19aX2Qzd2Z2c25xak5iYjRHODIzR2NuMnJrMVVGUGw0RzMyRGFFTEpkVy1BcXFxblVseFdXUS1WUXBWWHNZVGNub1NaM3BIT0F1SnRWTlR0WXRib0FKOTFmSWNOcE1Ua1FScXc5Mzd3V0dfLUdWWnpQMnc3TV9YemNQSHZRN3lwcWJxTzRxWHFsdjNVZWFIaElwMzF4Z2ZOeTJTWmsyLUI1ZHUxbHZ0ekhtdDljMzhFc3V2bjJRSFRER0Y0U0RQRVotcGx6ZGRGeHFZM1F3MVpVZ0lTenFSMWw0V2NzYWc5c0RIaXlSWjRCamRYN1ctU3c?oc=5",
    "t": "مواعيد المدارس بالتوقيت الشتوي 2026.. موعد الطابور والحصة الأولى بعد تأخير الساعة - قناة صدى البلد",
    "at": "2026-10-31",
@@ -3261,6 +3252,15 @@
    "at": "2026-11-04T02:44:09.264037+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/3/%D9%81%D9%86%D8%A7%D8%B1%D8%A8%D8%AE%D8%B4%D8%A9-%D8%B6%D8%AF-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D8%AC%D8%B1%D8%A7%D9%81%D9%8A%D9%86%D8%A8%D9%8A%D8%B1%D8%AE-%D8%AE%D8%A7%D8%B1%D8%AC-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%AF%D9%88%D8%B1%D9%89-%D8%A7%D9%84%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D9%84%D9%84%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9/7604411",
+   "t": "فناربخشة ضد ليفربول.. جرافينبيرخ خارج مواجهة دورى الأبطال للإصابة",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الـ body 479 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
