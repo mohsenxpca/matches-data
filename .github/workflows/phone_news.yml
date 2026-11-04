@@ -17,6 +17,11 @@ on:
         default: "0"
   schedule:
     - cron: "*/30 * * * *"  # every 30 minutes
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/phone_news.yml"
 
 permissions:
   contents: write
