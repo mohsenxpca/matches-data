@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/10/28/%D9%85%D9%88%D8%B9%D8%AF-%D8%A7%D9%84%D9%82%D8%B1%D8%B9%D8%A9-%D8%A7%D9%84%D8%B9%D9%84%D9%86%D9%8A%D8%A9-%D9%84%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5-2898-%D9%82%D8%B7%D8%B9%D8%A9-%D8%A3%D8%B1%D8%B6-%D8%B6%D9%85%D9%86-%D8%A7%D9%84%D8%B7%D8%B1%D8%AD-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9/7597322",
-   "t": "موعد القرعة العلنية لتخصيص 2898 قطعة أرض ضمن الطرح السابع من برنامج مسكن",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 4",
-    "الـ body 380 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.mubasher.info/news/4692333/-%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D9%85%D9%88%D8%B9%D8%AF-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1-%D9%82%D8%B1%D8%B9%D8%A9-2898-%D9%82%D8%B7%D8%B9%D8%A9-%D8%A3%D8%B1%D8%B6-%D8%B6%D9%85%D9%86-%D9%85%D8%B3%D9%83%D9%86-/",
-   "t": "\"الإسكان\" المصرية تعلن موعد إجراء قرعة 2898 قطعة أرض ضمن \"مسكن\"",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 419 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.silverscreenandroll.com/lakers-analysis/128152/player-grades-lakers-warriors-stats-box-score-recap-austin-reaves-luka-doncic",
    "t": "Player Grades: Lakers vs. Warriors",
    "at": "2026-10-31",
@@ -3281,6 +3262,24 @@
    "reason": [
     "الـ body 363 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/4/3073556/%D9%85%D8%AD%D9%85%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D9%8A%D9%87-%D8%A8%D8%B8%D9%87%D9%88%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%A8%D8%B1%D9%81%D9%82%D8%A9-%D9%84%D8%A7%D8%B9%D8%A8%D9%8A-%D8%B7%D8%B1%D8%A7%D8%A8%D8%B2%D9%88%D9%86-",
+   "t": "محمد صلاح يشارك متابعيه بظهور جديد برفقة لاعبي طرابزون",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الـ body 221 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNMmhwRWdkaEVPU1RmVm13STRNb0RTd056NFhGcXpmYlNxZlhPckUzb00zYjIwMEpnOFE4dkpYeFV0UGxhcnRGZDA1NFVGTENaWXlQOGliRlptZGppR1U3WWJEQnFnSjJDTlR6cFlSWHREZnktUlNaTWNEUTNRLVNicUZZUmN2amJ3cXJIdVF2NURlWU9jR0JIdDdFR3NCSEJleUtsSjlYSzRyRjRPWC1NdHg1V0dJRWhfNnZMVUY2cGIwOE4zVjA1c2xBb1Jld0NQelYyQjBOSGYtODlRZjBnZ2JzYWwybFEzYTV6NXc4WkR0TjJVV2pvNnlYTWpQY1N4c05uV1NuMTJMSmc3OHJwTjYyX1VDX2tLMnFpcER2c2VvTDVl?oc=5",
+   "t": "هل نصلي الفجر قبل موعده؟.. 32 دقيقة تشعل الجدل حول مواقيت الصلاة في مصر - تليجراف مصر",
+   "title": "جدل واسع في مصر حول مواقيت الصلاة مع تغيير الساعة وتأثيرها",
+   "url": "https://www.egyptaway.com/2026/11/egypt-prayer-times-time-change.html",
+   "at": "2026-11-04T14:52:09.378227+02:00",
+   "ok": true,
+   "type": "public_query"
   }
  ]
 }
