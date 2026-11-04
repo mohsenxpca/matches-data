@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5PeEF3NzM4bjJOanJDaGpPUkU4X196RF9CaEZBaXJhU21BTFpHSmR6MWg3TVB0RHY1X1RfZHJ5anpTR1NDejBV?oc=5",
-   "t": "التوقيت الصيفي وترشيد الكهرباء.. 40 ألف ميجاوات في الصيف مقابل 30 ألفًا بالشتاء - صدى البلد",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMivwRBVV95cUxOc0RMRXhsdksxTFlOS3JCNzgtSk9NWFQyc3BDalpJNlE1ek4xRG9qaE45QmdWdmlqQ3pLenNLc1FPMDBvWlYzcWw5RHpTaGsxaWlTdEpXdDlBUF9ycmtwUzJlMGQtWlRWcFVoc3RUMmhrYm9idGNjOUhLQ1E4REpwbm9ZOVVfaWNzV1ExOFFDSkNsd2V6TmJlMW1YZXVaTHB5ZHZfaWI5OEpsZTJGaWkzdENtTFhqZ1F4NlBwbjhJMGtDNTAtcExaZUd3S05UVWY5d2tuUXphNF9EdkNWNURxRU10V0YwNFlTd2hFMkhYWS0tMDhSbWFfWjFQdld1eXpMMHZ2NmxWSUF4MGE2M2JQM1IyTklDZ1FrZ19LSU0tR2xTOEVLSUxBdlNmSVRkSHYzM2ZPaDJMQnBCVkY1SUk3SXpubENLRjJDUUZNQldEQS1oQkRheVNQRXctbEdWeFh0RVA5VWxCU1R6cE1WVERsTGNCY2pJS1doNXE2RTk0VUtUSlJkcklHS28wOWdBZFR4OTVvZ1pEY3lSSTVOSVNJc05wYkNKS1doVFBJczhhQjFNMnZuTGRONkVTZWsyc29sRkxXYzA1X2lUTXpoT19CcE5TOUUyWGlubFlaTVhiOFlhMlJ5ZWsxYnU3d3l5TnBrUnQ0SEhmdUE3Z2IwT19FZjZVMWg1RHRxRUtGM2NJcF9IRjRyd3RPVXJHX2t1R2ZIUUhqQjB2TzEtZ0xzN2F0YS1ENlhOb0F0TkduTld1ONIBugRBVV95cUxPRGlNdDBaYUM5U0F5Rk92T2ozQ2drbFRwRS1RNGFSUmJLXzJqR3dKdDRVenkyRk5yN2ZQLXFmSkVMVWh6RmVXa2U3ampCU0pZb3dMUlQ0WGJjbTNIRjNvbzdnbEo2VDN2QXhGdmdjbGRDZUVqVUwwaXAzSUY5aVUxUG9UTERtSlgya1dOWENVZUNWX2h3eXFBMXFrcEptSEJpbnUzdWpSeFg1c1hyVXJ4WjR6bmpUM2xOWGZVUEdGdVFXQURXMGhNdC0xcWZqd2dHY28zOFM3bXdoUVJjNUk2V3FoMmgwVXNNWWRBNnI0M25iM1RyY2IwaTF5c3pIN2tWbkFkRG9zNUFiTlN6UnR1TmpSS1pJQkJkTzM5Wi1yVXVKMVBsZHJ0eGo0SFF2YVY3YkQwNnR3QjhlMGQwQkM2RkJObmhCN2lwT1cyb3l0MzFDeDFoM0dhV2V6b1FCVXBSOERmQVRmRDR3c2plN2JsYWhuYnktQkdGUHZLazBQTWdrakd6ZDlrWmdYcG5sOXFLUWxTbkh4anhNQnR4M3ZrbUVXbVV3ems4UVZLNjNld1VBeVJUOTA0cTVaNGsxWURlR2t4MS1uOTctMHFUeEY5anBEekgtQzBiTnF4OEY4X1FHN2JSMF81LUdMM211MllpLXFYX1h4cGtQQTFxY2tmZjdFUHl2Rkd0VlVnSUtjZlYtcVJJX28tZ1FkU1FXV0tnYjFGbDctMVo0Tml4aTJaSkZEVEd2M2RoT0E?oc=5",
    "t": "الطقس اليوم.. انخفاض بالحرارة وفرص أمطار ببعض المناطق والصغرى بالقاهرة 18 - اليوم السابع",
    "at": "2026-10-31",
@@ -3262,6 +3255,18 @@
    "at": "2026-11-04T07:07:51.575884+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7167141",
+   "t": "ارتداد قوي.. مفاجأة في أسعار الدولار مقابل الجنيه",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
+   ]
   }
  ]
 }
