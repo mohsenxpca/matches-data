@@ -2184,6 +2184,33 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "The Samsung Galaxy Z Flip 8 just launched — grab this stylish case for 30% off - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQlZWTlI2RlZrR29JTGRZRGJVNmFaM0lTUzlRdVVYeEVEMHNMMmIycnZzSEw3THJhX000bjBvQVFqU1AxN3FQaEJCMzlScmdINzgyZWFYTm1QYXVwTWRXRWJaeWtwX0I1R3paWTlQLVVBQVZuZ1Z3RFdMaWJadXZ2YnZR?oc=5",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (552 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "How To Make Your Older Android Phones Last Longer - Engadget",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPclhTYm05bERyNDV4ZXRwTDR0cFp6ZldvYm1RUGNPMnBweGp4REUtdVFQdXNpNERlUVlEQjNxbkJMYjMySGk4eUZxbEJtNE9pSm9UaFdwZ3phLVVsUzFTOFlxaVBxMFEtWE5xUGJBZExZd2FPNExqWmpNWW1pYnJDTjNINnQ?oc=5",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (644 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "شاومي تعلن خارطة طريق تحديث HyperOS 4 لأكثر من 80 هاتفاً",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMXloei1NVVFrVm13eWNwb1g1czhJYzNWNWNmc1F2TnBjY1lkWHV1OXFhMGRuSHZRRDI4RGR3eTNXVEZ6RWx0M3BCSjZCN2ZYQzgxbzByaXZjc0h6SW1XWU9MdnVnb0tvWTFnUW5PSy0tTHMtcWJ4aG5HWGV5RVplX0tRZmFScnFxbVo5Z3VuYXRSOUVKRVlEdA?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-hyperos-4-global-rollout-roadmap.html",
+   "at": "2026-11-04T02:41:06+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "شاومي"
   }
  ]
 }
