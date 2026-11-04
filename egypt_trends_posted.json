@@ -1,47 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7162177",
-   "t": "بمعالج خارق واتصال فضائي.. سامسونج تطلق وحشها الفاخر القابل للطي Samsung W27",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
-   "u": "https://www.elbalad.news/7162282",
-   "t": "ضبط نصف طن أسمدة زراعية مجهولة المصدر خلال حملة تموينية بإسنا",
-   "title": "ضبط نصف طن أسمدة زراعية مجهولة المصدر في حملة بإسنا",
-   "url": "https://www.egyptaway.com/2026/10/seizure-half-ton-fertilizers-isna.html",
-   "at": "2026-10-31T10:31:48.777113+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
-   "u": "https://www.elbalad.news/7162282",
-   "t": "ضبط نصف طن أسمدة زراعية مجهولة المصدر خلال حملة تموينية بإسنا",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
-   "u": "https://www.cnn.com/2026/10/31/europe/poland-protests-president-karol-nawrocki-flies-home-hnk-intl",
-   "t": "Polish president turns plane around to return home as court chief’s suspension sparks protest",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 422 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.yahoo.com/news/politics/articles/court-row-polish-president-calls-073328270.html",
-   "t": "Court row: Polish president calls for 'restoration of rule of law'",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 442 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/28/%D9%85%D9%88%D8%B9%D8%AF-%D8%A7%D9%84%D9%82%D8%B1%D8%B9%D8%A9-%D8%A7%D9%84%D8%B9%D9%84%D9%86%D9%8A%D8%A9-%D9%84%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5-2898-%D9%82%D8%B7%D8%B9%D8%A9-%D8%A3%D8%B1%D8%B6-%D8%B6%D9%85%D9%86-%D8%A7%D9%84%D8%B7%D8%B1%D8%AD-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9/7597322",
    "t": "موعد القرعة العلنية لتخصيص 2898 قطعة أرض ضمن الطرح السابع من برنامج مسكن",
    "at": "2026-10-31",
@@ -3276,6 +3235,51 @@
    "ok": false,
    "reason": [
     "الـ body 457 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/4/3073540/%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D9%88%D9%81%D9%86%D8%B1%D8%A8%D8%AE%D8%B4%D8%A9",
+   "t": "ترتيب دوري أبطال أوروبا قبل مواجهة ليفربول وفنربخشة",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الـ body 314 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7167759",
+   "t": "أنا مش فاسد.. ميدو يرد بقوة على تسريب إيصال مديونيته للزمالك.. وتنازلت عن 20 مليون جنيه",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'زمالك', 'مليون'}) مع تشابه نصي مع: مخاوف بالزمالك من خصخصة شركة الكرة وتبرعات بـ600 مليون)"
+   ]
+  },
+  {
+   "u": "https://insider-gaming.com/should-you-buy-ps5-pro-for-gta-6-all-ps5-pro-enhancements/",
+   "t": "Should You Buy A PS5 Pro For GTA 6—All PS5 Pro Enhancements",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها"
+   ]
+  },
+  {
+   "u": "https://www.uniladtech.com/gaming/gta-settings-to-change-playstation-xbox-before-release-017293-20261102",
+   "t": "Gamers urged to make these changes to PlayStation 5 and Xbox before GTA 6 comes out",
+   "title": "تفاصيل الاستعداد للعبة GTA 6 وموعد الإطلاق في نوفمبر",
+   "url": "https://www.egyptaway.com/2026/11/gta-6-release-and-console-setup.html",
+   "at": "2026-11-04T14:32:45.644977+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMilgNBVV95cUxPSU5hV3ZGU2dscVd2c3FJbzZVSFRmTFg5SUVyRXNjcnoyZTJWem9va3Z5QmZydVNiME5NdllDOGZQamF1UjUyUmszTC1mOFVXQ3h6Wnlndl93cmcxQVhMcm9VeXZfUVF1MWdvODNjaXVxeW9SekZxSlh0VHhwYnBoUmloNkNMMU9Xalp5d2ZEVm52aURuMjBHVE1oNDdYcmZvRVQtYnZ2LTV0YmNhY3JCLUlzRnEtWThtRUJEQlZSVE9HaC1xZGhjOUs3bkVLdWl0SXNuaXRzWUJkVlRxZDdqZUQxMVVWOWp3bzFPcWQyWVZnT05jUk1JLWtOYnlsWjI5VWNkd2thRzBaWk8ySnhraWEyY09aS01VVG1IUC1EaVFVTXBsakI5MEE5MlNxU1VsbVRCLVhlbzA2M1I1cDdVMjkxZm8tTGRSZHpxX2UzblRqUHMzUDJfS2o4anF0ZlgxOVEybldERVBsZW9MU21qeHlUZFJkVTBib1l5b0M5S3I4c0JxdGIybGFyWEVCZUs0N0R6ZVhB0gGQA0FVX3lxTE5UcXhnc3dOSUlCSjNmSE5lSU9hbFhEM0Zva2k2eVJGQWdwc3RSbDJMUWNLTTlsWXNGNEkxMGw2b1AzQlY0eDBTUGNyWm9XVzhxM1hEYkllc1k2XzNzeE5EWEx1VHhVVTc5RzJIeUZuTi0zeklMY1BDbWcwcF9WSWFZVWZVb3NmUElxcGN3SnplLTZoWmZpMWhHSkNpRkxMWmF1OUdheGdTbzdEaXpGa0xmbU1OUS11bHZnYlhIT3RUcENTVWZXdnI5RzY5YVZBZmN2dXF0b2tYVTBUV1ZMVm9nM1lSQ1VtZk1la1FNdXhEOXVTOEwyM1RldDRqN2VuMUVPd2dqdG1kUy01UFFtQzhQVDYxelQySTd3VkNnQXFENXZUYXBKN1RlMjVpRmN0TG1RNkY4SDRtRnlPR3NDQUdmQjhtZ2VDYkd6TkFFNUNhbm1XWjcyUnFaZllfZUFWS1lsd3NDeWtVMWxpaFVXY1NHLWdSRl9iT01uM3NhSUNKTVR3S3VKR2hTUnhaMWxPV3I?oc=5",
+   "t": "ضبط 151 بطاقة تموينية وماكينة صرف و800 كيلو من السلع المدعمة بقنا - اليوم السابع",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الـ body 363 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
