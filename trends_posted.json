@@ -766,6 +766,24 @@
    "q": "قياس",
    "at": "2026-11-05",
    "ok": false
+  },
+  {
+   "q": "كومو",
+   "at": "2026-11-05",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "قبول",
+   "at": "2026-11-05",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "احمد فلوكس",
+   "at": "2026-11-05",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
