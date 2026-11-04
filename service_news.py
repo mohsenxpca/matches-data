@@ -20,6 +20,7 @@ Usage:
   DRY_RUN=1 python service_news.py # dry run (prints drafts, no Blogger publishing)
 """
 import datetime, difflib, html, json, os, random, re, sys, time, urllib.parse
+sys.stdout.reconfigure(encoding="utf-8")
 from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
@@ -291,7 +292,11 @@ def main():
         print(f"Daily cap ({DAY_CAP}) reached for service news today. Exiting.")
         return
 
-    tok = None if dry else f.token()
+    try:
+        tok = None if dry else f.token()
+    except Exception as e:
+        print(f"Error obtaining Blogger access token: {e}")
+        return
     existing_posts = [p["t"] for p in f.site_posts(tok)] if not dry else []
     all_known_titles = existing_posts + done_titles
 
