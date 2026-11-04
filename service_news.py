@@ -24,6 +24,7 @@ from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 import football as f
+import image_guard
 
 CAIRO = ZoneInfo("Africa/Cairo")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
@@ -54,7 +55,7 @@ SERVICE_FALLBACKS = {
     "fuel": "https://images.pexels.com/photos/9796/gas-station-fuel-oil-diesel.jpg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "coordination": "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "holidays": "https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "trains": "https://images.pexels.com/photos/72594/japan-train-railroad-transportation-72594.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "trains": "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "salaries": "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "outage": "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "general": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
@@ -181,23 +182,24 @@ def fetch_publisher_article(url):
             return None, None
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        # 1. Extract real news photo
+        # 1. Extract real news photo (only if from a trusted Egyptian publisher and safe)
         img_url = None
-        og = soup.find("meta", property="og:image") or soup.find("meta", attrs={"name": "twitter:image"})
-        if og and og.get("content"):
-            c = og["content"].strip()
-            if c.startswith("http") and not any(bad in c.lower() for bad in ["logo", "favicon", "avatar", "icon", "placeholder", "pixel"]):
-                img_url = c
+        if image_guard.is_trusted_egypt_publisher(url):
+            og = soup.find("meta", property="og:image") or soup.find("meta", attrs={"name": "twitter:image"})
+            if og and og.get("content"):
+                c = og["content"].strip()
+                if image_guard.is_safe_image(c, url):
+                    img_url = c
 
-        if not img_url:
-            for im in soup.find_all("img"):
-                src = im.get("src") or im.get("data-src") or ""
-                if src.startswith("http") and not any(bad in src.lower() for bad in ["logo", "favicon", "avatar", "icon", "pixel"]):
-                    w = int(im.get("width") or 0)
-                    h = int(im.get("height") or 0)
-                    if (w == 0 or w >= 400) and (h == 0 or h >= 250):
-                        img_url = src
-                        break
+            if not img_url:
+                for im in soup.find_all("img"):
+                    src = im.get("src") or im.get("data-src") or ""
+                    if image_guard.is_safe_image(src, url):
+                        w = int(im.get("width") or 0)
+                        h = int(im.get("height") or 0)
+                        if (w == 0 or w >= 400) and (h == 0 or h >= 250):
+                            img_url = src
+                            break
 
         # 2. Extract article text
         paragraphs = []

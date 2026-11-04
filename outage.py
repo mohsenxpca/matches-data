@@ -12,6 +12,7 @@ import requests
 from bs4 import BeautifulSoup
 import football as f
 import cover
+import image_guard
 
 CAIRO = ZoneInfo("Africa/Cairo")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
@@ -19,6 +20,26 @@ WARNING_ICON = "https://wsrv.nl/?url=cdn.jsdelivr.net/gh/microsoft/fluentui-emoj
 
 API_URL = "https://script.google.com/macros/s/AKfycbx_xEqWCdWDpnIl-HmKC3PWqVHNMQDQtCFYxpHb9rWXT4QVNN8LCCo7tUbG_C4v-Tvztg/exec?a=all"
 POSTED_FILE = "outage_posted.json"
+
+
+SERVICE_IMAGES = {
+    "vodafone": "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "orange": "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "etisalat": "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "we": "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "instapay": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "fawry": "https://images.pexels.com/photos/5632397/pexels-photo-5632397.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "vodafone-cash": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "facebook": "https://images.pexels.com/photos/267399/pexels-photo-267399.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "whatsapp": "https://images.pexels.com/photos/46924/pexels-photo-46924.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "instagram": "https://images.pexels.com/photos/174938/pexels-photo-174938.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "youtube": "https://images.pexels.com/photos/3227986/pexels-photo-3227986.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "tiktok": "https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "ahly-bank": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "banque-misr": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "cib": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "pubg": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+}
 
 SERVICES = {
     "vodafone": {"name": "فودافون", "cat": "الشبكة والإنترنت المحمول", "support": "888", "slug": "is-vodafone-down"},
@@ -180,7 +201,7 @@ def main():
   </div>
 </div>'''
 
-        lead_img_src = news_down.get(sid) or "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop"
+        lead_img_src = news_down.get(sid) or SERVICE_IMAGES.get(sid, SERVICE_IMAGES["vodafone"])
         body = (f'<img src="{lead_img_src}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px;margin-bottom:14px">'
                 + callout
                 + art["body"]

@@ -9,6 +9,7 @@ import datetime, html, json, os, random, re, sys
 import requests
 from bs4 import BeautifulSoup
 import football as f
+import image_guard
 import cover
 
 PROFILE = os.environ.get("PROFILE") or "tech"  # tech | games | deals
@@ -137,7 +138,7 @@ def article_content(url):
     og = s.find("meta", property="og:image") or s.find("meta", attrs={"name": "twitter:image"})
     if og and og.get("content"):
         u = og["content"].strip()
-        if u.startswith("http") and not any(x in u for x in ["default", "placeholder", "logo", "avatar", "icon"]):
+        if u.startswith("http") and image_guard.is_safe_image(u):
             real_img = u
     box = s.find("article") or s.find("main") or s
     ps = [p.get_text(" ", strip=True) for p in box.find_all("p")]
