@@ -61,8 +61,6 @@
 
 ## موقع رفيو موبايل (Review-Mobile.com) - مراجعات ومقارنات الهواتف الذكية
 - [رفيو موبايل - الصفحة الرئيسية](https://www.review-mobile.com/): المنصة العربية المتخصصة في مراجعات الهواتف الذكية والأجهزة اللوحية وتحليل المواصفات الرسمية والأسعار بالجنيه والريال والدرهم.
-- [مراجعة Honor 700 و 700 Pro](https://www.review-mobile.com/2026/10/honor-700-pro-review-specs.html): المواصفات الكاملة وتحليل الكاميرات والشاشة والأسعار.
-- [مراجعة Redmi M100 Pro](https://www.review-mobile.com/2026/11/redmi-m100-pro-review.html): المواصفات الكاملة، السعر، المميزات والعيوب.
 - [مراجعة vivo S70 الشاملة](https://www.review-mobile.com/2026/10/vivo-s70-comprehensive-review.html): تحليل الكاميرات والمعالج والبطارية.
 - [مراجعة Nothing Phone (3)](https://www.review-mobile.com/2026/11/nothing-phone-3-review-specs-price.html): السعر والمواصفات الكاملة وتقييم الأداء.
 - [مراجعة OnePlus Turbo 6Vs](https://www.review-mobile.com/2026/11/oneplus-turbo-6vs-review.html): شاشة 144 هرتز وبطارية 9000 مللي أمبير.

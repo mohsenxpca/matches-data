@@ -9,12 +9,9 @@
 ### 1. [موقع رفيو موبايل (Review-Mobile)](https://www.review-mobile.com/) — مراجعات الهواتف الذكية الشاملة
 بوابة متخصصة في تقديم مراجعات تقنية دقيقة ومقارنات شاملة لأحدث الهواتف الذكية والأجهزة اللوحية بناءً على المواصفات الرسمية المعلنة، مع جداول الأسعار بالجنيه المصري والريال السعودي والدرهم الإماراتي:
 - **[الرئيسية - أحدث مراجعات الهواتف 2026](https://www.review-mobile.com/)**
-- **[مراجعة Honor 700 و 700 Pro: المواصفات الكاملة والسعر](https://www.review-mobile.com/2026/10/honor-700-pro-review-specs.html)**
-- **[مراجعة هاتف Redmi M100 Pro: المواصفات والسعر والمميزات والعيوب](https://www.review-mobile.com/2026/11/redmi-m100-pro-review.html)**
 - **[مراجعة هاتف vivo S70: المواصفات الكاملة والتحليل الشامل للكاميرات](https://www.review-mobile.com/2026/10/vivo-s70-comprehensive-review.html)**
 - **[مراجعة Nothing Phone (3): السعر والمواصفات الكاملة](https://www.review-mobile.com/2026/11/nothing-phone-3-review-specs-price.html)**
 - **[مراجعة OnePlus Turbo 6Vs: شاشة 144 هرتز وبطارية 9000 مللي أمبير](https://www.review-mobile.com/2026/11/oneplus-turbo-6vs-review.html)**
-- **[مراجعة جهاز سامسونج القابل للطي بشاشة 17 بوصة](https://www.review-mobile.com/2026/10/samsung-17-inch-foldable-review.html)**
 - **[مراجعة آي باد ميني 2026: اختبار الأداء والمواصفات](https://www.review-mobile.com/2026/10/ipad-mini-2026-benchmark-review.html)**
 - **[مراجعة Oppo Pad Air 6: المواصفات والسعر المتوقع](https://www.review-mobile.com/2026/10/oppo-pad-air-6-review.html)**
 - **[مراجعة عروض الهواتف الرائدة من أبل وسامسونج وأوبو 2026](https://www.review-mobile.com/2026/11/flagship-smartphones-deals-2026.html)**

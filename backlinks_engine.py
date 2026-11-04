@@ -112,7 +112,42 @@ def get_latest_posts():
                 res.append(x)
         return list(reversed(res))
 
-    return dedup(latest_egyptaway)[-8:], dedup(latest_review)[-8:]
+    # The *_posted.json logs keep posts that were later moved back to draft (e.g. the 2026-11-03
+    # AdSense cleanup on Review) -> their links are 404. Keep only URLs that are live right now.
+    egy = only_live(dedup(latest_egyptaway), "8325646053257070334")
+    rev = only_live(dedup(latest_review), "2997328666613207792")
+    return egy[-8:], rev[-8:]
+
+
+def _norm(u):
+    return u.split("?")[0].split("#")[0].replace("http://", "https://").rstrip("/")
+
+
+def only_live(items, blog_id):
+    """Drop items whose URL is not a live (published) post. Unverifiable -> drop (never link a 404)."""
+    if not items:
+        return items
+    live = set()
+    try:
+        import football as f
+        tok = f.token()
+        page = None
+        for _ in range(4):  # newest ~800 live posts is plenty for the latest-8 lists
+            p = {"status": "live", "maxResults": 200, "fetchBodies": "false", "fields": "nextPageToken,items(url)"}
+            if page:
+                p["pageToken"] = page
+            d = f.api("GET", f"/blogs/{blog_id}/posts", tok, p)
+            live |= {_norm(x["url"]) for x in d.get("items", []) if x.get("url")}
+            page = d.get("nextPageToken")
+            if not page:
+                break
+    except (Exception, SystemExit) as e:
+        print("Warning: could not verify live posts, skipping these links:", e)
+        return []
+    kept = [x for x in items if _norm(x["url"]) in live]
+    if len(kept) != len(items):
+        print(f"Dropped {len(items) - len(kept)} non-live links for blog {blog_id}")
+    return kept
 
 
 def update_devto(egy_posts, rev_posts, state):
