@@ -189,7 +189,7 @@ def extract_brand(text):
     for l, p in BRANDS:
         if p.search(text):
             return l
-    return "هواتف ذكية"
+    return "اخرى"
 
 
 def classify_candidate(cand_title, source):
@@ -921,7 +921,6 @@ def main():
 
             # Assemble Full Article
             full_html = (
-                CSS +
                 '<div dir="rtl" class="rv-wrap">' +
                 lead_img_html +
                 disclaimer_html +
@@ -932,18 +931,17 @@ def main():
                 interlink_html +
                 faq_html +
                 f'<p style="font-size:14px;color:#64748b;margin-top:24px">المصادر الرسمية: <a href="{pub_url}" rel="nofollow noopener" target="_blank">المصدر التقني المعلن</a>.</p>' +
-                '</div>'
+                '</div>' +
+                CSS
             )
 
-            labels = [brand_label]
-            if cand_kind == "review":
-                labels.append("مراجعات")
+            # تصنيفات رفيو (قرار محسن 2026-11-04):
+            # للأخبار: تصنيف "أخبار هواتف"
+            # للمواصفات أو المراجعة: نوع الهاتف فقط (اسم الشركة)
+            if cand_kind == "news":
+                labels = ["أخبار هواتف"]
             else:
-                labels.append("أخبار الهواتف")
-                if "تسريب" in art["title"] or "تسريبات" in art["title"]:
-                    labels.append("تسريبات")
-                elif "تحديث" in art["title"] or "أندرويد" in art["title"] or "ios" in art["title"].lower():
-                    labels.append("تحديثات")
+                labels = [brand_label if brand_label and brand_label != "هواتف ذكية" else "اخرى"]
 
             if dry:
                 print(f"\n[DRY RUN] Kind: {cand_kind.upper()}")

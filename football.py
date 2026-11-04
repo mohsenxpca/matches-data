@@ -97,6 +97,9 @@ _FRESH = {}  # access tokens last ~1 hour; long runs (slow Gemini) get a new one
 
 
 def api(method, path, tok, params=None, body=None):
+    if method in ("POST", "PUT", "PATCH"):
+        import html_guard
+        html_guard.check(body, path)  # unbalanced <div> in a post breaks the theme layout (sidebar under the post)
     def call(t):
         for i in range(3):  # network hiccups / Blogger 5xx: retry instead of failing the whole run
             try:
