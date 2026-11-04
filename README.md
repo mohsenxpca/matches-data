@@ -112,6 +112,13 @@
 - **[Gaming, GTA 6 & Sports Guide 2026](https://rentry.co/gaming-gta6-matches-egypt-2026)**
 
 
+
+
+### 🤗 مستودعات وقواعد بيانات Hugging Face العالمية (DR 91):
+- **[Egypt Open Services & Smartphone Prices Hub 2026 (ايجبتاوى & رفيو موبايل)](https://huggingface.co/datasets/mohsenxpc/egypt-open-services-and-phones-2026)**
+- **[Zeda Shop Egypt 35 Game Top-Ups Open Directory 2026 (زيدا شوب)](https://huggingface.co/datasets/mohsenxpc/zeda-shop-game-topup-egypt-2026)**
+
+
 ## 🔗 الروابط الرسمية المعتمدة
 - **موقع ايجبتاوى:** [https://www.egyptaway.com/](https://www.egyptaway.com/)
 - **موقع رفيو موبايل:** [https://www.review-mobile.com/](https://www.review-mobile.com/)

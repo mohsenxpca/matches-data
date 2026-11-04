@@ -46,3 +46,7 @@
 - **[Zeda Shop 35 Games Top-Up Guide](https://rentry.co/zeda-shop-game-topup-egypt-2026)**
 - **[Egypt Public Services & Banking 2026](https://rentry.co/egypt-services-gold-banking-2026)**
 - **[Gaming, GTA 6 & Sports Guide 2026](https://rentry.co/gaming-gta6-matches-egypt-2026)**
+
+## 🤗 سادساً: قواعد البيانات المفتوحة على منصة Hugging Face العالمية (DR 91)
+- **[مستودع بيانات خدمات مصر وأسعار الهواتف (ايجبتاوى & رفيو موبايل)](https://huggingface.co/datasets/mohsenxpc/egypt-open-services-and-phones-2026)**
+- **[الفهرس المفتوح لشحن 35 لعبة بالـ ID (متجر زيدا شوب)](https://huggingface.co/datasets/mohsenxpc/zeda-shop-game-topup-egypt-2026)**
