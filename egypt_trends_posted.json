@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/10/31/أسعار-الذهب-في-السعودية-تتراجع-بعد-تثبيت-الفيدرالي-للفائدة-وتصاعد/7599693",
-   "t": "أسعار الذهب في السعودية تتراجع بعد تثبيت الفيدرالي للفائدة وتصاعد رهانات رفعها مجددًا",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 4000",
-    "الـ body 378 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/31/سعر-الدولار-اليوم-السبت-31-10-2026-فروق-محدودة-بين/7599230",
    "t": "سعر الدولار اليوم السبت 31-10-2026.. فروق محدودة بين البنوك",
    "at": "2026-10-31",
@@ -3275,6 +3265,15 @@
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
     "الوصف لازم 140-160 حرف"
    ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS3ljZmFZZzBmVHJsVl9aVG95WGtmQmNVNnpmd2hXaThFMzktbzNiVzdKcU15YmxtdjdjQ2xBY3VCY0tab1A5LTBuRS1Vb0tNaUJMSnU4ZzZxUnh0Sl9VQVF4RnRISzVtUW5sTWF4ODZVdDhJY05nR3dMbDI0cHYzMWhISmMwYmVKRkEtQVMxbXdtYjZqWW9jeENUVElqem1aRF9mV3Y5bjI2QQ?oc=5",
+   "t": "عدم وجود امتحان دخول للصف الأول: يقلل الضغط على الأطفال، ويزيد من مسؤولية المدارس. - Vietnam.vn",
+   "title": "مقترح بمنع اختبارات القبول للصف الأول الابتدائي",
+   "url": "https://www.egyptaway.com/2026/11/ministry-education-primary-admission.html",
+   "at": "2026-11-04T10:46:37.611412+02:00",
+   "ok": true,
+   "type": "public_query"
   }
  ]
 }
