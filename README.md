@@ -67,6 +67,41 @@
 - `prices/phones.json`: قاعدة بيانات أسعار ومواصفات الهواتف الذكية في مصر.
 - `llms.txt`: الفهرس المهيكل لمحركات الذكاء الاصطناعي والبحث التوليدي (AI Search Engines).
 
+
+
+---
+## 🌟 تحديثات ومواضيع شهر نوفمبر 2026 الحية (November 2026 Live Updates)
+تحديث دوري شامل يربط بين أحدث ما نُشر على منصاتنا الثلاث:
+- **[دليل التحديثات التفصيلي لشهر نوفمبر 2026](docs/NOVEMBER_2026_UPDATES.md)**
+
+### 📱 رفيو موبايل (Review-Mobile):
+- [تسريب مواصفات سلسلة Oppo Reno 17 الخارقة](https://www.review-mobile.com/2026/11/oppo-reno-17-series-leaked-specs.html)
+- [مواصفات وأسعار iPhone 18 المتوقعة](https://www.review-mobile.com/2026/11/iphone-18-major-upgrades-price-hike.html)
+- [نصائح الحفاظ على الهواتف القابلة للطي](https://www.review-mobile.com/2026/11/9-tips-to-keep-foldable-alive.html)
+- [مراجعة هاتف Redmi Turbo 6 Max ببطارية 11000 مللي أمبير](https://www.review-mobile.com/2026/11/redmi-turbo-6-max-11000mah-battery.html)
+- [مقارنة أفضل الهواتف في ميزات الذكاء الاصطناعي وإزالة الأجسام](https://www.review-mobile.com/2026/11/we-test-which-phone-is-best.html)
+
+### 🌐 ايجبتاوى (Egyptaway):
+- [تفاصيل وموعد إطلاق لعبة GTA 6 والاستعداد لها](https://www.egyptaway.com/2026/11/gta-6-release-and-console-setup.html)
+- [شهادة بنك نكست NXT EDGE بعائد 21%](https://www.egyptaway.com/2026/11/bank-nxt-edge-certificate.html)
+- [شهادة استثمار البنك الأهلي المصري «ب» بعائد 15%](https://www.egyptaway.com/2026/11/nbe-investment-certificate-details.html)
+- [رصد عطل واتساب في مصر والشرق الأوسط](https://www.egyptaway.com/2026/11/whatsapp-outage-egypt-middle-east-2026_01263869084.html)
+- [أخبار تألق فودين مع مانشستر سيتي](https://www.egyptaway.com/2026/11/foden-confident-manchester-city-form.html)
+
+### 🎮 زيدا شوب (Zeda Shop):
+- [شحن زيمز وكوينز زيبيتو ZEPETO في مصر بالـ ID فودافون كاش](https://www.zeda-shop.com/2026/11/zepeto-zems-coins-egypt.html)
+- [شحن كاش وكوينز لودو كلوب Ludo Club بالـ ID فودافون كاش](https://www.zeda-shop.com/2026/11/ludo-club-cash-coins-egypt.html)
+- [شحن ذهب مودرن سترايك أونلاين بالـ ID في مصر](https://www.zeda-shop.com/2026/11/modern-strike-online-gold-egypt.html)
+- [شحن ذهب ومفاتيح World War Heroes بالـ ID فودافون كاش](https://www.zeda-shop.com/2026/11/world-war-heroes-gold-egypt.html)
+- [شحن توكنز توب إليفن Top Eleven Tokens في مصر بالـ ID](https://www.zeda-shop.com/2026/11/top-eleven-tokens-egypt.html)
+
+### 📚 أدلة تيليجراف لشهر نوفمبر 2026:
+- [أهم أخبار التكنولوجيا ومراجعات الهواتف الذكية لشهر نوفمبر 2026](https://telegra.ph/أهم-أخبار-التكنولوجيا-ومراجعات-الهواتف-الذكية-لشهر-نوفمبر-2026-11-04)
+- [دليل الألعاب والرياضة وشحن الباقات بالـ ID في مصر 2026](https://telegra.ph/دليل-الألعاب-والرياضة-وشحن-الباقات-بالـ-ID-في-مصر-2026-11-04)
+- [دليل الشهادات البنكية والخدمات الحكومية وفودافون كاش في مصر 2026](https://telegra.ph/دليل-الشهادات-البنكية-والخدمات-الحكومية-وفودافون-كاش-في-مصر-2026-11-04)
+- [Egyptaway, Review-Mobile & Zeda Shop November 2026 Master Digest](https://telegra.ph/Egyptaway-Review-Mobile--Zeda-Shop-November-2026-Master-Digest-11-04)
+
+
 ## 🔗 الروابط الرسمية المعتمدة
 - **موقع ايجبتاوى:** [https://www.egyptaway.com/](https://www.egyptaway.com/)
 - **موقع رفيو موبايل:** [https://www.review-mobile.com/](https://www.review-mobile.com/)
