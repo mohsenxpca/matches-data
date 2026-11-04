@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiiANBVV95cUxPRE5EUkZ0YXpjaEJPQzh4Zi15Y2w5Q20zZWVJRTIwUFNOMklxYm9pTExTTExZd3d1SWpmTHk2SVpYU2k5VkNKYjlodDBMN1FNQUVnN0dzV2Utb0RTQURtSVNxT3RELVNBeVF3MXluUkNHbTFETHpuTlRubS02NkRWaUdJMi1fcEtnMkhwRUlEMHotQ2V2dFNUcDF1NDk1SmVVamc0dU9JT2F0YnBKTUQtMVVmQkxGU1c2UnJiS0d3YXpUcXA4UEpEMW9UMnN5U1VlTEd0T2hDcmRyZGNNYldVVmFnU1ctTTJUQlZXNWlhOGJtMFc3SnpLVnVCc0MtY3VLdFpoclJkaTV6NmV3eTlYdkZLVlgyRjVKX3dUVWRsSzF0Wmt6eWZadEY5S2pndk9TUkNWM1B5cjVQR0RiemlZWnZCTk5CR0dXRkcyUFRfTGFHRkNjRkcyaTdVRTIzY0FTUTc1TlRyTnlpZ01qd3pxV0dudXp0Mm1IWGVzX012bHU2aUI5MkNxVw?oc=5",
-   "t": "التعليم تناشد طلاب الشهادة الإعدادية بسرعة تسجيل استمارة الامتحانات - الأخبار المسائى",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 427 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.masrawy.com/news/news_economy/details/2026/10/31/3071232/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%84%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D9%85%D8%B9-%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9-%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA-",
    "t": "سعر الذهب اليوم في مصر يواصل الانخفاض مع بداية تعاملات السبت",
    "at": "2026-10-31",
@@ -3262,6 +3252,18 @@
   {
    "u": "https://www.elbalad.news/7167049",
    "t": "ضربة قاضية لعشاق الألعاب.. إنفيديا ترفع أسعار كروت الشاشة RTX 50 بشكل جنوني",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_regions/details/2026/11/3/3073158/%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8-%D9%88%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%AA%D9%8A%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A-%D8%BA%D8%AF%D8%A7-%D8%A8%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A3%D8%A8%D9%88-%D8%B2%D9%86%D9%8A%D9%85%D8%A9-%D9%81%D9%8A-%D8%AC%D9%86%D9%88%D8%A8-%D8%B3%D9%8A%D9%86%D8%A7%D8%A1",
+   "t": "أسباب ومواعيد قطع التيار الكهربائي غدا بمدينة أبو زنيمة في جنوب سيناء",
    "at": "2026-11-04",
    "ok": false,
    "reason": [
