@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQZUZEWlFmdG5ZMFYwOXBaM3N4emc4M3ZXbTZaUU84V1BtRS02eGlRQXpxek9nMG4yZnVsOXpXdWpZVjZMRW1GVGJWUUtkb19aX2Qzd2Z2c25xak5iYjRHODIzR2NuMnJrMVVGUGw0RzMyRGFFTEpkVy1BcXFxblVseFdXUS1WUXBWWHNZVGNub1NaM3BIT0F1SnRWTlR0WXRib0FKOTFmSWNOcE1Ua1FScXc5Mzd3V0dfLUdWWnpQMnc3TV9YemNQSHZRN3lwcWJxTzRxWHFsdjNVZWFIaElwMzF4Z2ZOeTJTWmsyLUI1ZHUxbHZ0ekhtdDljMzhFc3V2bjJRSFRER0Y0U0RQRVotcGx6ZGRGeHFZM1F3MVpVZ0lTenFSMWw0V2NzYWc5c0RIaXlSWjRCamRYN1ctU3c?oc=5",
-   "t": "مواعيد المدارس بالتوقيت الشتوي 2026.. موعد الطابور والحصة الأولى بعد تأخير الساعة - قناة صدى البلد",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 424 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5PeEF3NzM4bjJOanJDaGpPUkU4X196RF9CaEZBaXJhU21BTFpHSmR6MWg3TVB0RHY1X1RfZHJ5anpTR1NDejBV?oc=5",
    "t": "التوقيت الصيفي وترشيد الكهرباء.. 40 ألف ميجاوات في الصيف مقابل 30 ألفًا بالشتاء - صدى البلد",
    "title": "حقيقة استهلاك الكهرباء بين الصيف والشتاء في مصر",
@@ -3260,6 +3251,16 @@
    "ok": false,
    "reason": [
     "الـ body 479 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/4/3073320/%D9%85%D9%8A%D8%AF%D9%88-%D9%8A%D9%88%D8%AC%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%82%D9%88%D9%8A%D8%A9-%D9%84%D8%A5%D9%85%D8%A7%D9%85-%D8%B9%D8%A7%D8%B4%D9%88%D8%B1-%D8%A7%D8%AA%D9%82%D9%8A-%D8%B1%D8%A8%D9%86%D8%A7-%D9%81%D9%8A-%D8%B4%D8%BA%D9%84%D9%83-",
+   "t": "ميدو يوجه رسالة قوية لإمام عاشور: \"اتقي ربنا في شغلك\"",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'مصريه', 'كره'}) مع تشابه نصي مع: استاد القاهرة يحتضن قطبي الكرة المصرية أفريقيًا)"
    ]
   }
  ]
