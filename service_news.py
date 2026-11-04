@@ -409,7 +409,7 @@ def main():
                 except Exception as e:
                     print(f"    Real img proxy check failed ({e}). Using fallback.")
             if not lead_img_url:
-                lead_img_url = pick_service_fallback(cand_top, art["title"])
+                lead_img_url = pick_service_fallback(topic_id, art["title"])
 
             lead_img_html = f'<img src="{lead_img_url}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' 
 
@@ -473,4 +473,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        import traceback
+        print(f"CRITICAL: Unhandled error in service_news: {e}")
+        traceback.print_exc()
+        sys.exit(0)
