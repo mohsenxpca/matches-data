@@ -2853,6 +2853,40 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Samsung UK drops prices of Galaxy S26 phones by £250, Z Fold8 price by £100 for Black Friday",
+   "url": "https://www.gsmarena.com/samsung_uk_drops_prices_of_galaxy_s26_phones_by_250_z_fold8_price_by_100_for_black_friday-news-75344.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phone 's26' already covered in: مراجعة Samsung Galaxy S26 FE: بديل أرخص لـ S26 2026"
+  },
+  {
+   "title": "Oppo smartphone with 12,000mAh battery gets certification",
+   "url": "https://www.gsmarena.com/oppo_smartphone_with_12000mah_battery_gets_certification_-news-75345.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (662 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "أفضل خلفيات هواتف أندرويد لهذا الأسبوع (4 نوفمبر)",
+   "url": "https://www.androidauthority.com/wallpaper-wednesday-november-04-2026-3730899/",
+   "post_url": "https://www.review-mobile.com/2026/11/best-android-wallpapers-november-4.html",
+   "at": "2026-11-04T18:43:28+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "هواتف 2027 قد تصبح أغلى ثمناً: سامسونج تخطط لرفع أسعار شاشات OLED",
+   "url": "https://www.androidauthority.com/samsung-oled-ram-price-increase-report-3731642/",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-oled-price-hike-2027.html",
+   "at": "2026-11-04T18:44:22+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
