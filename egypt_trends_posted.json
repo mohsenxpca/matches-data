@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/news/news_economy/details/2026/10/31/3071232/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%84%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D9%85%D8%B9-%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9-%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA-",
-   "t": "سعر الذهب اليوم في مصر يواصل الانخفاض مع بداية تعاملات السبت",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 378 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/31/أسعار-الذهب-في-السعودية-تتراجع-بعد-تثبيت-الفيدرالي-للفائدة-وتصاعد/7599693",
    "t": "أسعار الذهب في السعودية تتراجع بعد تثبيت الفيدرالي للفائدة وتصاعد رهانات رفعها مجددًا",
    "at": "2026-10-31",
@@ -3264,6 +3255,18 @@
   {
    "u": "https://www.masrawy.com/news/news_regions/details/2026/11/3/3073158/%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8-%D9%88%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%AA%D9%8A%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A-%D8%BA%D8%AF%D8%A7-%D8%A8%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A3%D8%A8%D9%88-%D8%B2%D9%86%D9%8A%D9%85%D8%A9-%D9%81%D9%8A-%D8%AC%D9%86%D9%88%D8%A8-%D8%B3%D9%8A%D9%86%D8%A7%D8%A1",
    "t": "أسباب ومواعيد قطع التيار الكهربائي غدا بمدينة أبو زنيمة في جنوب سيناء",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiowNBVV95cUxORDFRSFVmRExmN1ZicEgyV1FoQnRWUlpwbC10TklaQWE0d3BnbTMwVHBwbUt2dERxWi1oM2w4bDcxYjNVa00wUjJ4MDRVc1NTOTV0X3pXMG5lU2lYejRveTN0QVlVVDhsblo2d3BNbWZMQWptWmdRdEJ3Nld0eDVQdV9zTnRMdlVYMWE0RFh1cGpkYm1qejU4VmFidUZUZVIyNG9vcnBHZDlScFFhNHdOX25UV1cxc2RWRklyWmRXUjZMMVV5di1uaXRPblJCWGgtMWxfaTRUZkRIYlpxaUc0eTlpT0xKZUtOZ2pKNlJvSUt5MVpILWRzMGNHeVd5UXlVRThvTm12OHlVTUZWLW5fU05RZ09pckRQQkpXMEw1SXl5UmpPTDhJQ2JqbHd0SS02Ny1kYkVFZlFvTTBPcDA1NFliTm43QnVteERFczBSS2tILU5kdjdZOEVXMWg1c0pveWtuTm1Fb1E5ckRjOEp3eUM5WE9xTElzREJqTmVBRVRqRVVhdXVVX0cwTzIwS3NrUHYwdzVLTUNxcG9MTkdUYmlKZ9IBngNBVV95cUxPQ0lGbHV0aTBmTHR5TzZ5ajNhUTlXVXlYaWVrbWRsT29RQmV2Qjc0c2JtMDlXUk9ydy00cVQ3dVpRbHJtZzhKQjFSSDdUTTFTQlF1TWdHTVJmS0J1UDdtTU45YTM0aW5Ra3RNVjJ0NmR5aUoxZGN3SHBDOEFsX1QyOU0zdkttY2ZaMERPRGtzb1hlc3Q1amFEV1hoeWhieDVvNTdYM0pWU2EyNUc2NkhVSXgteUxINFEzdVBTUmkxU3B6YVcxMkRsYkVPZ2hMa2l1YTdiNGVGOFlwS3ljVVB5VFM4dXVRODFGaFBxYmhXQktXTEctMW04aGhKNTVKV3l0Rk1RM3ZvZjBFOW1QWm4yNjgxVHBRX2toV2ZSZXF4SURpSjc3MGt6S1JzS1kwQm9PVUdUNlQyRkhhYkNmUDNnbXpfR09BaFBhN0ZuaVpCQ0IwX2pTVDBJWE05c1NpZ1pfOUItQ0lRNjlfaEIydURnZFB4LWwtNTlJcmg2TnhKRmM0Nnc5ck9YTjJBVGp1WF9NQlBDeGRFZFhUVDJaV3c?oc=5",
+   "t": "قطار تالجو.. مواعيد الرحلات على خطوط السكة الحديد - اليوم السابع",
    "at": "2026-11-04",
    "ok": false,
    "reason": [
