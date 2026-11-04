@@ -2327,6 +2327,156 @@
    "ok": true,
    "kind": "news",
    "brand": "هواتف ذكية"
+  },
+  {
+   "title": "Realme 17T 5G surfaces in real life with a redesigned camera island",
+   "url": "https://www.gizmochina.com/2026/11/04/realme-17t-5g-surfaces-in-real-life-with-a-redesigned-camera-island/",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phone '17t' already covered in: مراجعة Xiaomi 17T المواصفات والسعر في مصر وهل يستحق الشراء؟"
+  },
+  {
+   "title": "Android secretly sets how much battery each app can use, but you can change it - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTmVKN1ZOckNfS1BWNG9zNGRjRnRyOWhjWXdxTThnZ09xV0tpdEd5NklsMkZrWGFNR05pT0VENmYwcC01Zm9YcVZwTTh6aTkyVEVZbDBBRVBqek9uOER6UVpiX1ktelFoRUhlQlM5RGFTRHA2OGRRTmxoMC1VSndNQ25wVm5IaVBVRXZWc1lOaUZ6THZtdEt2aVByamZhbGZkR0xQdENUOA?oc=5",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (623 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "vivo X500",
+   "url": "https://www.gsmarena.com/vivo_x500_5g-14951.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (781 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Oppo Find X10",
+   "url": "https://www.gsmarena.com/oppo_find_x10-14953.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Model code [x10] found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
+  },
+  {
+   "title": "Samsung Galaxy S26 Ultra",
+   "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-14320.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [samsung galaxy] found in review: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
+  },
+  {
+   "title": "Samsung Galaxy A57",
+   "url": "https://www.gsmarena.com/samsung_galaxy_a57-14379.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [samsung galaxy] found in review: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
+  },
+  {
+   "title": "Motorola Signature 27",
+   "url": "https://www.gsmarena.com/motorola_signature_27-14955.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (827 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Samsung Galaxy A17",
+   "url": "https://www.gsmarena.com/samsung_galaxy_a17-14041.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [samsung galaxy] found in review: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_max-14958.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "Xiaomi Poco X8s",
+   "url": "https://www.gsmarena.com/xiaomi_poco_x8s-15038.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [xiaomi poco] found in review: مراجعة سعر ومواصفات هاتف Xiaomi Poco X7"
+  },
+  {
+   "title": "OnePlus Ace 7 Pro",
+   "url": "https://www.gsmarena.com/oneplus_ace_7_pro-15045.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [oneplus ace] found in review: مراجعة كاملة لهاتف OnePlus Ace 3 مواصفاتة وسعرة"
+  },
+  {
+   "title": "OnePlus 15",
+   "url": "https://www.gsmarena.com/oneplus_15-14206.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (698 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Xiaomi 17 Pro Max",
+   "url": "https://www.gsmarena.com/xiaomi_17_pro_max-14181.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "Xiaomi 17 Ultra",
+   "url": "https://www.gsmarena.com/xiaomi_17_ultra-14380.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [xiaomi 17] found in review: مراجعة Xiaomi 17T Pro: كاميرات Leica وبطارية 7000 مللي أمبير وشحن 100 وات"
+  },
+  {
+   "title": "Oppo Find X9 Pro",
+   "url": "https://www.gsmarena.com/oppo_find_x9_pro-14094.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [oppo find] found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
+  },
+  {
+   "title": "Apple iPhone 17 Pro Max",
+   "url": "https://www.gsmarena.com/apple_iphone_17_pro_max-13964.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "Xiaomi Poco F7",
+   "url": "https://www.gsmarena.com/xiaomi_poco_f7-13951.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [xiaomi poco] found in review: مراجعة سعر ومواصفات هاتف Xiaomi Poco X7"
+  },
+  {
+   "title": "Sony Xperia 1 VII",
+   "url": "https://www.gsmarena.com/sony_xperia_1_vii-13843.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [sony xperia] found in review: مراجعة Sony Xperia 10 VIII 2026: مواصفات وسعر الهاتف المدمج"
+  },
+  {
+   "title": "Xiaomi 17",
+   "url": "https://www.gsmarena.com/xiaomi_17-14134.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [xiaomi 17] found in review: مراجعة Xiaomi 17T Pro: كاميرات Leica وبطارية 7000 مللي أمبير وشحن 100 وات"
+  },
+  {
+   "title": "Honor Magic8 Pro",
+   "url": "https://www.gsmarena.com/honor_magic8_pro-14231.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Model code [magic8] found in review: مراجعة HONOR Magic8 Pro: تليفوتو 200 ميجابكسل وبطارية 7100 مللي أمبير وSnapdragon 8 Elite Gen 5"
   }
  ]
 }
