@@ -175,7 +175,7 @@ def main():
         cat.append({"id": slug, "pid": p.get("id", ""), "big": thumb(img.group(1), 480) if img else "",
                     "n": name, "t": p["title"], "b": (p.get("labels") or [""])[0], "u": p["url"],
                     "s": sp, "egp": pr.get("egp"), "pp": pr.get("page"), "img": thumb(img.group(1)) if img else "",
-                    "d": p.get("published", "")[:10]})
+                    "d": p.get("published", "")[:10], "ts": p.get("published", "")})
     data = {"fields": [[k, ar] for k, ar, _ in FIELDS], "phones": cat}
     json.dump(data, open("review_specs.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     side(cat)
@@ -194,7 +194,7 @@ def thumb(u, w=200):
 
 def side(cat):
     """review_side.json: the small data file the sidebar loads on every page."""
-    latest = [{"n": p["n"], "u": p["u"], "img": p["img"]} for p in sorted(cat, key=lambda x: x["d"], reverse=True) if p["img"]][:9]
+    latest = [{"n": p["n"], "u": p["u"], "img": p["img"]} for p in sorted(cat, key=lambda x: x.get("ts") or x["d"], reverse=True) if p["img"]][:9]
     prices = []
     pj = os.path.join("prices", "phones.json")
     if os.path.exists(pj):
