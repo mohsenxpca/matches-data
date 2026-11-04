@@ -24,7 +24,7 @@ FIELDS = [  # key, Arabic label, keywords in our table labels
     ("colors", "الألوان", ["الألوان"]),
     ("price", "السعر في المراجعة", ["السعر"]),
 ]
-SKIP_TITLE = re.compile(r"أفضل|افضل|مقارنة|قائمة|دليل|أرخص|ارخص|ضد الماء|vs\b|top|\b(watch|fit|band|buds|earbuds)\b|ساعة|سماعة", re.I)
+SKIP_TITLE = re.compile(r"أفضل|افضل|مقارنة|قائمة|دليل|أرخص (هواتف|موبايلات)|ارخص (هواتف|موبايلات)|ضد الماء|vs\b|top|\b(watch|fit|band|buds|earbuds)\b|ساعة|سماعة", re.I)
 EMOJI = re.compile(r"[^\w\s/()+\-.،,]", re.U)
 
 
@@ -72,28 +72,74 @@ def field_of(label):
     return None
 
 
-def model_name(title):
-    t = re.sub(r"^\s*(مراجعة|مواصفات|سعر)\s*(هاتف|موبايل)?\s*", "", title)
-    t = re.split(r"\s*[:|–—،]\s*|\s+-\s+", t)[0]
-    m = re.search(r"[A-Za-z][A-Za-z0-9+ ()'\-.]{2,40}", t)
-    if not m:
-        return None
-    name = re.sub(r"\s+(5G|4G)$", r" \1", m.group(0)).strip(" -.(")
+BRAND_START = re.compile(r"^(Samsung|Galaxy|Apple|iPhone|Xiaomi|Redmi|POCO|Oppo|Reno|Vivo|iQOO|Realme|Honor|Huawei|Nova|OnePlus|"
+                         r"Nothing|Google|Pixel|Motorola|Moto|Infinix|Tecno|Nokia|Asus|ROG|Zenfone|Sony|Xperia|ZTE|Nubia|"
+                         r"Red ?Magic|Itel|Meizu|Lava|Ai\+|HMD|Fairphone)\b", re.I)
+
+
+def _clean(name):
+    name = re.sub(r"\s+(5G|4G)$", r" \1", name).strip(" -.(")
     if len(name) < 4 or not re.search(r"\d|[A-Z]{2}", name):
         return None
-    return name
+    return re.sub(r"\s+20\d\d$", "", name)  # "Galaxy F70 2026" -> "Galaxy F70"
 
 
-def specs(content):
-    out = {}
-    for tbl in re.findall(r"<table.*?</table>", content, re.S)[:3]:
-        for tr in re.findall(r"<tr.*?</tr>", tbl, re.S):
-            cells = [text(c) for c in re.findall(r"<t[hd][^>]*>(.*?)</t[hd]>", tr, re.S)]
-            if len(cells) != 2 or not cells[1] or len(cells[0]) > 30:
-                continue
-            k = field_of(cells[0])
-            if k and cells[1] not in out.get(k, ""):
-                out[k] = (out[k] + " · " + cells[1]) if k in out else cells[1]
+def model_name(title):
+    t = re.sub(r"^\s*(مراجعة|مواصفات|سعر)\s*(هاتف|موبايل)?\s*", "", title)
+    m = re.search(r"[A-Za-z][A-Za-z0-9+ ()'\-.]{2,40}", re.split(r"\s*[:|–—،]\s*|\s+-\s+", t)[0])
+    name = _clean(m.group(0)) if m else None
+    if name:
+        return name
+    # news titles: «رسمياً: إطلاق Redmi M100 Pro بشاشة ...» -> the first Latin run that starts with a phone brand
+    for m in re.finditer(r"[A-Za-z][A-Za-z0-9+ ()'\-.]{2,40}", title):
+        if BRAND_START.match(m.group(0).strip()):
+            name = _clean(m.group(0).strip())
+            if name:
+                return name
+    return None
+
+
+def _norm(s):
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
+def _rows(tbl):
+    return [(tr, [text(c) for c in re.findall(r"<t[hd][^>]*>(.*?)</t[hd]>", tr, re.S)]) for tr in re.findall(r"<tr.*?</tr>", tbl, re.S)]
+
+
+def specs(content, name=""):
+    """Rows of our spec tables (label|value). Only when those give fewer than 3 fields (news posts from
+    review_engine use «الميزة | Phone X | previous gen»), fall back to 3+ column tables whose header names
+    this phone, or whose 2nd header is a spec column, and take that phone's column."""
+    out, key = {}, _norm(name)
+    tables = re.findall(r"<table.*?</table>", content, re.S)[:3]
+
+    def add(label, val):
+        k = field_of(label) if len(label) <= 30 else None
+        if k and val and val not in out.get(k, ""):
+            out[k] = (out[k] + " · " + val) if k in out else val
+
+    for tbl in tables:
+        for tr, cells in _rows(tbl):
+            if len(cells) == 2:
+                add(cells[0], cells[1])
+    if len([k for k in out if k != "price"]) >= 3:
+        return out
+    for tbl in tables:
+        rows = _rows(tbl)
+        if not rows or "<th" not in rows[0][0] or len(rows[0][1]) < 3:
+            continue
+        head = rows[0][1]
+        hit = [j for j, h in enumerate(head[1:], 1) if key and _norm(h) and (key in _norm(h) or _norm(h) in key)]
+        if hit:
+            col = hit[0]
+        elif re.search(r"المواصف|القيمة|التفاصيل", head[1]):
+            col = 1
+        else:
+            continue
+        for tr, cells in rows[1:]:
+            if len(cells) > col:
+                add(cells[0], cells[col])
     return out
 
 
@@ -116,8 +162,8 @@ def main():
         if SKIP_TITLE.search(p["title"]):
             continue
         name = model_name(p["title"])
-        sp = specs(p.get("content", ""))
-        if not name or len([k for k in sp if k != "price"]) < 4:
+        sp = specs(p.get("content", ""), name or "")
+        if not name or len([k for k in sp if k != "price"]) < 3:
             continue
         key = re.sub(r"[^a-z0-9]", "", name.lower())
         if key in seen:
