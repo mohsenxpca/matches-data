@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.nba.com/news/4-takeaways-warriors-open-group-play-with-historic-comeback-win",
-   "t": "4 Takeaways: Warriors open Group Play with historic comeback win",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 1955، 8",
-    "الـ body 455 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQNHp4aVZqdDJkQUtrZXNsVl9BTGFicEI5dUxVNG1tRllsNDlpR0tQdVVRZ2pSN1BHcGZ3RGlxNzJPdFJfZkw1T2ZVc2FnbGtOT0x1MHlNTGYwN284bi1YWl9ZeVJJY2tJd056S2lNdkNWdzZOZ2xGeV9YT2ptS3A0S0FaakNYSGMyM2JrOXVsUXM1WUVnVEVzQ3lXTl9wRkhwN2FJa1U4RDJYSDhCcFBxb3pHVmVEb19qbVAtUFBGT3NaSGdpUFdSODdMME8tV2pPWlNYZ0d1ck9VaFZJNHQ1c1lmZVNlSzh0NV9CcXBLcEY4S3RGMU5TR25oTE1EUURaQzgzWm5lV05hTFdLaTE2V2cwZTZwc0wyNUY0VzlPWk5UUUREQWpOZmhXdUlvNjZVVVdRWGx2Z0dHSlhPU3ZPYXF5eGNzb2NmWGZTY0ZFeWJHcW5MRThDYXRudjI3cWl0Z0U3MURfOXA0dGJETFRMVTNxS2s0LUJybkQ0UFRB?oc=5",
    "t": "موعد ارتداء الملابس الشتوية.. «الأرصاد» تكشف تفاصيل طقس الأيام المقبلة - بوابة أخبار اليوم الإلكترونية",
    "at": "2026-10-31",
@@ -3298,6 +3288,18 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 1000، 6",
     "الـ body 455 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.bluewin.ch/en/sport/football/kobel-we-re-feeling-good-and-are-ready-to-perform.-li.3660388",
+   "t": "Kobel: “We’re feeling good and are ready to perform.”",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الـ body 0 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
+    "الوصف لازم 140-160 حرف"
    ]
   }
  ]
