@@ -2211,6 +2211,79 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "Man orders iPhone 15 Pro from Apple, gets Android copy instead - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5SnpEbTF2Yl9pRW1xYW13Wi1IM3UtNExHM0J0WGhmMkhiNmctWnQ4VW9VQ2IySjlpREFLV1ZIOTA5TDE3NlVuUkRVWGsyaEpoTV81MkxxYkc1N2pJMlZTbEVTSlBvQTl3bDI2WTBLTUFVSVU?oc=5",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phone 'iphone 15 pro' already covered in: سعر ومواصفات iPhone 15 Pro: المميزات والعيوب الكاملة"
+  },
+  {
+   "title": "RedMagic 12 Pro review",
+   "url": "https://www.gsmarena.com/redmagic_12_pro-review-3010.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [redmagic 12] found in review: مراجعة RedMagic 12 Pro+ 2026: تبريد سائل وشاشة 185 هرتز والسعر"
+  },
+  {
+   "title": "vivo V80 FE",
+   "url": "https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Model code [v80] found in review: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
+  },
+  {
+   "title": "ZTE nubia RedMagic 12 Pro",
+   "url": "https://www.gsmarena.com/zte_nubia_redmagic_12_pro_5g-15012.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [zte nubia] found in review: مراجعة ZTE nubia A57 2026: موبايل اقتصادي بشاشة 120 هرتز والسعر"
+  },
+  {
+   "title": "Oppo Find X10 Pro Max",
+   "url": "https://www.gsmarena.com/oppo_find_x10_pro_max-14939.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "Apple iPhone 18 Pro Max",
+   "url": "https://www.gsmarena.com/apple_iphone_18_pro_max-14716.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "vivo X500 Pro Max",
+   "url": "https://www.gsmarena.com/vivo_x500_pro_max_5g-14782.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "Apple iPhone Duo",
+   "url": "https://www.gsmarena.com/apple_iphone_duo_fold-13804.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [apple iphone] found in review: مراجعة سعر ومواصفات هاتف Apple iPhone 11"
+  },
+  {
+   "title": "ZEED Z-Pro Max",
+   "url": "https://www.gsmarena.com/zeed_z_pro_max_5g-15050.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "vivo X500 Pro",
+   "url": "https://www.gsmarena.com/vivo_x500_pro_5g-14950.php",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (792 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
   }
  ]
 }
