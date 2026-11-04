@@ -1,4 +1,11 @@
 {
-  "alerts": {},
+  "alerts": {
+    "review": {
+      "alerted": true,
+      "time": 1793777177.218437,
+      "diff_min": 112,
+      "last_title": "سامسونج تطلق تحديث نظام Google Play لهواتف جالاكسي"
+    }
+  },
   "last_posts": {}
 }
