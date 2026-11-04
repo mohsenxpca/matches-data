@@ -660,6 +660,24 @@
    "at": "2026-11-04",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "ترتيبات دوري أبطال أوروبا",
+   "at": "2026-11-04",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "اقتصاد مصر",
+   "at": "2026-11-04",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "تعليم",
+   "at": "2026-11-04",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
