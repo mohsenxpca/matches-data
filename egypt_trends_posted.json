@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03RU02QVhqX3JINmNzZTVsWWl2aE5KTU04bzZFMGptREtCeG82MTRmd0dVeGtIZmM5X01DYXljc3JEbG5BOXVDZVFMSzhIQXNrME1PMXVmRFJhVFhlZ3lZ?oc=5",
-   "t": "الأرصاد تكشف مفاجآت بشأن حالة الطقس: درجة الحرارة تقفز 5 مئوية - المصري اليوم",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 421 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.premierleague.com/en/news/4750267/why-its-a-great-time-to-invest-in-bournemouth-in-fpl",
-   "t": "Time to invest in Bournemouth in FPL? See who to pick",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 300، 4، 5، 6، 625، 7، 9",
-    "اكتب الأرقام بالأرقام مش بالحروف (مئة)"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/31/%D8%A3%D8%AD%D9%85%D8%AF-%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86-%D9%8A%D8%B6%D8%B9-6-%D8%B4%D8%B1%D9%88%D8%B7-%D9%84%D9%84%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D8%B9%D9%84%D9%89-%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D9%88%D9%8A%D8%B1%D9%81%D8%B6/7600200",
    "t": "أحمد سليمان يضع 6 شروط للموافقة على شركة الكرة ويرفض عمومية الزمالك الثلاثاء",
    "at": "2026-10-31",
@@ -3311,6 +3292,25 @@
    "at": "2026-11-05T00:55:57.793530+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.starnewskorea.com/es/sports/2026/11/05/2026110507084199563",
+   "t": "\"Una victoria 9-1, es una locura\" Debut en la UCL y un desastre mayúsculo... Infligió una \"humillación histórica\" al fútbol francés",
+   "title": "فوز تاريخي لنادي كومو الإيطالي بـ 9 أهداف في دوري أبطال أوروبا",
+   "url": "https://www.egyptaway.com/2026/11/como-historic-victory-champions-league.html",
+   "at": "2026-11-05T01:05:43.485789+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://estasinformado.com.ar/murio-ezekiel-williams-futbolista-ingles-de-26-anos-diez-dias-despues-de-su-primer-gol-con-el-hendon/",
+   "t": "Murió Ezekiel Williams, futbolista inglés de 26 años, diez días después de su primer gol con el Hendon",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'وفاه', 'لاعب'}) مع تشابه نصي مع: تفاصيل وفاة اللاعب خيسوس دي ميغيل الصادمة في الملاعب)"
+   ]
   }
  ]
 }
