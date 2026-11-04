@@ -39,3 +39,10 @@
 - **[دليل الألعاب والرياضة وشحن الباقات بالـ ID في مصر 2026](https://telegra.ph/دليل-الألعاب-والرياضة-وشحن-الباقات-بالـ-ID-في-مصر-2026-11-04)**
 - **[دليل الشهادات البنكية والخدمات الحكومية وفودافون كاش في مصر 2026](https://telegra.ph/دليل-الشهادات-البنكية-والخدمات-الحكومية-وفودافون-كاش-في-مصر-2026-11-04)**
 - **[Egyptaway, Review-Mobile & Zeda Shop November 2026 Master Digest](https://telegra.ph/Egyptaway-Review-Mobile--Zeda-Shop-November-2026-Master-Digest-11-04)**
+
+## 🚀 خامساً: أدلة النشر السريع على Rentry العالمية (DR 81)
+- **[Master Knowledge Directory 2026](https://rentry.co/egyptaway-review-zeda-hub-2026)**
+- **[Mobile Prices & Reviews Guide 2026](https://rentry.co/mobile-prices-reviews-egypt-2026)**
+- **[Zeda Shop 35 Games Top-Up Guide](https://rentry.co/zeda-shop-game-topup-egypt-2026)**
+- **[Egypt Public Services & Banking 2026](https://rentry.co/egypt-services-gold-banking-2026)**
+- **[Gaming, GTA 6 & Sports Guide 2026](https://rentry.co/gaming-gta6-matches-egypt-2026)**
