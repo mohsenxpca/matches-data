@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.silverscreenandroll.com/lakers-analysis/128152/player-grades-lakers-warriors-stats-box-score-recap-austin-reaves-luka-doncic",
-   "t": "Player Grades: Lakers vs. Warriors",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 17"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMimgNBVV95cUxOVDlrTWFOZTkxcmt3WWFIYnVfejRiWV9KY3p3cGhleHpUVjVQSGNnaDdhbnZ5b3NPVGh1NVoxWW53RW1wM1hXTWJqSXEtZkQzWjFfRnlVZDJqYmZ2NndaRWo0RHlLRXUyZDlCeFMwR2pyTVdvUTBJZWxZNGF6OXpSWFFHWFpnQkMxU1lFOFI1NXlsM3lYb1ZISUExRHJhMFBCM0t5Tm9hU2hYc2JId0xSdGhTYzZxQ2kwS3ItTFh0bE1KLVR1d2NuU2xGMFhxSU5DRDF4N3pRQ0hqUkstNk44N2hPdGZ0MXgyYnZIUXRtSjJCOTdiazJRdDk3NUptWEo5YlB4RW10bmpmZ0VXcGNBR09nZmt1UUQydWN2amhfY1RReDF0cTBBU2JsaF9QZGl2Y0JDWkZxLVFfVVRHWVREYTVqRURhYzhtdGx1WFR1SDhUOFpPM0tQQ3NQUjZfTW1fTkFIR1g0c3Z6RG5rel95bWVEYzQ4QklNQ1lhT0l6UXdlVzJoeUJsRXFSN3BwQlFYdXdELXhoUHdOd9IBlANBVV95cUxNR1pRZV9faU1LQTJKR2xxbzRTVk1BUnR3RGN0dlYzUjVpT01xaEdZNi0wMzVvTWhZUmEzQW9iQ05ZZFpvLU1rd1ZFUTd2SUhSOGFhN21sMHluaEx0ZVgwaXJNYVlJZ1RxVVhWVjVVNWR2UVN5M1VxQ2I2UUg1Q0dmLU4yQmdaOThmak1CSU5SRUlwWGFnN2g3cXdoaGJzeFlKbWpia3d5RHlPQjYzWjdhTk5ZenJUaUNkVmoyaTNVa0FVTUlGeUQyV0hZX09Id1Rtc3N2OUdWNG9Jak5sQnNLSjFhendTT3NWOWYzSFc0aWZ2LVBzb1lsT1hxWGx4OE5OdUgyTTBRYm1mazBORjFOZWxvbzVjMkIyZWZTcHVoUHZQMVJQN0t1bkNfYXBWRWg2Y3o1cGJQMDkxUjd6M2c0di00MUxSNWcxWGN0eUliWVladGJoYjhURkh2Yjl6YlYtekRtSE5BdEhmb1ZkOUFYdGY4V055UTczaXQ0M25WRGo5cTZGSmVRa09ONHBjcHBLRGFxag?oc=5",
    "t": "موعد امتحانات صفوف النقل للفصل الدراسى الأول 2027 - اليوم السابع",
    "at": "2026-10-31",
@@ -3280,6 +3271,15 @@
    "at": "2026-11-04T14:52:09.378227+02:00",
    "ok": true,
    "type": "public_query"
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_economy/details/2026/11/4/3073548/%D8%A7%D9%84%D8%B9%D8%AC%D8%B2-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A-%D9%84%D9%85%D8%B5%D8%B1-%D9%8A%D9%82%D9%81%D8%B2-29-%D8%A5%D9%84%D9%89-6-4-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%AE%D9%84%D8%A7%D9%84-%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%AA%D9%81%D8%A7%D9%82%D9%85-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B1%D8%A7%D8%AF",
+   "t": "العجز التجاري لمصر يقفز 29% إلى 6.4 مليار دولار خلال أغسطس بسبب تفاقم الاستيراد",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "الـ body 393 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
