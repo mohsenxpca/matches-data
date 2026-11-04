@@ -7,8 +7,9 @@ on:
         description: "فرض تشغيل مهام الإنقاذ فوراً (1 = نعم، 0 = فحص ذكي)"
         required: false
         default: "0"
-  schedule:
-    - cron: "*/15 * * * *"  # فحص نبض النشر كل 15 دقيقة على مدار الـ 24 ساعة (أقصى فجوة 50 دقيقة)
+  # schedule disabled - watchdog cron cancelled by Mohsen
+  # schedule:
+  #   - cron: "*/15 * * * *"
 
 permissions:
   contents: write
@@ -45,8 +46,6 @@ jobs:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_ADMIN_CHAT: ${{ secrets.TELEGRAM_ADMIN_CHAT }}
 
       - name: Commit Watchdog State
         if: always()

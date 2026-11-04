@@ -171,25 +171,8 @@ def check_github_workflows():
 
 
 def send_telegram(msg):
-    """Sends Telegram alert if TELEGRAM_BOT_TOKEN is present."""
-    tok = os.environ.get("TELEGRAM_BOT_TOKEN")
-    if not tok:
-        return False
-    channel = os.environ.get("TELEGRAM_ADMIN_CHAT") or "@egyptaway1"
-    url = f"https://api.telegram.org/bot{tok}/sendMessage"
-    payload = {"chat_id": channel, "text": msg, "parse_mode": "HTML"}
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"},
-        method="POST"
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=10) as r:
-            return r.status in (200, 201)
-    except Exception as e:
-        print("Telegram send failed:", e)
-        return False
+    # Completely disabled as requested by Mohsen - never send system/watchdog alerts to Telegram
+    return False
 
 
 def create_github_issue(title, body):
