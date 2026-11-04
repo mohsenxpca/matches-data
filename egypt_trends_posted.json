@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMimgNBVV95cUxOVDlrTWFOZTkxcmt3WWFIYnVfejRiWV9KY3p3cGhleHpUVjVQSGNnaDdhbnZ5b3NPVGh1NVoxWW53RW1wM1hXTWJqSXEtZkQzWjFfRnlVZDJqYmZ2NndaRWo0RHlLRXUyZDlCeFMwR2pyTVdvUTBJZWxZNGF6OXpSWFFHWFpnQkMxU1lFOFI1NXlsM3lYb1ZISUExRHJhMFBCM0t5Tm9hU2hYc2JId0xSdGhTYzZxQ2kwS3ItTFh0bE1KLVR1d2NuU2xGMFhxSU5DRDF4N3pRQ0hqUkstNk44N2hPdGZ0MXgyYnZIUXRtSjJCOTdiazJRdDk3NUptWEo5YlB4RW10bmpmZ0VXcGNBR09nZmt1UUQydWN2amhfY1RReDF0cTBBU2JsaF9QZGl2Y0JDWkZxLVFfVVRHWVREYTVqRURhYzhtdGx1WFR1SDhUOFpPM0tQQ3NQUjZfTW1fTkFIR1g0c3Z6RG5rel95bWVEYzQ4QklNQ1lhT0l6UXdlVzJoeUJsRXFSN3BwQlFYdXdELXhoUHdOd9IBlANBVV95cUxNR1pRZV9faU1LQTJKR2xxbzRTVk1BUnR3RGN0dlYzUjVpT01xaEdZNi0wMzVvTWhZUmEzQW9iQ05ZZFpvLU1rd1ZFUTd2SUhSOGFhN21sMHluaEx0ZVgwaXJNYVlJZ1RxVVhWVjVVNWR2UVN5M1VxQ2I2UUg1Q0dmLU4yQmdaOThmak1CSU5SRUlwWGFnN2g3cXdoaGJzeFlKbWpia3d5RHlPQjYzWjdhTk5ZenJUaUNkVmoyaTNVa0FVTUlGeUQyV0hZX09Id1Rtc3N2OUdWNG9Jak5sQnNLSjFhendTT3NWOWYzSFc0aWZ2LVBzb1lsT1hxWGx4OE5OdUgyTTBRYm1mazBORjFOZWxvbzVjMkIyZWZTcHVoUHZQMVJQN0t1bkNfYXBWRWg2Y3o1cGJQMDkxUjd6M2c0di00MUxSNWcxWGN0eUliWVladGJoYjhURkh2Yjl6YlYtekRtSE5BdEhmb1ZkOUFYdGY4V055UTczaXQ0M25WRGo5cTZGSmVRa09ONHBjcHBLRGFxag?oc=5",
-   "t": "موعد امتحانات صفوف النقل للفصل الدراسى الأول 2027 - اليوم السابع",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 452 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/31/الإسكان-تقرر-طرح-4-آلاف-وحدة-سكنية-للمصريين-بالخارج-ضمن/7600228",
    "t": "الإسكان تقرر طرح 4 آلاف وحدة سكنية للمصريين بالخارج ضمن مبادرة بيتك فى مصر",
    "at": "2026-10-31",
@@ -3279,6 +3270,17 @@
    "ok": false,
    "reason": [
     "الـ body 393 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.purexbox.com/news/2026/11/gta-6-download-size-and-preload-times-officially-revealed-for-xbox-series-xs",
+   "t": "GTA 6 Download Size & Preload Times Officially Revealed For Xbox Series X|S",
+   "at": "2026-11-04",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 463 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'لعبه', 'GTA'}) مع تشابه نصي مع: تفاصيل الاستعداد للعبة GTA 6 وموعد الإطلاق في نوفمبر)"
    ]
   }
  ]
