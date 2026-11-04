@@ -3059,6 +3059,41 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "Motorola Signature 27",
+   "url": "https://www.gsmarena.com/motorola_signature_27_5g-14955.php",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (696 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Philips S7221",
+   "url": "https://www.gsmarena.com/philips_s7221_5g-15066.php",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (763 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "مراجعة RugOne Xsnap 7 Pro: وحش المتانة الجديد بنظام أندرويد 16",
+   "url": "https://www.gsmarena.com/rugone_xsnap_7_pro-15064.php",
+   "post_url": "https://www.review-mobile.com/2026/11/rugone-xsnap-7-pro-review.html",
+   "at": "2026-11-05T01:00:03+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "اخرى"
+  },
+  {
+   "title": "Xiaomi Redmi M100 Pro",
+   "url": "https://www.gsmarena.com/xiaomi_redmi_m100_pro-15054.php",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": "Phrase [xiaomi redmi] found in review: مراجعة سعر ومواصفات هاتف Xiaomi Redmi Note 14 Pro 4G"
   }
  ]
 }
