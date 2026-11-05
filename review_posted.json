@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei MatePad Pro Review: The Screen Alone Is Worth a Look",
-   "url": "https://www.gizmochina.com/2026/10/30/huawei-matepad-pro-review-the-screen-alone-is-worth-a-look/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (719 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
-   ]
-  },
-  {
    "title": "Are Robots Really Productive? AGIBOT’s New Worken Framework Has an Answer",
    "url": "https://www.gizmochina.com/2026/10/30/agibot-worken-robot-productivity-framework/",
    "at": "2026-10-30",
@@ -3193,6 +3184,16 @@
    "ok": false,
    "reason": [
     "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Galaxy A38 tipped to pack a 6000mAh battery",
+   "url": "https://www.gizmochina.com/2026/11/05/galaxy-a38-tipped-to-pack-a-6000mah-battery/",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
   }
  ]
