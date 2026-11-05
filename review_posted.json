@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei’s next-foldable could feature 50MP RYYB telephoto and Kirin 9050 Pro",
-   "url": "https://www.gizmochina.com/2026/10/30/huawei-mate-x8-kirin-9050-pro-camera-matepad-mini-2nd-gen-leak/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "العنوان غير صالح أو أطول من 75 حرف (82 حرف)"
-   ]
-  },
-  {
    "title": "Huawei MatePad Pro Review: The Screen Alone Is Worth a Look",
    "url": "https://www.gizmochina.com/2026/10/30/huawei-matepad-pro-review-the-screen-alone-is-worth-a-look/",
    "at": "2026-10-30",
@@ -3194,6 +3185,15 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Upcoming phones launching in November 2026",
+   "url": "https://www.gizmochina.com/2026/11/05/upcoming-phones-november-2026/",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
   }
  ]
 }
