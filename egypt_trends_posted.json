@@ -1,18 +1,6 @@
 {
  "done": [
   {
-   "u": "https://elpais.com/deportes/futbol/2026-10-31/barcelona-alaves-en-directo-el-partido-de-la-liga-en-vivo.html",
-   "t": "Barcelona - Alavés en directo | El Barça golea al Alavés al descanso | Fútbol | Deportes",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.bbc.com/sport/football/live/cwg7xe5g11m0t",
    "t": "Barcelona 6-1 Alaves: Lamine Yamal and Raphinha each score twice as Barca return to top of La Liga",
    "at": "2026-11-01",
@@ -3326,6 +3314,16 @@
    "ok": false,
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 6"
+   ]
+  },
+  {
+   "u": "https://www.yallakora.com/uefa-europa-conference-league/3053/news/572056/%D9%85%D9%87%D8%A7%D8%AC%D9%85-%D8%B7%D8%B1%D8%A7%D8%A8%D8%B2%D9%88%D9%86-%D8%B5%D9%84%D8%A7%D8%AD-%D9%86%D8%AC%D9%85-%D8%B9%D8%A7%D9%84%D9%85%D9%8A-%D9%88%D8%AE%D8%A8%D8%B1%D8%AA%D9%87-%D8%B3%D8%A7%D8%B9%D8%AF%D8%AA%D9%86%D8%A7-%D9%81%D9%8A-%D8%AA%D8%AD%D8%B3%D9%8A%D9%86-%D8%A7%D9%84%D9%86%D8%AA%D8%A7%D8%A6%D8%AC",
+   "t": "مهاجم طرابزون: صلاح نجم عالمي.. وخبرته ساعدتنا في تحسين النتائج",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 0، 1",
+    "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'مؤتمر', 'طرابزون', 'سبور', 'اوروبي'}) مع: محمد صلاح يتألق رغم هزيمة طرابزون سبور في دوري المؤتمر الأوروبي)"
    ]
   }
  ]
