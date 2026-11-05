@@ -1,21 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Reno17 F 5G gets NBTC certified",
-   "url": "https://www.gsmarena.com/oppo_reno17_f_5g_nbtc_certified-news-75284.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [reno17] found in existing: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
-  },
-  {
-   "title": "مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة",
-   "url": "https://www.gsmarena.com/the_nokia_2360_flip_is_a_dualdisplay_feature_phone_with_an_sos_button-news-75278.php",
-   "post_url": "https://www.review-mobile.com/2026/10/nokia-2360-flip-review.html",
-   "at": "2026-10-30T21:32:11.879297+02:00",
-   "ok": true,
-   "brand": "نوكيا"
-  },
-  {
    "title": "Oppo Find X10 review",
    "url": "https://www.gsmarena.com/oppo_find_x10-review-3007.php",
    "at": "2026-10-30",
@@ -3210,6 +3195,24 @@
    "url": "https://www.androidauthority.com/popular-android-launcher-nova-launcher-poll-results-3731901/",
    "post_url": "https://www.review-mobile.com/2026/11/nova-launcher-still-dominates-android.html",
    "at": "2026-11-05T11:58:41+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "ثغرة GhostMap في أندرويد: تثبيت تطبيق واحد قد يعطل هاتفك تماماً",
+   "url": "https://www.androidauthority.com/android-ghostmap-vulnerability-crash-loop-3731355/",
+   "post_url": "https://www.review-mobile.com/2026/11/android-ghostmap-exploit-crash-loop.html",
+   "at": "2026-11-05T12:00:59+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "تشغيل ألعاب Switch 2 على أندرويد: ثورة المحاكاة والمنافذ المباشرة",
+   "url": "https://www.androidauthority.com/nintendo-switch-2-emulators-ports-android-3731890/",
+   "post_url": "https://www.review-mobile.com/2026/11/play-switch-2-games-on-android.html",
+   "at": "2026-11-05T12:01:51+02:00",
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
