@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung launches a premium version of the Z Fold 8 Ultra in China for $2,850",
-   "url": "https://www.gizmochina.com/2026/10/30/samsung-launches-a-premium-version-of-the-z-fold-8-ultra-in-china-for-2850/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (873 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
-    "العنوان غير صالح أو أطول من 75 حرف (78 حرف)"
-   ]
-  },
-  {
    "title": "مراجعة Honor 700 و 700 Pro: ثورة في التصوير والشاشات الخلفية بمواصفات خارقة",
    "url": "https://www.gizmochina.com/2026/10/30/honor-700-series-telephoto-extender-rear-display-leak/",
    "post_url": "https://www.review-mobile.com/2026/10/honor-700-pro-review-specs.html",
@@ -3191,6 +3181,16 @@
   {
    "title": "Samsung Galaxy S26 gets a £250 price cut",
    "url": "https://www.gizmochina.com/2026/11/05/samsung-galaxy-s26-gets-a-250-price-cut/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Asus Zenbook 14 launched in India with Intel, AMD and Snapdragon options, starts at Rs 1,36,990 (~$1,448)",
+   "url": "https://www.gizmochina.com/2026/11/05/asus-zenbook-14-launched-india-intel-amd-snapdragon-rs-136990/",
    "at": "2026-11-06",
    "ok": false,
    "reason": [
