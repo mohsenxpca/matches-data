@@ -1,34 +1,6 @@
 {
  "done": [
   {
-   "u": "https://m.akhbarelyom.com/news/NewDetails/4899537/1/%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%85%D9%88%D8%AC%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-%D8%AA%D8%B6%D8%B1%D8%A8-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF-%D9%88",
-   "t": "«صدمات حرارية» تهدد المحاصيل والأشجار المثمرة.. 7 توصيات من مركز تغير المناخ",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
-   "u": "https://mybettingsites.co.uk/news/paddy-power-bonus-code-yepaag-60-1-chelsea-vs-man-utd-1-goals-scored-31st-oct/",
-   "t": "Paddy Power bonus code YEPAAG: 60/1 for Chelsea vs Man Utd 1+ Goals Scored",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 8",
-    "الـ body 431 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.bbc.com/arabic/watch/cmkgep4z1xzpo",
-   "t": "مشهد إباحي على شاشة إعلانية في مصر والداخلية تكشف التفاصيل",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 3",
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 306 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBFdWZsN0xGQ29NenJTYzBFNVVfclN5M0NHNnh3LThQdGRDZ05DZUFQTy1MdEYtTFhPZWU5VVprZFZPZ3pu?oc=5",
    "t": "موعد صرف تموين شهر نوفمبر 2026.. نصيب الفرد وقائمة أسعار السلع كاملة - جريدة الدستور",
    "at": "2026-10-31",
@@ -3327,6 +3299,34 @@
    "at": "2026-11-05T10:08:16.486283+02:00",
    "ok": true,
    "type": "public_query"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/5/مليارات-السعادة-للمساهمين-19-30-جنيه-إجمالى-نصيب-السهم-بأرباح/7606737",
+   "t": "مليارات السعادة للمساهمين 19.30 جنيه إجمالى نصيب السهم بأرباح قناة السويس للتكنولوجيا",
+   "title": "أرباح قناة السويس للتكنولوجيا: 19.30 جنيه نصيب السهم للمساهمين",
+   "url": "https://www.egyptaway.com/2026/11/suez-canal-technology-dividends-2026.html",
+   "at": "2026-11-05T10:44:03.418941+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.fox19.com/2026/11/05/dry-thursday-before-rain-returns-friday/",
+   "t": "A Dry Thursday Before Rain Returns Friday",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "الـ body 447 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'طقس', 'حاله'}) مع تشابه نصي مع: حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام)"
+   ]
+  },
+  {
+   "u": "https://www.wfmz.com/weather/cloudy-wet-at-times-and-mild-to-close-the-week/article_aa859485-0120-4d21-9b2f-18d43a1f4f0c.html",
+   "t": "Cloudy, wet at times and mild to close the week",
+   "title": "نهاية جفاف 19 يوماً: أمطار متوقعة ورياح تلطف الأجواء",
+   "url": "https://www.egyptaway.com/2026/11/weather-forecast-rainy-days-ahead.html",
+   "at": "2026-11-05T10:50:49.877957+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
