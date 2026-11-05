@@ -179,6 +179,9 @@
 ---
 
 ### 🌐 Master Backlink Portals & Open Repositories (November 2026 Update)
+* **Vercel Global Edge Portal**: [https://egypt-tech-hub-inky.vercel.app/](https://egypt-tech-hub-inky.vercel.app/) (DR 92)
+* **Netlify Cloud Mirror**: [https://rad-cucurucho-43e9df.netlify.app](https://rad-cucurucho-43e9df.netlify.app) (DR 93)
+* **CodePen Interactive Sandbox**: [https://codepen.io/Mohsen-Farouk/pen/01a1abee-99f8-7d18-a949-915975ce80ad](https://codepen.io/Mohsen-Farouk/pen/01a1abee-99f8-7d18-a949-915975ce80ad) (DR 91)
 * **Hugging Face Interactive Space**: [https://huggingface.co/spaces/mohsenxpc/egypt-tech-market-hub-2026](https://huggingface.co/spaces/mohsenxpc/egypt-tech-market-hub-2026) (Direct: [https://mohsenxpc-egypt-tech-market-hub-2026.hf.space](https://mohsenxpc-egypt-tech-market-hub-2026.hf.space))
 * **Hugging Face Datasets**:
   - [Egypt Open Services & Smartphone Prices](https://huggingface.co/datasets/mohsenxpc/egypt-open-services-and-phones-2026)
