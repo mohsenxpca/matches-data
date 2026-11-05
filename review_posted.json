@@ -1,14 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة هاتف vivo S70: المواصفات الكاملة والتحليل الشامل للكاميرات",
-   "url": "https://www.gsmarena.com/vivo_s70s_full_camera_details_emerge_in_new_leak-news-75279.php",
-   "post_url": "https://www.review-mobile.com/2026/10/vivo-s70-comprehensive-review.html",
-   "at": "2026-10-30T14:19:35.676459+02:00",
-   "ok": true,
-   "brand": "فيفو"
-  },
-  {
    "title": "مراجعة جهاز سامسونج القابل للطي بشاشة 17 بوصة: تفاصيل التسريبات",
    "url": "https://www.gizmochina.com/2026/10/30/samsung-working-17-inch-foldable/",
    "post_url": "https://www.review-mobile.com/2026/10/samsung-17-inch-foldable-review.html",
@@ -3188,6 +3180,15 @@
    "ok": true,
    "kind": "news",
    "brand": "اوبو"
+  },
+  {
+   "title": "مراجعة Enough Phone: هل يستحق هذا الهاتف الصغير سعره 399 دولارًا",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNODNsdGZ4M1ZvUDVzQ19TNG8tc2RtRm1WaU4yMExUWDNIVmdhTi1WcXpMQkc0WGFqcnU4eDNlMGlIMUd4cUtweWkxVzIxMko5QnQ3NXl0SGZhN29KaWdLalJEVTFYcUo4OXppN0RtX09RZlFKSmNnNVlQLXIwcE1PaXpZcEdFV3RQZjlONA?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/enough-phone-review-small-android.html",
+   "at": "2026-11-05T05:28:33+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "اخرى"
   }
  ]
 }
