@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Vivo S70 revealed to feature Snapdragon 8-series chip, dedicated teleconverter",
-   "url": "https://www.gizmochina.com/2026/10/30/vivo-s70-snapdragon-8s-gen-4-64mp-periscope-200mm-teleconverter/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [s70] found in existing: مراجعة هاتف vivo S70: المواصفات الكاملة والتحليل الشامل للكاميرات"
-  },
-  {
-   "title": "iQOO Neo 12 vs OnePlus Ace 7: Both have cooling fans, but which is better?",
-   "url": "https://www.gizmochina.com/2026/10/30/iqoo-neo-12-vs-oneplus-ace-7-both-have-cooling-fans-but-which-is-better/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Phrase [iqoo neo] found in existing: مراجعة iQOO Neo12: بطارية 9000 مللي وشاشة 185Hz للألعاب"
-  },
-  {
    "title": "Samsung Galaxy S27 fast charging capabilities revealed through new certification",
    "url": "https://www.gizmochina.com/2026/10/30/samsung-galaxy-s27-fast-charging-ul-solutions-certification/",
    "at": "2026-10-30",
@@ -3203,6 +3189,24 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "WhatsApp for Android could soon let you read messages secretly without sending blue ticks",
+   "url": "https://www.androidauthority.com/whatsapp-peek-chat-previews-android-apk-teardown-3731903/",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (670 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "هواوي تستعد لإطلاق Mate 80 Air: نحافة قياسية ومواصفات قوية",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTmE2VXBPV3dyRzBxVFdGYWZMcGlrVkRpYkg2aXJDNnNFNHJ1TllzaThaa3FEU1pZQTZBbjhxcW5MSUxUN1JENldIZHRjV043c0d1d0NhbG84a3FtWFRvZnpuMDlSZVQwTHJIY20ybDgzLVBEdjd5Q05uV3kyek9SNC03RER4aW1uMFI5dDZxUlZnMUx3b1Z1V2FR0gGWAUFVX3lxTE40LXktRVBmU2cyYXlXT19rNzlsRWVrYXk2aWVycVFKTXI4dG14RWd4b0I3Z0c0TjREbDZEbExaTzA1Tzc0Z3AyU0RxVUJOSVFYUk1GN2swcWVPNE9ldU9KZVFYTmRsNnZlR2ZGVXRnWlBSSkRST00zUjY1SExldVU4aGl1UWRmY3RRX25sYlFRQ2VhcTZBUQ?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/huawei-mate-80-air-launch-rumors.html",
+   "at": "2026-11-05T10:58:22+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هواوي"
   }
  ]
 }
