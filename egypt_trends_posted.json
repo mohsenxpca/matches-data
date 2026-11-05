@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBFdWZsN0xGQ29NenJTYzBFNVVfclN5M0NHNnh3LThQdGRDZ05DZUFQTy1MdEYtTFhPZWU5VVprZFZPZ3pu?oc=5",
-   "t": "موعد صرف تموين شهر نوفمبر 2026.. نصيب الفرد وقائمة أسعار السلع كاملة - جريدة الدستور",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 390 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/31/إنتل-الأمريكية-للتكنولوجيا-تتكبد-أكبر-تراجع-فى-أسهمها-منذ-عقود/7600498",
    "t": "\"إنتل\" الأمريكية للتكنولوجيا تتكبد أكبر تراجع فى أسهمها منذ عقود",
    "title": "انهيار تاريخي لأسهم «إنتل» الأمريكية بنسبة 29% وتراجع قياسي",
@@ -3327,6 +3317,15 @@
    "at": "2026-11-05T10:50:49.877957+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.wfsb.com/2026/11/05/technical-discussion-dry-stretch-ends-temps-gradually-trend-cooler/",
+   "t": "Technical Discussion: Dry stretch ends, temps gradually trend cooler",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في 8 كيانات جوهرية ({'يوما', 'نهايه', 'امطار', 'تلطف', 'جفاف', 'اجواء', 'متوقعه', 'رياح'}) مع: نهاية جفاف 19 يوماً: أمطار متوقعة ورياح تلطف الأجواء)"
+   ]
   }
  ]
 }
