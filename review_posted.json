@@ -3160,6 +3160,25 @@
    "at": "2026-11-05",
    "ok": false,
    "reason": "Phrase [oppo find] found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
+  },
+  {
+   "title": "Xiaomi tipped to be working on a wide-screen candybar smartphone - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlVocTVtYklwbHRWc0hLdHgtLUlOeG8wQnV3bTBlWjduNjBvRFVOeXM3dkVlak1OV3RaaVJ5WGZoWkVjcklndVozS3J5bFBuc3VHRFFlUmN4MHpIamJVaXV2LXJEdVFjbkdXNHBKaEtaM29OcHI1NTdnak81NVMtVXQ0UEIwbFpncFBKLTBzM1MxVlVVMmQ3c1NPQTA2SDA5dXBjUHZR0gGiAUFVX3lxTE1kaWtUVmhtaEJ6VkZuczdvX3BkZHhEZ3FyOVp6MXJxNXBXOVROazZKcWx2TTZwS0c4UGgtZVR3UVRnRFFBc1NUVzVSRDNwQ291MkFZNW5UaG1VbEFjMm9KZW93M0FZWFlILVROemMxMl9ydnVBam5WWGdLdG5kcEFRNElGTlNWbkk1TlZBay1YNnp1aXdjNTdnTE9XbjBDYWJaQQ?oc=5",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (614 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "العنوان مكرر أو قريب جداً من مقال منشور: شاومي تدخل سباق الهواتف عريضة الشاشة: هل نشهد ثورة جديدة؟"
+   ]
+  },
+  {
+   "title": "مراجعة هاتف Philips S7220: هل يعيد فيليبس أمجادها في عالم الهواتف",
+   "url": "https://www.gsmarena.com/philips_s7220_5g-15065.php",
+   "post_url": "https://www.review-mobile.com/2026/11/philips-s7220-full-review-specs.html",
+   "at": "2026-11-05T04:00:32+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "اخرى"
   }
  ]
 }
