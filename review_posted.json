@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus Ace 7 Pro outsells Ace 6 by 125% in its first sales",
-   "url": "https://www.gizmochina.com/2026/10/30/oneplus-ace-7-pro-sales-225-percent-of-ace-6/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
-   "title": "Oppo Reno17 series confirmed to launch next month, blind pre-orders go live",
-   "url": "https://www.gsmarena.com/oppo_reno17_series_confirmed_to_launch_next_month_blind_preorders_go_live-news-75287.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [reno17] found in existing: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
-  },
-  {
    "title": "Oppo Reno17 F 5G gets NBTC certified",
    "url": "https://www.gsmarena.com/oppo_reno17_f_5g_nbtc_certified-news-75284.php",
    "at": "2026-10-30",
@@ -3209,6 +3195,24 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Samsung’s smartphone revenue rises 14% as it tops global shipments",
+   "url": "https://www.sammobile.com/news/samsung-tops-global-smartphone-shipments-revenue-q3-2026/",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (659 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "نوفا لانشر يكتسح منافسيه: لماذا لا يزال المفضل لمستخدمي أندرويد؟",
+   "url": "https://www.androidauthority.com/popular-android-launcher-nova-launcher-poll-results-3731901/",
+   "post_url": "https://www.review-mobile.com/2026/11/nova-launcher-still-dominates-android.html",
+   "at": "2026-11-05T11:58:41+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
