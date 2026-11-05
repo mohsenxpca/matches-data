@@ -118,6 +118,9 @@
 
 
 
+### 📰 مجلة ونشرة Substack التقنية العالمية (DR 92):
+- **[Egypt Tech Market & Digital Services Ecosystem 2026 (Substack)](https://mohsenfarouk.substack.com/p/egypt-tech-market-and-digital-services)** — دراسة ومقال توثيقي شامل على منصة سابستاك لمنظومة مصر التكنولوجية وخدمات السوق والمتجر.
+
 ### 🌐 بوابة مواقع جوجل المعتمدة (Google Sites - DR 98):
 - **[Egypt Tech & Market Hub 2026 (Google Sites)](https://sites.google.com/view/egypt-tech-hub-2026/)** — البوابة الرسمية المعتمدة على خوادم جوجل لربط وتوثيق بيانات السوق المصري والمراجعات والشحن.
 
