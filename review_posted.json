@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung Galaxy S27 fast charging capabilities revealed through new certification",
-   "url": "https://www.gizmochina.com/2026/10/30/samsung-galaxy-s27-fast-charging-ul-solutions-certification/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
-  },
-  {
    "title": "OnePlus Ace 7 Pro outsells Ace 6 by 125% in its first sales",
    "url": "https://www.gizmochina.com/2026/10/30/oneplus-ace-7-pro-sales-225-percent-of-ace-6/",
    "at": "2026-10-30",
@@ -3207,6 +3200,15 @@
    "ok": true,
    "kind": "news",
    "brand": "هواوي"
+  },
+  {
+   "title": "تجربة تطبيق Chromagraph: هل يعيد تعريف تصوير الآيفون؟",
+   "url": "https://www.gsmarena.com/we_check_out_chromagraph_rian_johnsons_viral_iphone_camera_app-news-75357.php",
+   "post_url": "https://www.review-mobile.com/2026/11/chromagraph-app-review-rian-johnson.html",
+   "at": "2026-11-05T11:28:03+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
