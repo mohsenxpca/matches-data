@@ -3,15 +3,6 @@
   {
    "u": "https://www.elbalad.news/7162963",
    "t": "البنك المركزي: تخفيض طلبات بيع أذون وسندات الخزانة بـ28 مليار جنيه في أسبوع",
-   "title": "البنك المركزي يخفض طرح أذون وسندات الخزانة بـ 28 مليار جنيه",
-   "url": "https://www.egyptaway.com/2026/10/central-bank-reduces-treasury-bonds.html",
-   "at": "2026-10-31T23:13:07.676506+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
-   "u": "https://www.elbalad.news/7162963",
-   "t": "البنك المركزي: تخفيض طلبات بيع أذون وسندات الخزانة بـ28 مليار جنيه في أسبوع",
    "at": "2026-10-31",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
@@ -3325,6 +3316,15 @@
    "at": "2026-11-05T23:24:55.328217+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.elbalad.news/7169784",
+   "t": "خاص| ياسر إبراهيم ينفي التوقيع لبيراميدز أو نادٍ ليبي.. ويرحب بتجديد عقده مع الأهلي",
+   "title": "ياسر إبراهيم يحسم الجدل: لا توقيع لبيراميدز وأنتظر تجديد عقدي",
+   "url": "https://www.egyptaway.com/2026/11/yasser-ibrahim-denies-transfer-rumors.html",
+   "at": "2026-11-06T00:01:24.369155+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
