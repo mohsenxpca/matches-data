@@ -118,6 +118,9 @@
 
 
 
+### 🌳 الدليل الموحد السريع على Linktree (DR 94):
+- **[Egyptaway Official Verified Linktree Hub](https://linktr.ee/egyptaway)** — الدليل السريع الموحد لروابط خدمات مصر وأسعار الذهب والموبايلات وشحن الألعاب.
+
 ### 👩‍💻 مقالات التوثيق التقني على Dev.to العالمية (DR 90 - Dofollow):
 - **[Building an Open Digital Services & Mobile Tech Hub for Egypt (2026)](https://dev.to/mohsen_farouk_f7b2b69b81b/building-an-open-digital-services-mobile-tech-hub-for-egypt-2026-2enc)**
 
