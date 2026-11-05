@@ -1,21 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة سماعات Bose QuietComfort: تخفيض هائل لـ 169 دولار والراحة أولاً",
-   "url": "https://www.gizmochina.com/2026/10/30/bose-quietcomfort-headphones-drop-to-169-and-comfort-is-the-reason-to-buy/",
-   "post_url": "https://www.review-mobile.com/2026/10/bose-quietcomfort-headphones-review-169.html",
-   "at": "2026-10-30T20:01:35.399749+02:00",
-   "ok": true,
-   "brand": "اخرى"
-  },
-  {
-   "title": "OnePlus 16 vs OPPO Find X10: Snapdragon Power or 200MP Camera?",
-   "url": "https://www.gizmochina.com/2026/10/30/oneplus-16-vs-oppo-find-x10/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [x10] found in existing: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
    "title": "Motorola Signature 27, Razr Flex 27 retail listings hint at $1,500+ price tag",
    "url": "https://www.gizmochina.com/2026/10/30/motorola-signature-27-razr-flex-27-retail-listings-hint-at-1500-price-tag/",
    "at": "2026-10-30",
@@ -3193,6 +3178,20 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "RedMagic 12 Pro vs Honor Win 2: Which Flagship Gaming Phone Is Worth Buying?",
+   "url": "https://www.gizmochina.com/2026/11/05/redmagic-12-pro-vs-honor-win-2/",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": "Phone 'redmagic 12 pro' already covered in: RedMagic 12 Pro أول هاتف Snapdragon يدعم ميزة Linux Terminal"
+  },
+  {
+   "title": "Redmi Turbo 6 Max's battery capacity leaks, and it's huge",
+   "url": "https://www.gsmarena.com/redmi_turbo_6_maxs_battery_capacity_leaks_and_its_huge-news-75348.php",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": "Phone 'turbo 6 max' already covered in: Redmi Turbo 6 Max: وحش بطارية بسعة 11,000 مللي أمبير قادم"
   }
  ]
 }
