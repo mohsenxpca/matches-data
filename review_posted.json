@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Motorola confirms the Signature 27's exact launch date",
-   "url": "https://www.gsmarena.com/motorola_confirms_the_exact_signature_27_launch_date-news-75275.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
-   "title": "Oppo Find X10 Ultra could be heading for a chipset switch",
-   "url": "https://www.gsmarena.com/oppo_find_x10_ultra_could_be_heading_for_a_chipset_switch-news-75271.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [x10] found in existing: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
    "title": "iPhone Air 2 specs surface again in new leak",
    "url": "https://www.gsmarena.com/iphone_air_2_specs_surface_again_in_new_leak-news-75274.php",
    "at": "2026-10-30",
@@ -3215,6 +3201,22 @@
    "url": "https://www.androidauthority.com/youtube-android-floating-navigation-bar-liquid-glass-3731948/",
    "post_url": "https://www.review-mobile.com/2026/11/youtube-android-liquid-glass-navigation.html",
    "at": "2026-11-05T12:32:47+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "Galaxy Fit 4 could allow you to make payments using Samsung Wallet",
+   "url": "https://www.sammobile.com/news/galaxy-fit-4-nfc-payments-samsung-wallet/",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": "Phone 'fit 4' already covered in: مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع"
+  },
+  {
+   "title": "هل هاتفك يشتت انتباهك؟ جهاز BOOX Go 6 الجديد يغير القواعد",
+   "url": "https://www.androidauthority.com/boox-go-6-gen-ii-reading-experience-3730145/",
+   "post_url": "https://www.review-mobile.com/2026/11/boox-go-6-gen-ii-review.html",
+   "at": "2026-11-05T13:02:27+02:00",
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
