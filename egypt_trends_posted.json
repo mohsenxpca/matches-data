@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7162813",
-   "t": "القبض على المتهم بسرقة هاتف طالب على الطريق الدائرى",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
-   "u": "https://www.kingsofanglia.com/news/26681174.hull-city-v-ipswich-town---meet-referee-thomas-kirk/",
-   "t": "Who is the man in the middle for Town's trip to Hull City tomorrow?",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 5، 7"
-   ]
-  },
-  {
    "u": "https://www.the-sun.com/sport/17234326/coventry-vs-sunderland-live-score-result-premier-league-updates/",
    "t": "Coventry vs Sunderland LIVE SCORE: Latest Premier League updates",
    "at": "2026-10-31",
@@ -3318,6 +3302,25 @@
    "at": "2026-11-05T20:19:42.817991+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.bournemouthecho.co.uk/sport/26702319.cherries-fans-prague-europa-league-clash/",
+   "t": "'The things dreams are made of' - Cherries fans in Prague for Europa League clash",
+   "title": "رحلة بورنموث الأوروبية: ذكريات لا تُنسى في قلب مدينة براغ",
+   "url": "https://www.egyptaway.com/2026/11/sparta-praha-vs-bournemouth-prague-trip.html",
+   "at": "2026-11-05T20:42:23.085185+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://sempremilan.com/official-starting-xis-ac-milan-ferencvaros-2026-27",
+   "t": "Official: Starting XIs for AC Milan vs. Ferencvaros – six changes from Inter win",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 5، 90",
+    "الـ body 453 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
