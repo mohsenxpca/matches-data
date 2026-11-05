@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://barcauniversal.com/barcelona-captain-raphinha-has-a-scoring-record-to-settle-against-alaves/",
-   "t": "Barcelona captain Raphinha has a scoring record to settle against Alaves",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 4"
-   ]
-  },
-  {
    "u": "https://latr3.it/2026/10/31/interviste-seacily-2026-tamajo-e-russo-a-castellammare-per-il-rilancio-della-blue-economy-siciliana/",
    "t": "INTERVISTE- Seacily 2026: Tamajo e Russo a Castellammare per il rilancio della Blue Economy siciliana",
    "at": "2026-11-01",
@@ -3324,6 +3315,15 @@
    "at": "2026-11-06T00:59:35.672331+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/6/وداعًا-لذراع-التحكم-إكس-بوكس-تحول-هاتفك-إلى-وحدة-تحكم/7607224",
+   "t": "وداعًا لذراع التحكم؟ إكس بوكس تحول هاتفك إلى وحدة تحكم للألعاب على التلفزيون",
+   "title": "إكس بوكس تحول هاتفك إلى وحدة تحكم للألعاب على التلفزيون",
+   "url": "https://www.egyptaway.com/2026/11/xbox-turns-phone-to-controller.html",
+   "at": "2026-11-06T01:42:23.078000+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
