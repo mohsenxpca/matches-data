@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Find X10 review",
-   "url": "https://www.gsmarena.com/oppo_find_x10-review-3007.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [x10] found in existing: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
    "title": "Motorola confirms the Signature 27's exact launch date",
    "url": "https://www.gsmarena.com/motorola_confirms_the_exact_signature_27_launch_date-news-75275.php",
    "at": "2026-10-30",
@@ -3213,6 +3206,15 @@
    "url": "https://www.androidauthority.com/nintendo-switch-2-emulators-ports-android-3731890/",
    "post_url": "https://www.review-mobile.com/2026/11/play-switch-2-games-on-android.html",
    "at": "2026-11-05T12:01:51+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "يوتيوب تختبر شريط تنقل عائم بتصميم Liquid Glass على أندرويد",
+   "url": "https://www.androidauthority.com/youtube-android-floating-navigation-bar-liquid-glass-3731948/",
+   "post_url": "https://www.review-mobile.com/2026/11/youtube-android-liquid-glass-navigation.html",
+   "at": "2026-11-05T12:32:47+02:00",
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
