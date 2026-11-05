@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Motorola Signature 27, Razr Flex 27 retail listings hint at $1,500+ price tag",
-   "url": "https://www.gizmochina.com/2026/10/30/motorola-signature-27-razr-flex-27-retail-listings-hint-at-1500-price-tag/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
    "title": "Huawei’s next-foldable could feature 50MP RYYB telephoto and Kirin 9050 Pro",
    "url": "https://www.gizmochina.com/2026/10/30/huawei-mate-x8-kirin-9050-pro-camera-matepad-mini-2nd-gen-leak/",
    "at": "2026-10-30",
@@ -3192,6 +3185,15 @@
    "at": "2026-11-05",
    "ok": false,
    "reason": "Phone 'turbo 6 max' already covered in: Redmi Turbo 6 Max: وحش بطارية بسعة 11,000 مللي أمبير قادم"
+  },
+  {
+   "title": "تحذير أمني: هجمات تجسس تستهدف مستخدمي أندرويد وiOS",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQclRkRXZxbDdwYkh5V19zVms0Ym5OTldZR193VXU1NHpYX3JXLUJKOTh1OWl4RFlSNUF2QVpWZkJpaGZjT0FYLWpINEJyOGVram1vRE1jeUQtbk02MVMtWjR1WGN5MFZ6TnFYN3dOX01ONk11bEswM1o1SXlrNUhYeU9mOEx3WUFCdlhKZGNOWEZMOWc?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/state-sponsored-espionage-ios-android.html",
+   "at": "2026-11-05T07:27:53+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
