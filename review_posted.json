@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus Ace 7 and Ace 7 Pro announced with cooling fans and 185Hz displays",
-   "url": "https://www.gsmarena.com/oneplus_ace_7_and_ace_7_pro_announced_in_china_with_cooling_fans_and_185hz_displays-news-75273.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
-   "title": "Samsung sees more pain for your phone prices in the near future",
-   "url": "https://www.sammobile.com/news/samsungs-seeing-more-pain-for-your-phone-prices-in-the-near-future/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (693 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
-   ]
-  },
-  {
    "title": "Samsung may use this chip for Galaxy S27 Ultra in Europe",
    "url": "https://www.sammobile.com/news/samsung-may-use-this-chip-galaxy-s27-ultra-europe/",
    "at": "2026-10-30",
@@ -3217,6 +3201,25 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "I love big Si-C batteries, but slow charging is a steep price to pay",
+   "url": "https://www.androidauthority.com/si-c-battery-trade-offs-3730668/",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (658 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "نوكيا Lumia 1020: الهاتف الذي غير مفهوم التصوير الفوتوغرافي",
+   "url": "https://www.androidauthority.com/nostalgia-retro-phone-throwback-3729953/",
+   "post_url": "https://www.review-mobile.com/2026/11/nokia-lumia-1020-nostalgia-review.html",
+   "at": "2026-11-05T14:03:46+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "نوكيا"
   }
  ]
 }
