@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.marca.com/futbol/atletico/2026/10/30/levante-vs-atletico-maldicion-tormenta.html",
-   "t": "Levante vs Atlético: Maldición antes de la tormenta",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 6",
-    "الـ body 427 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.notimerica.com/deportes/noticia-luis-castro-atletico-muy-diferente-tiene-mas-soluciones-colectivas-individuales-20261030171312.html",
    "t": "Luís Castro: \"Es un Atlético muy diferente, tiene más soluciones colectivas e individuales\"",
    "at": "2026-10-31",
@@ -3327,6 +3317,15 @@
    "reason": [
     "الـ body 383 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'جويه', 'امطار'}) مع تشابه نصي مع: كيف تتوقع الأرصاد الجوية سقوط الأمطار؟ أسرار التكنولوجيا الحديثة)"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/5/أرقام-وحقائق-كواليس-تحويل-الأسهم-المحلية-إلى-شهادات-إيداع-دولية/7606972",
+   "t": "أرقام وحقائق.. كواليس تحويل الأسهم المحلية إلى شهادات إيداع دولية",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها"
    ]
   }
  ]
