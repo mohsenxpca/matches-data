@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.sportsmole.co.uk/football/man-city/preview/man-city-vs-brighton-prediction-team-news-lineups_607915.html",
-   "t": "Preview: Manchester City vs Brighton & Hove Albion - prediction, team news, lineups",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 5، 6"
-   ]
-  },
-  {
-   "u": "https://www.yallakora.com/epl/3033/news/571305/%D8%A7%D8%A8%D9%86-%D8%AA%D9%88%D9%86%D8%B3-%D8%A7%D9%84%D8%B0%D9%8A-%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%AF-%D9%85%D9%86-%D9%87%D9%88-%D9%8A%D8%A7%D8%B3%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D9%8A%D8%A7%D8%B1%D9%8A-%D8%B5%D8%A7%D8%AD%D8%A8-%D9%87%D8%AF%D9%81-%D8%A8%D8%B1%D8%A7%D9%8A%D8%AA%D9%88%D9%86-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D8%B6%D8%AF-%D9%85%D8%A7%D9%86%D8%B4%D8%B3%D8%AA%D8%B1-%D8%B3%D9%8A%D8%AA%D9%8A-",
-   "t": "ابن تونس الذي اختار السويد.. من هو ياسين العياري صاحب هدف برايتون الأول ضد مانشستر سيتي؟",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.yallakora.com/epl/3033/news/571156/%D8%AF%D9%8A-%D8%B2%D9%8A%D8%B1%D8%A8%D9%8A-%D9%8A%D8%AA%D8%AD%D8%AF%D8%AB-%D8%B9%D9%86-%D9%85%D9%8A%D8%B2%D8%A9-%D9%85%D8%B1%D9%85%D9%88%D8%B4-%D8%B9%D9%88%D8%AF%D8%A9-%D9%85%D8%A7%D8%AF%D9%8A%D8%B3%D9%88%D9%86-%D9%88%D8%A3%D9%88%D8%AF%D9%88%D8%AC%D9%8A-%D9%884-%D8%BA%D9%8A%D8%A7%D8%A8%D8%A7%D8%AA-%D9%81%D9%8A-%D8%AA%D9%88%D8%AA%D9%86%D9%87%D8%A7%D9%85",
    "t": "دي زيربي يتحدث عن.. ميزة مرموش.. عودة ماديسون وأودوجي.. و4 غيابات في توتنهام",
    "title": "توتنهام ضد كريستال بالاس: جاهزية الثنائي ماديسون وأودوجي",
@@ -3321,6 +3300,25 @@
    "title": "سعد سمير يكشف سر نجاح علي ماهر مع سيراميكا كليوباترا",
    "url": "https://www.egyptaway.com/2026/11/ali-maher-ceramica-cleopatra-update.html",
    "at": "2026-11-05T21:06:59.184430+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://www.meteoweb.eu/2026/11/meteo-a-capracotta-e-gelo-in-pieno-giorno-temperatura-crollata-a-0c-inizia-leccezionale-nevicata-del-1-novembre/1001997863/",
+   "t": "Meteo, a Capracotta è gelo in pieno giorno: temperatura crollata a 0°C, inizia l’eccezionale nevicata del 1° novembre",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 1400",
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'صقيع', 'نوفمبر', 'تضرب'}) مع: طقس 2 نوفمبر: صقيع ورياح قوية تضرب مناطق واسعة في كازاخستان)"
+   ]
+  },
+  {
+   "u": "https://www.interris.it/glocal-news/primo-assaggio-dinverno-in-molise-la-neve-imbianca-le-localita-montane/",
+   "t": "Primo assaggio d’inverno in Molise, la neve imbianca le località montane",
+   "title": "الشتاء يباغت إيطاليا: ثلوج مبكرة وأمطار غزيرة في موليز",
+   "url": "https://www.egyptaway.com/2026/11/early-winter-snow-molise-italy.html",
+   "at": "2026-11-05T21:46:03.847196+02:00",
    "ok": true,
    "type": "trends"
   }
