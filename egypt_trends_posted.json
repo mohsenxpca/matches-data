@@ -1,31 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.almasryalyoum.com/news/details/4397517",
-   "t": "«الصيف يعود في نوفمبر».. موجة حارة مفاجئة تضرب البلاد وعواصف ترابية في الطريق",
-   "title": "موجة حارة مفاجئة تضرب البلاد وتفاصيل الطقس للمحاصيل",
-   "url": "https://www.egyptaway.com/2026/10/sudden-heat-wave-climate-egypt.html",
-   "at": "2026-10-31T14:11:51.838238+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
-   "u": "https://www.almasryalyoum.com/news/details/4397517",
-   "t": "«الصيف يعود في نوفمبر».. موجة حارة مفاجئة تضرب البلاد وعواصف ترابية في الطريق",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
-   "u": "https://m.akhbarelyom.com/news/NewDetails/4899537/1/%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%85%D9%88%D8%AC%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-%D8%AA%D8%B6%D8%B1%D8%A8-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF-%D9%88",
-   "t": "«صدمات حرارية» تهدد المحاصيل والأشجار المثمرة.. 7 توصيات من مركز تغير المناخ",
-   "title": "تحذير عاجل من تقلبات مناخ نوفمبر وتأثيرها على الزراعات",
-   "url": "https://www.egyptaway.com/2026/10/climate-changes-egypt-november.html",
-   "at": "2026-10-31T14:12:10.003154+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://m.akhbarelyom.com/news/NewDetails/4899537/1/%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%85%D9%88%D8%AC%D8%A9-%D8%AD%D8%A7%D8%B1%D8%A9-%D8%AA%D8%B6%D8%B1%D8%A8-%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%AF-%D9%88",
    "t": "«صدمات حرارية» تهدد المحاصيل والأشجار المثمرة.. 7 توصيات من مركز تغير المناخ",
    "at": "2026-10-31",
@@ -3324,6 +3299,34 @@
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
     "الوصف لازم 140-160 حرف"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7168772",
+   "t": "الدولار يواصل التراجع أمام الجنيه اليوم الخميس.. أقل من 55 جنيهًا",
+   "title": "الدولار يتراجع أمام الجنيه اليوم الخميس.. أقل من 55 جنيهًا",
+   "url": "https://www.egyptaway.com/2026/11/dollar-falls-below-55-egp.html",
+   "at": "2026-11-05T10:03:49.607826+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://meteofrance.com/actualites/meteo-temperatures-en-baisse-degradation-pluvio-orageuse-a-partir-de-mercredi-par-le-sud",
+   "t": "Météo : nouvel épisode méditerranéen sur le Sud-Est et la Corse",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "الـ body 323 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حاله', 'طقس'}) مع تشابه نصي مع: حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQVEVoVTZZdzJPRUJzbjlBVnpQSlJvakY0N2ZqZ2FzUjVXWUN4TS02cTBpZGs5cmYtSkFnWGtkaVBrZENJVGEySENYZUpqeEIzYW5ZdzdhX2hGaWdPd1pHUUk2aHcyODQwSVhtWXBxUUE2UmxSS2FxekMxWEZoNnlYUUh2MUVHLXlSSkVMSVZ1eElpQkJ6eTJSMjlmWHJwUUpBLXl4VXc5aWhscEFPZ1hjZDBfRUplMWY4TkFyV1VBME1pUzZSMklVZDA1LXBrX21SNlFWYWMtY2Q1Wms1cjJ4N1dWdEZnMEQxWExqOWU4ZjhYUmZiMDkyWXd0ZEpOS1hhcmplcDhCM1k4SnYwbXhlNU0yN3lMN1FEanN1YjJndGxWRWFsOTgxcDVVczRwMUMzdmtNWUxyR1ZNa29GUnRXMHI3UDE3Szl4aXUyMTZkYldPckpzcDVGRkVDQmVZRS1mMG54XzQ5ZTdCZ01obk9tZFBwckxIZ0xlY3R1N3JjNGlQZ9IB_AJBVV95cUxPYnQtVTM4NUM4b2VrM1UtanFGT0JvSEkyN1hFeDRQRl8ydk5YYXFUTUpRUTRraEJMRmUxQlJ5d2ppNU9LU1hRZHBvbzM4UkpRVmpwOXBwREZkeS1iQ1JfLWlDSTVoMlUycHNaZ2x3ODBlNXhYLVVURkVjSFFvNkNRakdyRUNLc0t5SFJsZDU3XzlwT21VMjdSR1U2RWcwejVjWU9GMmp3eWVCUjhXZ2tTNDhhTFA2MFEtWEpaQ3dXeE9OWWhGZ3FLZ3Q3WDNRLTJ3c0lIMHNpbGxGMDBFZUVpaVhNWGpydGdMc0dUQ0ZGUjEyVUlZXzF2eE1NOHI4elFCazVWTjVJamVtSEpadk1fZmpHV1J3bzV6anpWVWZxWFJmXzZJYUllTGVRS2hVR3dVN1dpWFFrS2Z3RF9kRzRKQW1pRWIxZGxnMTZUeFkwRHU2c2pWcnFCa3Rqc0JsSzg3WktlOWRXWUlSNTBCd1RHTVlIM0VzN0JCZmpKYg?oc=5",
+   "t": "كيف تتنبأ الأرصاد بسقوط الأمطار قبل حدوثها؟ - اليوم السابع",
+   "title": "كيف تتوقع الأرصاد الجوية سقوط الأمطار؟ أسرار التكنولوجيا الحديثة",
+   "url": "https://www.egyptaway.com/2026/11/how-meteorology-predicts-rain-egypt.html",
+   "at": "2026-11-05T10:08:16.486283+02:00",
+   "ok": true,
+   "type": "public_query"
   }
  ]
 }
