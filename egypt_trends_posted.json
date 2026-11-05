@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92c0NpakpDWk15OFZONFJ5OXFTY2tqN05FcGJGTjU0eHFSVF9SUGRYU2RaMFVpWUwtZ3JybUNqeGI3cWJuWlhLVERnQXdDeFdTTU5OYUZNc0lnZlpqaWFr?oc=5",
-   "t": "التعليم تحسم الجدل حول تأجيل امتحانات نوفمبر 2026.. انطلاق الاختبارات 29 نوفمبر لصفوف النقل - المصري اليوم",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://www.elbalad.news/7162490",
    "t": "بقيمة أقطاي وعلي محمود.. إنبي يحدد سعر بيع كالوشا إلى الأهلي| خاص",
    "at": "2026-10-31",
@@ -3315,6 +3308,15 @@
    "at": "2026-11-05T03:02:26.630648+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/5/شاشات-هواتف-قابلة-للتمدد-هل-يتغير-شكل-الموبايل-خلال-السنوات/7605922",
+   "t": "شاشات هواتف قابلة للتمدد.. هل يتغير شكل الموبايل خلال السنوات المقبلة؟",
+   "title": "مستقبل الهواتف.. هل تقضي الشاشات القابلة للتمدد على الموبايلات؟",
+   "url": "https://www.egyptaway.com/2026/11/stretchable-phone-screens-future-tech.html",
+   "at": "2026-11-05T03:19:41.528603+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
