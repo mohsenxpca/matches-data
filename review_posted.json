@@ -1,31 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung launches a premium version of the Z Fold 8 Ultra in China for $2,850",
-   "url": "https://www.gizmochina.com/2026/10/30/samsung-launches-a-premium-version-of-the-z-fold-8-ultra-in-china-for-2850/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (873 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
-    "العنوان غير صالح أو أطول من 75 حرف (78 حرف)"
-   ]
-  },
-  {
-   "title": "مراجعة Honor 700 و 700 Pro: ثورة في التصوير والشاشات الخلفية بمواصفات خارقة",
-   "url": "https://www.gizmochina.com/2026/10/30/honor-700-series-telephoto-extender-rear-display-leak/",
-   "post_url": "https://www.review-mobile.com/2026/10/honor-700-pro-review-specs.html",
-   "at": "2026-10-30T20:41:51.810522+02:00",
-   "ok": true,
-   "brand": "هونر"
-  },
-  {
-   "title": "Honor X9e s launches with 8,560mAh battery and Snapdragon 6 Gen 4 chip",
-   "url": "https://www.gizmochina.com/2026/10/30/honor-x9e-s-launches-with-8560mah-battery-and-snapdragon-6-gen-4-chip/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [x9e] found in existing: مراجعة Honor X9e Pro 2026: بطارية 11000 مللي ومقاومة IP69K والسعر"
-  },
-  {
    "title": "Oppo Find X10 Ultra Dimensity 9600 Pro Edition could be in the works",
    "url": "https://www.gizmochina.com/2026/10/30/oppo-find-x10-ultra-dimensity-9600-pro-edition-leak/",
    "at": "2026-10-30",
@@ -3197,6 +3172,34 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Here's when the Huawei Mate 80 Air is rumored to launch",
+   "url": "https://www.gsmarena.com/heres_when_the_huawei_mate_80_air_is_rumored_to_launch-news-75352.php",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (680 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Small Phones Have Vanished. Enough Phone Wants to Bring Them Back - WIRED",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVzg1TFhpNzZ4ekoxRVRrQkQ3a1dNaHVYN0g3Y0tfSjdGZ3J5QTBtNGd2QXRibzN0R1JXWUtYbXRhUE02cEZyMFoyWHVYdTB4STNNTXoyZjZRRVBNcjgwRkwwWEJPeUdaVU5YelV5WlBhRXZSV2oxOUhfYm5qRHZNd05fbjgtOTY3OTB1Y1lUbDEzaVdoclRtRHhjT1pVZw?oc=5",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (602 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung may bring a massive 6000mAh battery to its popular mid-range Galaxy phone - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSVoybVEwSFhPR2xWN0ludE0yWkkyVWY5YTNIaE4tZE1oYlMwUHg5RmtOOWx1N3ZTWjRwWUJ2dnN1Ql9Ka2FGU3hJYjBKLW44bHZSNW1VeDhmWm1iVWVVV0lzQjhOVFZwSXktSUFwaVhWTGE3YVJCUlZYS2p3bWJZVFcybG5uSjJPRXBoSXkxZDR3T0FEeUt2dU9FMENja2F1ZW5mWHFLWQ?oc=5",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
