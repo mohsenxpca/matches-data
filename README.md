@@ -175,3 +175,27 @@
 - **[شحن شدات ببجي وجواهر فري فاير وألعاب الباتل رويال في مصر بالـ ID فودافون كاش 2026](https://telegra.ph/شحن-شدات-ببجي-وجواهر-فري-فاير-وألعاب-الباتل-رويال-في-مصر-بالـ-ID-فودافون-كاش-2026-11-02)**
 - **[شحن نقاط إف سي موبايل وكلاش أوف كلانس وكلاش رويال ويلا لودو في مصر بالـ ID 2026](https://telegra.ph/شحن-نقاط-إف-سي-موبايل-وكلاش-أوف-كلانس-وكلاش-رويال-ويلا-لودو-في-مصر-بالـ-ID-2026-11-02)**
 - **[شحن جواهر موبايل ليجندز وجينشين إمباكت وهونر أوف كينجز وبيجو لايف في مصر بالـ ID 2026](https://telegra.ph/شحن-جواهر-موبايل-ليجندز-وجينشين-إمباكت-وهونر-أوف-كينجز-وبيجو-لايف-في-مصر-بالـ-ID-2026-11-02)**
+
+---
+
+### 🌐 Master Backlink Portals & Open Repositories (November 2026 Update)
+* **Hugging Face Interactive Space**: [https://huggingface.co/spaces/mohsenxpc/egypt-tech-market-hub-2026](https://huggingface.co/spaces/mohsenxpc/egypt-tech-market-hub-2026) (Direct: [https://mohsenxpc-egypt-tech-market-hub-2026.hf.space](https://mohsenxpc-egypt-tech-market-hub-2026.hf.space))
+* **Hugging Face Datasets**:
+  - [Egypt Open Services & Smartphone Prices](https://huggingface.co/datasets/mohsenxpc/egypt-open-services-and-phones-2026)
+  - [Zeda Shop 35 Game Top-Ups](https://huggingface.co/datasets/mohsenxpc/zeda-shop-game-topup-egypt-2026)
+  - [Egypt Banking, Gold & Telecom](https://huggingface.co/datasets/mohsenxpc/egypt-banking-gold-and-telecom-2026)
+* **Kaggle Google Dataset**: [https://www.kaggle.com/datasets/mohsenfarouk/egypt-open-tech-hub-2026](https://www.kaggle.com/datasets/mohsenfarouk/egypt-open-tech-hub-2026)
+* **Dev.to Technical Engineering Publications (Dofollow DR 90)**:
+  - [Building an Open Digital Services & Mobile Tech Hub for Egypt (2026)](https://dev.to/mohsen_farouk_f7b2b69b81b/building-an-open-digital-services-mobile-tech-hub-for-egypt-2026-2enc)
+  - [Egypt Open Tech, Mobile Reviews & Services Digest](https://dev.to/mohsen_farouk_f7b2b69b81b/egypt-open-tech-mobile-reviews-services-digest-2026-11-04-4bag)
+  - [Architecting Instant Gaming Microtransactions & USSD Mobile Gateways in Egypt](https://dev.to/mohsen_farouk_f7b2b69b81b/architecting-instant-gaming-microtransactions-ussd-mobile-gateways-in-egypt-2026-developer-cbp)
+* **Telegraph Strategic Master Guides (DR 90)**:
+  - [Egypt Daily Financial Indicators & Banking Guide 2026](https://telegra.ph/Egypt-Daily-Financial-Indicators--Banking-Guide-2026-11-05)
+  - [Vodafone Cash & Game Top-Up Directory Egypt 2026](https://telegra.ph/Vodafone-Cash--Game-Top-Up-Directory-Egypt-2026-11-05)
+  - [Egypt Smartphones Official Buying Guide 2026](https://telegra.ph/Egypt-Smartphones-Official-Buying-Guide-2026-11-04)
+  - [Egypt Gaming Top-Up Directory 2026](https://telegra.ph/Egypt-Gaming-Top-Up-Directory-2026-Zeda-Shop-11-04)
+* **Rentry Fast Hubs (DR 81)**:
+  - [Gold, Currencies & Bank Certificates Hub](https://rentry.co/gold-currency-egypt-banks-2026)
+  - [Vodafone Cash All Codes Hub](https://rentry.co/vodafone-cash-codes-egypt-2026)
+  - [Smartphone Hardware Reviews Hub](https://rentry.co/egypt-smartphone-specs-reviews-2026)
+  - [Zeda Shop Payments Hub](https://rentry.co/zeda-shop-egypt-payments-2026)
