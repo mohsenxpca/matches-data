@@ -118,6 +118,9 @@
 
 
 
+### 🌐 بوابة مواقع جوجل المعتمدة (Google Sites - DR 98):
+- **[Egypt Tech & Market Hub 2026 (Google Sites)](https://sites.google.com/view/egypt-tech-hub-2026/)** — البوابة الرسمية المعتمدة على خوادم جوجل لربط وتوثيق بيانات السوق المصري والمراجعات والشحن.
+
 ### 🌳 الدليل الموحد السريع على Linktree (DR 94):
 - **[Egyptaway Official Verified Linktree Hub](https://linktr.ee/egyptaway)** — الدليل السريع الموحد لروابط خدمات مصر وأسعار الذهب والموبايلات وشحن الألعاب.
 
