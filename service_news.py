@@ -42,7 +42,7 @@ BANNED_TOPICS_REGEX = (
     # الحروب والنزاعات والعمليات العسكرية والصراعات
     r"حرب|حروب|معركة|معارك|عسكري|جيش|قوات|صواريخ|صاروخ|طائرات حربية|غارة|غارات|قصف|انفجار|استهداف|"
     r"هجوم|مسيرة|مسيّرة|طائرة مسيرة|مسيرات|مقذوف|شهداء|قتلى|جرحى|إيران|طهران|إسرائيل|تل أبيب|"
-    r"غزة|لبنان|حزب الله|الحوثي|اليمن|سوريا|روسيا|أوكرانيا|الشرق الأوسط|نووي|أسلحة|دبابات|غارات جوية|"
+    r"غزة|لبنان|حزب الله|الحوثي|اليمن|سوريا|روسيا|أوكرانيا|الشرق الأوسط|نووي|أسلحة|دبابات|غارات جوية|شيكل|أغورة|إسرائيل|تل أبيب|فلسطين|الضفة|"
     # الفن والغناء والرقص والتمثيل والمهرجانات الفنية
     r"فنان|فنانة|ممثل|ممثلة|نجوم الفن|مطرب|مطربة|مغني|مغنية|غناء|أغنية|كليب|فيديو كليب|رقص|راقصة|"
     r"مهرجان الجونة|مهرجان القاهرة|مسلسل|مسلسلات|فيلم|أفلام|سينما|دراما|تيك توك|مشاهير|زواج الفنان|طلاق الفنان|فستان|"
@@ -53,7 +53,7 @@ BANNED_TOPICS_REGEX = (
 SERVICE_FALLBACKS = {
     "housing": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "banks": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "fuel": "https://images.pexels.com/photos/9796/gas-station-fuel-oil-diesel.jpg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "fuel": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/fuel-prices-egypt.jpg",
     "coordination": "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "holidays": "https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "trains": "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
@@ -95,8 +95,8 @@ TOPICS = {
     "fuel": {
         "name": "أسعار البنزين والمحروقات",
         "queries": [
-            "أسعار البنزين اليوم", "لجنة التسعير التلقائي للمنتجات البترولية",
-            "سعر السولار في مصر", "أسعار المواد البترولية والبنزين"
+            "أسعار البنزين اليوم في مصر -شيكل -إسرائيل", "لجنة التسعير التلقائي للمنتجات البترولية في مصر",
+            "سعر السولار في مصر", "أسعار المواد البترولية والبنزين في مصر"
         ],
         "must": r"بنزين|سولار|محروقات|لجنة التسعير|غاز|بوتاجاز|وقود|منتجات بترولية|مازوت",
         "hub_url": "https://www.egyptaway.com/p/fuel-prices-egypt.html",

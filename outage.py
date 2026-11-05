@@ -23,10 +23,10 @@ POSTED_FILE = "outage_posted.json"
 
 
 SERVICE_IMAGES = {
-    "vodafone": "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "orange": "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "etisalat": "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "we": "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "vodafone": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/telecom-outage-egypt.jpg",
+    "orange": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/telecom-outage-egypt.jpg",
+    "etisalat": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/telecom-outage-egypt.jpg",
+    "we": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/telecom-outage-egypt.jpg",
     "instapay": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "fawry": "https://images.pexels.com/photos/5632397/pexels-photo-5632397.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "vodafone-cash": "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
@@ -122,13 +122,13 @@ def fetch_news_outages():
                         photo = None
                         try:
                             pub_url = decode_gn_link(items[0][1].strip())
-                            if pub_url:
+                            if pub_url and image_guard.is_trusted_egypt_publisher(pub_url):
                                 h_page = requests.get(pub_url, headers=UA, timeout=15).text
                                 soup = BeautifulSoup(h_page, "html.parser")
                                 og = soup.find("meta", property="og:image") or soup.find("meta", attrs={"name": "twitter:image"})
                                 if og and og.get("content"):
                                     c = og["content"].strip()
-                                    if c.startswith("http") and not any(bad in c.lower() for bad in ["logo", "favicon", "avatar", "icon", "pixel"]):
+                                    if image_guard.is_safe_image(c, pub_url):
                                         photo = f"https://wsrv.nl/?url={urllib.parse.quote(c)}&w=1200&output=webp&q=80"
                         except Exception:
                             photo = None

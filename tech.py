@@ -109,7 +109,7 @@ TECH_FALLBACKS = {
     "code": "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "mobile": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "pc": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "security": "https://images.pexels.com/photos/538064/pexels-photo-538064.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "security": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/digital-security-egypt.jpg",
     "gaming": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "general": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
 }

@@ -1,3 +1,4 @@
+import image_guard
 """Trending-topic posts on Egyptaway from Google Trends (Egypt + Saudi Arabia), every 3 hours.
 
 Picks the hottest topic we haven't covered (and that isn't crime/suicide/etc.), reads 2-3 of the news articles Google
@@ -160,7 +161,7 @@ def fetch_trend_source(url):
     og = s.find("meta", property="og:image") or s.find("meta", attrs={"name": "twitter:image"})
     if og and og.get("content"):
         u = og["content"].strip()
-        if u.startswith("http") and not any(x in u for x in ["default", "placeholder", "logo", "avatar", "icon"]):
+        if u.startswith("http") and image_guard.is_safe_image(u, url):
             real_img = u
     box = s.find("article") or s.find("main") or s
     txt = "\n".join(p for p in (x.get_text(" ", strip=True) for x in box.find_all("p")) if len(p) > 60)
