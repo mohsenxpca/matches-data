@@ -140,7 +140,8 @@
  "hubs": {
   "exams": {
    "id": "7214507502601012369",
-   "url": "https://www.egyptaway.com/p/exams-egypt.html"
+   "url": "https://www.egyptaway.com/p/exams-egypt.html",
+   "push_at": "2026-11-05T13:30+02:00"
   },
   "salaries": {
    "id": "8886585329072770951",
@@ -177,6 +178,10 @@
   "tamween": {
    "id": "3364622218855290747",
    "url": "https://www.egyptaway.com/p/tamween-egypt.html"
+  },
+  "trains-aswan": {
+   "id": "1064676518895095985",
+   "url": "https://www.egyptaway.com/p/trains-aswan-egypt.html"
   }
  },
  "gov": {
