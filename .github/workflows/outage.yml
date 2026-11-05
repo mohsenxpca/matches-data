@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name "outage-bot"
           git config user.email "outage-bot@users.noreply.github.com"
-          git add outage_posted.json img/ 2>/dev/null || true
+          git add outage_posted.json outage_push_state.json img/ 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "outage check $(TZ=Africa/Cairo date +%F_%H:%M)"
           for i in 1 2 3 4 5; do

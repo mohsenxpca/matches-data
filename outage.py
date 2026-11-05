@@ -1,10 +1,10 @@
 """Egyptaway Outage Monitor & Auto Breaking News (mohsen 2026-10-29).
 Monitors live service outage reports from our Apps Script API + Google News RSS for outages in Egypt.
 When a confirmed outage occurs (Vodafone, InstaPay, WhatsApp, Vodafone Cash, Facebook, WE, Orange, etc.):
-- Automatically generates an original breaking-news article explaining the issue and troubleshooting steps.
-- Directly links to the dedicated live tracker page (/p/is-{service}-down.html) and hub (/p/is-it-down-egypt.html).
-- Generates a branded cover image and publishes the post immediately to Egyptaway.
-Runs via GitHub Actions workflow (outage.yml) every 15-20 minutes.
+- Automatically sends a targeted OneSignal Push Notification ONLY to users subscribed to that service (tag: outage_{sid}).
+- If no news has been published for this service in the last 12 hours: generates an original breaking-news article
+  explaining the issue, linking to the live tracker page (/p/is-{service}-down.html), and publishes it to Egyptaway.
+Runs via GitHub Actions workflow (outage.yml) every 20 minutes.
 """
 import datetime, html, json, os, re, sys, time, urllib.parse
 from zoneinfo import ZoneInfo
@@ -20,6 +20,9 @@ WARNING_ICON = "https://wsrv.nl/?url=cdn.jsdelivr.net/gh/microsoft/fluentui-emoj
 
 API_URL = "https://script.google.com/macros/s/AKfycbx_xEqWCdWDpnIl-HmKC3PWqVHNMQDQtCFYxpHb9rWXT4QVNN8LCCo7tUbG_C4v-Tvztg/exec?a=all"
 POSTED_FILE = "outage_posted.json"
+PUSH_STATE_FILE = "outage_push_state.json"
+APP_ID = "c6f8318f-a6ce-4e8d-b9f0-f329f31e2a72"
+COOLDOWN_HOURS = 3
 
 
 SERVICE_IMAGES = {
@@ -39,6 +42,13 @@ SERVICE_IMAGES = {
     "banque-misr": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "cib": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     "pubg": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "google": "https://images.pexels.com/photos/267399/pexels-photo-267399.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "gmail": "https://images.pexels.com/photos/267399/pexels-photo-267399.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "stc": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/telecom-outage-egypt.jpg",
+    "mobily": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/telecom-outage-egypt.jpg",
+    "zain": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/telecom-outage-egypt.jpg",
+    "etisalat-uae": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/telecom-outage-egypt.jpg",
+    "du": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/telecom-outage-egypt.jpg",
 }
 
 SERVICES = {
@@ -58,6 +68,13 @@ SERVICES = {
     "banque-misr": {"name": "بنك مصر (BM Online)", "cat": "المعاملات البنكية الرقمية", "support": "19888", "slug": "is-banque-misr-down"},
     "cib": {"name": "البنك التجاري الدولي (CIB)", "cat": "تطبيق وموقع البنك الرقمي", "support": "19666", "slug": "is-cib-down"},
     "pubg": {"name": "ببجي موبايل", "cat": "سيرفرات لعبة ببجي موبايل", "support": "الدعم داخل اللعبة", "slug": "is-pubg-down"},
+    "google": {"name": "جوجل", "cat": "محرك البحث وخدمات جوجل", "support": "مركز مساعدة جوجل", "slug": "is-google-down"},
+    "gmail": {"name": "جيميل", "cat": "البريد الإلكتروني وتطبيق Gmail", "support": "مركز مساعدة Google Workspace", "slug": "is-gmail-down"},
+    "stc": {"name": "STC (إس تي سي)", "cat": "شبكة المحمول والإنترنت", "support": "900", "slug": "is-stc-down"},
+    "mobily": {"name": "موبايلي", "cat": "شبكة الاتصالات والبيانات", "support": "1100", "slug": "is-mobily-down"},
+    "zain": {"name": "زين", "cat": "شبكة الاتصالات والإنترنت", "support": "959", "slug": "is-zain-down"},
+    "etisalat-uae": {"name": "اتصالات الإمارات e&", "cat": "شبكة المحمول والإنترنت", "support": "101", "slug": "is-etisalat-uae-down"},
+    "du": {"name": "دو du", "cat": "شبكة الاتصالات والبيانات", "support": "155", "slug": "is-du-down"},
 }
 
 PROMPT = """أنت محرر تقني في موقع ايجبتاوى المصري. هناك بلاغات وتأكيدات عن حدوث عطل مفاجئ أو توقف في خدمة «{name}» في مصر والشرق الأوسط، خاصة في {cat}.
@@ -77,6 +94,64 @@ PROMPT = """أنت محرر تقني في موقع ايجبتاوى المصري
 رجّع JSON بالشكل ده بالظبط:
 {{"title": "عنوان عاجل وواضح أقل من 65 حرف", "kicker": "عطل مفاجئ", "headline": "جملة للغلاف أقل من 55 حرف", "slug": "english-slug-3-to-6-words", "desc": "وصف للبحث من 140 لـ 160 حرف", "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
 """
+
+
+def tag_key(sid):
+    return f"outage_{sid.replace('-', '_')}"
+
+
+def send_service_outage_push(sid, svc_name, post_url=None, dry=False):
+    """Sends a targeted OneSignal Web Push ONLY to subscribers of this specific service."""
+    key = os.environ.get("ONESIGNAL_API_KEY")
+    if not key and not dry:
+        print(f"ONESIGNAL_API_KEY missing, skipping push for {sid}")
+        return False
+
+    slug = SERVICES.get(sid, {}).get("slug", "is-it-down-egypt")
+    tracker_url = post_url or f"{f.SITE}/p/{slug}.html"
+    if "?" not in tracker_url:
+        tracker_url += "?utm_source=push&utm_medium=outage_alert"
+    else:
+        tracker_url += "&utm_source=push&utm_medium=outage_alert"
+
+    heading = f"⚠️ تنبيه عطل: {svc_name}"
+    content = f"رصد بلاغات وشكاوى متزايدة عن توقف خدمة {svc_name} الآن. تابع التفاصيل وسجل بلاغك."
+
+    filters = [
+        {"field": "tag", "key": tag_key(sid), "relation": "=", "value": "1"}
+    ]
+
+    msg = {
+        "app_id": APP_ID,
+        "target_channel": "push",
+        "filters": filters,
+        "headings": {"ar": heading, "en": heading},
+        "contents": {"ar": content, "en": content},
+        "web_url": tracker_url,
+        "name": f"outage {sid} " + datetime.datetime.now(CAIRO).strftime("%Y-%m-%d %H:%M"),
+        "ttl": 7200,
+    }
+
+    img = SERVICE_IMAGES.get(sid)
+    if img:
+        msg["chrome_web_image"] = img
+
+    if dry:
+        print(f"[DRY RUN] Targeted Push for {sid}:", heading, "|", content, "| filters:", filters)
+        return True
+
+    try:
+        r = requests.post(
+            "https://api.onesignal.com/notifications?c=push",
+            json=msg,
+            timeout=30,
+            headers={"Authorization": f"Key {key}", "Content-Type": "application/json"}
+        )
+        print(f"OneSignal targeted push ({sid}): {r.status_code}", r.text[:200])
+        return r.status_code < 300
+    except Exception as e:
+        print(f"OneSignal error for {sid}:", e)
+        return False
 
 
 def fetch_api_status():
@@ -169,10 +244,40 @@ def main():
 
     print(f"[{now:%Y-%m-%d %H:%M}] Detected outages:", down_services)
 
-    # Filter out services already posted in the last 12 hours
+    # 3. Targeted Web Push to subscribers of down services (with cooldown)
+    push_state = {}
+    if os.path.exists(PUSH_STATE_FILE):
+        try:
+            push_state = json.load(open(PUSH_STATE_FILE, encoding="utf-8"))
+        except Exception:
+            push_state = {}
+
+    for sid in down_services:
+        if sid not in SERVICES:
+            continue
+        last_push_iso = push_state.get(sid, {}).get("at")
+        if last_push_iso:
+            try:
+                last_time = datetime.datetime.fromisoformat(last_push_iso)
+                if (now - last_time).total_seconds() < COOLDOWN_HOURS * 3600:
+                    print(f"Push for {sid} is on cooldown (last sent {last_push_iso})")
+                    continue
+            except Exception:
+                pass
+
+        svc = SERVICES[sid]
+        print(f"Sending targeted outage alert to subscribers of: {svc['name']} (tag: {tag_key(sid)})")
+        ok = send_service_outage_push(sid, svc["name"], dry=dry)
+        if ok or dry:
+            push_state[sid] = {"at": now.isoformat(), "name": svc["name"]}
+
+    with open(PUSH_STATE_FILE, "w", encoding="utf-8") as pf:
+        json.dump(push_state, pf, ensure_ascii=False, indent=2)
+
+    # 4. Generate breaking news article (at most 1 per run, if not posted recently)
     candidates = [sid for sid in down_services if sid not in recent_posted]
     if not candidates:
-        print("No new outages to post.")
+        print("No new outages to post breaking news for.")
         return
 
     tok = f.token()
