@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "title": "Are Robots Really Productive? AGIBOT’s New Worken Framework Has an Answer",
-   "url": "https://www.gizmochina.com/2026/10/30/agibot-worken-robot-productivity-framework/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "العنوان غير صالح أو أطول من 75 حرف (85 حرف)"
-   ]
-  },
-  {
-   "title": "Google’s Pixel 11 drops to $699 on Amazon US, and the rest of the lineup is on sale too",
-   "url": "https://www.gizmochina.com/2026/10/30/googles-pixel-11-drops-to-699-on-amazon-us-and-the-rest-of-the-lineup-is-on-sale-too/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Phrase [google pixel] found in existing: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
-  },
-  {
    "title": "Samsung launches a premium version of the Z Fold 8 Ultra in China for $2,850",
    "url": "https://www.gizmochina.com/2026/10/30/samsung-launches-a-premium-version-of-the-z-fold-8-ultra-in-china-for-2850/",
    "at": "2026-10-30",
@@ -3195,6 +3179,24 @@
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
+  },
+  {
+   "title": "Samsung Galaxy Buds4 Pro and Buds3 Pro will soon work as hearing aids",
+   "url": "https://www.gsmarena.com/samsung_galaxy_buds4_pro_and_buds3_pro_will_soon_work_as_hearing_aids-news-75354.php",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (679 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "ثغرات كروم ومعالجات سنابدراجون تهدد أمن هواتف أندرويد",
+   "url": "https://www.androidauthority.com/hackers-chrome-snapdragon-gpu-flaws-android-zero-click-3731860/",
+   "post_url": "https://www.review-mobile.com/2026/11/chrome-snapdragon-vulnerabilities.html",
+   "at": "2026-11-05T08:59:35+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
