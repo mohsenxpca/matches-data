@@ -330,7 +330,7 @@ def model_keys(text):
     return keys
 
 
-def is_already_covered(cand, existing_titles, done_urls):
+def is_already_covered(cand, existing_titles, done_urls, done_items=None):
     """
     Strict deduplication logic:
     - For reviews: Ensures this specific phone model hasn't been reviewed already.
@@ -375,7 +375,7 @@ def is_already_covered(cand, existing_titles, done_urls):
                         return True, f"Phone {sorted(keys & model_keys(t))[0]!r} already covered in: {t}"
         # English-to-English topic deduplication across recent done items
         cand_words = set(re.sub(r"[^\w\s]", " ", cand_title.lower()).split()) - STOP_WORDS
-        for d in state.get("done", [])[-40:]:
+        for d in (done_items or [])[-40:]:
             d_raw = (d.get("title", "") + " " + d.get("url", "")).lower()
             d_words = set(re.sub(r"[^\w\s]", " ", d_raw).split()) - STOP_WORDS
             overlap = cand_words & d_words
@@ -787,7 +787,7 @@ def main():
 
         try:
             # 1. Deduplication check
-            already, reason = is_already_covered(cand, existing_titles, done_urls)
+            already, reason = is_already_covered(cand, existing_titles, done_urls, state.get("done", []))
             if already:
                 print(f"  Skipped (Duplicate): {reason}")
                 state["done"].append({"title": cand_title, "url": cand["link"], "at": today_str, "ok": False, "reason": reason})
