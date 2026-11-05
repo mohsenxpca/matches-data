@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Omdia: global smartphone shipments declined 20 percent YoY in Q3 2026",
-   "url": "https://www.gsmarena.com/omdia_global_smartphone_shipments_declined_20_percent_yoy_in_q3_2026-news-75281.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (820 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
-   ]
-  },
-  {
    "title": "مراجعة هاتف vivo S70: المواصفات الكاملة والتحليل الشامل للكاميرات",
    "url": "https://www.gsmarena.com/vivo_s70s_full_camera_details_emerge_in_new_leak-news-75279.php",
    "post_url": "https://www.review-mobile.com/2026/10/vivo-s70-comprehensive-review.html",
@@ -3188,6 +3179,15 @@
    "ok": true,
    "kind": "news",
    "brand": "هواوي"
+  },
+  {
+   "title": "أوبو تطور هاتفاً ببطارية عملاقة بسعة 12,000 مللي أمبير",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYklXQzV1MTRCUDJkQ3ZObi1XMDl0Tk1nNWRHbUVnVzhwd185cWNtNDcxTTlQR1RORUlUU1JGXzFKZ2M2YkxMSkR6MjdDN0hOQzVBM1dFVmNOcHlfZFBpckVTT0FsT0J1V0NoSFBtblhHUWJ1S3VjVlhrVFlzRVk1WlM3bWd0aW5LYkZzOF9BanBXT0JucU5VdWpDRFdRZ9IBmgFBVV95cUxOdm5WM3RoSWdPbXlYVjg5ckdPZXh4aVBHQk01aS1kTWF3dzF3QWlXMklLQnRuNC1HU0pPWWQtU0pFMTJLcG5uQ0NNd1VnSXFyMkVTMGNmd01JSV9nVmFFM19RNEVUY19OZDE4a2N5OXp1V2NsUDNoNmZxTnhiMVgtZlRhNU1wU2xVSmNXVmFNc2Ezak44UzJScmhR?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-smartphone-12000mah-battery-leak.html",
+   "at": "2026-11-05T05:00:17+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اوبو"
   }
  ]
 }
