@@ -1,21 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة جهاز سامسونج القابل للطي بشاشة 17 بوصة: تفاصيل التسريبات",
-   "url": "https://www.gizmochina.com/2026/10/30/samsung-working-17-inch-foldable/",
-   "post_url": "https://www.review-mobile.com/2026/10/samsung-17-inch-foldable-review.html",
-   "at": "2026-10-30T19:31:34.274605+02:00",
-   "ok": true,
-   "brand": "سامسونج"
-  },
-  {
-   "title": "OnePlus Ace 7 vs Ace 7 Pro: Should You Spend More for the Pro?",
-   "url": "https://www.gizmochina.com/2026/10/30/oneplus-ace-7-vs-ace-7-pro/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
    "title": "مراجعة سماعات Bose QuietComfort: تخفيض هائل لـ 169 دولار والراحة أولاً",
    "url": "https://www.gizmochina.com/2026/10/30/bose-quietcomfort-headphones-drop-to-169-and-comfort-is-the-reason-to-buy/",
    "post_url": "https://www.review-mobile.com/2026/10/bose-quietcomfort-headphones-review-169.html",
@@ -3189,6 +3174,25 @@
    "ok": true,
    "kind": "review",
    "brand": "اخرى"
+  },
+  {
+   "title": "Motorola’s new “moto one” surfaces with flagship Snapdragon chip",
+   "url": "https://www.gizmochina.com/2026/11/05/motorola-moto-one-qi-certification-snapdragon-8-gen-5-geekbench-design-reveal/",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (605 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "العنوان مكرر أو قريب جداً من مقال منشور: موتورولا تحيي سلسلة Moto One بهاتف خارق بمعالج Snapdragon 8 Gen 5"
+   ]
+  },
+  {
+   "title": "كيف تشارك قائمة مشترياتك بذكاء بين آيفون وأندرويد؟",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BVUYtSzl4SjE4Njl5M2J3QkZiUkNmUndzQWdZVEs5SF9LRl9WeF9Ybmt6YXpmdllaMUM4aTFjeFI3TGw5YU56bGY0ellVUzNDSUFIeC1fcEtoVXBtTnd0TmRtWldFUQ?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/how-to-share-grocery-lists-smartphones.html",
+   "at": "2026-11-05T05:59:39+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
