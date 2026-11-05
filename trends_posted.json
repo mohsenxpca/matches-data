@@ -829,6 +829,17 @@
    "at": "2026-11-05",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "egypt cup",
+   "at": "2026-11-05",
+   "ok": false
+  },
+  {
+   "q": "روبن نيفيز",
+   "at": "2026-11-05",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
