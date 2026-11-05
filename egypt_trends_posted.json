@@ -1,38 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DRlBhQjd6bWcyaDJvb1JzQzVOaGRfWjZGUkh2cDBZY3JrQTRCYXJSTUZkaUpqOG9GVXp6ZkhGb3c5ck9TcW9nS0FOOFEzMTlHakhkLXlBSWM2SGl6QTdv?oc=5",
-   "t": "موعد امتحانات الترم الأول 2027 لصفوف النقل.. التعليم تحدد وإجازة نصف العام تبدأ 23 يناير - المصري اليوم",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 371 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.youm7.com/story/2026/10/31/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D9%81%D8%AA%D8%AD-%D9%88%D8%BA%D9%84%D9%82-%D8%A7%D9%84%D9%88%D8%B1%D8%B4-%D9%88%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%AD%D8%B1%D9%81%D9%8A%D8%A9-%D9%81%D9%89-%D8%A7%D9%84%D8%B4%D8%AA%D8%A7%D8%A1-2026-%D8%A7%D8%B9%D8%B1%D9%81/7599328",
-   "t": "مواعيد فتح وغلق الورش والأعمال الحرفية فى الشتاء 2026.. اعرف التفاصيل",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 383 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.skynewsarabia.com/sport/1901623-%D9%85%D9%88%D8%AC%D8%A9-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D8%A7%D9%81-%D9%8A%D8%B9%D9%8A%D8%AF-%D8%A3%D9%85%D9%85-%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D9%86%D8%B8%D8%A7%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A",
-   "t": "بعد موجة انتقادات.. الكاف يعيد \"أمم إفريقيا\" لنظام العامين",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/10/31/وزارة-الاتصالات-تكشف-سبب-تراجع-أعداد-اشتراكات-الهاتف-المحمول/7600533",
    "t": "وزارة الاتصالات تكشف سبب تراجع أعداد اشتراكات الهاتف المحمول",
    "at": "2026-10-31",
@@ -3327,6 +3295,35 @@
     "كلمة رسميًا مش موجودة في المصدر، احذفها",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'صرف', 'نوفمبر'}) مع تشابه نصي مع: صرف مقررات نوفمبر التموينية: حصص السلع لكل فرد ومواعيد العمل)"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7169236",
+   "t": "«أهلي بنغازي» يكشف حقيقة المفاوضات مع أحمد فتوح وثنائي الأهلي",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حقيقه', 'اهلي'}) مع تشابه نصي مع: حقيقة زيادة عائد شهادات البنك الأهلي المتغيرة في نوفمبر 2026)"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/5/%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%B2%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D9%82%D8%A9-%D9%85%D9%8A%D8%B3%D9%8A-%D9%88%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D9%8A%D9%88%D8%AF%D8%B9%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%A8%D8%B1%D8%AA%D8%BA%D8%A7%D9%84-%D9%81%D9%8A-66/7607089",
+   "t": "نهاية زمن العمالقة.. ميسي ورونالدو يودعان الأرجنتين والبرتغال في 66 يوماً",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 2024",
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ريستيانو', 'رونالدو'}) مع تشابه نصي مع: تكريم جماهيري خاص لكريستيانو رونالدو في مباراة النصر وباختاكور)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMixgNBVV95cUxQVFBzbzhEYlBXM0F6dUM5NUUyMHZrNlJUV0JqRjNiOWRhc00yeVpsSTR6ck94dWZJVTdiR1lETE1SajgtRkl5MlhZNG9tQ1F4cFVyN1l3OUhfUm8tcWFINElxdTJSejBvbGd0M182Qm1zdllXaVJDQlZaUUdnbjlWUkZmc0RZQ0x3NDdZTFBLMTd6MlR4U3YwS0x1S0NLc09LdjdwLXZsVm1CMEQ3bVdrTFlKSVV6LWZSTS1oM1lFZFV2b3BmWTVZdFlJQXl6NWZsUTZEWldGM01tLXBiNDdXSExhbTFweGxGLUtOdzYwcUFGU1JlT1o2dkZGcURFTUhhanFyTFMzM0djaWpqRGpjRnR2RHE2LXRySl9neGw1Z3EwRm9lMXlQN3hYRWdWVy1BMG15bE1XV2NWYzh4R05yb01DLU9nVDFiM3F2eWdkVncxQ3JGYW03M3pnajA4UzBDdTdwT1hvZFdQd2hqd25sUkRmeVJJOFJiQ21zUTI4QTIzMHZxT0wzRDhEQm4yODV3Unc3aGlPR2wydFFzTnRGMlZralFCamRVRHRxM0hhNkM5T0xYNk5YRHkzc3BUMWJvVmJxUFdR0gHAA0FVX3lxTE56aFg3RkVtT0tscVlPQlFNaGVnQ0o4SlhjSHZyYnZKNkNSQnRlbEU0WjBlTlRLQzFZUGFtSGxmOFpVZUM2a0lHZVRKSnRwNWVsMHlwdXc1RkpaNVFRa0E3WTNnZk8tVWVJNEJ1WkhPd0NINVVqS3FoNS1uU2Q5UHNuaXZJR3B3c3BpaWtCc1BGb3JiQnRqX2c0N0VXSEJ6WjZhTFE5WGZqTGotNTFhUzJjYm9MZWNKVWt3NWxUak1iM2VsWC1oa0VaS1BERk9pdUFna2RiMHA0VVJZM1JDajVBTXFkcWF0YVRLZmRpQ19keDdHRkN5MF9FZDVsaERSdlNxOTZESi1td29Jdmxmbmx1a01XX1dkT3VZVjZjVXlXaURFN2tKRklBSVVpV0pnRWZ6X0ZZWTRxbVdTS1pyWTExR2JWcVJHdWFBMmJwc0ZOd3RNREdXM2x0Y3hBVVdNQ2trNFZMNzhYRWpBWGZJamRPUlpvR0w2NXdOM1p5cmhwNGRHOENMQl83UkxCQXloMUZyTEd0SzlhTEhoZ3BUcHZXUFI0WXloVi14Y1d4LWdVUG1rU2dUdVpDb2U3bGtjTHQ?oc=5",
+   "t": "مرور الجيزة: غلق كلى لمحور الفريق كمال عامر يومين أمام محطة قطارات بشتيل - اليوم السابع",
+   "title": "غلق كلي لمحور الفريق كمال عامر: تحويلات مرورية وتفاصيل هامة",
+   "url": "https://www.egyptaway.com/2026/11/giza-traffic-closure-kamal-amer.html",
+   "at": "2026-11-05T15:14:35.008200+02:00",
+   "ok": true,
+   "type": "nation"
   }
  ]
 }
