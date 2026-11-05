@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.bbc.com/sport/football/live/cwg7xe5g11m0t",
-   "t": "Barcelona 6-1 Alaves: Lamine Yamal and Raphinha each score twice as Barca return to top of La Liga",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 9",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'رشلونه', 'افيس'}) مع تشابه نصي مع: نتيجة مباراة برشلونة وألافيس 6-1 في الدوري الإسباني)"
-   ]
-  },
-  {
    "u": "https://barcauniversal.com/barcelona-captain-raphinha-has-a-scoring-record-to-settle-against-alaves/",
    "t": "Barcelona captain Raphinha has a scoring record to settle against Alaves",
    "at": "2026-11-01",
@@ -3325,6 +3315,15 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 0، 1",
     "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'مؤتمر', 'طرابزون', 'سبور', 'اوروبي'}) مع: محمد صلاح يتألق رغم هزيمة طرابزون سبور في دوري المؤتمر الأوروبي)"
    ]
+  },
+  {
+   "u": "https://www.fanatik.com.tr/en/vincenzo-italiano-was-furious-after-the-loss-we-threw-away-three-points-im-really-angry-2643548",
+   "t": "Vincenzo Italiano was furious after the loss! \"We threw away three points—I'm really angry.\"",
+   "title": "سيلتيك يهزم بشكتاش 3-2 في الدوري الأوروبي: تفاصيل اللقاء",
+   "url": "https://www.egyptaway.com/2026/11/celtic-beats-besiktas-europa-league.html",
+   "at": "2026-11-06T00:59:35.672331+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
