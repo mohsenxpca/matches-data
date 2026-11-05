@@ -1,14 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة Honor 700 و 700 Pro: ثورة في التصوير والشاشات الخلفية بمواصفات خارقة",
-   "url": "https://www.gizmochina.com/2026/10/30/honor-700-series-telephoto-extender-rear-display-leak/",
-   "post_url": "https://www.review-mobile.com/2026/10/honor-700-pro-review-specs.html",
-   "at": "2026-10-30T20:41:51.810522+02:00",
-   "ok": true,
-   "brand": "هونر"
-  },
-  {
    "title": "Honor X9e s launches with 8,560mAh battery and Snapdragon 6 Gen 4 chip",
    "url": "https://www.gizmochina.com/2026/10/30/honor-x9e-s-launches-with-8560mah-battery-and-snapdragon-6-gen-4-chip/",
    "at": "2026-10-30",
@@ -3191,6 +3183,16 @@
   {
    "title": "Asus Zenbook 14 launched in India with Intel, AMD and Snapdragon options, starts at Rs 1,36,990 (~$1,448)",
    "url": "https://www.gizmochina.com/2026/11/05/asus-zenbook-14-launched-india-intel-amd-snapdragon-rs-136990/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Upcoming phones launching in November 2026",
+   "url": "https://www.gizmochina.com/2026/11/05/upcoming-phones-november-2026/",
    "at": "2026-11-06",
    "ok": false,
    "reason": [
