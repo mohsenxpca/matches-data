@@ -3137,6 +3137,29 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "Honor Magic9 Pro Max in for review - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44MlBka2swUmtUb1JHcGdFVUNQSlpWN2lKRVI4LUI2anVaV1ozclpFb0JiTEgydDdTMEVRUW9XVmxlQXl2WFRnLV8xaktQSDNjLXJVenowVHRvY2l0Q0tqdkUyVmZzakRGN3BtZmV1SmZtN3R6Z2lsV2NnNW9EVGPSAXtBVV95cUxOb0pSb2s2SFVBTXJWYTRMZG1RbGkyUUMzYlZtTjdkUDVzczlNQ2Y5dTRBYW9ZLWh2bF9PUGxhdVBVc2VoOE16YlFPcnRtMEpmSmdLZ285Wk8ydjc3bklaYi10RDJyeGxwVHdJX0lSTnpENkhnb2hLV2hLNWM?oc=5",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "Russia’s Foreign Intelligence Service Hackers Inject JavaScript To Steal iPhone And Android Data: 8 outlets compared - NewsCord",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQV3JaRkxJRnJsTzFHTVY1eWJHY2tmZ3VxaEF3LXdQUWl1TGlzLVUwWDNZSFotVFJVaVlUd1owdnQ4X2ZwWXZZTEtPZTNJR2s3ZURqQU1mYWdZRXlyaC1PVV9OWjdna19EdXVFVlZfdW8xUUVpOFpaR2dUNDBic2Y1RzZLNnNfRm43Z2puLVBrZ0xCQjRVMWFpQkFoSFNjRzhISnN0X0p0S3Fqa0QxNHI3Y0FGc2M3bGxEdkVvam1WaE9FamdoTWhsdGVXZ1VpZHZELVpjV1RIbmdfODVHZm5DQ05qaVI0bmJRMXc?oc=5",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (608 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Oppo Find X9 Ultra",
+   "url": "https://www.gsmarena.com/oppo_find_x9_ultra-14548.php",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": "Phrase [oppo find] found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
   }
  ]
 }
