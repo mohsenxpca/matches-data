@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Find X10 Ultra Dimensity 9600 Pro Edition could be in the works",
-   "url": "https://www.gizmochina.com/2026/10/30/oppo-find-x10-ultra-dimensity-9600-pro-edition-leak/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [x10] found in existing: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
    "title": "مراجعة آي باد ميني 2026: تفوق مذهل على آي باد برو في الأداء الفردي",
    "url": "https://www.gizmochina.com/2026/10/30/ipad-mini-2026-geekbench-scores-versus-m5-ipad-pro/",
    "post_url": "https://www.review-mobile.com/2026/10/ipad-mini-2026-benchmark-review.html",
@@ -3199,6 +3192,15 @@
    "reason": [
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Asus Zenbook 14 launched in India with Intel, AMD and Snapdragon options, starts at Rs 1,36,990 (~$1,448)",
+   "url": "https://www.gizmochina.com/2026/11/05/asus-zenbook-14-launched-india-intel-amd-snapdragon-rs-136990/",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (687 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
   }
  ]
