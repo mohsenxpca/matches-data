@@ -28,7 +28,7 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari
 REVIEW_BLOG = "2997328666613207792"
 REVIEW_HOST = "www.review-mobile.com"
 STATE_FILE = "review_posted.json"
-REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "35"))
+REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "8"))
 COUNT = int(os.environ.get("COUNT", "2"))
 CDN = "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/"
 IMG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "img")
@@ -76,7 +76,7 @@ HALLUCINATED_OR_FAKE_EXCLUSIONS = re.compile(
 )
 
 NON_PHONE_EXCLUSIONS = re.compile(
-    r"\b(watch(?:es)?|smartwatch(?:es)?|band\b|buds|earbuds|airpods|headphones?|speakers?|soundbars?|laptops?|macbooks?|ipads?|tablets?|pads?|tab\b|tvs?|television|vacuum|cleaners?|cars?|ev\b|auto\b|ring\b|projectors?|doorbells?|drones?|refrigerators?|washers?|washing|shoes?)\b",
+    r"\b(watch(?:es)?|smartwatch(?:es)?|band\b|buds|earbuds|airpods|headphones?|speakers?|soundbars?|laptops?|macbooks?|ipads?|tablets?|pads?|tab\b|tvs?|television|vacuum|cleaners?|cars?|ev\b|auto\b|ring\b|projectors?|doorbells?|drones?|refrigerators?|washers?|washing|shoes?|massag(?:er|es|ing)?|waist|heater|heating|purifier|toothbrush|blanket|pillow|shaver|clipper|cooker|kettle|oven|fryer|humidifier|dehumidifier|scale|thermometer|lamp|light|bulb|fan\b|desk|table|chair|backpack|jacket|coat|umbrella|pen\b|bottle|eyewear|glasses)\b",
     re.I
 )
 
@@ -373,6 +373,15 @@ def is_already_covered(cand, existing_titles, done_urls):
                 for t in existing_titles:
                     if keys & model_keys(t):
                         return True, f"Phone {sorted(keys & model_keys(t))[0]!r} already covered in: {t}"
+        # English-to-English topic deduplication across recent done items
+        cand_words = set(re.sub(r"[^\w\s]", " ", cand_title.lower()).split()) - STOP_WORDS
+        for d in state.get("done", [])[-40:]:
+            d_raw = (d.get("title", "") + " " + d.get("url", "")).lower()
+            d_words = set(re.sub(r"[^\w\s]", " ", d_raw).split()) - STOP_WORDS
+            overlap = cand_words & d_words
+            # If 3 or more significant English words match in the last 40 items, it's the same story
+            if len(overlap) >= 3 and any(w in overlap for w in ["screen", "fold", "flip", "chip", "camera", "battery", "update", "launch", "leak", "release"]):
+                return True, f"Recent story overlap on key terms {list(overlap)[:4]!r}"
         cand_norm = f.norm(cand_title)
         for t in existing_titles:
             ratio = difflib.SequenceMatcher(None, cand_norm, f.norm(t)).ratio()
