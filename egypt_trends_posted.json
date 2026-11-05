@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/10/31/إنتل-الأمريكية-للتكنولوجيا-تتكبد-أكبر-تراجع-فى-أسهمها-منذ-عقود/7600498",
-   "t": "\"إنتل\" الأمريكية للتكنولوجيا تتكبد أكبر تراجع فى أسهمها منذ عقود",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/10/31/3071381/%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%8A%D8%AE%D8%B7%D8%B7-%D9%84%D9%81%D8%B3%D8%AE-%D8%B9%D9%82%D8%AF-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A-%D8%A7%D9%84%D8%B6%D8%A7%D9%88%D9%8A-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%88-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84",
-   "t": "الأهلي يخطط لفسخ عقد التونسي الضاوي كريستو.. تفاصيل",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 288 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.marca.com/futbol/atletico/2026/10/30/levante-vs-atletico-maldicion-tormenta.html",
    "t": "Levante vs Atlético: Maldición antes de la tormenta",
    "at": "2026-10-31",
@@ -3325,6 +3308,25 @@
    "ok": false,
    "reason": [
     "كلمة رسميًا مش موجودة في المصدر، احذفها"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/5/برنامج-رأس-المال-المخاطر-لجهاز-تنمية-المشروعات-يجتذب-استثمارات-أجنبية/7606909",
+   "t": "برنامج رأس المال المخاطر لجهاز تنمية المشروعات يجتذب استثمارات أجنبية بـ455 مليون دولار",
+   "title": "استثمارات بـ 455 مليون دولار لشركات مصرية ناشئة عبر جهاز المشروعات",
+   "url": "https://www.egyptaway.com/2026/11/msmeda-venture-capital-455-million.html",
+   "at": "2026-11-05T12:03:44.619116+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://abc6onyourside.com/news/local/columbus-weather-a-cool-but-fang-tastic-halloween",
+   "t": "Columbus Weather: A cool but fang-tastic Halloween night",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "الـ body 383 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'جويه', 'امطار'}) مع تشابه نصي مع: كيف تتوقع الأرصاد الجوية سقوط الأمطار؟ أسرار التكنولوجيا الحديثة)"
    ]
   }
  ]
