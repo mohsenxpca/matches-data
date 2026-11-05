@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/10/31/3071401/%D8%B1%D8%B6%D8%A7-%D8%B3%D9%84%D9%8A%D9%85-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%81%D9%8A-%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%A7%D9%84%D9%81%D8%A7%D8%B3%D9%8A-%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D8%B5%D8%A9-",
-   "t": "رضا سليم مطلوب في نادي المغرب الفاسي.. ما القصة ؟",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 320 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7162546",
    "t": "تموين بني سويف: تحرير أكثر من 500 محضرًا لمخالفات بالمخابز والأسواق خلال حملات رقابية بالتعاون مع الجهات المعنية",
    "at": "2026-10-31",
@@ -3325,6 +3315,15 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 3، 4"
    ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxOM0NpUDZDdm53TW8wamlMUnpXZUEwOURDTFh0OWFJV0dZbXpFT1VLZGRYRzRkWklEUnNfU0VpSGhwZjJZQ2tzUXBYb3lYQjhLWEVNM3ZFVWR3VlRyNDkxMG93Umd6X0ZQRkp6SFpWRjl0dlZlbHVscnJfQjFWc1hVRXhBOHRZbWRLQWJ4bExJc2lWYjhfdXl2MkdLNWh1TUw2SEc4alRkQ1ZWMXNyT2xUejNIcnR6MXRhTnl5bmFuNWlKc2hHc3FKYU9OR2kxZ1Q2REs2VUpNUzhxcDh0SXZrdEUzOGVvaE8tTy1vQ2ZJeUMtVl81SGh4YUZxTU1tQ0ZDd3VLZTlZNDE1MVZWT1ZjRk44anlfWFJicjNZYzV2aVc3VXllMWk5NVVQZkthOWtUUW9ueXpJRGRWa0Yzc3pVY3RLbS1lSXN3MTlFU0ZKNkF1OE9kQ2xTNGN0N0JqU0c1Y0JybHJfMTI3dw?oc=5",
+   "t": "لليوم الـ 5 علي التوالي.. «التموين» تواصل صرف سلع مقررات نوفمبر - بوابة أخبار اليوم الإلكترونية",
+   "title": "صرف مقررات نوفمبر التموينية: حصص السلع لكل فرد ومواعيد العمل",
+   "url": "https://www.egyptaway.com/2026/11/november-ration-cards-distribution-guide.html",
+   "at": "2026-11-05T14:05:29.351511+02:00",
+   "ok": true,
+   "type": "public_query"
   }
  ]
 }
