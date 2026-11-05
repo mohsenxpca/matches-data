@@ -3,15 +3,6 @@
   {
    "u": "https://www.elbalad.news/7162813",
    "t": "القبض على المتهم بسرقة هاتف طالب على الطريق الدائرى",
-   "title": "القبض على سارق هاتف طالب على الطريق الدائري بالقاهرة",
-   "url": "https://www.egyptaway.com/2026/10/arrest-suspect-ring-road-phone-theft.html",
-   "at": "2026-10-31T17:39:42.961545+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
-   "u": "https://www.elbalad.news/7162813",
-   "t": "القبض على المتهم بسرقة هاتف طالب على الطريق الدائرى",
    "at": "2026-10-31",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
@@ -3318,6 +3309,15 @@
    "at": "2026-11-05T20:01:29.101666+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/5/تسلا-تطور-بطارية-Powerwall-3-لتشغيل-المضخات-الحرارية-وتخزين-الطاقة/7607027",
+   "t": "تسلا تطور بطارية Powerwall 3 لتشغيل المضخات الحرارية وتخزين الطاقة الشمسية",
+   "title": "تسلا تطور بطارية Powerwall 3 لتخزين الطاقة الشمسية",
+   "url": "https://www.egyptaway.com/2026/11/tesla-powerwall-3-heat-pump-optimization.html",
+   "at": "2026-11-05T20:19:42.817991+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
