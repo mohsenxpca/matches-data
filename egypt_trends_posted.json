@@ -1,35 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elconsolto.com/news/health-news/details/2026/10/31/3071291/%D8%B9%D8%A7%D8%AC%D9%84-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-10-%D9%88%D9%81%D9%8A%D8%A7%D8%AA-%D9%8824-%D9%85%D8%B5%D8%A7%D8%A8-%D8%A7-%D9%81%D9%8A-%D8%AA%D8%B5%D8%A7%D8%AF%D9%85-%D8%A7%D9%84%D8%B7%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9",
-   "t": "عاجل.. الصحة: 10 وفيات و24 مصابًا في تصادم الطريق الأوسطي بالجيزة",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 34",
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 348 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://en.as.com/soccer/chelsea-vs-manchester-united-live-online-score-stats-goals-updates-premier-league-202627-f202610-n/",
-   "t": "Chelsea vs Manchester United live online: score, stats, goals & updates | Premier League 2026/27",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 389 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOWnBOM1dlU0k3MFRHcmRTd254WkZGUHR1OTRMYlo2TXZNaVB0MGhvX2JSR1otMHpXVV9CaktoTjQ4WTdaSHJudGZtbkduZWlSMDQ2YUNVQ2VDWVJkVHJGWF83QklCOHZIZlNhNlFXQW9tWGUtb1B6YlNXWl9yamxuRzgxWkZvR2gwZUs2Q1I5RXBKY0xhX3R2UHkwREJ2UWhYN04zNUdhRjFqM3RkdDZYWnVYVFJtZG9rVHdpbWxoX25vSHRGS0hudFh4cGpEd0ExRENSeUVtNS02cXA1TzE2Zk80S2hWdWRzX3V5bTRIbTAzaTBYSVFFejU4NWRtVTZmUUZFM3pQODZPTl9DS25yYUlWYkFFYXFhaFNEd05QbGFYd0g5SUJ3UklvMTAzaDhMVDYzNjBRQVpMR3RaNlNlUnZXMUs3anF3eUhSeVBNRjVHUkgybXNZdERnYVdZUTZFd0xrTkxCX3FNYmVna0lyUm50YmljTDg?oc=5",
-   "t": "التعليم تحسم الجدل بشأن رسوم امتحانات الهوية الوطنية لطلاب المدارس الدولية - بوابة أخبار اليوم الإلكترونية",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": [
-    "الـ body 399 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.masrawy.com/sports/sports_news/details/2026/10/31/3071401/%D8%B1%D8%B6%D8%A7-%D8%B3%D9%84%D9%8A%D9%85-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%81%D9%8A-%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%A7%D9%84%D9%81%D8%A7%D8%B3%D9%8A-%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D8%B5%D8%A9-",
    "t": "رضا سليم مطلوب في نادي المغرب الفاسي.. ما القصة ؟",
    "at": "2026-10-31",
@@ -3327,6 +3298,33 @@
    "at": "2026-11-05T12:48:09.160839+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/5/3074019/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B3%D9%84%D8%AA%D9%8A%D9%83-%D9%88%D8%A8%D8%B4%D9%83%D8%AA%D8%A7%D8%B4-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D8%B8%D9%87%D9%88%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%80-%D9%87%D9%8A%D8%AB%D9%85-%D8%AD%D8%B3%D9%86-",
+   "t": "موعد مباراة سلتيك وبشكتاش في الدوري الأوروبي.. ظهور جديد لـ هيثم حسن",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 10، 11، 35"
+   ]
+  },
+  {
+   "u": "https://www.gsmarena.com/xiaomi_sets_the_hyperos_4_update_rollout_schedule-news-75340.php",
+   "t": "Xiaomi unveils the HyperOS 4 update rollout schedule - GSMArena.com news",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في 6 كيانات جوهرية ({'HyperOS', 'تكامل', 'شاومي', 'ميزات', 'ايفون', 'تحديث'}) مع: تحديث شاومي HyperOS 4: ميزات جديدة وتكامل مع آيفون)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBUN3hOZnRhZnVZVDRFLS1Gc1RBVWVGOTM0X2xHeS1mdHlBODRHSlRqOTVBaEs2VVVpX01BMnh0R1Bmb2Rud1lV?oc=5",
+   "t": "تعليمات عاجلة بشأن التقدم لامتحانات الصفين الأول والثاني الثانوي “بنظام المنازل” - صدى البلد",
+   "at": "2026-11-05",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 3، 4"
+   ]
   }
  ]
 }
