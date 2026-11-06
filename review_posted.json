@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Vivo X500 Pro Max vs Xiaomi 17 Ultra: Is Xiaomi Worth the Extra $300?",
-   "url": "https://www.gizmochina.com/2026/11/01/vivo-x500-pro-max-vs-xiaomi-17-ultra/",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Model code [x500] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
    "title": "Honor launches affordable phone with 8,560mAh battery and AMOLED display - Notebookcheck",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRnVVa1k2QTFORjBpR21waElfM2VNU2Vnd1k5TjNEMVdISDdmXzJNOEY1MFNhdjk5akZYVm5FbUo3S0toZkNYMzNRTGRZdV9FdHpfaDFESVdpblpDaUFORXZmYlBLbFlaWVBlZHpXdS00aW9yd1JFRDN5TkRLS1JkVkMtWEE1OTlJaTZpRXZzREpNc3FPZ05nelFBZjJNQXpsNFR1dHVSSkhLdWI0ZXFpWDhKOVpkWUNQ?oc=5",
    "at": "2026-11-01",
@@ -3293,6 +3286,13 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Next year’s iPhone Pro redesign will drop an important button, per leak - 9to5Mac",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVTQ0eTV0cmZ5b001YUc5cXlheVhyUHhrcTBGWEtzS0U1MndldXhESHI1SnZFeFl4aUprbnZiN1duMjZ3TmlZV21uV3dxdWQ4WjdMZ3pvOEozTmJzeEZ3LU5YM2FQYnRWNExoYXRNMzg4Mi0zMGRMMnFsQlUyM1VqV2dTZ0RTaTFKVldUWUQ1NW16RkJiQkJXaWJXbTExR3JMNHNr?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['year', 'redesign', 'next', '9to5mac']"
   }
  ]
 }
