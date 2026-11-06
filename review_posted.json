@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Motorola confirms the Signature 27's exact launch date",
-   "url": "https://www.gsmarena.com/motorola_confirms_the_exact_signature_27_launch_date-news-75275.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
-   "title": "Oppo Find X10 Ultra could be heading for a chipset switch",
-   "url": "https://www.gsmarena.com/oppo_find_x10_ultra_could_be_heading_for_a_chipset_switch-news-75271.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [x10] found in existing: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
    "title": "iPhone Air 2 specs surface again in new leak",
    "url": "https://www.gsmarena.com/iphone_air_2_specs_surface_again_in_new_leak-news-75274.php",
    "at": "2026-10-30",
@@ -3216,6 +3202,23 @@
   {
    "title": "Qualcomm’s latest Snapdragon chips are compatible with Android’s Linux Terminal app",
    "url": "https://www.androidauthority.com/snapdragon-android-linux-terminal-3732212/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Samsung Galaxy Fit 4 app listing hints at NFC payment support",
+   "url": "https://www.androidauthority.com/samsung-galaxy-fit-4-wallet-nfc-payments-3732163/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Phone 'fit 4' already covered in: مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع"
+  },
+  {
+   "title": "Qualcomm will help SpaceX build Starlink Mobile's nationwide US 5G network - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdEhDdWNmY0JkbTIwV2xOTWxDVHkyOHBmcGdKWWtBZ0VMT1BKS3djbERzSUxqY3hXMF9keEZpMWZjcXIwNHNyZGlJOHNTY0dmUlAwN0tsUkowb2hrSWp6cEUwUWxpVVdhMEh3Y1htcy1CVjFnMVRaQVBmZi1rVFcyRFdkQkVUdFNDcFpnbTFYRUsxa3k5ejZfQklJVWp5VTIxeWJYcFVfem9iS1hNbF9FdGY1UdIBrwFBVV95cUxOYUtHUTRzeU9HMXdBSnotM1JwT1VsX3plOHFleUZVSFp5bEtKTnFYOXl2VTEzWTVTT1Z1SzBmTlhSUjUzYTlnVFRTcUwzbFh1eDRid2NzaXdhbUtONVdnV2RUUGwtR18wMC1qT3dpX3RLeThMTHZNbFVHQ3d3ajhmRk5adllETDN5bjRaRzJCZGxyNWJFZThBS2V2V1pUTUhrSENFbUowY0x6SWtxb1cw?oc=5",
    "at": "2026-11-06",
    "ok": false,
    "reason": [
