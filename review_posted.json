@@ -1,36 +1,6 @@
 {
  "done": [
   {
-   "title": "Weekly poll results: the Oppo Find X10 Pro Max is too expensive and so is the Find X10 - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZUtwZ3NBaUVxWG5CYnhnQUFhX3NUYUVRdTJjUVAzTmRKdk5xV1luR2ttdEtBNmtWNnF3WmQwSDNybFJ6SnBnRkNvNGVtbUp6aTgxOFdNY2hIUmg3VTJmN3B0aHdZd3QxOVpFdWRkQzBjSlZ6Y0JCeXdYYUJ6VnRMcWJURHVRMWlVazJlbjhwWTdaV25nUkdBZmNTeW53WVZUZWJ1b0RHT3FwVk01bzFwVV9LM2FzZEdzdkNkZU0wZUYxSXc?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
-   "title": "Motorola Signature 27 Specs Leaked Ahead of November 5 Launch: 200MP Camera, Tandem OLED Display and More - My Mobile India",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObG82bG9jcHFmcHFKQ1poektJc284ZTdrX3pHNXZmVDlyWXBZZ294VkpWMC1qczA0dy1wV3VCNE9mM2ZDT2NkOUthUmFhVDlLTzNfTlNXV0R1czh2N3Z0eGtDMVhwQzFUalhhMGZBcDA1aUlUeXRKY2dEbHB0RDBCSEZ6alBlaEU3R2t3ZkpoSGlhUXRTak9BM05IWVdWb2E4WjFvSXB1WG0xQm5QQ2N2eXd3RkxWdVJOLTlOMFFOWUtvemhLUUZBSExXMFByR2s?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
-   "title": "Best iPhone Duo deal: How to get $1,000 off the Apple iPhone Duo - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1iVVN0Vm9VS0tBUTkzcXlOSXlocTFHaFJPUVI4TDNDSWNxbG9KajFIMlptcUtBZjVZWFFSeTh1TFRyYTVCaXhFY2JfZi1tai10U2FWTDkxMnhlSUN1OGstLXZfWUZLVExGbWRHaE9TMmVpa09leF9N?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [iphone duo] found in existing: مراجعة iPhone Duo 2026: المواصفات والسعر والمميزات والعيوب"
-  },
-  {
-   "title": "Lava smartphones will get expensive in India from November 15",
-   "url": "https://www.gsmarena.com/lava_smartphone_price_hike_india-news-75300.php",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "العنوان غير صالح أو أطول من 75 حرف (89 حرف)"
-   ]
-  },
-  {
    "title": "Here's exactly when you'll find out everything there is to know about the Motorola Signature 27 - PhoneArena",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaGstSHdMV3hnVjI4OHVBWm5HaFFRdmJOb0pWWHdWMlR0bDcyRXpxT1o1Y3J2TS0zWmZhMzZFVHhNX25ORHZmeE5VNVNlUGl4cV94bTY5ZDU3Z1FOUlNvUEtZQy1TeXowQ2RpSF9qNHlVOVhNcGgzU0RqcHFsM0pld0xMTXFfT3l4VkViOGNXeldrcHIzR0ctQkFiRWlyT2NQZ0R0dw?oc=5",
    "at": "2026-11-01",
@@ -3306,6 +3276,34 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Oppo Find X10 Ultra has reportedly been cancelled - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNU09GSFlJU3d0WTExaFVGSXlPRVg4cko3S1ZYNW9xcUpqS19NSEFlWlF6MTFONXFxbklRZ2x4SzFjTVFOWG94UkpGSl84QjQzbjk4ajhENnZHbzlwQWQ4aTFjdElMS1Z1TDdTbXhseUNUN3N5bUY4YnpqTkFxcE02aldyc0M4MTJ4R1F30gGHAUFVX3lxTE0zSWptUU9iU1JlSjM1YnRoVTJYY0hNWUJvV2laZzhtXzRBV1dsaXRjV3BlRWFFUnBjN3Mwb2k4WnVOU1NWTG90bXNXTURUSWxqOWk2OEpKbVZzS3MyZ2N5eS10ZTlCSlB5eUFyOC1iaWFtX09mVE9jX2VKaER5bnl1MjdYS1YtUQ?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['cancelled', 'been', 'ultra', 'find']"
+  },
+  {
+   "title": "Oppo's first gimbal camera is almost ready to take on DJI and Insta360 - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRThRUjEzYVdGOExRNjA3SkxLUzNqbnlXMVNQUllxWHU0TUtNdmhaMWIwckxkcG5jZl9JSjltWk1wTms0R0RPeDV2Q0drMXpSdjJuNjd6bFI0dGw5czZBYmwzTl9aOFdhV2NFLUdOZ24wV2xueFBPUU4wWlBtUnpVZVZEYVozR2FkM2Rnd2U2MTVqTm5aMTF6OUhFanQ0UllMdTgyOFE4UWFYY0wzaVHSAaoBQVVfeXFMTk9JM2ZMSy0yVThGeGplQWc2dmdtR1dqMlREWWFQbVhycnNMbE83bDNkMXZzczZzeVNpTVZEc0NVbTVjY2NNdGxtRWVIcjhrOHJUd2JrN2NSYkJ5Si1XeE5FaXZMRUVRVnB0azFBTV9kcWEzSlBoOGNBWDl1eGxHN2trQk9XemJvaDFvZXlaWDZKNlFDQVVEN2kyYlVWendkaERzRFVidWFvdkE?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['ready', 'take', 'insta360', 'almost']"
+  },
+  {
+   "title": "The OnePlus Turbo 7 Could Copy the Ace 7's Best Specs. The Hard Part Is Leaving Room on Price - Memeburn",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42QTZGZXZ2TkJ1YkZxXzQ4cFZHM1NGQUhvaGZycncxYi1sdjE5MnJzeE5XbWpXWGJOajIyT1NvTHFqZUMwc0ZFTFhGcW9maGJZdGtLeHdYSW9WWG9p?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Phone 'turbo 7' already covered in: تسريب مواصفات OnePlus Turbo 7: قفزة تقنية هائلة للأداء"
+  },
+  {
+   "title": "OnePlus 16",
+   "url": "https://www.gsmarena.com/oneplus_16-14974.php",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Model code [16] with variants set() found in review: مراجعة RugOne Xsnap 7 Pro: وحش المتانة الجديد بنظام أندرويد 16"
   }
  ]
 }
