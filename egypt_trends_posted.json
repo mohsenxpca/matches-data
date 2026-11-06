@@ -3,15 +3,6 @@
   {
    "u": "https://www.gamesradar.com/edge/gtavi-cover/",
    "t": "Grand Theft Auto VI exclusive – The state that never sleeps",
-   "title": "تفاصيل كواليس تطوير لعبة gta 6 وأسرار استوديو روكستار",
-   "url": "https://www.egyptaway.com/2026/11/gta-6-rockstar-north-secrets.html",
-   "at": "2026-11-01T12:14:22.262833+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
-   "u": "https://www.gamesradar.com/edge/gtavi-cover/",
-   "t": "Grand Theft Auto VI exclusive – The state that never sleeps",
    "at": "2026-11-01",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
@@ -3311,6 +3302,16 @@
    "reason": [
     "الـ body 477 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'دولار', 'جنيه'}) مع تشابه نصي مع: الدولار يتراجع أمام الجنيه اليوم الخميس.. أقل من 55 جنيهًا)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMilgRBVV95cUxQeWRhc09EdG5RVDZWS21BMnVyNXNTWktYdnk4ZHN2WG1JODI3NGdtdi1EMkNKZHhmcEZobmRlWDZPQ1dOdEx1SDdjZUcwT25WM0syZjJYbGk3Nndzbk40QXFDM2U1MktMbkVhcXlSbjJCMlljNGZPVFlVU254dTBwRnAzZnFnZmdUb1loeVQ3SlJISHJLSWV4OVF1ZEZ3Ny1WWnhJRVVOalFaeFFZTm9yUEpWdm54U1RDWjcxX0FuVm5WTFJ0VXNSaEFfSWJnaFJ3VG1ZUEo3eWhSYTlLdnRiVnREYWtTUHhkX3VSSTZYeDZ6ZE40Vkc4cFN2eFRCOXJpbGZwNnhrU0Y1NktwejcyVG5sQTZwd1FBUmZDbWNXcFhHcVAxOThxUzAtUlZvaWdzbzlPal9oZ1F6b3R6cGdpM0hFeWxoQ2lEUTNTTHBtQ1lIcWNlbWx0NmNMR0I2Nmc4cE15SjBqQUhkTWZNVExvN25PTTNHeHhYdHM4WnMxZHNTTVlXN2dVZkRLSmtIYlZlSFdYM1FNUHVaMmhrMDZEWENIdTBsbUNDT0JNRnBDVFhCZkwwUGNKZ2pXN01wd0VxZXdYa2xSdFY1OVVEMnVqV2Rua05TeWc5MkhYTi01TkliUHgyajY2QWtEYk8ydEZQS3YzaFppSl9JLVJJZ2VuRWEtX0tmaXhBdU4zSlhvWk5rdGtNQ0HSAZAEQVVfeXFMUDJqSzhIM1hXbGs2UkhqdklXYXNOMS0zSHRRQmNEOGVNTzBZR3B3UzNmOFpURFRtMkY1NEpscVB1YmZnSlFBWU1HSWFhSnRGN3NBZjNsT1E4OFd3M2xSR0YzdDlwWElzUzNpWi1KV05lZ2xwbkxzRUZzTTJ6LVhkUTBZQTBzNFNSX21YNkpXWGNVWEMyYUIxcHpRT2RMVXlJOERhOThBRndteHFxUTE1UVAxRFRSZ2xwX1FqempYN0tTTTJTT3FxWGZKX3FxMzNCcTVrZGhmYWFxck91MjlLZEtLcGdXUGhfV2xjYWkweFNockZQUU85NVZ6NWtpWmZ3VlJqNHR4bS1jOVo0ckxjTVdDLWI0Y0RJNWR5VFBuWFU3alE5ckthSzRUeXNEcGNJRDlieDlwQThFTW5ManhXQnlFX2ZzZjViVVlaNXdpQTNxRGx5QVpud1A0QWViVHdhOHYtbC1OQXZvUHNjWFlCNUl1N2ZiQnppNnMwV3hPV0ZQaWpYS0ZFNl84UWVaX2U3U2d1OW95a1loaURobV9seDhIX1czaUVNMXc4aU9Zckd0QmtLUGYyQ3k5cGVaTnhfUmtCY3M4bGxTdUY4ZkxBNDY5dzk0R1hNSDJxclFHdmZnZnlDNWJ3RWgwd1RuSlFmMHN4RHhMdXhXczdfOGtjRGI1cEZCZVdYb3dUa2ZHYkNq?oc=5",
+   "t": "قرار جديد لوزارة التربية فى الكويت حول الامتحانات.. اعرف التفاصيل - اليوم السابع",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 5",
+    "الـ body 298 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
