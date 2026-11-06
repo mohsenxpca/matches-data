@@ -892,6 +892,12 @@
    "at": "2026-11-06",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "مطر",
+   "at": "2026-11-06",
+   "ok": false,
+   "why": "off-topic"
   }
  ]
 }
