@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus Ace 7 and Ace 7 Pro announced with cooling fans and 185Hz displays",
-   "url": "https://www.gsmarena.com/oneplus_ace_7_and_ace_7_pro_announced_in_china_with_cooling_fans_and_185hz_displays-news-75273.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
-   "title": "Samsung sees more pain for your phone prices in the near future",
-   "url": "https://www.sammobile.com/news/samsungs-seeing-more-pain-for-your-phone-prices-in-the-near-future/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (693 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
-   ]
-  },
-  {
    "title": "Samsung may use this chip for Galaxy S27 Ultra in Europe",
    "url": "https://www.sammobile.com/news/samsung-may-use-this-chip-galaxy-s27-ultra-europe/",
    "at": "2026-10-30",
@@ -3223,6 +3207,22 @@
     "طول المقال قصير (0 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
+  },
+  {
+   "title": "Oppo Reno17 series officially confirmed to arrive in a few days - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNakpnXzdkZjBsX1NpeVV3YlZJZm9PcmwzTmFMLVNEYUtKaXdXWU01MjZkbnduVjgxQnhlZ0ZjWG5vXzktZi1nZElvY3VLS2kxWGhPb3NycmdyV3YxcG83M2dDZFhleElwc3p6M05faDZRQXlPNnoyMmNvT3JTY1BSX1hqMTRpMHFZYTRqWW1OdkV6cXVpdGxoUHBjUHhQRUk2azJiLU9R0gGiAUFVX3lxTFBmS1p1eDdtTjllNlB6OHhEUWZHRE9LNUNVSUhSa1NnX3NPWU1GbG9hZ1NRUEdPQVFkcmxjNElJYWVPQmotVXdTSUVHd19WcHVCWllrNWVxSC0waEdFZjVZWk9RbEV1dmxnSlNhYnBjQjhWZ2F6STU0VDE3NG1fZWxBOVZmeFowU2YzUngyR1FxcFI4YlZNeWk3VTRZN3h1Q2gyQQ?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
+  },
+  {
+   "title": "سامسونج تحول سماعات Galaxy Buds إلى أجهزة طبية مساعدة للسمع",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQmtZSWpJTnQxNTV6V21NS3MtZFdhd29XcWRrMUpFVUhiM0dLLUxIMEhQVzF5R1RFTHVTR0F2SDlXWkpHZ0tGNnlWc3ZNUzJ4OTk3aEtuSmpMVk1TRENwUmc1SldwRm9wcmtCOE5LX3RNellNWjlNci0xTlF6RzRhTEJHdWtFRkh2RkZ0X0U1bVVQZWM4Z1Znd0NrNjE2cDUzYUlqaVp3X0dpM0gwNHfSAaoBQVVfeXFMTjUyTWRJX2RqRnRQcWhSVXhMakhCUGxnTU10UmhYby10aS1jcEJuVXhENmxkZVFxVHNyeC0teV9IRnlCdW1pWGFKaUE5a3EzeHFockZzOTRWLTNxMFdJaVFIRUJ6T2xFaE9QVGFiQXBfYXBlWTRZSXpNSWY2N2h3dmJPd2I2Z3ZmaGFHNEtiUFQtajUyT3dfSFZweTFiejlKc0RjUUJzeW1UUFE?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-buds-hearing-aid-feature_01996600242.html",
+   "at": "2026-11-06T06:33:36+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
