@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.ole.com.ar/futbol-internacional/italia/nico-paz-titular-recibe-venezia-serie_0_tSvkAwHGFT.html",
-   "t": "Con Nico Paz titular, el Como recibe al Venezia por la Serie A :: Olé - ole.com.ar",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 322 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPRk13Uk9OUW9ZWjRMRE5LM2szaElUQk56QXp5SkZIRkJmOTcxblUxUXNFZ2RjVnVMLU9KSUt6WGdJVlZZaWVkLTRjcDJhbS1mTUxNRHdibFJLUjBpNkVWVDBwQjJEMm8tVG5NTEZ5OHlEXzAtZTlvbXJIZklrbTZ1SVQ1M3hhcDN0dkxVZnhMSnpIQjlrQWk0LXUtS2ZsQmVlYnpwdXN5LU42azdveklJU0tZUWYwMW4xXzBvcDduRVFRRlR5a3NKWmpMb1Q5eGs3MURHYVFLZHRuU1NzWUlHbUs3NzNib2lSOHpVUFk2M2FUeDNyQkZGaEtFanBnY05aY0dpOHhvVFExaG9EZXpHQS1iWVBlWnRybkpHbU9BRmZyODdleGdhYjc1ZWNuYUp0Mi1EUw?oc=5",
    "t": "التضامن تستهدف 4.7 مليون مستفيد من تكافل وكرامة ببرنامج للتمكين الاقتصادي - موقع الموقع",
    "title": "تفاصيل برنامج هنا التضامن لدعم مستفيدي تكافل وكرامة",
@@ -3318,6 +3309,15 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 1000، 12"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/6/شهادة-ثقة-بـ22-مليار-جنيه-المؤسسات-الأجنبية-تقود-أضخم-سيولة/7608503",
+   "t": "شهادة ثقة بـ22 مليار جنيه.. المؤسسات الأجنبية تقود أضخم سيولة بالأسواق المصرية",
+   "title": "22 مليار جنيه.. شهادة ثقة دولية في الأسواق المصرية",
+   "url": "https://www.egyptaway.com/2026/11/foreign-institutions-investments.html",
+   "at": "2026-11-06T23:15:43.707349+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
