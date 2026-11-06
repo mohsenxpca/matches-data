@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Vivo S70 revealed to feature Snapdragon 8-series chip, dedicated teleconverter",
-   "url": "https://www.gizmochina.com/2026/10/30/vivo-s70-snapdragon-8s-gen-4-64mp-periscope-200mm-teleconverter/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [s70] found in existing: مراجعة هاتف vivo S70: المواصفات الكاملة والتحليل الشامل للكاميرات"
-  },
-  {
    "title": "iQOO Neo 12 vs OnePlus Ace 7: Both have cooling fans, but which is better?",
    "url": "https://www.gizmochina.com/2026/10/30/iqoo-neo-12-vs-oneplus-ace-7-both-have-cooling-fans-but-which-is-better/",
    "at": "2026-10-30",
@@ -3207,6 +3200,15 @@
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
+  },
+  {
+   "title": "كوالكوم تدعم سبيس إكس لبناء شبكة 5G وطنية عبر ستارلينك",
+   "url": "https://www.gsmarena.com/qualcomm_will_help_spacex_build_starlink_mobiles_nationwide_us_5g_network-news-75355.php",
+   "post_url": "https://www.review-mobile.com/2026/11/qualcomm-spacex-starlink-5g-network.html",
+   "at": "2026-11-06T03:08:52+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
