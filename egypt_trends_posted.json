@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.gamesradar.com/edge/gtavi-cover/",
-   "t": "Grand Theft Auto VI exclusive – The state that never sleeps",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://www.creativebloq.com/news/rockstar-art-directed-600-000-animations-so-that-gta-6s-passers-by-feel-like-real-people",
    "t": "Rockstar art-directed 600,000 animations, so that GTA 6’s passers-by feel like real people",
    "at": "2026-11-01",
@@ -3312,6 +3305,16 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 5",
     "الـ body 298 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0pXRy1sRGppQW5fQkFKZi11N2ItWFR6VDlPM3lGLUVFM2tZNXpicHRRX2dSU2ZZcXp4N29KRER5dUk4cENMcngyOGRBaDlBWnBKRjJxNUUxNnFpcTRJTUhiYUNyNVZpT0FibW9EdXpySW9RZ19OamY5ZTRBTEQxVlI3UlJkTDZyUmNQenI3Q1VjVjRpTkxXZVI0dmhWLTNacnlhSVkxTVVaUnNXVTVPRWhOOVZVb0stVjJmZ3lFMWhjSzA?oc=5",
+   "t": "قائمة ريال مدريد لمباراة فالنسيا - Real Madrid CF | Web Oficial",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "الـ body 330 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'مدريد', 'ريال'}) مع تشابه نصي مع: نتيجة مباراة ايك اثينا وريال مدريد 2-3)"
    ]
   }
  ]
