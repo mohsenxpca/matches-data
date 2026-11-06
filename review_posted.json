@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Reno17 F 5G gets NBTC certified",
-   "url": "https://www.gsmarena.com/oppo_reno17_f_5g_nbtc_certified-news-75284.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [reno17] found in existing: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
-  },
-  {
    "title": "مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة",
    "url": "https://www.gsmarena.com/the_nokia_2360_flip_is_a_dualdisplay_feature_phone_with_an_sos_button-news-75278.php",
    "post_url": "https://www.review-mobile.com/2026/10/nokia-2360-flip-review.html",
@@ -3208,6 +3201,16 @@
   {
    "title": "Samsung Galaxy Buds4 Pro and Buds3 Pro will soon work as hearing aids",
    "url": "https://www.gsmarena.com/samsung_galaxy_buds4_pro_and_buds3_pro_will_soon_work_as_hearing_aids-news-75354.php",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Samsung releases new updates for Galaxy S25 series",
+   "url": "https://www.sammobile.com/news/samsung-releases-new-updates-galaxy-s25-series/",
    "at": "2026-11-06",
    "ok": false,
    "reason": [
