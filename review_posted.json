@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "17 Massachusetts School Districts Get $625K in State Grants for Phone-Free Learning - Boston's ROCK 92.9",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdXp4czRlaEdYa0dfR0tnUERUelUzM1RERnRKQTVyZ2EzRTg1SjRjeUc0dTRvWnZJRG9jUTlHQ3VUMFhuMzEzWE1mbDU0aHZpYndOLWJnTDdSTThyNjNvYnhLdlUyaUowU2huaFFKOGlpbDNzVWVmUUNyQU4yaWFqbnZuS0FHMExsbEFwYzQxVmc5UzAzeXFsMTZTMGtJRnVwcUt3blp3TzA2OVF6UmlDazEtbFFBazRrTFRR?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
-   "title": "Samsung launches a premium version of Galaxy Z Fold 8 Ultra - SamMobile",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX1JTY1dIZTRISEFfTV9uWW9BeFdqVmV3eUxQMUZWSWtpeXBSd0hBV1R2bGZ5SktoQ3BtaDVvMFRkZXNfcFRwd09CN0JkNXVSTjV1dVNKSVowZWliaDgwbmhReF9hNU9Nbk93ZjZXU0lZdGs3M2hqSThTOGdHdlBTeVdtVHEwSlVoR2V0dDk5VEpVMkI0?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
    "title": "Nokia 2360 flip phone launched for students and seniors that has parentel control, limit on calls and SMS; - The Economic Times",
    "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPWE14R0JfeXRqbVZVYlYxbV9vMjlVYXQwNVJEWjU0czBTcHlMOHlXYlFUX2Raa1RURnBwRHhEaXJITFBtM3ZPMFdoR3l1VGNWdXBHOVowZ242UFBUaHd6Q1UxeXAtUUZYS0h5UV8xQlhqaUlLMURudHhxLTNXbnBfdE5wMTMxdDg5WVNMY3pFY0dmcXFWb1ZMdURvWE84TDJjcjJHdDZkVFgwbzJkay1SYWFMWi00TzBSdUtSeHVZZG0yR0RBVjlVN3BpOTc5alN5UlpXcXBKRy1Wc2hoVmRVeWVhM2JKY2V1MDZJOWhiQXdQejdINWZKQVpuX1Z2c0EzV1F5TXJPR2stZEo2aU43bmpiYm0teUUybDNHcnI5ekJ0b0NOcnFOZ2JnU1U5a0xFUi1fM3AySjNuUE9UYUdFazZiRDFNeTDSAcACQVVfeXFMTWs2bXZNNHo3ajJfN050TWhJaGJFbWg5WWlZSmxuLUEyNnFYeXg5QkNkLTc0c3ZfZHpsV3ZMOWlZa1RMc1BrR1FpTzAzRkExWTFVbkxmQktSbVJ1N1NFU3pQeFQ5c0EwLURXSTMycU4tTTJmNVZmU3ZGcm1ya0tPZlFfOWd6aklpRHJwRDBENXVBbkMweUw2dkJNbklMTnRycTgzZ1VhN1FuNG5CUHJsU09OWVM4bzc0WS1hWmxxeVo5TFpocWJLNXE1NTZYc1BnYURiUDdjd1FXSnp1bzFySkJDYWNSM3VCUlhackU4T1Z1cGk3ZndNQWM2R3kzWUV1eW9rRTN3ZjNqNUFWMy1zMXh0V3Qyb2RPUy03THlkSGx2SnplSm5Ic1RQcWVYYkJzQzBkMl9wTnRmVkh3YUMyOVU?oc=5",
    "at": "2026-10-31",
@@ -3261,6 +3247,22 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "We checked out Chromagraph, Rian Johnson's viral iPhone camera app - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbkhkVnhGX0VlTHllRURBX1Z0bVBfQWU2RTA3RjVacGhuWkNwLUN6Ulc4dmNEZVVBRGgzWFRJQzZkMnNXMmFoaFktOTFNdl9NaXRSSmJ6QkVacWR4OVV6REs1TUZkYlhZeEs0LXpWaDJDNk1CWjVGU1lnUmVub1FqMkxtcEt6c25aRzJydDJ4c3dSSkRHT0Fkc2pzRTU0VjNTNXhnWg?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['gsmarena', 'camera', 'checked', 's']"
+  },
+  {
+   "title": "Honor 700 Pro",
+   "url": "https://www.gsmarena.com/honor_700_pro_5g-15069.php",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
   }
  ]
 }
