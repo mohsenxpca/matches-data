@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "The OnePlus 16R preview got monstrous specs and cooling fans that’ll make you jealous - PhoneArena",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSVpOVHMxMFFDYjVKSjNGdTFSbGo2RGQ2TTV5bnBTNTl1VWVNM0dxX3RoVGdCZWhOZzQ5dC1EdVdrS1N5cDFtREhHN2tMbnNRZndiaVA2a3dKZjlzQlp0dlA1NEs0d3VhMGlMY1Q2Mk5IVU9aQk9Qd2hwUm4zMFgyMUtvRURUYUM4aXBlWnhIdndpc3R6SFJHeFV4VnRPNHRsX2I0X0loTVgxN1M0STh6RFhrR2lTT29Fa3VScjIyV3pjZHc?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
-   "title": "Pixel 10 Pro Fold announced: Specs, pricing, preorder, release date - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd1pnMTZuOThfRXU3UVNfbFZfaVdsSjAtWTFwcHMxN2g3QnRIMFl6bXFyUmVtYUNUZGNabkdrY2JyU3Y2eEFjZGh6empOZ1Z6RkRTdHVab0hpNlJhQm1PeU8xNmNhcUdzcm9wY0tMZzBJbjFEdlJwNGl6dUxwSDBZTFNPdkFBYkJTR2Nv?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [10 pro] found in existing: مراجعة OPPO Find X10 Pro Max 2026: ثلاث كاميرات 200 ميجا وبطارية 8000"
-  },
-  {
-   "title": "Huawei Starlight sub-brand phone may adopt notable cooling specs - Huawei Central",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUpqdFVEYjNYQ1VhUDNzWHFiRmRjZWxRY1h3eHFjcS1vdEgyd1pzQWlHXzQtWXNaTElTWjZUTFZvbmdtQjNHR3oyWkhGbHlMX3hRM0Qtc0FIVUxkckhjWHFkazhpZFlObVlNbm8yU0p2NkoyNnVHODg4NUhpX0JxUFU5bW4wb2NlejBNYnkxS2g3TG1pOVRMMzNHc9IBoAFBVV95cUxQT1NmNU9CNUR6NjdzX0dCNFZHcWkwMEpObVpOZ3NUNXJsalhISmM1SmxObWUxZGZRN2wwZ0cxQXM5LUV5ZFBJS29KWVE0UkI3ZXhyOFF5c255MjVMOV9BS0xHQTVVUEg4VW84ZFFEdVZveVpBTVR0Z01jTUtOWUtXMWlJcVEzbXFvTWtQRlM5RFZPYmx1RlZNUElTdFo3akxL?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
    "title": "10 phones with biggest battery specs in Nigeria - Vanguard News",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPckhvNEpVS1hjdklQM2pLVV9RNGEtZF9uVFVMZ2VnR25hM2RzaHl1RzdzYzJ6UWN2YzFTSmVrMkMxRElXZ29VOU4yZ01wYUptM09LQmw5c0F6bEllNkRqSjE4SmlHRjZXdUVaMHhDNEYxRlN5ZUJqVGtUWkNybEZYRldpRGpFTzhDaWt5ZNIBkgFBVV95cUxQTXZ6X1BZeWJpcWxTcGdsZmFnUG4wVWV4akdWRmdCVEFTRmxweFJPcnhiZGh4aFZsQ0NfMWhiVzF0Z0FSRkdnU2NRWUlyLU5wVmNqLUZfaGExMllwQVREZ2dsSFF1Y0JPb3lWSEhhRHVtQjV5N1pYUFNqSjFOczVaNEFmWkwtM191RG1NU2tnXzVvQQ?oc=5",
    "at": "2026-10-31",
@@ -3271,6 +3250,29 @@
    "reason": [
     "طول المقال قصير (652 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "vivo also reportedly developing a wide-screen phone for 2027 launch",
+   "url": "https://www.gsmarena.com/vivo_also_reportedly_developing_a_widescreen_phone_for_2027_launch-news-75381.php",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['screen', 'wide']"
+  },
+  {
+   "title": "Leak: HONOR Robot Phone 2 is in the works, could launch next year",
+   "url": "https://www.androidauthority.com/honor-robot-phone-2-leak-3732477/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (594 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Enough Phone: 5.3-Inch Android at $499 [2026] - https://tech-insider.org/",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS2FTSEZGUEdGR1pZUHc0Y3lsVXd3NzdMQVp3SzRYSXhiV1l2c0lnWTZKUExEZUJ1eUVfem9nN1ZmMHZoRHN4Q2hQTlg3MnlGdVBvbEMtWUtlaWxULWQxeEhGQkpOWkhrWVJDUUwtZ3pubUp2Wm1hV1JCSnVLaVhyMXVGVHg5dnN1WW4zLUxR?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['https', '2026']"
   }
  ]
 }
