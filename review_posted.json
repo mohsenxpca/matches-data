@@ -2928,9 +2928,10 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQmtZSWpJTnQxNTV6V21NS3MtZFdhd29XcWRrMUpFVUhiM0dLLUxIMEhQVzF5R1RFTHVTR0F2SDlXWkpHZ0tGNnlWc3ZNUzJ4OTk3aEtuSmpMVk1TRENwUmc1SldwRm9wcmtCOE5LX3RNellNWjlNci0xTlF6RzRhTEJHdWtFRkh2RkZ0X0U1bVVQZWM4Z1Znd0NrNjE2cDUzYUlqaVp3X0dpM0gwNHfSAaoBQVVfeXFMTjUyTWRJX2RqRnRQcWhSVXhMakhCUGxnTU10UmhYby10aS1jcEJuVXhENmxkZVFxVHNyeC0teV9IRnlCdW1pWGFKaUE5a3EzeHFockZzOTRWLTNxMFdJaVFIRUJ6T2xFaE9QVGFiQXBfYXBlWTRZSXpNSWY2N2h3dmJPd2I2Z3ZmaGFHNEtiUFQtajUyT3dfSFZweTFiejlKc0RjUUJzeW1UUFE?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-buds-hearing-aid-feature_01996600242.html",
    "at": "2026-11-06T06:33:36+02:00",
-   "ok": true,
+   "ok": false,
    "kind": "news",
-   "brand": "سامسونج"
+   "brand": "سامسونج",
+   "reverted": true
   },
   {
    "title": "Oppo Reno 17 series design officially teased with a cat-like glowing effect",
@@ -3059,9 +3060,10 @@
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaDlVU2dIdE10LUVDNG5YRkJpNVlNLXh5RUhJX29qSGN5Yk8yeVUwaG8yakZLVG50bWRweHg3dEo2UjhSMlZLVF9WYzZoeEhFQW1VVDJtMXM4aUExSXZmYmptZ2tZc3BBZ0ExVnpFRGItQTdvcEtyamwxZ2liTlhJR2ZPaDl3djVMRW5GSTBMbjFiYXhHQnBpSEI4dGVYaWUyUnBMOC0waTBYVVRa?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/android-ghostmap-reboot-loop-flaw.html",
    "at": "2026-11-06T10:02:22+02:00",
-   "ok": true,
+   "ok": false,
    "kind": "news",
-   "brand": "اخرى"
+   "brand": "اخرى",
+   "reverted": true
   },
   {
    "title": "Phone by Google 246 beta brings gradient icon redesign on Android - 9to5Google",
@@ -3104,9 +3106,10 @@
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLXNwVnpEM0hsU1BVSXVzcGxtMkQyUjA5X2l5NGxXanU4M0JES2VOVGtvYnEzbUpvcnlrQlZnV3h5TnhJdlJqZE9hRmJNdFRzUnV2X0ZOeHduelljaFowMW5kYkdITDhlcGhZckVUXzZoZVlPanc2SndORFh0Y19GVDRvQmc3cVlBWUVDR3ZjcTZCN1lXRXJlYWV1NA?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/enough-phone-review-specs-price.html",
    "at": "2026-11-06T10:32:28+02:00",
-   "ok": true,
+   "ok": false,
    "kind": "review",
-   "brand": "أبل"
+   "brand": "أبل",
+   "reverted": true
   },
   {
    "title": "iQOO 16s gets certified and it's eerily familiar - GSMArena.com news - GSMArena.com",
@@ -3207,9 +3210,10 @@
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcF9ZTEpPRUhqbllsOVdqejhHSlZYQlc2Xy1wRlhJZFQyTmcwcHhUbVVNdXJTQzJyQmJXWjkwWlJhVFlKM2JZaW1pSzdzendYRFRlSVBBdzZIMXN1MmpQNWstR04ybEdxZVFRbzhGc0Y2Qjc4Wi1iVDB5Rm9Md1V3RUJ3YTRHS01FRVFvLWg1WnFIbFZwcjFWUENjU1RxcnhOTHJlcHc0ajNUZXh4LW5TLVptekhrdw?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/dangerous-android-vulnerability-ghostmap.html",
    "at": "2026-11-06T13:02:15+02:00",
-   "ok": true,
+   "ok": false,
    "kind": "news",
-   "brand": "اخرى"
+   "brand": "اخرى",
+   "reverted": true
   },
   {
    "title": "هاتف Oukitel WP63 الجديد: قاذف نيران في جيبك وبطارية عملاقة",

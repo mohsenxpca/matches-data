@@ -51,7 +51,7 @@ DISCLAIMER = "هذه المراجعة مبنية على المواصفات ال�
 BRANDS = [
     ("ريد ماجيك", re.compile(r"red ?magic|ريد ماجيك|nubia", re.I)),
     ("سامسونج", re.compile(r"samsung|galaxy|سامسونج", re.I)),
-    ("أبل", re.compile(r"iphone|apple|أبل|ابل|آيفون|ايفون", re.I)),
+    ("أبل", re.compile(r"\b(iphone|apple)\b|(?:\b|(?<=[\s,.:]))(أبل|ابل|آيفون|ايفون)(?:\b|(?=[\s,.:]))", re.I)),
     ("شاومي", re.compile(r"xiaomi|redmi|poco|شاومي|ريدمي|بوكو", re.I)),
     ("اوبو", re.compile(r"oppo|اوبو|أوبو|find x|reno", re.I)),
     ("فيفو", re.compile(r"vivo|iqoo|فيفو|آيكو", re.I)),
@@ -59,7 +59,7 @@ BRANDS = [
     ("ريلمى", re.compile(r"realme|ريلمى|ريلمي", re.I)),
     ("هواوي", re.compile(r"huawei|هواوي|هوواوى|mate|pura", re.I)),
     ("وان بلس", re.compile(r"oneplus|one plus|وان بلس|ون بلس|nord", re.I)),
-    ("انفينكس", re.compile(r"infinix|انفينكس|zero|hot|smart", re.I)),
+    ("انفينكس", re.compile(r"\b(infinix|zero|hot\s*\d+|smart\s*\d+)\b|انفينكس", re.I)),
     ("تيكنو", re.compile(r"tecno|تيكنو|تكنو|camon|spark|phantom", re.I)),
     ("موتورولا", re.compile(r"motorola|moto\b|موتورولا|موتوريلا|razr|edge", re.I)),
     ("بيكسل", re.compile(r"pixel|بيكسل|google pixel", re.I)),
@@ -76,7 +76,7 @@ HALLUCINATED_OR_FAKE_EXCLUSIONS = re.compile(
 )
 
 NON_PHONE_EXCLUSIONS = re.compile(
-    r"\b(watch(?:es)?|smartwatch(?:es)?|band\b|buds|earbuds|airpods|headphones?|speakers?|soundbars?|laptops?|macbooks?|ipads?|tablets?|pads?|tab\b|tvs?|television|vacuum|cleaners?|cars?|ev\b|auto\b|ring\b|projectors?|doorbells?|drones?|refrigerators?|washers?|washing|shoes?|massag(?:er|es|ing)?|waist|heater|heating|purifier|toothbrush|blanket|pillow|shaver|clipper|cooker|kettle|oven|fryer|humidifier|dehumidifier|scale|thermometer|lamp|light|bulb|fan\b|desk|table|chair|backpack|jacket|coat|umbrella|pen\b|bottle|eyewear|glasses)\b",
+    r"\b(watch(?:es)?|smartwatch(?:es)?|band\b|buds\d*|earbuds\d*|airpods\d*|headphones?\d*|earphones?\d*|headsets?\d*|speakers?|soundbars?|laptops?|macbooks?|ipads?|tablets?|pads?|tab\b|tvs?|television|vacuum|cleaners?|cars?|ev\b|auto\b|ring\b|projectors?|doorbells?|drones?|refrigerators?|washers?|washing|shoes?|massag(?:er|es|ing)?|waist|heater|heating|purifier|toothbrush|blanket|pillow|shaver|clipper|cooker|kettle|oven|fryer|humidifier|dehumidifier|scale|thermometer|lamp|light|bulb|fan\b|desk|table|chair|backpack|jacket|coat|umbrella|pen\b|bottle|eyewear|glasses)\b",
     re.I
 )
 
@@ -218,7 +218,7 @@ def classify_candidate(cand_title, source):
     if any(re.search(pat, t_lower) for pat in review_patterns):
         return "review"
 
-    if "review" in t_lower:
+    if re.search(r"\breviews?\b", t_lower):
         return "review"
     return "news"
 
@@ -297,10 +297,12 @@ def fetch_live_review_titles(tok):
 
 
 STOP_WORDS = {
-    "phone", "mobile", "smartphone", "announced", "launched", "unveiled", "goes", "official",
-    "quietly", "reportedly", "china", "india", "global", "specs", "features", "price", "review",
+    "phone", "mobile", "smartphone", "smartphones", "announced", "launched", "unveiled", "goes", "official",
+    "quietly", "reportedly", "china", "india", "global", "specs", "features", "price", "review", "reviews",
     "leak", "leaks", "rumored", "first", "new", "with", "and", "the", "for", "gets", "receives",
-    "teardown", "video", "confirms", "edition", "series"
+    "teardown", "video", "confirms", "edition", "series", "full", "hands", "test", "will", "from",
+    "this", "that", "here", "what", "know", "everything", "details", "about", "more", "than",
+    "com", "news", "gsmarena", "sammobile", "androidauthority", "gizmochina", "mashable", "howtogeek", "newscord", "feed", "rss", "via", "source", "html", "php"
 }
 
 
@@ -333,9 +335,8 @@ def model_keys(text):
 def is_already_covered(cand, existing_titles, done_urls, done_items=None):
     """
     Strict deduplication logic:
-    - For reviews: Ensures this specific phone model hasn't been reviewed already.
-    - For news: Checks candidate link and title similarity against previously published posts,
-      allowing multiple news stories about the same phone model/brand without false blocks.
+    - For reviews: Ensures this specific phone model hasn't been reviewed already (handles models with or without digits).
+    - For news: Checks candidate link, distinctive topic terms against previously published posts, done history and URLs.
     """
     cand_title = cand["title"]
     cand_link = cand["link"]
@@ -344,49 +345,66 @@ def is_already_covered(cand, existing_titles, done_urls, done_items=None):
     if cand_link in done_urls:
         return True, "URL already processed in done history"
 
+    done_list = (done_items or [])[-80:]
+
     if cand_kind == "review":
-        cand_terms = extract_model_terms(cand_title)
-        model_codes = [t for t in cand_terms if re.search(r"\d", t) and len(t) >= 2]
+        before_rev = re.split(r'\b(?:review|specs|tested|hands[\s-]on|in[\s-]depth)\b', cand_title, flags=re.I)[0]
+        model_terms = [w.lower() for w in re.findall(r'[a-zA-Z0-9]+', before_rev) if w.lower() not in STOP_WORDS]
+        model_codes = [t for t in model_terms if re.search(r'\d', t)]
+        variants = {'pro', 'max', 'ultra', 'plus', 'lite', 'fe', 'mini', 'neo', 'air', 'prime'}
+        cand_vars = set(model_terms) & variants
+
         for t in existing_titles:
             if not t.startswith("مراجعة"):
                 continue
-            t_clean = re.sub(r"[^\w\s]", " ", t.lower())
-            t_words = set(t_clean.split())
-            for code in model_codes:
-                if not re.search(r"^\d+(?:hz|mah|mp|w|gb|tb|g|k)?$", code) and code not in ["2026", "2025", "2024", "2023"]:
-                    if code in t_words:
-                        return True, f"Model code [{code}] found in review: {t}"
-            if len(cand_terms) >= 2:
-                for i in range(len(cand_terms) - 1):
-                    bigram = cand_terms[i] + " " + cand_terms[i+1]
-                    if bigram in t_clean and len(bigram) > 5:
-                        return True, f"Phrase [{bigram}] found in review: {t}"
-            ratio = difflib.SequenceMatcher(None, " ".join(cand_terms), t_clean).ratio()
-            if ratio > 0.68:
-                return True, f"High review similarity ({ratio:.2f}) with: {t}"
+            t_words = set(re.findall(r'[a-zA-Z0-9]+', t.lower()))
+            if model_codes:
+                for code in model_codes:
+                    if code in t_words and (not cand_vars or cand_vars == (t_words & variants)):
+                        return True, f"Model code [{code}] with variants {cand_vars} found in review: {t}"
+            else:
+                distinctive = [w for w in model_terms if w not in variants and len(w) >= 3]
+                if distinctive and all(w in t_words for w in distinctive):
+                    return True, f"Non-digit model {distinctive} found in review: {t}"
+
+        for d in done_list:
+            if d.get("kind") == "review":
+                d_text = (d.get("cand_title", "") + " " + d.get("title", "") + " " + d.get("post_url", "")).lower()
+                d_words = set(re.findall(r'[a-zA-Z0-9]+', d_text))
+                if model_codes:
+                    for code in model_codes:
+                        if code in d_words and (not cand_vars or cand_vars == (d_words & variants)):
+                            return True, f"Model code [{code}] found in done review history: {d.get('title')}"
+                else:
+                    distinctive = [w for w in model_terms if w not in variants and len(w) >= 3]
+                    if distinctive and all(w in d_words for w in distinctive):
+                        return True, f"Non-digit model {distinctive} found in done review history: {d.get('title')}"
     else:
-        # News about a phone we already reviewed is a duplicate (AdSense: same phone twice),
-        # unless it's a real event like an update, price cut or problem.
+        cand_words = set(re.findall(r'[a-zA-Z0-9]{3,}', cand_title.lower())) - STOP_WORDS
+        generic_news = STOP_WORDS | {'android', 'ios', 'apple', 'samsung',
+                        'xiaomi', 'oppo', 'vivo', 'honor', 'realme', 'huawei', 'google', 'device', 'devices',
+                        'tech', 'technology', 'report', 'reports', 'reportedly', 'details', 'about'}
+
+        for d in done_list:
+            d_raw = (d.get("cand_title", "") + " " + d.get("title", "") + " " + d.get("post_url", "") + " " + d.get("url", "")).lower()
+            d_words = set(re.findall(r'[a-zA-Z0-9]{3,}', d_raw)) - STOP_WORDS
+            overlap = cand_words & d_words
+            distinctive_overlap = overlap - generic_news
+            if len(distinctive_overlap) >= 2 or any(len(w) >= 7 for w in distinctive_overlap):
+                return True, f"Recent story overlap on key terms {list(distinctive_overlap)[:4]!r}"
+
+        for t in existing_titles:
+            t_words = set(re.findall(r'[a-zA-Z0-9]{3,}', t.lower())) - STOP_WORDS
+            overlap = (cand_words & t_words) - generic_news
+            if len(overlap) >= 2 or any(len(w) >= 7 for w in overlap):
+                return True, f"Topic overlap on {list(overlap)[:4]!r} with live post: {t}"
+
         if not any(w in cand_title.lower() for w in NEWS_EVENT_WORDS):
             keys = model_keys(cand_title)
             if keys:
                 for t in existing_titles:
                     if keys & model_keys(t):
                         return True, f"Phone {sorted(keys & model_keys(t))[0]!r} already covered in: {t}"
-        # English-to-English topic deduplication across recent done items
-        cand_words = set(re.sub(r"[^\w\s]", " ", cand_title.lower()).split()) - STOP_WORDS
-        for d in (done_items or [])[-40:]:
-            d_raw = (d.get("title", "") + " " + d.get("url", "")).lower()
-            d_words = set(re.sub(r"[^\w\s]", " ", d_raw).split()) - STOP_WORDS
-            overlap = cand_words & d_words
-            # If 3 or more significant English words match in the last 40 items, it's the same story
-            if len(overlap) >= 3 and any(w in overlap for w in ["screen", "fold", "flip", "chip", "camera", "battery", "update", "launch", "leak", "release"]):
-                return True, f"Recent story overlap on key terms {list(overlap)[:4]!r}"
-        cand_norm = f.norm(cand_title)
-        for t in existing_titles:
-            ratio = difflib.SequenceMatcher(None, cand_norm, f.norm(t)).ratio()
-            if ratio >= 0.70:
-                return True, f"High news title similarity ({ratio:.2f}) with: {t}"
 
     return False, ""
 
@@ -996,6 +1014,7 @@ def main():
             # 5. Save State
             state["done"].append({
                 "title": art["title"],
+                "cand_title": cand_title,
                 "url": cand["link"],
                 "post_url": post_url,
                 "at": clean_now,
