@@ -20,21 +20,21 @@ STATE_FILE = "watchdog_state.json"
 
 SITES = {
     "egyptaway": {
-        "name": "????????",
+        "name": "ايجبتاوى",
         "domain": "www.egyptaway.com",
         "blog_id": "8325646053257070334",
         "feed": "https://www.egyptaway.com/feeds/posts/default?max-results=3",
-        "day_max_gap_min": 50,     # ???? ?? 50 ????? ?????? ???? ???? ?? ???? ???? ???
-        "night_max_gap_min": 60,   # ???? ?? 60 ????? ?????
+        "day_max_gap_min": 90,     # حد أقصى 90 دقيقة بالنهار
+        "night_max_gap_min": 150,  # حد أقصى 150 دقيقة بالليل
         "recovery_workflows": ["egypt_trends.yml", "phone_news.yml", "service_news.yml"]
     },
     "review": {
-        "name": "???? ??????",
+        "name": "رفيو موبايل",
         "domain": "www.review-mobile.com",
         "blog_id": "2997328666613207792",
         "feed": "https://www.review-mobile.com/feeds/posts/default?max-results=3",
-        "day_max_gap_min": 50,     # ???? ?? 50 ????? ??????
-        "night_max_gap_min": 60,   # ???? ?? 60 ????? ?????
+        "day_max_gap_min": 90,     # حد أقصى 90 دقيقة بالنهار
+        "night_max_gap_min": 150,  # حد أقصى 150 دقيقة بالليل
         "recovery_workflows": ["review.yml"]
     }
 }
