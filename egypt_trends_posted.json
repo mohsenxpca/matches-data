@@ -3,15 +3,6 @@
   {
    "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/1/3071836/-%D8%AE%D9%86%D8%A7%D9%82%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%88%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%B1%D8%AD%D9%8A%D9%84-%D8%B9%D9%85%D9%88%D8%AA%D8%A9-%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF%D8%A7%D8%AB-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85",
    "t": "«خناقة» في الزمالك ورد على رحيل عموتة.. أبرز الأحداث الرياضية اليوم",
-   "title": "تفاصيل خناقة العصي في الزمالك ورد رسمي على شائعات رحيل عموتة",
-   "url": "https://www.egyptaway.com/2026/11/zamalek-fight-amouta-rumors.html",
-   "at": "2026-11-01T13:51:34.319774+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/1/3071836/-%D8%AE%D9%86%D8%A7%D9%82%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%88%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%B1%D8%AD%D9%8A%D9%84-%D8%B9%D9%85%D9%88%D8%AA%D8%A9-%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF%D8%A7%D8%AB-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85",
-   "t": "«خناقة» في الزمالك ورد على رحيل عموتة.. أبرز الأحداث الرياضية اليوم",
    "at": "2026-11-01",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
@@ -3314,6 +3305,15 @@
    "at": "2026-11-06T20:17:14.132113+02:00",
    "ok": true,
    "type": "nation"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/6/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D9%85%D9%88%D9%8A%D9%86-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%A7%D9%82-%D9%8A%D8%AA%D8%A3%D8%AB%D8%B1-%D8%A8%D8%A7%D9%84%D8%AA%D8%B7%D9%88%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/7608105",
+   "t": "وزير التموين: استقرار الأسواق يتأثر بالتطورات الاقتصادية والمالية العالمية",
+   "title": "استراتيجية التموين لضبط الأسواق وتأمين السلع الأساسية",
+   "url": "https://www.egyptaway.com/2026/11/supply-ministry-market-stability.html",
+   "at": "2026-11-06T20:34:28.551045+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
