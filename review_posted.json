@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 's iPhone 17 killer has a secondary display on the back - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1hUG9XckxvcUZuMHBZVzhWWGxmTWY2MEdpcDhZSDZDWC1hM3NKeEhLRVRIS2IyVC1fUHdLd1lfMEtlZnJ0VjJ0Ml9BOHJpSzd1Y0JYRHpzS2lkcjR6YTVvUW1OeWY?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [iphone 17] found in existing: مراجعة iPhone 17e: معالج A19 وكاميرا 48 ميجابكسل ودعم MagSafe بسعر 599 دولار"
-  },
-  {
    "title": "Honor launches its super-thin, foldable Magic V2 phone in Europe - Mashable",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44ampuR1BOOEljX0t2Vm96clVadkxMdDdXakxGT1RodFJwYmpsVmQzQ1NETzhNRlZFRTFBTDJvcVRnYW1Nc2NlOUthTVRMUGo5aFUxNS13?oc=5",
    "at": "2026-11-01",
@@ -3303,6 +3296,13 @@
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
+  },
+  {
+   "title": "vivo V80 review",
+   "url": "https://www.gsmarena.com/vivo_v80-review-3011.php",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Model code [v80] with variants set() found in review: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
   }
  ]
 }
