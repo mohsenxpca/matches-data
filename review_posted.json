@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "Weekly poll results: the Oppo Find X10 Pro Max is too expensive and so is the Find X10",
-   "url": "https://www.gsmarena.com/weekly_poll_results_the_oppo_find_x10_pro_max_is_too_expensive_and_so_is_the_find_x10-news-75269.php",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
-   "title": "Motorola Signature 27 specs detailed in new video, including Tandem OLED display - 9to5Google",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FSGsxUTRRb1RYUE0wd3Q0aHJNa3FtdGFkOEFSdk5OVndrdW8tWk5jeW9IdTdCWndkdkpmZEZmeFVxYjk3YjNwNXpuQ2N6VUVXMGZteVZ3Vm42UVdtU0lRQVJYdXdmQUtrR1lBVXZiZ0R0b19pa05JazBncw?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
-   "title": "Nothing Phone (4a), (4a) Pro, (3a), and (3a) Pro are now receiving the stable update to Android 17 - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbi0yYUhNSVd4ZjJ3UU9GM0hoeDltZHgwTXpxX0dkRm5GNGhOSEEyVXZ5Q2ctX1BWQjVJd3FfVVZ6eXNueTdXTC1Sb3lDSHFMaF9NU0hqZUVsRTdSXzEtM3F0bC01YkZxYWhfSS1UUERVc1M5a2hWdVpaNkNGWEE1eFQwY0lqMWN5ZG5XWDVuNXNQOFU2RnlfdUJYRDV3cVphbmxBcTAwVkFlcTFNd243SVdCcE43QThJZ0VqbUxkbGhDZjVVdFHSAcIBQVVfeXFMUEF2a3BEanFERnNVaWRhRTd6c3hCeDVMVzJ1LTF2SWxwa0pKZUhzZjFncTJlNDJUSHdxYTg0ejJoanBpM3hpOHVFUXN4YWFaTXNibFRCbk5WSWh0YklfRUZ6UzJFRC1TZXI4YWtuQm5BM3UzQmhiN1ExVkFpNG1LNVVtZGRsYWRVR3dJRXBsMmJlNFlIWjZXNXE4RjJlOUw0aDQtcUJiNG42RXFncFMtTnItNHhoWmVaVmJTby1qVm9UdWc?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Model code [3a] found in existing: مراجعة سعر ومواصفات هاتف Nothing Phone (3a) Pro"
-  },
-  {
    "title": "Vivo X500 Pro Max vs Xiaomi 17 Ultra: Is Xiaomi Worth the Extra $300?",
    "url": "https://www.gizmochina.com/2026/11/01/vivo-x500-pro-max-vs-xiaomi-17-ultra/",
    "at": "2026-11-01",
@@ -3287,6 +3266,33 @@
    "at": "2026-11-06",
    "ok": false,
    "reason": "Recent story overlap on key terms ['galaxy', 'might', 'payments', 'have']"
+  },
+  {
+   "title": "Galaxy S26 Ultra at $949.99 is a good buy, $350 under its launch price",
+   "url": "https://www.gizmochina.com/2026/11/06/galaxy-s26-ultra-at-949-99-is-a-good-buy-350-under-its-launch-price/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Phone 's26 ultra' already covered in: مراجعة Samsung Galaxy S26 Ultra: كاميرا 200 ميجابكسل وشاشة الخصوصية وشحن 60 وات"
+  },
+  {
+   "title": "iPhone Buying Guide 2026: Which iPhone Should You Buy?",
+   "url": "https://www.gizmochina.com/2026/11/06/iphone-buying-guide-which-iphone-should-you-buy/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (542 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "تسريب: آيفون برو القادم يتخلى عن زر الإجراءات Action Button",
+   "cand_title": "Next year’s iPhone Pro redesign will drop an important button, per leak - 9to5Mac",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc2Z2SDAtcUJyRlR6c2JWQWQtZy1ER3Jqc21JY1RlUHA5cTRsWWowZ01rdFVOUGsyZ0diVTF5TVpRNEFJWXV6RUszdTFLejc4RE5ob3gxWlFaNmFaMHl0dXBsSS1zTkVFUEZCenR6S3pzaDFsd2Z0cEI0THhZdU9UdHZQRk5FbzdaOXFzXy1LVGdzczMzdjB6T0FwUUNfLXRONHNrU2xwNlJpYjJ4V1hhZWxqQXFoYlZjNDRiVHZ3?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/iphone-pro-redesign-drops-action-button.html",
+   "at": "2026-11-06T18:15:26+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
