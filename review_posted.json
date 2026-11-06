@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "title": "iPhone Air 2 specs surface again in new leak",
-   "url": "https://www.gsmarena.com/iphone_air_2_specs_surface_again_in_new_leak-news-75274.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (683 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
-   ]
-  },
-  {
-   "title": "Trump Mobile T1 Phone teardown video confirms everyone's suspicions",
-   "url": "https://www.gsmarena.com/trump_mobile_t1_phone_teardown_video_confirms_everyones_suspicions-news-75265.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (752 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
-    "العنوان غير صالح أو أطول من 75 حرف (80 حرف)"
-   ]
-  },
-  {
    "title": "OnePlus Ace 7 and Ace 7 Pro announced with cooling fans and 185Hz displays",
    "url": "https://www.gsmarena.com/oneplus_ace_7_and_ace_7_pro_announced_in_china_with_cooling_fans_and_185hz_displays-news-75273.php",
    "at": "2026-10-30",
@@ -3223,6 +3204,23 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "We checked out Chromagraph, Rian Johnson's viral iPhone camera app - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbkhkVnhGX0VlTHllRURBX1Z0bVBfQWU2RTA3RjVacGhuWkNwLUN6Ulc4dmNEZVVBRGgzWFRJQzZkMnNXMmFoaFktOTFNdl9NaXRSSmJ6QkVacWR4OVV6REs1TUZkYlhZeEs0LXpWaDJDNk1CWjVGU1lnUmVub1FqMkxtcEt6c25aRzJydDJ4c3dSSkRHT0Fkc2pzRTU0VjNTNXhnWtIBoAFBVV95cUxNbVF6RU50M1FITlFmbW1nVGtOUzl1aVJtdkExUUhTc1B5UnhLczNnQWdBMVdoY1JFRXU0YmxfcEZVOWliTExtRmo4SnZUQ0VKa2NERWtCaXN5R3JNcUI5Mjd0U3A1cWJmeVJVTkp2Nk9kX0ZFTm5Ka1o1RnRyYkVOc1cySTFfV1c5RzZtdXI4clIxc280dnN6U3lQdVVVQUVP?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['com', 'news', 'gsmarena', 'camera']"
+  },
+  {
+   "title": "WhatsApp is bringing iOS-style chat previews to Android - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLVBmajE1UVF3Qjg3ZHdhcVBOczAzS1lRLXNhakpxMFF6TUw2MV9GNm9ONXVpT0p5QUNGZjJiSUVKU21nX09NQnVLemE4czc5cVp1OHloZUg0MUlCa3d3aGFOQzF2Z0ZXVWZTNVRNSTl4SzExNTZIbHZuOVp6ZkdTWkdLZ2lzMHh5RkhvSjBKZk9ZVUkyWFMwdkhR0gGWAUFVX3lxTE1JSlNIRkFxdXlSZWk2OHBZa2h5RkV2TWI4WWtKTy1Vcmc2eGluTk9aanBTTTNzRWc4blVaaFBjUlZDZUVtUVNpVTBKbWRuVGpza2RmbUFYWjRvT00wUWtSUlREQk5Uc0czal9XMTNmTFNxLUhCbExpRllMSFlhTGJrdVFrbnZhbU1uM2ZWWEFzV3VGQ3pYZw?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
   }
