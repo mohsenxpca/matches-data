@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.61saat.com/thomas-reis-sakatliklarla-ilgili-son-durumu-acikladi",
-   "t": "Thomas Reis sakatlıklarla ilgili son durumu açıkladı",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 477 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (نسبة تطابق مرتفعة مع مقال منشور: نتيجة مباراة مودرن سبورت والأهلي 0-1 في الدوري المصري)"
-   ]
-  },
-  {
    "u": "https://www.ole.com.ar/futbol-internacional/italia/nico-paz-titular-recibe-venezia-serie_0_tSvkAwHGFT.html",
    "t": "Con Nico Paz titular, el Como recibe al Venezia por la Serie A :: Olé - ole.com.ar",
    "at": "2026-11-01",
@@ -3319,6 +3309,15 @@
    "at": "2026-11-06T22:38:26.584410+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://enfoquenoticias.com.mx/noticias/fritz-sera-el-rival-de-alcaraz",
+   "t": "Fritz será el rival de Alcaraz",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 1000، 12"
+   ]
   }
  ]
 }
