@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo's Wide Phone Leak Packs Two 200MP Cameras and 8,000mAh. Huawei's $895 Pura X View Finally Has a Rival - Memeburn",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0xR1V2WUVjdWw2cWI4WWNEVElYcjVBX3dOQk5xZFpxZkxJYmdraUZwNlc5el82RFZ2Ri13RHQ5OTNiNUUtczh4S2t1eTJObU1qRDVUR2dFNA?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
-   "title": "HMD Announces Nokia 2360 Flip Phone with Remote Management Features - Nokiamob",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVWpWWHVMQ2tBY3JFMW94a2g0TUdIcGVmS1R6N044VXNaWU9pMmZOUE1jMWhvSHM2LURmV1JMZzhtZXFTZUFHRGQ4SFdQR0QtVjRPSjRGTk4tT0dfeXBhZ0s3UlJ6QW9nMUJXdWJMb2Z4X2xVbFFsSnJMNHZndDZONFcxLVJ4WEpTaC0tNzNjX0dCbHh5c3E4cTdvckZTelktVFpBa2RR?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
-  },
-  {
    "title": "Redmi Band 4 vs Xiaomi Smart Band 11: Which Fitness Band Should You Buy?",
    "url": "https://www.gizmochina.com/2026/11/01/redmi-band-4-vs-xiaomi-smart-band-11/",
    "at": "2026-11-01",
@@ -3296,6 +3282,25 @@
    "ok": true,
    "kind": "news",
    "brand": "اوبو"
+  },
+  {
+   "title": "Huawei Pura 90 Plus vs Pura 90: What’s Actually Upgraded?",
+   "url": "https://www.gizmochina.com/2026/11/06/huawei-pura-90-plus-vs-pura-90/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (626 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "خصم هائل على Samsung Galaxy S26 Ultra قبل الجمعة البيضاء",
+   "cand_title": "The Samsung Galaxy S26 Ultra scores a stunning discount ahead of Black Friday — save $450 right now - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZjdyUTB2TDVfZkpuQXk4dzVkWWl5RklnajYtcDQ3bjg1elZXbmw3aTA2ek1GT19ZR21HRHBaV0d2Tk9LUFRINnkxb0NrUWl3MmRObDV4NHFXV09zQ0dSNklLOU9kMXRvMEpvSXFoanhZbU9ieU1UaEc5bDZ3TDJaaWV6c01pWGNiNHZKLVd2Y2VoZw?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-s26-ultra-black-friday.html",
+   "at": "2026-11-06T19:44:56+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
