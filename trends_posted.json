@@ -921,6 +921,18 @@
    "at": "2026-11-06",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "خطبة الجمعة",
+   "at": "2026-11-06",
+   "ok": false,
+   "why": "off-topic"
+  },
+  {
+   "q": "الجمعه",
+   "at": "2026-11-06",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
