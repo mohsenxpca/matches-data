@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung may use this chip for Galaxy S27 Ultra in Europe",
-   "url": "https://www.sammobile.com/news/samsung-may-use-this-chip-galaxy-s27-ultra-europe/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
-  },
-  {
    "title": "Galaxy S27 charging speed may disappoint you",
    "url": "https://www.sammobile.com/news/galaxy-s27-charging-speed-may-disappoint-you/",
    "at": "2026-10-30",
@@ -3223,6 +3216,16 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Oppo Reno 17 series design officially teased with a cat-like glowing effect",
+   "url": "https://www.gizmochina.com/2026/11/06/oppo-reno-17-series-design-teaser/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
