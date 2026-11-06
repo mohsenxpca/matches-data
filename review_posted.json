@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "The Nokia 2360 Flip is a dual-display feature phone with an SOS button - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaGRPUXl0QkJCTEx6ZHpjTDltSVdlS3gxdUVWTTdIZXZLZnZGYWVUbVZaZnA0SHVBVzluU1E5N0dBdnN0YnpHbll0Uk5LZU9VLTVCME1lWGQ1X05Mb3I1MmJla0lxN1EyVDdxZWhITDE4aVRBNVlDVldBSUNQdnd3TDVXUTI3LU5hZEtnSEllNU1OcmxLU19oWHVDcUxreWhQU3Rmb2haRXVPSlFNQmc?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
-  },
-  {
    "title": "Google Pixel Tag announced: Can you buy it yet? - Mashable",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5tMTF0dk9MWXJJd2s5NjY5cDV0VUlsVHU5Y2pJX2x1TnY1WDltRGJtTjgzN0YzZFlxMnY4V2UwdG1ldENaT09VUXNsb2YwVFg2NV9hU0JkYVowWnRoQVhJSWdrNkZYZTROZVB2bjBnb3FxNWo3ZE5wMkhn?oc=5",
    "at": "2026-11-01",
@@ -3284,6 +3277,16 @@
    "at": "2026-11-06",
    "ok": false,
    "reason": "Recent story overlap on key terms ['drop', 'amazon', 'galaxy', 'ultra']"
+  },
+  {
+   "title": "مقارنة شاملة: Huawei Enjoy 100 Pro ضد Pro Max",
+   "cand_title": "Huawei Enjoy 100 Pro vs 100 Pro Max: Is the Upgrade Worth It?",
+   "url": "https://www.gizmochina.com/2026/11/06/huawei-enjoy-100-pro-vs-pro-max/",
+   "post_url": "https://www.review-mobile.com/2026/11/huawei-enjoy-100-pro-vs-pro.html",
+   "at": "2026-11-06T17:11:24+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هواوي"
   }
  ]
 }
