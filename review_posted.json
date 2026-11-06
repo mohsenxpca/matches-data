@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Honor launches its super-thin, foldable Magic V2 phone in Europe - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44ampuR1BOOEljX0t2Vm96clVadkxMdDdXakxGT1RodFJwYmpsVmQzQ1NETzhNRlZFRTFBTDJvcVRnYW1Nc2NlOUthTVRMUGo5aFUxNS13?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
    "title": "Weekly poll results: the Oppo Find X10 Pro Max is too expensive and so is the Find X10 - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZUtwZ3NBaUVxWG5CYnhnQUFhX3NUYUVRdTJjUVAzTmRKdk5xV1luR2ttdEtBNmtWNnF3WmQwSDNybFJ6SnBnRkNvNGVtbUp6aTgxOFdNY2hIUmg3VTJmN3B0aHdZd3QxOVpFdWRkQzBjSlZ6Y0JCeXdYYUJ6VnRMcWJURHVRMWlVazJlbjhwWTdaV25nUkdBZmNTeW53WVZUZWJ1b0RHT3FwVk01bzFwVV9LM2FzZEdzdkNkZU0wZUYxSXc?oc=5",
    "at": "2026-11-01",
@@ -3303,6 +3296,16 @@
    "at": "2026-11-06",
    "ok": false,
    "reason": "Model code [v80] with variants set() found in review: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
+  },
+  {
+   "title": "هل تستبدل Gemini بمساعد ذكي آخر على أندرويد؟ تجربتي الكاملة",
+   "cand_title": "I tried ChatGPT and Claude as my Android assistant; here's how they compare to Gemini - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUTJxOGoxR0F0bGlidW5PYnk0QTZsYmIyMDdOVW1qWGd1aC1SZG04UFdIblNnSFBuR1p3SkQwRlVJXzZXZENaMEsyUDl2NGhPM2pNNWhVaG5Yb0lsdkttWDNEUnlHZXFBWGg4MW9GVS1HM1JqNWtzSkVacjlOaktjYks5aDRwWHVTbkd1SXFoTXRLY3dTa2dMQWdjTi1JemVjYlA4NTg0YWY?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/replacing-gemini-with-chatgpt-claude.html",
+   "at": "2026-11-06T22:02:01+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
