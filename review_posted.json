@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "iPhone 17 vs. iPhone 15: Specs, screen size, and more - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzTks0WmZ2ZUZiaHRuS0JHN09zeUxVRU9TWm5rUE9aZ1Zib0dGazV2VHZaRS1OY2tUNUZLaW1xbVNnSmlFb3RMZjl6WEJSd3pwSnBPNWswZi1adjlEUDV2VUtzYjhaOHZ2SWNMVGtUSzF2MGoybDRpc1ZZeXVWaEk?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [iphone 17] found in existing: مراجعة iPhone 17e: معالج A19 وكاميرا 48 ميجابكسل ودعم MagSafe بسعر 599 دولار"
-  },
-  {
    "title": "The OnePlus 16R preview got monstrous specs and cooling fans that’ll make you jealous - PhoneArena",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSVpOVHMxMFFDYjVKSjNGdTFSbGo2RGQ2TTV5bnBTNTl1VWVNM0dxX3RoVGdCZWhOZzQ5dC1EdVdrS1N5cDFtREhHN2tMbnNRZndiaVA2a3dKZjlzQlp0dlA1NEs0d3VhMGlMY1Q2Mk5IVU9aQk9Qd2hwUm4zMFgyMUtvRURUYUM4aXBlWnhIdndpc3R6SFJHeFV4VnRPNHRsX2I0X0loTVgxN1M0STh6RFhrR2lTT29Fa3VScjIyV3pjZHc?oc=5",
    "at": "2026-10-31",
@@ -3264,6 +3257,15 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (594 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "The people who make your phones at Samsung are not happy with it",
+   "url": "https://www.sammobile.com/news/the-people-who-make-your-phones-at-samsung-are-not-happy-with-it/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (652 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
   }
  ]
