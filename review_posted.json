@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung Galaxy Z Fold 8 Ultra is here: Everything you need to know - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQanJEbTlIWGVNS2lhcUV3YlZIMVNVQUVoMGtHMWJ3RkFnZld5WVlIWGxXbWJFSHQtT3lLNW0yU09OekhQTV9MRXp6bzlCX2toRWZXdFFZQnpYT01GZ1RSdW9zZFF0N1dmSC1qRGQ0bUV0OERkTUZ3eWxicmdERnVOdlI2OGZGNWtxLTJyenJnNW1KSjQ?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
-  },
-  {
-   "title": "Xiaomi's Black Shark 3 Pro is a massive gaming phone with beastly specs - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6UWpEeHpUMU52WVNUWGVTb2FZbU50TFdQN2luLWhrVXhNcUZXa3lGX3hKOTU3UmIzRHFEWDMtZ1RLTFlOS2ZYb3lHd20yZXFoTVd2SWpwM3hmcy1DZEtvRFRRcw?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
    "title": "OnePlus Ace 7 vs Ace 7 Pro: Specs, Camera, and Price Differences Explained - Nokiamob",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlU2R3BuQ0pmUWg2V09ZNGhCWlVGb0d6eWE0X1NuODhJYzA1dUZpSGhQNnZaMDU5UUlJeFRjR0lHd24zMS1oY2pmMElKTmxnTDdPdnNOVjBBUFNMMnFzalZxLVA3S1RELW1RaTNNVndGa0wzNnRJbllCcHdMYVpOQ1dFN0tFUm1QS2x0b0xXUGhWV254UUktN2JEdFc1MUZRREN0QW11QQ?oc=5",
    "at": "2026-10-31",
@@ -3251,6 +3237,22 @@
     "طول المقال قصير (589 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
    ]
+  },
+  {
+   "title": "4 reasons why I’d recommend a foldable (and 4 reasons why I wouldn’t)",
+   "url": "https://www.androidauthority.com/reasons-buy-not-buy-foldable-phones-2026-3730248/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (530 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "CZ Urges iPhone Users to Update iOS Amid DarkSword Threat - CryptoRank",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTXFiajVsMGhkbmVuSHRMczFxcTZ0Njdvb05FRGg1Q3MxR3lmZjU1ZVBhNFQzVWozUUFxSzdCZGY1WHhYY3ctYzlTd1hZVHlDOU1sRTFSMXlWR08tWTVPMlNLZi1UUTdVU0tFeUppV01tWUUwcXExclNkSVdPWnlmWGd3YXg0Yy1nU2V2SnFra0toTXRsakhBRXNUSQ?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['iphone', 'ios', 'urges', 'threat']"
   }
  ]
 }
