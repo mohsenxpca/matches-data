@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Google Pixel Tag announced: Can you buy it yet? - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5tMTF0dk9MWXJJd2s5NjY5cDV0VUlsVHU5Y2pJX2x1TnY1WDltRGJtTjgzN0YzZFlxMnY4V2UwdG1ldENaT09VUXNsb2YwVFg2NV9hU0JkYVowWnRoQVhJSWdrNkZYZTROZVB2bjBnb3FxNWo3ZE5wMkhn?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [google pixel] found in existing: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
-  },
-  {
-   "title": "Apple iPhone Air 2 specs leak, likely housing a larger battery - Stuff South Africa",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTTU2OWdMM2pxV2Vvbkczcm1YQ20yY2hNTjZGQV9rVDFyRFk1TXFVeHFhZkcyaXhSVUI4X3hhTGtiYlNULWxaS1B1NFFvQWN6Ynpra0tRQ0o2dThnM2dTVGxMTzZ1cTAtcUdtUEgtRkhnWWxpclQtVkNJVmFzVTRkM3A2bjJxOEw4Q284?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [apple iphone] found in existing: مقارنة شاملة بين Apple iPhone 16 Pro Max وSamsung Galaxy S25 Ultra"
-  },
-  {
    "title": "Weekly poll results: the Oppo Find X10 Pro Max is too expensive and so is the Find X10",
    "url": "https://www.gsmarena.com/weekly_poll_results_the_oppo_find_x10_pro_max_is_too_expensive_and_so_is_the_find_x10-news-75269.php",
    "at": "2026-11-01",
@@ -3287,6 +3273,20 @@
    "ok": true,
    "kind": "news",
    "brand": "هواوي"
+  },
+  {
+   "title": "vivo also reportedly developing a wide-screen phone for 2027 launch - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNXJIRWFvVGdwQ0trMVdVSGJQbXdrcDBvVDRIcWw5b01IVUpwaEVnVHVVb3dSWlVUM1lfcDFjMEZzX01JQ2Z2ZGw3TTZpM3RfNEVKaWQ1c3BNTG96LWRyWDE4WnV3VVlaSGJobnNEMW5menAwRTlIREV4UjlUdEpUejBTdG1CNmNJcDBQa3RoWFl1MUVuMFRfX0dDRThJME1IdFo2cW96SnRKQdIBpgFBVV95cUxQcTlwdDNfZmJ4aTZXVk94TkRudUx4UkdJeGF1TE9Kb1JkN0RGdi1sakRMVlVKYlRBaHQwazNjRkF4Mkd5M2YtaXQwRkNWVXV6ZnZ1bXhxX0tEZnpBUk9jbGh5UUZXSmphblc0R2RSMkFubXhFXzFsdkg1Tk9SMF94cDF3OWpnb2xwNm84Rl9fTXBGWW1IZ0t4dThNQm1OX1E5UE93X0pB?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['wide', 'also', 'developing', '2027']"
+  },
+  {
+   "title": "Samsung Galaxy Fit4 might have NFC for payments - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oSU9vYkdYVWExUWhsWTZkZ1U0QlZWOXhUaE9NdzRXUC0xdEVRY1JlYkU0aHZWcHFUc1FicmZEU1Z2anFCOGtqcTlQdUh0d28tZUswU29FVUlYemVBWE1ER29jT3YzNHE5VHpQRnFlQVZyZ1Z6MEp6dlpLUdIBd0FVX3lxTE4zVWxMeU5ockxIVEZUOW05a191MHE1OGVQMjc1U0JLc09zWThkY19OSFZCNnQyYWNGZDMyNjdjdENtRkE0U0c0UnJxaTZzWHVtdUFZVmFMVDN5bHNkYUJuNUNHaWwycm1IRXpoQ0NJZzU1c0IxVF9B?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['galaxy', 'might', 'payments', 'have']"
   }
  ]
 }
