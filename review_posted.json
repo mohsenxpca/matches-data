@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Honor launches affordable phone with 8,560mAh battery and AMOLED display - Notebookcheck",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRnVVa1k2QTFORjBpR21waElfM2VNU2Vnd1k5TjNEMVdISDdmXzJNOEY1MFNhdjk5akZYVm5FbUo3S0toZkNYMzNRTGRZdV9FdHpfaDFESVdpblpDaUFORXZmYlBLbFlaWVBlZHpXdS00aW9yd1JFRDN5TkRLS1JkVkMtWEE1OTlJaTZpRXZzREpNc3FPZ05nelFBZjJNQXpsNFR1dHVSSkhLdWI0ZXFpWDhKOVpkWUNQ?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
    "title": "Oppo's Wide Phone Leak Packs Two 200MP Cameras and 8,000mAh. Huawei's $895 Pura X View Finally Has a Rival - Memeburn",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0xR1V2WUVjdWw2cWI4WWNEVElYcjVBX3dOQk5xZFpxZkxJYmdraUZwNlc5el82RFZ2Ri13RHQ5OTNiNUUtczh4S2t1eTJObU1qRDVUR2dFNA?oc=5",
    "at": "2026-11-01",
@@ -3293,6 +3286,16 @@
    "at": "2026-11-06",
    "ok": false,
    "reason": "Recent story overlap on key terms ['year', 'redesign', 'next', '9to5mac']"
+  },
+  {
+   "title": "أوبو تستعد لإطلاق كاميرا جيمبال تنافس DJI وInsta360",
+   "cand_title": "Oppo's first gimbal camera is almost ready to take on DJI and Insta360",
+   "url": "https://www.gsmarena.com/oppos_first_gimbal_camera_is_almost_ready_to_take_on_dji_and_insta360-news-75383.php",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-gimbal-camera-fuyao-project.html",
+   "at": "2026-11-06T19:12:50+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اوبو"
   }
  ]
 }
