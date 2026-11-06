@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Galaxy S27 charging speed may disappoint you",
-   "url": "https://www.sammobile.com/news/galaxy-s27-charging-speed-may-disappoint-you/",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
-  },
-  {
    "title": "سامسونج تٌسجل أعلى أرباحها في الربع الثالث بسبب رقائق الذكاء الاصطناعي",
    "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/29/3070349/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%AA-%D8%B3%D8%AC%D9%84-%D8%A3%D8%B9%D9%84%D9%89-%D8%A3%D8%B1%D8%A8%D8%A7%D8%AD%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
    "at": "2026-10-30",
@@ -3220,6 +3213,16 @@
   {
    "title": "Oppo Reno 17 series design officially teased with a cat-like glowing effect",
    "url": "https://www.gizmochina.com/2026/11/06/oppo-reno-17-series-design-teaser/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "iQOO 16s gets certified and it's eerily familiar",
+   "url": "https://www.gsmarena.com/iqoo_16s_gets_certified_and_its_eerily_familiar-news-75369.php",
    "at": "2026-11-06",
    "ok": false,
    "reason": [
