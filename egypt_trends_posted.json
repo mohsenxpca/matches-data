@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.ign.com/articles/costco-reveals-its-full-black-friday-ad-and-sale-dates-for-2026",
-   "t": "Costco Reveals Its Full Black Friday Ad and Sale Dates for 2026, Discounts Include Frozen Food and Gaming PCs",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 1000"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7163579",
    "t": "الأرصاد الجوية اليابانية: إعصار \"إن-فا\" فائق القوة يُخيّم قرب جزر أوجاساوارا لعدة أيام",
    "at": "2026-11-01",
@@ -3313,6 +3304,15 @@
    "title": "تراجع 1000 جنيه.. مفاجأة في سعر الجنيه الذهب وعيار 21 اليوم",
    "url": "https://www.egyptaway.com/2026/11/gold-price-egypt-today-drop.html",
    "at": "2026-11-06T18:09:43.471680+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/6/الذهب-العالمي-يصعد-والمحلي-يتراجع-لماذا-لا-يستفيد-المصريون-من/7608406",
+   "t": "الذهب العالمي يصعد والمحلي يتراجع.. لماذا لا يستفيد المصريون من مكاسب الأوقية؟",
+   "title": "الذهب في مصر.. لماذا يتراجع رغم صعود الأوقية عالمياً؟",
+   "url": "https://www.egyptaway.com/2026/11/gold-prices-egypt-analysis.html",
+   "at": "2026-11-06T18:29:18.475561+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
