@@ -1,34 +1,6 @@
 {
  "done": [
   {
-   "title": "Apple iPhone 18 Pro vs. iPhone 18 Pro Max",
-   "url": "https://www.gsmarena.com/apple_iphone_18_pro_vs_iphone_18_pro_max_battery_camera_price_compared-news-75173.php",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
-   "title": "The Galaxy S27 Ultra chipset saga continues, here's the latest twist",
-   "url": "https://www.gsmarena.com/the_galaxy_s27_ultra_chipset_saga_continues_heres_the_latest_twist-news-75292.php",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
-  },
-  {
-   "title": "How much Ultra DNA will the rumored Samsung Galaxy S27 Pro have?",
-   "url": "https://www.sammobile.com/news/how-much-ultra-dna-in-rumored-samsung-galaxy-s27-pro/",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
-  },
-  {
-   "title": "ببطارية تكفيها لمدة 35 يوما.. Honor تُطلق أقوى ساعتها الجديدة",
-   "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/20/3065625/%D8%A8%D8%A8%D8%B7%D8%A7%D8%B1%D9%8A%D8%A9-%D8%AA%D9%83%D9%81%D9%8A%D9%87%D8%A7-%D9%84%D9%85%D8%AF%D8%A9-35-%D9%8A%D9%88%D9%85%D8%A7-honor-%D8%AA-%D8%B7%D9%84%D9%82-%D8%A3%D9%82%D9%88%D9%89-%D8%B3%D8%A7%D8%B9%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Blogger 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Resource has been exhausted (e.g. check quota).\",\n    \"errors\": [\n      {\n        \"message\": \"Resource has been exhausted (e.g. check quota).\",\n        \"domain\": \"global\",\n        \"reason\": \"rateLimitExceeded\"\n      }\n    ],\n    \"status\": \"RESOURCE_EXH"
-  },
-  {
    "title": "Redmi K100 on first sale today with 10,000mAh battery",
    "url": "https://www.gizmochina.com/2026/10/31/redmi-k100-on-first-sale-today-with-10000mah-battery/",
    "at": "2026-10-31",
@@ -3219,6 +3191,37 @@
   {
    "title": "سامسونج تٌسجل أعلى أرباحها في الربع الثالث بسبب رقائق الذكاء الاصطناعي",
    "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/29/3070349/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%AA-%D8%B3%D8%AC%D9%84-%D8%A3%D8%B9%D9%84%D9%89-%D8%A3%D8%B1%D8%A8%D8%A7%D8%AD%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Here's when the Huawei Mate 80 Air is rumored to launch - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTmE2VXBPV3dyRzBxVFdGYWZMcGlrVkRpYkg2aXJDNnNFNHJ1TllzaThaa3FEU1pZQTZBbjhxcW5MSUxUN1JENldIZHRjV043c0d1d0NhbG84a3FtWFRvZnpuMDlSZVQwTHJIY20ybDgzLVBEdjd5Q05uV3kyek9SNC03RER4aW1uMFI5dDZxUlZnMUx3b1Z1V2FR0gGWAUFVX3lxTE40LXktRVBmU2cyYXlXT19rNzlsRWVrYXk2aWVycVFKTXI4dG14RWd4b0I3Z0c0TjREbDZEbExaTzA1Tzc0Z3AyU0RxVUJOSVFYUk1GN2swcWVPNE9ldU9KZVFYTmRsNnZlR2ZGVXRnWlBSSkRST00zUjY1SExldVU4aGl1UWRmY3RRX25sYlFRQ2VhcTZBUQ?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Phone 'mate 80 air' already covered in: هواوي تستعد لإطلاق Mate 80 Air: نحافة قياسية ومواصفات قوية"
+  },
+  {
+   "title": "Xiaomi Wide-Screen Phone: 16:10 Leak, 0 Specs [2026] - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPT0hNS2tnd2FvY1hnYUc3WFpWbVI2QXVyTjZvSDRKV2hmOG8yYVhXQjlMRlE5MFFsWjRGTkxDeTJ3OExYbDhGYnFOeFlJbEF0Qm1idFBGVHdfdkRKbGhkX2Z2SjJheXhfM3JIVFVUR0Y1VDVBekNGQWo4Q3E5elh1NTM4UkU3QzA?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['xiaomi', 'screen', 'wide']"
+  },
+  {
+   "title": "Xiaomi Wide-Screen Smartphone: 1 Leak, 0 Specs [2026] - https://tech-insider.org/",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS0U1Z090Nmg0aEc4MzlSX1JUTjZpb3NyNTF3VmFYcXlLeXdxb3RVM2N4bEJqNkdwandDSFNnZUs3LW83bHZ4dTI5aHNWSG9sQUtWbjNKZWdUbjdSbkxxWHZjckFQRDlaeU1aTW44YTVXR3Ayd0I3RlM4dlVPcWpuUWE0dGRXWFhaMkV1Nlp4bWoxamdwTGc?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['xiaomi', 'https', 'screen', 'wide']"
+  },
+  {
+   "title": "Motorola is going ultra premium with its $1,600 ‘Signature’ phone - The Verge",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOXy1xeFR1Y0FiQ0l1MkFlckFUcnVCUUhBV0ExdUdCNnRIWWZoUGRXZVRac0R6V2l6a2RwMWNwMU5xc3VYQ1Y3TmNaZzkydFZONUdUeUFrWXMzMnlFdGR3STZpT3h3Q2c2MGgzOXd3anEtNzBzeWhHVDZDeXVfNmVnREl1REhCY1dxRFN5cWdTZGI?oc=5",
    "at": "2026-11-06",
    "ok": false,
    "reason": [
