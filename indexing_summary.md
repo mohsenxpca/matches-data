@@ -11,7 +11,7 @@
 
 ## موقع REVIEW (www.review-mobile.com)
 - إجمالي المقالات المفحوصة: 150 مقال (منها 104 مقال خلال آخر 14 يوم).
-- إرسال IndexNow API: {'https://api.indexnow.org/indexnow': 202, 'https://www.bing.com/indexnow': 202}
-- روابط تعزيز الزحف الداخلي (Interlinks): تم إنشاء 4 رابط جديد لربط المقالات غير المؤرشفة.
+- إرسال IndexNow API: {'https://api.indexnow.org/indexnow': 403, 'https://www.bing.com/indexnow': 403}
+- روابط تعزيز الزحف الداخلي (Interlinks): تم إنشاء 3 رابط جديد لربط المقالات غير المؤرشفة.
 - إشعارات خرائط الموقع (Sitemaps Ping): {'google_https://www.review-mobile.com/sitemap.xml': 404, 'bing_https://www.review-mobile.com/sitemap.xml': 410}
 
