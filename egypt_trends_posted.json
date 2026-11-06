@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.latimes.com/california/story/2026-10-31/proposed-billionaire-tax-disproportionate-impact-california-sports-teams",
-   "t": "Proposed billionaire tax could impact California sports teams",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 437 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.bbc.com/news/videos/cj040yd1xdrlo",
-   "t": "Watch: Heidi Klum as giant severed hand for Halloween bash",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 295 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.yahoo.com/entertainment/celebrity/articles/maya-sir-mo-farah-heidi-081728280.html",
    "t": "From Maya as Sir Mo Farah to Heidi as her own left hand: The best Halloween looks",
    "title": "تفاصيل تن التنكر الأسطوري لعارضة الأزياء هايدي كلوم",
@@ -3308,6 +3289,26 @@
    "at": "2026-11-06T13:46:30.059417+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/6/البنك-المركزى-والأهلى-يسجلان-أعلى-سعر-لشراء-الدولار-تعرف-على/7608115",
+   "t": "البنك المركزى والأهلى يسجلان أعلى سعر لشراء الدولار.. تعرف على أسعار البنوك",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "الـ body 368 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'بنك', 'اهلي'}) مع تشابه نصي مع: البنك الأهلي يمول مشروع KOUN برأس الحكمة بـ 975 مليون جنيه)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BQUNyYzZGMUxwXzRvalduZm44U0V6QS02OTBJQ3NubUh1dGZpb0xBbExlMlBCbFZqWkp0cjltcm1YY3RHOXBVVUpwS3NHYUp2c0hOemdEZTdaU2JrWmhJ?oc=5",
+   "t": "غدا.. تنفيذ برنامج تعديل مواعيد حركة قطارات الصعيد (تعرف عليها) - المصري اليوم",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 8.00",
+    "الـ body 461 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
