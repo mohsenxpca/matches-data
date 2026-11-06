@@ -1,14 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة",
-   "url": "https://www.gsmarena.com/the_nokia_2360_flip_is_a_dualdisplay_feature_phone_with_an_sos_button-news-75278.php",
-   "post_url": "https://www.review-mobile.com/2026/10/nokia-2360-flip-review.html",
-   "at": "2026-10-30T21:32:11.879297+02:00",
-   "ok": true,
-   "brand": "نوكيا"
-  },
-  {
    "title": "Oppo Find X10 review",
    "url": "https://www.gsmarena.com/oppo_find_x10-review-3007.php",
    "at": "2026-10-30",
@@ -3211,6 +3203,16 @@
   {
    "title": "Samsung releases new updates for Galaxy S25 series",
    "url": "https://www.sammobile.com/news/samsung-releases-new-updates-galaxy-s25-series/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "While EU iPhone users wait for Siri AI, the Galaxy Z Fold 8 is getting things done",
+   "url": "https://www.sammobile.com/opinion/while-eu-iphone-users-wait-siri-ai-galaxy-z-fold-8-getting-things-done/",
    "at": "2026-11-06",
    "ok": false,
    "reason": [
