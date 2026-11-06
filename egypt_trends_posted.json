@@ -1,35 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/1/بعد-طرحه-بأشهر-حصة-أندرويد-17-لا-تتجاوز-1-من/7601915",
-   "t": "بعد طرحه بأشهر .. حصة أندرويد 17 لا تتجاوز 1% من الأجهزة النشطة",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 340 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.61saat.com/orhan-ak-acikladi-bugun-burada-savasan-bir-takim-olacak",
-   "t": "Orhan Ak açıkladı! “Bugün burada savaşan bir takım olacak”",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 357 كلمة بس، لازم 530 على الأقل",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
-   "u": "https://www.youm7.com/story/2026/11/1/لطلاب-المدارس-والجامعات-كيف-تستفيد-من-مكتبة-جوجل-المجانية-واختباراتها/7601916",
-   "t": "لطلاب المدارس والجامعات.. كيف تستفيد من مكتبة جوجل المجانية واختباراتها؟",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 354 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://karadenizgazete.com.tr/spor/futbol/akyazida-35-bin-firtina/631139",
    "t": "Akyazı'da 35 Bin Fırtına",
    "at": "2026-11-01",
@@ -3321,6 +3292,35 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 30، 58، 64",
     "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'اكسفورد', 'يستر', 'سيتي'}) مع: موعد نهائي أكسفورد سيتي وليستر سيتي والقنوات الناقلة)"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/7/Cursor-يحول-وصف-فكرتك-إلى-تطبيق-منشور-على-الإنترنت/7608077",
+   "t": "Cursor يحول وصف فكرتك إلى تطبيق منشور على الإنترنت",
+   "title": "تحويل أفكارك لتطبيق ويب جاهز بضغطة زر عبر أداة Cursor الجديدة",
+   "url": "https://www.egyptaway.com/2026/11/cursor-build-live-apps-feature.html",
+   "at": "2026-11-07T01:24:26.285823+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://elpais.com/deportes/tenis/2026-11-06/alcaraz-pone-a-paris-en-pie-y-premia-a-jodar-ya-maestro.html",
+   "t": "Alcaraz pone a París en pie y premia a Jódar, ya maestro",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 1.96",
+    "الـ body 452 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'ارلوس', 'يتالق', 'كاراز', 'اريس'}) مع: كارلوس ألكاراز يتألق ويحقق إنجازاً تاريخياً في باريس)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LNDFBbGg1VXpuQmZVd051VDduRG5NZUJWcDJSQ3RWelktX2M3OEY5ekpvaGFKbURVSEs1VGFwWWFMR0s0eGZTa0wxN1BfUEVPRTktYWNoQ3dXb2lLWFZr?oc=5",
+   "t": "قبل بدء تشغيله.. أسماء محطات مترو الإسكندرية بالكامل وموعد انطلاق المرحلة الأولى (تعرف عليها) - المصري اليوم",
+   "title": "مترو الإسكندرية الجديد: موعد التشغيل وخريطة المحطات الكاملة",
+   "url": "https://www.egyptaway.com/2026/11/alexandria-metro-project-details.html",
+   "at": "2026-11-07T01:33:46.607276+02:00",
+   "ok": true,
+   "type": "public_query"
   }
  ]
 }
