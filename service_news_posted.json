@@ -1586,6 +1586,15 @@
       "has_real_photo": false,
       "at": "2026-11-06T21:46:06.305241+02:00",
       "ok": true
+    },
+    {
+      "title": "تنسيق عمليات التفتيش ومعالجة المشكلات القائمة على الطريق السريع نوي باي - لاو كاي.",
+      "url": "https://www.vietnam.vn/ar/phoi-hop-kiem-tra-khac-phuc-ton-tai-tren-cao-toc-noi-bai-lao-cai",
+      "at": "2026-11-06T22:46:05.892832+02:00",
+      "ok": false,
+      "err": [
+        "ممنوع ذكر اسم المصدر (الوطن) في صلب الخبر"
+      ]
     }
   ]
 }
