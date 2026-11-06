@@ -1,51 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/1/أبل-تستعد-لإطلاق-آيفون-18-فى-2027-تعرف-على-أبرز/7600814",
-   "t": "أبل تستعد لإطلاق آيفون 18 فى 2027.. تعرف على أبرز 6 تغييرات",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
-   "u": "https://www.marca.com/futbol/barcelona/2026/10/31/mayor-riesgo-arriesgar.html",
-   "t": "El mayor riesgo es no arriesgar",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'هانزي', 'رشلونه', 'فليك'}) مع: برشلونة يستعد لمواجهة ألافيس: هانزي فليك يحدد أهدافه)"
-   ]
-  },
-  {
-   "u": "https://www.goal.com/en/news/in-the-footsteps-of-kaka-and-calhanoglu-rabiot-writes-an-exceptional-chapter-with-milan/blt02cba0df9cf4e96d",
-   "t": "In the footsteps of Kaká and Çalhanoğlu: Rabiot writes an exceptional chapter with Milan",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
-   "u": "https://www.youm7.com/story/2026/11/1/عيوب-فى-شاشة-«آيفون-ديو»-أبل-تصدر-تعليمات-جديدة-لمتاجرها/7600845",
-   "t": "عيوب فى شاشة «آيفون ديو».. أبل تصدر تعليمات جديدة لمتاجرها ومراكز الصيانة",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.bbc.com/sport/football/live/cw99zj4rpd4dt",
    "t": "AC Milan 3-1 Inter Milan: Diego Moreira stars as AC Milan beat Inter in thrilling derby",
    "at": "2026-11-01",
@@ -3325,6 +3280,45 @@
     "العنوان لازم أقل من 70 حرف",
     "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
     "الوصف لازم 140-160 حرف"
+   ]
+  },
+  {
+   "u": "https://www.mallorcamagazin.com/nachrichten/wetter/2026/11/04/159347/erst-regen-dann-sonnige-grad-diesem-tag-gibt-auf-mallorca-wieder-strandwetter.html",
+   "t": "Erst Regen, dann sonnige 27 Grad: Ab diesem Tag gibt es auf Mallorca wieder Strandwetter",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "الـ body 347 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'مشمسه', 'طقس', 'اجواء'}) مع: حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام)"
+   ]
+  },
+  {
+   "u": "https://www.mallorca-services.es/herbstliches-wetter-am-zweiten-novemberwochenende-auf-mallorca/",
+   "t": "Herbstliches Wetter am zweiten Novemberwochenende auf Mallorca",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "الـ body 301 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'طقس', 'حاله'}) مع تشابه نصي مع: حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام)"
+   ]
+  },
+  {
+   "u": "https://actus.meteocity.com/previsions-meteo/profitez-de-samedi-ensoleille-en-bretagne-jusque-12-degc-a-saint-brieuc-pluie-et-vent-en-hausse-dimanche-14724",
+   "t": "Profitez de samedi ensoleillé en Bretagne : jusque 12 °C à Saint-Brieuc, pluie et vent en hausse dimanche",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'طقس', 'حاله'}) مع تشابه نصي مع: حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMihgVBVV95cUxNOFVpaXg0SG85WDB3V0kxUHhxMlRWYkpXeEQyZWdZUGJ5Wnh1bjVnWkJ3Y3B6WG03WEdrUmpUTXpsYWVvc0NMTDZrWVdiZFhiRmtoRmRvY0ZWTk1ZbVlMQTNPekN3TEliblo0enhCbU1DX2Nhb3RzbDlvb09ucGpKS2FVd2V4ZmE0OVllX29Wb3RjNEVSU2pvSHhGQmF3OWRtNnZGdFNzank4VGc4LTBZVGJSTHVaX1N1dTRLX2w0SXhNQ0FTYnp6NC1fVGpLZ1pid2ltNDVueXpJS0pTWlE2a254cjRCYWlHY0VDeWtscUNtbFBlcmdCaVpmNF9tTWxoVmtFNFRGMTFVcDNrMEV5SjZUMTI0WlRxQjhiVGRLSXFHTFpmQXBUWkFwbGFkbGl6U0NUb3ZJamJjMUtXeVl6RFc0Y1ptOWRkNGhEc0R2a2RCSHYxSzB1UzdJbjRBdk5KanpjSmZGcS1WTmN2UWE1d2dDQ0VTOGVpck95MWdvRFFXLWgtMW5vXzJhT0F2WF80Q3lwS0pjMDlUaDBlWnpSbHpVUHRtUGM1UzktUVhiOWVsWUVQY1hRYnV4SUpnWW9zQy1MNTFQa0VLZWIyMnNoeFFxRXNPYk1MM3FhaDJFYW1VbGVYMWYweU1WeHdUOTRrdFk5TGR0eEVQX0pCQVFxUm12TW8wN2pkWXNQRk9rR2h5TmZVZFhyWFh3RXBwTTFCZTZ1NS14WFpFZ3VjRV9sSkxrb1VnSkE3ajhPdGJiejdwSDBXX0tjMDNSX0VIV1dLbnlKSlk2aExadzNSSk9rU3hhNjZsNGF6RWN3cFo3LWF6NDhVZnNYeElydVd3WEcxQlROWGZR0gGABUFVX3lxTE9zQUpXNFp4cUV3R1gwMkw3QVhsbTR4M3BXUU9pbHRmOVpnVmVGSmVMM05JZndYdEExR3lWUUZWdzRKeHZ5RDhUUkpFS3psenV3dzNlMEdxang2WjNPSVB4QzVPOGQtQ0txdVVFVG9YSHg3eE91LTI4enZ1dTkxM2N1X05YeW9WVjh0NEVkQklmN3pTcGZ0MTJmZDJUZnlHYjdKZ1RnRmVrMHlGWmh5OFFkZ0p3TjdRdDZVR1NEbU5qQml3TlFBTjlnRVlsM2s4REVVLWJONXUxbEFkYS1HN0o2NUp2eW90Y1lTYUJVdkN1UWZwS1lzdXFFOVh3NlNzeThFZTF4dncwQUZUMkpPWWF5eGkyVHJoV3BJOXdMaHhQTnRwbmxJOW9iUmY3aWsxMnZYeHN5c0xFNXNXWXowZ1hBMldjT0VZYVBKZmpLRUl4SU5XYzFydndJajdlLVpqa2oyNm9xMmIzM3J3VDF5cXh0VjFJQ0ROMmdnTUdmLUFrTGIyOGlBUmhfT0s1dFVobm5PUG9XNDNuR0oxcE5FbjBsdVpBeWpkMHczRjVHd3Q3TDdkb0dfX1RMWGhuWGl2UGZkOHpvd3FKX1hZb0xCZlBJRkhLZHo1SzVKd0U2dm0ybF9WVkMyUWFHSE9PWE42WGo1dE5QZU1TaWlMRUlSODBhUFNPVFVHVWFYc1ZkLWN0akZQRU9yZTBPOGxNNVNYcGtzRTdwZS12RWRqN1poUFg3a0E1dml2WXZWdVA3S2puQjFvSFZlbG9RQ2N4azMtMjgtNlFFQ01fVmFIVTV4NF9XOFA5Nk5CM1BnMURjZElKbUJscklLal9TQ3RrX0FMUzM?oc=5",
+   "t": "امتحانات نوفمبر لصفوف النقل.. المديريات التعليمية تبدأ الاستعداد.. نماذج امتحانية متعددة والأسئلة فى فيما يدرسه التلاميذ خلال شهر نوفمبر الجارى.. وتؤكد: إضافة درجات التقييمات إلى اختبار نهاية الترم الأول - اليوم السابع",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "الـ body 434 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'2026', 'نوفمبر'}) مع تشابه نصي مع: أسعار أنابيب البوتاجاز والوقود اليوم الخميس 5 نوفمبر 2026)"
    ]
   }
  ]
