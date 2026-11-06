@@ -380,24 +380,27 @@ def is_already_covered(cand, existing_titles, done_urls, done_items=None):
                     if distinctive and all(w in d_words for w in distinctive):
                         return True, f"Non-digit model {distinctive} found in done review history: {d.get('title')}"
     else:
-        cand_words = set(re.findall(r'[a-zA-Z0-9]{3,}', cand_title.lower())) - STOP_WORDS
+        cand_words = {w for w in re.findall(r'[a-zA-Z0-9]{4,}', cand_title.lower())} - STOP_WORDS
         generic_news = STOP_WORDS | {'android', 'ios', 'apple', 'samsung',
                         'xiaomi', 'oppo', 'vivo', 'honor', 'realme', 'huawei', 'google', 'device', 'devices',
-                        'tech', 'technology', 'report', 'reports', 'reportedly', 'details', 'about'}
+                        'tech', 'technology', 'report', 'reports', 'reportedly', 'details', 'about', 'phone',
+                        'phones', 'smartphone', 'smartphones', 'specs', 'feature', 'features', 'camera',
+                        'battery', 'display', 'screen', 'update', 'edition', 'launch', 'release'}
 
-        for d in done_list:
-            d_raw = (d.get("cand_title", "") + " " + d.get("title", "") + " " + d.get("post_url", "") + " " + d.get("url", "")).lower()
-            d_words = set(re.findall(r'[a-zA-Z0-9]{3,}', d_raw)) - STOP_WORDS
-            overlap = cand_words & d_words
-            distinctive_overlap = overlap - generic_news
-            if len(distinctive_overlap) >= 2 or any(len(w) >= 7 for w in distinctive_overlap):
-                return True, f"Recent story overlap on key terms {list(distinctive_overlap)[:4]!r}"
+        # Compare only with recent 35 done items (title-to-title, ignore URLs)
+        for d in done_list[-35:]:
+            d_raw = (d.get("cand_title", "") + " " + d.get("title", "")).lower()
+            d_words = {w for w in re.findall(r'[a-zA-Z0-9]{4,}', d_raw)} - STOP_WORDS
+            overlap = (cand_words & d_words) - generic_news
+            # 3 or more distinctive specific words indicate identical news event
+            if len(overlap) >= 3:
+                return True, f"Recent story overlap on key terms {list(overlap)[:4]!r}"
 
+        # Title similarity against live posts
+        cand_norm = f.norm(cand_title)
         for t in existing_titles:
-            t_words = set(re.findall(r'[a-zA-Z0-9]{3,}', t.lower())) - STOP_WORDS
-            overlap = (cand_words & t_words) - generic_news
-            if len(overlap) >= 2 or any(len(w) >= 7 for w in overlap):
-                return True, f"Topic overlap on {list(overlap)[:4]!r} with live post: {t}"
+            if difflib.SequenceMatcher(None, cand_norm, f.norm(t)).ratio() >= 0.70:
+                return True, f"High title similarity with live post: {t}"
 
         if not any(w in cand_title.lower() for w in NEWS_EVENT_WORDS):
             keys = model_keys(cand_title)
@@ -865,9 +868,11 @@ def main():
 '''
                 else:
                     art["body"] += f'''
-<h2>الأثر المتوقع على المنافسة في سوق الهواتف</h2>
-<p>يمثل هذا التطور خطوة هامة في مسار شركة {brand_label} لمواكبة التنافسية المحتدمة في قطاع الهواتف الذكية، حيث بات المستخدمون يبحثون عن حلول متكاملة تجمع بين قوة العتاد وسرعة الاستجابة وكفاءة استهلاك البطارية.</p>
-<p>ومن المتوقع أن يدفع هذا الإعلان الشركات المنافسة إلى تسريع وتيرة ابتكاراتها في مجالات المعالجة والذكاء الاصطناعي وتقنيات الشحن لتقديم بدائل قوية للمستهلكين خلال الأشهر المقبلة.</p>
+<h2>الأثر المتوقع على المنافسة وتجربة المستخدم</h2>
+<p>يمثل هذا التطور خطوة استراتيجية هامة في مسار شركة {brand_label} لمواكبة التنافسية المحتدمة في قطاع الهواتف الذكية لعام 2026، حيث بات المستخدم يبحث عن حلول متكاملة تجمع بين قوة العتاد وسرعة الاستجابة وكفاءة استهلاك البطارية اليومية.</p>
+<p>ومن المتوقع أن يدفع هذا الإعلان الشركات المنافسة في نفس الفئة السعرية إلى تسريع وتيرة ابتكاراتها وتقديم ميزات حصرية تعزز من القيمة التنافسية للمستهلكين في الشرق الأوسط ومصر.</p>
+<h3>نصيحة محرري «رفيو» للمقبلين على الشراء</h3>
+<p>إن كنت تفكر في اقتناء هاتف جديد أو الترقية قريباً، فإن متابعة هذه التطورات التقنية تمنحك رؤية أوضح لاختيار التوقيت الأنسب للشراء والاستفادة من أفضل توازن بين السعر والمواصفات الرسمية دون تسرع.</p>
 '''
                 errs = check_content(art, cand_title, existing_titles, ea_phone_titles, kind=cand_kind)
                 if not errs:
