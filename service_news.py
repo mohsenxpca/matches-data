@@ -31,7 +31,7 @@ CAIRO = ZoneInfo("Africa/Cairo")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
 INDEXNOW_KEY = "e3b3e2ee8cd741f59f1b91e73c0f9090"
 STATE_FILE = "service_news_posted.json"
-DAY_CAP = int(os.environ.get("SERVICE_NEWS_DAY_CAP", "30"))
+DAY_CAP = int(os.environ.get("SERVICE_NEWS_DAY_CAP", "2"))
 
 # فلترة صارمة لمنع أي أخبار سياسية أو حروب أو شؤون فنية (قرار محسن 2026-10-31)
 BANNED_TOPICS_REGEX = (

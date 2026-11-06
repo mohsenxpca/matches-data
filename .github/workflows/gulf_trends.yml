@@ -2,8 +2,9 @@ name: تغطية تريند السعودية ودول الخليج لحظة بل
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/30 * * * *"  # every 30 minutes
+  # schedule:
+
+  #   - cron: "*/30 * * * *"  # disabled: prevents diluting Egyptaway topical authority
 
 permissions:
   contents: write

@@ -3,7 +3,7 @@ name: تغطية أخبار الخدمات العاجلة (إسكان وبنوك
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"  # every 30 minutes
+    - cron: "0 9,17 * * *"  # twice a day (11:00 & 19:00 Cairo): regulated publishing to protect crawl budget
   push:
     branches:
       - main
@@ -29,6 +29,7 @@ jobs:
       - run: pip install requests beautifulsoup4 pillow
       - run: python -u service_news.py
         env:
+          SERVICE_NEWS_DAY_CAP: '2'
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}

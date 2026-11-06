@@ -1,8 +1,9 @@
 name: أخبار التريند
 
 on:
-  schedule:
-    - cron: "15 */3 * * *"   # كل 3 ساعات، خبر واحد بالكتير في المرة ومن 9 الصبح لـ 10 بالليل
+  # schedule:
+
+  #   - cron: "15 */3 * * *"  # disabled: redundant with egypt_trends.yml
   workflow_dispatch: {}
 
 permissions:

@@ -10,7 +10,7 @@ on:
         description: "تجربة بدون نشر (1 = تجربة)"
         default: "0"
   schedule:
-    - cron: "*/20 * * * *"  # كل 20 دقيقة: رصد أحدث تريند عام ساخن في مصر ونشره فوراً
+    - cron: "0 8,14,20 * * *"  # 3 times a day (10:00, 16:00, 22:00 Cairo): regulated publishing to protect crawl budget
 
 permissions:
   contents: write
@@ -33,6 +33,8 @@ jobs:
         env:
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
           TOPIC: ${{ github.event.inputs.topic || '' }}
+          EGYPT_TRENDS_DAY_CAP: '3'
+          COUNT: '1'
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}

@@ -15,8 +15,9 @@ on:
         description: "تجربة بدون نشر (1 = تجربة، 0 = نشر مباشر)"
         required: false
         default: "0"
-  schedule:
-    - cron: "*/30 * * * *"  # every 30 minutes
+  # schedule:
+
+  #   - cron: "*/30 * * * *"  # disabled: phone reviews & news run on Review Mobile via review.yml
   push:
     branches:
       - main

@@ -29,8 +29,8 @@ import notify
 CAIRO = ZoneInfo("Africa/Cairo")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
 STATE_FILE = "egypt_trends_posted.json"
-DAY_CAP = int(os.environ.get("EGYPT_TRENDS_DAY_CAP", "30"))
-COUNT = int(os.environ.get("COUNT", "2"))
+DAY_CAP = int(os.environ.get("EGYPT_TRENDS_DAY_CAP", "3"))
+COUNT = int(os.environ.get("COUNT", "1"))
 
 # Curated high-res natural photography fallbacks (no text overlays)
 TREND_PHOTO_POOLS = {
@@ -102,6 +102,13 @@ def is_valid_topic(title):
     if re.search(BANNED_TOPICS_REGEX, title, re.I):
         return False
     if not re.search(ALLOWED_TOPICS_REGEX, title, re.I):
+        return False
+    # استبعاد الطقس الأجنبي (يجب أن يكون الطقس مصرياً أو إقليمياً وثيق الصلة بمصر)
+    if re.search(r"طقس|أرصاد|أمطار|سيول|ثلوج|جليد|عاصفة|درجات الحرارة", title, re.I):
+        if re.search(r"أوروبا|إيطاليا|فرنسا|ألمانيا|بريطانيا|إسبانيا|أمريكا|كندا|روسيا|اليابان|الصين|تركيا|اليونان", title, re.I):
+            return False
+    # استبعاد الدوريات والمسابقات الأجنبية المغمورة لتركيز الموقع على الكرة المصرية والمحترفين والقمم العالمية
+    if re.search(r"دوري الدرجة|الدرجة الثانية|الدرجة الثالثة|الدوري الروماني|الدوري التشيكي|الدوري البولندي|الدوري القبرصي", title, re.I):
         return False
     return True
 
