@@ -1,41 +1,6 @@
 {
  "done": [
   {
-   "title": "Honor Win 2 Delta Force Professional League Edition opens for pre-order ahead of launch",
-   "url": "https://www.gizmochina.com/2026/10/31/honor-win-2-delta-force-professional-league-edition-opens-for-pre-order-ahead-of-launch/",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [honor win] found in existing: مراجعة Honor Win2 RT 2026: شاشة 185 هرتز وكاميرا 200 ميجا والسعر"
-  },
-  {
-   "title": "Motorola Signature 27 flexes muscle on Geekbench ahead of November 5 launch",
-   "url": "https://www.gsmarena.com/motorola_signature_27_key_specs_geekbench-news-75301.php",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
-   "title": "Samsung Galaxy Fit4 leaks, key features revealed",
-   "url": "https://www.gsmarena.com/samsung_galaxy_fit4_leaks_key_features_revealed_-news-75289.php",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
-  },
-  {
-   "title": "Samsung Galaxy Fit4 leaks, key features revealed - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNVhHNGlKUEUzV3p6a0RJOEc1Y1RZRkdheWJzeGQ5Z0lzZW5zc0NtZGYxYndPQ1ZoT0dMU2hfNGJwZGo4UjhoeEQ1MFEwSDkzU0dGVVExbzJlWFBVUVVKeE9ibURHaDEtRG94Y2IxZ2dVZC1QeXdjU1BBeWZ1T0EwakdwMXBReEdFRzVvUlEyaEVWd9IBjgFBVV95cUxQWnY2N3VDNXljeUhtZTRSX2J0YTFKZUdVOWFydVU2NVA5S2FZNzJPTVJwRjM1WUlZTFdDaFl4eTJXeFRvZFpMenFJQUpjQjVHSkpScUVybHFiaXZIUElUMF82OUYxdWxUZ2FnMUdNeDBndC0zZlpGZ1FxenNsSUJfdlhseGRKaEhlUzZOWlVn?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
-  },
-  {
-   "title": "The Galaxy S27 Ultra chipset saga continues, here's the latest twist - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRThneDhXZFZGa1hzUzBZWUN2M0RDVVFFemZMODZpb0xQMVhGUG9tTkhoLUFCdEk3MnZyU2RCNXNYTUFvOWpBcndCWWNSOVl2aGc0Nmw0czA2YXR2OUJIdEFKUmZnTlprVGlkYnJvbm5qS3FXWXVEbUtWZXBfTG92SldJTTNhZjF5VkVmTmRYaE0wMU0yRWw2LU5IelNzZmowWmhyek9kWk9JZ9IBpgFBVV95cUxONm5wbFBQZ3ZLNVpLSE95emRUeUUxWHpFLUx4MDVVT0FlSllVSExQMVBfV29sS0hTX3phNEJ3d1hRSTI4VjR5QnhFME12dlNKOS01Y3VJOVl1SDF2MEFZZGJMTmtxVmxjb1JKZkx3c3V4N1M2RkpTM1g1N1EzZzB2VWNrZFpQR0tickQ1Ti0zTk5YblU3N2xobFNRNzVqYV91aF9JX013?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
-  },
-  {
    "title": "Motorola Signature 27 flexes muscle on Geekbench ahead of November 5 launch - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT2pyTV84Y3ltSFlyT1FOMm4yWHR4MW9hYURPbFFHdkY3Y3dmdTZfTE8yMnBWTDJReTBwcV94cjdYNDNwM24xZk5LSGZTRVVFdkFUalpkRy1CbkpIOTRkV3dtbFNJdW5fNlNBaGFheG9QUzc0OUoyckJ3M0pwSkE1cDlYYzB5Wkhs0gGEAUFVX3lxTE1DaUFjeUxSRzVfeXhhMDBiYmJIeDZUaU52WEg5ZkJ4VUk4Ul96TC1Jb2JwNmxxR1VMMGhMOWV0RnNlTnQwbE56eVRqTHlMV0ZhMDViRFc2WUZNRW9XaGdsalJNYTYyenk2Vy10WU5HSGwteXBzY3pZOGJZaHRTMmxVVl9lQw?oc=5",
    "at": "2026-10-31",
@@ -3230,6 +3195,51 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Phone by Google 246 beta brings gradient icon redesign on Android - 9to5Google",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VZWtQVjQzQkN4Z05jUFNaNGl3bmZPUnlIN1plNk9XTG1MaTQzOHdlWkswY3RnT0xIUlFIQWhta1Mwd2g0V28xR3FicVVlUDhPQ0JWOGRpV3pyOFV3SHdOSUJ5RzFXR25FVTNodUt0ZV8?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (612 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Your carrier's preinstalled bloatware may be slowing your Android phone down - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ2szNU1OMjRHWE8zRTdOOEZHQnJ4Z29KdzN6QkM3ZmNhdC1LSTZWR0xrWUw4R3ZtUjRxdTV4THFaRVpYODZndmFjTzl6dmVpWmZtS3VsWmdlRUNYZll6dW4yc0M2TUZoWFFwWkpNTngtc1REZGdxZHBzeUVaYnZ1bkJ4VHFUejlxampIaWN5SlQ5SXFHZEN3QU5CREFFXzFT?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (480 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "This New MagicOS 11 Feature Is Quietly Starting A Big Divide Between Android Brands - BGR",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMFd3YU1iT0kyeVQwUlhnLXc0THBHN2k1TXYxalJKOHBlWkkxcjBBOWxsVC1OVTkxM3FWU084eFA3VTFVZG1VUTZUNFZNdl9UcFFDWkVDZC1Wc1VBenVfdE5YVDRiV05zM2ZUZGVyVlowZC14aTNRcUVoZlhOcFBPa2RCY0pPeHVNdGl2cE9KWQ?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (678 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Say goodbye to tall candy-bar phones: Android brands are going wide - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOHRYZHBZU0w5Y2U0YzVmbTlSZUtHSnU2cVY0N3FjdEdRV20zMUtTZkFiOEVrN0RjRm9rZlRxT1BLZ1JxWTJQejRxWk9zSzBMZkpUYUotUG1SNUUtMExJX1VOb2xvVDBkT2dtNEZOZTVSX0JnVmtjVWVCd0tfM3AwZ1Ewa0FDREJEN3M3eWdGRHVtQ3FVdklKRklTaUpkNTVraHJxRFlsUncteEE?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (515 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "مراجعة هاتف Enough Phone: هل ينجح الهاتف المصغر والقابل للإصلاح",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLXNwVnpEM0hsU1BVSXVzcGxtMkQyUjA5X2l5NGxXanU4M0JES2VOVGtvYnEzbUpvcnlrQlZnV3h5TnhJdlJqZE9hRmJNdFRzUnV2X0ZOeHduelljaFowMW5kYkdITDhlcGhZckVUXzZoZVlPanc2SndORFh0Y19GVDRvQmc3cVlBWUVDR3ZjcTZCN1lXRXJlYWV1NA?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/enough-phone-review-specs-price.html",
+   "at": "2026-11-06T10:32:28+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "أبل"
   }
  ]
 }
