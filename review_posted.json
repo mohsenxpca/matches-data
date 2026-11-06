@@ -1,35 +1,6 @@
 {
  "done": [
   {
-   "title": "Trump Mobile: See the T1 Trump phone, service plans - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiYl91d1c2cDVEeEFxUmlLWURXejhPRjBqd00yMjRKMXdZZWN6MTNmRDZqQUxVUFZxaTItSjJpODNzUFMtb2hvRmMxVU52Q0t6alNwTmZnTW9aZDA3SldYRWNYQlhNbl9NdEs4eg?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
-   "title": "Nokia 2360 Flip Phone Launches With Dual Display, SOS Button - TelecomTalk",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdmI5SnY2a0RqWm1fd2I3RXRxNE5MRUpXVzQ0TTI0bUVrQTZjNS1SYVlDVExjN0V3c3o3RGZVQ0ZIWEpfWGZzU0tFYWNvdnEzSkItRm5EUF9PdWVNX0VFU3JSWmF3VGROLVhWMUNkQWo5a3BLdmRYUEhXQTVpYU5DS0FzSXRhWnJ5cjc3SWY1LVBMemY0?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
-  },
-  {
-   "title": "مراجعة جرس شاومي الذكي 4 برو: كاميرات مزدوجة وأمان متطور بسعر منافس",
-   "url": "https://www.gizmochina.com/2026/10/31/xiaomi-smart-doorbell-4-pro-dual-camera-edition-launched-specs-price/",
-   "post_url": "https://www.review-mobile.com/2026/10/xiaomi-smart-doorbell-4-pro-review.html",
-   "at": "2026-10-31T23:12:52+02:00",
-   "ok": true,
-   "brand": "شاومي"
-  },
-  {
-   "title": "Nothing Phone (4a), (4a) Pro, (3a), and (3a) Pro are now receiving the stable update to Android 17",
-   "url": "https://www.gsmarena.com/nothing_phone_4a_4a_pro_3a_and_3a_pro_are_now_receiving_the_stable_update_to_android_17-news-75296.php",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Model code [3a] found in existing: مراجعة سعر ومواصفات هاتف Nothing Phone (3a) Pro"
-  },
-  {
    "title": "The Nokia 2360 Flip is a dual-display feature phone with an SOS button - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaGRPUXl0QkJCTEx6ZHpjTDltSVdlS3gxdUVWTTdIZXZLZnZGYWVUbVZaZnA0SHVBVzluU1E5N0dBdnN0YnpHbll0Uk5LZU9VLTVCME1lWGQ1X05Mb3I1MmJla0lxN1EyVDdxZWhITDE4aVRBNVlDVldBSUNQdnd3TDVXUTI3LU5hZEtnSEllNU1OcmxLU19oWHVDcUxreWhQU3Rmb2haRXVPSlFNQmc?oc=5",
    "at": "2026-10-31",
@@ -3281,6 +3252,38 @@
    "reason": [
     "طول المقال قصير (613 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "Oppo Find X10 Ultra has reportedly been cancelled",
+   "url": "https://www.gsmarena.com/oppo_find_x10_ultra_may_have_been_cancelled-news-75380.php",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (570 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Leaker says OPPO may have suspended the Find X10 Ultra",
+   "url": "https://www.androidauthority.com/oppo-find-x10-ultra-development-pause-leak-3732500/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (678 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung Galaxy S26 Ultra gets a big $450 Amazon price drop",
+   "url": "https://www.androidauthority.com/amazon-deal-galaxy-s26-ultra-3732569/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Phone 's26 ultra' already covered in: مراجعة Samsung Galaxy S26 Ultra: كاميرا 200 ميجابكسل وشاشة الخصوصية وشحن 60 وات"
+  },
+  {
+   "title": "Samsung Galaxy S26 Ultra gets a big $450 Amazon price drop - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9uMUM4dUpjZzRjQzhHbDc0ZnAwbGt3TmJROGEzWWFHbkxQNDlXaXVjWnhiaXZOazUwb21ldXp0djE0LWVIeFAyN1A4RGdhS1ZwaTVUVUwtWFFBeS0tYVZoOUUwQWFQeHpMVXNJenB4d0dqMEZYQS1YUnZn?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['drop', 'amazon', 'galaxy', 'ultra']"
   }
  ]
 }
