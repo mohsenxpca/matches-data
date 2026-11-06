@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "u": "https://anecdotarios.com/2026/11/01/venezia-se-concentra-para-salir-del-ultimo-lugar-ante-como-1907/",
-   "t": "Venezia se concentra para salir del último lugar ante Como 1907",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 9"
-   ]
-  },
-  {
-   "u": "https://www.lavanguardia.com/deportes/futbol/20261101/2453/como-venecia-serie-a-ca-en-directo-ctx.html",
-   "t": "Como – Venecia el partido de fútbol de la jornada 10 de la Serie A, en directo",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 426 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.61saat.com/thomas-reis-sakatliklarla-ilgili-son-durumu-acikladi",
    "t": "Thomas Reis sakatlıklarla ilgili son durumu açıkladı",
    "at": "2026-11-01",
@@ -3319,6 +3301,24 @@
    "reason": [
     "كلمة رسميًا مش موجودة في المصدر، احذفها"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7170540",
+   "t": "عودة قوية.. موتورولا تطلق هاتف Signature 27 بمواصفات جبارة وسعر صادم",
+   "title": "موتورولا تطلق هاتف Signature 27 بمواصفات خيالية وسعر مرتفع",
+   "url": "https://www.egyptaway.com/2026/11/motorola-signature-27-launch-specs.html",
+   "at": "2026-11-06T22:34:13.084150+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.vietnam.vn/ar/truc-tieptruc-tiep-oxford-city-vs-leicester-doi-hinh-xuat-phat",
+   "t": "مباراة مباشرة بين أكسفورد سيتي وليستر: التشكيلات الأساسية",
+   "title": "موعد نهائي أكسفورد سيتي وليستر سيتي والقنوات الناقلة",
+   "url": "https://www.egyptaway.com/2026/11/oxford-city-vs-leicester-city-final.html",
+   "at": "2026-11-06T22:38:26.584410+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
