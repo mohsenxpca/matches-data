@@ -1,44 +1,6 @@
 {
  "done": [
   {
-   "title": "مستقبل هواتف ون بلس المدمجة: هل تتوقف الشركة عن إنتاجها؟",
-   "url": "https://www.gizmochina.com/2026/10/31/oneplus-may-not-launch-new-compact-phones-in-the-future/",
-   "post_url": "https://www.review-mobile.com/2026/10/oneplus-compact-phones-future-review.html",
-   "at": "2026-10-31T09:21:39.484299+02:00",
-   "ok": true,
-   "brand": "وان بلس"
-  },
-  {
-   "title": "مراجعة جهاز Oppo Pad Air 6: المواصفات والشهادات القادمة",
-   "url": "https://www.gizmochina.com/2026/10/31/oppo-pad-air-6-5g-3c-certification/",
-   "post_url": "https://www.review-mobile.com/2026/10/oppo-pad-air-6-review.html",
-   "at": "2026-10-31T14:06:46.309217+02:00",
-   "ok": true,
-   "brand": "اوبو"
-  },
-  {
-   "title": "مراجعة Aurzen ZIP Pro الشاملة: بروجكتور بحجم الجيب يغير قواعد اللعبة",
-   "url": "https://www.gizmochina.com/2026/10/31/aurzen-zip-pro-portable-projector-full-review/",
-   "post_url": "https://www.review-mobile.com/2026/10/aurzen-zip-pro-review.html",
-   "at": "2026-10-31T14:36:17.096092+02:00",
-   "ok": true,
-   "brand": "اخرى"
-  },
-  {
-   "title": "Redmi K80 Pro vs OnePlus Ace 7 Pro: Is the Newer Flagship Worth the Extra Money?",
-   "url": "https://www.gizmochina.com/2026/10/31/redmi-k80-pro-vs-oneplus-ace-7-pro/",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
-   "title": "RedMagic 12 Pro+ vs OnePlus 16: Dedicated Gaming Fan vs 200MP Camera",
-   "url": "https://www.gizmochina.com/2026/10/31/redmagic-12-pro-plus-vs-oneplus-16/",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [redmagic 12] found in existing: مراجعة RedMagic 12 Pro+ 2026: تبريد سائل وشاشة 185 هرتز والسعر"
-  },
-  {
    "title": "Honor Win 2 Delta Force Professional League Edition opens for pre-order ahead of launch",
    "url": "https://www.gizmochina.com/2026/10/31/honor-win-2-delta-force-professional-league-edition-opens-for-pre-order-ahead-of-launch/",
    "at": "2026-10-31",
@@ -3225,6 +3187,49 @@
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
+  },
+  {
+   "title": "iQOO Z-series midranger to pack 7-inh display, 10,000mAh battery",
+   "url": "https://www.gizmochina.com/2026/11/06/iqoo-z12s-10000mah-battery-7-inch-display/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['000mah', 'battery', '7']"
+  },
+  {
+   "title": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign - The Record from Recorded Future News",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DM3FDQy0xRzZ3cnVfMUlublFrZ0RzQnZLYWYwOE40NWJzMVA5eHhONHNBQjFYWHlrWUI4cmdIc0pCUFRBYThuaGdNUzBEMkxyTGdTdGFQMmx4emRkNGRQZ0dENDRHWDFOQzRIMkFCaw?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (553 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "iPhone And Android Phones Targeted In No-Click Website Attacks - HotHardware",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb1ZJdWVBM2JqZnQ0NlVteTRkcWg2ejNhT2JpY18wMWR1MXh2dk8xcjA0ZEEzM3NiUGlockNNQVh3WGlZRGx6Z0tQNnZpd016WklvYkk0X0o5ZTcwNW9UR19tYXBmOE92VUpRazRqU1lzbDktN2hBczJCb0dCMmE2aEE0RTRnWC12QkhwZmx2UjZPQUQxelE?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (657 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung Electronics (KOSE:A005930) Ex Engineer Sentenced In DRAM Leak Case - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUXFGX2xnLTVoa01xUVh2Rjl0cnZoX3FBNWtBRmxnVy1nbV9EY2xHd2xxaVBFdS1nOWpYcC1XbVFZY3VUcEFXSHRpRGNNblNUc1JDVVJXTUJUUmJkZ2czbW5GVjM0MmlsX0JiR1VTQmZnUnF4ZjhyZG5YQ0ZIa091MWx5OTExaHJNVGxRVVN6d2FxNzdDdkEzdTUyUks?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (503 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "ثغرة خطيرة بأندرويد تسبب إعادة تشغيل لا نهائية للهاتف",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaDlVU2dIdE10LUVDNG5YRkJpNVlNLXh5RUhJX29qSGN5Yk8yeVUwaG8yakZLVG50bWRweHg3dEo2UjhSMlZLVF9WYzZoeEhFQW1VVDJtMXM4aUExSXZmYmptZ2tZc3BBZ0ExVnpFRGItQTdvcEtyamwxZ2liTlhJR2ZPaDl3djVMRW5GSTBMbjFiYXhHQnBpSEI4dGVYaWUyUnBMOC0waTBYVVRa?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/android-ghostmap-reboot-loop-flaw.html",
+   "at": "2026-11-06T10:02:22+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
