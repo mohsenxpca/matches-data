@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.yahoo.com/entertainment/celebrity/articles/maya-sir-mo-farah-heidi-081728280.html",
-   "t": "From Maya as Sir Mo Farah to Heidi as her own left hand: The best Halloween looks",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://www.elbalad.news/7163509",
    "t": "محافظ الغربية يتابع اصطفاف وجاهزية معدات وسيارات المدن لمواجهة الأمطار",
    "at": "2026-11-01",
@@ -3309,6 +3302,15 @@
    "at": "2026-11-06T14:26:25.054313+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.voiceofemirates.com/en/sport/2026/11/06/todays-matches-friday-and-broadcast-channels-zamalek-vs-misr-insurance-in-the-egypt-cup/",
+   "t": "Today's matches (Friday) and broadcast channels: Zamalek vs Misr Insurance in the Egypt Cup",
+   "title": "مواعيد مباريات كأس مصر اليوم الجمعة والقنوات الناقلة",
+   "url": "https://www.egyptaway.com/2026/11/egypt-cup-matches-today-schedule.html",
+   "at": "2026-11-06T15:26:37.739452+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
