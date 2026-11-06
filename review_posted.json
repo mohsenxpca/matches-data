@@ -1,26 +1,6 @@
 {
  "done": [
   {
-   "title": "Redmi Band 4 vs Xiaomi Smart Band 11: Which Fitness Band Should You Buy?",
-   "url": "https://www.gizmochina.com/2026/11/01/redmi-band-4-vs-xiaomi-smart-band-11/",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
-    "العنوان غير صالح أو أطول من 75 حرف (0 حرف)",
-    "الـ slug غير صالح (): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة",
-    "وصف البحث (0 حرف) يجب أن يكون بين 110 و 175 حرفاً",
-    "المراجعة يجب أن تحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "Samsung mocks iPhone Duo display defect",
-   "url": "https://www.gizmochina.com/2026/11/01/samsung-mocks-iphone-duo-display-defect/",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [iphone duo] found in existing: مراجعة iPhone Duo 2026: المواصفات والسعر والمميزات والعيوب"
-  },
-  {
    "title": "Andy Burnham government warns of one thing you should 'know' without phone in case of blackout - Manchester Evening News",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOW5HSUliTkZORjBUeml5TzVKSnlseFJWTFU2enFnTGJUMXAybU9GSGxTZmQtQkJ3NERQcktiUXd1QUg0c25fMXc3N3g1NC1xd282bE00QXlvX3lNai1OZkFRUF92SHRWbG1vUUo2d1BhUnk3YW9HRWV6c0ljWWhhbEJhOEY1cTI3d1R3SWlGV1VDd2oyRmlSTzNnTmdQZ0Fs0gGgAUFVX3lxTFA5bkdJSWJORk5GMFR6aXlPNUpKeWx4UlZMVTZ6cWdMYlQxcDJtT0ZIbFNmZC1CQnc0RFByS2JRd3VBSDRzbl8xdzc3eDU0LXF3bzZsTTRBeW9feU1qLU5mQVFQX3ZIdFZsbW9RSjZ3UGFSeTdhb0dFZXpzSWNZaGFsQmE4RjVxMjd3VHdJaUZXVUN3ajJGaVJPM2dOZ1BnQWw?oc=5",
    "at": "2026-11-01",
@@ -3301,6 +3281,23 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Four Galaxy S25 Phones Are Getting a New Update Without a November 2026 Patch - Android Headlines",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQm1fVndkQzU5MmZIdzZoVS1jMlEyMmt2RVFBdUVLVGpaOUdzRmpubFpGaHFSMmlKWjg0LUlRajdFT0EtSURsRk9KdFJ2UHRra2ZpSVpCd0J3NXZtVGp4b0ZuYXhHaUlMY0hhMU1uQXNnVkJtc1QxdktwZ1EtMXA2N1NBei1xTDhjQ1duSElLbHc1dVdLbzNmNk5Ec3pIWVZUZmtZYjl4dU9qVnM5SHdmTGxETWg5SlJpUjROUG94Tlk?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (673 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Leak: HONOR Robot Phone 2 is in the works, could launch next year - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rd1BPY3pwVWJwMDh6M2NuTUdrb1F0NXZKYl9Ea0FkRkF2d2NtWE94MTRGVUNfX19kaTJrVnBmYkNXdElnRnFnckVYUUg0bTVfV29rbjROTW8yQVhtTnRfWHJOdFlYM2VOMVpEOC1UNl9NUWJY?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['works', 'robot', 'year', 'could']"
   }
  ]
 }
