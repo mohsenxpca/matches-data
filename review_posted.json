@@ -1,14 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة آي باد ميني 2026: تفوق مذهل على آي باد برو في الأداء الفردي",
-   "url": "https://www.gizmochina.com/2026/10/30/ipad-mini-2026-geekbench-scores-versus-m5-ipad-pro/",
-   "post_url": "https://www.review-mobile.com/2026/10/ipad-mini-2026-benchmark-review.html",
-   "at": "2026-10-30T21:01:24.778567+02:00",
-   "ok": true,
-   "brand": "اخرى"
-  },
-  {
    "title": "Vivo S70 revealed to feature Snapdragon 8-series chip, dedicated teleconverter",
    "url": "https://www.gizmochina.com/2026/10/30/vivo-s70-snapdragon-8s-gen-4-64mp-periscope-200mm-teleconverter/",
    "at": "2026-10-30",
@@ -3203,6 +3195,16 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (0 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Honor Magic9 Pro Max camera samples from LA",
+   "url": "https://www.gsmarena.com/honor_magic9_pro_max_camera_samples_from_the_usa-news-75363.php",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
   }
