@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei Starlight sub-brand phone may adopt notable cooling specs - Huawei Central",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT1NmNU9CNUR6NjdzX0dCNFZHcWkwMEpObVpOZ3NUNXJsalhISmM1SmxObWUxZGZRN2wwZ0cxQXM5LUV5ZFBJS29KWVE0UkI3ZXhyOFF5c255MjVMOV9BS0xHQTVVUEg4VW84ZFFEdVZveVpBTVR0Z01jTUtOWUtXMWlJcVEzbXFvTWtQRlM5RFZPYmx1RlZNUElTdFo3akxL0gGgAUFVX3lxTFBPU2Y1T0I1RHo2N3NfR0I0VkdxaTAwSk5tWk5nc1Q1cmxqWEhKYzVKbE5tZTFkZlE3bDBnRzFBczktRXlkUElLb0pZUTRSQjdleHI4UXlzbnkyNUw5X0FLTEdBNVVQSDhVbzhkUUR1Vm95WkFNVHRnTWNNS05ZS1cxaUlxUTNtcW9Na1BGUzlEVk9ibHVGVk1QSVN0WjdqTEs?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
-   "title": "Samsung Galaxy Z Flip 7 FE: Specs, price, preorder details - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQODFjWE90eFVxY1BWVzNfT3hpT05wTE9QaXdZa2VKZTlkclJ4QS1zM05hZEd3TzFrZ3VYRWcwaE9FSDlaaTZVVGZsRFdoMHFJQWNUaXptUE9VdlgwcVFYV0FkNDdRTFowR1BUN2YxbzFNMjJNQ3JRYUdzcmtPanQtZzFJbGlKenlyeE1ZNw?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
-  },
-  {
    "title": "WINNERS ANNOUNCED AT SMART PHONE OPERA HOUSE FINALS - FilmInk",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc01lbVI2N2tEcWtjNVhjOGJkQ0g4d2FpZXBSV2ZFaHJfRHBxWU9qSkVYY0F4M0FHUjJxdlRRMEd2TWRLbXNfLWpjWUdjX0pDc1ZMeTFwOWUzY1J1WDJFYzZyaHd0MjFSWmR2M1RYQzZzNmRtYkhxbGY5a0w0UnJXY213b1Bzb3RlSUFVX0pwYTBSY2hFS01rNQ?oc=5",
    "at": "2026-11-01",
@@ -3302,6 +3288,23 @@
    "at": "2026-11-07",
    "ok": false,
    "reason": "Phone 'iphone 18 pro' already covered in: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "vivo also reportedly developing a wide-screen phone for 2027 launch - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNXJIRWFvVGdwQ0trMVdVSGJQbXdrcDBvVDRIcWw5b01IVUpwaEVnVHVVb3dSWlVUM1lfcDFjMEZzX01JQ2Z2ZGw3TTZpM3RfNEVKaWQ1c3BNTG96LWRyWDE4WnV3VVlaSGJobnNEMW5menAwRTlIREV4UjlUdEpUejBTdG1CNmNJcDBQa3RoWFl1MUVuMFRfX0dDRThJME1IdFo2cW96SnRKQQ?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['2027', 'developing', 'wide', 'also']"
+  },
+  {
+   "title": "ميزة أندرويد المخفية لحماية خصوصيتك عند إعارة هاتفك للآخرين",
+   "cand_title": "I lock my phone to one app before handing it over; you should too - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VSGJLdThva2FFZTlGS2ozWWQ5TXdsbWVyRDVfS0o4RHpTWDA1cGxuX29XUkVLSjJ0U0R4UWhxdVd2X05tVlB1MmlGc3NQaGFVMDVOcXBKNlJoNndsTkNNc0g3dG9manFwY2RIdy15UWM0ZUND?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/android-screen-pinning-privacy-guide.html",
+   "at": "2026-11-07T01:32:00+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
