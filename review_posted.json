@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Nokia 2360 Flip - Full phone specifications - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KX1BIQ2xwU0NsMDRYcTZvMXVKa3JPckxsRHN6ZTItLTVwTXZBbVBId0VCaHAzUHp3VFAySVZzOEd1ZUh6TW5nTENJeklKX3ZlTE5LOHd3UEVZU2djNTF3?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
-  },
-  {
-   "title": "Motorola confirms the Signature 27's exact launch date - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU1RMOG5kUlpPZkZqbURqV0tvRVp6VjAtOVZ0M0x0WFpnMmhla0k1MHgzWGtqampSM21ieFM2ZFcyb09NUF9zMUxWYzJsdVEzM2M1MGl4Z2h4Smk4SU94ck5QSUVTSGVoNktQY2FhVjJ6bmNpVk1aeVhXSFVCQ2Q4ZEFLVWt1MWVYMlhxZUJqMzcxRUJxa2pN0gGTAUFVX3lxTE13aXZXRk1Gc2lSeEo1OGdlTV9FS1VvaG5GOFZCRkt1VEtLMFZlRnBaZ2tmRXBTVkJsc0JQdi1XeFhKdlg1UkUxLTNzNnV3QWxmaTAtdF9wUWRpdGNMVUxFX0NhdjBfVWMwUE1xaHdHem1tQVdQdm1rZjdhd3RfRkxRQ25vQW5kUkNrYzZfek9DWm9CUQ?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
    "title": "Samsung Galaxy Z Fold 8 Ultra is here: Everything you need to know - Mashable",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQanJEbTlIWGVNS2lhcUV3YlZIMVNVQUVoMGtHMWJ3RkFnZld5WVlIWGxXbWJFSHQtT3lLNW0yU09OekhQTV9MRXp6bzlCX2toRWZXdFFZQnpYT01GZ1RSdW9zZFF0N1dmSC1qRGQ0bUV0OERkTUZ3eWxicmdERnVOdlI2OGZGNWtxLTJyenJnNW1KSjQ?oc=5",
    "at": "2026-10-31",
@@ -3246,6 +3232,25 @@
    "at": "2026-11-06",
    "ok": false,
    "reason": "Phrase [redmi note] found in review: مراجعة Redmi Note 17 Pro Max 2026: بطارية 10000 وشحن 100 واط والسعر"
+  },
+  {
+   "title": "Oppo Find X10 Ultra reportedly shelved despite its recent Dimensity 9600 Pro leak",
+   "url": "https://www.gizmochina.com/2026/11/06/oppo-find-x10-ultra-cancellation-rumour/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (565 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "CZ Urges iPhone Users to Update iOS Amid DarkSword Threat - CryptoPotato",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLThUQ0x2NWZoX25zQTB0Nm9xbmJ6QXFnSUY0SGRxZi1ZTkVrd0NHWFFlZWpvXzZ5WDlQckMtQUFSdFRUOU1ycWdBREhyeWxaZ1k3dk5HaUYzZlN2RjY1TE1NUnYtblhhaUlDenRpQjFnTkNfekFFdjlxVkNJaU80bE9oOU5naVNrRVh3?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (589 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
   }
  ]
 }
