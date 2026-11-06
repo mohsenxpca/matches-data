@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus Ace 7 vs Ace 7 Pro: Specs, Camera, and Price Differences Explained - Nokiamob",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlU2R3BuQ0pmUWg2V09ZNGhCWlVGb0d6eWE0X1NuODhJYzA1dUZpSGhQNnZaMDU5UUlJeFRjR0lHd24zMS1oY2pmMElKTmxnTDdPdnNOVjBBUFNMMnFzalZxLVA3S1RELW1RaTNNVndGa0wzNnRJbllCcHdMYVpOQ1dFN0tFUm1QS2x0b0xXUGhWV254UUktN2JEdFc1MUZRREN0QW11QQ?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
-   "title": "Nothing OS 5.0 Rolls Out Early to Phone 3a and 4a Series - Android Headlines",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbV9Eb1dCSldXMmEwaFZTM0ZzR1UxR2Y1RVFoSnh2N3N4VE81TDg1YmFYd2xyQ1VCc1BKX1RRSTlmM1lReVc1c0sydzhqX24wNmx1VEpGM1NyU1FKYW94eDlqZ2FLekNBUjBTeWVOS0ZGaFlGMUNxVWJoWkstOEdpOXF0a2R6dDZaY091a2x2eDVHUmRwemRFRVBfWQ?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Model code [3a] found in existing: مراجعة سعر ومواصفات هاتف Nothing Phone (3a) Pro"
-  },
-  {
-   "title": "Trump T1 Phone meets JerryRigEverything's Zack Nelson and several truths are revealed - PhoneArena",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zZTdhNy1JVHZGcmJLNzUtSmpFQi16SUF6NUU3Q1ZTTkc3SVpKdUwzZktQNHpCRmNoU1ZUSzFZNEhQcHZUc0pYcms1cnlkZVdodGgzQUtVQzZaSjNGSS1uUWtxa2xocDl5VGlzNzVCdHRkWGNIWm5uVldYZw?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
    "title": "If these iPhone Air 2 specs are real, it’ll be a phone with a purpose - Tech Advisor",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOR2hyeXdLZDkya0NyWHpHVVlaWmtfbWhhSWdrX0d3SnZyV2RNNFRpQ3V2OUJZZElfOHNHdUhHTExrN0dSM2ZyQmlxMnI5Rkk2cWk3Ymk1a1IyYmkxOUJzVVI0WDh3YmNLb0NFeEtrajY5QXl0SW1FdHcxeGZuQko5b1RMdkstS3VnZVY2TnBLdEFSUlo0d2FQUlRCUWZyTHI0V1E?oc=5",
    "at": "2026-10-31",
@@ -3253,6 +3232,33 @@
    "at": "2026-11-06",
    "ok": false,
    "reason": "Recent story overlap on key terms ['iphone', 'ios', 'urges', 'threat']"
+  },
+  {
+   "title": "Samsung Galaxy Fit4 might have NFC for payments",
+   "url": "https://www.gsmarena.com/samsung_galaxy_fit4_nfc_support-news-75377.php",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (678 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Boxshelf is a new Android front-end that turns your ROMs into a virtual collection",
+   "url": "https://www.androidauthority.com/boxshelf-android-handheld-front-end-launcher-3732398/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (506 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "ثغرة خطيرة بأندرويد تدمر هاتفك بمجرد تثبيت تطبيق خبيث",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcF9ZTEpPRUhqbllsOVdqejhHSlZYQlc2Xy1wRlhJZFQyTmcwcHhUbVVNdXJTQzJyQmJXWjkwWlJhVFlKM2JZaW1pSzdzendYRFRlSVBBdzZIMXN1MmpQNWstR04ybEdxZVFRbzhGc0Y2Qjc4Wi1iVDB5Rm9Md1V3RUJ3YTRHS01FRVFvLWg1WnFIbFZwcjFWUENjU1RxcnhOTHJlcHc0ajNUZXh4LW5TLVptekhrdw?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/dangerous-android-vulnerability-ghostmap.html",
+   "at": "2026-11-06T13:02:15+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
