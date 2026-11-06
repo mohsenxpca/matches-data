@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "u": "https://fortune.com/2026/10/31/california-billionaire-wealth-tax-prop-40-revenue-prop-13-texas-taxes/",
-   "t": "If California matched Texas on taxing property, it would raise more revenue than the billionaire tax",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://www.latimes.com/california/story/2026-10-31/proposed-billionaire-tax-disproportionate-impact-california-sports-teams",
    "t": "Proposed billionaire tax could impact California sports teams",
    "at": "2026-11-01",
@@ -3306,6 +3299,15 @@
    "reason": [
     "كلمة رسميًا مش موجودة في المصدر، احذفها"
    ]
+  },
+  {
+   "u": "https://www.vietnam.vn/ar/thoi-tiet-chieu-va-dem-6-11-vung-bien-tu-ca-mau-den-an-giang-co-mua-dong-rai-rac",
+   "t": "توقعات الطقس لفترة ما بعد الظهر وليلة 6-11 نوفمبر: عواصف رعدية متفرقة في المنطقة البحرية من كا ماو إلى آن جيانغ.",
+   "title": "عاصفة رعدية تضرب عدة مناطق وتحذيرات رسمية",
+   "url": "https://www.egyptaway.com/2026/11/thunderstorm-weather-update-november.html",
+   "at": "2026-11-06T13:46:30.059417+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
