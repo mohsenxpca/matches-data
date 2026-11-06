@@ -933,6 +933,24 @@
    "at": "2026-11-06",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "مطار",
+   "at": "2026-11-06",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "نادي فرايبورغ",
+   "at": "2026-11-06",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "منتخب السعودية لكرة القدم",
+   "at": "2026-11-06",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
