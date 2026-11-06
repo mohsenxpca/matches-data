@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Andy Burnham government warns of one thing you should 'know' without phone in case of blackout - Manchester Evening News",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOW5HSUliTkZORjBUeml5TzVKSnlseFJWTFU2enFnTGJUMXAybU9GSGxTZmQtQkJ3NERQcktiUXd1QUg0c25fMXc3N3g1NC1xd282bE00QXlvX3lNai1OZkFRUF92SHRWbG1vUUo2d1BhUnk3YW9HRWV6c0ljWWhhbEJhOEY1cTI3d1R3SWlGV1VDd2oyRmlSTzNnTmdQZ0Fs0gGgAUFVX3lxTFA5bkdJSWJORk5GMFR6aXlPNUpKeWx4UlZMVTZ6cWdMYlQxcDJtT0ZIbFNmZC1CQnc0RFByS2JRd3VBSDRzbl8xdzc3eDU0LXF3bzZsTTRBeW9feU1qLU5mQVFQX3ZIdFZsbW9RSjZ3UGFSeTdhb0dFZXpzSWNZaGFsQmE4RjVxMjd3VHdJaUZXVUN3ajJGaVJPM2dOZ1BnQWw?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
-   "title": "Honor X9e S launched with dual-tone design, 8560mAh battery, and robust body - Huawei Central",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5yc0FveTJfSGdTNXZTVVhjQXY1RXdzMlhqRUJTZmVDTWcwS1dKZkh5YjBUYnNwMjJrNFJTU19Zc3FFcURVSEFCQmt5Q2Yyc1ZyajM2eWd6U3NWNFVDblBoUdIBZkFVX3lxTE1KYXFzcEJpQmVSeExxU1l2Q0JHR29zamlqc3pBcVRydUV6TWdXRk9vdlpFQnNNUjhFN2xnUWpoVUNOOUtZVk82dTA3aFBNdEVCT1ZLOVgyYXpmVmx4VE9CQzhObTJWZw?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Model code [x9e] found in existing: مراجعة Honor X9e Pro 2026: بطارية 11000 مللي ومقاومة IP69K والسعر"
-  },
-  {
    "title": "Xiaomi 's iPhone 17 killer has a secondary display on the back - Mashable",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1hUG9XckxvcUZuMHBZVzhWWGxmTWY2MEdpcDhZSDZDWC1hM3NKeEhLRVRIS2IyVC1fUHdLd1lfMEtlZnJ0VjJ0Ml9BOHJpSzd1Y0JYRHpzS2lkcjR6YTVvUW1OeWY?oc=5",
    "at": "2026-11-01",
@@ -3298,6 +3284,25 @@
    "at": "2026-11-06",
    "ok": false,
    "reason": "Recent story overlap on key terms ['works', 'robot', 'year', 'could']"
+  },
+  {
+   "title": "Discord is about to get way, way faster on your Android phone - 9to5Google",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZExyWmhMd1ZvVkh2Qk1Jc0dualBGdWc0dUhGcHByUm9IaGZ3RVExMzNBVV9DR3RRZUxWbnVLdG1lOVZ1ZEliR0lIRHdoREgxNzFnQ3ViTldRZm9HdjBlTEJHR09lMW5HX1QzUVlaeERuSkJPTVNVY0hKekNXYlRvbUJEeWk2MFVseDUzYWV6THZFdXVNQUkxV2UwUQ?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (647 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Xiaomi's Wingless SU7 Ultra Prototype May Preview 2027 Model Update - autoevolution",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbkU2WUlUd3Y2VTA0V0FjOWdEWXY2MS1oT3lEekp3NDIzc1F5anJ3V0tDbklXQkFia1ZwVTJ3VUpXQ3hnRFpvR21MY2RFRmhCQXFwTDlpRFF1YWRVdVNWQ05JbzRqc0I1dGdSbHNVNllocjk2Qy12ZFh0YkRpWWV2MTA4TVlpOHl0a2RIUVoxMHptQUk2ZjRsLXdxNC10ZkxiVFprQjljdlFHM1pqSzhrQm9PcVE?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
