@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "title": "Here's exactly when you'll find out everything there is to know about the Motorola Signature 27 - PhoneArena",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaGstSHdMV3hnVjI4OHVBWm5HaFFRdmJOb0pWWHdWMlR0bDcyRXpxT1o1Y3J2TS0zWmZhMzZFVHhNX25ORHZmeE5VNVNlUGl4cV94bTY5ZDU3Z1FOUlNvUEtZQy1TeXowQ2RpSF9qNHlVOVhNcGgzU0RqcHFsM0pld0xMTXFfT3l4VkViOGNXeldrcHIzR0ctQkFiRWlyT2NQZ0R0dw?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
-   "title": "Best Headphones in 2026",
-   "url": "https://www.gizmochina.com/2026/11/01/best-headphones/",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (637 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
-   ]
-  },
-  {
    "title": "Huawei Starlight sub-brand phone may adopt notable cooling specs - Huawei Central",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT1NmNU9CNUR6NjdzX0dCNFZHcWkwMEpObVpOZ3NUNXJsalhISmM1SmxObWUxZGZRN2wwZ0cxQXM5LUV5ZFBJS29KWVE0UkI3ZXhyOFF5c255MjVMOV9BS0xHQTVVUEg4VW84ZFFEdVZveVpBTVR0Z01jTUtOWUtXMWlJcVEzbXFvTWtQRlM5RFZPYmx1RlZNUElTdFo3akxL0gGgAUFVX3lxTFBPU2Y1T0I1RHo2N3NfR0I0VkdxaTAwSk5tWk5nc1Q1cmxqWEhKYzVKbE5tZTFkZlE3bDBnRzFBczktRXlkUElLb0pZUTRSQjdleHI4UXlzbnkyNUw5X0FLTEdBNVVQSDhVbzhkUUR1Vm95WkFNVHRnTWNNS05ZS1cxaUlxUTNtcW9Na1BGUzlEVk9ibHVGVk1QSVN0WjdqTEs?oc=5",
    "at": "2026-11-01",
@@ -3304,6 +3288,20 @@
    "at": "2026-11-07",
    "ok": false,
    "reason": "Model code [16] with variants set() found in review: مراجعة RugOne Xsnap 7 Pro: وحش المتانة الجديد بنظام أندرويد 16"
+  },
+  {
+   "title": "vivo V80 review - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10WmJrdG9XSzNYM1QwNHpDelczNTZ3VkZlbFJVODM5WXI3UVdub1JJU2ppNGtKc2syZ2UwSk5NRXI5MVB3VjdidHdZcTNlVHRWMklCdXV4X1QyRUxiZkE?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Model code [v80] with variants set() found in review: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
+  },
+  {
+   "title": "iPhone 18 Pro vs iPhone 16 Pro: All the differences explained - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IZXhYZjY2ZU5qVDFDbElLVE83ZmV2bE9nbnpacnFDZUJtQUlGNnRjZDVEZnNvcDRwMDFBOExkQ25zTnRVZUp5ckZIbGlGd1FQZ3l3aG1EZ21lMXpoZlY5N1BJdEZnc2tQOXl4ZjhMaDdJY0U4Ukx1ejdkQ1Q?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Phone 'iphone 18 pro' already covered in: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
   }
  ]
 }
