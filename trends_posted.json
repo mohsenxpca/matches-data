@@ -951,6 +951,18 @@
    "at": "2026-11-06",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "دعاء يوم الجمعة",
+   "at": "2026-11-06",
+   "ok": false,
+   "why": "off-topic"
+  },
+  {
+   "q": "يسرا",
+   "at": "2026-11-06",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
