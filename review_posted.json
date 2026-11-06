@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "سامسونج تٌسجل أعلى أرباحها في الربع الثالث بسبب رقائق الذكاء الاصطناعي",
-   "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/29/3070349/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%AA-%D8%B3%D8%AC%D9%84-%D8%A3%D8%B9%D9%84%D9%89-%D8%A3%D8%B1%D8%A8%D8%A7%D8%AD%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (899 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
-    "العنوان غير صالح أو أطول من 75 حرف (91 حرف)"
-   ]
-  },
-  {
    "title": "مراجعة حاسب ألعاب Honor الجديد: وحش الأداء بشاشة 240Hz وتقنيات مستقبلية",
    "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/25/3068208/%D9%85%D8%A7-%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA-%D9%88%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA-%D8%AD%D8%A7%D8%B3%D8%A8-%D8%A3%D9%84%D8%B9%D8%A7%D8%A8-honor-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-",
    "post_url": "https://www.review-mobile.com/2026/10/honor-new-gaming-tablet-review.html",
@@ -3223,6 +3213,16 @@
   {
    "title": "iQOO 16s gets certified and it's eerily familiar",
    "url": "https://www.gsmarena.com/iqoo_16s_gets_certified_and_its_eerily_familiar-news-75369.php",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Motorola Wants to Sell You a $1,600 Phone That Doesn’t Fold - WIRED",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWTJYdnRrZWlKcndWcDJ2WnZUWlo0anZIRXpzMldvdFZaajNfckp1SWhLZ0Y3MmtmRmprbktPeUx4YTYxb1J4TVNWY2N0U2lzbVlrT3B6NWdWZnFTRzc5WTNHM1dnc0lHejlvQWNqUXJ5TFFEb2t4THg3Q1FIV2duWGt5VllfSXl3RHhxNGR3?oc=5",
    "at": "2026-11-06",
    "ok": false,
    "reason": [
