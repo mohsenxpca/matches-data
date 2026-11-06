@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة حاسب ألعاب Honor الجديد: وحش الأداء بشاشة 240Hz وتقنيات مستقبلية",
-   "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/25/3068208/%D9%85%D8%A7-%D9%85%D9%85%D9%8A%D8%B2%D8%A7%D8%AA-%D9%88%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA-%D8%AD%D8%A7%D8%B3%D8%A8-%D8%A3%D9%84%D8%B9%D8%A7%D8%A8-honor-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-",
-   "post_url": "https://www.review-mobile.com/2026/10/honor-new-gaming-tablet-review.html",
-   "at": "2026-10-30T22:10:22.840245+02:00",
-   "ok": true,
-   "brand": "هونر"
-  },
-  {
-   "title": "A new vulnerability can brick your Android phone when receiving the SMS of Death",
-   "url": "https://www.gsmarena.com/a_new_android_vulnerability_can_leave_your_phone_unusable_when_receiving_the_sms_of_death-news-75288.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
-    "العنوان غير صالح أو أطول من 75 حرف (0 حرف)",
-    "الـ slug غير صالح (): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة",
-    "وصف البحث (0 حرف) يجب أن يكون بين 110 و 175 حرفاً",
-    "المراجعة يجب أن تحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
    "title": "Apple iPhone 18 Pro vs. iPhone 18 Pro Max",
    "url": "https://www.gsmarena.com/apple_iphone_18_pro_vs_iphone_18_pro_max_battery_camera_price_compared-news-75173.php",
    "at": "2026-10-31",
@@ -3223,6 +3202,23 @@
   {
    "title": "Motorola Wants to Sell You a $1,600 Phone That Doesn’t Fold - WIRED",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWTJYdnRrZWlKcndWcDJ2WnZUWlo0anZIRXpzMldvdFZaajNfckp1SWhLZ0Y3MmtmRmprbktPeUx4YTYxb1J4TVNWY2N0U2lzbVlrT3B6NWdWZnFTRzc5WTNHM1dnc0lHejlvQWNqUXJ5TFFEb2t4THg3Q1FIV2duWGt5VllfSXl3RHhxNGR3?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "iQOO 16s incoming! Could peck Snapdragon 8 Gen 6 and 10,000mAh battery",
+   "url": "https://www.gizmochina.com/2026/11/06/iqoo-16s-sirim-certified/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Phone 'snapdragon 8' already covered in: موتورولا تحيي سلسلة Moto One بهاتف خارق بمعالج Snapdragon 8 Gen 5"
+  },
+  {
+   "title": "سامسونج تٌسجل أعلى أرباحها في الربع الثالث بسبب رقائق الذكاء الاصطناعي",
+   "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/29/3070349/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%AA-%D8%B3%D8%AC%D9%84-%D8%A3%D8%B9%D9%84%D9%89-%D8%A3%D8%B1%D8%A8%D8%A7%D8%AD%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
    "at": "2026-11-06",
    "ok": false,
    "reason": [
