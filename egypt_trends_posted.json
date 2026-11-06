@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPRk13Uk9OUW9ZWjRMRE5LM2szaElUQk56QXp5SkZIRkJmOTcxblUxUXNFZ2RjVnVMLU9KSUt6WGdJVlZZaWVkLTRjcDJhbS1mTUxNRHdibFJLUjBpNkVWVDBwQjJEMm8tVG5NTEZ5OHlEXzAtZTlvbXJIZklrbTZ1SVQ1M3hhcDN0dkxVZnhMSnpIQjlrQWk0LXUtS2ZsQmVlYnpwdXN5LU42azdveklJU0tZUWYwMW4xXzBvcDduRVFRRlR5a3NKWmpMb1Q5eGs3MURHYVFLZHRuU1NzWUlHbUs3NzNib2lSOHpVUFk2M2FUeDNyQkZGaEtFanBnY05aY0dpOHhvVFExaG9EZXpHQS1iWVBlWnRybkpHbU9BRmZyODdleGdhYjc1ZWNuYUp0Mi1EUw?oc=5",
-   "t": "التضامن تستهدف 4.7 مليون مستفيد من تكافل وكرامة ببرنامج للتمكين الاقتصادي - موقع الموقع",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/1/قيمة-أكبر-وعقود-أقل-قفزة-بـ10-مليارات-جنيه-بالتمويل-العقاري/7602032",
    "t": "قيمة أكبر وعقود أقل.. قفزة بـ10 مليارات جنيه بالتمويل العقاري تعكس غلاء الشقق بمصر",
    "at": "2026-11-01",
@@ -3319,6 +3312,15 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 11",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'احمد', 'زمالك'}) مع تشابه نصي مع: الزمالك يقرر تصعيد أحمد صفوت للفريق الأول بعد تألقه)"
    ]
+  },
+  {
+   "u": "https://elpais.com/deportes/2026-11-06/carlos-alcaraz-taylor-fritz-el-partido-de-cuartos-de-final-del-masters-atp-de-paris-en-vivo.html",
+   "t": "Carlos Alcaraz - Taylor Fritz, el partido de cuartos de final del Masters ATP de París en vivo|Fritz gana el primer set",
+   "title": "كارلوس ألكاراز يتألق ويحقق إنجازاً تاريخياً في باريس",
+   "url": "https://www.egyptaway.com/2026/11/carlos-alcaraz-paris-masters-victory.html",
+   "at": "2026-11-06T23:54:09.236412+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
