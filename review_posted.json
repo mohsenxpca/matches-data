@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Find X10 review",
-   "url": "https://www.gsmarena.com/oppo_find_x10-review-3007.php",
-   "at": "2026-10-30",
-   "ok": false,
-   "reason": "Model code [x10] found in existing: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
    "title": "Motorola confirms the Signature 27's exact launch date",
    "url": "https://www.gsmarena.com/motorola_confirms_the_exact_signature_27_launch_date-news-75275.php",
    "at": "2026-10-30",
@@ -3213,6 +3206,16 @@
   {
    "title": "While EU iPhone users wait for Siri AI, the Galaxy Z Fold 8 is getting things done",
    "url": "https://www.sammobile.com/opinion/while-eu-iphone-users-wait-siri-ai-galaxy-z-fold-8-getting-things-done/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Qualcomm’s latest Snapdragon chips are compatible with Android’s Linux Terminal app",
+   "url": "https://www.androidauthority.com/snapdragon-android-linux-terminal-3732212/",
    "at": "2026-11-06",
    "ok": false,
    "reason": [
