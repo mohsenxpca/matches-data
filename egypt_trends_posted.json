@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.fotomac.com.tr/trabzonspor/2026/11/01/onuachu-gantepi-seviyor",
-   "t": "Onuachu, G.Antep’i seviyor",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 351 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/1/بعد-طرحه-بأشهر-حصة-أندرويد-17-لا-تتجاوز-1-من/7601915",
    "t": "بعد طرحه بأشهر .. حصة أندرويد 17 لا تتجاوز 1% من الأجهزة النشطة",
    "at": "2026-11-01",
@@ -3319,6 +3310,16 @@
    "ok": false,
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 4، 9"
+   ]
+  },
+  {
+   "u": "https://www.eastrennews.co.uk/sport/national/26708125.leicester-avoid-potential-fa-cup-upset-victory-non-league-oxford-city/",
+   "t": "Leicester avoid potential FA Cup upset with victory at non-league Oxford City",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 30، 58، 64",
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'اكسفورد', 'يستر', 'سيتي'}) مع: موعد نهائي أكسفورد سيتي وليستر سيتي والقنوات الناقلة)"
    ]
   }
  ]
