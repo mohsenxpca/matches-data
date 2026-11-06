@@ -3,15 +3,6 @@
   {
    "u": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPRk13Uk9OUW9ZWjRMRE5LM2szaElUQk56QXp5SkZIRkJmOTcxblUxUXNFZ2RjVnVMLU9KSUt6WGdJVlZZaWVkLTRjcDJhbS1mTUxNRHdibFJLUjBpNkVWVDBwQjJEMm8tVG5NTEZ5OHlEXzAtZTlvbXJIZklrbTZ1SVQ1M3hhcDN0dkxVZnhMSnpIQjlrQWk0LXUtS2ZsQmVlYnpwdXN5LU42azdveklJU0tZUWYwMW4xXzBvcDduRVFRRlR5a3NKWmpMb1Q5eGs3MURHYVFLZHRuU1NzWUlHbUs3NzNib2lSOHpVUFk2M2FUeDNyQkZGaEtFanBnY05aY0dpOHhvVFExaG9EZXpHQS1iWVBlWnRybkpHbU9BRmZyODdleGdhYjc1ZWNuYUp0Mi1EUw?oc=5",
    "t": "التضامن تستهدف 4.7 مليون مستفيد من تكافل وكرامة ببرنامج للتمكين الاقتصادي - موقع الموقع",
-   "title": "تفاصيل برنامج هنا التضامن لدعم مستفيدي تكافل وكرامة",
-   "url": "https://www.egyptaway.com/2026/11/hana-elsodam-takafol-karama.html",
-   "at": "2026-11-01T14:52:39.851144+02:00",
-   "ok": true,
-   "type": "public_query"
-  },
-  {
-   "u": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPRk13Uk9OUW9ZWjRMRE5LM2szaElUQk56QXp5SkZIRkJmOTcxblUxUXNFZ2RjVnVMLU9KSUt6WGdJVlZZaWVkLTRjcDJhbS1mTUxNRHdibFJLUjBpNkVWVDBwQjJEMm8tVG5NTEZ5OHlEXzAtZTlvbXJIZklrbTZ1SVQ1M3hhcDN0dkxVZnhMSnpIQjlrQWk0LXUtS2ZsQmVlYnpwdXN5LU42azdveklJU0tZUWYwMW4xXzBvcDduRVFRRlR5a3NKWmpMb1Q5eGs3MURHYVFLZHRuU1NzWUlHbUs3NzNib2lSOHpVUFk2M2FUeDNyQkZGaEtFanBnY05aY0dpOHhvVFExaG9EZXpHQS1iWVBlWnRybkpHbU9BRmZyODdleGdhYjc1ZWNuYUp0Mi1EUw?oc=5",
-   "t": "التضامن تستهدف 4.7 مليون مستفيد من تكافل وكرامة ببرنامج للتمكين الاقتصادي - موقع الموقع",
    "at": "2026-11-01",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
@@ -3318,6 +3309,16 @@
    "at": "2026-11-06T23:15:43.707349+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7170753",
+   "t": "الدوري أهم بالنسبالي | أحمد رضوان بعد مواجهة الزمالك: قلت للاعبين أظهروا للجميع أنكم لاعبون كبار",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 11",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'احمد', 'زمالك'}) مع تشابه نصي مع: الزمالك يقرر تصعيد أحمد صفوت للفريق الأول بعد تألقه)"
+   ]
   }
  ]
 }
