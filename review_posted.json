@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung Unveils Premium W27 Smartphone Based on Galaxy Fold8 Ultra in China for $3,300 - Mezha",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNUEteGg5eTRLY2xKVkhaeXFacGozLWFpdjFacHlueUdiWVpxMmRXbUJZNGphSlg3aU1JZ0tTeDVRMTJPNk9QODdxUzR3a0xqemR0eC1IOFVWaTFjUkNwOG0tRUtqR1BVQmFYTVgwbDZQelpWbnNsVVI2dlpEMHNrUzlrZEhmTHdFTkR1WmV6Sml1Z9IBlwFBVV95cUxPZm82cm1qZFRwTHF4bEcyVWt4R3R6d1RvSDVFTHdWN1FqMVhfYUt2ZHdCZWFlYi1DOTZheXNxNm9feHVOV1ZSbjhWODdSRzF1MEVvRjE5d1pSdmpwdXdLQmlNajlUM3dncndvOUhqYkRuMFlYb3FzVS1ibk9PUUJpTkcwdlJBd2JfR1Fpb0NHbklIQzQ2YlFF?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
-   "title": "OPPO just teased a world-first triple 200MP camera setup for its new flagship - Nokiapoweruser",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeS1iMGdaUDJBNVZObHR5emMtMF9NcGRKNGVpR0N0NHpIV3FwVHg5eEF0U29VR2p3QmJMRVlmLXl2UWNyX3FwU3hNbTY2aHdMcWh1bUR6T2hJNnowOXhmZmNONWpuUEMwREdKMFplWjVKVkc2YlRxUUw1VXVhbmlHWUdobEt1NmFUcVE?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
    "title": "iPhone 17 vs. iPhone 15: Specs, screen size, and more - Mashable",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzTks0WmZ2ZUZiaHRuS0JHN09zeUxVRU9TWm5rUE9aZ1Zib0dGazV2VHZaRS1OY2tUNUZLaW1xbVNnSmlFb3RMZjl6WEJSd3pwSnBPNWswZi1adjlEUDV2VUtzYjhaOHZ2SWNMVGtUSzF2MGoybDRpc1ZZeXVWaEk?oc=5",
    "at": "2026-10-31",
@@ -3263,6 +3249,22 @@
    "at": "2026-11-06",
    "ok": false,
    "reason": "Recent story overlap on key terms ['5', 'screen', 'wide']"
+  },
+  {
+   "title": "Realme 17 Pro specs leak: 1.5K AMOLED, 10,000mAh battery, and more",
+   "url": "https://www.gizmochina.com/2026/11/06/realme-17-pro-specs-10000mah-dimensity-7300/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['10', '000mah', 'battery']"
+  },
+  {
+   "title": "These 4 free apps turn any Android phone into a Pixel without changing the launcher - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFdlWEp1LUc5X2J1OVJpcy05SmdBRnlFckxOby1fVHJFVzh4NHpGRFVpQVFvZmE3ZFNjNmlVUWJjTGdOWnVJbjRlbHA3SXhrN285SHZkUXFKSVBzQ1kxdkNtRGJrQ0RYQkhrcHlYRG5xM05JUGZQSGNJYWtQbzJVdnRqcVNLTGJTNHBXeGJENnZMVlNZTEhKZnlvbG4xR0Ja?oc=5",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (594 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
