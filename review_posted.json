@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "The Nokia 2360 Flip is a dual-display feature phone with an SOS button - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaGRPUXl0QkJCTEx6ZHpjTDltSVdlS3gxdUVWTTdIZXZLZnZGYWVUbVZaZnA0SHVBVzluU1E5N0dBdnN0YnpHbll0Uk5LZU9VLTVCME1lWGQ1X05Mb3I1MmJla0lxN1EyVDdxZWhITDE4aVRBNVlDVldBSUNQdnd3TDVXUTI3LU5hZEtnSEllNU1OcmxLU19oWHVDcUxreWhQU3Rmb2haRXVPSlFNQmfSAaoBQVVfeXFMUGQzMFJKSzBHWW5PTDdQdFVrcHZhN2hDZl82dWVnR0Y1Z0x3Vnd6TE9zT1RnYkMxdl90cXVUS2JTMzBfZWpDV2dnOU50Ym1VOXlsUFNGNlFYbF9WbWE0Wm9zVDVpVHRwcVFTS2MwQjRKT2c1NllEc3dOVlRlbFVGMC1BbWhXMUhFQnZmY3NUNktPSUdDaXlfZFJHcGZLX0pXNHhBbzBIMy1OSkE?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
-  },
-  {
-   "title": "Oppo Reno17 series confirmed to launch next month, blind pre-orders go live - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNHFoSlYtSWtsSFNhcnJLV0JpdDFoWXc4c2RGcTVEVXRUQlpBNFVFcDdYTUY3cXAyYkpCam41VWYzcFFLdGlxM1RVR1VPQTRXLXR3aVUwZTBsTFo3cGx4T3BRbm95RHNLcENzMnZxOTMxZDFCTUxKdkFzQllWLXBfMXQyOS1SeHBqNEJyc1R4ZDZXNVBWY2c4N0ctMkl0OFdKZnYxdWh5UU9zV0IzcGphaUFJd9IBrwFBVV95cUxOM09GS3FTYlRsaUszenZxeEFESktad1I0cjlPenZnWDFoVmlvQ2pJSUJvZ21vcEhQZDdIWWVBaVNfNU9jS19KOFc0a2RDbW9vVDM3NUlpWTM2bTQ4U0RrVUVQSTNmZUFpRThQZVc0dGU2cVFxandWSW5HZ3F3NlotNFZlYzcyQzh0NGxETVVvR2VOYTRDUEk3NEtqNW4tWUpXSXJYMi03ZzJzeVNnMVFR?oc=5",
-   "at": "2026-10-31",
-   "ok": false,
-   "reason": "Model code [reno17] found in existing: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
-  },
-  {
    "title": "Nokia 2360 Flip - Full phone specifications - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KX1BIQ2xwU0NsMDRYcTZvMXVKa3JPckxsRHN6ZTItLTVwTXZBbVBId0VCaHAzUHp3VFAySVZzOEd1ZUh6TW5nTENJeklKX3ZlTE5LOHd3UEVZU2djNTF3?oc=5",
    "at": "2026-10-31",
@@ -3244,6 +3230,22 @@
    "ok": true,
    "kind": "review",
    "brand": "اخرى"
+  },
+  {
+   "title": "Google Find Hub is catching up to Apple Find My with left-behind alerts",
+   "url": "https://www.androidauthority.com/google-find-hub-left-behind-reminders-rolling-out-3732383/",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (493 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Xiaomi Redmi Note 17",
+   "url": "https://www.gsmarena.com/xiaomi_redmi_note_17-14846.php",
+   "at": "2026-11-06",
+   "ok": false,
+   "reason": "Phrase [redmi note] found in review: مراجعة Redmi Note 17 Pro Max 2026: بطارية 10000 وشحن 100 واط والسعر"
   }
  ]
 }
