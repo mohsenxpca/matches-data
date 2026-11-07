@@ -1,26 +1,6 @@
 {
  "done": [
   {
-   "u": "https://rtvc.es/racing-de-santander-vs-real-madrid-j11-laliga-ea-sports-26-27/",
-   "t": "Racing de Santander vs Real Madrid: horario, alineaciones y minuto a minuto | J11 LaLiga EA Sports",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 10، 5، 8",
-    "الـ body 409 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'راسينج', 'مدريد', 'سانتاندير', 'ريال'}) مع: موعد مباراة راسينج سانتاندير وريال مدريد والقناة)"
-   ]
-  },
-  {
-   "u": "https://www.elbalad.news/7163914",
-   "t": "محمد عبدالجليل: الأهلي بقى منتخب أندية ومبقاش فيه حد من أبناء النادي",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 331 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.afyonturkeligazetesi.com/trabzonspor-baskani-ertugrul-dogandan-olay-sozler-messi-ronaldo-salah-iste-salah-trabzonsporda/148747",
    "t": "Trabzonspor Başkanı Ertuğrul Doğan’dan Olay Sözler! “Messi, Ronaldo, Salah… İşte Salah Trabzonspor’da!”",
    "at": "2026-11-01",
@@ -3326,6 +3306,26 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 7، 9"
    ]
+  },
+  {
+   "u": "https://www.bild.de/sport/fussball/fc-bayern-manuel-neuer-in-mainz-verletzt-ausgewechselt-6aef401a2f874a5744a43778",
+   "t": "FC Bayern: Manuel Neuer in Mainz verletzt ausgewechselt",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 392 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ايرن', 'ميونخ'}) مع تشابه نصي مع: هاري كين الأغلى في أوروبا.. تفاصيل عقد بايرن ميونخ التاريخي)"
+   ]
+  },
+  {
+   "u": "https://www.albayan.ae/sports/uae-stadiums/1563178",
+   "t": "3 قمم تشعل صراع الصدارة مع عودة دوري أدنوك للمحترفين",
+   "title": "الشارقة ضد شباب الأهلي.. قمة نارية بدوري أدنوك",
+   "url": "https://www.egyptaway.com/2026/11/sharjah-vs-shabab-alahli-adnoc-league.html",
+   "at": "2026-11-07T18:47:23.254764+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
