@@ -1,41 +1,6 @@
 {
  "done": [
   {
-   "title": "Google Pixel 7a announced: Specs, price, release date - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb1Z4OVpSV0FyN3pwUGNDUG5hc0xnM0NvOGZkdGY0amR2S1BLWUU3bm9KZUx4UlF2Rm5ReVAxZmg2YVl3RW81SHlZdUhBZnYxWmkybkRRZTBTU1FLaDczcHBxY3VnVVl4Q1JpT3FYdGJQNGZzR0pzdHFScWtGTHBzakFIVQ?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [google pixel] found in existing: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
-  },
-  {
-   "title": "Xiaomi Poco X8s - Full phone specifications - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xb3d3RU9JdTVJRGgzUGZHRTFBbjhCUUlQWVpSRkJhZHhZd0N3cTdVVlhGYWVDQmRob0hVV284T3AzRmdDcGJqdG1peXNqNzBJS01hWUhLU2xJSU1UVi1ZTzI2TQ?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [x8s] found in existing: مراجعة Poco X8s: أصغر هاتف بـ6330 مللي وشاشة 6.35 بوصة"
-  },
-  {
-   "title": "ZEED Z-Pro Max - Full phone specifications - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02UFpLeTVkcTNrX3Z1a2RFdk0wQVlKQkRBMFpaT1NwZzBYR3owWndXOEJUaGl1X1BRR1cwNEZnTDJQWnRKU054R3Rzb082Tk1xU3phN21iLTZMSXdJSGhMNFFB?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
-   "title": "Deals: the Pixel 11 series is on sale and so is the Galaxy S26 series - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRE1YSzZSMnlsVEl2Y20tWVh0bGpJR1hPajA0ZDF4MHpESmlaSk82TURFcUs1dTItSlAxX2wwTFd2YUNWbUN0cjJHRS1hTVg4U2hVbUROUWlpQjktSjVmN1dWbi1fS2lKSnNXdHVRblRKdEFoOEdnMHlXVzBRR051UUJtS1JIT2FkOEwzU1EtLXVHS1poMFlnbV80cWt5eEdKcG1vU0VmZUo2WDBG0gGoAUFVX3lxTE5fT0UxcTlIWEl4NWVid0dESTQ3U28wblVkMEdmNzZ4YkZ6aTJJTnR3aTVJMW9BbWh4eElMS1RtMHNmRFdyOVRFNjdGcE1jSU1LbmRyb2VUbXFmbnJwU0k2MTRhVlk0M2tSTmQxMUNwUGVmTHJYWFZhWFZMSnhoVFlSM2xwd2V6VGx0ckh6Z0F3Y3BqaGZlTUVVRDhJVEZxVHZ3UUxlME1yTA?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [s26] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
-  },
-  {
-   "title": "Samsung Galaxy Z Fold 8 Ultra: What we know - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVVFBZEN3QnIzbTZlY0E5Zng5aFBLc2liSUVJU2h0elN2TlNRdlFNeVJ1RVBtb3JhOEg5cFBPcW5TN1VIUHMzdUtPTVhGNUdiMTJONGNvRFVNWEZYNVREaXE0andPRkRjTlZzelBIS3lsM1hYZnQxZlN6b0pWQi1VcTcydmhKbjduSk1MVWR3?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
-  },
-  {
    "title": "Vivo Y32 5G launches with 8,000mAh battery, Snapdragon 4 Gen 2, and IP69 rating",
    "url": "https://www.gizmochina.com/2026/11/02/vivo-y32-5g-launched-8000mah-snapdragon-4-gen-2/",
    "at": "2026-11-02",
@@ -3342,6 +3307,46 @@
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ2VDcjAxU2VhZ2hWaW9MaUZlZDVjZmtveWZZX2owa3FDZ0FUdU4wTjdUSktJNjJfU2NwLUVWaVRUTzJoc0xaZDRQU04yZF9MNUk2OGFPcGRuR3ZqNEFidFpJc1JscmxrUExLVV9zb0VxMTVDM3hmRjVxS0h3VHlCY3c3QXFDQzdzM2JlRGNKQWJnemNvdUFPbTR0VmxWa2YxdWg1bXNJeWFSSnM?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/android-brands-going-wide-smartphones.html",
    "at": "2026-11-08T00:51:44+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "The Duo apps are coming, says Apple - TechCrunch",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBpRzNFdkt1VzdsdXduNDhYNlhGNWxKS3RNeTNWa09TMFFuSVhzREVqWWFTaEtxTE1PbF9MQmZCZlYwQlJDYVd3TjlVb2NJTURRczNtZEd2T25wUVdmMEJBZ2xRLTZvOU0tTTA0U1Btc0hXaV8yOUNKRw?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (555 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Xiaomi 18 Pro Max Could Be Xiaomi's Most Powerful Phone Yet - Nokiapoweruser",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvZU9UaHZFbzdPdHZZZllFM3BCWlViSDJRMFp6Ti1vWnJGX0NGLWhOaV9rTzJUZWNvSm1UbkRCSmg4TVhVbkRYb1ZiNGU0SXdtM0loaUFJOElDS284QlAwc01xOERNMkk?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro max' already covered in: Xiaomi 18 Pro Max مراجعة سعر ومواصفات أحدث هواتف شاومي الرائدة"
+  },
+  {
+   "title": "Great news: OnePlus 16 could finally make its international debut - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJRTh2Qmt0c3dPUENrLXFtNzJzMnVQNW9iRXdLWnRGVElyZFZWR1NJNGNEUXpHa2tGQkt0U09YNDJHZDhTaG92ZFB1N2RmdDkxOUZwZTk3NTFzeDF0RGlyZ2UwRHVWdlZ5M0xiME5kVGJIUQ?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": "Phone 'oneplus 16' already covered in: مراجعة OnePlus 16 قبل الإطلاق: Snapdragon 8 Elite Extreme وشاشة 185Hz"
+  },
+  {
+   "title": "realme C01 Launched, 6,500 mAh Battery Price IDR 2.64 Million - VOI.ID",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBRMHpQYXJnYlRCYWx4bk1BUnY4THhkT18wMWlud1FNSWlZRTJYd3RNODRUU0R2SkRraHhzT3hjM0FmWnV2Y3Q3Tm50Zw?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": "Phone 'c01' already covered in: مراجعة Realme C01 2026: بطارية 6500 وشاشة 120Hz وNFC والسعر"
+  },
+  {
+   "title": "Ai+ Smartphone ترفع أسعار هواتفها مبكراً: فرصتك الأخيرة للشراء",
+   "cand_title": "Ai+ Smartphone Brings Forward November 15 Price Hike to November 11, Now Is the Best Time to Buy - Devdiscourse",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORTVPTEtqM3lzcEdZSHZXOFFDU0FoQVppeHFCMGpjOFVXUk5IbHJ3QllsZFFSSF9OVURrOFlQNktia0pHdzJ1ZzQxX2RPWjVSWVI4LUdVOWhCRjRHX1ExcV9nX3JuVC12alZndDctT21ZcmZ5aGxmSUhOTTNTc0ljMVBJS0p6ODNBbVNjbzl5R2d1cEphdGNoZzgtNkRFS1Iyc0w0QllXaXBPWmtxRTFpWXViWjNFdDU3S2RjRVdSOVJadGNMejBBWm10Yk5FZldxcHFGTXJTQVZkUXlRSF96RXVn0gHnAUFVX3lxTE1RNzM0M0hyUTF0djhNNlpySDI5T2NDR2hhZlVfMXRwV0hHYnJ2VGlWY3RGQUlyTlp0MHpWbzFfRmhRLTlyUnpEWTdfdFdOZVZvZEpzRkRqN2Jib0VkQm5Ka0xVRU1FbDBlVFVHYlQ5NlFsTDBNZVhOMnlaeVR4ZV9SWG5fT3J6dTlyMEhqZHlfY3ZkLVZxcjM5SmFyUml1OUpfOGVlOXlLamJXeUZ2RE16TFZEdm9TSnhuWENLZS1uSklEcm43aEF4cTdRWmlxM0QzTjJDVjdiWnFZWEotZEJrZ3drWFBnVQ?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/ai-plus-smartphone-price-hike-advanced.html",
+   "at": "2026-11-08T01:21:53+02:00",
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
