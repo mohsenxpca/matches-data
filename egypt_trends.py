@@ -32,16 +32,64 @@ STATE_FILE = "egypt_trends_posted.json"
 DAY_CAP = int(os.environ.get("EGYPT_TRENDS_DAY_CAP", "12"))
 COUNT = int(os.environ.get("COUNT", "1"))
 
-# Curated high-res natural photography fallbacks (no text overlays)
+# Curated high-res natural photography fallbacks (no text overlays, diverse multi-photo pools)
 TREND_PHOTO_POOLS = {
-    "clock": "https://images.pexels.com/photos/1198264/pexels-photo-1198264.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    "weather": "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    "supply": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    "transport": "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    "education": "https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    "money": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    "holidays": "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    "cairo": "https://images.pexels.com/photos/3290075/pexels-photo-3290075.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    "sports": [
+        "https://images.pexels.com/photos/3148452/pexels-photo-3148452.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/30651230/pexels-photo-30651230.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/19875973/pexels-photo-19875973.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/36227922/pexels-photo-36227922.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/26694125/pexels-photo-26694125.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "tennis": [
+        "https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/1619860/pexels-photo-1619860.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/5739164/pexels-photo-5739164.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "phones": [
+        "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "gaming": [
+        "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/194511/pexels-photo-194511.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "gold": [
+        "https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "clock": [
+        "https://images.pexels.com/photos/1198264/pexels-photo-1198264.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/280264/pexels-photo-280264.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "weather": [
+        "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "supply": [
+        "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "transport": [
+        "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "education": [
+        "https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "money": [
+        "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "holidays": [
+        "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
+    "general": [
+        "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+        "https://images.pexels.com/photos/3290075/pexels-photo-3290075.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+    ],
 }
 
 # Cross-link suggestions to relevant Egyptaway hub pages
@@ -145,23 +193,77 @@ PROMPT_TEMPLATE = """أنت محرر شؤون مصرية وتقارير خدمي
 """
 
 
+def _pick_from_pool(pool, seed_text=""):
+    if not pool:
+        return ""
+    import random, hashlib
+    # مزيج بين التوزيع العشوائي وثبات الهاش لضمان تنوع الصور تماماً
+    if seed_text:
+        idx = int(hashlib.md5(seed_text.encode('utf-8')).hexdigest()[:8], 16) % len(pool)
+        return pool[idx]
+    return random.choice(pool)
+
+
 def pick_fallback_photo(text):
     t = text.lower()
+    # 1. بنوك وشهادات واقتصاد وذهب وعملات (تُفحص قبل الرياضة لمنع تطابق كلمة "البنك الأهلي" مع كورة)
+    if re.search(r"شهادة|شهادات|البنك الأهلي|بنك مصر|البنك المركزي|فوائد البنوك|ودائع|سعر الفائدة", t) and not re.search(r"نادي البنك الأهلي|فريق البنك الأهلي", t):
+        return _pick_from_pool(TREND_PHOTO_POOLS["money"], text)
+    if re.search(r"ذهب|عيار 21|الجنيه الذهب|سعر الذهب|بورصة الذهب|دولار|سعر الصرف|عملات|ريال|درهم", t):
+        return _pick_from_pool(TREND_PHOTO_POOLS["gold"], text)
+
+    # 2. تنس ورياضات فردية
+    if re.search(r"تنس|ألكاراز|نادال|ديوكوفيتش|رولان جاروس|ويمبلدون|مضرب", t):
+        return _pick_from_pool(TREND_PHOTO_POOLS["tennis"], text)
+
+    # 3. كورة ورياضة وبطولات وملاعب
+    is_sports = False
+    if re.search(r"نادي البنك الأهلي|فريق البنك الأهلي", t):
+        is_sports = True
+    elif re.search(r"كورة|كرة|مباراة|مباريات|دوري|ليفربول|ريال مدريد|برشلونة|ملعب|استاد|لاعب|مدرب|فريق|نادي|كأس|بطولة|ديربي|كلاسيكو|منتخب|أدنوك|توتنهام|ليدز|مانشستر|أرسنال|بايرن|صلاح|مرموش|ميسي|رونالدو", t):
+        is_sports = True
+    elif re.search(r"الأهلي|الاهلي|أهلي|أهلى|زمالك|بيراميدز", t) and not re.search(r"البنك الأهلي|بنك الأهلي", t):
+        is_sports = True
+    if is_sports:
+        return _pick_from_pool(TREND_PHOTO_POOLS["sports"], text)
+
+    # 4. هواتف وتكنولوجيا وتطبيقات
+    if re.search(r"هاتف|موبايل|سامسونج|شاومي|آيفون|ايفون|أندرويد|اندرويد|تطبيق|تحديث|معالج|كاميرا|شاشة|ذكاء اصطناعي|شات جي بي تي|جيميني|سماعة|لاب توب|سيرفر", t):
+        return _pick_from_pool(TREND_PHOTO_POOLS["phones"], text)
+
+    # 5. ألعاب وجيمنج
+    if re.search(r"لعبة|العاب|ألعاب|جيمنج|بلايستيشن|اكس بوكس|ببجي|فري فاير|فورتنايت|فيفا|اي فوتبول", t):
+        return _pick_from_pool(TREND_PHOTO_POOLS["gaming"], text)
+
+    # 6. ساعة وتوقيت
     if re.search(r"ساعة|توقيت|الشتوي|الصيفي|تأخير|تقديم", t):
-        return TREND_PHOTO_POOLS["clock"]
+        return _pick_from_pool(TREND_PHOTO_POOLS["clock"], text)
+
+    # 7. طقس وأرصاد
     if re.search(r"طقس|أرصاد|مطر|حرارة|شتاء|سيول|رياح|نوة", t):
-        return TREND_PHOTO_POOLS["weather"]
+        return _pick_from_pool(TREND_PHOTO_POOLS["weather"], text)
+
+    # 8. تموين وسلع
     if re.search(r"تموين|سلع|خبز|معرض|أهلا رمضان|سكر|زيت", t):
-        return TREND_PHOTO_POOLS["supply"]
+        return _pick_from_pool(TREND_PHOTO_POOLS["supply"], text)
+
+    # 9. مواصلات وقطارات ومترو
     if re.search(r"مترو|قطار|سكة حديد|مواصلات|تذكرة|تذاكر", t):
-        return TREND_PHOTO_POOLS["transport"]
+        return _pick_from_pool(TREND_PHOTO_POOLS["transport"], text)
+
+    # 10. تعليم وامتحانات
     if re.search(r"مدارس|جامعات|امتحانات|تعليم|نتيجة|تنسيق|دراسة", t):
-        return TREND_PHOTO_POOLS["education"]
-    if re.search(r"مرتب|معاش|فلوس|صرف|بنوك|مالية|تكافل", t):
-        return TREND_PHOTO_POOLS["money"]
+        return _pick_from_pool(TREND_PHOTO_POOLS["education"], text)
+
+    # 11. مرتبات ومعاشات وبنوك
+    if re.search(r"مرتب|معاش|فلوس|صرف|مالية|تكافل", t):
+        return _pick_from_pool(TREND_PHOTO_POOLS["money"], text)
+
+    # 12. إجازات وعطلات
     if re.search(r"إجازة|عطلة|أعياد|رسمية|مناسبة", t):
-        return TREND_PHOTO_POOLS["holidays"]
-    return TREND_PHOTO_POOLS["cairo"]
+        return _pick_from_pool(TREND_PHOTO_POOLS["holidays"], text)
+
+    return _pick_from_pool(TREND_PHOTO_POOLS["general"], text)
 
 
 def pick_hub_callout(text):
@@ -363,6 +465,14 @@ def get_trend_candidates(custom_query=None):
                 t_node = n.find(["news_item_title", "ht:news_item_title"])
                 link = u_node.text.strip() if u_node else ""
                 t = t_node.text.strip() if t_node else q
+                # استبعاد أي أخبار بلغات أجنبية أو نطاقات غير عربية ومطابقة الأقسام الرسمية
+                if not re.search(r"[؀-ۿ]", t):
+                    continue
+                parsed_domain = urllib.parse.urlparse(link).netloc.lower()
+                if any(parsed_domain.endswith(tld) for tld in [".vn", ".es", ".mx", ".it", ".fr", ".de", ".cn", ".ru", ".uk", ".br"]):
+                    continue
+                if not is_valid_topic(t) and not is_valid_topic(q):
+                    continue
                 if link and link not in seen_urls and not re.search(AVOID_REGEX, t, re.I):
                     seen_urls.add(link)
                     candidates.append({"t": t, "link": link, "type": "trends", "query": q})
