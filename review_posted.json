@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Weekly poll results: the Oppo Find X10 Pro Max is too expensive and so is the Find X10 - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZUtwZ3NBaUVxWG5CYnhnQUFhX3NUYUVRdTJjUVAzTmRKdk5xV1luR2ttdEtBNmtWNnF3WmQwSDNybFJ6SnBnRkNvNGVtbUp6aTgxOFdNY2hIUmg3VTJmN3B0aHdZd3QxOVpFdWRkQzBjSlZ6Y0JCeXdYYUJ6VnRMcWJURHVRMWlVazJlbjhwWTdaV25nUkdBZmNTeW53WVZUZWJ1b0RHT3FwVk01bzFwVV9LM2FzZEdzdkNkZU0wZUYxSXfSAb8BQVVfeXFMT3h6SmcxLU1Oc0JQdjlPRnR3WlE4aGZ1U2tCWjF6OGhRQnJlemNjR1IydVpHb0RTTHRQbEM3T2RIdzlib3Y3SWtWTUp0dTlkNXJBcEZNM3Ztb1NJSWEzNlFoZWFMZ29xcC1RM2IzLW0zWTUzYjFpejFkNDlFby1BcXZ4MzYyWDRnOE9VamM5d0NhT3hmanFHTlJCcklXRFlvVm1VTy0xejdpaFB6RGs5ZjIyN0lTbGl2UFo1cnhXWFE?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
-   "title": "Google Pixel 8, Pixel 8 Pro officially announced. And there's a new built-in thermometer, too. - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZVUV3YnpqYnNDWnhFX2M0bUJCeGRoMVMxME5JRmVCbG5HdFZxR2JLbGpQSXk3bE5sTTdMaDJ6Q3RITGt1ZGluT2ZMOHE1S1pPNFItNjFXeUZkZzBMd3pNVjBvY0ZQWEk?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [google pixel] found in existing: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
-  },
-  {
    "title": "مراجعة عروض الهواتف الرائدة من أبل وسامسونج وأوبو",
    "url": "https://www.gsmarena.com/deals_apple_oppo_and_samsungs_latest_flagship_smartphones_are_available_at_reduced_prices-news-75297.php",
    "post_url": "https://www.review-mobile.com/2026/11/flagship-smartphones-deals-2026.html",
@@ -3308,6 +3294,23 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "How does your old iPhone 15 compare to iPhone 17? Let's compare specs, screen size, and cameras. - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzTks0WmZ2ZUZiaHRuS0JHN09zeUxVRU9TWm5rUE9aZ1Zib0dGazV2VHZaRS1OY2tUNUZLaW1xbVNnSmlFb3RMZjl6WEJSd3pwSnBPNWswZi1adjlEUDV2VUtzYjhaOHZ2SWNMVGtUSzF2MGoybDRpc1ZZeXVWaEk?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Phone 'iphone 17' already covered in: مراجعة سعر و مواصفات iPhone 17"
+  },
+  {
+   "title": "Honor 700 Pro",
+   "url": "https://www.gsmarena.com/honor_700_pro-15069.php",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (764 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
   }
  ]
 }
