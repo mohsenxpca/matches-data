@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.afyonturkeligazetesi.com/trabzonspor-baskani-ertugrul-dogandan-olay-sozler-messi-ronaldo-salah-iste-salah-trabzonsporda/148747",
-   "t": "Trabzonspor Başkanı Ertuğrul Doğan’dan Olay Sözler! “Messi, Ronaldo, Salah… İşte Salah Trabzonspor’da!”",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 377 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'تصريحات', 'تثير'}) مع تشابه نصي مع: تصريحات عماد متعب تثير الجدل حول استبعاد ثنائي الأهلي)"
-   ]
-  },
-  {
    "u": "https://www.fanatik.com.tr/trabzonspor/trabzonsporda-ertugrul-dogan-camiaya-seslendi-trabzonsporun-haklarini-korumak-icin-dimdik-ayaktayim-2643043",
    "t": "Trabzonspor'da Ertuğrul Doğan camiaya seslendi: 'Trabzonspor'un haklarını korumak için dimdik ayaktayım",
    "at": "2026-11-01",
@@ -3326,6 +3316,15 @@
    "at": "2026-11-07T18:47:23.254764+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/7/إنستجرام-يطرح-Edits-على-ماك-مجانًا-مونتاج-4K-وأدوات-ذكاء/7609502",
+   "t": "إنستجرام يطرح Edits على ماك مجانًا.. مونتاج 4K وأدوات ذكاء اصطناعي",
+   "title": "إنستجرام تطرح تطبيق Edits لأجهزة ماك مجانًا وبدون علامات مائية",
+   "url": "https://www.egyptaway.com/2026/11/instagram-edits-mac-free.html",
+   "at": "2026-11-07T19:06:32.709713+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
