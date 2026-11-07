@@ -1633,6 +1633,25 @@
       "err": [
         "طول المقال قصير جداً (440 كلمة، المطلوب 450+)"
       ]
+    },
+    {
+      "title": "بكام أنبوبة البوتاجاز اليوم السبت 7 نوفمبر؟.. آخر أسعار الأسطوانة المنزلية والتجارية",
+      "url": "https://www.almasryalyoum.com/news/details/4403265",
+      "at": "2026-11-07T09:56:00.506830+02:00",
+      "ok": false,
+      "err": [
+        "رد Gemini فارغ أو غير صالح"
+      ]
+    },
+    {
+      "title": "غلق حجز شقق سكن لكل المصريين 9 غدًا ودعم بـ 100 ألف جنيه",
+      "orig": "غلق حجز شقق «سكن لكل المصريين 9» غدًا.. دعم يصل إلى 100 ألف جنيه",
+      "url": "https://misrelaan.com/article/141408/%D8%BA%D9%84%D9%82-%D8%AD%D8%AC%D8%B2-%D8%B4%D9%82%D9%82-%C2%AB%D8%B3%D9%83%D9%86-%D9%84%D9%83%D9%84-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D9%8A%D9%86-9%C2%BB-%D8%BA%D8%AF%D9%8B%D8%A7-%D8%AF%D8%B9",
+      "post_url": "https://www.egyptaway.com/2026/11/closing-reservation-sakan-koll-el.html",
+      "topic": "housing",
+      "has_real_photo": false,
+      "at": "2026-11-07T09:56:00.506830+02:00",
+      "ok": true
     }
   ]
 }
