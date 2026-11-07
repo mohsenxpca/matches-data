@@ -1,28 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro Max Could Be Xiaomi's Most Powerful Phone Yet - Nokiapoweruser",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvZU9UaHZFbzdPdHZZZllFM3BCWlViSDJRMFp6Ti1vWnJGX0NGLWhOaV9rTzJUZWNvSm1UbkRCSmg4TVhVbkRYb1ZiNGU0SXdtM0loaUFJOElDS284QlAwc01xOERNMkk?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
-   "title": "Motorola Edge 70 Pro & Pro+ Leaks: Specs & Design - NPowerUser - Nokiapoweruser",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0YTM2bkZwcnJzSmxHS3VnaXpyc2tuOGdCMDVXOFlRMnhRWVE0SGZtcTE0VzM5UWRWWjhHc0lndF9ma3RVMWx3RVNyX2I5dGZyeXdNei03UVVBWFF0US01TWwyQzl6SjV5VmZmQjQzaGt3b2NHNF9mVXJ1dXJlZw?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [edge 70] found in existing: موتورولا Edge 70 Pro ياخد أندرويد 17: تحديث 3.42 جيجا"
-  },
-  {
-   "title": "مراجعة Nothing Phone (3): هل يغير قواعد اللعبة؟ السعر والمواصفات الكاملة",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uWUpHbkZybFB6QVd2X29NR2tBLXFWR2FMdlRrWmdQTl9oYkh0aTJ2c1pzYXJiN3A3NkVGc1JPTV96LUJEaTNkOU5HLTZQX01nQ2wwdHlmYWdTeFpjY09HQmltMVI?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/nothing-phone-3-review-specs-price.html",
-   "at": "2026-11-02T01:48:24+02:00",
-   "ok": true,
-   "brand": "اخرى"
-  },
-  {
    "title": "Google Pixel 7a announced: Specs, price, release date - Mashable",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb1Z4OVpSV0FyN3pwUGNDUG5hc0xnM0NvOGZkdGY0amR2S1BLWUU3bm9KZUx4UlF2Rm5ReVAxZmg2YVl3RW81SHlZdUhBZnYxWmkybkRRZTBTU1FLaDczcHBxY3VnVVl4Q1JpT3FYdGJQNGZzR0pzdHFScWtGTHBzakFIVQ?oc=5",
    "at": "2026-11-02",
@@ -3339,6 +3317,34 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "OnePlus releases its ColorOS 17 rollout schedule for November",
+   "url": "https://www.gsmarena.com/oneplus_releases_its_coloros_17_rollout_schedule_for_november-news-75398.php",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (483 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Apple Won't Make a Small Phone so This Company Is Stepping In - Lifehacker",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQTFucGNnU2c4djhrNnNTUFhwa3lYRm1rdGk0WV9pampjZklKQ0Nrb0dhV0l5dTJvV216eTh2QWxwVjRrNGRfU1dKekN2M1RVa0xxZ2N3Zkx5Z2EwTlprWEJoZ0NuRHktdVVuTWF4Z04tNEphajliVDJLRzFjWGs3QWVEaTJfMEp4a3R6bzVWZ2ttUQ?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "عودة الهواتف العريضة.. صدمة لعشاق الشاشات الطويلة",
+   "cand_title": "Say goodbye to tall candy-bar phones: Android brands are going wide - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ2VDcjAxU2VhZ2hWaW9MaUZlZDVjZmtveWZZX2owa3FDZ0FUdU4wTjdUSktJNjJfU2NwLUVWaVRUTzJoc0xaZDRQU04yZF9MNUk2OGFPcGRuR3ZqNEFidFpJc1JscmxrUExLVV9zb0VxMTVDM3hmRjVxS0h3VHlCY3c3QXFDQzdzM2JlRGNKQWJnemNvdUFPbTR0VmxWa2YxdWg1bXNJeWFSSnM?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/android-brands-going-wide-smartphones.html",
+   "at": "2026-11-08T00:51:44+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
