@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.vietnam.vn/ar/chau-co-nha-doc-tai-phat-xit-mussolini-toa-sang-o-serie-a",
-   "t": "يتألق حفيد الديكتاتور الفاشي موسوليني في الدوري الإيطالي الدرجة الأولى.",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://ar.telquel.ma/%D8%A7%D9%84%D9%83%D8%A7%D9%81-%D9%8A%D9%81%D8%AA%D8%AD-%D8%A3%D8%A8%D9%88%D8%A7%D8%A8-%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%A3%D9%86%D8%AF%D9%8A%D8%A9-2029-%D8%A3%D9%85%D8%A7/",
    "t": "وهبي وفينغر.. جلسة خاصة لمناقشة نجاح إفريقيا في مونديال 2026",
    "at": "2026-11-01",
@@ -3327,6 +3320,15 @@
    "ok": false,
    "reason": [
     "الـ body 456 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/7/تطبيق-Apple-Music-Classical-يحصل-على-أيقونة-جديدة-باللونين-الأبيض/7609413",
+   "t": "تطبيق Apple Music Classical يحصل على أيقونة جديدة باللونين الأبيض والأسود",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "الـ body 309 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
