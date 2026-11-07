@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Honor 700 and 700 Pro will reportedly support a teleconverter",
-   "url": "https://www.gsmarena.com/honor_700_and_700_pro_will_reportedly_support_a_teleconverter-news-75293.php",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [honor 700] found in existing: مراجعة Honor 700 و 700 Pro: ثورة في التصوير والشاشات الخلفية بمواصفات خارقة"
-  },
-  {
    "title": "Huawei Pura X Max: CNY 10,999 Wide Foldable [2026] - shattered.io",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSEVtcFJBY3ZBOVN4VURELVI3Yjl3Uy1VaFpJTWNvS1ViWDllYTRPejhxbEszOVlfb1ZHRXhzbVVYSlVMRWZKeGw1YjZleGc4b241VUNJWmlsZWtBYzZLRjJSSWxGbEttcG1mWUxfdE54N2VBaWVGS2VvRnlHc0JkdW1oN0lUc3FK?oc=5",
    "at": "2026-11-01",
@@ -3319,6 +3312,13 @@
    "reason": [
     "طول المقال قصير (669 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "Samsung Galaxy S26 FE specs reportedly leak. What they are, how much it might cost - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE56X0NUQ2VlQl9tczJ0cnRnQmRvcUYzU3JiSHZlNG5yQXhFUFUxY0lzNlZMMkt4TUN3OE5TVlJ1LUlSd0NLNWhPQ1hoQ1cyMmRGc2xzSnVSQ2IzaC1qLWwzOFlIYjhKbzlEbHVJV2RtQXd5dw?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Phone 's26 fe' already covered in: مراجعة Samsung Galaxy S26 FE: بديل أرخص لـ S26 2026"
   }
  ]
 }
