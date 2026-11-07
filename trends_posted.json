@@ -1024,6 +1024,17 @@
    "at": "2026-11-07",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "امطار",
+   "at": "2026-11-07",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "طويق",
+   "at": "2026-11-07",
+   "ok": false
   }
  ]
 }
