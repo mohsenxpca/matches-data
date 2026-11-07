@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Andy Burnham government warns Brits of one thing to 'know' how to do without phone in case of blackout - Manchester Evening News",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWTRuMXpmdWFLaGxqNlYzWUd4QUhydEF6R0lTalg5QkdyUk1KZGdkMGZPVHFyeVpyVHRRS1cyc0xjQlo5amFUYUt1MFY4aUpyRDJSV3lMM1A3T1BpSU1FMjltek9odVBCeThiU1hnMjZHdkI2aUlqN2pFNDVhbGZyV1F6S050b211X0FrcmVSMXpyZGc0bE9BWV9QVdIBoAFBVV95cUxQOW5HSUliTkZORjBUeml5TzVKSnlseFJWTFU2enFnTGJUMXAybU9GSGxTZmQtQkJ3NERQcktiUXd1QUg0c25fMXc3N3g1NC1xd282bE00QXlvX3lNai1OZkFRUF92SHRWbG1vUUo2d1BhUnk3YW9HRWV6c0ljWWhhbEJhOEY1cTI3d1R3SWlGV1VDd2oyRmlSTzNnTmdQZ0Fs?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
    "title": "Honor 700 and 700 Pro will reportedly support a teleconverter",
    "url": "https://www.gsmarena.com/honor_700_and_700_pro_will_reportedly_support_a_teleconverter-news-75293.php",
    "at": "2026-11-01",
@@ -3317,6 +3310,15 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Xiaomi 18 with 100W charging clears 3C certification ahead of December launch",
+   "url": "https://www.gizmochina.com/2026/11/07/xiaomi-18-with-100w-charging-clears-3c-certification-ahead-of-december-launch/",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (669 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
