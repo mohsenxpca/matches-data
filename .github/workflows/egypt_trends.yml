@@ -10,7 +10,7 @@ on:
         description: "تجربة بدون نشر (1 = تجربة)"
         default: "0"
   schedule:
-    - cron: "0 8,14,20 * * *"  # 3 times a day (10:00, 16:00, 22:00 Cairo): regulated publishing to protect crawl budget
+    - cron: "15 */2 * * *"  # every 2 hours: steady 24/7 publishing to keep site active without gaps
 
 permissions:
   contents: write
@@ -33,7 +33,7 @@ jobs:
         env:
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
           TOPIC: ${{ github.event.inputs.topic || '' }}
-          EGYPT_TRENDS_DAY_CAP: '3'
+          EGYPT_TRENDS_DAY_CAP: '12'
           COUNT: '1'
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
