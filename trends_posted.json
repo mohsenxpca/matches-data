@@ -1053,6 +1053,24 @@
    "at": "2026-11-07",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "فالنسيا ضد الريال",
+   "at": "2026-11-07",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "فالنسيا ضد الريال",
+   "at": "2026-11-07",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "روما ضد ساسولو",
+   "at": "2026-11-07",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
