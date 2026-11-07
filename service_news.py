@@ -51,43 +51,21 @@ BANNED_TOPICS_REGEX = (
 )
 
 SERVICE_FALLBACKS = {
-    "housing": [
-        "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-        "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-        "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    ],
-    "banks": [
-        "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-        "https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-        "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    ],
-    "fuel": [
-        "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/fuel-prices-egypt.jpg"
-    ],
+    "housing": image_guard.GLOBAL_POOLS["housing"],
+    "banks": image_guard.GLOBAL_POOLS["money"],
+    "fuel": image_guard.GLOBAL_POOLS["fuel"],
     "coordination": [
         "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
         "https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
         "https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     ],
-    "holidays": [
-        "https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-        "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "holidays": image_guard.GLOBAL_POOLS["general"],
+    "salaries": image_guard.GLOBAL_POOLS["money"],
+    "supply": [
+        "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+        "https://images.pexels.com/photos/128402/pexels-photo-128402.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
     ],
-    "trains": [
-        "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-        "https://images.pexels.com/photos/279039/pexels-photo-279039.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    ],
-    "salaries": [
-        "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-        "https://images.pexels.com/photos/4475523/pexels-photo-4475523.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    ],
-    "outage": [
-        "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-        "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    ],
-    "general": [
-        "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop"
-    ],
+    "general": image_guard.GLOBAL_POOLS["general"]
 }
 
 

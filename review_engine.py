@@ -22,6 +22,7 @@ from bs4 import BeautifulSoup
 from PIL import Image, ImageOps, ImageFilter, ImageEnhance
 import football as f
 import notify
+import image_guard
 
 CAIRO = ZoneInfo("Africa/Cairo")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
@@ -37,14 +38,7 @@ EUR_RATES = {"egp": 52.0, "sar": 4.05, "aed": 3.97}
 CNY_RATES = {"egp": 6.8, "sar": 0.527, "aed": 0.516}
 USD_RATES = {"egp": 49.0, "sar": 3.75, "aed": 3.67}
 
-FALLBACK_PHONE_PHOTOS = [
-    "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "https://images.pexels.com/photos/40739/mobile-phone-smartphone-tablet-touch-screen-40739.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "https://images.pexels.com/photos/1294886/pexels-photo-1294886.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-]
+FALLBACK_PHONE_PHOTOS = image_guard.GLOBAL_POOLS["phones"]
 
 DISCLAIMER = "هذه المراجعة مبنية على المواصفات الرسمية والمصادر المعلنة، وليست تجربة استخدام شخصية."
 
@@ -885,21 +879,36 @@ def main():
 
             # 4. Clean & Alter Photos (Crop out watermarks/logos, enhance, 1200x675)
             clean_photos = []
+            used_photos_in_post = []
             slug = art["slug"]
             for idx, raw_p in enumerate(raw_photos[:3]):
                 res = process_clean_image(raw_p, slug, idx)
                 if res:
                     cdn_url, local_path = res
                     clean_photos.append(cdn_url)
+                    used_photos_in_post.append(cdn_url)
                     saved_images_to_commit.append(local_path)
                 else:
-                    # Clean fallback photo via wsrv.nl proxy (cropped & enhanced)
-                    fb = FALLBACK_PHONE_PHOTOS[idx % len(FALLBACK_PHONE_PHOTOS)]
+                    fb = image_guard.get_guaranteed_image(
+                        candidate_url=None,
+                        title=cand_title + f" slot{idx}",
+                        category_pool=image_guard.GLOBAL_POOLS["phones"],
+                        recent_images=used_photos_in_post,
+                        site="review"
+                    )
                     clean_photos.append(fb.replace("&", "&amp;"))
+                    used_photos_in_post.append(fb)
 
             while len(clean_photos) < 2:
-                fb = random.choice(FALLBACK_PHONE_PHOTOS)
+                fb = image_guard.get_guaranteed_image(
+                    candidate_url=None,
+                    title=cand_title + f" extra{len(clean_photos)}",
+                    category_pool=image_guard.GLOBAL_POOLS["phones"],
+                    recent_images=used_photos_in_post,
+                    site="review"
+                )
                 clean_photos.append(fb.replace("&", "&amp;"))
+                used_photos_in_post.append(fb)
 
             # Build Figure HTML
             p0 = clean_photos[0]

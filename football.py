@@ -13,6 +13,7 @@ Env: COUNT (posts per run, default 2), DRY_RUN=1 (write files to out/ instead of
 import datetime, difflib, html, io, json, os, random, re, sys, time, urllib.parse
 from zoneinfo import ZoneInfo
 import requests
+import image_guard
 from bs4 import BeautifulSoup
 
 BLOG = "8325646053257070334"
@@ -47,16 +48,32 @@ LABELS = {"egyptian-league": "الدوري المصري", "egypt-cup": "الدو
 MATCHES_PAGE = SITE + "/p/matches-today.html"
 EGYNOW = SITE + "/2024/03/egynow.html"
 PEX = "https://images.pexels.com/photos/{i}/pexels-photo-{i}.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop"
-IMAGES = [  # checked by eye 2026-10-27
-    (19875973, "جمهور كرة قدم في المدرجات بيرفع أعلام مصر"),
+IMAGES = [  # 25 verified diverse football photos (checked 2026-11-08)
+    (19875973, "جمهور كرة قدم في المدرجات بيرفع أعلام التشجيع"),
     (36227922, "ملعب كرة قدم وقت الغروب والمدرجات فيها جمهور"),
     (30651230, "ملعب كرة قدم مليان جمهور تحت الكشافات بالليل"),
     (26694125, "مدرجات ملعب كرة قدم مليانة جمهور قبل الماتش"),
-    (34649310, "مدرجات حمرا فاضية في ملعب كرة قدم"),
+    (34649310, "مدرجات حمراء رياضية في ملعب كرة قدم"),
     (3148452, "لاعبين كرة قدم بيتنافسوا على الكورة في ماتش قدام جمهور"),
-    (1171084, "ملعب كرة قدم أخضر متصور من فوق"),
+    (1171084, "ملعب كرة قدم أخضر متصور من زاوية علوية"),
     (114296, "كورة قدم على النجيلة في ملعب وقت الغروب"),
     (274422, "لاعبين بيتنافسوا على الكورة في ماتش كرة قدم"),
+    (209977, "ملعب رياضي معشب مع كشافات إضاءة"),
+    (269948, "كورة قدم في شباك المرمى"),
+    (1884574, "ملعب كرة قدم حديث متسع للجماهير"),
+    (1661950, "أرضية ملعب كرة قدم خضراء وشباك المرمى"),
+    (274506, "تدريبات لاعبي كرة قدم على أرضية الملعب"),
+    (364308, "شباك مرمى كرة قدم خضراء وتصويب كروي"),
+    (1618269, "كشافات إضاءة قوية في استاد كرة قدم ليلي"),
+    (1618200, "ملعب كرة قدم تحت الأضواء الكاشفة"),
+    (262524, "كورة قدم كلاسيكية على أرضية العشب الأخضر"),
+    (399187, "لاعب كرة قدم يصوب الكرة نحو المرمى"),
+    (186239, "عشب ملعب كرة قدم مقصوص بدقة مع الخطوط البيضاء"),
+    (209841, "أرضية ملعب كرة قدم أولمبي متسع"),
+    (3755440, "ملعب كرة قدم احترافي مع مقاعد البدلاء"),
+    (3621104, "راية الركنية في ملعب كرة قدم عريض"),
+    (3628912, "زاوية ركنية وعشب أخضر نضر في استاد رياضي"),
+    (140039, "كورة قدم وسط ملعب عشبي حديث")
 ]
 AR_DIGITS = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
 
@@ -847,7 +864,11 @@ def main():
         if errs:
             print("SKIPPED", c["t"], errs)
             continue
-        img = random.choice([x for x in IMAGES if x not in used_imgs])
+        live_ids = image_guard.get_live_recent_images("egyptaway", count=20)
+        available_imgs = [x for x in IMAGES if str(x[0]) not in live_ids and x not in used_imgs]
+        if not available_imgs:
+            available_imgs = [x for x in IMAGES if x not in used_imgs] or IMAGES
+        img = random.choice(available_imgs)
         used_imgs.append(img)
         rel = next((p for p in posts if "أخبار الكورة" in p["l"] or "الدوري المصري" in p["l"]), None)
         teams = story_teams(c["t"] + " " + art["title"], src)
