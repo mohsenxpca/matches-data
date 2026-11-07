@@ -1,17 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/news/news_egypt/details/2026/11/1/3071888/%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D9%88%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%8A%D8%B9%D9%8A%D8%AF-%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D9%84%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D8%A9-%D9%85%D8%B9%D9%84%D9%85%D9%8A-4-%D9%85%D9%88%D8%A7%D8%AF-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7",
-   "t": "التنظيم والإدارة يعيد فتح التقديم لمسابقة معلمي 4 مواد.. تعرف على الشروط",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 351 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'فتح', 'باب'}) مع تشابه نصي مع: فتح باب القبول بالجامعات الأهلية ومصروفات 2026)"
-   ]
-  },
-  {
    "u": "https://www.glasgowtimes.co.uk/sport/26683199.callum-mcgregor-hails-jota-backs-kasper-hogh-celtic/",
    "t": "Celtic's ‘difference maker’ hailed as skipper puts faith in big-money signing",
    "at": "2026-11-01",
@@ -3329,6 +3318,15 @@
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ميونخ', 'ايرن'}) مع تشابه نصي مع: هاري كين الأغلى في أوروبا.. تفاصيل عقد بايرن ميونخ التاريخي)",
     "الوصف لازم 140-160 حرف"
    ]
+  },
+  {
+   "u": "https://www.mancity.com/news/mens/nottingham-forest-manchester-city-team-news-tactics-63929664",
+   "t": "Maresca makes three changes for Forest trip",
+   "title": "تفاصيل مواجهة نوتينغهام فورست ضد مان سيتي في الدوري",
+   "url": "https://www.egyptaway.com/2026/11/nottingham-forest-vs-man-city-preview.html",
+   "at": "2026-11-07T19:46:39.255260+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
