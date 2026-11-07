@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/1/%D8%A7%D9%84%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%A7%D9%84%D9%85%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%85-%D9%84%D9%84%D8%B3%D8%A7%D9%82-%D8%A7%D9%84%D9%88%D8%A7%D8%AD%D8%AF%D8%A9-%D9%81%D9%89/7601997",
-   "t": "اللجنة البارالمبية تعلن قائمة منتخب كرة القدم للساق الواحدة فى كأس العالم",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 380 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://elbaladtv.net/%D8%A7%D9%84%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D8%A7%D9%84%D9%85%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%A7%D9%84%D9%86%D9%87",
-   "t": "اللجنة البارالمبية تعلن القائمة النهائية لمنتخب كرة القدم للساق الواحدة المشارك في كأس العالم",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 383 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.vietnam.vn/ar/chau-co-nha-doc-tai-phat-xit-mussolini-toa-sang-o-serie-a",
    "t": "يتألق حفيد الديكتاتور الفاشي موسوليني في الدوري الإيطالي الدرجة الأولى.",
    "title": "قصة رومانو موسوليني مع لاتسيو وهدفه الأول بالدوري الإيطالي",
@@ -3327,6 +3308,26 @@
    "at": "2026-11-07T20:06:54.579939+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7171758",
+   "t": "دون تغيير.. العملات العربية والريال السعودي والدينار الكويتي في البنوك الآن",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "الـ body 419 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'اسعار', 'كويتي'}) مع تشابه نصي مع: تراجع أسعار النفط عالمياً والكويتي يسجل 95.45 دولار)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxNVEFtZXBybUVyeHo0ZXpKMENpT2dhV1Mxc19uazhmVS0yTVVib3dOTXZVcG95SklOQzEyc0pFYnRkT0NWdUd6bjlOWEJtOHRCcE0zOHpxSDFIa3hZazJMWkJVZ0xSSGZEcEM4NzJ1UTQ3Rkp1RHU5eENMMnQ1YWkwaXlPc2psal9ZdWxCN0xNUmxidlg0TDFWNFFSVjhwSHJEWnVVaHpuUEt1MU5uZG5ScHFUZ1BZU1B4dmh4OWpZMGhVbGVROHN5OFFYQlh4SEx1YVN0Sk41QkN4SUZDUEpRZWV3eXlHQU1BakUwNTM4RzZZYnlXeE5nRm03RzMwbUpGVGN6SzRqQ2I4V2U5NUdqOUd3QTJ6SWtyYzhXRGk2MGFYQmNjMlhMOTMtR1Bvc2Q5Rjk5bTJiYzJwMVpHdEU0OEgweXdSZE1TVzVERVJpTXBPZzR4MUhXX21VczRxMy0ybzhCQXZxdkdzbGZsdXNYZGRoZmtmTGx4VzJudkQ5aWVYTHBqbHdpSE9BY0FrQmtuVDBxcl9TV3VsMS1JdUtORnB0UDk2QXMzRDREZW9QUEtiRXgxQzhtbVViM2pNSkREOTdaVUxmdXc0eG55X2NpZ0h4UGg2Rmp6Ql9OaDFCMWV4QVNrTXVj0gHiA0FVX3lxTE5Xb29GVEF6bEVXREZQbmlKYlVpWE54b1hidmdDdWlzYTlZX3kxRGYwVTBnQS02M0MtLXlLRkNyeS16cUxmeExUS1ZBQjdyUV9CM1NpcWRQZkNoMW9sNXlZeW1QRXZRX3EwMExNSmdOTmZDZFR1eFpOaEl1eV8tQ3lSRkprc3RaRk1pNE1pSUt4TzFNZUEweU1BMUlTb2pGeGs2MkJ5am5iV3pfYVY2VjA4SThHbHhQUDc0ZmdfQ2E4WTFUbFduMGt1SGZ3Qm8xcWRBb1FMNlBjLUpWQlA5Tkh6U3l2ZFZhWnRzWHh5d3RTOW5MOEVSaDVZR1RPSktkS3RXaFNTZVBoR0lmRjRjYm5DUGdYc3NkaWNGOTBIZG1IVU1Md2Q4ckpoa05TeFd1UnZleXNHRm0tVlFsOUpfODA1LWF0VzRWU2NDZzhFa3ZHU0w3TkU3c2o4SzVpN3NyQ1pLNHFubVJVRUNGUU5pNG1jQ0ZXY1FOTFc1U1QwZEt0SEpaNVBhOGpGdkRoeWNjZUFVWGZLQ19sZTRBeVJqcFJSRThDdmpLLUtBUnJfQ1M5UEVYNW5ZajkyRG05ZFJqa2RZak5aaHBSb0VnU3dNOTZPdlJYOTVEUEF4RjhSa0lZR2VB?oc=5",
+   "t": "التعليم توجه المدارس باتخاذ إجراءات إنهاء طلبة 3 إعدادى من تسجيل استمارة الامتحان - اليوم السابع",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 432 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
