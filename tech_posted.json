@@ -561,6 +561,52 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/palo-alto-networks-clutch-acquisition.html",
    "title": "بالو ألتو تفاوض لشراء شركة Clutch بـ 500 مليون دولار"
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+   "t": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+   "at": "2026-11-07",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+   "t": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+   "at": "2026-11-07",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+   "t": "After the midterms, is the AI industry in for a rough two years?",
+   "at": "2026-11-07",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+   "t": "China reportedly recruited AI exec to spy on Jensen Huang",
+   "at": "2026-11-07",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+   "t": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+   "at": "2026-11-07",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/tried-chatgpt-claude-as-android-assistant-heres-how-they-compare-to-gemini/",
+   "t": "I tried ChatGPT and Claude as my Android assistant; here's how they compare to Gemini",
+   "at": "2026-11-07",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/chatgpt-claude-android-assistant.html",
+   "title": "تجربة ChatGPT وClaude كمساعد على أندرويد"
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+   "t": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+   "at": "2026-11-07",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/artex-ai-hacking-tools-exposed.html",
+   "title": "ثغرات خطيرة في أدوات اختراق ذكي صينية"
   }
  ]
 }
