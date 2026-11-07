@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "One hidden text can crash Android’s Phone service - Techish Kenya",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT3ExeEg2S3N4bnd6ZWxiaXh5RU5vUjdia2lkc3JCQklfMGdlSGoyUDJoQnFGeEZKM3FOY2tqY085Y1ZBaEZ2NzR4NGlIMVdxTUltTmt1a1Jxd01VLW9pTUhnWi1DOU1NY0NodmZacE51YkFMejN6aEdHUnExUnl4Y190MjNULV9p?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
-   "title": "Honor 700 and 700 Pro will reportedly support a teleconverter - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRl9HRkNBR0NTU0txMVRyQThQTVl6QzJoOFpXSGVvUzVjbHdVZjZtYmFQYkJ6S0w3MG5zXzE2TzczMjdCOUZ5U0pFUHNqRzJrQjA5NWl2ZHZtV01WYnB2MXBDbHhqRDAwNW1senFDUnVOdU03ajBRU2hUMWRNNllZVG03MFBzSWVNV1JYWGhfNFIteGRONW1BLXppZ2NNUmd3RnpR0gGfAUFVX3lxTE5MSUMzaDFZa2YwTWZzYnNJbDlOdlJWOWJzM0JLc2RIUkd0OG1jVVJONUc4UThic3JJQ3NiVDFtRTJQcEF3R1lieXMxNG1iVG5WcUdPcXhDVHFKVXVwTTRjRTlYS3R0UXNhYmt0R09FVmM3T183MTlSWjQzbmUwVmJMMDJxWnl5SDVWdFRlNmh1bUtCLXJvUUlXNE1fRkZrdw?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [honor 700] found in existing: مراجعة Honor 700 و 700 Pro: ثورة في التصوير والشاشات الخلفية بمواصفات خارقة"
-  },
-  {
    "title": "vivo V80 is the newest creative companion to focus on what matters - Manila Bulletin",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcXBtN08yS3BjZmxJT2FPMy12cHRWSFdrMURrZmx6TGVFbDRhXzhnUTBRMUozV29TSmhPVFZTYzgwLUZIbmdqaElpN1JsMFRUOG53WUxvMkhJUHJWclQ0eFV6TWNnaGNvU1Z5VFZZRlJqYmZFdnVOREtDY0dYNzJBS1hrc2R1NDRXMHF2c2lLcHVYUDlTQnkxM2I4OA?oc=5",
    "at": "2026-11-01",
@@ -3324,6 +3310,25 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "WhatsApp is testing a feature that lets you control who sees your phone number",
+   "url": "https://www.gsmarena.com/whatsapp_phone_number_privacy_feature_development-news-75395.php",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (632 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "إطلاق هاتف Vivo Y6k ببطارية 6500 مللي أمبير",
+   "cand_title": "Vivo Y6k Launched in China With 6,500mAh Battery, 120Hz Display and Android 16 - My Mobile India",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZVZvYnItUGtsRzE1REpqcGRvellGSmN2Q2RfbVpEYmdRRmJQVFBTOTRTNnc5WHJVMWt5X2ZwRXBwcHEwU1h5dlZZbEdPRWhUWXVtUUhZYkZZd2dYeVpURDJpNmJhNm9wTWJvcG1icTRoRER1WF9KTllULTRsTm0xT2s4T1RzM0JRTm5ZTHlERTJCMmZVVXM0Nzg5cDU0VnJZS1BIcmJ5ZF91V2s?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/vivo-y6k-launched-with-massive-battery.html",
+   "at": "2026-11-07T13:06:36+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "فيفو"
   }
  ]
 }
