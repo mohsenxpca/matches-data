@@ -19,7 +19,7 @@ Usage:
   python service_news.py           # normal run (publishes fresh news if available)
   DRY_RUN=1 python service_news.py # dry run (prints drafts, no Blogger publishing)
 """
-import datetime, difflib, html, json, os, random, re, sys, time, urllib.parse
+import datetime, difflib, hashlib, html, json, os, random, re, sys, time, urllib.parse
 sys.stdout.reconfigure(encoding="utf-8")
 from zoneinfo import ZoneInfo
 import requests
@@ -51,19 +51,52 @@ BANNED_TOPICS_REGEX = (
 )
 
 SERVICE_FALLBACKS = {
-    "housing": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "banks": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "fuel": "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/fuel-prices-egypt.jpg",
-    "coordination": "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "holidays": "https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "trains": "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "salaries": "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "outage": "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
-    "general": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    "housing": [
+        "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+        "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+        "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    ],
+    "banks": [
+        "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+        "https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+        "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    ],
+    "fuel": [
+        "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/fuel-prices-egypt.jpg"
+    ],
+    "coordination": [
+        "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+        "https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+        "https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    ],
+    "holidays": [
+        "https://images.pexels.com/photos/2233416/pexels-photo-2233416.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+        "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    ],
+    "trains": [
+        "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+        "https://images.pexels.com/photos/279039/pexels-photo-279039.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    ],
+    "salaries": [
+        "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+        "https://images.pexels.com/photos/4475523/pexels-photo-4475523.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    ],
+    "outage": [
+        "https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+        "https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+    ],
+    "general": [
+        "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop"
+    ],
 }
 
+
 def pick_service_fallback(topic_key, title=""):
-    return SERVICE_FALLBACKS.get(topic_key, SERVICE_FALLBACKS["general"])
+    pool = SERVICE_FALLBACKS.get(topic_key, SERVICE_FALLBACKS["general"])
+    if isinstance(pool, list):
+        seed = int(hashlib.md5(title.encode("utf-8")).hexdigest()[:8], 16)
+        return pool[seed % len(pool)]
+    return pool
 
 TOPICS = {
     "housing": {
@@ -408,8 +441,18 @@ def main():
                         print(f"    Real img proxy returned {chk.status_code}. Using fallback.")
                 except Exception as e:
                     print(f"    Real img proxy check failed ({e}). Using fallback.")
-            if not lead_img_url:
-                lead_img_url = pick_service_fallback(topic_id, art["title"])
+            pool = SERVICE_FALLBACKS.get(topic_id, SERVICE_FALLBACKS["general"])
+            if not isinstance(pool, list):
+                pool = [pool]
+            recent_photos = [d.get("photo") for d in state.get("done", []) if d.get("photo")]
+            lead_img_url = image_guard.get_guaranteed_image(
+                candidate_url=lead_img_url,
+                title=art["title"],
+                category_pool=pool,
+                recent_images=recent_photos,
+                publisher_url=pub_url,
+                text=src_text
+            )
 
             lead_img_html = f'<img src="{lead_img_url}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' 
 

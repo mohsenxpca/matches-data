@@ -16,7 +16,7 @@ Usage:
   python egypt_trends.py "تغيير الساعة"       # Publishes a breaking post about a specific topic immediately
   python egypt_trends.py --dry               # Dry run (prints draft without publishing)
 """
-import datetime, difflib, html, json, os, random, re, sys, time, urllib.parse
+import datetime, difflib, hashlib, html, json, os, random, re, sys, time, urllib.parse
 sys.stdout.reconfigure(encoding="utf-8")
 from zoneinfo import ZoneInfo
 import requests
@@ -193,28 +193,17 @@ PROMPT_TEMPLATE = """أنت محرر شؤون مصرية وتقارير خدمي
 """
 
 
-def _pick_from_pool(pool, seed_text=""):
-    if not pool:
-        return ""
-    import random, hashlib
-    # مزيج بين التوزيع العشوائي وثبات الهاش لضمان تنوع الصور تماماً
-    if seed_text:
-        idx = int(hashlib.md5(seed_text.encode('utf-8')).hexdigest()[:8], 16) % len(pool)
-        return pool[idx]
-    return random.choice(pool)
-
-
-def pick_fallback_photo(text):
+def get_category_pool(text):
     t = text.lower()
     # 1. بنوك وشهادات واقتصاد وذهب وعملات (تُفحص قبل الرياضة لمنع تطابق كلمة "البنك الأهلي" مع كورة)
     if re.search(r"شهادة|شهادات|البنك الأهلي|بنك مصر|البنك المركزي|فوائد البنوك|ودائع|سعر الفائدة", t) and not re.search(r"نادي البنك الأهلي|فريق البنك الأهلي", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["money"], text)
+        return TREND_PHOTO_POOLS["money"]
     if re.search(r"ذهب|عيار 21|الجنيه الذهب|سعر الذهب|بورصة الذهب|دولار|سعر الصرف|عملات|ريال|درهم", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["gold"], text)
+        return TREND_PHOTO_POOLS["gold"]
 
     # 2. تنس ورياضات فردية
     if re.search(r"تنس|ألكاراز|نادال|ديوكوفيتش|رولان جاروس|ويمبلدون|مضرب", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["tennis"], text)
+        return TREND_PHOTO_POOLS["tennis"]
 
     # 3. كورة ورياضة وبطولات وملاعب
     is_sports = False
@@ -225,45 +214,50 @@ def pick_fallback_photo(text):
     elif re.search(r"الأهلي|الاهلي|أهلي|أهلى|زمالك|بيراميدز", t) and not re.search(r"البنك الأهلي|بنك الأهلي", t):
         is_sports = True
     if is_sports:
-        return _pick_from_pool(TREND_PHOTO_POOLS["sports"], text)
+        return TREND_PHOTO_POOLS["sports"]
 
     # 4. هواتف وتكنولوجيا وتطبيقات
     if re.search(r"هاتف|موبايل|سامسونج|شاومي|آيفون|ايفون|أندرويد|اندرويد|تطبيق|تحديث|معالج|كاميرا|شاشة|ذكاء اصطناعي|شات جي بي تي|جيميني|سماعة|لاب توب|سيرفر", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["phones"], text)
+        return TREND_PHOTO_POOLS["phones"]
 
     # 5. ألعاب وجيمنج
     if re.search(r"لعبة|العاب|ألعاب|جيمنج|بلايستيشن|اكس بوكس|ببجي|فري فاير|فورتنايت|فيفا|اي فوتبول", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["gaming"], text)
+        return TREND_PHOTO_POOLS["gaming"]
 
     # 6. ساعة وتوقيت
     if re.search(r"ساعة|توقيت|الشتوي|الصيفي|تأخير|تقديم", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["clock"], text)
+        return TREND_PHOTO_POOLS["clock"]
 
     # 7. طقس وأرصاد
     if re.search(r"طقس|أرصاد|مطر|حرارة|شتاء|سيول|رياح|نوة", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["weather"], text)
+        return TREND_PHOTO_POOLS["weather"]
 
     # 8. تموين وسلع
     if re.search(r"تموين|سلع|خبز|معرض|أهلا رمضان|سكر|زيت", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["supply"], text)
+        return TREND_PHOTO_POOLS["supply"]
 
     # 9. مواصلات وقطارات ومترو
     if re.search(r"مترو|قطار|سكة حديد|مواصلات|تذكرة|تذاكر", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["transport"], text)
+        return TREND_PHOTO_POOLS["transport"]
 
     # 10. تعليم وامتحانات
     if re.search(r"مدارس|جامعات|امتحانات|تعليم|نتيجة|تنسيق|دراسة", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["education"], text)
+        return TREND_PHOTO_POOLS["education"]
 
     # 11. مرتبات ومعاشات وبنوك
     if re.search(r"مرتب|معاش|فلوس|صرف|مالية|تكافل", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["money"], text)
+        return TREND_PHOTO_POOLS["money"]
 
     # 12. إجازات وعطلات
     if re.search(r"إجازة|عطلة|أعياد|رسمية|مناسبة", t):
-        return _pick_from_pool(TREND_PHOTO_POOLS["holidays"], text)
+        return TREND_PHOTO_POOLS["holidays"]
 
-    return _pick_from_pool(TREND_PHOTO_POOLS["general"], text)
+    return TREND_PHOTO_POOLS["general"]
+
+
+def pick_fallback_photo(text, recent_images=()):
+    pool = get_category_pool(text)
+    return image_guard.get_guaranteed_image(None, text, pool, recent_images=recent_images)
 
 
 def pick_hub_callout(text):
@@ -637,8 +631,17 @@ def main():
                     print(f"  Real img proxy returned {chk.status_code}. Using fallback photo.")
             except Exception as e:
                 print(f"  Real img proxy check failed ({e}). Using fallback photo.")
-        if not proxied_img:
-            proxied_img = pick_fallback_photo(art["title"] + " " + cand["t"])
+        # ضمان أقصى درجات الصرامة: فحص الصورة، مطابقتها 100% للموضوع، ومنع التكرار نهائياً
+        pool = get_category_pool(art["title"] + " " + cand["t"])
+        recent_photos = [d.get("photo") for d in state.get("done", []) if d.get("photo")]
+        proxied_img = image_guard.get_guaranteed_image(
+            candidate_url=proxied_img,
+            title=art["title"] + " " + cand["t"],
+            category_pool=pool,
+            recent_images=recent_photos,
+            publisher_url=pub_url,
+            text=src_text
+        )
 
         lead_img_html = f'<img src="{proxied_img}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px;margin-bottom:16px">'
 
@@ -717,6 +720,7 @@ def main():
                 "t": cand["t"],
                 "title": art["title"],
                 "url": post_url,
+                "photo": proxied_img,
                 "at": now_cairo.isoformat(),
                 "ok": True,
                 "type": cand.get("type", "trend")
