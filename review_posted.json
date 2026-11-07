@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Lava Phone Prices to Rise by Up to ₹3,000 From 15 November - Gogi Tech",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDZENST1otUVZNQ2plLXdPWWRXenF1dDYyXzlaZ0pFb3Yzd0xDMlFqNXNqYTZNZE9GdnhKWDNwWmRxZHUtbGpJMDlCdFByWHlzT21hVm9RQ3RxdnR6d0c5Z2F5bFhhUdIBa0FVX3lxTE5Ub0NybXE1NnZ3ZDA5UGFwNWJxcXBNRmRhbFVwSV8xem9OWVQtcURyRi1aYmdCS0JUcENmTk8xdDV3QkRGYXlESHFpUTRDbWlGTXJ0Wi04YVplSjRqOTlKbzFtZUpXdFd6Smk0?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (871 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
-   ]
-  },
-  {
    "title": "Deals: the Pixel 11 series is on sale and so is the Galaxy S26 series",
    "url": "https://www.gsmarena.com/deals_the_pixel_11_series_is_on_sale_and_so_is_the_galaxy_s26_series-news-75282.php",
    "at": "2026-11-01",
@@ -3332,6 +3323,16 @@
    "reason": [
     "طول المقال قصير (589 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "كيف تحول هاتفك البكسل إلى جهاز مخصص بـ 3 تطبيقات؟",
+   "cand_title": "I stopped waiting for Google to fix my Pixel; these 3 apps did it instead - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdkVBNDZGSXFHeEJrclVsOWFTQWhtYmd5XzcxZXdhUTU5WWhMQmZVcFQ1dTloZnpBU3U4NmpDS3Q1a1V5ZzUwamFJanhndXp6UmlPemJXRGl5VzM2QVBwaEhZNlVZUXZ5QnJJLVdYSVhyUDhQTHd3cUNCTHo0Q0NvZDZ0Z0JSVjVRT3pTSHdhVG1JOG8zeTU2elp3SFdmbmxSWVphWWxn?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/transform-google-pixel-with-three-apps.html",
+   "at": "2026-11-07T16:11:28+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "بيكسل"
   }
  ]
 }
