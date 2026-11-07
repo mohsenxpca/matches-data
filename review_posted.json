@@ -1,21 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة عروض الهواتف الرائدة من أبل وسامسونج وأوبو",
-   "url": "https://www.gsmarena.com/deals_apple_oppo_and_samsungs_latest_flagship_smartphones_are_available_at_reduced_prices-news-75297.php",
-   "post_url": "https://www.review-mobile.com/2026/11/flagship-smartphones-deals-2026.html",
-   "at": "2026-11-01T14:46:29+02:00",
-   "ok": true,
-   "brand": "سامسونج"
-  },
-  {
-   "title": "Galaxy S26 Ultra gets a $250 price cut on Amazon",
-   "url": "https://www.gizmochina.com/2026/11/01/galaxy-s26-ultra-gets-a-250-price-cut-on-amazon/",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Model code [s26] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
-  },
-  {
    "title": "مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع",
    "url": "https://www.gizmochina.com/2026/11/01/galaxy-fit-4-features-revealed-in-app-teardown-leak/",
    "post_url": "https://www.review-mobile.com/2026/11/galaxy-fit-4-leaks-review.html",
@@ -3311,6 +3296,22 @@
     "طول المقال قصير (764 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
    ]
+  },
+  {
+   "title": "New Realme 17 Pro spec leak helps clarify its place in the upcoming lineup",
+   "url": "https://www.gsmarena.com/realme_17_pro_leak_helps_clarify_its_place_in_the_upcoming_lineup-news-75392.php",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (504 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Google Pixel 11 announced: Price, specs, colors - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tTGxxMXJxWVQxLXZ6VkF1UndQTlBubG00Rm05T2FwZFB6c1hQZU5Fc2xKQ3Q3ZDQ1c1NPYnFhdm9LZkFGZjV2ZWFXeWlOY2pMSEsyV2Q2SlM2OHpsR1VzZW5NdUlTSzlreFJlSk1BSG1tWThxd01qaWRpTQ?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Phone 'pixel 11' already covered in: مراجعة Pixel 11 2026: مواصفات وسعر بيكسل 11"
   }
  ]
 }
