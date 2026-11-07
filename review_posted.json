@@ -1,21 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع",
-   "url": "https://www.gizmochina.com/2026/11/01/galaxy-fit-4-features-revealed-in-app-teardown-leak/",
-   "post_url": "https://www.review-mobile.com/2026/11/galaxy-fit-4-leaks-review.html",
-   "at": "2026-11-01T15:16:20+02:00",
-   "ok": true,
-   "brand": "سامسونج"
-  },
-  {
-   "title": "Deals: Apple, Oppo, and Samsung’s flagship smartphones are available at reduced prices - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOFYtdGdqVFloNE80Qi1WUlExeWdrZVYxT0FMOWZyOFpfSWkwNDh6MmFkRmtZbzdjMlNDWGxpMU4wVEs4SWVCSmQ5eTY3eTVDYnBRX1NHWGxxVE5EMkxNQmc5OUc5R2hnNmJoaVV2UXIyYmV5T09PLUk1dlJCWVRfdVRCNk9xVng2UVlNNFhuWmZITkJmellmejJaMlVjRlJJSVo2ZjgtT2w3RmVCSTYyaWpoNkZCMVl5WF9iNGtETkxJTUx6NjVwZ9IBxAFBVV95cUxQVklIc0FKZFVGd0tQSzZkZGptMXJkaVk1dkpkN3R6U1VZLW1KX3E3N081cXJYWHpHalZJSGd6MGtlajg1cXBzN0t2YVpqMnlTZnNfR1hrXy1mM3RudW9OVGhFc0pkN0ttcnNkYnhxbjAyWkR0bzI0WDF1d19SUHo5NHQyS2VDV2h4VFBwZEFoQTBvQkNQYUJvNEVvSUNWeTJyX0plV1VEOUotdnBQcUtrZi0yUUR3alJNekEzSWFWSlpzQXRp?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
    "title": "Will Galaxy S27 Ultra and Pixel 12 mark the end of the flagship era of smartphones? - 9to5Google",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaTJaSlYxdXRWcGFud0RnLUtEUkRRWDBBM0N6ZHB6THVMLVNMb1V0MHdpUlVyclV4ODZtSlpYOTYyaTNNLWFOWnRaNVRNMHZCUVB1UnMwazBtS3NkZEJ4SXpTc19RZ2NhRUFYc2pCMG1reGhhZllZMmtuanFQalUzS0Rmcw?oc=5",
    "at": "2026-11-01",
@@ -3312,6 +3297,23 @@
    "at": "2026-11-07",
    "ok": false,
    "reason": "Phone 'pixel 11' already covered in: مراجعة Pixel 11 2026: مواصفات وسعر بيكسل 11"
+  },
+  {
+   "title": "Future iPhones will have one less button, new rumor claims - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0ZMaUM0Q1oyWXJlN3NSWERJMXUyWVJSRGVOeV9fSVVmSnh4ajJGZ1FhcnRyTW90Rmc2OHAtZ3VoaVgyYnVkLUhVNUg2V1h0RENQUm1sdW1lODRZY19uNlQ2RlhvY3dzck82Qk0zQnYyYURVZjdwYjlaU3ZZbDZQdEQwWG9tNGZyZXZCLWk2Snp0VmRPbml2NTZ0Sm1aZ9IBmgFBVV95cUxOZ09sZjNIRTVoNzlCTE0yLU1DT1pXZEVQWTRXYjNLWDFjUDEzTDlHUnVVMURKU1N3YjNhTmV1MmJEZmEyVzBCSUJWZVlkQzZvTkQzOU5fVHRSallnTTlqM3BHYlB2TDQ1TFRnaDdqalFmWDZZUGg4UFJnbHlNZXEzVWNfTTVLWWRmeU53RkFTN1NUUW5vdGtzZEx3?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['have', 'iphones', 'button', 'less']"
+  },
+  {
+   "title": "فيفو تطلق هاتف Vivo Y6k ببطارية عملاقة وشاشة 120Hz",
+   "cand_title": "Vivo launches affordable 5G phone with 6,500mAh battery and 120Hz display - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSVJPMDZ3RktLQkN4X25zYzlaRDcxSk1nXzd6eXAtSUNJN0xScmJRQmFUdmFvRG9qTmtQQ2VEQW84VDdHN05HVEpNMWpFMTV0U2hpSWdTSHVWeDlHQ2t0cU81WkR1LXVJRk53SGcwUVZzSGNRR1ItOVR6Z0NERGtXVzNETmotMlVxRWNVTlJIQ1RhY2VKc3FvbERGTmFjbEtUb3FabXJHdG5vb2lPZ0t0QzBBR3dYU3A1bHc?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/vivo-y6k-launch-battery-specs.html",
+   "at": "2026-11-07T04:42:03+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "فيفو"
   }
  ]
 }
