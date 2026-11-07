@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei Pura X Max: CNY 10,999 Wide Foldable [2026] - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSEVtcFJBY3ZBOVN4VURELVI3Yjl3Uy1VaFpJTWNvS1ViWDllYTRPejhxbEszOVlfb1ZHRXhzbVVYSlVMRWZKeGw1YjZleGc4b241VUNJWmlsZWtBYzZLRjJSSWxGbEttcG1mWUxfdE54N2VBaWVGS2VvRnlHc0JkdW1oN0lUc3FK?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [huawei pura] found in existing: مراجعة Huawei Pura X View 2026: شاشة عريضة وكاميرا 200 ميجا والسعر"
-  },
-  {
    "title": "We have a rundown of the best Samsung phones - TechRadar",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qcmtnT1A2b0pUb29XbkNySFNZOGlJOXIzY2xPLVl6QmcyaHUwNWJaZDdfYTlxcTNSMmhJYUVJS1FEQ1luaEZBNjZkZ2Y3WVExTWYxUEtvNlVGRHBMU3B3?oc=5",
    "at": "2026-11-01",
@@ -3319,6 +3312,15 @@
    "at": "2026-11-07",
    "ok": false,
    "reason": "Phone 's26 fe' already covered in: مراجعة Samsung Galaxy S26 FE: بديل أرخص لـ S26 2026"
+  },
+  {
+   "title": "Xiaomi's Black Shark 3 Pro is a massive gaming phone with beastly specs - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6UWpEeHpUMU52WVNUWGVTb2FZbU50TFdQN2luLWhrVXhNcUZXa3lGX3hKOTU3UmIzRHFEWDMtZ1RLTFlOS2ZYb3lHd20yZXFoTVd2SWpwM3hmcy1DZEtvRFRRcw?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (678 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
