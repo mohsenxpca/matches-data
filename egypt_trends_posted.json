@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "u": "https://karadenizgazete.com.tr/spor/futbol/akyazida-35-bin-firtina/631139",
-   "t": "Akyazı'da 35 Bin Fırtına",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 406 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RZE9PQ3JpMmozQnJtQWl0N3l4QWpva1F0SVczTnFxcnRlVVZ0cWdFX0U2bC1wcUxVMEdJak5ndm1lanZtalpnWUJHTmtnLWpmRmdrcnBoc01PUjdtUjNVTmNYVU9vYWFicXZKeUNsQ3RtSmVmR0tqLVZGaUZLVXc?oc=5",
-   "t": "دراسة تحذر من مخاطر اعتماد التوقيت الصيفي الدائم على سلامة الأطفال - جريدة القدس",
-   "title": "مخاطر التوقيت الصيفي على سلامة الأطفال وحوادث السير",
-   "url": "https://www.egyptaway.com/2026/11/daylight-saving-time-children-safety.html",
-   "at": "2026-11-01T16:12:27.701246+02:00",
-   "ok": true,
-   "type": "public_query"
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RZE9PQ3JpMmozQnJtQWl0N3l4QWpva1F0SVczTnFxcnRlVVZ0cWdFX0U2bC1wcUxVMEdJak5ndm1lanZtalpnWUJHTmtnLWpmRmdrcnBoc01PUjdtUjNVTmNYVU9vYWFicXZKeUNsQ3RtSmVmR0tqLVZGaUZLVXc?oc=5",
    "t": "دراسة تحذر من مخاطر اعتماد التوقيت الصيفي الدائم على سلامة الأطفال - جريدة القدس",
    "at": "2026-11-01",
@@ -3321,6 +3303,24 @@
    "at": "2026-11-07T01:33:46.607276+02:00",
    "ok": true,
    "type": "public_query"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/7/%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%8A%D8%AA%D8%B1%D8%A8%D8%B9-%D8%B9%D9%84%D9%89-%D8%B9%D8%B1%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%A8%D8%B1-%D8%A7%D9%84%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%B5%D9%86-%D8%AF%D8%A7%D9%88%D9%86%D8%B2/7608051",
+   "t": "الأهلي يتربع على عرش السوبر الأفريقي قبل مواجهة صن داونز واتحاد الجزائر",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "الـ body 443 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.leedsunited.com/en/news/team-news-injury-updates-on-calvert-lewin-okafor-and-stach",
+   "t": "Team News: Injury updates on Calvert-Lewin, Okafor & Stach",
+   "title": "موقف جو رودون وجاهزية الفريق قبل مواجهة توتنهام المرتقبة",
+   "url": "https://www.egyptaway.com/2026/11/leeds-united-tottenham-standings-team.html",
+   "at": "2026-11-07T17:47:50.657628+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
