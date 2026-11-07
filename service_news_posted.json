@@ -1730,6 +1730,15 @@
       "has_real_photo": false,
       "at": "2026-11-07T21:16:01.094685+02:00",
       "ok": true
+    },
+    {
+      "title": "Wand AI مراجعة: نظام التشغيل للقوى العاملة الهجينة التي تجمع بين البشر والذكاء الاصطناعي",
+      "url": "https://quasa.io/ar/video/wand-ai-mragaa-ntham-altshghyl-llko-alaaaml-alhgyn-alty-tgmaa-byn-albshr-oalthkaaa-alastnaaay",
+      "at": "2026-11-07T21:46:01.866651+02:00",
+      "ok": false,
+      "err": [
+        "طول المقال قصير جداً (359 كلمة، المطلوب 450+)"
+      ]
     }
   ]
 }
