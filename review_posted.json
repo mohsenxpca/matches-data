@@ -1,41 +1,6 @@
 {
  "done": [
   {
-   "title": "Vivo Y32 5G launches with 8,000mAh battery, Snapdragon 4 Gen 2, and IP69 rating",
-   "url": "https://www.gizmochina.com/2026/11/02/vivo-y32-5g-launched-8000mah-snapdragon-4-gen-2/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [ip69] found in existing: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
-  },
-  {
-   "title": "Love My Phone Repair Unveils Fast iPhone 14 Pro Max Repairs in Kissimmee - FinancialContent",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSmVNckRCcEtnMklIYk80Q3lZYlBid0VEcXE4akJQaVROWndCTGppT0l2dzRSb2UtcE9yajZCaWxmbF9MM0tUTlBkTVNjeFlwWl91dzdvT1ZESmZ0Ym1idFlXZ3R3YVJoTW93emtxTjdQdFpoT1F1aXhsc0xhOUozVldxejNrWEN6ZmY3Y21LUThYUHUwb1pVNWZoN2E3TTBTbHVxY0w3cl9vaXZuR3lIZ2JVWjdCSTVWWGNBdFF5OTNLcGVHcmE0cV9WYVBxekxiU3hpXw?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
-   "title": "Xiaomi's Redmi 10 hasn't launched yet, but we already know its specs - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5reGRLNjhIM3A4Wm9RcmFQTThUY1RtdWxEYmVtUWVLdG5XQzZkN1puY0pLMkhfMjhBZUlGTEt3UFNOQmNGNjlSaE45QW45SXdnYTlsMGRibw?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [xiaomi redmi] found in existing: سعر ومواصفات Xiaomi Redmi Turbo 4 Pro: المميزات والعيوب"
-  },
-  {
-   "title": "Oppo Reno 17 5G Live Image Reveals Key Specs: Launch Soon - TelecomTalk",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaHZjSW9kOWVwSXBGWTFqSzZwdXVOTFFhdlpYZ2ZSWlRLb2taRU9nRVk1UktIYnZXM1JzaGlaUDdPdWNxTEEzWk40ZzdFdmlrWnhHYkw0V2g3WWdYTm0wWlAtLW5haHJuam53a2liUGFlNWZPVy01N1JjSGxIdEhVQjNkRENDblY3cURnbVlTZw?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [oppo reno] found in existing: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
-  },
-  {
-   "title": "Motorola Signature 27 specs detailed in video ahead of November launch - remio",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNak5yTEUwRjVOWWc4VWhRdXczRmVuaGt0VTFWOGx0cFVFQ05KQmNpU04zM0NQZXAta0FXNktpNlJEYnpuLTBXQUE1LUZ3WWpNTkN0SWZ0dlFveTJNMmhqYzNVMXNFUUFIelYtNjZURlAySkV1WVRLSUpodHlqZVA1azF6Vko5UEhReVpUS2lidGp0TVNZWXhkQ1otN28?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
    "title": "Xiaomi 18 Pro series is going global this month",
    "url": "https://www.gsmarena.com/xiaomi_18_pro_series_is_going_global_this_month-news-75305.php",
    "at": "2026-11-02",
@@ -3347,6 +3312,52 @@
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORTVPTEtqM3lzcEdZSHZXOFFDU0FoQVppeHFCMGpjOFVXUk5IbHJ3QllsZFFSSF9OVURrOFlQNktia0pHdzJ1ZzQxX2RPWjVSWVI4LUdVOWhCRjRHX1ExcV9nX3JuVC12alZndDctT21ZcmZ5aGxmSUhOTTNTc0ljMVBJS0p6ODNBbVNjbzl5R2d1cEphdGNoZzgtNkRFS1Iyc0w0QllXaXBPWmtxRTFpWXViWjNFdDU3S2RjRVdSOVJadGNMejBBWm10Yk5FZldxcHFGTXJTQVZkUXlRSF96RXVn0gHnAUFVX3lxTE1RNzM0M0hyUTF0djhNNlpySDI5T2NDR2hhZlVfMXRwV0hHYnJ2VGlWY3RGQUlyTlp0MHpWbzFfRmhRLTlyUnpEWTdfdFdOZVZvZEpzRkRqN2Jib0VkQm5Ka0xVRU1FbDBlVFVHYlQ5NlFsTDBNZVhOMnlaeVR4ZV9SWG5fT3J6dTlyMEhqZHlfY3ZkLVZxcjM5SmFyUml1OUpfOGVlOXlLamJXeUZ2RE16TFZEdm9TSnhuWENLZS1uSklEcm43aEF4cTdRWmlxM0QzTjJDVjdiWnFZWEotZEJrZ3drWFBnVQ?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/ai-plus-smartphone-price-hike-advanced.html",
    "at": "2026-11-08T01:21:53+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "Trump says he has held phone calls on ending the war in Ukraine - Українська правда",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EdlAyczlYSEFYZElYeDgtUFRVWjRLNTNkSDV4TG9Gc2RDTnMtZ2dnbUhXN1VpTWZhTlV3eThjeW9BMnlVZG45Z25MN204MTZ4dGFOd3ZnZ0lFaGpLdWZxZ3k0TGJPNktzbDBub0xnM07SAXBBVV95cUxORHZQMnM5WEhBWGRJWHg4LVBUVVo0SzUzZEg1eExvRnNkQ05zLWdnZ21IVzdVaU1mYU5Vd3k4Y3lvQTJ5VWRuOWduTDdtODE2eHRhTnd2Z2dJRWhqS3VmcWd5NExiTzZLc2wwbm9MZzNO?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (423 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "iQOO Z12 Lite 5G Specs Leaked: 8,000mAh Battery, MediaTek Dimensity 7400 Turbo Chip and More - Gizbot",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaV9WTDNxT3NhYVR4NHdFcmxQQnMzRjBmQkR1dHF2ZmFCVzhFUEtxU01XZ0tVM2VEOVVCVmtQaUFveGdnZnNqb2lTcVF6T0ZQRTdwVG4yT3VzWHpJeUFHZUhEV2lsQ25EOW9PYmlzQUZ6MkJ6TmVpYlVrSm1hWkVRTXF5blA0WFFtM3RXSEN5LWRQSDBXWHY0dFRpLUc4RGZkR1RGQTR5ZUk4RHRFaEdwWjVPckpvZHVVTkI1amFMY085ZHZJQUV4SGlUajZ5akdMZ29B?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (549 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Your Android phone has a battery protection setting, and the default isn’t the one you want - MakeUseOf",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNck45V2N0LTh2aVl2bGtKVVVJbXZSRUhiVVBvQ0hiME9QOHFwbWZtbW1mTlVuZ0FhbUZteHlmeVVVVWZhdy1JSTJmeTl2eFNDckc3Vk5BVUFUY1c4UEJEcXZLa1JjaUdHa293NHNKb3NxejZ5LXlhTFJQUko1MFQ3S0NGNDhXQ0cwbi1iX1gzNG01dlh6MnJEMFdqN0VMMEpqcDRaYjJWUjdPSXBGaHllMTBOb0N3dkk?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (611 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Jailbreaking is coming back in a way iPhone and Android fans haven't enjoyed since the 2010s - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWVRvOHRrbUhfbVV3YkxweEtSSnVENWxXRFQ2bkVUUl82azFhdWs1ODVsNEYtMUZ6VFRRcHIzdVZReVBsWmRVbGNwb01GWG9CS2paSkIyaVBEb01wa09wQXdPeFhUcEVvWUt3NEdHQ0ZzLVZUeHZOaTBJMlNPN094d1pKbnlmdXVMWnB6Zk96a3l2RnZ6WFVmemxGZl9Fd3VKSDVCSlVySlFXNXVrRnIwR2dDeUhpZw?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (414 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "تجربة نظام /e/OS وهواتف فيرفون.. هل يمكن التخلص من هيمنة جوجل؟",
+   "cand_title": "I’m sick of Google running my life, but the /e/OS Fairphone 6 Plus wasn't the de-Googled solution I needed - TechRadar",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORnVjMUhzQzd4WjVLWXg2X2VlS1dwTnBqZ2V4dUo0MzhNV0lxdkpydXlUQnpEYnNQa1lsY2xSMXhMN2x6NE9SeFNuMnEyZnJjblNGNzl6aXRCUkNiWDh4Nksxb1RLMVkzQW1SNXRKY2ZiQWdCLWdXaEk3cE5najZfR3lZaEpGUy1Cbmg2eWxFUlVvVG8tcGpvYjQxZTB3aVAzUVNsZkhRaVZqcTZGaVhVNFpMUllrR1MtZ3lvM0xZWHZfMTZRUXdQVWN2X1lKOS02Y3lCMzNpdHFnRFhvRDFjLU04OGNBZw?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/fairphone-6-plus-e-os-de.html",
+   "at": "2026-11-08T01:40:22+02:00",
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
