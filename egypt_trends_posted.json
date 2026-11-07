@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://ar.telquel.ma/%D8%A7%D9%84%D9%83%D8%A7%D9%81-%D9%8A%D9%81%D8%AA%D8%AD-%D8%A3%D8%A8%D9%88%D8%A7%D8%A8-%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%A3%D9%86%D8%AF%D9%8A%D8%A9-2029-%D8%A3%D9%85%D8%A7/",
-   "t": "وهبي وفينغر.. جلسة خاصة لمناقشة نجاح إفريقيا في مونديال 2026",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://www.telegraph.co.uk/football/2026/10/30/liverpool-excited-title-challenge-arsenal-andoni-iraola/",
    "t": "Jamie Carragher: Liverpool have emerged as Arsenal’s biggest title challengers",
    "at": "2026-11-01",
@@ -3330,6 +3321,16 @@
    "reason": [
     "الـ body 309 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/7/3075265/%D8%A3%D8%B2%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%82%D8%A7%D8%AA-%D8%AA%D9%87%D8%AF%D8%AF-%D8%B9%D9%88%D8%AF%D8%A9-%D8%B4%D9%8A%D9%83%D9%88-%D8%A8%D8%A7%D9%86%D8%B2%D8%A7-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9",
+   "t": "أزمة المستحقات تهدد عودة شيكو بانزا إلى الزمالك.. تفاصيل جديدة",
+   "title": "أزمة المستحقات تهدد عودة شيكو بانزا إلى الزمالك وتفاصيل جديدة",
+   "url": "https://www.egyptaway.com/2026/11/shico-panza-zamalek-crisis.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.gemini.media/img/large/2026/11/7/2026_11_7_23_22_2_348.webp&w=1200&output=webp&q=80",
+   "at": "2026-11-07T23:56:29.742998+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
