@@ -1,33 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RZE9PQ3JpMmozQnJtQWl0N3l4QWpva1F0SVczTnFxcnRlVVZ0cWdFX0U2bC1wcUxVMEdJak5ndm1lanZtalpnWUJHTmtnLWpmRmdrcnBoc01PUjdtUjNVTmNYVU9vYWFicXZKeUNsQ3RtSmVmR0tqLVZGaUZLVXc?oc=5",
-   "t": "دراسة تحذر من مخاطر اعتماد التوقيت الصيفي الدائم على سلامة الأطفال - جريدة القدس",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
-   "u": "https://www.elbalad.news/7163889",
-   "t": "مبيحبش يتغير.. شوبير يكشف سر غضب محمد صلاح من الاستبدال المبكر",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 90",
-    "الـ body 411 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://as.com/futbol/primera/posible-alineacion-del-real-madrid-contra-el-racing-en-laliga-ea-sports-f202610-n/",
-   "t": "Alineación posible del Real Madrid hoy contra el Racing en LaLiga EA Sports",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 348 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'راسينج', 'مدريد', 'سانتاندير', 'ريال'}) مع: موعد مباراة راسينج سانتاندير وريال مدريد والقناة)"
-   ]
-  },
-  {
    "u": "https://rtvc.es/racing-de-santander-vs-real-madrid-j11-laliga-ea-sports-26-27/",
    "t": "Racing de Santander vs Real Madrid: horario, alineaciones y minuto a minuto | J11 LaLiga EA Sports",
    "at": "2026-11-01",
@@ -3321,6 +3294,38 @@
    "at": "2026-11-07T17:47:50.657628+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.skynewsarabia.com/sport/1903259-%D8%A3%D8%B2%D9%85%D8%A9-%D8%AD%D8%B3%D8%A7%D9%85-%D8%AD%D8%B3%D9%86-%D8%AA%D8%AA%D9%81%D8%A7%D9%82%D9%85-%D9%88%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%8A%D8%AF%D8%B9%D9%88-%D9%84%D9%84%D8%AA%D9%87%D8%AF%D8%A6%D8%A9",
+   "t": "أزمة حسام حسن تتفاقم.. واتحاد الكرة المصري يدعو للتهدئة",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 3",
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 443 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حسن', 'حسام'}) مع تشابه نصي مع: مصير حسام حسن: هل يقترب رحيله عن تدريب منتخب مصر؟)"
+   ]
+  },
+  {
+   "u": "https://www.themag.co.uk/2026/11/confirmed-newcastle-united-team-v-fulham-as-steur-thiaw-murphy-wissa-all-start/",
+   "t": "Confirmed Newcastle United team v Fulham as Steur, Thiaw, Murphy, Wissa all start",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 13، 4، 5",
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 286 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.chroniclelive.co.uk/sport/football/football-news/matthias-jaissle-must-show-newcastle-34871248",
+   "t": "Matthias Jaissle must show Newcastle are addressing Eddie Howe's final complaint at Fulham",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 7، 9"
+   ]
   }
  ]
 }
