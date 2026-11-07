@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة وان بيس توربو 6 في إس: شاشة 144 هرتز وبطارية 9000 مللي أمبير",
-   "url": "https://www.gizmochina.com/2026/11/01/oneplus-turbo-6vs-launches-144hz-oled-9000mah/",
-   "post_url": "https://www.review-mobile.com/2026/11/oneplus-turbo-6vs-review.html",
-   "at": "2026-11-01T20:17:10+02:00",
-   "ok": true,
-   "brand": "وان بلس"
-  },
-  {
-   "title": "مراجعة هاتف Redmi M100 Pro: المواصفات الكاملة، السعر، المميزات والعيوب",
-   "url": "https://www.gizmochina.com/2026/11/01/redmi-m100-pro-launches-dimensity-7300-ultra-1-5k-oled/",
-   "post_url": "https://www.review-mobile.com/2026/11/redmi-m100-pro-review.html",
-   "at": "2026-11-01T20:46:20+02:00",
-   "ok": true,
-   "brand": "شاومي"
-  },
-  {
    "title": "Apple’s busy week, iPhone Duo troubles and Poco X8s debut, Week 43 in review",
    "url": "https://www.gsmarena.com/apples_busy_week_iphone_duo_troubles_and_poco_x8s_debut_week_43_in_review-news-75299.php",
    "at": "2026-11-01",
@@ -3329,6 +3313,20 @@
    "at": "2026-11-07",
    "ok": false,
    "reason": "Recent story overlap on key terms ['insider', '2026', 'https']"
+  },
+  {
+   "title": "Vivo launches affordable 5G phone with 6.74-inch 120Hz display, 6,500mAh battery and Android 16 - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcTR5WGYxQ2dVQjF3cUtOWDloczNTSkVsVmhnQXFHRHRfWm9oNF9KSVdTY0VHZEQtemJCVlJOak9oVUZ6bW1Td2hqa0FCS0tTVm5obWE2RGgtSDBRX3VDTHR2R1hrcFlaeUpXLUp5LWhxWUUzTjhVdTZ4MmxTZXZRTzlOaXpGc1Jyams4VFBoVk43aVBmek5XU3c5dmlkMUZGeEI2TmNqR1ZXZ1g4QzVpQVZzMVdZMEZpVU5TMzFWR3VxamRjZElOdG1TdzZQRUNsODlmUldB?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['launches', '120hz', 'affordable', 'notebookcheck']"
+  },
+  {
+   "title": "The 4 Best Android Phones of 2026 | Reviews by Wirecutter - The New York Times",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4QzZ2YTdmVnctUFJXNThqOVZnc09xaWRzdFdKY240Z3FfOWNyUko2VUxNZWM2Q29FZ1pZTnpKb0hicl85MEdFaHZQakF0UnBGYjQ5TzBidzhuNHd2MW9fUDR3eTlua0FveFVJYkhvUQ?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": "Model code [4] with variants set() found in review: مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع"
   }
  ]
 }
