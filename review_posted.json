@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "WINNERS ANNOUNCED AT SMART PHONE OPERA HOUSE FINALS - FilmInk",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc01lbVI2N2tEcWtjNVhjOGJkQ0g4d2FpZXBSV2ZFaHJfRHBxWU9qSkVYY0F4M0FHUjJxdlRRMEd2TWRLbXNfLWpjWUdjX0pDc1ZMeTFwOWUzY1J1WDJFYzZyaHd0MjFSWmR2M1RYQzZzNmRtYkhxbGY5a0w0UnJXY213b1Bzb3RlSUFVX0pwYTBSY2hFS01rNQ?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "module 'football' has no attribute 'decode_gn_link'"
-  },
-  {
    "title": "Weekly poll results: the Oppo Find X10 Pro Max is too expensive and so is the Find X10 - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZUtwZ3NBaUVxWG5CYnhnQUFhX3NUYUVRdTJjUVAzTmRKdk5xV1luR2ttdEtBNmtWNnF3WmQwSDNybFJ6SnBnRkNvNGVtbUp6aTgxOFdNY2hIUmg3VTJmN3B0aHdZd3QxOVpFdWRkQzBjSlZ6Y0JCeXdYYUJ6VnRMcWJURHVRMWlVazJlbjhwWTdaV25nUkdBZmNTeW53WVZUZWJ1b0RHT3FwVk01bzFwVV9LM2FzZEdzdkNkZU0wZUYxSXfSAb8BQVVfeXFMT3h6SmcxLU1Oc0JQdjlPRnR3WlE4aGZ1U2tCWjF6OGhRQnJlemNjR1IydVpHb0RTTHRQbEM3T2RIdzlib3Y3SWtWTUp0dTlkNXJBcEZNM3Ztb1NJSWEzNlFoZWFMZ29xcC1RM2IzLW0zWTUzYjFpejFkNDlFby1BcXZ4MzYyWDRnOE9VamM5d0NhT3hmanFHTlJCcklXRFlvVm1VTy0xejdpaFB6RGs5ZjIyN0lTbGl2UFo1cnhXWFE?oc=5",
    "at": "2026-11-01",
@@ -3305,6 +3298,16 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "أبل قد تدمج أزرار هواتف آيفون المستقبلية في زر واحد",
+   "cand_title": "Future iPhones will have one less button, new rumor claims",
+   "url": "https://www.gsmarena.com/future_iphones_will_have_one_less_button_new_rumor_claims-news-75391.php",
+   "post_url": "https://www.review-mobile.com/2026/11/apple-iphone-button-consolidation-rumor.html",
+   "at": "2026-11-07T02:08:51+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
