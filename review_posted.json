@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Nothing OS 5.0 Arrives Early for Phone 4a and 3a Series - Nokiamob",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUXNIVWRTeDJ6N1JaR2JmeU0xUTZoR2I2UlJxRGpvMk5PXzBDVXZsMllucFdBMVNuQ3dqWFNQU3NaVFNLUEg3S1BnMHhZVi1NZ2tEMk9CeEw1VkdvUUt6OS13WEdFOW90cl9uMG5pYkVrUkFubWozQnQ3WVpMMXAyNkIyVy1YZHZBaF9Mbk5RWWI3LWI2RGUzckxWd1JmU0JzRmJoZEU0NEdZUEdYTGc?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Model code [3a] found in existing: مراجعة سعر ومواصفات هاتف Nothing Phone (3a) Pro"
-  },
-  {
-   "title": "Google Pixel 5a launch date and specs revealed in new leak - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xdUVtRDJOd2dlVGNGc2RyMC1GX3hCSERub0tScFo2U0EtNlZRNWxXczk2ajVJNXQ5aGt1ZUUzSFFqekRVbzBIb3VocDBueHRSZmJSY2dBaG8zV3RCZE5Yd3JVRnk?oc=5",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "Phrase [google pixel] found in existing: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
-  },
-  {
    "title": "Lava Phone Prices to Rise by Up to ₹3,000 From 15 November - Gogi Tech",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDZENST1otUVZNQ2plLXdPWWRXenF1dDYyXzlaZ0pFb3Yzd0xDMlFqNXNqYTZNZE9GdnhKWDNwWmRxZHUtbGpJMDlCdFByWHlzT21hVm9RQ3RxdnR6d0c5Z2F5bFhhUdIBa0FVX3lxTE5Ub0NybXE1NnZ3ZDA5UGFwNWJxcXBNRmRhbFVwSV8xem9OWVQtcURyRi1aYmdCS0JUcENmTk8xdDV3QkRGYXlESHFpUTRDbWlGTXJ0Wi04YVplSjRqOTlKbzFtZUpXdFd6Smk0?oc=5",
    "at": "2026-11-01",
@@ -3327,6 +3313,25 @@
    "at": "2026-11-07",
    "ok": false,
    "reason": "Recent story overlap on key terms ['have', 'claims', 'future', 'less']"
+  },
+  {
+   "title": "Xiaomi 18 might actually arrive this year, 3C reveals the charging capabilities",
+   "url": "https://www.gsmarena.com/xiaomi_18_might_actually_arrive_this_year_3c_reveals_the_charging_capabilities-news-75396.php",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (455 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "العنوان مكرر أو قريب جداً من مقال منشور: تسريب يكشف قدرات الشحن في هاتف Samsung Galaxy A58 القادم"
+   ]
+  },
+  {
+   "title": "Google announces Pixel 11 Pro Fold: See specs, price, and more - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mZlFmUTFaeDFtQkt1MUJadG1DS2RCaXpIWmRkNzlqdUF1YTQ5WmZMTzVyNmExck9QalBSSjhydXZQV09EMUlFcGhoY1picWtNYnEyRzRVd3NiUG1kdFJOZ3JXYUV0UjZ2V2s4Y2RaNy1KSlhGSmpraW1B?oc=5",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (589 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
