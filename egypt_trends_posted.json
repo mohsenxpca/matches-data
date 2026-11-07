@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.fanatik.com.tr/trabzonspor/trabzonsporda-ertugrul-dogan-camiaya-seslendi-trabzonsporun-haklarini-korumak-icin-dimdik-ayaktayim-2643043",
-   "t": "Trabzonspor'da Ertuğrul Doğan camiaya seslendi: 'Trabzonspor'un haklarını korumak için dimdik ayaktayım",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 410 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/1/3071978/-%D9%88%D9%82%D9%81-%D8%A8%D8%AB-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D9%8A%D9%86-%D8%A8%D8%B3%D8%A8%D8%A8-%D9%85%D8%A8%D8%A7%D8%A8%D9%8A",
-   "t": "وقف بث مباريات الدوري الإسباني في الصين بسبب مبابي",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 393 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.masrawy.com/news/news_egypt/details/2026/11/1/3071888/%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D9%88%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%8A%D8%B9%D9%8A%D8%AF-%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D9%84%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D8%A9-%D9%85%D8%B9%D9%84%D9%85%D9%8A-4-%D9%85%D9%88%D8%A7%D8%AF-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7",
    "t": "التنظيم والإدارة يعيد فتح التقديم لمسابقة معلمي 4 مواد.. تعرف على الشروط",
    "at": "2026-11-01",
@@ -3325,6 +3307,28 @@
    "at": "2026-11-07T19:06:32.709713+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.bbc.com/sport/football/live/c6d09x7zknymt",
+   "t": "Mainz 05 1-2 Bayern Munich: Harry Kane provides two assists as Bundesliga champions stay top",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 60، 8، 9",
+    "الـ body 432 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ميونخ', 'ايرن'}) مع تشابه نصي مع: هاري كين الأغلى في أوروبا.. تفاصيل عقد بايرن ميونخ التاريخي)"
+   ]
+  },
+  {
+   "u": "https://www.yallakora.com/bundesliga/3036/news/572129/%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%85%D9%8A%D9%88%D9%86%D8%AE-%D9%8A%D8%AA%D8%B1%D9%82%D8%A8-%D8%B9%D9%88%D8%AF%D8%A9-%D9%83%D9%88%D9%85%D8%A8%D8%A7%D9%86%D9%8A-%D9%88%D8%AA%D8%B7%D9%88%D8%B1%D8%A7%D8%AA-%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A8%D8%B4%D8%A3%D9%86-%D9%85%D9%88%D8%B3%D9%8A%D8%A7%D9%84%D8%A7-%D9%88%D8%AF%D9%8A%D8%A7%D8%B2",
+   "t": "بايرن ميونخ يترقب عودة كومباني.. وتطورات إيجابية بشأن موسيالا ودياز",
+   "at": "2026-11-07",
+   "ok": false,
+   "reason": [
+    "الـ body 424 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ميونخ', 'ايرن'}) مع تشابه نصي مع: هاري كين الأغلى في أوروبا.. تفاصيل عقد بايرن ميونخ التاريخي)",
+    "الوصف لازم 140-160 حرف"
+   ]
   }
  ]
 }
