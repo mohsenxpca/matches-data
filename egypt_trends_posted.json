@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/1/3072118/%D8%B2%D9%8A%D8%B2%D9%88-%D9%88%D8%A5%D9%85%D8%A7%D9%85-%D8%B9%D8%A7%D8%B4%D9%88%D8%B1-%D9%8A%D8%AA%D8%B5%D8%AF%D8%B1%D8%A7%D9%86-%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%BA%D9%8A%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%84%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D8%A8%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9",
-   "t": "زيزو وإمام عاشور يتصدران قائمة غيابات الأهلي أمام المقاولون العرب بكأس العاصمة",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'قائمه', 'غيابات'}) مع تشابه نصي مع: غيابات وعودة في قائمة الهلال لمواجهة الفتح)"
-   ]
-  },
-  {
-   "u": "https://www.elbalad.news/7163971",
-   "t": "خاص| محمد شحاتة يعرض خدماته على الأهلي.. ووكيله يتحرك لجس نبض عبد الحفيظ",
-   "title": "مستجدات ملف انتقال محمد شحاتة إلى الأهلي: حقيقة العرض",
-   "url": "https://www.egyptaway.com/2026/11/mohamed-shehata-transfer-news.html",
-   "at": "2026-11-01T21:47:17.667144+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.marca.com/en/soccer/laliga-ea-sports/elche-valencia/2026/11/01/01_0101_20261101_954_191-live.html",
    "t": "Elche - Valencia LIVE. LALIGA EA Sports latest updates",
    "title": "فالنسيا يخطف فوزاً ثميناً من إلتشي في مباراة مثيرة",
@@ -3348,6 +3330,25 @@
    "url": "https://www.egyptaway.com/2026/11/why-phone-screen-brightness-drops.html",
    "photo": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-09T00:11:21.657108+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/8/3075824/%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D9%85%D8%AA%D9%82%D8%AF%D9%85%D8%A9-%D8%AA%D9%82%D8%B1%D8%A8-%D9%85%D8%A4%D9%85%D9%86-%D8%B3%D9%84%D9%8A%D9%85%D8%A7%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%85%D8%A7-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-",
+   "t": "مفاوضات متقدمة تقرب مؤمن سليمان من العودة إلى الدوري المصري.. ما التفاصيل؟",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7173200",
+   "t": "تحديث مفاجئ لهاتف موتورولا Razr Fold.. هل يخذل توقعات المستخدمين؟",
+   "title": "تحديث مفاجئ لهاتف موتورولا Razr Fold.. هل يخذل التوقعات؟",
+   "url": "https://www.egyptaway.com/2026/11/motorola-razr-fold-update-surprise.html",
+   "photo": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-09T00:31:52.566076+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
