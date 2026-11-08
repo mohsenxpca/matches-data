@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro series officially confirmed for global launch this November",
-   "url": "https://www.gizmochina.com/2026/11/02/xiaomi-18-pro-series-global-launch-november/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [xiaomi 18] found in existing: مراجعة Xiaomi 18 Fold 2026: معالج Xring O3 وبطارية 6000 والسعر"
-  },
-  {
    "title": "Vivo X500 Ultra camera details emerge again as a new 68MP selfie camera Vivo phone is in the works",
    "url": "https://www.gizmochina.com/2026/11/02/vivo-x500-ultra-camera-details-68mp-selfie-phone/",
    "at": "2026-11-02",
@@ -3366,6 +3359,16 @@
    "reason": [
     "طول المقال قصير (639 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "مراجعة نظام وإصدار New Jesus-Powered Linux Distro مع هاتف PineCone",
+   "cand_title": "New Jesus-Powered Linux Distro Launched With Christian Phone, OS & Digital Library - SMBtech",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2trT3V2b3Nsb3hyMDNaMDRTT3R6UjJTOUFQeTA1dXp0OFE5TjVMM1dCQWhla09FbWxBZGY5V1dYUnhMSEdKU2dVS2hMUVROcGQtUl8ydDNRZ1p6V2R2N1JPNlAtU1MyTnpyUnc5SVNLaTRmMDM4d1RfYnFmcFE0ZzlsOHJ6S09wZEg5d1JldlN5eTYzVjVzeFIxZXM3cUpyN0VOMEtiQQ?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/jesus-powered-linux-distro-phone-review.html",
+   "at": "2026-11-08T03:11:26+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "اخرى"
   }
  ]
 }
