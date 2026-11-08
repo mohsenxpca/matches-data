@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.bbc.com/arabic/articles/cqly3prdpz3po",
-   "t": "كيليان مبابي: الصين تجبر اللاعب الفرنسي على الاعتذار، لكن كثيرين لا يعرفون بالضبط ما قاله",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://www.bbc.com/sport/football/articles/ck9dz2yned67o",
    "t": "'Best thing is keep your mouth shut' - Mourinho on Mbappe-Mao row",
    "title": "مبابي يعتذر عن تصريحاته بشأن ماو تسي تونغ ومورينيو يعلق",
@@ -3335,6 +3326,16 @@
    "at": "2026-11-08T10:36:28.239238+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_regions/details/2026/11/8/3075377/%D8%A8%D8%A7%D9%84%D8%B5%D9%88%D8%B1-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D9%86%D9%82%D9%84-%D9%8A%D8%AA%D9%81%D9%82%D8%AF-%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D8%A7%D8%AA-%D9%85%D8%AA%D8%B1%D9%88-%D8%A3%D8%A8%D9%88-%D9%82%D9%8A%D8%B1-%D9%88%D8%AA%D8%B1%D8%A7%D9%85-%D8%A7%D9%84%D8%B1%D9%85%D9%84-%D9%88%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A-%D8%A8%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-",
+   "t": "بالصور- وزير النقل يتفقد مشروعات مترو أبو قير وترام الرمل والقطار الكهربائي بالإسكندرية",
+   "title": "تفاصيل مشروعات النقل الكبرى وتطوير مترو وترام الإسكندرية",
+   "url": "https://www.egyptaway.com/2026/11/alexandria-metro-tram-development.html",
+   "photo": "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-08T11:16:33.371855+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
