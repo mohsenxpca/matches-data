@@ -607,6 +607,82 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/artex-ai-hacking-tools-exposed.html",
    "title": "ثغرات خطيرة في أدوات اختراق ذكي صينية"
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "t": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+   "at": "2026-11-08",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+   "t": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+   "at": "2026-11-08",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+   "t": "AI broke the cybersecurity world. What’s next?",
+   "at": "2026-11-08",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+   "t": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+   "at": "2026-11-08",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/tried-gemini-grok-claude-for-month-on-android-one-clearly-dominated/",
+   "t": "I tried Gemini, Grok, and Claude for a month on Android; one clearly dominated",
+   "at": "2026-11-08",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+   "t": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+   "at": "2026-11-08",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+   "t": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+   "at": "2026-11-08",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+   "t": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+   "at": "2026-11-08",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+   "t": "Why a new report on Anthropic automating AI development is alarming researchers",
+   "at": "2026-11-08",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/google-keep-widget-trick-visible/",
+   "t": "Google Keep's home screen widget turned our shared grocery list into a no-texting system",
+   "at": "2026-11-08",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/google-keep-grocery-widget-trick.html",
+   "title": "حيلة ذكية في Google Keep لتنظيم قائمة المشتريات"
+  },
+  {
+   "u": "https://www.androidpolice.com/overlooked-google-tasks-tools-turned-basic-list-app-into-main-work-organizer/",
+   "t": "These overlooked Google Tasks tools turned a basic list app into my main work organizer",
+   "at": "2026-11-08",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+   "t": "Crusoe sells troubled Wyoming data center project to Google",
+   "at": "2026-11-08",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/google-buys-crusoe-data-center.html",
+   "title": "جوجل تشتري مشروع مركز بيانات من Crusoe"
   }
  ]
 }
