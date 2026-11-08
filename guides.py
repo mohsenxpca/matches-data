@@ -45,7 +45,7 @@ SITE_HOST = "www.egyptaway.com"
 STATE_FILE = "guides_posted.json"
 DRY = os.environ.get("DRY_RUN") in ("1", "true", "True")
 
-PEXELS_TPL = "https://images.pexels.com/photos/{id}/pexels-photo-{id}.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000&amp;h=563&amp;fit=crop"
+PEXELS_TPL = "https://images.pexels.com/photos/{id}/pexels-photo-{id}.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop"
 
 # Verified real photography pools (zero text overlays, zero cartoons)
 PHOTO_POOLS = {
@@ -799,15 +799,15 @@ def assemble_full_html(art, topic, internal_links):
 
     img0_url = PEXELS_TPL.format(id=photos[0][0])
     img0_alt = html.escape(photos[0][1])
-    img0_html = f'<p><img src="{img0_url}" alt="{img0_alt}" width="1000" height="563" style="width:100%;height:auto;border-radius:12px"></p>\n'
+    img0_html = f'<p><img src="{img0_url}" alt="{img0_alt}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px"></p>\n'
 
     img1_url = PEXELS_TPL.format(id=photos[1][0])
     img1_alt = html.escape(photos[1][1])
-    img1_html = f'<p><img src="{img1_url}" alt="{img1_alt}" width="1000" height="563" loading="lazy" style="width:100%;height:auto;border-radius:12px"></p>\n'
+    img1_html = f'<p><img src="{img1_url}" alt="{img1_alt}" width="1200" height="675" loading="lazy" style="width:100%;height:auto;border-radius:12px"></p>\n'
 
     img2_url = PEXELS_TPL.format(id=photos[2][0])
     img2_alt = html.escape(photos[2][1])
-    img2_html = f'<p><img src="{img2_url}" alt="{img2_alt}" width="1000" height="563" loading="lazy" style="width:100%;height:auto;border-radius:12px"></p>\n'
+    img2_html = f'<p><img src="{img2_url}" alt="{img2_alt}" width="1200" height="675" loading="lazy" style="width:100%;height:auto;border-radius:12px"></p>\n'
 
     tool_html = build_interactive_tool(topic["tool"])
 

@@ -306,12 +306,18 @@ def main():
   </div>
 </div>'''
 
-        cand_img = news_down.get(sid)
-        lead_img_src = image_guard.get_guaranteed_image(
-            candidate_url=cand_img,
-            title=art["title"],
-            category_pool=image_guard.GLOBAL_POOLS["outage_telecom"],
-            site="egyptaway"
+        cand_img = news_down.get(sid)
+
+        lead_img_src = image_guard.get_guaranteed_image(
+
+            candidate_url=cand_img,
+
+            title=art["title"],
+
+            category_pool=image_guard.GLOBAL_POOLS["outage_telecom"],
+
+            site="egyptaway"
+
         )
         body = (f'<img src="{lead_img_src}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px;margin-bottom:14px">'
                 + callout

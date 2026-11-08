@@ -82,6 +82,43 @@ def facebook(p, dry):
     return r.ok
 
 
+def send_post_push(title, url, content=None, image=None, dry=False):
+    """Sends an instant targeted web push via OneSignal for a newly published trend post (Social Spark)."""
+    key = os.environ.get("ONESIGNAL_API_KEY", "").strip() or f.secret("ONESIGNAL_API_KEY")
+    if not key and not dry:
+        print("   OneSignal: ONESIGNAL_API_KEY missing, skipping push")
+        return False
+    clean_url = url.replace("http://", "https://")
+    desc = snippet(content) if content else title
+    msg = {
+        "app_id": APP_ID,
+        "target_channel": "push",
+        "included_segments": ["Total Subscriptions"],
+        "headings": {"en": title, "ar": title},
+        "contents": {"en": desc, "ar": desc},
+        "web_url": clean_url + "?utm_source=push&utm_medium=discover_spark",
+        "name": "spark " + clean_url.split("/")[-1][:40]
+    }
+    img = image or first_image(content)
+    if img:
+        msg["chrome_web_image"] = img
+    if dry:
+        print(f"   [DRY PUSH] Would send push for: {title}")
+        return True
+    try:
+        r = requests.post(
+            "https://api.onesignal.com/notifications?c=push",
+            headers={"Authorization": f"Key {key}", "Content-Type": "application/json; charset=utf-8"},
+            json=msg,
+            timeout=15
+        )
+        print(f"   OneSignal Instant Push: {r.status_code}")
+        return r.status_code in (200, 201)
+    except Exception as e:
+        print(f"   OneSignal push error: {e}")
+        return False
+
+
 def push(posts, state, now, key, dry, force):
     today = now.date().isoformat()
     if not key and not dry:

@@ -141,13 +141,13 @@ def fetch_google_play_shots(package_id):
 def proxy_img(raw_url):
     """Encodes any image link through wsrv.nl to prevent slowing down Blogger and avoid 403s."""
     if not raw_url:
-        return "https://images.pexels.com/photos/194511/pexels-photo-194511.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop"
+        return "https://images.pexels.com/photos/194511/pexels-photo-194511.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop"
     clean = raw_url.replace("&amp;", "&")
     # If already wsrv or pexels
     if "wsrv.nl" in clean or "pexels.com" in clean:
         return clean
     encoded = urllib.parse.quote(clean, safe="")
-    return f"https://wsrv.nl/?url={encoded}&w=1000&output=webp&q=75"
+    return f"https://wsrv.nl/?url={encoded}&w=1200&output=webp&q=80"
 
 
 def generate_article_with_gemini(game):
@@ -278,15 +278,15 @@ def assemble_game_html(art, game, internal_links, shots):
     while len(img_urls) < 3:
         # Fallback to curated gaming pexels photos
         fallbacks = [
-            "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-            "https://images.pexels.com/photos/7915357/pexels-photo-7915357.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop",
-            "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1000&h=563&fit=crop"
+            "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+            "https://images.pexels.com/photos/7915357/pexels-photo-7915357.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+            "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop"
         ]
         img_urls.append(fallbacks[len(img_urls)])
 
-    img0 = f'<p><img src="{img_urls[0]}" alt="تحميل لعبة {name_ar} {name_en} 2026 للأندرويد" width="1000" height="563" style="width:100%;height:auto;border-radius:12px"/></p>'
-    img1 = f'<p><img src="{img_urls[1]}" alt="أسلوب لعب {name_ar} والجرافيكس على الموبايل" width="1000" height="563" loading="lazy" style="width:100%;height:auto;border-radius:12px"/></p>'
-    img2 = f'<p><img src="{img_urls[2]}" alt="أطوار اللعب والمهام في {name_ar}" width="1000" height="563" loading="lazy" style="width:100%;height:auto;border-radius:12px"/></p>'
+    img0 = f'<p><img src="{img_urls[0]}" alt="تحميل لعبة {name_ar} {name_en} 2026 للأندرويد" width="1200" height="675" style="width:100%;height:auto;border-radius:12px"/></p>'
+    img1 = f'<p><img src="{img_urls[1]}" alt="أسلوب لعب {name_ar} والجرافيكس على الموبايل" width="1200" height="675" loading="lazy" style="width:100%;height:auto;border-radius:12px"/></p>'
+    img2 = f'<p><img src="{img_urls[2]}" alt="أطوار اللعب والمهام في {name_ar}" width="1200" height="675" loading="lazy" style="width:100%;height:auto;border-radius:12px"/></p>'
 
     intro_paras = "\n".join(f"<p>{html.escape(p)}</p>" for p in art.get("intro", []))
     features_li = "\n".join(f"<li>{html.escape(f)}</li>" for f in art.get("features", []))

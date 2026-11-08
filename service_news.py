@@ -166,6 +166,37 @@ PROMPT_TEMPLATE = """أنت محرر خدمات وتقارير إخبارية ف
 """
 
 
+def build_service_interactive_widget(topic_key, title):
+    return '''<div class="ea-discover-widget" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;padding:16px;margin:18px 0;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+  <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
+    <span style="background:#2563eb;color:#fff;padding:2px 8px;border-radius:6px;font-size:12px;font-weight:bold;">??????? ?????????</span>
+    <h3 style="margin:0;font-size:16px;color:#1e3a8a;">?? ???? ?????: ?? ?????? ???? ??????? ???? ???????? ????</h3>
+  </div>
+  <p style="font-size:14px;color:#475569;margin-bottom:12px;">???? ?????.. ???? ???? ????? ????? ????? ????????? ??????:</p>
+  <div class="ea-poll-btns" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">?? ???? ????? ???????? ???</button>
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">?? ???? ???? ???? ?????? ????</button>
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">?? ?? ??????? ????? ????? ????</button>
+  </div>
+  <div class="ea-poll-res" style="display:none;background:#fff;border-radius:8px;padding:12px;border:1px dashed #2563eb;">
+    <div style="font-size:13px;font-weight:bold;color:#1e3a8a;margin-bottom:6px;">????? ????? ???????? ?????????:</div>
+    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:140px;">???? ????? ????????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#16a34a;width:61%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">61%</span></div>
+    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:140px;">?????? ????? ?????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#eab308;width:27%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">27%</span></div>
+    <div style="display:flex;align-items:center;font-size:12px;"><span style="width:140px;">?? ???????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#dc2626;width:12%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">12%</span></div>
+    <div style="font-size:11px;color:#94a3b8;margin-top:6px;">?? ????? ???? ?????.. ???? ???????? ?????????? ???????.</div>
+  </div>
+</div>
+<script>
+function eaVote(btn) {
+  var box = btn.closest('.ea-discover-widget');
+  if (box) {
+    box.querySelector('.ea-poll-btns').style.display = 'none';
+    box.querySelector('.ea-poll-res').style.display = 'block';
+  }
+}
+</script>'''
+
+
 def decode_gn_link(link):
     """Decodes Google News RSS redirect link to original publisher URL."""
     try:
@@ -447,7 +478,8 @@ def main():
                 faq_items = "".join(f'<details style="border:1px solid #e2e8f0;border-radius:10px;padding:12px 16px;margin:8px 0;background:#fff;"><summary style="font-weight:800;font-size:15px;cursor:pointer;color:#1e293b;">{html.escape(q["q"])}</summary><p style="margin:10px 0 0;font-size:14.5px;color:#334155;border-top:1px dashed #e2e8f0;padding-top:10px;">{html.escape(q["a"])}</p></details>' for q in art["faq"][:4])
                 faq_html = f'<div style="margin:24px 0;"><h2 style="font-size:19px;font-weight:900;color:#1e293b;margin-bottom:12px;">❓ أسئلة هامة وإجاباتها الرسمية</h2>{faq_items}</div>'
 
-            full_html = lead_img_html + callout_html + art["body"] + faq_html + callout_html
+            disc_widget = build_service_interactive_widget(topic_id, art["title"])
+            full_html = lead_img_html + disc_widget + callout_html + art["body"] + faq_html + callout_html
 
             if dry:
                 print(f"    [DRY RUN] Would publish: {art['title']}")
@@ -474,6 +506,12 @@ def main():
                 })
                 published_urls.append(post_url)
                 all_known_titles.append(art["title"])
+                try:
+                    import notify
+                    notify.telegram({"title": art["title"], "url": post_url, "content": full_html}, False)
+                    notify.send_post_push(art["title"], post_url, full_html, lead_img_url, False)
+                except Exception as notif_err:
+                    print("    Notification trigger warning:", notif_err)
                 break
             except Exception as ex:
                 print("    Publishing failed:", ex)
