@@ -3,15 +3,6 @@
   {
    "u": "https://www.vietnam.vn/ar/nhan-dinh-paris-fc-vs-monaco-diem-nong-cuoc-dua-top-dau",
    "t": "توقعات مباراة باريس إف سي ضد موناكو: نقطة ساخنة في سباق الصدارة",
-   "title": "موعد مباراة باريس ضد موناكو وترتيب الفريقين في الدوري",
-   "url": "https://www.egyptaway.com/2026/11/paris-vs-monaco-match-details.html",
-   "at": "2026-11-01T19:55:25.375070+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
-   "u": "https://www.vietnam.vn/ar/nhan-dinh-paris-fc-vs-monaco-diem-nong-cuoc-dua-top-dau",
-   "t": "توقعات مباراة باريس إف سي ضد موناكو: نقطة ساخنة في سباق الصدارة",
    "at": "2026-11-01",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
@@ -3337,6 +3328,16 @@
    "url": "https://www.egyptaway.com/2026/11/ahmed-shobair-pyramids-fc-competitor.html",
    "photo": "https://images.pexels.com/photos/3148452/pexels-photo-3148452.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-08T13:36:38.278497+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/8/3075546/%D8%AC%D8%AF%D9%88%D9%84-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-%D9%82%D8%A8%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A3%D8%B1%D8%B3%D9%86%D8%A7%D9%84-%D9%8A%D8%A8%D8%AA%D8%B9%D8%AF-%D8%A8%D8%A7%D9%84%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9",
+   "t": "جدول ترتيب الدوري الإنجليزي قبل مباريات اليوم.. أرسنال يبتعد بالصدارة",
+   "title": "جدول ترتيب الدوري الإنجليزي.. أرسنال يتصدر وسيتي يتعثر",
+   "url": "https://www.egyptaway.com/2026/11/english-premier-league-standings.html",
+   "photo": "https://images.pexels.com/photos/30651230/pexels-photo-30651230.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-08T14:56:30.557700+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
