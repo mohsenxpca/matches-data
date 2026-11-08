@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7164242",
-   "t": "مفاجأة بشأن عقوبة شيكوبانزا بعد واقعة خلع ملابسه أمام جماهير الزمالك",
-   "title": "مفاجأة: لا عقوبة على شيكو بانزا بعد واقعة خلع ملابسه",
-   "url": "https://www.egyptaway.com/2026/11/chico-banza-no-punishment-incident.html",
-   "at": "2026-11-01T20:32:18.265458+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
-   "u": "https://www.elbalad.news/7164242",
-   "t": "مفاجأة بشأن عقوبة شيكوبانزا بعد واقعة خلع ملابسه أمام جماهير الزمالك",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/1/قبل-شراء-هاتف-مستعمل-7-اختبارات-تكشف-حالته-الحقيقية/7601390",
    "t": "قبل شراء هاتف مستعمل.. 7 اختبارات تكشف حالته الحقيقية",
    "at": "2026-11-01",
@@ -3344,6 +3328,24 @@
    "ok": false,
    "reason": [
     "الـ body 464 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7172862",
+   "t": "ميسي يفوز بالحذاء الذهبي للمرة الثانية توالياً في الدوري الأمريكي",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "الـ body 383 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMimwVBVV95cUxOVWp6ZnRaUV9hamhHXzcxUVllRFZZeXM4SGItUnJHam9zbGFvZG16cDQzSVJHdm9QMEJsZV84T2g4NGRCaE1XRkJkMndmbTZBU19wN0hpRXN2TkhmRE5YYUZnX2ZPczNyckhxRmNwaU1pNUJuQlZ5VTVXZXFjT3l0c1FqclNKTC1xWlpsem95Wks0MDEzWGR6dklUMTRHLTVhNk5DZmhMLVZmTmxxamRYc0dTOXhEbENmNm9Ud0p2T01IYWF1bzhNSGRNX250RjFNdjB6czN5VE1tMjY1c29hRy03SWFTNnNvc0o2MWppQ0FkZHJvV2lXQmZESlpWalVhQVVrWnBBRUt5QjIzQjJfUi1xb3AxTS1GWEsxWUEybXNrTkZKa3dCZkV0QlptS0xLMFBiWjZuaGNvcVJNWmJDUzhKRUJ1dG5TLWRIZDh0aVFla1FxY3lBd2JHd3gta0p6dV9HUThEdFJqU1RwYnhSOWNMekJHaFRGSmRNU2p2a0xQQnBDcjBMdmVSZ1gyT2NNMnhaVDdaUkdNTEFOZFFRdng4ckhyTEg4dDFxZEd6ZkZFeEd6dTJyVEVHV2VOWVRiQXN1UTJPcW9mRTQ5TGdQN1Vjci0wSkVBRGU1ajdOYWlzM2sxcFJ2aThfVWxfcTZaQnh2cVE5QWpCTUNIUjg5NVFlQTZ3ekY0eFg3RDNhbjVyZ0dMYjVqamdtZUVaMjFBZkpuYmxrdlR5d055NTBmaFFiTXAyeTJtRWZoeXF3amhHcFkxRjhpLUl0WU95ZkJCbWZQbzZ1eUpHcm0tWDZlRUF0OVZOcXRKcEpOUFZIcGF6MWM4NXh3SDVJYnBaSTBHSDVsaS1qREhFMFNSMDNkQXc1dUlxTmliTkpj0gGgBUFVX3lxTE9NZFZtWlkwZWxId3FYSkVtdzlnM1RvbUlSZmNjY21iYVU2RUtRbFY3bldBaU91UjFaQ01lSTZEUjB5YUdaUDZaRDhkWlg1U1k4NFFqZkNQVjNGS0wxV1plb3k2U2xrQWZ5SkE1SllCYWZUekExVGdMNzJCcDdsclN6aHR2X0ZjUDdEc181N0xaV1pqVkJqa0dFT2lWWVo4ZTV4dXhjZEdvakUtY1ZGUi12RE81TF84X2llSC0xQlk3RTlvMGJMRTloTW1BMW1lVXREa0UzU3c1OVBtUVJzTjB4TS0wQ0hiZ21QYUtWSFgxRkJTeXp4Skg0NTFFay00WmhUODd3RjBxcy1QWUs1bS0zSXdiVzFCU3J1eW95MjZrZDVXdEh2SVJabF9SSl9aR2hWa0JJakRuN3BSQm55NlJuWS1JU0doeDQ3Z3F2TEJhLWRieEdVSFVkdllZQWgxQTJOZ2F1UnRId09haUdrWklFMUNFdlU4eVRpMEdpckE0R1ZPamNfN1BaZWRBeC1CZ3lHNXJpUjVnVXpWdGlMX3pESlo5ci1rWms4RFNVcFBPbm9vZFBvV3B1cmx4REhWdjVnRVY1alVINnUtR0F6c294OWN4T2JQaDdLNVVvYmJBNzFUM0ZiYXBLXzNRcTd6Z0pJTjI3X0dpSEJQeWhhLTdRM3BnV2tsTUFTXzVKZWdycF9hRWZhWHZnWnI1V3ZRZE56UjJvd1ViR0JGdjh4Z196WWpYODVzUXh4TjVDbmpuQjVOVVlnNklLdUJqekhpQnpBUjU0cW5HUXQwbERxOFowVWJUR1VWQ0d3ejA4dnNiZTBVakM0RkcwSUhjX1VxTFZ6TUxfZUxpdnAzWUNhRVMzZ3RXVlIxeGliQU80a1hCQg?oc=5",
+   "t": "النقل تدفع بأتوبيسات لنقل الركاب بين العياط والواسطى والمنيب بعد حادث القطارين - Masrawy",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "الـ body 362 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
