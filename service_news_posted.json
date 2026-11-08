@@ -1789,6 +1789,26 @@
       "has_real_photo": false,
       "at": "2026-11-08T06:21:01.095145+02:00",
       "ok": true
+    },
+    {
+      "title": "البحرين تتيح إقامة للأجانب مالكي العقارات لمدة 10 سنوات دون كفيل عمل.. شروط الدخل والرسوم وطريقة التقديم",
+      "url": "https://www.akhbrna.ae/services/albhryn-ttyh-iqama-llajanb-malky/",
+      "at": "2026-11-08T06:51:03.379040+02:00",
+      "ok": false,
+      "err": [
+        "أرقام تم اختراعها أو غير مذكورة في المصدر: ['6', '40', '600', '400']",
+        "ممنوع ذكر اسم المصدر (الوطن) في صلب الخبر"
+      ]
+    },
+    {
+      "title": "طريقة عمل مرافقي الوافدين بالسعودية عبر خدمة أجير",
+      "orig": "السعودية تتيح العمل لبعض مرافقي الوافدين عبر أجير.. شروط الإقامة والسن والمهن وطريقة استخراج التصريح",
+      "url": "https://www.akhbrna.ae/services/alsawdya-ttyh-alaml-lbad-mrafqy/",
+      "post_url": "https://www.egyptaway.com/2026/11/saudi-ajeer-service-dependents-guide.html",
+      "topic": "gulf_visas",
+      "has_real_photo": false,
+      "at": "2026-11-08T06:51:03.379040+02:00",
+      "ok": true
     }
   ]
 }
