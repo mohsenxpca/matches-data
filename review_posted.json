@@ -1,29 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro series is going global this month",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_series_is_going_global_this_month-news-75305.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [xiaomi 18] found in existing: مراجعة Xiaomi 18 Fold 2026: معالج Xring O3 وبطارية 6000 والسعر"
-  },
-  {
-   "title": "Redmi M100 Pro Launched With 1.5K OLED Display, Dimensity 7300-Ultra and 50MP Camera - My Mobile India",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTHhwc20zZmQzbXBUdk9iSlNXbVpXX1FZRDlCNFJ6RDdjYk9LTEVKLVFiLUdIVEhSa2xVVHlDcXVPSnlFa003OWE2ZlN2bTZLLXE0UnFRTXU1V2tSYXZwYk9TbEhJeXg5SEtZajhCMWk5YmV6aGVOZG95NHBQSHBFM2ZSUV9kWlpuaVNxcGIyTnlIb3JxdUF4QU41cnhGd0tZRE16aU81TmVKd2pmQ1lxNW5mRnY?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [m100] found in existing: مراجعة هاتف Redmi M100 Pro: المواصفات الكاملة، السعر، المميزات والعيوب"
-  },
-  {
-   "title": "OnePlus Turbo 6Vs Launched with 9,000mAh Battery and Snapdragon 7s Gen 4 Processor - Beebom Gadgets",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZXpZT0kzZkp1N2hIekJHN1dFTHRBNEdqR2ZxY0NxYU45NzYxODRHNU5qZXJ3MGNmanM2a00xcm5NMkp2WXhRSXF1dXh4WGgtdmFYb0NUTEk4X0F5dnE4OW5fWGR0cTM5ZGVtek1HODVIUVNnYVk3Z1U4ZVNHYXdlNy0zcENpSHFFWTdzZVJxVldtNnlNakxCdmlub0NZSE0?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (763 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
-   ]
-  },
-  {
    "title": "Xiaomi 18 Pro series officially confirmed for global launch this November",
    "url": "https://www.gizmochina.com/2026/11/02/xiaomi-18-pro-series-global-launch-november/",
    "at": "2026-11-02",
@@ -3361,6 +3338,34 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Realme 17 Pro Specs Leak: 10,000mAh Battery, 120Hz Display - cambuy.tw",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMjJZOHg3dFZLNm82bFI4dG9oS0ZuTzhiZVZEZXFfaHpIZ2JzLUNYanBMRHd5R1pmSlZtdTVsR1lQVzBsMU1zM216bWtMZ3NfQ3J2a09BeUJKWWpObk9YVXI4cWowQkJDTXYzQzJxeldxaklXNDJGVUNab2xCc3JwSTAwbVZlNzhnaHUw?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (370 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Motorola Edge 70 Pro & Pro+ Leaks: Specs & Design - NPowerUser - Nokiapoweruser",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0YTM2bkZwcnJzSmxHS3VnaXpyc2tuOGdCMDVXOFlRMnhRWVE0SGZtcTE0VzM5UWRWWjhHc0lndF9ma3RVMWx3RVNyX2I5dGZyeXdNei03UVVBWFF0US01TWwyQzl6SjV5VmZmQjQzaGt3b2NHNF9mVXJ1dXJlZw?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (468 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "6 genuinely useful ways to reuse an Android phone after updates stop - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeXpmcUNFWDJPcXRsZUQ4ak9rbUlrRFYtNTgzSi1QSVZWdXpkR180c3NxdDZ5aHRQVHdJOGR1clFOOEpHX2xpdzJtakdCWUNpS055dVhwN3dYdDN3UGtFV21ZcVdRRXlvaUFCWk9QQnphN1R2ZUM3b25fZmN0dG1RdjNObDNEbGh0MlZWN3AyTQ?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (639 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
