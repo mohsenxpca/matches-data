@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.wetteronline.de/wetterticker/wetterticker-kaltstart-in-die-neue-woche--7877d093-dd38-462a-89bc-2cbed81d514e",
-   "t": "WetterTicker: Kaltstart in die neue Woche",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 0"
-   ]
-  },
-  {
    "u": "https://www.n-tv.de/panorama/Klaus-kommt-und-verdraengt-Wind-und-Regen-id31482179.html",
    "t": "\"Klaus\" kommt - und verdrängt Wind und Regen",
    "title": "حالة الطقس: عواصف تضرب أوروبا وتحذيرات من فيضانات بالمتوسط",
@@ -3348,6 +3339,16 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 1، 2"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/8/إطلاق-هاتف-iPhone-18-فى-مطلع-عام-2027-التصميم-والسعر/7610722",
+   "t": "إطلاق هاتف iPhone 18 فى مطلع عام 2027.. التصميم والسعر والبطارية",
+   "title": "تفاصيل إطلاق iPhone 18 في 2027.. السعر والتصميم والبطارية",
+   "url": "https://www.egyptaway.com/2026/11/iphone-18-launch-2027-details.html",
+   "photo": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-08T20:36:26.751998+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
