@@ -1106,6 +1106,12 @@
    "at": "2026-11-08",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "وزارة التضامن الاجتماعي",
+   "at": "2026-11-08",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
