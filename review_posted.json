@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro series is going global this month - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWGdGLUtncnFBWWc1eVZkTU52aWxsQjFTRENMTlBYQ3NfblRDcl9DaW4tUktsV3V0bFJmUmhXLU5SOGlGYm02NzBLWHFWQkVxU0dTcUVjenpLQ2ZtVkczaDl6d3ZLYmRaN3lWQzNidW1CMDBtWWhITXlkYldMUFlzM0syY2t2VkdsZnlmaTdRU07SAYwBQVVfeXFMT3M2bWlwTGdPVzd0NlRMcEE3OU9RVm5NQ2ZJYkhERWp2NTluemw3WmdWNXB5NTNINnFOVUpFakNEU1E2NUNjYmJYVkYtejhEWUJiVkRCNFZHazdxSUZ0YUREVW41MElMeEtsM2xrVzJmaEt1V3FEcU9wa3JIdUtabmVTRmVoYlBkMW4yT1k?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [xiaomi 18] found in existing: مراجعة Xiaomi 18 Fold 2026: معالج Xring O3 وبطارية 6000 والسعر"
-  },
-  {
    "title": "Motorola Signature 27 hands-on video reveals display specs, design, and more - 91Mobiles",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQk1Gcm5ZTFJhMk5mNzBWR051QjFKTGhNWUNPZFBtMEpnVHZYNHJrdG03YmxBcGgxc3F3cW0wRFVwd1ZvVVUxTWRLTVVZNEpVMXFheWlNZC13cTdVNFlqbkxWMjhGeU1jaGtWcC1HQUhCOWZCRGhFNG1wdEx4c0UtLU4wdS03SnpxT3d0LXlfWGZzSlMt0gHLAUFVX3lxTE83ajVIUWVsOFhndlNZb2dBVTZ5ZWpYVGJxenR5VS1uRWRkNzhSOUpnQzR0SmtRbGV5RFJuZk5CVG80ck9KaWd4cWtzeDJjUWJVOC0xalB3Q3h6Y1pPRnNiOTh6ZXBEcDdreUIySU9PRXNOak9PSkpQUkg5ZGpEd2ZrNmlGQVRjTVA4SVNuYlAyNmhMNWZGc25yRVNqNU44QXIxY0RsZVNsWGdfWUlUZVFmNFdmbk5NYURvRVV6Zk1SdWlvZWlORlNYUHdZ?oc=5",
    "at": "2026-11-02",
@@ -3374,6 +3367,16 @@
    "reason": [
     "طول المقال قصير (695 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "أوبو تطور شاحناً خارقاً بقوة 120 واط وثلاثة منافذ",
+   "cand_title": "Oppo’s new three-port 120W charger is launching soon with these specs",
+   "url": "https://www.gizmochina.com/2026/11/08/oppos-new-three-port-120w-charger-is-launching-soon-with-these-specs/",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-new-120w-three-port-charger.html",
+   "at": "2026-11-08T05:41:48+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اوبو"
   }
  ]
 }
