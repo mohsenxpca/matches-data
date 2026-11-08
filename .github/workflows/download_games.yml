@@ -1,0 +1,72 @@
+name: مقال تحميل الألعاب اليومي وتحديث صفحة الألعاب
+
+on:
+  schedule:
+    - cron: "15 13 * * *"   # يومياً الساعة 15:15 بتوقيت القاهرة (13:15 UTC)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "تجربة من غير نشر (true / false)"
+        type: boolean
+        required: false
+        default: false
+      package:
+        description: "Google Play Package ID محدد (اختياري، مثلاً com.fungames.sniper3d)"
+        required: false
+        default: ""
+      game:
+        description: "اسم اللعبة للبحث عنها (اختياري)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-download-games
+  cancel-in-progress: false
+
+jobs:
+  publish-game:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Run Daily Game Download Publisher
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry"
+          fi
+          if [ -n "${{ github.event.inputs.package }}" ]; then
+            ARGS="$ARGS --package ${{ github.event.inputs.package }}"
+          fi
+          if [ -n "${{ github.event.inputs.game }}" ]; then
+            ARGS="$ARGS --game '${{ github.event.inputs.game }}'"
+          fi
+          python -u download_games.py $ARGS
+
+      - name: Commit Game Catalog & State
+        if: always()
+        run: |
+          git config user.name "games-bot"
+          git config user.email "games-bot@users.noreply.github.com"
+          git add game_download_state.json games.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes to state"; exit 0; fi
+          git commit -m "game download update $(TZ=Africa/Cairo date +%F_%H:%M)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done

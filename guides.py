@@ -32,6 +32,10 @@ import argparse, datetime, difflib, html, io, json, os, random, re, sys, time
 from zoneinfo import ZoneInfo
 import requests
 import football as f
+try:
+    import image_guard
+except ImportError:
+    image_guard = None
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
@@ -763,9 +767,29 @@ def pick_internal_links(topic, site_posts_list):
     return chosen
 
 
+def pick_guarded_photos(pool_key):
+    candidates = PHOTO_POOLS.get(pool_key, PHOTO_POOLS.get("tutorials", []))
+    chosen = []
+    for pid, alt in candidates:
+        img_url = PEXELS_TPL.format(id=pid)
+        if image_guard and image_guard.is_image_recent(img_url, site_key="egyptaway", max_check=20):
+            print(f"ImageGuard: skipping recently used photo {pid}")
+            continue
+        chosen.append((pid, alt))
+        if len(chosen) >= 3:
+            break
+    if len(chosen) < 3:
+        for pid, alt in candidates:
+            if (pid, alt) not in chosen:
+                chosen.append((pid, alt))
+            if len(chosen) >= 3:
+                break
+    return chosen
+
+
 def assemble_full_html(art, topic, internal_links):
     """Assembles the complete article HTML with 3 real photos, interactive tool, internal links, 5 FAQs, and official source."""
-    photos = PHOTO_POOLS.get(topic["pool"], PHOTO_POOLS["tutorials"])[:3]
+    photos = pick_guarded_photos(topic["pool"])
     body = art.get("body", "").strip()
 
     # Ensure first paragraph is before the first h2
@@ -955,12 +979,23 @@ def main():
     except Exception:
         state = {"done": []}
 
-    # Strict 1 post per day guard (unless dry run)
-    posted_today = [d for d in state.get("done", []) if d.get("date") == today_str and d.get("ok")]
-    # Strict 1 post per day guard (unless dry run or explicit topic_id)
-    if posted_today and not is_dry and not args.topic_id:
-        print(f"Already published/scheduled 1 guide today ({posted_today[0].get('title')}). Max 1 per day. Exiting.")
-        return
+    now_cairo = datetime.datetime.now(CAIRO)
+    # Cooldown guard: at least 25 minutes between automated runs
+    done_entries = [d for d in state.get("done", []) if d.get("ok")]
+    if done_entries and not is_dry and not args.topic_id:
+        last_item = done_entries[-1]
+        last_ts = last_item.get("timestamp") or last_item.get("scheduled_for")
+        if last_ts:
+            try:
+                last_dt = datetime.datetime.fromisoformat(last_ts)
+                if last_dt.tzinfo is None:
+                    last_dt = last_dt.replace(tzinfo=CAIRO)
+                diff_m = (now_cairo - last_dt.astimezone(CAIRO)).total_seconds() / 60
+                if diff_m < 25:
+                    print(f"Cooldown active: last guide published {diff_m:.1f}m ago (minimum 25m required). Skipping this run.")
+                    return
+            except Exception as e:
+                print(f"Cooldown parse warning: {e}")
 
     tok = None if is_dry else f.token()
     print("Fetching existing site posts to prevent duplication...")
@@ -1034,15 +1069,21 @@ def main():
         print(f"[DRY RUN] Saved preview HTML to: {out_path}")
         return
 
-    # Schedule on Blogger between 12:00 PM and 9:00 PM Cairo time
-    res = f.schedule(tok, art, full_html, selected_topic["category"], sched_time)
-    post_url = res.get("url", "")
-    print(f"SCHEDULED SUCCESSFULLY for {sched_time.strftime('%H:%M')} Cairo: {post_url} | {art['title']}")
+    # Publish Live on Blogger
+    labels = f.site_labels(art, full_html, selected_topic["category"])
+    d = f.api("POST", f"/blogs/{f.BLOG}/posts", tok, {"isDraft": "true"},
+              {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": f.with_desc(full_html, art), "labels": labels})
+    f.api("POST", f"/blogs/{f.BLOG}/posts/{d['id']}/publish", tok, {"publishDate": now_cairo.isoformat()})
+    f.api("PATCH", f"/blogs/{f.BLOG}/posts/{d['id']}", tok, None, {"title": art["title"]})
+    post_info = f.api("GET", f"/blogs/{f.BLOG}/posts/{d['id']}", tok, {"view": "ADMIN"})
+    post_url = post_info.get("url", "")
+    print(f"? PUBLISHED LIVE INSTANTLY: {post_url} | {art['title']}")
 
     state.setdefault("done", []).append({
         "id": selected_topic["id"],
         "date": today_str,
-        "scheduled_for": sched_time.isoformat(),
+        "timestamp": now_cairo.isoformat(),
+        "scheduled_for": now_cairo.isoformat(),
         "title": art["title"],
         "slug": art["slug"],
         "url": post_url,

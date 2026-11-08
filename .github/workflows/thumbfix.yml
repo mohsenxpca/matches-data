@@ -1,28 +1,25 @@
 name: صور الرئيسية للمقالات الجديدة
 
-
 on:
   schedule:
-    - cron: "7,27,47 * * * *"   # كل 20 دقيقة (لو اتأخر مش مشكلة: التشغيل الجاي بيصلح آخر 48 ساعة)
+    - cron: "*/5 * * * *"   # كل 5 دقائق على مدار الـ 24 ساعة
   workflow_dispatch:
     inputs:
       dry_run:
         description: "تجربة من غير تعديل (1 = تجربة)"
         default: "0"
       hours:
-        description: "المقالات اللي اتنشرت في آخر كام ساعة"
+        description: "المقالات التي نُشرت في آخر كم ساعة"
         default: "48"
-
 
 concurrency:
   group: thumbfix
   cancel-in-progress: false
 
-
 jobs:
   fix:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -36,4 +33,3 @@ jobs:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
-

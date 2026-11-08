@@ -1,14 +1,16 @@
-name: Egyptaway Daily Evergreen Search Guide
+name: أدلة ايجبتاوى الإرشادية (Evergreen Guides)
 
 on:
+  schedule:
+    - cron: "*/30 * * * *"   # كل نصف ساعة على مدار الـ 24 ساعة
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "تجربة من غير نشر (1 = تجربة بدون نشر، 0 = كتابة وجدولة بين 12 الضهر و9 بالليل)"
+        description: "تجربة من غير نشر (1 = تجربة بدون نشر، 0 = نشر فوري)"
         required: false
         default: "0"
       topic_id:
-        description: "تحديد موضوع معين اختيارياً (اتركه فارغاً لاختيار موضوع جديد تلقائياً)"
+        description: "تحديد موضوع معين اختياري"
         required: false
         default: ""
 
@@ -16,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: guides-daily
+  group: guides-publishing
   cancel-in-progress: false
 
 jobs:
@@ -33,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 lxml
 
-      - name: Generate and Schedule Daily Guide (12 PM - 9 PM Cairo)
+      - name: Generate and Publish Evergreen Guide (Every 30 Mins)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}

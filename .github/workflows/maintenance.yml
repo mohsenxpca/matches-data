@@ -1,16 +1,16 @@
-name: صيانة ايجبتاوى الأسبوعية
+name: صيانة ايجبتاوى اليومية وتصحيح الروابط
 
 on:
   schedule:
-    - cron: "0 6 * * 5"   # كل جمعة الصبح
+    - cron: "0 4 * * *"   # كل 24 ساعة الساعة 6:00 صباحاً بتوقيت القاهرة
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 jobs:
-  check:
+  check-and-fix:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:

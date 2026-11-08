@@ -2,13 +2,17 @@ name: الربط الداخلي التلقائي (Contextual Interlinking)
 
 on:
   schedule:
-    - cron: "30 2 * * *"   # كل يوم الساعة 4:30 فجراً بتوقيت القاهرة
+    - cron: "*/15 * * * *"   # كل ربع ساعة على مدار الـ 24 ساعة
   workflow_dispatch:
     inputs:
-      days:
-        description: "عدد الأيام السابقة لفحص مقالاتها (الافتراضي 1 = مقالات الأمس)"
+      site:
+        description: "الموقع (egyptaway, review, all)"
         required: false
-        default: "1"
+        default: "all"
+      days:
+        description: "عدد الأيام السابقة لفحص المقالات (الافتراضي 2)"
+        required: false
+        default: "2"
       all_missing:
         description: "فحص وتحديث كل مقالات الموقع التي ينقصها روابط داخلية (true/false)"
         type: boolean
@@ -19,13 +23,13 @@ permissions:
   contents: write
 
 concurrency:
-  group: interlink-daily
+  group: interlink-run
   cancel-in-progress: false
 
 jobs:
   interlink:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 14
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -35,13 +39,11 @@ jobs:
       - name: Run Contextual Interlinker
         run: |
           if [ "${{ github.event.inputs.all_missing }}" = "true" ]; then
-            python -u interlink_engine.py --all-missing --confirm
+            python -u interlink_engine.py --site "${{ github.event.inputs.site || 'all' }}" --all-missing --confirm
           else
-            DAYS="${{ github.event.inputs.days }}"
-            if [ -z "$DAYS" ] || [ "$DAYS" = "true" ] || [ "$DAYS" = "false" ]; then
-              DAYS="1"
-            fi
-            python -u interlink_engine.py --days "$DAYS" --confirm
+            DAYS="${{ github.event.inputs.days || '2' }}"
+            SITE="${{ github.event.inputs.site || 'all' }}"
+            python -u interlink_engine.py --site "$SITE" --days "$DAYS" --confirm
           fi
         env:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
