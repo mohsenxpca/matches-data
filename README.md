@@ -71,19 +71,23 @@
 تحديث دوري شامل يربط بين أحدث ما نُشر على منصاتنا الثلاث:
 - **[دليل التحديثات التفصيلي لشهر نوفمبر 2026](docs/NOVEMBER_2026_UPDATES.md)**
 
-### 📱 رفيو موبايل (Review-Mobile):
+### 📱 رفيو موبايل (Review-Mobile) — أحدث تقارير نوفمبر 2026:
+- [عودة الهواتف العريضة.. صدمة لعشاق الشاشات الطويلة](https://www.review-mobile.com/2026/11/android-brands-going-wide-smartphones.html)
+- [تخفيضات كبرى على أسعار هواتف سامسونج الرائدة 2026](https://www.review-mobile.com/2026/11/samsung-galaxy-s26-ultra-deals.html)
+- [إطلاق هاتف Vivo Y6k ببطارية 6500 مللي أمبير](https://www.review-mobile.com/2026/11/vivo-y6k-launched-with-massive-battery.html)
+- [هاتف Enough الذكي: عودة الهواتف الصغيرة ببطارية قابلة للتغيير](https://www.review-mobile.com/2026/11/enough-phone-small-replaceable-battery.html)
+- [دليل سامسونج الرسمي لتحديث نظام Google Play لهواتف Galaxy](https://www.review-mobile.com/2026/11/samsung-google-play-system-update-paths.html)
 - [تسريب مواصفات سلسلة Oppo Reno 17 الخارقة](https://www.review-mobile.com/2026/11/oppo-reno-17-series-leaked-specs.html)
 - [مواصفات وأسعار iPhone 18 المتوقعة](https://www.review-mobile.com/2026/11/iphone-18-major-upgrades-price-hike.html)
-- [نصائح الحفاظ على الهواتف القابلة للطي](https://www.review-mobile.com/2026/11/9-tips-to-keep-foldable-alive.html)
-- [مراجعة هاتف Redmi Turbo 6 Max ببطارية 11000 مللي أمبير](https://www.review-mobile.com/2026/11/redmi-turbo-6-max-11000mah-battery.html)
-- [مقارنة أفضل الهواتف في ميزات الذكاء الاصطناعي وإزالة الأجسام](https://www.review-mobile.com/2026/11/we-test-which-phone-is-best.html)
 
-### 🌐 ايجبتاوى (Egyptaway):
-- [تفاصيل وموعد إطلاق لعبة GTA 6 والاستعداد لها](https://www.egyptaway.com/2026/11/gta-6-release-and-console-setup.html)
+### 🌐 ايجبتاوى (Egyptaway) — أحدث تقارير نوفمبر 2026:
+- [أرباح شهادة البنك الأهلي الجديدة بعائد 18.75%](https://www.egyptaway.com/2026/11/alahli-bank-certificate-returns-2026.html)
+- [البنك الأهلي يرفع عائد الشهادات بزيادة 1%](https://www.egyptaway.com/2026/11/alahli-bank-raises-certificate-yields.html)
+- [غلق حجز شقق سكن لكل المصريين 9 ودعم بـ 100 ألف جنيه](https://www.egyptaway.com/2026/11/closing-reservation-sakan-koll-el.html)
+- [حقيقة انخفاض البنزين والسلع في مصر بعد تراجع النفط](https://www.egyptaway.com/2026/11/oil-prices-decline-egypt-fuel.html)
+- [تنسيق المرحلة الثانية 2026 علمي علوم والأماكن الشاغرة](https://www.egyptaway.com/2026/11/thanawya-tanseeq-2nd-stage-2026.html)
+- [خطوات الاستعلام عن وافد برقم الإقامة عبر الوزارة](https://www.egyptaway.com/2026/11/inquire-about-expat-residence-number.html)
 - [شهادة بنك نكست NXT EDGE بعائد 21%](https://www.egyptaway.com/2026/11/bank-nxt-edge-certificate.html)
-- [شهادة استثمار البنك الأهلي المصري «ب» بعائد 15%](https://www.egyptaway.com/2026/11/nbe-investment-certificate-details.html)
-- [رصد عطل واتساب في مصر والشرق الأوسط](https://www.egyptaway.com/2026/11/whatsapp-outage-egypt-middle-east-2026_01263869084.html)
-- [أخبار تألق فودين مع مانشستر سيتي](https://www.egyptaway.com/2026/11/foden-confident-manchester-city-form.html)
 
 ### 🎮 زيدا شوب (Zeda Shop):
 - [شحن زيمز وكوينز زيبيتو ZEPETO في مصر بالـ ID فودافون كاش](https://www.zeda-shop.com/2026/11/zepeto-zems-coins-egypt.html)
