@@ -3,15 +3,6 @@
   {
    "u": "https://www.elbalad.news/7164169",
    "t": "ياسر إدريس يهنىء زين هشام عقب تتويجه بالميدالية الذهبية",
-   "title": "ياسر إدريس يهنىء زين هشام لتتويجه بذهبية أولمبياد الشباب",
-   "url": "https://www.egyptaway.com/2026/11/yasser-idris-congratulates-zain-hisham.html",
-   "at": "2026-11-01T19:45:05.408642+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
-   "u": "https://www.elbalad.news/7164169",
-   "t": "ياسر إدريس يهنىء زين هشام عقب تتويجه بالميدالية الذهبية",
    "at": "2026-11-01",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
@@ -3329,6 +3320,16 @@
    "url": "https://www.egyptaway.com/2026/11/ahly-winter-transfer-plans-ammouta.html",
    "photo": "https://images.pexels.com/photos/1198264/pexels-photo-1198264.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-08T08:41:10.182098+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7172136",
+   "t": "إعلامي يشيد بتألق عمر الساعي مع الأهلي: 4 أهداف في 4 مباريات متتالية",
+   "title": "عمر الساعي يخطف الأنظار مع الأهلي: 4 أهداف في 4 مباريات",
+   "url": "https://www.egyptaway.com/2026/11/omar-el-saai-ahly-performance.html",
+   "photo": "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-08T08:59:14.444050+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
