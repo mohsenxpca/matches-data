@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Vivo X500 Ultra camera details emerge again as a new 68MP selfie camera Vivo phone is in the works",
-   "url": "https://www.gizmochina.com/2026/11/02/vivo-x500-ultra-camera-details-68mp-selfie-phone/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [x500] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
    "title": "OnePlus 16 vs Xiaomi 18 Pro: Bigger Battery or Better Cameras?",
    "url": "https://www.gizmochina.com/2026/11/02/oneplus-16-vs-xiaomi-18-pro/",
    "at": "2026-11-02",
@@ -3368,6 +3361,16 @@
    "at": "2026-11-08T03:11:26+02:00",
    "ok": true,
    "kind": "review",
+   "brand": "اخرى"
+  },
+  {
+   "title": "كيف تستخدم سجل إشعارات أندرويد لتنظيف هاتفك الذكي",
+   "cand_title": "How I use Android's Notification History to clean up annoying apps - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbmpaNVprSzZlQ19hNjl1T09DT2cwNTJTSVhlRTU3M0hOODZDRVZYOUVCQTV3UHRrQUVtTEMxZXFFQThQWnNhdWk1enRzN3NnR1JrZUJUb1lPM3ZHSml1UFNOOUZPWTI3MTZjY09DMUhDdHdrdFkwaHhGWUh3QWhia2ZQQnktbTMtalZyQmdNZGhkdlZOT0E0?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/android-notification-history-clean-apps.html",
+   "at": "2026-11-08T03:41:23+02:00",
+   "ok": true,
+   "kind": "news",
    "brand": "اخرى"
   }
  ]
