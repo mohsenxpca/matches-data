@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.n-tv.de/panorama/Klaus-kommt-und-verdraengt-Wind-und-Regen-id31482179.html",
-   "t": "\"Klaus\" kommt - und verdrängt Wind und Regen",
-   "title": "حالة الطقس: عواصف تضرب أوروبا وتحذيرات من فيضانات بالمتوسط",
-   "url": "https://www.egyptaway.com/2026/11/european-weather-forecast-storms.html",
-   "at": "2026-11-01T21:33:10.815250+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/1/3072118/%D8%B2%D9%8A%D8%B2%D9%88-%D9%88%D8%A5%D9%85%D8%A7%D9%85-%D8%B9%D8%A7%D8%B4%D9%88%D8%B1-%D9%8A%D8%AA%D8%B5%D8%AF%D8%B1%D8%A7%D9%86-%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%BA%D9%8A%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%84%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D8%A8%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9",
    "t": "زيزو وإمام عاشور يتصدران قائمة غيابات الأهلي أمام المقاولون العرب بكأس العاصمة",
    "at": "2026-11-01",
@@ -3347,6 +3338,16 @@
    "url": "https://www.egyptaway.com/2026/11/iphone-18-launch-2027-details.html",
    "photo": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-08T20:36:26.751998+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/8/لماذا-تنخفض-إضاءة-شاشة-هاتفك-تلقائيًا-المشكلة-والحلول/7610258",
+   "t": "لماذا تنخفض إضاءة شاشة هاتفك تلقائيًا؟.. المشكلة والحلول",
+   "title": "لماذا تنخفض إضاءة شاشة هاتفك تلقائيًا؟.. المشكلة والحلول",
+   "url": "https://www.egyptaway.com/2026/11/why-phone-screen-brightness-drops.html",
+   "photo": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-09T00:11:21.657108+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
