@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus 16 vs Xiaomi 18 Pro: Bigger Battery or Better Cameras?",
-   "url": "https://www.gizmochina.com/2026/11/02/oneplus-16-vs-xiaomi-18-pro/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [xiaomi 18] found in existing: مراجعة Xiaomi 18 Fold 2026: معالج Xring O3 وبطارية 6000 والسعر"
-  },
-  {
    "title": "Xiaomi 18 Pro series is going global this month - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWGdGLUtncnFBWWc1eVZkTU52aWxsQjFTRENMTlBYQ3NfblRDcl9DaW4tUktsV3V0bFJmUmhXLU5SOGlGYm02NzBLWHFWQkVxU0dTcUVjenpLQ2ZtVkczaDl6d3ZLYmRaN3lWQzNidW1CMDBtWWhITXlkYldMUFlzM0syY2t2VkdsZnlmaTdRU07SAYwBQVVfeXFMT3M2bWlwTGdPVzd0NlRMcEE3OU9RVm5NQ2ZJYkhERWp2NTluemw3WmdWNXB5NTNINnFOVUpFakNEU1E2NUNjYmJYVkYtejhEWUJiVkRCNFZHazdxSUZ0YUREVW41MElMeEtsM2xrVzJmaEt1V3FEcU9wa3JIdUtabmVTRmVoYlBkMW4yT1k?oc=5",
    "at": "2026-11-02",
@@ -3372,6 +3365,15 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "I didn’t realize my Android could measure this, but it’s surprisingly accurate - MakeUseOf",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zdmd6RVpQN3RVZ1VTWlU4QmRISXBRcVZkYy1kS2wyOGpEc3p5NFlTRk5NSE1lcnRqTk1aRXpOZEY3emhyMkdMUGp3bEVRSFZXUEdUVXdyQUJxNTkxVXg0X0gxZE5OWW9GNmNnUnR1ZjduQQ?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (695 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
