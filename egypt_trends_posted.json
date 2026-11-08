@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.juventus.com/en/news/articles/luciano-spalletti-s-press-conference-ahead-of-juventus-napoli",
-   "t": "Luciano Spalletti's press conference ahead of Juventus-Napoli",
-   "title": "يوفنتوس ضد نابولي: تصريحات نارية قبل القمة المرتقبة في الدوري",
-   "url": "https://www.egyptaway.com/2026/11/juventus-vs-napoli-match-preview.html",
-   "at": "2026-11-01T21:25:26.127238+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.wetteronline.de/wetterticker/wetterticker-kaltstart-in-die-neue-woche--7877d093-dd38-462a-89bc-2cbed81d514e",
    "t": "WetterTicker: Kaltstart in die neue Woche",
    "at": "2026-11-01",
@@ -3348,6 +3339,15 @@
    "at": "2026-11-08T18:58:27.536725+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/8/نظام-iOS-27-2-يضيف-ثلاث-طرق-جديدة-لتخصيص-هاتف/7610333",
+   "t": "نظام iOS 27.2 يضيف ثلاث طرق جديدة لتخصيص هاتف iPhone",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 1، 2"
+   ]
   }
  ]
 }
