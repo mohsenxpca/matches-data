@@ -3,15 +3,6 @@
   {
    "u": "https://www.bbc.com/sport/football/articles/ck9dz2yned67o",
    "t": "'Best thing is keep your mouth shut' - Mourinho on Mbappe-Mao row",
-   "title": "مبابي يعتذر عن تصريحاته بشأن ماو تسي تونغ ومورينيو يعلق",
-   "url": "https://www.egyptaway.com/2026/11/kylian-mbappe-apology-mourinho-comments.html",
-   "at": "2026-11-01T19:53:39.362561+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
-   "u": "https://www.bbc.com/sport/football/articles/ck9dz2yned67o",
-   "t": "'Best thing is keep your mouth shut' - Mourinho on Mbappe-Mao row",
    "at": "2026-11-01",
    "ok": false,
    "reason": "name 'COUNT' is not defined"
@@ -3336,6 +3327,15 @@
    "at": "2026-11-08T11:16:33.371855+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.elbalad.news/7172236",
+   "t": "أوبو وريلمي تكشفان قائمة الهواتف المؤهلة لتحديث ColorOS 17.. إليك المواعيد كاملة",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 100"
+   ]
   }
  ]
 }
