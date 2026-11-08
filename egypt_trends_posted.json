@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.standard.co.uk/sport/football/gary-neville-arsenal-fc-gabriel-embarrassing-b1303161.html",
-   "t": "Gary Neville names 'embarrassing' Arsenal player who 'lets himself down at times'",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 336 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.mirror.co.uk/sport/football/news/liverpool-arsenal-premier-league-neville-37832111",
    "t": "Gary Neville singles out 'embarrassing' Arsenal star minutes into Liverpool clash",
    "at": "2026-11-01",
@@ -3330,6 +3321,16 @@
    "at": "2026-11-08T07:04:08.970830+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://akhbarelyom.com/news/newdetails/4903127/1/%D9%82%D8%B7%D8%B9-%D9%85%D9%8A%D8%A7%D9%87-%D8%A7%D9%84%D8%B4%D8%B1%D8%A8-6-%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA-%D8%B9%D9%86-%D9%85%D9%86%D8%A7%D8%B7%D9%82-%D8%A8%D8%A7%D9%84%D8%AC%D9%8A%D8%B2%D8%A9-",
+   "t": "قطع مياه الشرب 6 ساعات عن مناطق بالجيزة لتنفيذ تحويلات خطوط المترو",
+   "title": "قطع المياه عن مناطق بالجيزة 6 ساعات: إليك الموعد والأماكن",
+   "url": "https://www.egyptaway.com/2026/11/giza-water-cut-metro-construction.html",
+   "photo": "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-08T07:44:25.115545+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
