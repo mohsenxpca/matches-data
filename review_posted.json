@@ -1,122 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei tests a phone with two 200MP cameras, could be Pura 100 Pro Max - Huawei Central",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZHBjM0ItUl9ZNi1ZZEtPTHFiRm1CMjlZSkstNXo4SUh3cTllZ1VLWXBPVWFvY1dINkFPdE9ybHBlVnI3eDQ5ZkNzdV9rUXhQUzZhOXBYNXJ4ekg2aXpUclF2VEl2Y0lyRHlGV2JzYmQ0c25POERQODA0THFpSEFPZFNPTjkyYlU4dmc2ZWJOTkZMcmYydU1wa1FzRGFCSGFabG80WWc3RdIBpwFBVV95cUxOZHBjM0ItUl9ZNi1ZZEtPTHFiRm1CMjlZSkstNXo4SUh3cTllZ1VLWXBPVWFvY1dINkFPdE9ybHBlVnI3eDQ5ZkNzdV9rUXhQUzZhOXBYNXJ4ekg2aXpUclF2VEl2Y0lyRHlGV2JzYmQ0c25POERQODA0THFpSEFPZFNPTjkyYlU4dmc2ZWJOTkZMcmYydU1wa1FzRGFCSGFabG80WWc3RQ?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [100 pro] found in existing: مراجعة هاتف Redmi M100 Pro: المواصفات الكاملة، السعر، المميزات والعيوب"
-  },
-  {
-   "title": "Lenovo Xiaoxin Pro 27 Vitality Edition launches with 13mm body and 120Hz QHD screen",
-   "url": "https://www.gizmochina.com/2026/11/02/lenovo-xiaoxin-pro-27-vitality-edition-launches-with-13mm-body-and-120hz-qhd-screen/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (726 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)",
-    "العنوان غير صالح أو أطول من 75 حرف (90 حرف)"
-   ]
-  },
-  {
-   "title": "Xiaomi revives old Redmi Note series phone with bright AMOLED display - Notebookcheck",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdVpKVHlVbTNibGZzUUVYZXRNM25ncEdmUjlvbGFpODJxb3EzRFlzbzhaUGd3REdTR0IxbTlmd3pKTzBxOVBwanhNd1Z0OVlKM0x2S1hPcmxMd0JzbjVHbTJZSS1rOE9xaXJXX0xsZWtCMlBfYURJc0MyVEtBcTVHQ010Y2NWbjktQlpsblZXSXppYTJ4MzBuZnBKNkZMUEFmWm5GMHpnTkZ2S0NLUDRvTHNKMEU?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [redmi note] found in existing: Redmi Note 17 5G: شاشة ضخمة وبطارية تكفي يومين"
-  },
-  {
-   "title": "Vivo Y32 5G Announced with an 8,000mAh Battery and Snapdragon 4 Gen 2 Chipset - Beebom Gadgets",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVmdNWXlpOGlGZUNIekxJajdVb0xZT3dtMHViN2ZQSmE1QnFtUTg4dUE1SzNUcEh0djZkZ1l0amh1cTJQWHhLSDQwSW5fT1BzSjNPcXdpYW5fVGs2d21rdEVnOUVhMm5lQ3lVTHNLendCVDl3LXFlYk5QZjZ6RFZjTEtWSWRGdVl4MEVodFp6NVNwOGFkMTZIWQ?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [y32] found in existing: مراجعة vivo Y32 2026: بطارية 8000 مللي أمبير والمواصفات والسعر"
-  },
-  {
-   "title": "Samsung Galaxy S21 FE specs and pictures revealed in new leaks - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OaDgtSGRTVzdUMWYtSk5rSEM4RUFZV0xQRTEzeVdaZTA5V2p3TFZScjd4V29lMmxRN0NadXRrLTJ5WHYwbXpmSElaTzl0NW5zdVYyZWtLZjRCLUZYQWFCaW5sYlZONzNLSk1oalZOYW4?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
-  },
-  {
-   "title": "مراجعة هواتف Karbonn Rebel و Rebel Pro: عودة قوية للفئة الاقتصادية",
-   "url": "https://www.gizmochina.com/2026/11/02/karbonn-rebel-series-launch-india-price-specs/",
-   "post_url": "https://www.review-mobile.com/2026/11/karbonn-rebel-and-rebel-pro-review.html",
-   "at": "2026-11-02T10:31:43+02:00",
-   "ok": true,
-   "brand": "اخرى"
-  },
-  {
-   "title": "Vivo X500 Pro vs iPhone 17 Pro: Can Vivo Beat Apple’s Flagship?",
-   "url": "https://www.gizmochina.com/2026/11/02/vivo-x500-pro-vs-iphone-17-pro/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [x500] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
-   "title": "Honor Magic 9 series launching globally this week with Snapdragon 8 Elite Extreme Gen 6",
-   "url": "https://www.gizmochina.com/2026/11/02/honor-magic-9-series-launching-globally-this-week-with-snapdragon-8-elite-extreme-gen-6/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [honor magic] found in existing: إطلاق سلسلة Honor Magic 7 رسميًا بكاميرا 200MP وذكاء اصطناعي 2026"
-  },
-  {
-   "title": "Exclusive: Samsung improves Privacy Display for Galaxy S27 Pro and S27 Ultra",
-   "url": "https://www.sammobile.com/news/galaxy-s27-pro-ultra-improved-privacy-display/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
-  },
-  {
-   "title": "OnePlus Turbo 6Vs launched in China as a rebranded Nord CE 6 - Sportskeeda Tech",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZms2dUJzNEsxZ0hublVydmcxSktRenVkc0o5SjZSdkNGenB2MGxsbXBJelpSUDl2aHVvYkVvcUtBeHBManBKRndfY0FSOUtKR2hycWNMQUEyUGxsUEtJbkRpUFBqclJHczZ3b2psT2dTaVdBRm9pZkdVM3NuV0cxa2U2Q0ZCU3ZQZ1lUcDdHbTFwV2I0MG15NzZn?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (880 كلمة، والمطلوب 900+ كلمة للتوافق مع أدسنس)"
-   ]
-  },
-  {
-   "title": "vivo Y32 5G launched: 8,000 mAh battery, IP68 and IP69 ratings, Snapdragon 4 Gen 2 chip for the mainstream segment. - Vietnam.vn",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc1pvQ3piRE4wOG1xMWRuUlRYNmhWY2lIMnVWTHp1WG80TnhGc0p0TjdzYUljQnhiczk1MWRKODEwTHkzVThlX2tybC1vdDlfX29PVEdoMFZuUEtYc09Tb0RCbGU3R29xbEVPaGtCa3gzUUlWdlpnb1VBWVhudktUNnhCTWNCT2hqUTlaNW9ELWhlQmVoRFk2QkdrUGJXV0h1MkJGQ1U1ZjB1Q0ZKekFpVVFHS2ZiUUNrMFhEWA?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [ip69] found in existing: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
-  },
-  {
-   "title": "Key Motorola Signature 27 specs are out, and honestly, we're about to welcome a serious Galaxy S26 Ultra rival - PhoneArena",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa3VoN2xKVEUtTFplc0NleE9Obk52SUFtU1RKQlkta3lwMU1ucHRXV0Fxd19GemVLNHZXaHhXM0lLaEs5aE9jTVJlLTZ3dWM5UnluRmsyTHRJSHhQb3BxRDBUdktKS1NIZUM4SUo5S0JNSDFFX3NPajZ2VThYOWZsQWRuNFdlSm0t?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [s26] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
-  },
-  {
-   "title": "SIHOO Doro C300 Pro V2 Review: Comfort, Support and Fit",
-   "url": "https://www.gizmochina.com/2026/11/02/sihoo-doro-c300-pro-v2-review/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "وصف البحث (92 حرف) يجب أن يكون بين 110 و 175 حرفاً"
-   ]
-  },
-  {
-   "title": "Motorola Signature 27 hands-on video shows detailed specs ahead of launch",
-   "url": "https://www.gizmochina.com/2026/11/02/motorola-signature-27-hands-on-video-specs/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
-   "title": "OnePlus Turbo 6Vs debuts quietly with same specs as Turbo 6V",
-   "url": "https://www.gsmarena.com/oneplus_turbo_6vs_debuts_quietly_with_same_specs_as_turbo_6v-news-75306.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "العنوان غير صالح أو أطول من 75 حرف (81 حرف)",
-    "العنوان مكرر أو قريب جداً من مقال منشور سابقاً: مراجعة هاتف Redmi M100 Pro: المواصفات الكاملة، السعر، المميزات والعيوب"
-   ]
-  },
-  {
    "title": "OnePlus Ace 7 Pro vs Redmi K100 Pro: Which Flagship Is Worth Buying?",
    "url": "https://www.gizmochina.com/2026/11/02/oneplus-ace-7-pro-vs-redmi-k100-pro/",
    "at": "2026-11-02",
@@ -3380,6 +3264,128 @@
    "ok": true,
    "kind": "news",
    "brand": "موتورولا"
+  },
+  {
+   "title": "Android’s first wide smartphone, the Coolpad Cool X Wide, is now on sale",
+   "url": "https://www.gizmochina.com/2026/11/08/androids-first-wide-smartphone-the-coolpad-cool-x-wide-is-now-on-sale/",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (677 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Inside ARRI: From Hollywood cinema cameras to the Honor Magic9 Pro Max",
+   "url": "https://www.gsmarena.com/inside_arri_from_hollywood_cinema_cameras_to_the_honor_magic9_pro_max-news-75353.php",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (642 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Deals: Latest Samsung foldables, Pixel 11 series, and more discounted",
+   "url": "https://www.gsmarena.com/deals_latest_samsung_foldables_pixel_11_series_and_more_discounted-news-75393.php",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (567 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Google Pixel 11 Pro XL vs Samsung Galaxy S26 Ultra",
+   "url": "https://www.gsmarena.com/pixel_11_pro_xl_vs_galaxy_s26_ultra_battery_camera_price_compared-news-75303.php",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Phone 's26 ultra' already covered in: خصم هائل على Samsung Galaxy S26 Ultra قبل الجمعة البيضاء"
+  },
+  {
+   "title": "OnePlus releases its ColorOS 17 rollout schedule for November - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaHdwT2VCVGxncG93VVM0MWoxT0xlR3hHNF8xQ2NCTnNwY1FfbTdRZ2xMQndvYXFXTjJFRk04cEdFeUdxeFB4RWdHYlhJUnNXSFI4TW5tM3BVM3pZdzJDc0FsWHhtc0JyOXB3UXlqY1dZc0lDVF9zQWtWdjF6QnU2OE05NzFlcGtSN2I1VmZlenA2QnBsSElKc3lVLUI5U0hhVk4w0gGfAUFVX3lxTE1fV00xeml0R3FVX3AxTUxQQ2F4S0RWVTd3eHJaUUYwOVZQNjdyelFnTXlhM2pRUzNiSHRVRDhSdlRubmd5QnRvb0hfaHZNempLckFVUXRXUVV0TjRCRk81bUJKR2tOaTIyTDJsUW10eGFSa2VmRGxJN3NRSTR0TzBFNTFxOU43TWRCRWtFd2Y4Y1pTSHBfWUlFajhYUXZ1NA?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['schedule', 'oneplus', 'november', 'rollout']"
+  },
+  {
+   "title": "Xiaomi 18 might actually arrive this year, 3C reveals the charging capabilities - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM2M5bXZydkFBd0s5cmVJVThKTUJwSlJ0aVRwa3JCdHU2YmhRWGtETzBnUjg3M0lxWGcycl9Wck4tbFE2T2I3OXJHdDVHMUxudFM3VlJXbEtxb05zN19BS0JPUHdvQ3pldzdxX1VuRjAwUWFxZlh1WVM0dERqTFI4V1g3RDNSOFh4dGJrWGFmV2R2YlpoLWlYQ0RJTGp4WDJNQ3NyZ29JRlYycDBDeV9LcjVIWUowVU96NFHSAbYBQVVfeXFMUGhrSUUxRzV6c0sxZ3ZHZXBEVGwtX3FuYk5PVUZCUGFVc1VNblR3VEtQQzk2X19kRHJJdTVKdDMtRFZjMUhiMmVZeXQ5NzljWllMQXByOENHbkM5eFBQa29CZlJ2TjZmQThXNzJTUGJueHlyMnZWMk5oanpfTWhrUlVtaW9uaHA1TmtDRkxvVFRYdlA3RVR3RTllMkY0YXVaNU1LbUNBWTdieWxoY0I3dGJidm9ieVE?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['charging', 'reveals', 'might', 'year']"
+  },
+  {
+   "title": "WhatsApp is testing a feature that lets you control who sees your phone number - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQanEyNWduUmNlUW9pcENoZnBhZVpVMzZ3aGZOVG1sUUhVYmI3dVdXbkdBaWxCOEJ5ZTNZdHVxQXBrcmpQRWZqUWtUMUNlRHA5Tm5TM0VnU253SlJoTEI3YzZzZ28zZk5CLXFLY0plOXpTRmg4YmJmdmtuNGJobEd3ZDJYLVZLOE9jbzBxWUd2VVQ3aFHSAY8BQVVfeXFMUHlfQzJXOEc0c2cwQURWU0ZFSkNJT2Y2dDMzaHZEUGt0UlYzTklFWldYRE92WGZJV2c5bkkxZy1wMlMwR0VGRUxMcEhyWktmVzNGWl9BTWQtSUc0a2VzdGNUSnhOMkYxUWpHazR5VmNSVlY1UEtGUHhBR2N0V3VrZ1prTkUxWGZrOVIwSm1qYWs?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (667 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "WhatsApp is testing a feature that lets you control who sees your phone number - Reader comments - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yNFJfZmw0al9XXzZvYjE5ajRUdG80Q0I2MVF2TFljUDVYaDN5WkljTkxtMTBVT1FOMXhiWkdiTUVYd0F2WFlFUFFyV2dPTEFCblcwRG5n?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['your', 'number', 'whatsapp', 'control']"
+  },
+  {
+   "title": "itel City 100 - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15U0lkVEZkaE45aVBTSVJLZWJhSUptT2RiUmZkNF9DUFk1ZDlPZ2l5UFNxVWU0Umw4S2pGUkowNDdTUmhMUllKMElORmNGSFZ3dld3TjRlSXhid2dj?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (603 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Nokia 2360 Flip - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KX1BIQ2xwU0NsMDRYcTZvMXVKa3JPckxsRHN6ZTItLTVwTXZBbVBId0VCaHAzUHp3VFAySVZzOEd1ZUh6TW5nTENJeklKX3ZlTE5LOHd3UEVZU2djNTF3?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Phone 'nokia 2360 flip' already covered in: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
+  },
+  {
+   "title": "OnePlus Ace 7 Pro - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYa0tWTmFEeWVDT3FKOVY4OFpjeU0zb212b05xcXdncS1xYUpRSzBMRVJjRmxQaUU2dnZtakQ4R2tCa1Jqbm10cGJGcEUtN3V6cnhjUmdTdTdIaUk4U1pOOHc5TFBrdw?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Phone 'ace 7 pro' already covered in: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "Compare Xiaomi Poco X8s vs. Samsung Galaxy A55 vs. OnePlus 12R - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVTdJb1U0NS1jMGUybGR3TjVyckR2UWRMWEN4eGhCUW5HM0NPNHhYRFpHTnpnaXFIN01uRjR0MmhoclpBODZDMk1QSWc1TldYYjdRU1k3QXY0QWlObjRLTUFLdkYwOVUzUFNsZ0gyemcyRUhxM1RmSnNhUkZJdnBjbmxuUnBBdk0wRkE?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Phone 'a55' already covered in: مواصفات سامسونج A55 5G التفصيلية وتقييم الكاميرا والأداء"
+  },
+  {
+   "title": "Honor is reportedly launching the Robot Phone 2 much earlier than expected - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSURXanpwOUFua21MQnVRcWxVQ0V1ZjF4TGN2NExrdjBmUl82cXBIVzRuUmtIaWZnbmFUTTAtRGJpVWdsNFAxbExjQy1pSE9YenhPMGJUZWpOODBQRDl2NFZ0V0hTX3hNdjBlOHVCQnNzdE0yUlJaVndUcjBOdFFldnF5ZmFxRHNDZVM1R20xaEJzeGVBNkNBRmVOQ213YUZTd1hXYUR4VkE3V1RIYUZEOXNuTkZKQQ?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (642 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Parents want safer phones for kids. These companies are answering the call. - TechCrunch",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY2hoNHZVU3UzUC1vd1QxQ09tSVRHMmxHVTlzalR4T2NSWjk2Uzh2OWRpOU5FWFpIa2hReDNkYmpfMTdnMm5ybDlIY1lwRDh2bUJjSlJ4bmtCUHhmLWhwRUJtZzJBeVA3dzBiM0FfWEFaeDVXVDBnN2Iwc3hpZ0hsanRVQ3gycmR3bEM4RFpmbnFSN210aGJyTUJ0MGNVWmxqM0l4RG8yRmNMd1dT?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (631 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "هاتف هواوي الثلاثي القابل للطي الجديد.. هل يغير قواعد اللعبة؟",
+   "cand_title": "Huawei Mate XT 2: CNY 19,999 Tri-Fold, IP59, ECG [2026] - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNekFmT3hEc0Zoa3hNNTVpOHJPVUpNWVR6clNIeEpzckRRSkppTFhsSDd4d2pGcHEyay1LX1R4WU5LSzREeWtveGhXaFJLRlB3Wk5sNEMzWXZQZzJMT1NPQVNHcTgxTENTMUY5NUM3OFM2eVpZSmhmNVMyZEg0OG1qYlV2Y0U4TzVza1E?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/huawei-mate-xt-2-tri-fold.html",
+   "at": "2026-11-09T00:23:08+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هواوي"
   }
  ]
 }
