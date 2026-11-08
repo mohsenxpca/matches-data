@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.almasryalyoum.com/news/details/4397984",
-   "t": "ترتيب هدافي الدوري الإسباني بعد هدف رافينيا",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 342 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'يواصل', 'تالق'}) مع تشابه نصي مع: برشلونة يواصل التألق في الليجا بفضل توهج رافينيا الاستثنائي)"
-   ]
-  },
-  {
    "u": "https://www.standard.co.uk/sport/football/gary-neville-arsenal-fc-gabriel-embarrassing-b1303161.html",
    "t": "Gary Neville names 'embarrassing' Arsenal player who 'lets himself down at times'",
    "at": "2026-11-01",
@@ -3330,6 +3320,16 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 24"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7172046",
+   "t": "مواعيد القطارات من أسوان إلى القاهرة اليوم الأحد 8-11-202.",
+   "title": "مواعيد القطارات من أسوان إلى القاهرة اليوم الأحد 8-11-202",
+   "url": "https://www.egyptaway.com/2026/11/aswan-cairo-train-schedules-sunday.html",
+   "photo": "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-08T07:04:08.970830+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
