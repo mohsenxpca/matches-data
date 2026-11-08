@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/1/واتساب-يتيح-إجراء-مكالمات-صوتية-مع-أشخاص-لا-يمتلكون-حسابا/7602086",
-   "t": "واتساب يتيح إجراء مكالمات صوتية مع أشخاص لا يمتلكون حسابا..  خطوات التطبيق",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 423 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7164169",
    "t": "ياسر إدريس يهنىء زين هشام عقب تتويجه بالميدالية الذهبية",
    "title": "ياسر إدريس يهنىء زين هشام لتتويجه بذهبية أولمبياد الشباب",
@@ -3329,6 +3319,16 @@
    "url": "https://www.egyptaway.com/2026/11/amd-vs-nvidia-graphics-cards-guide.html",
    "photo": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-08T08:19:18.303911+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7172114",
+   "t": "3 ملفات ترسم ملامح ميركاتو الأهلي.. مدافع جديد وصفقة أجنبية ومستقبل رضا سليم .. كيف يفكر الحسين عموته ؟",
+   "title": "ميركاتو الأهلي الشتوي: 3 ملفات تسيطر على تفكير الحسين عموتة",
+   "url": "https://www.egyptaway.com/2026/11/ahly-winter-transfer-plans-ammouta.html",
+   "photo": "https://images.pexels.com/photos/1198264/pexels-photo-1198264.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-08T08:41:10.182098+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
