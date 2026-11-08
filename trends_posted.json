@@ -1112,6 +1112,23 @@
    "at": "2026-11-08",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "الإسكندرية",
+   "at": "2026-11-08",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "ريال سعودي",
+   "at": "2026-11-08",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "مالاوي",
+   "at": "2026-11-08",
+   "ok": false
   }
  ]
 }
