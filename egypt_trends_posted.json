@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7164169",
-   "t": "ياسر إدريس يهنىء زين هشام عقب تتويجه بالميدالية الذهبية",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": "name 'COUNT' is not defined"
-  },
-  {
    "u": "https://www.bbc.com/arabic/articles/cqly3prdpz3po",
    "t": "كيليان مبابي: الصين تجبر اللاعب الفرنسي على الاعتذار، لكن كثيرين لا يعرفون بالضبط ما قاله",
    "at": "2026-11-01",
@@ -3330,6 +3323,16 @@
    "url": "https://www.egyptaway.com/2026/11/omar-el-saai-ahly-performance.html",
    "photo": "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-08T08:59:14.444050+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_economy/details/2026/11/8/3075360/%D8%B4%D8%B9%D8%A8%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%B4%D8%B1%D8%A7%D8%A6%D9%87-%D8%B9%D8%A8%D8%B1-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-%D8%AF%D9%88%D9%86-%D8%AD%D9%8A%D8%A7%D8%B2%D8%AA%D9%87-%D9%88%D8%AA%D8%AD%D8%AF%D8%AF-%D8%B4%D8%B1%D9%88%D8%B7-%D8%A7%D9%84%D8%B4%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D8%A2%D9%85%D9%86",
+   "t": "شعبة الذهب تحذر من شرائه عبر تطبيقات إلكترونية دون حيازته وتحدد شروط الشراء الآمن",
+   "title": "تحذير عاجل من شعبة الذهب بشأن الشراء عبر التطبيقات الإلكترونية",
+   "url": "https://www.egyptaway.com/2026/11/shaba-warns-buying-gold-apps.html",
+   "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-08T10:36:28.239238+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
