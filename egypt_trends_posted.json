@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.mirror.co.uk/sport/football/news/liverpool-arsenal-premier-league-neville-37832111",
-   "t": "Gary Neville singles out 'embarrassing' Arsenal star minutes into Liverpool clash",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 426 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'يفربول', 'ارسنال'}) مع تشابه نصي مع: موعد مباراة ليفربول وأرسنال والقناة الناقلة بالدوري الإنجليزي)"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/1/واتساب-يتيح-إجراء-مكالمات-صوتية-مع-أشخاص-لا-يمتلكون-حسابا/7602086",
    "t": "واتساب يتيح إجراء مكالمات صوتية مع أشخاص لا يمتلكون حسابا..  خطوات التطبيق",
    "at": "2026-11-01",
@@ -3331,6 +3321,16 @@
    "at": "2026-11-08T07:44:25.115545+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/8/AMD-أم-Nvidia-أى-كارت-شاشة-يمنحك-أداءً-أفضل-بأقل/7609429",
+   "t": "AMD أم Nvidia؟.. أى كارت شاشة يمنحك أداءً أفضل بأقل سعر؟",
+   "title": "AMD أم Nvidia؟.. أى كارت شاشة يمنحك أفضل أداء بأقل سعر؟",
+   "url": "https://www.egyptaway.com/2026/11/amd-vs-nvidia-graphics-cards-guide.html",
+   "photo": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-08T08:19:18.303911+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
