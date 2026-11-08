@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Motorola Signature 27 hands-on video reveals display specs, design, and more - 91Mobiles",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQk1Gcm5ZTFJhMk5mNzBWR051QjFKTGhNWUNPZFBtMEpnVHZYNHJrdG03YmxBcGgxc3F3cW0wRFVwd1ZvVVUxTWRLTVVZNEpVMXFheWlNZC13cTdVNFlqbkxWMjhGeU1jaGtWcC1HQUhCOWZCRGhFNG1wdEx4c0UtLU4wdS03SnpxT3d0LXlfWGZzSlMt0gHLAUFVX3lxTE83ajVIUWVsOFhndlNZb2dBVTZ5ZWpYVGJxenR5VS1uRWRkNzhSOUpnQzR0SmtRbGV5RFJuZk5CVG80ck9KaWd4cWtzeDJjUWJVOC0xalB3Q3h6Y1pPRnNiOTh6ZXBEcDdreUIySU9PRXNOak9PSkpQUkg5ZGpEd2ZrNmlGQVRjTVA4SVNuYlAyNmhMNWZGc25yRVNqNU44QXIxY0RsZVNsWGdfWUlUZVFmNFdmbk5NYURvRVV6Zk1SdWlvZWlORlNYUHdZ?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
-   "title": "Vivo Y32 5G Launched With 8,000mAh Battery, 50MP Camera, Snapdragon 4 Gen 2 and 120Hz Display - My Mobile India",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLXVMQ1RHWWx6WWV3d0NTTFVfeGVIUFFiQTh0VHNWMjZiVzZNQV9uektIUUh2cTNPMFdzNU1uQ0ZiYy1PWXVaVnY2TFpTMUtIWVBDUjhkYXJuXzZpWlUzT2tGMHl4bktNUl93SHNYNktIQ2N0NkpHVmFiTERqSWducXo5QjRCZ0V2T3F0My1HT3hyTkFfNkpWRktEeWwwblJjSVBfemttMV83SGxJTlJRYVg3YjFHZXN5WWo0blF3?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [y32] found in existing: مراجعة vivo Y32 2026: بطارية 8000 مللي أمبير والمواصفات والسعر"
-  },
-  {
    "title": "Huawei tests a phone with two 200MP cameras, could be Pura 100 Pro Max - Huawei Central",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZHBjM0ItUl9ZNi1ZZEtPTHFiRm1CMjlZSkstNXo4SUh3cTllZ1VLWXBPVWFvY1dINkFPdE9ybHBlVnI3eDQ5ZkNzdV9rUXhQUzZhOXBYNXJ4ekg2aXpUclF2VEl2Y0lyRHlGV2JzYmQ0c25POERQODA0THFpSEFPZFNPTjkyYlU4dmc2ZWJOTkZMcmYydU1wa1FzRGFCSGFabG80WWc3RdIBpwFBVV95cUxOZHBjM0ItUl9ZNi1ZZEtPTHFiRm1CMjlZSkstNXo4SUh3cTllZ1VLWXBPVWFvY1dINkFPdE9ybHBlVnI3eDQ5ZkNzdV9rUXhQUzZhOXBYNXJ4ekg2aXpUclF2VEl2Y0lyRHlGV2JzYmQ0c25POERQODA0THFpSEFPZFNPTjkyYlU4dmc2ZWJOTkZMcmYydU1wa1FzRGFCSGFabG80WWc3RQ?oc=5",
    "at": "2026-11-02",
@@ -3377,6 +3363,23 @@
    "ok": true,
    "kind": "news",
    "brand": "اوبو"
+  },
+  {
+   "title": "OnePlus releases its ColorOS 17 rollout schedule for November - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaHdwT2VCVGxncG93VVM0MWoxT0xlR3hHNF8xQ2NCTnNwY1FfbTdRZ2xMQndvYXFXTjJFRk04cEdFeUdxeFB4RWdHYlhJUnNXSFI4TW5tM3BVM3pZdzJDc0FsWHhtc0JyOXB3UXlqY1dZc0lDVF9zQWtWdjF6QnU2OE05NzFlcGtSN2I1VmZlenA2QnBsSElKc3lVLUI5U0hhVk4w?oc=5",
+   "at": "2026-11-08",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['releases', 'oneplus', 'schedule', 'november']"
+  },
+  {
+   "title": "تحديث أمني جديد لهاتف Motorola Razr Fold.. ما القصة؟",
+   "cand_title": "Your Motorola Razr Fold is receiving an update although it might not make you happy - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbDIybkp4bU1QUWxXR0dWZ3ROb2lFWjFpS3daTVhhWlBaMDg1RWg4Y1VnWncxMnJYUXVWTV9vXzBrVVJSaXc4YklOdk5ZaFdUdThPNURDUUp0X2xLbjhUTHhhM2xzWEFzUFRXMXB6NHRac2V0Ri1zYVVULVVYaWUyY1RLcGQ?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/motorola-razr-fold-security-update.html",
+   "at": "2026-11-08T06:12:48+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "موتورولا"
   }
  ]
 }
