@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7164031",
-   "t": "موقف الزمالك من تجديد عقد يوسف وائل فرنسي (خاص)",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 406 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.caughtoffside.com/2026/11/01/double-liverpool-exit-major-squad-changes-players-out/",
    "t": "Double Liverpool exit: Major squad changes with two senior players heading out",
    "at": "2026-11-01",
@@ -3329,6 +3320,16 @@
    "reason": [
     "الـ body 469 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7171803",
+   "t": "صدمة لعشاق أبل.. هل يختفي \"زر الأكشن\" من الآيفون قريباً؟",
+   "title": "صدمة لعشاق أبل.. هل يختفي زر الأكشن من الآيفون قريباً؟",
+   "url": "https://www.egyptaway.com/2026/11/apple-action-button-removal-rumors.html",
+   "photo": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-08T04:02:34.154912+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
