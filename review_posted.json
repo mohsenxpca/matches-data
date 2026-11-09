@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus Ace 7 Pro",
-   "url": "https://www.gsmarena.com/oneplus_ace_7_pro_5g-15045.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
-   "title": "Xiaomi Poco X8s",
-   "url": "https://www.gsmarena.com/xiaomi_poco_x8s_5g-15038.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [x8s] found in existing: مراجعة Poco X8s: أصغر هاتف بـ6330 مللي وشاشة 6.35 بوصة"
-  },
-  {
    "title": "ZEED Z-Pro",
    "url": "https://www.gsmarena.com/zeed_z_pro_5g-15055.php",
    "at": "2026-11-02",
@@ -3413,6 +3399,23 @@
    "at": "2026-11-09",
    "ok": false,
    "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "Inside ARRI: From Hollywood cinema cameras to the Honor Magic9 Pro Max - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaV9XbGJYcy1kbE5JZDllRkg1R3RxOENFOHp6XzJ0NElWX1ZwTVBOR2IxSnk4d0RyMXZ0T2E3WXFnRVA0bWhqOWtKUnNyYnFCRXBVcF9uNG9tVFVWSXR2RHdIYVlCd3JnaXNfYktLUlpuRmR6R2d0ZUtnWjNVMmdjZVNpME5tTlFPeVM1WFdaWjVldU14T0hHSXo3ZXhKVDBjTURBVXN4aDBqZS1pSFE?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['arri', 'magic9', 'inside', 'cameras']"
+  },
+  {
+   "title": "مراجعة شاملة هاتف Xiaomi Redmi M100 Pro: مواصفات عملاق الفئة",
+   "cand_title": "Xiaomi Redmi M100 Pro",
+   "url": "https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php",
+   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-redmi-m100-pro-review.html",
+   "at": "2026-11-09T05:16:23+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "شاومي"
   }
  ]
 }
