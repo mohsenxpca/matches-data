@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Karbonn Rebel Pro and Rebel smartphones launched in India: check price, specs - 91Mobiles",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcG5KZ2FjQXQyVlBoVmROS3AwMlNxVU5scGtrMzFyZ3I3NFBHR2ZRMWJBZ1hFVTZBTHdXTUVnS0t6SUQ4Q3B4cEdoaDY3b2YzaGt6UEFxaW1kOHVEZ2hfWnVvM0FWWTNJMlpUQTctWWliUUFObkstWUpoMUd4dVhHcmZDTWdWVUMxajF4TdIBwwFBVV95cUxOMnBXejVWSXpINDk1cFVaRVhBUlZ6WUhwQ3JCY29iVzZ2NU9VR0NOSnVfZHFzMnBLa2owU3VTRDkyZEx5R0w1RDFGbm8wZFBfY3NJeHRsM2JSc093dEhodGN0RVN6eTVoam1PME44cXZvT3JFcl9paHV3VE1PVFp5dHBCemZuczJvWlp4cTN3djM4SGk4cmplTkF4Yjh1RVVwLVlzcTBBRjNHeUpZYVpfbFNaVnE3dEZSQ1dFZzFsZTkyOVk?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [karbonn rebel] found in existing: مراجعة هواتف Karbonn Rebel و Rebel Pro: عودة قوية للفئة الاقتصادية"
-  },
-  {
-   "title": "New Samsung Galaxy S27+ certification confirms its charging prowess",
-   "url": "https://www.gsmarena.com/samsung_galaxy_s27_certification_reveals_its_charging_prowess-news-75310.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [s27] found in existing: تسريب: شحن Galaxy S27 سيكون 25 واط فقط مثل S26"
-  },
-  {
    "title": "How to transfer your data from an Apple iPhone to your new Samsung Galaxy phone",
    "url": "https://www.sammobile.com/news/how-to-transfer-data-apple-iphone-to-samsung-galaxy-phone/",
    "at": "2026-11-02",
@@ -3402,6 +3388,22 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (618 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Revolut enters Irish mobile phone market with €9.99 a month offer to first 25,000 customers - Irish Examiner",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pakgyNFZiamxtTkF4QTkyUFkxdENEMlJiUVpUZUJtODJmY2t2d1FkWndQeXVXY2lNWXh6TG5hWEgxbXpiZ1czUngySHNCVXNuMkhHUjFoaWZvMFUtMzBrRUxzVWZ3dTEtSTlUejE0Y0JmTko3TFE?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "html_guard: refused to send broken post HTML (extra </div> closes the theme layout (check quotes inside onclick/attributes)): revolut enters irish mobile market"
+  },
+  {
+   "title": "Motorola is quietly building apps and features that make Pixel and Samsung phones feel behind the times - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc2hSVVJmbkhyYjVJbHVzaks0T3hqSDdtNktzNDIyMTVzckFwWmI1bFMyNWRrUjBJME1CYmhCNk9RYk4tN21sMmd3QlR2aGFWYTJPM0NJb0N5b1Z2M181ZEhndDNucDRvNHhnbS1xUV83cmtZSjhDZkZCU2NkTjluQlMxZUwxSExkd3V5UFNrdzVYZGQ0QnQ4TFo3YklVZ0tNcGhFVUc4V2l2cnBfazlhZC0tTjNXdzA?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (546 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
   }
  ]
