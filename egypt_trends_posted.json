@@ -1,18 +1,6 @@
 {
  "done": [
   {
-   "u": "https://holanews.com/2-1-el-athletic-toma-impulso-y-frena-a-la-real-en-un-derbi-electrico/",
-   "t": "2-1. El Athletic toma impulso y frena a la Real en un derbi eléctrico",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://racingnews365.com/live-2026-f1-mexico-city-grand-prix",
    "t": "LIVE: Reaction as Kimi Antonelli makes F1 history in Mexico as Ferrari civil war brews",
    "at": "2026-11-02",
@@ -3360,6 +3348,16 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 8، 9",
     "الـ body 467 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/9/لماذا-ترتفع-حرارة-الهاتف-المحمول-ومتى-تصبح-خطيرة/7610290",
+   "t": "لماذا ترتفع حرارة الهاتف المحمول؟.. ومتى تصبح خطيرة؟",
+   "title": "لماذا ترتفع حرارة الهاتف المحمول؟.. ومتى تصبح خطيرة؟",
+   "url": "https://www.egyptaway.com/2026/11/why-phone-temperature-rises-and-danger.html",
+   "photo": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-09T09:16:43.976565+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
