@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://mezha.net/eng/news/mezha-b77fe289a31d84bf9d8df686_antonelli_-_the/",
-   "t": "Antonelli – the boy ‘born in a garage’ who became world champion",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في 7 كيانات جوهرية ({'اصغر', 'بطل', 'كيمي', 'تاريخ', 'انطونيلي', 'عالم', 'فورمولا'}) مع: كيمي أنطونيلي أصغر بطل للعالم في تاريخ الفورمولا 1)"
-   ]
-  },
-  {
    "u": "https://www.intermiamicf.com/news/match-preview-inter-miami-cf-visits-the-new-england-revolution-on-sunday",
    "t": "MATCH PREVIEW: Inter Miami CF Visits the New England Revolution on Sunday",
    "at": "2026-11-02",
@@ -3357,6 +3348,16 @@
    "url": "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-update.html",
    "photo": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-09T10:56:38.716573+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/9/انتعاشة-بالمعاشات-الشهرية-قفزة-بأعداد-صناديق-المزايا-الاجتماعية-بمصر/7611546",
+   "t": "انتعاشة بالمعاشات الشهرية.. قفزة بأعداد صناديق المزايا الاجتماعية بمصر",
+   "title": "انتعاشة بالمعاشات الشهرية وقفزة بصناديق المزايا الاجتماعية",
+   "url": "https://www.egyptaway.com/2026/11/social-insurance-funds-egypt-2025.html",
+   "photo": "https://images.pexels.com/photos/36227922/pexels-photo-36227922.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-09T11:56:53.308075+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
