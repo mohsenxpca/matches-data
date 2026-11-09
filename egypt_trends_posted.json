@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMUVjbHJqT0pSODlMY05wLWg5MGwwS0FiQl9tN1VpUGpNYWdzTlJUcEhKUXFHZHk1NEFCT25KQXk4Nk5ib2U4ZUJYR2Z5R29HTzZPSEtOYjM5Znl0YjUtZWE4cnZoWnI1NVl3SkFPdGF2MGlOQzJYQm9qamVBX2xVeVNwajB5VVdjZGc?oc=5",
-   "t": "كوريا الجنوبية تعدل القانون: الغش باستخدام نظارات الذكاء الاصطناعي سيؤدي إلى حظر الامتحانات لمدة 3 سنوات. - Vietnam.vn",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 19",
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/2/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA%D9%89%D9%91-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%85%D8%B5%D8%B1-%D8%B6%D8%AF-%D9%85%D8%A7%D9%84%D8%A7%D9%88%D9%89-%D9%81%D9%89-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/7601800",
    "t": "موعد مباراتىّ منتخب مصر ضد مالاوى فى تصفيات أمم أفريقيا 2027",
    "at": "2026-11-02",
@@ -3360,6 +3350,15 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 10000، 30000",
     "الـ body 372 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/10/3076381/%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1-%D8%AA%D9%83%D8%B4%D9%81-%D8%AD%D9%82%D9%8A%D9%82%D8%A9-%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%88%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D8%A8%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%82%D8%AF-%D9%85%D8%B9-%D8%B3%D9%81%D9%8A%D8%A7%D9%86-%D8%A8%D9%86-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9",
+   "t": "تقارير تكشف حقيقة اهتمام الوداد المغربي بالتعاقد مع سفيان بن جديدة",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": [
+    "الـ body 374 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
