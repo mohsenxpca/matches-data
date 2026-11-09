@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "vivo iQOO Neo12",
-   "url": "https://www.gsmarena.com/vivo_iqoo_neo12_5g_(china)-15041.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [neo12] found in existing: مراجعة iQOO Neo12: بطارية 9000 مللي وشاشة 185Hz للألعاب"
-  },
-  {
    "title": "Nokia 2360 Flip",
    "url": "https://www.gsmarena.com/nokia_2360_flip-15048.php",
    "at": "2026-11-02",
@@ -3417,6 +3410,15 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Xiaomi Poco X8s",
+   "url": "https://www.gsmarena.com/xiaomi_poco_x8s_5g-15038.php",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (845 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
