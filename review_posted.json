@@ -1,34 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung Galaxy A18 4G review",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a18_4g-review-3004.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
-  },
-  {
-   "title": "Apple iPhone 18 Pro review",
-   "url": "https://www.gsmarena.com/apple_iphone_18_pro-review-3003.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [iphone 18] found in existing: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
-   "title": "Apple iPhone 18 Pro Max review",
-   "url": "https://www.gsmarena.com/apple_iphone_18_pro_max-review-3002.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
-   "title": "vivo X500, X500 Pro and X500 Pro Max hands-on review",
-   "url": "https://www.gsmarena.com/vivo_x500_x500_pro_x500_pro_max_handson-review-3001.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [x500] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
    "title": "أفضل الهواتف الذكية 2026: الدليل الشامل والمواصفات",
    "url": "https://www.gsmarena.com/smartphone_buyers_guide-review-2036.php",
    "post_url": "https://www.review-mobile.com/2026/11/best-smartphones-buyer-guide-2026.html",
@@ -3410,6 +3382,38 @@
    "ok": true,
    "kind": "news",
    "brand": "هونر"
+  },
+  {
+   "title": "Unidentified Xiaomi phone with 100W charging clears 3C certification - Mezha.net",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONTA2R1lMVDNkOUlqTEV6Nkh6d2hCb1gwTFV3eGEwNkx2MFJ1QVRGQWlyQXZkOTVKYUl0VS1TdXRTaVNJYTF3eW9JdDFGZG1mM1BmQ3pCbUhfVi0tcGE1NldremV0MC0xeHFqelltLXFPUWRaNDFuS3FUTmxvTWZxWVpYSG9FVWVpYUhVRw?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (618 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "vivo X500 Pro Max review",
+   "url": "https://www.gsmarena.com/vivo_x500_pro_max-review-3009.php",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Oppo Find X10 Pro Max review",
+   "url": "https://www.gsmarena.com/oppo_find_x10_pro_max-review-3008.php",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Model code [x10] with variants {'pro', 'max'} found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
+  },
+  {
+   "title": "vivo X Fold6 review",
+   "url": "https://www.gsmarena.com/vivo_x_fold6-review-3006.php",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Model code [fold6] with variants set() found in review: مراجعة vivo X Fold6: فولد ببطارية 6900 مللي أمبير 2026"
   }
  ]
 }
