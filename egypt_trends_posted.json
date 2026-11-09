@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7164389",
-   "t": "لاعب اتحاد جدة: متحمسون لمباراة العين الإماراتي",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الـ body 476 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.ad-hoc-news.de/unterhaltung/kultur/wetter-deutschland-dwd-erwartet-regen-und-nebel-am-sonntag/70438605",
    "t": "Wetter Deutschland: DWD erwartet Regen und Nebel am Sonntag",
    "at": "2026-11-01",
@@ -3351,6 +3342,16 @@
    "url": "https://www.egyptaway.com/2026/11/smart-watches-read-finger-movements.html",
    "photo": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-09T02:01:27.731668+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7173473",
+   "t": "لاعب الزمالك السابق: عدم انضمام شلاطة للمنتخب؟.. كان فين قبل مباراة الأهلي؟",
+   "title": "لاعب الزمالك السابق: عدم انضمام شلاطة للمنتخب؟.. كان فين قبل الأهلي؟",
+   "url": "https://www.egyptaway.com/2026/11/zamalek-player-shelata-national-team.html",
+   "photo": "https://images.pexels.com/photos/26694125/pexels-photo-26694125.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-09T02:41:31.692500+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
