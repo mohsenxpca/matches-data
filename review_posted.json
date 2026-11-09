@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "HMD Pulse Pro 2nd Edition shows up at a retailer with a new chipset",
-   "url": "https://www.gsmarena.com/hmd_pulse_pro_2nd_edition_shows_up_at_a_retailer_with_a_new_chipset-news-75294.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (529 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Galaxy Watches could soon get a major UX change with a software update",
    "url": "https://www.sammobile.com/news/galaxy-watches-get-system-status-bar-wear-os-update/",
    "at": "2026-11-02",
@@ -3423,6 +3414,16 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "ثورة سامسونج بشاشات OLED.. هل تقضي AOC على التطويق الأبدي؟",
+   "cand_title": "AOC launches 32-inch 4K QD-OLED monitor with Samsung’s new five-layer Penta Tandem tech",
+   "url": "https://www.gizmochina.com/2026/11/09/aoc-u32u4-4k-qd-oled-monitor-launched-specs-price/",
+   "post_url": "https://www.review-mobile.com/2026/11/aoc-32-inch-qd-oled-monitor.html",
+   "at": "2026-11-10T00:51:30+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
