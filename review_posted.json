@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus Turbo 6Vs debuts quietly with same specs as Turbo 6V - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX05vc0JBTnpyU0tla0Mta1FOMDAtN0VqWDlRVjk5V2FDWUU2N284LTNGZklpclU0Q1JRWDg4Ukl2Tk1lR3V3V0tycDhKaU1sX2hxVC11Tk5LaHN5N3FTeWc5bnJDTHFVaXF2dENjcUZKZEVUUGRmT21JUWNjMjlucHNBVWJzemg2bTVNSm1tS2JNcXFhS1BfbHFjUUpfVnlpZFHSAZ4BQVVfeXFMT1ByODN6bmVOMUJpVzBKZWROck1leG90UmMtcHF0TXlBRko0bXVLcll4b0N1X29wLTF5UmFQMS0zRnlFZ0FsMGx6eUNOWG96YTdkMFFQOUExQlMzazdGd3c4dnExRnEyajE3N2ZmREtOeWxfQ3ozNmVvMnc0eS1WcVlnN01Tbm5PeUI1WmNPemIyams4Z0s4LVVCV1E5ckE?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "name 'ea_phone_titles' is not defined"
-  },
-  {
-   "title": "Motorola Signature 27 flexes muscle on Geekbench ahead of November 5 launch - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1ZG1ab1NHVjZMTi1tMG9vbW5UdzZOWVYyN2RpQTBZMEd5UXdsMkpmeVdUOHctQmd0YmZreTJyZ2dLUVVQMDNaeHZWb2hjTThBamVV?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [motorola signature] found in existing: مراجعة Motorola Signature 27: المواصفات الرسمية 2026"
-  },
-  {
-   "title": "OnePlus Turbo 7 specs leak hints at a massive battery and 200MP main camera - Sportskeeda Tech",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWGgtczN3QU1ScGVmc1NoTmtyRzFWNGhkaFctSFNHNDRZaU5RNnZFaFE3T19yNVBfekU0YmtTdmo1Y1ZoSG1Sc19oNXVDREc0Q0dqcGxCRTBNQXhRQTJKRDQzelpPX0E0REVxRzNzUHBBeGtrX1Zoa3FMVm5WcC1BZkhHMGJ1VWo3am9LVmdOYWJwcDFJalFRaERnRGkwRk5ycWZfRy1oX3JtUWxy?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "name 'ea_phone_titles' is not defined"
-  },
-  {
    "title": "Karbonn Rebel Pro and Rebel smartphones launched in India: check price, specs - 91Mobiles",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcG5KZ2FjQXQyVlBoVmROS3AwMlNxVU5scGtrMzFyZ3I3NFBHR2ZRMWJBZ1hFVTZBTHdXTUVnS0t6SUQ4Q3B4cEdoaDY3b2YzaGt6UEFxaW1kOHVEZ2hfWnVvM0FWWTNJMlpUQTctWWliUUFObkstWUpoMUd4dVhHcmZDTWdWVUMxajF4TdIBwwFBVV95cUxOMnBXejVWSXpINDk1cFVaRVhBUlZ6WUhwQ3JCY29iVzZ2NU9VR0NOSnVfZHFzMnBLa2owU3VTRDkyZEx5R0w1RDFGbm8wZFBfY3NJeHRsM2JSc093dEhodGN0RVN6eTVoam1PME44cXZvT3JFcl9paHV3VE1PVFp5dHBCemZuczJvWlp4cTN3djM4SGk4cmplTkF4Yjh1RVVwLVlzcTBBRjNHeUpZYVpfbFNaVnE3dEZSQ1dFZzFsZTkyOVk?oc=5",
    "at": "2026-11-02",
@@ -3399,6 +3378,31 @@
    "at": "2026-11-09",
    "ok": false,
    "reason": "Model code [v80] with variants set() found in review: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
+  },
+  {
+   "title": "Deals: Latest Samsung foldables, Pixel 11 series, and more discounted - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNGJHZDBha0NhTXhxSVdzLUZ4NVVnU25FaWJ4U3c1dVhKc0lRVVRkclNKVHpLMjZZZmoySGNqSWl0czExWkRKR0hmZkVuT2xRM0JGRkRIVzdOeC1wT2F2YWRtWVdIQkROZEp4SF80X3AyT0djUVo0SEh3ZzBLLXg3MmVobTJXNmRUWkpfLUd4S2k4SUJFZXhabXgwYnlHTWo0Sjh1MHlmWmtPUQ?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['foldables', 'latest', 'pixel', 'deals']"
+  },
+  {
+   "title": "Eugene 911 phone lines go down for hours, police investigating copper wire theft as cause - KPTV",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVTNZQjV6MFItUGlaZ3haNWxGbGdFT0ZyeGhCMFJ2MnJLZlBnc2dzS09nMTM0ZlltY1paYjBoQi04akRnbG5OSERwd3BTSFFoUGotYUJBZk5JWDE1QzhGcWt6TjFwZ3VaR0dnQjh4UjVFZi1zZXo5T2dENVlldlhnRXY2MXdKaXQyajhxdlJXcVQyTWRsYnhqaUVFOU82T2ZabVhIVFd1WXA0THhiZUg0c3d6NEw?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (553 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "3 reasons why I'll never fully switch to Brave and still have Chrome on my phone - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YQU5ObkRPV3ZMdG5JYWRBOWczcTZoTHVpSVdhcVM5RG5Id05STVV6RUVlZ3Z2d29FTWdWdXB6SHpraTU2dF92eUM3WFAxRVh0N2hBNzRPRlRRZ09XTzVSVWwyeXdqbGhZZm45amNWd0xwa1E?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (618 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
