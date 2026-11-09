@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.goal.com/en/lists/juventus-napoli-0-0-live-superb-save-from-vicario-to-deny-lucca/blt28bb1d3400499c4a",
-   "t": "Juventus-Napoli 0-0 LIVE: superb save by Vicario from Lucca",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'قمه', 'نابولي', 'يوفنتوس'}) مع: يوفنتوس ضد نابولي: تصريحات نارية قبل القمة المرتقبة في الدوري)"
-   ]
-  },
-  {
    "u": "https://www.wetter.net/wetter-news/trueb-mit-bergschnee-an-den-alpen-abends-regen-an-der-nordsee",
    "t": "Trüb mit Bergschnee an den Alpen, abends Regen an der Nordsee",
    "at": "2026-11-01",
@@ -3354,6 +3345,15 @@
    "at": "2026-11-09T03:21:46.599528+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/6/%D9%84%D9%88-%D8%B9%D8%A7%D9%8A%D8%B2-%D8%AA%D8%B6%D9%85-%D8%A3%D9%81%D8%B1%D8%A7%D8%AF-%D8%A3%D8%B3%D8%B1%D8%AA%D9%83-%D8%A5%D9%84%D9%89-%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%AA%D9%85%D9%88%D9%8A%D9%86-%D8%A7%D8%B9%D8%B1%D9%81-%D8%A7%D9%84%D9%81%D8%A6%D8%A7%D8%AA/7608748",
+   "t": "لو عايز تضم أفراد أسرتك إلى بطاقة التموين.. اعرف الفئات المستحقة والشروط",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'عبر', 'خطوات'}) مع تشابه نصي مع: خطوات إنهاء عقد العمل إلكترونيًا في السعودية عبر منصة قوى)"
+   ]
   }
  ]
 }
