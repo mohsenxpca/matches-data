@@ -683,6 +683,28 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/google-buys-crusoe-data-center.html",
    "title": "جوجل تشتري مشروع مركز بيانات من Crusoe"
+  },
+  {
+   "u": "https://www.androidpolice.com/gemini-without-typing-a-single-word-i-get-way-more-done-now/",
+   "t": "I use Gemini without typing a single word; I get way more done now",
+   "at": "2026-11-09",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/use-gemini-hands-free.html",
+   "title": "استخدام Gemini بدون كتابة صدمة جديدة"
+  },
+  {
+   "u": "https://www.androidpolice.com/i-let-gemini-handle-my-documents-spreadsheets-pdf-week-one-major-catch/",
+   "t": "I let Gemini handle my Docs, Sheets, and PDFs for a week; there's one major catch",
+   "at": "2026-11-09",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/brave-chrome-permanent-full-switch/",
+   "t": "3 reasons why I'll never fully switch to Brave and still have Chrome on my phone",
+   "at": "2026-11-09",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/why-brave-browser-cant-replace-chrome.html",
+   "title": "ليه متصفح Brave مش هيمسح Google Chrome من الموبايل"
   }
  ]
 }
