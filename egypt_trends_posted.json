@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/2/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA%D9%89%D9%91-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%85%D8%B5%D8%B1-%D8%B6%D8%AF-%D9%85%D8%A7%D9%84%D8%A7%D9%88%D9%89-%D9%81%D9%89-%D8%AA%D8%B5%D9%81%D9%8A%D8%A7%D8%AA-%D8%A3%D9%85%D9%85-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/7601800",
-   "t": "موعد مباراتىّ منتخب مصر ضد مالاوى فى تصفيات أمم أفريقيا 2027",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 3، 9",
-    "الـ body 468 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.marca.com/en/football/mls/2026/11/02/lionel-messi-s-masterclass-puts-cristiano-ronaldo-under-pressure-in-the-race-to-1-000-goals.html",
    "t": "Lionel Messi’s masterclass puts Cristiano Ronaldo under pressure in the race to 1,000 goals",
    "at": "2026-11-02",
@@ -3359,6 +3349,15 @@
    "ok": false,
    "reason": [
     "الـ body 374 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7174716",
+   "t": "عبادة يتصدر الترشيحات.. الأهلي يقرر تجميد المفاوضات مع 3 مدافعين",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها"
    ]
   }
  ]
