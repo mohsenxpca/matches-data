@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "ZEED Z-Pro",
-   "url": "https://www.gsmarena.com/zeed_z_pro_5g-15055.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "العنوان مكرر أو قريب جداً من مقال منشور سابقاً: مراجعة هاتف Redmi M100 Pro: المواصفات الكاملة، السعر، المميزات والعيوب"
-   ]
-  },
-  {
    "title": "vivo iQOO Neo12",
    "url": "https://www.gsmarena.com/vivo_iqoo_neo12_5g_(china)-15041.php",
    "at": "2026-11-02",
@@ -3416,6 +3407,16 @@
    "ok": true,
    "kind": "review",
    "brand": "شاومي"
+  },
+  {
+   "title": "هل تخذل أبل عشاقها في آيفون 20 برو؟ صدمة مرتقبة بالتصميم",
+   "cand_title": "iPhone 20 Pro leak casts doubt on Apple's all-glass design ambitions - Báo VietNamNet",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOWs3dl9xbzhQRzVDNXJMdVZwMHFDb1ZFU3dXMllpN1BNaERlSFluemVfSVpEbGFNMzBmOFVZYWFSa0JzLW8tMm1JRWhVckttUnpoWm1Ua3VZTGtNdTZLaU95a2RzOWIyMFlsajNVRENnQUw2bGtDbWpHTGlWMWtYNGp5VHpTdnd3X2RZRmlGMDRWWEJyNzVxaXlIbjRiM0Nqb05lR3ZzZDFiQQ?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/iphone-20-pro-design-leak-apple.html",
+   "at": "2026-11-09T05:46:33+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
