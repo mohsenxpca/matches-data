@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi Mijia shoe washing machine hits crowdfunding for just $110",
-   "url": "https://www.gizmochina.com/2026/11/02/xiaomi-mijia-3kg-shoe-washing-machine-launched-specs-price/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (656 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "أبل تخطط لتحديث ثلاثة أجهزة آيباد في النصف الأول من 2027",
-   "url": "https://www.gsmarena.com/apple_plans_to_refresh_three_ipads_in_the_first_half_of_2027-news-75312.php",
-   "post_url": "https://www.review-mobile.com/2026/11/apple-refresh-three-ipads-2027.html",
-   "at": "2026-11-02T20:02:23+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
    "title": "Here's how to reclaim 15GB of storage after iOS 27 update",
    "url": "https://www.gsmarena.com/users_report_abnormally_high_storage_allocation_for_apple_intelligence_after_updating_to_ios_27-news-75256.php",
    "at": "2026-11-02",
@@ -3422,6 +3404,23 @@
    "at": "2026-11-09T06:46:38+02:00",
    "ok": true,
    "kind": "review",
+   "brand": "اخرى"
+  },
+  {
+   "title": "Google Pixel 11 Pro - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yVW1pU2tDNEs3MTJ6OGtCTGFpakwyTDlERFZCZkV5dksxWjhzSFYzclA4UkpjWXNVODl3a01tRHNOOUYzbWwxZ2FyTnJYWDNubVItYmdOOFJrSHBLTXlIM3drWWl0VDNs?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Phone 'pixel 11 pro' already covered in: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
+  },
+  {
+   "title": "ثغرة أمنية تضرب عروض الكوميديا وتكشف حدود تقنيات حظر الهواتف",
+   "cand_title": "Dave Chappelle's Phone-Free Show Fails to Prevent Controversial Footage Leak - AOL.com",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQanVHSmVYM2x2QlJUTXRDLWZYQmdpcXNzM0xRWHRSNUprdE1yTm52Sm9nSVJuRzU5MVdjTzQ5TGd2S0FaZDVQMnFybjV5c2ZBbHk2UHpiOHZDdG51RnR3M0JBaTBSak5WTFU4ZUJjWHhzcTYzUGNOUWZ5d0VRT014cg?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/phone-free-show-security-flaw.html",
+   "at": "2026-11-09T07:16:36+02:00",
+   "ok": true,
+   "kind": "news",
    "brand": "اخرى"
   }
  ]
