@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.bbc.com/sport/formula1/live/clyr72l2mzvt",
-   "t": "F1 LIVE: Mexico City Grand Prix 2026 UK time, start time, grid, radio & updates",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في 5 كيانات جوهرية ({'اصغر', 'بطل', 'كيمي', 'تاريخ', 'انطونيلي'}) مع: كيمي أنطونيلي أصغر بطل للعالم في تاريخ الفورمولا 1)"
-   ]
-  },
-  {
    "u": "https://mezha.net/eng/news/mezha-b77fe289a31d84bf9d8df686_antonelli_-_the/",
    "t": "Antonelli – the boy ‘born in a garage’ who became world champion",
    "at": "2026-11-02",
@@ -3358,6 +3349,16 @@
    "reason": [
     "الـ body 413 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7173663",
+   "t": "مفاجأة من سامسونج.. الخوادم تستقبل أولى نسخة من تحديث One UI 9.5",
+   "title": "مفاجأة من سامسونج.. الخوادم تستقبل أولى نسخة من تحديث One UI 9.5",
+   "url": "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-update.html",
+   "photo": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-09T10:56:38.716573+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
