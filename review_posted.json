@@ -1,143 +1,6 @@
 {
  "done": [
   {
-   "title": "Galaxy Watches could soon get a major UX change with a software update",
-   "url": "https://www.sammobile.com/news/galaxy-watches-get-system-status-bar-wear-os-update/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (663 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Galaxy Z Fold 9 could bring back a feature Samsung abandoned last year",
-   "url": "https://www.sammobile.com/news/galaxy-z-fold-9-bring-under-display-camera/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (645 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)",
-    "الـ slug غير صالح (samsung-galaxy-z-fold-9-under-display-camera): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
-   ]
-  },
-  {
-   "title": "Stop new app shortcuts from messing up your One UI home screen",
-   "url": "https://www.sammobile.com/news/stop-new-app-shortcuts-from-messing-up-your-one-ui-home-screen/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (631 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "ويندوز 11 يتيح تشغيل تطبيقات أندرويد مباشرة من شريط البحث",
-   "url": "https://www.androidauthority.com/windows-11-search-android-app-actions-3730729/",
-   "post_url": "https://www.review-mobile.com/2026/11/windows-11-search-android-apps.html",
-   "at": "2026-11-02T20:10:36+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هواتف ذكية"
-  },
-  {
-   "title": "Google Pixel 11 Pro gets a $300 Amazon discount to $799",
-   "url": "https://www.androidauthority.com/google-pixel-11-pro-deal-amazon-3730752/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (641 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Garmin Vivoactive 5 falls to record-low price with $130 off",
-   "url": "https://www.androidauthority.com/deal-garmin-vivoactive-5-3730723/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (664 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Your PS5 can now run Android, Switch 2, and PC games, if you get your hands dirty",
-   "url": "https://www.androidauthority.com/ps5-run-android-switch-2-pc-games-3730686/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (744 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Save $300 on the Samsung Galaxy Z Fold 8 in Amazon price drop",
-   "url": "https://www.androidauthority.com/deal-galaxy-z-fold-8-3730703/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (709 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "تحديث One UI 9: إشادة واسعة من مستخدمي سامسونج وتخوفات من البطارية",
-   "url": "https://www.androidauthority.com/one-ui-9-update-first-impressions-poll-results-3730542/",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-one-ui-9-update-review.html",
-   "at": "2026-11-02T20:20:02+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "كيف تستعيد 15 جيجابايت من مساحة هاتفك بعد تحديث iOS 27؟",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaldfdW9sYzZIY1FsVmRHU2tDdmhxTnhfNDZDTWE1YjJBM2RUbjJ0ZzNGeEFMY1p2RFctODVBNXcxcGxxcjZkSUZrbkFjZDBwZURpeHk2b0dTZjFSdndJRk5jcmpSeWF3bURITFFneFFuaDRYbElPdXZaNnpvRDZlTUlWYUNBTEVUdXNTUDJ0NVdnYk5fNFo5TnVRUWthMldVRHBXbGxzMS1WcXNFWGtBSGg0djVKUmp0dE1oWFBkTWpsaXo4OG1WV0VQamctWG5G0gHMAUFVX3lxTFA5Z1BQbDFSazhnUW82X09zRnNPdmNHRnFoTDlKQTJFNTMyMkV2aXJuTWFBUDNpbW9KYTh1azhtYnNNS3d6NjgxaktWSTBuVUtpUXphb3BsVnZ5alEydUp6ZDh6bmg3NWN0eUNKZzNwWWtfcTBuNjFGckNLcXBJTU54c2VoZmtiOXZJVEZpR01HSG9COXlpRHFwcGJmTEk5ZVN2TzN6ZG40OGwwN3FjVF8wUE1mcUhrOThyakVfNmdpRXVERnRhdmVRWmFVNg?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/reclaim-storage-after-ios-27-update.html",
-   "at": "2026-11-02T20:21:49+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هواتف ذكية"
-  },
-  {
-   "title": "استراتيجية سامسونج الجديدة: هل تخدعنا بهاتف Galaxy S27 Pro؟",
-   "url": "https://www.sammobile.com/opinion/galaxy-s27-pro-samsung-raises-prices-giving-an-illusion-of-choice/",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-s27-pro-price-strategy.html",
-   "at": "2026-11-02T20:42:49+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج",
-   "reverted": true
-  },
-  {
-   "title": "vivo iQOO Neo12 - Full phone specifications - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xdjI0T3hVdnlJNTRUaVQzUzhldVM1TU92d1JIUl9nYWx0dE5uRXBFTlk5Mm0yNkdnUjg0RkhEbE5mOGdHSFM4NGNzYUJXd0YySUVRN3ZLOEtkQVpfUmtJbklWZUtjekRlS2swNjVR?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (723 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "سامسونج Galaxy A57: وحش الفئة المتوسطة الجديد بمواصفات ثورية",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE92SkprNjhrdGFQaVJybXZpel9iVXlJUWo5cmRYUFc0OERWQWlvMEpLa25BeXRyblNHYURtV0FGRGxyV090RjF3S2tlNV9EZ0FFZDVWQ2VEeFFVSmNoZ1F5bnBvVng?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-a57-full-specs-analysis.html",
-   "at": "2026-11-02T20:48:05+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "Motorola Signature 27 stars in hands-on promo video ahead of launch",
-   "url": "https://www.gsmarena.com/motorola_signature_27_stars_in_handson_promo_video_ahead_of_launch-news-75315.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (206 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "New Samsung Galaxy S27+ certification confirms its charging prowess - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT2k2NWRScVZTY3FiUVBERUVYRkdYd0lKUGNqaGJlZ0NiMGczN2lzbWVFN2JXMldjMGp5T25uaXVQcW9lemd6N25TcE53cGRmOV9RV085RVB3OGxsaHoycTVhQ0s2SGExRTRwM282UWh4VnZhZlZGLWVPRElEMlN3STVfZC1GSWdYRzJhWF9keHhEUFBTWVFfRDFqUVNwQklkRFB30gGfAUFVX3lxTE8wd2h1dlc3UXhYNTdHS1B4R1hEQUdMeElPb0N5WnVnVEZlUWxmQjB2NDZJTWo0RzNadlhoRldvenpWbEVTZ252VW5hSmdlVmpfM05QeGozRV9SN012TU1YaGhlbzVoWDRuanczbkJDb24wM3Bpb1owcDdiUldncHJFbHlBa0VFR0hwVVhxdWNfUi10RzhwNWROUi16eTA1VQ?oc=5",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (206 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "مستشعر Sony LYTIA 720 الجديد: ثورة في التصوير الليلي للهواتف",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zYTVSVDRMQld6OWstcmJxUWJJaEUwU05WSm4ybW0wakQ0QUdBYWZiel9aR0VWUXJvazh3alA4ckhUVWYzb2V5VHBRcG1qVzBXbEtZUzRHTzRjT3h5VE5KbkFQNDQtVVY4UElPLVMxbDJTMTdrT1HSAYYBQVVfeXFMUGNRQnNUTnpLQmdpdjVMUUMyQmhiakZOanhFSUYzX09FazdUWVptcWpRYjdqblRlV2lXVHhRbHVFZTItWGRCQldpcUx4azJZLUVnTDJFQkprNUs1RjRhSHFUYS1xRjdpQXpReVdfTjlVWGhPaUVBSm13al9tR0FxNDVXNjNxU1E?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/sony-lytia-720-sensor-analysis.html",
@@ -3421,6 +3284,124 @@
    "url": "https://www.gizmochina.com/2026/11/09/aoc-u32u4-4k-qd-oled-monitor-launched-specs-price/",
    "post_url": "https://www.review-mobile.com/2026/11/aoc-32-inch-qd-oled-monitor.html",
    "at": "2026-11-10T00:51:30+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
+  },
+  {
+   "title": "Colorful launches iGame Sigil 100W GaN charger with three ports & PD 3.2 AVS support for iPhone 18 Pro",
+   "url": "https://www.gizmochina.com/2026/11/09/colorful-igame-sigil-100w-gan-charger-launched-specs-price/",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone 'iphone 18 pro' already covered in: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "Should you get an iPhone 17 now or wait for the iPhone 18 launch?",
+   "url": "https://www.gizmochina.com/2026/11/09/should-you-get-iphone-17-now-or-wait-for-iphone-18-launch/",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone 'iphone 17' already covered in: مراجعة سعر و مواصفات iPhone 17"
+  },
+  {
+   "title": "Huawei Pura 90 Plus vs Vivo X300 Pro: Is the More Expensive Phone Better?",
+   "url": "https://www.gizmochina.com/2026/11/09/huawei-pura-90-plus-vs-vivo-x300-pro/",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone 'x300 pro' already covered in: مراجعة vivo X300 Pro: تليفوتو 200 ميجابكسل ومعالج Dimensity 9500 وبطارية 6510"
+  },
+  {
+   "title": "Huawei OSTA O1 Pro front panel leaks ahead of this month’s brand launch",
+   "url": "https://www.gizmochina.com/2026/11/09/huawei-osta-o1-pro-front-panel-leaks-ahead-of-this-months-brand-launch/",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (628 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "OnePlus Ace 7 Pro Now Available on Giztop With a Starting Price of $799",
+   "url": "https://www.gizmochina.com/2026/11/09/oneplus-ace-7-pro-price-availability-giztop/",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone 'ace 7 pro' already covered in: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max in for review",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_max_in_for_review-news-75411.php",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
+  },
+  {
+   "title": "Google Pixel 11 Pro XL vs. Pixel 10 Pro XL",
+   "url": "https://www.gsmarena.com/pixel_11_pro_xl_vs_pixel_10_pro_xl_battery_camera_price_compared-news-75356.php",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone 'pixel 11 pro' already covered in: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
+  },
+  {
+   "title": "Leak details Samsung's plans for Galaxy AI Premium: new features on free and paid tiers",
+   "url": "https://www.gsmarena.com/leak_details_samsungs_plans_for_galaxy_ai_premium_new_features_on_free_and_paid_tiers-news-75408.php",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (559 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "iPhone 18 and 18e to feature same sized screens and batteries",
+   "url": "https://www.gsmarena.com/iphone_18_and_18e_to_feature_same_sized_screens_and_batteries__-news-75403.php",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone '18e' already covered in: تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق"
+  },
+  {
+   "title": "Here's your first look at Huawei's wide-screen phone from sub-brand Osta",
+   "url": "https://www.gsmarena.com/heres_your_first_look_at_huaweis_widescreen_phone_from_subbrand_osta-news-75404.php",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (678 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "It's official: the Xiaomi 18 Pro and 18 Pro Max are launching globally next week",
+   "url": "https://www.gsmarena.com/its_official_the_xiaomi_18_pro_and_18_pro_max_are_launching_globally_next_week-news-75406.php",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
+  },
+  {
+   "title": "Here's what vivo will probably call its first gimbal camera",
+   "url": "https://www.gsmarena.com/heres_what_vivo_will_probably_call_its_first_gimbal_camera-news-75402.php",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (679 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "The Oppo Reno17 and Reno17 Pro are launching next week",
+   "url": "https://www.gsmarena.com/the_oppo_reno17_and_reno17_pro_are_launching_next_week-news-75400.php",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['next', 'launching', 'week']"
+  },
+  {
+   "title": "Keeping Flex Mode and the Galaxy Z Fold 8 separate might’ve been Samsung’s most inspired idea",
+   "url": "https://www.sammobile.com/opinion/keeping-flex-mode-galaxy-z-fold-8-separate-samsung-inspired-idea/",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (553 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "نهاية شاشات LCD في هواتف سامسونج الرخيصة؟",
+   "cand_title": "The end of LCD? Samsung may bring OLED to its cheapest Galaxy phones",
+   "url": "https://www.sammobile.com/news/the-end-of-lcd-samsung-may-bring-oled-to-its-cheapest-galaxy-phones/",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-brings-oled-to-cheap-galaxy.html",
+   "at": "2026-11-10T01:23:03+02:00",
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
