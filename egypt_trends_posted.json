@@ -1,36 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.mlssoccer.com/news/new-england-revolution-evolve-into-mls-cup-contender-never-satisfied",
-   "t": "New England Revolution evolve into MLS Cup contender: \"Never satisfied\"",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 2019، 9",
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'مرتقبه', 'قمه'}) مع تشابه نصي مع: يوفنتوس ضد نابولي: تصريحات نارية قبل القمة المرتقبة في الدوري)"
-   ]
-  },
-  {
-   "u": "https://as.com/futbol/primera/matarazzo-no-entiendo-por-que-el-var-no-ha-intervenido-y-anulado-el-penalti-f202611-n/",
-   "t": "Matarazzo: “No entiendo por qué el VAR no ha intervenido y anulado el penalti”",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 3، 5",
-    "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'لباو', 'اتلتيك', 'سوسيداد', 'ريال'}) مع: أتلتيك بلباو يوقف قطار ريال سوسيداد في ديربي الباسك)"
-   ]
-  },
-  {
-   "u": "https://www.elbalad.news/7164370",
-   "t": "أجواء صيفية بامتياز.. القاهرة تسجل 32 درجة اليوم وتحذير هام من الأرصاد",
-   "title": "أجواء صيفية بامتياز.. القاهرة تسجل 32 درجة وتحذير للأرصاد",
-   "url": "https://www.egyptaway.com/2026/11/cairo-weather-32-degrees-warning.html",
-   "at": "2026-11-02T03:10:44.291885+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/2/طرق-تحويل-الهاتف-إلى-كاميرا-ويب-للكمبيوتر-خطوات/7601736",
    "t": "طرق تحويل الهاتف إلى كاميرا ويب للكمبيوتر.. خطوات",
    "title": "كيف تحول هاتفك إلى كاميرا ويب للكمبيوتر؟ خطوات سهلة ومجانية",
@@ -3361,6 +3331,35 @@
    "at": "2026-11-10T00:08:05.478523+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_economy/details/2026/11/9/3076162/-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%AF-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B2%D9%8A%D9%88%D8%AA-%D8%AA%D9%82%D9%81%D8%B2-15-%D8%AE%D9%84%D8%A7%D9%84-%D8%B4%D9%87%D8%B1-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+   "t": "\"المواد الغذائية\": أسعار الزيوت تقفز 15% خلال شهر بسبب زيادة الخامات والدولار",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": [
+    "الـ body 380 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'اسعار', 'دولار'}) مع تشابه نصي مع: تراجع أسعار النفط عالمياً والكويتي يسجل 95.45 دولار)"
+   ]
+  },
+  {
+   "u": "https://www.arageek.com/tech/anthropic-%D8%AA%D8%B7%D9%84%D9%82-claude-fable-5-2-%D9%88mythos-5-2-%D9%85%D8%B3%D8%A7%D8%A6%D9%84-%D8%B9%D9%86-%D8%A7%D9%84%D8%AB%D9%82%D9%88%D8%A8-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-%D9%88",
+   "t": "Anthropic تطلق Claude Fable 5.2 وMythos 5.2: مسائل عن الثقوب السوداء ونظام تشغيل من الصفر",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": [
+    "الـ body 476 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdldQTVJhWG5iaDU0RS1nOUQ1eFFGeVcyRjVtekdOdE1Fa0hjelN3blhyNGJTZ3FIUmJSZ050dWExckpDek55enFpR1EtU0thZmhiTkJhMUgzd2w0M2dZWWtfU2VMY0tIeUI5RExlTmVVTmFqU0dvNXFIeFM3ZURDZUViV2JGeDQ?oc=5",
+   "t": "عقارب تقفز إلى الوراء: خلل غريب في ساعة آبل مع التوقيت الصيفي وكيفية حله - آي-فون إسلام",
+   "title": "خلل غريب في ساعة آبل مع بدء التوقيت الشتوي",
+   "url": "https://www.egyptaway.com/2026/11/apple-watch-winter-time-bug.html",
+   "photo": "https://images.pexels.com/photos/280264/pexels-photo-280264.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-10T00:27:26.573865+02:00",
+   "ok": true,
+   "type": "public_query"
   }
  ]
 }
