@@ -1223,6 +1223,23 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/alexandria-weather-and-winter-waves.html",
    "title": "تفاصيل حالة الطقس ونوات الشتاء بالإسكندرية"
+  },
+  {
+   "q": "راتب",
+   "at": "2026-11-09",
+   "ok": false
+  },
+  {
+   "q": "عمر مرموش",
+   "at": "2026-11-09",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "زلزال يضرب اليابان",
+   "at": "2026-11-09",
+   "ok": false,
+   "why": "off-topic"
   }
  ]
 }
