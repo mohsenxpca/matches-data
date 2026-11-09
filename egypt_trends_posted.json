@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.futbolfantasy.com/laliga/noticias/153970-terzic-analiza-la-vuelta-de-sancet-a-la-lista-y-explica-su-relacion-con-matarazzo",
-   "t": "Terzic analiza la vuelta de Sancet a la lista y explica su relación con Matarazzo",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/1/%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%89-%D9%86%D8%A8%D9%8A%D9%84-%D8%A7%D9%84%D9%83%D9%88%D9%83%D9%89-%D9%85%D8%AF%D9%8A%D8%B1%D8%A7-%D9%81%D9%86%D9%8A%D8%A7-%D9%84%D9%84%D9%86%D8%A7%D8%AF%D9%89-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%89-%D9%88%D9%8A%D8%A8%D8%AF%D8%A3-%D9%85%D9%87%D9%85%D8%AA%D9%87-%D8%A7%D9%84%D9%8A%D9%88%D9%85/7601281",
    "t": "التونسى نبيل الكوكى مديرا فنيا للنادى المصرى ويبدأ مهمته اليوم",
    "at": "2026-11-01",
@@ -3356,6 +3347,16 @@
     "كلمة رسميًا مش موجودة في المصدر، احذفها",
     "الـ body 432 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/9/تطبيقات-تساعدك-على-تنظيم-مصروفاتك-الشهرية-والتحكم-في-ميزانيتك/7610349",
+   "t": "تطبيقات تساعدك على تنظيم مصروفاتك الشهرية والتحكم في ميزانيتك",
+   "title": "أفضل تطبيقات الهاتف لتنظيم المصروفات الشهرية والتحكم في الميزانية",
+   "url": "https://www.egyptaway.com/2026/11/apps-to-organize-monthly-expenses.html",
+   "photo": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-09T07:01:57.559274+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
