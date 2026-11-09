@@ -1205,6 +1205,24 @@
    "at": "2026-11-09",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "سلمان بن عبد العزيز آل سعود",
+   "at": "2026-11-09",
+   "ok": false
+  },
+  {
+   "q": "جواو فيليكس",
+   "at": "2026-11-09",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "درجه الحراره",
+   "at": "2026-11-09",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/alexandria-weather-and-winter-waves.html",
+   "title": "تفاصيل حالة الطقس ونوات الشتاء بالإسكندرية"
   }
  ]
 }
