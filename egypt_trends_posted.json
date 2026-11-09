@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.bbc.com/news/articles/cj3vqy1g3eygo",
-   "t": "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 3"
-   ]
-  },
-  {
    "u": "https://holanews.com/2-1-el-athletic-toma-impulso-y-frena-a-la-real-en-un-derbi-electrico/",
    "t": "2-1. El Athletic toma impulso y frena a la Real en un derbi eléctrico",
    "at": "2026-11-02",
@@ -3359,6 +3350,16 @@
    "at": "2026-11-09T08:03:42.502670+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7173546",
+   "t": "نوة المكنسة.. تحذير عاجل من الأرصاد بشأن التقلبات الجوية",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 8، 9",
+    "الـ body 467 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
