@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://racingnews365.com/live-2026-f1-mexico-city-grand-prix",
-   "t": "LIVE: Reaction as Kimi Antonelli makes F1 history in Mexico as Ferrari civil war brews",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 455 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://as.com/futbol/primera/la-real-pierde-la-brujula-f202611-n/",
    "t": "La Real pierde la brújula",
    "title": "أتلتيك بلباو يوقف قطار ريال سوسيداد في ديربي الباسك",
@@ -3358,6 +3348,16 @@
    "at": "2026-11-09T09:16:43.976565+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/9/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%B6%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%89-%D9%8A%D8%AD%D8%AF%D8%AF-%D9%85%D9%86-%D9%84%D9%87%D9%85-%D8%AD%D9%82-%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%86%D9%82%D8%AF%D9%89/7609653",
+   "t": "قانون الضمان الاجتماعى يحدد من لهم حق صرف الدعم النقدى تكافل وشروط استمراره",
+   "title": "شروط استمرار دعم تكافل وكرامة وفق قانون 2025 الجديد",
+   "url": "https://www.egyptaway.com/2026/11/takaful-karama-law-2025-conditions.html",
+   "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-09T09:40:19.258230+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
