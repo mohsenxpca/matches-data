@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.formula1.com/en/latest/article/hamilton-clinches-first-pole-with-ferrari-in-qualifying-at-the-mexico-city-gp.4GffzFhlnOxOjbHHMc0AJI",
-   "t": "Hamilton clinches first pole with Ferrari at Mexico City GP",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 0"
-   ]
-  },
-  {
    "u": "https://www.bbc.com/news/articles/cj3vqy1g3eygo",
    "t": "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
    "at": "2026-11-01",
@@ -3356,6 +3347,16 @@
    "url": "https://www.egyptaway.com/2026/11/yasser-rayan-ali-maher-mo-salah.html",
    "photo": "https://images.pexels.com/photos/19875973/pexels-photo-19875973.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-09T07:42:29.601940+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7173207",
+   "t": "هل يحصل جميع أصحاب المعاشات على زيادة في يناير 2027؟.. تفاصيل قرار التأمينات",
+   "title": "حقيقة زيادة المعاشات في يناير 2027.. هل تشمل الجميع؟",
+   "url": "https://www.egyptaway.com/2026/11/pension-increase-january-2027-facts.html",
+   "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-09T08:03:42.502670+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
