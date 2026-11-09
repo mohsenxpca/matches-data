@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/1/بطء-الإنترنت-وانقطاعه-المتكرر-هل-حان-وقت-تحديث-نظام-الراوتر/7601635",
-   "t": "بطء الإنترنت وانقطاعه المتكرر.. هل حان وقت تحديث نظام الراوتر؟",
-   "title": "بطء الإنترنت.. هل حان وقت تحديث نظام الراوتر الخاص بك؟",
-   "url": "https://www.egyptaway.com/2026/11/internet-slow-router-firmware-update.html",
-   "at": "2026-11-01T22:13:32.660046+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://www.elbalad.news/7164389",
    "t": "لاعب اتحاد جدة: متحمسون لمباراة العين الإماراتي",
    "at": "2026-11-01",
@@ -3352,6 +3343,16 @@
     "الـ body 442 كلمة بس، لازم 530 على الأقل",
     "العنوان لازم أقل من 70 حرف"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7173209",
+   "t": "دون لمس الشاشة.. ساعات ذكية تقرأ حركة أصابعك وتنفذ الأوامر فوراً",
+   "title": "ساعات ذكية تقرأ حركة أصابعك وتنفذ الأوامر دون لمس الشاشة",
+   "url": "https://www.egyptaway.com/2026/11/smart-watches-read-finger-movements.html",
+   "photo": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-09T02:01:27.731668+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
