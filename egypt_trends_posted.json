@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.ad-hoc-news.de/unterhaltung/kultur/wetter-deutschland-dwd-erwartet-regen-und-nebel-am-sonntag/70438605",
-   "t": "Wetter Deutschland: DWD erwartet Regen und Nebel am Sonntag",
-   "at": "2026-11-01",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 10، 1000",
-    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'غدا', 'طقس', 'روده'}) مع: الأرصاد: طقس حار نهاراً ومائل للبرودة ليلاً غداً الأحد)"
-   ]
-  },
-  {
    "u": "https://www.goal.com/en/lists/juventus-napoli-0-0-live-superb-save-from-vicario-to-deny-lucca/blt28bb1d3400499c4a",
    "t": "Juventus-Napoli 0-0 LIVE: superb save by Vicario from Lucca",
    "at": "2026-11-01",
@@ -3352,6 +3342,16 @@
    "url": "https://www.egyptaway.com/2026/11/zamalek-player-shelata-national-team.html",
    "photo": "https://images.pexels.com/photos/26694125/pexels-photo-26694125.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-09T02:41:31.692500+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7173491",
+   "t": "الأهلي يصرف النظر مؤقتًا عن ضم محمد عبد المنعم",
+   "title": "الأهلي يصرف النظر مؤقتًا عن ضم محمد عبد المنعم لهذه الدوافع",
+   "url": "https://www.egyptaway.com/2026/11/ahly-postpones-abdelmoneim-signing.html",
+   "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-09T03:21:46.599528+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
