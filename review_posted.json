@@ -1,28 +1,6 @@
 {
  "done": [
   {
-   "title": "Nokia 2360 Flip",
-   "url": "https://www.gsmarena.com/nokia_2360_flip-15048.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [nokia 2360] found in existing: مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة"
-  },
-  {
-   "title": "OnePlus Ace 7",
-   "url": "https://www.gsmarena.com/oneplus_ace_7_5g-14672.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [oneplus ace] found in existing: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
-   "title": "مراجعة هاتف Honor 600s: التحليل الشامل للمواصفات، السعر، والمميزات",
-   "url": "https://www.gsmarena.com/honor_600s_5g-15047.php",
-   "post_url": "https://www.review-mobile.com/2026/11/honor-600s-review-specs-price.html",
-   "at": "2026-11-02T19:01:51+02:00",
-   "ok": true,
-   "brand": "هونر"
-  },
-  {
    "title": "Xiaomi Mijia shoe washing machine hits crowdfunding for just $110",
    "url": "https://www.gizmochina.com/2026/11/02/xiaomi-mijia-3kg-shoe-washing-machine-launched-specs-price/",
    "at": "2026-11-02",
@@ -3419,6 +3397,32 @@
    "reason": [
     "طول المقال قصير (845 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "Oppo Reno 17 series set to launch next week, official images emerge",
+   "url": "https://www.gizmochina.com/2026/11/09/oppo-reno-17-series-launch-next-week-official-images/",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (682 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Eugene area 911 phone lines down, residents urged to text for emergencies - KVAL",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOb21sM2MwSXRSSGFCcHFtSERRQVlsLVpCZm9Wb3pKclRUSzByY3V0S3Z1QmhqVUh3eG9fNmpkMEFnU1pGVEE3Y1h3aHlscE5TRTBBX0wyOWJXLUt5MzN6bjFBTC10aXQ4alZUMHl3V2FKVVJIaV9hRmJaTnhZWFJnNnk4QzFwTnp2UGl1Qm5vTjk1aTNMaEVIWjN1NGY2ekFFc2c?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['down', 'lines', 'eugene']"
+  },
+  {
+   "title": "مراجعة الدليل الشامل لأفضل الهواتف الذكية في 2026: المواصفات",
+   "cand_title": "See the best phones right now in our all-new buyer's guide",
+   "url": "https://www.gsmarena.com/smartphone_buyers_guide-review-2036.php",
+   "post_url": "https://www.review-mobile.com/2026/11/best-smartphones-buyers-guide-2026.html",
+   "at": "2026-11-09T06:46:38+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "اخرى"
   }
  ]
 }
