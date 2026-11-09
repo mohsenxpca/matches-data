@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "vivo X Fold6 review",
-   "url": "https://www.gsmarena.com/vivo_x_fold6-review-3006.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [fold6] found in existing: مراجعة vivo X Fold6: فولد ببطارية 6900 مللي أمبير 2026"
-  },
-  {
    "title": "Samsung Galaxy A18 4G review",
    "url": "https://www.gsmarena.com/samsung_galaxy_a18_4g-review-3004.php",
    "at": "2026-11-02",
@@ -3407,6 +3400,16 @@
    "at": "2026-11-09",
    "ok": false,
    "reason": "Phone 's26 ultra' already covered in: خصم هائل على Samsung Galaxy S26 Ultra قبل الجمعة البيضاء"
+  },
+  {
+   "title": "هاتف Honor Magic9 Pro Max يقتبس كاميرات هوليوود",
+   "cand_title": "Inside ARRI: From Hollywood cinema cameras to the Honor Magic9 Pro Max - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaV9XbGJYcy1kbE5JZDllRkg1R3RxOENFOHp6XzJ0NElWX1ZwTVBOR2IxSnk4d0RyMXZ0T2E3WXFnRVA0bWhqOWtKUnNyYnFCRXBVcF9uNG9tVFVWSXR2RHdIYVlCd3JnaXNfYktLUlpuRmR6R2d0ZUtnWjNVMmdjZVNpME5tTlFPeVM1WFdaWjVldU14T0hHSXo3ZXhKVDBjTURBVXN4aDBqZS1pSFHSAaoBQVVfeXFMT1N4eC1jS2RzN05vNnVtMVBsdlJvNUlacFZRcnBGUEpvUTRVR2ZHLVJ0OE82aUpnSWxDN25ucmpoSWJzNEVBdFJtZzN0a0pVbzZQbTBUYkFKUDRabTdNS3hHX3NscVFaemRLbThfTWNSSE56VW43SHgzdFlTcm1JaFlMOWxDLWdtMWxfN09mdnZuNi1FN3NqWDlRQ1htaHBqOGpKdy1ldGJNcXc?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/honor-magic9-pro-max-arri-cinema.html",
+   "at": "2026-11-09T03:46:27+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هونر"
   }
  ]
 }
