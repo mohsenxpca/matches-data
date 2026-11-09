@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.intermiamicf.com/news/match-preview-inter-miami-cf-visits-the-new-england-revolution-on-sunday",
-   "t": "MATCH PREVIEW: Inter Miami CF Visits the New England Revolution on Sunday",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 3، 5"
-   ]
-  },
-  {
    "u": "https://www.mlssoccer.com/news/new-england-revolution-evolve-into-mls-cup-contender-never-satisfied",
    "t": "New England Revolution evolve into MLS Cup contender: \"Never satisfied\"",
    "at": "2026-11-02",
@@ -3358,6 +3349,16 @@
    "url": "https://www.egyptaway.com/2026/11/social-insurance-funds-egypt-2025.html",
    "photo": "https://images.pexels.com/photos/36227922/pexels-photo-36227922.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-09T11:56:53.308075+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/9/هل-بصمة-الوجه-أكثر-أمانًا-من-كلمة-المرور-مقارنة-تكشف/7574912",
+   "t": "هل بصمة الوجه أكثر أمانًا من كلمة المرور؟.. مقارنة تكشف أفضل طرق حماية هاتفك",
+   "title": "هل بصمة الوجه أكثر أمانًا من كلمة المرور؟.. مقارنة حاسمة",
+   "url": "https://www.egyptaway.com/2026/11/face-id-vs-password-phone-security.html",
+   "photo": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-10T00:08:05.478523+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
