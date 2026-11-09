@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "How to transfer your data from an Apple iPhone to your new Samsung Galaxy phone",
-   "url": "https://www.sammobile.com/news/how-to-transfer-data-apple-iphone-to-samsung-galaxy-phone/",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [samsung galaxy] found in existing: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
-  },
-  {
-   "title": "vivo X500 Pro Max review",
-   "url": "https://www.gsmarena.com/vivo_x500_pro_max-review-3009.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [x500] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
-   "title": "Oppo Find X10 Pro Max review",
-   "url": "https://www.gsmarena.com/oppo_find_x10_pro_max-review-3008.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Phrase [pro max] found in existing: مراجعة vivo X500 Pro Max 2026: كاميرا 200 ميجا وبطارية 6750"
-  },
-  {
    "title": "vivo X Fold6 review",
    "url": "https://www.gsmarena.com/vivo_x_fold6-review-3006.php",
    "at": "2026-11-02",
@@ -3405,6 +3384,29 @@
    "reason": [
     "طول المقال قصير (546 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "Deals: Latest Samsung foldables, Pixel 11 series, and more discounted - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNGJHZDBha0NhTXhxSVdzLUZ4NVVnU25FaWJ4U3c1dVhKc0lRVVRkclNKVHpLMjZZZmoySGNqSWl0czExWkRKR0hmZkVuT2xRM0JGRkRIVzdOeC1wT2F2YWRtWVdIQkROZEp4SF80X3AyT0djUVo0SEh3ZzBLLXg3MmVobTJXNmRUWkpfLUd4S2k4SUJFZXhabXgwYnlHTWo0Sjh1MHlmWmtPUdIBpgFBVV95cUxNUjRHRlVsSUpMOUNfczlzMWwwajY3VkpJUmt5WllfeHQ2SUt3TWFiVXQ5QnJKcTdjUDJlMGlwbzJkS1huVEdvdGotbjNtUjEtNmFERWhhQ1A3cmxQLVJoNFRidXNTekZPMFVwejR6cU1kZlpmNENIVFU3WHFhOXFtOVFVMEZjdld1SGZZRHlxNkJjOFRabFNRZ0tNbUpvcmx1RW95S29R?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['discounted', 'deals', 'latest', 'foldables']"
+  },
+  {
+   "title": "Philips S7221 - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfd3hkb2hINUk0NXh3Uzk4bnlRdUdZMnhrdXJwcnFMb2VtbWJWX0lsZXRzdTVncjgyYTBablZlWHluM0VWM2FBODNpZlZnQ3JMdktqeDFScFNLbHFCbHpUOQ?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (624 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung Galaxy S26 Ultra - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ncERGZWpwbzJqWGpGT2lHRlFLTXVfYzR6OU0ydkNUVDlBbHJlTFI1VVVaV0ViMXdnRjVsMnI2ZnF4cWdpcC1SS25qZy1BOG1odjhWM3NhMldmUGRTcl9HZGpjRVMwRkU3ZGZwaXJQQQ?oc=5",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Phone 's26 ultra' already covered in: خصم هائل على Samsung Galaxy S26 Ultra قبل الجمعة البيضاء"
   }
  ]
 }
