@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Here's how to reclaim 15GB of storage after iOS 27 update",
-   "url": "https://www.gsmarena.com/users_report_abnormally_high_storage_allocation_for_apple_intelligence_after_updating_to_ios_27-news-75256.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (727 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "HMD Pulse Pro 2nd Edition shows up at a retailer with a new chipset",
    "url": "https://www.gsmarena.com/hmd_pulse_pro_2nd_edition_shows_up_at_a_retailer_with_a_new_chipset-news-75294.php",
    "at": "2026-11-02",
@@ -3422,6 +3413,16 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "ماذا تعني خطوة شاومي وأوبو وفيفو الخطيرة ضد التطبيقات؟",
+   "cand_title": "Oppo, Vivo, Xiaomi, and Honor launch Android Developer Verification (ADV) in China",
+   "url": "https://www.gizmochina.com/2026/11/09/oppo-vivo-xiaomi-and-honor-launch-android-developer-verification-adv-in-china/",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-vivo-xiaomi-honor-android-developer.html",
+   "at": "2026-11-10T00:21:25+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "شاومي"
   }
  ]
 }
