@@ -1,21 +1,6 @@
 {
  "done": [
   {
-   "title": "أفضل الهواتف الذكية 2026: الدليل الشامل والمواصفات",
-   "url": "https://www.gsmarena.com/smartphone_buyers_guide-review-2036.php",
-   "post_url": "https://www.review-mobile.com/2026/11/best-smartphones-buyer-guide-2026.html",
-   "at": "2026-11-02T18:31:26+02:00",
-   "ok": true,
-   "brand": "اخرى"
-  },
-  {
-   "title": "Xiaomi Redmi M100 Pro",
-   "url": "https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": "Model code [m100] found in existing: مراجعة هاتف Redmi M100 Pro: المواصفات الكاملة، السعر، المميزات والعيوب"
-  },
-  {
    "title": "OnePlus Ace 7 Pro",
    "url": "https://www.gsmarena.com/oneplus_ace_7_pro_5g-15045.php",
    "at": "2026-11-02",
@@ -3414,6 +3399,20 @@
    "at": "2026-11-09",
    "ok": false,
    "reason": "Model code [fold6] with variants set() found in review: مراجعة vivo X Fold6: فولد ببطارية 6900 مللي أمبير 2026"
+  },
+  {
+   "title": "Samsung Galaxy A18 4G review",
+   "url": "https://www.gsmarena.com/samsung_galaxy_a18_4g-review-3004.php",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Model code [a18] with variants set() found in review: مراجعة Samsung Galaxy A18 4G: معالج Exynos 1610 وشاشة AMOLED و6 تحديثات أندرويد"
+  },
+  {
+   "title": "Apple iPhone 18 Pro review",
+   "url": "https://www.gsmarena.com/apple_iphone_18_pro-review-3003.php",
+   "at": "2026-11-09",
+   "ok": false,
+   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
   }
  ]
 }
