@@ -1343,6 +1343,18 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/prayer-times-egypt-2026.html",
    "title": "مواقيت الصلاة وموعد صلاة المغرب"
+  },
+  {
+   "q": "امتحان",
+   "at": "2026-11-10",
+   "ok": false
+  },
+  {
+   "q": "ريال مدريد للسيدات ضد نادي باريس لكرة القدم للسيدات",
+   "at": "2026-11-10",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/real-madrid-paris-fc-women.html",
+   "title": "ريال مدريد للسيدات يواجه نادي باريس"
   }
  ]
 }
