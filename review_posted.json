@@ -1,33 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei Pura X View surpassed 750,000 units in sales",
-   "url": "https://www.gizmochina.com/2026/11/03/huawei-pura-x-view-surpassed-750000-units-in-sales/",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (614 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "إطلاق هاتف Vivo V80 FE ببطارية 7000 ملي أمبير وكاميرات ZEISS",
-   "url": "https://www.gizmochina.com/2026/11/03/vivo-v80-fe-goes-official/",
-   "post_url": "https://www.review-mobile.com/2026/11/vivo-v80-fe-launch-specs.html",
-   "at": "2026-11-03T19:45:45+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "فيفو"
-  },
-  {
-   "title": "Redmi Turbo 6 Max / Poco X9 Pro Max tipped with 7-inch 2K 185Hz LIPO display",
-   "url": "https://www.gizmochina.com/2026/11/03/redmi-turbo-6-max-7-inch-2k-185hz-lipo-display-leak/",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (659 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "هاتف من هونر ببطارية 14,000 مللي أمبير: هل انتهى عصر الشحن اليومي؟",
    "url": "https://www.gsmarena.com/honors_14000mah_smartphone_battery_can_reportedly_last_a_week-news-75326.php",
    "post_url": "https://www.review-mobile.com/2026/11/honor-14000mah-battery-smartphone-leak.html",
@@ -3368,6 +3341,33 @@
    "reason": [
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "A new red Honor Magic 9 color and photography master kit may launch soon",
+   "url": "https://www.gizmochina.com/2026/11/10/new-red-honor-magic-9-color-photography-master-kit/",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (654 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Purported Redmi K100 Ultra may pack a 2nm chip, 10,000mAh battery and 100W charging",
+   "url": "https://www.gizmochina.com/2026/11/10/redmi-k100-ultra-2nm-10000mah-100w-charging-leak/",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (629 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Huawei MateBook Fold S is a smaller foldable PC with a 14.7-inch screen, Richard Yu teases",
+   "url": "https://www.gizmochina.com/2026/11/10/huawei-matebook-fold-s-smaller-foldable-pc-14-7-inch-richard-yu-teases/",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (689 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
   }
  ]
