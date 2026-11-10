@@ -1,52 +1,6 @@
 {
  "done": [
   {
-   "title": "Vivo rolls out OriginOS 7 update to Vivo X300, X300 Pro, and X300 FE",
-   "url": "https://www.gizmochina.com/2026/11/03/vivo-rolls-out-originos-7-update-to-vivo-x300-x300-pro-and-x300-fe/",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (672 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "iPhone 18 key specifications, price hike tipped; expected to launch with iPhone Air 2 and iPhone 18e",
-   "url": "https://www.gizmochina.com/2026/11/03/iphone-18-specifications-price-hike-launch/",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (632 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "The 8 Coolest Power Banks Launched in 2026 That Do Way More Than Charge Your Phone",
-   "url": "https://www.gizmochina.com/2026/11/03/8-coolest-power-banks-launched-in-2026-that-do-way-more-than-charge-your-phone/",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (644 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Samsung Galaxy A58 bags an important certification, fast charging speed revealed",
-   "url": "https://www.gizmochina.com/2026/11/03/samsung-galaxy-a58-3c-certified/",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "Xiaomi’s new smart lock has a fingerprint reader, a USB-C port, and eight AA batteries",
-   "url": "https://www.gizmochina.com/2026/11/03/xiaomis-new-smart-lock-has-a-fingerprint-reader-a-usb-c-port-and-eight-aa-batteries/",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (634 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Huawei Pura X View surpassed 750,000 units in sales",
    "url": "https://www.gizmochina.com/2026/11/03/huawei-pura-x-view-surpassed-750000-units-in-sales/",
    "at": "2026-11-03",
@@ -3375,6 +3329,46 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Apple and Samsung turn to Chinese AI partners to compete in the world’s biggest smartphone market",
+   "url": "https://www.gizmochina.com/2026/11/10/apple-and-samsung-turn-to-chinese-ai-partners-to-compete-in-the-worlds-biggest-smartphone-market/",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (525 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "RedMagic 12 Pro+ vs OnePlus Ace 7 Pro: Which Flagship Gaming Phone Is Better?",
+   "url": "https://www.gizmochina.com/2026/11/10/redmagic-12-pro-plus-vs-oneplus-ace-7-pro/",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": "Phone 'ace 7 pro' already covered in: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "OnePlus Turbo 6V vs Nord 5: Is a 9000mAh Battery Better Than Flagship Performance?",
+   "url": "https://www.gizmochina.com/2026/11/10/oneplus-turbo-6v-vs-oneplus-nord-5/",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['flagship', 'better', 'oneplus']"
+  },
+  {
+   "title": "Xiaomi 18 Pro series global launch is set for November 17 in Paris",
+   "url": "https://www.gizmochina.com/2026/11/10/xiaomi-18-pro-series-global-launch-is-set-for-november-17-in-paris/",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
+  },
+  {
+   "title": "Oppo’s 12,000mAh battery phone shows up in official images",
+   "url": "https://www.gizmochina.com/2026/11/10/oppo-pnc110-12000mah-battery-official-images/",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
