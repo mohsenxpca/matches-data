@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://ulysmedia.kz/news/84000-zima-vsio-blizhe-kakie-regiony-kazakhstana-nakroiut-morozy-i-sneg/",
-   "t": "Зима всё ближе: какие регионы Казахстана накроют морозы и снег",
-   "title": "طقس 2 نوفمبر: صقيع ورياح قوية تضرب مناطق واسعة في كازاخستان",
-   "url": "https://www.egyptaway.com/2026/11/kazakhstan-weather-forecast-november-2.html",
-   "at": "2026-11-02T09:14:44.536246+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.mubasher.info/news/4694434/-%D8%A7%D9%84%D8%A2%D9%85%D8%A7%D8%B1-%D8%AA%D9%82%D8%AF%D8%B1-%D8%A7%D9%84%D8%A3%D8%AB%D8%B1-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A-%D9%84%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D8%AA%D8%B9%D8%B1%D9%81%D8%A9-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87-%D8%A8%D9%80-0-4-/",
    "t": "\"الآمار\" تقدر الأثر المالي لتعديل تعرفة الكهرباء والمياه بـ 0.4%",
    "at": "2026-11-02",
@@ -3362,6 +3353,16 @@
    "at": "2026-11-10T05:27:26.009252+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRmZGQThkcUJzT2lkT1pQMDFsT2prbzAycWhhZ2pmNUpMZ2NUSENicVZzd3diT3dhZlJXeFN3blllZmQ2RHhZa3FLRlVmUTBzRWlQdDFrNmQ5aGxCTzNFcU5heVVIYlc4dVRnRUNNcFdlNXNGRWdBSTB4d292SHhOdGZRMm9HZkQ2VVE?oc=5",
+   "t": "كيف تعمل شاشة اللمس في ماك بوك برو الجديد؟ تفاصيل تقنية PROLED وتجربة الاستخدام - آي-فون إسلام",
+   "title": "تفاصيل إطلاق ماك بوك برو بشاشة لمسية جديدة",
+   "url": "https://www.egyptaway.com/2026/11/apple-macbook-pro-touch-screen.html",
+   "photo": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-10T06:46:33.776843+02:00",
+   "ok": true,
+   "type": "public_query"
   }
  ]
 }
