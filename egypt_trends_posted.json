@@ -1,17 +1,6 @@
 {
  "done": [
   {
-   "u": "https://lenta.news/news/2026/11/02/v-moskve-rezko-poholodalo/",
-   "t": "В Москве резко похолодало",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 3.2، 9.2",
-    "الـ body 334 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'درجات', 'حراره', 'انخفاض'}) مع: الأرصاد تحذر: ارتفاع مؤقت في درجات الحرارة قبل الانخفاض)"
-   ]
-  },
-  {
    "u": "https://gorodlip.ru/society/228297/",
    "t": "Первый снег жители ЦФО могут увидеть уже на этой неделе",
    "at": "2026-11-02",
@@ -3363,6 +3352,16 @@
    "url": "https://www.egyptaway.com/2026/11/banque-misr-express-loan-5-days.html",
    "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-10T13:47:12.531479+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/10/مليون-دولار-جائزة-ناسا-تطلب-أفكار-الطلاب-لبناء-أول-قاعدة/7613096",
+   "t": "مليون دولار جائزة.. ناسا تطلب أفكار الطلاب لبناء أول قاعدة بشرية على القمر",
+   "title": "مليون دولار جائزة.. ناسا تطلب أفكار الطلاب لبناء قاعدة القمر",
+   "url": "https://www.egyptaway.com/2026/11/nasa-moon-base-student-challenge.html",
+   "photo": "https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-10T14:26:33.557402+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
