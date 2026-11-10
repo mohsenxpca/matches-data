@@ -1,60 +1,6 @@
 {
  "done": [
   {
-   "title": "لماذا يصبح هاتفك بطيئاً بعد التحديث؟ الأسباب والحلول",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHh1RXIyOUw5b2xIQ2JzdHpCLW1OYVhKR0t2U1BBZTg0T1AyYUdIQUFIaGpuaU9XY3BmRHFJVkR3SFk3U2I5SVZQSzB2SUdhWUZDYWJlWHFUSGRSMDhFM3oybWxaWFEwVUZWNFJjZm5tREtkNzhNb0VOUmphcEFJeWJQaE1GTGd1Q0lscg?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/why-phone-slow-after-update.html",
-   "at": "2026-11-03T00:43:55+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هواتف ذكية"
-  },
-  {
-   "title": "Change of plans? Samsung's Intelligent Eyewear sees December launch rumored - Android Central",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMVhtclR2UHppd2gwSUpDWVRjNTQ2T2VsRGR5SWl1ZXpqSnNQUk5qVUJQNmlnU3k4a0J3R0wzQXJvX0ktU3h1cXNiZ3JkTklCRmJpM0c0SVhuT0tYU0hYY2VFM3piNkFvUE1fcnZIVWp1R1ktWmUzRDhETW1JT0ZTNWoxSXROWjlYOFZubkEyTklwbE8yN2RVN29VQ0hVRW5UZ0wxWEs1V0JmSnYwQ1E?oc=5",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (705 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "حقيقة تسريب iPhone Duo 2: هل الصور مجرد خدعة ذكاء اصطناعي؟",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb3VXTjBqR2M5SDJUYzBaRDZBcmE1enVrM3lXVGk5aWhtUm53OF94aEJManQ4b1Ribnc0dm5zLWpSRmZWa2VmWldmZzB1Y3cxRUFxNVBKc3cxQWxTZkFJM1JHeGs2cjE1b1dlWmkwb3poeFR1a19JUXA0dUxBU3BFVENSbUJNSG9VTTZmTGZtNTBpV3BiTmxsSE5NVldPV2FJMVhXR1dTMV_SAa4BQVVfeXFMUEFGYUhIekx5Z3UyZ1IzdlRPSDc4SG4tcVV4aWV3T3hWZEg5a1lFOUtBNUExOGlyOG9rY29uaTAxTXFZbFpUai15d1c1dk1aNE1oNFpuM1lTbzlCRlZLUm9nN1QyVlRCWmlma3dxMDZiQnc3RzVqYUpmY1FjaS1HMzBzREJkaFp5Q2VFSnR3M3dqbEU4RERoWDJVbjlRVzJkTUZMUmVLcW1iRXA4MVJR?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/iphone-duo-2-cad-leak-debunked.html",
-   "at": "2026-11-03T01:13:34+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل",
-   "reverted": true
-  },
-  {
-   "title": "تحديثات هامة لتطبيقات زووم ومايكروسوفت على هاتف iPhone Duo",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSUZqaEZGWENfX1FYLUp5WG5MSTAybXFxX2xDMFduektlM1FFU1RadkIxLXpta0dfUEZwVnRBbVlTSkZXTWdCai10OE5fOHQtRnFGU24zQmdWSHpSamFFNHc0Qm0zZ2lqaERmdDVRUnVBakNZTlhZRFNUQ0I0TnhTYVc2ckM?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/zoom-microsoft-apps-optimized-iphone-duo.html",
-   "at": "2026-11-03T01:15:10+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل",
-   "reverted": true
-  },
-  {
-   "title": "Samsung’s Android XR ‘Intelligent Eyewear’ reportedly launches in December - 9to5Google",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUTdmLVBqU19UQy1Za292VUtIVG9lcFVyeWh5TDBCMkE5WWRUWV96cy1kbHhCOEVEX05IR2tFSEVlb1pmMm5ZaFd5UnM5Uk9mVlpuOWVCVEtjSDU4R1FURFktOS02cjQtV3dIcVpIdF8teVRhOTF4SlZuQUlhZXBSVHY3TmIwdlJWUDlLallKd0lmMmFPYWF0eFpGTVVFbW1IYnN2MDJaTDVlZw?oc=5",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (206 كلمة، والمطلوب 750+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "RedMagic 12 Pro launches globally with Snapdragon 8 Elite Extreme Gen 6 and 8400mAh battery",
-   "url": "https://www.gizmochina.com/2026/11/03/redmagic-12-pro-launches-globally-with-snapdragon-8-elite-extreme-gen-6-and-8400mah-battery/",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": "Phone 'snapdragon 8' already covered in: مراجعة OnePlus 16 قبل الإطلاق: Snapdragon 8 Elite Extreme وشاشة 185Hz"
-  },
-  {
    "title": "ZTE may sell its smartphone business in massive $5.6 billion deal, RedMagic to stay out of deal",
    "url": "https://www.gizmochina.com/2026/11/03/zte-smartphone-business-joint-venture/",
    "at": "2026-11-03",
@@ -3384,6 +3330,51 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Pixel 11 for $699: Google Flagship Is Now a Mid-Range Phone With $200 Off - Tech Advisor",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZXRWVkhCNFNDSVN4WGdVaUdDUGV6Z2M5RWg3OWIxTlUxcThCVzgzU3luOVo5RHVYeTZ3OGhpMjR4SnNEd1NvWTBCdWxGdGx0aWY1ZkJHWWJ6TUM5U3pXLUNaWkl6VkxvVnFJa1ZWR2ZyTFRDRlVEeWNOdnZ5TVBaM1R3NGFfbVVW?oc=5",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone 'pixel 11' already covered in: مراجعة Pixel 11 2026: مواصفات وسعر بيكسل 11"
+  },
+  {
+   "title": "Vivo Y6k 5G Launched With 6,500mAh Battery, 120Hz Display; Check Price and Features - Sangri Today",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcVJqUTFlZkJLcDlNRU9aX0ZQaGl1YUVOam5FNHpDWndaWkxoY2xObjZwS09YbGQ1cHhEdmhLcFdGeFBDcXU3R01uNTJkUTBuNFF3aVY4ZXN4Sk9wWjBrTUNwQzlFVHVRMy1uaUJZU1FuWjM5bVV5MXRIcktRb09Yd0hRLXVpNEtEQ0RXbUhwTXFDRFhkY05RUGptWVdSa0c0N2owUklzbFRWaXhQMkM2NVY4elNTTDdUVHkwbHFFc1_SAcABQVVfeXFMUHFSalExZWZCS3A5TUVPWl9GUGhpdWFFTmpuRTR6Q1p3WlpMaGNsTm42cEtPWGxkNXB4RHZoS3BXRnhQQ3F1N0dNbjUyZFEwbjRRd2lWOGVzeEpPcFowa01DcEM5RVR1UTMtbmlCWVNRblozOW1VeTF0SHJLUW9PWHdIUS11aTRLRENEV21IcE1xQ0RYZGNOUVBqbVlXUmtHNDdqMFJJc2xUVml4UDJDNjVWOHpTU0w3VFR5MGxxRXNf?oc=5",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Model code [120hz] with variants set() found in review: مراجعة هاتف فيفو بمعالج Snapdragon وشاشة 120Hz وبطارية 8000 مللي أمبير"
+  },
+  {
+   "title": "iPhone 18 Pro and Pro Max colors: all the hues you can choose from - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1YbGFfa3VOcmFjR1RGQkdBaVYxNUlyYjVKc1VVb1RkTExaZmhwcEd3THVrenhYN3Jna2Y2NTdpSzJPN3VYNzIwOE5PMFlmbnE0d3dqakFnNUpfNUdySXlMNlRaa2tKSVd3cG9uLVd3?oc=5",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone 'iphone 18 pro' already covered in: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "OnePlus Ace 7 Pro Listed at Giztop From $799: Specs and Features - Nokiamob",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNWtzUTZpZkJ1aUFpcFpOcW8wbmx5RGZWYVM4aVNNYkVHTEUxdEV4UGJwTmdub0UzWnljOTFmS3pVY2tTUmNTZTlsVFltbVVXdFZlV2dOTjFfS1E1LVd4YURJUnVIR2xIM0hMMFA5OGNCcE10Y3NLWFM2QWhibkE3TTVRcHdEaDVrQ3dLNGJzVGhHNGU3UVdzU1R5ZE1henYzOWFB?oc=5",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone 'ace 7 pro' already covered in: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "Vivo V80 launched in Bangladesh - The Daily Star",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUjlyMG1MTTNKNm5ISmoxYmNSR1FTTFJKLWRodHo3UVRLTEZuUDA2VHUwVHdHMnFmZFBkTk1NOTJjc1hiTU1Yemx0NHZOaHpTc1VZZjQ2OENIUloycHVoMVJDWC1kWUpwUEN2YVNnVGx2TGlOT2NxMGF4RFNGa3Z1Mk9Yd0lfNjZaMk5KVTY4cw?oc=5",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone 'v80' already covered in: مراجعة vivo V80 2026: كاميرات وبطارية وأداء"
+  },
+  {
+   "title": "أبل تفاجئ الجميع بمعالج خارق.. هل يغير قواعد اللعبة؟",
+   "cand_title": "Apple A18 Pro 5-Core GPU - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQjRFdnhZcFFiYU5tRU1yaE9Ic0lEWTdFZEdHNllleDlyOEhrOGw0d2U4NjdvWG9sbjV2N3ZWd2g5c1VQLTQzMUVMU1cwNWF2TzFHNGpNNlBhQXVTLWp2VUEweGtaejRSdXY3LTlDVExwOWQwQzNwcVAyQ25OX0xmcHJfckV3WFFmNnViWlVELWFTSHRP?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/apple-a18-pro-5-core-gpu.html",
+   "at": "2026-11-10T02:51:22+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
