@@ -1,31 +1,6 @@
 {
  "done": [
   {
-   "title": "Realme 17T design revealed in leaked live images",
-   "url": "https://www.gsmarena.com/realme_17t_design_revealed_in_leaked_live_images-news-75324.php",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": "Phone '17t' already covered in: مراجعة Xiaomi 17T المواصفات والسعر في مصر وهل يستحق الشراء؟"
-  },
-  {
-   "title": "أرباح قياسية لأبل: مبيعات الآيفون والخدمات تحطم الأرقام",
-   "url": "https://www.gsmarena.com/apple_reports_record_quarter__iphone_and_mac_sales_are_up_services_reach_an_alltime_high-news-75321.php",
-   "post_url": "https://www.review-mobile.com/2026/11/apple-record-q4-financial-results.html",
-   "at": "2026-11-03T20:43:10+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
-   "title": "تسريب يكشف قدرات الشحن في هاتف Samsung Galaxy A58 القادم",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a58_charging_speed_3c_certification-news-75327.php",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-a58-charging-revealed.html",
-   "at": "2026-11-03T21:12:53+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
    "title": "vivo V80 FE listed online with Dimensity 7400-Turbo SoC and 7,000mAh battery",
    "url": "https://www.gsmarena.com/vivo_v80_fe_listed_online_with_dimensity_7400turbo_soc_and_7000mah_battery-news-75320.php",
    "at": "2026-11-03",
@@ -3370,6 +3345,30 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "iPhone 18 and 18e could share more than just their looks, X-ray scans suggest",
+   "url": "https://www.gizmochina.com/2026/11/10/iphone-18-and-18e-could-share-more-than-just-their-looks-x-ray-scans-suggest/",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": "Phone '18e' already covered in: تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق"
+  },
+  {
+   "title": "Xiaomi 18 Pro in for review",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_in_for_review-news-75422.php",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "أبل تباغت الجميع: تسريب هواتف iPhone 18 و Air 2.. هل هذا هو",
+   "cand_title": "iPhone Air 2 and iPhone 18 dummy models leak",
+   "url": "https://www.gsmarena.com/iphone_air_2_and_iphone_18_dummy_models_leak-news-75421.php",
+   "post_url": "https://www.review-mobile.com/2026/11/iphone-18-air-2-dummy-leaks.html",
+   "at": "2026-11-11T01:52:06+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
