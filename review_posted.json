@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "title": "هواتف Nothing تحصل رسمياً على تحديث Android 17 الجديد",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQWJfYlFrbnFFc0xIdFh2MDNPZ1FNZzZWd09nc0h3RWd2elBucFNhTHg0dHc4UGJPck1hSElveUFBMDRnUUdDZk5uY3VKQ3Fja2hPN3RrS243ajFMbS1JaVFOZ3NodVg3cHJrbFJ2ektQdThnQjc0bmFSWWZIdXBZSGtHVlA1djNteVJxVVh4d1BLMXVjTlVqTU1PM2tNZw?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/nothing-phones-receive-android-17-update.html",
-   "at": "2026-11-03T00:17:50+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "ناثينج",
-   "reverted": true
-  },
-  {
-   "title": "جوجل تدمج ميزة Quick Share مباشرة داخل تطبيقات أندرويد وiOS",
-   "url": "https://www.androidauthority.com/quick-share-sdk-launch-time-frame-3730882/",
-   "post_url": "https://www.review-mobile.com/2026/11/google-quick-share-sdk-integration.html",
-   "at": "2026-11-03T00:42:09+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هواتف ذكية"
-  },
-  {
    "title": "لماذا يصبح هاتفك بطيئاً بعد التحديث؟ الأسباب والحلول",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHh1RXIyOUw5b2xIQ2JzdHpCLW1OYVhKR0t2U1BBZTg0T1AyYUdIQUFIaGpuaU9XY3BmRHFJVkR3SFk3U2I5SVZQSzB2SUdhWUZDYWJlWHFUSGRSMDhFM3oybWxaWFEwVUZWNFJjZm5tREtkNzhNb0VOUmphcEFJeWJQaE1GTGd1Q0lscg?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/why-phone-slow-after-update.html",
@@ -3383,6 +3364,23 @@
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMXEzOTg4dW5JMHlqLXBCdWlPNzNOMllWWWdIMTlwN0twOUZaQUU2TUxZWW4zdlNPTDZlcC1QYzZ4eG93cXMyVm0tUHg4YmxTOXZEVVd3TGZSZ09saTV0b0ZpeTNqNE9qVERWVW0xdUV6dHlkQVNxSEt3WVd2dXoxQ2l1TEZyRDA5ajhXV2IxRjhnM0U1RE9kTmpHcEJpaXds?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/stop-buying-expensive-usb-c-cables.html",
    "at": "2026-11-10T01:51:46+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "مواصفات هاتف vivo V80 الجديد قبل إطلاقه رسميا في مصر",
+   "url": "https://www.masrawy.com/news/tech-reports/details/2026/11/2/3072731/%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA-%D9%87%D8%A7%D8%AA%D9%81-vivo-v80-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%82%D8%A8%D9%84-%D8%A5%D8%B7%D9%84%D8%A7%D9%82%D9%87-%D8%B1%D8%B3%D9%85%D9%8A%D8%A7-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Phone 'v80' already covered in: مراجعة vivo V80 2026: كاميرات وبطارية وأداء"
+  },
+  {
+   "title": "ثورة تصوير احترافية: كينون تطلق مركز تحكم بـ 200 كاميرا مجاناً!",
+   "cand_title": "Canon Camera Control Centre Announced – Free Multi-Camera Software for PTZ and Cinema EOS, Up to 200 Cameras - CineD",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUHh1eUNDbEFRYjRxSUxDbTJIYWZRUkFTVHlSWlZsSFAzeDc3Z1ZzNEFPZUlOeG1weXNpREtPUEFpNWV6RkJkM05VYlE5cHV5MVVQV3p0a3kzb0R4cHZWWWJWMWNRMld3enBtMW14QXdfVktGU01ja1VhNktDRVowV0ZZVnJRclE0WVJTeE94Z1Uwb0FyclN2V0h2NTN0N2pjcGtsRlgzQ1UtX1VOeHM4NlBjTUFqN19OR0ljRkJNTERGT3hZRmpN?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/canon-camera-control-centre-announced.html",
+   "at": "2026-11-10T02:21:51+02:00",
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
