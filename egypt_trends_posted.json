@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMirwRBVV95cUxNeXBmQzlDRWVCUGItcmloaC1NTkUyZWloUVlfVGllTWg1ZEZTYjJWbkk5REJqR0xTREprRXdZUnh0SUwzYTlWV1BvdmpyaHc4MjNjNkZDaUxlQU9JTlFyNFd5Wnlwd3ZMT1JScVVqS0otdHNMRFVnd0V5OHVoalA2ODZzSHByWnNOWWlJd2ktMWh1a2RMM1ZSMUJpT0dkQ0ttejlFSjV1aWlzaWlRQ0hOS3F1Z0V3em1sY1BrVktrNUJnUnFpUV94a2xjYi1LYkh0QlBhaTRCeDlMbzZOUl9VR25kYVAzcjJyV3d3d2pVSHpkMmljWHp1M1ZvR1NicEdMZW5qS2dhb0VDWXFrdmlUZklEMGVUbWNGeFl2RXlFOVVwT0ZuVElvMnh5OXAzdWVKbzNrOUZWM251N1BlY3lRd25fY1FOQWRqQVY2VzJVT2RjX2dKTER5OUVGYjNzNUtiSEpJLTRMa01kVVhjQ3AzaUpETmFSUFhyVmVKcXg4RWFZVjlpYURQczB0eTc4OWVCMUpMQnN1WEN4U3hyZXNtak5TZlBYYVhrZGhzeUFwbjVMOGVfVkh3T09iYXdBc182X1pURWhoNzNNRXVXYUVWd3pRbDM2QWVjR0x5VU9meW91OENSUmN0SmYwUWFzSHR6eUM1WEZkZm5BQlVvbHFtY2s1SlAwcmdFTlEzdkF6QlFRM2pOenFRZ0JTZ29NdUNUUmE2c2s2ZVk3NjQ4VDY00gG0BEFVX3lxTE1kb2ZqQTNXaGYwODVyTi1Eb0Y5bjNrbkRoaGp5Yjh6NG13QkNuOHo2OHluZTRnTTRoRW0xZEwtMDlPcUJfT3hJbmpMWlBGMnhDeEpGeVhiQ2hYN3ZJWWdvR1lFWDVaZHNkanpub2luT3Brc0c4UHNCcDNMRl9ZMFNxRGplOGNPOXFrZjctdkZ6REE1N25INlExMlNRaFVUN3NxV0pTX2MwdWVRRUVCbnRYbTZ3NUxRTXVzNXZ3UFNCemlTYmNDc2N4bkgzYVFWcENweTJrOEdsMl9Ld1E2Q2hzMzBzdkVUWmV2X0ZQTURpaThuMW5aOGZ5YzJEc25vVmktZjNaWjEtdzhHeEZzRlRCRHZ4M0dSNG82Ui1JcnVDbkJ0MFBSZUZTVnlpbXdXLUV0M1FzOFBzQ1lEdjhybXFOcy0zRXdIeG5OS2ZlOFcxQTVCcWFMQ25ndUVkQ2ZYSU9IRnVmTGo1eWRWSi15clY5Q2JNNFM3cktuS3pNSUVxRWJ0WEtOenAyRjFJdFljM3lscU9oeE1IRklwcGZvNkxpM2VHN3hBU25zSTFyWUQwSEhXdDFmc3lFT1VmSEZCUXVCWTFfdUZoalJ5YW91VW5JNmJqUFV2OG9HUmRWeDdXVGRkRGpxX2R6cGJDamN1X05Rd1VzcjM1V2hsMm5Ra2FBT1I4aXNXajdSX3ItNDEzVndIWGEtd2VPTTRVYmZ1LW9TbnI1MFhpbW1sYjZWZThWYmZhdQ?oc=5",
-   "t": "المتحف الكبير يبدأ تطبيق منظومة الأسعار الجديدة لتذاكر الزيارة - Masrawy",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الـ body 384 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'اسعار', 'جنيها'}) مع تشابه نصي مع: أسعار الذهب اليوم الأحد 1 نوفمبر 2026: عيار 21 يسجل 6160 جنيها)"
-   ]
-  },
-  {
    "u": "https://pogoda.mail.ru/news/72947908/",
    "t": "Гидрометцентр сообщил, когда в Москве ударит минус",
    "at": "2026-11-02",
@@ -3366,6 +3356,15 @@
    "at": "2026-11-10T17:58:46.378779+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7175772",
+   "t": "تطبيق جيميني يحصل على عقل جديد.. ماذا يقدم تحديث Carbon للمستخدمين؟",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "الـ body 411 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
