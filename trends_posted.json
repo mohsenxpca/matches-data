@@ -1302,6 +1302,18 @@
    "at": "2026-11-10",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "جامعة حائل",
+   "at": "2026-11-10",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "كأس الملك",
+   "at": "2026-11-10",
+   "ok": false,
+   "why": "no source text"
   }
  ]
 }
