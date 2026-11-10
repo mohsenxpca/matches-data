@@ -12,6 +12,7 @@ import os
 import re
 import subprocess
 import sys
+import urllib.parse
 from bs4 import BeautifulSoup
 import requests
 
@@ -419,11 +420,14 @@ def build_all(output_dir="out_stories", count=10):
                 rmap = json.load(rf)
             for old_pth, target_url in rmap.items():
                 rel_pth = old_pth.lstrip("/")
-                if not rel_pth.endswith(".html") or " " in rel_pth:
+                if not rel_pth.endswith(".html"):
                     continue
-                full_dest = os.path.join(output_dir, *rel_pth.split("/"))
-                os.makedirs(os.path.dirname(full_dest), exist_ok=True)
-                r_html = f"""<!doctype html>
+                # Create both decoded and encoded paths for GitHub Pages compatibility
+                paths_to_create = {rel_pth, urllib.parse.quote(rel_pth, safe="/")}
+                for p_var in paths_to_create:
+                    full_dest = os.path.join(output_dir, *p_var.split("/"))
+                    os.makedirs(os.path.dirname(full_dest), exist_ok=True)
+                    r_html = f"""<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8">
@@ -437,8 +441,8 @@ def build_all(output_dir="out_stories", count=10):
   <p>تم نقل الصفحة إلى: <a href="{target_url}">{target_url}</a></p>
 </body>
 </html>"""
-                with open(full_dest, "w", encoding="utf-8") as wf:
-                    wf.write(r_html)
+                    with open(full_dest, "w", encoding="utf-8") as wf:
+                        wf.write(r_html)
                 red_count += 1
         except Exception as e:
             print("Error writing legacy news redirects:", e)

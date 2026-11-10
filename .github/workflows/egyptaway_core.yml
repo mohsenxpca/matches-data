@@ -1,0 +1,78 @@
+name: نشر أعمدة ايجبتاوى الأساسية (Egyptaway Core Daily)
+
+on:
+  schedule:
+    # نشر يومي منتظم: مرتين يومياً (10:30 صباحاً و 17:30 مساءً بتوقيت القاهرة)
+    - cron: "30 8,15 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "تجربة بدون نشر (1 = تجربة بدون نشر، 0 = نشر فوري على الموقع)"
+        required: false
+        default: "0"
+      pillar:
+        description: "تحديد قسم معين (اتركه فارغاً للتدوير التلقائي أو اختر: gaming_guides, game_settings, telecom_codes, game_topup)"
+        required: false
+        default: ""
+      topic_id:
+        description: "تحديد معرّف موضوع معين اختياري"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: egyptaway-core-publishing
+  cancel-in-progress: false
+
+jobs:
+  publish-core-guide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Generate and Publish Core Article
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.pillar }}" ]; then
+            ARGS="$ARGS --pillar ${{ github.event.inputs.pillar }}"
+          fi
+          if [ -n "${{ github.event.inputs.topic_id }}" ]; then
+            ARGS="$ARGS --topic-id ${{ github.event.inputs.topic_id }}"
+          fi
+          python -u egyptaway_core.py $ARGS
+
+      - name: Upload preview artifact on dry run
+        if: github.event.inputs.dry_run == '1'
+        uses: actions/upload-artifact@v4
+        with:
+          name: core-dry-run-preview
+          path: out/*.html
+          if-no-files-found: ignore
+
+      - name: Save state (non-blocking rebase push)
+        if: github.event.inputs.dry_run != '1'
+        run: |
+          git config user.name "core-bot"
+          git config user.email "core-bot@users.noreply.github.com"
+          git add egyptaway_core_posted.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No state changes"; exit 0; fi
+          git commit -m "core post $(TZ=Africa/Cairo date +%F_%H:%M)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done
