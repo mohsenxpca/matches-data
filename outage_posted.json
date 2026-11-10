@@ -1,14 +1,4 @@
 {
-  "vodafone-cash": {
-    "title": "عطل مفاجئ يضرب فودافون كاش في مصر 2026",
-    "url": "https://www.egyptaway.com/2026/11/vodafone-cash-outage-2026.html",
-    "at": "2026-11-10T07:31:05.387994+02:00"
-  },
-  "vodafone": {
-    "title": "عطل مفاجئ يضرب شبكة فودافون مصر 2026",
-    "url": "https://www.egyptaway.com/2026/11/vodafone-egypt-outage-2026_0171948227.html",
-    "at": "2026-11-10T08:11:01.213181+02:00"
-  },
   "facebook": {
     "title": "عطل مفاجئ يضرب فيسبوك في مصر 2026",
     "url": "https://www.egyptaway.com/2026/11/facebook-down-egypt-2026_01305750548.html",
@@ -23,5 +13,10 @@
     "title": "عطل مفاجئ يضرب خدمات اتصالات e& في مصر 2026",
     "url": "https://www.egyptaway.com/2026/11/etisalat-eg-outage-2026_01926416745.html",
     "at": "2026-11-10T16:41:05.453448+02:00"
+  },
+  "whatsapp": {
+    "title": "عطل مفاجئ يضرب واتساب في مصر والشرق الأوسط 2026",
+    "url": "https://www.egyptaway.com/2026/11/whatsapp-outage-egypt-middle-east-2026_01401711749.html",
+    "at": "2026-11-10T22:56:04.415065+02:00"
   }
 }
