@@ -1355,6 +1355,17 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/real-madrid-paris-fc-women.html",
    "title": "ريال مدريد للسيدات يواجه نادي باريس"
+  },
+  {
+   "q": "محمد هانى",
+   "at": "2026-11-11",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "أحمد دويدار",
+   "at": "2026-11-11",
+   "ok": false
   }
  ]
 }
