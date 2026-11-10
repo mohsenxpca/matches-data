@@ -419,7 +419,7 @@ def build_all(output_dir="out_stories", count=10):
                 rmap = json.load(rf)
             for old_pth, target_url in rmap.items():
                 rel_pth = old_pth.lstrip("/")
-                if not rel_pth.endswith(".html"):
+                if not rel_pth.endswith(".html") or " " in rel_pth:
                     continue
                 full_dest = os.path.join(output_dir, *rel_pth.split("/"))
                 os.makedirs(os.path.dirname(full_dest), exist_ok=True)
