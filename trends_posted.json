@@ -1285,6 +1285,12 @@
    "at": "2026-11-09",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "زلزال",
+   "at": "2026-11-10",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
