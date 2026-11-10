@@ -2151,6 +2151,15 @@
       "has_real_photo": false,
       "at": "2026-11-10T18:01:07.598730+02:00",
       "ok": true
+    },
+    {
+      "title": "قامت الشرطة في كومونة فوك ثو، مقاطعة لام ها، بتنسيق الجهود لتثقيف وتوجيه ما يقرب من 190 شخصًا بشأن مهارات القيادة الآمنة.",
+      "url": "https://www.vietnam.vn/ar/cong-an-xa-phuc-tho-lam-ha-phoi-hop-tuyen-truyen-huong-dan-ky-nang-lai-xe-an-toan-cho-gan-190-nguoi",
+      "at": "2026-11-10T18:31:09.910681+02:00",
+      "ok": false,
+      "err": [
+        "رد Gemini فارغ أو غير صالح"
+      ]
     }
   ]
 }
