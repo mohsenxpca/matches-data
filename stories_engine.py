@@ -341,9 +341,11 @@ def build_all(output_dir="out_stories", count=10):
     with open(os.path.join(output_dir, "robots.txt"), "w", encoding="utf-8") as f_rb:
         f_rb.write(f"User-agent: *\nAllow: /\n\nSitemap: https://{STORIES_DOMAIN}/stories_sitemap.xml\n")
 
-    # 3. CNAME
+    # 3. CNAME & .nojekyll
     with open(os.path.join(output_dir, "CNAME"), "w", encoding="utf-8") as f_cn:
         f_cn.write(STORIES_DOMAIN + "\n")
+    with open(os.path.join(output_dir, ".nojekyll"), "w", encoding="utf-8") as f_nj:
+        f_nj.write("")
 
     # 4. Portal Homepage
     cards_html = []

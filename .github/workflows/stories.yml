@@ -37,4 +37,4 @@ jobs:
           folder: out_stories
           branch: gh-pages
           clean: true
-          commit-message: "deploy: automated Google Web Stories on news.egyptaway.com [skip ci]"
+          commit-message: "deploy: automated Google Web Stories on news.egyptaway.com"
