@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://pogoda.mail.ru/news/72944559/",
-   "t": "Похолодание наступает: какой будет погода в регионах России сегодня",
-   "title": "حالة الطقس في روسيا: بداية أسبوع بتباين واسع واقتراب الشتاء",
-   "url": "https://www.egyptaway.com/2026/11/russia-weather-forecast-transition.html",
-   "at": "2026-11-02T12:26:42.451287+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://lenta.news/news/2026/11/02/v-moskve-rezko-poholodalo/",
    "t": "В Москве резко похолодало",
    "at": "2026-11-02",
@@ -3364,6 +3355,16 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 7",
     "الـ body 401 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/10/بنك-مصر-إكسبريس-الرقمي-يخفض-زمن-تمويل-المشروعات-الصغيرة-إلى/7613214",
+   "t": "بنك مصر: \"إكسبريس\" الرقمي يخفض زمن تمويل المشروعات الصغيرة إلى 5 أيام بدلا من 40",
+   "title": "بنك مصر يقلص زمن تمويل المشروعات الصغيرة إلى 5 أيام",
+   "url": "https://www.egyptaway.com/2026/11/banque-misr-express-loan-5-days.html",
+   "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-10T13:47:12.531479+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
