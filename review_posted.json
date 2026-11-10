@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "title": "Galaxy Z Fold 9, Fold 9 Ultra camera specs leaked",
-   "url": "https://www.gizmochina.com/2026/11/03/galaxy-z-fold-9-ultra-camera-specs-leaked-new-200mp-sensor-for-the-ultra/",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (609 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "هونر تختبر بطارية هاتف بسعة 15,000 مللي أمبير",
-   "url": "https://www.gizmochina.com/2026/11/03/honor-testing-15000mah-phone-battery-for-one-week-battery-life/",
-   "post_url": "https://www.review-mobile.com/2026/11/honor-testing-15000mah-phone-battery.html",
-   "at": "2026-11-03T18:41:05+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هونر"
-  },
-  {
    "title": "Vivo rolls out OriginOS 7 update to Vivo X300, X300 Pro, and X300 FE",
    "url": "https://www.gizmochina.com/2026/11/03/vivo-rolls-out-originos-7-update-to-vivo-x300-x300-pro-and-x300-fe/",
    "at": "2026-11-03",
@@ -3376,6 +3358,23 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max in for review - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9lWHRjMlkzbS1YUkRIS2tZRHdTY0hYYWFLVjBSZXBqOGYyaER2eGZlcUFQcGd0VXRxYmZ1aVRQM29hbVhQX2JOUGkwZTI2M3FteXdfWFJrb3ZiSjZCZ0ltamJacG14SUZlQlMyNndYam9wTC1UdUxZRUY5WdIBd0FVX3lxTFB0QWxiWWM5ZHhIdjVnUlNnSFhGSm9VYkU3dnU2YzdaNTNtZm5QM1BJSHJuTTRjQUdqZGxjTmx5MlZNQmpGeFB0ZEsxNm1XOU8zY21nQmZicVRzTlNVWGJKU2dhOXBJM3pzWmNjMk1yeG9iQmNzNUs0?oc=5",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
+  },
+  {
+   "title": "لماذا يبطئ هاتفك سامسونج جالاكسي؟ 4 أسباب خفية",
+   "cand_title": "The 4 Most Common Reasons Your Samsung Galaxy Phone Runs Slowly - BGR",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaG8waHNfNzk2XzlBWUlWWDR3UGhHdmQ4MVFXY01tUzBKd0NRT1hvX3BRcU9hOGNFR2RsaTZaZWtvQnNWYjlxRmcxemFtczZTN19Od2xsNGktOWhQLWRvcm1ySHdvSTdrN1Z2cFpwalpMTm1abGt6ZlQ4QXF5VnN0VnRR?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/why-samsung-galaxy-phone-runs-slowly.html",
+   "at": "2026-11-10T03:51:26+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
