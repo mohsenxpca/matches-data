@@ -1314,6 +1314,18 @@
    "at": "2026-11-10",
    "ok": false,
    "why": "no source text"
+  },
+  {
+   "q": "الخميس اجازة رسمية",
+   "at": "2026-11-10",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "سمنود",
+   "at": "2026-11-10",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
