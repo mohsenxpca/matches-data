@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "ZTE may sell its smartphone business in massive $5.6 billion deal, RedMagic to stay out of deal",
-   "url": "https://www.gizmochina.com/2026/11/03/zte-smartphone-business-joint-venture/",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (681 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Galaxy Z Fold 9, Fold 9 Ultra camera specs leaked",
    "url": "https://www.gizmochina.com/2026/11/03/galaxy-z-fold-9-ultra-camera-specs-leaked-new-200mp-sensor-for-the-ultra/",
    "at": "2026-11-03",
@@ -3375,6 +3366,16 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "ماذا تعني النقطة الزرقاء الصغيرة بهاتفك الأندرويد؟",
+   "cand_title": "What The Tiny Blue Dot On Your Android Phone Is Telling You - Engadget",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONktvdUhlQkRqbkoxMmhWMk1ISDl4MGc2LW9ud2NjQ1pCTGdWNER5LUtBajJXc05tempTcWRwb2lWSWhNU3lIaHhYRmlHbVVOa29iSFo4bDhYOTNoODU5X2VvdU96VDZzWExYNFlkYUhORDd4amZMTHViTF9aU0ZWSXRSNzctczJ1?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/what-tiny-blue-dot-on.html",
+   "at": "2026-11-10T03:21:27+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
