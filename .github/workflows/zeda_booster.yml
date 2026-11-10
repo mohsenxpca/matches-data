@@ -1,0 +1,71 @@
+name: تعزيز مبيعات شحن زيدا شوب (Zeda Shop Booster)
+
+on:
+  schedule:
+    # نشر مقال شرائي دوري كل يومين الساعة 13:30 ظهراً بتوقيت القاهرة
+    - cron: "30 11 */2 * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "تجربة بدون نشر (1 = تجربة بدون نشر، 0 = نشر فوري على ايجبتاوى)"
+        required: false
+        default: "0"
+      game:
+        description: "تحديد لعبة معينة (اتركه فارغاً للتدوير التلقائي أو اكتب: pubg-uc, free-fire, fc-mobile, valorant, mobile-legends, codm, clash-of-clans, 8-ball-pool)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zeda-booster-publishing
+  cancel-in-progress: false
+
+jobs:
+  boost-sales:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Generate and Publish High-Converting Top-Up Guide
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.game }}" ]; then
+            ARGS="$ARGS --game ${{ github.event.inputs.game }}"
+          fi
+          python -u zeda_booster.py $ARGS
+
+      - name: Upload preview artifact on dry run
+        if: github.event.inputs.dry_run == '1'
+        uses: actions/upload-artifact@v4
+        with:
+          name: zeda-dry-run-preview
+          path: out/*.html
+          if-no-files-found: ignore
+
+      - name: Save state (non-blocking rebase push)
+        if: github.event.inputs.dry_run != '1'
+        run: |
+          git config user.name "zeda-booster-bot"
+          git config user.email "zeda-booster-bot@users.noreply.github.com"
+          git add zeda_booster_posted.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No state changes"; exit 0; fi
+          git commit -m "zeda booster post $(TZ=Africa/Cairo date +%F_%H:%M)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin main && break || sleep 3
+          done

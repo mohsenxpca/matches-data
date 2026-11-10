@@ -638,14 +638,14 @@ def generate_interactive_widget(widget_type, topic):
       <option value="1800">باقة 1800 شدة / جوهرة</option>
     </select>
   </div>
-  <div style="background: #ffffff; border: 1px dashed #d97706; border-radius: 8px; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center;">
+  <div style="background: #ffffff; border: 1px dashed #d97706; border-radius: 8px; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
     <div>
       <span style="font-size: 12px; color: #64748b; display: block;">السعر التقديري الرسمي:</span>
       <strong id="ea-topup-price" style="font-size: 18px; color: #b45309; font-family: Cairo, Tahoma, sans-serif;">55 جنيه مصري</strong>
     </div>
-    <span style="background: #fef3c7; color: #92400e; padding: 6px 12px; border-radius: 6px; font-size: 12px; font-weight: bold;">
-      فودافون كاش / فوري
-    </span>
+    <a id="ea-topup-link-btn" href="https://www.zeda-shop.com/2026/10/pubg-mobile-uc-egypt.html" target="_blank" rel="noopener" style="background: #d97706; color: #fff; padding: 8px 18px; border-radius: 6px; font-size: 13px; font-weight: bold; text-decoration: none; display: inline-block; transition: all 0.2s;">
+      اشحن الآن بالـ ID من زيدا شوب 🚀
+    </a>
   </div>
   <script>
     const eaTopupRates = {{
@@ -654,11 +654,21 @@ def generate_interactive_widget(widget_type, topic):
       fc: {{ "60": "65 ج.م", "325": "310 ج.م", "660": "620 ج.م", "1800": "1550 ج.م" }},
       ef: {{ "60": "60 ج.م", "325": "290 ج.م", "660": "580 ج.م", "1800": "1480 ج.م" }}
     }};
+    const eaGameStoreLinks = {{
+      pubg: "https://www.zeda-shop.com/2026/10/pubg-mobile-uc-egypt.html",
+      ff: "https://www.zeda-shop.com/2026/10/free-fire-diamonds-egypt.html",
+      fc: "https://www.zeda-shop.com/2026/10/fc-mobile-points-egypt.html",
+      ef: "https://www.zeda-shop.com/"
+    }};
     function eaCalcTopup() {{
       const g = document.getElementById('ea-game-select').value;
       const p = document.getElementById('ea-pkg-select').value;
       const pr = (eaTopupRates[g] && eaTopupRates[g][p]) ? eaTopupRates[g][p] : "55 ج.م";
       document.getElementById('ea-topup-price').innerText = pr;
+      const btn = document.getElementById('ea-topup-link-btn');
+      if (btn && eaGameStoreLinks[g]) {{
+        btn.href = eaGameStoreLinks[g];
+      }}
     }}
   </script>
 </div>
