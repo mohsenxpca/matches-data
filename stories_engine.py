@@ -407,7 +407,58 @@ def build_all(output_dir="out_stories", count=10):
     with open(os.path.join(output_dir, "index.html"), "w", encoding="utf-8") as f_idx:
         f_idx.write(portal_html)
 
-    print(f"Generated {len(stories)} stories, sitemap, and portal homepage in {output_dir}")
+    # 5. Legacy news.egyptaway.com Redirects + Smart 404.html
+    here_dir = os.path.dirname(os.path.abspath(__file__))
+    red_path = os.path.join(here_dir, "news_redirects.json")
+    red_count = 0
+    if os.path.exists(red_path):
+        try:
+            with open(red_path, "r", encoding="utf-8") as rf:
+                rmap = json.load(rf)
+            for old_pth, target_url in rmap.items():
+                rel_pth = old_pth.lstrip("/")
+                if not rel_pth.endswith(".html"):
+                    continue
+                full_dest = os.path.join(output_dir, *rel_pth.split("/"))
+                os.makedirs(os.path.dirname(full_dest), exist_ok=True)
+                r_html = f"""<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>جاري التحويل إلى ايجبتاوى...</title>
+  <link rel="canonical" href="{target_url}">
+  <meta name="robots" content="noindex, follow">
+  <meta http-equiv="refresh" content="0; url={target_url}">
+  <script>window.location.replace("{target_url}");</script>
+</head>
+<body>
+  <p>تم نقل الصفحة إلى: <a href="{target_url}">{target_url}</a></p>
+</body>
+</html>"""
+                with open(full_dest, "w", encoding="utf-8") as wf:
+                    wf.write(r_html)
+                red_count += 1
+        except Exception as e:
+            print("Error writing legacy news redirects:", e)
+
+    fallback_404 = f"""<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>ايجبتاوى</title>
+  <link rel="canonical" href="https://{SITE_DOMAIN}/">
+  <meta name="robots" content="noindex, follow">
+  <meta http-equiv="refresh" content="0; url=https://{SITE_DOMAIN}/">
+  <script>window.location.replace("https://{SITE_DOMAIN}/");</script>
+</head>
+<body>
+  <p>جاري التحويل إلى <a href="https://{SITE_DOMAIN}/">ايجبتاوى</a>...</p>
+</body>
+</html>"""
+    with open(os.path.join(output_dir, "404.html"), "w", encoding="utf-8") as f_404:
+        f_404.write(fallback_404)
+
+    print(f"Generated {len(stories)} stories, {red_count} legacy redirects, 404.html, sitemap, and portal homepage in {output_dir}")
 
 
 if __name__ == "__main__":

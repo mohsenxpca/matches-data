@@ -24,7 +24,7 @@ import requests
 BLOG = "8325646053257070334"
 SITE = "www.egyptaway.com"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
-N_POSTS = int(os.environ.get("N_POSTS") or 300)
+N_POSTS = int(os.environ.get("N_POSTS") or 2000)
 
 
 def sec(n):
@@ -97,12 +97,26 @@ def img_ok(u):
 
 def find_best_replacement(broken_href, known_paths):
     pth = path(broken_href)
+    if pth == "/p/games.html":
+        return f"https://{SITE}/p/download-games.html"
+    if pth == "/p/prices.html":
+        return f"https://{SITE}/p/mobile-prices-egypt.html"
+
+    # Check if it's a post path /YYYY/MM/slug.html with a wrong year
+    m = re.match(r"^/(\d{4})/(\d{2})/([^/]+\.html)$", pth)
+    if m:
+        _, mo, sl = m.groups()
+        for yr in ("2026", "2025", "2024", "2023", "2022"):
+            cand = f"/{yr}/{mo}/{sl}"
+            if cand in known_paths:
+                return f"https://{SITE}{cand}".replace(" ", "%20")
+
     slug = pth.split("/")[-1].replace(".html", "").replace("-", " ").strip().lower()
 
     # 1. Close match on known paths
     matches = difflib.get_close_matches(pth, list(known_paths), n=1, cutoff=0.5)
     if matches:
-        return f"https://{SITE}{matches[0]}"
+        return f"https://{SITE}{matches[0]}".replace(" ", "%20")
 
     # 2. Topical keyword matching to high-value hubs
     if any(k in slug for k in ["مباراة", "مباريات", "كورة", "اهلي", "زمالك", "دوري", "match", "football"]):
