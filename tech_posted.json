@@ -705,6 +705,58 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/why-brave-browser-cant-replace-chrome.html",
    "title": "ليه متصفح Brave مش هيمسح Google Chrome من الموبايل"
+  },
+  {
+   "u": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+   "t": "Instagram’s Effect Builder makes new filters from AI prompts",
+   "at": "2026-11-10",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+   "t": "Fireworks AI discloses new breach after cloud provider hack",
+   "at": "2026-11-10",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+   "t": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
+   "at": "2026-11-10",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+   "t": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+   "at": "2026-11-10",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+   "t": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+   "at": "2026-11-10",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/apple-intelligence-usage-packs.html",
+   "title": "آبل تطلق حزم استخدام ذكاء اصطناعي مقابل 49.99 دولار"
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+   "t": "Medium’s new TK app brings AI assistance directly into the writing process",
+   "at": "2026-11-10",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/",
+   "t": "Meta expands Instagram’s AI age-guessing tech globally",
+   "at": "2026-11-10",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+   "t": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+   "at": "2026-11-10",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/david-ellison-ai-film-industry.html",
+   "title": "رئيس Paramount Skydance: الذكاء الاصطناعي يغير السينما"
   }
  ]
 }
