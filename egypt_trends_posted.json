@@ -1,26 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/2/وزير-الاتصالات-تطوير-التعليم-التكنولوجي-وتأهيل-الشباب-لمتطلبات-سوق-العمل/7602952",
-   "t": "وزير الاتصالات: تطوير التعليم التكنولوجي وتأهيل الشباب لمتطلبات سوق العمل أولوية للدولة",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الـ body 408 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.elbalad.news/7164820",
-   "t": "تحديث بيانات الراغبين في التقدم لـ إعارات المعلمين 2027 على المنظومة الإلكترونية",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 2028",
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 477 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/2/وزيرة-الإسكان-تتابع-موقف-تنفيذ-المشروعات-وملفات-العمل-بمدينة-أكتوبر/7603043",
    "t": "وزيرة الإسكان تتابع موقف تنفيذ المشروعات وملفات العمل بمدينة أكتوبر الجديدة",
    "title": "متابعة مشروعات أكتوبر الجديدة وخطط تطوير الخدمات البيئية",
@@ -3364,6 +3344,25 @@
    "at": "2026-11-10T12:06:52.449797+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/10/3076493/%D8%AD%D8%B3%D9%8A%D9%86-%D9%84%D8%A8%D9%8A%D8%A8-%D9%8A%D8%AC%D8%AA%D9%85%D8%B9-%D8%A8%D8%B1%D9%85%D9%88%D8%B2-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D9%82%D8%B1%D8%A7%D8%B1-%D9%85%D8%B5%D9%8A%D8%B1%D9%8A-%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D8%AC%D8%AF%D9%84-",
+   "t": "حسين لبيب يجتمع برموز الزمالك اليوم.. قرار مصيري يثير الجدل",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": [
+    "الـ body 343 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'كره', 'زمالك'}) مع تشابه نصي مع: نتيجة مباراة الزمالك والأهلي 61-78 في كرة السلة)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMirgNBVV95cUxNYnVlcXY5TXZ3NkVob1RXQ3drSGJhRVFPQXl1UVAwSUttZW1WdndiSUh3MWhrUEJlbW1iR0REMjNsQ2o5MGxsUXF4cjhjM2RqMmhpUVdqb0c5ZWJham5jWGlKSERfZ3VBX0JUQ0toamdBQk1SM3hYUjB1eEpMN1Y2em1TTTFGa1JVNHBOMG5kSGRFXzlZdFJMLTJ5eE42Y2x2U3hEU0pYNVFzQXhqeEZxeFVnSUtJdTluYkVpY0o0MU1xN3puUlloLUdCZjI5bGFSRVFwOGhWWVJJN3NLMzZ1SVJ3RHU3WHcyNzRURDR5S2ZyRHRBWG5TSDVCTXFNU0E3V2FZUFpUbnFLdWJ2czRGbm9jMkRpZmg2dHR1V0IyUXgtYTF5c084TFJZMkZxTmZ3LThDSmVocnZHTHN6U05WYTZFTmRqS3o3aVdFMmNoRU5YcVRFQUdxckxRNVZPeDhzSk8xVlYtSXdmSjN4MTFSMV81bXNzVWlnUFE2SFY0dnI2TjhzNW05YXd2WGhVSFg0LUhkVlJfVWQ5THJ1TjY3UTVEd3BObW13d3ZuZFdn0gGoA0FVX3lxTE5jd2g1andqNzRhOHBLWHBOUnpLTkJlX1lZU1NzcnpzWjRCdDZtNVZMRlExRjVZMTlPS1BzUzB2Z0hfS0NLaXV1d3ltWUptWnAtS3N2UnRMZldwVWRuemlXY3UtOVpSa2ptQUtuR1RqVHcxZTVsdi1OQmhLQXhxTTdfX3lTS2hSOHRJa2RaVUFKdm1WbWwtXzZmZWJkc01BUXRlLXdQc19ib2JHVzBBdmRHbHAwQWxCWF9vTHFQeHJCSEVOM1lQODBBZDhDQ0V6NWlEYmdFcTM5cXFWelh1WlNZSWVHcVVKdG93QXlSX1NVZlM3ZDViWXhsVWlTVjc5NmI0UWFQdFhXaGJRY0x0SjNrTVo0Vl81akduSDhKU09jUUFDeUhzVktRTkRHS0tobnZsSXFCMG5mcTI5dkwxZVFOVUdiZjRtSHhvVUpvdEQyWXEtajBreG5PaF9GSmtRWnR5SGRvd3dneFRudl9oWGw5YVliYW9JUkdKM0NyOXJvVUVocHlJUFR1cUhxelp2b3p3OHB6UUhCN0Mzd2hZWkVTeEc1UWtYS0o?oc=5",
+   "t": "موعد تطبيق التحول من الدعم العينى إلى نقدى.. تفاصيل - اليوم السابع",
+   "at": "2026-11-10",
+   "ok": false,
+   "reason": [
+    "الـ body 424 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
