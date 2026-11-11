@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.ysscores.com/en/lineup/6050088/Pakhtakor-Tashkent-vs-Al-Nassr-FC",
-   "t": "Pakhtakor vs Al Nassr FC match lineup | AFC Champions League Elite · 2 Nov 2026",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 90",
-    "الـ body 340 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.sportsadda.asia/football/news-football/ronaldo-scored-three-on-thursday-and-postecoglou-has-left-him-out-of-al-nassrs-champions-league-trip-to-pakhtakor/",
    "t": "Ronaldo scored three on Thursday, and Postecoglou has left him out of Al-Nassr’s Champions League trip to Pakhtakor",
    "at": "2026-11-02",
@@ -3364,6 +3354,16 @@
    "url": "https://www.egyptaway.com/2026/11/tchouameni-injury-real-madrid-france.html",
    "photo": "https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-11T02:52:12.883322+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7175915",
+   "t": "مفاجآت \"بيكسل تاج\".. شريحة سرية للعثور على هاتفك وجرابات جلدية أنيقة",
+   "title": "جوجل تطلق بيكسل تاج غداً: شريحة سرية ومزايا ذكية لهاتفك",
+   "url": "https://www.egyptaway.com/2026/11/google-pixel-tag-features-launch.html",
+   "photo": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-11T07:39:14.165765+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
