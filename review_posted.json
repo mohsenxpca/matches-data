@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "شاومي تعلن خارطة طريق تحديث HyperOS 4 لأكثر من 80 هاتفاً",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMXloei1NVVFrVm13eWNwb1g1czhJYzNWNWNmc1F2TnBjY1lkWHV1OXFhMGRuSHZRRDI4RGR3eTNXVEZ6RWx0M3BCSjZCN2ZYQzgxbzByaXZjc0h6SW1XWU9MdnVnb0tvWTFnUW5PSy0tTHMtcWJ4aG5HWGV5RVplX0tRZmFScnFxbVo5Z3VuYXRSOUVKRVlEdA?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-hyperos-4-global-rollout-roadmap.html",
-   "at": "2026-11-04T02:41:06+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "شاومي"
-  },
-  {
    "title": "Man orders iPhone 15 Pro from Apple, gets Android copy instead - Mashable",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5SnpEbTF2Yl9pRW1xYW13Wi1IM3UtNExHM0J0WGhmMkhiNmctWnQ4VW9VQ2IySjlpREFLV1ZIOTA5TDE3NlVuUkRVWGsyaEpoTV81MkxxYkc1N2pJMlZTbEVTSlBvQTl3bDI2WTBLTUFVSVU?oc=5",
    "at": "2026-11-04",
@@ -3356,6 +3347,16 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "حظر الهواتف في مدارس إنجلترا: هل انتهى عصر «التصفح» داخل الفصول؟",
+   "cand_title": "Stricter mobile phone rules for schools in England announced - BBC",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiT2JjR2pZUVpZVU5TRURRWkNybVprZElpU1BSa2pYN0pqR1k5c1BIWGw3M2V3Mjd1OEY4RnlNQktZWnp5bWNNZXRoMFZhM0VwcENPZmgwNGdSMHRNa1dLczZIcU4?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/england-schools-mobile-phone-ban.html",
+   "at": "2026-11-11T03:52:35+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
