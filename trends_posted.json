@@ -1406,6 +1406,25 @@
    "at": "2026-11-11",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "مباريات كأس مصر",
+   "at": "2026-11-11",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "جامعة أسيوط",
+   "at": "2026-11-11",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "هشام عز العرب",
+   "at": "2026-11-11",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/cib-q3-profits-2026.html",
+   "title": "تفاصيل أرباح التجاري الدولي في الربع الثالث"
   }
  ]
 }
