@@ -98,7 +98,7 @@ def pick_candidate_game(games_catalog, state, hub_store_pkgs=None, target_pkg=No
             if target_name.lower() in g.get("n", "").lower() or target_name.lower() in g.get("ar", "").lower():
                 return g
 
-    # 1. Prefer games currently showing '??????? ??????' on the hub page
+    # 1. Prefer games currently showing 'الألعاب الشائعة' on the hub page
     if hub_store_pkgs:
         for g in games_catalog:
             pkg = g.get("play")

@@ -195,24 +195,24 @@ PROMPT_TEMPLATE = """أنت محرر شؤون مصرية وتقارير خدمي
 
 def build_discover_interactive_widget(title, query):
     t = (title + " " + query).lower()
-    if any(k in t for k in ["??????", "??????", "????", "????", "?????", "???????", "???????", "???? ?????", "???", "???"]):
-        return '''<div class="ea-discover-widget" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;padding:16px;margin:20px 0;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+    if any(k in t for k in ["مباراة", "الاهلي", "الأهلي", "الزمالك", "دوري", "منتخب", "كأس", "ريال مدريد", "صلاح", "مرموش"]):
+        return '''<div class="ea-discover-widget" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;padding:16px;margin:20px 0;box-shadow:0 2px 8px rgba(0,0,0,0.04);font-family:'Cairo',Tahoma,sans-serif;direction:rtl;text-align:right;">
   <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
-    <span style="background:#ea580c;color:#fff;padding:2px 8px;border-radius:6px;font-size:12px;font-weight:bold;">????? ????????</span>
-    <h3 style="margin:0;font-size:16px;color:#0f172a;">? ??????? ???: ?? ????? ?????? ??? ?????????</h3>
+    <span style="background:#ea580c;color:#fff;padding:2px 8px;border-radius:6px;font-size:12px;font-weight:bold;">توقعات الجماهير</span>
+    <h3 style="margin:0;font-size:15px;color:#0f172a;font-weight:700;">🏆 توقعك للنتيجة: ما هي رؤيتك لمجريات هذه المواجهة المرتقبة؟</h3>
   </div>
-  <p style="font-size:14px;color:#64748b;margin-bottom:12px;">???? ????? ????? ??? ???? ???????? ??? ????:</p>
+  <p style="font-size:13.5px;color:#64748b;margin-bottom:12px;">شارك برأيك وتوقعك لترى نتائج استطلاع الجماهير المباشرة:</p>
   <div class="ea-poll-btns" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
-    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">?? ??? ?????? ?????</button>
-    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">?? ?????? ???????? ????????</button>
-    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">? ??? ?????? ???????</button>
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px 14px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:13.5px;cursor:pointer;font-family:inherit;">فوز مستحق وحاسم</button>
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px 14px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:13.5px;cursor:pointer;font-family:inherit;">التعادل هو الأقرب</button>
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px 14px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:13.5px;cursor:pointer;font-family:inherit;">مفاجأة غير متوقعة</button>
   </div>
   <div class="ea-poll-res" style="display:none;background:#fff;border-radius:8px;padding:12px;border:1px dashed #ea580c;">
-    <div style="font-size:13px;font-weight:bold;margin-bottom:6px;">????? ?????? ?????????:</div>
-    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">??? ?????? ?????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#16a34a;width:58%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">58%</span></div>
-    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">???????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#eab308;width:26%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">26%</span></div>
-    <div style="display:flex;align-items:center;font-size:12px;"><span style="width:130px;">??? ???????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#dc2626;width:16%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">16%</span></div>
-    <div style="font-size:11px;color:#94a3b8;margin-top:6px;">?? ????? ???? ?????.. ????? ????????!</div>
+    <div style="font-size:13px;font-weight:bold;margin-bottom:6px;">نتائج توقعات وتصويت الجماهير:</div>
+    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">فوز الفريق الأقرب:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#16a34a;width:58%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">58%</span></div>
+    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">نتيجة التعادل:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#eab308;width:26%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">26%</span></div>
+    <div style="display:flex;align-items:center;font-size:12px;"><span style="width:130px;">خسارة مفاجئة:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#dc2626;width:16%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">16%</span></div>
+    <div style="font-size:11px;color:#94a3b8;margin-top:6px;">تم تسجيل صوتك وتوقعك بنجاح.. بالتوفيق لفريقك!</div>
   </div>
 </div>
 <script>
@@ -224,24 +224,24 @@ function eaVote(btn) {
   }
 }
 </script>'''
-    elif any(k in t for k in ["???", "????", "?????", "????", "??????", "??? ???????", "????"]):
-        return '''<div class="ea-discover-widget" style="background:#fffbeb;border:1px solid #fef3c7;border-radius:14px;padding:16px;margin:20px 0;">
+    elif any(k in t for k in ["ذهب", "دولار", "شهادة", "بنوك", "فائدة", "سعر الذهب", "سولار"]):
+        return '''<div class="ea-discover-widget" style="background:#fffbeb;border:1px solid #fef3c7;border-radius:14px;padding:16px;margin:20px 0;font-family:'Cairo',Tahoma,sans-serif;direction:rtl;text-align:right;">
   <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
-    <span style="background:#d97706;color:#fff;padding:2px 8px;border-radius:6px;font-size:12px;font-weight:bold;">??? ?????</span>
-    <h3 style="margin:0;font-size:16px;color:#78350f;">?? ??????? ??????: ??????? ????? ??????? ????????</h3>
+    <span style="background:#d97706;color:#fff;padding:2px 8px;border-radius:6px;font-size:12px;font-weight:bold;">نبض السوق</span>
+    <h3 style="margin:0;font-size:15px;color:#78350f;font-weight:700;">📈 مؤشر الأسعار: توقعاتك لمسار السوق خلال الأيام القادمة؟</h3>
   </div>
-  <p style="font-size:14px;color:#92400e;margin-bottom:12px;">???? ????? ?? ????? ????? ???? ?????? ???????:</p>
+  <p style="font-size:13.5px;color:#92400e;margin-bottom:12px;">شارك برأيك في استطلاع أسعار اليوم لمعرفة رؤية المتعاملين:</p>
   <div class="ea-poll-btns" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
-    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #fde68a;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">?? ?????? ?????? ?????????</button>
-    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #fde68a;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">?? ??????? ????? ????</button>
-    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #fde68a;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">?? ???? ?????? ??????</button>
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px 14px;border:1px solid #fde68a;border-radius:8px;background:#fff;font-weight:700;font-size:13.5px;cursor:pointer;font-family:inherit;">استقرار عند المستويات الحالية</button>
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px 14px;border:1px solid #fde68a;border-radius:8px;background:#fff;font-weight:700;font-size:13.5px;cursor:pointer;font-family:inherit;">صعود بفعل التغيرات العالمية</button>
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px 14px;border:1px solid #fde68a;border-radius:8px;background:#fff;font-weight:700;font-size:13.5px;cursor:pointer;font-family:inherit;">تراجع مؤقت وفرصة للشراء</button>
   </div>
   <div class="ea-poll-res" style="display:none;background:#fff;border-radius:8px;padding:12px;border:1px dashed #d97706;">
-    <div style="font-size:13px;font-weight:bold;margin-bottom:6px;">?????? ????????? ???????????:</div>
-    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">?????? ??????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#16a34a;width:52%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">52%</span></div>
-    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">??????? ???????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#eab308;width:31%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">31%</span></div>
-    <div style="display:flex;align-items:center;font-size:12px;"><span style="width:130px;">????? ?????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#dc2626;width:17%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">17%</span></div>
-    <div style="font-size:11px;color:#94a3b8;margin-top:6px;">?? ????? ???? ?????.. ???? ????????? ???? ?????.</div>
+    <div style="font-size:13px;font-weight:bold;margin-bottom:6px;">توقعات المتعاملين والمستثمرين:</div>
+    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">استقرار نسبي:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#16a34a;width:52%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">52%</span></div>
+    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">احتمال الارتفاع:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#eab308;width:31%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">31%</span></div>
+    <div style="display:flex;align-items:center;font-size:12px;"><span style="width:130px;">فرصة للشراء:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#dc2626;width:17%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">17%</span></div>
+    <div style="font-size:11px;color:#94a3b8;margin-top:6px;">تم تسجيل تصويتك بنجاح.. تابع التحديثات أولاً بأول.</div>
   </div>
 </div>
 <script>
@@ -254,23 +254,23 @@ function eaVote(btn) {
 }
 </script>'''
     else:
-        return '''<div class="ea-discover-widget" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;padding:16px;margin:20px 0;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+        return '''<div class="ea-discover-widget" style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;padding:16px;margin:20px 0;box-shadow:0 2px 8px rgba(0,0,0,0.04);font-family:'Cairo',Tahoma,sans-serif;direction:rtl;text-align:right;">
   <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
-    <span style="background:#ea580c;color:#fff;padding:2px 8px;border-radius:6px;font-size:12px;font-weight:bold;">????? ??????</span>
-    <h3 style="margin:0;font-size:16px;color:#0f172a;">?? ???? ?????: ?? ?????? ???? ?????? ????????</h3>
+    <span style="background:#ea580c;color:#fff;padding:2px 8px;border-radius:6px;font-size:12px;font-weight:bold;">صوت القراء</span>
+    <h3 style="margin:0;font-size:15px;color:#0f172a;font-weight:700;">🗳️ استطلاع الجمهور: ما رأيك في هذه الأنباء والتطورات؟</h3>
   </div>
-  <p style="font-size:14px;color:#64748b;margin-bottom:12px;">???? ?????.. ???? ?????? ????? ??? ??? ????????? ??? ?????:</p>
+  <p style="font-size:13.5px;color:#64748b;margin-bottom:12px;">شارك برأيك.. كيف ترى تأثير هذه المستجدات في الفترة القادمة:</p>
   <div class="ea-poll-btns" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
-    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">?? ???? ??????? ??????</button>
-    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">?? ???? ???? ???? ????? ?????</button>
-    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:14px;cursor:pointer;">?? ????? ????? ???? ?????? ????</button>
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px 14px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:13.5px;cursor:pointer;font-family:inherit;">خطوة إيجابية ومهمة</button>
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px 14px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:13.5px;cursor:pointer;font-family:inherit;">تحتاج لتوضيح ومتابعة</button>
+    <button type="button" onclick="eaVote(this)" style="flex:1;min-width:120px;padding:10px 14px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;font-weight:700;font-size:13.5px;cursor:pointer;font-family:inherit;">محايد ولا تؤثر عليّ</button>
   </div>
   <div class="ea-poll-res" style="display:none;background:#fff;border-radius:8px;padding:12px;border:1px dashed #ea580c;">
-    <div style="font-size:13px;font-weight:bold;margin-bottom:6px;">????? ????? ?????? ??????:</div>
-    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">???? ???????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#16a34a;width:66%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">66%</span></div>
-    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">????? ?????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#eab308;width:22%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">22%</span></div>
-    <div style="display:flex;align-items:center;font-size:12px;"><span style="width:130px;">????? ?????:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#dc2626;width:12%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">12%</span></div>
-    <div style="font-size:11px;color:#94a3b8;margin-top:6px;">?? ????? ???? ?????.. ????? ???????.</div>
+    <div style="font-size:13px;font-weight:bold;margin-bottom:6px;">نتائج تصويت ومشاركات المتابعين:</div>
+    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">خطوة إيجابية:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#16a34a;width:66%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">66%</span></div>
+    <div style="display:flex;align-items:center;margin-bottom:4px;font-size:12px;"><span style="width:130px;">تحتاج متابعة:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#eab308;width:22%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">22%</span></div>
+    <div style="display:flex;align-items:center;font-size:12px;"><span style="width:130px;">رأي محايد:</span><div style="flex:1;background:#e2e8f0;border-radius:4px;height:10px;overflow:hidden;"><div style="background:#dc2626;width:12%;height:100%;"></div></div><span style="margin-right:8px;font-weight:bold;">12%</span></div>
+    <div style="font-size:11px;color:#94a3b8;margin-top:6px;">تم تسجيل رأيك بنجاح.. شكراً لمشاركتك.</div>
   </div>
 </div>
 <script>
