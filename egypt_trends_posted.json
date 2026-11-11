@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.notebookcheck.net/PS5-users-can-access-GTA-6-up-to-18-hours-early-on-its-release-date-with-PSN-workaround.1439752.0.html",
-   "t": "PS5 users can access GTA 6 up to 18 hours early on its release date with PSN workaround",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 398 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.pcguide.com/news/psn-trick-will-let-you-play-gta-6-up-to-18-hours-early-on-the-ps5/",
    "t": "PSN trick will let you play GTA 6 up to 18 hours early on the PS5",
    "at": "2026-11-02",
@@ -3367,6 +3357,16 @@
    "at": "2026-11-11T10:16:47.327399+02:00",
    "ok": true,
    "type": "nation"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/11/3076974/%D8%A8%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9-%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%B7%D8%B1%D8%AD-%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%B3%D9%88%D8%A8%D8%B1-%D8%A7%D9%84%D8%A5%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-2027-%D9%81%D9%8A-%D8%A5%D8%B3%D8%B7%D9%86%D8%A8%D9%88%D9%84",
+   "t": "برعاية موسم الرياض.. طرح تذاكر كأس السوبر الإسباني 2027 في إسطنبول",
+   "title": "طرح تذاكر كأس السوبر الإسباني 2027 في إسطنبول برعاية موسم الرياض",
+   "url": "https://www.egyptaway.com/2026/11/spanish-super-cup-2027-tickets-istanbul.html",
+   "photo": "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-11T10:57:13.983828+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
