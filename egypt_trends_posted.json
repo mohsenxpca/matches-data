@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/2/على-شاشة-الإغلاق-هبوط-حاد-للمؤشرات-للجلسة-الرابعة-ورأس-المال/7603371",
-   "t": "على شاشة الإغلاق.. هبوط حاد للمؤشرات للجلسة الرابعة ورأس المال يفقد 65 مليارًا",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الـ body 404 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حاد', 'هبوط'}) مع تشابه نصي مع: هبوط حاد في أسعار الذهب عالميًا ومحليًا.. إليك التفاصيل)"
-   ]
-  },
-  {
    "u": "https://www.ysscores.com/en/lineup/6050088/Pakhtakor-Tashkent-vs-Al-Nassr-FC",
    "t": "Pakhtakor vs Al Nassr FC match lineup | AFC Champions League Elite · 2 Nov 2026",
    "at": "2026-11-02",
@@ -3366,6 +3356,16 @@
    "reason": [
     "الـ body 441 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7176154",
+   "t": "إصابة مُفاجئة تهدّد «تشواميني» في معسكر فرنسا وتثير قلق ريال مدريد",
+   "title": "إصابة تشواميني تهدد معسكر فرنسا وتثير قلق ريال مدريد",
+   "url": "https://www.egyptaway.com/2026/11/tchouameni-injury-real-madrid-france.html",
+   "photo": "https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-11T02:52:12.883322+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
