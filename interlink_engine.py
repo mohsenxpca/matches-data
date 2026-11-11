@@ -535,13 +535,22 @@ def run_pipeline(site_key="egyptaway", days=1, confirm=False, all_missing=False,
 
     state_file = "interlink_posted.json"
     if confirm and log_entries:
-        existing_log = []
+        existing_done = []
         if os.path.exists(state_file):
-            try: existing_log = json.load(open(state_file, "r", encoding="utf-8"))
-            except Exception: pass
-        existing_log.extend(log_entries)
+            try:
+                with open(state_file, "r", encoding="utf-8") as f:
+                    loaded = json.load(f)
+                if isinstance(loaded, dict):
+                    existing_done = loaded.get("done", [])
+                elif isinstance(loaded, list):
+                    existing_done = loaded
+            except Exception:
+                pass
+        if not isinstance(existing_done, list):
+            existing_done = []
+        existing_done.extend(log_entries)
         with open(state_file, "w", encoding="utf-8") as f:
-            json.dump(existing_log[-500:], f, ensure_ascii=False, indent=1)
+            json.dump({"done": existing_done[-500:]}, f, ensure_ascii=False, indent=1)
 
     print(f"\n=======================================================")
     print(f"Summary for {site_key}:")
