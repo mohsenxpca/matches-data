@@ -1442,6 +1442,24 @@
    "at": "2026-11-11",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "ابراهيم النجارى",
+   "at": "2026-11-11",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "قنبلة",
+   "at": "2026-11-11",
+   "ok": false,
+   "why": "off-topic"
+  },
+  {
+   "q": "مباراة مصر",
+   "at": "2026-11-11",
+   "ok": false,
+   "why": "no source text"
   }
  ]
 }
