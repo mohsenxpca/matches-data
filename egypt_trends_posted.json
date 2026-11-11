@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.goal.com/en/news/a-long-awaited-breakthrough-at-al-ahly-before-the-asian-clash-with-al-sadd/blt7d5dbf21ae81fe1f",
-   "t": "A long-awaited breakthrough at Al-Ahly before the Asian clash with Al-Sadd",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الـ body 414 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.goal.com/en-in/news/the-truth-about-the-zamalek-takeover-bid-khalaf-al-habtoor-breaks-his-silence/blta5620faa4398f1bb",
    "t": "The truth about the Zamalek takeover bid: Khalaf Al-Habtoor breaks his silence",
    "at": "2026-11-02",
@@ -3369,6 +3360,17 @@
    "at": "2026-11-11T21:56:56.360131+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.yallakora.com/can-qualifiers/3028/news/572858/%D8%A8%D8%A7%D9%86%D8%B6%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%A7%D8%AD%D8%AA%D9%81%D8%A7%D9%84%D9%8A%D8%A9-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%85%D8%A7%D9%84%D8%A7%D9%88%D9%8A-%D9%8A%D8%A8%D8%AF%D8%A3-%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF%D8%A7%D8%AA%D9%87-%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%85%D8%B5%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9",
+   "t": "بانضمام المحترفين واحتفالية.. منتخب مالاوي يبدأ استعداداته لمباراة مصر في القاهرة",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "الـ body 307 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'مصر', '2027'}) مع تشابه نصي مع: تفاصيل أول إجازة رسمية للموظفين في مصر لعام 2027)",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات"
+   ]
   }
  ]
 }
