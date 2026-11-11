@@ -1,0 +1,26 @@
+# رفيو موبايل | Review Mobile
+
+> منصة عربية متخصصة في مراجعات الهواتف الذكية، أخبار الإطلاق والتسريبات التقنية، ومقارنات المواصفات والأسعار بالعملات العربية: الجنيه المصري (EGP)، الريال السعودي (SAR)، والدرهم الإماراتي (AED) (www.review-mobile.com).
+
+## Core Hubs & Tools
+- [الصفحة الرئيسية — أحدث أخبار ومراجعات الهواتف](https://www.review-mobile.com/): تغطية يومية متجددة للهواتف الذكية والمعالجات وأنظمة التشغيل.
+- [مقارنة الهواتف راس براس](https://www.review-mobile.com/p/compare-phones.html): أداة مقارنة المواصفات الكاملة وتقييمات الأداء والشاشة والكاميرا والبطارية.
+- [دليل مراجعات الهواتف الكامل](https://www.review-mobile.com/p/mobile-reviews-hub.html): فهرس منظم لأحدث المراجعات حسب الماركة والفئة السعرية.
+
+## Categories (Brands & News)
+- [أخبار هواتف](https://www.review-mobile.com/search/label/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1%20%D9%87%D9%88%D8%A7%D8%AA%D9%81): أحدث الإعلانات الرسمية والتسريبات وتحديثات الأنظمة والمعالجات.
+- [سامسونج](https://www.review-mobile.com/search/label/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC)
+- [شاومي](https://www.review-mobile.com/search/label/%D8%B4%D8%A7%D9%88%D9%85%D9%8A)
+- [أوبو](https://www.review-mobile.com/search/label/%D8%A3%D9%88%D8%A8%D9%88)
+- [ريلمي](https://www.review-mobile.com/search/label/%D8%B1%D9%8A%D9%84%D9%85%D9%8A)
+- [أبل](https://www.review-mobile.com/search/label/%D8%A3%D8%A8%D9%84)
+- [فيفو](https://www.review-mobile.com/search/label/%D9%81%D9%8A%D9%81%D9%88)
+- [هونر](https://www.review-mobile.com/search/label/%D9%87%D9%88%D9%86%D8%B1)
+
+## Machine-Readable Endpoints
+- [Sitemap](https://www.review-mobile.com/sitemap.xml)
+- [RSS Feed](https://www.review-mobile.com/feeds/posts/default?alt=rss)
+
+## Editorial Standards
+- كل مراجعة مبنية على المواصفات الرسمية والمصادر التقنية المعلنة وليست تجربة استخدام شخصية.
+- التقييمات الرقمية تعكس المواصفات الفعلية مقارنة بالفئة السعرية في الأسواق العربية.

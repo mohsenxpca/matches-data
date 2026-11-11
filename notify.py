@@ -8,6 +8,7 @@
 Env: PER_DAY (default 6), GAP_MIN (default 90), DRY_RUN=1 to only print, FORCE=1 to ignore quiet hours/gap/cap for a test push.
 """
 import datetime, html, json, os, re, sys
+from urllib.parse import urlparse
 import requests
 import football as f
 
@@ -39,14 +40,22 @@ def first_image(body):
 def indexnow(urls, dry):
     if not urls:
         return True
-    body = {"host": "www.egyptaway.com", "key": INDEXNOW_KEY,
-            "keyLocation": f"https://www.egyptaway.com/{INDEXNOW_KEY}.txt", "urlList": urls}
-    if dry:
-        print("IndexNow would submit", len(urls))
-        return False
-    r = requests.post("https://api.indexnow.org/indexnow", json=body, timeout=30)
-    print("IndexNow", r.status_code, len(urls), "url(s)")
-    return r.status_code in (200, 202)
+    by_host = {}
+    for u in urls:
+        h = urlparse(u).netloc or "www.egyptaway.com"
+        by_host.setdefault(h, []).append(u)
+    ok_all = True
+    for h, host_urls in by_host.items():
+        body = {"host": h, "key": INDEXNOW_KEY,
+                "keyLocation": f"https://{h}/{INDEXNOW_KEY}.txt", "urlList": host_urls}
+        if dry:
+            print("IndexNow would submit", h, len(host_urls))
+            ok_all = False
+            continue
+        r = requests.post("https://api.indexnow.org/indexnow", json=body, timeout=30)
+        print("IndexNow", h, r.status_code, len(host_urls), "url(s)")
+        ok_all = ok_all and (r.status_code in (200, 202))
+    return ok_all
 
 
 def telegram(p, dry):

@@ -305,6 +305,7 @@ def gemini(prompt):
                 out = out[0] if out and isinstance(out[0], dict) else {}
             out["faq"] = [{"q": str(x.get("q") or x.get("question") or ""), "a": str(x.get("a") or x.get("answer") or "")}
                           for x in (out.get("faq") or []) if isinstance(x, dict) and (x.get("q") or x.get("question")) and (x.get("a") or x.get("answer"))]
+            out["takeaways"] = [str(x).strip() for x in (out.get("takeaways") or []) if str(x).strip()][:5]
             for k in ("title", "slug", "desc", "body", "kicker", "headline"):
                 out[k] = str(out.get(k) or "")
             return out
@@ -335,7 +336,7 @@ PROMPT = """أنت محرر رياضي في موقع ايجبتاوى المصر
 - الطول: الـ body لا يقل عن 750 كلمة، مقسم بعناوين h2 (من 4 لـ 6)، وفقرات <p>، وممكن <ul>. من غير صور ومن غير روابط.
 
 رجّع JSON بالشكل ده بالظبط:
-{{"title": "عنوان جذاب وصادق أقل من 65 حرف بدون اسم أي موقع", "kicker": "جملة قصيرة جدًا للصورة (3-5 كلمات) زي: كأس مصر · مواجهة تاريخية", "slug": "3 to 6 english words with hyphens", "desc": "وصف للبحث من 140 لـ 160 حرف", "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "سؤال", "a": "إجابة من المعلومات المتاحة بس"}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
+{{"title": "عنوان جذاب وصادق أقل من 65 حرف بدون اسم أي موقع", "kicker": "جملة قصيرة جدًا للصورة (3-5 كلمات) زي: كأس مصر · مواجهة تاريخية", "slug": "3 to 6 english words with hyphens", "desc": "وصف للبحث من 140 لـ 160 حرف", "takeaways": ["نقطة موجزة 1 من الخبر بالأرقام", "نقطة 2", "نقطة 3", "نقطة 4"], "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "سؤال", "a": "إجابة من المعلومات المتاحة بس"}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
 {extra}
 عنوان الخبر الأصلي: {title}
 
@@ -358,7 +359,7 @@ PREVIEW_PROMPT = """أنت محرر رياضي في موقع ايجبتاوى ا
 - الطول: الـ body من 450 لـ 700 كلمة (اكتب كتير: كل قسم 3 فقرات)، بعناوين h2 (من 3 لـ 5) وفقرات <p>. من غير صور ومن غير روابط.
 
 رجّع JSON بالشكل ده بالظبط:
-{{"title": "موعد مباراة .. أقل من 65 حرف", "kicker": "3-5 كلمات زي: الدوري المصري · الجولة 8", "slug": "3 to 6 english words with hyphens", "desc": "وصف للبحث من 140 لـ 160 حرف", "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "إمتى ماتش ..؟", "a": ".."}}, {{"q": "القناة الناقلة ..؟", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
+{{"title": "موعد مباراة .. أقل من 65 حرف", "kicker": "3-5 كلمات زي: الدوري المصري · الجولة 8", "slug": "3 to 6 english words with hyphens", "desc": "وصف للبحث من 140 لـ 160 حرف", "takeaways": ["موعد المباراة بتوقيت القاهرة", "القناة الناقلة والملعب", "موقف الفريقين في الجدول"], "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "إمتى ماتش ..؟", "a": ".."}}, {{"q": "القناة الناقلة ..؟", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
 {extra}
 بيانات الماتش:
 {facts}
@@ -971,6 +972,32 @@ def _enrich_seo_html(html_out, art):
                 linked_count += 1
                 break
 
+    # 1b. GEO Key Takeaways Box ("أبرز النقاط في 30 ثانية") for AI Overviews & Discover retention
+    is_rev = "rv-wrap" in out
+    if 'class="ea-tldr"' not in out and 'class="rv-tldr"' not in out:
+        tk = [str(x).strip() for x in (art.get("takeaways") or []) if str(x).strip()]
+        if not tk:
+            raw_fq = re.findall(r"<details[^>]*>\s*<summary[^>]*>(.*?)</summary>\s*<p[^>]*>(.*?)</p>\s*</details>", out, flags=re.DOTALL | re.I)
+            for fq, fa in raw_fq[:3]:
+                clean_a = re.sub(r"<[^>]+>", "", fa).strip()
+                if len(clean_a) > 20:
+                    tk.append(clean_a[:170].rsplit(" ", 1)[0] + ("..." if len(clean_a) > 170 else ""))
+        if tk:
+            cls = "rv-tldr" if is_rev else "ea-tldr"
+            accent = "#2563eb" if is_rev else "#0d47a1"
+            bg = "#eff6ff" if is_rev else "#f0f7ff"
+            li = "".join(f'<li style="margin-bottom:6px">{html.escape(x)}</li>' for x in tk[:5])
+            tldr_box = (
+                f'<div class="{cls}" style="background:{bg};border:1px solid #bfdbfe;border-right:4px solid {accent};border-radius:12px;padding:14px 16px;margin:16px 0">'
+                f'<div style="font-weight:900;font-size:16px;color:{accent};margin-bottom:8px">📌 أبرز النقاط في 30 ثانية</div>'
+                f'<ul style="margin:0;padding-right:20px;line-height:1.75;color:#1e293b">{li}</ul></div>'
+            )
+            anchor = out.find("<h2")
+            if anchor != -1:
+                out = out[:anchor] + tldr_box + out[anchor:]
+            else:
+                out = tldr_box + out
+
     # 2. Jump-to-Section IDs & Quick TOC Box (if >= 3 <h2> tags and no jump box yet)
     if 'id="sec-1"' not in out and 'class="ea-jump"' not in out and 'class="rv-jump"' not in out:
         headings = []
@@ -992,12 +1019,23 @@ def _enrich_seo_html(html_out, art):
             if first_h2 != -1:
                 out = out[:first_h2] + jump_box + out[first_h2:]
 
-    # 3. Full JSON-LD Schema (@graph: NewsArticle + Author E-E-A-T + FAQPage)
+    # 3. Full JSON-LD Schema (@graph: NewsArticle + NewsMediaOrganization + Speakable + FAQPage)
     if "application/ld+json" not in out and art.get("title"):
         imgs = re.findall(r'<img[^>]+src="([^"]+)"', out)
         clean_imgs = [i.replace("&amp;", "&") for i in imgs[:3] if i.startswith("http")]
         now_iso = datetime.datetime.now(CAIRO).replace(microsecond=0).isoformat()
-        is_rev = "rv-wrap" in out
+        site_name = "رفيو موبايل" if is_rev else "ايجبتاوى"
+        site_url = "https://www.review-mobile.com" if is_rev else "https://www.egyptaway.com"
+        org_node = {
+            "@type": "NewsMediaOrganization",
+            "@id": f"{site_url}/#organization",
+            "name": site_name,
+            "url": site_url,
+            "logo": {
+                "@type": "ImageObject",
+                "url": clean_imgs[0] if clean_imgs else f"{site_url}/favicon.ico"
+            }
+        }
         art_node = {
             "@type": "NewsArticle",
             "headline": art.get("title", "")[:110],
@@ -1005,20 +1043,38 @@ def _enrich_seo_html(html_out, art):
             "datePublished": now_iso,
             "dateModified": now_iso,
             "inLanguage": "ar",
-            "author": {
-                "@type": "Organization",
-                "name": "رفيو موبايل" if is_rev else "ايجبتاوى",
-                "url": "https://www.review-mobile.com" if is_rev else "https://www.egyptaway.com"
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "رفيو موبايل" if is_rev else "ايجبتاوى",
-                "url": "https://www.review-mobile.com" if is_rev else "https://www.egyptaway.com"
+            "author": org_node,
+            "publisher": org_node,
+            "speakable": {
+                "@type": "SpeakableSpecification",
+                "cssSelector": [".ea-tldr", ".rv-tldr", "h1", ".ea-jump"]
             }
         }
         if clean_imgs:
             art_node["image"] = clean_imgs
         graph = [art_node]
+        if is_rev and art.get("kind") == "review" and isinstance(art.get("scores"), dict) and art.get("scores"):
+            vals = [float(v) for v in art["scores"].values() if isinstance(v, (int, float)) and 1 <= float(v) <= 10]
+            if vals:
+                avg10 = round(sum(vals) / len(vals), 1)
+                prod_node = {
+                    "@type": "Product",
+                    "name": (art.get("phone_name") or art.get("title", ""))[:100],
+                    "brand": {"@type": "Brand", "name": art.get("brand") or "هواتف ذكية"},
+                    "review": {
+                        "@type": "Review",
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "ratingValue": str(round(avg10 / 2, 1)),
+                            "bestRating": "5",
+                            "worstRating": "1"
+                        },
+                        "author": org_node
+                    }
+                }
+                if clean_imgs:
+                    prod_node["image"] = clean_imgs[0]
+                graph.append(prod_node)
         faqs = art.get("faq") or []
         if not faqs:
             raw_faqs = re.findall(r"<details[^>]*>\s*<summary[^>]*>(.*?)</summary>\s*<p[^>]*>(.*?)</p>\s*</details>", out, flags=re.DOTALL | re.I)

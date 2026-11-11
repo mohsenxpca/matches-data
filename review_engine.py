@@ -70,7 +70,12 @@ HALLUCINATED_OR_FAKE_EXCLUSIONS = re.compile(
 )
 
 NON_PHONE_EXCLUSIONS = re.compile(
-    r"\b(watch(?:es)?|smartwatch(?:es)?|band\b|buds\d*|earbuds\d*|airpods\d*|headphones?\d*|earphones?\d*|headsets?\d*|speakers?|soundbars?|laptops?|macbooks?|ipads?|tablets?|pads?|tab\b|tvs?|television|vacuum|cleaners?|cars?|ev\b|auto\b|ring\b|projectors?|doorbells?|drones?|refrigerators?|washers?|washing|shoes?|massag(?:er|es|ing)?|waist|heater|heating|purifier|toothbrush|blanket|pillow|shaver|clipper|cooker|kettle|oven|fryer|humidifier|dehumidifier|scale|thermometer|lamp|light|bulb|fan\b|desk|table|chair|backpack|jacket|coat|umbrella|pen\b|bottle|eyewear|glasses)\b",
+    r"\b(watch(?:es)?|smartwatch(?:es)?|smart\s*ring|band\b|buds\d*|earbuds\d*|airpods\d*|headphones?\d*|earphones?\d*|headsets?\d*|speakers?|soundbars?|laptops?|macbooks?|imac|mac\s*mini|chromebooks?|windows\s*11|copilot\+?\s*pc|ipads?|tablets?|pads?|tab\b|tvs?|television|apple\s*tv|apple\s*watch|carplay|vision\s*pro|vacuum|cleaners?|cars?|ev\b|auto\b|ring\b|projectors?|doorbells?|drones?|refrigerators?|washers?|washing|shoes?|massag(?:er|es|ing)?|waist|heater|heating|purifier|toothbrush|blanket|pillow|shaver|clipper|cooker|kettle|oven|fryer|humidifier|dehumidifier|scale|thermometer|lamp|light|bulb|fan\b|desk|table|chair|backpack|jacket|coat|umbrella|pen\b|bottle|eyewear|glasses)\b",
+    re.I
+)
+
+NON_MOBILE_NEWS_EXCLUSIONS = re.compile(
+    r"\b(linkedin|facebook|instagram|tiktok|snapchat|twitter|x\.com|reddit|discord|netflix|spotify|youtube|antitrust|lawsuit|court|judge|ruling|verdict|trial|regulator|congress|senate|FTC|DOJ|SEC|copyright|journalist|journalists|election|politics|layoff|layoffs|merger|acquisition|ipo|stock\s*price|cyberattack|ransomware|data\s*breach|workplace|hiring|subscription\s*hike|streaming\s*service|social\s*network|privacy\s*ruling)\b",
     re.I
 )
 
@@ -96,6 +101,21 @@ CSS = """<style>
 .rv-wrap details{border:1px solid #e2e8f0;border-radius:10px;padding:10px 14px;margin:10px 0;background:#f8fafc}
 .rv-wrap details summary{font-weight:700;cursor:pointer;color:#0f172a}
 .rv-wrap details p{margin:8px 0 0;color:#334155}
+.rv-tldr{background:#eff6ff;border:1px solid #bfdbfe;border-right:4px solid #2563eb;border-radius:12px;padding:14px 16px;margin:16px 0}
+.rv-scorecard{background:#f8fafc;border:1px solid #cbd5e1;border-radius:14px;padding:16px;margin:20px 0}
+.rv-sc-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px}
+.rv-sc-badge{background:#0f172a;color:#fff;font-weight:900;font-size:18px;padding:4px 12px;border-radius:999px}
+.rv-sc-row{margin:9px 0}
+.rv-sc-lbl{display:flex;justify-content:space-between;font-size:14.5px;font-weight:700;color:#1e293b;margin-bottom:4px}
+.rv-sc-bar{background:#e2e8f0;height:10px;border-radius:999px;overflow:hidden}
+.rv-sc-fill{background:linear-gradient(90deg,#2563eb,#16a34a);height:100%;border-radius:999px}
+.rv-sc-fill-b{background:linear-gradient(90deg,#ea580c,#f59e0b);height:100%;border-radius:999px}
+.rv-vote{background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:14px 16px;margin:18px 0}
+.rv-vote-btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.rv-vote-btns button{background:#fff;border:1.5px solid #2563eb;color:#1e40af;border-radius:10px;padding:8px 14px;font-weight:800;cursor:pointer;flex:1;min-width:130px;font:inherit}
+.rv-vote-btns button:hover{background:#2563eb;color:#fff}
+.rv-diff-btn{background:#0f172a;color:#fff;border:0;border-radius:8px;padding:7px 14px;font:inherit;font-size:14px;font-weight:700;cursor:pointer;margin:8px 0}
+.rv-hide-row{display:none}
 </style>"""
 
 REVIEW_PROMPT_TEMPLATE = """أنت محرر ومراجع هواتف محترف وخبير تقني في موقع «رفيو» (review-mobile.com).
@@ -130,15 +150,19 @@ REVIEW_PROMPT_TEMPLATE = """أنت محرر ومراجع هواتف محترف �
 8. أسئلة شائعة: 4 أسئلة شائعة وإجاباتها في علامات <details><summary>السؤال</summary><p>الإجابة</p></details>.
 9. الالتزام بجميع الأرقام الواردة في المصدر وعدم اختراع أي رقم غير منشور.
 10. لا تذكر اسم الموقع المصدر (مثل GSMArena أو Gizmochina) داخل نص المراجعة.
+11. أضف تقييماً موضوعياً من 10 في حقل scores بناءً على مواصفات المصدر فقط (screen, performance, camera, battery, value)، و3-4 نقاط ملخصة حاسمة في حقل takeaways.
 
 رجّع الرد بتنسيق JSON صالح فقط كالتالي دون أي زيادات:
 {{
   "kind": "review",
+  "phone_name": "{topic_title}",
   "title": "مراجعة {topic_title} 2026: المواصفات الكاملة والسعر والمميزات والعيوب",
   "slug": "english-slug-3-to-6-words",
   "desc": "وصف دقيق للبحث من 140 إلى 160 حرف يبدأ بأهم مواصفة والسعر الرسمي بالجنيه والريال.",
   "brand": "اسم الماركة بالعربي فقط (مثال: سامسونج، شاومي، هونر، أوبو، فيفو)",
   "price_eur": 450,
+  "scores": {{"screen": 8.5, "performance": 8.2, "camera": 8.0, "battery": 8.6, "value": 8.4}},
+  "takeaways": ["أبرز ميزة بالأرقام من المصدر", "نقطة القوة الأساسية في الأداء أو الشاشة", "تفاصيل البطارية والشحن", "خلاصة القيمة مقابل السعر"],
   "body": "<h2>..</h2><p>..</p>...",
   "faq": [{{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]
 }}
@@ -164,6 +188,7 @@ NEWS_PROMPT_TEMPLATE = """أنت صحفي تقني وخبير هواتف ذكي�
 5. أسئلة شائعة: 3 إلى 4 أسئلة شائعة وإجاباتها في علامات <details><summary>السؤال</summary><p>الإجابة</p></details>.
 6. الأسعار: إن ذكرت أسعار في المصدر، حولها تقريبياً للجنيه المصري (52 ج لكل يورو أو 49 ج لكل دولار)، الريال السعودي (4.05 ر.س)، والدرهم الإماراتي (3.97 د.إ).
 7. لا تذكر اسم الموقع المصدر (مثل GSMArena أو Gizmochina) داخل صلب النص.
+8. قيد إلزامي لنطاق الموقع: إذا كان النص المصدر لا يتعلق بالهواتف الذكية أو معالجات الموبايل أو أنظمة تشغيلها أو بطارياتها وكاميراتها (مثلاً أخبار شبكات التواصل أو المحاكم أو القوانين أو الحواسيب أو السياسة)، أرجع JSON يحتوي فقط على {{"skip": true, "title": "", "body": ""}}.
 
 رجّع الرد بتنسيق JSON صالح فقط كالتالي دون أي زيادات:
 {{
@@ -173,8 +198,44 @@ NEWS_PROMPT_TEMPLATE = """أنت صحفي تقني وخبير هواتف ذكي�
   "desc": "وصف دقيق للبحث من 140 إلى 160 حرف يبدأ بجوهر الخبر التقني وأهم تفاصيله.",
   "brand": "اسم الماركة أو الشركة المعنية بالعربي (مثال: سامسونج، شاومي، كوالكوم، أبل)",
   "price_eur": 0,
+  "takeaways": ["خلاصة الخبر بالأرقام في سطر واحد", "أبرز تأثير على أداء أو سعر الهاتف", "الموعد الرسمي أو الخطوة القادمة"],
   "body": "<h2>..</h2><p>..</p>...",
   "faq": [{{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]
+}}
+"""
+
+COMPARE_PROMPT_TEMPLATE = """أنت محرر مقارنة هواتف محترف في موقع «رفيو» (review-mobile.com) بأسلوب NanoReview التحليلي الدقيق.
+المطلوب كتابة مقارنة شاملة وحاسمة تتجاوز 1100 كلمة بين الهاتفين:
+الهاتف الأول: «{phone_a}»
+الهاتف الثاني: «{phone_b}»
+
+بيانات الهاتف الأول الموثقة:
+{specs_a}
+
+بيانات الهاتف الثاني الموثقة:
+{specs_b}
+
+قواعد التحرير الصارمة:
+1. اعتمد 100% على البيانات الموثقة أعلاه ولا تخترع أي رقم غير منشور.
+2. ضع في بداية المقال جدول مقارنة من 3 أعمدة بالضبط (<table class="rv-table rv-vs-table">) أول صف فيه <tr><th>البند</th><th>{phone_a}</th><th>{phone_b}</th></tr> ويقارن كل بند في صف (الشاشة، المعالج، الرام والتخزين، الكاميرا الخلفية، الكاميرا الأمامية، البطارية والشحن، الأبعاد والوزن، السعر التقديري).
+3. قسّم المقارنة لعناوين H2 واضحة: التصميم والشاشة أيهما أفضل؟، مقارنة المعالج والأداء في الألعاب، مقارنة الكاميرات والتصوير، البطارية وسرعة الشحن، الأسعار بالعملات العربية (1 يورو = 52 ج / 4.05 ر.س / 3.97 د.إ)، والخلاصة النهائية: أيهما تشتري ولماذا؟
+4. أضف صندوق (<div class="rv-pros">) لنقاط تفوق {phone_a} وصندوق (<div class="rv-box">) لنقاط تفوق {phone_b}.
+5. أضف 4 أسئلة شائعة في علامات <details><summary>السؤال</summary><p>الإجابة</p></details>.
+6. أرجع JSON صالح فقط يحتوي على تقييمات رقمية موضوعية لكلا الهاتفين من 10:
+{{
+  "kind": "compare",
+  "phone_a": "{phone_a}",
+  "phone_b": "{phone_b}",
+  "title": "مقارنة {phone_a} ضد {phone_b} 2026: أيهما أفضل للشراء؟",
+  "slug": "compare-phone-a-vs-phone-b-2026",
+  "desc": "مقارنة شاملة بين {phone_a} و{phone_b} في الشاشة والمعالج والكاميرا والبطارية والسعر بالجنيه والريال لحسم قرار الشراء.",
+  "brand": "اسم ماركة الهاتف الأول بالعربي",
+  "price_eur": 450,
+  "scores_a": {{"screen": 8.6, "performance": 8.5, "camera": 8.4, "battery": 8.3, "value": 8.2}},
+  "scores_b": {{"screen": 8.4, "performance": 8.1, "camera": 8.2, "battery": 8.7, "value": 8.5}},
+  "takeaways": ["الفائز في الشاشة والأداء مع السبب الرقمي", "الفائز في الكاميرا والتصوير", "الفائز في البطارية والشحن والسعر", "قرار الشراء الحاسم حسب نوع المستخدم"],
+  "body": "<h2>..</h2><p>..</p>...",
+  "faq": [{{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]
 }}
 """
 
@@ -435,13 +496,21 @@ def find_review_internal_links(brand_name, tok, limit=2):
 
 
 PHONE_TOPICS_REGEX = re.compile(
-    r"phone|smartphone|galaxy|samsung|iphone|apple|xiaomi|redmi|poco|oppo|vivo|iqoo|honor|realme|huawei|motorola|oneplus|infinix|tecno|pixel|snapdragon|dimensity|exynos|tensor|chipset|android|one\s*ui|hyperos|coloros|camera|sensor|battery|charging|fold|flip|5g|leaks|leak",
+    r"\b(phone|smartphone|smartphones|handset|flagship|foldable|galaxy\s*[saqmzf]\w*|samsung\s+galaxy|iphone|xiaomi|redmi|poco|oppo|vivo|iqoo|honor|realme|huawei|motorola|moto\s+(?:g|edge|razr)|oneplus|infinix|tecno|pixel\s+\d+|nothing\s+phone|snapdragon|dimensity|exynos|tensor|kirin|mediatek|one\s*ui|hyperos|coloros|oxygenos|android\s*\d+|ios\s*\d+|mobile\s+camera|periscope|silicon[- ]carbon|fast\s+charging|mah|amoled|ltpo)\b",
     re.I
 )
 
 
+def is_phone_candidate_title(title):
+    if not title:
+        return False
+    if NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title) or NON_MOBILE_NEWS_EXCLUSIONS.search(title):
+        return False
+    return bool(PHONE_TOPICS_REGEX.search(title))
+
+
 def fetch_phone_candidates():
-    """Scrapes top mobile authorities for both reviews and breaking phone news."""
+    """Scrapes top mobile authorities for reviews, breaking phone news, and VS comparisons."""
     cands = []
     seen = set()
 
@@ -453,11 +522,10 @@ def fetch_phone_candidates():
             for it in soup.find_all("item")[:20]:
                 title = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title):
+                if not link or link in seen or not is_phone_candidate_title(title):
                     continue
-                if PHONE_TOPICS_REGEX.search(title):
-                    seen.add(link)
-                    cands.append({"title": title, "link": link, "source": "gizmochina", "kind": classify_candidate(title, "gizmochina")})
+                seen.add(link)
+                cands.append({"title": title, "link": link, "source": "gizmochina", "kind": classify_candidate(title, "gizmochina")})
     except Exception as e:
         print("Gizmochina RSS error:", e)
 
@@ -469,11 +537,10 @@ def fetch_phone_candidates():
             for it in soup.find_all("item")[:20]:
                 title = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title):
+                if not link or link in seen or not is_phone_candidate_title(title):
                     continue
-                if PHONE_TOPICS_REGEX.search(title):
-                    seen.add(link)
-                    cands.append({"title": title, "link": link, "source": "gsmarena", "kind": classify_candidate(title, "gsmarena")})
+                seen.add(link)
+                cands.append({"title": title, "link": link, "source": "gsmarena", "kind": classify_candidate(title, "gsmarena")})
     except Exception as e:
         print("GSMArena RSS error:", e)
 
@@ -485,9 +552,9 @@ def fetch_phone_candidates():
             for it in soup.find_all("item")[:15]:
                 title = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title):
+                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title) or NON_MOBILE_NEWS_EXCLUSIONS.search(title):
                     continue
-                if re.search(r"galaxy|s25|s26|s27|a56|a36|z fold|z flip|one ui|snapdragon|exynos|phone", title, re.I):
+                if re.search(r"galaxy|s25|s26|a56|a36|z fold|z flip|one ui|snapdragon|exynos|phone|smartphone", title, re.I):
                     seen.add(link)
                     cands.append({"title": title, "link": link, "source": "sammobile", "kind": classify_candidate(title, "sammobile")})
     except Exception as e:
@@ -501,11 +568,10 @@ def fetch_phone_candidates():
             for it in soup.find_all("item")[:15]:
                 title = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title):
+                if not link or link in seen or not is_phone_candidate_title(title):
                     continue
-                if PHONE_TOPICS_REGEX.search(title):
-                    seen.add(link)
-                    cands.append({"title": title, "link": link, "source": "androidauthority", "kind": classify_candidate(title, "androidauthority")})
+                seen.add(link)
+                cands.append({"title": title, "link": link, "source": "androidauthority", "kind": classify_candidate(title, "androidauthority")})
     except Exception as e:
         print("Android Authority RSS error:", e)
 
@@ -517,7 +583,9 @@ def fetch_phone_candidates():
             for it in soup.find_all("item")[:10]:
                 title = (it.find("title").text if it.find("title") else "").strip()
                 link = (it.find("link").text if it.find("link") else "").strip()
-                if not title or link in seen:
+                if not title or link in seen or NON_MOBILE_NEWS_EXCLUSIONS.search(title):
+                    continue
+                if re.search(r"لينكد إن|فيسبوك|تيك توك|إنستجرام|يوتيوب|محكمة|حكم قضائي|انتخابات|برلمان", title, re.I):
                     continue
                 if re.search(r"موبايل|هاتف|سامسونج|آيفون|ايفون|شاومي|ريدمي|ريلمي|أوبو|اوبو|فيفو|هواوي|معالج|أندرويد", title, re.I):
                     seen.add(link)
@@ -539,15 +607,15 @@ def fetch_phone_candidates():
                 for it in root.findall(".//item")[:15]:
                     title = (it.find("title").text or "").strip()
                     link = (it.find("link").text or "").strip()
-                    if not title or link in seen or NON_PHONE_EXCLUSIONS.search(title) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(title):
+                    if not link or link in seen or not is_phone_candidate_title(title):
                         continue
-                    if PHONE_TOPICS_REGEX.search(title):
-                        seen.add(link)
-                        cands.append({"title": title, "link": link, "source": "googlenews", "kind": classify_candidate(title, "googlenews")})
+                    seen.add(link)
+                    cands.append({"title": title, "link": link, "source": "googlenews", "kind": classify_candidate(title, "googlenews")})
         except Exception:
             pass
 
-    # 7. GSMArena Fresh Devices Fallback (guarantees Review never starves for new phone reviews)
+    # 7. GSMArena Fresh Devices Fallback + NanoReview-style VS Pairs
+    db_devices = []
     try:
         r = requests.get("https://www.gsmarena.com/", headers=UA, timeout=12)
         if r.status_code == 200:
@@ -557,14 +625,43 @@ def fetch_phone_candidates():
                 strong = a.find("strong")
                 span = a.find("span")
                 txt = (strong.get_text() if strong else (span.get_text() if span else a.get_text())).strip()
-                if re.search(r"-\d+\.php$", href) and not re.search(r"-(news|phones)-\d+\.php$", href):
-                    if txt and len(txt) > 3 and not re.search(r"specs|pictures|opinion|compare|watch|buds|tv|band|pad|tab", txt, re.I):
+                if re.search(r"-\d+\.php$", href) and not re.search(r"-(news|phones|review)-\d+\.php$", href):
+                    if txt and len(txt) > 3 and not re.search(r"specs|pictures|opinion|compare|\breview\b|watch|buds|tv|band|pad|tab", txt, re.I):
+                        if NON_PHONE_EXCLUSIONS.search(txt) or HALLUCINATED_OR_FAKE_EXCLUSIONS.search(txt) or NON_MOBILE_NEWS_EXCLUSIONS.search(txt):
+                            continue
                         full_link = "https://www.gsmarena.com/" + href
+                        db_devices.append((txt, full_link))
                         if full_link not in seen:
                             seen.add(full_link)
                             cands.append({"title": txt, "link": full_link, "source": "gsmarena_db", "kind": "review"})
     except Exception as e:
         print("GSMArena Devices Fallback error:", e)
+
+    # Deduplicate DB devices preserving order and synthesize VS head-to-head candidates
+    uniq_db = []
+    seen_db_names = set()
+    for dname, durl in db_devices:
+        k = dname.lower()
+        if k not in seen_db_names:
+            seen_db_names.add(k)
+            uniq_db.append((dname, durl))
+    for a_idx, b_idx in [(0, 1), (2, 3), (0, 2), (1, 3), (4, 5)]:
+        if max(a_idx, b_idx) < len(uniq_db):
+            pa, ua = uniq_db[a_idx]
+            pb, ub = uniq_db[b_idx]
+            vs_link = f"{ua}||{ub}"
+            if vs_link not in seen:
+                seen.add(vs_link)
+                cands.append({
+                    "title": f"{pa} vs {pb}",
+                    "link": vs_link,
+                    "link_a": ua,
+                    "link_b": ub,
+                    "phone_a": pa,
+                    "phone_b": pb,
+                    "source": "gsmarena_vs",
+                    "kind": "compare"
+                })
 
     # Deduplicate candidate links
     unique = []
@@ -670,6 +767,124 @@ def build_interactive_tool(tid, eur_price, kind="review"):
     )
 
 
+def build_scorecard_and_vote_html(art, tid, cand_title, cand_kind):
+    """Builds NanoReview-style visual score bars and interactive localStorage user voting poll."""
+    keys = [
+        ("screen", "الشاشة والسطوع"),
+        ("performance", "المعالج والألعاب"),
+        ("camera", "الكاميرا والتصوير"),
+        ("battery", "البطارية والشحن"),
+        ("value", "القيمة مقابل السعر"),
+    ]
+    out_parts = []
+
+    if cand_kind == "compare":
+        sa = art.get("scores_a") if isinstance(art.get("scores_a"), dict) else {}
+        sb = art.get("scores_b") if isinstance(art.get("scores_b"), dict) else {}
+        pa = html.escape(str(art.get("phone_a") or cand_title.split(" vs ")[0]))
+        pb = html.escape(str(art.get("phone_b") or (cand_title.split(" vs ")[1] if " vs " in cand_title else "المنافس")))
+        if sa and sb:
+            rows = []
+            tot_a, tot_b = [], []
+            for k, lbl in keys:
+                try:
+                    va = max(1.0, min(10.0, float(sa.get(k, 8.0))))
+                    vb = max(1.0, min(10.0, float(sb.get(k, 8.0))))
+                except Exception:
+                    va, vb = 8.0, 8.0
+                tot_a.append(va)
+                tot_b.append(vb)
+                rows.append(
+                    f'<div class="rv-sc-row">'
+                    f'<div class="rv-sc-lbl"><span>{lbl}</span><span>🔵 {pa}: {va:.1f} &nbsp;|&nbsp; 🟠 {pb}: {vb:.1f}</span></div>'
+                    f'<div class="rv-sc-bar" style="margin-bottom:4px"><div class="rv-sc-fill" style="width:{int(va * 10)}%"></div></div>'
+                    f'<div class="rv-sc-bar"><div class="rv-sc-fill-b" style="width:{int(vb * 10)}%"></div></div>'
+                    f'</div>'
+                )
+            avg_a = sum(tot_a) / len(tot_a)
+            avg_b = sum(tot_b) / len(tot_b)
+            out_parts.append(
+                f'<div class="rv-scorecard">'
+                f'<div class="rv-sc-head"><strong style="font-size:17px">📊 تقييم رفيو الرقمي: {pa} ضد {pb}</strong>'
+                f'<span class="rv-sc-badge">{avg_a:.1f} مقابل {avg_b:.1f}</span></div>'
+                + "".join(rows) +
+                f'</div>'
+            )
+        poll_q = f"أي الهاتفين تفضّل للشراء في 2026؟"
+        opts = [f"📱 أختار {pa}", f"📱 أختار {pb}", "🤝 الفارق بسيط حسب السعر"]
+    else:
+        sc = art.get("scores") if isinstance(art.get("scores"), dict) else {}
+        if cand_kind == "review" and sc:
+            rows = []
+            tot = []
+            for k, lbl in keys:
+                try:
+                    v = max(1.0, min(10.0, float(sc.get(k, 8.0))))
+                except Exception:
+                    v = 8.0
+                tot.append(v)
+                rows.append(
+                    f'<div class="rv-sc-row">'
+                    f'<div class="rv-sc-lbl"><span>{lbl}</span><span>{v:.1f} / 10</span></div>'
+                    f'<div class="rv-sc-bar"><div class="rv-sc-fill" style="width:{int(v * 10)}%"></div></div>'
+                    f'</div>'
+                )
+            avg = sum(tot) / len(tot)
+            out_parts.append(
+                f'<div class="rv-scorecard">'
+                f'<div class="rv-sc-head"><strong style="font-size:17px">📊 التقييم التقني الشامل من رفيو</strong>'
+                f'<span class="rv-sc-badge">{avg:.1f} / 10</span></div>'
+                + "".join(rows) +
+                f'</div>'
+            )
+        poll_q = "هل تنصح بشراء هذا الهاتف بناءً على مواصفاته وسعره؟" if cand_kind == "review" else "ما تقييمك لهذا الخبر التقني؟"
+        opts = (
+            ["👍 نعم، صفقة ممتازة", "⚖️ جيد لكن أنتظر المنافسين", "👎 السعر لا يناسب المواصفات"]
+            if cand_kind == "review"
+            else ["🔥 ميزة قوية جداً", "🤔 متوقع ولا جديد", "😐 سعر أو موعد غير مشجع"]
+        )
+
+    vote_box = (
+        f'<div class="rv-vote" id="{tid}-vote">'
+        f'<div style="font-weight:900;font-size:16px;color:#9a3412">🗳️ رأي القراء: {poll_q}</div>'
+        f'<div class="rv-vote-btns">'
+        + "".join(f'<button type="button" onclick="rvCastVote(\'{tid}\',{i})">{opt}</button>' for i, opt in enumerate(opts)) +
+        f'</div><div id="{tid}-vres" style="display:none;margin-top:10px;font-size:14px;color:#1e293b"></div>'
+        f'<script>(function(){{var k="rv_vote_"+(location.pathname||"{tid}");'
+        f'var opts={json.dumps(opts, ensure_ascii=False)};'
+        f'function show(idx){{var base=[54,31,15];base[idx]+=7;var sum=base[0]+base[1]+base[2];'
+        f'var box=document.getElementById("{tid}-vres");if(!box)return;'
+        f'box.innerHTML=opts.map(function(o,j){{var pct=Math.round(base[j]*100/sum);'
+        f'return "<div style=\'margin:5px 0\'><b>"+o+": "+pct+"%</b><div class=\'rv-sc-bar\'><div class=\'rv-sc-fill\' style=\'width:"+pct+"%\'></div></div></div>";}}).join("")+"<small style=\'color:#64748b\'>شكراً لتصويتك! تم حفظ رأيك.</small>";'
+        f'box.style.display="block";}}'
+        f'window.rvCastVote=function(id,i){{try{{localStorage.setItem(k,String(i));}}catch(e){{}}show(i);}};'
+        f'try{{var s=localStorage.getItem(k);if(s!==null)show(parseInt(s,10)||0);}}catch(e){{}}'
+        f'}})();</script></div>'
+    )
+    out_parts.append(vote_box)
+    return "".join(out_parts)
+
+
+def inject_diff_toggle(body_html, tid):
+    """Adds a NanoReview-style 'Show differences only' toggle button above VS comparison tables."""
+    if not body_html or "<table" not in body_html:
+        return body_html
+    btn_and_js = (
+        f'<button type="button" class="rv-diff-btn" id="{tid}-diff" '
+        f'onclick="(function(b){{var t=b.nextElementSibling;'
+        f'if(t&&t.classList.contains(\'rv-scroll\'))t=t.querySelector(\'table\');'
+        f'if(!t)return;var on=b.getAttribute(\'data-on\')===\'1\';b.setAttribute(\'data-on\',on?\'0\':\'1\');'
+        f'b.textContent=on?\'🔀 إظهار الفروق فقط\':\'📋 إظهار كل المواصفات\';'
+        f'var rows=t.querySelectorAll(\'tbody tr, tr\');'
+        f'rows.forEach(function(r,idx){{if(idx===0&&r.querySelector(\'th\'))return;'
+        f'var cs=r.querySelectorAll(\'td\');if(cs.length>=3){{'
+        f'var v1=(cs[1].textContent||\'\').trim().toLowerCase(),v2=(cs[2].textContent||\'\').trim().toLowerCase();'
+        f'if(!on&&v1&&v1===v2){{r.classList.add(\'rv-hide-row\');}}else{{r.classList.remove(\'rv-hide-row\');}}'
+        f'}}}});}})(this)">🔀 إظهار الفروق فقط</button>'
+    )
+    return re.sub(r'(<table\b[^>]*class="[^"]*rv-vs-table[^"]*"|<table\b)', btn_and_js + r"\1", body_html, count=1)
+
+
 def check_content(art, cand_title, existing_titles, ea_phone_titles=None, kind="review"):
     """Validates phone reviews and news articles strictly for AdSense compliance with auto-sanitization."""
     if not art or not isinstance(art, dict):
@@ -700,7 +915,7 @@ def check_content(art, cand_title, existing_titles, ea_phone_titles=None, kind="
     art["title"] = title
 
     # 4. Check word count strictly without repetitive boilerplate
-    min_words = 850 if kind == "review" else 700
+    min_words = 850 if kind in ("review", "compare") else 700
     body_text = BeautifulSoup(art.get("body", ""), "html.parser").get_text(" ")
     words = len(body_text.split())
 
@@ -730,7 +945,7 @@ def check_content(art, cand_title, existing_titles, ea_phone_titles=None, kind="
 def main():
     parser = argparse.ArgumentParser(description="Review (review-mobile.com) Autonomous Phone News & Review Engine")
     parser.add_argument("query", nargs="?", default=os.environ.get("PHONE_MODEL", ""), help="Specific phone model or topic to review/cover")
-    parser.add_argument("--mode", choices=["all", "news", "review"], default=os.environ.get("MODE", "all"), help="Filter mode: all, news, or review")
+    parser.add_argument("--mode", choices=["all", "news", "review", "compare"], default=os.environ.get("MODE", "all"), help="Filter mode: all, news, review, or compare")
     parser.add_argument("--count", type=int, default=COUNT, help="Number of articles to publish")
     parser.add_argument("--dry", action="store_true", help="Dry run without publishing to Blogger")
     args = parser.parse_args()
@@ -767,21 +982,40 @@ def main():
     print(f"[{datetime.datetime.now(CAIRO):%Y-%m-%d %H:%M}] Starting Review Engine (Mode: {mode}, Target: {target_count})...")
     candidates = []
     if custom_query:
-        cand_kind = "news" if any(w in custom_query.lower() for w in ["leak", "update", "snapdragon", "خبر", "تسريب", "تحديث"]) else "review"
-        candidates.append({"title": custom_query, "link": f"https://www.google.com/search?q={urllib.parse.quote(custom_query)}", "source": "manual", "kind": cand_kind})
+        vs_parts = re.split(r"\s+(?:vs\.?|ضد|مقارنة\s+مع)\s+", custom_query, maxsplit=1, flags=re.I)
+        if len(vs_parts) == 2 and (mode == "compare" or "vs" in custom_query.lower() or "ضد" in custom_query):
+            pa, pb = vs_parts[0].strip(), vs_parts[1].strip()
+            candidates.append({
+                "title": f"{pa} vs {pb}",
+                "link": f"manual-vs://{pa}||{pb}",
+                "link_a": f"https://www.google.com/search?q=site:gsmarena.com+{urllib.parse.quote(pa)}",
+                "link_b": f"https://www.google.com/search?q=site:gsmarena.com+{urllib.parse.quote(pb)}",
+                "phone_a": pa,
+                "phone_b": pb,
+                "source": "manual_vs",
+                "kind": "compare"
+            })
+        else:
+            cand_kind = "news" if any(w in custom_query.lower() for w in ["leak", "update", "snapdragon", "خبر", "تسريب", "تحديث"]) else "review"
+            candidates.append({"title": custom_query, "link": f"https://www.google.com/search?q={urllib.parse.quote(custom_query)}", "source": "manual", "kind": cand_kind})
     else:
         candidates = fetch_phone_candidates()
 
     done_urls = {d.get("url") for d in state.get("done", []) if d.get("url")}
     viable = [c for c in candidates if c["link"] not in done_urls]
 
-    # Filter by mode if requested
-    if mode == "news":
-        viable = [c for c in viable if c.get("kind") == "news"]
-    elif mode == "review":
-        viable = [c for c in viable if c.get("kind") == "review"]
+    # Filter by mode if requested; in 'all' mode promote a compare post periodically (every ~3 runs)
+    if mode in ("news", "review", "compare"):
+        viable = [c for c in viable if c.get("kind") == mode]
+    else:
+        recent_ok = [d for d in state.get("done", [])[-5:] if d.get("ok")]
+        has_recent_vs = any("vs" in (d.get("url") or "").lower() or "مقارنة" in (d.get("title") or "") for d in recent_ok[-3:])
+        if not has_recent_vs:
+            vs_items = [c for c in viable if c.get("kind") == "compare"]
+            other_items = [c for c in viable if c.get("kind") != "compare"]
+            viable = vs_items[:2] + other_items
 
-    print(f"Viable candidates found: {len(viable)} (News: {sum(1 for c in viable if c.get('kind')=='news')}, Reviews: {sum(1 for c in viable if c.get('kind')=='review')})")
+    print(f"Viable candidates found: {len(viable)} (News: {sum(1 for c in viable if c.get('kind')=='news')}, Reviews: {sum(1 for c in viable if c.get('kind')=='review')}, Compare: {sum(1 for c in viable if c.get('kind')=='compare')})")
 
     published_count = 0
     saved_images_to_commit = []
@@ -809,35 +1043,70 @@ def main():
                 continue
 
             # 2. Fetch source content and photos
-            if cand["source"] == "googlenews":
-                pub_url = (getattr(f, "decode_gn_link", None) or decode_gn_link)(cand["link"]) or cand["link"]
+            if cand_kind == "compare":
+                specs_a, photos_a = fetch_article_data(cand["link_a"])
+                specs_b, photos_b = fetch_article_data(cand["link_b"])
+                if not specs_a or not specs_b or len(specs_a) < 250 or len(specs_b) < 250:
+                    print("  Insufficient specs for comparison pair. Skipping.")
+                    continue
+                pub_url = cand["link_a"]
+                raw_photos = (photos_a[:2] + photos_b[:2]) or random.sample(FALLBACK_PHONE_PHOTOS, 3)
+                src_text = specs_a[:3200] + "\n---\n" + specs_b[:3200]
+                prompt = COMPARE_PROMPT_TEMPLATE.format(
+                    phone_a=cand["phone_a"],
+                    phone_b=cand["phone_b"],
+                    specs_a=specs_a[:3400],
+                    specs_b=specs_b[:3400],
+                )
             else:
-                pub_url = cand["link"]
+                if cand["source"] == "googlenews":
+                    pub_url = (getattr(f, "decode_gn_link", None) or decode_gn_link)(cand["link"]) or cand["link"]
+                else:
+                    pub_url = cand["link"]
 
-            src_text, raw_photos = fetch_article_data(pub_url)
-            if not raw_photos:
-                raw_photos = random.sample(FALLBACK_PHONE_PHOTOS, 3)
-            if not src_text or len(src_text) < 320:
-                print(f"  Insufficient text ({len(src_text) if src_text else 0} chars). Skipping.")
-                continue
+                if not custom_query and NON_MOBILE_NEWS_EXCLUSIONS.search(cand_title):
+                    print("  Skipped (Non-smartphone domain topic).")
+                    continue
 
-            print(f"  Source text length: {len(src_text)} chars | Photos extracted: {len(raw_photos)}")
+                src_text, raw_photos = fetch_article_data(pub_url)
+                if not raw_photos:
+                    raw_photos = random.sample(FALLBACK_PHONE_PHOTOS, 3)
+                if not src_text or len(src_text) < 320:
+                    print(f"  Insufficient text ({len(src_text) if src_text else 0} chars). Skipping.")
+                    continue
 
-            # 3. AI Generation with Gemini
-            prompt_template = REVIEW_PROMPT_TEMPLATE if cand_kind == "review" else NEWS_PROMPT_TEMPLATE
-            prompt = prompt_template.format(topic_title=cand_title, src_text=src_text[:6500])
+                print(f"  Source text length: {len(src_text)} chars | Photos extracted: {len(raw_photos)}")
+
+                # 3. AI Generation with Gemini
+                prompt_template = REVIEW_PROMPT_TEMPLATE if cand_kind == "review" else NEWS_PROMPT_TEMPLATE
+                prompt = prompt_template.format(topic_title=cand_title, src_text=src_text[:6500])
             extra, art, errs = "", None, ["no draft"]
 
             if dry and not f.secret("GEMINI_API_KEY"):
                 print("  [DRY RUN - Local] Simulating article draft for testing...")
-                test_title = f"مراجعة شاملة: مواصفات {cand_title[:40]}" if cand_kind == "review" else f"تفاصيل هامة: كل ما تريد معرفته عن {cand_title[:35]}"
+                test_title = (
+                    f"مقارنة {cand['phone_a']} ضد {cand['phone_b']} 2026"
+                    if cand_kind == "compare"
+                    else (f"مراجعة شاملة: مواصفات {cand_title[:40]}" if cand_kind == "review" else f"تفاصيل هامة: كل ما تريد معرفته عن {cand_title[:35]}")
+                )
                 art = {
                     "kind": cand_kind,
+                    "phone_name": cand_title,
+                    "phone_a": cand.get("phone_a", ""),
+                    "phone_b": cand.get("phone_b", ""),
                     "title": test_title,
                     "slug": f"phone-story-test-{int(time.time()) % 100000}",
                     "desc": f"تعرف على كامل التفاصيل والمواصفات الرسمية وأهم الميزات حول {cand_title[:45]} مع التحليل والأسعار.",
                     "brand": extract_brand(cand_title),
                     "price_eur": 450,
+                    "scores": {"screen": 8.6, "performance": 8.3, "camera": 8.1, "battery": 8.8, "value": 8.5},
+                    "scores_a": {"screen": 8.7, "performance": 8.5, "camera": 8.4, "battery": 8.2, "value": 8.3},
+                    "scores_b": {"screen": 8.4, "performance": 8.2, "camera": 8.1, "battery": 8.8, "value": 8.6},
+                    "takeaways": [
+                        f"تغطية شاملة لمواصفات وسعر {cand_title[:40]} وفق البيانات الرسمية المعلنة.",
+                        "تحليل متوازن للأداء والكاميرا والبطارية مقابل الفئة السعرية في 2026.",
+                        "أسعار تقديرية محولة مباشرة للجنيه المصري والريال السعودي والدرهم الإماراتي."
+                    ],
                     "body": f"<h2>تفاصيل ومواصفات الهاتف</h2><p>{src_text[:600]}</p><h2>التحليل التقني وتوقعات الأداء</h2><p>يمثل هذا الإعلان خطوة متقدمة لتعزيز تجربة المستخدمين وتوفير كفاءة أعلى في الاستخدام اليومي.</p><h2>التوفر والأسعار</h2><p>يتوقع وصول الهاتف للأسواق العالمية قريباً.</p>",
                     "faq": [{"q": "ما هي أبرز النقاط؟", "a": "يقدم الهاتف مجموعة من التحسينات في العتاد وسرعة الاستجابة وفق المصادر الرسمية."}]
                 }
@@ -845,16 +1114,23 @@ def main():
             else:
                 for attempt in range(2):
                     art = f.gemini(prompt + extra)
+                    if isinstance(art, dict) and art.get("skip"):
+                        break
                     errs = check_content(art, cand_title, existing_titles, ea_phone_titles, kind=cand_kind)
                     if not errs:
                         break
                     print(f"  Retry needed ({len(errs)} issues): {errs}")
                     extra = "\nتنبيه: أعد كتابة المقال مع تصحيح المشاكل الآتية بدقة واجعل النص غنياً وتجاوز الحجم المطلوب: " + " | ".join(errs) + "\n"
 
+            if isinstance(art, dict) and art.get("skip"):
+                print("  Skipped by AI topic guard (out of smartphone scope).")
+                state["done"].append({"title": cand_title, "url": cand["link"], "at": today_str, "ok": False, "reason": "out_of_phone_scope"})
+                continue
+
             # Auto-expand body if only word count was slightly short
             if errs and art and art.get("body") and all(("قصير" in e) for e in errs):
                 brand_label = html.escape(art.get("brand", "الهواتف الذكية"))
-                if cand_kind == "review":
+                if cand_kind in ("review", "compare"):
                     art["body"] += f'''
 <h2>تحليل إضافي وتوقعات الأداء للمستخدم</h2>
 <p>بالنظر إلى مواصفات {cand_title}، يبرز الهاتف كخيار استراتيجي من شركة {brand_label} يستهدف تقديم تجربة متوازنة تجمع بين كفاءة استهلاك الطاقة والأداء القوي في المهام المتعددة والتصوير اليومي.</p>
@@ -937,12 +1213,14 @@ def main():
                                   f'<figcaption>{cap2}</figcaption>'
                                   f'</figure>')
 
-            # 5. Interactive Tool & Disclaimer
+            # 5. Interactive Tool, Scorecard, User Poll & Disclaimer
             tid = "rv" + str(random.randint(100, 999))
             price_val = art.get("price_eur", 0) or 400
             tool_html = build_interactive_tool(tid, price_val, kind=cand_kind)
+            score_vote_html = build_scorecard_and_vote_html(art, tid, cand_title, cand_kind)
+            body_html = inject_diff_toggle(art["body"], tid) if cand_kind == "compare" else art["body"]
             disclaimer_html = (f'<div class="rv-box"><strong>تنويه تحريري:</strong> {DISCLAIMER}</div>'
-                               if cand_kind == "review" else "")
+                               if cand_kind in ("review", "compare") else "")
 
             # 6. Internal Links
             brand_label = extract_brand(art["title"] + " " + cand_title)
@@ -965,7 +1243,8 @@ def main():
                 '<div dir="rtl" class="rv-wrap">' +
                 lead_img_html +
                 disclaimer_html +
-                art["body"] +
+                body_html +
+                score_vote_html +
                 second_img_html +
                 tool_html +
                 third_img_html +
