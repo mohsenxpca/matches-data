@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/2/3072565/%D8%B7%D8%A7%D8%B1%D9%82-%D8%A7%D9%84%D8%B3%D9%8A%D8%AF-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D8%B3%D9%8A%D9%81%D9%88%D8%B2-%D8%A8%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D9%88%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%B3%D8%A8%D8%A8-%D8%A3%D8%B2%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82-",
-   "t": "طارق السيد: بيراميدز سيفوز بالدوري ومجلس الأهلي سبب أزمات الفريق",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الـ body 380 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/2/Mini-PC-أم-Gaming-Desktop-أيهما-أفضل-لتشغيل-الألعاب-الحديثة/7601472",
    "t": "Mini PC أم Gaming Desktop؟.. أيهما أفضل لتشغيل الألعاب الحديثة؟",
    "title": "Mini PC أم Gaming Desktop؟.. أيهما أفضل للألعاب؟",
@@ -3367,6 +3358,16 @@
    "at": "2026-11-11T19:03:44.675754+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/11/%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7-%D8%AA%D9%86%D8%B8%D8%B1-%D8%BA%D8%AF%D8%A7-%D8%B7%D8%B9%D9%88%D9%86-%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D9%85%D8%B3/7614782",
+   "t": "المحكمة الإدارية العليا تنظر غدا طعون تنفيذ حكم العلاوات الخمس لأصحاب المعاشات",
+   "title": "المحكمة الإدارية العليا تنظر طعون أصحاب المعاشات غدًا",
+   "url": "https://www.egyptaway.com/2026/11/administrative-court-pensions-lawsuit.html",
+   "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-11T20:37:12.833094+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
