@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.sportsadda.asia/football/news-football/ronaldo-scored-three-on-thursday-and-postecoglou-has-left-him-out-of-al-nassrs-champions-league-trip-to-pakhtakor/",
-   "t": "Ronaldo scored three on Thursday, and Postecoglou has left him out of Al-Nassr’s Champions League trip to Pakhtakor",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 1000"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7164102",
    "t": "رفض تظلم الشناوي.. قرار جديد يلزم حارس بيراميدز برد 8ملايين جنيه للزمالك",
    "at": "2026-11-02",
@@ -3364,6 +3355,16 @@
    "url": "https://www.egyptaway.com/2026/11/google-pixel-tag-features-launch.html",
    "photo": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-11T07:39:14.165765+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7176275",
+   "t": "موقف الأهلي من تجديد عقد أشرف بن شرقي.. وموعد حسم مصيره",
+   "title": "موقف الأهلي من تجديد عقد أشرف بن شرقي وموعد حسم مصيره",
+   "url": "https://www.egyptaway.com/2026/11/al-ahly-bencharki-contract-update.html",
+   "photo": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-11T09:40:42.830683+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
