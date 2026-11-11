@@ -1,95 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Find X10",
-   "url": "https://www.gsmarena.com/oppo_find_x10-14953.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Model code [x10] found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
-   "title": "Samsung Galaxy S26 Ultra",
-   "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-14320.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [samsung galaxy] found in review: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
-  },
-  {
-   "title": "Samsung Galaxy A57",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a57-14379.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [samsung galaxy] found in review: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
-  },
-  {
-   "title": "Motorola Signature 27",
-   "url": "https://www.gsmarena.com/motorola_signature_27-14955.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (827 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "Samsung Galaxy A17",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a17-14041.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [samsung galaxy] found in review: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
-  },
-  {
-   "title": "Xiaomi 18 Pro Max",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_max-14958.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
-  },
-  {
-   "title": "Xiaomi Poco X8s",
-   "url": "https://www.gsmarena.com/xiaomi_poco_x8s-15038.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [xiaomi poco] found in review: مراجعة سعر ومواصفات هاتف Xiaomi Poco X7"
-  },
-  {
-   "title": "OnePlus Ace 7 Pro",
-   "url": "https://www.gsmarena.com/oneplus_ace_7_pro-15045.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [oneplus ace] found in review: مراجعة كاملة لهاتف OnePlus Ace 3 مواصفاتة وسعرة"
-  },
-  {
-   "title": "OnePlus 15",
-   "url": "https://www.gsmarena.com/oneplus_15-14206.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (698 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Xiaomi 17 Pro Max",
-   "url": "https://www.gsmarena.com/xiaomi_17_pro_max-14181.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
-  },
-  {
-   "title": "Xiaomi 17 Ultra",
-   "url": "https://www.gsmarena.com/xiaomi_17_ultra-14380.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [xiaomi 17] found in review: مراجعة Xiaomi 17T Pro: كاميرات Leica وبطارية 7000 مللي أمبير وشحن 100 وات"
-  },
-  {
-   "title": "Oppo Find X9 Pro",
-   "url": "https://www.gsmarena.com/oppo_find_x9_pro-14094.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [oppo find] found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
    "title": "Apple iPhone 17 Pro Max",
    "url": "https://www.gsmarena.com/apple_iphone_17_pro_max-13964.php",
    "at": "2026-11-04",
@@ -3376,6 +3287,109 @@
    "ok": true,
    "kind": "news",
    "brand": "اوبو"
+  },
+  {
+   "title": "Infinix Smart 20 HD vs Honor Choice T10",
+   "url": "https://www.gsmarena.com/infinix_smart_20_hd-15079.php||https://www.gsmarena.com/honor_choice_t10-15080.php",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (788 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "vivo V80 FE vs Oppo Reno17 (China)",
+   "url": "https://www.gsmarena.com/vivo_v80_fe_5g-15061.php||https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "Phone 'v80 fe' already covered in: إطلاق هاتف Vivo V80 FE ببطارية 7000 ملي أمبير وكاميرات ZEISS"
+  },
+  {
+   "title": "Honor said to be testing a wide-screen phone with an 8,000mAh battery",
+   "url": "https://www.gsmarena.com/honor_said_to_be_testing_a_widescreen_phone_with_an_8000mah_battery-news-75432.php",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (561 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung reportedly working on a phone with an expandable display",
+   "url": "https://www.gsmarena.com/samsung_reportedly_working_on_a_phone_with_an_expandable_display-news-75431.php",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (668 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Google's November Pixel Drop brings Gemini Intelligence to the Pixel 10",
+   "url": "https://www.gsmarena.com/googles_november_pixel_drop_brings_gemini_intelligence_to_the_pixel_10-news-75430.php",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (526 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Galaxy S24 Ultra owners love their phones, and newer models aren’t winning them over",
+   "url": "https://www.sammobile.com/news/samsung-galaxy-s24-ultra-owners-love-their-phones-waiting-upgrade/",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "Phone 's24 ultra' already covered in: مقارنة بين Samsung Galaxy S25 Ultra وSamsung Galaxy S24 Ultra"
+  },
+  {
+   "title": "An old Samsung accessory I almost threw away pairs perfectly with my Galaxy Z Fold 8",
+   "url": "https://www.sammobile.com/opinion/old-samsung-accessory-pairs-perfectly-galaxy-z-fold-8/",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (692 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Sam Altman shared his vision of ‘the next version of the smartphone’ with 50 Samsung executives",
+   "url": "https://www.sammobile.com/news/sam-altman-shared-his-vision-of-the-next-version-of-the-smartphone-with-50-samsung-executives/",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (628 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Galaxy Z Fold 8 helps Samsung capture 69% foldable market share, its highest in years",
+   "url": "https://www.sammobile.com/news/galaxy-z-fold-8-samsung-capture-69-percent-foldable-market-share-highest-in-years/",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Apples and Galaxy Z Fold 8 storm the football pitch during Zurich All-Star Game 2026",
+   "url": "https://www.sammobile.com/news/apples-galaxy-z-fold-8-storm-football-pitch-during-zurich-all-star-game-2026/",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (476 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Blue Phone gives Google’s Pixel 10 Pro an AI assistant that goes beyond Gemini",
+   "url": "https://www.androidauthority.com/blue-os-google-pixel-10-pro-3733835/",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (619 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "سامسونج تطور هاتفا بشاشة قابلة للتمدد رأسيًا.. التفاصيل الكاملة",
+   "cand_title": "Samsung reportedly working on a phone with an expandable display - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOazk0RnBvbl9ydVVRdmozVnJFUE42MHBYSTROb2hob2xzWDRmeUJxWUJ0Z2lSNUNFV1VzTjB2V0hYdjNaZWJUYndRTW85ZGhHakw1cnlpdW9MUEFGRnB3dkg2aGdqajFWNlpsZHFhLTdObDdmaW1qWWxLaWphQUZjUmpvWUtHS09qUjBYdHFFMjZ6a2RHMERibkF4MEhXVEhTd1BXU0JmMA?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-expandable-display-phone-details.html",
+   "at": "2026-11-12T01:28:47+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
