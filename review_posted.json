@@ -1,46 +1,6 @@
 {
  "done": [
   {
-   "title": "vivo X500 Pro Max",
-   "url": "https://www.gsmarena.com/vivo_x500_pro_max_5g-14782.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
-  },
-  {
-   "title": "Apple iPhone Duo",
-   "url": "https://www.gsmarena.com/apple_iphone_duo_fold-13804.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [apple iphone] found in review: مراجعة سعر ومواصفات هاتف Apple iPhone 11"
-  },
-  {
-   "title": "ZEED Z-Pro Max",
-   "url": "https://www.gsmarena.com/zeed_z_pro_max_5g-15050.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
-  },
-  {
-   "title": "vivo X500 Pro",
-   "url": "https://www.gsmarena.com/vivo_x500_pro_5g-14950.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (792 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "Apple expects its highest revenue yet in Q4, but memory prices will hurt profits",
-   "url": "https://www.gsmarena.com/apple_expects_q4_2026_to_be_the_best_revenue_quarter_in_the_history_of_the_company-news-75332.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (668 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "لماذا تظل هواتف سامسونج الخيار الأول للمستخدمين؟",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMEFQTURYUjA2ck9uZ0VzR01TWnJYcGtfbkpUZVVaTk9ITVIydFdSLWd3U3U0dE9FcERhZncxYThDcVFKMlNVQ1huVk1mbEozNm9zSFlUbjljaUVFZGhfZlQxd2FpQlJNXy1qb0JQRXhaNlNDNHJNby1sVWtMZ2hxRVE0OUxsb1YyNTB6VHJPR2c?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/why-samsung-galaxy-remains-top-choice.html",
@@ -3366,6 +3326,51 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "Honor’s first wide-screen phone has a battery bigger than 8000mAh, claims leak",
+   "url": "https://www.gizmochina.com/2026/11/11/honors-first-wide-screen-phone-has-a-battery-bigger-than-8000mah-claims-leak/",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (656 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "العنوان مكرر أو قريب جداً من مقال منشور: هاتف من هونر ببطارية 14,000 مللي أمبير: هل انتهى عصر الشحن اليومي؟"
+   ]
+  },
+  {
+   "title": "Xiaomi 18 Pro Max Cheat Sheet: Price, Specs, Features, and Availability - TechRepublic",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORndzRzdHUzUtbFc3N0NnMnJfblN1VGlrSGJvNUZnay1sM1ZpaC1SQlZhM2otbmRENUNJVzhwQkVjUjdZNXMwNVZ1YVlzaE4tWVk0X2tPOTZ3bEZoNExPb0RycjFXdzhNclhkMHI1amFXSnd2RHZBUEpGLU9zZ0ZDR1FpVQ?oc=5",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro max' already covered in: Xiaomi 18 Pro Max مراجعة سعر ومواصفات أحدث هواتف شاومي الرائدة"
+  },
+  {
+   "title": "Samsung Gallery can finally sync your photos directly to Google Photos - Android Central",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZVZrRUJTcVNkUDdWZV9hSE5tOFNDcWVpRm50c21yLWIyc3JwRnJkbGFOY05QcFNMRElKdDRnUWlXRnp1ZXpVRzd4LUhEU2Z5Z2VmQ1k3SDJwUE1PXzJSa3RBWDY4eUtOcUZFMmd6M3YzWEpvU2dsTGViVUl0QjM4Ml9lNW9DakRSU253VnRnM0tUWnQxS0lKUzR0SVZMejBrdUdUR2FuNW5RNkZ6RTJrbjlYYkxNZw?oc=5",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "I turned an old Android phone into a Jellyfin media server that beats any Raspberry Pi - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wVVFvQ0xMMU5OdnIzcmtFTzRXQm1iUTZPcUlUSTZ6QzJoMmRWcmp4VlVZbjJUQ3AzT3FpVlliaERqN0o3U0hfYnRWQUNCVExyUjNKZ1h6VVhPbFBUYmpzQTJLSGg3bE5IUUZudHVLVFdjMWkz?oc=5",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (649 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "حكم قضائي تاريخي يقيّد صلاحيات الوصول لبيانات الصحفيين على لينكد إن",
+   "cand_title": "Appeals court limits order for LinkedIn to disclose journalists’ communications in leak probe - The Business Journal",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1hEQVRhaF9fWHVWOWdzODhnVm1NanJEc0JBeXdodF9JYWlIdVBOMHluTDNDWm55Y2Zld2ROU1RTOEluNTRjWl9UMjhGTWJ0TlZzVS16Z211NGFvUXlFaTFIV3l4M1UwVDktSENtLV9JbjZYUFR4QzNOZXlzTlZfemY5RkVzRnlZM3R5TXln?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/linkedin-journalist-privacy-ruling.html",
+   "at": "2026-11-11T04:36:08+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
