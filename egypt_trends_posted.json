@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://bamsmackpow.com/avengers-doomsday-pre-sales-already-making-mcu-box-office-history",
-   "t": "Avengers: Doomsday pre-sales are already making MCU box office history",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 456 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.goal.com/en/news/a-long-awaited-breakthrough-at-al-ahly-before-the-asian-clash-with-al-sadd/blt7d5dbf21ae81fe1f",
    "t": "A long-awaited breakthrough at Al-Ahly before the Asian clash with Al-Sadd",
    "at": "2026-11-02",
@@ -3367,6 +3357,16 @@
    "url": "https://www.egyptaway.com/2026/11/exchange-rate-equation-egypt-dollar.html",
    "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-11T21:17:47.290521+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7177261",
+   "t": "رسلان: استضافة بطولة العالم للجولف كروكيه تأكيد جديد على ريادة مصر العالمية في اللعبة",
+   "title": "استضافة بطولة العالم للجولف كروكيه تؤكد ريادة مصر العالمية",
+   "url": "https://www.egyptaway.com/2026/11/world-golf-croquet-championship-egypt.html",
+   "photo": "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-11T21:56:56.360131+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
