@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus Turbo 7 key specs leak, and it's a big step up - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZDRncEVkeTYyMU9jTW0zZURCc2dvWnV1VmthQm9fWkhGcnJ4YU90RGU2T3lnWk9aTjhwQWtPR3VFZ2tuMTVwcFBWYVRqODZRYmk3VjlGc19qSVNaX0NFQi1CUk8xUVc5dTZpNGpHdDFfcHkzQlVJOFNHV2JnSVpQT2ZYM3NCOE5SeXNrWTZVWXNRUEZCZUJB0gGTAUFVX3lxTFBERFdmYUtVMXhFOEhoZ0xiWmg3UG5fOWdCQWJWZGpWanRvQ3RmNko5N2hkUVVmQWN6TWdRb2l1RWpyc2poQWJmMTNmVkJBcjBPbmpnSTZSb0lFaGVmWDliT3hTWDZmRWJyTVppV283Qk5iU0RnbFhOLUNSWFY4TTFMT0RPbHRNeHdOVlpxS2MyUERRTQ?oc=5",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phone 'turbo 7' already covered in: تسريب مواصفات OnePlus Turbo 7: قفزة تقنية هائلة للأداء"
-  },
-  {
    "title": "رسمياً: إطلاق Redmi M100 Pro بشاشة منحنية ومعالج Dimensity 7300",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWDZHY19OSFJXOEdRc05UVGx6WHQwX1BaX3FnNnpYb2ZxS0lqa2hCVFVDSFdmNTdwRV84ak5rWmZZc242cDhGVUEyTGdzWjBjQWRiZE5xX3hhNXlNNVp0cUh5bFdNRDlnTWRqQUp5Z3ZSdnNweWU0WGNha1NHY1dYVkZBRmtDTjZnSU01TzFvaFdRUE41UXBUQmxiNWlvU2RZOWJHM0QzdHJxUWkyZndXLTJvYjAwd9IBsgFBVV95cUxNVFVXc3lOcUEyRFI5blBSS3NiQnptMzNQTDBHRHA1R0xKcEtWRFpvMnlseGR0MjFiWHJwS1BJajI2LUNMQjFseHdjcGw5cWpaalVDYlVwR3F4aE1pZE1WWV9xZDZ1RXVxdnZQRHFEeERvLVFEZXJkSm5rN29PMVhMVVozMnRDcXVoOW9QbDA0djNTbnpsMmV2UExpN1JaQTVMOW5HcUNLLTk5OGpiOEtZelh3?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/redmi-m100-pro-launch-specs.html",
@@ -3366,6 +3359,16 @@
    "url": "https://www.androidauthority.com/google-pixel-tag-released-3733213/",
    "post_url": "https://www.review-mobile.com/2026/11/google-pixel-tag-finally-on-sale.html",
    "at": "2026-11-11T02:27:07+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "بيكسل"
+  },
+  {
+   "title": "جوجل تطلق 10 أنماط أيقونات جديدة لهواتف Pixel.. هل هاتفك مدعوم؟",
+   "cand_title": "Pixel phones are getting 10 new custom icon styles",
+   "url": "https://www.androidauthority.com/pixel-custom-icon-expansion-3733125/",
+   "post_url": "https://www.review-mobile.com/2026/11/google-pixel-new-icon-styles-update.html",
+   "at": "2026-11-11T02:52:01+02:00",
    "ok": true,
    "kind": "news",
    "brand": "بيكسل"
