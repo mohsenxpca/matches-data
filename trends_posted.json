@@ -1425,6 +1425,23 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/cib-q3-profits-2026.html",
    "title": "تفاصيل أرباح التجاري الدولي في الربع الثالث"
+  },
+  {
+   "q": "خالد بيومي",
+   "at": "2026-11-11",
+   "ok": false
+  },
+  {
+   "q": "هند بومشمر",
+   "at": "2026-11-11",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "اليوم العالمي للعزاب",
+   "at": "2026-11-11",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
