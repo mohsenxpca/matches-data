@@ -1,48 +1,6 @@
 {
  "done": [
   {
-   "title": "Man orders iPhone 15 Pro from Apple, gets Android copy instead - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5SnpEbTF2Yl9pRW1xYW13Wi1IM3UtNExHM0J0WGhmMkhiNmctWnQ4VW9VQ2IySjlpREFLV1ZIOTA5TDE3NlVuUkRVWGsyaEpoTV81MkxxYkc1N2pJMlZTbEVTSlBvQTl3bDI2WTBLTUFVSVU?oc=5",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phone 'iphone 15 pro' already covered in: سعر ومواصفات iPhone 15 Pro: المميزات والعيوب الكاملة"
-  },
-  {
-   "title": "RedMagic 12 Pro review",
-   "url": "https://www.gsmarena.com/redmagic_12_pro-review-3010.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [redmagic 12] found in review: مراجعة RedMagic 12 Pro+ 2026: تبريد سائل وشاشة 185 هرتز والسعر"
-  },
-  {
-   "title": "vivo V80 FE",
-   "url": "https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Model code [v80] found in review: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
-  },
-  {
-   "title": "ZTE nubia RedMagic 12 Pro",
-   "url": "https://www.gsmarena.com/zte_nubia_redmagic_12_pro_5g-15012.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [zte nubia] found in review: مراجعة ZTE nubia A57 2026: موبايل اقتصادي بشاشة 120 هرتز والسعر"
-  },
-  {
-   "title": "Oppo Find X10 Pro Max",
-   "url": "https://www.gsmarena.com/oppo_find_x10_pro_max-14939.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
-  },
-  {
-   "title": "Apple iPhone 18 Pro Max",
-   "url": "https://www.gsmarena.com/apple_iphone_18_pro_max-14716.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
-  },
-  {
    "title": "vivo X500 Pro Max",
    "url": "https://www.gsmarena.com/vivo_x500_pro_max_5g-14782.php",
    "at": "2026-11-04",
@@ -3357,6 +3315,57 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Strengthened guidance to take the next leap to phone-free schools - GOV.UK",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUllDczlwMHBnQ0NmZXQ2REV5LVlfTFZmWE0teHNyR0dLVkctV19TTVJQMDBhVEc2NjFhT0dYU3B3TjNpLTRKSlRlQ3dISmdrYjMwbVQyUGdST0JldUtKZ1hwZVFtMlBXQ094aE95bjJuclpHOGhQcVIwYVozVE5HYl8waFlTanB2eXh6emFMS0haTU9PZkZucGRaTThNYVJKX0E?oc=5",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (647 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "New Smartphone Game DRAGON QUEST RPG The Cursed Tree and the Chosen Isle Announced! Announcement Trailer Premieres November 10 at 11:00 AM UTC - Saiga NAK",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NaGZFVFBkNVIzU2RoYVVCUmRRUmY4b3AtNFM2YjduYXByZEF4eXRtQjhLLVNSWWZuNGdpcnM4MEVHY0RsTUR0VHVFMHRtcDBBOGFIQVZ0ZzE0UFVWeFHSAWNBVV95cUxQMUtGTHl1b2EtWGpWcERqLXI5RV85ZHFZaGdVeUxsZGlGSzU2TnVHMjh1SGVNUVNSeDFTbHFOcjg4czIzWDJmR3JJZmZabFhtRk1vakE5MTA1aVNzVEZNanZYRHM?oc=5",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (608 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "OPPO Reno 17 series China launch date announced; cat design and colour options revealed - 91Mobiles",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRlFhcHBieU11TU1LYmZRa0h1R3pKdldvQzVGR0pOeGxZdVZ1VWdOMkJNRTFGY3ZpRzg5TEI0amRxMXQ0dFRoUjNRM0p6bGpOTk0zUjNHM3g4VU1WcG9vX0JPZXkzRXdZcXZaeDEzNmRsNHhmZ1FBbG1LQ2hxcjhOVNIBhgFBVV95cUxPa3MybnRlLWlNRmVBY2NzZ1ZoQTI3SEtmemlCdEpzQlZpMG9WTlR6T0R5ZUlCb1BnZzZJNXhPSXA1cmwxQnVJaHYwTHl6b2FROEpkM2VDNFpaOHJ6UFVmRVNSREVyWkc3ZC1HUXVZdXNLQ1hLQTdFTTBud2duc1NSMkh6TzZTQQ?oc=5",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (652 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Xiaomi 18 Pro Series Global Launch Date Announced - TelecomTalk",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWjdJa3hNTkt0WmZyVHJXMGc5Qzg5bEgyTWQxQnVlQlAwb0d4OFlmYzk4eFhHS3B5QXgtdkJaVmpfemdoZl9TTkFjT2lwZmhhZ0FkNWtLRlk3SDJPVy1oUDVDM3NaZEM0TE9oWm1yd3FBTWhZeE9QTTc0QmMyQnNoYy1mMTZoc0FzQ2k4?oc=5",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
+  },
+  {
+   "title": "RedMagic 12 Pro+ vs OnePlus Ace 7 Pro: Specs, Features, Cameras, and Prices Compared - Nokiamob",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVk55bTQxRkY2QUhEZm53NUFGRjB0NWFPblpPY0VVYk5VRXVnR2U1akNQd3N5SU4yNjZjN0RBcWRWc0p5U1hYRXBUbjduWHpDWTZXcFJvTUlvYWEyZUVMLVdtLWVHTlUzcm1IWkNzdUlQSU5xRkt1bThhX3RxYzg0clhyVTFFSXdFTmhaWDFaREttd01HQ3lkVjhhTmlRa1p2Z0k1cHVINU82MDBnbXpXeFJn?oc=5",
+   "at": "2026-11-11",
+   "ok": false,
+   "reason": "Phone 'ace 7 pro' already covered in: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "نهاية دعم هواتف شاومي الشهيرة مع تحديث HyperOS 4.. هل هاتفك ضمن",
+   "cand_title": "These Xiaomi Phones Are No Longer Getting Support With The Latest HyperOS 4 Update - Engadget",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOGFPN3QtelZtQXRnWGs5bi1jSW8yZlhVZHh6UXlfSU9JSnN6R0VlTzhob2ZyUnRVdGlMdV9ucW0tUktJY3BHS3FtcXRJYzVSbzdpWm9BQ1l6d1VxQ19TcVREekRvSVJZcXR0S085NlNtVGlhQktFbzlnMkh6Wm5YaU9Id3I2eHNZU2VKWWxn?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-phones-losing-hyperos-4-support.html",
+   "at": "2026-11-11T04:03:45+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "شاومي"
   }
  ]
 }
