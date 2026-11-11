@@ -1,97 +1,6 @@
 {
  "done": [
   {
-   "title": "Apple iPhone 17 Pro Max",
-   "url": "https://www.gsmarena.com/apple_iphone_17_pro_max-13964.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
-  },
-  {
-   "title": "Xiaomi Poco F7",
-   "url": "https://www.gsmarena.com/xiaomi_poco_f7-13951.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [xiaomi poco] found in review: مراجعة سعر ومواصفات هاتف Xiaomi Poco X7"
-  },
-  {
-   "title": "Sony Xperia 1 VII",
-   "url": "https://www.gsmarena.com/sony_xperia_1_vii-13843.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [sony xperia] found in review: مراجعة Sony Xperia 10 VIII 2026: مواصفات وسعر الهاتف المدمج"
-  },
-  {
-   "title": "Xiaomi 17",
-   "url": "https://www.gsmarena.com/xiaomi_17-14134.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phrase [xiaomi 17] found in review: مراجعة Xiaomi 17T Pro: كاميرات Leica وبطارية 7000 مللي أمبير وشحن 100 وات"
-  },
-  {
-   "title": "Honor Magic8 Pro",
-   "url": "https://www.gsmarena.com/honor_magic8_pro-14231.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Model code [magic8] found in review: مراجعة HONOR Magic8 Pro: تليفوتو 200 ميجابكسل وبطارية 7100 مللي أمبير وSnapdragon 8 Elite Gen 5"
-  },
-  {
-   "title": "Redmi Turbo 6 Max screen details leak, this could turn into the Poco X9 Pro Max",
-   "url": "https://www.gsmarena.com/redmi_turbo_6_max_screen_details_leak_this_could_turn_into_the_poco_x9_pro_max-news-75331.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (566 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Oppo Find X10 Ultra again tipped with Dimensity 9600 Pro, may pack ~8,000mAh battery",
-   "url": "https://www.gizmochina.com/2026/11/04/oppo-find-x10-ultra-key-specs-tipped-dimenisty-9600-pro/",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (662 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Galaxy S25, S25 FE available with massive discounts in India",
-   "url": "https://www.sammobile.com/news/galaxy-s25-s25-fe-available-with-massive-discounts-india/",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "Samsung Galaxy A38's battery capacity leaks, and it's finally an upgrade",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a38s_battery_capacity_leaks_and_its_finally_an_upgrade-news-75337.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (650 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "سامسونج تطلق تحديث نظام Google Play لهواتف جالاكسي",
-   "url": "https://www.sammobile.com/news/samsung-phones-getting-october-2026-google-play-system-update/",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-october-google-play-update.html",
-   "at": "2026-11-04T07:33:54+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "Xiaomi announces new electric toothbrush with a color screen and 190-day battery",
-   "url": "https://www.gizmochina.com/2026/11/04/xiaomi-mijia-electric-toothbrush-2-pro-launch-specs-price/",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
    "title": "Dell 14S launches in India with 21-hour battery life and four colour options",
    "url": "https://www.gizmochina.com/2026/11/04/dell-14s-launched-india-price-specs/",
    "at": "2026-11-04",
@@ -3390,6 +3299,94 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Infinix Smart 20 HD vs vivo V80 FE",
+   "url": "https://www.gsmarena.com/infinix_smart_20_hd-15079.php||https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "Phone 'v80 fe' already covered in: إطلاق هاتف Vivo V80 FE ببطارية 7000 ملي أمبير وكاميرات ZEISS"
+  },
+  {
+   "title": "Honor Choice T10 vs Oppo Reno17 (China)",
+   "url": "https://www.gsmarena.com/honor_choice_t10-15080.php||https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
+  },
+  {
+   "title": "Honor said to be testing a wide-screen phone with an 8,000mAh battery - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNang4b3JvVmZZclowMWdWWTZ0RXUydTJaRE52ZUdYbjE0Sno3UkhiWmZuUGdqdTRYUmRmbHhPRUpLTzg1eUJpLXN1WmVNbnMzRE5WcGcxaTZDRkV0TTYtcWVwb2lCMmhVNy1ud1dYSC01cGs4bzl1OWVla25ZU3JpWkl6bFRPd185c0wzaFh6QURJYjdLeER5NDYyS21qUTR0NTZfLXhnenhVRmM?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['said', 'wide', 'testing', '000mah']"
+  },
+  {
+   "title": "Google's November Pixel Drop brings Gemini Intelligence to the Pixel 10 - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY0ZtdHE3c2JRT1pzWEdxbnd0WWdwZlBWb2VzVHBSZmNjZHYtYldhamNzdXdsVlZkWXUyNGtNRTNjSS1aN1RWd3RiU2JuTnpTTXh5MTZJUUFZZFJFTjkyOE9hWlFpa3F4ZlJoQ2lremJDR0lTV3d2bnRyaGJIcEQwcnF4Vzl3eGlxNnJ6cXc1SUhQSnlFLWF0QThxMmw1Q00wekREeE5RTTNHeWdpR1lF?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['gemini', 'drop', 'november', 'brings']"
+  },
+  {
+   "title": "Poco X8s is now available in Europe, here's how much it costs - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaDZraTZMWU9VajZ0V0ZWNVFUYlo3dTJrelFBLXpRc0RNbjI3c05jbGJQRnlJa2o4TGQzQUtSZWp3azh5LWptWEdCYVBHTk9tcldYcjhiTzFnY290M2xWU1lRcGlfUVZ3YWhZVGRleXZ5b3Vkc0ROVTdMT1FuR0YyV09CcTE5TlNVdlI4WFA2ZEE1ZGpSZklwRDVBUjNsdkN10gGcAUFVX3lxTE41REdUNkxsUWhOdzMwbmczbUlnMEhmdnRQVWtHNWdWRzNsS1RmU3FVdlFfVVdrbEpKUnpOUW1ZUVVRcU1oVmd5Mkdmc2ZOcTRaUXc2NzFZeWQyelV3ZS1hRy1zTkU1a1Vjbnc2UnJMRERVVmwyUUZsWjdTRExiQlR4ZGtQX2FmS01pMkE2a1NFSUpELTlaNnpWdmpjYw?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (633 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "The iPhone 18: What We Know About Apple’s Spring Lineup - CNET",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOVlVcjZVVU1yVmV0SllZdjZTOGprVnR0dkpIZDNEX3l3RjA1RTB0bFlDNVV3ek1ITlJWZkd6MHVSUXp4LVpXTjAwWGNWVXpzX1R0em5sd3pZNFZYMXFMdTd4N3JoLTdJVjJDdU1nU1IxRTQ3MjdYYVJOQ2pDQnctekhrdVlPTHEyRmFV?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "Phone 'iphone 18' already covered in: أبل تباغت الجميع: تسريب هواتف iPhone 18 و Air 2.. هل هذا هو"
+  },
+  {
+   "title": "Nubia's 2026 AI flagship phone gets a refresh, and it's stunning - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTWhFYkoyU3MyNHZNOUJpaE9kLU5lVFlBWFcyTHJGLW9fLXV6Y2RyY0pUeXE4Mmh0OWVGRURuWjM1WWh1cmN3WXR5ME15VWtCblVqLS1XOVl3R192QTBQZHZ5Zjl1WndCRzhoR2dkX0Zkb3g4TE1BV3IwVWI1Qm5nVlEzWmpLZk1pcFFhVWxCZnJHNU9nek5DUjJzbDVTZGlxeUt0V1Uzc2dPYTVZ?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (421 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Oppo Reno 17 Global Launch Leak: Specs and Regional Availability - My Mobile India",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVTFBUUNiYWlBMkZFdjlEVndvS0E5NjFzVFE4TWdMbnlnckdaeUtjb19rWk53QkJ6WWlQbWtLZVNDalpFWnI3T05vb3RHSkV1MFdaY2dlcnlud1Q0eVdBTlNnTFUwUmFUcW1NOUlsbU5YUW1lck5GckI4NDNwZm5yRldrUGlySHBsSkZvOUxwVkxzUTl3aHVuLUFB?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (575 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Apple’s iPhone dominates Android phones in CNET’s 120-hour battery life testing - MacDailyNews",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWkFCclFJSVJFMi04UFdhWTRTbWt0OF9RUW56cEdKZ0xPSHIta1lLTi1NTDRUOXk4UG1yeURDRWVFTTEzdlVqZG5TUmRqNk5XZHF0Ukh4dEZfbmJsS3ZNdmlrVllzazhGZ0cxOFNVOTE0SmMxaWRsZ25tMUc5cHEzZzNnZmwxT18xX2lDSEYyUW12WmhYUHY3UDVZX01IZEhGTjdIbHl4Vmx0YjBOcUNyS1l6LV_SAboBQVVfeXFMTnphTWJubkI3RGtqVE5aaHBpeUQxdEk4enZzVUI2QU5uU2FGWXpSWG0yMTE2NzBoc1pRVWFYd1JKUmwwR2Y2XzJpZk1scDB4LTVxZ2NCODYtTFdfOFZ1OGhiRkRUOVdENVdsSTluME9sSUZtaFo2SnNzanJYaHdhSG1oTmJrTUdJVGctb3FQS05fa0YyZlhyQVBEcGJuY19LUFplU3I0dDRMVm5XZHFYVWFFcXViMDJOeXJ3?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Samsung Galaxy Z Roll Could Stretch Upward From Compact to Taller Screen - TechEBlog -",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWXNxRzV5ODA5clB3UTZ0eDZmcURENnM3Z2Fmck5TbHpuWXh5dFdDLWlxRDN3dXRaeXRuNEwyMGdjNnZvTllzbnhaeG9EWGhIRjVOMktfemdsUnB1NFR5ZlNzVDE2TFlybFJ5VnBqSjh6NVlwN0I3Z1ktVnl3a1YzWmNzb0VQMzlyV29vUw?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (539 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "تجربة صدمت الخبراء: لماذا تفوق إكسل أندرويد على الحاسوب؟",
+   "cand_title": "I tested Excel on Android for a week, and the phone-first workflow is better than it has any right to be - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdGJHSjR4M1NRUHBQZjhkWTdSUlV0Q0QxQTE0dUVfV3FfdExNRldFVjlIZDdOakRYVVNVWGtpby1HS3pyRVBMMFljLXNsQjExTUw2RVBCZ3lfQ1MwR1Jpb0dMOExoQUJVZkM3Q2ZzUVJnZkhUZnFsNG9rbzJrRllMUUJnNFpENktyUFZ0X2R3U29mZkl1UUxocWhtd3hMVVE?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/excel-on-android-workflow-review.html",
+   "at": "2026-11-12T01:57:30+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
