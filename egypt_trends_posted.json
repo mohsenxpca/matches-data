@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7164102",
-   "t": "رفض تظلم الشناوي.. قرار جديد يلزم حارس بيراميدز برد 8ملايين جنيه للزمالك",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 365 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.notebookcheck.net/PS5-users-can-access-GTA-6-up-to-18-hours-early-on-its-release-date-with-PSN-workaround.1439752.0.html",
    "t": "PS5 users can access GTA 6 up to 18 hours early on its release date with PSN workaround",
    "at": "2026-11-02",
@@ -3367,6 +3357,16 @@
    "at": "2026-11-11T09:40:42.830683+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1oZnJNeERfV0ZqNEszOEtSX1IwbzgzcEJVRFVHNjNLSXBVSlhpOUd6bWwtUHFYYXlyMkRrMkdTOUhzal8wTnQyeUhtYTBGTHJtTFR4aXdlSmZCRVkxU3ZB?oc=5",
+   "t": "3 أيام متتالية.. الإجازات القادمة في مصر وموعد أول عطلة رسمية - المصري اليوم",
+   "title": "تفاصيل أول إجازة رسمية للموظفين في مصر لعام 2027",
+   "url": "https://www.egyptaway.com/2026/11/first-official-holiday-egypt-2027.html",
+   "photo": "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-11T10:16:47.327399+02:00",
+   "ok": true,
+   "type": "nation"
   }
  ]
 }
