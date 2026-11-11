@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.goal.com/en/news/following-al-shabab-s-six-goal-haul-al-ahli-suffer-a-painful-blow-against-al-sadd/blt900bb9f23b15c663",
-   "t": "Following Al-Shabab's six-goal haul: Al-Ahli suffer a painful blow against Al-Sadd",
-   "title": "أزمة في الأهلي السعودي بعد مواجهة السد القطري وإصابة نجمه",
-   "url": "https://www.egyptaway.com/2026/11/al-ahli-saudi-al-sadd-injury-crisis.html",
-   "at": "2026-11-02T19:49:56.530386+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.sportsgambler.com/betting-tips/football/al-ittihad-vs-al-ain-prediction-lineups-odds-2026-11-02/",
    "t": "Al-Ittihad vs Al Ain Prediction, Betting Tips, Lineups & Odds | 02 Nov 2026",
    "at": "2026-11-02",
@@ -3370,6 +3361,16 @@
    "ok": false,
    "reason": [
     "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'رامه', 'دعم', 'تكافل'}) مع: شروط استمرار دعم تكافل وكرامة وفق قانون 2025 الجديد)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQX2FSN3hrTENmRnpmNThKcFJnRGVTRXlaOGluVHU3U2toRW9vVzJsNlRxLXNROXhjcHJHc1VBdm40aXlnWWRlZWRHX3hKbVdQR3A0em1VWU5Yay1lcVd0d3pzTW1vVEZzTzdEUkdQdmU5TlVyMWxITzU3LW0wUC00OTZKc3gxb19LOTl1OURZd09xaDNpSzNYUWJuaXF5LVF6dVdOMlN6TEpjRzllemxMM0MzRkVVQ29LMDR0X3BObWFoMl8wcTB6di1LMm9oaXB0TFo0WXUzVTc0MUNJS1k0?oc=5",
+   "t": "قطار AREX من مطار إنتشون إلى سيول: السريع أم العادي؟ الأسعار والمواعيد - Wego",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "الـ body 428 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'قطارات', 'مواعيد'}) مع تشابه نصي مع: مواعيد القطارات من أسوان إلى القاهرة اليوم الأحد 8-11-202)"
    ]
   }
  ]
