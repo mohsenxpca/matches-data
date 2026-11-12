@@ -1,18 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.newcastleunited.com/en/news/everton-h-team-news-26-27",
-   "t": "Latest. Confirmed line-up: Elanga in for Everton",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.101greatgoals.com/football/premier-league/tip-of-the-day-harvey-barnes-to-star-with-goals-for-both-sides-at-st-james-park/",
    "t": "Tip of the Day: Barnes to star with goals for both sides at St James’ Park",
    "at": "2026-11-02",
@@ -3374,6 +3362,15 @@
    "at": "2026-11-12T09:03:40.719305+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxOdWdFam1xUGxVMDgtSnBkaTZaaW9RZmJnSnVqbnkzZ3NIV0o0RzE1Q1FvWmVhNWltSmRudWZqN1RwM201NnE0WTdWSXlpVFBtbzB4NXN1cXJ5akVmbjlGd2MzTDZnR3BvTHI5QTZfSklXU3RtUTd2Nm5yOHotTmFvOFBPaHNXa3B5WlNoVjk1WGhLMU1IX3l6RGh2cXdUY1dkVjAwYVVQb3hkdE4wdjFzbXdVVHp0cFhMUUt4RklnUEhYMGxsNFVxNFNsNXRIXy15NXJvWnlXdWVUZkh5UWxpMnZXaFdXWFFMU2VpbnVaaDBfaEpjV3QyS2o1dFBxQzY2eUViSTRFQW5lM1JlczJ4bmVjS0xFY3ZWVFRHUkNMano2b0ZYcEkzQW1Cb3FJc2tjYmE4bTVZcm5DSktsN1ZlaUswUlF3VjRUaWdZc0JGTjY0UHFkMTdZVUtoUmEtNFFSajVvVnRSaEw4bUtMQk56LW0ycXBqclRSMGhraDU5Zy1BVnREcmJLZXdMU3B5Q0xqUXpFZzBUbTJram9SS1pXOHBmcnNUaHVBWWZwU3hXQ1NNU0JBbmpCUnluWm02VnNhTkViSGt1NnJXY3Q2anRMTkpCLVlheHfSAdIDQVVfeXFMUDZyNXdHZVNDY2J5aElXbHdZZF9xTXdncDdnZlE0dHJ3REcxNzFNTUdiVHA4MmhHZEVoOHRWRHBfSVJTY1haak1hVUFnc1lEZGZkNDV2UmItYmNIb2VfNlJCTUlFckpQUTJmaE5aS2lCalF5VEpxcFhuUFFSZHFUOVhtNmNnY0RJa3Z3NmtsbkE0UzVZcTZTeG8tVVlsUGJaNERBN2xUb040aF9LUXZpUlZXTnpkTmZycjdQcno5ekRrb1ZTaHY5S1ZTSndQandEZ0dIRkRQZDR1WjZmQU9UaUtLbi02RThkVENvbi1kY3JOME1jalZVY25CWW1JWE9uNHZpTWdZTkZ6dDhkNzZXVFBkdHdwMlN0X0pRUEFGMEY1ck9zZW9kWDJQSDdmVFV3OVBYUHE3MXhsVHZoYTdGdHdJbnFMWGtjU1VVelc4TUNWZjR4LVhzV2VhTGNaNVR4S1dlNnFoT25LVWd1UHJzaXhTcTFSd2FucE1hSFN2R0FaeFBWN2F5MVJaSmNva0FlZXd0X3M2YXNETm9ncVBva21qZFZya25wLVZ1UGp5OXRtOFI2REJqbXFFZzVzeWEyTEdSa1AyVkNsRTNkLXNlMWpWUQ?oc=5",
+   "t": "النقل تصدر بياناً بشأن شائعات قطار أسوان وتحذر من تداول معلومات غير موثقة - اليوم السابع",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "الـ body 477 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
