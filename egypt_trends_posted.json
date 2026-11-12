@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7165926",
-   "t": "مهاجم وصانع ألعاب.. الاتحاد السكندري يحدد أولوياته في الميركاتو الشتوي",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 464 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.mansfieldradio.co.uk/newsandsport/news-and-sport/national-sport/newcastle-are-flat-and-boring-jamie-carragher-warns-magpies-face-tough-premier-league-season-after-everton-defeat/",
    "t": "'Newcastle are flat and boring' – Jamie Carragher warns Magpies face tough Premier League season after Everton defeat",
    "at": "2026-11-03",
@@ -3372,6 +3363,16 @@
    "url": "https://www.egyptaway.com/2026/11/ahly-stance-aliou-dieng-return.html",
    "photo": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-12T12:47:30.988313+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/12/مصلحة-الكفاية-الإنتاجية-توقع-بروتوكولا-لافتتاح-مركز-تطبيقي-تكنولوجي-جديد/7615777",
+   "t": "مصلحة الكفاية الإنتاجية توقع بروتوكولا لافتتاح مركز تطبيقي تكنولوجي جديد",
+   "title": "مصلحة الكفاية الإنتاجية توقع بروتوكولاً لمركز تكنولوجي بالغردقة",
+   "url": "https://www.egyptaway.com/2026/11/productive-efficiency-new-tech-center.html",
+   "photo": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-12T13:26:34.500871+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
