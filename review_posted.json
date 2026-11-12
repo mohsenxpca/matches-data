@@ -1,31 +1,6 @@
 {
  "done": [
   {
-   "title": "Stable HyperOS 4 rollout begins: 33 out of 82 devices scheduled for early November",
-   "url": "https://www.gizmochina.com/2026/11/04/stable-hyperos-4-rollout-begins-33-out-of-82-devices-scheduled-for-early-november/",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (621 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Don’t expect better cameras with Galaxy Z Fold 9 and Z Fold 9 Ultra",
-   "url": "https://www.sammobile.com/news/galaxy-z-fold-9-ultra-no-camera-hardware-upgrade/",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "iPhone 15 vs Z Flip 5 vs Z Fold 5: Comparing specs, price, cameras - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUW1mRzBkVnV0dGZvSmUwZUN1eU1TV1hQSm5CWDBkLXFCdElyb3ZoLWtmMmM5ZXBWZWplSXBOUGtOc2w4TmFLQTFoXzRjR1lObkZSYnczVktTX2M5NXlmNDNudVhfX1pvRUloWjVzUzBfSXZsOTYtOS1RdDJ1d2phSTIyUGlOa1JTWnE4?oc=5",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phone 'iphone 15' already covered in: سعر ومواصفات iPhone 15 (آيفون 15): المميزات والعيوب الكاملة"
-  },
-  {
    "title": "Samsung phones are getting October 2026 Google Play system update - SamMobile",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWHZqSHZEeUFGcm5vZ2Rvd0dhcG9BUjJwbDh5T0ZWUnphdDBCNHhqRnhPNF9yWV9abS1MUkdKem1TWU1GZ1YtcWxLeDVrdlZoeURPaHhyTVo4d2R3ZTZIMllWejI2Q1lEZWlxV2xyZFhYOUQ4WVVWT0Q0SFMzNTN4TFlXc01ibzNCYmhaQm9odVBCejNmOHktc2lVbmVoQWFy?oc=5",
    "at": "2026-11-04",
@@ -3385,6 +3360,35 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Infinix Smart 20 HD",
+   "url": "https://www.gsmarena.com/infinix_smart_20_hd-15079.php",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "العنوان مكرر أو قريب جداً من مقال منشور: مراجعة كاملة لهاتف Infinix Smart 8 مواصفاتة وسعرة"
+   ]
+  },
+  {
+   "title": "مراجعة شاملة لهاتف Honor Choice T10: المواصفات، الأداء، السعر،",
+   "cand_title": "Honor Choice T10",
+   "url": "https://www.gsmarena.com/honor_choice_t10-15080.php",
+   "post_url": "https://www.review-mobile.com/2026/11/honor-choice-t10-comprehensive-review.html",
+   "at": "2026-11-12T02:47:19+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "هونر"
+  },
+  {
+   "title": "مراجعة شاملة لهاتف vivo V80 FE: مواصفات عملاق الفئة المتوسطة",
+   "cand_title": "vivo V80 FE",
+   "url": "https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
+   "post_url": "https://www.review-mobile.com/2026/11/vivo-v80-fe-review-specs-price.html",
+   "at": "2026-11-12T02:47:35+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "فيفو"
   }
  ]
 }
