@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.sportsgambler.com/betting-tips/football/al-ittihad-vs-al-ain-prediction-lineups-odds-2026-11-02/",
-   "t": "Al-Ittihad vs Al Ain Prediction, Betting Tips, Lineups & Odds | 02 Nov 2026",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://www.livescore.com/en/news/football/more/rahimi-against-en-nesyri-moroccan-magic-tops-the-line-up-of-al-ittihad-and-al-ain-goal/",
    "t": "Rahimi against En-Nesyri: Moroccan magic tops the line-up of Al-Ittihad and Al-Ain",
    "title": "مواجهة الاتحاد والعين: التشكيل الرسمي وتفاصيل القمة الآسيوية",
@@ -3372,6 +3363,16 @@
     "الـ body 428 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'قطارات', 'مواعيد'}) مع تشابه نصي مع: مواعيد القطارات من أسوان إلى القاهرة اليوم الأحد 8-11-202)"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/12/أمازون-تكشف-عن-كاميرا-مراقبة-طائرة-لتأمين-المنازل-من-الداخل/7615274",
+   "t": "أمازون تكشف عن كاميرا مراقبة طائرة لتأمين المنازل من الداخل",
+   "title": "أمازون تكشف عن كاميرا مراقبة طائرة لتأمين المنازل من الداخل",
+   "url": "https://www.egyptaway.com/2026/11/amazon-ring-drone-cam-home-security.html",
+   "photo": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-12T03:01:33.291857+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
