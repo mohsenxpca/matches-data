@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.bild.de/news/wetter/von-frost-bis-sonne-so-wirbelt-das-wetter-deutschland-durch-die-woche-6ae67da4aedea8cd9ffc0169",
-   "t": "Von Frost bis Sonne: So wirbelt das Wetter Deutschland durch die Woche",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'حاله', 'طقس', 'اسبوع'}) مع: حالة الطقس في روسيا: بداية أسبوع بتباين واسع واقتراب الشتاء)"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWjJjRWxCakxRYThRYzZEekJRcFJJRm1ISFBST18wT3N1dHJPR21uVUZ3VkFWSXZlZ1JocVlLWXpabFdtbzczTVRhM0pPT19IMDVIT0k2Tm82RW5WYlk2MUNrRnV4ZFNVek5DWS1jc1JzZ1N1TlRyUC0tRHVKQ183bDJscUtVRUZLOWo5QlkzaU5KRlBpZk1MTy1aSDNIamFGeXRIQzN3SUNUUFEzMUJHVlBRMVJZWnNQVnVzdlhBVVg?oc=5",
    "t": "تغيير الساعة في كندا يشعل ردود فعل متباينة.. الأسر ترحب والشركات تخشى ارتباك المواعيد - arabcanadanews.ca",
    "title": "تغيير الساعة: دروس من تجربة كندا في تثبيت التوقيت",
@@ -3369,6 +3360,16 @@
    "url": "https://www.egyptaway.com/2026/11/housing-minister-follows-up-suis.html",
    "photo": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-12T11:21:35.932164+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7177775",
+   "t": "خبير تنمية بشرية يحذر من مخاطر التعلق بالهاتف المحمول",
+   "title": "خبير تنمية بشرية يحذر من مخاطر التعلق بالهاتف المحمول",
+   "url": "https://www.egyptaway.com/2026/11/human-development-expert-warns-mobile.html",
+   "photo": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-12T11:45:37.635654+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
