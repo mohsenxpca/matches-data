@@ -791,6 +791,28 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/anthropic-claude-meetings-workplace.html",
    "title": "أنثروبيك تطلق ميزات جديدة لبيئة العمل تشمل Claude Meetings"
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+   "t": "Notion says Fireworks breach exposed customer AI chat transcripts",
+   "at": "2026-11-12",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/notion-ai-data-breach.html",
+   "title": "اختراق أمني يكشف محادثات Notion AI"
+  },
+  {
+   "u": "https://www.androidpolice.com/gemini-makes-the-leap-to-apple-carplay/",
+   "t": "Gemini is now on Apple CarPlay",
+   "at": "2026-11-12",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+   "t": "Railway breach leads to $740,000 in fraudulent AI charges",
+   "at": "2026-11-12",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/railway-security-breach-ai-charges.html",
+   "title": "اختراق ضخم يضرب منصة Railway وسرقة بيانات حساسة"
   }
  ]
 }
