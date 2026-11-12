@@ -1,43 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7166167",
-   "t": "في جولته ببني سويف|وزير التعليم لأولياء الأمور: بتذاكروا لولادكم بعد المدرسة..والأهالي يردون: بنوديهم الدروس",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 450 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/3/3072884/%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%A3%D8%B9%D8%A7%D8%AF-%D9%85%D9%8A%D8%AF%D9%88-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A5%D9%84%D9%89-%D8%AE%D8%B2%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%81%D9%8A-%D9%82%D8%B6%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%A7%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D9%88%D8%A7%D9%82%D8%B9%D8%A9-%D9%85%D9%86-12-%D8%B9%D8%A7%D9%85",
-   "t": "لماذا أعاد ميدو الدولارات إلى خزينة الزمالك في قضية الأموال العامة؟.. واقعة من 12 عام",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 348 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.bbc.com/sport/football/articles/ck62yvz046pjo",
-   "t": "Tenerife striker De Miguel dies after on-field collision",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
-   "u": "https://www.aol.co.uk/articles/spanish-footballers-neurological-condition-worsens-081027000.html",
-   "t": "Spanish footballer's 'neurological' condition worsens after being rushed to intensive care",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://www.marca.com/futbol/tenerife/2026/11/03/muere-jesus-miguel.html",
    "t": "Muere Jesús de Miguel",
    "at": "2026-11-03",
@@ -3382,6 +3345,45 @@
    "url": "https://www.egyptaway.com/2026/11/referees-committee-meeting-egypt-cup.html",
    "photo": "https://images.pexels.com/photos/26694125/pexels-photo-26694125.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-12T16:51:20.432240+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/12/شركة-طيران-تمنع-AI-من-حجز-التذاكر-لحماية-المسافرين/7615910",
+   "t": "شركة طيران تمنع AI من حجز التذاكر لحماية المسافرين",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": [
+    "الـ body 457 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'اصطناعي', 'ذكاء'}) مع تشابه نصي مع: رئيس Paramount Skydance: الذكاء الاصطناعي يغير السينما)"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/12/ميزات-ChatGPT-لإدارة-الأموال-الشخصية-تصل-إلى-تطبيق-ماك/7616053",
+   "t": "ميزات ChatGPT لإدارة الأموال الشخصية تصل إلى تطبيق ماك",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": [
+    "الـ body 437 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/12/جوجل-تؤكد-وصول-تطبيق-Gemini-إلى-Apple-CarPlay-لإجراء-محادثات/7616017",
+   "t": "جوجل تؤكد وصول تطبيق Gemini إلى Apple CarPlay لإجراء محادثات صوتية أثناء القيادة",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'تطرح', 'تطبيق'}) مع تشابه نصي مع: إنستجرام تطرح تطبيق Edits لأجهزة ماك مجانًا وبدون علامات مائية)"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/13/تحط-فلوسك-فين-كشف-حساب-16-شركة-بالبورصة-يكشف-الأسهم/7615702",
+   "t": "تحط فلوسك فين؟.. كشف حساب 16 شركة بالبورصة يكشف الأسهم الذهبية والقطاعات المتعثرة",
+   "title": "كشف حساب 16 شركة بالبورصة.. أداء متباين وأرباح قياسية",
+   "url": "https://www.egyptaway.com/2026/11/stock-market-9-months-2026-results.html",
+   "photo": "https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-13T00:17:34.434285+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
