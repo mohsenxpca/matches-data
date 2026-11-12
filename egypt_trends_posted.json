@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.skynewsarabia.com/sport/1901914-%D9%84%D9%8A%D9%84%D8%AA%D8%A7%D9%86-%D8%A7%D9%84%D8%B3%D9%87%D8%B1-%D9%88%D8%A7%D9%84%D9%83%D8%AD%D9%88%D9%84-%D8%BA%D8%B1%D9%8A%D9%84%D9%8A%D8%B4-%D9%88%D8%B1%D8%B7%D8%A9-%D8%A5%D9%8A%D9%81%D8%B1%D8%AA%D9%88%D9%86",
-   "t": "ليلتان من السهر والكحول.. غريليش في ورطة مع إيفرتون",
-   "title": "أزمة جاك غريليش تثير الجدل قبل مواجهة نيوكاسل وإيفرتون",
-   "url": "https://www.egyptaway.com/2026/11/grealish-everton-newcastle-controversy.html",
-   "at": "2026-11-02T21:32:50.427763+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.newcastleunited.com/en/news/everton-h-team-news-26-27",
    "t": "Latest. Confirmed line-up: Elanga in for Everton",
    "at": "2026-11-02",
@@ -3373,6 +3364,16 @@
    "reason": [
     "الـ body 456 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/12/ما-الفرق-بين-ذاكرة-الوصول-العشوائي-RAM-ومساحة-التخزين-في/7614711",
+   "t": "ما الفرق بين ذاكرة الوصول العشوائي RAM ومساحة التخزين في الهاتف؟",
+   "title": "ما الفرق بين RAM ومساحة التخزين في هاتفك؟ دليلك لاختيار الأنسب",
+   "url": "https://www.egyptaway.com/2026/11/ram-vs-storage-difference-explained.html",
+   "photo": "https://images.pexels.com/photos/26694125/pexels-photo-26694125.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-12T09:03:40.719305+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
