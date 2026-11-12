@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.livescore.com/en/news/football/more/rahimi-against-en-nesyri-moroccan-magic-tops-the-line-up-of-al-ittihad-and-al-ain-goal/",
-   "t": "Rahimi against En-Nesyri: Moroccan magic tops the line-up of Al-Ittihad and Al-Ain",
-   "title": "مواجهة الاتحاد والعين: التشكيل الرسمي وتفاصيل القمة الآسيوية",
-   "url": "https://www.egyptaway.com/2026/11/al-ittihad-vs-al-ain-match-preview.html",
-   "at": "2026-11-02T20:50:47.558188+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.wetter.com/news/wetterbericht-fuer-morgen-dienstag-3-november-2027-einzelne-schauer-im-norden-hochnebel-im-sueden-plus-schneeschauer-im-chiemgau-moeglich_aid_6ae833cf5c673e76b8061d43.html",
    "t": "Wetter morgen am Dienstag: Einzelne Schauer im Norden, Hochnebel im Süden – Schneeschauer im Chiemgau möglich",
    "at": "2026-11-02",
@@ -3371,6 +3362,16 @@
    "url": "https://www.egyptaway.com/2026/11/amazon-ring-drone-cam-home-security.html",
    "photo": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-12T03:01:33.291857+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7177460",
+   "t": "عادل المأمور: الزمالك يمتلك حراس مرمى مميزين يكفونه لـ20 عامًا مقبلة",
+   "title": "عادل المأمور: الزمالك يمتلك حراس مرمى يكفونه لـ20 عامًا",
+   "url": "https://www.egyptaway.com/2026/11/adel-el-mamour-zamalek-goalkeepers.html",
+   "photo": "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-12T03:21:54.726464+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
