@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.vietnam.vn/ar/nhan-dinh-deportivo-la-coruna-vs-osasuna-bai-toan-luc-luong-cua-chu-nha",
-   "t": "توقع مباراة ديبورتيفو لاكورونيا ضد أوساسونا: تحدي تشكيلة الفريق المضيف",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 449 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7165926",
    "t": "مهاجم وصانع ألعاب.. الاتحاد السكندري يحدد أولوياته في الميركاتو الشتوي",
    "at": "2026-11-03",
@@ -3371,6 +3362,16 @@
    "url": "https://www.egyptaway.com/2026/11/electronic-games-addiction-warning.html",
    "photo": "https://images.pexels.com/photos/19875973/pexels-photo-19875973.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-12T12:27:57.089301+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7177855",
+   "t": "شوبير يكشف موقف الأهلي من عودة أليو ديانج بعد أنباء رحيله عن فالنسيا",
+   "title": "حقيقة عودة أليو ديانج للأهلي.. شوبير يحسم الجدل",
+   "url": "https://www.egyptaway.com/2026/11/ahly-stance-aliou-dieng-return.html",
+   "photo": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-12T12:47:30.988313+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
