@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "My first Snapdragon 8 Elite Extreme Gen 6 phone doesn’t live up to the hype",
-   "url": "https://www.androidauthority.com/snapdragon-elite-gen-6-phone-test-3730103/",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phone 'snapdragon 8' already covered in: مراجعة OnePlus 16 قبل الإطلاق: Snapdragon 8 Elite Extreme وشاشة 185Hz"
-  },
-  {
    "title": "آبل تستعد لإطلاق آيفون 18 بترقيات ضخمة وزيادة جديدة بالأسعار",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV1l6THJmcjNwVkJVdzNLeTNzd0NfTXVkd2ZlZWFBaURFNDFCQ2gwUThXbGN5LW1iQVE4OVdMN3dSa1Z6dEtqLUFHb0dNXzI2SlpZWU5lQlZxdTEzcjBhUlE5ak81RGtZcmNBWm41YmJ2TFNxQm9TN2oxOWp2YUc5bDNzVm5VWWNxeDdudFRHVlN4YUxWLVNSN1RnbWZJUlBPRjJPcmIxZnZLbU3SAacBQVVfeXFMUFU0bGJndW1PSnlzeHZGY0VCMTY0d2ozVXJjZWNLcWhRX19ab0RxNU51ZmRnQldKM2VvbkVSdm0zZTBfbmttRUtGTURxRkRfc3I5SUd1VFlwS28tcjBxUmVSRGFfYXBrRW5CTFlRVjF1MDF4eTdCTHIwN1pLLXpWNGlIaVZMQ1NvTzJkbmRkbGphR2pkSDBYWVhrejB3YUhSUmd0YkVUTWc?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/iphone-18-major-upgrades-price-hike.html",
@@ -3369,6 +3362,16 @@
    "url": "https://www.gizmochina.com/2026/11/12/samsung-galaxy-w27-vs-apple-duo-fold/",
    "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-w27-vs-apple-duo.html",
    "at": "2026-11-13T00:51:27+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
+  },
+  {
+   "title": "ثورة سامسونج القادمة.. هاتف ذكي بشاشة قابلة للتمدد عمودياً",
+   "cand_title": "Samsung’s vertically expandable phone switches between 16:9 and 21:9 aspect ratio",
+   "url": "https://www.gizmochina.com/2026/11/12/samsungs-vertically-expandable-phone-switches-between-169-and-219-aspect-ratio/",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-vertically-expandable-phone.html",
+   "at": "2026-11-13T01:21:52+02:00",
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
