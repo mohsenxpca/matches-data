@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.mansfieldradio.co.uk/newsandsport/news-and-sport/national-sport/newcastle-are-flat-and-boring-jamie-carragher-warns-magpies-face-tough-premier-league-season-after-everton-defeat/",
-   "t": "'Newcastle are flat and boring' – Jamie Carragher warns Magpies face tough Premier League season after Everton defeat",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 5",
-    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'نيوكاسل', 'ايفرتون', 'ازمه'}) مع: أزمة جاك غريليش تثير الجدل قبل مواجهة نيوكاسل وإيفرتون)"
-   ]
-  },
-  {
-   "u": "https://www.elbalad.news/7165706",
-   "t": "جهاز مستقبل مصر يعلن مسابقة لتعيين دفعة جديدة من الكوادر",
-   "title": "فرص عمل جديدة في جهاز مستقبل مصر: تفاصيل المسابقة والتقديم",
-   "url": "https://www.egyptaway.com/2026/11/future-of-egypt-agency-jobs-competition.html",
-   "at": "2026-11-03T03:43:43.766772+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.aol.com/articles/produced-kind-performance-moyes-loves-220848000.html",
    "t": "Who produced the kind of performance Moyes loves? - player ratings",
    "at": "2026-11-03",
@@ -3373,6 +3354,26 @@
    "url": "https://www.egyptaway.com/2026/11/productive-efficiency-new-tech-center.html",
    "photo": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-12T13:26:34.500871+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/12/لدعم-السيادة-الرقمية-تطبيق-مصري-للتواصل-المؤسسي-الآمن-يجمع-المراسلات/7615907",
+   "t": "لدعم السيادة الرقمية.. تطبيق مصري للتواصل المؤسسي الآمن يجمع المراسلات والاجتماعات",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "الـ body 468 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7177973",
+   "t": "بعد قفزة أسعار الذهب.. أين تتجه مدخرات المصريين بين المعدن الأصفر والدولار والعقارات؟",
+   "title": "بعد قفزة أسعار الذهب.. أين تتجه مدخرات المصريين بين الملاذات؟",
+   "url": "https://www.egyptaway.com/2026/11/egyptians-savings-gold-dollar-real.html",
+   "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-12T14:27:24.804716+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
