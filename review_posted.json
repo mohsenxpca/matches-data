@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi unveils the HyperOS 4 update rollout schedule",
-   "url": "https://www.gsmarena.com/xiaomi_sets_the_hyperos_4_update_rollout_schedule-news-75340.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (611 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "This upcoming Google Photos tool could let you lean into that grainy, film camera look",
    "url": "https://www.androidauthority.com/google-photos-image-adjustment-tools-apk-teardown-3731544/",
    "at": "2026-11-04",
@@ -3370,6 +3361,16 @@
    "ok": true,
    "kind": "review",
    "brand": "شاومي"
+  },
+  {
+   "title": "مقارنة Oppo A7 Pro ضد Infinix Smart 20 HD 2026: أيهما أفضل للشراء؟",
+   "cand_title": "Oppo A7 Pro vs Infinix Smart 20 HD",
+   "url": "https://www.gsmarena.com/oppo_a7_pro_5g-14928.php||https://www.gsmarena.com/infinix_smart_20_hd-15079.php",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-a7-pro-vs-infinix-smart.html",
+   "at": "2026-11-13T00:21:29+02:00",
+   "ok": true,
+   "kind": "compare",
+   "brand": "اوبو"
   }
  ]
 }
