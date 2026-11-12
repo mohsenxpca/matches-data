@@ -1507,6 +1507,12 @@
    "at": "2026-11-12",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "جول",
+   "at": "2026-11-12",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
