@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "This upcoming Google Photos tool could let you lean into that grainy, film camera look",
-   "url": "https://www.androidauthority.com/google-photos-image-adjustment-tools-apk-teardown-3731544/",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (541 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "My first Snapdragon 8 Elite Extreme Gen 6 phone doesn’t live up to the hype",
    "url": "https://www.androidauthority.com/snapdragon-elite-gen-6-phone-test-3730103/",
    "at": "2026-11-04",
@@ -3371,6 +3362,16 @@
    "ok": true,
    "kind": "compare",
    "brand": "اوبو"
+  },
+  {
+   "title": "مقارنة سامسونج وابل القابلة للطي: هل تستحق السعر المرتفع؟",
+   "cand_title": "Samsung Galaxy W27 vs Apple Duo Fold: Is Samsung’s Premium Price Worth It?",
+   "url": "https://www.gizmochina.com/2026/11/12/samsung-galaxy-w27-vs-apple-duo-fold/",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-w27-vs-apple-duo.html",
+   "at": "2026-11-13T00:51:27+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
