@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/3/3072852/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%83%D8%A3%D8%B3-%D8%B9%D8%A7%D8%B5%D9%85%D8%A9-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D9%82%D9%86%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%A7%D9%82%D9%84%D8%A9",
-   "t": "موعد مباريات كأس عاصمة مصر اليوم الثلاثاء والقنوات الناقلة",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 372 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7166167",
    "t": "في جولته ببني سويف|وزير التعليم لأولياء الأمور: بتذاكروا لولادكم بعد المدرسة..والأهالي يردون: بنوديهم الدروس",
    "at": "2026-11-03",
@@ -3383,6 +3374,16 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 4",
     "الـ body 462 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/12/3077747/%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D9%85%D9%86-%D9%84%D8%AC%D9%86%D8%A9-%D8%A7%D9%84%D8%AD%D9%83%D8%A7%D9%85-%D8%A8%D8%B4%D8%A3%D9%86-%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D8%AF%D9%84%D9%8A%D8%A9-%D8%A8%D9%80-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1",
+   "t": "اجتماع من لجنة الحكام بشأن الحالات الجدلية بـ مباريات كأس مصر",
+   "title": "اجتماع طارئ للجنة الحكام لمناقشة حالات كأس مصر",
+   "url": "https://www.egyptaway.com/2026/11/referees-committee-meeting-egypt-cup.html",
+   "photo": "https://images.pexels.com/photos/26694125/pexels-photo-26694125.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-12T16:51:20.432240+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
