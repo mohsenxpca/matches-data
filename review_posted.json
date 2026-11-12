@@ -1,58 +1,6 @@
 {
  "done": [
   {
-   "title": "Dell 14S launches in India with 21-hour battery life and four colour options",
-   "url": "https://www.gizmochina.com/2026/11/04/dell-14s-launched-india-price-specs/",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "Samsung Galaxy A38's battery capacity leaks, and it's finally an upgrade - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMlVvTDZDamVWQXIyYlJIWkJsQXBabFZKS252OFQ4WUF2c25KcDhmYW9senpzSEFnRU04MkRyODhQSi1ZdTlLRjQzN2xsV3pPOEpWTHlhZTBqLW1GeTlfQkpFVDRZbktWeUlwWk5xNXJUY0VGNGtkMDJmUEJnVFBtalNtUGw0SXo3bEhkTl9fZlpSSDlkOG9lQld4cnhhSkEwUzY4MXFQLUIwWmNHWnfSAaoBQVVfeXFMTW95Qlp1M0ZKWFhoTDJOV2pyTUYzMDFhTDlkZi1qUy03UnlsVDNKQXJmdVRYRWtOSy1Lc0VzUXhxdGJrYXhsSTNsRXhxZXNDNDNzVFN5dS1OQml1c1hSbHh3LWdoZUJiWFVPa1ZmaG1YMmpPYjRWU3dSTnFlRm9valJZM3NYNnlWb2Y5eU9xTzdMTVJDdENxX2I4UUZlZnRuRHFQeXAtMVRwaWc?oc=5",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "RedMagic 12 Pro Launched Globally With Snapdragon 8 Elite Extreme Gen 6, 8,400mAh Battery - My Mobile India",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZktuNElFY0ptVUdTcE9LX0owSUVUTW43TmFISEpIcDdSNDk5T20taUUzNHZpdWRIUl91WEpyeGpFdm94Vy1TcnIxUl9jRDhTVnA4LWY1NVVNYmtGNWlaQ0lwT0NpTndHRVhDX29uR0ROZnRCX05VeGNWZGpuV3dQZGQyVF9vcldnVXdqZ2MwSmU1bVBQRUxad2ZUQTVNVEEwNDZ4NjRFWGg5X3VQb3lwd0k4S2JkU2NZbEE?oc=5",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phone 'snapdragon 8' already covered in: مراجعة OnePlus 16 قبل الإطلاق: Snapdragon 8 Elite Extreme وشاشة 185Hz"
-  },
-  {
-   "title": "iPhone 17 vs. Pixel 10: Which phone has the better display, price, and specs? - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSkFmMmZlblFMYlQxTE9MbWlmaHJzU1k2QUJSeC1PWFl2YmhDRDdnc0lzMjF5V2lfTGhyeFdCal80NDR6U1lBRFYxY3JGYXQxa0RFYm1tR1ZYX01aNDJPZG5oSGFCT1RwRFNveXA4bVVyTUJieEZLcVhCVG8tYnJ2TW5FaE1QTnRLNWdwOXR1ank?oc=5",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phone 'iphone 17' already covered in: مراجعة سعر و مواصفات iPhone 17"
-  },
-  {
-   "title": "مراجعة اختبار أفضل هاتف لميزة إزالة الأجسام بالذكاء الاصطناعي:",
-   "url": "https://www.gsmarena.com/ai_object_removal_which_phone_is_best-review-2819.php",
-   "post_url": "https://www.review-mobile.com/2026/11/we-test-which-phone-is-best.html",
-   "at": "2026-11-04T09:27:58+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "هواتف ذكية"
-  },
-  {
-   "title": "Redmi Turbo 6 Max: وحش بطارية بسعة 11,000 مللي أمبير قادم",
-   "url": "https://www.gizmochina.com/2026/11/04/redmi-turbo-6-max-11000mah-battery/",
-   "post_url": "https://www.review-mobile.com/2026/11/redmi-turbo-6-max-11000mah-battery.html",
-   "at": "2026-11-04T09:58:41+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "شاومي"
-  },
-  {
    "title": "Stable HyperOS 4 rollout begins: 33 out of 82 devices scheduled for early November",
    "url": "https://www.gizmochina.com/2026/11/04/stable-hyperos-4-rollout-begins-33-out-of-82-devices-scheduled-for-early-november/",
    "at": "2026-11-04",
@@ -3387,6 +3335,56 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Xiaomi Poco X8s vs Oppo Find X10 Pro Max",
+   "url": "https://www.gsmarena.com/xiaomi_poco_x8s_5g-15038.php||https://www.gsmarena.com/oppo_find_x10_pro_max-14939.php",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "Phone 'x10 pro max' already covered in: مراجعة OPPO Find X10 Pro Max 2026: ثلاث كاميرات 200 ميجا وبطارية 8000"
+  },
+  {
+   "title": "5 New Features Coming To Your Nothing Smartphone With OS 5.0 Update - BGR",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHYVZ2VFU2OXQ0SWJIdms0ekpCeUc5bl9hVTBucFhCcXRNRVBrQVdYWEZIdEp3QkpfNnBicWc1aE9pTHA0a0NPWlFnejZoUlJXQ2o4bEVISkN4bHdTWDNIQVhlTXJTYmZtWHZSTC15MHBwR3hSR2c?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (669 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Binance warns iPhone crypto holders of security flaw researchers say remains unpatched - 9to5Mac",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT0J5SU41aUF0SVFja09sRG9JQ19ZVVhQYkpmWjVRU1ItVzRRMjA1ZGZwQ1RsTW10LW8zLUw1TG1CSnNzX0RXMVQwUjQzaE5SN0hsRkVHS1NhMENILXZ4NEc2Z3NIcGppTF9RWTVjVlJUYTNuNk5uNUJhS0V6OEhFZ3RSUmtZT0p5bE92M05ra2lpYlpuZktMMzd3cV92ZEp0OUd4M2FxeWhlMWN2ZjlYY0FyRTF0Z2Y4Vnc?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (466 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Blue Phone gives Google's Pixel 10 Pro an AI assistant that goes beyond Gemini - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fOFBBMFNoOWs2WDllUzdlckZLeDJaNjhJZzU4Z0dfeGdEeXUtWmIyTG5OQjAyWnhnV190Y2dBYmZ6UUtZcTdBdzhzM1RkRFF2RmUxWlg0cDMzTktoWUxSdjRlUnJVc0U3eWVfcTNDOWs0U0VsQmVzNQ?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['pixel', 'gemini', 'assistant', 'beyond']"
+  },
+  {
+   "title": "I used an Android phone as a Wii Remote in Dolphin, and it works better than it has any right to - XDA",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNXI4UHBqZnFPdUF4c2hndkZhY2NpZkxfRHRyaTd2aGpDajBPLTJ3M0Y0bFNFakhNZnpNSTJONFVMU1YxVG1Qd1dZcXNDT1prUHJhcFRvTXIwQmJwNkdoQWlFVFA5RTkyNVFkd2hGX2Z6WVNPc2JfaFRtNFFfN1lWMGdJR3JKekp1aTJhdlBhcTdaSlE5clNUck11TnFPNWNzdE1Z?oc=5",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "تحذير عاجل لمستخدمي آيفون: ثغرات أمنية خطيرة تهدد رسائلك",
+   "cand_title": "Update your iPhone now or risk huge problem, Apple users warned - The Independent",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONml2akZFMGVwb0tCd21HTlg0QU81WXRyczQtbkg2a3FxWWEteG9CZWJ5YUNDV2pPc0UxNnJURDMtbktpVDVaU0JpUnNWMVZYTkJDd3RaUlNIQnVoaURKWE9EUnNVNkRORHpoa0tKOHlNMm9EczVmRHdxX2ozeTFEaTBDMS1aZ25XZm9mRTRCVVJfSkRtaVhhTlNCTThrLXI1?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/apple-urgently-warns-iphone-users.html",
+   "at": "2026-11-12T02:27:34+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
