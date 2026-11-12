@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWjJjRWxCakxRYThRYzZEekJRcFJJRm1ISFBST18wT3N1dHJPR21uVUZ3VkFWSXZlZ1JocVlLWXpabFdtbzczTVRhM0pPT19IMDVIT0k2Tm82RW5WYlk2MUNrRnV4ZFNVek5DWS1jc1JzZ1N1TlRyUC0tRHVKQ183bDJscUtVRUZLOWo5QlkzaU5KRlBpZk1MTy1aSDNIamFGeXRIQzN3SUNUUFEzMUJHVlBRMVJZWnNQVnVzdlhBVVg?oc=5",
-   "t": "تغيير الساعة في كندا يشعل ردود فعل متباينة.. الأسر ترحب والشركات تخشى ارتباك المواعيد - arabcanadanews.ca",
-   "title": "تغيير الساعة: دروس من تجربة كندا في تثبيت التوقيت",
-   "url": "https://www.egyptaway.com/2026/11/time-change-canada-lessons.html",
-   "at": "2026-11-02T22:38:15.337503+02:00",
-   "ok": true,
-   "type": "public_query"
-  },
-  {
    "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/3/3072774/%D8%AA%D9%83%D8%B1%D9%8A%D9%85-%D8%AE%D8%A7%D8%B5-%D9%84%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%8A%D8%A7%D9%86%D9%88-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D8%AE%D9%84%D8%A7%D9%84-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%84%D9%86%D8%B5%D8%B1-%D9%88%D8%A8%D8%A7%D8%AE%D8%AA%D8%A7%D9%83%D9%88%D8%B1-%D8%A7%D9%84%D8%A3%D9%88%D8%B2%D8%A8%D9%83%D9%8A",
    "t": "تكريم خاص لكريستيانو رونالدو خلال مباراة النصر وباختاكور الأوزبكي",
    "title": "تكريم جماهيري خاص لكريستيانو رونالدو في مباراة النصر وباختاكور",
@@ -3372,6 +3363,15 @@
    "at": "2026-11-12T11:45:37.635654+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7177756",
+   "t": "ميزة طال انتظارها.. هواتف Galaxy تستعد لتسجيل مكالمات واتساب وMeet",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "الـ body 471 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
