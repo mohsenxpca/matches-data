@@ -19,26 +19,42 @@ from zoneinfo import ZoneInfo
 import xml.etree.ElementTree as ET
 import requests
 from bs4 import BeautifulSoup
-from PIL import Image, ImageOps, ImageFilter, ImageEnhance
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
+try:
+    import arabic_reshaper
+    from bidi.algorithm import get_display
+except Exception:
+    arabic_reshaper = None
+    get_display = None
 import football as f
 import notify
 import image_guard
 
 CAIRO = ZoneInfo("Africa/Cairo")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
+GSMA_UA = {**UA, "Referer": "https://www.gsmarena.com/"}
 REVIEW_BLOG = "2997328666613207792"
 REVIEW_HOST = "www.review-mobile.com"
 STATE_FILE = "review_posted.json"
 REVIEW_CAP = int(os.environ.get("REVIEW_DAY_CAP", "8"))
 COUNT = int(os.environ.get("COUNT", "2"))
 CDN = "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/"
-IMG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "img")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+IMG_DIR = os.path.join(BASE_DIR, "img")
+WM_LIGHT = os.path.join(IMG_DIR, "review_wm_light.png")
+WM_DARK = os.path.join(IMG_DIR, "review_wm_dark.png")
+AR_FONT_PATH = os.path.join(BASE_DIR, "fonts", "NotoKufiArabic.ttf")
+AR_FONT_URL = "https://github.com/google/fonts/raw/main/ofl/notokufiarabic/NotoKufiArabic%5Bwght%5D.ttf"
 
 EUR_RATES = {"egp": 52.0, "sar": 4.05, "aed": 3.97}
 CNY_RATES = {"egp": 6.8, "sar": 0.527, "aed": 0.516}
 USD_RATES = {"egp": 49.0, "sar": 3.75, "aed": 3.67}
 
-FALLBACK_PHONE_PHOTOS = image_guard.GLOBAL_POOLS["phones"]
+BAD_IMG_PATTERNS = (
+    "pexels.com", "unsplash.com", "pixabay.com", "shutterstock.com", "istockphoto.com",
+    "amazon-com", "icon", "logo", "banner", "avatar", "advert", "button",
+    "badge", "favicon", "gravatar", "emoji", "spinner", "placeholder", "150x150", "-184x111"
+)
 
 DISCLAIMER = "هذه المراجعة مبنية على المواصفات الرسمية والمصادر المعلنة، وليست تجربة استخدام شخصية."
 
@@ -278,53 +294,318 @@ def classify_candidate(cand_title, source):
     return "news"
 
 
-def process_clean_image(img_url, slug, index, out_dir=IMG_DIR):
+_GSMA_CATALOG_CACHE = {}
+
+GSMA_MAKER_SLUGS = {
+    "samsung": "samsung-phones-9.php",
+    "galaxy": "samsung-phones-9.php",
+    "apple": "apple-phones-48.php",
+    "iphone": "apple-phones-48.php",
+    "ipad": "apple-phones-48.php",
+    "xiaomi": "xiaomi-phones-80.php",
+    "redmi": "xiaomi-phones-80.php",
+    "poco": "xiaomi-phones-80.php",
+    "oppo": "oppo-phones-82.php",
+    "reno": "oppo-phones-82.php",
+    "find": "oppo-phones-82.php",
+    "vivo": "vivo-phones-98.php",
+    "iqoo": "vivo-phones-98.php",
+    "honor": "honor-phones-121.php",
+    "magic": "honor-phones-121.php",
+    "realme": "realme-phones-118.php",
+    "huawei": "huawei-phones-58.php",
+    "mate": "huawei-phones-58.php",
+    "pura": "huawei-phones-58.php",
+    "oneplus": "oneplus-phones-95.php",
+    "nord": "oneplus-phones-95.php",
+    "motorola": "motorola-phones-4.php",
+    "moto": "motorola-phones-4.php",
+    "razr": "motorola-phones-4.php",
+    "google": "google-phones-107.php",
+    "pixel": "google-phones-107.php",
+    "infinix": "infinix-phones-119.php",
+    "tecno": "tecno-phones-120.php",
+    "nothing": "nothing-phones-128.php",
+    "cmf": "nothing-phones-128.php",
+    "asus": "asus-phones-46.php",
+    "rog": "asus-phones-46.php",
+    "nokia": "nokia-phones-1.php",
+    "sony": "sony-phones-7.php",
+    "xperia": "sony-phones-7.php",
+    "zte": "zte-phones-62.php",
+    "nubia": "zte-phones-62.php",
+    "redmagic": "zte-phones-62.php",
+    "lenovo": "lenovo-phones-73.php",
+}
+
+
+def _find_latin_font():
+    for cand in (
+        r"C:\Windows\Fonts\segoeuib.ttf",
+        r"C:\Windows\Fonts\arialbd.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+        "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf",
+    ):
+        if os.path.exists(cand):
+            return cand
+    return None
+
+
+def _ensure_ar_font():
+    if os.path.exists(AR_FONT_PATH):
+        return AR_FONT_PATH
+    try:
+        os.makedirs(os.path.dirname(AR_FONT_PATH), exist_ok=True)
+        r = requests.get(AR_FONT_URL, timeout=15)
+        if r.status_code == 200 and len(r.content) > 50000:
+            open(AR_FONT_PATH, "wb").write(r.content)
+            return AR_FONT_PATH
+    except Exception:
+        pass
+    return None
+
+
+def _shape_ar(text):
+    if not text:
+        return ""
+    if arabic_reshaper and get_display:
+        try:
+            return get_display(arabic_reshaper.reshape(text))
+        except Exception:
+            pass
+    return text
+
+
+def _load_font(path, size, weight=None):
+    try:
+        fnt = ImageFont.truetype(path, size, layout_engine=ImageFont.Layout.BASIC) if path else ImageFont.load_default()
+        if weight and path:
+            try:
+                fnt.set_variation_by_name(weight)
+            except Exception:
+                pass
+        return fnt
+    except Exception:
+        return ImageFont.load_default()
+
+
+def _is_bad_img_url(url):
+    if not url or not url.startswith("http"):
+        return True
+    low = url.lower()
+    return any(b in low for b in BAD_IMG_PATTERNS)
+
+
+def _has_white_corners(im):
+    w, h = im.size
+    corners = [(2, 2), (w - 3, 2), (2, h - 3), (w - 3, h - 3)]
+    pts = [im.getpixel(c) for c in corners]
+    return sum(1 for r, g, b in pts if r > 232 and g > 232 and b > 232) >= 3
+
+
+def _strip_gsmarena_corner(im, src_url=""):
+    """Cleanly removes www.GSMArena.com text watermark in bottom-right without slicing curved bezels."""
+    if "gsmarena" not in (src_url or "").lower():
+        return im
+    w, h = im.size
+    if w < 260 or h < 260:
+        return im
+    out = im.copy()
+    px = out.load()
+    x0 = max(0, w - 155)
+    y0 = max(0, h - 24)
+    for y in range(y0, h - 2):
+        for x in range(x0, w - 2):
+            r, g, b = px[x, y]
+            if r > 240 and g > 240 and b > 240:
+                continue
+            sy = max(0, y - 12)
+            sr, sg, sb = px[x, sy]
+            lum_cur = (r + g + b) / 3
+            lum_above = (sr + sg + sb) / 3
+            if lum_cur - lum_above > 18 or (lum_cur < 210 and lum_above > 240):
+                px[x, y] = (sr, sg, sb)
+    return out
+
+
+def _clean_display_model_name(raw_name):
+    if not raw_name:
+        return ""
+    s = re.sub(r"\s+", " ", str(raw_name)).strip()
+    # Extract crisp Brand + Model name if a full English headline was passed
+    m_brand = re.search(
+        r"\b(Samsung\s+Galaxy\s+[A-Za-z0-9\+\-\s]{1,22}|Galaxy\s+[A-Za-z0-9\+\-\s]{1,20}|"
+        r"iPhone\s+[0-9]{1,2}(?:\s*(?:Pro\s*Max|Pro|Plus|Air|Mini|Ultra|e|SE))?|"
+        r"(?:Xiaomi|Redmi|POCO|vivo|iQOO|Oppo|OnePlus|Honor|Realme|Motorola|Moto|Google\s+Pixel|Pixel|Infinix|Tecno|Nothing\s+Phone|Nothing|Huawei|Pura|Mate|Asus|ROG\s+Phone|Sony\s+Xperia|RedMagic|Nubia)\s+[A-Za-z0-9\(\)\+\-\.]{1,18}(?:\s+(?:Pro|Ultra|Max|Plus|Mini|Lite|FE|SE|Turbo|Fold|Flip|Note|Edge|Air|Neo|Power|Slim|GT|Global|\d+[A-Za-z]?)){0,3})",
+        s, re.I
+    )
+    if m_brand:
+        cand = re.sub(r"\b(tipped|leaks?|leaked|rumor|rumors|blind|orders|official|launch|announced|with|features?|specs?|review|price|to|for|in|at|on|and)\b.*$", "", m_brand.group(0), flags=re.I).strip(" -:|,")
+        if len(cand) >= 4:
+            return cand[:38].strip()
+    s = re.sub(r"\b(reviews?|specs?|price|leaks?|rumors?|hands-on|unboxing|202\d)\b", "", s, flags=re.I)
+    s = re.sub(r"\s{2,}", " ", s).strip(" -:|,")
+    lat = re.findall(r"[A-Za-z0-9][A-Za-z0-9\+\(\)\.\- ]{2,}", s)
+    if re.search(r"[\u0600-\u06FF]", s) and lat:
+        best = max(lat, key=lambda x: len(x.strip())).strip()
+        if len(best) >= 5 and re.search(r"[A-Za-z]", best):
+            s = best
+    if len(s) > 36:
+        s = s[:34].rsplit(" ", 1)[0]
+    return s.strip()
+
+
+def process_clean_image(img_url, slug, index, out_dir=IMG_DIR, phone_name="", subtitle="المواصفات والمراجعة الكاملة"):
     """
-    Downloads image, removes watermarks/site names by smart cropping,
-    adapts aspect ratio (centered blurred canvas for portrait phone renders,
-    16:9 fit for landscape), applies aesthetic enhancements, and saves
-    to img/review-{slug}-{index}.jpg.
+    Downloads genuine phone photo, cleans corner source watermarks cleanly without slicing bezels,
+    formats studio card (for official white-bg / portrait renders) or enhanced 16:9 landscape frame,
+    adds the phone model name badge/title + faint Review («رفيو») watermark, and saves to img/review-{slug}-{index}.jpg.
     Returns (cdn_url, local_path) or None on failure.
     """
-    if not img_url or not img_url.startswith("http"):
+    if _is_bad_img_url(img_url):
         return None
     try:
         os.makedirs(out_dir, exist_ok=True)
-        r = requests.get(img_url, headers=UA, timeout=15)
-        if r.status_code != 200 or len(r.content) < 2000:
+        headers = GSMA_UA if "gsmarena" in img_url.lower() else UA
+        r = requests.get(img_url, headers=headers, timeout=18)
+        if (r.status_code != 200 or len(r.content) < 1200) and headers is GSMA_UA:
+            r = requests.get(img_url, headers=UA, timeout=18)
+        if r.status_code != 200 or len(r.content) < 1200:
             return None
         im = Image.open(io.BytesIO(r.content)).convert("RGB")
         w, h = im.size
-        if w < 250 or h < 180:
+        # Accept GSMArena official 160x212 bigpic renders (>=120px) while filtering tiny UI icons
+        if w < 120 or h < 120:
             return None
 
-        # 1. Smart crop: cut bottom 10% and sides 2% (where GSMArena / Gizmochina / SamMobile watermarks sit)
-        left = int(w * 0.02)
-        top = int(h * 0.02)
-        right = int(w * 0.98)
-        bottom = int(h * 0.90)
-        im_c = im.crop((left, top, right, bottom))
-        cw, ch = im_c.size
+        im = _strip_gsmarena_corner(im, img_url)
+        w, h = im.size
+        white_bg = _has_white_corners(im)
+        is_portrait_or_sq = (w / h) < 1.25
+        clean_name = _clean_display_model_name(phone_name)
+        latin_font = _find_latin_font()
+        ar_font = _ensure_ar_font()
 
-        # 2. Aspect ratio handling
-        if cw / ch < 1.2:
-            # Portrait or square phone render: place on elegant blurred 1200x675 canvas
-            canvas = ImageOps.fit(im_c, (1200, 675), method=Image.Resampling.LANCZOS).filter(ImageFilter.GaussianBlur(25))
-            canvas = ImageEnhance.Brightness(canvas).enhance(0.92)
-            scale = min(1100 / cw, 620 / ch)
-            scaled = im_c.resize((int(cw * scale), int(ch * scale)), Image.Resampling.LANCZOS)
-            px = (1200 - scaled.width) // 2
-            py = (675 - scaled.height) // 2
-            canvas.paste(scaled, (px, py))
-            target = canvas
+        if white_bg or is_portrait_or_sq:
+            if white_bg:
+                canvas = Image.new("RGBA", (1200, 675), (255, 255, 255, 255))
+                draw = ImageDraw.Draw(canvas)
+                for y in range(675):
+                    v = int(255 - (y / 675) * 9)
+                    draw.line([(0, y), (1200, y)], fill=(v, min(255, v + 1), min(255, v + 3), 255))
+            else:
+                bg = ImageOps.fit(im, (1200, 675), method=Image.Resampling.LANCZOS).filter(ImageFilter.GaussianBlur(28))
+                bg = ImageEnhance.Brightness(bg).enhance(0.65)
+                canvas = bg.convert("RGBA")
+
+            max_w = 720 if clean_name else 960
+            max_h = 565
+            scale = min(max_w / w, max_h / h)
+            if w < 250:
+                scale = min(scale, 2.75)
+            nw, nh = max(1, int(w * scale)), max(1, int(h * scale))
+            scaled = im.resize((nw, nh), Image.Resampling.LANCZOS)
+            scaled = ImageEnhance.Sharpness(scaled).enhance(1.18 if w < 250 else 1.08)
+            scaled = ImageEnhance.Contrast(scaled).enhance(1.04)
+
+            s_rgba = scaled.convert("RGBA")
+            if white_bg:
+                cr, cg, cb, _ = s_rgba.getpixel((2, 2))
+                thresh_r, thresh_g, thresh_b = max(230, cr - 10), max(230, cg - 10), max(230, cb - 10)
+                px = s_rgba.load()
+                for yy in range(nh):
+                    for xx in range(nw):
+                        pr, pg, pb, _ = px[xx, yy]
+                        if pr >= thresh_r and pg >= thresh_g and pb >= thresh_b and max(pr, pg, pb) - min(pr, pg, pb) <= 14:
+                            px[xx, yy] = (255, 255, 255, 0)
+
+            px_x = (1200 - nw) // 2 + (140 if clean_name else 0)
+            px_x = max(40, min(px_x, 1200 - nw - 48))
+            px_y = (675 - nh) // 2
+            canvas.alpha_composite(s_rgba, (px_x, px_y))
+
+            wm_file = WM_LIGHT if white_bg else WM_DARK
+            if os.path.exists(wm_file):
+                wm = Image.open(wm_file).convert("RGBA")
+                canvas.alpha_composite(wm, (34, 675 - wm.height - 22))
+            else:
+                d_wm = ImageDraw.Draw(canvas)
+                f_wm = _load_font(latin_font, 18)
+                d_wm.text((34, 636), "review-mobile.com", font=f_wm, fill=(100, 116, 139, 130) if white_bg else (255, 255, 255, 145))
+
+            if clean_name:
+                d = ImageDraw.Draw(canvas)
+                text_x = 50
+                text_y = 255
+                ink = (15, 23, 42, 240) if white_bg else (255, 255, 255, 245)
+                sub_ink = (100, 116, 139, 215) if white_bg else (226, 232, 240, 210)
+                d.rounded_rectangle((text_x, text_y - 34, text_x + 48, text_y - 28), radius=3, fill=(37, 99, 235, 225))
+                has_ar_name = bool(re.search(r"[\u0600-\u06FF]", clean_name))
+                font_size = 36 if len(clean_name) <= 18 else (30 if len(clean_name) <= 26 else 24)
+                f_title = _load_font(ar_font if has_ar_name and ar_font else latin_font, font_size, "Bold" if has_ar_name else None)
+                disp_name = _shape_ar(clean_name) if has_ar_name else clean_name
+                words = disp_name.split() if not has_ar_name else [disp_name]
+                lines, cur = [], ""
+                max_tw = max(230, px_x - text_x - 30)
+                for wt in words:
+                    cand_line = (cur + " " + wt).strip()
+                    if d.textlength(cand_line, font=f_title) <= max_tw or not cur:
+                        cur = cand_line
+                    else:
+                        lines.append(cur)
+                        cur = wt
+                if cur:
+                    lines.append(cur)
+                yy = text_y - 10
+                for ln in lines[:3]:
+                    d.text((text_x, yy), ln, font=f_title, fill=ink)
+                    yy += font_size + 10
+                if subtitle and ar_font and (arabic_reshaper and get_display):
+                    f_sub = _load_font(ar_font, 18, "Medium")
+                    d.text((text_x, yy + 8), _shape_ar(subtitle), font=f_sub, fill=sub_ink)
+
+            target = canvas.convert("RGB")
         else:
-            # Landscape: crop/fit directly to 1200x675 with upper-center bias
-            target = ImageOps.fit(im_c, (1200, 675), method=Image.Resampling.LANCZOS, centering=(0.5, 0.45))
+            # Landscape photo: trim tiny margin (and bottom corner/banner watermark on GSMArena/Gizmochina/SamMobile)
+            low_u = img_url.lower()
+            bot_ratio = 0.855 if "gsmarena" in low_u else (0.925 if any(k in low_u for k in ("gizmochina", "sammobile", "phonearena", "notebookcheck")) else 0.99)
+            im_c = im.crop((int(w * 0.01), int(h * 0.01), int(w * 0.99), int(h * bot_ratio)))
+            target = ImageOps.fit(im_c, (1200, 675), method=Image.Resampling.LANCZOS, centering=(0.5, 0.48))
+            target = ImageEnhance.Contrast(target).enhance(1.04)
+            target = ImageEnhance.Color(target).enhance(1.02)
+            target = ImageEnhance.Sharpness(target).enhance(1.08)
+            canvas = target.convert("RGBA")
 
-        # 3. Visual alterations (aesthetic enhancements making it distinct and vibrant)
-        target = ImageEnhance.Contrast(target).enhance(1.05)
-        target = ImageEnhance.Color(target).enhance(1.03)
-        target = ImageEnhance.Sharpness(target).enhance(1.10)
+            if os.path.exists(WM_DARK):
+                wm = Image.open(WM_DARK).convert("RGBA")
+                pad = 40
+                sh = Image.new("RGBA", (wm.width + pad * 2, wm.height + pad * 2), (0, 0, 0, 0))
+                ImageDraw.Draw(sh).rounded_rectangle((pad, pad, wm.width + pad, wm.height + pad), radius=24, fill=(15, 23, 42, 72))
+                sh = sh.filter(ImageFilter.GaussianBlur(14))
+                canvas.alpha_composite(sh, (28 - pad, 675 - wm.height - 20 - pad))
+                canvas.alpha_composite(wm, (28, 675 - wm.height - 20))
+            else:
+                d_wm = ImageDraw.Draw(canvas)
+                f_wm = _load_font(latin_font, 18)
+                d_wm.text((28, 636), "review-mobile.com", font=f_wm, fill=(255, 255, 255, 155))
+
+            if clean_name:
+                has_ar_name = bool(re.search(r"[\u0600-\u06FF]", clean_name))
+                pill_text = clean_name if not has_ar_name else (_shape_ar(clean_name) if (ar_font and arabic_reshaper and get_display) else "")
+                if pill_text:
+                    d = ImageDraw.Draw(canvas)
+                    f_pill = _load_font(ar_font if has_ar_name else latin_font, 22, "Bold" if has_ar_name else None)
+                    tw = d.textlength(pill_text, font=f_pill)
+                    if tw < 580:
+                        pad_x = 18
+                        bx1 = 1200 - int(tw) - pad_x * 2 - 26
+                        bx2 = 1200 - 26
+                        by1, by2 = 24, 24 + 44
+                        d.rounded_rectangle((bx1, by1, bx2, by2), radius=22, fill=(15, 23, 42, 175), outline=(255, 255, 255, 75), width=1)
+                        d.text((bx1 + pad_x, (by1 + by2) // 2), pill_text, font=f_pill, fill=(255, 255, 255, 245), anchor="lm")
+
+            target = canvas.convert("RGB")
 
         fname = f"review-{slug}-{index}.jpg"
         out_path = os.path.join(out_dir, fname)
@@ -693,14 +974,194 @@ def decode_gn_link(link):
         return None
 
 
+def _norm_phone_tokens(text):
+    s = re.sub(r"[^a-z0-9\+\s]", " ", (text or "").lower().replace("+", " plus "))
+    drop = {"5g", "4g", "lte", "global", "edition", "review", "reviews", "specs", "price",
+            "phone", "smartphone", "mobile", "vs", "nfc", "with", "for", "new", "the", "and",
+            "2024", "2025", "2026", "2027"}
+    return [t for t in s.split() if t and t not in drop]
+
+
+def fetch_gsmarena_device_photos(page_url, soup=None):
+    """Extracts ONLY genuine device photos from a GSMArena phone spec page & its -pictures- gallery (ignoring sidebars)."""
+    photos = []
+    try:
+        if soup is None:
+            r = requests.get(page_url, headers=UA, timeout=20)
+            if r.status_code != 200:
+                return []
+            soup = BeautifulSoup(r.text, "html.parser")
+
+        # 1. Dedicated device picture gallery (-pictures-XXXX.php) -> high-res vv/pics/ renders & lifestyle shots
+        pic_a = soup.select_one('a[href*="-pictures-"]') or soup.select_one("div.specs-photo-main a")
+        if pic_a and pic_a.get("href") and "pictures" in pic_a["href"]:
+            gal_url = urllib.parse.urljoin(page_url, pic_a["href"])
+            try:
+                gr = requests.get(gal_url, headers=UA, timeout=20)
+                if gr.status_code == 200:
+                    gsoup = BeautifulSoup(gr.text, "html.parser")
+                    for img in gsoup.select("#pictures-list img"):
+                        src = img.get("src") or img.get("data-src") or ""
+                        if src.startswith("//"):
+                            src = "https:" + src
+                        if src.startswith("http") and "gsmarena.com/vv/" in src and not _is_bad_img_url(src):
+                            if src not in photos:
+                                photos.append(src)
+                        if len(photos) >= 5:
+                            break
+            except Exception:
+                pass
+
+        # 2. Main official device hero photo inside .specs-photo-main (never sidebar!)
+        main_img = soup.select_one("div.specs-photo-main img")
+        if main_img:
+            src = main_img.get("src") or main_img.get("data-src") or ""
+            if src.startswith("//"):
+                src = "https:" + src
+            if src.startswith("http") and not _is_bad_img_url(src) and src not in photos:
+                photos.append(src)
+
+        # 3. og:image on device page if still empty
+        if not photos:
+            og = soup.find("meta", property="og:image")
+            if og and og.get("content") and not _is_bad_img_url(og["content"]):
+                photos.append(og["content"].strip())
+    except Exception as e:
+        print(f"  fetch_gsmarena_device_photos warning ({page_url[:50]}): {e}")
+    return photos[:5]
+
+
+def _load_gsmarena_brand_devices(maker_slug):
+    if maker_slug in _GSMA_CATALOG_CACHE:
+        return _GSMA_CATALOG_CACHE[maker_slug]
+    items = []
+    urls = [f"https://www.gsmarena.com/{maker_slug}"]
+    m = re.match(r"(.+)-phones-(\d+)\.php", maker_slug)
+    if m:
+        urls.append(f"https://www.gsmarena.com/{m.group(1)}-phones-f-{m.group(2)}-0-p2.php")
+    for u in urls:
+        try:
+            r = requests.get(u, headers=UA, timeout=15)
+            if r.status_code != 200:
+                continue
+            sp = BeautifulSoup(r.text, "html.parser")
+            devs = sp.select("div.makers ul li a")
+            if not devs:
+                break
+            brand_prefix = maker_slug.split("-")[0]
+            for a in devs:
+                sp_tag = a.find("span")
+                name = sp_tag.get_text(" ", strip=True) if sp_tag else a.get_text(" ", strip=True)
+                full = name if name.lower().startswith(brand_prefix) else f"{brand_prefix} {name}"
+                im = a.find("img")
+                items.append({
+                    "name": name,
+                    "full": full,
+                    "toks": _norm_phone_tokens(full),
+                    "url": urllib.parse.urljoin("https://www.gsmarena.com/", a.get("href", "")),
+                    "thumb": im.get("src", "") if im else "",
+                })
+        except Exception:
+            continue
+    _GSMA_CATALOG_CACHE[maker_slug] = items
+    return items
+
+
+def lookup_real_phone_photos(model_query):
+    """Finds verified genuine photos for a specific phone model via GSMArena catalog + Gizmochina WP JSON."""
+    q_toks = _norm_phone_tokens(model_query)
+    if not q_toks:
+        return []
+    q_set = set(q_toks)
+    num_toks = {t for t in q_set if any(c.isdigit() for c in t)}
+
+    # Determine relevant GSMArena maker pages from brand/series tokens
+    maker_slugs = []
+    for tok in q_toks:
+        ms = GSMA_MAKER_SLUGS.get(tok)
+        if ms and ms not in maker_slugs:
+            maker_slugs.append(ms)
+
+    best_dev, best_score = None, 0.0
+    for ms in maker_slugs[:2]:
+        for dev in _load_gsmarena_brand_devices(ms):
+            d_toks = set(dev["toks"])
+            if not d_toks:
+                continue
+            # Require at least one matching alphanumeric model number if query has numbers
+            if num_toks and not (num_toks & d_toks):
+                continue
+            inter = len(q_set & d_toks)
+            score = inter / max(len(d_toks), len(q_set))
+            # Penalize Pro/Ultra/Max/Plus mismatch gently unless equal
+            mods = {"pro", "ultra", "max", "plus", "mini", "lite", "fe", "se", "air", "fold", "flip"}
+            if (mods & q_set) != (mods & d_toks):
+                score -= 0.18
+            if score > best_score:
+                best_score = score
+                best_dev = dev
+
+    if best_dev and best_score >= 0.65:
+        photos = fetch_gsmarena_device_photos(best_dev["url"])
+        if not photos and best_dev.get("thumb"):
+            photos = [best_dev["thumb"]]
+        if photos:
+            return photos
+
+    # Gizmochina WP REST search fallback with strict title token verification
+    try:
+        search_q = " ".join(q_toks[:5])
+        api_u = f"https://www.gizmochina.com/wp-json/wp/v2/posts?search={urllib.parse.quote(search_q)}&per_page=6&_embed"
+        gr = requests.get(api_u, headers=UA, timeout=15)
+        if gr.status_code == 200:
+            posts = gr.json()
+            for post in posts:
+                ptitle = html.unescape(re.sub(r"<[^>]+>", "", post.get("title", {}).get("rendered", "")))
+                ptoks = set(_norm_phone_tokens(ptitle))
+                if not ptoks:
+                    continue
+                if num_toks and not (num_toks & ptoks):
+                    continue
+                if len(q_set & ptoks) / max(len(q_set), 1) < 0.70:
+                    continue
+                found = []
+                emb = post.get("_embedded", {})
+                for fm in emb.get("wp:featuredmedia", []):
+                    su = fm.get("source_url", "")
+                    if su and not _is_bad_img_url(su):
+                        found.append(su)
+                body_html = post.get("content", {}).get("rendered", "")
+                for im in BeautifulSoup(body_html, "html.parser").find_all("img"):
+                    su = im.get("src") or im.get("data-src") or ""
+                    if su.startswith("http") and not _is_bad_img_url(su) and su not in found:
+                        found.append(su)
+                    if len(found) >= 4:
+                        break
+                if found:
+                    return found[:4]
+    except Exception:
+        pass
+    return []
+
+
 def fetch_article_data(url):
-    """Fetches real article text and extracts authentic phone photos."""
+    """Fetches real article text and extracts authentic, content-scoped phone photos (never sidebars/ads)."""
     try:
         r = requests.get(url, headers=UA, timeout=20)
         if r.status_code != 200:
             return None, []
         soup = BeautifulSoup(r.text, "html.parser")
-        for s in soup(["script", "style", "nav", "footer", "header", "noscript"]):
+
+        # Dedicated extraction for GSMArena device spec pages
+        if "gsmarena.com/" in url.lower() and re.search(r"-\d+\.php", url) and "-news-" not in url.lower():
+            photos = fetch_gsmarena_device_photos(url, soup=soup)
+            for s in soup(["script", "style", "nav", "footer", "header", "noscript"]):
+                s.decompose()
+            text = soup.get_text(separator="\n", strip=True)
+            lines = [line.strip() for line in text.splitlines() if len(line.strip()) > 35]
+            return "\n".join(lines[:60]), photos
+
+        for s in soup(["script", "style", "nav", "footer", "header", "aside", "noscript"]):
             s.decompose()
 
         text = soup.get_text(separator="\n", strip=True)
@@ -710,18 +1171,37 @@ def fetch_article_data(url):
         photos = []
         og_img = soup.find("meta", property="og:image") or soup.find("meta", attrs={"name": "twitter:image"})
         if og_img and og_img.get("content"):
-            photos.append(og_img["content"].strip())
+            og_u = og_img["content"].strip()
+            if og_u.startswith("//"):
+                og_u = "https:" + og_u
+            if not _is_bad_img_url(og_u):
+                photos.append(og_u)
 
-        for img in soup.find_all("img"):
-            src = img.get("src") or img.get("data-src") or ""
+        # Scope image extraction strictly to main article container first (avoids sidebar related-device thumbs!)
+        container = (
+            soup.select_one("div.review-body")
+            or soup.select_one("div#review-body")
+            or soup.select_one("div.article-body")
+            or soup.select_one("div.entry-content")
+            or soup.select_one("div.post-content")
+            or soup.select_one("article")
+            or soup.select_one("main")
+            or soup
+        )
+        for img in container.find_all("img"):
+            src = img.get("src") or img.get("data-src") or img.get("data-lazy-src") or img.get("data-original") or ""
+            if not src or src.startswith("data:"):
+                continue
             if any(ext in src.lower() for ext in [".jpg", ".jpeg", ".webp", ".png"]):
-                if not any(b in src.lower() for b in ["icon", "logo", "banner", "avatar", "advert", "button"]):
-                    if src.startswith("//"):
-                        src = "https:" + src
-                    elif src.startswith("/"):
-                        src = urllib.parse.urljoin(url, src)
-                    if src.startswith("http") and src not in photos:
-                        photos.append(src)
+                if src.startswith("//"):
+                    src = "https:" + src
+                elif src.startswith("/"):
+                    src = urllib.parse.urljoin(url, src)
+                # Never pick sidebar GSMArena bigpic thumbnails inside news posts
+                if "gsmarena.com/vv/bigpic/" in src.lower():
+                    continue
+                if src.startswith("http") and not _is_bad_img_url(src) and src not in photos:
+                    photos.append(src)
             if len(photos) >= 5:
                 break
 
@@ -1042,15 +1522,22 @@ def main():
                 state["done"].append({"title": cand_title, "url": cand["link"], "at": today_str, "ok": False, "reason": reason})
                 continue
 
-            # 2. Fetch source content and photos
+            # 2. Fetch source content and photos (with genuine model lookup fallback — NEVER Pexels stock!)
             if cand_kind == "compare":
                 specs_a, photos_a = fetch_article_data(cand["link_a"])
                 specs_b, photos_b = fetch_article_data(cand["link_b"])
                 if not specs_a or not specs_b or len(specs_a) < 250 or len(specs_b) < 250:
                     print("  Insufficient specs for comparison pair. Skipping.")
                     continue
+                if not photos_a:
+                    photos_a = lookup_real_phone_photos(cand["phone_a"])
+                if not photos_b:
+                    photos_b = lookup_real_phone_photos(cand["phone_b"])
                 pub_url = cand["link_a"]
-                raw_photos = (photos_a[:2] + photos_b[:2]) or random.sample(FALLBACK_PHONE_PHOTOS, 3)
+                raw_photo_pairs = [(u, cand["phone_a"]) for u in photos_a[:2]] + [(u, cand["phone_b"]) for u in photos_b[:1]]
+                if not raw_photo_pairs:
+                    print("  No genuine phone photos for comparison pair. Skipping.")
+                    continue
                 src_text = specs_a[:3200] + "\n---\n" + specs_b[:3200]
                 prompt = COMPARE_PROMPT_TEMPLATE.format(
                     phone_a=cand["phone_a"],
@@ -1069,13 +1556,20 @@ def main():
                     continue
 
                 src_text, raw_photos = fetch_article_data(pub_url)
-                if not raw_photos:
-                    raw_photos = random.sample(FALLBACK_PHONE_PHOTOS, 3)
+                if len(raw_photos) < 2 or cand_kind == "review":
+                    extra_real = lookup_real_phone_photos(cand_title)
+                    for eu in extra_real:
+                        if eu not in raw_photos:
+                            raw_photos.append(eu)
                 if not src_text or len(src_text) < 320:
                     print(f"  Insufficient text ({len(src_text) if src_text else 0} chars). Skipping.")
                     continue
+                if not raw_photos:
+                    print("  No genuine phone photos found. Skipping to avoid fake imagery.")
+                    continue
+                raw_photo_pairs = [(u, "") for u in raw_photos[:4]]
 
-                print(f"  Source text length: {len(src_text)} chars | Photos extracted: {len(raw_photos)}")
+                print(f"  Source text length: {len(src_text)} chars | Genuine photos found: {len(raw_photos)}")
 
                 # 3. AI Generation with Gemini
                 prompt_template = REVIEW_PROMPT_TEMPLATE if cand_kind == "review" else NEWS_PROMPT_TEMPLATE
@@ -1153,38 +1647,28 @@ def main():
                 state["done"].append({"title": cand_title, "url": cand["link"], "at": today_str, "ok": False, "reason": errs})
                 continue
 
-            # 4. Clean & Alter Photos (Crop out watermarks/logos, enhance, 1200x675)
+            # 4. Brand & Clean Genuine Phone Photos (Studio/Landscape 1200x675 + Phone Name + faint «رفيو» watermark)
             clean_photos = []
-            used_photos_in_post = []
             slug = art["slug"]
-            for idx, raw_p in enumerate(raw_photos[:3]):
-                res = process_clean_image(raw_p, slug, idx)
+            default_model_label = art.get("phone_name") or cand_title
+            subtitle = (
+                "مقارنة الهواتف • رفيو" if cand_kind == "compare"
+                else ("المواصفات والمراجعة الكاملة" if cand_kind == "review" else "تغطية خاصة • رفيو")
+            )
+            for idx, (raw_p, explicit_label) in enumerate(raw_photo_pairs[:4]):
+                if len(clean_photos) >= 3:
+                    break
+                label = explicit_label or default_model_label
+                res = process_clean_image(raw_p, slug, len(clean_photos), phone_name=label, subtitle=subtitle)
                 if res:
                     cdn_url, local_path = res
                     clean_photos.append(cdn_url)
-                    used_photos_in_post.append(cdn_url)
                     saved_images_to_commit.append(local_path)
-                else:
-                    fb = image_guard.get_guaranteed_image(
-                        candidate_url=None,
-                        title=cand_title + f" slot{idx}",
-                        category_pool=image_guard.GLOBAL_POOLS["phones"],
-                        recent_images=used_photos_in_post,
-                        site="review"
-                    )
-                    clean_photos.append(fb.replace("&", "&amp;"))
-                    used_photos_in_post.append(fb)
 
-            while len(clean_photos) < 2:
-                fb = image_guard.get_guaranteed_image(
-                    candidate_url=None,
-                    title=cand_title + f" extra{len(clean_photos)}",
-                    category_pool=image_guard.GLOBAL_POOLS["phones"],
-                    recent_images=used_photos_in_post,
-                    site="review"
-                )
-                clean_photos.append(fb.replace("&", "&amp;"))
-                used_photos_in_post.append(fb)
+            if not clean_photos:
+                print("  All extracted photos failed download/validation. Skipping to avoid fake images.")
+                state["done"].append({"title": cand_title, "url": cand["link"], "at": today_str, "ok": False, "reason": "no_valid_phone_photos"})
+                continue
 
             # Build Figure HTML
             p0 = clean_photos[0]
