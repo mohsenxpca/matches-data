@@ -1513,6 +1513,12 @@
    "at": "2026-11-12",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "منتخب ملاوي لكرة القدم",
+   "at": "2026-11-12",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
