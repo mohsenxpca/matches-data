@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.101greatgoals.com/football/premier-league/tip-of-the-day-harvey-barnes-to-star-with-goals-for-both-sides-at-st-james-park/",
-   "t": "Tip of the Day: Barnes to star with goals for both sides at St James’ Park",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 90",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'نيوكاسل', 'ايفرتون'}) مع تشابه نصي مع: أزمة جاك غريليش تثير الجدل قبل مواجهة نيوكاسل وإيفرتون)"
-   ]
-  },
-  {
    "u": "https://www.bild.de/news/wetter/von-frost-bis-sonne-so-wirbelt-das-wetter-deutschland-durch-die-woche-6ae67da4aedea8cd9ffc0169",
    "t": "Von Frost bis Sonne: So wirbelt das Wetter Deutschland durch die Woche",
    "at": "2026-11-02",
@@ -3371,6 +3361,16 @@
    "reason": [
     "الـ body 477 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/12/وزيرة-الإسكان-تتابع-ملفات-التنمية-والاستثمار-والمرافق-بمدينتي-السويس-الجديدة/7615501",
+   "t": "وزيرة الإسكان تتابع ملفات التنمية والاستثمار والمرافق بمدينتي السويس الجديدة ودمياط الجديدة",
+   "title": "وزيرة الإسكان تتابع ملفات التنمية والاستثمار بالسويس ودمياط",
+   "url": "https://www.egyptaway.com/2026/11/housing-minister-follows-up-suis.html",
+   "photo": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-12T11:21:35.932164+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
