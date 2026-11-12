@@ -429,31 +429,57 @@ def _strip_gsmarena_corner(im, src_url=""):
     return out
 
 
+_BRAND_CASE = {
+    "samsung": "Samsung", "galaxy": "Galaxy", "apple": "Apple", "iphone": "iPhone",
+    "ipad": "iPad", "xiaomi": "Xiaomi", "redmi": "Redmi", "poco": "POCO",
+    "oppo": "Oppo", "reno": "Reno", "vivo": "vivo", "iqoo": "iQOO",
+    "honor": "Honor", "realme": "realme", "huawei": "Huawei", "oneplus": "OnePlus",
+    "motorola": "Motorola", "moto": "Moto", "google": "Google", "pixel": "Pixel",
+    "infinix": "Infinix", "tecno": "Tecno", "nothing": "Nothing", "sony": "Sony",
+    "xperia": "Xperia", "asus": "Asus", "rog": "ROG", "nokia": "Nokia",
+    "zte": "ZTE", "nubia": "Nubia", "redmagic": "RedMagic", "lenovo": "Lenovo",
+}
+
+
+def _proper_brand_case(s):
+    if not s:
+        return ""
+    words = s.split()
+    out = []
+    for w in words:
+        lw = w.lower()
+        out.append(_BRAND_CASE.get(lw, w))
+    return " ".join(out)
+
+
 def _clean_display_model_name(raw_name):
     if not raw_name:
         return ""
     s = re.sub(r"\s+", " ", str(raw_name)).strip()
     # Extract crisp Brand + Model name if a full English headline was passed
     m_brand = re.search(
-        r"\b(Samsung\s+Galaxy\s+[A-Za-z0-9\+\-\s]{1,22}|Galaxy\s+[A-Za-z0-9\+\-\s]{1,20}|"
-        r"iPhone\s+[0-9]{1,2}(?:\s*(?:Pro\s*Max|Pro|Plus|Air|Mini|Ultra|e|SE))?|"
-        r"(?:Xiaomi|Redmi|POCO|vivo|iQOO|Oppo|OnePlus|Honor|Realme|Motorola|Moto|Google\s+Pixel|Pixel|Infinix|Tecno|Nothing\s+Phone|Nothing|Huawei|Pura|Mate|Asus|ROG\s+Phone|Sony\s+Xperia|RedMagic|Nubia)\s+[A-Za-z0-9\(\)\+\-\.]{1,18}(?:\s+(?:Pro|Ultra|Max|Plus|Mini|Lite|FE|SE|Turbo|Fold|Flip|Note|Edge|Air|Neo|Power|Slim|GT|Global|\d+[A-Za-z]?)){0,3})",
+        r"\b(Samsung\s+Galaxy\s+[A-Za-z0-9\+\-]+(?:\s+(?:S\d+|A\d+|Z\s*Fold\s*\d*|Z\s*Flip\s*\d*|Ultra|Pro|Plus|FE|Edge|TriFold|5G|4G|\d+[A-Za-z]?)){0,3}|"
+        r"iPhone\s+[0-9]{1,2}[A-Za-z]?(?:\s+(?:Pro\s*Max|Pro|Plus|Air|Mini|Ultra|SE|5G|4G)){0,2}|"
+        r"iPad\s+[A-Za-z0-9\+\-]+(?:\s+(?:Pro|Air|Mini|\d+|5G)){0,2}|"
+        r"(?:Xiaomi|Redmi|POCO|vivo|iQOO|Oppo|OnePlus|Honor|Realme|Motorola|Moto|Google\s+Pixel|Pixel|Infinix|Tecno|Nothing\s+Phone|Nothing|Huawei|Asus|ROG\s+Phone|Sony\s+Xperia|RedMagic|Nubia)\s+(?:Note|Reno|Find|Magic|Pura|Mate|Nord|Edge|Razr|Turbo|Pad|Camon|Spark|Hot|Zero|Smart|GT|X|S|V|A|C|F|M|Y)?\s*[A-Za-z0-9\+\-\(\)]{1,14}(?:\s+(?:[A-Za-z]{0,3}\d+[A-Za-z]?|Pro|Ultra|Max|Plus|Mini|Lite|FE|SE|Turbo|Fold|Flip|Note|Edge|Air|Neo|Power|Slim|View|GT|Global|5G|4G)){0,3})",
         s, re.I
     )
+    stop_news = r"\b(tipped|leaks?|leaked|rumor|rumors|blind|orders|official|launch|announced|with|features?|specs?|review|price|to|for|in|at|on|and|now|or|risk|will|have|drop|gets|could|may|how|why|best|202\d)\b.*$"
     if m_brand:
-        cand = re.sub(r"\b(tipped|leaks?|leaked|rumor|rumors|blind|orders|official|launch|announced|with|features?|specs?|review|price|to|for|in|at|on|and)\b.*$", "", m_brand.group(0), flags=re.I).strip(" -:|,")
+        cand = re.sub(stop_news, "", m_brand.group(0), flags=re.I).strip(" -:|,")
         if len(cand) >= 4:
-            return cand[:38].strip()
+            return _proper_brand_case(cand[:36].strip())
     s = re.sub(r"\b(reviews?|specs?|price|leaks?|rumors?|hands-on|unboxing|202\d)\b", "", s, flags=re.I)
     s = re.sub(r"\s{2,}", " ", s).strip(" -:|,")
     lat = re.findall(r"[A-Za-z0-9][A-Za-z0-9\+\(\)\.\- ]{2,}", s)
     if re.search(r"[\u0600-\u06FF]", s) and lat:
         best = max(lat, key=lambda x: len(x.strip())).strip()
+        best = re.sub(stop_news, "", best, flags=re.I).strip(" -:|,")
         if len(best) >= 5 and re.search(r"[A-Za-z]", best):
             s = best
-    if len(s) > 36:
-        s = s[:34].rsplit(" ", 1)[0]
-    return s.strip()
+    if len(s) > 34:
+        s = s[:32].rsplit(" ", 1)[0]
+    return _proper_brand_case(s.strip())
 
 
 def process_clean_image(img_url, slug, index, out_dir=IMG_DIR, phone_name="", subtitle="المواصفات والمراجعة الكاملة"):
@@ -1124,17 +1150,23 @@ def lookup_real_phone_photos(model_query):
                     continue
                 if len(q_set & ptoks) / max(len(q_set), 1) < 0.70:
                     continue
+                is_q_accessory = bool(q_set & {"pad", "tablet", "watch", "buds", "band", "ipad"})
+                if not is_q_accessory and any(w in ptitle.lower() for w in ("pad", "tablet", "smartwatch", "watch", "earbuds", "buds")):
+                    continue
+                if " vs " not in model_query.lower() and re.search(r"\b(vs|versus|similar|clone|alternative)\b", ptitle, re.I):
+                    continue
                 found = []
                 emb = post.get("_embedded", {})
                 for fm in emb.get("wp:featuredmedia", []):
                     su = fm.get("source_url", "")
-                    if su and not _is_bad_img_url(su):
+                    if su and not _is_bad_img_url(su) and (is_q_accessory or not any(w in su.lower() for w in ("pad", "tablet", "watch", "buds"))):
                         found.append(su)
                 body_html = post.get("content", {}).get("rendered", "")
                 for im in BeautifulSoup(body_html, "html.parser").find_all("img"):
                     su = im.get("src") or im.get("data-src") or ""
                     if su.startswith("http") and not _is_bad_img_url(su) and su not in found:
-                        found.append(su)
+                        if is_q_accessory or not any(w in su.lower() for w in ("pad", "tablet", "watch", "buds")):
+                            found.append(su)
                     if len(found) >= 4:
                         break
                 if found:
