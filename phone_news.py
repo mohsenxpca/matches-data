@@ -313,7 +313,7 @@ def main():
             continue
 
         # Format Post HTML with Discover-optimized 1200x675 image & price comparison widget
-        lead_img_html = f'<p><img src="{real_img}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager"></p>\n'
+        lead_img_html = f'<p><img src="{real_img}" alt="{html.escape(art["title"])}" width="1200" height="675" fetchpriority="high" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;"></p>\n'
 
         # Price Hub Callout Card
         callout_html = '''<div style="background:#f8fafc;border:2px solid #cbd5e1;border-radius:14px;padding:16px;margin:20px 0;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,.04);">

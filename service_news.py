@@ -463,7 +463,7 @@ def main():
                 text=src_text
             )
 
-            lead_img_html = f'<img src="{lead_img_url}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;" loading="eager">' 
+            lead_img_html = f'<img src="{lead_img_url}" alt="{html.escape(art["title"])}" width="1200" height="675" fetchpriority="high" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 10px;"><p style="display:inline-block;background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;padding:4px 12px;border-radius:999px;font-size:13.5px;font-weight:700;margin:0 0 14px">🔄 آخر تحديث: {now.strftime("%Y-%m-%d")}</p>'
 
             # Internal Cross-link & Hub Callout Card
             callout_html = f'''<div style="background:#eff6ff;border:2px solid #3b82f6;border-radius:14px;padding:16px;margin:20px 0;text-align:center;box-shadow:0 4px 12px rgba(59,130,246,.1);">

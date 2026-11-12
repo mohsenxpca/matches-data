@@ -803,7 +803,7 @@ def assemble_full_html(art, topic, internal_links):
     photos = pick_article_photos(topic["pool"], art["title"])
 
     # 1. Image 0 (Hero Image - First image is eager loaded, others lazy)
-    img0_html = f"""<div class="separator" style="clear: both; text-align: center; margin: 20px 0;"><img border="0" data-original-height="675" data-original-width="1200" width="1000" height="563" src="{photos[0][0]}" alt="{html.escape(photos[0][1])}" title="{html.escape(photos[0][1])}" style="max-width: 100%; height: auto; border-radius: 8px;" /></div>"""
+    img0_html = f"""<div class="separator" style="clear: both; text-align: center; margin: 20px 0;"><img border="0" data-original-height="675" data-original-width="1200" width="1000" height="563" fetchpriority="high" src="{photos[0][0]}" alt="{html.escape(photos[0][1])}" title="{html.escape(photos[0][1])}" style="max-width: 100%; height: auto; border-radius: 8px;" /></div>"""
     img1_html = f"""<div class="separator" style="clear: both; text-align: center; margin: 20px 0;"><img border="0" data-original-height="675" data-original-width="1200" width="1000" height="563" loading="lazy" src="{photos[1][0]}" alt="{html.escape(photos[1][1])}" title="{html.escape(photos[1][1])}" style="max-width: 100%; height: auto; border-radius: 8px;" /></div>"""
     img2_html = f"""<div class="separator" style="clear: both; text-align: center; margin: 20px 0;"><img border="0" data-original-height="675" data-original-width="1200" width="1000" height="563" loading="lazy" src="{photos[2][0]}" alt="{html.escape(photos[2][1])}" title="{html.escape(photos[2][1])}" style="max-width: 100%; height: auto; border-radius: 8px;" /></div>"""
 

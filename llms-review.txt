@@ -5,7 +5,20 @@
 ## Core Hubs & Tools
 - [الصفحة الرئيسية — أحدث أخبار ومراجعات الهواتف](https://www.review-mobile.com/): تغطية يومية متجددة للهواتف الذكية والمعالجات وأنظمة التشغيل.
 - [مقارنة الهواتف راس براس](https://www.review-mobile.com/p/compare-phones.html): أداة مقارنة المواصفات الكاملة وتقييمات الأداء والشاشة والكاميرا والبطارية.
+- [أفضل موبايل لميزانيتك 2026](https://www.review-mobile.com/p/best-phone-for-budget.html): أداة ترشيح ذكية حسب السعر والاستخدام والشركة في مصر والخليج.
 - [دليل مراجعات الهواتف الكامل](https://www.review-mobile.com/p/mobile-reviews-hub.html): فهرس منظم لأحدث المراجعات حسب الماركة والفئة السعرية.
+
+## Budget & Category Guides (2026)
+- [أفضل موبايلات تحت 5000 و6500 جنيه في مصر](https://www.review-mobile.com/p/best-phones-under-5000.html): أرخص الهواتف الاقتصادية الرسمية في مصر والسعودية والإمارات.
+- [أفضل موبايلات تحت 10000 جنيه في مصر](https://www.review-mobile.com/p/best-phones-under-10000.html): أقوى ترشيحات الفئة الاقتصادية المتقدمة وتحت 750 ريال.
+- [أفضل موبايلات تحت 15000 جنيه في مصر](https://www.review-mobile.com/p/best-phones-under-15000.html): مراجعات وترشيحات الفئة المتوسطة القوية وتحت 1150 ريال.
+- [أفضل موبايلات للألعاب وببجي 90 و120 فريم](https://www.review-mobile.com/p/best-gaming-phones-egypt.html): هواتف الألعاب المزودة بالتبريد الفعال وشاشات 144Hz–185Hz.
+- [أفضل موبايلات للكاميرا والبطارية والشحن السريع](https://www.review-mobile.com/p/best-camera-battery-phones.html): هواتف كاميرات 200MP وبطاريات السيليكون كربون العملاقة.
+
+## Trust & Editorial Pages
+- [سياسة التحرير ومعايير المراجعة](https://www.review-mobile.com/p/editorial-policy.html)
+- [فريق التحرير](https://www.review-mobile.com/p/team.html)
+- [منهجية المراجعة](https://www.review-mobile.com/p/methodology.html)
 
 ## Categories (Brands & News)
 - [أخبار هواتف](https://www.review-mobile.com/search/label/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1%20%D9%87%D9%88%D8%A7%D8%AA%D9%81): أحدث الإعلانات الرسمية والتسريبات وتحديثات الأنظمة والمعالجات.

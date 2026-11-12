@@ -1192,9 +1192,10 @@ def main():
                             if cand_kind == "review"
                             else f'صورة تفصيلية توضح عتاد ومواصفات {html.escape(art.get("brand", ""))}')
             lead_img_html = (f'<figure class="rv-fig">'
-                             f'<img src="{p0}" alt="{html.escape(art["title"])}" width="1200" height="675" loading="eager"/>'
+                             f'<img src="{p0}" alt="{html.escape(art["title"])}" width="1200" height="675" fetchpriority="high"/>'
                              f'<figcaption>{lead_caption}</figcaption>'
-                             f'</figure>')
+                             f'</figure>'
+                             f'<p style="display:inline-block;background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;padding:4px 12px;border-radius:999px;font-size:13.5px;font-weight:700;margin:4px 0 12px">🔄 آخر تحديث: {today_str}</p>')
 
             second_img_html = ""
             third_img_html = ""

@@ -718,11 +718,11 @@ def live_box(m):
 def build_html(art, rows, img, related, team_imgs=(), real_img_url=None, live=None):
     e = html.escape
     if real_img_url:
-        first = f'<img src="{real_img_url}" alt="{e(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
+        first = f'<img src="{real_img_url}" alt="{e(art["title"])}" width="1200" height="675" fetchpriority="high" style="width:100%;height:auto;border-radius:12px">'
     elif team_imgs:
-        first = f'<img src="{team_imgs[0][0]}" alt="{e(team_imgs[0][1])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
+        first = f'<img src="{team_imgs[0][0]}" alt="{e(team_imgs[0][1])}" width="1200" height="675" fetchpriority="high" style="width:100%;height:auto;border-radius:12px">'
     else:
-        first = f'<img src="{PEX.format(i=img[0])}" alt="{e(img[1])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px">'
+        first = f'<img src="{PEX.format(i=img[0])}" alt="{e(img[1])}" width="1200" height="675" fetchpriority="high" style="width:100%;height:auto;border-radius:12px">'
     tbl = ""
     if rows:
         trs = "".join(f"<tr><td>{e(m['d'][5:].replace('-', '/'))}</td><td>{e(m['t'])}</td><td>{e(m['h'])} × {e(m['a'])}</td>"
@@ -951,11 +951,58 @@ ENTITY_HUBS = [
 ]
 
 
+def _ensure_first_img_lcp(html_out):
+    """Ensures the first <img> in server-rendered HTML has fetchpriority='high' without loading='lazy'."""
+    def _fix(m):
+        tag = re.sub(r'\s+loading=(?:"[^"]*"|\'[^\']*\'|[^\s>]+)', '', m.group(0), flags=re.I)
+        if not re.search(r'\bfetchpriority\s*=', tag, re.I):
+            if tag.endswith('/>'):
+                tag = tag[:-2].rstrip() + ' fetchpriority="high"/>'
+            else:
+                tag = tag[:-1] + ' fetchpriority="high">'
+        return tag
+    return re.sub(r'<img\b[^>]*>', _fix, html_out, count=1, flags=re.I)
+
+
+def _extract_pros_cons(html_out, art):
+    """Extracts clean pros/cons lists from explicit art keys or .rv-pros/.rv-cons HTML blocks."""
+    def _clean_items(val):
+        if isinstance(val, list):
+            return [re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', str(x))).strip() for x in val if str(x).strip()][:6]
+        return []
+
+    pros = _clean_items(art.get("pros"))
+    cons = _clean_items(art.get("cons"))
+    if not pros:
+        m = re.search(r'<div[^>]*class=["\'][^"\']*\b(?:rv|pp|ea)-pros\b[^"\']*["\'][^>]*>(.*?)</div>', html_out, flags=re.S | re.I)
+        if m:
+            pros = [re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', li)).strip()
+                    for li in re.findall(r'<li[^>]*>(.*?)</li>', m.group(1), flags=re.S | re.I)]
+            pros = [x for x in pros if x][:6]
+    if not cons:
+        m = re.search(r'<div[^>]*class=["\'][^"\']*\b(?:rv|pp|ea)-cons\b[^"\']*["\'][^>]*>(.*?)</div>', html_out, flags=re.S | re.I)
+        if m:
+            cons = [re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', li)).strip()
+                    for li in re.findall(r'<li[^>]*>(.*?)</li>', m.group(1), flags=re.S | re.I)]
+            cons = [x for x in cons if x][:6]
+    return pros, cons
+
+
+def _notes_item_list(notes):
+    return {
+        "@type": "ItemList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": idx, "name": txt}
+            for idx, txt in enumerate(notes, 1)
+        ],
+    }
+
+
 def _enrich_seo_html(html_out, art):
-    """Automatically injects Jump-to-Section IDs/TOC, Second-0 Entity Hub links, and JSON-LD Schema."""
+    """Automatically injects Jump-to-Section IDs/TOC, Second-0 Entity Hub links, LCP hint, and JSON-LD Schema."""
     if not html_out or not isinstance(art, dict):
         return html_out
-    out = html_out
+    out = _ensure_first_img_lcp(html_out)
 
     # 1. Second-0 Contextual Entity Hub Auto-Linker (up to 2 hub links inside <p> tags)
     linked_count = 0
@@ -1053,24 +1100,34 @@ def _enrich_seo_html(html_out, art):
         if clean_imgs:
             art_node["image"] = clean_imgs
         graph = [art_node]
-        if is_rev and art.get("kind") == "review" and isinstance(art.get("scores"), dict) and art.get("scores"):
-            vals = [float(v) for v in art["scores"].values() if isinstance(v, (int, float)) and 1 <= float(v) <= 10]
-            if vals:
-                avg10 = round(sum(vals) / len(vals), 1)
+        if is_rev and art.get("kind") == "review":
+            scores_d = art.get("scores") if isinstance(art.get("scores"), dict) else {}
+            vals = [float(v) for v in scores_d.values() if isinstance(v, (int, float)) and 1 <= float(v) <= 10]
+            pros_list, cons_list = _extract_pros_cons(out, art)
+            if vals or pros_list or cons_list:
+                rev_node = {
+                    "@type": "Review",
+                    "author": org_node,
+                    "datePublished": now_iso,
+                    "dateModified": now_iso,
+                }
+                if vals:
+                    avg10 = round(sum(vals) / len(vals), 1)
+                    rev_node["reviewRating"] = {
+                        "@type": "Rating",
+                        "ratingValue": str(round(avg10 / 2, 1)),
+                        "bestRating": "5",
+                        "worstRating": "1",
+                    }
+                if pros_list:
+                    rev_node["positiveNotes"] = _notes_item_list(pros_list)
+                if cons_list:
+                    rev_node["negativeNotes"] = _notes_item_list(cons_list)
                 prod_node = {
                     "@type": "Product",
                     "name": (art.get("phone_name") or art.get("title", ""))[:100],
                     "brand": {"@type": "Brand", "name": art.get("brand") or "هواتف ذكية"},
-                    "review": {
-                        "@type": "Review",
-                        "reviewRating": {
-                            "@type": "Rating",
-                            "ratingValue": str(round(avg10 / 2, 1)),
-                            "bestRating": "5",
-                            "worstRating": "1"
-                        },
-                        "author": org_node
-                    }
+                    "review": rev_node,
                 }
                 if clean_imgs:
                     prod_node["image"] = clean_imgs[0]

@@ -102,21 +102,45 @@ def page_html(p, updated):
 <tr><td><b>🇦🇪 الإمارات (دبي / أبوظبي)</b></td><td><b>{E(ae_txt)} درهم إماراتي</b></td><td>درهم إماراتي (AED)</td><td>متوفر في السوق الإماراتي</td></tr>
 </tbody></table></div>'''
 
+    prod_schema = {
+        "@type": "Product",
+        "name": f"{p['name']} ({p['ar']})",
+        "image": p["img"],
+        "brand": {"@type": "Brand", "name": p["brand"]},
+        "description": f"سعر ومواصفات {p['name']} ({p['ar']}) في مصر والسعودية والإمارات مع جدول النسخ وحاسبة التقسيط.",
+        "offers": [
+            {"@type": "Offer", "priceCurrency": "EGP", "price": str(low), "availability": "https://schema.org/InStock", "areaServed": "EG"},
+            *( [{"@type": "Offer", "priceCurrency": "SAR", "price": str(sa), "availability": "https://schema.org/InStock", "areaServed": "SA"}] if sa else [] ),
+            *( [{"@type": "Offer", "priceCurrency": "AED", "price": str(ae), "availability": "https://schema.org/InStock", "areaServed": "AE"}] if ae else [] ),
+        ]
+    }
+    if p.get("pros") or p.get("cons"):
+        rev_node = {
+            "@type": "Review",
+            "dateModified": updated,
+            "author": {"@type": "NewsMediaOrganization", "name": "ايجبتاوى", "url": "https://www.egyptaway.com"}
+        }
+        if p.get("pros"):
+            rev_node["positiveNotes"] = {
+                "@type": "ItemList",
+                "itemListElement": [{"@type": "ListItem", "position": idx, "name": str(x)} for idx, x in enumerate(p["pros"], 1)]
+            }
+        if p.get("cons"):
+            rev_node["negativeNotes"] = {
+                "@type": "ItemList",
+                "itemListElement": [{"@type": "ListItem", "position": idx, "name": str(x)} for idx, x in enumerate(p["cons"], 1)]
+            }
+        prod_schema["review"] = rev_node
     schema = json.dumps({
         "@context": "https://schema.org",
         "@graph": [
             {
-                "@type": "Product",
-                "name": f"{p['name']} ({p['ar']})",
-                "image": p["img"],
-                "brand": {"@type": "Brand", "name": p["brand"]},
-                "description": f"سعر ومواصفات {p['name']} ({p['ar']}) في مصر والسعودية والإمارات مع جدول النسخ وحاسبة التقسيط.",
-                "offers": [
-                    {"@type": "Offer", "priceCurrency": "EGP", "price": str(low), "availability": "https://schema.org/InStock", "areaServed": "EG"},
-                    *( [{"@type": "Offer", "priceCurrency": "SAR", "price": str(sa), "availability": "https://schema.org/InStock", "areaServed": "SA"}] if sa else [] ),
-                    *( [{"@type": "Offer", "priceCurrency": "AED", "price": str(ae), "availability": "https://schema.org/InStock", "areaServed": "AE"}] if ae else [] ),
-                ]
+                "@type": "WebPage",
+                "url": f"https://www.egyptaway.com/p/{p['slug']}.html",
+                "name": f"سعر {p['name']} في مصر والسعودية والإمارات اليوم",
+                "dateModified": updated
             },
+            prod_schema,
             {
                 "@type": "FAQPage",
                 "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq_list]
@@ -126,8 +150,8 @@ def page_html(p, updated):
 
     return f'''<div dir="rtl" class="pp">
 <p>سعر {E(p["ar"])} ({E(p["name"])}) في مصر والسعودية والإمارات النهارده: {lowtxt} <strong>{money(low)} جنيه مصري</strong>، وفي السعودية <strong>{E(sa_txt)} ريال سعودي</strong>، وفي الإمارات <strong>{E(ae_txt)} درهم إماراتي</strong>، بتاريخ {ar_date(updated)}. هنا هتلاقي سعر كل نسخة وأقل وأعلى سعر، والتقسيط الشهري، والمواصفات المهمة، والمميزات والعيوب قبل ما تشتري.</p>
-<figure style="text-align:center;margin:16px 0"><img src="{p["img"]}" alt="{E(p["img_alt"])}" width="600" height="600" style="max-width:100%;height:auto"/></figure>
-<div class="pp-box">{gulf_cards}<div class="pp-note">آخر تحديث للأسعار: {ar_date(updated)} · المصدر: <a href="{p["src"][1]}" rel="nofollow noopener" target="_blank">{E(p["src"][0])}</a></div></div>
+<figure style="text-align:center;margin:16px 0"><img src="{p["img"]}" alt="{E(p["img_alt"])}" width="600" height="600" fetchpriority="high" style="max-width:100%;height:auto"/></figure>
+<div class="pp-box">{gulf_cards}<div class="pp-note">🔄 آخر تحديث للأسعار: {ar_date(updated)} ({updated}) · المصدر: <a href="{p["src"][1]}" rel="nofollow noopener" target="_blank">{E(p["src"][0])}</a></div></div>
 {gulf_table}
 <h2>سعر {E(p["name"])} في مصر لكل نسخة</h2>
 <div class="pp-scroll"><table class="pp-t"><thead><tr><th>النسخة</th><th>{'السعر' if auto else 'أقل سعر'}</th><th>أعلى سعر</th><th>{'المصدر' if auto else 'أقل سعر عند'}</th></tr></thead><tbody>{rows}</tbody></table></div>
@@ -181,9 +205,18 @@ def hub_html(phones, updated):
     srcs = sorted({(c['b'], c['src']) for c in DATA.get('catalog', [])})
     src_html = ' · '.join(f'<a href="{u}" rel="nofollow noopener" target="_blank">{E(b)}</a>' for b, u in srcs)
     bopts = ''.join(f'<option>{E(b)}</option>' for b in brands)
+    hub_schema = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "أسعار الموبايلات في مصر والسعودية والإمارات اليوم",
+        "url": HUB,
+        "dateModified": updated,
+        "inLanguage": "ar"
+    }, ensure_ascii=False)
     return f'''<div dir="rtl" class="pp">
+<p style="display:inline-block;background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;padding:4px 12px;border-radius:999px;font-size:13.5px;font-weight:700;margin-bottom:8px">🔄 آخر تحديث للأسعار: {ar_date(updated)} ({updated})</p>
 <p>أسعار الموبايلات في <strong>مصر والسعودية والإمارات</strong> النهارده من المتاجر الكبيرة، محدثة بتاريخ {ar_date(updated)}. اختار الماركة والعملة والميزانية، وادخل على صفحة أي موبايل تشوف سعر كل نسخة بالجنيه والريال والدرهم والتقسيط الشهري والمواصفات. ولو محتار تشترى إيه، جرّب <a href="https://www.egyptaway.com/p/best-phone-for-budget.html"><strong>أداة اختيار أحسن موبايل لميزانيتك 2026</strong></a>.</p>
-<figure style="text-align:center;margin:16px 0"><img src="{HUB_IMG}" alt="أسعار الموبايلات في مصر والسعودية والإمارات اليوم محدثة يوميًا" width="1200" height="675" style="max-width:100%;height:auto"/></figure>
+<figure style="text-align:center;margin:16px 0"><img src="{HUB_IMG}" alt="أسعار الموبايلات في مصر والسعودية والإمارات اليوم محدثة يوميًا" width="1200" height="675" fetchpriority="high" style="max-width:100%;height:auto"/></figure>
 <div class="pp-tool">
 <p><label>ابحث: <input id="hb-q" type="search" placeholder="مثلًا A57 أو ريدمي أو iPhone"/></label></p>
 <p><label>الماركة: <select id="hb-b"><option value="">كل الماركات</option>{bopts}</select></label>
@@ -209,6 +242,7 @@ t.innerHTML=r.map(function(x){{return '<tr><td>'+(x.u?'<a href="'+x.u+'"><strong
 document.getElementById('hb-c').textContent=r.length+' موبايل';}}
 ['hb-b','hb-cur','hb-s'].forEach(function(i){{document.getElementById(i).onchange=draw;}});['hb-p','hb-q'].forEach(function(i){{document.getElementById(i).oninput=draw;}});draw();}})();
 </script>
+<script type="application/ld+json">{hub_schema}</script>
 {STYLE}'''
 
 

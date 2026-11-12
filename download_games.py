@@ -285,7 +285,7 @@ def assemble_game_html(art, game, internal_links, shots):
         ]
         img_urls.append(fallbacks[len(img_urls)])
 
-    img0 = f'<p><img src="{img_urls[0]}" alt="تحميل لعبة {name_ar} {name_en} 2026 للأندرويد" width="1200" height="675" style="width:100%;height:auto;border-radius:12px"/></p>'
+    img0 = f'<p><img src="{img_urls[0]}" alt="تحميل لعبة {name_ar} {name_en} 2026 للأندرويد" width="1200" height="675" fetchpriority="high" style="width:100%;height:auto;border-radius:12px"/></p>'
     img1 = f'<p><img src="{img_urls[1]}" alt="أسلوب لعب {name_ar} والجرافيكس على الموبايل" width="1200" height="675" loading="lazy" style="width:100%;height:auto;border-radius:12px"/></p>'
     img2 = f'<p><img src="{img_urls[2]}" alt="أطوار اللعب والمهام في {name_ar}" width="1200" height="675" loading="lazy" style="width:100%;height:auto;border-radius:12px"/></p>'
 

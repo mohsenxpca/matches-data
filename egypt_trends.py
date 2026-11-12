@@ -733,7 +733,7 @@ def main():
             text=src_text
         )
 
-        lead_img_html = f'<img src="{proxied_img}" alt="{html.escape(art["title"])}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px;margin-bottom:16px">'
+        lead_img_html = f'<img src="{proxied_img}" alt="{html.escape(art["title"])}" width="1200" height="675" fetchpriority="high" style="width:100%;height:auto;border-radius:12px;margin-bottom:16px">'
 
         # Interactive Callout & Summary Button
         summary_btn = ('<p><button type="button" onclick="this.nextElementSibling.hidden=!this.nextElementSibling.hidden" '
