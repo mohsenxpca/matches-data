@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.aol.com/articles/produced-kind-performance-moyes-loves-220848000.html",
-   "t": "Who produced the kind of performance Moyes loves? - player ratings",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'نيوكاسل', 'ايفرتون'}) مع تشابه نصي مع: أزمة جاك غريليش تثير الجدل قبل مواجهة نيوكاسل وإيفرتون)"
-   ]
-  },
-  {
-   "u": "https://www.youm7.com/story/2026/11/3/%D9%81%D8%A7%D8%B6%D9%84-97-%D9%8A%D9%88%D9%85%D8%A7-%D9%85%D9%88%D8%B9%D8%AF-%D8%B4%D9%87%D8%B1-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-2027-%D9%88%D8%A3%D9%88%D9%84-%D8%A3%D9%8A%D8%A7%D9%85-%D8%B9%D9%8A%D8%AF/7601963",
-   "t": "فاضل 97 يوما.. موعد شهر رمضان 2027 وأول أيام عيد الفطر فلكيا",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/3/تسريبات-تكشف-ميزة-غير-مسبوقة-فى-شاشة-Apple-الذكية-القادمة/7603076",
    "t": "تسريبات تكشف ميزة غير مسبوقة فى شاشة Apple الذكية القادمة",
    "title": "تسريبات تكشف ميزة كاميرا المراقبة فى شاشة Apple الذكية القادمة",
@@ -3376,6 +3358,26 @@
    "at": "2026-11-12T14:27:24.804716+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7177999",
+   "t": "خبير تكنولوجيا يكشف عن 4 قواعد ذهبية لحماية بياناتك من السرقة",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "الـ body 465 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حمايه', 'حسابك'}) مع تشابه نصي مع: واتساب يحذر: 8 إعدادات ضرورية لحماية حسابك من الاختراق)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1EMExQWHVxaG1wYVNRRHo4Nnlmdy01ZmtfOF85M0Z2cVJFUXVsb0taWk5TV1ZVY2xSLW9MemxTSmNuaVE?oc=5",
+   "t": "قرار عاجل من التعليم بشأن «التعريب» لطلاب البكالوريا بمدارس اللغات - جريدة الديار",
+   "title": "تفاصيل نظام البكالوريا الجديد للثانوية ومواد الامتحانات",
+   "url": "https://www.egyptaway.com/2026/11/egypt-education-baccalaureate-system.html",
+   "photo": "https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-12T14:50:32.263182+02:00",
+   "ok": true,
+   "type": "public_query"
   }
  ]
 }
