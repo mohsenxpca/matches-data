@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.wetter.com/news/wetterbericht-fuer-morgen-dienstag-3-november-2027-einzelne-schauer-im-norden-hochnebel-im-sueden-plus-schneeschauer-im-chiemgau-moeglich_aid_6ae833cf5c673e76b8061d43.html",
-   "t": "Wetter morgen am Dienstag: Einzelne Schauer im Norden, Hochnebel im Süden – Schneeschauer im Chiemgau möglich",
-   "at": "2026-11-02",
-   "ok": false,
-   "reason": [
-    "الـ body 441 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'تباين', 'اسبوع', 'حاله', 'طقس'}) مع: حالة الطقس في روسيا: بداية أسبوع بتباين واسع واقتراب الشتاء)"
-   ]
-  },
-  {
    "u": "https://www.skynewsarabia.com/sport/1901914-%D9%84%D9%8A%D9%84%D8%AA%D8%A7%D9%86-%D8%A7%D9%84%D8%B3%D9%87%D8%B1-%D9%88%D8%A7%D9%84%D9%83%D8%AD%D9%88%D9%84-%D8%BA%D8%B1%D9%8A%D9%84%D9%8A%D8%B4-%D9%88%D8%B1%D8%B7%D8%A9-%D8%A5%D9%8A%D9%81%D8%B1%D8%AA%D9%88%D9%86",
    "t": "ليلتان من السهر والكحول.. غريليش في ورطة مع إيفرتون",
    "title": "أزمة جاك غريليش تثير الجدل قبل مواجهة نيوكاسل وإيفرتون",
@@ -3374,6 +3364,15 @@
    "at": "2026-11-12T03:21:54.726464+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7177458",
+   "t": "جلسة جديدة وجعفر يتصدر المشهد.. أمير هشام يكشف كواليس تحركات رموز الزمالك",
+   "at": "2026-11-12",
+   "ok": false,
+   "reason": [
+    "الـ body 456 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
