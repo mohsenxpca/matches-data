@@ -554,15 +554,15 @@ def process_clean_image(img_url, slug, index, out_dir=IMG_DIR, phone_name="", su
             wm_file = WM_LIGHT if white_bg else WM_DARK
             if os.path.exists(wm_file):
                 wm = Image.open(wm_file).convert("RGBA")
-                canvas.alpha_composite(wm, (34, 675 - wm.height - 22))
+                canvas.alpha_composite(wm, (82, 675 - wm.height - 24))
             else:
                 d_wm = ImageDraw.Draw(canvas)
                 f_wm = _load_font(latin_font, 18)
-                d_wm.text((34, 636), "review-mobile.com", font=f_wm, fill=(100, 116, 139, 130) if white_bg else (255, 255, 255, 145))
+                d_wm.text((82, 636), "review-mobile.com", font=f_wm, fill=(100, 116, 139, 130) if white_bg else (255, 255, 255, 145))
 
             if clean_name:
                 d = ImageDraw.Draw(canvas)
-                text_x = 50
+                text_x = 92
                 text_y = 255
                 ink = (15, 23, 42, 240) if white_bg else (255, 255, 255, 245)
                 sub_ink = (100, 116, 139, 215) if white_bg else (226, 232, 240, 210)
