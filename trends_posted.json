@@ -1519,6 +1519,13 @@
    "at": "2026-11-12",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "تركيا ضد بلجيكا",
+   "at": "2026-11-12",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/turkey-vs-belgium-nations-league.html",
+   "title": "تفاصيل استعدادات منتخب بلجيكا لمواجهة تركيا بدوري الأمم"
   }
  ]
 }
