@@ -1495,6 +1495,18 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/saudi-super-cup-2026-kuwait.html",
    "title": "كل ما تريد معرفته عن كأس السوبر السعودي 2026"
+  },
+  {
+   "q": "بلاك بورد جازان",
+   "at": "2026-11-12",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "سعر الدهب اليوم",
+   "at": "2026-11-12",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
