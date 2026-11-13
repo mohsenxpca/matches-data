@@ -1,58 +1,6 @@
 {
  "done": [
   {
-   "title": "تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1GU251NzI1ZHNoR1JraUtWNmZxSDkwVExXdDVTVHFvLU80UTFueU1ZVnEzbHJ2MnBuYTdHUlZGbGx0MFBwZnlCZXUzbUJzS0pyZ09yQmMtY1RXcklYNGdnX2ZwQ09qUVZqRExqRUFuMENIaFVQRi13cWN3?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/iphone-18e-specs-price-expectations.html",
-   "at": "2026-11-04T15:12:41+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
-   "title": "Samsung UK drops prices of Galaxy S26 phones by £250, Z Fold8 price by £100 for Black Friday",
-   "url": "https://www.gsmarena.com/samsung_uk_drops_prices_of_galaxy_s26_phones_by_250_z_fold8_price_by_100_for_black_friday-news-75344.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phone 's26' already covered in: مراجعة Samsung Galaxy S26 FE: بديل أرخص لـ S26 2026"
-  },
-  {
-   "title": "Oppo smartphone with 12,000mAh battery gets certification",
-   "url": "https://www.gsmarena.com/oppo_smartphone_with_12000mah_battery_gets_certification_-news-75345.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (662 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "أفضل خلفيات هواتف أندرويد لهذا الأسبوع (4 نوفمبر)",
-   "url": "https://www.androidauthority.com/wallpaper-wednesday-november-04-2026-3730899/",
-   "post_url": "https://www.review-mobile.com/2026/11/best-android-wallpapers-november-4.html",
-   "at": "2026-11-04T18:43:28+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "هواتف 2027 قد تصبح أغلى ثمناً: سامسونج تخطط لرفع أسعار شاشات OLED",
-   "url": "https://www.androidauthority.com/samsung-oled-ram-price-increase-report-3731642/",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-oled-price-hike-2027.html",
-   "at": "2026-11-04T18:44:22+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "Oppo Find N7 officially confirmed to arrive in Europe",
-   "url": "https://www.gsmarena.com/oppo_find_n7_officially_confirmed_to_arrive_in_europe-news-75346.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (448 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "موتورولا تحيي سلسلة Moto One بهاتف خارق بمعالج Snapdragon 8 Gen 5",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPamFNS0piYlk3YnhXbkxZSHM3VVd2Yk9tblFHUERtSXpzRjZqRmF4SVJJVjVGVFI5ZllvU0s5SXhKc2xGUFAybGN5VUhTNjJTaHpDSExxOFFTaExXcVVCajAxMmhxT3Q1YUpJVmtBQjF3S1daNE1NM0ZaLUh5c1FQZ1Jfd1E4OFVRUEI1dE1BTXBPcm41cl9iU2s4MjV0NmRFa1FVRHJoX1J5eHc5MEN1Vw?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/motorola-reviving-moto-one-series-leak.html",
@@ -3384,6 +3332,53 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "Honor Choice T10 vs Blackview Zeno 6 Pro",
+   "url": "https://www.gsmarena.com/honor_choice_t10-15080.php||https://www.gsmarena.com/blackview_zeno_6_pro-15082.php",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": "Phone 't10' already covered in: مراجعة شاملة لهاتف Honor Choice T10: المواصفات، الأداء، السعر،"
+  },
+  {
+   "title": "Oppo A7 Pro vs Honor Choice T10",
+   "url": "https://www.gsmarena.com/oppo_a7_pro_5g-14928.php||https://www.gsmarena.com/honor_choice_t10-15080.php",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": "Phone 'a7 pro' already covered in: مقارنة Oppo A7 Pro ضد Infinix Smart 20 HD 2026: أيهما أفضل للشراء؟"
+  },
+  {
+   "title": "Oppo A7 Pro officially lands in Europe",
+   "url": "https://www.gsmarena.com/oppo_a7_pro_officially_lands_in_europe-news-75451.php",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": "Phone 'a7 pro' already covered in: مقارنة Oppo A7 Pro ضد Infinix Smart 20 HD 2026: أيهما أفضل للشراء؟"
+  },
+  {
+   "title": "Huawei's Osta sub-brand now has an official launch date",
+   "url": "https://www.gsmarena.com/huaweis_osta_subbrand_now_has_an_official_launch_date-news-75448.php",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (507 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Oppo Reno17 will have four 50MP cameras",
+   "url": "https://www.gsmarena.com/oppo_reno17_will_have_four_50mp_cameras-news-75447.php",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
+  },
+  {
+   "title": "لماذا لا تحذف تطبيقات سامسونج المكررة؟ سر يفيدك",
+   "cand_title": "Your Galaxy phone’s duplicate apps could be more useful than you think",
+   "url": "https://www.sammobile.com/news/your-galaxy-phone-duplicate-apps-more-useful-than-you-think/",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-duplicate-apps-useful.html",
+   "at": "2026-11-13T03:08:13+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
