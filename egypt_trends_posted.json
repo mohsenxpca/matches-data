@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.vetogate.com/5753111",
-   "t": "موعد أذان المغرب اليوم الثلاثاء \"﻿23 جُمادى الأولى\" في القاهرة والمحافظات",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 309 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.vetogate.com/5752496",
    "t": "موعد أذان المغرب اليوم الاثنين في القاهرة والمحافظات",
    "at": "2026-11-03",
@@ -3387,6 +3378,16 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 1",
     "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'موظفين', 'رسميه', 'اجازه', '2027'}) مع: تفاصيل أول إجازة رسمية للموظفين في مصر لعام 2027)"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/13/إصلاحات-لا-تصمد-عطل-Microsoft-يربك-Outlook-وCopilot-عالميًا/7616810",
+   "t": "إصلاحات لا تصمد.. عطل Microsoft يربك Outlook وCopilot عالميًا",
+   "title": "عطل Microsoft يربك Outlook وCopilot عالمياً لأكثر من 15 ساعة",
+   "url": "https://www.egyptaway.com/2026/11/microsoft-outage-global-impact-2026.html",
+   "photo": "https://images.pexels.com/photos/30651230/pexels-photo-30651230.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-13T13:36:46.853429+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
