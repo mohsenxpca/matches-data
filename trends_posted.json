@@ -1631,6 +1631,24 @@
    "at": "2026-11-13",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "الهداف التاريخي لمنتخب مصر",
+   "at": "2026-11-14",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "عقوبة",
+   "at": "2026-11-14",
+   "ok": false,
+   "why": "off-topic"
+  },
+  {
+   "q": "سلوفينيا ضد سويسرا",
+   "at": "2026-11-14",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
