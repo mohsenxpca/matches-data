@@ -1,74 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung UK drops prices of Galaxy S26 phones by £250, Z Fold8 price by £100 for Black Friday - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQndKZ0VKZ19TeHNCQWtfUV82SFB1TUhPamI4dUU2VHFPUkZiZUlMX3NCeEtyU0hDbVdDOUtmQzIzbDVwdS1rVFBYQl9PbFdOYXlOdmxvQ3ByQktYUUZQa0tvMGctRndWN2g4bWZGSzZwSnJOemZPWFRKTDg2QmZ0bnBTUG9Ed0dNNnlqWllrNTJNUWVvUTByVDdoNUpjZHlFdHlGQ2QxQnB4dG1YVGMxVTI1aGhZcV8yRm1vZERFUUgzYUxkT1kxY9IBxAFBVV95cUxOcnNjUnBBOGNVdGtUa1B4MUlscWNfeUtBZUNSMHlncDBpRXZnZ2RwamdUalR0RkJycE5iOHpmWWZVVjZKbVpuekQ5cnBNWXd0QlBjM3pjNnVXUGNyUjhUblhVVTRNMGI4UzZRZFl6eUlwV3BScEtQM2lCWWh0NUhQM0NuMGtFOTg4S0ppRkxyV1pKSlVPM2xvX0RrVlBhWDV0OWFkQmR0RDN4cmhEQ1F0d0dlTExrVG95M0l4eVl5ZFVBQTJR?oc=5",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": "Phone 's26' already covered in: مراجعة Samsung Galaxy S26 FE: بديل أرخص لـ S26 2026"
-  },
-  {
-   "title": "هاتف Enough Phone الجديد: عودة البطارية القابلة للإزالة وحجم مدمج",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWUFYdXdVZl96RGEtZXVzbXFyVEZWNmlYVkVjdmhxTzVaRnpiZUR4M3BFYlowb2R5YkpTZW4xNFBMR1BmZ3RPSHFBQlVmRmhLaWM1X043ZnRmdGJwTVpqWmVESmEzNjl1UlZsMWxjd2NERllFTUhqazF4NkRMVDBzQks4bXVoRlJpcU8tekZqQkhYNVVJMVljNFc2UmJhMVVZZzJyQzRRV1RDenVrNDFEWlJNRGxvcmM?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/enough-phone-removable-battery-small.html",
-   "at": "2026-11-05T01:31:42+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
-   "title": "شاومي تطلق Mijia Smart Waist Massager 2 بتدفئة مزدوجة",
-   "url": "https://www.gizmochina.com/2026/11/04/xiaomi-mijia-smart-waist-massager-2-launched-specs-price/",
-   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-mijia-smart-waist-massager-2.html",
-   "at": "2026-11-05T01:57:02+02:00",
-   "ok": false,
-   "kind": "news",
-   "brand": "شاومي",
-   "reverted": true
-  },
-  {
-   "title": "تحديث ColorOS 17 يصل لهاتف Oppo F35 Pro بمزايا ذكاء اصطناعي",
-   "url": "https://www.gsmarena.com/oppos_new_f35_pro_gets_the_coloros_17_update-news-75347.php",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-f35-pro-coloros-17-update.html",
-   "at": "2026-11-05T02:28:21+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اوبو"
-  },
-  {
-   "title": "شاومي تدخل سباق الهواتف ذات الشاشات العريضة بتصميم فريد",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlVocTVtYklwbHRWc0hLdHgtLUlOeG8wQnV3bTBlWjduNjBvRFVOeXM3dkVlak1OV3RaaVJ5WGZoWkVjcklndVozS3J5bFBuc3VHRFFlUmN4MHpIamJVaXV2LXJEdVFjbkdXNHBKaEtaM29OcHI1NTdnak81NVMtVXQ0UEIwbFpncFBKLTBzM1MxVlVVMmQ3c1NPQTA2SDA5dXBjUHZR?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-wide-screen-candybar-smartphone.html",
-   "at": "2026-11-05T02:58:13+02:00",
-   "ok": false,
-   "kind": "news",
-   "brand": "شاومي",
-   "reverted": true
-  },
-  {
-   "title": "Honor Magic9 Pro Max in for review - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44MlBka2swUmtUb1JHcGdFVUNQSlpWN2lKRVI4LUI2anVaV1ozclpFb0JiTEgydDdTMEVRUW9XVmxlQXl2WFRnLV8xaktQSDNjLXJVenowVHRvY2l0Q0tqdkUyVmZzakRGN3BtZmV1SmZtN3R6Z2lsV2NnNW9EVGPSAXtBVV95cUxOb0pSb2s2SFVBTXJWYTRMZG1RbGkyUUMzYlZtTjdkUDVzczlNQ2Y5dTRBYW9ZLWh2bF9PUGxhdVBVc2VoOE16YlFPcnRtMEpmSmdLZ285Wk8ydjc3bklaYi10RDJyeGxwVHdJX0lSTnpENkhnb2hLV2hLNWM?oc=5",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": "Phrase [pro max] found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
-  },
-  {
-   "title": "Russia’s Foreign Intelligence Service Hackers Inject JavaScript To Steal iPhone And Android Data: 8 outlets compared - NewsCord",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQV3JaRkxJRnJsTzFHTVY1eWJHY2tmZ3VxaEF3LXdQUWl1TGlzLVUwWDNZSFotVFJVaVlUd1owdnQ4X2ZwWXZZTEtPZTNJR2s3ZURqQU1mYWdZRXlyaC1PVV9OWjdna19EdXVFVlZfdW8xUUVpOFpaR2dUNDBic2Y1RzZLNnNfRm43Z2puLVBrZ0xCQjRVMWFpQkFoSFNjRzhISnN0X0p0S3Fqa0QxNHI3Y0FGc2M3bGxEdkVvam1WaE9FamdoTWhsdGVXZ1VpZHZELVpjV1RIbmdfODVHZm5DQ05qaVI0bmJRMXc?oc=5",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (608 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Oppo Find X9 Ultra",
-   "url": "https://www.gsmarena.com/oppo_find_x9_ultra-14548.php",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": "Phrase [oppo find] found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
    "title": "Xiaomi tipped to be working on a wide-screen candybar smartphone - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlVocTVtYklwbHRWc0hLdHgtLUlOeG8wQnV3bTBlWjduNjBvRFVOeXM3dkVlak1OV3RaaVJ5WGZoWkVjcklndVozS3J5bFBuc3VHRFFlUmN4MHpIamJVaXV2LXJEdVFjbkdXNHBKaEtaM29OcHI1NTdnak81NVMtVXQ0UEIwbFpncFBKLTBzM1MxVlVVMmQ3c1NPQTA2SDA5dXBjUHZR0gGiAUFVX3lxTE1kaWtUVmhtaEJ6VkZuczdvX3BkZHhEZ3FyOVp6MXJxNXBXOVROazZKcWx2TTZwS0c4UGgtZVR3UVRnRFFBc1NUVzVSRDNwQ291MkFZNW5UaG1VbEFjMm9KZW93M0FZWFlILVROemMxMl9ydnVBam5WWGdLdG5kcEFRNElGTlNWbkk1TlZBay1YNnp1aXdjNTdnTE9XbjBDYWJaQQ?oc=5",
    "at": "2026-11-05",
@@ -3363,6 +3295,65 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "Huawei Mate X8 now has a rumored launch date",
+   "url": "https://www.gsmarena.com/huawei_mate_x8_now_has_a_rumored_launch_date-news-75463.php",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
+  },
+  {
+   "title": "Oppo confirms the Reno17 Pro's main camera and the chipsets powering it and the Reno17",
+   "url": "https://www.gsmarena.com/oppo_confirms_the_reno17_pros_main_camera_and_the_chipsets_powering_it_and_the_reno17-news-75462.php",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
+  },
+  {
+   "title": "Samsung Galaxy A18 5G gets Bluetooth certified - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLWE2V1h3VTNDRThKSnVvdEZLRHNaVGs0X1BPOTJUYzdZNTNyZFJPUmVfX1Y0M3ZJdGxjazFnQjNIcWVWc21OSEU5eDRFY09RYVFscHdyemg1TFUwekxISnFPVjcyYmZQQ19oellCRy1OWVl1U2t5VGVmazIyazFCb1NLYVktSVNt0gGEAUFVX3lxTFB3Sy1xNnlnWV9QemNGeVhsZWZoQTU4ZmF4RjVpbVJpbDduOGROYjRVaHB6UlhXWk9NSmtTTmpnMGc4LXpsTEg3R3I4TFFKNHoxZi0yMTJDd1NJcWg3M0lGWWxTZkczUlNjY0FLeDUyWG9jOU5nUmFEODhxb2hfbEZpcFpoVQ?oc=5",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['certified', 'galaxy', 'bluetooth']"
+  },
+  {
+   "title": "Xiaomi 18 Pro gets one step closer to launching in India - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMGVOeTNzX2xsZ2Z2TkhxUzU5UllrV1BPX1dqZWZCRmUzYndVbEVBMHNuRnhHd3gyWWJKRGxPNk0wcjlSZ2o5QUE0dW03ZVNIb0dHVkEzU1NhZU9sQjFwZHJCa293QXpQWlA1N1lacFhpNm1tR0VPTElzbzU0Z2dWZXg2eHhGdk96bkNmb0Jsd3JmVXY4VXV3MW5rN0vSAZgBQVVfeXFMUGpwcE9JcmV1RFkweWNIRTE4OGlKenB2eWNZblh2Vmx5eEFnVnpja29UZGZiYk1ua2Jaak43emRKdkJEcmFySm1rT0pqb0sySHN1dTlmWFMyMlVGOS1BcXE3RnJBMF9LeHY4MWV2b3ljZkNRQWdRYlZJNmFOM3Z6VWdTN1RIc2djZENha3pLeVlCMjJDUUJPekw?oc=5",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['step', 'closer', 'launching']"
+  },
+  {
+   "title": "Oppo confirms the Reno17 Pro's main camera and the chipsets powering it and the Reno17 - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaFpFenY2QVBpR042TnVFZkxBTENuS2xPaDU2Tks4VWdFUEphLU5uQnRvemUzWXBfOVF0M3pWZ0dSZHV2WFdlbW5VMGF4Vkt4SUtnajBYZXBpUGFXVjNEZUx2Z3I0X1M0aks5QkZDMHBhYmd5bEx5Q2JBVVRHUUhTM2ZoR1FtRjc0ZjNnb0x2cWdBbjQybS1pRi14dGRvNTV4UU9Zc0Riak0tbVExc1ZFRk5zcTc2NzhUWXVtcF9wV3p3Y2PSAb8BQVVfeXFMT1ZITnpkWUdEXzZTaEduMEdndkJEOURBeDRwOXhJem94R0E5cVBLOU9hM3pINlpnb3lCQVBRUjNMNkVScjJiWlJ0OEhxQnY0bUNORHh0dk1JZVZObW9EZUppRFBoT0hhSUtpbEdiV3oyRXJwYnh1NjJCcXNJdGJQMzlqalV4aU5RNmtvRmZVazJXTU96T1JsUHZhN0d2R083eGQ2Q01xVlBfbXdaSTJBaWpGeDlIal9zODNjM1dzUms?oc=5",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['chipsets', 'reno17', 'powering', 'main']"
+  },
+  {
+   "title": "Oppo's pocket gimbal camera said to debut this year, wide-foldable also coming soon - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdjFBTXF6eDZhLWpJUlNvb2hSalBMQktYYjhON1hPZGFhcGdlV3plN0ZSQmUtbnlMVVluOU1JZ21lVG13MDU1QnpWMGUzZ2V5UzNsSlFZYUM0MFdDcFNiWlhnbTF0Y2F3M2l6SnlGNjF1b1ZFbkNGazVBN2ZwLVRnbkFPaTVIZThETWUtWFh0LUptMko1VWRPc1JkcS1WV1gycTZOaDRGWGpEenhOaGJfT3ZON052XzAycmlFbtIBuAFBVV95cUxNUi1qcFRlX3lKMGNNaU1ESkp3SmZZWTNCbldKa0tnaWtHX3dJLUVTNE5Xel9LVXF6YzJmcWQ4UVVIT1hlYVlkVkZNUl82NnI4OFJtOXkxY1IxU1JwamI5elNhbXhvM19DWE1jalRtTjBfeEI0TXhJVzg1clFNeVJ3YU5LRW0wS2JyMzZ0N0REV2dSV1V4eWloYU8tUHRWcmNVSkJaYnlPQWh1SE5kZ2kxLUFBRmVPcWNU?oc=5",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['year', 'coming', 'wide', 'soon']"
+  },
+  {
+   "title": "Huawei Mate X8 now has a rumored launch date - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ0RwVnprWldNc1EtRGp1UjV5V2ZtdnFYQW00LVlxVEYtbHk3MUlWVXBZUVU1d0stSEVpWTVxNW5NY1YzV0ZhZkRoSFFSNElZRks0Q0E5Zk5ieU9WcGctTXdPZjVTSFBtOEE2V0YzbktBNXRPWHJ2QWR6ZVdnaGpOM1NIS1AzeWUyZ2xPMdIBiAFBVV95cUxNUGNVUUhwSEhCQ192ak1qUi01eE5MMUdoV3RjS3JzV3hMWXFOVlpRbzB6b29mT3p3cFRWa2JUQ3E2UWV2a2w4TzVoNXBxNVVuRnNoRzlwUnBadVlqanFEbEhaamFuelVxb1Fib0tYUk5fVEpLakpCSThtYmxRUEVxVHRONVhFc3lu?oc=5",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
+  },
+  {
+   "title": "تفاصيل vivo X500s المسربة: هل يغير قواعد أداء الهواتف الرائدة؟",
+   "cand_title": "New details about the vivo X500s surface - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZW5yeUZJb2FZcXRaVmVHejJJbG9lVk1PY2dSaEdXWTFsaGdjM0dJTnlDTVNUTUhXN3NpMmU3Mm0wUkNkMzNOd2E2VlhsRzhjbzhhdUZsWnlNLV8xRnhaaEgzdUVtSTlXX3RtWHBlbmN2eXFyT1g5eEZEdzB5MzFYQWN6U1ZjU0XSAYMBQVVfeXFMTmhHMktpQnVBUTdhUGxoZXdzLVJPcUItQVQtT2VCeF9ESUgwWjJDMUgwVV9MalBVQmhoR2dHOFdqUm1RYlNQRW9DZ2hyVGVMUEI1cWNJVzNubmtqdkRldGZWRDQ1dEJUTVRDeVZMb0NaSElnNFktRDVsYkxSb3ZVSWlNU1k?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/vivo-x500s-leaked-specs-analysis.html",
+   "at": "2026-11-14T01:22:56+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "فيفو"
   }
  ]
 }
