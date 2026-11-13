@@ -813,6 +813,40 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/railway-security-breach-ai-charges.html",
    "title": "اختراق ضخم يضرب منصة Railway وسرقة بيانات حساسة"
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+   "t": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+   "at": "2026-11-13",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/nectar-creator-agent-launch.html",
+   "title": "منصة Nectar تطلق مساعد ذكي لتسويق المؤثرين"
+  },
+  {
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+   "t": "Google’s new Gemini model is better at understanding complicated questions",
+   "at": "2026-11-13",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+   "t": "Norwest pushes deeper into AI with new $4B fund",
+   "at": "2026-11-13",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+   "t": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+   "at": "2026-11-13",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/family-link-settings-kids-gemini/",
+   "t": "Family Link can't stop Gemini from doing your kid's homework, but 5 settings make it harder",
+   "at": "2026-11-13",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/google-family-link-gemini-settings.html",
+   "title": "كيف تحصن أطفالك من استغلال Gemini فى الواجبات المدرسية"
   }
  ]
 }
