@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://holanews.com/las-muertes-por-impacto-fisico-en-el-campo-poco-habituales-entre-los-futbolistas/",
-   "t": "Las muertes por impacto físico en el campo, poco habituales entre los futbolistas",
-   "title": "تفاصيل وفاة اللاعب خيسوس دي ميغيل الصادمة في الملاعب",
-   "url": "https://www.egyptaway.com/2026/11/jesus-de-miguel-death-details.html",
-   "at": "2026-11-03T13:26:27.595926+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.masrawy.com/news/news_economy/details/2026/11/3/3072955/%D9%83%D8%AC%D9%88%D9%83-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-3-5-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%88%D8%AD%D8%AF%D8%A9-%D8%B9%D9%82%D8%A7%D8%B1%D9%8A%D8%A9-%D8%B9%D8%A8%D8%B1-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%84%D9%87%D8%A7%D8%AA%D9%81-%D8%AE%D9%84%D8%A7%D9%84-120-%D9%8A%D9%88%D9%85%D8%A7-",
    "t": "كجوك: تسجيل 3.5 مليون وحدة عقارية عبر تطبيق الهاتف خلال 120 يوماً",
    "at": "2026-11-03",
@@ -3386,6 +3377,16 @@
    "at": "2026-11-13T05:05:33.066622+02:00",
    "ok": true,
    "type": "nation"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/13/علامات-تدل-على-أن-تطبيقًا-ما-قد-يكون-ضارًا-كيف/7615459",
+   "t": "علامات تدل على أن تطبيقًا ما قد يكون ضارًا..كيف تحمي هاتفك من التطبيقات المشبوهة؟",
+   "title": "علامات تدل على تطبيق ضار.. كيف تحمي هاتفك الذكي؟",
+   "url": "https://www.egyptaway.com/2026/11/how-to-protect-phone-from-harmful-apps.html",
+   "photo": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-13T07:02:56.658255+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
