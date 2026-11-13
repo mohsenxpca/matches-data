@@ -1,43 +1,6 @@
 {
  "done": [
   {
-   "title": "I tested the iPhone 18 Pro’s and Pixel 11 Pro’s photo styles, and there’s a clear winner - Android Authority",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNnFfWi1GRk9RRXF4TGwzb1hraklLX2pabjA2QnNXRXpGbzdfLUprNTJaTEY2ZTVObzZXbTBFc0I5ajRSRGpwNl9YTHZDLXptc24tc2I0aFJyS3Yzcm1TSXVlbkdWNXlMamE2RzZyQV9zRHFHQUVDUlNMUEFZVnA4bEc5dWt2c1BEOXpocjRuMHJXRXBrT3BHRG1mS2dITFJUeFlxOHNn?oc=5",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phone 'pixel 11 pro' already covered in: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
-  },
-  {
-   "title": "My first Snapdragon 8 Elite Extreme Gen 6 phone doesn't live up to the hype - Android Authority",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTkFqOWJKQ080RE94bVpOUXBnaXVycGJOeUphXzY0a2Z1STZrTENzcHFvSFV5cE1uVDJQdmZuX0NsRS1DRkVNWXdNWU90Q2lhX0lmYkNrRWYxTnZ6QmR3UEsyMWg1SFdxdFVUSUUwazZuV2ZFc0kzSlg1cjQ3cy01Qw?oc=5",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phone 'snapdragon 8' already covered in: مراجعة OnePlus 16 قبل الإطلاق: Snapdragon 8 Elite Extreme وشاشة 185Hz"
-  },
-  {
-   "title": "vivo V80 FE",
-   "url": "https://www.gsmarena.com/vivo_v80_fe-15061.php",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Model code [v80] found in review: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
-  },
-  {
-   "title": "Xiaomi unveils the HyperOS 4 update rollout schedule - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRURmWThvUTRCU0FYd0xpSWhnTHd2TmJYUkhCVHFwWDYwZ3pOcmhleHVqWDNsN2R6ZjF4dExUX1UyZHZuZWJSelJIU3B4ZVBma2hJUDVuX29hNU5uZjZxQngwbld5NVZERnl3anRPQ0RjLUl0dDV5ZjUzM1kyTWZnSFJVZER1R0JKSWNfbEFMOV9NblHSAY8BQVVfeXFMUEQ2T3E2bHY0U093M0tXVFdnOS05LVRxalFSbDJ5aWZ2Mnl0MzFSSmVTYVFKOVJkeFo4NThaOTFyRE5PNTlzcUFUUHJUY3VvQk5JeUtwWVNQTTYtS3NwUlhGU3IxanJaQ1pzWGw3N1ZIcjEzOW9EWmxTaHp5aVdYOU9mbzdpYXFzUUYwLWJvX0U?oc=5",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (542 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Redmi Turbo 6 Max screen details leak, this could turn into the Poco X9 Pro Max - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSFdhMW5xZ0w4SGJKMGl6ZHBmc3p4TldSakh5ZUxURkE5TkFFQ0lBcnZrVVFrWmIyaXJta014a3dCNkl5dHFxVFlXZ1FmTzhPTjF6OE9HSjhGczZSZC0zRDB0ZWo0cS1wLTdpMU1RU0J2c0pVZ1EyNlNKelJWVDdyVUFQX1RXV09TX3p1MENxcHJsZWtqbFRCWTltSUtQdmk0amE4V29vSVRUSmVfT0pBaldEZC0xNUFJZnfSAbYBQVVfeXFMTTZQSkJidG5lTEVlc21oaF9rNWJKTzk4b1lfQ1NyUFFQbW10bEp2UWd4T0ZYTnBaaGV4WTFObVBZQ1pvMjBwTWMyTTRMbDZreEFTcWw5bkNKd0dRRWRMUUMzbzJra1dpVC14VG9la3BzMmIwSVItZEo3X09HNlF3SmtLNTZLeWdLQ25KTmZmY1N2TENhXzc4N1JpQ2RQYzRVaTdXLUFWWlRySXpXT0JzUHpjUk5lWWc?oc=5",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phone 'turbo 6 max' already covered in: Redmi Turbo 6 Max: وحش بطارية بسعة 11,000 مللي أمبير قادم"
-  },
-  {
    "title": "تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1GU251NzI1ZHNoR1JraUtWNmZxSDkwVExXdDVTVHFvLU80UTFueU1ZVnEzbHJ2MnBuYTdHUlZGbGx0MFBwZnlCZXUzbUJzS0pyZ09yQmMtY1RXcklYNGdnX2ZwQ09qUVZqRExqRUFuMENIaFVQRi13cWN3?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/iphone-18e-specs-price-expectations.html",
@@ -3377,6 +3340,50 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Vivo X500s tipped to feature 64MP periscope camera, Dimensity 9-series chip",
+   "url": "https://www.gizmochina.com/2026/11/12/vivo-x500s-64mp-periscope-dimensity-9-series-chip/",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (564 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Analysts: Samsung held two-thirds of the global foldable market in Q3, thanks to the Z Fold8",
+   "url": "https://www.gsmarena.com/analysts_samsung_held_twothirds_of_the_global_foldable_market_in_q3_thanks_to_the_z_fold8-news-75455.php",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (568 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Canceled Oppo Find X10 Ultra's screen and cameras may live on in the Find X11 Pro Max",
+   "url": "https://www.gsmarena.com/canceled_find_x10_ultras_screen_and_cameras_may_live_on_in_another_oppo_pro_max-news-75457.php",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (619 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Honor Magic9 Pro Max's Malaysia launch date announced",
+   "url": "https://www.gsmarena.com/honor_magic9_pro_max_malaysia_launch_date-news-75453.php",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": "Phone 'magic9 pro max' already covered in: هاتف Honor Magic9 Pro Max يقتبس كاميرات هوليوود"
+  },
+  {
+   "title": "حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد",
+   "cand_title": "A seller in China has started taking blind pre-orders for the vanilla Xiaomi 18",
+   "url": "https://www.gsmarena.com/a_seller_in_china_has_started_taking_blind_preorders_for_the_vanilla_xiaomi_18-news-75452.php",
+   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-18-blind-pre-orders-china.html",
+   "at": "2026-11-13T02:51:59+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "شاومي"
   }
  ]
 }
