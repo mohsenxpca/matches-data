@@ -1584,6 +1584,18 @@
    "at": "2026-11-13",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "عيار 21",
+   "at": "2026-11-13",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "القنوات الناقله لمباراه مصر اليوم",
+   "at": "2026-11-13",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
