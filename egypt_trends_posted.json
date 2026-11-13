@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/3/مشتريات-المصريين-من-الذهب-تهبط-لأقل-مستوى-في-5-سنوات/7604380",
-   "t": "مشتريات المصريين من الذهب تهبط لأقل مستوى في 5 سنوات.. ما السبب؟",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 451 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://kirolakeitb.eus/es/futbol/competiciones/otras-competiciones/2026/11/03/suspension-copa-rey-muerte-jesus-miguel/",
-   "t": "La RFEF suspende los partidos de Copa del Rey y de la Reina, por la muerte del jugador del Tenerife Jesús de Miguel",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 275 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://holanews.com/las-muertes-por-impacto-fisico-en-el-campo-poco-habituales-entre-los-futbolistas/",
    "t": "Las muertes por impacto físico en el campo, poco habituales entre los futbolistas",
    "title": "تفاصيل وفاة اللاعب خيسوس دي ميغيل الصادمة في الملاعب",
@@ -3384,6 +3366,26 @@
     "الـ body 428 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'مصر', '2027'}) مع تشابه نصي مع: تفاصيل أول إجازة رسمية للموظفين في مصر لعام 2027)"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/13/هل-إغلاق-التطبيقات-المفتوحة-يوفر-البطارية-فعلًا-حقيقة-شائعة-بين/7615438",
+   "t": "هل إغلاق التطبيقات المفتوحة يوفر البطارية فعلًا؟ حقيقة شائعة بين مستخدمى الهواتف",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 20",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'تطبيقات', 'عبر'}) مع تشابه نصي مع: تحذير عاجل من شعبة الذهب بشأن الشراء عبر التطبيقات الإلكترونية)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DNmhMSDZZcUZZeEZRTjVieGlJWW8wampuQ0NTVDhYeVRDcF95OFQyc2JycVdHOThXdE8tUUNKZ3NnN3U1czQ2aVpmM2QwVTBuOVFaRnZGWXNwR19SX2Iw?oc=5",
+   "t": "4 بيانات رسمية من وزارة النقل بشأن حادث قطار الإسماعيلية (تفاصيل) - المصري اليوم",
+   "title": "تفاصيل حادث قطار الإسماعيلية السويس وقرارات وزير النقل",
+   "url": "https://www.egyptaway.com/2026/11/ismailia-suez-train-incident.html",
+   "photo": "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-13T05:05:33.066622+02:00",
+   "ok": true,
+   "type": "nation"
   }
  ]
 }
