@@ -1596,6 +1596,23 @@
    "at": "2026-11-13",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "مباريات اليوم",
+   "at": "2026-11-13",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "تونس ضد ليبيا",
+   "at": "2026-11-13",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "filgoal",
+   "at": "2026-11-13",
+   "ok": false
   }
  ]
 }
