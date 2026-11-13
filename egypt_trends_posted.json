@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "u": "https://turkish-football.com/okan-buruk-finalizes-lineup-as-galatasaray-target-fifth-straight-win-against-vfb-stuttgart/",
-   "t": "Okan Buruk Finalizes Lineup as Galatasaray Target Fifth Straight Win Against VfB Stuttgart",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 3، 5",
-    "الـ body 377 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (نسبة تطابق مرتفعة مع مقال منشور: تشكيل برشلونة الرسمي لمواجهة ديبورتيفو ألافيس في الدوري الإسباني)"
-   ]
-  },
-  {
-   "u": "https://www.formula1.com/en/latest/article/f1s-youngest-world-champions-as-antonelli-smashes-the-record.4otUr4h4wmWd6VmIEaNjzV",
-   "t": "F1’s youngest World Champions as Antonelli smashes the record",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 453 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في 7 كيانات جوهرية ({'فورمولا', 'عالم', 'تاريخ', 'بطل', 'اصغر', 'انطونيلي', 'كيمي'}) مع: كيمي أنطونيلي أصغر بطل للعالم في تاريخ الفورمولا 1)"
-   ]
-  },
-  {
    "u": "https://www.the-race.com/formula-1/why-antonellis-rejecting-1-for-2027-f1-season/",
    "t": "Why Antonelli's rejecting #1 for 2027 F1 season",
    "at": "2026-11-03",
@@ -3390,6 +3369,24 @@
    "ok": false,
    "reason": [
     "الـ body 434 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/13/3078220/%D8%B3%D9%8A%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%8A%D8%AD%D9%82%D9%82%D9%86-%D9%81%D9%88%D8%B2%D8%A7-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A7-%D8%B9%D9%84%D9%89-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%B2%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%88%D9%84%D8%A9-11",
+   "t": "سيدات الأهلي يحققن فوزاً جديداً على حساب زد في الجولة 11",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": [
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/13/3078222/%D9%85%D9%81%D8%A7%D8%AC%D8%A3%D8%A9-%D8%B9%D9%85%D9%88%D8%AA%D8%A9-%D9%84%D8%A5%D9%85%D8%A7%D9%85-%D8%B9%D8%A7%D8%B4%D9%88%D8%B1-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84",
+   "t": "مفاجأة عموتة لإمام عاشور قبل مواجهة بيراميدز.. تفاصيل",
+   "at": "2026-11-13",
+   "ok": false,
+   "reason": [
+    "الـ body 477 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
