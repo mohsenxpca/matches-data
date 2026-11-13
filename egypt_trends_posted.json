@@ -1,35 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.formula1.com/en/latest/article/gallery-the-best-images-from-antonellis-title-celebrations.3c1keK7GIQDiP4ylcXr6Ox",
-   "t": "The best images from Antonelli's title-winning celebrations",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 4",
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'بطل', 'عالم', 'انطونيلي', 'كيمي'}) مع: كيمي أنطونيلي أصغر بطل للعالم في تاريخ الفورمولا 1)"
-   ]
-  },
-  {
-   "u": "https://www.gambling911.com/galatasaray-v-stuttgart-goalscorer-betting-markets-victor-osimhen",
-   "t": "Galatasaray vs Stuttgart Goalscorer Betting Markets: Victor Osimhen, Deniz Undav, Ermedin Demirovic",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 4، 6، 7، 8، 9"
-   ]
-  },
-  {
-   "u": "https://www.tribalfootball.com/article/stuttgart-defender-warns-teammates-of-osimhen-threat-334da4a8-809a-46c7-bd0e-f8fcdf275909",
-   "t": "Stuttgart defender warns teammates of Osimhen threat",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 3"
-   ]
-  },
-  {
    "u": "https://pogoda.mail.ru/news/72949010/",
    "t": "Гидрометцентр: завтра в России поднимется метель",
    "at": "2026-11-03",
@@ -3388,6 +3359,33 @@
    "at": "2026-11-14T00:16:45.910992+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.eremnews.com/sports/bbwnyt4",
+   "t": "بث مباشر لمباراة الأرجنتين وأوروغواي",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 90"
+   ]
+  },
+  {
+   "u": "https://www.almountakhab.com/node/16232835",
+   "t": "كأس إفريقيا للأمم.. نسخة المغرب 2025 الأضخم عبر التاريخ",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "اكتب الأرقام بالأرقام مش بالحروف (مائة)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMixgNBVV95cUxPQXZZb2c2TFV5TE1LcGJjN1lpb3hrRkw3XzFhZDZHdDRiMTAxcWQ2Rm9Kb0tKTzlmc0NUckgtcmkyMU0xdjFLOXFOOE1RaGJjMGxSZGhvWkFvMXlSU1VBdnRXN0Q5akNIb0VlVkMweWwyeG82WUdTUU05N0hQSl9VajdUeUtyaWJMUVFrOFV1TDhtR1FoQzNha0xQbjc3ODZrMjRLbzZBcnRiQnBaU1dCR3BQWXBpVkFoRzlEUDY1bHN2U3BOTHJOSnpRZkpiVXlEYWFmN3d5QnhhMERrTGZDUzV2bEdRbUxZU1dhVnhkSTRHd3duUHVzRTdxdmx5N1JFd1dmNHFNa2pvUHFtLWVDQkF5TVIwemltcGprTDQ1NkxHUUtPR2pwTDhvT1FBUm9xUTZHLW5rNGRoRWxPZnUwNjNCSWdrVGE3SDJPLS1aX1N0RXo0TXktS05BTWhmUldmOTNvQ2wtR2pWRGtLTEN4c0FSUUxnRmV1RzNaN2NITWxqdUdUVmZZbmNGdzVYWDd0VnhEdFkzVWxCSUNSWmpFekhpUWtrQWdIWHFvbS1QVnhfcWdzdVFwZ0xjc3E1d2pLWWRic2xR?oc=5",
+   "t": "أسباب إيقاف بطاقة التموين وخطوات تقديم التظلم لاستعادة الدعم - موقع المصطبة",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "الـ body 420 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
