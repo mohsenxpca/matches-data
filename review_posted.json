@@ -1,68 +1,6 @@
 {
  "done": [
   {
-   "title": "RedMagic 12 Pro أول هاتف Snapdragon يدعم ميزة Linux Terminal",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNalZwTm9SS0ctYzBPZEpVbXJLX3J4aGozNjdKVnNqVFRMUWRRSWx0LUJfWFJlQnhwM0FoUlZoZ2JKRm9KWVh1RlNveHJvV3U1WDRuRlJhMEdUOEt0SmJ6UlNTeTZjbG5YcmpLazRJR3pqVHNfWDFmYXM2ZGhyRXRWUjlfNmQ5QlpwUnc?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/redmagic-12-pro-linux-terminal-support.html",
-   "at": "2026-11-04T23:43:08+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "ريد ماجيك"
-  },
-  {
-   "title": "موتورولا تحيي سلسلة هواتف Moto One بعد غياب 5 سنوات",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX09LdkI0MXVqd0lkU1g3bzcwTC14Z2FmUTExd2hMSWR1S09JcE1hc2VxZGxfcjU0RnYwUDUxcGJsMVptNWxzVzVyODZzdklITURrWGZZMEZMSF94c2djMGZrMm1GQTJ3a0h2aHFaQmp5U25odGJ1WEs4eU04OVNIMnFqR1VEOVpaQnRQbHVROWoxclJYSUg5cHZwWDZ4NkhES1RhUk93?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/motorola-revives-moto-one-series.html",
-   "at": "2026-11-05T00:12:12+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "موتورولا"
-  },
-  {
-   "title": "شاومي تدخل سباق الهواتف عريضة الشاشة: هل نشهد ثورة جديدة؟",
-   "url": "https://www.gsmarena.com/xiaomi_tipped_to_be_working_on_a_widescreen_candybar_smartphone-news-75350.php",
-   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-wide-screen-smartphone-leak.html",
-   "at": "2026-11-05T00:44:20+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "شاومي"
-  },
-  {
-   "title": "Motorola Signature 27",
-   "url": "https://www.gsmarena.com/motorola_signature_27_5g-14955.php",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (696 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "Philips S7221",
-   "url": "https://www.gsmarena.com/philips_s7221_5g-15066.php",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (763 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "مراجعة RugOne Xsnap 7 Pro: وحش المتانة الجديد بنظام أندرويد 16",
-   "url": "https://www.gsmarena.com/rugone_xsnap_7_pro-15064.php",
-   "post_url": "https://www.review-mobile.com/2026/11/rugone-xsnap-7-pro-review.html",
-   "at": "2026-11-05T01:00:03+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "اخرى"
-  },
-  {
-   "title": "Xiaomi Redmi M100 Pro",
-   "url": "https://www.gsmarena.com/xiaomi_redmi_m100_pro-15054.php",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": "Phrase [xiaomi redmi] found in review: مراجعة سعر ومواصفات هاتف Xiaomi Redmi Note 14 Pro 4G"
-  },
-  {
    "title": "Samsung UK drops prices of Galaxy S26 phones by £250, Z Fold8 price by £100 for Black Friday - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQndKZ0VKZ19TeHNCQWtfUV82SFB1TUhPamI4dUU2VHFPUkZiZUlMX3NCeEtyU0hDbVdDOUtmQzIzbDVwdS1rVFBYQl9PbFdOYXlOdmxvQ3ByQktYUUZQa0tvMGctRndWN2g4bWZGSzZwSnJOemZPWFRKTDg2QmZ0bnBTUG9Ed0dNNnlqWllrNTJNUWVvUTByVDdoNUpjZHlFdHlGQ2QxQnB4dG1YVGMxVTI1aGhZcV8yRm1vZERFUUgzYUxkT1kxY9IBxAFBVV95cUxOcnNjUnBBOGNVdGtUa1B4MUlscWNfeUtBZUNSMHlncDBpRXZnZ2RwamdUalR0RkJycE5iOHpmWWZVVjZKbVpuekQ5cnBNWXd0QlBjM3pjNnVXUGNyUjhUblhVVTRNMGI4UzZRZFl6eUlwV3BScEtQM2lCWWh0NUhQM0NuMGtFOTg4S0ppRkxyV1pKSlVPM2xvX0RrVlBhWDV0OWFkQmR0RDN4cmhEQ1F0d0dlTExrVG95M0l4eVl5ZFVBQTJR?oc=5",
    "at": "2026-11-05",
@@ -3367,6 +3305,64 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Honor 700S vs Oscal Bolt 2",
+   "url": "https://www.gsmarena.com/honor_700s_5g-15085.php||https://www.gsmarena.com/oscal_bolt_2-15084.php",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (806 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Honor Choice T10 vs vivo V80 FE",
+   "url": "https://www.gsmarena.com/honor_choice_t10-15080.php||https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Phone 'v80 fe' already covered in: مراجعة شاملة لهاتف vivo V80 FE: مواصفات عملاق الفئة المتوسطة"
+  },
+  {
+   "title": "Xiaomi 18 Pro gets one step closer to launching in India",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_gets_one_step_closer_to_launching_in_india-news-75472.php",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
+  },
+  {
+   "title": "vivo X300 Ultra gets new OriginOS 7 update with camera and battery optimizations",
+   "url": "https://www.gsmarena.com/vivo_x300_ultra_china_originos_7_camera_update-news-75467.php",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (519 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Oppo's pocket gimbal camera said to debut this year, wide-foldable also coming soon",
+   "url": "https://www.gsmarena.com/oppos_pocket_gimbal_camera_said_to_debut_this_year_widefoldable_also_coming_soon-news-75466.php",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (612 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung Galaxy A18 5G gets Bluetooth certified",
+   "url": "https://www.gsmarena.com/samsung_galaxy_a18_5g_bluetooth_certified-news-75465.php",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Phone 'a18' already covered in: مراجعة Samsung Galaxy A18 4G: معالج Exynos 1610 وشاشة AMOLED و6 تحديثات أندرويد"
+  },
+  {
+   "title": "هل تستحق سلسلة Redmi Note 18 الانتظار؟ بطارية عملاقة وشحن سريع",
+   "cand_title": "Redmi Note 18 series spotted online, charging speed revealed",
+   "url": "https://www.gsmarena.com/redmi_note_18_charging_speed_revealed_via_online_listing-news-75464.php",
+   "post_url": "https://www.review-mobile.com/2026/11/redmi-note-18-series-spotted-charging.html",
+   "at": "2026-11-14T00:52:47+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "شاومي"
   }
  ]
 }
