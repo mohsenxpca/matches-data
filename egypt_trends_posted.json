@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.vetogate.com/5752496",
-   "t": "موعد أذان المغرب اليوم الاثنين في القاهرة والمحافظات",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 473 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/3/وزيرا-الإسكان-والشباب-والرياضة-يعقدان-اجتماع-مجلس-أمناء-«النادي»-تفاصيل/7604885",
    "t": "وزيرا الإسكان والشباب والرياضة يعقدان اجتماع مجلس أمناء «النادي».. تفاصيل",
    "at": "2026-11-03",
@@ -3386,6 +3377,16 @@
    "url": "https://www.egyptaway.com/2026/11/microsoft-outage-global-impact-2026.html",
    "photo": "https://images.pexels.com/photos/30651230/pexels-photo-30651230.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-13T13:36:46.853429+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7179167",
+   "t": "يناير يشهد غربلة في الأهلي.. 3 لاعبين على أعتاب الرحيل",
+   "title": "يناير يشهد غربلة في الأهلي.. 3 لاعبين على أعتاب الرحيل",
+   "url": "https://www.egyptaway.com/2026/11/january-ahly-players-leaving.html",
+   "photo": "https://images.pexels.com/photos/26694125/pexels-photo-26694125.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-13T15:16:49.881385+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
