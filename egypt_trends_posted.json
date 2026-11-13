@@ -1,17 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.marca.com/futbol/tenerife/2026/11/03/owono-cara-desgracia.html",
-   "t": "Owono, la otra cara de la desgracia",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 1، 12، 18، 3، 4",
-    "الـ body 426 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'وفاه', 'اندورا', 'حارس'}) مع: موقف حارس أندورا بعد وفاة مهاجم تينيريفي)"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7166508",
    "t": "أكثر من 400 تطبيق AI مخفي.. كنز سري في هاتفك لم تخبرك عنه آبل وجوجل",
    "at": "2026-11-03",
@@ -3389,6 +3378,16 @@
    "at": "2026-11-13T10:17:04.855819+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.skynewsarabia.com/sport/1904304-%D8%A8%D9%81%D8%A7%D8%B1%D9%82-0-06-%D9%86%D9%82%D8%B7%D8%A9-%D8%A3%D9%88%D8%B3%D9%8A%D9%85%D9%8A%D9%86-%D8%B5%D9%84%D8%A7%D8%AD-%D9%8A%D8%AA%D8%B5%D8%AF%D8%B1-%D8%AA%D9%82%D9%8A%D9%8A%D9%85%D8%A7%D8%AA-%D8%AF%D9%88%D8%B1%D9%8A-%D8%AA%D8%B1%D9%83%D9%8A%D8%A7",
+   "t": "بفارق 0.06 نقطة عن أوسيمين.. صلاح يتصدر تقييمات دوري تركيا",
+   "title": "محمد صلاح يتصدر تقييمات الدوري التركي بمتوسط 7.95",
+   "url": "https://www.egyptaway.com/2026/11/mohamed-salah-turkish-league-ratings.html",
+   "photo": "https://images.pexels.com/photos/26694125/pexels-photo-26694125.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-13T10:56:37.384770+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
