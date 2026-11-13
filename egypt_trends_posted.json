@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/3/3073136/%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9-%D9%82%D8%AF-%D8%AA%D8%AD%D8%B1%D9%85-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85-%D9%85%D9%86-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-%D9%84%D9%84%D8%B4%D8%A8%D8%A7%D8%A8-%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D8%B5%D8%A9-",
-   "t": "مباراة واحدة قد تحرم حمزة عبد الكريم من دوري أبطال أوروبا للشباب.. ما القصة؟",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 374 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.yallakora.com/uefa/3049/news/571669/%D8%B4%D8%A8%D8%A7%D8%A8-%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D8%A9-2-2-%D8%B4%D8%A8%D8%A7%D8%A8-%D8%A3%D8%B3%D8%AA%D9%88%D9%86-%D9%81%D9%8A%D9%84%D8%A7-%D8%AE%D8%B1%D9%88%D8%AC-%D8%AD%D9%85%D8%B2%D8%A9-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85",
    "t": "شباب برشلونة 2-2 شباب أستون فيلا.. خروج حمزة عبد الكريم",
    "at": "2026-11-03",
@@ -3388,6 +3379,16 @@
    "url": "https://www.egyptaway.com/2026/11/dollar-price-decline-egypt-banks.html",
    "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-13T17:18:24.793867+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/13/فى-69-دقيقة-فقط-كاميرات-ذكية-تقود-الشرطة-لإنقاذ-رضيع/7616451",
+   "t": "فى 69 دقيقة فقط.. كاميرات ذكية تقود الشرطة لإنقاذ رضيع مختطف فى أمريكا",
+   "title": "في 69 دقيقة.. كاميرات ذكية تنقذ رضيعاً مختطفاً في أمريكا",
+   "url": "https://www.egyptaway.com/2026/11/smart-cameras-rescue-kidnapped-infant.html",
+   "photo": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-13T17:39:05.678019+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
