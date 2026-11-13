@@ -1,49 +1,6 @@
 {
  "done": [
   {
-   "title": "تجربة تخطيطات لوحة مفاتيح Gboard: هل QWERTY لا يزال الأفضل؟",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYXlxVHI1NmNDX3RsSnJCb05wVllJSWNzMGdhekRRdllldXZlam9kZ0phV3FFRFRIQU1RVEUyLTdfS2lPRE80alJGV25xTGl6T2RxVWpSaTQ0MjAzSGZXaURZYnRySnBMZlIweHJJMWFUYXNmWUFuLXRlYlZqa3h5OTFiTHpqMkwtX3p4dmRiR016XzlJLVRXSFFyUjVTMUczRlZKckZXRmFaNGc?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/gboard-layouts-qwerty-vs-alternatives.html",
-   "at": "2026-11-04T21:43:45+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "vivo V80 FE - Full phone specifications - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1Lb20teE1RUGk3ZUFFR1dObU9mY3c4TE1BeEJhSTFnam81cUdOekpMZWxmRVhNdjZKYU1jSktaM3dvVkJmUzFQRmh5ZlNJaTl6Um9ZUjZ0VnV3UzVObFE?oc=5",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": "Phone 'v80 fe' already covered in: إطلاق هاتف Vivo V80 FE ببطارية 7000 ملي أمبير وكاميرات ZEISS"
-  },
-  {
-   "title": "تسريب يكشف تفاصيل تصميم هواتف آيفون برو القادمة",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZGt1cVZ0dFAxM01jcElTanhLWGEyYWNLaU9TNVk5WG9aR25VQ3RPVEhPdVpOLWxIR2ZzUzVIdzZSYTNMSzF3Ymt2eVhaSC1pVS1ROFEtR1Z5bXozOC1ab19Ec0lzTWZYWEE2UUFYNTVleFhBQ0g1WVBiYkttUkVzTVZpUmxUY2p1MnR5bWc3VFVNUnhl?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/iphone-pro-redesign-leak-update.html",
-   "at": "2026-11-04T22:12:04+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
-   "title": "إطلاق Android Canary 2611: تحديثات جديدة لهواتف Pixel",
-   "url": "https://www.androidauthority.com/android-canary-2611-3731794/",
-   "post_url": "https://www.review-mobile.com/2026/11/android-canary-2611-pixel-update.html",
-   "at": "2026-11-04T22:42:16+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "بيكسل"
-  },
-  {
-   "title": "رسمياً: هاتف Oppo Find N7 القابل للطي في طريقه للأسواق الأوروبية",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQlRNVmlmTndIMy1WclFMdmdibU1YUUVaQUxnY2ppVWNKS1Q2VlhPVkwwbXBkVmh1UTNMMTFjNGJjRkMtVEhudVk3bnUzdnhKRjRnejFoUjk2cDdqUW9FX2V2dEd3b2VwaXB5MlF0NHhMWHdNR3dzUklMZ2FaMG9UNXgwVjM1N2lPUW9DVENiRnM0S1QtTk9JV9IBlAFBVV95cUxPSGtFLWZBMnladGwzalctejViUUZzdHZwMW1ZeFdKeVFxZlJUTzYyVlZ0NGhEMk5PNDhTSHd0bGpMd0RrTDVnMmNIclQ0X05lQnc4ajJ1eXNWX29Qb2MwWHlFT0hESi12YjdOT01HR2k3ZjF3ano3ZkgyQTA1ZFlwX0JLcjNMd1pGbkU5R0xfcm5FaXFN?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-find-n7-europe-arrival-confirmed.html",
-   "at": "2026-11-04T23:12:50+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
    "title": "RedMagic 12 Pro أول هاتف Snapdragon يدعم ميزة Linux Terminal",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNalZwTm9SS0ctYzBPZEpVbXJLX3J4aGozNjdKVnNqVFRMUWRRSWx0LUJfWFJlQnhwM0FoUlZoZ2JKRm9KWVh1RlNveHJvV3U1WDRuRlJhMEdUOEt0SmJ6UlNTeTZjbG5YcmpLazRJR3pqVHNfWDFmYXM2ZGhyRXRWUjlfNmQ5QlpwUnc?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/redmagic-12-pro-linux-terminal-support.html",
@@ -3372,6 +3329,44 @@
    "ok": true,
    "kind": "news",
    "brand": "ريد ماجيك"
+  },
+  {
+   "title": "Honor 700S vs Oppo A7 Pro",
+   "url": "https://www.gsmarena.com/honor_700s_5g-15085.php||https://www.gsmarena.com/oppo_a7_pro_5g-14928.php",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Phone 'a7 pro' already covered in: مقارنة Oppo A7 Pro ضد Infinix Smart 20 HD 2026: أيهما أفضل للشراء؟"
+  },
+  {
+   "title": "Oscal Bolt 2 vs Infinix Smart 20 HD",
+   "url": "https://www.gsmarena.com/oscal_bolt_2-15084.php||https://www.gsmarena.com/infinix_smart_20_hd-15079.php",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Phone 'smart 20' already covered in: مقارنة Oppo A7 Pro ضد Infinix Smart 20 HD 2026: أيهما أفضل للشراء؟"
+  },
+  {
+   "title": "Huawei announces Sense G1 as company’s first continuous glucose monitor",
+   "url": "https://www.gizmochina.com/2026/11/13/huawei-announces-sense-g1-as-companys-first-continuous-glucose-monitor/",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "RedMagic 12 Pro+ vs Xiaomi 18 Pro: Which Flagship Is Worth Buying?",
+   "url": "https://www.gizmochina.com/2026/11/13/redmagic-12-pro-plus-vs-xiaomi-18-pro/",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Phone 'redmagic 12 pro plus' already covered in: مراجعة RedMagic 12 Pro+ 2026: تبريد سائل وشاشة 185 هرتز والسعر"
+  },
+  {
+   "title": "ثورة الصوتيات المفتوحة.. مواصفات وسعر سماعات شاومي كليب الجديدة",
+   "cand_title": "Xiaomi Clip listed on global website with 9h/38h battery, 11 mm drivers, Apple Find My support",
+   "url": "https://www.gizmochina.com/2026/11/13/xiaomi-clip-listed-on-global-website-with-9h-38h-battery-11-mm-drivers-apple-find-my-support/",
+   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-clip-open-ear-earbuds-specs.html",
+   "at": "2026-11-14T00:21:23+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
