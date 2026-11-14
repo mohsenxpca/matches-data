@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://fcbinside.de/2026/11/03/sieg-bei-atletico-welche-noten-gebt-ihr-den-bayern-stars/",
-   "t": "Sieg bei Atlético: Welche Noten gebt ihr den Bayern-Stars?",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الـ body 457 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ميونخ', 'ايرن'}) مع تشابه نصي مع: دير كلاسيكو.. بايرن ميونخ يسعى لمنافسة الكلاسيكو عالمياً)"
-   ]
-  },
-  {
    "u": "https://www.maxifoot.fr/video/jeu-set-et-match-pour-le-psg-foot-467016.htm",
    "t": "VIDEO : jeu, set et match pour le PSG",
    "title": "باريس سان جيرمان يكتسح فياريال بسداسية نظيفة في دوري الأبطال",
@@ -3382,6 +3372,16 @@
    "reason": [
     "الـ body 325 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/14/لعبة-GTA-5-تتحول-إلى-أداة-بحثية-لتعزيز-السلامة-على/7617551",
+   "t": "لعبة GTA 5 تتحول إلى أداة بحثية لتعزيز السلامة على الطرق وإنقاذ الأرواح",
+   "title": "لعبة GTA 5 تتحول لأداة بحثية لتعزيز السلامة المرورية وإنقاذ الأرواح",
+   "url": "https://www.egyptaway.com/2026/11/gta-5-road-safety-research.html",
+   "photo": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-14T16:31:45.552618+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
