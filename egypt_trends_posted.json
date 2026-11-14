@@ -1,18 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.goal.com/en/news/would-have-been-a-bit-too-much-of-a-risk-aaron-danks-explains-surprise-in-bayern-munich-s-starting-line-up-against-atletico/bltec0a12bf6fed1bac",
-   "t": "Bayern Munich starting XI: Why is Aleksandar Pavlovic not playing against Atletico?",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.bild.de/sport/fussball/fc-bayern-aufstellung-da-das-ist-die-torwart-entscheidung-gegen-atletico-6aea28ea0d8778db58cf198d",
    "t": "FC Bayern: Aufstellung da! Das ist die Torwart-Entscheidung gegen Atlético",
    "at": "2026-11-03",
@@ -3389,6 +3377,15 @@
    "at": "2026-11-14T10:36:30.836375+02:00",
    "ok": true,
    "type": "public_query"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kaU16b0FmVU9GOEpnSkphZzlyM1Y1SktBQ1dwaUphTzhhRGhIeVc5TUJpT3gzbzRRN2UtcUZVOTRHSV90MGVwY2VtOUNNOElU?oc=5",
+   "t": "التربية تشكل فريق عمل لمتابعة ادعاءات التلاعب بدرجات الامتحانات - موقع كلمة الإخباري",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "الـ body 444 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
