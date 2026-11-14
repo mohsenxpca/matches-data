@@ -1,46 +1,6 @@
 {
  "done": [
   {
-   "title": "Asus Zenbook 14 launched in India with Intel, AMD and Snapdragon options, starts at Rs 1,36,990 (~$1,448)",
-   "url": "https://www.gizmochina.com/2026/11/05/asus-zenbook-14-launched-india-intel-amd-snapdragon-rs-136990/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "Upcoming phones launching in November 2026",
-   "url": "https://www.gizmochina.com/2026/11/05/upcoming-phones-november-2026/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "Galaxy A38 tipped to pack a 6000mAh battery",
-   "url": "https://www.gizmochina.com/2026/11/05/galaxy-a38-tipped-to-pack-a-6000mah-battery/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "WhatsApp is bringing iOS-style chat previews to Android",
-   "url": "https://www.gsmarena.com/whatsapp_is_bringing_iosstyle_chat_previews_to_android-news-75371.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
    "title": "Honor Magic9 Pro Max camera samples from LA",
    "url": "https://www.gsmarena.com/honor_magic9_pro_max_camera_samples_from_the_usa-news-75363.php",
    "at": "2026-11-06",
@@ -3347,6 +3307,37 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfU1RWUmo3VnM2WHRpNkJmU0t2d09FelRXdUtPU3FBN3hSUjQ3RS1OZzQ0dkIyT3dtQkFSSFRFc2ZRWC1pQkFjTFloVS1JYXJkZF9ESmpMRzFNLTVwZWZXekJSR2RFRUMwS3BaclV3YnprZS1uOXc?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/meta-muse-ai-phone-call-delegation.html",
    "at": "2026-11-14T02:12:07+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "Honor Magic9 Pro Max's Malaysia launch date announced - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS21ESHE5Y1hsc2t1cnlWc21EWUVhdTEta1NFdG53R0UzUEVoMGtkNEZLd1lqSlpuZHBMaTFaMWhnaXBLMWFoYkptR3FqVm1KVFN5SERuMUFWaTBBS1pCWGZ5RUx0QXdRdjNWa0RVdm1NU3FFOUxJa1BNV01JUjN0bHRJeFhfUUJx0gGEAUFVX3lxTE40M3FoTkJ2MU0tTWVvV01IUEs0cnE0My1GSFZWaWJLRm4zOG9nRmVzRG1PYkdmVDVia0UxLVRvRHNvbXJjSDdaNVFrU0NkUThPakJDUHdiaU96cnNLaWQ2UVZXSFV0cDRlc3AyenFtNUFZanp6Q1NYTktUbHlST0FPSzdnWA?oc=5",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Phone 'magic9 pro max' already covered in: هاتف Honor Magic9 Pro Max يقتبس كاميرات هوليوود"
+  },
+  {
+   "title": "Oppo’s Pixel 10a and Galaxy A57 rival goes hard on battery life and durability - Tech Advisor",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeWxqVEp0SGw0MFpHZWNrSE1jYUJvbVV1dWJYOXFSQ0kyb01CNGxwLTBsSzdIbE4yTUs0bUUwYmpLc0NBaklGN2ptOEdLbW5IcTRPY0I4N2d2RkpZdGpBZG05RGZNN0J4ZVFVVEVYdlJaY3NYSFphbENkSU1hb2dRWGthUzA1UlVaQm04SVhFd044Rm1VdTBWalJYakpsQTJJZlNkb2JB?oc=5",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "Phone 'a57' already covered in: مراجعة ZTE nubia A57 2026: موبايل اقتصادي بشاشة 120 هرتز والسعر"
+  },
+  {
+   "title": "Did Apple release 'Live Listen' update that lets someone else remotely access your phone? - Snopes.com",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xWkU0d2tkdWdlN1d2V1RlRF9XT3FjbmNzY19SWXh3ZkwyQWE3N1BUcEJNVmdIZzZQN3NVczlpU09ZcGNLb0g2TU9ZWkRpOTV0YnZLcVl0ZllZVWZ2N2RuWC1CLUNDbDJWQ1hN?oc=5",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "لماذا يجب أن تتوقف فوراً عن إغلاق التطبيقات في الخلفية؟",
+   "cand_title": "I finally stopped micromanaging my Android phone, and you should too - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdm9JYWcyWVRoZElmQm0wSERCM1JUWXp5cmxqVThlR3Y3NVFYSmdmNlNNUHdIcy1uR24yTG1aZWJTTGJFQmNyRFRZckplUlRkY0RXcFNZWkxHWHZ4YVpZNktVWldGVzdZWEUxWkROU2U5ajF2TjZMOTY0WUQyeF9Jc25SNFpodUQxa0lRc0xuakpuOXBZU1IxWUNB?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/stop-closing-background-apps-android.html",
+   "at": "2026-11-14T02:43:25+02:00",
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
