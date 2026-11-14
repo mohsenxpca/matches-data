@@ -1,60 +1,6 @@
 {
  "done": [
   {
-   "title": "Here's when the Huawei Mate 80 Air is rumored to launch",
-   "url": "https://www.gsmarena.com/heres_when_the_huawei_mate_80_air_is_rumored_to_launch-news-75352.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Phone 'mate 80 air' already covered in: هواوي تستعد لإطلاق Mate 80 Air: نحافة قياسية ومواصفات قوية"
-  },
-  {
-   "title": "Samsung Galaxy Buds4 Pro and Buds3 Pro will soon work as hearing aids",
-   "url": "https://www.gsmarena.com/samsung_galaxy_buds4_pro_and_buds3_pro_will_soon_work_as_hearing_aids-news-75354.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "Samsung releases new updates for Galaxy S25 series",
-   "url": "https://www.sammobile.com/news/samsung-releases-new-updates-galaxy-s25-series/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "While EU iPhone users wait for Siri AI, the Galaxy Z Fold 8 is getting things done",
-   "url": "https://www.sammobile.com/opinion/while-eu-iphone-users-wait-siri-ai-galaxy-z-fold-8-getting-things-done/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "Qualcomm’s latest Snapdragon chips are compatible with Android’s Linux Terminal app",
-   "url": "https://www.androidauthority.com/snapdragon-android-linux-terminal-3732212/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "Samsung Galaxy Fit 4 app listing hints at NFC payment support",
-   "url": "https://www.androidauthority.com/samsung-galaxy-fit-4-wallet-nfc-payments-3732163/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Phone 'fit 4' already covered in: مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع"
-  },
-  {
    "title": "Qualcomm will help SpaceX build Starlink Mobile's nationwide US 5G network - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdEhDdWNmY0JkbTIwV2xOTWxDVHkyOHBmcGdKWWtBZ0VMT1BKS3djbERzSUxqY3hXMF9keEZpMWZjcXIwNHNyZGlJOHNTY0dmUlAwN0tsUkowb2hrSWp6cEUwUWxpVVdhMEh3Y1htcy1CVjFnMVRaQVBmZi1rVFcyRFdkQkVUdFNDcFpnbTFYRUsxa3k5ejZfQklJVWp5VTIxeWJYcFVfem9iS1hNbF9FdGY1UdIBrwFBVV95cUxOYUtHUTRzeU9HMXdBSnotM1JwT1VsX3plOHFleUZVSFp5bEtKTnFYOXl2VTEzWTVTT1Z1SzBmTlhSUjUzYTlnVFRTcUwzbFh1eDRid2NzaXdhbUtONVdnV2RUUGwtR18wMC1qT3dpX3RLeThMTHZNbFVHQ3d3ajhmRk5adllETDN5bjRaRzJCZGxyNWJFZThBS2V2V1pUTUhrSENFbUowY0x6SWtxb1cw?oc=5",
    "at": "2026-11-06",
@@ -3344,6 +3290,55 @@
    "ok": true,
    "kind": "review",
    "brand": "هونر"
+  },
+  {
+   "title": "Deals: Samsung Galaxy S26 Ultra and Z Fold8 on sale, Nothing Phone (3) gets a price cut",
+   "url": "https://www.gsmarena.com/deals_samsung_galaxy_s26_ultra_and_z_fold8_on_sale_nothing_phone_3_gets_a_price_cut-news-75470.php",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (519 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Oppo Reno17 and Reno17 Pro's full specs tipped ahead of November 16 launch",
+   "url": "https://www.gsmarena.com/oppo_reno17_reno17_pro_full_specs_tipped-news-75484.php",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
+  },
+  {
+   "title": "Here's what the OnePlus 16's launch in India is rumored to depend on",
+   "url": "https://www.gsmarena.com/heres_what_the_oneplus_16s_launch_in_india_is_rumored_to_depend_on-news-75475.php",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": "Phone 'oneplus 16' already covered in: مراجعة OnePlus 16 قبل الإطلاق: Snapdragon 8 Elite Extreme وشاشة 185Hz"
+  },
+  {
+   "title": "Deals: the Galaxy S26 series is up to £570 off, Pixel 11 series also discounted, Oppo Find X10 price drops",
+   "url": "https://www.gsmarena.com/deals_the_galaxy_s26_series_is_up_to_570_off_pixel_11_series_also_discounted_oppo_find_x10_price_dro-news-75473.php",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (649 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung Galaxy A18 4G launched in Singapore, but with a different chip",
+   "url": "https://www.gsmarena.com/samsung_galaxy_a18_4g_singapore_price_sale_date-news-75483.php",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['chip', 'galaxy', 'different']"
+  },
+  {
+   "title": "ثورة في هواتف هواوي القابلة للطي: هل تتخلى عن تصميم Flip؟",
+   "cand_title": "Huawei's next nova Flip could switch to a wide form factor",
+   "url": "https://www.gsmarena.com/huaweis_next_nova_flip_could_switch_to_a_wide_form_factor-news-75479.php",
+   "post_url": "https://www.review-mobile.com/2026/11/huawei-nova-flip-wide-form-factor.html",
+   "at": "2026-11-15T00:18:15+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هواوي"
   }
  ]
 }
