@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/4/3073320/%D9%85%D9%8A%D8%AF%D9%88-%D9%8A%D9%88%D8%AC%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D8%A9-%D9%82%D9%88%D9%8A%D8%A9-%D9%84%D8%A5%D9%85%D8%A7%D9%85-%D8%B9%D8%A7%D8%B4%D9%88%D8%B1-%D8%A7%D8%AA%D9%82%D9%8A-%D8%B1%D8%A8%D9%86%D8%A7-%D9%81%D9%8A-%D8%B4%D8%BA%D9%84%D9%83-",
-   "t": "ميدو يوجه رسالة قوية لإمام عاشور: \"اتقي ربنا في شغلك\"",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'مصريه', 'كره'}) مع تشابه نصي مع: استاد القاهرة يحتضن قطبي الكرة المصرية أفريقيًا)"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7167399",
    "t": "كيف تتأكد من تلف كارت شحن الكهرباء.. وما هي رسوم استبداله؟",
    "title": "كيف تتأكد من تلف كارت عداد الكهرباء؟ وخطوات استبداله ورسومه",
@@ -3385,6 +3375,16 @@
    "url": "https://www.egyptaway.com/2026/11/facestealer-scam-crypto-theft.html",
    "photo": "https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-14T22:11:37.153597+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7180675",
+   "t": "اهتزازات تهز عمودك الفقري.. الكشف عن كرسي الألعاب الخارق Razer Soma Pro",
+   "title": "كرسي Razer Soma Pro الخارق: اهتزازات وصوت محيطي للألعاب",
+   "url": "https://www.egyptaway.com/2026/11/razer-soma-pro-gaming-chair.html",
+   "photo": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-14T22:31:42.264808+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
