@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "Honor Magic9 Pro Max camera samples from LA",
-   "url": "https://www.gsmarena.com/honor_magic9_pro_max_camera_samples_from_the_usa-news-75363.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
    "title": "كوالكوم تدعم سبيس إكس لبناء شبكة 5G وطنية عبر ستارلينك",
    "url": "https://www.gsmarena.com/qualcomm_will_help_spacex_build_starlink_mobiles_nationwide_us_5g_network-news-75355.php",
    "post_url": "https://www.review-mobile.com/2026/11/qualcomm-spacex-starlink-5g-network.html",
@@ -3341,6 +3331,16 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "مواصفات iPhone 20 Pro Max: هل يغير قواعد اللعبة في 2027؟",
+   "cand_title": "Apple iPhone 20 Pro Max release date expectations, price estimates, and upgrades - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHBuUzhRVUUxR3U4SmtGWmVqWktSLWJkR01DZHdzSG90QUM3SUZ3aU5BR2RTa0t2eDBtWWVUNkgzV1lIX3BLaHpZUks5blJJYVZOU3VzZzRsbzFxc0psY2xOT0c3cnRzaE1KNDFHNWZRdFZKN0s5clBMN3lweGtTLVBoVQ?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/apple-iphone-20-pro-max-expectations.html",
+   "at": "2026-11-14T03:12:24+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
