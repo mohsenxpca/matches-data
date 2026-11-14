@@ -1,18 +1,6 @@
 {
  "done": [
   {
-   "u": "https://dailysports.net/news/total-chaos-at-old-trafford-furious-man-united-fans-throw-rubbish-towards-their-own-players-video/",
-   "t": "Total chaos at Old Trafford! Furious Man United fans throw rubbish towards their own players. VIDEO",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.gazzetta.it/Calcio/Champions-League/03-11-2026/manchester-united-roma-live-risultato-e-gol-in-diretta-champions-league.shtml",
    "t": "LIVE alle 21 Manchester Utd-Roma: le ufficiali. Gasp con Soulé e Mora dietro a Malen, para Vasquez",
    "at": "2026-11-03",
@@ -3385,6 +3373,15 @@
    "reason": [
     "الـ body 381 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'استعدادات', 'مكثفه'}) مع تشابه نصي مع: استعدادات مكثفة للزمالك بوديتين في التوقف الدولي)"
+   ]
+  },
+  {
+   "u": "https://www.ajnet.me/sport/2026/11/14/%D8%B9%D9%88%D8%AF%D8%A9-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%8A%D9%86%D9%8A%D9%88-%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B1%D8%A7%D9%81%D9%8A%D9%86%D8%A7",
+   "t": "عودة رونالدينيو.. موعد مباراة رافينا وفورلي وكيفية المشاهدة والقنوات الناقلة",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "الـ body 431 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
