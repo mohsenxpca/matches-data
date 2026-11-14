@@ -1,42 +1,6 @@
 {
  "done": [
   {
-   "title": "Motorola is going ultra premium with its $1,600 ‘Signature’ phone - The Verge",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOXy1xeFR1Y0FiQ0l1MkFlckFUcnVCUUhBV0ExdUdCNnRIWWZoUGRXZVRac0R6V2l6a2RwMWNwMU5xc3VYQ1Y3TmNaZzkydFZONUdUeUFrWXMzMnlFdGR3STZpT3h3Q2c2MGgzOXd3anEtNzBzeWhHVDZDeXVfNmVnREl1REhCY1dxRFN5cWdTZGI?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "Oppo, Realme ColorOS 17 rollout schedule for November: 25 devices set for major upgrade",
-   "url": "https://www.gizmochina.com/2026/11/06/oppo-realme-coloros-17-november-rollout-schedule/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "iQOO Z-series midranger to pack 7-inh display, 10,000mAh battery",
-   "url": "https://www.gizmochina.com/2026/11/06/iqoo-z12s-10000mah-battery-7-inch-display/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['000mah', 'battery', '7']"
-  },
-  {
-   "title": "Russian state-linked hackers target iPhone, Android devices in zero-click espionage campaign - The Record from Recorded Future News",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DM3FDQy0xRzZ3cnVfMUlublFrZ0RzQnZLYWYwOE40NWJzMVA5eHhONHNBQjFYWHlrWUI4cmdIc0pCUFRBYThuaGdNUzBEMkxyTGdTdGFQMmx4emRkNGRQZ0dENDRHWDFOQzRIMkFCaw?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (553 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "iPhone And Android Phones Targeted In No-Click Website Attacks - HotHardware",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb1ZJdWVBM2JqZnQ0NlVteTRkcWg2ejNhT2JpY18wMWR1MXh2dk8xcjA0ZEEzM3NiUGlockNNQVh3WGlZRGx6Z0tQNnZpd016WklvYkk0X0o5ZTcwNW9UR19tYXBmOE92VUpRazRqU1lzbDktN2hBczJCb0dCMmE2aEE0RTRnWC12QkhwZmx2UjZPQUQxelE?oc=5",
    "at": "2026-11-06",
@@ -3323,6 +3287,44 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "iPhone 20 Pro’s 3D quad-curved cover glass leaks in hands-on video",
+   "url": "https://www.gizmochina.com/2026/11/14/iphone-20-pros-3d-quad-curved-cover-glass-leaks-in-hands-on-video/",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (485 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Honor Magic 10 tipped with 200MP LOFIC camera, tandem OLED display",
+   "url": "https://www.gizmochina.com/2026/11/14/honor-magic-10-tipped-with-200mp-lofic-camera-tandem-oled-display/",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (566 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Motorola’s $1600 flagship has a surprising battery downgrade in some regions",
+   "url": "https://www.gizmochina.com/2026/11/14/motorola-signature-27-has-a-surprising-battery-downgrade-in-some-regions/",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (570 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "تسريب هاتف HMD 2320 Flip 4G.. مواصفات خارقة أم عودة للماضي؟",
+   "cand_title": "HMD 2320 Flip 4G leak reveals a basic flip phone with GPS and SOS features",
+   "url": "https://www.gizmochina.com/2026/11/14/hmd-2320-flip-4g-leak-reveals-a-basic-flip-phone-with-gps-and-sos-features/",
+   "post_url": "https://www.review-mobile.com/2026/11/hmd-2320-flip-4g-leak-specs.html",
+   "at": "2026-11-15T01:17:31+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
