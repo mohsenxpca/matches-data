@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/3/3073217/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D9%86%D8%B0%D9%8A%D8%B1-%D8%A8%D9%86-%D8%A8%D9%88%D8%B9%D9%84%D9%8A-%D9%88%D9%85%D8%AF%D8%A9-%D8%BA%D9%8A%D8%A7%D8%A8%D9%87-%D8%B9%D9%86-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2",
-   "t": "تفاصيل إصابة نذير بن بوعلي.. ومدة غيابه عن بيراميدز",
-   "title": "تفاصيل إصابة نذير بن بوعلي ومدة غيابه عن صفوف بيراميدز",
-   "url": "https://www.egyptaway.com/2026/11/nadhir-ben-bouali-injury-pyramids.html",
-   "at": "2026-11-03T21:58:52.459596+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/3/3073199/%D8%B4%D8%A8%D9%87%D8%A7%D8%AA-%D8%AA%D8%B3%D8%B1%D9%8A%D8%A8-%D9%88%D9%85%D8%B1%D8%A7%D9%87%D9%86%D8%A7%D8%AA-%D8%A8%D9%85%D8%A8%D8%A7%D9%84%D8%BA-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9-%D8%AA%D9%87%D8%B2-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9-2026-%D9%85%D8%A7-%D8%A7%D9%84%D9%82%D8%B5%D8%A9-",
    "t": "شبهات تسريب ومراهنات بمبالغ كبيرة تهز الكرة الذهبية 2026.. ما القصة؟",
    "title": "شبهات تسريب ومراهنات ضخمة تهز الكرة الذهبية 2026.. ما الحقيقة؟",
@@ -3387,6 +3378,16 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 0، 100"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7179668",
+   "t": "متخليش العروض الوهمية تضحك عليك.. حماية المستهلك يوجه 8 نصائح ذهبية قبل الشراء في «الجمعة البيضاء»",
+   "title": "8 نصائح ذهبية قبل الشراء في الجمعة البيضاء لتجنب العروض الوهمية",
+   "url": "https://www.egyptaway.com/2026/11/white-friday-consumer-protection-tips.html",
+   "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-14T07:33:32.654827+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
