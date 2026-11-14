@@ -1,31 +1,6 @@
 {
  "done": [
   {
-   "title": "كوالكوم تدعم سبيس إكس لبناء شبكة 5G وطنية عبر ستارلينك",
-   "url": "https://www.gsmarena.com/qualcomm_will_help_spacex_build_starlink_mobiles_nationwide_us_5g_network-news-75355.php",
-   "post_url": "https://www.review-mobile.com/2026/11/qualcomm-spacex-starlink-5g-network.html",
-   "at": "2026-11-06T03:08:52+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "Oppo Reno17 series officially confirmed to arrive in a few days",
-   "url": "https://www.gsmarena.com/oppo_reno17_series_officially_confirmed_to_arrive_in_a_few_days-news-75360.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
-  },
-  {
-   "title": "We checked out Chromagraph, Rian Johnson's viral iPhone camera app",
-   "url": "https://www.gsmarena.com/we_check_out_chromagraph_rian_johnsons_viral_iphone_camera_app-news-75357.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (528 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Here's when the Huawei Mate 80 Air is rumored to launch",
    "url": "https://www.gsmarena.com/heres_when_the_huawei_mate_80_air_is_rumored_to_launch-news-75352.php",
    "at": "2026-11-06",
@@ -3341,6 +3316,34 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "I replaced apps with shortcuts on my Android phone's home screen; I can't go back - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb1dmcGxpZzhaZzdjdjBYa2d0UmZjX2JMVzJsR2stRGNadjdwaFRfYjlLb0phYlpDTlpCbnU3YWdJU2dIaGFaaXdLYkRCQ3FMeldSR21tSEJ6UDdMZS1QbmpBYldjbnlfM3AwdVBYbW5keUtpVWMtakd4amdadExQcUZvWXRZOHNoel9VT0xB?oc=5",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (620 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung One UI Update Schedule: November 2026 - Droid Life",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWUhYQ0IwdHpJaDRRNmdDcEM2a19GVDdTSk9uUlYzZHdhOWpqNXFpVWVFMXhmdEVRVFM3RkZHTUhYRkVISEdYOXFSSjZRZ3dhWEdzTThDYTBmS3JvRElCbXVmQlRGWlh2ZE9GWjhZYXdQVWVwQ0prRml1TUdjZnFQSmVENmJpUTNtQzRYeg?oc=5",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (651 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "مراجعة Honor 700S: وحش الفئة المتوسطة بمواصفات الفلاجشيب",
+   "cand_title": "Honor 700S",
+   "url": "https://www.gsmarena.com/honor_700s_5g-15085.php",
+   "post_url": "https://www.review-mobile.com/2026/11/honor-700s-comprehensive-review-2026.html",
+   "at": "2026-11-14T03:44:01+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "هونر"
   }
  ]
 }
