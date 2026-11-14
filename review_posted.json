@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung Galaxy S26 gets a £250 price cut",
-   "url": "https://www.gizmochina.com/2026/11/05/samsung-galaxy-s26-gets-a-250-price-cut/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
    "title": "Asus Zenbook 14 launched in India with Intel, AMD and Snapdragon options, starts at Rs 1,36,990 (~$1,448)",
    "url": "https://www.gizmochina.com/2026/11/05/asus-zenbook-14-launched-india-intel-amd-snapdragon-rs-136990/",
    "at": "2026-11-06",
@@ -3350,6 +3340,16 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "ميزة ثورية من ميتا: وكيل AI يقوم بالمكالمات الهاتفية بدلاً منك",
+   "cand_title": "Meta's AI Agent Muse Launches Phone-Call Delegation Feature for Paid Subscribers in the US - BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfU1RWUmo3VnM2WHRpNkJmU0t2d09FelRXdUtPU3FBN3hSUjQ3RS1OZzQ0dkIyT3dtQkFSSFRFc2ZRWC1pQkFjTFloVS1JYXJkZF9ESmpMRzFNLTVwZWZXekJSR2RFRUMwS3BaclV3YnprZS1uOXc?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/meta-muse-ai-phone-call-delegation.html",
+   "at": "2026-11-14T02:12:07+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
