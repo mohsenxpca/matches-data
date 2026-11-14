@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7167275",
-   "t": "سبورتنج لشبونة يستعيد توازنه في دوري أبطال أوروبا بالفوز على شاختار دونيتسك",
-   "title": "سبورتنج لشبونة يهزم شاختار دونيتسك في دوري أبطال أوروبا",
-   "url": "https://www.egyptaway.com/2026/11/sporting-lisbon-beats-shakhtar-donetsk.html",
-   "at": "2026-11-04T00:20:38.119217+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://fcbinside.de/2026/11/03/sieg-bei-atletico-welche-noten-gebt-ihr-den-bayern-stars/",
    "t": "Sieg bei Atlético: Welche Noten gebt ihr den Bayern-Stars?",
    "at": "2026-11-04",
@@ -3382,6 +3373,15 @@
    "at": "2026-11-14T14:56:37.470824+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/14/3078625/%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D8%A7%D9%84%D9%8A%D8%A7%D8%A8%D8%A7%D9%86-%D9%8A%D9%81%D9%88%D8%B2-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%A8%D8%B1%D8%A7%D8%B2%D9%8A%D9%84-%D8%A8%D8%AB%D9%84%D8%A7%D8%AB%D9%8A%D8%A9-%D9%85%D8%AB%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%88%D8%AF%D9%8A%D8%A9",
+   "t": "منتخب اليابان يفوز على البرازيل بثلاثية مثيرة في مباراة ودية",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "الـ body 325 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
