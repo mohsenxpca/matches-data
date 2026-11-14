@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.football365.fr/barcelone-aston-villa-yamal-bouillant-son-superbe-but-en-video-10325228.html",
-   "t": "Barcelone-Aston Villa : Yamal bouillant ! Son superbe but en vidéo",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'يامال', 'لفوز', 'امين'}) مع: هانسي فليك: لامين يامال يمتلك مستوى يؤهله للفوز بالكرة الذهبية)"
-   ]
-  },
-  {
    "u": "https://www.goal.com/fr/news/un-casse-tete-pour-flick-le-barca-dans-l-embarras-avant-le-choc-contre-aston-villa/bltfe97feee034d0178",
    "t": "Un casse-tête pour Flick : le Barça dans l'embarras avant le choc contre Aston Villa",
    "at": "2026-11-04",
@@ -3383,6 +3374,15 @@
    "at": "2026-11-14T17:11:31.533638+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://akhbarelyom.com/news/newdetails/4907082/1/%D8%A7%D9%84%D8%AA%D8%B6%D8%AE%D9%85-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A-%D9%8A%D8%B4%D8%AF%D8%AF-%D8%B6%D8%BA%D9%88%D8%B7-%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D8%AF%D8%A9-%D9%88%D8%A7%D9%84%D8%A3%D9%88%D9%82",
+   "t": "التضخم الأمريكي يشدد ضغوط الفائدة.. والأوقية تخسر 4.6% أسبوعيًا",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'عيار', 'ذهب', 'صاغه'}) مع: صدمة في الصاغة بالمساء.. قفزة جديدة لعيار 21 والجنيه الذهب 2026)"
+   ]
   }
  ]
 }
