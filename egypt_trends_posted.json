@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.wetteronline.de/wetterticker/wetterticker-durch-wind-fuehlt-es-sich-kaelter-an--0e915e13-17cb-4bef-a65b-26d436526cf4",
-   "t": "WetterTicker: Durch Wind fühlt es sich kälter an",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 45",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'طقس', 'حاله'}) مع تشابه نصي مع: حالة الطقس في روسيا: بداية أسبوع بتباين واسع واقتراب الشتاء)"
-   ]
-  },
-  {
    "u": "https://www.bbc.com/sport/football/articles/c5ev3m9ddzgmo",
    "t": "Aston Villa: Unai Emery aims to prove Villa's worth among the elite against Barcelona in the Champions League",
    "at": "2026-11-03",
@@ -3385,6 +3375,17 @@
    "reason": [
     "كلمة رسميًا مش موجودة في المصدر، احذفها",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'صلاح', 'محمد'}) مع تشابه نصي مع: محمد صلاح يتصدر تقييمات الدوري التركي بمتوسط 7.95)"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7179614",
+   "t": "ثورة النظارات الذكية.. جوجل و سامسونج تطرحان نظارة \"Intelligent Eyewear\" الخارقة",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 7",
+    "الـ body 406 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ذكيه', 'جوجل'}) مع تشابه نصي مع: جوجل تطلق بيكسل تاج غداً: شريحة سرية ومزايا ذكية لهاتفك)"
    ]
   }
  ]
