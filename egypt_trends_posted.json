@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.bild.de/sport/fussball/fc-bayern-aufstellung-da-das-ist-die-torwart-entscheidung-gegen-atletico-6aea28ea0d8778db58cf198d",
-   "t": "FC Bayern: Aufstellung da! Das ist die Torwart-Entscheidung gegen Atlético",
-   "at": "2026-11-03",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 5",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ميونخ', 'ايرن'}) مع تشابه نصي مع: دير كلاسيكو.. بايرن ميونخ يسعى لمنافسة الكلاسيكو عالمياً)"
-   ]
-  },
-  {
    "u": "https://dailysports.net/news/total-chaos-at-old-trafford-furious-man-united-fans-throw-rubbish-towards-their-own-players-video/",
    "t": "Total chaos at Old Trafford! Furious Man United fans throw rubbish towards their own players. VIDEO",
    "at": "2026-11-03",
@@ -3385,6 +3375,16 @@
    "ok": false,
    "reason": [
     "الـ body 444 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51YWdIZjJMN0p0RHZlT3I0TXdZRDlGZVh1a2xQSEQ1UjVVcngzUFZVaVJOX2Y4VDdKaFQ3R0p4djhPRzZJQUZZVzBhQVFkXzNTRTN1REhvV2ZpcnFOV1V3?oc=5",
+   "t": "استعدادًا للامتحانات.. توجيهات بضبط المنظومة التعليمية وتكثيف المتابعة الميدانية للمدارس بالجيزة - المصري اليوم",
+   "at": "2026-11-14",
+   "ok": false,
+   "reason": [
+    "الـ body 381 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'استعدادات', 'مكثفه'}) مع تشابه نصي مع: استعدادات مكثفة للزمالك بوديتين في التوقف الدولي)"
    ]
   }
  ]
