@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.goal.com/fr/news/un-casse-tete-pour-flick-le-barca-dans-l-embarras-avant-le-choc-contre-aston-villa/bltfe97feee034d0178",
-   "t": "Un casse-tête pour Flick : le Barça dans l'embarras avant le choc contre Aston Villa",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'رشلونه', 'ازمه'}) مع تشابه نصي مع: برشلونة يراقب ليساندرو مارتينيز: أزمة مدافع اليونايتد تفتح الباب)"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLTVhVZDU5RC00Tzc1VVVDSmVmM2RLM24yaHJZNnlCd0Y3QkJodnVtUE1XUWhhd1FPWHRGMzRVR1Vhb1RZTGV5OG9GTVB2RDJzVjl1OFlqNS1JTEJyVW5v?oc=5",
    "t": "بيان عاجل بشأن الطقس اليوم : اتخذوا التدابير والاستعدادات اللازمة - المصري اليوم",
    "at": "2026-11-04",
@@ -3383,6 +3374,16 @@
    "reason": [
     "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'عيار', 'ذهب', 'صاغه'}) مع: صدمة في الصاغة بالمساء.. قفزة جديدة لعيار 21 والجنيه الذهب 2026)"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/14/احذر-تحديث-نوفمبر-هواتف-Google-Pixel-تفقد-القدرة-على-التصوير/7618165",
+   "t": "احذر تحديث نوفمبر.. هواتف Google Pixel تفقد القدرة على التصوير بعد تثبيته",
+   "title": "احذر تحديث نوفمبر.. هواتف Google Pixel تفقد القدرة على التصوير",
+   "url": "https://www.egyptaway.com/2026/11/google-pixel-november-update-camera.html",
+   "photo": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-14T19:31:57.814706+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
