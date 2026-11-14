@@ -1689,6 +1689,23 @@
    "at": "2026-11-14",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "سفينة",
+   "at": "2026-11-14",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "رونالدينيو",
+   "at": "2026-11-14",
+   "ok": false
+  },
+  {
+   "q": "أحمد الفيشاوي",
+   "at": "2026-11-14",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
