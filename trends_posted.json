@@ -1649,6 +1649,12 @@
    "at": "2026-11-14",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "امريكا",
+   "at": "2026-11-14",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
