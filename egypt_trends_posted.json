@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7168055",
-   "t": "تدريبات استشفائية في مران الزمالك استعدادًا لمواجهة مصر للتأمين بكأس مصر",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 24",
-    "الـ body 401 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7168075",
    "t": "تحرك جديد ضد مانشستر سيتي بسبب القضية المالية.. مطالبات بفتح تحقيق جديد",
    "title": "تحرك جديد ضد مانشستر سيتي ومطالبات بفتح تحقيق موسع",
@@ -3379,6 +3369,16 @@
    "url": "https://www.egyptaway.com/2026/11/jalal-jayed-referee-zamalek-africain.html",
    "photo": "https://images.pexels.com/photos/19875973/pexels-photo-19875973.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-15T16:42:03.572336+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/16/هاتفك-مُخترق-تعرف-على-7-مخاطر-تهدد-صورك-وحساباتك-البنكية/7618761",
+   "t": "هاتفك مُخترق؟.. تعرف على 7 مخاطر تهدد صورك وحساباتك البنكية وكيفية إنقاذها",
+   "title": "هاتفك مُخترق؟ 7 مخاطر تهدد صورك وحساباتك وكيفية إنقاذها",
+   "url": "https://www.egyptaway.com/2026/11/phone-hack-risks-and-protection.html",
+   "photo": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-16T00:21:28.669193+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
