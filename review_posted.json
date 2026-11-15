@@ -1,181 +1,6 @@
 {
  "done": [
   {
-   "title": "ثغرة خطيرة بأندرويد تدمر هاتفك بمجرد تثبيت تطبيق خبيث",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcF9ZTEpPRUhqbllsOVdqejhHSlZYQlc2Xy1wRlhJZFQyTmcwcHhUbVVNdXJTQzJyQmJXWjkwWlJhVFlKM2JZaW1pSzdzendYRFRlSVBBdzZIMXN1MmpQNWstR04ybEdxZVFRbzhGc0Y2Qjc4Wi1iVDB5Rm9Md1V3RUJ3YTRHS01FRVFvLWg1WnFIbFZwcjFWUENjU1RxcnhOTHJlcHc0ajNUZXh4LW5TLVptekhrdw?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/dangerous-android-vulnerability-ghostmap.html",
-   "at": "2026-11-06T13:02:15+02:00",
-   "ok": false,
-   "kind": "news",
-   "brand": "اخرى",
-   "reverted": true
-  },
-  {
-   "title": "هاتف Oukitel WP63 الجديد: قاذف نيران في جيبك وبطارية عملاقة",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaXk0bG5faWd6VENValIwVzMzYjc1OTBHbGxPNUFGTVFDU1dGOC1kTGJBWnVGa0VBaEVaVE43azEwY3VMZXpjdUtRSTk5MnZXSzlPNVNPZ2JnOGtzN1JsQlJYWlR0VHlGV1VyWlRzak9Sa3RqOEVVWHNCc1N5aTFwOS04cC1rNHo1MTR1WDhDdl9rRTNzTTVrMENqYVFPdkkzQllReVAzMDZxV2thbFBKWWtVbXFwMFphOUY4WmhOamk?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/oukitel-wp63-rugged-phone-review.html",
-   "at": "2026-11-06T13:31:52+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "We checked out Chromagraph, Rian Johnson's viral iPhone camera app - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbkhkVnhGX0VlTHllRURBX1Z0bVBfQWU2RTA3RjVacGhuWkNwLUN6Ulc4dmNEZVVBRGgzWFRJQzZkMnNXMmFoaFktOTFNdl9NaXRSSmJ6QkVacWR4OVV6REs1TUZkYlhZeEs0LXpWaDJDNk1CWjVGU1lnUmVub1FqMkxtcEt6c25aRzJydDJ4c3dSSkRHT0Fkc2pzRTU0VjNTNXhnWg?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['gsmarena', 'camera', 'checked', 's']"
-  },
-  {
-   "title": "Honor 700 Pro",
-   "url": "https://www.gsmarena.com/honor_700_pro_5g-15069.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "Vivo’s wide-screen phone with a sub 6.5-inch display in works",
-   "url": "https://www.gizmochina.com/2026/11/06/vivo-wide-screen-flagship-2027-under-6-5-inches/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['5', 'screen', 'wide']"
-  },
-  {
-   "title": "Realme 17 Pro specs leak: 1.5K AMOLED, 10,000mAh battery, and more",
-   "url": "https://www.gizmochina.com/2026/11/06/realme-17-pro-specs-10000mah-dimensity-7300/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['10', '000mah', 'battery']"
-  },
-  {
-   "title": "These 4 free apps turn any Android phone into a Pixel without changing the launcher - How-To Geek",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdFdlWEp1LUc5X2J1OVJpcy05SmdBRnlFckxOby1fVHJFVzh4NHpGRFVpQVFvZmE3ZFNjNmlVUWJjTGdOWnVJbjRlbHA3SXhrN285SHZkUXFKSVBzQ1kxdkNtRGJrQ0RYQkhrcHlYRG5xM05JUGZQSGNJYWtQbzJVdnRqcVNLTGJTNHBXeGJENnZMVlNZTEhKZnlvbG4xR0Ja?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (594 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "The people who make your phones at Samsung are not happy with it",
-   "url": "https://www.sammobile.com/news/the-people-who-make-your-phones-at-samsung-are-not-happy-with-it/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (652 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "vivo also reportedly developing a wide-screen phone for 2027 launch",
-   "url": "https://www.gsmarena.com/vivo_also_reportedly_developing_a_widescreen_phone_for_2027_launch-news-75381.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['screen', 'wide']"
-  },
-  {
-   "title": "Leak: HONOR Robot Phone 2 is in the works, could launch next year",
-   "url": "https://www.androidauthority.com/honor-robot-phone-2-leak-3732477/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (594 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Enough Phone: 5.3-Inch Android at $499 [2026] - https://tech-insider.org/",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS2FTSEZGUEdGR1pZUHc0Y3lsVXd3NzdMQVp3SzRYSXhiV1l2c0lnWTZKUExEZUJ1eUVfem9nN1ZmMHZoRHN4Q2hQTlg3MnlGdVBvbEMtWUtlaWxULWQxeEhGQkpOWkhrWVJDUUwtZ3pubUp2Wm1hV1JCSnVLaVhyMXVGVHg5dnN1WW4zLUxR?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['https', '2026']"
-  },
-  {
-   "title": "iQOO 16s leaked specs hint at major battery and performance upgrades - Sportskeeda Tech",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON3ZrTF9lR3hwQUFDeHRVR1F4VTFoTDJObk1wTXBfR1RNa0VxSlZYWGJPTHFTVzFpZmk3dzJOa2ZuS1ZROHVGMlZFZkZTZm8wZ0ZzNjBXa2Qxa0xXM3FxUllCcThjeFRQOEZoMHFBc01RNzZjZkVGWVdoQnRTNlA1X2lTR1MwUDVORDZjbnZPdnV4OUEzSXotNGxrRmVGeVhwYVh6dEVR?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (588 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Your old Android phone could become a walking robot - Fox News",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLR1VJb1BfSkRQZFJ6V0FzYlctUENFYWFYb1ZUSFpwMUZNaG5nMldPaENYVEh6c2Y3V3Q2Y1F4SkhualBpUE1ScGtPMnJCTC1GY1lJNGd1NUVzUjdZZGozNWJFZzJFUjBtMU1zcnJEWDhhOWhCa3c?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (657 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Your Android Phone Can Install Apps Outside The Play Store – Here's How - BGR",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNajZLYVo0Y2JHY1BvN3NlRVgxTGhxODhXTVJXNU9ZbUFINl9hbDVMYmh0eE5wLXhFSkRLN2FPYko1RDk2TVR2eHRGNDhBS3JCelluRENWRFF4VXpnWWJrWEg1WXd1bmtUdld4Ul9mOXl3NnVDM2pmVHZ1OGVNV3JSdm1SRmZOcGd6?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (644 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "I swapped Samsung One UI Home for Mango Launcher to fix my messy home screen and app drawer - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWERaZW1ZRnJvLWZLX1lWdnExTzRQeUNZNUVyWW9yVDBub3JoTDVHa1FXRHNwN2N4dWZGZFhKN19IWmMtQ1hta3pZYzdvTFNOZWhYMFdaZHNVcVl3dk1RNmQ2NmF0Qk5RQThxMnY3ZFp2OXFZWVRkX014WERwaXk2b2MyR3I?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (613 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Oppo Find X10 Ultra has reportedly been cancelled",
-   "url": "https://www.gsmarena.com/oppo_find_x10_ultra_may_have_been_cancelled-news-75380.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (570 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Leaker says OPPO may have suspended the Find X10 Ultra",
-   "url": "https://www.androidauthority.com/oppo-find-x10-ultra-development-pause-leak-3732500/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (678 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Samsung Galaxy S26 Ultra gets a big $450 Amazon price drop",
-   "url": "https://www.androidauthority.com/amazon-deal-galaxy-s26-ultra-3732569/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Phone 's26 ultra' already covered in: مراجعة Samsung Galaxy S26 Ultra: كاميرا 200 ميجابكسل وشاشة الخصوصية وشحن 60 وات"
-  },
-  {
-   "title": "Samsung Galaxy S26 Ultra gets a big $450 Amazon price drop - Android Authority",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9uMUM4dUpjZzRjQzhHbDc0ZnAwbGt3TmJROGEzWWFHbkxQNDlXaXVjWnhiaXZOazUwb21ldXp0djE0LWVIeFAyN1A4RGdhS1ZwaTVUVUwtWFFBeS0tYVZoOUUwQWFQeHpMVXNJenB4d0dqMEZYQS1YUnZn?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['drop', 'amazon', 'galaxy', 'ultra']"
-  },
-  {
-   "title": "مقارنة شاملة: Huawei Enjoy 100 Pro ضد Pro Max",
-   "cand_title": "Huawei Enjoy 100 Pro vs 100 Pro Max: Is the Upgrade Worth It?",
-   "url": "https://www.gizmochina.com/2026/11/06/huawei-enjoy-100-pro-vs-pro-max/",
-   "post_url": "https://www.review-mobile.com/2026/11/huawei-enjoy-100-pro-vs-pro.html",
-   "at": "2026-11-06T17:11:24+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هواوي"
-  },
-  {
-   "title": "vivo also reportedly developing a wide-screen phone for 2027 launch - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNXJIRWFvVGdwQ0trMVdVSGJQbXdrcDBvVDRIcWw5b01IVUpwaEVnVHVVb3dSWlVUM1lfcDFjMEZzX01JQ2Z2ZGw3TTZpM3RfNEVKaWQ1c3BNTG96LWRyWDE4WnV3VVlaSGJobnNEMW5menAwRTlIREV4UjlUdEpUejBTdG1CNmNJcDBQa3RoWFl1MUVuMFRfX0dDRThJME1IdFo2cW96SnRKQdIBpgFBVV95cUxQcTlwdDNfZmJ4aTZXVk94TkRudUx4UkdJeGF1TE9Kb1JkN0RGdi1sakRMVlVKYlRBaHQwazNjRkF4Mkd5M2YtaXQwRkNWVXV6ZnZ1bXhxX0tEZnpBUk9jbGh5UUZXSmphblc0R2RSMkFubXhFXzFsdkg1Tk9SMF94cDF3OWpnb2xwNm84Rl9fTXBGWW1IZ0t4dThNQm1OX1E5UE93X0pB?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['wide', 'also', 'developing', '2027']"
-  },
-  {
    "title": "Samsung Galaxy Fit4 might have NFC for payments - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oSU9vYkdYVWExUWhsWTZkZ1U0QlZWOXhUaE9NdzRXUC0xdEVRY1JlYkU0aHZWcHFUc1FicmZEU1Z2anFCOGtqcTlQdUh0d28tZUswU29FVUlYemVBWE1ER29jT3YzNHE5VHpQRnFlQVZyZ1Z6MEp6dlpLUdIBd0FVX3lxTE4zVWxMeU5ockxIVEZUOW05a191MHE1OGVQMjc1U0JLc09zWThkY19OSFZCNnQyYWNGZDMyNjdjdENtRkE0U0c0UnJxaTZzWHVtdUFZVmFMVDN5bHNkYUJuNUNHaWwycm1IRXpoQ0NJZzU1c0IxVF9B?oc=5",
    "at": "2026-11-06",
@@ -3316,6 +3141,160 @@
    "url": "https://www.gsmarena.com/oppo_find_x9_ultra-14548.php",
    "post_url": "https://www.review-mobile.com/2026/11/oppo-find-x9-ultra-review.html",
    "at": "2026-11-15T03:46:32+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "اوبو"
+  },
+  {
+   "title": "Oppo Reno17 Pro (China) vs Oppo Reno17 (China)",
+   "url": "https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php||https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
+  },
+  {
+   "title": "Oppo Reno17 Pro (China) vs Honor 700S",
+   "url": "https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php||https://www.gsmarena.com/honor_700s_5g-15085.php",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone '700s' already covered in: مراجعة Honor 700S: وحش الفئة المتوسطة بمواصفات الفلاجشيب"
+  },
+  {
+   "title": "Gaming performance evolution: iPhone 15 Pro to iPhone 18 Pro",
+   "url": "https://www.gsmarena.com/gaming_performance_evolution_iphone_15_pro_to_iphone_18_pro-news-75486.php",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'iphone 18 pro' already covered in: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "Tilta Khronos Oppo Find X10 Pro Max Creator Kit hands-on",
+   "url": "https://www.gsmarena.com/tilta_khronos_oppo_find_x10_pro_max_creator_kit_handson-news-75476.php",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'x10 pro max' already covered in: مراجعة OPPO Find X10 Pro Max 2026: ثلاث كاميرات 200 ميجا وبطارية 8000"
+  },
+  {
+   "title": "Weekly poll: how long do you plan to keep your current phone?",
+   "url": "https://www.gsmarena.com/weekly_poll_how_long_do_you_plan_to_keep_your_current_phone-news-75477.php",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (560 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Weekly poll: how long do you plan to keep your current phone? - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSmNrTWsxMmxabHg3WEd6M2t4eUZXamw0ajFGQ096NzJpS1ZZUEtLeXk2M1lZaFRLSWg2T0IwYjlTQnlaNmVXOXBhQXVqMlVlc3hnTXNvWGZJSFNSck04OWp3dVNrSkJCb016OGxXUU9hWTk2UEJ3WTczSjRwZjEzb0ZlcWxqYW5YMmJIYWlTMld2Tm9xXzBjMGdUM0ladGxW?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['your', 'current', 'keep', 'long']"
+  },
+  {
+   "title": "Tilta Khronos Oppo Find X10 Pro Max Creator Kit hands-on - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSmp3WDJRUUg3Z3RGTG9FdUNxSWkwS05YYjROX2lEZER4RU5yZ244cElCa044Y1ZxdWQtNmJPWmJGckpJN0ZCZW1JQzZ4QUZES1VoNjYycDFoelMyQmtkbVFVV0FQR1BKbFN6a1BvWEx4bTBkMkdhVjBIbW1FXzRjQkxlelEzRURLSXhsSlFXVmI5OFNxTnpIUUZSSdIBlwFBVV95cUxONWVETTZCSE4wRlB0cTVHbFE4Y0dXeEp3Sjd3Z2hQMjl0MUVWMlpLMUNNQXhKV0NMZHRVWnM2bG1XS3pTdlZFcnBJdjlFTnBXelZGVXFBRmk1X0pFNFdiWndRSThzUXdwMFMtMUxWbEFPUTFyUDNNdmZBd2lxN19uV0JDckhkRHk3UnA0TTNFczFYWjBXUjJN?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['creator', 'find', 'khronos', 'tilta']"
+  },
+  {
+   "title": "Honor Magic10 series might feature a 200MP primary camera with LOFIC tech - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeVlPYTFTQzdYZk5sUWh6ejhiZlIzY2pTT0pBRjFaNFI5QXRwRFU4UDZKMmhUbVhnUW54Z1RwS3RoSXVwV2laZzhDUF9NUnQzYVdsYmhUQXl2bWNzZFAxX1pzZ1hhMFJFeTNyUWU2MjJubkVSMHUxc3N2WldPamlLcUlKTTRvRDRzdUZLb09LdXowRHZqTGgwUWN1UmV3MElodU1RTkQ3UDlaWlR30gGoAUFVX3lxTFBXMlBjOTNJVmdmZHFIWnA5UW4tX1EzQUxzUHZlcjJ5Zm9ubXlMUzlfd2Y0U3RZWFZtTFFwQ0lHUUpFQnI5bll1Rmh0Mzk5MnBuMDRpa1ZiQlBIdTBJUEVINlFWTzJZX2NIUExRN0QyVFVRcGtXMUhFNEdyeWV6ckJsT0dLaGprSGtMNXRGRkVfM3JlTDhIeGozMURhQm5vNmt6Y0txeFRFMg?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['might', 'primary', 'lofic', 'magic10']"
+  },
+  {
+   "title": "Samsung Galaxy S26 - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JeDZyZ3VreGJkdXhzQUFZazQ1MlRWcHUxOGpVQWRubkR1WFYzTzZGV2JPd1FDVkYxeXZkdTEtcG55QUlEUTFkRnZhOFZ3SnZyZjFyWk5uNU1LeDNNdXdvN2lfQ18?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 's26' already covered in: خصم 250 جنيهاً إسترلينياً على هاتف سامسونج Galaxy S26"
+  },
+  {
+   "title": "Apple iPhone 18 Pro Max - User opinions and reviews - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aUFJ3SDRvLU1qenJXSkg3bG1oenhJcWM2aVd3eVJjUlYyM0R2LXlzTFNuX2ZzbGVXQVQyOU1kcG1uQk9GdzBELUtpRzBMUmhHTFVJNmdDRV9zWHlQUWU3SjV1WGVxSkRJNDdKdzlrR0tpai1t?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
+  },
+  {
+   "title": "Oppo Find X10 Pro Max - User opinions and reviews - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xZDRjWXJWZ0RfS0FNNzhPMGp5UVVfNm1hR1hNbE03Z013V1IzTE80N2w3ZV9hNzJHck5Ga3JUVDVCMWFJRGs4UHlVN3dFUV90YVdWUktwUWwybEJWM2FGYXNUenBFRXdwYURPdFQ1cW10Zw?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Model code [x10] with variants {'max', 'pro'} found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
+  },
+  {
+   "title": "Compare Apple iPhone 6 Plus vs. Oppo Find X10 Pro Max - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93V3ZxaFZBejVOOUFySUNhNDJaSWNRZTNwLTNZcVNjTjN0elZuUUx2UXB6ZWlpcEtHVDB5LWZuUUtlN2tZVzFBeTA1eXFhNEdqSXA4U0FUUjFUb2lGQ0RuVVJ3ZTlvM0pOSWl6bW0xX2FlMzdy?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'x10 pro max' already covered in: مراجعة OPPO Find X10 Pro Max 2026: ثلاث كاميرات 200 ميجا وبطارية 8000"
+  },
+  {
+   "title": "LG's Signage Manager app lets store staff run e-paper signs from a phone - MarketScale",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPa2c2eWs1b1Y5UE1lWGdqS056VTAtLU9mWEpwcWVlU3Y3M28xQTdTOHBwa1lIbjZOd0E4Y1Z6cm43TlAyMXN0UGs4UEQ4b2phYXQ3MmJFUGRjZkV4Y2pkWGdsR0hkejBYYUtQWWRWWE9OVko4OEJIXzgzUGkwdzczRHpHMTJBYXdVOU5VSG5ETG9DVzVQbS1DeGVQX2FIMlBxcUhCemN6NXJENFBhenVDTWQ0NDh4Mzh0?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Huawei shows Mate X8 foldable but keeps specs and price secret - Tbreak UAE",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82Nm5fbWhoelVxUDk0TnVHd3FaZHVjV19iXzVuNlQzazktaWloYTM1dE9LTkZxUGliOXBkXzdjNHREMzluOE5PTTMtZHhoVWRRemZBLWtLeXJkX01mQjBR?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Model code [x8] with variants set() found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "Oppo Reno17 and Reno17 Pro specs leak ahead of November 16 launch - news.lavx.hu",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNE03cUJJTGVvRDhOOUIxMnF0VTBaRXdiampxVVpSVzZaSG1zdExmMU05UTdBdkphcWlscDRHaDdEQUxoeGxJMlB1dHpnb0J1eWM0aDgtTE1hOUNrSzJjcVVOeTVyZG4yTk5XbVE2clVUU28wRzJJbnlyVFhha2stYU5lOFMzbUYyaWZvU0hPQ1A4dGsxVkNfUFZn?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['reno17', 'ahead', 'november']"
+  },
+  {
+   "title": "OPPO Find X10 Series: Compare Specs, Prices & Ultra News - ThinBorne",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeE1QRGVIQWtmMU0tc1h0Qi0yLWoxSDQ3S1BtVmlyTTgxYS1XLWkzSTF6aHpYYVRNa0FkUHFHWkZ1TlY4eW5uVXNsVUcxZTlkZDEtMUpMMTRFMElkaVE5NWJOLTExVE9yM250aHhCRVg4VklxNWpuWjNobWkyR2RtcVZ5TUJpNkI5dEZFdkY0V0pvOFRRb0w0?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'x10' already covered in: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
+  },
+  {
+   "title": "Oppo Reno 17 series complete specs leaked ahead of launch - Sportskeeda Tech",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXgwOFozencxd1NiSk51Vl8xWm5tODdIbkVPb1J5X0laZ1pPNDNhLXFndTRXV2FzY1lISWtNeEwyNkxCQUFIQTZVQ29hTndXZnlFbENVZVhPdHlFNGdjS3JZdkxGVDdwX2VUcEsxdkt0c19Dbkx4ci1KNmlWb0h0cjE3VlRrN0dPdk1xazNMd1J4SndvRVFCRjdKZTg?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['reno', 'ahead', 'leaked']"
+  },
+  {
+   "title": "UPDATE: Polk Co. Sheriff’s Department phone lines back up - Local 3 News",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNalpfZzc5a21qTnlUVnN4aGNLSVI0b3lDZU9oUjFmWnNJYnpobGR2cUhTT0F0dGVNR3hicmFWN2xXUkZ3MlItMFFHRldxUTIxZnhqb21MeEZvN2p4VGZCR3BPRWhOa3czMmhWQnE4ZzBNS1owTHo1Qk9oSEtCYW4ya3Q2dVFYUjEyckJNVk8zRWY0SnVHMUEtOTFaSzJkR3FZc3dmZTJsaEVyQS1jSEg4aVROalVrem9mb0kwT3lhS0xfTWdDUG9VVGlZajNkRmxnbzh5VGcydzdFQlE?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "NordVPN on Windows, Mac, Android and iPhone: Which Protections Do You Get in 2026? - Yonkers Times",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN1pKTF9kX0xrZU1OZ3JtdFBEMmg2RHJnZHMxdDJvSjBsQ0U3bXotS21paHhsVFJ4S0x3eUo5YVJEQjJORXpxWGZ0ZHh2NGJYdHVhRThFbzkwX2JKTUJuRGN3SDEzaURFcGNMb3k4bnhlMkFhQUs4ZjY5aDdxSWlkckhzR2hFOFJRZ1JRTDgtbzlLeEV2RnJEVVduY2NKdnVyejVRSjRTVQ?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "These overlooked storage hogs could be taking up gigabytes on your phone - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRmo2V21qQUltdVJydnVYa2d3QU5rR0dzVll6UkNuczdPdkVpQUFqR2QxdzV4MFpNZFRnRVdrSHByMHQ1TmQ0TmNUazlTc09qaU5wYUxIaXAzZTgwU3JnMEs2cTQwNUloZ2RITWhoUGd1X0kwLVhFbXQ2MC15b2p1ZS1iYVRvbDQzNTcw?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (627 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،",
+   "cand_title": "Oppo Reno17 Pro (China)",
+   "url": "https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-reno17-pro-china-review.html",
+   "at": "2026-11-16T00:17:03+02:00",
    "ok": true,
    "kind": "review",
    "brand": "اوبو"
