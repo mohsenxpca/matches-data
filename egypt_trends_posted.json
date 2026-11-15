@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMilgNBVV95cUxPSU5hV3ZGU2dscVd2c3FJbzZVSFRmTFg5SUVyRXNjcnoyZTJWem9va3Z5QmZydVNiME5NdllDOGZQamF1UjUyUmszTC1mOFVXQ3h6Wnlndl93cmcxQVhMcm9VeXZfUVF1MWdvODNjaXVxeW9SekZxSlh0VHhwYnBoUmloNkNMMU9Xalp5d2ZEVm52aURuMjBHVE1oNDdYcmZvRVQtYnZ2LTV0YmNhY3JCLUlzRnEtWThtRUJEQlZSVE9HaC1xZGhjOUs3bkVLdWl0SXNuaXRzWUJkVlRxZDdqZUQxMVVWOWp3bzFPcWQyWVZnT05jUk1JLWtOYnlsWjI5VWNkd2thRzBaWk8ySnhraWEyY09aS01VVG1IUC1EaVFVTXBsakI5MEE5MlNxU1VsbVRCLVhlbzA2M1I1cDdVMjkxZm8tTGRSZHpxX2UzblRqUHMzUDJfS2o4anF0ZlgxOVEybldERVBsZW9MU21qeHlUZFJkVTBib1l5b0M5S3I4c0JxdGIybGFyWEVCZUs0N0R6ZVhB0gGQA0FVX3lxTE5UcXhnc3dOSUlCSjNmSE5lSU9hbFhEM0Zva2k2eVJGQWdwc3RSbDJMUWNLTTlsWXNGNEkxMGw2b1AzQlY0eDBTUGNyWm9XVzhxM1hEYkllc1k2XzNzeE5EWEx1VHhVVTc5RzJIeUZuTi0zeklMY1BDbWcwcF9WSWFZVWZVb3NmUElxcGN3SnplLTZoWmZpMWhHSkNpRkxMWmF1OUdheGdTbzdEaXpGa0xmbU1OUS11bHZnYlhIT3RUcENTVWZXdnI5RzY5YVZBZmN2dXF0b2tYVTBUV1ZMVm9nM1lSQ1VtZk1la1FNdXhEOXVTOEwyM1RldDRqN2VuMUVPd2dqdG1kUy01UFFtQzhQVDYxelQySTd3VkNnQXFENXZUYXBKN1RlMjVpRmN0TG1RNkY4SDRtRnlPR3NDQUdmQjhtZ2VDYkd6TkFFNUNhbm1XWjcyUnFaZllfZUFWS1lsd3NDeWtVMWxpaFVXY1NHLWdSRl9iT01uM3NhSUNKTVR3S3VKR2hTUnhaMWxPV3I?oc=5",
-   "t": "ضبط 151 بطاقة تموينية وماكينة صرف و800 كيلو من السلع المدعمة بقنا - اليوم السابع",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الـ body 363 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/4/3073556/%D9%85%D8%AD%D9%85%D8%AF-%D8%B5%D9%84%D8%A7%D8%AD-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D9%8A%D9%87-%D8%A8%D8%B8%D9%87%D9%88%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%A8%D8%B1%D9%81%D9%82%D8%A9-%D9%84%D8%A7%D8%B9%D8%A8%D9%8A-%D8%B7%D8%B1%D8%A7%D8%A8%D8%B2%D9%88%D9%86-",
    "t": "محمد صلاح يشارك متابعيه بظهور جديد برفقة لاعبي طرابزون",
    "at": "2026-11-04",
@@ -3383,6 +3374,16 @@
    "reason": [
     "كلمة رسميًا مش موجودة في المصدر، احذفها"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/15/بدلًا-منك-مساعد-ميتا-Muse-يمكنه-إجراء-المكالمات-الهاتفية/7619038",
+   "t": "بدلًا منك.. مساعد ميتا Muse يمكنه إجراء المكالمات الهاتفية",
+   "title": "مساعد ميتا Muse يجري المكالمات الهاتفية بدلًا منك",
+   "url": "https://www.egyptaway.com/2026/11/meta-muse-ai-phone-calls.html",
+   "photo": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-15T14:01:30.581169+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
