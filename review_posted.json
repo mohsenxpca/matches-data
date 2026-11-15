@@ -1,32 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi Redmi Note 17",
-   "url": "https://www.gsmarena.com/xiaomi_redmi_note_17-14846.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Phrase [redmi note] found in review: مراجعة Redmi Note 17 Pro Max 2026: بطارية 10000 وشحن 100 واط والسعر"
-  },
-  {
-   "title": "Oppo Find X10 Ultra reportedly shelved despite its recent Dimensity 9600 Pro leak",
-   "url": "https://www.gizmochina.com/2026/11/06/oppo-find-x10-ultra-cancellation-rumour/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (565 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "CZ Urges iPhone Users to Update iOS Amid DarkSword Threat - CryptoPotato",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLThUQ0x2NWZoX25zQTB0Nm9xbmJ6QXFnSUY0SGRxZi1ZTkVrd0NHWFFlZWpvXzZ5WDlQckMtQUFSdFRUOU1ycWdBREhyeWxaZ1k3dk5HaUYzZlN2RjY1TE1NUnYtblhhaUlDenRpQjFnTkNfekFFdjlxVkNJaU80bE9oOU5naVNrRVh3?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (589 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
    "title": "4 reasons why I’d recommend a foldable (and 4 reasons why I wouldn’t)",
    "url": "https://www.androidauthority.com/reasons-buy-not-buy-foldable-phones-2026-3730248/",
    "at": "2026-11-06",
@@ -3317,6 +3291,34 @@
    "ok": true,
    "kind": "review",
    "brand": "شاومي"
+  },
+  {
+   "title": "Honor is testing four OmniVision camera sensors, including the 200MP OVB0D",
+   "url": "https://www.gizmochina.com/2026/11/14/honor-is-testing-four-omnivision-camera-sensors-including-the-200mp-ovb0d/",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (626 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Oppo Reno 17, Reno 17 Pro full specs leaked ahead of launch",
+   "url": "https://www.gizmochina.com/2026/11/14/oppo-reno-17-reno-17-pro-full-specs-leaked-ahead-launch/",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (637 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "كيف استعدت 36 جيجابايت من هاتفك دون حذف أي صورة؟",
+   "cand_title": "How I freed up 36GB on my Android phone without deleting a single photo",
+   "url": "https://www.androidauthority.com/free-up-android-storage-tips-3734228/",
+   "post_url": "https://www.review-mobile.com/2026/11/free-up-36gb-android-without-deleting.html",
+   "at": "2026-11-15T02:46:47+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
