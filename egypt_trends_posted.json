@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS3ljZmFZZzBmVHJsVl9aVG95WGtmQmNVNnpmd2hXaThFMzktbzNiVzdKcU15YmxtdjdjQ2xBY3VCY0tab1A5LTBuRS1Vb0tNaUJMSnU4ZzZxUnh0Sl9VQVF4RnRISzVtUW5sTWF4ODZVdDhJY05nR3dMbDI0cHYzMWhISmMwYmVKRkEtQVMxbXdtYjZqWW9jeENUVElqem1aRF9mV3Y5bjI2QQ?oc=5",
-   "t": "عدم وجود امتحان دخول للصف الأول: يقلل الضغط على الأطفال، ويزيد من مسؤولية المدارس. - Vietnam.vn",
-   "title": "مقترح بمنع اختبارات القبول للصف الأول الابتدائي",
-   "url": "https://www.egyptaway.com/2026/11/ministry-education-primary-admission.html",
-   "at": "2026-11-04T10:46:37.611412+02:00",
-   "ok": true,
-   "type": "public_query"
-  },
-  {
    "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/4/3073414/%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A3%D8%A8%D8%B7%D8%A7%D9%84-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7",
    "t": "مواعيد مباريات اليوم الأربعاء في دوري أبطال أوروبا",
    "at": "2026-11-04",
@@ -3377,6 +3368,15 @@
    "reason": [
     "الـ body 365 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حاله', 'طقس'}) مع تشابه نصي مع: تفاصيل حالة الطقس ونوات الشتاء بالإسكندرية)"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7180965",
+   "t": "محمد عبدالجليل: محمد صلاح في الكرة زي مجدي يعقوب في الطب وزويل في العلم",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'صلاح', 'محمد'}) مع تشابه نصي مع: محمد صلاح يتصدر تقييمات الدوري التركي بمتوسط 7.95)"
    ]
   }
  ]
