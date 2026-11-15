@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7167759",
-   "t": "أنا مش فاسد.. ميدو يرد بقوة على تسريب إيصال مديونيته للزمالك.. وتنازلت عن 20 مليون جنيه",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'زمالك', 'مليون'}) مع تشابه نصي مع: مخاوف بالزمالك من خصخصة شركة الكرة وتبرعات بـ600 مليون)"
-   ]
-  },
-  {
    "u": "https://insider-gaming.com/should-you-buy-ps5-pro-for-gta-6-all-ps5-pro-enhancements/",
    "t": "Should You Buy A PS5 Pro For GTA 6—All PS5 Pro Enhancements",
    "at": "2026-11-04",
@@ -3379,6 +3370,16 @@
    "url": "https://www.egyptaway.com/2026/11/train-fare-evasion-fine-egypt.html",
    "photo": "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-15T11:02:41.414151+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/15/لم-يتحملوا-عيوبه-مشترون-يعيدون-آيفون-ديو-بعد-أيام-من/7618905",
+   "t": "لم يتحملوا عيوبه.. مشترون يعيدون آيفون ديو بعد أيام من شرائه",
+   "title": "موجة إرجاع لـ آيفون ديو: لماذا تخلى المشترون عن الهاتف الجديد؟",
+   "url": "https://www.egyptaway.com/2026/11/buyers-return-iphone-duo-reasons.html",
+   "photo": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-15T11:22:19.826199+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
