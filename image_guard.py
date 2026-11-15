@@ -108,7 +108,7 @@ def extract_photo_id(img_url):
 
 _LIVE_FEED_CACHE = {}
 
-def get_live_recent_images(site="egyptaway", count=25):
+def get_live_recent_images(site="egyptaway", count=50):
     """Fetches the actual image identifiers currently live in the last `count` posts on the blog."""
     now = time.time()
     if site in _LIVE_FEED_CACHE and (now - _LIVE_FEED_CACHE[site]["time"]) < 300:

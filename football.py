@@ -582,6 +582,57 @@ def story_teams(title, src):
     return picked[:2]
 
 
+def process_sports_photo(img_url, slug, out_dir="img"):
+    """
+    Downloads real football/sports photo, smart-crops 16:9 (1200x675),
+    enhances contrast and sharpness, applies a modern news frame with a
+    faint Egyptaway watermark badge, and saves locally in img/sports-{slug}.jpg.
+    Returns (cdn_url, local_path) or (None, None).
+    """
+    try:
+        import io, os, requests
+        from PIL import Image, ImageDraw, ImageEnhance, ImageOps
+        os.makedirs(out_dir, exist_ok=True)
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131 Safari/537.36"}
+        r = requests.get(img_url, headers=headers, timeout=15)
+        if r.status_code != 200 or len(r.content) < 1500:
+            return None, None
+        im = Image.open(io.BytesIO(r.content)).convert("RGBA")
+        im = ImageOps.fit(im, (1200, 675), method=Image.Resampling.LANCZOS)
+        rgb = im.convert("RGB")
+        rgb = ImageEnhance.Contrast(rgb).enhance(1.08)
+        rgb = ImageEnhance.Color(rgb).enhance(1.05)
+        rgb = ImageEnhance.Sharpness(rgb).enhance(1.15)
+        im = rgb.convert("RGBA")
+        overlay = Image.new("RGBA", (1200, 675), (0, 0, 0, 0))
+        draw = ImageDraw.Draw(overlay)
+        for y in range(4):
+            draw.line([(0, y), (1200, y)], fill=(234, 88, 12, 220))
+        for y in range(550, 675):
+            alpha = int(((y - 550) / 125.0) * 160)
+            draw.line([(0, y), (1200, y)], fill=(15, 23, 42, alpha))
+        draw.line([(0, 671), (1200, 671)], fill=(234, 88, 12, 240), width=4)
+        logo_path = os.path.join(out_dir, "ea_logo_dark_80.png")
+        if os.path.exists(logo_path):
+            logo = Image.open(logo_path).convert("RGBA")
+            logo.thumbnail((150, 48), Image.Resampling.LANCZOS)
+            logo_faint = Image.new("RGBA", logo.size)
+            for x in range(logo.width):
+                for y in range(logo.height):
+                    p = logo.getpixel((x, y))
+                    logo_faint.putpixel((x, y), (p[0], p[1], p[2], int(p[3] * 0.45)))
+            overlay.paste(logo_faint, (30, 20), logo_faint)
+        final_im = Image.alpha_composite(im, overlay).convert("RGB")
+        out_file = f"sports-{slug}.jpg"
+        out_path = os.path.join(out_dir, out_file)
+        final_im.save(out_path, "JPEG", quality=86, optimize=True)
+        cdn_url = f"https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/{out_dir}/{out_file}"
+        return cdn_url, out_path
+    except Exception as e:
+        print("  [process_sports_photo] Error:", e)
+        return None, None
+
+
 def make_player_action_shot(img_url, out_path, team_logo_url=None):
     try:
         from PIL import Image, ImageDraw, ImageFilter
@@ -876,21 +927,15 @@ def main():
         raw_i = (c.get("i") or "").strip()
         lead_img_url = None
 
-        # 1. First priority: Real player/match action shot via wsrv proxy with horizontal mirror (flop=true)
+        # 1. First priority: Real match/player action shot with watermark & frame
         if raw_i and raw_i.startswith("http"):
-            clean_i = raw_i.replace("/thumb/", "/large/")
-            cand_proxy = f"https://wsrv.nl/?url={urllib.parse.quote(clean_i)}&w=1200&h=675&fit=cover&flop=true&output=webp&q=80"
-            try:
-                chk = requests.head(cand_proxy, headers=HEAD, timeout=4, allow_redirects=True)
-                if chk.status_code == 200:
-                    lead_img_url = cand_proxy.replace("&", "&amp;")
-                else:
-                    cand_proxy2 = f"https://wsrv.nl/?url={urllib.parse.quote(raw_i)}&w=1200&h=675&fit=cover&flop=true&output=webp&q=80"
-                    chk2 = requests.head(cand_proxy2, headers=HEAD, timeout=4, allow_redirects=True)
-                    if chk2.status_code == 200:
-                        lead_img_url = cand_proxy2.replace("&", "&amp;")
-            except Exception as ex:
-                print("  wsrv proxy check failed:", ex)
+            clean_i = raw_i.replace("/thumb/", "/large/").replace("/thumb/", "/wide/")
+            cdn_u, local_p = process_sports_photo(clean_i, art['slug'])
+            if not cdn_u and clean_i != raw_i:
+                cdn_u, local_p = process_sports_photo(raw_i, art['slug'])
+            if cdn_u:
+                lead_img_url = cdn_u
+                print(f"  Processed genuine sports photo with watermark -> {local_p}")
 
         # 2. Fallback: Clean Pexels stadium photo
         if not lead_img_url:
