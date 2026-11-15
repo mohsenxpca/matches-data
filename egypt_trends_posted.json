@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/news/news_economy/details/2026/11/4/3073548/%D8%A7%D9%84%D8%B9%D8%AC%D8%B2-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A-%D9%84%D9%85%D8%B5%D8%B1-%D9%8A%D9%82%D9%81%D8%B2-29-%D8%A5%D9%84%D9%89-6-4-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%AE%D9%84%D8%A7%D9%84-%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%AA%D9%81%D8%A7%D9%82%D9%85-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B1%D8%A7%D8%AF",
-   "t": "العجز التجاري لمصر يقفز 29% إلى 6.4 مليار دولار خلال أغسطس بسبب تفاقم الاستيراد",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الـ body 393 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.purexbox.com/news/2026/11/gta-6-download-size-and-preload-times-officially-revealed-for-xbox-series-xs",
    "t": "GTA 6 Download Size & Preload Times Officially Revealed For Xbox Series X|S",
    "at": "2026-11-04",
@@ -3384,6 +3375,16 @@
    "reason": [
     "العنوان لازم أقل من 70 حرف"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/15/بعد-عطل-الـ36-ساعة-كيف-تحصل-على-تعويض-من-مايكروسوفت/7619282",
+   "t": "بعد عطل الـ36 ساعة.. كيف تحصل على تعويض من مايكروسوفت؟",
+   "title": "بعد عطل الـ36 ساعة.. كيف تحصل على تعويض من مايكروسوفت؟",
+   "url": "https://www.egyptaway.com/2026/11/how-to-get-microsoft-compensation.html",
+   "photo": "https://images.pexels.com/photos/1198264/pexels-photo-1198264.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-15T15:02:21.219333+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
