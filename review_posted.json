@@ -1,31 +1,6 @@
 {
  "done": [
   {
-   "title": "CZ Urges iPhone Users to Update iOS Amid DarkSword Threat - CryptoRank",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTXFiajVsMGhkbmVuSHRMczFxcTZ0Njdvb05FRGg1Q3MxR3lmZjU1ZVBhNFQzVWozUUFxSzdCZGY1WHhYY3ctYzlTd1hZVHlDOU1sRTFSMXlWR08tWTVPMlNLZi1UUTdVU0tFeUppV01tWUUwcXExclNkSVdPWnlmWGd3YXg0Yy1nU2V2SnFra0toTXRsakhBRXNUSQ?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['iphone', 'ios', 'urges', 'threat']"
-  },
-  {
-   "title": "Samsung Galaxy Fit4 might have NFC for payments",
-   "url": "https://www.gsmarena.com/samsung_galaxy_fit4_nfc_support-news-75377.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (678 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Boxshelf is a new Android front-end that turns your ROMs into a virtual collection",
-   "url": "https://www.androidauthority.com/boxshelf-android-handheld-front-end-launcher-3732398/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (506 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "ثغرة خطيرة بأندرويد تدمر هاتفك بمجرد تثبيت تطبيق خبيث",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcF9ZTEpPRUhqbllsOVdqejhHSlZYQlc2Xy1wRlhJZFQyTmcwcHhUbVVNdXJTQzJyQmJXWjkwWlJhVFlKM2JZaW1pSzdzendYRFRlSVBBdzZIMXN1MmpQNWstR04ybEdxZVFRbzhGc0Y2Qjc4Wi1iVDB5Rm9Md1V3RUJ3YTRHS01FRVFvLWg1WnFIbFZwcjFWUENjU1RxcnhOTHJlcHc0ajNUZXh4LW5TLVptekhrdw?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/dangerous-android-vulnerability-ghostmap.html",
@@ -3320,6 +3295,30 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "How I freed up 36GB on my Android phone without deleting a single photo - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KTzNtZW0tRmtpMC1rdUV0Z09YUDdiNzJ2eVF5SS05V0VReWVIeTUtTEplcWlSZTM0djFSenBQa1YxUi1OZFlkTE1QNzZyRGFTUF9FYzF1aW55aGlXbVlpYUFMSnd0WFNoVUZXaVRmWVBtVVNhbXdnLVBR?oc=5",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['deleting', 'freed', 'photo', 'single']"
+  },
+  {
+   "title": "Xiaomi 17",
+   "url": "https://www.gsmarena.com/xiaomi_17-14134.php",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": "Model code [17] with variants set() found in review: مراجعة شاملة لهاتف Xiaomi 17 Ultra: وحش التصوير بمعالج خارق"
+  },
+  {
+   "title": "مراجعة Oppo Find X9 Ultra: العملاق الجديد يغزو الأسواق العالمية",
+   "cand_title": "Oppo Find X9 Ultra",
+   "url": "https://www.gsmarena.com/oppo_find_x9_ultra-14548.php",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-find-x9-ultra-review.html",
+   "at": "2026-11-15T03:46:32+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "اوبو"
   }
  ]
 }
