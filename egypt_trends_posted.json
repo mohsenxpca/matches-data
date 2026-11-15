@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNMmhwRWdkaEVPU1RmVm13STRNb0RTd056NFhGcXpmYlNxZlhPckUzb00zYjIwMEpnOFE4dkpYeFV0UGxhcnRGZDA1NFVGTENaWXlQOGliRlptZGppR1U3WWJEQnFnSjJDTlR6cFlSWHREZnktUlNaTWNEUTNRLVNicUZZUmN2amJ3cXJIdVF2NURlWU9jR0JIdDdFR3NCSEJleUtsSjlYSzRyRjRPWC1NdHg1V0dJRWhfNnZMVUY2cGIwOE4zVjA1c2xBb1Jld0NQelYyQjBOSGYtODlRZjBnZ2JzYWwybFEzYTV6NXc4WkR0TjJVV2pvNnlYTWpQY1N4c05uV1NuMTJMSmc3OHJwTjYyX1VDX2tLMnFpcER2c2VvTDVl?oc=5",
-   "t": "هل نصلي الفجر قبل موعده؟.. 32 دقيقة تشعل الجدل حول مواقيت الصلاة في مصر - تليجراف مصر",
-   "title": "جدل واسع في مصر حول مواقيت الصلاة مع تغيير الساعة وتأثيرها",
-   "url": "https://www.egyptaway.com/2026/11/egypt-prayer-times-time-change.html",
-   "at": "2026-11-04T14:52:09.378227+02:00",
-   "ok": true,
-   "type": "public_query"
-  },
-  {
    "u": "https://www.masrawy.com/news/news_economy/details/2026/11/4/3073548/%D8%A7%D9%84%D8%B9%D8%AC%D8%B2-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A-%D9%84%D9%85%D8%B5%D8%B1-%D9%8A%D9%82%D9%81%D8%B2-29-%D8%A5%D9%84%D9%89-6-4-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%AE%D9%84%D8%A7%D9%84-%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%AA%D9%81%D8%A7%D9%82%D9%85-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B1%D8%A7%D8%AF",
    "t": "العجز التجاري لمصر يقفز 29% إلى 6.4 مليار دولار خلال أغسطس بسبب تفاقم الاستيراد",
    "at": "2026-11-04",
@@ -3383,6 +3374,15 @@
    "ok": false,
    "reason": [
     "كلمة رسميًا مش موجودة في المصدر، احذفها"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_economy/details/2026/11/15/3079060/%D8%A3%D9%86%D8%AB%D8%B1%D9%88%D8%A8%D9%8A%D9%83-%D8%AA%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D8%B7%D8%B1%D8%AD-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%81%D9%8A-%D9%86%D8%A7%D8%B3%D8%AF%D8%A7%D9%83-64-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%85%D8%B3%D8%AA%D9%87%D8%AF%D9%81%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%83%D8%AA%D8%AA%D8%A7%D8%A8-%D9%88%D8%AA%D9%82%D9%8A%D9%8A%D9%85-%D9%85%D8%AA%D9%88%D9%82%D8%B9-%D8%A8%D9%801-4-%D8%AA%D8%B1%D9%8A%D9%84%D9%8A%D9%88%D9%86-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+   "t": "أنثروبيك تستعد لطرح تاريخي في ناسداك.. 64 مليار دولار مستهدفات الاكتتاب وتقييم متوقع بـ1.4 تريليون دولار",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": [
+    "العنوان لازم أقل من 70 حرف"
    ]
   }
  ]
