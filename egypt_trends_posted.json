@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7168049",
-   "t": "بشري لجمهور الزمالك قبل موقعة مصر للتأمين في كأس مصر",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الـ body 405 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7168055",
    "t": "تدريبات استشفائية في مران الزمالك استعدادًا لمواجهة مصر للتأمين بكأس مصر",
    "at": "2026-11-04",
@@ -3380,6 +3371,16 @@
    "reason": [
     "الـ body 430 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7181614",
+   "t": "رسمياً.. المغربي جلال جيد حكماً لمواجهة الزمالك والأفريقي التونسي",
+   "title": "رسمياً.. المغربي جلال جيد حكماً لمواجهة الزمالك والأفريقي",
+   "url": "https://www.egyptaway.com/2026/11/jalal-jayed-referee-zamalek-africain.html",
+   "photo": "https://images.pexels.com/photos/19875973/pexels-photo-19875973.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-15T16:42:03.572336+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
