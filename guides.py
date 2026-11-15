@@ -102,6 +102,11 @@ FORBIDDEN_REGEX = re.compile(
 
 # Comprehensive Curated Topic Bank across all 7 categories with 100% verified official facts
 TOPICS = [
+    {"id": "end-of-service-bonus-calculator-egypt-2026", "title_hint": "حاسبة مكافأة نهاية الخدمة 2026 في قانون العمل المصري الجديد بالجنيه", "slug": "end-of-service-bonus-calculator-egypt-2026", "category": ["منوعات", "خدمات"], "pool": "telecom", "tool": "calc_end_of_service", "keywords": ["مكافأة نهاية الخدمة", "قانون العمل الجديد", "حساب مكافأة نهاية الخدمة مصر"], "source_name": "وزارة العمل المصرية - قانون العمل الموحد", "source_url": "https://www.manpower.gov.eg", "facts": "قواعد حساب مكافأة نهاية الخدمة وفقاً لقانون العمل المصري الجديد 2026:\n- يستحق العامل مكافأة نهاية خدمة بواقع أجر نصف شهر عن كل سنة من السنوات الخمس الأولى للخدمة.\n- يستحق أجر شهر كامل عن كل سنة من السنوات التالية للخمس سنوات الأولى.\n- تحسب المكافأة على أساس آخر راتب شهري تقاضاه العامل قبل انتهاء خدمته.\n- في حالة الاستقالة: يستحق ثلث المكافأة إذا جاوزت مدة خدمته سنتين ولم تبلغ 5 سنوات، وثلثي المكافأة إذا جاوزت 5 سنوات ولم تبلغ 10 سنوات، وتستحق المكافأة كاملة إذا بلغت مدة خدمته 10 سنوات فأكثر.\n- تصرف المكافأة كاملة في حالات بلوغ سن التقاعد (60 عاماً) أو العجز الكلي أو الوفاة، بغض النظر عن المدة."},
+    {"id": "we-router-password-change-hide-wifi-2026", "title_hint": "طريقة تغيير باسورد راوتر WE الجديد من الموبايل وإخفاء الواي فاي 2026", "slug": "change-we-router-password-hide-wifi-2026", "category": ["منوعات", "شروحات"], "pool": "telecom", "tool": "router_setup_guide", "keywords": ["تغيير باسورد راوتر we", "192.168.1.1", "اخفاء شبكة الواي فاي"], "source_name": "الشركة المصرية للاتصالات WE - الدعم الفني للإنترنت المنزلي", "source_url": "https://te.eg", "facts": "خطوات تغيير كلمة سر راوتر WE من الهاتف وصفحة 192.168.1.1 الرسمية:\n- الاتصال بشبكة الواي فاي الخاصة بالراوتر من الموبايل.\n- فتح متصفح الإنترنت وكتابة العنوان: http://192.168.1.1 في شريط العناوين.\n- عند ظهور تحذير الأمان اضغط على Advanced (خيارات متقدمة) ثم Proceed (المتابعة).\n- اسم المستخدم الافتراضي: admin (بحروف صغيرة).\n- كلمة المرور الافتراضية: مطبوعة على ملصق ظهر الراوتر بحروف كبيرة (Capital).\n- لتغيير باسورد الواي فاي: الدخول إلى Local Network ثم WLAN ثم WLAN Basic Configuration أو WLAN Encryption.\n- لإخفاء الشبكة: تفعيل خيار Hide SSID لمنع ظهور اسم الشبكة والبحث عنها يدوياً فقط."},
+    {"id": "home-internet-speed-boost-fix-slow-2026", "title_hint": "أكواد وخطوات تسريع باقة النت المنزلي WE عند بطء السرعة قبل انتهاء الشهر", "slug": "boost-home-internet-speed-fix-slow-2026", "category": ["منوعات", "شروحات"], "pool": "telecom", "tool": "router_setup_guide", "keywords": ["تسريع النت المنزلي", "حل بطء باقة وي", "تسريع راوتر we"], "source_name": "الجهاز القومي لتنظيم الاتصالات NTRA - إرشادات جودة خدمات الإنترنت", "source_url": "https://www.tra.gov.eg", "facts": "خطوات عملية لحل بطء الإنترنت المنزلي واستعادة السرعة الكاملة:\n- إعادة تشغيل الراوتر وفصله عن الكهرباء لمدة دقيقتين لتفريغ الذاكرة المؤقتة وتحديث IP الخط.\n- فحص استهلاك الباقة عبر تطبيق My WE أو موقع المصرية للاتصالات للتأكد من عدم استنفاد الجيجات الشهرية.\n- فحص جودة خط التليفون الأرضي وعدم وجود تشويش (Noise Margin) أعلى من 12 ديسيبل.\n- تغيير قناة الواي فاي (WLAN Channel) في إعدادات الراوتر إلى القنوات 1 أو 6 أو 11 لتجنب التداخل.\n- تغيير خوادم DNS إلى خوادم سريعة مثل Google DNS (8.8.8.8 و 8.8.4.4) أو Cloudflare (1.1.1.1).\n- فصل الأجهزة المتصلة غير المعروفة وفحص الأجهزة التي تستهلك التحديثات التلقائية في الخلفية."},
+    {"id": "app-not-installed-fix-android-2026", "title_hint": "حل مشكلة التطبيق ليس مثبتاً (App Not Installed) على أندرويد لجميع الهواتف", "slug": "fix-app-not-installed-android-error-2026", "category": ["منوعات", "أندرويد"], "pool": "phones", "tool": "router_setup_guide", "keywords": ["حل مشكلة التطبيق ليس مثبتا", "app not installed", "تثبيت apk اندرويد"], "source_name": "مركز مساعدة مطوري أندرويد الرسمي - Google Android Support", "source_url": "https://support.google.com/android", "facts": "الأسباب والحلول المعتمدة لمشكلة التطبيق ليس مثبتاً في هواتف الأندرويد 2026:\n- تعارض الحزم (Package Conflict): وجود نسخة قديمة مثبتة على الهاتف؛ والحل حذف النسخة القديمة بالكامل قبل تثبيت ملف APK الجديد.\n- حماية جوجل بلاي (Google Play Protect): قد تحظر تثبيت التطبيقات من خارج المتجر؛ والحل إيقاف فحص Play Protect مؤقتاً أثناء التثبيت.\n- عدم توافق معمارية المعالج (Architecture Incompatibility): مثل تحميل نسخة 32-bit لهاتف 64-bit، والحل تحميل النسخة المتوافقة مع معالج جهازك (ARM64).\n- امتلاء المساحة التخزينية الداخلية: نظام أندرويد يحتاج مساحة فارغة لا تقل عن 1 جيجابايت لتفكيك وتثبيت أي ملف APK.\n- تفعيل ميزة التثبيت من مصادر غير معروفة (Install Unknown Apps) لمتصفح الملفات أو المتصفح المستخدم في التنزيل."},
+    {"id": "transfer-whatsapp-android-to-iphone-free-2026", "title_hint": "طريقة نقل محادثات واتساب من أندرويد إلى آيفون مجاناً وبدون كمبيوتر 2026", "slug": "transfer-whatsapp-chats-android-to-iphone-free-2026", "category": ["منوعات", "شروحات"], "pool": "phones", "tool": "router_setup_guide", "keywords": ["نقل محادثات الواتس من اندرويد لايفون", "move to ios whatsapp", "نقل شات واتساب"], "source_name": "مركز مساعدة واتساب الرسمي - نقل سجلات الدردشة", "source_url": "https://faq.whatsapp.com", "facts": "الشروط والخطوات الرسمية لنقل دردشات واتساب مجاناً من أندرويد إلى آيفون:\n- استخدام تطبيق Move to iOS (نقل إلى iOS) الرسمي من آبل على هاتف الأندرويد.\n- يجب أن يكون الآيفون في مرحلة الإعداد الأولي (جديد أو بعد إعادة ضبط المصنع).\n- اتصال كلا الهاتفين بنفس شبكة الواي فاي المنزلية، ووضع الهاتفين على الشاحن أثناء النقل.\n- اختيار نقل بيانات 'WhatsApp' عند ظهور شاشة نقل البيانات في Move to iOS.\n- فتح واتساب على الآيفون الجديد وتفعيل نفس رقم الهاتف القديم، لتظهر رسالة 'نقل الدردشات' والضغط على 'بدء' لتكتمل العملية بكامل الرسائل والوسائط."},
     # 1. أكواد ورصيد وتحويل فودافون كاش واتصالات وأورنج وWE
     {
         "id": "vodafone-cash-all-codes-2026",
@@ -607,6 +612,71 @@ PROMPT_TEMPLATE = """أنت كاتب محتوى تقني وخدمي محترف �
 
 def build_interactive_tool(tool_type):
     """Returns a clean, self-contained inline interactive HTML/JS tool (<select>/<input>/<button>) matching the topic."""
+    if tool_type == "calc_end_of_service":
+        return """
+<div class="ea-tool-box" style="background:#f8fafc;border:2px solid #ea580c;border-radius:14px;padding:20px;margin:24px 0;box-shadow:0 4px 15px rgba(234,88,12,0.08)">
+  <h3 style="margin-top:0;font-size:20px;font-weight:800;color:#0f172a">حاسبة مكافأة نهاية الخدمة 2026 (طبقاً لقانون العمل المصري)</h3>
+  <p style="font-size:14px;color:#475569;margin-bottom:14px">ادخل الراتب الأخير وعدد سنوات الخدمة لحساب قيمة مكافأة نهاية الخدمة المستحقة فوراً:</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:14px">
+    <div>
+      <label style="display:block;font-size:13px;font-weight:700;color:#334155;margin-bottom:4px">الراتب الشهري الأخير (بالجنيه):</label>
+      <input type="number" id="eaSalary" placeholder="مثال: 8000" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font:inherit;box-sizing:border-box">
+    </div>
+    <div>
+      <label style="display:block;font-size:13px;font-weight:700;color:#334155;margin-bottom:4px">عدد سنوات الخدمة في الشركة:</label>
+      <input type="number" id="eaYears" placeholder="مثال: 7" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font:inherit;box-sizing:border-box">
+    </div>
+  </div>
+  <button type="button" onclick="calcBonus()" style="background:#ea580c;color:#fff;border:none;padding:10px 22px;border-radius:8px;font-weight:800;cursor:pointer;font:inherit;box-shadow:0 2px 8px rgba(234,88,12,0.25)">احسب المكافأة المستحقة</button>
+  <div id="eaBonusRes" style="display:none;margin-top:16px;padding:14px;background:#fff7ed;border-radius:10px;border-right:4px solid #ea580c">
+    <div style="font-size:15px;color:#9a3412;font-weight:700">قيمة مكافأة نهاية الخدمة التقديرية:</div>
+    <div id="eaBonusVal" style="font-size:26px;font-weight:900;color:#c2410c;margin:6px 0">0 جنيه</div>
+    <div id="eaBonusExpl" style="font-size:13px;color:#7c2d12">حساب: نصف شهر عن كل سنة من الـ 5 سنوات الأولى + شهر كامل عن كل سنة تالية.</div>
+  </div>
+</div>
+<script>
+function calcBonus(){
+  var s = parseFloat(document.getElementById('eaSalary').value)||0;
+  var y = parseFloat(document.getElementById('eaYears').value)||0;
+  if(s<=0||y<=0){alert('يرجى إدخال الراتب وسنوات الخدمة بشكل صحيح');return;}
+  var total = 0;
+  if(y <= 5){ total = y * (s * 0.5); }
+  else { total = (5 * (s * 0.5)) + ((y - 5) * s); }
+  document.getElementById('eaBonusVal').innerText = total.toLocaleString('ar-EG') + ' جنيه مصري';
+  document.getElementById('eaBonusRes').style.display = 'block';
+}
+</script>
+"""
+    if tool_type == "router_setup_guide":
+        return """
+<div class="ea-tool-box" style="background:#f8fafc;border:2px solid #2563eb;border-radius:14px;padding:20px;margin:24px 0">
+  <h3 style="margin-top:0;font-size:19px;font-weight:800;color:#0f172a">دليل الدخول السريع لإعدادات الراوتر 192.168.1.1</h3>
+  <p style="font-size:14px;color:#475569;margin-bottom:12px">اختر نوع الراوتر لمعرفة بيانات تسجيل الدخول الافتراضية فوراً:</p>
+  <select id="eaRouterSel" onchange="showRouterInfo()" style="width:100%;padding:10px;border:1px solid #cbd5e1;border-radius:8px;font:inherit;margin-bottom:12px">
+    <option value="we_zxhn">راوتر WE الجديد (ZTE H188A / H168N)</option>
+    <option value="we_huawei">راوتر WE هواوي (Huawei DN8245 / DG8045)</option>
+    <option value="vodafone">راوتر فودافون VDSL</option>
+    <option value="etisalat">راوتر اتصالات مصر VDSL</option>
+    <option value="orange">راوتر أورنج DSL</option>
+  </select>
+  <div id="eaRouterBox" style="background:#eff6ff;padding:14px;border-radius:10px;border-right:4px solid #2563eb;font-size:14px;color:#1e3a8a">
+    <b>IP الدخول:</b> http://192.168.1.1<br>
+    <b>اسم المستخدم (Username):</b> admin<br>
+    <b>كلمة المرور (Password):</b> مطبوعة على ظهر الراوتر بحروف كبيرة (Capital)، وإذا لم تكن مطبوعة فالافتراضي هو admin.
+  </div>
+</div>
+<script>
+function showRouterInfo(){
+  var v = document.getElementById('eaRouterSel').value;
+  var b = document.getElementById('eaRouterBox');
+  if(v==='we_zxhn'){ b.innerHTML='<b>IP الدخول:</b> 192.168.1.1<br><b>المستخدم:</b> admin<br><b>الباسورد:</b> كلمة المرور المطبوعة على ظهر الراوتر (User Password) بأحرف كبيرة.'; }
+  else if(v==='we_huawei'){ b.innerHTML='<b>IP الدخول:</b> 192.168.1.1<br><b>المستخدم:</b> admin<br><b>الباسورد:</b> مطبوعة على ظهر الراوتر أو كلمة admin.'; }
+  else if(v==='vodafone'){ b.innerHTML='<b>IP الدخول:</b> 192.168.1.1<br><b>المستخدم:</b> vodafone<br><b>الباسورد:</b> vodafone أو كلمة المرور على ظهر الراوتر.'; }
+  else if(v==='etisalat'){ b.innerHTML='<b>IP الدخول:</b> 192.168.1.1<br><b>المستخدم:</b> user<br><b>الباسورد:</b> etisalat.'; }
+  else if(v==='orange'){ b.innerHTML='<b>IP الدخول:</b> 192.168.1.1<br><b>المستخدم:</b> admin<br><b>الباسورد:</b> admin.'; }
+}
+</script>
+"""
     if tool_type in ("ussd_vodafone", "ussd_all_networks"):
         return """
 <div class="ea-tool-box" style="background:#f8fafc;border:1px solid #cbd5e1;border-radius:12px;padding:16px;margin:20px 0">
@@ -797,9 +867,12 @@ def assemble_full_html(art, topic, internal_links):
     intro = parts[0] if parts else ""
     sections = parts[1:] if len(parts) > 1 else [body]
 
-    img0_url = PEXELS_TPL.format(id=photos[0][0])
-    img0_alt = html.escape(photos[0][1])
-    img0_html = f'<p><img src="{img0_url}" alt="{img0_alt}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px"></p>\n'
+    lead_src = PEXELS_TPL.format(id=photos[0][0])
+    lead_alt = html.escape(photos[0][1])
+    # Apply branded 16:9 frame + faint watermark via image_guard
+    branded_cdn, _, _ = image_guard.brand_and_save_photo(lead_src, art.get("slug", "misc-guide"))
+    img0_url = branded_cdn or lead_src
+    img0_html = f'<p><img src="{img0_url}" alt="{lead_alt}" width="1200" height="675" style="width:100%;height:auto;border-radius:12px;margin-bottom:14px" fetchpriority="high"></p>\n'
 
     img1_url = PEXELS_TPL.format(id=photos[1][0])
     img1_alt = html.escape(photos[1][1])
@@ -980,22 +1053,11 @@ def main():
         state = {"done": []}
 
     now_cairo = datetime.datetime.now(CAIRO)
-    # Cooldown guard: at least 25 minutes between automated runs
-    done_entries = [d for d in state.get("done", []) if d.get("ok")]
-    if done_entries and not is_dry and not args.topic_id:
-        last_item = done_entries[-1]
-        last_ts = last_item.get("timestamp") or last_item.get("scheduled_for")
-        if last_ts:
-            try:
-                last_dt = datetime.datetime.fromisoformat(last_ts)
-                if last_dt.tzinfo is None:
-                    last_dt = last_dt.replace(tzinfo=CAIRO)
-                diff_m = (now_cairo - last_dt.astimezone(CAIRO)).total_seconds() / 60
-                if diff_m < 25:
-                    print(f"Cooldown active: last guide published {diff_m:.1f}m ago (minimum 25m required). Skipping this run.")
-                    return
-            except Exception as e:
-                print(f"Cooldown parse warning: {e}")
+    # Strict 1 post per day guard for "منوعات"
+    done_today = [d for d in state.get("done", []) if d.get("ok") and d.get("date") == today_str]
+    if done_today and not is_dry and not args.topic_id:
+        print(f"Daily cap reached: A 'منوعات' guide was already published today ({today_str}). Exiting.")
+        return
 
     tok = None if is_dry else f.token()
     print("Fetching existing site posts to prevent duplication...")
@@ -1070,7 +1132,7 @@ def main():
         return
 
     # Publish Live on Blogger
-    labels = f.site_labels(art, full_html, selected_topic["category"])
+    labels = ["منوعات"] + [l for l in f.site_labels(art, full_html, selected_topic.get("category", [])) if l != "منوعات"]
     d = f.api("POST", f"/blogs/{f.BLOG}/posts", tok, {"isDraft": "true"},
               {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": f.with_desc(full_html, art), "labels": labels})
     f.api("POST", f"/blogs/{f.BLOG}/posts/{d['id']}/publish", tok, {"publishDate": now_cairo.isoformat()})
