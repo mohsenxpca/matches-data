@@ -183,10 +183,14 @@ def source_text(url):
     r = requests.get(url, headers=HEAD, timeout=40)
     r.raise_for_status()
     s = BeautifulSoup(r.text, "html.parser")
+    og_img = ""
+    og = s.find("meta", property="og:image") or s.find("meta", attrs={"name": "og:image"})
+    if og and og.get("content"):
+        og_img = og.get("content").strip()
     box = s.select_one(".details") or s.select_one("article") or s
     paras = [p.get_text(" ", strip=True) for p in box.find_all("p")]
     paras = [p for p in paras if len(p) > 40 and not any(b in p for b in ("تابعنا", "اقرأ أيضا", "اقرأ أيضًا"))]
-    return "\n".join(paras)
+    return "\n".join(paras), og_img
 
 
 def team_matches(text, data):
@@ -896,7 +900,7 @@ def main():
         if any(difflib.SequenceMatcher(None, norm(c["t"]), norm(d.get("t", ""))).ratio() > 0.6 for d in state["done"][-60:]):
             continue
         try:
-            src = source_text(c["u"])
+            src, og_img = source_text(c["u"])
         except Exception as e:
             print("source failed", c["id"], e)
             continue
@@ -927,23 +931,59 @@ def main():
         raw_i = (c.get("i") or "").strip()
         lead_img_url = None
 
-        # 1. First priority: Real match/player action shot with watermark & frame
+        # 1. First priority: Real match/player action shot from Yallakora/source
+        candidate_sources = []
+        if og_img and og_img.startswith("http"):
+            candidate_sources.append(og_img)
         if raw_i and raw_i.startswith("http"):
-            clean_i = raw_i.replace("/thumb/", "/large/").replace("/thumb/", "/wide/")
-            cdn_u, local_p = process_sports_photo(clean_i, art['slug'])
-            if not cdn_u and clean_i != raw_i:
-                cdn_u, local_p = process_sports_photo(raw_i, art['slug'])
+            candidate_sources.append(raw_i.replace("/thumb/", "/large/").replace("/thumb/", "/wide/"))
+            candidate_sources.append(raw_i)
+
+        for c_img in candidate_sources:
+            cdn_u, local_p = process_sports_photo(c_img, art['slug'])
             if cdn_u:
                 lead_img_url = cdn_u
                 print(f"  Processed genuine sports photo with watermark -> {local_p}")
+                break
 
-        # 2. Fallback: Clean Pexels stadium photo
+        # 2. Fallback: Wikipedia authentic photo of player/coach if mentioned
         if not lead_img_url:
-            lead_img_url = PEX.format(i=img[0])
+            famous_names = ["أنشيلوتي", "فينيسيوس", "كولر", "محمد صلاح", "حسين لبيب", "زيزو", "إمام عاشور", "الشحات", "مرموش", "تريزيجيه", "جوارديولا", "رونالدو", "ميسي"]
+            wiki_en_map = {
+                "أنشيلوتي": "Carlo_Ancelotti",
+                "فينيسيوس": "Vinícius_Júnior",
+                "كولر": "Marcel_Koller",
+                "محمد صلاح": "Mohamed_Salah",
+                "حسين لبيب": "Hussein_Labib",
+                "جوارديولا": "Pep_Guardiola",
+                "رونالدو": "Cristiano_Ronaldo",
+                "مرموش": "Omar_Marmoush",
+                "تريزيجيه": "Trézéguet_(Egyptian_footballer)"
+            }
+            for ar_name, en_name in wiki_en_map.items():
+                if ar_name in c["t"] or ar_name in art["title"]:
+                    wiki_pic = image_guard.fetch_wikipedia_entity_photo(en_name)
+                    if wiki_pic:
+                        cdn_u, local_p = process_sports_photo(wiki_pic, art['slug'])
+                        if cdn_u:
+                            lead_img_url = cdn_u
+                            print(f"  Processed Wikipedia photo for {ar_name} -> {local_p}")
+                            break
+
+        # 3. Final Fallback: Branded football action photo from verified pool
+        if not lead_img_url:
+            fallback_src = image_guard.POOLS["football"][0]
+            cdn_u, local_p = process_sports_photo(fallback_src, art['slug'])
+            lead_img_url = cdn_u or fallback_src
 
         print("  teams:", teams, "| lead_img:", lead_img_url[:60])
         html_out = build_html(art, rows, img, rel, (), real_img_url=lead_img_url)
-        labels = ["رياضة", "أخبار الكورة"] + ([LABELS[c["s"]]] if c["s"] in LABELS else [])
+        # Non-football sports must be labeled 'رياضة' only, never 'أخبار الكورة'
+        is_other_sport = any(w in (c["t"] + " " + art["title"]) for w in ["سلاح السيف", "سلاح الشيش", "مبارزة", "fencing", "إسكواش", "تنس", "سباحة", "ألعاب قوى", "جودو", "كاراتيه", "تايكوندو"])
+        if is_other_sport:
+            labels = ["رياضة"]
+        else:
+            labels = ["رياضة", "أخبار الكورة"] + ([LABELS[c["s"]]] if c["s"] in LABELS else [])
         if DRY:
             os.makedirs("out", exist_ok=True)
             open(f"out/{art['slug']}.html", "w", encoding="utf-8").write(f"<h1>{html.escape(art['title'])}</h1>\n" + html_out)
