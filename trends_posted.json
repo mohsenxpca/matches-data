@@ -1804,6 +1804,23 @@
    "at": "2026-11-15",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "عام دراسي",
+   "at": "2026-11-15",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "ناصر منسي",
+   "at": "2026-11-15",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "كرة اليد",
+   "at": "2026-11-15",
+   "ok": false
   }
  ]
 }
