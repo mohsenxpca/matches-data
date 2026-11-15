@@ -899,6 +899,40 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/google-android-xr-privacy.html",
    "title": "تفاصيل حماية الخصوصية في نظارات Google Android XR"
+  },
+  {
+   "u": "https://www.androidpolice.com/gemini-android-auto-privacy-tweak/",
+   "t": "Android Auto with Gemini needs a 5-minute privacy check before anyone rides shotgun",
+   "at": "2026-11-15",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/replaced-learning-apps-with-gemini-guided-learning-remembers-progress-adapts-to-pace/",
+   "t": "I replaced learning apps with Gemini Guided Learning; it remembers my progress and adapts to my pace",
+   "at": "2026-11-15",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/gemini-guided-learning-experience.html",
+   "title": "تجربتي مع ميزة Guided Learning من Gemini لتسهيل التعلم"
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+   "t": "Cursor confirms security breach led to malicious Claude Code extension",
+   "at": "2026-11-15",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "t": "The AI graveyard: a running list of projects and startups that didn’t make it",
+   "at": "2026-11-15",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/gemini-track-credit-card-bills-payments/",
+   "t": "I used Gemini to track my credit card bills; I never missed a payment ever again",
+   "at": "2026-11-15",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/gemini-credit-card-bills-tracking.html",
+   "title": "كيف تستخدم Gemini لتتبع فواتيرك وبطاقاتك الائتمانية"
   }
  ]
 }
