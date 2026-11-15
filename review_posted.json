@@ -1,50 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة هاتف Enough Phone: هل ينجح الهاتف المصغر والقابل للإصلاح",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLXNwVnpEM0hsU1BVSXVzcGxtMkQyUjA5X2l5NGxXanU4M0JES2VOVGtvYnEzbUpvcnlrQlZnV3h5TnhJdlJqZE9hRmJNdFRzUnV2X0ZOeHduelljaFowMW5kYkdITDhlcGhZckVUXzZoZVlPanc2SndORFh0Y19GVDRvQmc3cVlBWUVDR3ZjcTZCN1lXRXJlYWV1NA?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/enough-phone-review-specs-price.html",
-   "at": "2026-11-06T10:32:28+02:00",
-   "ok": false,
-   "kind": "review",
-   "brand": "أبل",
-   "reverted": true
-  },
-  {
-   "title": "iQOO 16s gets certified and it's eerily familiar - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd0swTXdzYjBiZUdVRVVSa2ZHS0JOakk1ZDNpSlZhRWFJZ1Z3ODRLUFhXdWI2eUJSc1FTVUpaQmE3WDhKbURNdmY2SnExbzNoRGNpM0lSSzhGZ1k2SlNTT0xZUExOMXNBNGlTM2hoajVPLU03RnZNMnFFZklWb0tSQjQ0a3ZQTGtBTkJPTXlfRDTSAYwBQVVfeXFMT0NqVzhpSllmUFlSeWhuUDVaUU9WcWZqNDd3ZUpFSEl1c3Ffdk8tYm9mNEZsaG1qamtlNlkyNWZEbkM4OGNqQkVHQnU0QzdjZzZYMGlUbGNCZWxuNF9LcHMwN1NxMjV0ZTVGUGx2VFVjTDZ2RXQ5QlNDUG52QjVqM0Vkb0V2dHh4VTNjcTY?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (527 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Oppo Find X10 review",
-   "url": "https://www.gsmarena.com/oppo_find_x10-review-3007.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Model code [x10] found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
-   "title": "مراجعة Philips S7210: المواصفات الكاملة والسعر والعيوب والمميزات",
-   "url": "https://www.gsmarena.com/philips_s7210_5g-15068.php",
-   "post_url": "https://www.review-mobile.com/2026/11/philips-s7210-review-specs.html",
-   "at": "2026-11-06T11:02:04+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "اخرى"
-  },
-  {
-   "title": "Google Find Hub is catching up to Apple Find My with left-behind alerts",
-   "url": "https://www.androidauthority.com/google-find-hub-left-behind-reminders-rolling-out-3732383/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (493 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Xiaomi Redmi Note 17",
    "url": "https://www.gsmarena.com/xiaomi_redmi_note_17-14846.php",
    "at": "2026-11-06",
@@ -3321,6 +3277,46 @@
    "ok": true,
    "kind": "review",
    "brand": "اوبو"
+  },
+  {
+   "title": "There's A Hidden Way You Can Check Which Services Are Running On Your Android Phone - Engadget",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZGYtaWFsMkRiX05SWnRPY0xQWjR1TmhXcmRiNXBmLVRxdy1IM1hUQl95WFg4SmJqalRlVm1WRmxqaG5rQXdWRHo5QmVuWUNDVUN5b091RVhIUWZHZHRNM245NmxqUW42VURDY3pMMW1qQzdiR0JhREdqek5zampXZjd0U0FINjRkbU1wdVlNYWhhbW94?oc=5",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (561 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Oscal Bolt 2",
+   "url": "https://www.gsmarena.com/oscal_bolt_2-15084.php",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": "Model code [2] with variants set() found in review: مراجعة Ai+ Pulse 2 FE 2026: شاشة 120 هرتز وبطارية 5000 بسعر اقتصادي"
+  },
+  {
+   "title": "Apple iPhone 17 Pro Max",
+   "url": "https://www.gsmarena.com/apple_iphone_17_pro_max-13964.php",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": "Model code [17] with variants {'pro', 'max'} found in review: مراجعة Redmi Note 17 Pro Max 2026: بطارية 10000 وشحن 100 واط والسعر"
+  },
+  {
+   "title": "Oppo Find X9 Pro",
+   "url": "https://www.gsmarena.com/oppo_find_x9_pro-14094.php",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": "Model code [x9] with variants {'pro'} found in review: مراجعة Oppo Find X9 Pro: شاشة LTPO AMOLED 120Hz والسعر والمواصفات"
+  },
+  {
+   "title": "مراجعة Xiaomi Poco F7 الشاملة: مواصفات عملاق الأداء والسعر في السوق",
+   "cand_title": "Xiaomi Poco F7",
+   "url": "https://www.gsmarena.com/xiaomi_poco_f7-13951.php",
+   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-poco-f7-review-specs-price.html",
+   "at": "2026-11-15T02:16:47+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "شاومي"
   }
  ]
 }
