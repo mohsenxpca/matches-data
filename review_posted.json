@@ -1,57 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung Galaxy Fit4 might have NFC for payments - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oSU9vYkdYVWExUWhsWTZkZ1U0QlZWOXhUaE9NdzRXUC0xdEVRY1JlYkU0aHZWcHFUc1FicmZEU1Z2anFCOGtqcTlQdUh0d28tZUswU29FVUlYemVBWE1ER29jT3YzNHE5VHpQRnFlQVZyZ1Z6MEp6dlpLUdIBd0FVX3lxTE4zVWxMeU5ockxIVEZUOW05a191MHE1OGVQMjc1U0JLc09zWThkY19OSFZCNnQyYWNGZDMyNjdjdENtRkE0U0c0UnJxaTZzWHVtdUFZVmFMVDN5bHNkYUJuNUNHaWwycm1IRXpoQ0NJZzU1c0IxVF9B?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['galaxy', 'might', 'payments', 'have']"
-  },
-  {
-   "title": "Galaxy S26 Ultra at $949.99 is a good buy, $350 under its launch price",
-   "url": "https://www.gizmochina.com/2026/11/06/galaxy-s26-ultra-at-949-99-is-a-good-buy-350-under-its-launch-price/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Phone 's26 ultra' already covered in: مراجعة Samsung Galaxy S26 Ultra: كاميرا 200 ميجابكسل وشاشة الخصوصية وشحن 60 وات"
-  },
-  {
-   "title": "iPhone Buying Guide 2026: Which iPhone Should You Buy?",
-   "url": "https://www.gizmochina.com/2026/11/06/iphone-buying-guide-which-iphone-should-you-buy/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (542 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "تسريب: آيفون برو القادم يتخلى عن زر الإجراءات Action Button",
-   "cand_title": "Next year’s iPhone Pro redesign will drop an important button, per leak - 9to5Mac",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc2Z2SDAtcUJyRlR6c2JWQWQtZy1ER3Jqc21JY1RlUHA5cTRsWWowZ01rdFVOUGsyZ0diVTF5TVpRNEFJWXV6RUszdTFLejc4RE5ob3gxWlFaNmFaMHl0dXBsSS1zTkVFUEZCenR6S3pzaDFsd2Z0cEI0THhZdU9UdHZQRk5FbzdaOXFzXy1LVGdzczMzdjB6T0FwUUNfLXRONHNrU2xwNlJpYjJ4V1hhZWxqQXFoYlZjNDRiVHZ3?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/iphone-pro-redesign-drops-action-button.html",
-   "at": "2026-11-06T18:15:26+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
-   "title": "Next year’s iPhone Pro redesign will drop an important button, per leak - 9to5Mac",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVTQ0eTV0cmZ5b001YUc5cXlheVhyUHhrcTBGWEtzS0U1MndldXhESHI1SnZFeFl4aUprbnZiN1duMjZ3TmlZV21uV3dxdWQ4WjdMZ3pvOEozTmJzeEZ3LU5YM2FQYnRWNExoYXRNMzg4Mi0zMGRMMnFsQlUyM1VqV2dTZ0RTaTFKVldUWUQ1NW16RkJiQkJXaWJXbTExR3JMNHNr?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['year', 'redesign', 'next', '9to5mac']"
-  },
-  {
-   "title": "أوبو تستعد لإطلاق كاميرا جيمبال تنافس DJI وInsta360",
-   "cand_title": "Oppo's first gimbal camera is almost ready to take on DJI and Insta360",
-   "url": "https://www.gsmarena.com/oppos_first_gimbal_camera_is_almost_ready_to_take_on_dji_and_insta360-news-75383.php",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-gimbal-camera-fuyao-project.html",
-   "at": "2026-11-06T19:12:50+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اوبو"
-  },
-  {
    "title": "Huawei Pura 90 Plus vs Pura 90: What’s Actually Upgraded?",
    "url": "https://www.gizmochina.com/2026/11/06/huawei-pura-90-plus-vs-pura-90/",
    "at": "2026-11-06",
@@ -3298,6 +3247,50 @@
    "ok": true,
    "kind": "review",
    "brand": "اوبو"
+  },
+  {
+   "title": "Oppo Reno17 (China) vs Oppo A7 Pro",
+   "url": "https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php||https://www.gsmarena.com/oppo_a7_pro_5g-14928.php",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'a7 pro' already covered in: مراجعة Oppo A7 Pro: المواصفات الشاملة، السعر، المميزات والعيوب"
+  },
+  {
+   "title": "Oscal Bolt 2 vs Xiaomi Poco X8s",
+   "url": "https://www.gsmarena.com/oscal_bolt_2-15084.php||https://www.gsmarena.com/xiaomi_poco_x8s_5g-15038.php",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'x8s' already covered in: هاتف Poco X8s الجديد: هل يغير قواعد المنافسة في الفئة المتوسطة؟"
+  },
+  {
+   "title": "OnePlus Turbo 6V vs Turbo 6: Is the More Expensive Model Really Worth It?",
+   "url": "https://www.gizmochina.com/2026/11/15/oneplus-turbo-6v-vs-oneplus-turbo-6/",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone '6v' already covered in: OnePlus Turbo 6V ضد Realme Neo7 SE أيهما أفضل؟"
+  },
+  {
+   "title": "Here’s your first look at the Huawei Mate X8 from the front and back",
+   "url": "https://www.gizmochina.com/2026/11/15/heres-your-first-look-at-the-huawei-mate-x8-from-the-front-and-back/",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
+  },
+  {
+   "title": "The Galaxy Z Fold 8 is making me question my allegiance to Samsung’s best phone lineup",
+   "url": "https://www.sammobile.com/opinion/galaxy-z-fold-8-making-me-question-allegiance-samsung-best-phone/",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (577 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Honor Magic8 Pro",
+   "url": "https://www.gsmarena.com/honor_magic8_pro-14231.php",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Model code [magic8] with variants {'pro'} found in review: مراجعة HONOR Magic8 Pro: تليفوتو 200 ميجابكسل وبطارية 7100 مللي أمبير وSnapdragon 8 Elite Gen 5"
   }
  ]
 }
