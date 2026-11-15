@@ -70,7 +70,7 @@ GLOBAL_POOLS = {
     ],
     # Fuel, energy, transport
     "fuel": [
-        _pex(97079), _pex(385566), _pex(1108101), _pex(378570), _pex(2244746), _pex(385558)
+        _pex(97079), _pex(1108101), _pex(378570), _pex(2244746)
     ],
     # Money, banking, gold
     "money": [
