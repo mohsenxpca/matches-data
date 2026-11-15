@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "4 reasons why I’d recommend a foldable (and 4 reasons why I wouldn’t)",
-   "url": "https://www.androidauthority.com/reasons-buy-not-buy-foldable-phones-2026-3730248/",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (530 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "CZ Urges iPhone Users to Update iOS Amid DarkSword Threat - CryptoRank",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTXFiajVsMGhkbmVuSHRMczFxcTZ0Njdvb05FRGg1Q3MxR3lmZjU1ZVBhNFQzVWozUUFxSzdCZGY1WHhYY3ctYzlTd1hZVHlDOU1sRTFSMXlWR08tWTVPMlNLZi1UUTdVU0tFeUppV01tWUUwcXExclNkSVdPWnlmWGd3YXg0Yy1nU2V2SnFra0toTXRsakhBRXNUSQ?oc=5",
    "at": "2026-11-06",
@@ -3319,6 +3310,16 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "قفزة تاريخية لأرباح سامسونج بفضل رقائق الذكاء الاصطناعي",
+   "cand_title": "سامسونج تٌسجل أعلى أرباحها في الربع الثالث بسبب رقائق الذكاء الاصطناعي",
+   "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/29/3070349/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%AA-%D8%B3%D8%AC%D9%84-%D8%A3%D8%B9%D9%84%D9%89-%D8%A3%D8%B1%D8%A8%D8%A7%D8%AD%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-record-profits-ai-chips.html",
+   "at": "2026-11-15T03:16:28+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
