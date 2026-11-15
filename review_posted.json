@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "title": "Four Galaxy S25 Phones Are Getting a New Update Without a November 2026 Patch - Android Headlines",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQm1fVndkQzU5MmZIdzZoVS1jMlEyMmt2RVFBdUVLVGpaOUdzRmpubFpGaHFSMmlKWjg0LUlRajdFT0EtSURsRk9KdFJ2UHRra2ZpSVpCd0J3NXZtVGp4b0ZuYXhHaUlMY0hhMU1uQXNnVkJtc1QxdktwZ1EtMXA2N1NBei1xTDhjQ1duSElLbHc1dVdLbzNmNk5Ec3pIWVZUZmtZYjl4dU9qVnM5SHdmTGxETWg5SlJpUjROUG94Tlk?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (673 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "Leak: HONOR Robot Phone 2 is in the works, could launch next year - Android Authority",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rd1BPY3pwVWJwMDh6M2NuTUdrb1F0NXZKYl9Ea0FkRkF2d2NtWE94MTRGVUNfX19kaTJrVnBmYkNXdElnRnFnckVYUUg0bTVfV29rbjROTW8yQVhtTnRfWHJOdFlYM2VOMVpEOC1UNl9NUWJY?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['works', 'robot', 'year', 'could']"
-  },
-  {
    "title": "Discord is about to get way, way faster on your Android phone - 9to5Google",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZExyWmhMd1ZvVkh2Qk1Jc0dualBGdWc0dUhGcHByUm9IaGZ3RVExMzNBVV9DR3RRZUxWbnVLdG1lOVZ1ZEliR0lIRHdoREgxNzFnQ3ViTldRZm9HdjBlTEJHR09lMW5HX1QzUVlaeERuSkJPTVNVY0hKekNXYlRvbUJEeWk2MFVseDUzYWV6THZFdXVNQUkxV2UwUQ?oc=5",
    "at": "2026-11-06",
@@ -3286,6 +3269,23 @@
    "at": "2026-11-16",
    "ok": false,
    "reason": "Model code [17] with variants set() found in review: مراجعة شاملة لهاتف Xiaomi 17 Ultra: وحش التصوير بمعالج خارق"
+  },
+  {
+   "title": "Your Android phone can reveal more wireless activity than its Wi-Fi list shows - MakeUseOf",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdWhoZUVKZFhIam14ckF3eUp3a0M5YnZhZFh5SVRGNzRHMzk3bzB3UFRCZzlDOWNvcE1rRVJUcFVYYjFMN0phSWdFM1RSM1RZYXNtY2daRU0wWXViaUFTakFxdzk4UTU0VUVLbFp2T3FtQS1nR05DbjNjYXBBOWNrLTVDTkRicTcwQjRYTTlEQmtxQQ?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Pixel Tag أم Galaxy SmartTag 3؟ أيهما تشتري؟",
+   "cand_title": "Should You Buy A Google Pixel Tag Instead Of The Galaxy SmartTag? - BGR",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU09pVGtKTTE4SzJPWjdrTHhzYTVvTzZwalNCa29IbzFoUWcwUk54OHRBRklHcUgxdWdheVc5ZTZMR0FBS2xyb1BmMUZhUXUtODVLTnppTWQ3YzZ1OW03ODFxaGkwSjVONmFZZ3UyWmptYVJSNEpHOEZSOXhBWFp2NnRqRUJqdDg?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/pixel-tag-vs-galaxy-smarttag-3.html",
+   "at": "2026-11-16T01:57:03+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
