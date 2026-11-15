@@ -1857,6 +1857,12 @@
    "at": "2026-11-15",
    "ok": false,
    "why": "no source text"
+  },
+  {
+   "q": "تعويض",
+   "at": "2026-11-16",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
