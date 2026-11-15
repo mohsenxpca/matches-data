@@ -1,0 +1,58 @@
+name: فحص وصيانة موقع رفيو اليومي لأدسنس (Review Doctor)
+
+on:
+  schedule:
+    - cron: "15 4 * * *"   # يومياً الساعة 6:15 صباحاً بتوقيت القاهرة
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "معاينة بدون حفظ (1 = نعم، 0 = تطبيق فعلي على المنشورات)"
+        required: false
+        default: "0"
+      limit:
+        description: "الحد الأقصى للمقالات المفحوصة"
+        required: false
+        default: "500"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: review-doctor
+  cancel-in-progress: false
+
+jobs:
+  audit-and-fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 lxml
+      - name: Run Review Doctor
+        run: |
+          DRY_FLAG=""
+          if [ "${{ github.event.inputs.dry_run }}" = "1" ]; then
+            DRY_FLAG="--dry-run"
+          fi
+          LIMIT="${{ github.event.inputs.limit || '500' }}"
+          python -u review_doctor.py $DRY_FLAG --limit "$LIMIT"
+        env:
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+      - name: Commit audit report
+        if: always()
+        run: |
+          git config user.name "review-doctor-bot"
+          git config user.email "review-doctor-bot@users.noreply.github.com"
+          if [ -f "review_doctor_report.json" ]; then
+            git add review_doctor_report.json
+            git commit -m "chore(doctor): update review doctor report $(date -u +'%Y-%m-%d_%H:%M')" || echo "No changes to commit"
+            git push origin main || echo "Push skipped or up to date"
+          fi

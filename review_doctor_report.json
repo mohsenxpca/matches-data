@@ -1,0 +1,416 @@
+{
+  "timestamp": "2026-11-15 17:30:37",
+  "dry_run": false,
+  "scanned": 453,
+  "repaired": 55,
+  "fixes": {
+    "broken_links": 5,
+    "disclaimers": 8,
+    "internal_links": 7,
+    "thin_posts": 0,
+    "alt_tags": 0,
+    "labels": 35
+  },
+  "details": [
+    {
+      "id": "7641871029621278679",
+      "title": "تسريب هاتف HMD 2320 Flip 4G.. مواصفات خارقة أم عودة للماضي؟",
+      "url": "https://www.review-mobile.com/2026/11/hmd-2320-flip-4g-leak-specs.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [اخرى]"
+      ]
+    },
+    {
+      "id": "1516347277036118168",
+      "title": "مواصفات iPhone 20 Pro Max: هل يغير قواعد اللعبة في 2027؟",
+      "url": "https://www.review-mobile.com/2026/11/apple-iphone-20-pro-max-expectations.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [أبل]"
+      ]
+    },
+    {
+      "id": "3805455608874427067",
+      "title": "ثورة الصوتيات المفتوحة.. مواصفات وسعر سماعات شاومي كليب الجديدة",
+      "url": "https://www.review-mobile.com/2026/11/xiaomi-clip-open-ear-earbuds-specs.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [شاومي]"
+      ]
+    },
+    {
+      "id": "3568897331769114329",
+      "title": "REDMAGIC 12 Pro: وحش الألعاب الخارق بمواصفات ثورية",
+      "url": "https://www.review-mobile.com/2026/11/redmagic-12-pro-gaming-phone.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [ريد ماجيك]"
+      ]
+    },
+    {
+      "id": "1792936842778561037",
+      "title": "حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد",
+      "url": "https://www.review-mobile.com/2026/11/xiaomi-18-blind-pre-orders-china.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [شاومي]"
+      ]
+    },
+    {
+      "id": "4240441674162894699",
+      "title": "مقارنة سامسونج وابل القابلة للطي: هل تستحق السعر المرتفع؟",
+      "url": "https://www.review-mobile.com/2026/11/samsung-galaxy-w27-vs-apple-duo.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [سامسونج]"
+      ]
+    },
+    {
+      "id": "6521324174357836565",
+      "title": "هاتف بنفس الاسم وسعة بطارية أقل: هل تختلف المواصفات حسب بلد الشراء؟",
+      "url": "https://www.review-mobile.com/2026/11/same-phone-smaller-battery-by-region.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [اخرى]"
+      ]
+    },
+    {
+      "id": "6948971332365975501",
+      "title": "Ai+ Smartphone ترفع أسعار هواتفها مبكراً: فرصتك الأخيرة للشراء",
+      "url": "https://www.review-mobile.com/2026/11/ai-plus-smartphone-price-hike-advanced.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [اخرى]"
+      ]
+    },
+    {
+      "id": "1106762496404968153",
+      "title": "تخفيضات كبرى على أسعار هواتف سامسونج الرائدة",
+      "url": "https://www.review-mobile.com/2026/11/samsung-galaxy-s26-ultra-deals.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [سامسونج]"
+      ]
+    },
+    {
+      "id": "8455499020022864698",
+      "title": "مقارنة شاملة: Huawei Enjoy 100 Pro ضد Pro Max",
+      "url": "https://www.review-mobile.com/2026/11/huawei-enjoy-100-pro-vs-pro.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [هواوي]"
+      ]
+    },
+    {
+      "id": "8360991315360122996",
+      "title": "هواوي تستعد لإطلاق Mate 80 Air: نحافة قياسية ومواصفات قوية",
+      "url": "https://www.review-mobile.com/2026/11/huawei-mate-80-air-launch-rumors.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [هواوي]"
+      ]
+    },
+    {
+      "id": "7940878739700196041",
+      "title": "هواوي تطلق علامتها التجارية الفرعية Osta: إليك تفاصيل أول هاتفين",
+      "url": "https://www.review-mobile.com/2026/11/huawei-launches-osta-sub-brand-phones.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/xiaomi-wide-screen-candybar-smartphone.html -> /2026/11/xiaomi-wide-screen-smartphone-leak.html"
+      ]
+    },
+    {
+      "id": "6765498224684502652",
+      "title": "تحديث ColorOS 17 يصل لهاتف Oppo F35 Pro بمزايا ذكاء اصطناعي",
+      "url": "https://www.review-mobile.com/2026/11/oppo-f35-pro-coloros-17-update.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/xiaomi-mijia-smart-waist-massager-2.html -> /2026/11/oppo-find-x9-ultra-review.html"
+      ]
+    },
+    {
+      "id": "388310210463909100",
+      "title": "هواتف 2027 قد تصبح أغلى ثمناً: سامسونج تخطط لرفع أسعار شاشات OLED",
+      "url": "https://www.review-mobile.com/2026/11/samsung-oled-price-hike-2027.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [سامسونج]"
+      ]
+    },
+    {
+      "id": "915539768856216551",
+      "title": "تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق",
+      "url": "https://www.review-mobile.com/2026/11/iphone-18e-specs-price-expectations.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [أبل]"
+      ]
+    },
+    {
+      "id": "6197191831106142704",
+      "title": "سلسلة أوبو رينو 17 القادمة: تسريب المواصفات الخارقة",
+      "url": "https://www.review-mobile.com/2026/11/oppo-reno-17-series-leaked-specs.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [اوبو]"
+      ]
+    },
+    {
+      "id": "6142763043304189196",
+      "title": "آبل تستعد لإطلاق آيفون 18 بترقيات ضخمة وزيادة جديدة بالأسعار",
+      "url": "https://www.review-mobile.com/2026/11/iphone-18-major-upgrades-price-hike.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [أبل]"
+      ]
+    },
+    {
+      "id": "1071410358255786438",
+      "title": "تسريب مواصفات OnePlus Turbo 7: قفزة تقنية هائلة للأداء",
+      "url": "https://www.review-mobile.com/2026/11/oneplus-turbo-7-leaked-specs.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [وان بلس]"
+      ]
+    },
+    {
+      "id": "5755196676549367899",
+      "title": "مستشعر Sony LYTIA 720 الجديد: ثورة في التصوير الليلي للهواتف",
+      "url": "https://www.review-mobile.com/2026/11/sony-lytia-720-sensor-analysis.html",
+      "fixes": [
+        "Added internal recommendation box (< 2 links)"
+      ]
+    },
+    {
+      "id": "489044237362681201",
+      "title": "ويندوز 11 يتيح تشغيل تطبيقات أندرويد مباشرة من شريط البحث",
+      "url": "https://www.review-mobile.com/2026/11/windows-11-search-android-apps.html",
+      "fixes": [
+        "Added internal recommendation box (< 2 links)"
+      ]
+    },
+    {
+      "id": "5948235650559288480",
+      "title": "أبل تخطط لتحديث ثلاثة أجهزة آيباد في النصف الأول من 2027",
+      "url": "https://www.review-mobile.com/2026/11/apple-refresh-three-ipads-2027.html",
+      "fixes": [
+        "Added internal recommendation box (< 2 links)"
+      ]
+    },
+    {
+      "id": "8450124978733214723",
+      "title": "مراجعة Nothing Phone (3): هل يغير قواعد اللعبة؟ السعر والمواصفات الكاملة",
+      "url": "https://www.review-mobile.com/2026/11/nothing-phone-3-review-specs-price.html",
+      "fixes": [
+        "Added internal recommendation box (< 2 links)"
+      ]
+    },
+    {
+      "id": "8358321616847150810",
+      "title": "مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع",
+      "url": "https://www.review-mobile.com/2026/11/galaxy-fit-4-leaks-review.html",
+      "fixes": [
+        "Added internal recommendation box (< 2 links)"
+      ]
+    },
+    {
+      "id": "2726443265829481541",
+      "title": "مراجعة عروض الهواتف الرائدة من أبل وسامسونج وأوبو",
+      "url": "https://www.review-mobile.com/2026/11/flagship-smartphones-deals-2026.html",
+      "fixes": [
+        "Added internal recommendation box (< 2 links)"
+      ]
+    },
+    {
+      "id": "5921320067044407097",
+      "title": "مستقبل هواتف ون بلس المدمجة: هل تتوقف الشركة عن إنتاجها؟",
+      "url": "https://www.review-mobile.com/2026/10/oneplus-compact-phones-future-review.html",
+      "fixes": [
+        "Standardized news label ['وان بلس'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "5244129284912055066",
+      "title": "مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة",
+      "url": "https://www.review-mobile.com/2026/10/nokia-2360-flip-review.html",
+      "fixes": [
+        "Added internal recommendation box (< 2 links)"
+      ]
+    },
+    {
+      "id": "4093150063881546137",
+      "title": "مراجعة آي باد ميني 2026: تفوق مذهل على آي باد برو في الأداء الفردي",
+      "url": "https://www.review-mobile.com/2026/10/ipad-mini-2026-benchmark-review.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/enough-phone-review-specs-price.html -> /2026/11/enough-phone-review-small-android.html"
+      ]
+    },
+    {
+      "id": "1423190267231235310",
+      "title": "نقص الذاكرة لحد 2030: SK hynix تحذر وتربح 104.6 تريليون وون",
+      "url": "https://www.review-mobile.com/2026/10/sk-hynix-memory-shortage-2030-phones.html",
+      "fixes": [
+        "Standardized news label ['اخرى'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "1572324340074875421",
+      "title": "هونر X8e 4G رسميًا: كاميرا 108 ميجا وبطارية 7700",
+      "url": "https://www.review-mobile.com/2026/10/honor-x8e-4g-108mp-7700mah-launch.html",
+      "fixes": [
+        "Standardized news label ['هونر'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "697771840454120458",
+      "title": "إطلاق هاتف Asus ROG Phone 9 Pro للألعاب بشاشة 185Hz لعام 2026",
+      "url": "https://www.review-mobile.com/2026/10/asus-rog-phone-9-pro-launch-specs.html",
+      "fixes": [
+        "Standardized news label ['اسوس'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "4007419303687961957",
+      "title": "إطلاق سلسلة Honor Magic 7 رسميًا بكاميرا 200MP وذكاء اصطناعي 2026",
+      "url": "https://www.review-mobile.com/2026/10/honor-magic-7-pro-official-launch.html",
+      "fixes": [
+        "Standardized news label ['هونر'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "5549392518982352188",
+      "title": "Tecno Camon Slim 5G: سُمك 6.4 مم وكاميرا OIS",
+      "url": "https://www.review-mobile.com/2026/10/tecno-camon-slim-5g-review.html",
+      "fixes": [
+        "Standardized news label ['تيكنو'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "4857182431452903297",
+      "title": "Redmi Note 17 5G: شاشة ضخمة وبطارية تكفي يومين",
+      "url": "https://www.review-mobile.com/2026/10/redmi-note-17-battery-7700.html",
+      "fixes": [
+        "Standardized news label ['شاومي'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "3325645332564540744",
+      "title": "موبايلات بتشغل ببجي موبايل بدون لاج 2026: دليل 90 و120 فريم",
+      "url": "https://www.review-mobile.com/2026/10/pubg-mobile-phones-no-lag-2026.html",
+      "fixes": [
+        "Standardized news label ['اخرى'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "8223121026561181054",
+      "title": "مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر",
+      "url": "https://www.review-mobile.com/2026/10/iphone-18-pro-compact-a20-pro.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/enough-phone-review-specs-price.html -> /2026/11/enough-phone-review-small-android.html"
+      ]
+    },
+    {
+      "id": "6079599033764711273",
+      "title": "مراجعة vivo Y32 2026: بطارية 8000 مللي أمبير والمواصفات والسعر",
+      "url": "https://www.review-mobile.com/2026/10/vivo-y32-review-specs-price.html",
+      "fixes": [
+        "Injected official editorial disclaimer"
+      ]
+    },
+    {
+      "id": "1697698242421746217",
+      "title": "مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر",
+      "url": "https://www.review-mobile.com/2026/10/xiaomi-18-pro-review-specs.html",
+      "fixes": [
+        "Injected official editorial disclaimer"
+      ]
+    },
+    {
+      "id": "5687703917272407464",
+      "title": "مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف",
+      "url": "https://www.review-mobile.com/2026/10/iphone-18-pro-max-review.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/enough-phone-review-specs-price.html -> /2026/11/enough-phone-review-small-android.html"
+      ]
+    },
+    {
+      "id": "4719343244857022817",
+      "title": "مراجعة Samsung Galaxy A17 5G: شاشة AMOLED وكاميرا بمثبت بصري و6 تحديثات أندرويد",
+      "url": "https://www.review-mobile.com/2026/10/samsung-galaxy-a17-5g-review.html",
+      "fixes": [
+        "Injected official editorial disclaimer"
+      ]
+    },
+    {
+      "id": "817436891271222081",
+      "title": "مراجعة HONOR WIN: بطارية 10000 مللي أمبير ومروحة تبريد ومعالج Snapdragon 8 Elite Gen 5",
+      "url": "https://www.review-mobile.com/2026/10/honor-win-review.html",
+      "fixes": [
+        "Injected official editorial disclaimer"
+      ]
+    },
+    {
+      "id": "4830129881162748108",
+      "title": "Galaxy SmartTag3 رسميًا.. تصميم أصغر، دعم iOS لأول مرة، وبطارية تدوم حتى 790 يومًا",
+      "url": "https://www.review-mobile.com/2026/10/galaxy-smarttag3-features-price-ios-support.html",
+      "fixes": [
+        "Standardized news label ['سامسونج'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "4148061620980866668",
+      "title": "مراجعة سعر ومواصفات هاتف Oppo Reno14 F",
+      "url": "https://www.review-mobile.com/2025/07/oppo-reno14-f.html",
+      "fixes": [
+        "Injected official editorial disclaimer"
+      ]
+    },
+    {
+      "id": "8088452370724033832",
+      "title": "مراجعة سعر ومواصفات هاتف Samsung Galaxy S25 Edge",
+      "url": "https://www.review-mobile.com/2025/07/samsung-galaxy-s25-edge.html",
+      "fixes": [
+        "Injected official editorial disclaimer"
+      ]
+    },
+    {
+      "id": "7817838559707679611",
+      "title": "مراجعة سعر ومواصفات هاتف Realme C75x",
+      "url": "https://www.review-mobile.com/2025/07/realme-c75x.html",
+      "fixes": [
+        "Injected official editorial disclaimer"
+      ]
+    },
+    {
+      "id": "7175322412430221791",
+      "title": "مراجعة سعر ومواصفات هاتف Oppo A5 4G",
+      "url": "https://www.review-mobile.com/2025/07/oppo-a5-4g.html",
+      "fixes": [
+        "Injected official editorial disclaimer"
+      ]
+    },
+    {
+      "id": "4235525347087518503",
+      "title": "تحليل Oppo Reno13 F 5G أمام المنافسين: هل ما زال يستحق الشراء؟",
+      "url": "https://www.review-mobile.com/2025/02/oppo-reno13-f-5g-now-in-egypt.html",
+      "fixes": [
+        "Standardized news label ['اوبو'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "5741883632986564339",
+      "title": "iPhone 17 Air أنحف هاتف في تاريخ آبل يثير دهشة العالم",
+      "url": "https://www.review-mobile.com/2025/01/iphone-17-air.html",
+      "fixes": [
+        "Standardized news label ['أبل'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "7709725160799576568",
+      "title": "أقوى وأفضل هواتف يمكنك شراؤها في عام 2025",
+      "url": "https://www.review-mobile.com/2025/01/best-phones-buying-2025.html",
+      "fixes": [
+        "Standardized news label ['اخرى'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "6430186265937186025",
+      "title": "عائلة iPhone 17 بالكامل ستاتى بشاشات بتحديث عالي",
+      "url": "https://www.review-mobile.com/2025/01/iphone-17-news.html",
+      "fixes": [
+        "Standardized news label ['أبل'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "408934851147253825",
+      "title": "اطلاق هاتف Infinix Zero Flip من انفنيكس جديد في عالم الهواتف القابلة للطي",
+      "url": "https://www.review-mobile.com/2024/12/infinix-zero-flip.html",
+      "fixes": [
+        "Standardized news label ['أبل'] -> ['أخبار هواتف']"
+      ]
+    }
+  ]
+}
