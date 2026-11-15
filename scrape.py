@@ -72,7 +72,10 @@ def fetch_day(day):
     soup = BeautifulSoup(r.text, "html.parser")
     h1 = soup.find("h1")
     head = h1.get_text(" ", strip=True) if h1 else ""
-    if not re.search(rf"\b0?{day.day}\b\s*{MONTHS[day.month - 1]}\s*{day.year}", head):
+    today_cairo = datetime.datetime.now(ZoneInfo("Africa/Cairo")).date()
+    # Yallakora displays "مباريات اليوم" without the date when day == today
+    is_today_match = (day == today_cairo and "مباريات اليوم" in head)
+    if not is_today_match and not re.search(rf"\b0?{day.day}\b\s*{MONTHS[day.month - 1]}\s*{day.year}", head):
         print(f"  {day}: page shows a different date ({head!r}), skipped")
         return None
     rows, league, seen = [], "", set()
