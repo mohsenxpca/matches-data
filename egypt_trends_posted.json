@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://insider-gaming.com/should-you-buy-ps5-pro-for-gta-6-all-ps5-pro-enhancements/",
-   "t": "Should You Buy A PS5 Pro For GTA 6—All PS5 Pro Enhancements",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://www.uniladtech.com/gaming/gta-settings-to-change-playstation-xbox-before-release-017293-20261102",
    "t": "Gamers urged to make these changes to PlayStation 5 and Xbox before GTA 6 comes out",
    "title": "تفاصيل الاستعداد للعبة GTA 6 وموعد الإطلاق في نوفمبر",
@@ -3382,6 +3373,16 @@
    "at": "2026-11-15T11:22:19.826199+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7181248",
+   "t": "مواعيد مباريات اليوم في ربع نهائي دوري المرتبط للسلة",
+   "at": "2026-11-15",
+   "ok": false,
+   "reason": [
+    "الـ body 424 كلمة بس، لازم 530 على الأقل",
+    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات"
+   ]
   }
  ]
 }
