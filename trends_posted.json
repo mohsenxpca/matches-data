@@ -1736,6 +1736,24 @@
    "at": "2026-11-15",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "عاصفة رعدية",
+   "at": "2026-11-15",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "رادار الطيران",
+   "at": "2026-11-15",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "قانون الجنسية الكويتية",
+   "at": "2026-11-15",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
