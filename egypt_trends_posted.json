@@ -1,18 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.sport.cz/clanek/fotbal-liga-mistru-2026-2027-slavia-praha-arsenal-online-5569779",
-   "t": "Slavia - Arsenal | FOTBAL ONLINE: Sešívaní v LM proti gigantovi",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://isport.blesk.cz/clanek/fotbal-evropske-pohary-liga-mistru/481729/trpisovsky-vs-arteta-ctvrte-dejstvi-brutalni-rozdil-v-platu-ale-stejna-posedlost-detaily.html",
    "t": "Trpišovský versus Arteta: Roční plat 30 proti 750 milionům",
    "at": "2026-11-04",
@@ -3379,6 +3367,16 @@
    "at": "2026-11-16T14:57:41.899884+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7183568",
+   "t": "الذهب يستقر بعد الهبوط الكبير.. عيار 21 ثابت عند 5910 جنيهات في بداية تعاملات الثلاثاء",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "الـ body 373 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'استقرار', 'مصر'}) مع تشابه نصي مع: استقرار أسعار الوقود في مصر اليوم 9 نوفمبر 2026)"
+   ]
   }
  ]
 }
