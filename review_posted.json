@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "title": "Galaxy S26 FE Specs: $699.99, Exynos 2500 [2026] - https://tech-insider.org/",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYkpWcjNLeVl6bkJXM0M0amUtRmR2WDUtYnV2c3BnTVhPZnN6LUFNUjNleG9JazJKOVdwQmRfWENqS2hyU1RZSWZ6UEYxY3JGVTFIN3N3TWVoQjBTbDlSRmdJSDVmOGtTVzY1RnZDT25vSzVnNEZILWN1Q0dFQjJGVDAxSXBsVURnX3Z5S0swNGY3UQ?oc=5",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": "Phone 's26 fe' already covered in: مراجعة Samsung Galaxy S26 FE: بديل أرخص لـ S26 2026"
-  },
-  {
-   "title": "هاتف Enough الذكي: عودة الهواتف الصغيرة ببطارية قابلة للتغيير",
-   "cand_title": "Enough Phone is a small Android phone with a replaceable battery",
-   "url": "https://www.gizmochina.com/2026/11/07/enough-phone-compact-5-3-inch-display-replaceable-battery/",
-   "post_url": "https://www.review-mobile.com/2026/11/enough-phone-small-replaceable-battery.html",
-   "at": "2026-11-07T11:36:25+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "WhatsApp is testing a feature that lets you control who sees your phone number",
    "url": "https://www.gsmarena.com/whatsapp_phone_number_privacy_feature_development-news-75395.php",
    "at": "2026-11-07",
@@ -3275,6 +3258,25 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "How to pay with your Android phone anywhere in the world",
+   "url": "https://www.androidauthority.com/how-to-pay-with-your-android-phone-anywhere-in-the-world-3734363/",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (626 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "لماذا لا يجب شراء أحدث الهواتف الرائدة؟ البديل الأفضل",
+   "cand_title": "Why you shouldn’t buy the latest flagship phone — and what to get instead",
+   "url": "https://www.androidauthority.com/2025-phone-hardware-thats-still-great-3732895/",
+   "post_url": "https://www.review-mobile.com/2026/11/why-not-buy-latest-flagship-phone.html",
+   "at": "2026-11-16T14:07:59+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
