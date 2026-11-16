@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Discord is about to get way, way faster on your Android phone - 9to5Google",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZExyWmhMd1ZvVkh2Qk1Jc0dualBGdWc0dUhGcHByUm9IaGZ3RVExMzNBVV9DR3RRZUxWbnVLdG1lOVZ1ZEliR0lIRHdoREgxNzFnQ3ViTldRZm9HdjBlTEJHR09lMW5HX1QzUVlaeERuSkJPTVNVY0hKekNXYlRvbUJEeWk2MFVseDUzYWV6THZFdXVNQUkxV2UwUQ?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (647 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Xiaomi's Wingless SU7 Ultra Prototype May Preview 2027 Model Update - autoevolution",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbkU2WUlUd3Y2VTA0V0FjOWdEWXY2MS1oT3lEekp3NDIzc1F5anJ3V0tDbklXQkFia1ZwVTJ3VUpXQ3hnRFpvR21MY2RFRmhCQXFwTDlpRFF1YWRVdVNWQ05JbzRqc0I1dGdSbHNVNllocjk2Qy12ZFh0YkRpWWV2MTA4TVlpOHl0a2RIUVoxMHptQUk2ZjRsLXdxNC10ZkxiVFprQjljdlFHM1pqSzhrQm9PcVE?oc=5",
    "at": "2026-11-06",
@@ -3286,6 +3277,13 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Tilta Khronos Oppo Find X10 Pro Max Creator Kit hands-on - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSmp3WDJRUUg3Z3RGTG9FdUNxSWkwS05YYjROX2lEZER4RU5yZ244cElCa044Y1ZxdWQtNmJPWmJGckpJN0ZCZW1JQzZ4QUZES1VoNjYycDFoelMyQmtkbVFVV0FQR1BKbFN6a1BvWEx4bTBkMkdhVjBIbW1FXzRjQkxlelEzRURLSXhsSlFXVmI5OFNxTnpIUUZSSQ?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['creator', 'khronos', 'find', 'tilta']"
   }
  ]
 }
