@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/4/3073726/%D9%85%D8%A7-%D8%B7%D8%A8%D9%8A%D8%B9%D8%A9-%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-%D8%B9%D8%AF%D9%8A-%D8%A7%D9%84%D8%AF%D8%A8%D8%A7%D8%BA-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%8A%D9%88%D8%B6%D8%AD-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84",
-   "t": "ما طبيعة إصابة عدي الدباغ؟ الزمالك يوضح التفاصيل",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 100، 8"
-   ]
-  },
-  {
    "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/4/3073734/%D9%84%D9%84%D8%B4%D9%87%D8%B1-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D9%84%D9%8A-%D9%85%D9%88%D9%83%D9%88%D9%8A%D9%86%D8%A7-%D8%A3%D9%81%D8%B6%D9%84-%D9%85%D8%AF%D8%B1%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A",
    "t": "للشهر الثاني على التوالي.. موكوينا أفضل مدرب في الدوري المصري",
    "title": "موكوينا أفضل مدرب في الدوري المصري للشهر الثاني",
@@ -3380,6 +3371,16 @@
    "url": "https://www.egyptaway.com/2026/11/karim-ramzy-defends-mohamed-salah.html",
    "photo": "https://images.pexels.com/photos/3148452/pexels-photo-3148452.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-16T04:21:50.103092+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://www.almasryalyoum.com/news/details/4411305",
+   "t": "«8 ساعات تحبس الأنفاس».. تحذير عاجل من ظاهرة جوية تضرب البلاد غدا",
+   "title": "حالة الطقس اليوم الاثنين.. تحذير عاجل من شبورة كثيفة وضباب",
+   "url": "https://www.egyptaway.com/2026/11/weather-forecast-egypt-today-november.html",
+   "photo": "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-16T05:21:55.656133+02:00",
    "ok": true,
    "type": "trends"
   }
