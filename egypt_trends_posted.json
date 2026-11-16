@@ -1,18 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.bluewin.ch/en/sport/football/kobel-we-re-feeling-good-and-are-ready-to-perform.-li.3660388",
-   "t": "Kobel: “We’re feeling good and are ready to perform.”",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.seznamzpravy.cz/clanek/sport-fotbal-muj-arsenal-zpoved-cecha-ktery-se-zamiloval-do-soupere-slavie-319651",
    "t": "Šídlo & Arsenal: Proč jsem se zamiloval do soupeře Slavie",
    "at": "2026-11-04",
@@ -3381,6 +3369,16 @@
    "at": "2026-11-16T13:37:08.271909+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.aljazeera.net/tech/2026/11/10/%D8%A3%D9%88%D9%84-%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D9%84%D9%84%D8%A3%D9%84%D8%B9%D8%A7%D8%A8-%D8%A8%D8%B3%D8%B9%D8%B1-100-%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D8%AC%D9%8A-%D8%AA%D9%8A",
+   "t": "أول اختبار للألعاب بسعر 100 دولار.. جي تي إيه 6 تحطم الأرقام القياسية",
+   "title": "مبيعات الطلب المسبق للعبة جي تي إيه 6 تقترب من 750 مليون دولار",
+   "url": "https://www.egyptaway.com/2026/11/gta-6-pre-orders-reach-750-million.html",
+   "photo": "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-16T14:36:44.692868+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
