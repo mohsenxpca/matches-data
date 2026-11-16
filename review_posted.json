@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "ميزة أندرويد المخفية لحماية خصوصيتك عند إعارة هاتفك للآخرين",
-   "cand_title": "I lock my phone to one app before handing it over; you should too - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VSGJLdThva2FFZTlGS2ozWWQ5TXdsbWVyRDVfS0o4RHpTWDA1cGxuX29XUkVLSjJ0U0R4UWhxdVd2X05tVlB1MmlGc3NQaGFVMDVOcXBKNlJoNndsTkNNc0g3dG9manFwY2RIdy15UWM0ZUND?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/android-screen-pinning-privacy-guide.html",
-   "at": "2026-11-07T01:32:00+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "أبل قد تدمج أزرار هواتف آيفون المستقبلية في زر واحد",
    "cand_title": "Future iPhones will have one less button, new rumor claims",
    "url": "https://www.gsmarena.com/future_iphones_will_have_one_less_button_new_rumor_claims-news-75391.php",
@@ -3286,6 +3276,13 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "New King of Foldables? Huawei Surfaces Mate X8 Design - hi-Tech.ua",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeW50VFRkRzhfbWdYbXk2bkdHSS1EREQzSFhMV3hqa3lBWWo0dEZUbEZwbUw3NXducE11NFlPUFN0cXN3bDg3YUVocEpnbUZOVmJYSm95d2J6d1NtWVZfRk05Z0xZRkJEZkRRWEJHbXBvblQ4MDktVzFVUlVpbmFXNQ?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
   }
  ]
 }
