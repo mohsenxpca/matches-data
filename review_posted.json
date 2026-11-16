@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Google announces Pixel 11 Pro Fold: See specs, price, and more - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mZlFmUTFaeDFtQkt1MUJadG1DS2RCaXpIWmRkNzlqdUF1YTQ5WmZMTzVyNmExck9QalBSSjhydXZQV09EMUlFcGhoY1picWtNYnEyRzRVd3NiUG1kdFJOZ3JXYUV0UjZ2V2s4Y2RaNy1KSlhGSmpraW1B?oc=5",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (589 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "كيف تحول هاتفك البكسل إلى جهاز مخصص بـ 3 تطبيقات؟",
    "cand_title": "I stopped waiting for Google to fix my Pixel; these 3 apps did it instead - Android Police",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdkVBNDZGSXFHeEJrclVsOWFTQWhtYmd5XzcxZXdhUTU5WWhMQmZVcFQ1dTloZnpBU3U4NmpDS3Q1a1V5ZzUwamFJanhndXp6UmlPemJXRGl5VzM2QVBwaEhZNlVZUXZ5QnJJLVdYSVhyUDhQTHd3cUNCTHo0Q0NvZDZ0Z0JSVjVRT3pTSHdhVG1JOG8zeTU2elp3SFdmbmxSWVphWWxn?oc=5",
@@ -3278,6 +3269,16 @@
    "at": "2026-11-16",
    "ok": false,
    "reason": "Recent story overlap on key terms ['shouldn', 'latest', 'flagship', 'instead']"
+  },
+  {
+   "title": "تفاصيل سلسلة أوبو رينو 17.. بطارية عملاقة وكاميرا 200 ميجابكسل",
+   "cand_title": "Oppo launches Reno 17 and Reno 17 Pro with 200MP camera and rather large 8000mAh battery",
+   "url": "https://www.gizmochina.com/2026/11/16/oppo-launches-reno-17-and-reno-17-pro-with-200mp-camera-and-rather-large-8000mah-battery/",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-reno-17-pro-launch-specs.html",
+   "at": "2026-11-16T15:07:10+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اوبو"
   }
  ]
 }
