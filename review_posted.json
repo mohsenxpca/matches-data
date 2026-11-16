@@ -1,63 +1,6 @@
 {
  "done": [
   {
-   "title": "WhatsApp is testing a feature that lets you control who sees your phone number",
-   "url": "https://www.gsmarena.com/whatsapp_phone_number_privacy_feature_development-news-75395.php",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (632 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "إطلاق هاتف Vivo Y6k ببطارية 6500 مللي أمبير",
-   "cand_title": "Vivo Y6k Launched in China With 6,500mAh Battery, 120Hz Display and Android 16 - My Mobile India",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZVZvYnItUGtsRzE1REpqcGRvellGSmN2Q2RfbVpEYmdRRmJQVFBTOTRTNnc5WHJVMWt5X2ZwRXBwcHEwU1h5dlZZbEdPRWhUWXVtUUhZYkZZd2dYeVpURDJpNmJhNm9wTWJvcG1icTRoRER1WF9KTllULTRsTm0xT2s4T1RzM0JRTm5ZTHlERTJCMmZVVXM0Nzg5cDU0VnJZS1BIcmJ5ZF91V2s?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/vivo-y6k-launched-with-massive-battery.html",
-   "at": "2026-11-07T13:06:36+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "فيفو"
-  },
-  {
-   "title": "Should You Buy a New Smartphone in 2026? $1,599 Test - https://tech-insider.org/",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVDhpcVVQVlI5WFR4cjVLZ1ExcUJmUk40eEJWUE5iQndoV0g1N3pJZHRlSW1YQTFTMW5ac1ZvXy0zZkZqTnBvV0MtVWRuVTA5YXJPbXdDX0JDSGRzOVVoLXAtVFNBbGRMWDBNM3h5QzItSHlKQmpPWFcxVXltT0ZoTWZRUTNNZzQ?oc=5",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['insider', '2026', 'https']"
-  },
-  {
-   "title": "Vivo launches affordable 5G phone with 6.74-inch 120Hz display, 6,500mAh battery and Android 16 - Notebookcheck",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcTR5WGYxQ2dVQjF3cUtOWDloczNTSkVsVmhnQXFHRHRfWm9oNF9KSVdTY0VHZEQtemJCVlJOak9oVUZ6bW1Td2hqa0FCS0tTVm5obWE2RGgtSDBRX3VDTHR2R1hrcFlaeUpXLUp5LWhxWUUzTjhVdTZ4MmxTZXZRTzlOaXpGc1Jyams4VFBoVk43aVBmek5XU3c5dmlkMUZGeEI2TmNqR1ZXZ1g4QzVpQVZzMVdZMEZpVU5TMzFWR3VxamRjZElOdG1TdzZQRUNsODlmUldB?oc=5",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['launches', '120hz', 'affordable', 'notebookcheck']"
-  },
-  {
-   "title": "The 4 Best Android Phones of 2026 | Reviews by Wirecutter - The New York Times",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4QzZ2YTdmVnctUFJXNThqOVZnc09xaWRzdFdKY240Z3FfOWNyUko2VUxNZWM2Q29FZ1pZTnpKb0hicl85MEdFaHZQakF0UnBGYjQ5TzBidzhuNHd2MW9fUDR3eTlua0FveFVJYkhvUQ?oc=5",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": "Model code [4] with variants set() found in review: مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع"
-  },
-  {
-   "title": "Future iPhones will have one less button, new rumor claims - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0ZMaUM0Q1oyWXJlN3NSWERJMXUyWVJSRGVOeV9fSVVmSnh4ajJGZ1FhcnRyTW90Rmc2OHAtZ3VoaVgyYnVkLUhVNUg2V1h0RENQUm1sdW1lODRZY19uNlQ2RlhvY3dzck82Qk0zQnYyYURVZjdwYjlaU3ZZbDZQdEQwWG9tNGZyZXZCLWk2Snp0VmRPbml2NTZ0Sm1aZw?oc=5",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['have', 'claims', 'future', 'less']"
-  },
-  {
-   "title": "Xiaomi 18 might actually arrive this year, 3C reveals the charging capabilities",
-   "url": "https://www.gsmarena.com/xiaomi_18_might_actually_arrive_this_year_3c_reveals_the_charging_capabilities-news-75396.php",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (455 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "العنوان مكرر أو قريب جداً من مقال منشور: تسريب يكشف قدرات الشحن في هاتف Samsung Galaxy A58 القادم"
-   ]
-  },
-  {
    "title": "Google announces Pixel 11 Pro Fold: See specs, price, and more - Mashable",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mZlFmUTFaeDFtQkt1MUJadG1DS2RCaXpIWmRkNzlqdUF1YTQ5WmZMTzVyNmExck9QalBSSjhydXZQV09EMUlFcGhoY1picWtNYnEyRzRVd3NiUG1kdFJOZ3JXYUV0UjZ2V2s4Y2RaNy1KSlhGSmpraW1B?oc=5",
    "at": "2026-11-07",
@@ -3277,6 +3220,64 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "New Galaxy A57 update makes it more secure",
+   "url": "https://www.sammobile.com/news/new-galaxy-a57-update-makes-it-more-secure-2/",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (570 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung’s Phone app could start checking if calls from contacts are being spoofed",
+   "url": "https://www.androidauthority.com/samsung-one-ui-phone-fake-call-scam-3735478/",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (529 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Purism Aiming To Deliver New Librem 5 Smartphone With RISC-V SoC - Phoronix",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85eVZPZUtQZlFuM2hDYjRpSG40Uk5PVmJTV0ZsSzRwS2ZHM3dzdUNnUXZlVTgyMzlCejlRMkxuSDJ5NDlPUEozUWtZNlZGTTBtNDhWaEpmOGE0dmlDUkw3MA?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (507 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Huawei Enjoy 100 Pro Max Tops Week 45 Sales at CNY 1,999 - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94STRxV3BmNnZXazZJUTZuWVNmbXJvdV9fOFFqR2x1U1MxVF9yRXFzS2MtT2hVaUh5UmV3c1J4aEJzWnExYUdVQ0lMeWt5RTBOMThUUUFZN3Vmc292T3ZaV3lsWjQxSEhETjU5cFRjcEV0bFA5ZkZHTHpIaUVPdTQ?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (660 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung’s Phone app could start checking if calls from contacts are being spoofed - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQzdYMURRLXFtNnJRaElpY2ZXb2VkUC1POEVhQUtwUXo3LThwaFpsWnFIYTRJbG5NZ1NtZk5zeGtfamlDcU05RGxsRzEtMGpmUU1seVd6SlJJQlNreVJBWlFOSUttd21SRUhON1I2MlJKcWJzVUF2Y1JmSi1kcXJLZWp3MA?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['could', 'calls', 'spoofed', 'being']"
+  },
+  {
+   "title": "How to pay with your Android phone anywhere in the world - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVDNEZGhEdzM5MGM4d3BzczNyXy14T0tqWHNTUFRRdWdoOW1kWHBJaDJkWGlFNzJmY3hHZURKUldaQkZvZnBNXzhQLTFxODBMYzZhSkxPbFk4NDhyTlhad3hDb25oWTdnSXhjN1pBZGF1YW1CWkhma2JLVGQxb2xLcjB6NTJWZDBZQXJ2TUFVSjQ3RUVFYkVFMHhQazYyZzQ?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['world', 'your', 'anywhere']"
+  },
+  {
+   "title": "Why you shouldn't buy the latest flagship phone — and what to get instead - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNakhZOUR1bjAyYzA2NkpndUVRcjhUYm81RGVZSlh5dWlsYjV0c2RhTHBMOGZxVFJiSUpWX0RNNU81S2FuTGFwVGhpbHJfMnN5N2dhRHQ3c2RtdTd5b19XZV8tVThVYWpVU2FXNjZmM1A3djV4S2twVGI5X1dzZ2t0emJxZkxjQQ?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['shouldn', 'latest', 'flagship', 'instead']"
   }
  ]
 }
