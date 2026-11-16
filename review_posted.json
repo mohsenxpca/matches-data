@@ -1,36 +1,6 @@
 {
  "done": [
   {
-   "title": "كيف تحول هاتفك البكسل إلى جهاز مخصص بـ 3 تطبيقات؟",
-   "cand_title": "I stopped waiting for Google to fix my Pixel; these 3 apps did it instead - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdkVBNDZGSXFHeEJrclVsOWFTQWhtYmd5XzcxZXdhUTU5WWhMQmZVcFQ1dTloZnpBU3U4NmpDS3Q1a1V5ZzUwamFJanhndXp6UmlPemJXRGl5VzM2QVBwaEhZNlVZUXZ5QnJJLVdYSVhyUDhQTHd3cUNCTHo0Q0NvZDZ0Z0JSVjVRT3pTSHdhVG1JOG8zeTU2elp3SFdmbmxSWVphWWxn?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/transform-google-pixel-with-three-apps.html",
-   "at": "2026-11-07T16:11:28+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "بيكسل"
-  },
-  {
-   "title": "كيف تستخدم لوحة مفاتيح Gboard لمضاعفة إنتاجيتك على هاتفك",
-   "cand_title": "How To Use Gboard To Boost Productivity On Your Android Phone - Engadget",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWjFyTGZUU094WXpXd0hSUEVSODMzT2tPb1Y0ZWVwUDNfdE10ZFR2Q0Z6SWduNHFLWFp5NFB2c1FMV25NT0R2SC15NGZYenBXRUpyNjdyTzJjRnJheVBUUnlaNjRxcXRwUHhUako4b1BOcW9UZGFpNXNnVDBvTUtmalpTelphamEwcjJLTw?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/how-to-use-gboard-for-productivity.html",
-   "at": "2026-11-07T16:41:25+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "تخفيضات كبرى على أسعار هواتف سامسونج الرائدة",
-   "cand_title": "Deals: Galaxy S26 Ultra and S25 Ultra on sale, Galaxy Z Fold8 price drops",
-   "url": "https://www.gsmarena.com/deals_galaxy_s26_ultra_and_s25_ultra_on_sale_galaxy_z_fold8_price_drops-news-75378.php",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-s26-ultra-deals.html",
-   "at": "2026-11-08T00:21:23+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
    "title": "OnePlus releases its ColorOS 17 rollout schedule for November",
    "url": "https://www.gsmarena.com/oneplus_releases_its_coloros_17_rollout_schedule_for_november-news-75398.php",
    "at": "2026-11-08",
@@ -3279,6 +3249,30 @@
    "ok": true,
    "kind": "news",
    "brand": "اوبو"
+  },
+  {
+   "title": "Xiaomi Redmi M100 Pro vs vivo V80 FE",
+   "url": "https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php||https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'v80 fe' already covered in: مراجعة شاملة لهاتف vivo V80 FE: مواصفات عملاق الفئة المتوسطة"
+  },
+  {
+   "title": "Oppo Reno17 Pro (China) vs Xiaomi Redmi M100 Pro",
+   "url": "https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php||https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'reno17 pro' already covered in: مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،"
+  },
+  {
+   "title": "تسريب iPhone 20 Pro: هل نودع الحواف التقليدية في ذكرى أبل العشرين؟",
+   "cand_title": "iPhone 20 Pro leak shows a quad-curved front glass with a Dynamic Island",
+   "url": "https://www.gizmochina.com/2026/11/16/iphone-20-pro-quad-curved-front-glass-new-video/",
+   "post_url": "https://www.review-mobile.com/2026/11/iphone-20-pro-quad-curved-leak.html",
+   "at": "2026-11-17T00:07:22+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
