@@ -1,32 +1,6 @@
 {
  "done": [
   {
-   "title": "دليل سامسونج الرسمي: طريقتان لتحديث نظام Google Play لهواتف Galaxy",
-   "cand_title": "Samsung Google Play System Update: 2 Paths [2026] - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa2NaSzlyeE4tZWQ3RXdkb2NTcG9TeGhrb1BBYWlWQUZFdzU1dThHeVgycnZfQ25uT3B2eFkzczV6RVl6ZDQyMXAxVDJ3Q2VBM2ozeEZXd3dXek4xeEZaakRnak5EM2VKY3pzOW1QVzdPWEV5MEtncldrR1UwbUdWZ19sSnBrUEVlT0E?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-google-play-system-update-paths.html",
-   "at": "2026-11-07T05:13:18+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "Xiaomi 18 with 100W charging clears 3C certification ahead of December launch",
-   "url": "https://www.gizmochina.com/2026/11/07/xiaomi-18-with-100w-charging-clears-3c-certification-ahead-of-december-launch/",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (669 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Samsung Galaxy S26 FE specs reportedly leak. What they are, how much it might cost - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE56X0NUQ2VlQl9tczJ0cnRnQmRvcUYzU3JiSHZlNG5yQXhFUFUxY0lzNlZMMkt4TUN3OE5TVlJ1LUlSd0NLNWhPQ1hoQ1cyMmRGc2xzSnVSQ2IzaC1qLWwzOFlIYjhKbzlEbHVJV2RtQXd5dw?oc=5",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": "Phone 's26 fe' already covered in: مراجعة Samsung Galaxy S26 FE: بديل أرخص لـ S26 2026"
-  },
-  {
    "title": "Xiaomi's Black Shark 3 Pro is a massive gaming phone with beastly specs - Mashable",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6UWpEeHpUMU52WVNUWGVTb2FZbU50TFdQN2luLWhrVXhNcUZXa3lGX3hKOTU3UmIzRHFEWDMtZ1RLTFlOS2ZYb3lHd20yZXFoTVd2SWpwM3hmcy1DZEtvRFRRcw?oc=5",
    "at": "2026-11-07",
@@ -3277,6 +3251,29 @@
    "at": "2026-11-16",
    "ok": false,
    "reason": "Recent story overlap on key terms ['best', 'galaxy', 'fold']"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHeWtFejNWbGpURVM5U0E4Y3dtYm9hTHhVMkFxaS1XUGJhc0Z2bk43R0JXN0FjdGVQeUVRdlVPcy1iMm1FZU16djRTWkJxazcxbnVvcm80bWZrMm1salByYTlFWVJ0Zw?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro max' already covered in: Xiaomi 18 Pro Max مراجعة سعر ومواصفات أحدث هواتف شاومي الرائدة"
+  },
+  {
+   "title": "Gaming performance evolution: iPhone 15 Pro to iPhone 18 Pro - Reader comments - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DZDVoTmhUTDFqLTJYYWM2VzB4WE1pSVhSVHpVTHVPTVBWMW9DVkRPX0M2czlQU2p4RVZBUXlHZkZYSkdscDZGZHhJQVE5NFRzaFItbHVn?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['iphone', 'gaming', 'performance', 'evolution']"
+  },
+  {
+   "title": "Space42 starts production of ThurayaTwo satellite phone - Tbreak UAE",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DLTNlY3UyUkVEZ1BjM2podmtIZ184RFB2NjdLYXNxLTB3QjB2aGh3TjVKUHhROXVKRkxFMk5NbEdlUXdaS3RHWHJzZXNyM3hPT3FzeDY2VXRRQU13SU5VUnB2ZXlzZ2RtMjdMT3JIMDRvazA?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (668 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
