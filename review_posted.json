@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "فيفو تطلق هاتف Vivo Y6k ببطارية عملاقة وشاشة 120Hz",
-   "cand_title": "Vivo launches affordable 5G phone with 6,500mAh battery and 120Hz display - Notebookcheck",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSVJPMDZ3RktLQkN4X25zYzlaRDcxSk1nXzd6eXAtSUNJN0xScmJRQmFUdmFvRG9qTmtQQ2VEQW84VDdHN05HVEpNMWpFMTV0U2hpSWdTSHVWeDlHQ2t0cU81WkR1LXVJRk53SGcwUVZzSGNRR1ItOVR6Z0NERGtXVzNETmotMlVxRWNVTlJIQ1RhY2VKc3FvbERGTmFjbEtUb3FabXJHdG5vb2lPZ0t0QzBBR3dYU3A1bHc?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/vivo-y6k-launch-battery-specs.html",
-   "at": "2026-11-07T04:42:03+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "فيفو"
-  },
-  {
    "title": "دليل سامسونج الرسمي: طريقتان لتحديث نظام Google Play لهواتف Galaxy",
    "cand_title": "Samsung Google Play System Update: 2 Paths [2026] - shattered.io",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa2NaSzlyeE4tZWQ3RXdkb2NTcG9TeGhrb1BBYWlWQUZFdzU1dThHeVgycnZfQ25uT3B2eFkzczV6RVl6ZDQyMXAxVDJ3Q2VBM2ozeEZXd3dXek4xeEZaakRnak5EM2VKY3pzOW1QVzdPWEV5MEtncldrR1UwbUdWZ19sSnBrUEVlT0E?oc=5",
@@ -3280,6 +3270,13 @@
    "ok": true,
    "kind": "news",
    "brand": "هونر"
+  },
+  {
+   "title": "Galaxy Z Fold 8/8 Ultra secure CES 2027 Best Innovation Awards for Samsung",
+   "url": "https://www.sammobile.com/news/galaxy-z-fold-8-and-ultra-secure-ces-2027-best-innovation-awards-for-samsung/",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['best', 'galaxy', 'fold']"
   }
  ]
 }
