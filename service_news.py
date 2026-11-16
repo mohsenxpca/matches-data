@@ -150,14 +150,16 @@ PROMPT_TEMPLATE = """أنت محرر خدمات وتقارير إخبارية ف
 - الحقيقة والمصداقية المطلقة: استخدم المعلومات والأرقام والقرارات الموجودة في «النص المصدر» فقط. ممنوع اختراع أو افتراض أي أرقام، أسعار، تواريخ، مواعيد، أو أسماء مسؤولين غير مذكورة نصاً في المصدر.
 - اكتب كل الأرقام بالأرقام (مثل: 78,730 وليس بالحروف).
 - ممنوع النسخ الحرفي: أعد صياغة الخبر وترتيب فقراته باحترافية من الأهم إلى التفاصيل.
-- القيمة المضافة والشرح: اشرح للقارئ ببساطة إيه أهمية الخبر ده ليه، وإيه الخطوات العملية المطلوبة منه (طريقة التقديم، شروط الاستفادة، الأوراق، أو كيفية التعامل).
+- القيمة المضافة والخطوات العملية: اشرح للقارئ ببساطة إيه أهمية الخبر ده ليه، وركّز على خطوات تنفيذية مرقمة واضحة (1، 2، 3) لكيفية الاستفادة من الخدمة أو طريقة التقديم أو شروط الاستفادة أو الأوراق المطلوبة أو جدول مقارنة رسوم/مواعيد إن وجدت في المصدر.
 - لو المعلومة لسه مقترح أو تحت الدراسة أو لسه ما اتنفذتش رسمي، اذكر ده بوضوح وصراحة.
 - ممنوع ذكر اسم الموقع أو الجريدة المصدر (مثل اليوم السابع أو صدى البلد أو مصراوي) داخل النص.
-- الطول: صلب الموضوع (body) من 600 إلى 850 كلمة، مقسم بعناوين h2 واضحة (من 3 لـ 5 عناوين) وفقرات مريحة للقراءة <p>، وقوائم <ul><li>..</li></ul> لو فيه شروط أو خطوات.
+- الطول: صلب الموضوع (body) من 600 إلى 850 كلمة، مقسم بعناوين h2 واضحة (من 3 لـ 5 عناوين) وفقرات مريحة للقراءة <p>، وقوائم <ul><li>..</li></ul> لو فيه شروط أو خطوات عملية.
 - لا تضع صوراً أو روابط جوه الـ body (سيتم وضعها تلقائياً).
+- أسئلة شائعة (FAQ): 3 إلى 4 أسئلة تمس احتياج الشارع الحقيقي (مثل: الأوراق المطلوبة، الرسوم وطرق السداد، موانع الاستحقاق، حلول المشاكل والأعطال). ممنوع منعاً باتاً الأسئلة الإنشائية السطحية مثل (ما هي أهمية هذا الخبر أو هل الخبر صحيح).
+- نقاط سريعة (takeaways): 3 نقاط تمثل الإجابة المباشرة السريعة (Quick Direct Answer) للسؤال الأساسي للقارئ بدون مقدمات طويلة لاصطياد الـ Featured Snippets.
 
 رجّع JSON بالشكل ده بالظبط:
-{{"title": "عنوان جذاب وصادق وواضح أقل من 65 حرف", "slug": "english-slug-3-to-6-words", "desc": "وصف دقيق للبحث من 140 لـ 160 حرف يبدأ بأهم معلومة", "takeaways": ["أهم قرار أو رقم في الخبر", "الفئة المستفيدة والشروط", "الخطوة العملية المطلوبة"], "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
+{{"title": "عنوان جذاب وصادق وواضح أقل من 65 حرف", "slug": "english-slug-3-to-6-words", "desc": "وصف دقيق للبحث من 140 لـ 160 حرف يبدأ بأهم معلومة ورقم", "takeaways": ["الإجابة المباشرة الفورية على صلب الخبر في سطر واحد", "الفئات المستفيدة أو الشروط الدقيقة", "الخطوة العملية الفورية المطلوبة"], "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
 
 عنوان الخبر الأصلي: {orig_title}
 
@@ -309,6 +311,31 @@ def ping_indexnow(urls):
     except Exception as e:
         print("IndexNow ping failed:", e)
 
+
+
+
+def inject_jump_ids(body_html):
+    """Adds id='ea-sec-N' to every <h2> and builds a Jump-to-Section table of contents before the first <h2>."""
+    headings = []
+    def repl(m):
+        idx = len(headings) + 1
+        inner = m.group(1)
+        clean_txt = re.sub(r'<[^>]+>', '', inner).strip()
+        headings.append((f'ea-sec-{idx}', clean_txt))
+        return f'<h2 id="ea-sec-{idx}">{inner}</h2>'
+    new_body = re.sub(r'<h2>(.*?)</h2>', repl, body_html, flags=re.DOTALL)
+    if len(headings) >= 3:
+        items = ''.join(f'<li><a href="#{hid}" style="color:#1565c0;text-decoration:none;font-weight:600;">{html.escape(htxt)}</a></li>' for hid, htxt in headings)
+        jump_html = (
+            f'<details class="ea-jump" open style="background:#f8fafc;border:1px solid #dbe4ff;border-right:4px solid #0d47a1;border-radius:10px;padding:12px 16px;margin:18px 0;">'
+            f'<summary style="font-weight:800;font-size:16px;cursor:pointer;color:#0d47a1;">📌 عناصر الموضوع السريعة (اضغط للانتقال المباشر)</summary>'
+            f'<ol style="margin:10px 0 0;padding-right:20px;line-height:1.8;">{items}</ol>'
+            f'</details>\n'
+        )
+        first_h2 = new_body.find('<h2 id="ea-sec-1">')
+        if first_h2 != -1:
+            new_body = new_body[:first_h2] + jump_html + new_body[first_h2:]
+    return new_body
 
 def main():
     dry = os.environ.get("DRY_RUN") == "1"
@@ -479,7 +506,30 @@ def main():
                 faq_html = f'<div style="margin:24px 0;"><h2 style="font-size:19px;font-weight:900;color:#1e293b;margin-bottom:12px;">❓ أسئلة هامة وإجاباتها الرسمية</h2>{faq_items}</div>'
 
             disc_widget = build_service_interactive_widget(topic_id, art["title"])
-            full_html = lead_img_html + disc_widget + callout_html + art["body"] + faq_html + callout_html
+            body_html = inject_jump_ids(art["body"])
+
+            # Quick Answer / TL;DR Box (Featured Snippets)
+            takeaways = [str(x).strip() for x in (art.get("takeaways") or []) if str(x).strip()]
+            tldr_html = ""
+            if takeaways:
+                li = "".join(f"<li style='margin-bottom:6px;'>{html.escape(t)}</li>" for t in takeaways[:4])
+                tldr_html = (
+                    f'<div class="ea-tldr" style="background:#f0f7ff;border:1px solid #bfdbfe;border-right:4px solid #0d47a1;border-radius:12px;padding:14px 16px;margin:16px 0;">'
+                    f'<div style="font-weight:900;font-size:16px;color:#0d47a1;margin-bottom:8px;">📌 الزبدة والخلاصة السريعة في سطرين (الإجابة المباشرة):</div>'
+                    f'<ul style="margin:0;padding-right:20px;line-height:1.75;color:#1e293b;">{li}</ul>'
+                    f'</div>'
+                )
+
+            full_html = (
+                '<div dir="rtl" class="ea-wrap" style="color:#1a1a1a;background:#fff;line-height:1.9;font-size:17px;">' +
+                lead_img_html +
+                disc_widget +
+                tldr_html +
+                body_html +
+                callout_html +
+                faq_html +
+                '</div>'
+            )
 
             if dry:
                 print(f"    [DRY RUN] Would publish: {art['title']}")

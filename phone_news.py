@@ -66,11 +66,13 @@ PHONE_PROMPT = """أنت محرر ومراجع هواتف محترف في موق
 - جدول المواصفات الفنية: ضع جدول HTML أنيق (<table>) يلخص (الشاشة، المعالج، الكاميرات، البطارية والشحن، الرام والتخزين، نظام التشغيل) وفقاً لما ورد في المصدر.
 - الأسعار: اذكر السعر بالدولار/اليورو كما ورد، وحوله تقريبياً إلى (الجنيه المصري بسعر صرف 49 ج، والريال السعودي 3.75 ر.س، والدرهم الإماراتي 3.67 د.إ) مع التنويه بأنه السعر العالمي قبل الجمارك والضرائب.
 - القيمة المضافة: اشرح مميزات الهاتف وعيوبه المبدئية، ومين المستخدم المناسب ليه (عشاق الألعاب، محبو التصوير، الاستخدام اليومي).
-- الطول: الـ body من 550 إلى 800 كلمة، بعناوين h2 (من 3 لـ 5 عناوين)، وجدول، وفقرات مريحة للقراءة.
+- الطول: الـ body من 550 إلى 800 كلمة، بعناوين h2 (من 3 لـ 5 عناوين)، وجدول مواصفات، وفقرات مريحة للقراءة.
 - لا تضع صوراً أو روابط داخل الـ body (سيتم وضعها تلقائياً).
+- أسئلة شائعة (FAQ): 3 إلى 4 أسئلة تمس اهتمام المشتري الفعلي (مثل: توفر الشاحن بالعلبة في السوق العربي، أداء المعالج وسخونته في الألعاب، ثبات الفيديو، هل يستحق الترقية). ممنوع الأسئلة السطحية أو الروتينية.
+- نقاط سريعة (takeaways): 3 نقاط تمثل الإجابة المباشرة السريعة (Quick Direct Answer) للسؤال الأساسي للقارئ بدون مقدمات إنشائية لاصطياد الـ Featured Snippets في جوجل.
 
 رجّع JSON بالشكل ده بالظبط:
-{{"title": "عنوان جذاب وصادق أقل من 65 حرف", "slug": "english-slug-3-to-6-words", "desc": "وصف دقيق للبحث من 140 لـ 160 حرف", "is_leak": false, "brand": "اسم البراند بالعربي", "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
+{{"title": "عنوان جذاب وصادق أقل من 65 حرف", "slug": "english-slug-3-to-6-words", "desc": "وصف دقيق للبحث من 140 لـ 160 حرف يبدأ بأهم مواصفة وسعر متوقع", "is_leak": false, "brand": "اسم البراند بالعربي", "takeaways": ["الإجابة المباشرة الفورية على صلب الخبر في سطر واحد", "أهم ميزة رقمية في الشاشة أو المعالج أو الكاميرا", "السعر المتوقع بالعملات وموعد التوفر"], "body": "<h2>..</h2><p>..</p>...", "faq": [{{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}, {{"q": "..", "a": ".."}}]}}
 
 عنوان الخبر الأصلي: {orig_title}
 
@@ -155,6 +157,31 @@ def check_phone_news(art, src_text, orig_title, existing_titles, min_words=450):
             errs.append(f"تم ذكر اسم موقع محظور ({b}) في صلب الخبر")
     return errs
 
+
+
+
+def inject_jump_ids(body_html):
+    """Adds id='ea-sec-N' to every <h2> and builds a Jump-to-Section table of contents before the first <h2>."""
+    headings = []
+    def repl(m):
+        idx = len(headings) + 1
+        inner = m.group(1)
+        clean_txt = re.sub(r'<[^>]+>', '', inner).strip()
+        headings.append((f'ea-sec-{idx}', clean_txt))
+        return f'<h2 id="ea-sec-{idx}">{inner}</h2>'
+    new_body = re.sub(r'<h2>(.*?)</h2>', repl, body_html, flags=re.DOTALL)
+    if len(headings) >= 3:
+        items = ''.join(f'<li><a href="#{hid}" style="color:#1565c0;text-decoration:none;font-weight:600;">{html.escape(htxt)}</a></li>' for hid, htxt in headings)
+        jump_html = (
+            f'<details class="ea-jump" open style="background:#f8fafc;border:1px solid #dbe4ff;border-right:4px solid #0d47a1;border-radius:10px;padding:12px 16px;margin:18px 0;">'
+            f'<summary style="font-weight:800;font-size:16px;cursor:pointer;color:#0d47a1;">📌 عناصر الموضوع السريعة (اضغط للانتقال المباشر)</summary>'
+            f'<ol style="margin:10px 0 0;padding-right:20px;line-height:1.8;">{items}</ol>'
+            f'</details>\n'
+        )
+        first_h2 = new_body.find('<h2 id="ea-sec-1">')
+        if first_h2 != -1:
+            new_body = new_body[:first_h2] + jump_html + new_body[first_h2:]
+    return new_body
 
 def main():
     parser = argparse.ArgumentParser(description="Egyptaway Automated Phone News Engine")
@@ -315,11 +342,13 @@ def main():
         # Format Post HTML with Discover-optimized 1200x675 image & price comparison widget
         lead_img_html = f'<p><img src="{real_img}" alt="{html.escape(art["title"])}" width="1200" height="675" fetchpriority="high" style="width:100%;height:auto;border-radius:14px;box-shadow:0 4px 14px rgba(0,0,0,.08);margin:12px 0 18px;"></p>\n'
 
-        # Price Hub Callout Card
+        # Price Hub & Phone Comparison Callout Card (Funnel Conversion)
         callout_html = '''<div style="background:#f8fafc;border:2px solid #cbd5e1;border-radius:14px;padding:16px;margin:20px 0;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,.04);">
-  <div style="font-size:17px;font-weight:900;color:#0f172a;margin-bottom:6px;">📱 أسعار الموبايلات المحدثة أسبوعياً في مصر والدول العربية</div>
-  <p style="font-size:14px;color:#475569;margin:0 0 12px;">لو عايز تقارن أسعار ومواصفات كل الهواتف المتوفرة بالسوق المصري والخليجي، ادخل على دليل الأسعار الشامل:</p>
-  <a href="https://www.egyptaway.com/p/mobile-prices-egypt.html" style="background:#0f172a;color:#fff!important;text-decoration:none!important;font-weight:800;padding:10px 18px;border-radius:10px;font-size:14px;display:inline-block;margin:4px;">🔍 جدول أسعار الموبايلات 2026</a><a href="https://www.egyptaway.com/p/best-phone-for-budget.html" style="background:#0d47a1;color:#fff!important;text-decoration:none!important;font-weight:800;padding:10px 18px;border-radius:10px;font-size:14px;display:inline-block;margin:4px;">🧭 أداة أحسن موبايل لميزانيتك</a>
+  <div style="font-size:17px;font-weight:900;color:#0f172a;margin-bottom:6px;">📱 أدوات ذكية قبل الشراء: مقارنة الهواتف ودليل الأسعار 2026</div>
+  <p style="font-size:14px;color:#475569;margin:0 0 12px;">لو عايز تقارن الهاتف ده مع أي هاتف منافس أو تعرف أرخص سعر في مصر والخليج، استخدم أدواتنا المجانية:</p>
+  <a href="https://www.egyptaway.com/p/compare-phones.html" style="background:#2563eb;color:#fff!important;text-decoration:none!important;font-weight:800;padding:10px 18px;border-radius:10px;font-size:14px;display:inline-block;margin:4px;">⚖️ أداة مقارنة الهواتف راس براس</a>
+  <a href="https://www.egyptaway.com/p/mobile-prices-egypt.html" style="background:#0f172a;color:#fff!important;text-decoration:none!important;font-weight:800;padding:10px 18px;border-radius:10px;font-size:14px;display:inline-block;margin:4px;">🔍 جدول أسعار الموبايلات المحدث</a>
+  <a href="https://www.egyptaway.com/p/best-phone-for-budget.html" style="background:#0d47a1;color:#fff!important;text-decoration:none!important;font-weight:800;padding:10px 18px;border-radius:10px;font-size:14px;display:inline-block;margin:4px;">🧭 أفضل هاتف لميزانيتك</a>
 </div>'''
 
         faq_html = ""
@@ -327,7 +356,28 @@ def main():
             faq_items = "".join(f'<details style="border:1px solid #e2e8f0;border-radius:10px;padding:12px 16px;margin:8px 0;background:#fff;"><summary style="font-weight:800;font-size:15px;cursor:pointer;color:#1e293b;">{html.escape(q["q"])}</summary><p style="margin:10px 0 0;font-size:14.5px;color:#334155;border-top:1px dashed #e2e8f0;padding-top:10px;">{html.escape(q["a"])}</p></details>' for q in art["faq"][:4])
             faq_html = f'<div style="margin:24px 0;"><h2 style="font-size:19px;font-weight:900;color:#1e293b;margin-bottom:12px;">❓ أسئلة شائعة حول الهاتف</h2>{faq_items}</div>'
 
-        full_html = lead_img_html + callout_html + art["body"] + faq_html + callout_html
+        # Quick Answer / TL;DR Box (Featured Snippets)
+        takeaways = [str(x).strip() for x in (art.get("takeaways") or []) if str(x).strip()]
+        tldr_html = ""
+        if takeaways:
+            li = "".join(f"<li style='margin-bottom:6px;'>{html.escape(t)}</li>" for t in takeaways[:4])
+            tldr_html = (
+                f'<div class="ea-tldr" style="background:#f0f7ff;border:1px solid #bfdbfe;border-right:4px solid #0d47a1;border-radius:12px;padding:14px 16px;margin:16px 0;">'
+                f'<div style="font-weight:900;font-size:16px;color:#0d47a1;margin-bottom:8px;">📌 الزبدة والخلاصة السريعة في سطرين (الإجابة المباشرة):</div>'
+                f'<ul style="margin:0;padding-right:20px;line-height:1.75;color:#1e293b;">{li}</ul>'
+                f'</div>'
+            )
+
+        body_html = inject_jump_ids(art["body"])
+        full_html = (
+            '<div dir="rtl" class="ea-wrap" style="color:#1a1a1a;background:#fff;line-height:1.9;font-size:17px;">' +
+            lead_img_html +
+            tldr_html +
+            body_html +
+            callout_html +
+            faq_html +
+            '</div>'
+        )
 
         if dry:
             print(f"  [DRY RUN] Would publish: {art['title']}")

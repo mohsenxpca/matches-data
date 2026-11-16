@@ -132,6 +132,15 @@ CSS = """<style>
 .rv-vote-btns button:hover{background:#2563eb;color:#fff}
 .rv-diff-btn{background:#0f172a;color:#fff;border:0;border-radius:8px;padding:7px 14px;font:inherit;font-size:14px;font-weight:700;cursor:pointer;margin:8px 0}
 .rv-hide-row{display:none}
+.rv-jump{background:#f8fafc;border:1px solid #dbe4ff;border-right:4px solid #1565c0;border-radius:10px;padding:12px 16px;margin:18px 0}
+.rv-jump summary{font-weight:800;cursor:pointer;color:#0d47a1;font-size:16px}
+.rv-jump ol{margin:10px 0 0;padding-right:20px;line-height:1.8}
+.rv-jump a{color:#1565c0;text-decoration:none;font-weight:600}
+.rv-jump a:hover{text-decoration:underline}
+.rv-cta{background:linear-gradient(135deg,#eff6ff,#f0fdf4);border:2px solid #3b82f6;border-radius:14px;padding:16px;margin:22px 0;text-align:center;box-shadow:0 4px 14px rgba(37,99,235,.08)}
+.rv-cta-title{font-size:17px;font-weight:900;color:#1e40af;margin-bottom:6px}
+.rv-cta-p{font-size:14.5px;color:#334155;margin:0 0 12px}
+.rv-cta-btn{display:inline-block;background:#2563eb;color:#fff!important;text-decoration:none!important;font-weight:800;padding:10px 22px;border-radius:10px;font-size:15px;box-shadow:0 3px 8px rgba(37,99,235,.25)}
 </style>"""
 
 REVIEW_PROMPT_TEMPLATE = """أنت محرر ومراجع هواتف محترف وخبير تقني في موقع «رفيو» (review-mobile.com).
@@ -163,10 +172,10 @@ REVIEW_PROMPT_TEMPLATE = """أنت محرر ومراجع هواتف محترف �
 5. المميزات والعيوب: 4 إلى 5 مميزات قوية في (<div class="rv-pros">)، و 3 إلى 4 عيوب واضحة بمصداقية في (<div class="rv-cons">).
 6. لمن يناسب هذا الهاتف؟: جدول (<table class="rv-table">) يوضح (فئة المستخدم، هل يناسبه؟، السبب بالتفصيل).
 7. رأي رفيو النهائي (هل يستحق الشراء؟): فقرة تقييمية ختامية تقدم نصيحة شراء مخلصة وقاطعة.
-8. أسئلة شائعة: 4 أسئلة شائعة وإجاباتها في علامات <details><summary>السؤال</summary><p>الإجابة</p></details>.
+8. أسئلة شائعة: 4 أسئلة شائعة غير تقليدية تهم المشتري الفعلي (مثل: توفر الشاحن بالعلبة في السوق العربي، سخونة المعالج في الألعاب والصيف، ثبات تصوير الفيديو، القيمة الحقيقية للترقية من الجيل السابق). ممنوع منعاً باتاً الأسئلة السطحية أو الإنشائية مثل (ما هي مواصفات الهاتف أو هل الهاتف ممتاز). ضع الأسئلة وإجاباتها في علامات <details><summary>السؤال</summary><p>الإجابة</p></details>.
 9. الالتزام بجميع الأرقام الواردة في المصدر وعدم اختراع أي رقم غير منشور.
 10. لا تذكر اسم الموقع المصدر (مثل GSMArena أو Gizmochina) داخل نص المراجعة.
-11. أضف تقييماً موضوعياً من 10 في حقل scores بناءً على مواصفات المصدر فقط (screen, performance, camera, battery, value)، و3-4 نقاط ملخصة حاسمة في حقل takeaways.
+11. أضف تقييماً موضوعياً من 10 في حقل scores بناءً على مواصفات المصدر فقط (screen, performance, camera, battery, value). وفي حقل takeaways ضع 3 إلى 4 نقاط حاسمة تمثل الإجابة المباشرة السريعة (Quick Direct Answer) للسؤال الأساسي للقارئ بدون لف أو دوران لاصطياد الـ Featured Snippets في جوجل.
 
 رجّع الرد بتنسيق JSON صالح فقط كالتالي دون أي زيادات:
 {{
@@ -1396,6 +1405,30 @@ def inject_diff_toggle(body_html, tid):
     )
     return re.sub(r'(<table\b[^>]*class="[^"]*rv-vs-table[^"]*"|<table\b)', btn_and_js + r"\1", body_html, count=1)
 
+def inject_jump_ids(body_html):
+    """Adds id='rv-sec-N' to every <h2> and builds a Jump-to-Section table of contents before the first <h2>."""
+    headings = []
+    def repl(m):
+        idx = len(headings) + 1
+        inner = m.group(1)
+        clean_txt = re.sub(r'<[^>]+>', '', inner).strip()
+        headings.append((f'rv-sec-{idx}', clean_txt))
+        return f'<h2 id="rv-sec-{idx}">{inner}</h2>'
+    new_body = re.sub(r'<h2>(.*?)</h2>', repl, body_html, flags=re.DOTALL)
+    if len(headings) >= 3:
+        items = ''.join(f'<li><a href="#{hid}">{html.escape(htxt)}</a></li>' for hid, htxt in headings)
+        jump_html = (
+            f'<details class="rv-jump" open>'
+            f'<summary>📌 أقسام التقرير السريعة (اضغط للانتقال المباشر)</summary>'
+            f'<ol>{items}</ol>'
+            f'</details>\n'
+        )
+        first_h2 = new_body.find('<h2 id="rv-sec-1">')
+        if first_h2 != -1:
+            new_body = new_body[:first_h2] + jump_html + new_body[first_h2:]
+    return new_body
+
+
 
 def check_content(art, cand_title, existing_titles, ea_phone_titles=None, kind="review"):
     """Validates phone reviews and news articles strictly for AdSense compliance with auto-sanitization."""
@@ -1736,8 +1769,31 @@ def main():
             tool_html = build_interactive_tool(tid, price_val, kind=cand_kind)
             score_vote_html = build_scorecard_and_vote_html(art, tid, cand_title, cand_kind)
             body_html = inject_diff_toggle(art["body"], tid) if cand_kind == "compare" else art["body"]
+            body_html = inject_jump_ids(body_html)
             disclaimer_html = (f'<div class="rv-box"><strong>تنويه تحريري:</strong> {DISCLAIMER}</div>'
                                if cand_kind in ("review", "compare") else "")
+
+            # 5.5 Quick Answer / TL;DR Box (Featured Snippet Optimization)
+            takeaways = [str(x).strip() for x in (art.get("takeaways") or []) if str(x).strip()]
+            tldr_html = ""
+            if takeaways:
+                li = "".join(f"<li style='margin-bottom:6px;'>{html.escape(t)}</li>" for t in takeaways[:4])
+                tldr_title = "📌 خلاصة المراجعة السريعة في 30 ثانية (الإجابة المباشرة):" if cand_kind == "review" else "📌 الزبدة والخلاصة السريعة في سطرين (الإجابة المباشرة):"
+                tldr_html = (
+                    f'<div class="rv-tldr">'
+                    f'<div style="font-weight:900;font-size:16px;color:#1e40af;margin-bottom:8px;">{tldr_title}</div>'
+                    f'<ul style="margin:0;padding-right:20px;line-height:1.75;color:#1e293b;">{li}</ul>'
+                    f'</div>'
+                )
+
+            # 5.6 Interactive Funnel CTA (Comparison & Budget Hubs)
+            cta_html = (
+                f'<div class="rv-cta">'
+                f'<div class="rv-cta-title">⚖️ محتار بين هذا الهاتف وأي هاتف منافس آخر؟</div>'
+                f'<p class="rv-cta-p">يمكنك وضع مواصفات أي هاتفين جنباً إلى جنب ومقارنة الشاشة، المعالج، الكاميرات، البطارية، والأسعار في مصر والخليج عبر أداة المقارنة المباشرة:</p>'
+                f'<a href="https://www.review-mobile.com/p/compare-phones.html" class="rv-cta-btn">⚖️ قارن الآن في أداة مقارنة الهواتف راس براس</a>'
+                f'</div>'
+            )
 
             # 6. Internal Links
             brand_label = extract_brand(art["title"] + " " + cand_title)
@@ -1760,11 +1816,13 @@ def main():
                 '<div dir="rtl" class="rv-wrap">' +
                 lead_img_html +
                 disclaimer_html +
+                tldr_html +
                 body_html +
                 score_vote_html +
                 second_img_html +
                 tool_html +
                 third_img_html +
+                cta_html +
                 interlink_html +
                 faq_html +
                 f'<p style="font-size:14px;color:#64748b;margin-top:24px">المصادر الرسمية: <a href="{pub_url}" rel="nofollow noopener" target="_blank">المصدر التقني المعلن</a>.</p>' +
