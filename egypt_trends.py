@@ -32,65 +32,8 @@ STATE_FILE = "egypt_trends_posted.json"
 DAY_CAP = int(os.environ.get("EGYPT_TRENDS_DAY_CAP", "12"))
 COUNT = int(os.environ.get("COUNT", "1"))
 
-# Curated high-res natural photography fallbacks (no text overlays, diverse multi-photo pools)
-TREND_PHOTO_POOLS = {
-    "sports": [
-        "https://images.pexels.com/photos/3148452/pexels-photo-3148452.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/30651230/pexels-photo-30651230.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/19875973/pexels-photo-19875973.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/36227922/pexels-photo-36227922.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/26694125/pexels-photo-26694125.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "tennis": [
-        "https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/1619860/pexels-photo-1619860.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/5739164/pexels-photo-5739164.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "phones": [
-        "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "gaming": [
-        "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/194511/pexels-photo-194511.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "gold": [
-        "https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "clock": [
-        "https://images.pexels.com/photos/1198264/pexels-photo-1198264.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/280264/pexels-photo-280264.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "weather": [
-        "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "supply": [
-        "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "transport": [
-        "https://images.pexels.com/photos/1036867/pexels-photo-1036867.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "education": [
-        "https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "money": [
-        "https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "holidays": [
-        "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-    "general": [
-        "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-        "https://images.pexels.com/photos/3290075/pexels-photo-3290075.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
-    ],
-}
+# Curated high-res natural photography fallbacks unified with image_guard (ZERO BOOKS, ZERO MOSQUES)
+TREND_PHOTO_POOLS = image_guard.POOLS
 
 # Cross-link suggestions to relevant Egyptaway hub pages
 HUB_LINKS = {
@@ -284,69 +227,15 @@ function eaVote(btn) {
 </script>'''
 
 def get_category_pool(text):
-    t = text.lower()
-    # 1. بنوك وشهادات واقتصاد وذهب وعملات (تُفحص قبل الرياضة لمنع تطابق كلمة "البنك الأهلي" مع كورة)
-    if re.search(r"شهادة|شهادات|البنك الأهلي|بنك مصر|البنك المركزي|فوائد البنوك|ودائع|سعر الفائدة", t) and not re.search(r"نادي البنك الأهلي|فريق البنك الأهلي", t):
-        return TREND_PHOTO_POOLS["money"]
-    if re.search(r"ذهب|عيار 21|الجنيه الذهب|سعر الذهب|بورصة الذهب|دولار|سعر الصرف|عملات|ريال|درهم", t):
-        return TREND_PHOTO_POOLS["gold"]
-
-    # 2. تنس ورياضات فردية
-    if re.search(r"تنس|ألكاراز|نادال|ديوكوفيتش|رولان جاروس|ويمبلدون|مضرب", t):
-        return TREND_PHOTO_POOLS["tennis"]
-
-    # 3. كورة ورياضة وبطولات وملاعب
-    is_sports = False
-    if re.search(r"نادي البنك الأهلي|فريق البنك الأهلي", t):
-        is_sports = True
-    elif re.search(r"كورة|كرة|مباراة|مباريات|دوري|ليفربول|ريال مدريد|برشلونة|ملعب|استاد|لاعب|مدرب|فريق|نادي|كأس|بطولة|ديربي|كلاسيكو|منتخب|أدنوك|توتنهام|ليدز|مانشستر|أرسنال|بايرن|صلاح|مرموش|ميسي|رونالدو", t):
-        is_sports = True
-    elif re.search(r"الأهلي|الاهلي|أهلي|أهلى|زمالك|بيراميدز", t) and not re.search(r"البنك الأهلي|بنك الأهلي", t):
-        is_sports = True
-    if is_sports:
-        return TREND_PHOTO_POOLS["sports"]
-
-    # 4. هواتف وتكنولوجيا وتطبيقات
-    if re.search(r"هاتف|موبايل|سامسونج|شاومي|آيفون|ايفون|أندرويد|اندرويد|تطبيق|تحديث|معالج|كاميرا|شاشة|ذكاء اصطناعي|شات جي بي تي|جيميني|سماعة|لاب توب|سيرفر", t):
-        return TREND_PHOTO_POOLS["phones"]
-
-    # 5. ألعاب وجيمنج
-    if re.search(r"لعبة|العاب|ألعاب|جيمنج|بلايستيشن|اكس بوكس|ببجي|فري فاير|فورتنايت|فيفا|اي فوتبول", t):
-        return TREND_PHOTO_POOLS["gaming"]
-
-    # 6. ساعة وتوقيت
-    if re.search(r"ساعة|توقيت|الشتوي|الصيفي|تأخير|تقديم", t):
-        return TREND_PHOTO_POOLS["clock"]
-
-    # 7. طقس وأرصاد
-    if re.search(r"طقس|أرصاد|مطر|حرارة|شتاء|سيول|رياح|نوة", t):
-        return TREND_PHOTO_POOLS["weather"]
-
-    # 8. تموين وسلع
-    if re.search(r"تموين|سلع|خبز|معرض|أهلا رمضان|سكر|زيت", t):
-        return TREND_PHOTO_POOLS["supply"]
-
-    # 9. مواصلات وقطارات ومترو
-    if re.search(r"مترو|قطار|سكة حديد|مواصلات|تذكرة|تذاكر", t):
-        return TREND_PHOTO_POOLS["transport"]
-
-    # 10. تعليم وامتحانات
-    if re.search(r"مدارس|جامعات|امتحانات|تعليم|نتيجة|تنسيق|دراسة", t):
-        return TREND_PHOTO_POOLS["education"]
-
-    # 11. مرتبات ومعاشات وبنوك
-    if re.search(r"مرتب|معاش|فلوس|صرف|مالية|تكافل", t):
-        return TREND_PHOTO_POOLS["money"]
-
-    # 12. إجازات وعطلات
-    if re.search(r"إجازة|عطلة|أعياد|رسمية|مناسبة", t):
-        return TREND_PHOTO_POOLS["holidays"]
-
-    return TREND_PHOTO_POOLS["general"]
+    topic = image_guard.detect_article_topic(text)
+    if topic == "football":
+        return image_guard.POOLS["football"]
+    return image_guard.POOLS.get(topic, image_guard.POOLS["general"])
 
 
 def pick_fallback_photo(text, recent_images=()):
-    pool = get_category_pool(text)
+    topic = image_guard.detect_article_topic(text)
+    pool = image_guard.POOLS.get(topic, image_guard.POOLS["general"])
     return image_guard.get_guaranteed_image(None, text, pool, recent_images=recent_images)
 
 
@@ -709,18 +598,27 @@ def main():
             state["done"].append({"u": cand["link"], "t": cand["t"], "at": today_str, "ok": False, "reason": errs})
             continue
 
-        # Choose lead photo: Real news photo (only if proxy succeeds without 404/403), or clean Pexels fallback
+        # Choose lead photo: Real news photo (only if proxy succeeds without 404/403), or clean verified fallback
         proxied_img = None
         if real_img:
             candidate_proxy = f"https://wsrv.nl/?url={urllib.parse.quote(real_img)}&w=1200&output=webp&q=80"
             try:
-                chk = requests.head(candidate_proxy, headers=UA, timeout=3, allow_redirects=True)
+                chk = requests.head(candidate_proxy, headers=UA, timeout=10, allow_redirects=True)
                 if chk.status_code == 200:
                     proxied_img = candidate_proxy
                 else:
-                    print(f"  Real img proxy returned {chk.status_code}. Using fallback photo.")
+                    print(f"  Real img proxy returned {chk.status_code}. Checking direct source image...")
+                    direct_chk = requests.head(real_img, headers=UA, timeout=6, verify=False)
+                    if direct_chk.status_code == 200:
+                        proxied_img = candidate_proxy
             except Exception as e:
-                print(f"  Real img proxy check failed ({e}). Using fallback photo.")
+                print(f"  Real img proxy check failed ({e}). Checking direct source image...")
+                try:
+                    direct_chk = requests.head(real_img, headers=UA, timeout=6, verify=False)
+                    if direct_chk.status_code == 200:
+                        proxied_img = candidate_proxy
+                except Exception:
+                    pass
         # ضمان أقصى درجات الصرامة: فحص الصورة، مطابقتها 100% للموضوع، ومنع التكرار نهائياً
         pool = get_category_pool(art["title"] + " " + cand["t"])
         recent_photos = [d.get("photo") for d in state.get("done", []) if d.get("photo")]

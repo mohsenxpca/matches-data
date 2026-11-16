@@ -46,6 +46,7 @@ BANNED_IMG_PATTERNS = [
 ]
 
 MOSQUE_PHOTO_IDS = {"3290075", "161275", "218480", "1537086"}
+BANNED_PHOTO_IDS = {"3290075", "161275", "218480", "1537086", "518543", "1029141"}
 
 # Helper to build full Pexels 1200x675 URL
 def _pex(pid):
@@ -86,11 +87,12 @@ POOLS = {
         "https://upload.wikimedia.org/wikipedia/commons/1/10/Final_Trophee_Monal_2012_n08.jpg",
         "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Final_2013_Fencing_WCH_SFS-EQ_t204424.jpg/3840px-Final_2013_Fencing_WCH_SFS-EQ_t204424.jpg"
     ],
-    # Football match action & stadiums (NO CRYPTO, NO MOSQUES)
+    # Football match action & stadiums (NO CRYPTO, NO MOSQUES, NO BOOKS)
     "football": [
         _pex(3148452), _pex(1171084), _pex(114296), _pex(274422), _pex(209977), _pex(269948),
         _pex(1884574), _pex(1661950), _pex(274506), _pex(364308), _pex(1618269), _pex(1618200),
-        _pex(262524), _pex(399187), _pex(186239), _pex(209841), _pex(140039)
+        _pex(262524), _pex(399187), _pex(186239), _pex(209841), _pex(140039), _pex(36227922),
+        _pex(26694125), _pex(30651230), _pex(19875973)
     ],
     # Weather, skies
     "weather": [
@@ -100,9 +102,9 @@ POOLS = {
     "gaming": [
         _pex(3945683), _pex(3945659), _pex(1174746), _pex(3165335)
     ],
-    # General clean fallback
+    # General clean editorial fallback (STRICTLY NO BOOKS, NO RELIGIOUS ICONS)
     "general": [
-        _pex(518543), _pex(3184291), _pex(3184292), _pex(3184325), _pex(3184306)
+        _pex(3184291), _pex(3184292), _pex(3184325), _pex(3184306)
     ]
 }
 
@@ -114,6 +116,11 @@ def extract_photo_id(img_url):
     """Extracts a unique identifier from a photo URL."""
     if not img_url:
         return ""
+    if "wsrv.nl" in img_url:
+        um = re.search(r"url=([^&]+)", img_url)
+        if um:
+            inner = urllib.parse.unquote(um.group(1))
+            return hashlib.md5(inner.encode("utf-8")).hexdigest()[:16]
     m = re.search(r"photos/(\d+)/", img_url)
     if m:
         return m.group(1)
@@ -193,7 +200,7 @@ def is_prayer_topic(title, text=""):
 
 def is_relevant_image(img_url, title, text=""):
     """Strict check: guarantees that the image content matches the article topic.
-    ZERO TOLERANCE for mosques on non-prayer posts, or mismatched categories.
+    ZERO TOLERANCE for mosques on non-prayer posts, books on non-education posts, or mismatched categories.
     """
     if not img_url:
         return False
@@ -201,26 +208,46 @@ def is_relevant_image(img_url, title, text=""):
     pid = extract_photo_id(img_url)
     t = (title + " " + (text or "")).lower()
 
-    # 1. منع صورة المسجد نهائياً على أي خبر غير ديني/صلاة
-    if pid in MOSQUE_PHOTO_IDS or re.search(r"mosque|masjid|minaret|prayer", img_url.lower()):
+    # 1. منع صورة المسجد أو الكتاب المفتوح نهائياً على أي خبر غير مخصص
+    if pid in BANNED_PHOTO_IDS or pid in MOSQUE_PHOTO_IDS or re.search(r"mosque|masjid|minaret|prayer", img_url.lower()):
         if not is_prayer_topic(title, text):
-            print(f"  [ImageGuard REJECTED] Mosque photo blocked on non-prayer story: {title[:50]}")
+            print(f"  [ImageGuard REJECTED] Mosque or religious photo blocked on non-prayer story: {title[:50]}")
             return False
 
-    # 2. لو الموضوع رياضة أو كورة: ممنوع صور الشاشات أو المساجد أو الطقس أو العملات
-    is_sports_topic = bool(re.search(r"كورة|كرة|مباراة|مباريات|دوري|أهلي|زمالك|ليفربول|ريال مدريد|برشلونة|ملعب|استاد|لاعب|مدرب|فريق|نادي|كأس|بطولة|ديربي|كلاسيكو|منتخب|أدنوك|توتنهام|ليدز|مانشستر|أرسنال|بايرن|تنس|سلاح|مبارزة|هشام", t))
-    if is_sports_topic:
-        if pid in MOSQUE_PHOTO_IDS or re.search(r"crypto|bitcoin|coin|currency|money|dollar", img_url.lower()):
-            return False
-
-    # 3. لو الموضوع أعطال شبكات: ممنوع صور الأموال والفلوس
-    is_outage_topic = bool(re.search(r"عطل|انقطاع|شبكة|توقف الخدمة|سيستم واقع|تطبيق متوقف", t))
-    if is_outage_topic and (pid == "259027" or re.search(r"money|briefcase|currency|dollar", img_url.lower())):
+    if pid in {"518543", "1029141"}:
+        print(f"  [ImageGuard REJECTED] Open book photo blocked: {title[:50]}")
         return False
 
-    # 4. لو الموضوع هواتف أو تكنولوجيا: ممنوع صور الملاعب أو المساجد
+    # 2. لو الموضوع رياضة أو كورة: ممنوع منعاً باتاً صور الكتب أو الشاشات أو المساجد أو الطقس أو العملات
+    is_sports_topic = bool(re.search(
+        r"كورة|كرة|مباراة|مباريات|دوري|أهلي|زمالك|بيراميدز|إسماعيلي|اسماعيلي|الاتحاد السكندري|المصري البورسعيدي|"
+        r"سيراميكا|سموحة|إنبي|غزل المحلة|زد|حرس الحدود|مودرن سبورت|ليفربول|ريال مدريد|برشلونة|مانشستر|أرسنال|بايرن|"
+        r"لاعب|مدرب|حارس|مرمى|حراس|صفقة|صفقات|معسكر|تشكيل|قائمة|منتخب|كأس|بطولة|ديربي|كلاسيكو|"
+        r"إمام عاشور|عاشور|زيزو|شيكابالا|الشناوي|شوبير|كولر|جوميز|حسام حسن|إبراهيم حسن|حسين لبيب|الخطيب|"
+        r"عبد الله السعيد|السعيد|مرموش|محمد صلاح|تريزيجيه|مصطفى محمد|عواد|صبحي|كهربا|أفشة|وسام أبو علي|"
+        r"طاهر محمد|عمر كمال|دونجا|مصطفى شلبي|بنتايج|الجزيري|ناصر ماهر|أحمد حمدي|كاف|دوري أبطال|الكونفدرالية|"
+        r"دوري نايل|الدوري الممتاز|السوبر المصري|تنس|سلاح|مبارزة|هشام", t
+    ))
+    if is_sports_topic:
+        if pid in MOSQUE_PHOTO_IDS or pid in {"518543", "1029141", "3290075"}:
+            return False
+        if re.search(r"book|read|library|novel|crypto|bitcoin|coin|currency|money|dollar|briefcase", img_url.lower()):
+            return False
+        # لو الصورة Pexels، لازم تكون من صور الكورة/الرياضة المعتمدة حصراً
+        if "pexels" in img_url.lower():
+            sports_pids = {extract_photo_id(p) for p in POOLS["football"]}
+            if pid not in sports_pids:
+                print(f"  [ImageGuard REJECTED] Non-sports Pexels photo ({pid}) blocked on sports story: {title[:50]}")
+                return False
+
+    # 3. لو الموضوع أعطال شبكات: ممنوع صور الأموال والفلوس والكتب والمساجد
+    is_outage_topic = bool(re.search(r"عطل|انقطاع|شبكة|توقف الخدمة|سيستم واقع|تطبيق متوقف", t))
+    if is_outage_topic and (pid in {"259027", "518543", "1029141"} or re.search(r"money|briefcase|currency|dollar|book", img_url.lower())):
+        return False
+
+    # 4. لو الموضوع هواتف أو تكنولوجيا: ممنوع صور الملاعب أو المساجد أو الكتب
     is_tech_topic = bool(re.search(r"هاتف|موبايل|سامسونج|شاومي|آيفون|ايفون|أندرويد|اندرويد|تطبيق|تحديث|معالج|كاميرا|شاشة|ذكاء اصطناعي", t))
-    if is_tech_topic and pid in MOSQUE_PHOTO_IDS:
+    if is_tech_topic and (pid in MOSQUE_PHOTO_IDS or pid in {"518543", "1029141"}):
         return False
 
     return True
@@ -270,9 +297,9 @@ def get_guaranteed_image(candidate_url, title, category_pool=None, recent_images
         print(f"  [ImageGuard] Candidate photo rejected (safe={safe}, relevant={rel}, dup={is_dup}). Selecting from pool...")
 
     # 2. Select from curated pool avoiding recent duplicates
-    if not category_pool:
-        detected = detect_article_topic(title, text)
-        category_pool = POOLS.get(detected, POOLS.get("phones" if site == "review" else "general", POOLS["general"]))
+    detected = detect_article_topic(title, text)
+    if not category_pool or (isinstance(category_pool, (list, tuple)) and not any(is_relevant_image(p, title, text) for p in category_pool)):
+        category_pool = POOLS.get(detected, POOLS.get("phones" if site == "review" else "football" if detected == "football" else "general", POOLS["general"]))
 
     # Stable pseudo-random seed from title hash
     seed = int(hashlib.md5(title.encode("utf-8")).hexdigest()[:8], 16)
@@ -283,12 +310,18 @@ def get_guaranteed_image(candidate_url, title, category_pool=None, recent_images
         if pid not in all_recent_ids and is_relevant_image(photo, title, text):
             return photo
 
-    # If all pool images were recently used, return the rotated choice that is relevant
+    # If all pool images were recently used, return the rotated choice that is strictly relevant
     for photo in rotated_pool:
         if is_relevant_image(photo, title, text):
             return photo
 
-    return rotated_pool[0]
+    # Ultimate safety net: never return an irrelevant photo
+    fallback_topic_pool = POOLS.get(detected, POOLS["football"] if detected == "football" else POOLS["general"])
+    for photo in fallback_topic_pool:
+        if is_relevant_image(photo, title, text):
+            return photo
+
+    return fallback_topic_pool[0]
 
 
 def compute_dhash(image):
@@ -409,37 +442,53 @@ def detect_article_topic(title, text=""):
         return "fuel"
     if re.search(r"عطل|انقطاع|شبكة|توقف الخدمة|سيستم واقع|تطبيق متوقف", t):
         return "outage_telecom"
-    if re.search(r"كورة|كرة|مباراة|دوري|أهلي|زمالك|ليفربول|ريال مدريد|برشلونة|لاعب|مدرب", t):
+    if re.search(
+        r"كورة|كرة|مباراة|مباريات|دوري|أهلي|زمالك|بيراميدز|إسماعيلي|اسماعيلي|الاتحاد السكندري|المصري البورسعيدي|"
+        r"سيراميكا|سموحة|إنبي|غزل المحلة|زد|حرس الحدود|مودرن سبورت|ليفربول|ريال مدريد|برشلونة|مانشستر|أرسنال|بايرن|"
+        r"لاعب|مدرب|حارس|مرمى|حراس|صفقة|صفقات|معسكر|تشكيل|قائمة|منتخب|كأس|بطولة|ديربي|كلاسيكو|"
+        r"إمام عاشور|عاشور|زيزو|شيكابالا|الشناوي|شوبير|كولر|جوميز|حسام حسن|إبراهيم حسن|حسين لبيب|الخطيب|"
+        r"عبد الله السعيد|السعيد|مرموش|محمد صلاح|تريزيجيه|مصطفى محمد|عواد|صبحي|كهربا|أفشة|وسام أبو علي|"
+        r"طاهر محمد|عمر كمال|دونجا|مصطفى شلبي|بنتايج|الجزيري|ناصر ماهر|أحمد حمدي|كاف|دوري أبطال|الكونفدرالية|"
+        r"دوري نايل|الدوري الممتاز|السوبر المصري", t
+    ):
         return "football"
     if re.search(r"إسكان|شقق|سكن لكل المصريين|عقارات|أراضي|الإسكان الاجتماعي", t):
         return "housing"
-    if re.search(r"بنك|ودائع|شهادات|فائدة|ذهب|عيار 21|دولار|صرف", t):
+    if re.search(r"بنك|ودائع|شهادات|فائدة|ذهب|عيار 21|دولار|صرف|مرتب|معاش", t):
         return "money"
-    if re.search(r"هاتف|موبايل|سامسونج|شاومي|آيفون|معالج|أندرويد", t):
+    if re.search(r"هاتف|موبايل|سامسونج|شاومي|آيفون|معالج|أندرويد|تطبيق|شات جي بي تي|جيميني", t):
         return "phones"
-    if re.search(r"طقس|أرصاد|درجات الحرارة|رياح|أمطار", t):
+    if re.search(r"طقس|أرصاد|درجات الحرارة|رياح|أمطار|شتاء|سيول", t):
         return "weather"
-    if re.search(r"لعبة|العاب|ألعاب|بلايستيشن|كمبيوتر|roblox|gta", t):
+    if re.search(r"لعبة|العاب|ألعاب|بلايستيشن|كمبيوتر|roblox|gta|ببجي|فري فاير", t):
         return "gaming"
     return "general"
 
 
 def is_safe_and_compliant(img_url, topic):
-    """Enforces strict rules: no crypto on sports, no mosques on non-prayer, no 404s."""
+    """Enforces strict rules: no crypto on sports, no mosques on non-prayer, no books, no 404s."""
     if not img_url:
         return False
     u = img_url.lower()
+    pid = extract_photo_id(img_url)
     
+    # 0. Banned global IDs (books, mosques)
+    if pid in BANNED_PHOTO_IDS and topic != "prayer":
+        return False
+        
     # 1. Mosques ONLY on prayer
     if re.search(r"mosque|masjid|minaret|prayer", u) and topic != "prayer":
         return False
         
-    # 2. No crypto/coins on sports
-    if topic in ("football", "fencing", "sports") and re.search(r"crypto|bitcoin|coin|currency|money|dollar", u):
-        return False
-        
-    # 3. No money suitcase on telecom outages
-    if topic == "outage_telecom" and ("259027" in u or "briefcase" in u):
+    # 2. No crypto/coins or books on sports
+    if topic in ("football", "fencing", "sports", "tennis"):
+        if re.search(r"crypto|bitcoin|coin|currency|money|dollar|book|library|read|page", u):
+            return False
+        if pid in {"518543", "1029141"}:
+            return False
+            
+    # 3. No money suitcase or books on telecom outages
+    if topic == "outage_telecom" and ("259027" in u or "briefcase" in u or pid in {"518543", "1029141"}):
         return False
         
     return True
