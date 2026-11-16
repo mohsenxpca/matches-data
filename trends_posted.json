@@ -1885,6 +1885,24 @@
    "q": "دولار",
    "at": "2026-11-16",
    "ok": false
+  },
+  {
+   "q": "العملة",
+   "at": "2026-11-16",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "طماطم",
+   "at": "2026-11-16",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "جامعة",
+   "at": "2026-11-16",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
