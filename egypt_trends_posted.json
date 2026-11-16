@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.vietnam.vn/ru/video-du-bao-thoi-tiet-dem-nay-va-ngay-mai-5-11-bac-bo-ngay-nang-canh-bao-dong-loc-tren-bien",
-   "t": "[Видео] Прогноз погоды на сегодня и завтра, 5 ноября: Солнечно в Северном Вьетнаме, предупреждение о грозах и сильном ветре на море.",
-   "title": "حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام",
-   "url": "https://www.egyptaway.com/2026/11/weather-forecast-vietnam-tomorrow.html",
-   "at": "2026-11-04T21:06:25.068255+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://whatson.ae/2026/10/dubai-rain-el-nino-stormwater-drainage/",
    "t": "El Niño could bring heavy rain to Dubai, here’s how the city is preparing",
    "at": "2026-11-04",
@@ -3382,6 +3373,16 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 15، 30"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/16/آيفون-18-وآيفون-18e-موعد-الإطلاق-والمواصفات-والأسعار-المتوقعة/7619053",
+   "t": "آيفون 18 وآيفون 18e.. موعد الإطلاق والمواصفات والأسعار المتوقعة",
+   "title": "آيفون 18 و18e.. مواعيد الإطلاق والمواصفات المتوقعة للهواتف الجديدة",
+   "url": "https://www.egyptaway.com/2026/11/iphone-18-release-date-specs-prices.html",
+   "photo": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-16T08:02:16.069764+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
