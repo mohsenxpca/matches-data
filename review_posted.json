@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "أبل قد تدمج أزرار هواتف آيفون المستقبلية في زر واحد",
-   "cand_title": "Future iPhones will have one less button, new rumor claims",
-   "url": "https://www.gsmarena.com/future_iphones_will_have_one_less_button_new_rumor_claims-news-75391.php",
-   "post_url": "https://www.review-mobile.com/2026/11/apple-iphone-button-consolidation-rumor.html",
-   "at": "2026-11-07T02:08:51+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
    "title": "How does your old iPhone 15 compare to iPhone 17? Let's compare specs, screen size, and cameras. - Mashable",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzTks0WmZ2ZUZiaHRuS0JHN09zeUxVRU9TWm5rUE9aZ1Zib0dGazV2VHZaRS1OY2tUNUZLaW1xbVNnSmlFb3RMZjl6WEJSd3pwSnBPNWswZi1adjlEUDV2VUtzYjhaOHZ2SWNMVGtUSzF2MGoybDRpc1ZZeXVWaEk?oc=5",
    "at": "2026-11-07",
@@ -3283,6 +3273,13 @@
    "at": "2026-11-16",
    "ok": false,
    "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
+  },
+  {
+   "title": "Meta Muse AI Agent Can Now Make Phone Calls for You - hi-Tech.ua",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BZmF0emlFWnc1ZzdKcnNtVmhLMTMwSDRvaHhocTJWb1E2a25TS2hqeXpSOUtpYjF4X0w4MlNMVkx4U2hIaWl1Um5uM3EyNXVHWnNrelVuVjJqejZfdUZMRVRPdW84enJWX2RTVWJwdDNETXV1X0tKTWJIWDJhMkk?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "out_of_phone_scope"
   }
  ]
 }
