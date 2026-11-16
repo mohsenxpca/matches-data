@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/4/نظارات-ذكية-تساعد-ضعاف-البصر-فى-التعرف-على-الأشياء-كيف/7605774",
-   "t": "نظارات ذكية تساعد ضعاف البصر فى التعرف على الأشياء.. كيف تغير التكنولوجيا حياتهم؟",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الـ body 426 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
-   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/4/3073723/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A3%D9%87%D8%AF%D8%A7%D9%81-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC",
-   "t": "فيديو أهداف مباراة مصر والإمارات في نهائي كأس الخليج",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/4/هل-يستطيع-هاتفك-معرفة-أنك-متوتر-تقنيات-جديدة-تراقب-مؤشرات/7605548",
    "t": "هل يستطيع هاتفك معرفة أنك متوتر؟ تقنيات جديدة تراقب مؤشرات الجسم",
    "title": "هاتفك يراقب توترك.. تقنيات جديدة تكشف حالتك الصحية",
@@ -3381,6 +3360,25 @@
    "url": "https://www.egyptaway.com/2026/11/samsung-galaxy-s27-ultra-iphone-18-pro.html",
    "photo": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-16T02:02:11.540815+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_economy/details/2026/11/15/3079333/%D8%B4%D8%B9%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D9%85%D9%88%D9%84-%D8%B2%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%81%D9%8A-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D9%87%D9%88%D8%A7%D8%AA%D9%81-%D8%A3%D9%88%D8%A8%D9%88-%D9%88%D9%87%D9%88%D9%86%D8%B1-%D8%B1%D8%BA%D9%85-%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+   "t": "شعبة المحمول: زيادات جديدة في أسعار هواتف أوبو وهونر رغم انخفاض الدولار",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 4000، 6000"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7182276",
+   "t": "أزمة مالية جديدة تضرب الزمالك.. النادي مطالب بسداد 3 ملايين جنيه| تفاصيل",
+   "title": "أزمة مالية في الزمالك ومطالبات بسداد 3 ملايين جنيه أجهزة رياضية",
+   "url": "https://www.egyptaway.com/2026/11/zamalek-financial-crisis-sports.html",
+   "photo": "https://images.pexels.com/photos/30651230/pexels-photo-30651230.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-16T02:21:53.764177+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
