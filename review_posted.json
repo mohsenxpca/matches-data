@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "title": "vivo V80 review",
-   "url": "https://www.gsmarena.com/vivo_v80-review-3011.php",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": "Model code [v80] with variants set() found in review: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
-  },
-  {
-   "title": "هل تستبدل Gemini بمساعد ذكي آخر على أندرويد؟ تجربتي الكاملة",
-   "cand_title": "I tried ChatGPT and Claude as my Android assistant; here's how they compare to Gemini - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUTJxOGoxR0F0bGlidW5PYnk0QTZsYmIyMDdOVW1qWGd1aC1SZG04UFdIblNnSFBuR1p3SkQwRlVJXzZXZENaMEsyUDl2NGhPM2pNNWhVaG5Yb0lsdkttWDNEUnlHZXFBWGg4MW9GVS1HM1JqNWtzSkVacjlOaktjYks5aDRwWHVTbkd1SXFoTXRLY3dTa2dMQWdjTi1JemVjYlA4NTg0YWY?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/replacing-gemini-with-chatgpt-claude.html",
-   "at": "2026-11-06T22:02:01+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "Oppo Find X10 Ultra has reportedly been cancelled - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNU09GSFlJU3d0WTExaFVGSXlPRVg4cko3S1ZYNW9xcUpqS19NSEFlWlF6MTFONXFxbklRZ2x4SzFjTVFOWG94UkpGSl84QjQzbjk4ajhENnZHbzlwQWQ4aTFjdElMS1Z1TDdTbXhseUNUN3N5bUY4YnpqTkFxcE02aldyc0M4MTJ4R1F30gGHAUFVX3lxTE0zSWptUU9iU1JlSjM1YnRoVTJYY0hNWUJvV2laZzhtXzRBV1dsaXRjV3BlRWFFUnBjN3Mwb2k4WnVOU1NWTG90bXNXTURUSWxqOWk2OEpKbVZzS3MyZ2N5eS10ZTlCSlB5eUFyOC1iaWFtX09mVE9jX2VKaER5bnl1MjdYS1YtUQ?oc=5",
    "at": "2026-11-07",
@@ -3281,6 +3264,22 @@
    "at": "2026-11-16",
    "ok": false,
    "reason": "Recent story overlap on key terms ['plan', 'current', 'poll', 'your']"
+  },
+  {
+   "title": "Honor Choice T10 - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGbHo2N2xUSlp4MEZEc0F5Ul9abHpWR0oyTjkzand4S1h3N1c0UjQ5LThZeWtjcndudUQ0MUpjUExRWTZlR3VGcDJTVXdtWVYydWlqV3l2TXZOWEV4b09KUw?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 't10' already covered in: مراجعة شاملة لهاتف Honor Choice T10: المواصفات، الأداء، السعر،"
+  },
+  {
+   "title": "This launcher let me play Steam games on my Android phone, no streaming required - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTEcyaDBwZENDWXltSmNEZ21nXzkzNk0xTWdtaFhDeDh2TGZmWUdqS29iTTNMQi13ZldubTU0V0VTNmZJY1ZEUlFFdk5NbHZieXdDOUwwTW1pUGJvX1lSc3ZFX21pRHBIQkRObFlhNGJrS081LXdOT1RpTDdBLTFxOVdYYWlGNndkclgwWlJhTEc4aUlKVTU0YVp4dw?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (554 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
