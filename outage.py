@@ -224,7 +224,7 @@ def main():
         except Exception:
             posted_state = {}
 
-    cutoff = (now - datetime.timedelta(hours=12)).isoformat()
+    cutoff = (now - datetime.timedelta(hours=48)).isoformat()
     recent_posted = {k: v for k, v in posted_state.items() if v.get("at", "") > cutoff}
 
     # 1. Check API for 'down' or high report count
@@ -281,10 +281,19 @@ def main():
         return
 
     tok = f.token()
-    existing = [p["t"] for p in f.site_posts(tok)]
+    live_posts = f.site_posts(tok)
+    existing = [p["t"] for p in live_posts]
+    recent_live_titles = [p["t"] for p in live_posts[:30]]
 
     for sid in candidates[:1]:  # Post at most 1 outage alert per run to avoid spam
         svc = SERVICES[sid]
+        # Extra live-blog deduplication: skip if an outage post for this service is already in recent 30 posts
+        svc_kw = svc["name"].split()[0].lower()
+        if any(("عطل" in t or "توقف" in t or "انقطاع" in t) and svc_kw in t.lower() for t in recent_live_titles):
+            print(f"Skipping {sid}: live blog already has a recent outage post for '{svc_kw}'.")
+            recent_posted[sid] = {"title": f"Skipped duplicate {svc['name']}", "at": now.isoformat()}
+            continue
+
         print(f"Processing outage breaking news for: {svc['name']}")
 
         prompt = PROMPT.format(name=svc["name"], cat=svc["cat"], support=svc["support"], year=now.year)
@@ -292,6 +301,14 @@ def main():
         if not art or not art.get("title") or not art.get("body"):
             print("Gemini generation failed for", sid)
             continue
+
+        if f.dup(art["title"], existing):
+            print(f"Skipping {sid}: title '{art['title']}' is too similar to existing post.")
+            continue
+
+        # Ensure unique dated slug so Blogger never appends random _012345 numbers
+        if not re.search(r"-\d{4}$", art.get("slug", "")):
+            art["slug"] = f"{art.get('slug', f'{sid}-outage')}-{now:%m%d}"
 
         # Add interactive callout box directly to our live outage tracker page
         tracker_url = f"{f.SITE}/p/{svc['slug']}.html"
