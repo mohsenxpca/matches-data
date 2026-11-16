@@ -1,17 +1,6 @@
 {
  "done": [
   {
-   "u": "https://isport.blesk.cz/clanek/fotbal-evropske-pohary-liga-mistru/481729/trpisovsky-vs-arteta-ctvrte-dejstvi-brutalni-rozdil-v-platu-ale-stejna-posedlost-detaily.html",
-   "t": "Trpišovský versus Arteta: Roční plat 30 proti 750 milionům",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 2019",
-    "الـ body 436 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'ارسنال', 'براغ', 'سلافيا'}) مع: عودة ويليام ساليبا تدعم أرسنال قبل مواجهة سلافيا براغ الحاسمة)"
-   ]
-  },
-  {
    "u": "https://www.livescore.com/en/news/football/more/farioli-a-privilege-and-honour-to-share-a-touchline-with-italian-giant-allegri-football-italia/",
    "t": "Farioli: ‘A privilege and honour to share a touchline with Italian giant Allegri’",
    "at": "2026-11-04",
@@ -3376,6 +3365,15 @@
    "reason": [
     "الـ body 373 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'استقرار', 'مصر'}) مع تشابه نصي مع: استقرار أسعار الوقود في مصر اليوم 9 نوفمبر 2026)"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/16/3079875/%D8%AA%D9%83%D8%B1%D9%8A%D9%85-%D8%AE%D8%A7%D8%B5-%D9%84%D8%B1%D9%88%D8%AF%D9%8A%D8%AC%D8%B1-%D9%81%D9%8A-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A3%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7-%D9%88%D9%87%D9%88%D9%84%D9%86%D8%AF%D8%A7-%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B9%D8%AA%D8%B2%D8%A7%D9%84%D9%87-%D8%AF%D9%88%D9%84%D9%8A%D8%A7",
+   "t": "تكريم خاص لروديجر في مباراة ألمانيا وهولندا بعد اعتزاله دوليا",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "الـ body 415 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
