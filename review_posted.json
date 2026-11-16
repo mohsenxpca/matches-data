@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "vivo V80 review - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10WmJrdG9XSzNYM1QwNHpDelczNTZ3VkZlbFJVODM5WXI3UVdub1JJU2ppNGtKc2syZ2UwSk5NRXI5MVB3VjdidHdZcTNlVHRWMklCdXV4X1QyRUxiZkE?oc=5",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": "Model code [v80] with variants set() found in review: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
-  },
-  {
-   "title": "iPhone 18 Pro vs iPhone 16 Pro: All the differences explained - PhoneArena",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IZXhYZjY2ZU5qVDFDbElLVE83ZmV2bE9nbnpacnFDZUJtQUlGNnRjZDVEZnNvcDRwMDFBOExkQ25zTnRVZUp5ckZIbGlGd1FQZ3l3aG1EZ21lMXpoZlY5N1BJdEZnc2tQOXl4ZjhMaDdJY0U4Ukx1ejdkQ1Q?oc=5",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": "Phone 'iphone 18 pro' already covered in: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
    "title": "vivo also reportedly developing a wide-screen phone for 2027 launch - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNXJIRWFvVGdwQ0trMVdVSGJQbXdrcDBvVDRIcWw5b01IVUpwaEVnVHVVb3dSWlVUM1lfcDFjMEZzX01JQ2Z2ZGw3TTZpM3RfNEVKaWQ1c3BNTG96LWRyWDE4WnV3VVlaSGJobnNEMW5menAwRTlIREV4UjlUdEpUejBTdG1CNmNJcDBQa3RoWFl1MUVuMFRfX0dDRThJME1IdFo2cW96SnRKQQ?oc=5",
    "at": "2026-11-07",
@@ -3283,6 +3269,20 @@
    "ok": true,
    "kind": "news",
    "brand": "هواوي"
+  },
+  {
+   "title": "Huawei Mate X8 official renders with color options, RAM and storage options revealed",
+   "url": "https://www.gizmochina.com/2026/11/16/huawei-mate-x8-official-renders-color-ram-storage-options/",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
+  },
+  {
+   "title": "OPPO Reno 17, Reno 17 Pro complete specs leak ahead of China launch - 91Mobiles",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYnRQRExyXzVaZF9WTkVjNUZ6ODI1WDlaTTdndFVUZjFrWVpGOURFWnJYYW84NzRiZ19WbEFRZVM2S0s3QjA0TkRodU5lOFhONktDXzZINmJPQ0dPQlJ0cDAycGJFLUIyYVZYWDMzSUprcWhxV3A2UUZJeEpsc2NIeDluV0Iyd9IBiwFBVV95cUxNWGxVdWFtZXI4TWlMSXFvSkhpRU9lNmpYblJWR3R4eHdOSVB2RGtYU2ljdWdHWkpqOTQ0R0NSbDJtLXRDOWpKZGtWZ0kxLTFTb3g1MFpiR3VjTmtFZzh1ajAzVXVWV2lVUnloQjRpcGMyXzA1NU1UdFppQjFVcWRPVTNxbENDV3dBTWsw?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['ahead', 'reno', 'complete']"
   }
  ]
 }
