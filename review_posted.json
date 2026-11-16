@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "The OnePlus Turbo 7 Could Copy the Ace 7's Best Specs. The Hard Part Is Leaving Room on Price - Memeburn",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42QTZGZXZ2TkJ1YkZxXzQ4cFZHM1NGQUhvaGZycncxYi1sdjE5MnJzeE5XbWpXWGJOajIyT1NvTHFqZUMwc0ZFTFhGcW9maGJZdGtLeHdYSW9WWG9p?oc=5",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": "Phone 'turbo 7' already covered in: تسريب مواصفات OnePlus Turbo 7: قفزة تقنية هائلة للأداء"
-  },
-  {
-   "title": "OnePlus 16",
-   "url": "https://www.gsmarena.com/oneplus_16-14974.php",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": "Model code [16] with variants set() found in review: مراجعة RugOne Xsnap 7 Pro: وحش المتانة الجديد بنظام أندرويد 16"
-  },
-  {
    "title": "vivo V80 review - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE10WmJrdG9XSzNYM1QwNHpDelczNTZ3VkZlbFJVODM5WXI3UVdub1JJU2ppNGtKc2syZ2UwSk5NRXI5MVB3VjdidHdZcTNlVHRWMklCdXV4X1QyRUxiZkE?oc=5",
    "at": "2026-11-07",
@@ -3280,6 +3266,23 @@
    "at": "2026-11-16",
    "ok": false,
    "reason": "Recent story overlap on key terms ['thinborne', 'compare', 'find', 'ultra']"
+  },
+  {
+   "title": "Huawei Mate X8 launch date set for November 24",
+   "url": "https://www.gizmochina.com/2026/11/16/huawei-mate-x8-launch-date-set-for-november-24/",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
+  },
+  {
+   "title": "تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً",
+   "cand_title": "Huawei OSTA O1 Pro leaks in real-life photos ahead of launch",
+   "url": "https://www.gizmochina.com/2026/11/16/huawei-osta-o1-pro-leaks-in-real-life-photos-ahead-of-launch/",
+   "post_url": "https://www.review-mobile.com/2026/11/huawei-osta-o1-pro-leaks-photos.html",
+   "at": "2026-11-16T06:26:40+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هواوي"
   }
  ]
 }
