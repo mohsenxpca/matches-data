@@ -1,15 +1,6 @@
 {
   "done": [
     {
-      "title": "هل تنطبق عليك شروط \"سكن لكل المصريين 9\"؟ تعرف على السن والدخل المطلوب",
-      "url": "https://www.dostor.org/5758156",
-      "at": "2026-10-30T21:31:06.334749+02:00",
-      "ok": false,
-      "err": [
-        "طول المقال قصير جداً (439 كلمة، المطلوب 450+)"
-      ]
-    },
-    {
       "title": "استثمار 100 ألف جنيه في بنك مصر: تعرف على عوائد الشهادات",
       "orig": "لو معاك 100 ألف جنيه.. كم تحصل على عائد من شهادات بنك مصر؟",
       "url": "https://www.almasryalyoum.com/news/details/4397114",
@@ -2873,6 +2864,16 @@
       "topic": "coordination",
       "has_real_photo": false,
       "at": "2026-11-16T14:06:10.498969+02:00",
+      "ok": true
+    },
+    {
+      "title": "تقرير دولي يكشف استمرار استغلال العمال بمستودعات أمازون في السعودية",
+      "orig": "السعودية: العاملون في مستودعات أمازون لا يزالون عرضة للاستغلال رغم مبادرات الشركة",
+      "url": "https://www.amnesty.org/ar/latest/news/2026/11/saudi-arabia-amazon-warehouse-workers-still-facing-exploitation/",
+      "post_url": "https://www.egyptaway.com/2026/11/amazon-saudi-workers-exploitation-report.html",
+      "topic": "gulf_visas",
+      "has_real_photo": false,
+      "at": "2026-11-16T14:36:04.949151+02:00",
       "ok": true
     }
   ]
