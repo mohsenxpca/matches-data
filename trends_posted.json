@@ -1863,6 +1863,23 @@
    "at": "2026-11-16",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "طقس",
+   "at": "2026-11-16",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "الإيجار",
+   "at": "2026-11-16",
+   "ok": false
+  },
+  {
+   "q": "لامين يامال",
+   "at": "2026-11-16",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
