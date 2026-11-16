@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "vivo also reportedly developing a wide-screen phone for 2027 launch - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNXJIRWFvVGdwQ0trMVdVSGJQbXdrcDBvVDRIcWw5b01IVUpwaEVnVHVVb3dSWlVUM1lfcDFjMEZzX01JQ2Z2ZGw3TTZpM3RfNEVKaWQ1c3BNTG96LWRyWDE4WnV3VVlaSGJobnNEMW5menAwRTlIREV4UjlUdEpUejBTdG1CNmNJcDBQa3RoWFl1MUVuMFRfX0dDRThJME1IdFo2cW96SnRKQQ?oc=5",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['2027', 'developing', 'wide', 'also']"
-  },
-  {
    "title": "ميزة أندرويد المخفية لحماية خصوصيتك عند إعارة هاتفك للآخرين",
    "cand_title": "I lock my phone to one app before handing it over; you should too - Android Police",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VSGJLdThva2FFZTlGS2ozWWQ5TXdsbWVyRDVfS0o4RHpTWDA1cGxuX29XUkVLSjJ0U0R4UWhxdVd2X05tVlB1MmlGc3NQaGFVMDVOcXBKNlJoNndsTkNNc0g3dG9manFwY2RIdy15UWM0ZUND?oc=5",
@@ -3283,6 +3276,16 @@
    "at": "2026-11-16",
    "ok": false,
    "reason": "Recent story overlap on key terms ['ahead', 'reno', 'complete']"
+  },
+  {
+   "title": "حقيقة هاتف سامسونج القابل للطي والقابل للسحب Galaxy Z Roll",
+   "cand_title": "Galaxy Z Roll Leaks: 16:9 to 21:9, 0 Samsung Confirms - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYkxkenRRVFR4WnJfUlVhNWRCTmVuX2pLQnYxWTlkWDAwQXFBWWcwTkh1RmNoSmItanE1Xy0yeC1OWkZ3ZGk5dTBKemp0ZTNIeV9LYkNDaVRsYjREeW9wYkNXcFNJQmNUeEVReXM0VTVIckEzbU9FYTdnbEZ1OHo3dnlQT2Y2NTg1bENiMVJ3T0Q1WmFvWFE?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/galaxy-z-roll-leaks-analysis.html",
+   "at": "2026-11-16T08:26:29+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
