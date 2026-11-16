@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi's Wingless SU7 Ultra Prototype May Preview 2027 Model Update - autoevolution",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbkU2WUlUd3Y2VTA0V0FjOWdEWXY2MS1oT3lEekp3NDIzc1F5anJ3V0tDbklXQkFia1ZwVTJ3VUpXQ3hnRFpvR21MY2RFRmhCQXFwTDlpRFF1YWRVdVNWQ05JbzRqc0I1dGdSbHNVNllocjk2Qy12ZFh0YkRpWWV2MTA4TVlpOHl0a2RIUVoxMHptQUk2ZjRsLXdxNC10ZkxiVFprQjljdlFHM1pqSzhrQm9PcVE?oc=5",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
    "title": "vivo V80 review",
    "url": "https://www.gsmarena.com/vivo_v80-review-3011.php",
    "at": "2026-11-06",
@@ -3284,6 +3274,13 @@
    "at": "2026-11-16",
    "ok": false,
    "reason": "Recent story overlap on key terms ['creator', 'khronos', 'find', 'tilta']"
+  },
+  {
+   "title": "Weekly poll: how long do you plan to keep your current phone? - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSmNrTWsxMmxabHg3WEd6M2t4eUZXamw0ajFGQ096NzJpS1ZZUEtLeXk2M1lZaFRLSWg2T0IwYjlTQnlaNmVXOXBhQXVqMlVlc3hnTXNvWGZJSFNSck04OWp3dVNrSkJCb016OGxXUU9hWTk2UEJ3WTczSjRwZjEzb0ZlcWxqYW5YMmJIYWlTMld2Tm9xXzBjMGdUM0ladGxW0gGcAUFVX3lxTE9UT1pHVkg5aDEwc20xazZsMWh5anROQmF5NmFtSmRyRXBSZm00cThJbVRqTFVCQW50aG40WVd0QV9NY2pxZjJOZU1tSzlib3BCckdZcnVUalVwR3daTUkxcFI4dWVRd2thTEtpYTU2T0ZDd3BPMER1STBLeTViZ1lGVGtIeE03MTdoU1AyR2NmeXdGRzQ5dUxnemFvYg?oc=5",
+   "at": "2026-11-16",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['plan', 'current', 'poll', 'your']"
   }
  ]
 }
