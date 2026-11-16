@@ -1,18 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.almasryalyoum.com/news/details/4401422",
-   "t": "رسميًا.. الإعلان عن زيادة جديدة في أسعار السجائر والتبغ (القائمة الكاملة)",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7168088",
    "t": "كيف تكتشف الكاميرات المخفية في غرف الفنادق باستخدام هاتفك؟.. 3 طرق بسيطة لحمايتك أثناء السفر",
    "title": "كيف تكتشف الكاميرات المخفية في غرف الفنادق بهاتفك؟.. 3 طرق",
@@ -3382,6 +3370,16 @@
    "url": "https://www.egyptaway.com/2026/11/zamalek-club-promotes-7-youth-players.html",
    "photo": "https://images.pexels.com/photos/3148452/pexels-photo-3148452.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
    "at": "2026-11-16T06:01:41.350387+02:00",
+   "ok": true,
+   "type": "trends"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/15/%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%B3%D9%8A%D8%AF-%D9%8A%D8%AE%D9%88%D8%B6-%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D8%A3%D9%87%D9%8A%D9%84-%D9%81%D9%89-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83/7619623",
+   "t": "محمد السيد يخوض المرحلة الأخيرة من التأهيل فى الزمالك",
+   "title": "أخبار الزمالك: تفاصيل البرنامج التأهيلي لمحمد السيد",
+   "url": "https://www.egyptaway.com/2026/11/zamalek-news-mohamed-el-sayed.html",
+   "photo": "https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1200&amp;h=675&amp;fit=crop",
+   "at": "2026-11-16T06:21:57.507037+02:00",
    "ok": true,
    "type": "trends"
   }
