@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة شاملة هاتف Xiaomi Redmi M100 Pro: مواصفات عملاق الفئة",
-   "cand_title": "Xiaomi Redmi M100 Pro",
-   "url": "https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php",
-   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-redmi-m100-pro-review.html",
-   "at": "2026-11-09T05:16:23+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "شاومي"
-  },
-  {
    "title": "هل تخذل أبل عشاقها في آيفون 20 برو؟ صدمة مرتقبة بالتصميم",
    "cand_title": "iPhone 20 Pro leak casts doubt on Apple's all-glass design ambitions - Báo VietNamNet",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOWs3dl9xbzhQRzVDNXJMdVZwMHFDb1ZFU3dXMllpN1BNaERlSFluemVfSVpEbGFNMzBmOFVZYWFSa0JzLW8tMm1JRWhVckttUnpoWm1Ua3VZTGtNdTZLaU95a2RzOWIyMFlsajNVRENnQUw2bGtDbWpHTGlWMWtYNGp5VHpTdnd3X2RZRmlGMDRWWEJyNzVxaXlIbjRiM0Nqb05lR3ZzZDFiQQ?oc=5",
@@ -3243,6 +3233,13 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Phone 'a7 pro' already covered in: مراجعة Oppo A7 Pro: المواصفات الشاملة، السعر، المميزات والعيوب"
+  },
+  {
+   "title": "New leak offers a first look at the iPhone 20 Pro's front glass",
+   "url": "https://www.gsmarena.com/new_leak_offers_a_first_look_at_the_iphone_20_pros_front_glass-news-75503.php",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'iphone 20 pro' already covered in: تسريب iPhone 20 Pro: هل نودع الحواف التقليدية في ذكرى أبل العشرين؟"
   }
  ]
 }
