@@ -118,6 +118,42 @@
       "has_real_img": true,
       "at": "2026-11-17T04:11:18.179571+02:00",
       "ok": true
+    },
+    {
+      "title": "Motorola Signature 27 vs iPhone 18 Pro: When the iPhone is Cheaper",
+      "orig_link": "https://www.gizmochina.com/2026/11/15/motorola-signature-27-vs-iphone-18-pro-when-the-iphone-is-cheaper/",
+      "at": "2026-11-17T04:41:10.704697+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (motorola-signature-27-vs-iphone-18-pro-max): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
+    },
+    {
+      "title": "iPad Mini 8 vs Xiaomi Pad 7 Pro: Which Tablet Is Worth Buying?",
+      "orig_link": "https://www.gizmochina.com/2026/11/16/ipad-mini-8-vs-xiaomi-pad-7-pro/",
+      "at": "2026-11-17T04:41:10.704697+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (ipad-mini-8-vs-xiaomi-pad-7-pro-comparison): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
+    },
+    {
+      "title": "مقارنة Redmi Band 4 و Huawei Band 11: أيهما الأفضل لك؟",
+      "orig_link": "https://www.gizmochina.com/2026/11/16/redmi-band-4-vs-huawei-band-11/",
+      "post_url": "https://www.egyptaway.com/2026/11/redmi-band-4-vs-huawei-band-11.html",
+      "brand": "Xiaomi",
+      "has_real_img": true,
+      "at": "2026-11-17T04:41:10.704697+02:00",
+      "ok": true
+    },
+    {
+      "title": "رسمياً: شاومي تطلق 18 Pro و 18 Pro Max عالمياً بشاشة خلفية",
+      "orig_link": "https://www.gsmarena.com/watch_xiaomis_global_launch_event_for_the_xiaomi_18_pro_and_xiaomi_18_pro_max_here-news-75494.php",
+      "post_url": "https://www.egyptaway.com/2026/11/xiaomi-18-pro-global-launch-details.html",
+      "brand": "Xiaomi",
+      "has_real_img": true,
+      "at": "2026-11-17T04:41:10.704697+02:00",
+      "ok": true
     }
   ]
 }
