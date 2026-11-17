@@ -328,7 +328,6 @@ def gemini(prompt):
             continue
     # every model is down or out of quota: don't crash the job (and email Mohsen); callers see an empty draft that
     # fails the checks, and their loops stop on _DOWN so the next scheduled run simply tries again
-    global _DOWN
     _DOWN = True
     print("Gemini unavailable right now - skipping, the next run will try again")
     return {"title": "", "slug": "", "desc": "", "body": "", "kicker": "", "headline": "", "faq": []}
