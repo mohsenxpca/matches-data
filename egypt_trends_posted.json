@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://estasinformado.com.ar/murio-ezekiel-williams-futbolista-ingles-de-26-anos-diez-dias-despues-de-su-primer-gol-con-el-hendon/",
-   "t": "Murió Ezekiel Williams, futbolista inglés de 26 años, diez días después de su primer gol con el Hendon",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'وفاه', 'لاعب'}) مع تشابه نصي مع: تفاصيل وفاة اللاعب خيسوس دي ميغيل الصادمة في الملاعب)"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/5/آبل-تعيد-تصميم-تطبيق-الصحة-فى-iOS-27-3-وبرامج/7605880",
    "t": "آبل تعيد تصميم تطبيق الصحة فى iOS 27.3.. وبرامج تمارين تناسب كل مستخدم",
    "at": "2026-11-05",
@@ -3376,6 +3366,16 @@
    "url": "https://www.egyptaway.com/2026/11/mostafa-hamed-rejects-pyramids-offer.html",
    "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2025/12/large/85542721595720251225011602162.jpg&w=1200&output=webp&q=80",
    "at": "2026-11-17T13:39:26.255288+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/17/بدون-كمبيوتر-كيف-اخترق-شاب-بريطاني-لعبة-GTA-6-باستخدام/7621809",
+   "t": "بدون كمبيوتر.. كيف اخترق شاب بريطاني لعبة GTA 6 باستخدام تليفزيون فندق؟",
+   "title": "كيف اخترق شاب بريطاني لعبة GTA 6 بتليفزيون فندق؟",
+   "url": "https://www.egyptaway.com/2026/11/british-hacker-gta6-hotel-tv.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/20261117112202222_181.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-17T14:12:25.856979+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
