@@ -45,7 +45,17 @@ def proxy_for(url):
     og = re.search(r"""<meta[^>]+property=['"]og:image['"][^>]+content=['"]([^'"]+)""", r.text) or \
         re.search(r"""<meta[^>]+content=['"]([^'"]+)['"][^>]+property=['"]og:image""", r.text)
     m = PROXY.search(og.group(1) if og else "")
-    return m.group(1) + "=s1600" if m else None
+    if not m:
+        return None
+    proxy_url = m.group(1) + "=s1600"
+    try:
+        chk = requests.get(proxy_url, headers=f.HEAD, timeout=10)
+        if chk.status_code != 200 or len(chk.content) < 1000:
+            print("  proxy image returned", chk.status_code, "skipping:", url)
+            return None
+    except Exception:
+        return None
+    return proxy_url
 
 
 def main():

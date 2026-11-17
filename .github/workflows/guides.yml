@@ -52,7 +52,7 @@ jobs:
         run: |
           git config user.name "egyptaway"
           git config user.email "122121051+mohsenxpca@users.noreply.github.com"
-          git add guides_posted.json img/
+          git add guides_posted.json img/ img_hashes_cache.json
           git commit -m "chore(misc): record daily misc guide publication" || true
           git pull --rebase origin main || true
           git push origin main || true

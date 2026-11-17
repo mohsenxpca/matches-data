@@ -36,8 +36,8 @@ jobs:
         run: |
           git config user.name "matches-bot"
           git config user.email "matches-bot@users.noreply.github.com"
-          git add data.json
-          [ -f team_push_state.json ] && git add team_push_state.json
+          git add data.json img_hashes_cache.json
+          [ -f team_push_state.json ] && git add team_push_state.json img_hashes_cache.json
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "live $(TZ=Africa/Cairo date +%F_%H:%M)"
           for i in 1 2 3 4 5; do

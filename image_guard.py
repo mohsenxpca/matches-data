@@ -58,7 +58,7 @@ BANNED_IMG_PATTERNS = [
 ]
 
 MOSQUE_PHOTO_IDS = {"3290075", "161275", "218480", "1537086"}
-BANNED_PHOTO_IDS = {"3290075", "161275", "218480", "1537086", "518543", "1029141", "730547"}
+BANNED_PHOTO_IDS = {"3290075", "161275", "218480", "1537086", "518543", "1029141", "730547", "47344", "159393"}
 
 # Helper to build full Pexels 1200x675 URL
 def _pex(pid):
@@ -90,10 +90,11 @@ POOLS = {
         _pex(323780), _pex(280222), _pex(1438832), _pex(1396122), _pex(1396132),
         _pex(259588), _pex(276724), _pex(276554), _pex(276514), _pex(276583)
     ],
-    # Money, banking, salaries, calculators, gold (strictly no crypto/bitcoin)
+    # Money, banking, salaries, calculators, gold (strictly no crypto/bitcoin, 100% HTTP 200)
     "money": [
         _pex(4386431), _pex(4386321), _pex(4386370), _pex(4386442), _pex(4968630),
-        _pex(259200), _pex(164527), _pex(47344), _pex(534216), _pex(210600)
+        _pex(259200), _pex(164527), _pex(534216), _pex(210600), _pex(4386467),
+        _pex(4386158), _pex(4386366), _pex(4968391)
     ],
     # Fencing action photos (authentic duels)
     "fencing": [
@@ -111,11 +112,11 @@ POOLS = {
     "weather": [
         _pex(1118873), _pex(125457), _pex(209831), _pex(531756), _pex(1431822), _pex(2448749)
     ],
-    # Gaming & consoles (expanded 18 verified gaming photos)
+    # Gaming & consoles (expanded verified 200-OK gaming photos)
     "gaming": [
         _pex(3945683), _pex(3945659), _pex(1174746), _pex(3165335), _pex(442576), _pex(7915357),
         _pex(7915437), _pex(7915286), _pex(7915264), _pex(7915495), _pex(7862657), _pex(7862509),
-        _pex(9072316), _pex(9072219), _pex(9071735), _pex(7773867), _pex(159393), _pex(275033)
+        _pex(9072316), _pex(9072219), _pex(9071735), _pex(7773867), _pex(275033)
     ],
     # General clean editorial fallback (STRICTLY NO BOOKS, NO RELIGIOUS ICONS, NO WINDMILLS)
     "general": [
@@ -492,15 +493,20 @@ def get_guaranteed_image(candidate_url, title, category_pool=None, recent_images
         if site in _LIVE_FEED_CACHE:
             _LIVE_FEED_CACHE[site]["ids"].add(base_pid)
 
-    # 4. Brand and save a unique 1200x675 card with the article's Arabic title so it NEVER repeats!
-    if site == "egyptaway" and Image and title:
-        card_slug = slug or ("ea-" + hashlib.md5(title.encode("utf-8")).hexdigest()[:12])
-        card_slug = re.sub(r"[^a-zA-Z0-9_\-]", "-", card_slug).strip("-")
-        if not card_slug.startswith("ea-"):
-            card_slug = "ea-" + card_slug
-        cdn_url, _, _ = brand_and_save_photo(chosen_base, card_slug, category=detected, title=title)
-        if cdn_url:
-            return cdn_url
+    # 4. Ensure chosen_base is a live, immediately-reachable HTTP 200 image URL (never return unpushed raw.githubusercontent.com paths!)
+    if chosen_base and "play-lh.googleusercontent.com" in chosen_base and "wsrv.nl" not in chosen_base:
+        chosen_base = f"https://wsrv.nl/?url={urllib.parse.quote(chosen_base, safe='')}&w=1200&h=675&fit=cover&output=webp&q=85"
+
+    try:
+        chk = requests.head(chosen_base, headers=HEADERS, timeout=5, allow_redirects=True)
+        if chk.status_code != 200:
+            topic_pool = POOLS.get(detected, POOLS["general"])
+            for p_url in topic_pool:
+                if extract_photo_id(p_url) not in BANNED_PHOTO_IDS:
+                    chosen_base = p_url
+                    break
+    except Exception:
+        pass
 
     return chosen_base
 

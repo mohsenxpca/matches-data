@@ -38,7 +38,7 @@ jobs:
           git init -q && git checkout -q -b live
           git config user.name "matches-bot"
           git config user.email "matches-bot@users.noreply.github.com"
-          git add live.json
+          git add live.json img_hashes_cache.json
           git commit -qm "live $(date -u +%H:%M)"
           for i in 1 2 3 4 5; do
             git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" live && exit 0 || sleep 3

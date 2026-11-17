@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "matches-bot"
           git config user.email "matches-bot@users.noreply.github.com"
-          git add phones.json auto_phones.json pages.json history
+          git add phones.json auto_phones.json pages.json history img_hashes_cache.json
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "prices $(TZ=Africa/Cairo date +%F)"
           for i in 1 2 3 4 5; do

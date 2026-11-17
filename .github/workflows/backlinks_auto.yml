@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add backlinks_state.json 2>/dev/null || true
+          git add backlinks_state.json img_hashes_cache.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes to commit"; exit 0; fi
           git commit -m "chore(seo): update autonomous backlinks state [skip ci]"
           for i in 1 2 3 4 5; do

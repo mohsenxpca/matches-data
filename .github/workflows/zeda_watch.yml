@@ -42,7 +42,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "Zeda Watch Bot"
           if [ -f zeda_stock.json ]; then
-            git add zeda_stock.json || true
+            git add zeda_stock.json || true img_hashes_cache.json
             git commit -m "zeda stock state [skip ci]" || true
             for i in 1 2 3 4 5; do
               git pull --rebase origin main && git push origin main && break || sleep 3

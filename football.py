@@ -1249,7 +1249,51 @@ def with_desc(html_out, art):
     theme block <!-- ea meta description --> copies it into the page's meta description."""
     enriched = _enrich_seo_html(html_out, art)
     d = (art.get("desc") or "").strip()
-    return enriched + (f'<span class="ea-desc" hidden>{html.escape(d)}</span>' if d else "")
+    hide_byline = "<style>.ea-byline{display:none!important}</style>" if "rv-wrap" not in enriched else ""
+    return hide_byline + enriched + (f'<span class="ea-desc" hidden>{html.escape(d)}</span>' if d else "")
+
+
+def _instant_thumbfix(tok, post_info):
+    """Immediately swaps the new post's first image to Google's blogger_img_proxy after verifying HTTP 200,
+    so the homepage card and Blogger admin list get a real media$thumbnail at publish time."""
+    try:
+        url = post_info.get("url", "")
+        pid = post_info.get("id", "")
+        content = post_info.get("content", "")
+        if not url or not pid or not content:
+            return post_info
+        m_img = re.search(r'(?is)(<img\b[^>]*?\bsrc=)(["\'])([^"\']+)(\2)', content)
+        if not m_img or re.search(r'(?i)googleusercontent\.com|blogspot\.com|ggpht\.com', m_img.group(3)):
+            return post_info
+        time.sleep(1.5)
+        host, path = re.match(r"https?://([^/]+)(/.*)?$", url).groups()
+        tr_url = "https://" + host.replace("-", "--").replace(".", "-") + ".translate.goog" + (path or "/") + "?_x_tr_sl=ar&_x_tr_tl=en&_x_tr_hl=en"
+        r = None
+        for u in (url, tr_url):
+            try:
+                r = requests.get(u, headers=HEAD, timeout=15)
+                if r.status_code == 200:
+                    break
+            except Exception:
+                continue
+        if not r or r.status_code != 200:
+            return post_info
+        og = re.search(r"""<meta[^>]+property=['"]og:image['"][^>]+content=['"]([^'"]+)""", r.text) or \
+             re.search(r"""<meta[^>]+content=['"]([^'"]+)['"][^>]+property=['"]og:image""", r.text)
+        pm = re.search(r"(https://lh3\.googleusercontent\.com/blogger_img_proxy/[A-Za-z0-9_\-]+)", og.group(1) if og else "")
+        if not pm:
+            return post_info
+        proxy_url = pm.group(1) + "=s1600"
+        chk = requests.get(proxy_url, headers=HEAD, timeout=10)
+        if chk.status_code != 200 or len(chk.content) < 1000:
+            return post_info
+        orig_src = m_img.group(3)
+        new_attr = f'{proxy_url}{m_img.group(4)} data-orig-src={m_img.group(2)}{orig_src}'
+        new_html = content[:m_img.start(3)] + new_attr + content[m_img.end(3):]
+        return api("PATCH", f"/blogs/{BLOG}/posts/{pid}", tok, None, {"content": new_html})
+    except Exception as e:
+        print("  [_instant_thumbfix warning]:", e)
+        return post_info
 
 
 def site_labels(art, html_out, labels):
@@ -1267,7 +1311,8 @@ def publish_live(tok, art, html_out, labels):
             {"kind": "blogger#post", "title": art["slug"].replace("-", " "), "content": with_desc(html_out, art), "labels": list(dict.fromkeys(labels))})
     api("POST", f"/blogs/{BLOG}/posts/{d['id']}/publish", tok, {"publishDate": now.isoformat()})
     api("PATCH", f"/blogs/{BLOG}/posts/{d['id']}", tok, None, {"title": art["title"]})
-    return api("GET", f"/blogs/{BLOG}/posts/{d['id']}", tok, {"view": "ADMIN"})
+    post_info = api("GET", f"/blogs/{BLOG}/posts/{d['id']}", tok, {"view": "ADMIN"})
+    return _instant_thumbfix(tok, post_info)
 
 
 def schedule(tok, art, html_out, labels, when):

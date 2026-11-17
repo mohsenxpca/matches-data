@@ -53,7 +53,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "Watchdog Bot"
           if [ -f watchdog_state.json ]; then
-            git add watchdog_state.json || true
+            git add watchdog_state.json || true img_hashes_cache.json
             git commit -m "Update watchdog state [skip ci]" || true
             for i in 1 2 3 4 5; do
               git pull --rebase origin main && git push origin main && break || sleep 3

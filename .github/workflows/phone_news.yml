@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name "phone-news-bot"
           git config user.email "phone-news-bot@users.noreply.github.com"
-          git add phone_news_posted.json img/ 2>/dev/null || true
+          git add phone_news_posted.json img/ img_hashes_cache.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "phone news update $(TZ=Africa/Cairo date +%F_%H:%M)"
           for i in 1 2 3 4 5; do

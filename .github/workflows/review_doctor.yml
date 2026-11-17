@@ -52,7 +52,7 @@ jobs:
           git config user.name "review-doctor-bot"
           git config user.email "review-doctor-bot@users.noreply.github.com"
           if [ -f "review_doctor_report.json" ]; then
-            git add review_doctor_report.json
+            git add review_doctor_report.json img_hashes_cache.json
             git commit -m "chore(doctor): update review doctor report $(date -u +'%Y-%m-%d_%H:%M')" || echo "No changes to commit"
             git push origin main || echo "Push skipped or up to date"
           fi
