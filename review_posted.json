@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Exclusive: Here’s what Samsung’s Galaxy AI Premium plan brings and what remains free",
-   "url": "https://www.sammobile.com/news/galaxy-ai-premium-plan-features-list-what-remains-free/",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['free', 'galaxy', 'premium']"
-  },
-  {
    "title": "Here’s what the new Galaxy S24 update brings",
    "url": "https://www.sammobile.com/news/heres-what-the-new-galaxy-s24-update-brings/",
    "at": "2026-11-10",
@@ -3222,6 +3215,16 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "جوجل تختبر ميزة Android Fast Switch لاستخدام رقم هاتف واحد على",
+   "cand_title": "Google is testing a way to use one phone number on two phones - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6ellrbVNfXzZNZHp5SGJHeWFfMlhfazdjVnRTQnltdE5DTmpoYXY5djVlbEsxN0JSUEtrSEVucXlFRFBGQ3ZrYWFJV3g2S3lmQjhSbTJHX3RYbmlmcmE4SGVFa21qS0ttT2FCZDQ5eFhveEpt?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/google-testing-android-fast-switch.html",
+   "at": "2026-11-18T00:57:16+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
