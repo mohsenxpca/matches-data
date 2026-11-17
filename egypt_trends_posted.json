@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7168190",
-   "t": "ببطارية ضخمة وشحن سريع.. لينوفو تكشف عن جهاز لوحي جديد يعمل لأكثر من 20 ساعة",
-   "title": "لينوفو تطلق تابلت جديد ببطارية ضخمة تعمل لأكثر من 20 ساعة",
-   "url": "https://www.egyptaway.com/2026/11/lenovo-new-tablet-battery-life.html",
-   "at": "2026-11-05T04:26:35.383608+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://www.elbalad.news/7168689",
    "t": "يوسف بطرس غالي يرد على الجدل بشأن قيمة المعاشات: الأرقام الرسمية وحدها تحسم التفاصيل",
    "at": "2026-11-05",
@@ -3376,6 +3367,16 @@
    "url": "https://www.egyptaway.com/2026/11/egypt-stock-market-red-session.html",
    "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202006170526132613.jpg&w=1200&output=webp&q=80",
    "at": "2026-11-17T18:43:22.558482+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/17/3080242/%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%8A%D8%B9%D9%84%D9%86-%D8%B9%D9%86-%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1%D8%A7%D8%AA-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%81%D9%8A-%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D8%B1%D9%81%D9%8A%D9%86",
+   "t": "الاتحاد المصري يعلن عن تغييرات جديدة في مواعيد مباريات دوري المحترفين",
+   "title": "تعديلات جديدة في مواعيد مباريات دوري المحترفين وكأس مصر",
+   "url": "https://www.egyptaway.com/2026/11/efa-changes-pro-league-schedule.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.gemini.media/img/large/2026/11/17/2026_11_17_18_18_50_956.webp&w=1200&output=webp&q=80",
+   "at": "2026-11-17T19:00:24.808981+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
