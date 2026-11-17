@@ -976,7 +976,15 @@ def clean_and_validate_meta(art, topic):
     if "2026" not in title:
         title += " 2026"
     if len(title) > 70:
-        title = title[:67].rstrip() + "..."
+        base = title.replace("2026", "").strip(" -–:،")
+        words = base.split()
+        trimmed = []
+        for w in words:
+            if len(" ".join(trimmed + [w]) + " 2026") <= 68:
+                trimmed.append(w)
+            else:
+                break
+        title = " ".join(trimmed) + " 2026"
     art["title"] = title
 
     raw_slug = (art.get("slug") or topic["slug"]).strip().lower()
@@ -1103,10 +1111,14 @@ def main():
         for cand in candidates:
             if cand["id"] in state_done_ids:
                 continue
-            is_dup, reason = f.is_semantic_duplicate(cand["title_hint"], existing_titles, cand["slug"], existing_slugs)
-            if not is_dup:
-                selected_topic = cand
-                break
+            cand_slug_base = cand["slug"].replace("-2026", "")
+            if any(cand_slug_base == ex_s.replace("-2026", "") for ex_s in existing_slugs if ex_s):
+                continue
+            norm_hint = f.norm(cand["title_hint"])
+            if any(difflib.SequenceMatcher(None, norm_hint, f.norm(ex)).ratio() >= 0.70 for ex in existing_titles):
+                continue
+            selected_topic = cand
+            break
 
     if not selected_topic:
         print("All curated bank topics for this section are covered! Generating fresh dynamic topic via Gemini...")

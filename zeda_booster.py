@@ -370,7 +370,10 @@ def assemble_booster_html(art, game, internal_links):
     body = art.get("body", "")
     photos = pick_photos(art["title"])
 
-    img0 = f"""<div class="separator" style="clear: both; text-align: center; margin: 20px 0;"><img border="0" width="1000" height="563" src="{photos[0][0]}" alt="{html.escape(photos[0][1])}" title="{html.escape(photos[0][1])}" style="max-width: 100%; height: auto; border-radius: 8px;" /></div>"""
+    lead_url = photos[0][0]
+    if getattr(f, "image_guard", None):
+        lead_url = f.image_guard.get_guaranteed_image(None, art.get("title", ""), category_pool=[photos[0][0]], site="egyptaway", slug=art.get("slug", "zeda-topup"))
+    img0 = f"""<div class="separator" style="clear: both; text-align: center; margin: 20px 0;"><img border="0" width="1200" height="675" src="{lead_url}" alt="{html.escape(photos[0][1])}" title="{html.escape(photos[0][1])}" style="max-width: 100%; height: auto; border-radius: 8px;" /></div>"""
     img1 = f"""<div class="separator" style="clear: both; text-align: center; margin: 20px 0;"><img border="0" width="1000" height="563" loading="lazy" src="{photos[1][0]}" alt="{html.escape(photos[1][1])}" title="{html.escape(photos[1][1])}" style="max-width: 100%; height: auto; border-radius: 8px;" /></div>"""
     img2 = f"""<div class="separator" style="clear: both; text-align: center; margin: 20px 0;"><img border="0" width="1000" height="563" loading="lazy" src="{photos[2][0]}" alt="{html.escape(photos[2][1])}" title="{html.escape(photos[2][1])}" style="max-width: 100%; height: auto; border-radius: 8px;" /></div>"""
 
@@ -442,7 +445,22 @@ def main():
     except Exception:
         state = {"done": []}
 
-    done_keys = {d.get("key") for d in state.get("done", []) if d.get("ok")}
+    done_entries = [d for d in state.get("done", []) if d.get("ok")]
+    if done_entries and not is_dry and not args.game:
+        last_ts = done_entries[-1].get("timestamp")
+        if last_ts:
+            try:
+                last_dt = datetime.datetime.fromisoformat(last_ts)
+                if last_dt.tzinfo is None:
+                    last_dt = last_dt.replace(tzinfo=CAIRO)
+                diff_h = (now_cairo - last_dt.astimezone(CAIRO)).total_seconds() / 3600
+                if diff_h < 6.0:
+                    print(f"Zeda Booster cooldown active: last post published {diff_h:.1f}h ago (min 6h). Skipping.")
+                    return
+            except Exception:
+                pass
+
+    done_keys = {d.get("key") for d in done_entries}
 
     # Select target game
     selected_game = None
@@ -494,8 +512,18 @@ def main():
         cur_n = selected_game["currency"]
         facts_lines = [ln.strip("- ").strip() for ln in selected_game["facts"].splitlines() if ln.strip() and not ln.strip().endswith(":")]
         li_facts = "".join(f"<li style='margin-bottom:8px;'>{html.escape(ln)}</li>" for ln in facts_lines)
+        raw_t = selected_game["title_hint"]
+        if len(raw_t) > 70:
+            base_t = raw_t.replace("2026", "").strip(" -–:،")
+            t_words = []
+            for w in base_t.split():
+                if len(" ".join(t_words + [w]) + " 2026") <= 68:
+                    t_words.append(w)
+                else:
+                    break
+            raw_t = " ".join(t_words) + " 2026"
         art = {
-            "title": selected_game["title_hint"][:68],
+            "title": raw_t,
             "slug": selected_game["slug"],
             "desc": f"دليل شحن {cur_n} في لعبة {ar_n} ({en_n}) بالـ ID في مصر 2026 عبر فودافون كاش وإنستاباي بأرخص الأسعار الرسمية.",
             "body": (
