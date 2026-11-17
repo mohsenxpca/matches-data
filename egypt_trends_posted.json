@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7168689",
-   "t": "يوسف بطرس غالي يرد على الجدل بشأن قيمة المعاشات: الأرقام الرسمية وحدها تحسم التفاصيل",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الـ body 454 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'يوضح', 'حقيقه'}) مع تشابه نصي مع: حسين لبيب يوضح حقيقة بيع أصول الزمالك في جلسة هامة)"
-   ]
-  },
-  {
    "u": "https://www.wacountry.health.wa.gov.au/News/2026/11/03/HEALTH-ALERT-Protect-yourself-against-extreme-heat",
    "t": "HEALTH ALERT: Protect yourself against extreme heat",
    "at": "2026-11-05",
@@ -3379,6 +3369,16 @@
    "at": "2026-11-17T19:00:24.808981+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMinwNBVV95cUxPdF9wYkhRUTZ3emxFZ3lXUmQzVlBnYlhDSUhGbW12c2t4RGJPc3dHajVXUjcteU9laWZOcGM0SDVzWHdjbnJyc0J4M0dmNzBVcVFURm1nZ3Zhb0Y4TGs1MW1idG9pMHpDVXFqWTZIb1Z0SXprS0ZoamFVVDhsQWNFTVhoU2hxazBBYVdCZmJQSEgtcWEyX0QySXdtUTRuU2wyWU53SXhmc2gyTFhHRkIzUVJ5RTBxaXZTNFRuQ284NnRLUE1mZjRVaER1Q2VjWmNtZ2tWaTJIVkJlVUFRdWhDa0UyY2t1NndWYk4xMElvRldkY01aX25wTTZwTE9iM1BYbnAyeFQ3bWQwT3lIV25oQjdPWm5VdnNnU2VXOWhuenFTeGUzdzVDNFB5dm1MdXlXUWhZUzk1M2d4NjJUQkx3ZEZoZHkwZVI2MU1jTXNWejlxVkt3VTUtQTZpMmZQTUFLWW42RkhYUWZKWHJaQ05TUTNjd05mYjhIVGIwSUVuV3BtQjBEYTNsTWtXRUtWUl9QcF9TTFFkOEZnbHd3VGVZ0gGfA0FVX3lxTE90X3BiSFFRNnd6bEVneVdSZDNWUGdiWENJSEZtbXZza3hEYk9zd0dqNVdSNy15T2VpZk5wYzRINXNYd2NucnJzQngzR2Y3MFVxUVRGbWdndmFvRjhMazUxbWJ0b2kwekNVcWpZNkhvVnRJemtLRmhqYVVUOGxBY0VNWGhTaHFrMEFhV0JmYlBISC1xYTJfRDJJd21RNG5TbDJZTndJeGZzaDJMWEdGQjNRUnlFMHFpdlM0VG5Dbzg2dEtQTWZmNFVoRHVDZWNaY21na1ZpMkhWQmVVQVF1aENrRTJja3U2d1ZiTjEwSW9GV2RjTVpfbnBNNnBMT2IzUFhucDJ4VDdtZDBPeUhXbmhCN09ablV2c2dTZVc5aG56cVN4ZTN3NUM0UHl2bUx1eVdRaFlTOTUzZ3g2MlRCTHdkRmhkeTBlUjYxTWNNc1Z6OXFWS3dVNS1BNmkyZlBNQUtZbjZGSFhRZkpYclpDTlNRM2N3TmZiOEhUYjBJRW5XcG1CMERhM2xNa1dFS1ZSX1BwX1NMUWQ4Rmdsd3dUZVk?oc=5",
+   "t": "قطار تالجو.. مواعيد الرحلات على خطوط السكة الحديد - اليوم السابع",
+   "title": "مواعيد قطارات تالجو الجديدة: جدول الرحلات ومحطات الوقوف",
+   "url": "https://www.egyptaway.com/2026/11/talgo-train-schedules-egypt.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/large/202212221033563356.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-17T19:20:45.309275+02:00",
+   "ok": true,
+   "type": "public_query"
   }
  ]
 }
