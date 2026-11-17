@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 might actually arrive this year, 3C reveals the charging capabilities - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM2M5bXZydkFBd0s5cmVJVThKTUJwSlJ0aVRwa3JCdHU2YmhRWGtETzBnUjg3M0lxWGcycl9Wck4tbFE2T2I3OXJHdDVHMUxudFM3VlJXbEtxb05zN19BS0JPUHdvQ3pldzdxX1VuRjAwUWFxZlh1WVM0dERqTFI4V1g3RDNSOFh4dGJrWGFmV2R2YlpoLWlYQ0RJTGp4WDJNQ3NyZ29JRlYycDBDeV9LcjVIWUowVU96NFHSAbYBQVVfeXFMUGhrSUUxRzV6c0sxZ3ZHZXBEVGwtX3FuYk5PVUZCUGFVc1VNblR3VEtQQzk2X19kRHJJdTVKdDMtRFZjMUhiMmVZeXQ5NzljWllMQXByOENHbkM5eFBQa29CZlJ2TjZmQThXNzJTUGJueHlyMnZWMk5oanpfTWhrUlVtaW9uaHA1TmtDRkxvVFRYdlA3RVR3RTllMkY0YXVaNU1LbUNBWTdieWxoY0I3dGJidm9ieVE?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['charging', 'reveals', 'might', 'year']"
-  },
-  {
    "title": "WhatsApp is testing a feature that lets you control who sees your phone number - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQanEyNWduUmNlUW9pcENoZnBhZVpVMzZ3aGZOVG1sUUhVYmI3dVdXbkdBaWxCOEJ5ZTNZdHVxQXBrcmpQRWZqUWtUMUNlRHA5Tm5TM0VnU253SlJoTEI3YzZzZ28zZk5CLXFLY0plOXpTRmg4YmJmdmtuNGJobEd3ZDJYLVZLOE9jbzBxWUd2VVQ3aFHSAY8BQVVfeXFMUHlfQzJXOEc0c2cwQURWU0ZFSkNJT2Y2dDMzaHZEUGt0UlYzTklFWldYRE92WGZJV2c5bkkxZy1wMlMwR0VGRUxMcEhyWktmVzNGWl9BTWQtSUc0a2VzdGNUSnhOMkYxUWpHazR5VmNSVlY1UEtGUHhBR2N0V3VrZ1prTkUxWGZrOVIwSm1qYWs?oc=5",
    "at": "2026-11-09",
@@ -3241,6 +3234,13 @@
    "reason": [
     "طول المقال قصير (615 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "Huawei OSTA O1 Pro pre-orders begin, wide-screen design, color options, memory configs revealed",
+   "url": "https://www.gizmochina.com/2026/11/17/huawei-osta-o1-pro-pre-order-vmall-three-colors/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
   }
  ]
 }
