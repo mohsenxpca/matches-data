@@ -235,6 +235,33 @@
       "has_real_img": true,
       "at": "2026-11-17T11:26:06.986548+02:00",
       "ok": true
+    },
+    {
+      "title": "Samsung may offer Galaxy S27 at lowest prices in this country",
+      "orig_link": "https://www.sammobile.com/news/samsung-may-offer-galaxy-s27-lowest-prices-south-korea/",
+      "at": "2026-11-17T12:26:05.414291+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (374 كلمة، والمطلوب 420+ كلمة)"
+      ]
+    },
+    {
+      "title": "مراجعة فيفو V80 رسمياً: هاتف متوسط بتصميم فاخر وبطارية ضخمة",
+      "orig_link": "https://www.gizmochina.com/2026/11/17/vivo-v80-hands-on-review-a-mid-ranger-with-a-premium-feel%ef%bf%bc/",
+      "post_url": "https://www.egyptaway.com/2026/11/vivo-v80-hands-on-review.html",
+      "brand": "Vivo",
+      "has_real_img": true,
+      "at": "2026-11-17T12:26:05.414291+02:00",
+      "ok": true
+    },
+    {
+      "title": "XPPen Magic Pro 13 Review: A Portable Drawing Tablet That Can Also Be Your Desktop Canvas",
+      "orig_link": "https://www.gizmochina.com/2026/11/17/xppen-magic-pro-13-review-a-portable-drawing-tablet-that-can-also-be-your-desktop-canvas/",
+      "at": "2026-11-17T12:26:05.414291+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (374 كلمة، والمطلوب 420+ كلمة)"
+      ]
     }
   ]
 }
