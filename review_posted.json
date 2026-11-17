@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Trump says he has held phone calls on ending the war in Ukraine - Українська правда",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOd2RFVFdIbWpNdUZNMG02bmVENUlkOWpHei1HVU1TaFBSa01ZQjVQZWROdTBJLUZ5RndFc2UyLTM1QXRJRXYySWFiS2FIc2NaSDNnZ2xnTXU5Qk1COEJzQThBRjTSAXBBVV95cUxORHZQMnM5WEhBWGRJWHg4LVBUVVo0SzUzZEg1eExvRnNkQ05zLWdnZ21IVzdVaU1mYU5Vd3k4Y3lvQTJ5VWRuOWduTDdtODE2eHRhTnd2Z2dJRWhqS3VmcWd5NExiTzZLc2wwbm9MZzNO?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['ukraine', 'calls', 'says', 'held']"
-  },
-  {
    "title": "Redmi M100 Pro vs Galaxy A27 5G: Same CPU Cores, Very Different Phones to Own - Memeburn",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CVUdTd3c1OWFUM1Utb0tta01VRXByWWsyZm91SmNmLUlHNW1LbTR6TnpsYVl2aDBRRFVkTXI4b1kwNjBmcFdNOWJpUFA2Njd6aXhvWDljeXFITWJxYURNV01Ncw?oc=5",
    "at": "2026-11-09",
@@ -3240,6 +3233,15 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
+  },
+  {
+   "title": "Next year’s iPhone Pro redesign gets new update via leaker - 9to5Mac",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbTQ1Sy1kZFlMMXpabzBZclplMk82alJJN0wxSnhEbGpYMnNJVjZKNVRCNGVnMkJmQWJpWktIVjQxeTdTSWhsZ1QyQ3hJVHJqN3RNNXVhcmpXdXMyVU1iVjRYUVJPNmtwakdFUjRCM28wRkZrZFkxcUNkTGNWRjAyQTd4V2xKRDNIN2lSSEhUczBiN3c?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (590 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
