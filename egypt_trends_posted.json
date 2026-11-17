@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/5/%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%8A%D9%81%D8%AA%D8%AD-%D8%B5%D9%81%D8%AD%D8%A9-%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1-%D8%A8%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%B3%D9%83%D8%A9-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AF-%D9%85%D9%88%D8%B9%D8%AF-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9/7604180",
-   "t": "الأهلي يفتح صفحة كأس مصر بمواجهة السكة الحديد.. موعد المباراة والقناة الناقلة",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7168190",
    "t": "ببطارية ضخمة وشحن سريع.. لينوفو تكشف عن جهاز لوحي جديد يعمل لأكثر من 20 ساعة",
    "title": "لينوفو تطلق تابلت جديد ببطارية ضخمة تعمل لأكثر من 20 ساعة",
@@ -3375,6 +3366,16 @@
    "url": "https://www.egyptaway.com/2026/11/meta-tests-direct-standalone-app.html",
    "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202611170337573757_181.jpg&w=1200&output=webp&q=80",
    "at": "2026-11-17T18:19:44.336918+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/17/الشاشة-كلها-باللون-الأحمر-16-قطاعًا-بالبورصة-تخسر-خلال-جلسة/7622592",
+   "t": "الشاشة كلها باللون الأحمر.. 16 قطاعًا بالبورصة تخسر خلال جلسة الثلاثاء",
+   "title": "البورصة المصرية تكتسي باللون الأحمر: خسائر جماعية لـ 16 قطاعاً",
+   "url": "https://www.egyptaway.com/2026/11/egypt-stock-market-red-session.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202006170526132613.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-17T18:43:22.558482+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
