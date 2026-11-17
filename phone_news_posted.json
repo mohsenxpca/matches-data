@@ -72,6 +72,34 @@
       "has_real_img": true,
       "at": "2026-11-17T03:11:18.082888+02:00",
       "ok": true
+    },
+    {
+      "title": "رفض دعوى رفض قضية التلاعب بأسعار شرائح الذاكرة ضد سامسونج",
+      "orig_link": "https://www.sammobile.com/news/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-samsung-and-two-other-memory-makers/",
+      "post_url": "https://www.egyptaway.com/2026/11/judge-denies-motion-to-dismiss-dram.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-17T03:41:06.250221+02:00",
+      "ok": true
+    },
+    {
+      "title": "Leaker is 100% sure this is the final Galaxy S27 Pro and Ultra camera design",
+      "orig_link": "https://www.sammobile.com/news/leaker-100-percent-sure-final-galaxy-s27-pro-and-ultra-camera-design/",
+      "at": "2026-11-17T03:41:06.250221+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (374 كلمة، والمطلوب 450+ كلمة)",
+        "العنوان مكرر أو قريب جداً من خبر منشور: تسريب تصميم كمرام هواتف سامسونج جلاكسي S27"
+      ]
+    },
+    {
+      "title": "رسمياً: سامسونج تصنع معالجات أقمار ستارلينك لشركة SpaceX",
+      "orig_link": "https://www.sammobile.com/news/samsung-electronics-to-make-chips-for-musks-spacex-in-texas/",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-chips-spacex-starlink-texas.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-17T03:41:06.250221+02:00",
+      "ok": true
     }
   ]
 }
