@@ -1,31 +1,6 @@
 {
  "done": [
   {
-   "title": "Unidentified Xiaomi phone with 100W charging clears 3C certification - Mezha.net",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONTA2R1lMVDNkOUlqTEV6Nkh6d2hCb1gwTFV3eGEwNkx2MFJ1QVRGQWlyQXZkOTVKYUl0VS1TdXRTaVNJYTF3eW9JdDFGZG1mM1BmQ3pCbUhfVi0tcGE1NldremV0MC0xeHFqelltLXFPUWRaNDFuS3FUTmxvTWZxWVpYSG9FVWVpYUhVRw?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (618 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "vivo X500 Pro Max review",
-   "url": "https://www.gsmarena.com/vivo_x500_pro_max-review-3009.php",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "Oppo Find X10 Pro Max review",
-   "url": "https://www.gsmarena.com/oppo_find_x10_pro_max-review-3008.php",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Model code [x10] with variants {'pro', 'max'} found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
    "title": "vivo X Fold6 review",
    "url": "https://www.gsmarena.com/vivo_x_fold6-review-3006.php",
    "at": "2026-11-09",
@@ -3238,6 +3213,30 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Model code [v80] with variants set() found in review: مراجعة شاملة لهاتف vivo V80 FE: مواصفات عملاق الفئة المتوسطة"
+  },
+  {
+   "title": "Sharp Aquos sense11 vs Oppo Reno17 Pro (China)",
+   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'reno17 pro' already covered in: مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،"
+  },
+  {
+   "title": "Oppo Reno17 (China) vs Xiaomi Redmi M100 Pro",
+   "url": "https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php||https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'm100 pro' already covered in: مراجعة شاملة هاتف Xiaomi Redmi M100 Pro: مواصفات عملاق الفئة"
+  },
+  {
+   "title": "ميزة Live Caption في أندرويد: كيف تحول أي فيديو إلى نص مكتوب فوراً؟",
+   "cand_title": "Android can subtitle almost anything playing on your phone, and it's useful in unexpected places - MakeUseOf",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwaDFvS2pSd0tkN2pvVTJFSE5rQVFjYzVOQU5CMmRybHV5aktfalhwXzZnci1qbEJQU3dpWGVZaUdtUU9iR2JQMTYwb2xqQVU3YWl4T2VhVlM0Vms1YTluaGppdUNqRTFwRWtzdjNDdVlXM3BTZmQ5bQ?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/android-live-caption-feature-guide.html",
+   "at": "2026-11-17T14:58:15+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
