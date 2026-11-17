@@ -1,202 +1,94 @@
-"""Autonomous In-Text Contextual Internal Linking Engine (mohsen 2026-11-02).
-Runs daily on GitHub Actions (and locally) to weave all site articles into a fully
-crawlable internal linking mesh for Google Search Console and SEO topical authority.
+# -*- coding: utf-8 -*-
+"""Autonomous Smart Contextual Interlinking Engine for GitHub Actions & Local Runs.
+Mohsen 2026 - Comprehensive Internal Linking & Anchor Text Architecture.
 
-Strict contextual anchor text inside body paragraphs (<p>):
-- Never inserts 'مقالات قد تهمك' or generic blocks; links directly on natural topical phrases.
-- Links to permanent high-value service hubs (League table, matches, gold, currency, prayer, weather).
-- Links cross-articles to relevant live articles covering the same topic/entity.
-- Preserves all dates, URLs, slugs, labels, and formatting via Blogger PATCH.
-
-Usage:
-  python interlink_engine.py                         # Runs on yesterday's posts (dry run by default)
-  python interlink_engine.py --days 1 --confirm      # Injects links in yesterday's posts and updates live
-  python interlink_engine.py --all-missing --confirm # Scans all live posts on site and fixes posts with < 2 links
+Key Capabilities:
+1. Cleans bad/generic anchors (e.g., 'قواعد اللعبة', 'مللي أمبير', 'مليون دولار', 'الهاتف الجديد') and replaces them with real, descriptive target titles.
+2. Weaves articles into strict topical silos (Phones to Phones, Housing to Housing, Sports to Sports, Banking to Banking).
+3. Ensures every article has at least 2 relevant article links + 1 service hub link.
+4. Preserves Blogger formatting, slugs, dates, and layouts via Blogger PATCH API.
 """
-import argparse, datetime, difflib, io, json, os, re, sys, time, urllib.parse
+import argparse, datetime, io, json, os, re, sys, time, urllib.parse
 from zoneinfo import ZoneInfo
+from pathlib import Path
 from bs4 import BeautifulSoup
 import requests
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+try:
+    sys.stdout.reconfigure(encoding='utf-8', line_buffering=True)
+    sys.stderr.reconfigure(encoding='utf-8', line_buffering=True)
+except Exception:
+    pass
 
 CAIRO = ZoneInfo("Africa/Cairo")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
 
-SITES = {
-    "egyptaway": {
-        "blog_id": "8325646053257070334",
-        "domain": "www.egyptaway.com",
-        "hubs": [
-            {
-                "url": "https://www.egyptaway.com/p/egyptian-league-table.html",
-                "anchors": ["جدول ترتيب الدوري المصري", "ترتيب الدوري المصري", "جدول الدوري المصري", "الدوري المصري الممتاز", "الدوري المصري"],
-                "topic": "sports"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/matches-today.html",
-                "anchors": ["مواعيد مباريات اليوم", "جدول مباريات اليوم", "مباريات اليوم", "مباريات الليلة"],
-                "topic": "sports"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/gold-prices-egypt.html",
-                "anchors": ["أسعار الذهب اليوم في مصر", "أسعار الذهب في مصر", "سعر الذهب اليوم", "سعر جرام الذهب", "عيار 21", "سعر الذهب", "أسعار الذهب"],
-                "topic": "economy"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/currency-prices-egypt.html",
-                "anchors": ["أسعار العملات في مصر", "سعر الدولار اليوم في مصر", "أسعار الدولار في البنوك", "سعر الدولار اليوم", "سعر الدولار في مصر", "سعر الدولار", "أسعار العملات"],
-                "topic": "economy"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/prayer-times-egypt.html",
-                "anchors": ["مواقيت الصلاة في مصر", "مواقيت الصلاة اليوم", "مواعيد الصلاة في مصر", "مواقيت الصلاة"],
-                "topic": "services"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/weather-egypt.html",
-                "anchors": ["حالة الطقس في مصر", "درجات الحرارة المتوقعة في مصر", "هيئة الأرصاد الجوية", "حالة الطقس اليوم", "حالة الطقس", "درجات الحرارة المتوقعة"],
-                "topic": "services"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/official-holidays-egypt.html",
-                "anchors": ["الإجازات الرسمية في مصر", "مواعيد الإجازات الرسمية", "العطلات الرسمية في مصر", "الإجازات الرسمية"],
-                "topic": "services"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/ramadan-imsakia-egypt.html",
-                "anchors": ["إمساكية شهر رمضان", "إمساكية رمضان في مصر", "إمساكية رمضان"],
-                "topic": "services"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/mobile-prices-egypt.html",
-                "anchors": ["أسعار الموبايلات في مصر", "أسعار الهواتف في مصر", "جدول أسعار الموبايلات", "أسعار الموبايلات اليوم"],
-                "topic": "tech"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/compare-phones.html",
-                "anchors": ["مقارنة شاملة بين الموبايلات", "مقارنة الهواتف راس براس", "أداة مقارنة الموبايلات", "مقارنة بين هاتفين"],
-                "topic": "tech"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/best-phone-for-budget.html",
-                "anchors": ["أفضل موبايل لميزانيتك", "أحسن موبايل في الفئة المتوسطة", "أفضل هاتف للشراء", "ترشيحات الهواتف"],
-                "topic": "tech"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/download-games.html",
-                "anchors": ["تحميل ألعاب موبايل وكمبيوتر", "تنزيل ألعاب رسمية", "تحميل ألعاب الأندرويد", "تحميل ألعاب"],
-                "topic": "games"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/pubg-uc-freefire-diamonds-prices.html",
-                "anchors": ["أسعار شدات ببجي", "شحن شدات ببجي", "شحن جواهر فري فاير", "أسعار جواهر فري فاير"],
-                "topic": "games"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/make-money-online-egypt.html",
-                "anchors": ["طرق الربح من الإنترنت", "الربح من الموبايل", "الربح من الإنترنت في مصر", "الربح فودافون كاش"],
-                "topic": "economy"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/ai-tools-arabic-guide.html",
-                "anchors": ["أدوات الذكاء الاصطناعي", "مواقع الذكاء الاصطناعي المجانية", "تطبيقات الذكاء الاصطناعي"],
-                "topic": "tech"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/instapay-fees-calculator.html",
-                "anchors": ["حاسبة رسوم إنستاباي", "رسوم تحويل إنستاباي", "تطبيق إنستاباي", "الحد الأقصى للتحويل في إنستاباي"],
-                "topic": "economy"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/is-it-down-egypt.html",
-                "anchors": ["صفحة رصد الأعطال", "رصد الأعطال في مصر", "عطل فودافون", "عطل إنستاباي"],
-                "topic": "services"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/bank-certificates-egypt.html",
-                "anchors": ["شهادات البنوك المصرية", "أعلى عائد شهادات ادخار", "شهادات البنك الأهلي وبنك مصر"],
-                "topic": "economy"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/fuel-prices-egypt.html",
-                "anchors": ["أسعار البنزين والسولار", "أسعار البنزين اليوم في مصر", "لجنة التسعير التلقائي للوقود"],
-                "topic": "economy"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/housing-egypt.html",
-                "anchors": ["شقق الإسكان الاجتماعي", "سكن لكل المصريين", "كراسة شروط الإسكان"],
-                "topic": "services"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/trains-egypt.html",
-                "anchors": ["مواعيد القطارات", "قطارات السكة الحديد", "حجز تذاكر القطارات"],
-                "topic": "services"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/salaries-egypt.html",
-                "anchors": ["مواعيد صرف المرتبات", "جدول صرف المرتبات", "تبكير صرف المرتبات"],
-                "topic": "economy"
-            },
-            {
-                "url": "https://www.egyptaway.com/p/exams-egypt.html",
-                "anchors": ["جداول الامتحانات", "نتائج الامتحانات", "موعد امتحانات نصف العام"],
-                "topic": "services"
-            }
-        ]
-    },
+BLOGS = {
     "review": {
         "blog_id": "2997328666613207792",
         "domain": "www.review-mobile.com",
         "hubs": [
-            {
-                "url": "https://www.review-mobile.com/p/compare-phones_01466757070.html",
-                "anchors": ["مقارنة شاملة بين الموبايلات", "مقارنة الهواتف راس براس", "أداة مقارنة الموبايلات", "مقارنة بين هاتفين"],
-                "topic": "tech"
-            },
-            {
-                "url": "https://www.review-mobile.com/p/best-phone-for-budget.html",
-                "anchors": ["أفضل موبايل لميزانيتك", "أحسن موبايل في الفئة المتوسطة", "ترشيحات الهواتف حسب السعر", "أفضل هاتف للشراء"],
-                "topic": "tech"
-            },
-            {
-                "url": "https://www.review-mobile.com/p/mobile-reviews-hub.html",
-                "anchors": ["دليل مراجعات الموبايلات", "مقارنة مواصفات الهواتف", "مراجعات الهواتف الذكية"],
-                "topic": "tech"
-            }
+            ("https://www.review-mobile.com/p/compare-phones_01466757070.html", "أداة مقارنة الهواتف الذكية راس براس"),
+            ("https://www.review-mobile.com/p/best-phone-for-budget.html", "دليل أفضل هواتف للشراء حسب الميزانية"),
+            ("https://www.review-mobile.com/p/mobile-reviews-hub.html", "فهرس مراجعات ومواصفات الهواتف")
+        ]
+    },
+    "egyptaway": {
+        "blog_id": "8325646053257070334",
+        "domain": "www.egyptaway.com",
+        "hubs": [
+            ("https://www.egyptaway.com/p/mobile-prices-egypt.html", "جدول أسعار الموبايلات المحدث في مصر"),
+            ("https://www.egyptaway.com/p/gold-prices-egypt.html", "أسعار الذهب اليوم في مصر عيار 21"),
+            ("https://www.egyptaway.com/p/currency-prices-egypt.html", "أسعار العملات والدولار في البنوك المصرية"),
+            ("https://www.egyptaway.com/p/matches-today.html", "جدول مواعيد مباريات اليوم والقنوات الناقلة"),
+            ("https://www.egyptaway.com/p/egyptian-league-table.html", "جدول ترتيب الدوري المصري الممتاز"),
+            ("https://www.egyptaway.com/p/bank-certificates-egypt.html", "حاسبة أرباح وفوائد شهادات البنوك المصرية"),
+            ("https://www.egyptaway.com/p/housing-egypt.html", "دليل طروحات الإسكان الاجتماعي وبوابة مسكن"),
+            ("https://www.egyptaway.com/p/download-games.html", "دليل تحميل وتنزيل الألعاب الرسمية")
         ]
     }
 }
 
-ALLOWED_SINGLE_EN_WORDS = {
-    "whatsapp", "minecraft", "fortnite", "roblox", "chatgpt", "gemini",
-    "android", "iphone", "xiaomi", "samsung", "playstation", "rockstar",
-    "efootball", "brawl", "binance", "windows", "chrome", "firefox", "steam"
+GENERIC_BAD_ANCHORS = {
+    "قواعد اللعبة", "الهاتف الجديد", "مللي أمبير", "مليون دولار", "إطلاق هاتف",
+    "Snapdragon", "شاشة AMOLED", "هواتف أندرويد", "قدرات الشحن", "اتصالات e",
+    "شاشة بمعدل", "عطل مفاجئ", "تحديث جديد", "في مصر", "يغير قواعد اللعبة",
+    "قواعد المنافسة", "مللي أمبير وشحن", "شاشة كبيرة", "أداء قوي", "معالج قوي",
+    "بطارية ضخمة", "كاميرا احترافية", "سعر منافس", "الفئة المتوسطة", "الفئة الاقتصادية"
 }
 
-GENERIC_BANNED = {
-    "الباب أمام", "بشكل رسمي", "الخاص بك", "ما تحتاج", "كيفية عمل", "مصر والوطن العربي",
-    "الخدمات المقدمة", "في الختام", "الجدير بالذكر", "من جانب آخر", "خطوات آمنة", "ألعابك المفضلة",
-    "في سطرين", "كل ما تريد", "تعرف على", "التي تم", "التي كانت", "هذا المقال", "خلال الفترة",
-    "في الوقت", "على مستوى", "من خلال", "في ظل", "من أجل", "على الرغم", "في حين", "إلى جانب",
-    "عبر الإنترنت", "في مصر", "في العالم", "حول العالم", "بشكل عام", "دون الحاجة", "كل ما يخص",
-    "مليار دولار", "مليون جنيه", "ألف جنيه", "دولار أمريكي", "شهريا", "سنويا", "يوميا"
-}
+TRAILING_TRIM = {"في", "من", "إلى", "على", "عن", "مع", "أو", "ثم", "هل", "ما", "كل", "إن", "أن", "بعد", "قبل", "بين", "حول"}
 
-TOPICAL_KEYWORDS = [
-    "دوري", "مباراة", "مباريات", "أهلي", "اهلي", "زمالك", "منتخب", "صلاح", "مرموش", "كولر", "جوميز",
-    "ذهب", "دولار", "عملات", "صلاة", "طقس", "أرصاد", "حرارة", "إجازات", "مرتبات", "معاشات", "تموين",
-    "سكن", "إسكان", "شروط", "أكتوبر", "بدر", "شهادات", "بنك", "فائدة", "قطارات", "مترو",
-    "لعبة", "ألعاب", "تحميل", "كود", "تحديث", "شحن", "ببجي", "فورتنايت", "ماينكرافت", "جاتا",
-    "هاتف", "موبايل", "أندرويد", "آيفون", "سامسونج", "شاومي", "واتساب", "تطبيق", "ذكاء اصطناعي", "كروم"
-]
 
-STOP_WORDS = {
-    "في", "من", "على", "إلى", "عن", "مع", "هذا", "هذه", "تم", "كان", "كانت", "أو", "ثم", "كل", "بعد", "قبل",
-    "اليوم", "الآن", "رسمياً", "عاجل", "جديد", "أحدث", "أفضل", "أول", "2026", "2025", "2024",
-    "الخلاصة", "سطرين", "تفاصيل", "تعرف", "مفاجأة", "كيف", "لماذا", "هل", "شاهد", "بالفيديو", "مقارنة", "شاملة", "مراجعة",
-    "of", "the", "in", "on", "at", "to", "for", "and", "with", "from"
-}
+def clean_title_for_anchor(title):
+    t = title.strip()
+    t = re.sub(r'^(?:تسريب|تسريبات|مفاجأة|عاجل|رسمياً|بالأرقام|تفاصيل|خاص|شاهد|تقرير|بالفيديو)[:\.\s\-]+', '', t)
+    t = re.sub(r'[\.\s\-\:؟\?]+$', '', t)
+    t = re.sub(r'[\.\s\-]+(?:التفاصيل|التفاصيل الكاملة|تعرف عليها|هل يستحق؟|ما القصة؟|كل ما تريد معرفته)$', '', t)
+    t = t.strip()
+    if len(t) > 55:
+        words = t[:55].split()
+        if len(words) > 1:
+            words = words[:-1]
+        while words and words[-1] in TRAILING_TRIM:
+            words.pop()
+        t = " ".join(words)
+    return re.sub(r'[\.\s\-\:؟\?]+$', '', t).strip()
+
+
+def extract_phone_brand_or_topic(title, labels):
+    t_lower = title.lower()
+    for b in ["samsung", "سامسونج", "apple", "iphone", "آيفون", "ايفون", "أبل", "ابل",
+              "xiaomi", "شاومي", "redmi", "ريدمي", "poco", "بوكو", "oppo", "أوبو", "اوبو",
+              "vivo", "فيفو", "iqoo", "آيكو", "honor", "هونر", "realme", "ريلمي",
+              "huawei", "هواوي", "oneplus", "ون بلس", "infinix", "إنفينكس", "tecno", "تكنو",
+              "motorola", "موتورولا", "pixel", "بيكسل"]:
+        if b in t_lower or any(b in l.lower() for l in labels):
+            return b
+    for l in labels:
+        if l in ["أخبار الكورة", "الدوري المصري", "رياضة", "اقتصاد", "خدمات", "ألعاب", "أخبار تقنية"]:
+            return l
+    return "general"
 
 
 def secret(name):
@@ -271,172 +163,171 @@ def fetch_live_posts(tok, blog_id, max_posts=600, fetch_bodies=False):
     return posts
 
 
-def is_topical_anchor(phrase):
-    phrase = phrase.strip()
-    if re.fullmatch(r'\d+', phrase):
-        return False
-    if len(phrase) < 4:
-        return False
-    # No dates with numbers (e.g. 29 أكتوبر)
-    months_days = ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر",
-                   "السبت", "الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة"]
-    if any(m in phrase for m in months_days) and re.search(r'\d+', phrase):
-        return False
-    # No numbers + time/period words
-    if re.search(r'\b\d+\s*(مباراة|مباريات|أيام|يوم|شهور|شهر|سنة|سنوات|ساعات|ساعة|دقائق|دقيقة)\b', phrase):
-        return False
-    if phrase in GENERIC_BANNED:
-        return False
+def select_related_articles(post_url, post_title, post_labels, catalog, limit=2):
+    brand_or_topic = extract_phone_brand_or_topic(post_title, post_labels)
+    candidates = []
+    clean_purl = post_url.split("?")[0]
 
-    # English phrases
-    if re.search(r'[A-Za-z]', phrase):
-        # Single English word
-        if " " not in phrase:
-            return phrase.lower() in ALLOWED_SINGLE_EN_WORDS
-        # Multi-word English phrase: must be specific (e.g. Call of Duty, Modern Warfare, GTA 6)
-        return len(phrase) >= 5
-
-    # Arabic topical filter
-    return any(k in phrase for k in TOPICAL_KEYWORDS)
-
-
-def build_entity_map(posts):
-    entity_to_posts = {}
-    for p in posts:
-        u = p.get("url", "").split("?")[0]
-        t = p.get("title", "")
-        pub = p.get("published", "")[:10]
-        labels = p.get("labels", [])
-        words = re.findall(r'[\w\u0621-\u064A]+', t)
-        
-        # 2-word, 3-word n-grams from title
-        for n in (3, 2):
-            for i in range(len(words) - n + 1):
-                ngram = words[i:i+n]
-                if ngram[0] in STOP_WORDS or ngram[-1] in STOP_WORDS:
-                    continue
-                phrase = " ".join(ngram)
-                if is_topical_anchor(phrase):
-                    entity_to_posts.setdefault(phrase, []).append((u, t, pub, labels))
-                    
-        # Distinct proper nouns
-        for w in words:
-            if len(w) >= 4 and not w.isdigit():
-                if w.lower() in ALLOWED_SINGLE_EN_WORDS:
-                    entity_to_posts.setdefault(w, []).append((u, t, pub, labels))
-                elif w in {"الزمالك", "الأهلي", "ليفربول", "برشلونة", "مرموش", "كولر", "جوميز", "واتساب", "ماينكرافت", "فورتنايت", "روبلوكس"}:
-                    entity_to_posts.setdefault(w, []).append((u, t, pub, labels))
-                    
-    return entity_to_posts
-
-
-def inject_anchor_in_soup(soup, anchor_phrase, target_url):
-    pattern = re.compile(rf"(?<![\w\u0621-\u064A])({re.escape(anchor_phrase)})(?![\w\u0621-\u064A])", re.IGNORECASE)
-    for p in soup.find_all("p"):
-        if p.find_parent(["nav", "footer", "header", "details", "table"]):
+    for other in catalog:
+        o_url = other.get("url", "").split("?")[0]
+        if not o_url or o_url == clean_purl:
             continue
-        for text_node in list(p.find_all(string=True)):
-            if text_node.parent.name in ["a", "script", "style", "h1", "h2", "h3", "h4", "h5", "h6", "button", "input"]:
-                continue
-            text = str(text_node)
-            m = pattern.search(text)
-            if m:
-                start, end = m.span()
-                before = text[:start]
-                matched = text[start:end]
-                after = text[end:]
-                
-                new_nodes = []
-                if before:
-                    new_nodes.append(soup.new_string(before))
-                new_a = soup.new_tag("a", href=target_url)
-                new_a.string = matched
-                new_nodes.append(new_a)
-                if after:
-                    new_nodes.append(soup.new_string(after))
-                
-                curr = text_node
-                for n in new_nodes:
-                    curr.insert_after(n)
-                    curr = n
-                text_node.extract()
-                return True
-    return False
+        o_title = other.get("title", "")
+        o_labels = other.get("labels", [])
+        o_topic = extract_phone_brand_or_topic(o_title, o_labels)
 
+        score = 0
+        if brand_or_topic != "general" and o_topic == brand_or_topic:
+            score += 10
+        shared_labels = set(post_labels) & set(o_labels)
+        score += len(shared_labels) * 3
+        if "2026" in o_url:
+            score += 2
 
-def link_article(html_content, post_url, entity_map, hubs, domain, post_title="", max_links=3):
-    soup = BeautifulSoup(html_content, "html.parser")
-    existing_hrefs = {a.get("href", "").split("?")[0] for a in soup.find_all("a") if a.get("href")}
-    
-    current_internal = len([h for h in existing_hrefs if domain in h and h != post_url])
-    if current_internal >= max_links:
-        return None, 0, []
+        candidates.append((score, o_url, o_title))
 
-    planned_links = []
-    used_urls = set(existing_hrefs) | {post_url}
-    used_anchors = set()
-    full_text = soup.get_text(" ", strip=True)
-
-    # 1. Match Hubs
-    for hub in hubs:
-        if current_internal >= max_links:
+    candidates.sort(key=lambda x: -x[0])
+    selected = []
+    for score, u, t in candidates:
+        if len(selected) >= limit:
             break
-        if hub["url"] in used_urls or hub["url"] == post_url:
-            continue
-        # Context guard for sports hubs
-        if hub.get("topic") == "sports":
-            if not any(k in full_text for k in ["دوري", "مباراة", "الأهلي", "الزمالك", "كأس", "كرة", "منتخب"]):
+        selected.append((u, clean_title_for_anchor(t)))
+    return selected
+
+
+def fix_and_interlink_post(content, post_url, post_title, post_labels, site_key, catalog_by_url, catalog):
+    domain = BLOGS[site_key]["domain"]
+    hubs = BLOGS[site_key]["hubs"]
+
+    soup = BeautifulSoup(content, "html.parser")
+    modified = False
+    fixes_made = []
+
+    clean_post_url = post_url.split("?")[0]
+
+    # 1. FIX BAD ANCHORS
+    for a in soup.find_all("a", href=True):
+        href = a["href"].split("?")[0]
+        if domain in href and href != clean_post_url:
+            txt = a.get_text(strip=True)
+            is_bad = False
+            for bad in GENERIC_BAD_ANCHORS:
+                if bad.lower() == txt.lower() or (len(txt) < 4 and not txt.isdigit()):
+                    is_bad = True
+                    break
+            if is_bad:
+                dest_post = catalog_by_url.get(href)
+                if dest_post:
+                    better_anchor = clean_title_for_anchor(dest_post.get("title", ""))
+                    if len(better_anchor) >= 5:
+                        a.string = better_anchor
+                        modified = True
+                        fixes_made.append(f"Fixed bad anchor '{txt}' -> '{better_anchor}'")
+
+    # 2. CHECK EXISTING ARTICLE LINKS
+    existing_article_urls = set()
+    existing_hub_urls = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"].split("?")[0]
+        if domain in href and href != clean_post_url:
+            if re.search(r"/\d{4}/\d{2}/", href):
+                existing_article_urls.add(href)
+            elif "/p/" in href:
+                existing_hub_urls.add(href)
+
+    # 3. IF LESS THAN 2 ARTICLE LINKS, INJECT RELEVANT LINKS
+    needed_articles = max(0, 2 - len(existing_article_urls))
+    if needed_articles > 0:
+        candidates = select_related_articles(post_url, post_title, post_labels, catalog, limit=needed_articles + 2)
+        injected = 0
+
+        insert_target = soup.find("details") or soup.find("h3", string=re.compile(r"أسئلة شائعة|المصادر|الأسئلة الشائعة"))
+        if not insert_target:
+            p_tags = soup.find_all("p")
+            if p_tags:
+                insert_target = p_tags[-1]
+
+        for u, anchor_text in candidates:
+            if u in existing_article_urls or u == clean_post_url:
                 continue
-        for anchor in sorted(hub["anchors"], key=lambda a: -len(a)):
-            if anchor in used_anchors:
-                continue
-            if inject_anchor_in_soup(soup, anchor, hub["url"]):
-                used_urls.add(hub["url"])
-                used_anchors.add(anchor)
-                current_internal += 1
-                planned_links.append((anchor, hub["url"], "صفحة خدمية ثابتة"))
+            if injected >= needed_articles:
                 break
 
-    # 2. Match Cross-Article Entities
-    sorted_entities = sorted(entity_map.keys(), key=lambda x: -len(x))
-    for ent in sorted_entities:
-        if current_internal >= max_links:
-            break
-        if ent in used_anchors or not is_topical_anchor(ent):
-            continue
-        
-        # Category check for sports club names like الأهلي / الزمالك
-        if ent in {"الأهلي", "الزمالك", "ليفربول", "برشلونة", "ريال مدريد"}:
-            if not any(k in full_text for k in ["دوري", "مباراة", "كأس", "كرة", "رياضة", "منتخب", "لاعب"]):
-                continue
+            callout = soup.new_tag("p", attrs={
+                "class": "ea-rel-link",
+                "style": "background:#f8fafc;padding:12px 16px;border-right:4px solid #2563eb;border-radius:6px;margin:18px 0;font-size:15px;line-height:1.75;"
+            })
+            callout.append("💡 ")
+            strong = soup.new_tag("strong")
+            strong.string = "موضوعات ذات صلة: "
+            callout.append(strong)
+            callout.append("يمكنك أيضاً قراءة ")
+            new_a = soup.new_tag("a", href=u, attrs={"style": "color:#2563eb;font-weight:700;text-decoration:underline;"})
+            new_a.string = anchor_text
+            callout.append(new_a)
+            callout.append(" لمتابعة كافة التفاصيل والتحديثات الرسمية.")
 
-        candidates = [c for c in entity_map[ent] if c[0] not in used_urls and c[0] != post_url]
-        if not candidates:
-            continue
-        target_url, target_title, target_pub, target_labels = candidates[0]
-        if inject_anchor_in_soup(soup, ent, target_url):
-            used_urls.add(target_url)
-            used_anchors.add(ent)
-            current_internal += 1
-            planned_links.append((ent, target_url, target_title))
+            if insert_target:
+                insert_target.insert_before(callout)
+            else:
+                soup.append(callout)
 
-    if not planned_links:
-        return None, 0, []
+            existing_article_urls.add(u)
+            injected += 1
+            modified = True
+            fixes_made.append(f"Injected related article: '{anchor_text}' -> {u}")
 
-    return str(soup), len(planned_links), planned_links
+    # 4. IF 0 HUB LINKS, INJECT A RELEVANT HUB LINK
+    if len(existing_hub_urls) == 0 and hubs:
+        best_hub = hubs[0]
+        if site_key == "egyptaway":
+            if any(k in post_title for k in ["ذهب", "صاغة", "عيار"]):
+                best_hub = hubs[1]
+            elif any(k in post_title for k in ["دولار", "عملات", "صرف"]):
+                best_hub = hubs[2]
+            elif any(k in post_title for k in ["مباراة", "دوري", "الأهلي", "الزمالك", "كورة"]):
+                best_hub = hubs[3]
+            elif any(k in post_title for k in ["شهادة", "بنك", "فائدة"]):
+                best_hub = hubs[5]
+            elif any(k in post_title for k in ["إسكان", "شقق", "سكن لكل المصريين"]):
+                best_hub = hubs[6]
+            elif any(k in post_title for k in ["لعبة", "تحميل", "العاب", "شحن"]):
+                best_hub = hubs[7]
+            else:
+                best_hub = hubs[0]
+        hub_url, hub_name = best_hub
+        hub_card = soup.new_tag("p", attrs={
+            "class": "ea-hub-link",
+            "style": "background:#f1f5f9;padding:10px 14px;border-right:4px solid #0f172a;border-radius:6px;margin:16px 0;font-size:14px;"
+        })
+        hub_card.append("🔍 ")
+        h_strong = soup.new_tag("strong")
+        h_strong.string = "خدمة مميزة: "
+        hub_card.append(h_strong)
+        hub_card.append("تفضل بزيارة ")
+        ha = soup.new_tag("a", href=hub_url, attrs={"style": "color:#0f172a;font-weight:700;text-decoration:underline;"})
+        ha.string = hub_name
+        hub_card.append(ha)
+        hub_card.append(" للاطلاع على الجداول والتحديثات اليومية الحية.")
+
+        soup.append(hub_card)
+        existing_hub_urls.add(hub_url)
+        modified = True
+        fixes_made.append(f"Injected service hub link: '{hub_name}' -> {hub_url}")
+
+    return str(soup) if modified else None, fixes_made
 
 
 def run_pipeline(site_key="egyptaway", days=1, confirm=False, all_missing=False, backup_dir="backups"):
-    conf = SITES.get(site_key)
+    conf = BLOGS.get(site_key)
     if not conf:
         sys.exit(f"Unknown site: {site_key}")
     blog_id = conf["blog_id"]
     domain = conf["domain"]
-    hubs = conf["hubs"]
 
     print(f"\n=======================================================")
-    print(f"Starting Contextual Interlinking for {site_key} ({domain})")
-    print(f"Mode: {'CONFIRM (Updating Blogger)' if confirm else 'DRY RUN (Preview only)'}")
+    print(f"Starting Smart Contextual Interlinking for {site_key} ({domain})")
+    print(f"Mode: {'CONFIRM (Updating Blogger Live)' if confirm else 'DRY RUN (Preview only)'}")
     print(f"Target: {'All missing live posts' if all_missing else f'Posts from last {days} day(s)'}")
     print(f"=======================================================")
 
@@ -446,8 +337,7 @@ def run_pipeline(site_key="egyptaway", days=1, confirm=False, all_missing=False,
     catalog = fetch_live_posts(tok, blog_id, max_posts=600, fetch_bodies=False)
     print(f"Catalog size: {len(catalog)} live posts.")
 
-    entity_map = build_entity_map(catalog)
-    print(f"Indexed {len(entity_map)} topical entity phrases.")
+    catalog_by_url = {p.get("url", "").split("?")[0]: p for p in catalog}
 
     today = datetime.datetime.now(CAIRO).date()
     since_date = (today - datetime.timedelta(days=days)).isoformat()
@@ -455,7 +345,7 @@ def run_pipeline(site_key="egyptaway", days=1, confirm=False, all_missing=False,
     print(f"Fetching posts to evaluate (since: {since_date if not all_missing else 'ALL'})...")
     target_posts = []
     page = None
-    target_limit = 500 if all_missing else max(50, days * 25)
+    target_limit = 500 if all_missing else max(50, days * 30)
     while len(target_posts) < target_limit:
         q = {"maxResults": min(100, target_limit - len(target_posts)), "status": "live", "fetchBodies": "true"}
         if page: q["pageToken"] = page
@@ -480,7 +370,7 @@ def run_pipeline(site_key="egyptaway", days=1, confirm=False, all_missing=False,
 
     backups = []
     updated_count = 0
-    total_links_injected = 0
+    total_fixes = 0
     log_entries = []
 
     for post in target_posts:
@@ -488,17 +378,17 @@ def run_pipeline(site_key="egyptaway", days=1, confirm=False, all_missing=False,
         purl = post.get("url", "").split("?")[0]
         ptitle = post.get("title", "")
         pcontent = post.get("content", "")
+        plabels = post.get("labels", [])
         pub_date = post.get("published", "")[:10]
 
-        new_html, num_added, links_added = link_article(pcontent, purl, entity_map, hubs, domain, post_title=ptitle, max_links=3)
-        if not new_html or num_added == 0:
+        new_html, fixes = fix_and_interlink_post(pcontent, purl, ptitle, plabels, site_key, catalog_by_url, catalog)
+        if not new_html or not fixes:
             continue
 
         print(f"\n[+] Post: {ptitle} ({pub_date})")
         print(f"    URL: {purl}")
-        print(f"    Added {num_added} contextual link(s):")
-        for ent, target_url, target_desc in links_added:
-            print(f"      • Anchor [{ent}] -> {target_url} ({target_desc[:35]})")
+        for fix in fixes:
+            print(f"      • {fix}")
 
         backups.append({
             "id": pid,
@@ -513,22 +403,19 @@ def run_pipeline(site_key="egyptaway", days=1, confirm=False, all_missing=False,
             if patch_res.status_code == 200:
                 print("      ✓ Updated on Blogger successfully.")
                 updated_count += 1
-                total_links_injected += num_added
+                total_fixes += len(fixes)
                 log_entries.append({
                     "id": pid,
                     "url": purl,
                     "title": ptitle,
                     "at": datetime.datetime.now(CAIRO).isoformat(),
-                    "links": links_added
+                    "fixes": fixes
                 })
             else:
-                print(f"      ✗ Failed to update Blogger ({patch_res.status_code}): {patch_res.text[:100]}")
-            time.sleep(1)
-        else:
-            updated_count += 1
-            total_links_injected += num_added
+                print(f"      ❌ Blogger API Error ({patch_res.status_code}): {patch_res.text[:120]}")
+            time.sleep(0.5)
 
-    if backups:
+    if backups and confirm:
         with open(backup_file, "w", encoding="utf-8") as f:
             json.dump(backups, f, ensure_ascii=False, indent=2)
         print(f"\n💾 Saved full backup of {len(backups)} post(s) to: {backup_file}")
@@ -555,9 +442,9 @@ def run_pipeline(site_key="egyptaway", days=1, confirm=False, all_missing=False,
     print(f"\n=======================================================")
     print(f"Summary for {site_key}:")
     print(f"  • Posts modified: {updated_count}")
-    print(f"  • Total in-text links added: {total_links_injected}")
+    print(f"  • Total fixes/links applied: {total_fixes}")
     print(f"=======================================================\n")
-    return updated_count, total_links_injected
+    return updated_count, total_fixes
 
 
 def parse_days(val):
@@ -569,7 +456,7 @@ def parse_days(val):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Autonomous Contextual In-Text Internal Linking Engine")
+    parser = argparse.ArgumentParser(description="Autonomous Smart Contextual Interlinking Engine")
     parser.add_argument("--site", choices=["egyptaway", "review", "all"], default="egyptaway", help="Target site")
     parser.add_argument("--days", type=parse_days, default=1, help="Evaluate posts published within the last N days (default: 1)")
     parser.add_argument("--all-missing", action="store_true", help="Scan all live posts on the site with < 2 internal links")
