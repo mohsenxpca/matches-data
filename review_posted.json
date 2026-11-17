@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "itel City 100 - Full phone specifications - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15U0lkVEZkaE45aVBTSVJLZWJhSUptT2RiUmZkNF9DUFk1ZDlPZ2l5UFNxVWU0Umw4S2pGUkowNDdTUmhMUllKMElORmNGSFZ3dld3TjRlSXhid2dj?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (603 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Nokia 2360 Flip - Full phone specifications - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KX1BIQ2xwU0NsMDRYcTZvMXVKa3JPckxsRHN6ZTItLTVwTXZBbVBId0VCaHAzUHp3VFAySVZzOEd1ZUh6TW5nTENJeklKX3ZlTE5LOHd3UEVZU2djNTF3?oc=5",
    "at": "2026-11-09",
@@ -3243,6 +3234,16 @@
    "reason": [
     "طول المقال قصير (571 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "تسريب مواصفات iQOO Z12 Lite 5G.. موعد الإطلاق وأبرز المزايا",
+   "cand_title": "iQOO Z12 Lite 5G’s image, key specs emerge, launching soon",
+   "url": "https://www.gizmochina.com/2026/11/17/iqoo-z12-lite-5g-google-play-console-listing/",
+   "post_url": "https://www.review-mobile.com/2026/11/iqoo-z12-lite-5g-specs-launch.html",
+   "at": "2026-11-17T08:32:40+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "فيفو"
   }
  ]
 }
