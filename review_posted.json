@@ -1,41 +1,6 @@
 {
  "done": [
   {
-   "title": "The Oppo Reno17 and Reno17 Pro are launching next week",
-   "url": "https://www.gsmarena.com/the_oppo_reno17_and_reno17_pro_are_launching_next_week-news-75400.php",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['next', 'launching', 'week']"
-  },
-  {
-   "title": "Keeping Flex Mode and the Galaxy Z Fold 8 separate might’ve been Samsung’s most inspired idea",
-   "url": "https://www.sammobile.com/opinion/keeping-flex-mode-galaxy-z-fold-8-separate-samsung-inspired-idea/",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (553 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "نهاية شاشات LCD في هواتف سامسونج الرخيصة؟",
-   "cand_title": "The end of LCD? Samsung may bring OLED to its cheapest Galaxy phones",
-   "url": "https://www.sammobile.com/news/the-end-of-lcd-samsung-may-bring-oled-to-its-cheapest-galaxy-phones/",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-brings-oled-to-cheap-galaxy.html",
-   "at": "2026-11-10T01:23:03+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "Samsung releases new updates for Galaxy Z Fold 6, Z Flip 6",
-   "url": "https://www.sammobile.com/news/samsung-releases-new-updates-galaxy-z-fold-6-z-flip-6/",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (547 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Exclusive: Here’s what Samsung’s Galaxy AI Premium plan brings and what remains free",
    "url": "https://www.sammobile.com/news/galaxy-ai-premium-plan-features-list-what-remains-free/",
    "at": "2026-11-10",
@@ -3220,6 +3185,43 @@
    "at": "2026-11-18",
    "ok": false,
    "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "Samsung could beat Apple to market with a bezel-less phone display",
+   "url": "https://www.gsmarena.com/samsung_could_beat_apple_to_market_with_a_bezelless_phone_display-news-75510.php",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (495 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "I Didn’t Expect to Like Xiaomi’s Bizarre Dual-Screen Phone So Much - CNET",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QRVdYenB5ZEJUc00tY3FaUG8wUEVneHhyYWd4NmZZVW9DYms4YmJJZ3drVWRsOUd3ejUtM2tDdXROTVp2cmR0RnRYY3gzaXRVV2QybnNCdWs5STBqb0RaNg?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (601 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Own 2 Android phones? Google may let you switch service fast – like iPhone Handoff - ZDNET",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1teXdJb0swaWZ1Tm1URUFVSlNUdGRDcWh5aGhvT0hlRzZycHRvdUhmdGwxdU45bXV0VDVSSWExOTlTYkFlZm91X0JtRGtMZFNLRzl4bXJEQ0M1LXV0cHRFd3NlN3NobTVDWi1WS05pSVhkVkVSY2c?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (547 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "كيف تحصل على ميزة Dynamic Island على هاتفك الأندرويد؟ أفضل 5 تطبيقات",
+   "cand_title": "5 Apps To Replicate Apple's Dynamic Island On Your Android Phone - BGR",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTVZDcDZBdHB2dG0tR1RzX0p5TEJXMlBBRHRLLTFyQU5UdnVzcTR3eTZEUW8yU2xSYnlab1g3bHpFNW9zT3BjZmRORUF3cExGbWlZM29MVUhVR1hkRWU0WGM3LU9aTkI1U3pnT3FRallLcU5RY0hiQzNPNjVYR0Vpag?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/get-dynamic-island-on-android.html",
+   "at": "2026-11-18T00:29:04+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
