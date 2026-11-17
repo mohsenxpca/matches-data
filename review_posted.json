@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung Galaxy A18 4G review",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a18_4g-review-3004.php",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Model code [a18] with variants set() found in review: مراجعة Samsung Galaxy A18 4G: معالج Exynos 1610 وشاشة AMOLED و6 تحديثات أندرويد"
-  },
-  {
-   "title": "Apple iPhone 18 Pro review",
-   "url": "https://www.gsmarena.com/apple_iphone_18_pro-review-3003.php",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
-   "title": "Inside ARRI: From Hollywood cinema cameras to the Honor Magic9 Pro Max - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaV9XbGJYcy1kbE5JZDllRkg1R3RxOENFOHp6XzJ0NElWX1ZwTVBOR2IxSnk4d0RyMXZ0T2E3WXFnRVA0bWhqOWtKUnNyYnFCRXBVcF9uNG9tVFVWSXR2RHdIYVlCd3JnaXNfYktLUlpuRmR6R2d0ZUtnWjNVMmdjZVNpME5tTlFPeVM1WFdaWjVldU14T0hHSXo3ZXhKVDBjTURBVXN4aDBqZS1pSFE?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['arri', 'magic9', 'inside', 'cameras']"
-  },
-  {
    "title": "مراجعة شاملة هاتف Xiaomi Redmi M100 Pro: مواصفات عملاق الفئة",
    "cand_title": "Xiaomi Redmi M100 Pro",
    "url": "https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php",
@@ -3240,6 +3219,30 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Sharp Aquos sense11",
+   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (794 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Sharp Aquos sense11 vs Oppo Reno17 (China)",
+   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['sharp', 'reno17', 'aquos', 'sense11']"
+  },
+  {
+   "title": "vivo V80 FE vs Oppo A7 Pro",
+   "url": "https://www.gsmarena.com/vivo_v80_fe_5g-15061.php||https://www.gsmarena.com/oppo_a7_pro_5g-14928.php",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'a7 pro' already covered in: مراجعة Oppo A7 Pro: المواصفات الشاملة، السعر، المميزات والعيوب"
   }
  ]
 }
