@@ -1,29 +1,6 @@
 {
  "done": [
   {
-   "title": "Reuse Old Android Phone: 6 Ways After Updates Stop [2026] - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZWR1YXJmeDRDVnhNdDM4eldIWC1yRTY4R2F5S2FUVWVDREJVblJ3dmJjd0JIZDBycEFzd1pZWTZHZk9WRkJ5WERvSVZxamIzN1FFemZBTmEwUkJWck44SWQ4MHRVY2ZlcTl1UGFVbGpLN05WMkdJRnR3WGY4dFk1QnRXcTE?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['reuse', 'stop', 'after', 'ways']"
-  },
-  {
-   "title": "Old Android Phone: 6 Smart Uses After Updates End [2026] - https://tech-insider.org/",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRjRhM2ZVS1ZQRE9NNzkxcHpqTU45NGg3LUZneV9NT1hjVkFaNmF2Mlc4UU5NV3htV2NhVUNraEJVMkpOOWJpS3htREVybm9VR0d2dF9Tdlhmd1Z6MS0wSy1ISTh1TElrbVZzdWcwWUJhRTNtZ09ydVNmN1ZQUkhlZGptejRWdw?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['2026', 'updates', 'after']"
-  },
-  {
-   "title": "5 GrapheneOS myths I busted after installing it on my Pixel - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UbVN1ZW15VF94ZmljaUZrX05Fa3F4RFktUmZnZEhyYVdPWHoyRjJpYWM1WlhGTlV3MnpSUm1nU2hQZVhXczFmeUxNdGozRXpSVTFVNG9kajhldW9JN09BcE1pS2NxZw?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (652 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "vivo V80",
    "url": "https://www.gsmarena.com/vivo_v80-14989.php",
    "at": "2026-11-09",
@@ -3235,6 +3212,27 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "vivo V80 Hands-on Review: A Mid-ranger with a Premium Feel￼",
+   "url": "https://www.gizmochina.com/2026/11/17/vivo-v80-hands-on-review-a-mid-ranger-with-a-premium-feel%ef%bf%bc/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Model code [v80] with variants set() found in review: مراجعة شاملة لهاتف vivo V80 FE: مواصفات عملاق الفئة المتوسطة"
+  },
+  {
+   "title": "Sony Xperia 1 VIII - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tMjRRUk8wQ1p5dnR6MGVPTXlRZVdOOHMwb3F6YW8yS2lNb3Y5eGk1WHBrTllSVkdOZjVaZGJEZVVnMzR0QzZ5d0RpR2pJLThtOE82SDdabG1JQ3FjNVZYVzV4Z0ItWFk?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "iQOO Z12 Lite 5G appears on Google Play Console with key specs - Mezha.net",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uNndMQ1VtcWNCcmhCWE1iTHlUSzJkVUdTb1Jodk12MTFTbEpQRm1DRG9JWnVwUGNzeGx5VDNlcFNSNzRWdzd2OVJSZFdoNkItQ0cwTU42cGpNaHV0MzRLaE1rZG1hakJLam5PdmE4QnBIUEtTa01EYlluZUo?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['play', 'lite', 'console', 'iqoo']"
   }
  ]
 }
