@@ -1,44 +1,6 @@
 {
  "done": [
   {
-   "title": "Motorola Edge 70 Pro & Pro+ Leaks: Specs & Design - NPowerUser - Nokiapoweruser",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0YTM2bkZwcnJzSmxHS3VnaXpyc2tuOGdCMDVXOFlRMnhRWVE0SGZtcTE0VzM5UWRWWjhHc0lndF9ma3RVMWx3RVNyX2I5dGZyeXdNei03UVVBWFF0US01TWwyQzl6SjV5VmZmQjQzaGt3b2NHNF9mVXJ1dXJlZw?oc=5",
-   "at": "2026-11-08",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (468 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "6 genuinely useful ways to reuse an Android phone after updates stop - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeXpmcUNFWDJPcXRsZUQ4ak9rbUlrRFYtNTgzSi1QSVZWdXpkR180c3NxdDZ5aHRQVHdJOGR1clFOOEpHX2xpdzJtakdCWUNpS055dVhwN3dYdDN3UGtFV21ZcVdRRXlvaUFCWk9QQnphN1R2ZUM3b25fZmN0dG1RdjNObDNEbGh0MlZWN3AyTQ?oc=5",
-   "at": "2026-11-08",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (639 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "مراجعة نظام وإصدار New Jesus-Powered Linux Distro مع هاتف PineCone",
-   "cand_title": "New Jesus-Powered Linux Distro Launched With Christian Phone, OS & Digital Library - SMBtech",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2trT3V2b3Nsb3hyMDNaMDRTT3R6UjJTOUFQeTA1dXp0OFE5TjVMM1dCQWhla09FbWxBZGY5V1dYUnhMSEdKU2dVS2hMUVROcGQtUl8ydDNRZ1p6V2R2N1JPNlAtU1MyTnpyUnc5SVNLaTRmMDM4d1RfYnFmcFE0ZzlsOHJ6S09wZEg5d1JldlN5eTYzVjVzeFIxZXM3cUpyN0VOMEtiQQ?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/jesus-powered-linux-distro-phone-review.html",
-   "at": "2026-11-08T03:11:26+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "اخرى"
-  },
-  {
-   "title": "كيف تستخدم سجل إشعارات أندرويد لتنظيف هاتفك الذكي",
-   "cand_title": "How I use Android's Notification History to clean up annoying apps - How-To Geek",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbmpaNVprSzZlQ19hNjl1T09DT2cwNTJTSVhlRTU3M0hOODZDRVZYOUVCQTV3UHRrQUVtTEMxZXFFQThQWnNhdWk1enRzN3NnR1JrZUJUb1lPM3ZHSml1UFNOOUZPWTI3MTZjY09DMUhDdHdrdFkwaHhGWUh3QWhia2ZQQnktbTMtalZyQmdNZGhkdlZOT0E0?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/android-notification-history-clean-apps.html",
-   "at": "2026-11-08T03:41:23+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "I didn’t realize my Android could measure this, but it’s surprisingly accurate - MakeUseOf",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zdmd6RVpQN3RVZ1VTWlU4QmRISXBRcVZkYy1kS2wyOGpEc3p5NFlTRk5NSE1lcnRqTk1aRXpOZEY3emhyMkdMUGp3bEVRSFZXUEdUVXdyQUJxNTkxVXg0X0gxZE5OWW9GNmNnUnR1ZjduQQ?oc=5",
    "at": "2026-11-08",
@@ -3253,6 +3215,34 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Recent story overlap on key terms ['switch', 'fast', 'iphone', 'looks']"
+  },
+  {
+   "title": "Xiaomi launches stunning new Sand Gold version of its 1,000-lumen flashlight for just $14",
+   "url": "https://www.gizmochina.com/2026/11/16/xiaomi-mijia-portable-flashlight-sand-gold-color-launched-specs-price/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Huawei Mate X8 RAM and storage options revealed as reservations open - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNW83MFF3Z3p2OGVrOUpHeENNOTVzeldoZWdBajFYTGNkMjBIeWFOdml6NzlZb3N5ZHk2OHNBcW9wS05NZU0xbWlzLVBKYkFPOWpXbFhBRUN4b1RpdmpZdno5OWFSTVFPZFlHcjhtaVFRemZtZEVKZExwbFplN2g1VllyT0w4NEl2d0MxZHNpLVM5a2xFcUJTcTV2azBqV1JDbU9YN1RUTTVJbkl4?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['mate', 'storage', 'revealed', 'reservations']"
+  },
+  {
+   "title": "Oppo Reno17 and Reno17 Pro are now official and they're quite familiar - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa3YxRUVGSGpjY1NrUHQ0dGVOY1VmZ2V6a0xUaWFGSzlNOHc4bXE1c2xhRnNNaDR6SEM3MWMxdUpBMmI2aEVWOG85Qk1lVnpYWXAyVlJHc2VVSHRUNnlEd2xudXR2LTdHckoxTjJDWHZwaGQybGNGT18yU2owd3p4N0lWZWlrczdPSUFYS2VXeEI0dmNEa2ZUdUt5TDFZNzRmdVB4UHFBSGxjZnVZQUHSAaoBQVVfeXFMTnR1QUozai03X1FJU1JmTFZVRlI4ZHBKWkphSHpOUVRraVZiempyRnZsZ0xiRjJEaUphaUF0QmVBUVVJa2RSVjZvQ20wU3ZRUUNEV1FyejZnaGRZQWh5ODkwX2RFUmlCbkNCQjlyR1lZS0ZxNnlMVXIxTEVQenJMNTlOd29LQmhVNXF2ODZ1ZTVWX1kwM0RMQTB0Q3d5VDBfckNkeVFXRW4yenc?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['quite', 'familiar', 'they', 'reno17']"
+  },
+  {
+   "title": "Huawei Osta O1 Pro's live image leaks ahead of launch - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWmp4ck1pQmNvOElQUUFWV0d3R3EzUUNFVkpsbmx3RkFpMU1KR0xiSU1JbHNXN2wyQmlRaV9ob3k5MHd2blV2SzJqVUZoXzN5U0t4cEh3eXlQS2t6bVJ6VjQ3a0Y4RFR3YWxjcFBqUThnNmE3NGF4emo2dEZ4V1dLRUlRWE5qMEJjcHBENVdsVXlFMUFub3M40gGTAUFVX3lxTE9DYXRNQUpvQXlmeVI2RG5SbVpFNU43UnhpNkQtVDZ0ajNJcVZsYWRzVnJHc0pobEF3YUdkekxiRGgxYm1mcDAxVHR4dnlpRXZ6anFVanYwbEphN1Nvb1RJS1BtTmIxc04wZlJEWVpIRFRTQ2ppcktBaVU5WTZqa1B0RHNTV21NYjE1WU5xdW9SejFKQQ?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['image', 'ahead', 'osta', 'live']"
   }
  ]
 }
