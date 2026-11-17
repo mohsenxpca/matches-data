@@ -1019,6 +1019,40 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/apple-mac-security-ai.html",
    "title": "أبل تطلق أدوات أمان جديدة لجهاز Mac لحماية بياناتك"
+  },
+  {
+   "u": "https://www.androidpolice.com/terrible-indoor-signal-youre-not-alone/",
+   "t": "Terrible indoor signal? You're not alone. US comes low on Ookla's signal tests",
+   "at": "2026-11-17",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/indoor-mobile-signal-ookla-survey.html",
+   "title": "شبكة موبايلك ضعيفة جوه البيت؟ مش لوحدك"
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/17/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-modified-videos/",
+   "t": "Instagram’s new tool for creators targets unauthorized reposts and AI-modified videos",
+   "at": "2026-11-17",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+   "t": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+   "at": "2026-11-17",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+   "t": "California state AG sues OpenAI over rogue agent incidents",
+   "at": "2026-11-17",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+   "t": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+   "at": "2026-11-17",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/corma-ai-cybersecurity-billion-valuation.html",
+   "title": "Corma تدخل نادي المليار دولار في 3 شهور فقط"
   }
  ]
 }
