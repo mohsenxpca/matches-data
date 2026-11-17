@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "I didn’t realize my Android could measure this, but it’s surprisingly accurate - MakeUseOf",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zdmd6RVpQN3RVZ1VTWlU4QmRISXBRcVZkYy1kS2wyOGpEc3p5NFlTRk5NSE1lcnRqTk1aRXpOZEY3emhyMkdMUGp3bEVRSFZXUEdUVXdyQUJxNTkxVXg0X0gxZE5OWW9GNmNnUnR1ZjduQQ?oc=5",
-   "at": "2026-11-08",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (695 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "أوبو تطور شاحناً خارقاً بقوة 120 واط وثلاثة منافذ",
    "cand_title": "Oppo’s new three-port 120W charger is launching soon with these specs",
    "url": "https://www.gizmochina.com/2026/11/08/oppos-new-three-port-120w-charger-is-launching-soon-with-these-specs/",
@@ -3243,6 +3234,16 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Recent story overlap on key terms ['image', 'ahead', 'osta', 'live']"
+  },
+  {
+   "title": "خصم هائل 350 دولار على سامسونج جالاكسي زد فولد 8 قبل العروض",
+   "cand_title": "Save $350 on the Galaxy Z Fold 8 before the holiday rush - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNEdDWVkwb1BkVTZ3ekV2NjNqcm1KcnNWVlZOcUZzSkNuaGxuaE9QSWMxak4tZU1abjhGUVE4RFB6MF96ZzhlbXpSTVdoYjA5RTlidjg0R0tyaW1scEFabTJSaU8zaTdYRDdySGNfX1huWE1WM1NfTTkwTHJ1SlRLZVNwR1NUM3ZFdlJxeDUwLUFFNFNZRHk0?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-z-fold-8-discount.html",
+   "at": "2026-11-17T02:36:49+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
