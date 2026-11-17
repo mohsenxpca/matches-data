@@ -1,17 +1,6 @@
 {
  "done": [
   {
-   "u": "https://fdpradio.com/los-italianos-trituraron-a-los-franceses-de-visitantes/",
-   "t": "Los italianos trituraron a los franceses de visitantes",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 10",
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الموضوع منشور مسبقاً (تطابق في 5 كيانات جوهرية ({'تاريخي', 'فوز', 'نادي', 'اهداف', 'كومو'}) مع: فوز تاريخي لنادي كومو الإيطالي بـ 9 أهداف في دوري أبطال أوروبا)"
-   ]
-  },
-  {
    "u": "https://www.marca.com/futbol/champions-league/2026/11/04/golazo-tinerfeno-nico-paz-dedicado-demi.html",
    "t": "Golazo del tinerfeño Nico Paz... dedicado a 'Demi'",
    "title": "نيكو باز يتألق مع كومو ويهدي هدفاً مؤثراً لروح مشجع تينيريفي",
@@ -3377,6 +3366,15 @@
    "at": "2026-11-17T15:38:28.874120+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.elbalad.news/7184186",
+   "t": "عبدالناصر زيدان: محترفوا الزمالك حصلوا مستحقاتهم في المواعيد المحددة",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "الـ body 340 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
