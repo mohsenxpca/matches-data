@@ -298,6 +298,16 @@
       "err": [
         "الـ slug غير صالح (samsung-galaxy-tab-s10-one-ui-9-update): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
       ]
+    },
+    {
+      "title": "Apple’s variable aperture might have inspired Samsung to bring it back on the Galaxy S28",
+      "orig_link": "https://www.gizmochina.com/2026/11/17/apples-variable-aperture-might-have-inspired-samsung-to-bring-it-back-on-the-galaxy-s28/",
+      "at": "2026-11-17T15:26:07.878609+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (426 كلمة، والمطلوب 450+ كلمة)",
+        "العنوان مكرر أو قريب جداً من خبر منشور: تسريب: سامسونج قد تعيد كاميرا الفتحة المتغيرة لهواتف S28"
+      ]
     }
   ]
 }
