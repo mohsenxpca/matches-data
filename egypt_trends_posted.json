@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7168772",
-   "t": "الدولار يواصل التراجع أمام الجنيه اليوم الخميس.. أقل من 55 جنيهًا",
-   "title": "الدولار يتراجع أمام الجنيه اليوم الخميس.. أقل من 55 جنيهًا",
-   "url": "https://www.egyptaway.com/2026/11/dollar-falls-below-55-egp.html",
-   "at": "2026-11-05T10:03:49.607826+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://meteofrance.com/actualites/meteo-temperatures-en-baisse-degradation-pluvio-orageuse-a-partir-de-mercredi-par-le-sud",
    "t": "Météo : nouvel épisode méditerranéen sur le Sud-Est et la Corse",
    "at": "2026-11-05",
@@ -3373,6 +3364,16 @@
    "url": "https://www.egyptaway.com/2026/11/how-to-download-gta-6-fast.html",
    "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202611160415261526_181.jpg&w=1200&output=webp&q=80",
    "at": "2026-11-18T00:19:20.245398+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7184945",
+   "t": "«يورتشيتش»: بيراميدز كان «الحصى في حذاء الكرة المصرية» .. وحطّمنا مفهوم كرة القدم في مصر",
+   "title": "يورتشيتش: بيراميدز أزعج الكبار وغير معادلة الدوري المصري",
+   "url": "https://www.egyptaway.com/2026/11/jurcic-pyramids-egyptian-football-impact.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2026/11/large/774952629664202611180126562656.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-18T01:56:02.534336+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
