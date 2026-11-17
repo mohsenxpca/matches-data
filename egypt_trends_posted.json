@@ -1,17 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.wacountry.health.wa.gov.au/News/2026/11/03/HEALTH-ALERT-Protect-yourself-against-extreme-heat",
-   "t": "HEALTH ALERT: Protect yourself against extreme heat",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 5",
-    "الـ body 390 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'تضرب', 'مناطق'}) مع تشابه نصي مع: طقس 2 نوفمبر: صقيع ورياح قوية تضرب مناطق واسعة في كازاخستان)"
-   ]
-  },
-  {
    "u": "https://www.ourlocalcommunityonline.com/2026/10/26/weather-radios-distributed-in-western-north-carolina/",
    "t": "Weather Radios Distributed In Western North Carolina",
    "at": "2026-11-05",
@@ -3379,6 +3368,15 @@
    "at": "2026-11-17T19:20:45.309275+02:00",
    "ok": true,
    "type": "public_query"
+  },
+  {
+   "u": "https://www.elbalad.news/7184522",
+   "t": "رئيس الرعاية الصحية: السياحة العلاجية تحقق 10 ملايين دولار إيرادات وتدعم تطوير المستشفيات",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'دولار', 'مليون'}) مع تشابه نصي مع: مبيعات الطلب المسبق للعبة جي تي إيه 6 تقترب من 750 مليون دولار)"
+   ]
   }
  ]
 }
