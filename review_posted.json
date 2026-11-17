@@ -1,33 +1,6 @@
 {
  "done": [
   {
-   "title": "Android’s first wide smartphone, the Coolpad Cool X Wide, is now on sale",
-   "url": "https://www.gizmochina.com/2026/11/08/androids-first-wide-smartphone-the-coolpad-cool-x-wide-is-now-on-sale/",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (677 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Inside ARRI: From Hollywood cinema cameras to the Honor Magic9 Pro Max",
-   "url": "https://www.gsmarena.com/inside_arri_from_hollywood_cinema_cameras_to_the_honor_magic9_pro_max-news-75353.php",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (642 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Deals: Latest Samsung foldables, Pixel 11 series, and more discounted",
-   "url": "https://www.gsmarena.com/deals_latest_samsung_foldables_pixel_11_series_and_more_discounted-news-75393.php",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (567 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Google Pixel 11 Pro XL vs Samsung Galaxy S26 Ultra",
    "url": "https://www.gsmarena.com/pixel_11_pro_xl_vs_galaxy_s26_ultra_battery_camera_price_compared-news-75303.php",
    "at": "2026-11-09",
@@ -3243,6 +3216,27 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Recent story overlap on key terms ['image', 'osta', 'ahead', 'live']"
+  },
+  {
+   "title": "Huawei Mate X8 RAM and storage options revealed as reservations open - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNW83MFF3Z3p2OGVrOUpHeENNOTVzeldoZWdBajFYTGNkMjBIeWFOdml6NzlZb3N5ZHk2OHNBcW9wS05NZU0xbWlzLVBKYkFPOWpXbFhBRUN4b1RpdmpZdno5OWFSTVFPZFlHcjhtaVFRemZtZEVKZExwbFplN2g1VllyT0w4NEl2d0MxZHNpLVM5a2xFcUJTcTV2azBqV1JDbU9YN1RUTTVJbkl40gGoAUFVX3lxTFBjWm1odzFFTms3WEJobWZkd0dzZEFFaV9CXy1iZENwd3FuLVh2bkR0WUctckJxQzVCc0MtR1VqWjBxeDQ0bHlwUnNwQXJLM0JWdkFUOUNqZV9MbVlCcWJLTF84TndyVEV5OHVNMHkwbFhYMGs1QW1sUkZJZFlWalNXVDJPRFRnbnVtSThndnl0a1BGVnBUTTVRdUktWjBEOUNkYUh0M1J5aw?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['mate', 'revealed', 'storage', 'options']"
+  },
+  {
+   "title": "Samsung Galaxy Z Fold8 and Fold8 Ultra win CES 2027 Best of Innovation awards - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeHpuX3l2ODV4bTExVjVGcFZFbk9UbGxEOEJDcDlDTTFoOWVNTnFNMHhNRnNGcUJ5SU1PYkNoMlB5bEJjSFFlYVRvWl9lM2gxdWloMGxrNDVRc0xLSnRVWHo2bWMyd1VPMTdKSmFtbGNIelJqR3FQZkRJTU1xdW15VnVCbEt1YnVOVmxCd1pMMDhYQXY0VFM4UnExME13YmNvRU5WRnJxQ1RHSmR2dldXV0ZCRnJQQlQ00gG0AUFVX3lxTFAtLXFXY1ozOUJ6WnVyb1JCNm04YnNjZnYxNXdHX2swbjhPQ3FHc3RhQ0phdVRZSUxJZTNlcUJ1R1JCdEJkWEpXbnVRNmlwQ2QxSnJEQ3dUNkUwZ2RSZHJJamI1VUFHVUtkSjVuY0MyRXdOVUMxZngtb2V0QWt1T2VvcHNfZ0huYTV0ODV6V29RWkdCS2NScm9XazVvdHNnSHJuQjBSb1JuZ2dCa3hBbVpTeGFfXw?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['best', '2027', 'innovation', 'awards']"
+  },
+  {
+   "title": "iPhone 20 Pro tipped to feature new main camera sensor and ISP - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeE5MT2EwYkQ0NTAwWVRSdVVmald4b0ZTdlg0bkd2LWt4cGQ4QTVWcFlwTHFsME5tNGJ4S2JRT3NxY0ZvQXV3c3IwT3lQVjZvUGt0ckNnLTBvTGUtZTJDVV9XelRoZWJWSURmVWhwTXkyYldfeGpucHRhU0N2TVNlQzRaaVNWRmR0anpwX1A1UmRlZmsxaC14Y3RkRnp4ZWZpQUJsQ9IBoAFBVV95cUxOT2ZXZV9vR3hXODNZRnpGTnJuUTRBcTA1R1JUOHJSVHJTOFB6QjNoUERPVExpdUFGb3UyeWtIWnlFcFNna0hLVEZ6dkhzYWZReGxFTEF1VEdhQ1JvMlNIczItQU5MSEo1YTMyREFWQ0tJWnFVVVZ4Z1M4MkV2YUh1ak10dnlLS25oOW1LUzBJRzQ4YjFTWlpKcnNkZnA5Mlhz?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['iphone', 'sensor', 'tipped', 'main']"
   }
  ]
 }
