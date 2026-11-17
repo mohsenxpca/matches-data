@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "WhatsApp is testing a feature that lets you control who sees your phone number - Reader comments - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yNFJfZmw0al9XXzZvYjE5ajRUdG80Q0I2MVF2TFljUDVYaDN5WkljTkxtMTBVT1FOMXhiWkdiTUVYd0F2WFlFUFFyV2dPTEFCblcwRG5n?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['your', 'number', 'whatsapp', 'control']"
-  },
-  {
    "title": "itel City 100 - Full phone specifications - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15U0lkVEZkaE45aVBTSVJLZWJhSUptT2RiUmZkNF9DUFk1ZDlPZ2l5UFNxVWU0Umw4S2pGUkowNDdTUmhMUllKMElORmNGSFZ3dld3TjRlSXhid2dj?oc=5",
    "at": "2026-11-09",
@@ -3240,6 +3233,15 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (649 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "SKT Launches BOOX Palma 3 Smartphone-Style E-Paper Device in Japan at ¥54,800, Running Android 16 - BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QdDhMTW0yb09LeDFFX2h1V2FIVGdBSDNScVFtaGtfUE5CaWV2ZnMwNVI3WW45YTkzQ0lEMGUtU2NuNjBfTVhRQ2xCMXBaTjVWeFJqUVJGN25TSW5wNkp4cnphOF9XU3Q5cThEbEVxcGRxRjFJWUE?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (571 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
   }
  ]
