@@ -14,7 +14,7 @@ import football as f
 BLOGS = {"egyptaway": ("8325646053257070334", "https://www.egyptaway.com"),
          "review": ("2997328666613207792", "https://www.review-mobile.com")}
 GOOGLE_HOSTED = re.compile(r"(?i)^https?://([a-z0-9-]+\.)*(googleusercontent\.com|blogspot\.com|ggpht\.com)/")
-FIRST_IMG = re.compile(r"""(?is)(<img\b[^>]*?\bsrc=)(["'])([^"']+)(\2)""")
+FIRST_IMG = re.compile(r"""(?is)(<img\b[^>]*?(?<![\w\-])src=)(["'])([^"']+)(\2)""")
 PROXY = re.compile(r"(https://lh3\.googleusercontent\.com/blogger_img_proxy/[A-Za-z0-9_\-]+)")
 DRY = os.environ.get("DRY_RUN") == "1"
 HOURS = int(os.environ.get("HOURS") or 48)

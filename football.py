@@ -1262,7 +1262,7 @@ def _instant_thumbfix(tok, post_info):
         content = post_info.get("content", "")
         if not url or not pid or not content:
             return post_info
-        m_img = re.search(r'(?is)(<img\b[^>]*?\bsrc=)(["\'])([^"\']+)(\2)', content)
+        m_img = re.search(r'(?is)(<img\b[^>]*?(?<![\w\-])src=)(["\'])([^"\']+)(\2)', content)
         if not m_img or re.search(r'(?i)googleusercontent\.com|blogspot\.com|ggpht\.com', m_img.group(3)):
             return post_info
         time.sleep(1.5)
