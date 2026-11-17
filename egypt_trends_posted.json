@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.marca.com/futbol/champions-league/2026/11/04/golazo-tinerfeno-nico-paz-dedicado-demi.html",
-   "t": "Golazo del tinerfeño Nico Paz... dedicado a 'Demi'",
-   "title": "نيكو باز يتألق مع كومو ويهدي هدفاً مؤثراً لروح مشجع تينيريفي",
-   "url": "https://www.egyptaway.com/2026/11/nico-paz-como-tribute-goal.html",
-   "at": "2026-11-05T03:02:26.630648+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/5/شاشات-هواتف-قابلة-للتمدد-هل-يتغير-شكل-الموبايل-خلال-السنوات/7605922",
    "t": "شاشات هواتف قابلة للتمدد.. هل يتغير شكل الموبايل خلال السنوات المقبلة؟",
    "title": "مستقبل الهواتف.. هل تقضي الشاشات القابلة للتمدد على الموبايلات؟",
@@ -3375,6 +3366,16 @@
    "reason": [
     "الـ body 340 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/17/2-5-مليار-جنيه-اتصرفت-و-مليار-لسه-أين-ذهبت/7622457",
+   "t": "2.5 مليار جنيه اتصرفت و\"مليار لسه\"..أين ذهبت فلوس المساهمين في البورصة؟",
+   "title": "مصير أموال مساهمي البورصة: 2.5 مليار جنيه اتصرفت و500 مليون لسة",
+   "url": "https://www.egyptaway.com/2026/11/where-shareholders-money-went.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/201611151242464246.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-17T16:53:40.759717+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
