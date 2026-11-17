@@ -1,45 +1,6 @@
 {
  "done": [
   {
-   "title": "vivo V80",
-   "url": "https://www.gsmarena.com/vivo_v80-14989.php",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Model code [v80] with variants set() found in review: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
-  },
-  {
-   "title": "Deals: Latest Samsung foldables, Pixel 11 series, and more discounted - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNGJHZDBha0NhTXhxSVdzLUZ4NVVnU25FaWJ4U3c1dVhKc0lRVVRkclNKVHpLMjZZZmoySGNqSWl0czExWkRKR0hmZkVuT2xRM0JGRkRIVzdOeC1wT2F2YWRtWVdIQkROZEp4SF80X3AyT0djUVo0SEh3ZzBLLXg3MmVobTJXNmRUWkpfLUd4S2k4SUJFZXhabXgwYnlHTWo0Sjh1MHlmWmtPUQ?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['foldables', 'latest', 'pixel', 'deals']"
-  },
-  {
-   "title": "Eugene 911 phone lines go down for hours, police investigating copper wire theft as cause - KPTV",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVTNZQjV6MFItUGlaZ3haNWxGbGdFT0ZyeGhCMFJ2MnJLZlBnc2dzS09nMTM0ZlltY1paYjBoQi04akRnbG5OSERwd3BTSFFoUGotYUJBZk5JWDE1QzhGcWt6TjFwZ3VaR0dnQjh4UjVFZi1zZXo5T2dENVlldlhnRXY2MXdKaXQyajhxdlJXcVQyTWRsYnhqaUVFOU82T2ZabVhIVFd1WXA0THhiZUg0c3d6NEw?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (553 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "3 reasons why I'll never fully switch to Brave and still have Chrome on my phone - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YQU5ObkRPV3ZMdG5JYWRBOWczcTZoTHVpSVdhcVM5RG5Id05STVV6RUVlZ3Z2d29FTWdWdXB6SHpraTU2dF92eUM3WFAxRVh0N2hBNzRPRlRRZ09XTzVSVWwyeXdqbGhZZm45amNWd0xwa1E?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (618 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Revolut enters Irish mobile phone market with €9.99 a month offer to first 25,000 customers - Irish Examiner",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pakgyNFZiamxtTkF4QTkyUFkxdENEMlJiUVpUZUJtODJmY2t2d1FkWndQeXVXY2lNWXh6TG5hWEgxbXpiZ1czUngySHNCVXNuMkhHUjFoaWZvMFUtMzBrRUxzVWZ3dTEtSTlUejE0Y0JmTko3TFE?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "html_guard: refused to send broken post HTML (extra </div> closes the theme layout (check quotes inside onclick/attributes)): revolut enters irish mobile market"
-  },
-  {
    "title": "Motorola is quietly building apps and features that make Pixel and Samsung phones feel behind the times - Android Police",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc2hSVVJmbkhyYjVJbHVzaks0T3hqSDdtNktzNDIyMTVzckFwWmI1bFMyNWRrUjBJME1CYmhCNk9RYk4tN21sMmd3QlR2aGFWYTJPM0NJb0N5b1Z2M181ZEhndDNucDRvNHhnbS1xUV83cmtZSjhDZkZCU2NkTjluQlMxZUwxSExkd3V5UFNrdzVYZGQ0QnQ4TFo3YklVZ0tNcGhFVUc4V2l2cnBfazlhZC0tTjNXdzA?oc=5",
    "at": "2026-11-09",
@@ -3233,6 +3194,49 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Recent story overlap on key terms ['play', 'lite', 'console', 'iqoo']"
+  },
+  {
+   "title": "Xiaomi 18 appears in real, Xiaomi CEO flaunts it at APEC",
+   "url": "https://www.gizmochina.com/2026/11/17/xiaomi-18-appears-in-real-ceo-flaunts-it-at-apec/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18' already covered in: حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد"
+  },
+  {
+   "title": "Galaxy A38 development progresses further",
+   "url": "https://www.sammobile.com/news/galaxy-a38-development-progresses-further/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (641 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Set custom Routines based on your Galaxy Z Fold 8’s folding status",
+   "url": "https://www.sammobile.com/news/set-custom-routines-based-on-your-galaxy-z-fold-8-folding-status/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (670 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "How Galaxy AI Premium will affect custom cards in Now Brief",
+   "url": "https://www.sammobile.com/news/samsung-galaxy-ai-premium-raise-now-brief-custom-cards-limit/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (600 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Oukitel C17 Mini - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zZ1dJaC1LVFN4UW1tVzlJZFhOSGxhQVF2S2EteXB5c3lzM1BldkZoeDlTUS1Makk1dS1sdFUxYS1tWHZ2ZS1XWTBHMzRRVlI3eXNINlFFSGx2YUhBOV9UMA?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (601 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
