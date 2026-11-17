@@ -271,6 +271,24 @@
       "err": [
         "طول الخبر قصير (359 كلمة، والمطلوب 420+ كلمة)"
       ]
+    },
+    {
+      "title": "تسريب: سامسونج Galaxy A38 يظهر في خوادم الشركة ببطارية ضخمة",
+      "orig_link": "https://www.sammobile.com/news/galaxy-a38-development-progresses-further/",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-galaxy-a38-leak-battery-specs.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-17T13:56:07.709931+02:00",
+      "ok": true
+    },
+    {
+      "title": "إطلاق ميزات الأتمتة المخصصة لحالة طي هاتف سامسونج Galaxy Z Fold 8",
+      "orig_link": "https://www.sammobile.com/news/set-custom-routines-based-on-your-galaxy-z-fold-8-folding-status/",
+      "post_url": "https://www.egyptaway.com/2026/11/galaxy-z-fold-8-folding-status-routines.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-17T13:56:07.709931+02:00",
+      "ok": true
     }
   ]
 }
