@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "vivo X Fold6 review",
-   "url": "https://www.gsmarena.com/vivo_x_fold6-review-3006.php",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Model code [fold6] with variants set() found in review: مراجعة vivo X Fold6: فولد ببطارية 6900 مللي أمبير 2026"
-  },
-  {
    "title": "Samsung Galaxy A18 4G review",
    "url": "https://www.gsmarena.com/samsung_galaxy_a18_4g-review-3004.php",
    "at": "2026-11-09",
@@ -3234,6 +3227,16 @@
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwaDFvS2pSd0tkN2pvVTJFSE5rQVFjYzVOQU5CMmRybHV5aktfalhwXzZnci1qbEJQU3dpWGVZaUdtUU9iR2JQMTYwb2xqQVU3YWl4T2VhVlM0Vms1YTluaGppdUNqRTFwRWtzdjNDdVlXM3BTZmQ5bQ?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/android-live-caption-feature-guide.html",
    "at": "2026-11-17T14:58:15+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "ماذا تعني علامة التعجب بجانب أيقونة الواي فاي في أندرويد؟",
+   "cand_title": "Why There's An Exclamation Point Next To Your Android Phone's Wi-Fi Symbol - SlashGear",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVHYzRGVyQUQtWl9OZzctWWdkT1hPSndxUG1YUFZtWjF3LTR6Q1BHUWZSRXMtWTAtcVZSUGtfT1hCeVh6cW1EU2NkY1p2Wll1aGhHcXVZOVBLdHNLZ19LTzJRQWJySkNVRk95UlVYVGl1LUFKS3A3VjJnZGNiV3NMcENIRzdUZ0RHYnc?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/android-wifi-exclamation-mark-meaning.html",
+   "at": "2026-11-17T15:28:50+02:00",
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
