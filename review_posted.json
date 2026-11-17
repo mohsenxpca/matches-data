@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "تحديث أمني جديد لهاتف Motorola Razr Fold.. ما القصة؟",
-   "cand_title": "Your Motorola Razr Fold is receiving an update although it might not make you happy - PhoneArena",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbDIybkp4bU1QUWxXR0dWZ3ROb2lFWjFpS3daTVhhWlBaMDg1RWg4Y1VnWncxMnJYUXVWTV9vXzBrVVJSaXc4YklOdk5ZaFdUdThPNURDUUp0X2xLbjhUTHhhM2xzWEFzUFRXMXB6NHRac2V0Ri1zYVVULVVYaWUyY1RLcGQ?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/motorola-razr-fold-security-update.html",
-   "at": "2026-11-08T06:12:48+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "موتورولا"
-  },
-  {
    "title": "Android’s first wide smartphone, the Coolpad Cool X Wide, is now on sale",
    "url": "https://www.gizmochina.com/2026/11/08/androids-first-wide-smartphone-the-coolpad-cool-x-wide-is-now-on-sale/",
    "at": "2026-11-09",
@@ -3246,6 +3236,13 @@
    "reason": [
     "طول المقال قصير (580 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "Huawei Osta O1 Pro's live image leaks ahead of launch - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWmp4ck1pQmNvOElQUUFWV0d3R3EzUUNFVkpsbmx3RkFpMU1KR0xiSU1JbHNXN2wyQmlRaV9ob3k5MHd2blV2SzJqVUZoXzN5U0t4cEh3eXlQS2t6bVJ6VjQ3a0Y4RFR3YWxjcFBqUThnNmE3NGF4emo2dEZ4V1dLRUlRWE5qMEJjcHBENVdsVXlFMUFub3M4?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['image', 'osta', 'ahead', 'live']"
   }
  ]
 }
