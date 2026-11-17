@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Compare Xiaomi Poco X8s vs. Samsung Galaxy A55 vs. OnePlus 12R - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVTdJb1U0NS1jMGUybGR3TjVyckR2UWRMWEN4eGhCUW5HM0NPNHhYRFpHTnpnaXFIN01uRjR0MmhoclpBODZDMk1QSWc1TldYYjdRU1k3QXY0QWlObjRLTUFLdkYwOVUzUFNsZ0gyemcyRUhxM1RmSnNhUkZJdnBjbmxuUnBBdk0wRkE?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Phone 'a55' already covered in: مواصفات سامسونج A55 5G التفصيلية وتقييم الكاميرا والأداء"
-  },
-  {
    "title": "Honor is reportedly launching the Robot Phone 2 much earlier than expected - PhoneArena",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSURXanpwOUFua21MQnVRcWxVQ0V1ZjF4TGN2NExrdjBmUl82cXBIVzRuUmtIaWZnbmFUTTAtRGJpVWdsNFAxbExjQy1pSE9YenhPMGJUZWpOODBQRDl2NFZ0V0hTX3hNdjBlOHVCQnNzdE0yUlJaVndUcjBOdFFldnF5ZmFxRHNDZVM1R20xaEJzeGVBNkNBRmVOQ213YUZTd1hXYUR4VkE3V1RIYUZEOXNuTkZKQQ?oc=5",
    "at": "2026-11-09",
@@ -3246,6 +3239,13 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Phone 'z12 lite' already covered in: تسريب مواصفات iQOO Z12 Lite 5G.. موعد الإطلاق وأبرز المزايا"
+  },
+  {
+   "title": "iPhone 20 Pro tipped to feature new main camera sensor and ISP - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeE5MT2EwYkQ0NTAwWVRSdVVmald4b0ZTdlg0bkd2LWt4cGQ4QTVWcFlwTHFsME5tNGJ4S2JRT3NxY0ZvQXV3c3IwT3lQVjZvUGt0ckNnLTBvTGUtZTJDVV9XelRoZWJWSURmVWhwTXkyYldfeGpucHRhU0N2TVNlQzRaaVNWRmR0anpwX1A1UmRlZmsxaC14Y3RkRnp4ZWZpQUJsQw?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['tipped', 'main', 'iphone', 'sensor']"
   }
  ]
 }
