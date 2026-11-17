@@ -1,73 +1,6 @@
 {
  "done": [
   {
-   "title": "ثغرة أمنية تضرب عروض الكوميديا وتكشف حدود تقنيات حظر الهواتف",
-   "cand_title": "Dave Chappelle's Phone-Free Show Fails to Prevent Controversial Footage Leak - AOL.com",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQanVHSmVYM2x2QlJUTXRDLWZYQmdpcXNzM0xRWHRSNUprdE1yTm52Sm9nSVJuRzU5MVdjTzQ5TGd2S0FaZDVQMnFybjV5c2ZBbHk2UHpiOHZDdG51RnR3M0JBaTBSak5WTFU4ZUJjWHhzcTYzUGNOUWZ5d0VRT014cg?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/phone-free-show-security-flaw.html",
-   "at": "2026-11-09T07:16:36+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "ماذا تعني خطوة شاومي وأوبو وفيفو الخطيرة ضد التطبيقات؟",
-   "cand_title": "Oppo, Vivo, Xiaomi, and Honor launch Android Developer Verification (ADV) in China",
-   "url": "https://www.gizmochina.com/2026/11/09/oppo-vivo-xiaomi-and-honor-launch-android-developer-verification-adv-in-china/",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-vivo-xiaomi-honor-android-developer.html",
-   "at": "2026-11-10T00:21:25+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "شاومي"
-  },
-  {
-   "title": "ثورة سامسونج بشاشات OLED.. هل تقضي AOC على التطويق الأبدي؟",
-   "cand_title": "AOC launches 32-inch 4K QD-OLED monitor with Samsung’s new five-layer Penta Tandem tech",
-   "url": "https://www.gizmochina.com/2026/11/09/aoc-u32u4-4k-qd-oled-monitor-launched-specs-price/",
-   "post_url": "https://www.review-mobile.com/2026/11/aoc-32-inch-qd-oled-monitor.html",
-   "at": "2026-11-10T00:51:30+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "Colorful launches iGame Sigil 100W GaN charger with three ports & PD 3.2 AVS support for iPhone 18 Pro",
-   "url": "https://www.gizmochina.com/2026/11/09/colorful-igame-sigil-100w-gan-charger-launched-specs-price/",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Phone 'iphone 18 pro' already covered in: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
-   "title": "Should you get an iPhone 17 now or wait for the iPhone 18 launch?",
-   "url": "https://www.gizmochina.com/2026/11/09/should-you-get-iphone-17-now-or-wait-for-iphone-18-launch/",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Phone 'iphone 17' already covered in: مراجعة سعر و مواصفات iPhone 17"
-  },
-  {
-   "title": "Huawei Pura 90 Plus vs Vivo X300 Pro: Is the More Expensive Phone Better?",
-   "url": "https://www.gizmochina.com/2026/11/09/huawei-pura-90-plus-vs-vivo-x300-pro/",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Phone 'x300 pro' already covered in: مراجعة vivo X300 Pro: تليفوتو 200 ميجابكسل ومعالج Dimensity 9500 وبطارية 6510"
-  },
-  {
-   "title": "Huawei OSTA O1 Pro front panel leaks ahead of this month’s brand launch",
-   "url": "https://www.gizmochina.com/2026/11/09/huawei-osta-o1-pro-front-panel-leaks-ahead-of-this-months-brand-launch/",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (628 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "OnePlus Ace 7 Pro Now Available on Giztop With a Starting Price of $799",
-   "url": "https://www.gizmochina.com/2026/11/09/oneplus-ace-7-pro-price-availability-giztop/",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Phone 'ace 7 pro' already covered in: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
    "title": "Xiaomi 18 Pro Max in for review",
    "url": "https://www.gsmarena.com/xiaomi_18_pro_max_in_for_review-news-75411.php",
    "at": "2026-11-10",
@@ -3230,6 +3163,69 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Model code [m100] with variants {'pro'} found in review: مراجعة شاملة هاتف Xiaomi Redmi M100 Pro: مواصفات عملاق الفئة"
+  },
+  {
+   "title": "Sharp Aquos sense11 vs Xiaomi 18 Pro",
+   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['sense11', 'aquos', 'sharp']"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max vs Oppo Reno17 Pro (China)",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php||https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'reno17 pro' already covered in: مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،"
+  },
+  {
+   "title": "Xiaomi 18 Pro and 18 Pro Max go global with rear display and dual 200MP cameras",
+   "url": "https://www.gizmochina.com/2026/11/17/xiaomi-18-pro-and-xiaomi-18-pro-max-launch-global-rear-display-200mp-camera-specs-price/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['cameras', 'dual', 'rear', '200mp']"
+  },
+  {
+   "title": "Galaxy Z Fold 8 now costs only $1,550 thanks to the early Black Friday sale",
+   "url": "https://www.gizmochina.com/2026/11/17/galaxy-z-fold-8-now-costs-only-1550-thanks-to-the-early-black-friday-sale/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (662 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Xiaomi 18 Pro and 18 Pro Max begin their international rollout",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_18_pro_max_international_launch-news-75505.php",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
+  },
+  {
+   "title": "Xiaomi 18 Pro series goes global with privacy displays and rear screens",
+   "url": "https://www.androidauthority.com/xiaomi-18-pro-series-global-launch-3735934/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
+  },
+  {
+   "title": "Galaxy Z Fold 8 drops to a record low with $350 off",
+   "url": "https://www.androidauthority.com/samsung-galaxy-z-fold-8-record-low-deal-3736119/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (587 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "مراجعة Xiaomi Poco X8s: هل يغير قواعد الفئة المتوسطة في 2026؟",
+   "cand_title": "Xiaomi Poco X8s",
+   "url": "https://www.gsmarena.com/xiaomi_poco_x8s_5g-15038.php",
+   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-poco-x8s-review-specs-price.html",
+   "at": "2026-11-17T17:06:52+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "شاومي"
   }
  ]
 }
