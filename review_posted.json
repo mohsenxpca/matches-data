@@ -1,61 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro Max in for review",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_max_in_for_review-news-75411.php",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
-  },
-  {
-   "title": "Google Pixel 11 Pro XL vs. Pixel 10 Pro XL",
-   "url": "https://www.gsmarena.com/pixel_11_pro_xl_vs_pixel_10_pro_xl_battery_camera_price_compared-news-75356.php",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Phone 'pixel 11 pro' already covered in: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
-  },
-  {
-   "title": "Leak details Samsung's plans for Galaxy AI Premium: new features on free and paid tiers",
-   "url": "https://www.gsmarena.com/leak_details_samsungs_plans_for_galaxy_ai_premium_new_features_on_free_and_paid_tiers-news-75408.php",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (559 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "iPhone 18 and 18e to feature same sized screens and batteries",
-   "url": "https://www.gsmarena.com/iphone_18_and_18e_to_feature_same_sized_screens_and_batteries__-news-75403.php",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Phone '18e' already covered in: تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق"
-  },
-  {
-   "title": "Here's your first look at Huawei's wide-screen phone from sub-brand Osta",
-   "url": "https://www.gsmarena.com/heres_your_first_look_at_huaweis_widescreen_phone_from_subbrand_osta-news-75404.php",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (678 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "It's official: the Xiaomi 18 Pro and 18 Pro Max are launching globally next week",
-   "url": "https://www.gsmarena.com/its_official_the_xiaomi_18_pro_and_18_pro_max_are_launching_globally_next_week-news-75406.php",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "Here's what vivo will probably call its first gimbal camera",
-   "url": "https://www.gsmarena.com/heres_what_vivo_will_probably_call_its_first_gimbal_camera-news-75402.php",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (679 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "The Oppo Reno17 and Reno17 Pro are launching next week",
    "url": "https://www.gsmarena.com/the_oppo_reno17_and_reno17_pro_are_launching_next_week-news-75400.php",
    "at": "2026-11-10",
@@ -3226,6 +3171,55 @@
    "ok": true,
    "kind": "review",
    "brand": "شاومي"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max (Global) review",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_max-review-3013.php",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
+  },
+  {
+   "title": "Your paid Galaxy AI subscription could unlock extra custom cards in Now Brief",
+   "url": "https://www.androidauthority.com/samsung-galaxy-ai-custom-cards-now-brief-limit-credits-3736153/",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['custom', 'galaxy', 'your']"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max review - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVeU41VC1ZVnkwN0VQd0NIeVg0NzdncUNHNzI1VGFmNVhQbkoxdl9XTlFvbTRpbnB6RzFNRkJ6MG9naHRjb2J6Vy03STBHY25GdWtPWUNBYnJUcllpcnJlWGdMOGpQTGlVcXc?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
+  },
+  {
+   "title": "Xiaomi 18 Pro and 18 Pro Max begin their international rollout - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd01yM0dpSk5mMk8tb1lQR3p0TnRZTEl3djZzZkplUUJCOFZzd1duc2dOZ2R3dVZhbjRMUTV3YmZXcWthc0xjYjJTOFFRejFjQkpGV3otWm5XWkRGXzR2QTNELUtyX1drb3hYdl9WbnVobUFKWktpVXVSQjl3WjlUUWdReXRGMXpkckJCZ05R0gGKAUFVX3lxTE5PUm1EVE1CZ3ZLQmN6Qjdzd1BlTGI4QUZ3R240NlB6cXJFQzE1ZTFNRkFzS1hweEF2Mnhqd213eXAzenhZYWhUWkVJUUdpd0ZXTHBtVUZCZDc2bjdLcENCRkNfLV9za0kwR2kxY3dtZi1OY1RkSDB4UXVJSHhnZlhTS1dTZFVpV09LUQ?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['international', 'begin', 'rollout', 'their']"
+  },
+  {
+   "title": "New leak offers a first look at the iPhone 20 Pro's front glass - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWTdySWhTVVF2MXRkOTJ3c1pLcWMwQlVNdDNPeVNEanNfbFVwbFRRSGRyaHlLamwyXy1IUmY4Z0FSOFZoOUhnbmdmVkN5aWpiQkc4a3hZZTladTJaZ3B4NFZXaGtsWDZPaG9vQ1ZvakhQTEJWMHBBZ29VNmx6VzBHZlc0SVdEbmhETEw0VUdpTjNsaUFOQWxQUVBqTUMwcGRuV0FmRNIBoAFBVV95cUxObzFOWHIzMTBVem05Q0VLMndkQURpNWsyTzYwWk9LTXo4akEtTTRRUzVYeS1Fc2J1YWZvNHVLYXptYmlpMHI5OHJHYWY3SUpPUzlrd0RHR2QzczNuNVRpNHl0cE5rRDE2d1A0XzdBZS10MlMzMWdsV0tmdE50UnJuV2JZMmtvM2EwYWJZNktjLTlKc290Smg3a0FJMzV5OHcw?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['front', 'look', 'glass', 'offers']"
+  },
+  {
+   "title": "Xiaomi 18 Pro Series Australia: Price, Specs & Black Friday Deals - Digital Reviews Network",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZFFiZG81dmkyR1pvejRDMlhMcG9MWWJWUkQ4Y3NMaHZuVVdlTUdFdF9xMVBuR3V0LVdNYXAxajNNSmFRcEV0NG4yalN1QkU1MHZsbnNNbnE4cHdMXzZhWlg5TzVBT055YVRONHRpcGhWT3R3WDAzZGJjX0VQSms2dGlydmgxUmJDQ2QyVnd0US1KZHlYUV9sUkJ3ZC1WZzlLc3haaw?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "Xiaomi 18 Pro",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro-14959.php",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
   }
  ]
 }
