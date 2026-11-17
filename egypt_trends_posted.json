@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/5/آبل-تعيد-تصميم-تطبيق-الصحة-فى-iOS-27-3-وبرامج/7605880",
-   "t": "آبل تعيد تصميم تطبيق الصحة فى iOS 27.3.. وبرامج تمارين تناسب كل مستخدم",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 4"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7168177",
    "t": "هونر تختبر هاتفا ذكيا يعمل لمدة أسبوع كامل دون شحن",
    "at": "2026-11-05",
@@ -3376,6 +3367,16 @@
    "url": "https://www.egyptaway.com/2026/11/british-hacker-gta6-hotel-tv.html",
    "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/20261117112202222_181.jpg&w=1200&output=webp&q=80",
    "at": "2026-11-17T14:12:25.856979+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/17/وداعا-لجوجل-درايف-واتساب-تختبر-خدمة-تخزين-سحابي-خاصة-بها/7622294",
+   "t": "وداعا لجوجل درايف.. واتساب تختبر خدمة تخزين سحابي خاصة بها للمحادثات",
+   "title": "واتساب تختبر خدمة تخزين سحابي جديدة للدردشات",
+   "url": "https://www.egyptaway.com/2026/11/whatsapp-testing-cloud-storage-service.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202611170239483948_181.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-17T14:52:11.931954+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
