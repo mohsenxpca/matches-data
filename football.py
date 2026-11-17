@@ -95,6 +95,13 @@ def secret(name):
 
 
 def token():
+    if not secret("BLOGGER_CLIENT_ID"):
+        local_pipe = r"C:\Users\H\Documents\blogger-pipeline"
+        if os.path.exists(os.path.join(local_pipe, "blogger_api.py")):
+            if local_pipe not in sys.path:
+                sys.path.insert(0, local_pipe)
+            import blogger_api
+            return blogger_api._access_token()
     r = requests.post("https://oauth2.googleapis.com/token", data={
         "client_id": secret("BLOGGER_CLIENT_ID"), "client_secret": secret("BLOGGER_CLIENT_SECRET"),
         "refresh_token": secret("BLOGGER_REFRESH_TOKEN"), "grant_type": "refresh_token"}, timeout=30)
@@ -259,8 +266,11 @@ _THINK = {"thinkingConfig": {"thinkingLevel": "low"}}
 def gemini(prompt):
     """Streams the answer (SSE) so long generations don't get their connection dropped;
     moves to the next model when one is overloaded or silent."""
-    global _THINK
+    global _THINK, _DOWN
     key = secret("GEMINI_API_KEY")
+    if not key:
+        _DOWN = True
+        return {"title": "", "slug": "", "desc": "", "body": "", "kicker": "", "headline": "", "faq": []}
     plan = [m for m in models(key) for _ in range(2)]
     for t, model in enumerate(plan):
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:streamGenerateContent"
