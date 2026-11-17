@@ -1,48 +1,39 @@
 {
-  "timestamp": "2026-11-16 12:44:17",
+  "timestamp": "2026-11-17 13:25:10",
   "dry_run": false,
-  "scanned": 457,
-  "repaired": 4,
+  "scanned": 467,
+  "repaired": 3,
   "fixes": {
-    "broken_links": 5,
+    "broken_links": 1,
     "disclaimers": 0,
     "internal_links": 0,
     "thin_posts": 0,
     "alt_tags": 0,
-    "labels": 0
+    "labels": 2
   },
   "details": [
     {
-      "id": "6938036115259642409",
-      "title": "مراجعة Oppo Find X9 Pro: شاشة LTPO AMOLED 120Hz والسعر والمواصفات",
-      "url": "https://www.review-mobile.com/2025/10/oppo-find-x9-pro-review.html",
+      "id": "98985271240973240",
+      "title": "تسريب مواصفات iQOO Z12 Lite 5G.. موعد الإطلاق وأبرز المزايا",
+      "url": "https://www.review-mobile.com/2026/11/iqoo-z12-lite-5g-specs-launch.html",
       "fixes": [
-        "Fixed broken link: /2025/01/oppo-reno13-pro.html -> /2026/11/oppo-reno17-pro-china-review.html",
-        "Fixed broken link: /2025/01/oppo-reno13-f-5g.html -> /2025/02/oppo-reno13-f-5g-now-in-egypt.html"
+        "Standardized specs/review label ['أخبار هواتف'] -> [فيفو]"
       ]
     },
     {
-      "id": "4235525347087518503",
-      "title": "تحليل Oppo Reno13 F 5G أمام المنافسين: هل ما زال يستحق الشراء؟",
-      "url": "https://www.review-mobile.com/2025/02/oppo-reno13-f-5g-now-in-egypt.html",
+      "id": "2177458641828685687",
+      "title": "تسريبات سلسلة أوبو رينو 17: بطارية عملاقة ومواصفات نارية",
+      "url": "https://www.review-mobile.com/2026/11/oppo-reno-17-series-leaks.html",
       "fixes": [
-        "Fixed broken link: /2025/01/oppo-reno13-f-5g.html -> /2025/02/oppo-reno13-f-5g-now-in-egypt.html"
+        "Standardized specs/review label ['أخبار هواتف'] -> [اوبو]"
       ]
     },
     {
-      "id": "854872468890023450",
-      "title": "دليل شراء Samsung Galaxy A05s: المميزات والعيوب وأقوى البدائل",
-      "url": "https://www.review-mobile.com/2024/12/samsung-galaxy-a05s.html",
+      "id": "147251120713078274",
+      "title": "نهاية شاشات LCD في هواتف سامسونج الرخيصة؟",
+      "url": "https://www.review-mobile.com/2026/11/samsung-brings-oled-to-cheap-galaxy.html",
       "fixes": [
-        "Fixed broken link: /2025/01/apple-iphone-16-pro-max-samsung-galaxy.html -> /2026/11/apple-iphone-20-pro-max-expectations.html"
-      ]
-    },
-    {
-      "id": "9222888820579850097",
-      "title": "مراجعة Samsung Galaxy Z Fold 6: شاشة DYNAMIC AMOLED 120Hz والسعر والمواصفات",
-      "url": "https://www.review-mobile.com/2024/10/samsung-galaxy-z-fold-6.html",
-      "fixes": [
-        "Fixed broken link: /2025/01/apple-iphone-16-pro-max-samsung-galaxy.html -> /2026/11/apple-iphone-20-pro-max-expectations.html"
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
       ]
     }
   ]
