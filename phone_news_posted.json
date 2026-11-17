@@ -35,6 +35,43 @@
       "has_real_img": true,
       "at": "2026-11-17T02:41:16.169112+02:00",
       "ok": true
+    },
+    {
+      "title": "Here's when Samsung is now rumored to bring variable aperture to its Pro and Ultra flagships",
+      "orig_link": "https://www.gsmarena.com/heres_when_samsung_is_now_rumored_to_bring_variable_aperture_to_its_pro_and_ultra_flagships-news-75499.php",
+      "at": "2026-11-17T03:11:18.082888+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (414 كلمة، والمطلوب 420+ كلمة)"
+      ]
+    },
+    {
+      "title": "نفاذ الحجز المسبق لنظارات سامسونج الذكية بتصميم Gentle Monster",
+      "orig_link": "https://www.gsmarena.com/samsungs_gentle_monster_smart_glasses_preorders_are_already_sold_out-news-75496.php",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-gentle-monster-smart-glasses.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-17T03:11:18.082888+02:00",
+      "ok": true
+    },
+    {
+      "title": "This is what the camera island on the Galaxy S27 Pro and Ultra looks like",
+      "orig_link": "https://www.gsmarena.com/this_is_what_the_camera_island_on_the_galaxy_s27_pro_and_ultra_looks_like-news-75487.php",
+      "at": "2026-11-17T03:11:18.082888+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (349 كلمة، والمطلوب 450+ كلمة)",
+        "العنوان مكرر أو قريب جداً من خبر منشور: تسريب تصميم كمرام هواتف سامسونج جلاكسي S27"
+      ]
+    },
+    {
+      "title": "تسريب آيفون ديو 2: بصمة الوجه في خطر ووقت آبل ينفد",
+      "orig_link": "https://www.gsmarena.com/iphone_duo_2_could_get_face_id_but_apple_is_running_out_of_time-news-75500.php",
+      "post_url": "https://www.egyptaway.com/2026/11/iphone-duo-2-face-id-leak.html",
+      "brand": "Apple",
+      "has_real_img": true,
+      "at": "2026-11-17T03:11:18.082888+02:00",
+      "ok": true
     }
   ]
 }
