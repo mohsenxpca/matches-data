@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.livescore.com/en/news/football/more/farioli-a-privilege-and-honour-to-share-a-touchline-with-italian-giant-allegri-football-italia/",
-   "t": "Farioli: ‘A privilege and honour to share a touchline with Italian giant Allegri’",
-   "at": "2026-11-04",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (نسبة تطابق مرتفعة مع مقال منشور: سبورتنج لشبونة يهزم شاختار دونيتسك في دوري أبطال أوروبا)"
-   ]
-  },
-  {
    "u": "https://www.napolicalcionews.it/news-calcio-napoli/Porto-Napoli--Farioli-a-Prime-Video---Affrontare-Allegri-e-un-privilegio--In-Champions-ci-manca-esperienza--151203.aspx",
    "t": "Porto-Napoli, Farioli a Prime Video: ''Affrontare Allegri è un privilegio. In Champions ci manca esperienza''",
    "at": "2026-11-04",
@@ -3375,6 +3366,16 @@
    "reason": [
     "الـ body 415 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_economy/details/2026/11/17/3079978/%D8%A3%D9%8A-%D8%B5%D8%A7%D8%BA%D8%A9-%D9%84%D8%A7-%D9%8A%D9%88%D8%AC%D8%AF-%D8%B6%D8%B1%D9%8A%D8%A8%D8%A9-%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D8%A9-%D8%A8%D9%86%D8%B3%D8%A8%D8%A9-1-%D8%B9%D9%84%D9%89-%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A8%D9%8A%D8%B9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8",
+   "t": "أي صاغة: لا يوجد ضريبة قانونية بنسبة 1% على إعادة بيع الذهب",
+   "title": "حقيقة فرض ضريبة 1% على إعادة بيع الذهب في مصر",
+   "url": "https://www.egyptaway.com/2026/11/no-tax-on-reselling-gold.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.gemini.media/img/large/2026/10/12/2026_10_12_14_34_43_794.webp&w=1200&output=webp&q=80",
+   "at": "2026-11-17T11:53:29.437988+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
