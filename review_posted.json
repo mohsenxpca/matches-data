@@ -1,26 +1,6 @@
 {
  "done": [
   {
-   "title": "كيف تغير حجم أي صورة بدقة على هاتفك وحاسوبك مجاناً؟",
-   "cand_title": "How to Resize an Image on Windows, Mac, iPhone, and Android - Online Tech Tips",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc21QNGQxUWc3Nk1yRVJ4N2lnSWVjX0Zab25Rcm82b09PRmpFdmRYekdOaHNqMDVsUnFNMzI1a2Ziajc3bHNsWmdFNmpGdF81LXBLOHBoVHI3UkkyNGNyM29ESWRqNjdEZEI4RU1Qa2FWcmtzaThVODdhdUxkVEdCczdWcTJaTGtsakg4?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/how-to-resize-images-all-devices.html",
-   "at": "2026-11-09T00:52:05+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
-   "title": "شحن هاتفك الأندرويد طوال الليل يدمره؟ لا تفعلها دون هذه الميزة",
-   "cand_title": "If you charge your Android overnight, don’t do it without this feature - MakeUseOf",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTDUxWDZzNlU5V3cxaW9mX1NpWWtCd3laQk95OWtBVTBmSl81bUtTWktkSE56QWhkTWhNbWZtTUxMYlk5OHlfb25Cb1pWUUk1MzlsdWNyeWd3UndkYXF4QmxRUC1Xdkg4RmxMVVd5YWFjZk1hYlJZS1Q3ZVFKeGRGOTNtQUJaM3M?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/android-overnight-charging-adaptive.html",
-   "at": "2026-11-09T01:21:27+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "vivo V80 review: The competition, our verdict, pros and cons - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83bVBFMHBmWjBCcU9yOExMRkRVbndIclVYQ0NFVHpwNHd0bktfSHN4aXNlSTRWYnZHWGtnUU1tRUpiQXN5YkZzTHZNY0pWMVhFSTRsbXEzbnpVcU5fX2xPSQ?oc=5",
    "at": "2026-11-09",
@@ -3241,6 +3221,20 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Oppo's next Pro Max may hide its bezels under four-sided curved glass - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOTdES05sZHphSGVvQmNZN0NVLWNxd1h3QlVTZ3FNTHRIVzEtVVBNbGlzR05SbTR2TDI0WXl4NnRHZUpBZnA5TVR6OWRweGRYSWJYREU1UzhzbDZGczdwQmJVcURYLUZ2LXk1S25RWTNUMUlYeTZzT21RbVZYWGZvdlVWaVhiai1rbkhETm55TUJZeE9tX3FzN1kyQU9mZDVOZ2ZyNmdUQVo0SE3SAacBQVVfeXFMUHpjR2FnaUVINmpYMW1NWW55Y05UbW12RTdRVG9yZk50MDFvQ1dBdndSb1RLWXRlZWJwaFBVYjN1UkRJUzhXWjRIZmV6VTB1bGhkM2p0RXlPX3FaelJzbWZiUjBzNEFUazZBNkl1TlNLRGY2RGNqOGt3aElFUDRKbS1oQUlnV2NMVVgxRzlkR3JuT2p6QmJjRnpfcEo3Sm5PVEl1Nm1nVkU?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['under', 'hide', 'next', 'glass']"
+  },
+  {
+   "title": "iQOO Z12 Lite chipset and front design revealed via alleged Google Play Console listing - 91Mobiles",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQnIyX0x4TGJLcHZFTUo3Qk5jVS1QTnZKTFlEZGZKTjBFVjhONWpEZkFyejBKQkE1aFZyWnF4S2tlZWRGTk9tVEF6OUJmX3NFQ2F6eFItN2hITk5kU1ZrWHlGOGdHeUdQcUtpM1JaT3Utb2JXOHpxbW1yUUF3WFhPeDAtMl9qVW56R2N2TXFR0gGTAUFVX3lxTE91QmNDV1dwY21TN1U3T3I0d3BqeVdybHRXR0FFbVBtdXVtS1Ryb0pSRGVHb2NpZGY3blJ1dWV6YUZMc0VEcGV3SUl0enVPM2owQXRoZzJfSU9XV2dJSmtXWG1NWkYweHhUMXhKSVZPWk82cDZyZGdEM2VSR245azJCZGRYVmxrX1pBRU9rb1pmYWtQQQ?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['play', 'lite', 'iqoo', 'console']"
   }
  ]
 }
