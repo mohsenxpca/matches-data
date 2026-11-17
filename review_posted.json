@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "WhatsApp is testing a feature that lets you control who sees your phone number - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQanEyNWduUmNlUW9pcENoZnBhZVpVMzZ3aGZOVG1sUUhVYmI3dVdXbkdBaWxCOEJ5ZTNZdHVxQXBrcmpQRWZqUWtUMUNlRHA5Tm5TM0VnU253SlJoTEI3YzZzZ28zZk5CLXFLY0plOXpTRmg4YmJmdmtuNGJobEd3ZDJYLVZLOE9jbzBxWUd2VVQ3aFHSAY8BQVVfeXFMUHlfQzJXOEc0c2cwQURWU0ZFSkNJT2Y2dDMzaHZEUGt0UlYzTklFWldYRE92WGZJV2c5bkkxZy1wMlMwR0VGRUxMcEhyWktmVzNGWl9BTWQtSUc0a2VzdGNUSnhOMkYxUWpHazR5VmNSVlY1UEtGUHhBR2N0V3VrZ1prTkUxWGZrOVIwSm1qYWs?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (667 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "WhatsApp is testing a feature that lets you control who sees your phone number - Reader comments - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yNFJfZmw0al9XXzZvYjE5ajRUdG80Q0I2MVF2TFljUDVYaDN5WkljTkxtMTBVT1FOMXhiWkdiTUVYd0F2WFlFUFFyV2dPTEFCblcwRG5n?oc=5",
    "at": "2026-11-09",
@@ -3241,6 +3232,15 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
+  },
+  {
+   "title": "Google’s ‘Pixel virtual gamepad’ is finally rolling out for foldable Pixels",
+   "url": "https://www.androidauthority.com/google-pixel-virtual-gamepad-rollout-3735792/",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (649 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
