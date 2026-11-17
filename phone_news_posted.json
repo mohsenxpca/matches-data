@@ -262,6 +262,15 @@
       "err": [
         "طول الخبر قصير (374 كلمة، والمطلوب 420+ كلمة)"
       ]
+    },
+    {
+      "title": "How Galaxy AI Premium will affect custom cards in Now Brief",
+      "orig_link": "https://www.sammobile.com/news/samsung-galaxy-ai-premium-raise-now-brief-custom-cards-limit/",
+      "at": "2026-11-17T13:26:10.730889+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (359 كلمة، والمطلوب 420+ كلمة)"
+      ]
     }
   ]
 }
