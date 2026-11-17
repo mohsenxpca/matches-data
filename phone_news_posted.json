@@ -172,6 +172,24 @@
       "has_real_img": true,
       "at": "2026-11-17T05:11:11.198791+02:00",
       "ok": true
+    },
+    {
+      "title": "Oppo Watch 5 launches with a slim square design, IP69 rating, and five color options",
+      "orig_link": "https://www.gizmochina.com/2026/11/16/oppo-watch-5-launches-slim-square-design-ip69-five-colors/",
+      "at": "2026-11-17T05:41:07.468632+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (399 كلمة، والمطلوب 420+ كلمة)"
+      ]
+    },
+    {
+      "title": "مقارنة فيفو Buds Clip و TWS 4: أيهما الأنسب لاحتياجاتك؟",
+      "orig_link": "https://www.gizmochina.com/2026/11/16/vivo-buds-clip-vs-vivo-tws-4/",
+      "post_url": "https://www.egyptaway.com/2026/11/vivo-buds-clip-vs-tws-4-comparison.html",
+      "brand": "Vivo",
+      "has_real_img": true,
+      "at": "2026-11-17T05:41:07.468632+02:00",
+      "ok": true
     }
   ]
 }
