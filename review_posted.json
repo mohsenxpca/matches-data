@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Your Android phone has a hidden Wi-Fi setting that explains your dropped connections - MakeUseOf",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTEpBYS1MdjZDeUs2RHFzTXpldnhlTHd6VW8yclgxRWN2SzB4b05QeUg2MXAwYnVYWjV5RnE3a0pVVUpyLWR3VklOUlB0ZzBDTVlBZHFUM0FHNy1oNzNlWG5QQlNUbUE2cU1RaEVOX0NNb3VUemdvd0J1ckZpY0ZqWFV1UXBINlA4M0NoZGpKYTQ0ZkcybHNjTjAxX2U?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['your', 'makeuseof', 'setting']"
-  },
-  {
    "title": "كيف تغير حجم أي صورة بدقة على هاتفك وحاسوبك مجاناً؟",
    "cand_title": "How to Resize an Image on Windows, Mac, iPhone, and Android - Online Tech Tips",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc21QNGQxUWc3Nk1yRVJ4N2lnSWVjX0Zab25Rcm82b09PRmpFdmRYekdOaHNqMDVsUnFNMzI1a2Ziajc3bHNsWmdFNmpGdF81LXBLOHBoVHI3UkkyNGNyM29ESWRqNjdEZEI4RU1Qa2FWcmtzaThVODdhdUxkVEdCczdWcTJaTGtsakg4?oc=5",
@@ -3238,6 +3231,16 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "تفاصيل ثورة سامسونج القادمة.. هاتف بلا حواف بحلول 2027",
+   "cand_title": "Samsung’s next Galaxy could have a bezel-less display design",
+   "url": "https://www.sammobile.com/news/samsungs-next-galaxy-could-have-a-bezel-less-display-design/",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-bezel-less-display-2027.html",
+   "at": "2026-11-17T11:26:45+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
