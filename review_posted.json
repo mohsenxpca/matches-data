@@ -1,43 +1,6 @@
 {
  "done": [
   {
-   "title": "Honor is reportedly launching the Robot Phone 2 much earlier than expected - PhoneArena",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSURXanpwOUFua21MQnVRcWxVQ0V1ZjF4TGN2NExrdjBmUl82cXBIVzRuUmtIaWZnbmFUTTAtRGJpVWdsNFAxbExjQy1pSE9YenhPMGJUZWpOODBQRDl2NFZ0V0hTX3hNdjBlOHVCQnNzdE0yUlJaVndUcjBOdFFldnF5ZmFxRHNDZVM1R20xaEJzeGVBNkNBRmVOQ213YUZTd1hXYUR4VkE3V1RIYUZEOXNuTkZKQQ?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (642 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Parents want safer phones for kids. These companies are answering the call. - TechCrunch",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY2hoNHZVU3UzUC1vd1QxQ09tSVRHMmxHVTlzalR4T2NSWjk2Uzh2OWRpOU5FWFpIa2hReDNkYmpfMTdnMm5ybDlIY1lwRDh2bUJjSlJ4bmtCUHhmLWhwRUJtZzJBeVA3dzBiM0FfWEFaeDVXVDBnN2Iwc3hpZ0hsanRVQ3gycmR3bEM4RFpmbnFSN210aGJyTUJ0MGNVWmxqM0l4RG8yRmNMd1dT?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (631 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "هاتف هواوي الثلاثي القابل للطي الجديد.. هل يغير قواعد اللعبة؟",
-   "cand_title": "Huawei Mate XT 2: CNY 19,999 Tri-Fold, IP59, ECG [2026] - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNekFmT3hEc0Zoa3hNNTVpOHJPVUpNWVR6clNIeEpzckRRSkppTFhsSDd4d2pGcHEyay1LX1R4WU5LSzREeWtveGhXaFJLRlB3Wk5sNEMzWXZQZzJMT1NPQVNHcTgxTENTMUY5NUM3OFM2eVpZSmhmNVMyZEg0OG1qYlV2Y0U4TzVza1E?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/huawei-mate-xt-2-tri-fold.html",
-   "at": "2026-11-09T00:23:08+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هواوي"
-  },
-  {
-   "title": "Apple-Gemini Distillation: 0 Specs Confirmed [2026] - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNDNJVmVJeUZsOUZrR2c4VVVPOFI0X1NOUW9XaUNobmlSQ3FNcGppR0pKTW5yT0RUZHR1dm83bWo0aUxpOVE2eVVXNXNPSjR2am5VM3RtUnk2c2pRa1VTNTZrVXh0R29fNVlfNUlDUHZEQmR1cHloQXpnM3dxNi1jSVpiRVU4dmZtWnc3TVhSYmpieV9mZTA2Uw?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (616 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Trump says he has held phone calls on ending the war in Ukraine - Українська правда",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOd2RFVFdIbWpNdUZNMG02bmVENUlkOWpHei1HVU1TaFBSa01ZQjVQZWROdTBJLUZ5RndFc2UyLTM1QXRJRXYySWFiS2FIc2NaSDNnZ2xnTXU5Qk1COEJzQThBRjTSAXBBVV95cUxORHZQMnM5WEhBWGRJWHg4LVBUVVo0SzUzZEg1eExvRnNkQ05zLWdnZ21IVzdVaU1mYU5Vd3k4Y3lvQTJ5VWRuOWduTDdtODE2eHRhTnd2Z2dJRWhqS3VmcWd5NExiTzZLc2wwbm9MZzNO?oc=5",
    "at": "2026-11-09",
@@ -3246,6 +3209,37 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Recent story overlap on key terms ['tipped', 'main', 'iphone', 'sensor']"
+  },
+  {
+   "title": "OnePlus Ace 7 Pro - Full phone specifications - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBYa0tWTmFEeWVDT3FKOVY4OFpjeU0zb212b05xcXdncS1xYUpRSzBMRVJjRmxQaUU2dnZtakQ4R2tCa1Jqbm10cGJGcEUtN3V6cnhjUmdTdTdIaUk4U1pOOHc5TFBrdw?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'ace 7 pro' already covered in: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
+  },
+  {
+   "title": "Compare Oppo Find X10 Pro Max vs. Google Pixel 11 Pro - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56WGY3OFZleTUtcW9zd0stWkg2Y2x4ZDVZdjZXRFRHOGl1eVRfTjg1emEyUjVRTUplRF9TVDhtWHVWOGFQanE2d2lXZ2VzN2pvZS1ldDdCS2hJMXgzeHVXdF95WGREQ2wwdmQ1QWJnbS1jVFVWTEE?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'pixel 11 pro' already covered in: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
+  },
+  {
+   "title": "Apple adds less secure face unlock to its first foldable phone - 联合早报",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZTdiNHBuRkhQQm4zYlZVMVRIRE1BRHNjakEwb2p4bUtMTWZUVG92bVNZUGVTSHhXTm5LbExXMFVueERPVF9uaVlKdjREczBLRHVxOG1DVU5jY1VtSHQyeDF5czVMQlJxM1JrTEM3N1ZNUElXWV9zZWFYM0ZkSGdKaldTSXV4V29vaTRkNnk1UWM4TmN0b3hobm1Wckl6UFo0?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (393 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Oppo Reno17 launched with 8,000mAh battery, Snapdragon 7 Gen 4 chip - Moneycontrol.com",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPekRzMjVGMkFJYS11WFd6WFRXRUc3UTB1MXJHS0pTSWFfTFdfYzhwdVA2ZmhCbHcyNm5XVWtRTWlrU2RmczNRYjRBS3Bydk9pLXE1YW4xUE5ZVGt2ekNhQVpXWll2VUdMRHdGY0p2YlRBQ3RSWDQzMDV2R25BdExtMkJKdUVVOEpyTGkwTEF6b3ZKWU1pR0xtNTFZeTlSazN0TFJ4YzRjbUZxVnFiS3hYbmo2OFh5TnZ4UmdwdlV1eUdFUS1EeFU40gHMAUFVX3lxTFBtWGloX3NGQlN6OHI0RjZ1NjdHRmNUdDM0Q3pubFl0eVFNb2w0RWk1QURjSXhSWEpPZ0xFcWx4dEVzS0JycERMODNDVkgxQzlnSjliOEFwUm5MekpTV2tCUmNyTXpLWHBfbktBTzdZX2JaVHNjWGl0VDNvYkFfTFhaQXRKOG5kVGZTeDN1T3I2WVhDcmotSVg4VlNjUU1OcGFqTzFGRS1oa3RKR0NaZnFXbHlON25xaW81THllcng4eUNJaXdZaVRIdVBySA?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
   }
  ]
 }
