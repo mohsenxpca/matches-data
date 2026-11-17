@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "vivo V80 review: The competition, our verdict, pros and cons - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83bVBFMHBmWjBCcU9yOExMRkRVbndIclVYQ0NFVHpwNHd0bktfSHN4aXNlSTRWYnZHWGtnUU1tRUpiQXN5YkZzTHZNY0pWMVhFSTRsbXEzbnpVcU5fX2xPSQ?oc=5",
-   "at": "2026-11-09",
-   "ok": false,
-   "reason": "Model code [v80] with variants set() found in review: مراجعة vivo V80 Lite 2026: بطارية 10000 وشاشة AMOLED ومقاومة IP69"
-  },
-  {
    "title": "Reuse Old Android Phone: 6 Ways After Updates Stop [2026] - shattered.io",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZWR1YXJmeDRDVnhNdDM4eldIWC1yRTY4R2F5S2FUVWVDREJVblJ3dmJjd0JIZDBycEFzd1pZWTZHZk9WRkJ5WERvSVZxamIzN1FFemZBTmEwUkJWck44SWQ4MHRVY2ZlcTl1UGFVbGpLN05WMkdJRnR3WGY4dFk1QnRXcTE?oc=5",
    "at": "2026-11-09",
@@ -3235,6 +3228,13 @@
    "at": "2026-11-17",
    "ok": false,
    "reason": "Recent story overlap on key terms ['play', 'lite', 'iqoo', 'console']"
+  },
+  {
+   "title": "‘Get Denis Villeneuve on the Flip Phone’ Brad Pitt Wants to Play a Villain in Robert Pattinson's James Bond - MensXP",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNZENPa3N4cF9jcHdXVlVNU2pGWEFydHJqQkp4V1NYeE9HZFpyVHlrRkVLYUhuS2tsWlQ0Z1d4YUY2N3VhcmVGWEp5ZktRb1BjNWNXek5rQ0RTZkNOTERkdzk4bl91MDdtTVR4dnRQZnc3M1JyRW1GOG40SGRpN0VRRUx2dXc5REtjOFVQNUVGSDhQWkU5UURxQko0dldWX0VEY1lCTmE1UFZDU252Q0FrLUVtMl9CSnJWQlZoRE5OSWJMZklyYlVjak5DSGowSmtyaWl2YXJjZWJQTFVPeWdVT05QR2hrNXZta1NHekw1cGZiSzFwM3ctdDdseUk0VG9jYVFLcWtB0gGLAkFVX3lxTE1Mb0hPc2RLRUN6VzZicGZ2NTRPdjRnQU5sWGktdTN0ZUxhR2lnS0ZKTS1YeGdqRVRfbkJ3c3lmUGhtdElCdVNRSWtROWdHRjJfbXMzRUtZeDl4YnFQYWZNRVN6MEtmdW5DcEZyLVBBRWR0MWZSSmU3aGo0a1Q5Y0J2UnJGVXA5TzJBRjVIck1ubm9MbGotUzRVODFEMEprTGo2eWo2cmVhaEhaMnBCaXR0emFuMFYxZXhlRDBJOTFCTWRhdVdJVkZ2ei1QaGRNdEFkSnk0RHc1QTJ0VjRGd2R6TE1zUUh2VkdaZWk0VlhJQ3BLdHV2QUhJbTAySGFsMWsyYVNVcFh1VTFQNA?oc=5",
+   "at": "2026-11-17",
+   "ok": false,
+   "reason": "out_of_phone_scope"
   }
  ]
 }
