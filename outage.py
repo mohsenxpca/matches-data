@@ -22,7 +22,7 @@ API_URL = "https://script.google.com/macros/s/AKfycbx_xEqWCdWDpnIl-HmKC3PWqVHNMQ
 POSTED_FILE = "outage_posted.json"
 PUSH_STATE_FILE = "outage_push_state.json"
 APP_ID = "c6f8318f-a6ce-4e8d-b9f0-f329f31e2a72"
-COOLDOWN_HOURS = 3
+COOLDOWN_HOURS = 72
 
 
 SERVICE_IMAGES = {

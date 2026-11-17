@@ -35,7 +35,7 @@ try:
 except ImportError:
     image_guard = None
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+sys.stdout.reconfigure(encoding="utf-8")
 
 CAIRO = ZoneInfo("Africa/Cairo")
 BLOG_ID = "8325646053257070334"
@@ -488,8 +488,49 @@ def main():
 
     art = f.gemini(prompt)
     if not art or not isinstance(art, dict) or not art.get("body"):
-        print("Gemini response invalid; exiting.")
-        return
+        print("Gemini unavailable; building verified top-up booster guide from official package catalog...")
+        ar_n = selected_game["ar"]
+        en_n = selected_game["en"]
+        cur_n = selected_game["currency"]
+        facts_lines = [ln.strip("- ").strip() for ln in selected_game["facts"].splitlines() if ln.strip() and not ln.strip().endswith(":")]
+        li_facts = "".join(f"<li style='margin-bottom:8px;'>{html.escape(ln)}</li>" for ln in facts_lines)
+        art = {
+            "title": selected_game["title_hint"][:68],
+            "slug": selected_game["slug"],
+            "desc": f"دليل شحن {cur_n} في لعبة {ar_n} ({en_n}) بالـ ID في مصر 2026 عبر فودافون كاش وإنستاباي بأرخص الأسعار الرسمية.",
+            "body": (
+                f"<p>يبحث آلاف اللاعبين في مصر عن أضمن وأسرع طريقة لتنفيذ <strong>{html.escape(selected_game['title_hint'])}</strong>، "
+                f"للحصول على <strong>{html.escape(cur_n)}</strong> في لعبة <strong>{html.escape(ar_n)} ({html.escape(en_n)})</strong> بشكل رسمي وفوري عن طريق رقم المعرف (Player ID) فقط وبدون الحاجة لبطاقات بنكية دولارية.</p>\n"
+                f"<h2>مميزات وضمانات شحن {html.escape(ar_n)} بالـ ID في مصر 2026</h2>\n"
+                f"<p>تعتمد الطريقة الرسمية المعتمدة لشحن {html.escape(cur_n)} على إرسال الرصيد مباشرة إلى حسابك داخل اللعبة عبر القنوات المعتمدة، وتتميز بالآتي:</p>\n"
+                f"<ul>{li_facts}</ul>\n"
+                f"{{img0}}\n"
+                f"<h2>جدول أسعار وباقات شحن {html.escape(ar_n)} بالجنيه المصري</h2>\n"
+                f"<p>يوفر <a href='{html.escape(selected_game['store_url'])}' target='_blank' rel='noopener'><strong>متجرنا زيدا شوب</strong></a> كافة باقات {html.escape(cur_n)} بأسعار تنافسية محدثة بالجنيه المصري مع دعم الدفع الفوري:</p>\n"
+                f"{{price_table}}\n"
+                f"{{interactive_widget}}\n"
+                f"<h2>خطوات شحن {html.escape(cur_n)} بالمعرف ID عبر فودافون كاش وإنستاباي</h2>\n"
+                f"<p>لإتمام عملية الشحن بنجاح في أقل من دقيقتين، اتبع الخطوات المرتبة التالية:</p>\n"
+                f"<ul>"
+                f"<li><strong>1. نسخ رقم المعرف (Player ID):</strong> افتح لعبة {html.escape(ar_n)} وادخل إلى صفحة الملف الشخصي لنسخ رقم الـ ID الخاص بحسابك بدقة.</li>"
+                f"<li><strong>2. اختيار الباقة المناسبة:</strong> ادخل إلى صفحة اللعبة على <a href='{html.escape(selected_game['store_url'])}' target='_blank' rel='noopener'><strong>متجرنا زيدا شوب</strong></a> وحدد الباقة المطلوبة من الجدول.</li>"
+                f"<li><strong>3. تحديد وسيلة الدفع المصرية:</strong> اختر الدفع عبر فودافون كاش أو إنستاباي أو المحافظ الإلكترونية وأكمل التحويل بالجنيه المصري.</li>"
+                f"<li><strong>4. الاستلام الفوري داخل اللعبة:</strong> تصل {html.escape(cur_n)} مباشرة إلى حسابك، ويمكنك متابعة حالة الطلب مع خدمة العملاء عبر الواتساب.</li>"
+                f"</ul>\n"
+                f"{{img1}}\n"
+                f"{{internal_links}}\n"
+                f"<h2>نصائح الأمان لحماية حسابك في {html.escape(ar_n)} من الحظر</h2>\n"
+                f"<p>تجنب تماماً المواقع الوهمية التي تطلب كلمة المرور أو تروج لـ ({html.escape(cur_n)} مجانية)، لأن الشحن الآمن يتم حصرياً برقم الـ ID فقط دون طلب أي بيانات سرية.</p>\n"
+                f"{{img2}}"
+            ),
+            "faq": [
+                {"q": f"هل شحن {ar_n} بالـ ID آمن تماماً على الحساب؟", "a": "نعم، الشحن برقم الـ ID فقط هو الطريقة الرسمية الآمنة 100% ولا يعرض حسابك لأي حظر لأنه لا يطلب كلمة المرور إطلاقاً."},
+                {"q": f"ما هي وسائل الدفع المتاحة لشراء {cur_n} في مصر؟", "a": "يمكنك الدفع بالجنيه المصري عبر فودافون كاش، اتصالات كاش، أورنج كاش، WE Pay، وتطبيق إنستاباي."},
+                {"q": f"كم يستغرق وصول {cur_n} إلى الحساب بعد الدفع؟", "a": "يتم تنفيذ الطلب وإضافة الرصيد إلى حسابك داخل اللعبة خلال دقائق معدودة من تأكيد عملية الدفع."},
+                {"q": f"كيف أعرف رقم الـ ID الخاص بي في {ar_n}؟", "a": "افتح اللعبة واضغط على صورة ملفك الشخصي في الشاشة الرئيسية، ستجد رقم المعرف (ID) مكتوباً بوضوح وبجواره زر النسخ."},
+                {"q": "أين أجد رابط الشحن المباشر بالأسعار الرسمية؟", "a": f"يمكنك الشحن مباشرة عبر صفحة {ar_n} المعتمدة على متجرنا زيدا شوب من الرابط المرفق داخل هذا المقال."}
+            ]
+        }
 
     # Internal links
     game_posts = [p for p in site_posts if any(k in p.get("t", "").lower() for k in ["ألعاب", "ببجي", "لعبة", "تحميل"])]

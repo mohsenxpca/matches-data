@@ -72,7 +72,9 @@ def main():
             if DRY:
                 print("  DRY would fix", p["url"])
                 continue
-            out = f.api("PATCH", f"/blogs/{blog}/posts/{p['id']}", tok, None, {"content": html[:m.start(3)] + new + html[m.end(3):]})
+            orig_src = m.group(3)
+            new_attr = f'{new}{m.group(4)} data-orig-src={m.group(2)}{orig_src}'
+            out = f.api("PATCH", f"/blogs/{blog}/posts/{p['id']}", tok, None, {"content": html[:m.start(3)] + new_attr + html[m.end(3):]})
             if out.get("url") != p["url"]:
                 print("  WARNING url changed:", p["url"], "->", out.get("url"))
             else:

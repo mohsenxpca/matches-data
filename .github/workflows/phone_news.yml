@@ -15,9 +15,8 @@ on:
         description: "تجربة بدون نشر (1 = تجربة، 0 = نشر مباشر)"
         required: false
         default: "0"
-  # schedule:
-
-  #   - cron: "*/30 * * * *"  # disabled: phone reviews & news run on Review Mobile via review.yml
+  schedule:
+    - cron: "20 */4 * * *"  # كل 4 ساعات لنشر أهم أخبار وتحديثات الهواتف (One UI وسامسونج وشاومي وآيفون) على ايجبتاوى
   push:
     branches:
       - main
@@ -40,7 +39,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests beautifulsoup4 pillow
+      - run: pip install requests beautifulsoup4 lxml pillow arabic-reshaper python-bidi
       - run: python -u phone_news.py
         env:
           COUNT: ${{ github.event.inputs.count || '2' }}
@@ -55,7 +54,7 @@ jobs:
         run: |
           git config user.name "phone-news-bot"
           git config user.email "phone-news-bot@users.noreply.github.com"
-          git add phone_news_posted.json 2>/dev/null || true
+          git add phone_news_posted.json img/ 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "phone news update $(TZ=Africa/Cairo date +%F_%H:%M)"
           for i in 1 2 3 4 5; do

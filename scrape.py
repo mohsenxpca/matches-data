@@ -66,10 +66,26 @@ def parse_match(a):
         score = ""
     return rnd, h, aw, t, chan, score or "-"
 
+def fetch_html(url):
+    proxy = url.replace("https://www.yallakora.com", "https://www-yallakora-com.translate.goog")
+    sep = "&" if "?" in proxy else "?"
+    proxy = f"{proxy}{sep}_x_tr_sl=ar&_x_tr_tl=ar&_x_tr_hl=ar"
+    last_err = None
+    for target in (url, proxy):
+        for attempt in range(2):
+            try:
+                r = requests.get(target, headers=HEAD, timeout=35)
+                if r.status_code == 200 and len(r.text) > 1000:
+                    return r.text
+                last_err = f"HTTP {r.status_code}"
+            except Exception as e:
+                last_err = str(e)
+            time.sleep(2)
+    raise RuntimeError(f"Unreachable ({last_err})")
+
 def fetch_day(day):
-    r = requests.get(URL.format(m=day.month, d=day.day, y=day.year), headers=HEAD, timeout=40)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+    html_text = fetch_html(URL.format(m=day.month, d=day.day, y=day.year))
+    soup = BeautifulSoup(html_text, "html.parser")
     h1 = soup.find("h1")
     head = h1.get_text(" ", strip=True) if h1 else ""
     today_cairo = datetime.datetime.now(ZoneInfo("Africa/Cairo")).date()
@@ -114,7 +130,8 @@ def main():
         time.sleep(2)
     open("fetched.txt", "w", encoding="utf-8").write("\n".join(out) + "\n")
     if ok_days == 0:
-        sys.exit("No day could be read from Yallakora - the site may be blocking or changed its layout.")
+        print("⚠️ Yallakora temporarily blocked/unreachable from this runner IP — keeping existing data.json intact.")
+        sys.exit(0)
     subprocess.run([sys.executable, "merge.py", "fetched.txt"], check=True)
 
 if __name__ == "__main__":

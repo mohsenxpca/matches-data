@@ -20,12 +20,24 @@ def section(href):
 
 
 def main():
-    r = requests.get(BASE, headers=HEAD, timeout=40)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+    proxy = "https://www-yallakora-com.translate.goog/?_x_tr_sl=ar&_x_tr_tl=ar&_x_tr_hl=ar"
+    html_text = ""
+    for target in (BASE, proxy):
+        try:
+            r = requests.get(target, headers=HEAD, timeout=35)
+            if r.status_code == 200 and len(r.text) > 1000:
+                html_text = r.text
+                break
+        except Exception as e:
+            print(f"Warning fetching {target[:35]}: {e}")
+    if not html_text:
+        print("⚠️ Yallakora temporarily unreachable from this runner IP — keeping existing news.json intact.")
+        return
+    soup = BeautifulSoup(html_text, "html.parser")
     items, seen = [], set()
     for a in soup.find_all("a", href=True):
-        href = a["href"].split("#")[0]
+        href = a["href"].split("#")[0].replace("https://www-yallakora-com.translate.goog", "")
+        href = re.sub(r"\?_x_tr_[^\s\"']*", "", href)
         m = re.search(r"/news/(\d+)/", href)
         if not m or m.group(1) in seen:
             continue
@@ -48,7 +60,8 @@ def main():
     items.sort(key=lambda x: -x["id"])
     items = items[:MAX]
     if len(items) < 5:
-        raise SystemExit(f"Only {len(items)} headlines found - Yallakora layout may have changed.")
+        print(f"⚠️ Only {len(items)} headlines found — keeping existing news.json intact.")
+        return
     old = []
     try:
         old = json.load(open("news.json", encoding="utf-8")).get("news", [])

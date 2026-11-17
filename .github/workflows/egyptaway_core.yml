@@ -2,8 +2,8 @@ name: نشر أعمدة ايجبتاوى الأساسية (Egyptaway Core Daily)
 
 on:
   schedule:
-    # نشر يومي منتظم: مرتين يومياً (10:30 صباحاً و 17:30 مساءً بتوقيت القاهرة)
-    - cron: "30 8,15 * * *"
+    # نشر يومي منتظم: 4 مرات يومياً لتغطية الأعمدة الأربعة اللي الموقع ماسك فيها كلمات في جوجل
+    - cron: "30 6,11,16,21 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -38,7 +38,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml
+        run: pip install requests beautifulsoup4 lxml pillow arabic-reshaper python-bidi
 
       - name: Generate and Publish Core Article
         env:
@@ -70,7 +70,7 @@ jobs:
         run: |
           git config user.name "core-bot"
           git config user.email "core-bot@users.noreply.github.com"
-          git add egyptaway_core_posted.json 2>/dev/null || true
+          git add egyptaway_core_posted.json img/ 2>/dev/null || true
           if git diff --cached --quiet; then echo "No state changes"; exit 0; fi
           git commit -m "core post $(TZ=Africa/Cairo date +%F_%H:%M)"
           for i in 1 2 3 4 5; do

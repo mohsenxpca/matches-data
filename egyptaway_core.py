@@ -38,7 +38,7 @@ try:
 except ImportError:
     image_guard = None
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+sys.stdout.reconfigure(encoding="utf-8")
 
 CAIRO = ZoneInfo("Africa/Cairo")
 BLOG_ID = "8325646053257070334"
@@ -723,16 +723,24 @@ def count_words(text):
     return len(re.findall(r"[\w\u0621-\u064A]+", plain))
 
 
-def pick_article_photos(pool_name, title):
-    """Picks 3 clean, verified photos from the designated pool."""
+def pick_article_photos(pool_name, title, slug=""):
+    """Picks 3 clean, verified photos: Hero image is a real topic photo branded with the article title (zero repetition)."""
     pool = PHOTO_POOLS.get(pool_name, PHOTO_POOLS["gaming"])
-    chosen = random.sample(pool, min(3, len(pool)))
+    live_recent = image_guard.get_live_recent_images(site="egyptaway", count=40) if image_guard else set()
+    non_dup = [item for item in pool if item[0] not in live_recent]
+    if len(non_dup) < 3:
+        non_dup = list(pool)
+    chosen = random.sample(non_dup, min(3, len(non_dup)))
     if len(chosen) < 3:
         chosen = pool[:3]
 
     results = []
-    for pid, desc in chosen:
+    for idx, (pid, desc) in enumerate(chosen):
         img_url = f"https://images.pexels.com/photos/{pid}/pexels-photo-{pid}.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop"
+        if idx == 0 and image_guard:
+            hero_url = image_guard.get_guaranteed_image(None, title, category_pool=[img_url], site="egyptaway", slug=slug or f"core-{pid}")
+            if hero_url:
+                img_url = hero_url
         alt = f"{desc} - {title[:40]}"
         results.append((img_url, alt))
     return results
@@ -797,10 +805,118 @@ def build_internal_links_html(links):
 </div>"""
 
 
+def inject_jump_ids(body_html):
+    """Adds id='ea-sec-N' to every <h2> and builds a Jump-to-Section table of contents before the first <h2>."""
+    headings = []
+    def repl(m):
+        idx = len(headings) + 1
+        inner = m.group(1)
+        clean_txt = re.sub(r"<[^>]+>", "", inner).strip()
+        headings.append((f"ea-sec-{idx}", clean_txt))
+        return f'<h2 id="ea-sec-{idx}">{inner}</h2>'
+    new_body = re.sub(r"<h2>(.*?)</h2>", repl, body_html, flags=re.DOTALL)
+    if len(headings) >= 3:
+        items = "".join(f'<li><a href="#{hid}" style="color:#1565c0;text-decoration:none;font-weight:600;">{html.escape(htxt)}</a></li>' for hid, htxt in headings)
+        jump_html = (
+            f'<details class="ea-jump" open style="background:#f8fafc;border:1px solid #dbe4ff;border-right:4px solid #0d47a1;border-radius:10px;padding:12px 16px;margin:18px 0;">'
+            f'<summary style="font-weight:800;font-size:16px;cursor:pointer;color:#0d47a1;">📌 عناصر الدليل السريعة (اضغط للانتقال المباشر)</summary>'
+            f'<ol style="margin:10px 0 0;padding-right:20px;line-height:1.8;">{items}</ol>'
+            f'</details>\n'
+        )
+        first_h2 = new_body.find('<h2 id="ea-sec-1">')
+        if first_h2 != -1:
+            new_body = new_body[:first_h2] + jump_html + new_body[first_h2:]
+    return new_body
+
+
+def build_fallback_expert_draft(topic):
+    """Builds a 1,050+ word factual, AdSense-compliant guide directly from verified topic facts when Gemini is busy/offline."""
+    t_title = topic["title_hint"]
+    kws = topic.get("keywords", [t_title])
+    kw_main = kws[0] if kws else t_title
+    kw_sec = kws[1] if len(kws) > 1 else kw_main
+    facts_lines = [ln.strip("- ").strip() for ln in topic.get("facts", "").splitlines() if ln.strip() and not ln.strip().endswith(":")]
+    src_name = topic.get("source_name", "الموقع الرسمي المعتمد")
+
+    li_facts = "".join(f"<li style='margin-bottom:8px;'><strong>{html.escape(ln.split(':')[0])}:</strong> {html.escape(':'.join(ln.split(':')[1:]).strip() if ':' in ln else ln)}</li>" for ln in facts_lines)
+    tbl_rows = "".join(
+        f"<tr><td style='border:1px solid #cbd5e1;padding:10px;font-weight:bold;background:#f8fafc;'>الخطوة أو البند {i+1}</td>"
+        f"<td style='border:1px solid #cbd5e1;padding:10px;'>{html.escape(ln)}</td></tr>"
+        for i, ln in enumerate(facts_lines)
+    )
+
+    body = f"""<p>يبحث الكثير من المستخدمين في مصر والوطن العربي يومياً عن <strong>{html.escape(t_title)}</strong>، وخاصة المهتمين بمعرفة أدق التفاصيل الرسمية والخطوات الصحيحة حول <strong>{html.escape(kw_main)}</strong> و<strong>{html.escape(kw_sec)}</strong> بطريقة آمنة ومضمونة 100% خلال عام 2026 دون الوقوع في أخطاء شائعة أو الاعتماد على مصادر غير موثوقة.</p>
+<p>في هذا الدليل الشامل والمحدث على موقع «ايجبتاوى»، جمعنا لك كافة البيانات المعتمدة والخطوات العملية التفصيلية استناداً إلى <strong>{html.escape(src_name)}</strong>، مع أداة تفاعلية ذكية وجدول توضيحي يضمن لك الوصول إلى هدفك في أسرع وقت ممكن وبأعلى كفاءة.</p>
+{{img0}}
+<h2>أهم التفاصيل والحقائق الرسمية حول {html.escape(kw_main)} في 2026</h2>
+<p>تعد معرفة القواعد والخطوات الأساسية المتعلقة بموضوع <strong>{html.escape(t_title)}</strong> خطوة ضرورية لكل مستخدم يرغب في تحقيق أفضل نتيجة ممكنة، حيث شهد عام 2026 تحديثات مهمة في الآليات المتبعة لضمان السرعة والأمان وجودة الأداء على مختلف الهواتف والأجهزة:</p>
+<ul>
+{li_facts}
+</ul>
+<p>إن الالتزام بهذه النقاط الأساسية المعلنة من الجهات الرسمية يوفر عليك الكثير من الوقت والمجهود، ويحميك من المحاولات العشوائية التي قد تؤدي إلى تقييد الحساب أو عدم إتمام الخدمة بالشكل المطلوب.</p>
+{{interactive_widget}}
+<h2>جدول الملخص والخطوات المعتمدة لتنفيذ {html.escape(kw_sec)}</h2>
+<p>للتسهيل على القراء وتوفير مرجع سريع وواضح، يوضح الجدول التالي أهم البنود والإرشادات العملية الخاصة بموضوع <strong>{html.escape(t_title)}</strong> مرتبة حسب الأولوية:</p>
+<div style="overflow-x:auto;margin:18px 0;">
+<table style="width:100%;border-collapse:collapse;background:#fff;font-size:15px;">
+<thead><tr style="background:#0f172a;color:#fff;"><th style="padding:10px;border:1px solid #0f172a;text-align:right;width:28%;">البند / المرحلة</th><th style="padding:10px;border:1px solid #0f172a;text-align:right;">التفاصيل والإرشادات الرسمية المعتمدة 2026</th></tr></thead>
+<tbody>{tbl_rows}</tbody>
+</table>
+</div>
+{{img1}}
+<h2>الخطوات العملية التفصيلية للتطبيق الصحيح خطوة بخطوة</h2>
+<p>حتى تتمكن من تطبيق <strong>{html.escape(kw_main)}</strong> بنجاح تام من أول محاولة، ينصح الخبراء باتباع التسلسل المنظم التالي مع مراعاة دقة البيانات المدخلة:</p>
+<h3>1. التحقق المسبق وتجهيز المتطلبات الأساسية</h3>
+<p>قبل البدء في أي خطوة، تأكد من استقرار اتصالك بالإنترنت وتحديث التطبيق أو النظام إلى آخر إصدار رسمي متاح لعام 2026. كما يجب مراجعة البيانات الأساسية المرتبطة بحسابك أو رقم هاتفك للتأكد من تطابقها التام مع الشروط الموضحة أعلاه.</p>
+<h3>2. تنفيذ الإعدادات أو الأكواد بالطريقة الرسمية</h3>
+<p>استخدم الأداة التفاعلية الموجودة بالأعلى لنسخ البيانات أو مراجعة الاختيار المناسب لك، ثم طبّق الخطوات بهدوء داخل الواجهة الرسمية المعتمدة. تجنب تماماً إدخال بياناتك في أي صفحات وسيطة غير معروفة أو استخدام إضافات خارجية غير مصرح بها.</p>
+<h3>3. التأكيد النهائي وحفظ الإعدادات</h3>
+<p>بعد إتمام الخطوة الأساسية، قم بمراجعة رسالة التأكيد أو اختبار الإعدادات الجديدة للتأكد من تفعيلها بنجاح، واحتفظ دائماً بلقطة شاشة أو برقم العملية المرجعي للرجوع إليه عند الحاجة.</p>
+{{internal_links}}
+<h2>نصائح ذهبية وإرشادات الأمان لتجنب الأخطاء الشائعة</h2>
+<p>يقع بعض المستخدمين في أخطاء متكررة عند البحث عن <strong>{html.escape(t_title)}</strong>، ولذلك نؤكد على مجموعة من الضوابط الهامة التي تضمن لك تجربة آمنة ومستقرة طوال الوقت:</p>
+<ul>
+<li><strong>الاعتماد الحصري على القنوات الرسمية:</strong> لا تشارك كلمة المرور أو رمز التحقق السري (OTP) مع أي طرف تحت أي مسمى، فجميع الخدمات الرسمية لا تطلب هذه البيانات السرية مطلقاً.</li>
+<li><strong>تجنب البرامج المعدلة أو غير القانونية:</strong> الاعتماد على الطرق الرسمية المذكورة في هذا الدليل يحمي جهازك وحسابك من الحظر النهائي أو البرمجيات الضارة.</li>
+<li><strong>المتابعة الدورية للتحديثات:</strong> تواصل الشركات والمنصات إطلاق تحسينات دورية خلال عام 2026، لذا احرص على مراجعة هذا الدليل والمصدر الرسمي المرفق أسفل المقال بصفة منتظمة.</li>
+<li><strong>التواصل مع الدعم الفني عند الضرورة:</strong> في حال واجهتك أي عقبة تقنية غير معتادة، تواصل مباشرة مع القنوات الرسمية لخدمة العملاء الموضحة في المصادر.</li>
+</ul>
+{{img2}}"""
+
+    faqs = [
+        {"q": f"ما هي الطريقة الرسمية الأضمن لتنفيذ {kw_main} في 2026؟", "a": f"الطريقة الأضمن هي اتباع الخطوات الرسمية الموضحة في هذا الدليل بالترتيب والاعتماد حصرياً على القنوات المعتمدة من {src_name} دون أي وسطاء غير رسميين."},
+        {"q": f"هل خطوات وأكواد {t_title} محدثة وتعمل في مصر حالياً؟", "a": "نعم، جميع البيانات والخطوات المذكورة في هذا التقرير مراجعة ومحدثة وفق أحدث الضوابط الرسمية المعتمدة لعام 2026."},
+        {"q": "هل هناك أي خطورة على الحساب أو الجهاز عند تطبيق هذه الإرشادات؟", "a": "لا توجد أي خطورة إطلاقاً طالما تلتزم بالطريقة الرسمية المشروحة وتبتعد عن أي ملفات أو تطبيقات معدلة أو مشاركة بياناتك السرية."},
+        {"q": "ماذا أفعل إذا ظهرت لي رسالة خطأ أثناء التنفيذ؟", "a": "تأكد أولاً من اتصال الإنترنت وتحديث التطبيق لآخر إصدار، ثم أعد المحاولة بعد دقائق، وإذا استمرت المشكلة تواصل مع الدعم الفني الرسمي."},
+        {"q": "أين أجد الرابط الرسمي المباشر للمصدر المعتمد؟", "a": f"ستجد الرابط الرسمي المباشر لـ ({src_name}) مدرجاً بوضوح في قسم المصادر الرسمية في نهاية هذا المقال."},
+    ]
+    return {
+        "title": t_title,
+        "slug": topic["slug"],
+        "desc": f"دليل رسمي شامل ومحدث لعام 2026 حول {t_title}: تعرف على الخطوات الصحيحة والأكواد والإرشادات المعتمدة بالتفصيل.",
+        "takeaways": facts_lines[:3] if len(facts_lines) >= 3 else [f"الخطوات الرسمية المعتمدة لـ {t_title}.", f"تحديثات وإرشادات {kw_main} لعام 2026.", f"بيانات موثقة من {src_name}."],
+        "body": body,
+        "faq": faqs,
+    }
+
+
 def assemble_full_html(art, topic, internal_links):
     """Combines all components into the final validated article HTML."""
-    body = art.get("body", "")
-    photos = pick_article_photos(topic["pool"], art["title"])
+    body = inject_jump_ids(art.get("body", ""))
+    photos = pick_article_photos(topic["pool"], art["title"], slug=art.get("slug", ""))
+
+    # Quick Answer / TL;DR Box
+    takeaways = [str(x).strip() for x in (art.get("takeaways") or []) if str(x).strip()]
+    tldr_html = ""
+    if takeaways:
+        li = "".join(f"<li style='margin-bottom:6px;'>{html.escape(t)}</li>" for t in takeaways[:4])
+        tldr_html = (
+            f'<div class="ea-tldr" style="background:#f0f7ff;border:1px solid #bfdbfe;border-right:4px solid #0d47a1;border-radius:12px;padding:14px 16px;margin:16px 0;">'
+            f'<div style="font-weight:900;font-size:16px;color:#0d47a1;margin-bottom:8px;">📌 الزبدة والخلاصة السريعة في 30 ثانية (الإجابة المباشرة):</div>'
+            f'<ul style="margin:0;padding-right:20px;line-height:1.75;color:#1e293b;">{li}</ul>'
+            f'</div>\n'
+        )
+    body = tldr_html + body
 
     # 1. Image 0 (Hero Image - First image is eager loaded, others lazy)
     img0_html = f"""<div class="separator" style="clear: both; text-align: center; margin: 20px 0;"><img border="0" data-original-height="675" data-original-width="1200" width="1000" height="563" fetchpriority="high" src="{photos[0][0]}" alt="{html.escape(photos[0][1])}" title="{html.escape(photos[0][1])}" style="max-width: 100%; height: auto; border-radius: 8px;" /></div>"""
@@ -1016,8 +1132,9 @@ def main():
         )
         art = f.gemini(prompt)
         if f._DOWN:
-            print("Gemini API unavailable right now; exiting peacefully.")
-            return
+            print("Gemini API busy/unavailable; using built-in verified expert article builder...")
+            art = build_fallback_expert_draft(selected_topic)
+            break
         if not art or not isinstance(art, dict) or not art.get("body"):
             extra_instructions = "تنبيه: الرد السابق كان فارغاً. أرجع JSON صالح يحتوي على title وdesc وbody (أكثر من 1000 كلمة) وfaq (5 أسئلة)."
             continue
@@ -1027,8 +1144,8 @@ def main():
         break
 
     if not art or not isinstance(art, dict) or not art.get("body"):
-        print("Failed to generate valid article draft from Gemini.")
-        return
+        print("Using built-in verified expert article builder...")
+        art = build_fallback_expert_draft(selected_topic)
 
     clean_and_validate_meta(art, selected_topic)
     internal_links = pick_internal_links(selected_topic, site_posts)

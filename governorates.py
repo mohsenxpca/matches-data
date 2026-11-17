@@ -32,8 +32,9 @@ def weather_all():
 
 
 def prayers(lat, lon, now):
-    t = S.get(f"https://api.aladhan.com/v1/timings/{now:%d-%m-%Y}", params={"latitude": lat, "longitude": lon, "method": 5})["data"]
     cal = S.get(f"https://api.aladhan.com/v1/calendar/{now.year}/{now.month}", params={"latitude": lat, "longitude": lon, "method": 5})["data"]
+    idx = min(max(0, now.day - 1), len(cal) - 1)
+    t = cal[idx]
     h = t["date"]["hijri"]
     return {k: t["timings"][k][:5] for k, _ in S.PRAYERS}, f'{h["day"]} {h["month"]["ar"]} {h["year"]} هـ', cal
 
@@ -127,8 +128,13 @@ def build(only=None):
     for slug, gov, cap, lat, lon in GOVS:
         if only and slug not in only and slug != "cairo":
             continue
-        P[slug] = prayers(lat, lon, now)
-        time.sleep(0.4)
+        try:
+            P[slug] = prayers(lat, lon, now)
+        except Exception as e:
+            print(f"Warning: prayers fetch failed for {slug}: {e}")
+            if "cairo" in P:
+                P[slug] = P["cairo"]
+        time.sleep(0.5)
     return {slug: page(slug, gov, cap, now, *P[slug], W[slug], P["cairo"][0])
             for slug, gov, cap, *_ in GOVS if slug in P and (not only or slug in only)}
 

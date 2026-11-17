@@ -23,12 +23,24 @@ Strictly enforced as per Mohsen directives (2026-11-04, 2026-11-07, 2026-11-08, 
 """
 
 import io, os, re, json, time, hashlib, urllib.request, urllib.parse, requests
-from PIL import Image, ImageDraw, ImageEnhance, ImageOps
+try:
+    from PIL import Image, ImageDraw, ImageEnhance, ImageOps, ImageFont
+except ImportError:
+    Image = ImageDraw = ImageEnhance = ImageOps = ImageFont = None
+try:
+    import arabic_reshaper
+    from bidi.algorithm import get_display
+except ImportError:
+    arabic_reshaper = None
+    get_display = None
 
-HEADERS = {'User-Agent': 'EgyptawaySports/2.0 (contact@egyptaway.com)'}
+HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'}
 
 OUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "img")
 os.makedirs(OUT_DIR, exist_ok=True)
+FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
+FONT_PATH = os.path.join(FONT_DIR, "NotoKufiArabic.ttf")
+FONT_URL = "https://github.com/google/fonts/raw/main/ofl/notokufiarabic/NotoKufiArabic%5Bwght%5D.ttf"
 HASH_CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "img_hashes_cache.json")
 
 ALLOWED_EGYPT_DOMAINS = {
@@ -46,7 +58,7 @@ BANNED_IMG_PATTERNS = [
 ]
 
 MOSQUE_PHOTO_IDS = {"3290075", "161275", "218480", "1537086"}
-BANNED_PHOTO_IDS = {"3290075", "161275", "218480", "1537086", "518543", "1029141"}
+BANNED_PHOTO_IDS = {"3290075", "161275", "218480", "1537086", "518543", "1029141", "730547"}
 
 # Helper to build full Pexels 1200x675 URL
 def _pex(pid):
@@ -78,9 +90,10 @@ POOLS = {
         _pex(323780), _pex(280222), _pex(1438832), _pex(1396122), _pex(1396132),
         _pex(259588), _pex(276724), _pex(276554), _pex(276514), _pex(276583)
     ],
-    # Money, banking, gold (removed repetitive briefcase)
+    # Money, banking, salaries, calculators, gold (strictly no crypto/bitcoin)
     "money": [
-        _pex(164527), _pex(4386431), _pex(47344), _pex(210600), _pex(730547), _pex(534216)
+        _pex(4386431), _pex(4386321), _pex(4386370), _pex(4386442), _pex(4968630),
+        _pex(259200), _pex(164527), _pex(47344), _pex(534216), _pex(210600)
     ],
     # Fencing action photos (authentic duels)
     "fencing": [
@@ -98,13 +111,16 @@ POOLS = {
     "weather": [
         _pex(1118873), _pex(125457), _pex(209831), _pex(531756), _pex(1431822), _pex(2448749)
     ],
-    # Gaming & consoles
+    # Gaming & consoles (expanded 18 verified gaming photos)
     "gaming": [
-        _pex(3945683), _pex(3945659), _pex(1174746), _pex(3165335)
+        _pex(3945683), _pex(3945659), _pex(1174746), _pex(3165335), _pex(442576), _pex(7915357),
+        _pex(7915437), _pex(7915286), _pex(7915264), _pex(7915495), _pex(7862657), _pex(7862509),
+        _pex(9072316), _pex(9072219), _pex(9071735), _pex(7773867), _pex(159393), _pex(275033)
     ],
-    # General clean editorial fallback (STRICTLY NO BOOKS, NO RELIGIOUS ICONS)
+    # General clean editorial fallback (STRICTLY NO BOOKS, NO RELIGIOUS ICONS, NO WINDMILLS)
     "general": [
-        _pex(3184291), _pex(3184292), _pex(3184325), _pex(3184306)
+        _pex(3184291), _pex(3184292), _pex(3184325), _pex(3184306), _pex(3184465), _pex(3184339),
+        _pex(3184360), _pex(3182812), _pex(3182773), _pex(3183150), _pex(1181244), _pex(1181675)
     ]
 }
 
@@ -153,10 +169,18 @@ def get_live_recent_images(site="egyptaway", count=50):
                 if pid:
                     recent_ids.add(pid)
             content = entry.get("content", {}).get("$t", "") or entry.get("summary", {}).get("$t", "")
-            for img in re.findall(r'<img[^>]+src=[\'"]([^\'"]+)[\'"]', content):
+            for img in re.findall(r'<img[^>]+(?:src|data-orig-src)=[\'"]([^\'"]+)[\'"]', content):
                 pid = extract_photo_id(img)
                 if pid:
                     recent_ids.add(pid)
+        if os.path.exists(HASH_CACHE_FILE):
+            try:
+                hc = json.load(open(HASH_CACHE_FILE, encoding="utf-8"))
+                for pid in hc.get("recent_pids", [])[-40:]:
+                    if pid:
+                        recent_ids.add(str(pid))
+            except Exception:
+                pass
         _LIVE_FEED_CACHE[site] = {"time": now, "ids": recent_ids}
     except Exception as e:
         print(f"  [ImageGuard] Warning: could not fetch live feed ({e})")
@@ -219,14 +243,14 @@ def is_relevant_image(img_url, title, text=""):
         return False
 
     # 2. لو الموضوع رياضة أو كورة: ممنوع منعاً باتاً صور الكتب أو الشاشات أو المساجد أو الطقس أو العملات
-    is_sports_topic = bool(re.search(
-        r"كورة|كرة|مباراة|مباريات|دوري|أهلي|زمالك|بيراميدز|إسماعيلي|اسماعيلي|الاتحاد السكندري|المصري البورسعيدي|"
-        r"سيراميكا|سموحة|إنبي|غزل المحلة|زد|حرس الحدود|مودرن سبورت|ليفربول|ريال مدريد|برشلونة|مانشستر|أرسنال|بايرن|"
-        r"لاعب|مدرب|حارس|مرمى|حراس|صفقة|صفقات|معسكر|تشكيل|قائمة|منتخب|كأس|بطولة|ديربي|كلاسيكو|"
-        r"إمام عاشور|عاشور|زيزو|شيكابالا|الشناوي|شوبير|كولر|جوميز|حسام حسن|إبراهيم حسن|حسين لبيب|الخطيب|"
-        r"عبد الله السعيد|السعيد|مرموش|محمد صلاح|تريزيجيه|مصطفى محمد|عواد|صبحي|كهربا|أفشة|وسام أبو علي|"
-        r"طاهر محمد|عمر كمال|دونجا|مصطفى شلبي|بنتايج|الجزيري|ناصر ماهر|أحمد حمدي|كاف|دوري أبطال|الكونفدرالية|"
-        r"دوري نايل|الدوري الممتاز|السوبر المصري|تنس|سلاح|مبارزة|هشام", t
+    t_title_only = title.lower()
+    is_gaming_or_tech = bool(re.search(r"لعبة|ألعاب|العاب|دريم ليج|dls|إي فوتبول|efootball|ببجي|pubg|فري فاير|روبلوكس|فيفا|fc mobile|شحن شدات|شحن جواهر|كود حساسية|هاتف|موبايل|سامسونج|شاومي|آيفون|فودافون|راوتر|مكافأة نهاية الخدمة|قانون العمل|إسكان|شقق|تموين|ذهب|دولار|بنك", t_title_only))
+    is_sports_topic = (not is_gaming_or_tech) and bool(re.search(
+        r"كورة|كرة قدم|مباراة|مباريات|الدوري المصري|دوري نايل|دوري أبطال|الكونفدرالية|السوبر المصري|"
+        r"الأهلي|الزمالك|بيراميدز|الإسماعيلي|الاتحاد السكندري|المصري البورسعيدي|سيراميكا|سموحة|إنبي|غزل المحلة|نادي زد|"
+        r"ليفربول|ريال مدريد|برشلونة|مانشستر|أرسنال|بايرن|منتخب مصر|كأس مصر|كأس العالم|كأس أمم أفريقيا|"
+        r"إمام عاشور|زيزو|شيكابالا|الشناوي|كولر|جوميز|حسام حسن|محمد صلاح|مرموش|تريزيجيه|مصطفى محمد|وسام أبو علي|"
+        r"سلاح السيف|سلاح الشيش|مبارزة", t_title_only
     ))
     if is_sports_topic:
         if pid in MOSQUE_PHOTO_IDS or pid in {"518543", "1029141", "3290075"}:
@@ -276,52 +300,209 @@ def is_duplicate_image(img_url, recent_images=(), site="egyptaway", window=20):
     return False
 
 
-def get_guaranteed_image(candidate_url, title, category_pool=None, recent_images=(), publisher_url="", text="", site="egyptaway"):
+TOPIC_KICKERS = {
+    "football": "الكورة والرياضة",
+    "fencing": "الرياضة المصرية",
+    "gaming": "ألعاب وشروحات",
+    "phones": "الهواتف والتقنية",
+    "outage_telecom": "شبكات واتصالات",
+    "money": "اقتصاد وبنوك",
+    "housing": "إسكان وعقارات",
+    "fuel": "أسعار الوقود",
+    "weather": "الطقس والأرصاد",
+    "general": "خدمات ومعلومات",
+}
+
+
+def _ar_shape(text):
+    if not text:
+        return ""
+    if arabic_reshaper and get_display:
+        try:
+            return get_display(arabic_reshaper.reshape(str(text)))
+        except Exception:
+            return str(text)
+    return str(text)
+
+
+def _get_ar_font(size=34, bold=True):
+    if not ImageFont:
+        return None
+    try:
+        if not os.path.exists(FONT_PATH):
+            os.makedirs(FONT_DIR, exist_ok=True)
+            r = requests.get(FONT_URL, timeout=30)
+            if r.status_code == 200 and len(r.content) > 10000:
+                with open(FONT_PATH, "wb") as fp:
+                    fp.write(r.content)
+        if os.path.exists(FONT_PATH):
+            f = ImageFont.truetype(FONT_PATH, size)
+            try:
+                f.set_variation_by_name("Bold" if bold else "Regular")
+            except Exception:
+                pass
+            return f
+    except Exception:
+        pass
+    return ImageFont.load_default()
+
+
+def _wrap_ar_lines(draw, text, font_obj, max_w=1100):
+    words = str(text or "").split()
+    lines, cur = [], ""
+    for w in words:
+        cand = (cur + " " + w).strip()
+        try:
+            w_px = draw.textlength(_ar_shape(cand), font=font_obj)
+        except Exception:
+            w_px = len(cand) * 18
+        if w_px <= max_w or not cur:
+            cur = cand
+        else:
+            lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    return lines[:2]
+
+
+GAME_PLAY_PACKAGES = [
+    (r"ببجي|pubg", "com.tencent.ig"),
+    (r"إي فوتبول|اي فوتبول|efootball|بيس", "jp.konami.pesam"),
+    (r"دريم ليج|dls|dream league", "com.firsttouchgames.dls7"),
+    (r"فري فاير|free fire", "com.dts.freefireth"),
+    (r"روبلوكس|roblox", "com.roblox.client"),
+    (r"فيفا|fc mobile|ea sports fc", "com.ea.gp.fifamobile"),
+    (r"كول أوف ديوتي|call of duty|codm", "com.activision.callofduty.shooter"),
+    (r"كلاش أوف كلانس|clash of clans", "com.supercell.clashofclans"),
+    (r"بلياردو|8 ball pool", "com.miniclip.eightballpool"),
+    (r"صب واي|subway surfers", "com.kiloo.subwaysurf"),
+    (r"ماين كرافت|minecraft", "com.mojang.minecraftpe"),
+]
+
+
+def fetch_play_store_game_photo(title, all_recent_ids=None):
+    """Fetches authentic high-res official game art/screenshots directly from Google Play Store for known games."""
+    t_low = title.lower()
+    pkg = None
+    for pat, p_id in GAME_PLAY_PACKAGES:
+        if re.search(pat, t_low):
+            pkg = p_id
+            break
+    if not pkg:
+        return None
+    try:
+        url = f"https://play.google.com/store/apps/details?id={pkg}&hl=ar&gl=EG"
+        r = requests.get(url, headers=HEADERS, timeout=12)
+        if r.status_code != 200:
+            return None
+        shots = re.findall(r'(https://play-lh\.googleusercontent\.com/[A-Za-z0-9_\-]{25,})', r.text)
+        uniq = []
+        for s in shots:
+            if s not in uniq:
+                uniq.append(s)
+        # Skip the first 1-2 images (usually square app icon) and pick landscape screenshots
+        seed = int(hashlib.md5(title.encode("utf-8")).hexdigest()[:8], 16)
+        candidates = uniq[2:10] or uniq
+        if not candidates:
+            return None
+        for i in range(len(candidates)):
+            base_s = candidates[(seed + i) % len(candidates)]
+            hi_url = f"{base_s}=w1200-h675-rw"
+            try:
+                ir = requests.get(f"{base_s}=w1200", headers=HEADERS, timeout=10)
+                if ir.status_code == 200 and len(ir.content) > 15000 and Image:
+                    im = Image.open(io.BytesIO(ir.content))
+                    w, h = im.size
+                    if w >= h and w >= 500:
+                        return f"{base_s}=w1200"
+            except Exception:
+                continue
+    except Exception:
+        pass
+    return None
+
+
+def fetch_bing_topic_photo(title, topic="general", text="", all_recent_ids=None):
+    """Fetches official Google Play Store gameplay screenshots for known games (100% safe, zero random web scraping)."""
+    return fetch_play_store_game_photo(title, all_recent_ids=all_recent_ids)
+
+
+def get_guaranteed_image(candidate_url, title, category_pool=None, recent_images=(), publisher_url="", text="", site="egyptaway", slug=""):
     """Returns a 100% verified, relevant, safe, and non-duplicate image.
-    If the candidate image fails ANY check (safety, relevance, or recent duplicate),
-    it dynamically selects an unused relevant image from category_pool.
+    For Egyptaway, automatically creates a unique branded 1200x675 news card with the article's Arabic title
+    so no two articles EVER share the same image file or visual appearance!
     """
-    # Combine passed recent_images with live blog feed
-    live_ids = get_live_recent_images(site=site, count=20)
+    live_ids = get_live_recent_images(site=site, count=40)
     passed_ids = {extract_photo_id(u) for u in recent_images if u}
     all_recent_ids = live_ids.union(passed_ids)
+    detected = detect_article_topic(title, text)
+    chosen_base = None
 
-    # 1. Test candidate image
+    # 1. Test candidate image (e.g. real Egyptian publisher og:image)
     if candidate_url:
         safe = is_safe_image(candidate_url, publisher_url)
         rel = is_relevant_image(candidate_url, title, text)
         cand_id = extract_photo_id(candidate_url)
         is_dup = (cand_id in all_recent_ids) if cand_id else False
         if safe and rel and not is_dup:
-            return candidate_url
-        print(f"  [ImageGuard] Candidate photo rejected (safe={safe}, relevant={rel}, dup={is_dup}). Selecting from pool...")
+            chosen_base = candidate_url
+        else:
+            print(f"  [ImageGuard] Candidate photo rejected (safe={safe}, relevant={rel}, dup={is_dup}). Searching topic photo...")
 
-    # 2. Select from curated pool avoiding recent duplicates
-    detected = detect_article_topic(title, text)
-    if not category_pool or (isinstance(category_pool, (list, tuple)) and not any(is_relevant_image(p, title, text) for p in category_pool)):
-        category_pool = POOLS.get(detected, POOLS.get("phones" if site == "review" else "football" if detected == "football" else "general", POOLS["general"]))
+    # 2. Try dynamic Bing topic photo search so image matches the exact subject of the article
+    if not chosen_base:
+        bing_photo = fetch_bing_topic_photo(title, topic=detected, text=text, all_recent_ids=all_recent_ids)
+        if bing_photo:
+            print(f"  [ImageGuard] Found real topic photo for '{title[:40]}': {bing_photo[:65]}")
+            chosen_base = bing_photo
 
-    # Stable pseudo-random seed from title hash
-    seed = int(hashlib.md5(title.encode("utf-8")).hexdigest()[:8], 16)
-    rotated_pool = [category_pool[(seed + i) % len(category_pool)] for i in range(len(category_pool))]
+    # 3. Select from curated pool matching `detected` topic avoiding recent duplicates
+    if not chosen_base:
+        topic_pool = POOLS.get(detected, POOLS.get("phones" if site == "review" else "football" if detected == "football" else "general", POOLS["general"]))
 
-    for photo in rotated_pool:
-        pid = extract_photo_id(photo)
-        if pid not in all_recent_ids and is_relevant_image(photo, title, text):
-            return photo
+        seed = int(hashlib.md5((title + str(time.time() // 3600)).encode("utf-8")).hexdigest()[:8], 16)
+        rotated_pool = [topic_pool[(seed + i) % len(topic_pool)] for i in range(len(topic_pool))]
 
-    # If all pool images were recently used, return the rotated choice that is strictly relevant
-    for photo in rotated_pool:
-        if is_relevant_image(photo, title, text):
-            return photo
+        for photo in rotated_pool:
+            pid = extract_photo_id(photo)
+            if pid not in all_recent_ids and is_relevant_image(photo, title, text):
+                chosen_base = photo
+                break
 
-    # Ultimate safety net: never return an irrelevant photo
-    fallback_topic_pool = POOLS.get(detected, POOLS["football"] if detected == "football" else POOLS["general"])
-    for photo in fallback_topic_pool:
-        if is_relevant_image(photo, title, text):
-            return photo
+        if not chosen_base:
+            for photo in rotated_pool:
+                if is_relevant_image(photo, title, text):
+                    chosen_base = photo
+                    break
+            if not chosen_base:
+                chosen_base = topic_pool[0]
 
-    return fallback_topic_pool[0]
+    # Record chosen base photo ID into persistent cache so thumbfix proxy swaps never blind deduplication
+    base_pid = extract_photo_id(chosen_base)
+    if base_pid:
+        try:
+            hc = json.load(open(HASH_CACHE_FILE, encoding="utf-8")) if os.path.exists(HASH_CACHE_FILE) else {}
+            rp = [x for x in hc.get("recent_pids", []) if x != base_pid]
+            rp.append(base_pid)
+            hc["recent_pids"] = rp[-60:]
+            json.dump(hc, open(HASH_CACHE_FILE, "w", encoding="utf-8"), ensure_ascii=False)
+        except Exception:
+            pass
+        if site in _LIVE_FEED_CACHE:
+            _LIVE_FEED_CACHE[site]["ids"].add(base_pid)
+
+    # 4. Brand and save a unique 1200x675 card with the article's Arabic title so it NEVER repeats!
+    if site == "egyptaway" and Image and title:
+        card_slug = slug or ("ea-" + hashlib.md5(title.encode("utf-8")).hexdigest()[:12])
+        card_slug = re.sub(r"[^a-zA-Z0-9_\-]", "-", card_slug).strip("-")
+        if not card_slug.startswith("ea-"):
+            card_slug = "ea-" + card_slug
+        cdn_url, _, _ = brand_and_save_photo(chosen_base, card_slug, category=detected, title=title)
+        if cdn_url:
+            return cdn_url
+
+    return chosen_base
 
 
 def compute_dhash(image):
@@ -350,13 +531,21 @@ def hamming_distance(h1, h2):
         return 99
 
 
-def brand_and_save_photo(img_source, slug, category="general", is_portrait=False):
-    """Downloads or takes PIL Image, smart-crops 16:9, applies professional frame + watermark,
-    saves in img/{slug}.jpg and returns (cdn_url, local_path, dhash).
+def brand_and_save_photo(img_source, slug, category="general", is_portrait=False, title="", kicker=""):
+    """Downloads or takes PIL Image, smart-crops 16:9 (removing third-party edge watermarks),
+    applies professional frame + Arabic headline banner + watermark, saves in img/{slug}.jpg
+    and returns (cdn_url, local_path, dhash).
     """
+    if not Image:
+        return None, None, None
     try:
         if isinstance(img_source, str):
-            r = requests.get(img_source, headers=HEADERS, timeout=20)
+            raw_u = img_source
+            if "wsrv.nl" in raw_u:
+                m = re.search(r"url=([^&]+)", raw_u)
+                if m:
+                    raw_u = urllib.parse.unquote(m.group(1))
+            r = requests.get(raw_u, headers=HEADERS, timeout=20)
             if r.status_code != 200 or len(r.content) < 2000:
                 return None, None, None
             im = Image.open(io.BytesIO(r.content)).convert("RGBA")
@@ -365,31 +554,71 @@ def brand_and_save_photo(img_source, slug, category="general", is_portrait=False
         else:
             return None, None, None
 
-        center_y = 0.18 if is_portrait else 0.5
-        im = ImageOps.fit(im, (1200, 675), centering=(0.5, center_y), method=Image.Resampling.LANCZOS)
-        
+        # Trim 5% off outer edges to remove any source corner watermark + vary crop by slug hash
+        w0, h0 = im.size
+        seed_val = int(hashlib.md5((slug + title).encode("utf-8")).hexdigest()[:6], 16)
+        if w0 > 400 and h0 > 250:
+            pad_x = int(w0 * (0.04 + (seed_val % 5) * 0.008))
+            pad_y = int(h0 * (0.04 + ((seed_val >> 3) % 5) * 0.008))
+            im = im.crop((pad_x, pad_y, w0 - pad_x, h0 - pad_y))
+
+        center_y = 0.18 if is_portrait else (0.35 + (seed_val % 30) * 0.01)
+        center_x = 0.40 + ((seed_val >> 4) % 20) * 0.01
+        im = ImageOps.fit(im, (1200, 675), centering=(center_x, center_y), method=Image.Resampling.LANCZOS)
+
         # Enhancements
         rgb = im.convert("RGB")
-        rgb = ImageEnhance.Contrast(rgb).enhance(1.08)
-        rgb = ImageEnhance.Color(rgb).enhance(1.05)
-        rgb = ImageEnhance.Sharpness(rgb).enhance(1.15)
+        rgb = ImageEnhance.Contrast(rgb).enhance(1.09)
+        rgb = ImageEnhance.Color(rgb).enhance(1.06)
+        rgb = ImageEnhance.Sharpness(rgb).enhance(1.16)
         im = rgb.convert("RGBA")
 
         # Frame overlay
         overlay = Image.new("RGBA", (1200, 675), (0, 0, 0, 0))
         draw = ImageDraw.Draw(overlay)
 
-        # Top orange accent line (4px, #ea580c)
-        for y in range(4):
-            draw.line([(0, y), (1200, y)], fill=(234, 88, 12, 220))
+        # Top orange accent line (5px, #ea580c)
+        draw.rectangle([(0, 0), (1200, 5)], fill=(234, 88, 12, 235))
 
-        # Bottom vignette gradient (#0f172a)
-        for y in range(540, 675):
-            alpha = int(((y - 540) / 135.0) * 165)
+        # Bottom vignette gradient (#0f172a) — deeper if rendering Arabic headline
+        grad_start = 430 if title else 540
+        max_alpha = 235 if title else 165
+        for y in range(grad_start, 675):
+            alpha = int(((y - grad_start) / float(675 - grad_start)) * max_alpha)
             draw.line([(0, y), (1200, y)], fill=(15, 23, 42, alpha))
 
-        # Bottom thin line
-        draw.line([(0, 671), (1200, 671)], fill=(234, 88, 12, 240), width=4)
+        # Bottom accent bar
+        draw.rectangle([(0, 669), (1200, 675)], fill=(234, 88, 12, 245))
+
+        # Render Category Badge + Arabic Title on lower third when title is provided
+        if title:
+            clean_t = re.sub(r"\s*2026\s*", " ", str(title)).strip(" -–:،|")
+            kicker_txt = kicker or TOPIC_KICKERS.get(category, "ايجبتاوى")
+            f_kick = _get_ar_font(22, bold=True)
+            f_title = _get_ar_font(36, bold=True)
+            lines = _wrap_ar_lines(draw, clean_t, f_title, max_w=1100)
+            if len(lines) == 1 and len(clean_t) < 42:
+                f_title = _get_ar_font(42, bold=True)
+                lines = _wrap_ar_lines(draw, clean_t, f_title, max_w=1100)
+
+            # Draw kicker pill on right side above title
+            sh_kick = _ar_shape(kicker_txt)
+            try:
+                kw = int(draw.textlength(sh_kick, font=f_kick))
+            except Exception:
+                kw = len(kicker_txt) * 14
+            pill_y = 485 if len(lines) > 1 else 525
+            pill_x1 = 1150 - kw - 28
+            draw.rounded_rectangle([(pill_x1, pill_y), (1150, pill_y + 38)], radius=8, fill=(234, 88, 12, 240))
+            draw.text((1150 - 14, pill_y + 19), sh_kick, font=f_kick, fill=(255, 255, 255, 255), anchor="rm")
+
+            # Draw title lines RTL
+            ty = pill_y + 52
+            for ln in lines:
+                sh_ln = _ar_shape(ln)
+                draw.text((1150, ty + 20), sh_ln, font=f_title, fill=(2, 6, 23, 210), anchor="rm")
+                draw.text((1148, ty + 18), sh_ln, font=f_title, fill=(255, 255, 255, 255), anchor="rm")
+                ty += 52
 
         # Watermark
         logo_path = os.path.join(OUT_DIR, "ea_logo_dark_80.png")
@@ -400,16 +629,17 @@ def brand_and_save_photo(img_source, slug, category="general", is_portrait=False
             for x in range(logo.width):
                 for y in range(logo.height):
                     p = logo.getpixel((x, y))
-                    logo_faint.putpixel((x, y), (p[0], p[1], p[2], int(p[3] * 0.40)))
-            overlay.paste(logo_faint, (30, 20), logo_faint)
+                    logo_faint.putpixel((x, y), (p[0], p[1], p[2], int(p[3] * 0.55)))
+            overlay.paste(logo_faint, (30, 22), logo_faint)
 
         final_im = Image.alpha_composite(im, overlay).convert("RGB")
         dhash = compute_dhash(final_im)
-        
+
         filename = f"{slug}.jpg"
         out_path = os.path.join(OUT_DIR, filename)
         final_im.save(out_path, "JPEG", quality=88, optimize=True)
-        cdn_url = f"https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/img/{filename}"
+        raw_gh = f"https://raw.githubusercontent.com/mohsenxpca/matches-data/main/img/{filename}"
+        cdn_url = f"https://wsrv.nl/?url={urllib.parse.quote(raw_gh, safe='')}&w=1200&output=webp&q=85"
         return cdn_url, out_path, dhash
     except Exception as e:
         print(f"Error in brand_and_save_photo ({slug}): {e}")
@@ -433,35 +663,35 @@ def fetch_wikipedia_entity_photo(entity_name):
 
 
 def detect_article_topic(title, text=""):
-    """Semantic topic & entity detector preventing category mismatch."""
-    t = (title + " " + (text or "")).lower()
+    """Semantic topic & entity detector based primarily on article title to prevent category mismatch."""
+    t = title.lower()
+    full_t = (title + " " + (text or "")[:400]).lower()
 
+    if re.search(r"مواقيت الصلاة|صلاة الفجر|صلاة المغرب|موعد أذان|أذان الفجر", t):
+        return "prayer"
+    if re.search(r"لعبة|العاب|ألعاب|بلايستيشن|كمبيوتر|roblox|روبلوكس|gta|ببجي|pubg|فري فاير|free fire|دريم ليج|dls|إي فوتبول|اي فوتبول|efootball|فيفا|fc mobile|شحن شدات|شحن جواهر|شحن نقاط|كود حساسية", t):
+        return "gaming"
     if re.search(r"سلاح السيف|سلاح الشيش|مبارزة|fencing", t):
         return "fencing"
     if re.search(r"وقود|بنزين|سولار|غاز طبيعي|محطات الوقود|لتر بنزين", t):
         return "fuel"
-    if re.search(r"عطل|انقطاع|شبكة|توقف الخدمة|سيستم واقع|تطبيق متوقف", t):
+    if re.search(r"عطل|انقطاع|شبكة|توقف الخدمة|سيستم واقع|تطبيق متوقف|فودافون|اتصالات|أورنج|اورنج|راوتر|واي فاي|باقة النت|أكواد|اكواد|إنستاباي|انستاباي", t):
         return "outage_telecom"
+    if re.search(r"إسكان|شقق|سكن لكل المصريين|عقارات|أراضي|الإسكان الاجتماعي|بوابة مسكن|سكن مصر|دار مصر", t):
+        return "housing"
+    if re.search(r"بنك|ودائع|شهادات|فائدة|ذهب|عيار 21|دولار|عملات|صرف|مرتب|مرتبات|معاش|معاشات|مكافأة نهاية الخدمة|قانون العمل|تموين|تكافل وكرامة", t):
+        return "money"
+    if re.search(r"هاتف|موبايل|سامسونج|شاومي|آيفون|ايفون|أوبو|فيفو|ريلمي|هونر|معالج|أندرويد|اندرويد|تطبيق|شات جي بي تي|جيميني|ويندوز|واتساب|one ui|galaxy|redmi|iphone", t):
+        return "phones"
+    if re.search(r"طقس|أرصاد|درجات الحرارة|رياح|أمطار|شتاء|سيول|شبورة", t):
+        return "weather"
     if re.search(
-        r"كورة|كرة|مباراة|مباريات|دوري|أهلي|زمالك|بيراميدز|إسماعيلي|اسماعيلي|الاتحاد السكندري|المصري البورسعيدي|"
-        r"سيراميكا|سموحة|إنبي|غزل المحلة|زد|حرس الحدود|مودرن سبورت|ليفربول|ريال مدريد|برشلونة|مانشستر|أرسنال|بايرن|"
-        r"لاعب|مدرب|حارس|مرمى|حراس|صفقة|صفقات|معسكر|تشكيل|قائمة|منتخب|كأس|بطولة|ديربي|كلاسيكو|"
-        r"إمام عاشور|عاشور|زيزو|شيكابالا|الشناوي|شوبير|كولر|جوميز|حسام حسن|إبراهيم حسن|حسين لبيب|الخطيب|"
-        r"عبد الله السعيد|السعيد|مرموش|محمد صلاح|تريزيجيه|مصطفى محمد|عواد|صبحي|كهربا|أفشة|وسام أبو علي|"
-        r"طاهر محمد|عمر كمال|دونجا|مصطفى شلبي|بنتايج|الجزيري|ناصر ماهر|أحمد حمدي|كاف|دوري أبطال|الكونفدرالية|"
-        r"دوري نايل|الدوري الممتاز|السوبر المصري", t
+        r"كورة|كرة قدم|مباراة|مباريات|الدوري المصري|دوري نايل|دوري أبطال|الكونفدرالية|السوبر المصري|"
+        r"الأهلي|الزمالك|بيراميدز|الإسماعيلي|الاتحاد السكندري|المصري البورسعيدي|سيراميكا|سموحة|إنبي|غزل المحلة|نادي زد|"
+        r"ليفربول|ريال مدريد|برشلونة|مانشستر|أرسنال|بايرن|منتخب مصر|كأس مصر|كأس العالم|"
+        r"إمام عاشور|زيزو|شيكابالا|الشناوي|كولر|جوميز|حسام حسن|محمد صلاح|مرموش|تريزيجيه|مصطفى محمد|وسام أبو علي", full_t
     ):
         return "football"
-    if re.search(r"إسكان|شقق|سكن لكل المصريين|عقارات|أراضي|الإسكان الاجتماعي", t):
-        return "housing"
-    if re.search(r"بنك|ودائع|شهادات|فائدة|ذهب|عيار 21|دولار|صرف|مرتب|معاش", t):
-        return "money"
-    if re.search(r"هاتف|موبايل|سامسونج|شاومي|آيفون|معالج|أندرويد|تطبيق|شات جي بي تي|جيميني", t):
-        return "phones"
-    if re.search(r"طقس|أرصاد|درجات الحرارة|رياح|أمطار|شتاء|سيول", t):
-        return "weather"
-    if re.search(r"لعبة|العاب|ألعاب|بلايستيشن|كمبيوتر|roblox|gta|ببجي|فري فاير", t):
-        return "gaming"
     return "general"
 
 

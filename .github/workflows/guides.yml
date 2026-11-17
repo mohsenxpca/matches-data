@@ -33,13 +33,14 @@ jobs:
           python-version: "3.11"
 
       - name: تثبيت المكتبات
-        run: pip install requests beautifulsoup4 lxml pillow
+        run: pip install requests beautifulsoup4 lxml pillow arabic-reshaper python-bidi
 
       - name: تشغيل محرك مقال منوعات اليومي
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          BLOGGER_TOKEN: ${{ secrets.BLOGGER_TOKEN }}
-          CLIENT_SECRET_JSON: ${{ secrets.CLIENT_SECRET_JSON }}
+          BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+          BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+          BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
         run: |
           if [ "${{ github.event.inputs.topic_id }}" != "" ]; then
             python -u guides.py --topic-id "${{ github.event.inputs.topic_id }}"

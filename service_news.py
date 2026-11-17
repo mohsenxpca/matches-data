@@ -415,10 +415,17 @@ def main():
             pub_url = decode_gn_link(rss_link)
             if not pub_url or pub_url in done_urls:
                 continue
+            pub_dom = urllib.parse.urlparse(pub_url).netloc.lower()
+            if any(pub_dom.endswith(tld) or tld in pub_dom for tld in [".vn", ".cn", ".ru", ".es", ".mx", ".it", ".fr", ".de", ".br", "vietnam"]):
+                print(f"    Foreign non-Egyptian domain blocked: {pub_dom}")
+                continue
 
             real_img, src_text = fetch_publisher_article(pub_url)
             if not src_text or len(src_text) < 400:
                 print("    Source text too short or unreadable. Skipping.")
+                continue
+            if not re.search(r"مصر|المصري|المصرية|القاهرة|الجنيه|وزارة|هيئة|البنك الأهلي|بنك مصر|محافظة", orig_title + " " + src_text[:1500]):
+                print("    Story is not about Egypt. Skipping.")
                 continue
             if re.search(BANNED_TOPICS_REGEX, src_text[:2000], re.I):
                 print("    Source contains banned political/war/art content. Skipping.")

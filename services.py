@@ -54,15 +54,18 @@ HERO_IMGS = {
 
 
 def get(url, **kw):
-    for t in range(3):
+    for wait in (3, 7, 15, 25, 0):
         try:
             r = requests.get(url, headers=UA, timeout=40, **kw)
+            if r.status_code == 429 and wait:
+                time.sleep(wait)
+                continue
             r.raise_for_status()
             return r.json()
         except Exception:
-            if t == 2:
+            if not wait:
                 raise
-            time.sleep(5)
+            time.sleep(wait)
 
 
 def stamp(now):
