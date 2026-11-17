@@ -353,6 +353,24 @@
       "has_real_img": true,
       "at": "2026-11-17T17:26:08.280765+02:00",
       "ok": true
+    },
+    {
+      "title": "Huawei Enjoy 100 Pro Max vs Honor X60 Pro: Is the $70 Price Difference Worth It?",
+      "orig_link": "https://www.gizmochina.com/2026/11/17/huawei-enjoy-100-pro-max-vs-honor-x60-pro/",
+      "at": "2026-11-17T19:26:06.291857+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (huawei-enjoy-100-pro-max-vs-honor-x60-pro-comparison): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
+    },
+    {
+      "title": "إيديفاير تكشف عن Halo PixelBar: ساوند بار ذكي بشاشة بكسل",
+      "orig_link": "https://www.gizmochina.com/2026/11/17/edifier-huazai-halo-pixelbar-ai-desktop-speaker-specs-price/",
+      "post_url": "https://www.egyptaway.com/2026/11/edifier-halo-pixelbar-ai-launch.html",
+      "brand": "Google Pixel",
+      "has_real_img": true,
+      "at": "2026-11-17T19:26:06.291857+02:00",
+      "ok": true
     }
   ]
 }
