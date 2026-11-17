@@ -289,6 +289,15 @@
       "has_real_img": true,
       "at": "2026-11-17T13:56:07.709931+02:00",
       "ok": true
+    },
+    {
+      "title": "Galaxy Tab S10 series One UI 9.0 update goes global",
+      "orig_link": "https://www.sammobile.com/news/galaxy-tab-s10-series-one-ui-9-0-update-goes-global/",
+      "at": "2026-11-17T14:56:17.007302+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (samsung-galaxy-tab-s10-one-ui-9-update): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
     }
   ]
 }
