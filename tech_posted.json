@@ -991,6 +991,34 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/leaving-google-keep-for-ai.html",
    "title": "ليه سابت Google Keep عشان ChatGPT؟"
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+   "t": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+   "at": "2026-11-17",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/i-integrated-google-gemini-across-docs-keep-tasks-and-sheets-streamline-daily-workflow/",
+   "t": "I integrated Google Gemini across Docs, Keep, Tasks, and Sheets to streamline my daily workflow",
+   "at": "2026-11-17",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/google-gemini-productivity-workflow.html",
+   "title": "كيف تستغل Google Gemini لتنظيم يومك وعملك؟"
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+   "t": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+   "at": "2026-11-17",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+   "t": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+   "at": "2026-11-17",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/apple-mac-security-ai.html",
+   "title": "أبل تطلق أدوات أمان جديدة لجهاز Mac لحماية بياناتك"
   }
  ]
 }
