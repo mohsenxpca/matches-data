@@ -1,31 +1,6 @@
 {
  "done": [
   {
-   "title": "Google’s November Pixel update packs dozens of bug fixes, and you can get it now",
-   "url": "https://www.androidauthority.com/november-2026-pixel-update-3733597/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "HiLight on Pixel 11 Pro phones now supports Google Messages",
-   "url": "https://www.androidauthority.com/pixel-11-hilight-messages-3733139/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Phone 'pixel 11 pro' already covered in: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
-  },
-  {
-   "title": "Gboard’s Rambler voice typing expands to the Pixel 10 series",
-   "url": "https://www.androidauthority.com/google-gboard-rambler-pixel-10-series-feature-drop-3733419/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (639 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Pixel 11’s better Pixel Search is expanding to every Pixel launched since 2021",
    "url": "https://www.androidauthority.com/pixel-11-search-natural-language-pixel-6-3733219/",
    "at": "2026-11-11",
@@ -3225,6 +3200,30 @@
    "ok": true,
    "kind": "news",
    "brand": "فيفو"
+  },
+  {
+   "title": "Xiaomi 18 purportedly leaks in live image - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUHZ0MFEwWVc1YURPWTNJN0pqSk1GMW9QVDIyTUItYm5pSFduazZ6dEpIMHJjVFlldmx3eDBsRUxpNEh0M19NSUpFMjd4STdIMHIzeW0tX0VYV0tUVER0eVBRMzZtckg3d2NITHJBRERrZmRoNlRaVlg5WG8wZ1lnQU5jcjdHNHNv?oc=5",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['live', 'purportedly', 'image']"
+  },
+  {
+   "title": "Will next year's 20th Anniversary iPhone be worth a two-decade wait? - Macworld",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcVJ5TjRxV3BrNklJX3V2SUNjc0VRTXBBOEtSTUtSSmxzTlpUa09nc1E1RDFiWUVEaFVubEl0REdrMDlQVmtKaVJMVDU2WEptWGNZODRzQ05pMTZ6cXd6aFVqOGo5Z3VNNUU1bG82djZyVW1GNjlDOFptazJWVjN4Y1pFYmxDUEYxd1Ixa0tNd1ZWeC1NT2xWeHRXeGdNVG8ydERPSUtuS2lPR0ExaWZ6T2xLWm42UQ?oc=5",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['iphone', '20th', 'anniversary']"
+  },
+  {
+   "title": "Oppo Reno 17 Pro: المواصفات الكاملة والسعر وموعد التوفر",
+   "cand_title": "Oppo Reno 17 Pro: Price, release date and full specs - TechCabal",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNalBIdzE3cks0Mmc3RXphbVpJSHNiUHlfaUx5ZGFZeVB4b1hLNGtCQ2VCVm5teWVRS3NDNGJJbVhad1VYa3kxR1o1TV9Dbk5ueUQ3VGRBeElHMmhIMnJGM0dLN0d6eE1XMzdPMUZwUmJRYTh4aGw1N2VHRW9FRzU3RA?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-reno-17-pro-specs-price.html",
+   "at": "2026-11-19T01:52:08+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اوبو"
   }
  ]
 }
