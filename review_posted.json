@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus Turbo 6V vs Nord 5: Is a 9000mAh Battery Better Than Flagship Performance?",
-   "url": "https://www.gizmochina.com/2026/11/10/oneplus-turbo-6v-vs-oneplus-nord-5/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['flagship', 'better', 'oneplus']"
-  },
-  {
    "title": "Xiaomi 18 Pro series global launch is set for November 17 in Paris",
    "url": "https://www.gizmochina.com/2026/11/10/xiaomi-18-pro-series-global-launch-is-set-for-november-17-in-paris/",
    "at": "2026-11-11",
@@ -3230,6 +3223,16 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات",
+   "cand_title": "Motorola starts teasing the Edge 70 Neo, hints at when it will be announced",
+   "url": "https://www.gsmarena.com/motorola_starts_teasing_the_edge_70_neo_hints_at_when_it_will_be_announced-news-75516.php",
+   "post_url": "https://www.review-mobile.com/2026/11/motorola-edge-70-neo-teaser-specs.html",
+   "at": "2026-11-18T10:07:16+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "موتورولا"
   }
  ]
 }
