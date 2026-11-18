@@ -490,6 +490,33 @@
         "طول الخبر قصير (426 كلمة، والمطلوب 450+ كلمة)",
         "العنوان مكرر أو قريب جداً من خبر منشور: رسمياً: سامسونج تطلق تحديث One UI 9.0 المستقر لهاتف Galaxy A25"
       ]
+    },
+    {
+      "title": "سامسونج تستجيب لمطالب الجميع: ميزة قفل التطبيقات رسمياً في One UI 9.5",
+      "orig_link": "https://www.sammobile.com/news/samsung-one-ui-9-5-native-app-lock-feature/",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-app-lock.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-18T10:31:04.304435+02:00",
+      "ok": true
+    },
+    {
+      "title": "Here’s everything One UI 9.5 brings to the Galaxy S26",
+      "orig_link": "https://www.sammobile.com/news/galaxy-s26-one-ui-9-5-new-features-improvements-changelog/",
+      "at": "2026-11-18T10:31:04.304435+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (356 كلمة، والمطلوب 420+ كلمة)"
+      ]
+    },
+    {
+      "title": "سامسونگ تطلق رسمياً برنامج تجربة One UI 9.5 لسلسلة S26",
+      "orig_link": "https://www.sammobile.com/news/samsung-one-ui-9-5-beta-program-eligible-countries/",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-beta-program.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-18T10:31:04.304435+02:00",
+      "ok": true
     }
   ]
 }
