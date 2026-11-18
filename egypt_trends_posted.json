@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/5/برنامج-رأس-المال-المخاطر-لجهاز-تنمية-المشروعات-يجتذب-استثمارات-أجنبية/7606909",
-   "t": "برنامج رأس المال المخاطر لجهاز تنمية المشروعات يجتذب استثمارات أجنبية بـ455 مليون دولار",
-   "title": "استثمارات بـ 455 مليون دولار لشركات مصرية ناشئة عبر جهاز المشروعات",
-   "url": "https://www.egyptaway.com/2026/11/msmeda-venture-capital-455-million.html",
-   "at": "2026-11-05T12:03:44.619116+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://abc6onyourside.com/news/local/columbus-weather-a-cool-but-fang-tastic-halloween",
    "t": "Columbus Weather: A cool but fang-tastic Halloween night",
    "at": "2026-11-05",
@@ -3379,6 +3370,15 @@
    "at": "2026-11-18T11:02:27.282875+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.almasryalyoum.com/news/details/4413631",
+   "t": "«معاشات شهر ديسمبر 2026».. تعرف على موعد الصرف وأماكن الحصول على المعاش",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "الـ body 471 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
