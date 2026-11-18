@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-17 13:25:10",
+  "timestamp": "2026-11-18 13:01:56",
   "dry_run": false,
-  "scanned": 467,
-  "repaired": 3,
+  "scanned": 477,
+  "repaired": 2,
   "fixes": {
-    "broken_links": 1,
+    "broken_links": 0,
     "disclaimers": 0,
     "internal_links": 0,
     "thin_posts": 0,
@@ -13,27 +13,19 @@
   },
   "details": [
     {
-      "id": "98985271240973240",
-      "title": "تسريب مواصفات iQOO Z12 Lite 5G.. موعد الإطلاق وأبرز المزايا",
-      "url": "https://www.review-mobile.com/2026/11/iqoo-z12-lite-5g-specs-launch.html",
+      "id": "3981503937462655789",
+      "title": "موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات",
+      "url": "https://www.review-mobile.com/2026/11/motorola-edge-70-neo-teaser-specs.html",
       "fixes": [
-        "Standardized specs/review label ['أخبار هواتف'] -> [فيفو]"
+        "Standardized specs/review label ['أخبار هواتف'] -> [موتورولا]"
       ]
     },
     {
-      "id": "2177458641828685687",
-      "title": "تسريبات سلسلة أوبو رينو 17: بطارية عملاقة ومواصفات نارية",
-      "url": "https://www.review-mobile.com/2026/11/oppo-reno-17-series-leaks.html",
+      "id": "5918883461295313690",
+      "title": "هواوي Enjoy 100 Pro Max ضد Honor X60 Pro: هل يستحق فارق السعر؟",
+      "url": "https://www.review-mobile.com/2026/11/huawei-enjoy-100-pro-max-vs.html",
       "fixes": [
-        "Standardized specs/review label ['أخبار هواتف'] -> [اوبو]"
-      ]
-    },
-    {
-      "id": "147251120713078274",
-      "title": "نهاية شاشات LCD في هواتف سامسونج الرخيصة؟",
-      "url": "https://www.review-mobile.com/2026/11/samsung-brings-oled-to-cheap-galaxy.html",
-      "fixes": [
-        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
+        "Standardized specs/review label ['أخبار هواتف'] -> [هونر]"
       ]
     }
   ]
