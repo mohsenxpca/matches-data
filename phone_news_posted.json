@@ -636,6 +636,15 @@
       "has_real_img": true,
       "at": "2026-11-18T14:31:08.685379+02:00",
       "ok": true
+    },
+    {
+      "title": "Xiaomi Smart Band 11 Unibody Edition unboxing and hands-on review",
+      "orig_link": "https://www.gsmarena.com/xiaomi_smart_band_11_unibody_edition_in_for_review-news-75523.php",
+      "at": "2026-11-18T15:46:11.474580+02:00",
+      "ok": false,
+      "err": [
+        "العنوان مكرر أو قريب جداً من خبر منشور: رسمياً إطلاق سوار شاومي Smart Band 11 عالمياً"
+      ]
     }
   ]
 }
