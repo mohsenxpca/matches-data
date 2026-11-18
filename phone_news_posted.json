@@ -526,6 +526,16 @@
       "err": [
         "الـ slug غير صالح (samsung-one-ui-9-5-beta-galaxy-s26): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
       ]
+    },
+    {
+      "title": "One UI 9.5 brings Tap to share to Quick Share on Galaxy phones",
+      "orig_link": "https://www.sammobile.com/news/one-ui-9-5-brings-tap-to-share-quick-share/",
+      "at": "2026-11-18T11:31:11.400653+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (289 كلمة، والمطلوب 420+ كلمة)",
+        "الـ slug غير صالح (samsung-one-ui-9.5-tap-to-share): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
     }
   ]
 }
