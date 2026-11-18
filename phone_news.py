@@ -392,11 +392,6 @@ def main():
             res = f.publish_live(tok, art, full_html, labels)
             post_url = res.get("url", "")
             print(f"  >>> PUBLISHED PHONE NEWS: {post_url} | {art['title']}")
-            try:
-                import fb_phones
-                fb_phones.post_phone_to_fb(art["title"], post_url, image_url=real_img, content=full_html, dry=dry)
-            except Exception as fb_ex:
-                print(f"  FB auto-post warning: {fb_ex}")
             state.setdefault("done", []).append({
                 "title": art["title"],
                 "orig_link": cand["link"],
@@ -421,6 +416,11 @@ def main():
         valid_urls = [u for u in published_urls if u.startswith("http")]
         if valid_urls:
             ping_indexnow(valid_urls)
+        try:
+            import fb_phones
+            fb_phones.run_auto(dry=dry, force=False, max_per_run=1)
+        except Exception as fb_ex:
+            print(f"  FB policy auto-post warning: {fb_ex}")
 
     print(f"\nPhone news run completed. Published {len(published_urls)} of {target_count} requested story(ies).")
 

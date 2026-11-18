@@ -174,7 +174,7 @@ def main():
         state = json.load(open("notify_sent.json", encoding="utf-8"))
     except Exception:
         state = {}
-    for k in ("sent", "indexed", "tg", "fb"):
+    for k in ("sent", "indexed", "tg", "fb", "fb_history"):
         state.setdefault(k, [])
     now = datetime.datetime.now(f.CAIRO)
     tok = f.token()
@@ -200,17 +200,11 @@ def main():
 
     try:
         import fb_phones
-        rv_res = f.api("GET", f"/blogs/{fb_phones.REVIEW_BLOG}/posts", tok, {
-            "status": "live", "startDate": since, "maxResults": 15,
-            "fetchBodies": "true", "fetchImages": "true"
-        })
-        rv_posts = [p for p in (rv_res.get("items", []) if isinstance(rv_res, dict) else []) if p.get("url")]
-        ea_phone_posts = [p for p in posts if fb_phones.is_phone_post(p, blog_id=f.BLOG)]
-        all_phone_posts = sorted(rv_posts + ea_phone_posts, key=lambda x: x.get("published", ""))
-        for p in [p for p in all_phone_posts if p["url"].replace("http://", "https://") not in state["fb"] and p["url"] not in state["fb"]][:3]:
-            u_clean = p["url"].replace("http://", "https://")
-            if facebook(p, dry):
-                state["fb"].append(u_clean)
+        if not dry:
+            json.dump(state, open("notify_sent.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        fb_phones.run_auto(dry=dry, force=force, max_per_run=1)
+        if not dry:
+            state = json.load(open("notify_sent.json", encoding="utf-8"))
     except Exception as ex:
         print("Facebook step error:", ex)
 
@@ -219,8 +213,8 @@ def main():
     except Exception as ex:
         print("Push step error:", ex)
 
-    for k in ("sent", "indexed", "tg", "fb"):
-        state[k] = state[k][-400:]
+    for k in ("sent", "indexed", "tg", "fb", "fb_history"):
+        state[k] = state.get(k, [])[-400:]
     if not dry:
         json.dump(state, open("notify_sent.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
