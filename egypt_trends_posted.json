@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/5/مليارات-السعادة-للمساهمين-19-30-جنيه-إجمالى-نصيب-السهم-بأرباح/7606737",
-   "t": "مليارات السعادة للمساهمين 19.30 جنيه إجمالى نصيب السهم بأرباح قناة السويس للتكنولوجيا",
-   "title": "أرباح قناة السويس للتكنولوجيا: 19.30 جنيه نصيب السهم للمساهمين",
-   "url": "https://www.egyptaway.com/2026/11/suez-canal-technology-dividends-2026.html",
-   "at": "2026-11-05T10:44:03.418941+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://www.fox19.com/2026/11/05/dry-thursday-before-rain-returns-friday/",
    "t": "A Dry Thursday Before Rain Returns Friday",
    "at": "2026-11-05",
@@ -3375,6 +3366,16 @@
    "url": "https://www.egyptaway.com/2026/11/apple-tv-siri-ai-update.html",
    "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202310270338473847.jpg&w=1200&output=webp&q=80",
    "at": "2026-11-18T03:14:25.747755+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7184986",
+   "t": "إبراهيم سعيد يُقارن بين الجيل الذهبي والمنتخب الحالي: البطولات تُصنع بالروح وليس بالأسماء",
+   "title": "إبراهيم سعيد: الروح والقتالية سر إنجازات منتخب مصر",
+   "url": "https://www.egyptaway.com/2026/11/ibrahim-said-egypt-national-team.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2026/11/large/774952629664202611180315141514.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-18T03:53:49.550663+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
