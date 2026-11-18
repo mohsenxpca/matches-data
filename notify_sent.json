@@ -1,8 +1,6 @@
 {
  "sent": [],
  "indexed": [
-  "https://www.egyptaway.com/2026/11/smart-watches-read-finger-movements.html",
-  "https://www.egyptaway.com/2026/11/zamalek-player-shelata-national-team.html",
   "https://www.egyptaway.com/2026/11/ahly-postpones-abdelmoneim-signing.html",
   "https://www.egyptaway.com/2026/11/tarshih-card-2026-tansik.html",
   "https://www.egyptaway.com/2026/11/etisalat-egypt-outage-2026_01287746002.html",
@@ -400,11 +398,11 @@
   "https://www.egyptaway.com/2026/11/vivo-x-fold7-chipset-leaks.html",
   "https://www.egyptaway.com/2026/11/hajj-2027-egypt-prices-guide.html",
   "https://www.egyptaway.com/2026/11/apple-app-store-awards-2026-finalists.html",
-  "https://www.egyptaway.com/2026/11/download-tank-stars-2026.html"
+  "https://www.egyptaway.com/2026/11/download-tank-stars-2026.html",
+  "https://www.egyptaway.com/2026/11/marwan-attia-omar-elsai-medical-check.html",
+  "https://www.egyptaway.com/2026/11/zamalek-olympic-super-cup-result.html"
  ],
  "tg": [
-  "https://www.egyptaway.com/2026/11/smart-watches-read-finger-movements.html",
-  "https://www.egyptaway.com/2026/11/zamalek-player-shelata-national-team.html",
   "https://www.egyptaway.com/2026/11/ahly-postpones-abdelmoneim-signing.html",
   "https://www.egyptaway.com/2026/11/tarshih-card-2026-tansik.html",
   "https://www.egyptaway.com/2026/11/etisalat-egypt-outage-2026_01287746002.html",
@@ -802,13 +800,16 @@
   "https://www.egyptaway.com/2026/11/vivo-x-fold7-chipset-leaks.html",
   "https://www.egyptaway.com/2026/11/hajj-2027-egypt-prices-guide.html",
   "https://www.egyptaway.com/2026/11/apple-app-store-awards-2026-finalists.html",
-  "https://www.egyptaway.com/2026/11/download-tank-stars-2026.html"
+  "https://www.egyptaway.com/2026/11/download-tank-stars-2026.html",
+  "https://www.egyptaway.com/2026/11/marwan-attia-omar-elsai-medical-check.html",
+  "https://www.egyptaway.com/2026/11/zamalek-olympic-super-cup-result.html"
  ],
  "fb": [
   "https://www.egyptaway.com/2026/11/samsung-galaxy-tab-a11-plus-android-17.html",
   "https://www.egyptaway.com/2026/11/iphone-20-anniversary-design-leaks.html",
   "https://www.egyptaway.com/2026/11/vivo-x-fold7-chipset-leaks.html",
-  "https://www.egyptaway.com/2026/11/future-samsung-galaxy-design-rumors.html"
+  "https://www.egyptaway.com/2026/11/future-samsung-galaxy-design-rumors.html",
+  "https://www.review-mobile.com/2026/11/vivo-x-fold7-chipset-battle.html"
  ],
  "fb_history": [
   {
@@ -838,6 +839,13 @@
    "mode": "link",
    "at": "2026-11-18T23:16:14+02:00",
    "fb_id": "1959788610952661_1633512285456652"
+  },
+  {
+   "url": "https://www.review-mobile.com/2026/11/vivo-x-fold7-chipset-battle.html",
+   "title": "صراع العمالقة في vivo X Fold7: المعالج الذي سيحسم المنافسة",
+   "mode": "link",
+   "at": "2026-11-19T00:46:15+02:00",
+   "fb_id": "1959788610952661_1633565898784624"
   }
  ]
 }
