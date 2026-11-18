@@ -23,8 +23,11 @@ import football as f
 
 REVIEW_BLOG = "2997328666613207792"
 EA_BLOG = "8325646053257070334"
+DEFAULT_PAGE_ID = "1959788610952661"  # صفحة موبايل بالعربى
 STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "notify_sent.json")
+LOCAL_FB_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".fb_token.json")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
+_RESOLVED_TOKEN_CACHE = {}
 
 PHONE_LABELS = {
     "هواتف", "أخبار هواتف", "اخبار هواتف", "موبايلات", "اسعار الموبايلات", "أسعار الموبايلات",
@@ -111,6 +114,41 @@ def _download_jpeg_bytes(img_url):
         return None
 
 
+def get_fb_credentials():
+    """Returns (page_token, page_id), resolving a User token to a Page token automatically if needed."""
+    tok = f.secret("FB_PAGE_TOKEN")
+    page = f.secret("FB_PAGE_ID") or DEFAULT_PAGE_ID
+    if not tok and os.path.exists(LOCAL_FB_FILE):
+        try:
+            cfg = json.load(open(LOCAL_FB_FILE, encoding="utf-8"))
+            tok = (cfg.get("page_token") or cfg.get("token") or "").strip()
+            page = (cfg.get("page_id") or page).strip()
+        except Exception:
+            pass
+    if not tok:
+        return "", page
+    cache_key = f"{page}:{tok[:24]}"
+    if cache_key in _RESOLVED_TOKEN_CACHE:
+        return _RESOLVED_TOKEN_CACHE[cache_key], page
+    # Check if tok is a User token; if so, resolve the Page token for `page`
+    try:
+        r = requests.get("https://graph.facebook.com/me/accounts",
+                         params={"fields": "id,name,access_token", "access_token": tok}, timeout=15)
+        if r.ok:
+            data = r.json().get("data", [])
+            for p in data:
+                if p.get("id") == page and p.get("access_token"):
+                    _RESOLVED_TOKEN_CACHE[cache_key] = p["access_token"]
+                    return p["access_token"], page
+            if data and data[0].get("access_token"):
+                _RESOLVED_TOKEN_CACHE[cache_key] = data[0]["access_token"]
+                return data[0]["access_token"], data[0].get("id") or page
+    except Exception:
+        pass
+    _RESOLVED_TOKEN_CACHE[cache_key] = tok
+    return tok, page
+
+
 def post_phone_to_fb(title, url, image_url=None, content=None, dry=False, record_state=True):
     """Publishes a phone article to the Facebook Page with:
        Title
@@ -124,8 +162,7 @@ def post_phone_to_fb(title, url, image_url=None, content=None, dry=False, record
     # Exact caption structure requested by Mohsen: Title + Link underneath (with the photo attached)
     caption = f"{clean_title}\n\n{clean_url}"
 
-    tok = f.secret("FB_PAGE_TOKEN")
-    page = f.secret("FB_PAGE_ID")
+    tok, page = get_fb_credentials()
 
     if dry:
         print(f"[DRY FB] Would post to Facebook Page:")

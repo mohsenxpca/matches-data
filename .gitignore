@@ -3,3 +3,4 @@ __pycache__/
 fonts/NotoKufiArabic.ttf
 
 tokens_local.json
+.fb_token.json
