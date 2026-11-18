@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.wfsb.com/2026/11/05/technical-discussion-dry-stretch-ends-temps-gradually-trend-cooler/",
-   "t": "Technical Discussion: Dry stretch ends, temps gradually trend cooler",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في 8 كيانات جوهرية ({'يوما', 'نهايه', 'امطار', 'تلطف', 'جفاف', 'اجواء', 'متوقعه', 'رياح'}) مع: نهاية جفاف 19 يوماً: أمطار متوقعة ورياح تلطف الأجواء)"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/5/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D9%85%D9%88%D9%8A%D9%86-%D8%A7%D8%B3%D8%AA%D9%85%D8%B1%D8%A7%D8%B1-%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A9-%D8%AE%D9%81%D8%B6-%D8%A7%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%AD%D8%AA%D9%89-%D9%85%D8%A7%D8%B1%D8%B3-2027-%D8%A8%D8%AA%D8%AE%D9%81%D9%8A%D8%B6%D8%A7%D8%AA/7606690",
    "t": "وزارة التموين: استمرار مبادرة خفض الأسعار حتى مارس 2027 بتخفيضات 25%",
    "at": "2026-11-05",
@@ -3377,6 +3368,15 @@
    "ok": false,
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 7"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1pUE1hZzNZcUtqbXAwek14S2RucTRzVUpZcXBVMlQ2QTY0T0hCYUgxWGgxd0ZkaTRlOUw0R3QyV2RHVkVPM2Fz?oc=5",
+   "t": "الدعم النقدي على بطاقات التموين.. 1300 جنيه للأسر المكونة من 4 أفراد ضمن التصور المقترح - صدى البلد",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "الـ body 450 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
