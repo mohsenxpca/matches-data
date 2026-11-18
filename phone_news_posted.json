@@ -563,6 +563,24 @@
       "has_real_img": true,
       "at": "2026-11-18T12:31:06.493974+02:00",
       "ok": true
+    },
+    {
+      "title": "One UI 9.5 makes Samsung’s Camera app easier to use and customize",
+      "orig_link": "https://www.sammobile.com/news/one-ui-9-5-samsung-camera-app-easier-to-use-customize/",
+      "at": "2026-11-18T13:01:21.264085+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (samsung-one-ui-9.5-camera-app-improvements): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
+    },
+    {
+      "title": "سامسونج تطلق تجربة Galaxy Z8 الفريدة مع تندر",
+      "orig_link": "https://www.sammobile.com/news/samsung-tinder-owner-create-unique-galaxy-z8-experience-for-people-looking-for-something-new/",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-galaxy-z8-tinder-switch-island.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-18T13:01:21.264085+02:00",
+      "ok": true
     }
   ]
 }
