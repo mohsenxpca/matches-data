@@ -536,6 +536,24 @@
         "طول الخبر قصير (289 كلمة، والمطلوب 420+ كلمة)",
         "الـ slug غير صالح (samsung-one-ui-9.5-tap-to-share): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
       ]
+    },
+    {
+      "title": "تسريب واجهة سامسونج One UI 10: نظرة أولية وتصميم جديد",
+      "orig_link": "https://www.sammobile.com/news/heres-your-first-look-at-samsung-one-ui-10-banner/",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-one-ui-10-leak-design.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-18T12:01:12.150945+02:00",
+      "ok": true
+    },
+    {
+      "title": "Samsung Repair Bus completes over 50,000 repairs in Europe in just 18 months",
+      "orig_link": "https://www.sammobile.com/2026/11/18/samsung-repair-bus-completes-over-50000-repairs-in-europe-in-just-18-months/",
+      "at": "2026-11-18T12:01:12.150945+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (294 كلمة، والمطلوب 420+ كلمة)"
+      ]
     }
   ]
 }
