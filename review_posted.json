@@ -1,30 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus Ace 7 Pro Listed at Giztop From $799: Specs and Features - Nokiamob",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNWtzUTZpZkJ1aUFpcFpOcW8wbmx5RGZWYVM4aVNNYkVHTEUxdEV4UGJwTmdub0UzWnljOTFmS3pVY2tTUmNTZTlsVFltbVVXdFZlV2dOTjFfS1E1LVd4YURJUnVIR2xIM0hMMFA5OGNCcE10Y3NLWFM2QWhibkE3TTVRcHdEaDVrQ3dLNGJzVGhHNGU3UVdzU1R5ZE1henYzOWFB?oc=5",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Phone 'ace 7 pro' already covered in: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
-   "title": "Vivo V80 launched in Bangladesh - The Daily Star",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUjlyMG1MTTNKNm5ISmoxYmNSR1FTTFJKLWRodHo3UVRLTEZuUDA2VHUwVHdHMnFmZFBkTk1NOTJjc1hiTU1Yemx0NHZOaHpTc1VZZjQ2OENIUloycHVoMVJDWC1kWUpwUEN2YVNnVGx2TGlOT2NxMGF4RFNGa3Z1Mk9Yd0lfNjZaMk5KVTY4cw?oc=5",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Phone 'v80' already covered in: مراجعة vivo V80 2026: كاميرات وبطارية وأداء"
-  },
-  {
-   "title": "أبل تفاجئ الجميع بمعالج خارق.. هل يغير قواعد اللعبة؟",
-   "cand_title": "Apple A18 Pro 5-Core GPU - Notebookcheck",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQjRFdnhZcFFiYU5tRU1yaE9Ic0lEWTdFZEdHNllleDlyOEhrOGw0d2U4NjdvWG9sbjV2N3ZWd2g5c1VQLTQzMUVMU1cwNWF2TzFHNGpNNlBhQXVTLWp2VUEweGtaejRSdXY3LTlDVExwOWQwQzNwcVAyQ25OX0xmcHJfckV3WFFmNnViWlVELWFTSHRP?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/apple-a18-pro-5-core-gpu.html",
-   "at": "2026-11-10T02:51:22+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
    "title": "ماذا تعني النقطة الزرقاء الصغيرة بهاتفك الأندرويد؟",
    "cand_title": "What The Tiny Blue Dot On Your Android Phone Is Telling You - Engadget",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONktvdUhlQkRqbkoxMmhWMk1ISDl4MGc2LW9ud2NjQ1pCTGdWNER5LUtBajJXc05tempTcWRwb2lWSWhNU3lIaHhYRmlHbVVOa29iSFo4bDhYOTNoODU5X2VvdU96VDZzWExYNFlkYUhORDd4amZMTHViTF9aU0ZWSXRSNzctczJ1?oc=5",
@@ -3233,6 +3209,29 @@
    "at": "2026-11-18",
    "ok": false,
    "reason": "Recent story overlap on key terms ['officially', 'color', 'options', 'osta']"
+  },
+  {
+   "title": "OnePlus Turbo 7 Pro certified with 100W charging ahead of launch",
+   "url": "https://www.gizmochina.com/2026/11/18/oneplus-turbo-7-pro-certified-with-100w-charging-ahead-of-launch/",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (598 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "iQOO Z12 Lite shows up in the Google Play Console, has key specs revealed",
+   "url": "https://www.gsmarena.com/iqoo_z12_lite_shows_up_in_the_google_play_console_has_key_specs_revealed-news-75514.php",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Phone 'z12 lite' already covered in: تسريب مواصفات iQOO Z12 Lite 5G.. موعد الإطلاق وأبرز المزايا"
+  },
+  {
+   "title": "Samsung could beat Apple to market with a bezel-less phone display - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSUd5bmJLNXcyZzhfNFVPamhfUUJPSzR6SmJXcm5QSE9BSENwWUVrY3cyOHMwNzhEUzVTa3psRTE0N1lpc0pIcDVrNldzRUtGZ1MwNjV6WDRfY3d3aTMzUy1QNkZjYnFTZE4tMDBEcS1vclpyS3JEM3BPSXRTeUhULUlSYjN3X2ZVT2I0MlRKVzVDbmEwenA0c1FPV1REeXUxZVBKQWZPajTSAaQBQVVfeXFMT1lqSlJMUmFnUkd4WjY5OUxJWHhTOEF5b1JEYUhyaFBHcU5xQkpLcHFTUGExU3dmOWJWYnoxTGZYRlhWdHk0eGhLZnZqM0V1MnE1TmYxeHZsTlBFVGc0b09jcXFMOHRlUVlsLVBHWWFNTDZ6ckpoNE15VlhUZTZIcEowS2lFaTNpdzFodzRIdXJfV0FjSVBCSWRLb3ZQWm51YTh2S1Q?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['could', 'bezel', 'beat', 'less']"
   }
  ]
 }
