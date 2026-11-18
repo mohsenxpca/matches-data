@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "لماذا توقفت عن شراء كابلات USB-C باهظة الثمن؟",
-   "cand_title": "I stopped buying expensive USB cables after learning what the specs mean - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMXEzOTg4dW5JMHlqLXBCdWlPNzNOMllWWWdIMTlwN0twOUZaQUU2TUxZWW4zdlNPTDZlcC1QYzZ4eG93cXMyVm0tUHg4YmxTOXZEVVd3TGZSZ09saTV0b0ZpeTNqNE9qVERWVW0xdUV6dHlkQVNxSEt3WVd2dXoxQ2l1TEZyRDA5ajhXV2IxRjhnM0U1RE9kTmpHcEJpaXds?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/stop-buying-expensive-usb-c-cables.html",
-   "at": "2026-11-10T01:51:46+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "مواصفات هاتف vivo V80 الجديد قبل إطلاقه رسميا في مصر",
    "url": "https://www.masrawy.com/news/tech-reports/details/2026/11/2/3072731/%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA-%D9%87%D8%A7%D8%AA%D9%81-vivo-v80-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%82%D8%A8%D9%84-%D8%A5%D8%B7%D9%84%D8%A7%D9%82%D9%87-%D8%B1%D8%B3%D9%85%D9%8A%D8%A7-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1",
    "at": "2026-11-10",
@@ -3239,6 +3229,13 @@
    "ok": true,
    "kind": "news",
    "brand": "هونر"
+  },
+  {
+   "title": "Xiaomi 18 purportedly leaks in live image",
+   "url": "https://www.gsmarena.com/xiaomi_18_purportedly_leaks_in_live_image-news-75515.php",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18' already covered in: حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد"
   }
  ]
 }
