@@ -1,43 +1,6 @@
 {
  "done": [
   {
-   "title": "Here’s what the new Galaxy S24 update brings",
-   "url": "https://www.sammobile.com/news/heres-what-the-new-galaxy-s24-update-brings/",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (590 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "iPhone 18 and 18e to feature same sized screens and batteries - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbEVkYklpWm5RTzBWUl90SWFKaXUwQmwwRGY3a3pTUkI0OXc0aTBrbXFjTlRxaU9COUUzcXlKN1F5QVVpXzJvdWZ1bC10SnpFTTFHTHdReUd0TGN2a0hSZlNhZkdUWXZfX0RiTF9NSC1IWWF1RFViRVFKV1dib0stQ0NHajVGVi16NWtqLUtnU3RRM3Uta2RoS0ZCVVdVMXhXWmpydUNn0gGiAUFVX3lxTE1KTkx6WmMtQWkzVWxoMXZrZGRqVW9jTHNBc0doWWRBb211VDBYZVc5bEZlNS1ldkRxS3BLV213UzZGVG9mSFNpZmllQlRJUm11MlpZTU9fa3ZHbTQycktCM0VEbUxQVXdnNXdzNlAzdTF0NmhoaHktdjRtTlFVQzVWTE1VMkJzSGZ2a0dTSEZBUzFYeHZGM1pOSG9WUVdVeUIwUQ?oc=5",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['iphone', 'batteries', 'screens', 'sized']"
-  },
-  {
-   "title": "It's official: the Xiaomi 18 Pro and 18 Pro Max are launching globally next week - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbzVpOTR1SU44ZkRTeWhLN2Z6N2tEODY0QmpjZjJ0NmFDbW1PNUIyTU9jdWpQMmFEc0NJMXlqOFFUVVZqRVVJUEZJMTljRHZYZXIzcVIwckhvYkhfb2NVTVpWSmIyWnc4dVpWSHVTMHZtQnpZQzM5cEtuaDB1S3NFSkw0ZnZlTHJ6dlN4ZzVYRUcxVlY2VjdRS0pIbVdqNUhzMkJHT1o2YjVrbXhQbmV3dXk4MTNFTHJLb0HSAbYBQVVfeXFMUE1UTEFsMHB2NWZFQUpHZS1TYzdzazByRnRmYWxDSDR6WkxDN19lVEhtWlMwX3V3cDVIbzk0R2RFelI1TVhOV0VrU0lwTzJFV1Z4YlgwSDlvZUUzVXExXzREVDdqNDY1Y041OElOZHptdm9XdGxWa0w2elo3MUlPUlBMOTVjM09jM0dIakNaYlc3ZFZMZlJTWlcxMEgwcm5TZVVOd3ZsbEMtamg2a1ZOTlBKaGNjS2c?oc=5",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['launching', 'globally', 'next', 'week']"
-  },
-  {
-   "title": "The Oppo Reno17 and Reno17 Pro are launching next week - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT0tuMS1IbXJlWmFGUFEzRENGZmtLd0IyZmVGQ0dRM3dRYm92c185T3NYd2laRUIzN1lQRlM3aGlTT2dxVHE0bmZ3Rl9ST1JDTzI1bEw4bExwd0gxVDZTQlpaVXo5dG9tNkx3RG13NnVpYXdiTGhvNnJsMThYN0hjRGROWmxWN3R3MjBaclgtOW9JX2ZpYU9IWmJR0gGWAUFVX3lxTE5oSlE3V3RoQndlWXdHRnVEMGgxeklDWjE5ZEpNQ1ExSE5mdXFJTUVveEpxS0dtaXNtcTNkd3Z6bEFNaG5UejVFNW5RR1NLNFFMMzdBMktUcVZzazNocjZ5UFlFOGpiR2oweUlEVlltb0pQTnNCWlhLSElFcHluYVVUczBOX3NtYXI5WkViOTFPOVBLQzRvQQ?oc=5",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['launching', 'next', 'week']"
-  },
-  {
-   "title": "Xiaomi 18 Pro Max in for review - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9lWHRjMlkzbS1YUkRIS2tZRHdTY0hYYWFLVjBSZXBqOGYyaER2eGZlcUFQcGd0VXRxYmZ1aVRQM29hbVhQX2JOUGkwZTI2M3FteXdfWFJrb3ZiSjZCZ0ltamJacG14SUZlQlMyNndYam9wTC1UdUxZRUY5WQ?oc=5",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Model code [18] with variants {'pro', 'max'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
-  },
-  {
    "title": "Google Pixel 11 Pro XL vs Samsung Galaxy S26 Ultra - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcVo3N04tb2o5bktuZGxGanVlNTludnZsdTFZQWlaUXFteWY5R3BvUWNON0MxVl9zVmV0d0laYnJlZG9KYTlxQmtDd1Z2Q2xyWEk3cjJoYkhJdldfUVpmT2ZWclQwTGs3MjRWSy1uWXI3T3NQRVBPdHBjUTZfcXo4VHBsdEg4VWtHZlNrSk1JUjR4X21tUnJGc2FEU1FScG1fQ09JSTFfYmk?oc=5",
    "at": "2026-11-10",
@@ -3225,6 +3188,48 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "WINNERS ANNOUNCED AT SMART PHONE OPERA HOUSE FINALS - FilmInk",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc01lbVI2N2tEcWtjNVhjOGJkQ0g4d2FpZXBSV2ZFaHJfRHBxWU9qSkVYY0F4M0FHUjJxdlRRMEd2TWRLbXNfLWpjWUdjX0pDc1ZMeTFwOWUzY1J1WDJFYzZyaHd0MjFSWmR2M1RYQzZzNmRtYkhxbGY5a0w0UnJXY213b1Bzb3RlSUFVX0pwYTBSY2hFS01rNQ?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (652 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Google's Answer to iPhone Handoff: Android Fast Switch - Droid Life",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUDRUTnJITzZsRXg3VG5LV1dIcGJ0dE5KQngwMWM5SEVRc2ozMzRnalVyYnZ1Vnhuc1d6dDM2eUNwM05xVndhNE44b29jXzM0SzIyb2x3bjBvZ2hTRHdtYWZaR3U0dTU4ZVZsejAzZXJSa3luNWcxTXBSN0NjT1hqRWsxdGlDcWYyWm94Q3htaFFIYUpIR2c?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['switch', 'iphone', 'fast', 'handoff']"
+  },
+  {
+   "title": "iPhone owners targeted in ‘staggering’ bid to steal crypto and credit card details - The Independent",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYjNTYTVMdG5tZ254YmVNZ1hwV091OVlpQXI3bDJtd2o1SS0yT2xHUjBLRjNEOTdoMGFremhQQ0NUc2VPZ1FWdzB2U2p0cDd1R0NIMGVld2s5QlVzUmt6dU1EMHgwNFpqTjduYWlzWEZ2aHR5SmJEd21tZC1PSWhiUmRjTm5qdFA4R1hKa1NqMjMzM0R0cEFBTERWQzFCOEp5MzFj?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (689 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "QEncrypt Adds Quantum-safe Encryption For Photos On IPhone And Android - Quantum Zeitgeist",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tYk12ZUdqa0VKcjdFNDJnVEtacWtNeFZkaEM4QXN2S0FkYnNYQURLMzMxSENnSzNFNTlCZVNIdm55WFRoZDdGVno4VWpFZzZMekJWNVlQb0ZyUWlnQ0pBdVZSb2xzS0Z4LTE5SHI4T09iVmZmaktlM0VFRk51RFU?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (643 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Is Apple cooked? The Xiaomi 18 Pro is coming for iPhone with the fastest Android chipset and a built-in back display - Android Central",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPS2tyMXlNaElqSFhEQjNjSmJWSWk5RV9FTzFyajVJVFdCenhfS0xMV2UwX2RkUEFPNUxNZFRYODhibEdEZVA0Nllwam93NkJnOEdXc2trNXFkNW1jcEFEYlNnRUVWRVhyQkhMSGNtV0Y5NHdiN0NSWnlkVlNzUWFOMEQ3bzNuXzlDYzhmblVxTnp2T2RmVWZlY1N1eE9qQTlUQzF3bDV6TS1DUGtFSWY2ZHNlNFlKNXhTWXNNQXBRdnphZXR6TEZEOHU0eExPTGFtYzVkeHloVE9KcWU3Y2FaX0NxQ1hGWFVSZEp3Tk95SHpWZw?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
   }
  ]
 }
