@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/5/3074019/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B3%D9%84%D8%AA%D9%8A%D9%83-%D9%88%D8%A8%D8%B4%D9%83%D8%AA%D8%A7%D8%B4-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D8%B8%D9%87%D9%88%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%80-%D9%87%D9%8A%D8%AB%D9%85-%D8%AD%D8%B3%D9%86-",
-   "t": "موعد مباراة سلتيك وبشكتاش في الدوري الأوروبي.. ظهور جديد لـ هيثم حسن",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 10، 11، 35"
-   ]
-  },
-  {
    "u": "https://www.gsmarena.com/xiaomi_sets_the_hyperos_4_update_rollout_schedule-news-75340.php",
    "t": "Xiaomi unveils the HyperOS 4 update rollout schedule - GSMArena.com news",
    "at": "2026-11-05",
@@ -3381,6 +3372,15 @@
    "ok": false,
    "reason": [
     "كلمة رسميًا مش موجودة في المصدر، احذفها"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7185529",
+   "t": "وفد اللجنة الفنية للألعاب الأفريقية يتفقد منشآت \"مصر 2027\" ويشيد بجاهزيتها",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "الـ body 408 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
