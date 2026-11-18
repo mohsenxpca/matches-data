@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Leak details Samsung's plans for Galaxy AI Premium: new features on free and paid tiers - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMTA3N3Mwem9LTDhpcGtHZFVEMGtKRkxpMGswMVdYZXRsVDY4UGEwY3Y0enVpS29jU2RYUktMbkdaRHNkNThGMG1McHlrU0hvWWZacWtOR2ZpSV9Ra1hWRzNrUFJvSEZQVVlCMVEtdFhJZzNYRmc5T3lJR0M4WUhPQmd3UGVneEE0dkZGWlFnYjNXeExCOTlsUVYyYXIxSVZYYk5iQ096WkJ3MDRma2dvLWgtbEV2eTRyTXUtOVZlaVp2X0HSAb8BQVVfeXFMT3Rqc3dfQ1daYlVQUjJXZGhfYXdkbTVoS25SWDJENkZTbnFYTUw3cXhYZ2lfbGFnLXZIcnhaZXp1YWJHcFpvLUNVcXQtMnFFZlp3V3JPeEdvXzA2SkprS2dfeldLemlwZHhJUVJmQ1VDc29kc3Q3NzNwRGN0bC1ieFJ2bFJqczZlYWRYdzRWT1FhVzFvMlhzUlh6UDFBbUFfMXZMYV9nUFE1Yk4zbTFJMXR4R0Jjdl9Jd1NvTnZfNVE?oc=5",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['galaxy', 'plans', 'tiers', 'free']"
-  },
-  {
    "title": "لماذا توقفت عن شراء كابلات USB-C باهظة الثمن؟",
    "cand_title": "I stopped buying expensive USB cables after learning what the specs mean - Android Police",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMXEzOTg4dW5JMHlqLXBCdWlPNzNOMllWWWdIMTlwN0twOUZaQUU2TUxZWW4zdlNPTDZlcC1QYzZ4eG93cXMyVm0tUHg4YmxTOXZEVVd3TGZSZ09saTV0b0ZpeTNqNE9qVERWVW0xdUV6dHlkQVNxSEt3WVd2dXoxQ2l1TEZyRDA5ajhXV2IxRjhnM0U1RE9kTmpHcEJpaXds?oc=5",
@@ -3236,6 +3229,16 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "هواوي Enjoy 100 Pro Max ضد Honor X60 Pro: هل يستحق فارق السعر؟",
+   "cand_title": "Huawei Enjoy 100 Pro Max vs Honor X60 Pro: Is the $70 Price Difference Worth It?",
+   "url": "https://www.gizmochina.com/2026/11/17/huawei-enjoy-100-pro-max-vs-honor-x60-pro/",
+   "post_url": "https://www.review-mobile.com/2026/11/huawei-enjoy-100-pro-max-vs.html",
+   "at": "2026-11-18T03:57:01+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هونر"
   }
  ]
 }
