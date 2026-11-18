@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.fox19.com/2026/11/05/dry-thursday-before-rain-returns-friday/",
-   "t": "A Dry Thursday Before Rain Returns Friday",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الـ body 447 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'طقس', 'حاله'}) مع تشابه نصي مع: حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام)"
-   ]
-  },
-  {
    "u": "https://www.wfmz.com/weather/cloudy-wet-at-times-and-mild-to-close-the-week/article_aa859485-0120-4d21-9b2f-18d43a1f4f0c.html",
    "t": "Cloudy, wet at times and mild to close the week",
    "title": "نهاية جفاف 19 يوماً: أمطار متوقعة ورياح تلطف الأجواء",
@@ -3376,6 +3366,16 @@
    "url": "https://www.egyptaway.com/2026/11/ibrahim-said-egypt-national-team.html",
    "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2026/11/large/774952629664202611180315141514.jpg&w=1200&output=webp&q=80",
    "at": "2026-11-18T03:53:49.550663+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/18/طرق-نقل-الملفات-والصور-بين-الهاتف-والكمبيوتر-بسهولة-دون-فقدان/7622025",
+   "t": "طرق نقل الملفات والصور بين الهاتف والكمبيوتر بسهولة دون فقدان جودتها",
+   "title": "طرق نقل الملفات بين الهاتف والكمبيوتر دون فقدان الجودة",
+   "url": "https://www.egyptaway.com/2026/11/transfer-files-phone-to-pc.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202110220633163316.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-18T04:15:04.492129+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
