@@ -1,65 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei MateBook Fold S is a smaller foldable PC with a 14.7-inch screen, Richard Yu teases",
-   "url": "https://www.gizmochina.com/2026/11/10/huawei-matebook-fold-s-smaller-foldable-pc-14-7-inch-richard-yu-teases/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (689 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "سامسونج تغير قواعد التخزين السحابي لهواتف جالاكسي.. هل تستعد",
-   "cand_title": "Samsung officially details Gallery sync with Google storage",
-   "url": "https://www.gsmarena.com/samsung_officially_details_gallery_sync_with_google_storage-news-75424.php",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-gallery-sync-google-storage.html",
-   "at": "2026-11-11T01:21:49+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "iPhone 18 and 18e could share more than just their looks, X-ray scans suggest",
-   "url": "https://www.gizmochina.com/2026/11/10/iphone-18-and-18e-could-share-more-than-just-their-looks-x-ray-scans-suggest/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Phone '18e' already covered in: تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق"
-  },
-  {
-   "title": "Xiaomi 18 Pro in for review",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_in_for_review-news-75422.php",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
-   "title": "أبل تباغت الجميع: تسريب هواتف iPhone 18 و Air 2.. هل هذا هو",
-   "cand_title": "iPhone Air 2 and iPhone 18 dummy models leak",
-   "url": "https://www.gsmarena.com/iphone_air_2_and_iphone_18_dummy_models_leak-news-75421.php",
-   "post_url": "https://www.review-mobile.com/2026/11/iphone-18-air-2-dummy-leaks.html",
-   "at": "2026-11-11T01:52:06+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
-   "title": "More Oppo Find N7 specs emerge",
-   "url": "https://www.gsmarena.com/more_oppo_find_n7_specs_emerge-news-75418.php",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Phone 'n7' already covered in: رسمياً: هاتف Oppo Find N7 القابل للطي في طريقه للأسواق الأوروبية"
-  },
-  {
-   "title": "OnePlus 17 could debut with a wide-screen display, rumor claims",
-   "url": "https://www.gsmarena.com/oneplus_17_could_debut_with_a_widescreen_display_rumor_claims-news-75417.php",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (593 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "vivo's 12,000mAh battery is in mass production, says tipster",
    "url": "https://www.gsmarena.com/tipster_says_vivos_12000mah_battery_is_in_mass_production-news-75415.php",
    "at": "2026-11-11",
@@ -3229,6 +3170,63 @@
    "ok": true,
    "kind": "news",
    "brand": "فيفو"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max vs Xiaomi 18 Pro",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php||https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
+  },
+  {
+   "title": "Motorola Edge 70 Neo vs Oppo Reno17 Pro (China)",
+   "url": "https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php||https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
+  },
+  {
+   "title": "More details about Apple's 20th-anniversary iPhone emerge",
+   "url": "https://www.gsmarena.com/more_details_about_apples_20thanniversary_iphone_emerge-news-75520.php",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['anniversary', '20th', 'iphone']"
+  },
+  {
+   "title": "OnePlus Turbo 7 Pro gets certified ahead of launch, more specs leak",
+   "url": "https://www.gsmarena.com/oneplus_turbo_7_pro_gets_certified_ahead_of_launch_more_specs_leak-news-75524.php",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['certified', 'oneplus', 'turbo', 'ahead']"
+  },
+  {
+   "title": "Every unique Galaxy design Samsung has the potential to explore in the coming years",
+   "url": "https://www.sammobile.com/news/every-unique-galaxy-design-samsung-could-explore-coming-years/",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (648 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Galaxy Z Fold 8 series and Flip 8 get second November update",
+   "url": "https://www.sammobile.com/news/galaxy-z-fold-8-series-and-flip-8-get-second-november-update/",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (647 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي",
+   "cand_title": "The Galaxy Z Fold 8 series just got a special edition that celebrates GTA VI",
+   "url": "https://www.androidauthority.com/galaxy-z-fold-8-gta-vi-edition-3736869/",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-z-fold-8-gta.html",
+   "at": "2026-11-19T00:55:41+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
