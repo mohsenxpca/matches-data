@@ -79,16 +79,9 @@ def telegram(p, dry):
 
 
 def facebook(p, dry):
-    tok, page = f.secret("FB_PAGE_TOKEN"), f.secret("FB_PAGE_ID")
-    if dry or not tok or not page:
-        print("Facebook", "(dry)" if dry else "(no FB_PAGE_TOKEN/FB_PAGE_ID)", p["title"][:60])
-        return False
-    title = html.unescape(p["title"])
-    msg = f"{title}\n\n{snippet(p.get('content'), 220)}"
-    r = requests.post(f"https://graph.facebook.com/v21.0/{page}/feed", timeout=30,
-                      data={"message": msg, "link": p["url"].replace("http://", "https://"), "access_token": tok})
-    print("Facebook", r.status_code, r.text[:150] if not r.ok else title)
-    return r.ok
+    import fb_phones
+    img = first_image(p.get("content"))
+    return fb_phones.post_phone_to_fb(p["title"], p["url"], image_url=img, content=p.get("content"), dry=dry, record_state=False)
 
 
 def send_post_push(title, url, content=None, image=None, dry=False):
@@ -205,12 +198,21 @@ def main():
         except Exception as ex:
             print("Telegram step error:", ex)
 
-    for p in [p for p in posts if p["url"] not in state["fb"]][:2]:
-        try:
+    try:
+        import fb_phones
+        rv_res = f.api("GET", f"/blogs/{fb_phones.REVIEW_BLOG}/posts", tok, {
+            "status": "live", "startDate": since, "maxResults": 15,
+            "fetchBodies": "true", "fetchImages": "true"
+        })
+        rv_posts = [p for p in (rv_res.get("items", []) if isinstance(rv_res, dict) else []) if p.get("url")]
+        ea_phone_posts = [p for p in posts if fb_phones.is_phone_post(p, blog_id=f.BLOG)]
+        all_phone_posts = sorted(rv_posts + ea_phone_posts, key=lambda x: x.get("published", ""))
+        for p in [p for p in all_phone_posts if p["url"].replace("http://", "https://") not in state["fb"] and p["url"] not in state["fb"]][:3]:
+            u_clean = p["url"].replace("http://", "https://")
             if facebook(p, dry):
-                state["fb"].append(p["url"])
-        except Exception as ex:
-            print("Facebook step error:", ex)
+                state["fb"].append(u_clean)
+    except Exception as ex:
+        print("Facebook step error:", ex)
 
     try:
         push(posts, state, now, f.secret("ONESIGNAL_API_KEY"), dry, force)

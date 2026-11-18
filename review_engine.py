@@ -1873,11 +1873,18 @@ def main():
             print(f"\n✅ PUBLISHED LIVE ON REVIEW [{cand_kind.upper()}]: {post_url}")
             print(f"   Title: {art['title']}")
 
-            # 4. Instant IndexNow Ping
+            # 4. Instant IndexNow Ping & Auto-Post to Facebook Page
             try:
                 notify.indexnow([post_url], False)
             except Exception as e:
                 print(f"   IndexNow ping warning: {e}")
+
+            try:
+                import fb_phones
+                lead_photo = clean_photos[0] if clean_photos else None
+                fb_phones.post_phone_to_fb(art["title"], post_url, image_url=lead_photo, content=full_html, dry=dry)
+            except Exception as fb_ex:
+                print(f"   FB auto-post warning: {fb_ex}")
 
             # 5. Save State
             state["done"].append({

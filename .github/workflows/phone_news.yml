@@ -49,12 +49,14 @@ jobs:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
           BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
           BLOGGER_REFRESH_TOKEN: ${{ secrets.BLOGGER_REFRESH_TOKEN }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
       - name: Commit state
         if: always()
         run: |
           git config user.name "phone-news-bot"
           git config user.email "phone-news-bot@users.noreply.github.com"
-          git add phone_news_posted.json img/ img_hashes_cache.json 2>/dev/null || true
+          git add phone_news_posted.json notify_sent.json img/ img_hashes_cache.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "phone news update $(TZ=Africa/Cairo date +%F_%H:%M)"
           for i in 1 2 3 4 5; do

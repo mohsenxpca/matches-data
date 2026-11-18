@@ -392,6 +392,11 @@ def main():
             res = f.publish_live(tok, art, full_html, labels)
             post_url = res.get("url", "")
             print(f"  >>> PUBLISHED PHONE NEWS: {post_url} | {art['title']}")
+            try:
+                import fb_phones
+                fb_phones.post_phone_to_fb(art["title"], post_url, image_url=real_img, content=full_html, dry=dry)
+            except Exception as fb_ex:
+                print(f"  FB auto-post warning: {fb_ex}")
             state.setdefault("done", []).append({
                 "title": art["title"],
                 "orig_link": cand["link"],
