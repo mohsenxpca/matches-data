@@ -645,6 +645,33 @@
       "err": [
         "العنوان مكرر أو قريب جداً من خبر منشور: رسمياً إطلاق سوار شاومي Smart Band 11 عالمياً"
       ]
+    },
+    {
+      "title": "Galaxy Z Fold 8 series and Flip 8 get second November update",
+      "orig_link": "https://www.sammobile.com/news/galaxy-z-fold-8-series-and-flip-8-get-second-november-update/",
+      "at": "2026-11-18T16:16:20.086997+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (samsung-galaxy-z-fold-8-flip-8-update): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
+    },
+    {
+      "title": "سامسونج تطور ذاكرة HBM4E مخصصة لرقائق الذكاء الاصطناعي من ميتا",
+      "orig_link": "https://www.sammobile.com/news/samsung-reportedly-making-custom-memory-for-metas-ai-chips/",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-meta-custom-hbm4e-chips.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-18T16:16:20.086997+02:00",
+      "ok": true
+    },
+    {
+      "title": "We tried Samsung Health’s new Mindful note feature in One UI 9.5, here is how it works",
+      "orig_link": "https://www.sammobile.com/news/samsung-health-mindful-note-feature-one-ui-9-5-how-it-works/",
+      "at": "2026-11-18T16:16:20.086997+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (samsung-health-mindful-note-oneui-9.5): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
     }
   ]
 }
