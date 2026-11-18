@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Here's what vivo will probably call its first gimbal camera - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZVhHNXp5dnJPLU5ZMGtldlNiWVdOOGpwaEVUbXpMcHMyZmNzRnpEZXM0Qm5iQVRmR00xb05CWjduZEVnNUEzX0RqV29WMV9jcklJOTdlcWQ5ekduUTAtQmVYUGtfNF9EZ3d1LXpQMkYzTWNwNHo4LTZxdFBscFo5MURUWjBka1ZMdVhmeW1PdFBtWGt0b0dERnpiOWRJbFXSAZsBQVVfeXFMTl9oSFQxbkNIZ1FNbVJDZG9BeVlRYUlMZm5GbVBiM3NQOHZtYWtYOWx4TmRGUHVyc2d2QVVrYUllbXROM05TRkp3YTlVRU5jeHUyT2p3bm1UM21IeWtoMW4waEk0Ti1ad3Z4ZUNaX2tnTldZUFhVdUFNNUJKeE1seUpUM2I1VjJ3dkhpdWd4NEJYZmhMMHZNUTJfZEk?oc=5",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['probably', 'call', 'gimbal']"
-  },
-  {
    "title": "Leak details Samsung's plans for Galaxy AI Premium: new features on free and paid tiers - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMTA3N3Mwem9LTDhpcGtHZFVEMGtKRkxpMGswMVdYZXRsVDY4UGEwY3Y0enVpS29jU2RYUktMbkdaRHNkNThGMG1McHlrU0hvWWZacWtOR2ZpSV9Ra1hWRzNrUFJvSEZQVVlCMVEtdFhJZzNYRmc5T3lJR0M4WUhPQmd3UGVneEE0dkZGWlFnYjNXeExCOTlsUVYyYXIxSVZYYk5iQ096WkJ3MDRma2dvLWgtbEV2eTRyTXUtOVZlaVp2X0HSAb8BQVVfeXFMT3Rqc3dfQ1daYlVQUjJXZGhfYXdkbTVoS25SWDJENkZTbnFYTUw3cXhYZ2lfbGFnLXZIcnhaZXp1YWJHcFpvLUNVcXQtMnFFZlp3V3JPeEdvXzA2SkprS2dfeldLemlwZHhJUVJmQ1VDc29kc3Q3NzNwRGN0bC1ieFJ2bFJqczZlYWRYdzRWT1FhVzFvMlhzUlh6UDFBbUFfMXZMYV9nUFE1Yk4zbTFJMXR4R0Jjdl9Jd1NvTnZfNVE?oc=5",
    "at": "2026-11-10",
@@ -3233,6 +3226,16 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة",
+   "cand_title": "Galaxy A38 firmware spotted on Samsung’s test servers in Europe and the US",
+   "url": "https://www.gizmochina.com/2026/11/17/galaxy-a38-firmware-spotted-on-samsungs-test-servers/",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-a38-firmware-spotted.html",
+   "at": "2026-11-18T03:26:59+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
