@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.wfmz.com/weather/cloudy-wet-at-times-and-mild-to-close-the-week/article_aa859485-0120-4d21-9b2f-18d43a1f4f0c.html",
-   "t": "Cloudy, wet at times and mild to close the week",
-   "title": "نهاية جفاف 19 يوماً: أمطار متوقعة ورياح تلطف الأجواء",
-   "url": "https://www.egyptaway.com/2026/11/weather-forecast-rainy-days-ahead.html",
-   "at": "2026-11-05T10:50:49.877957+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.wfsb.com/2026/11/05/technical-discussion-dry-stretch-ends-temps-gradually-trend-cooler/",
    "t": "Technical Discussion: Dry stretch ends, temps gradually trend cooler",
    "at": "2026-11-05",
@@ -3378,6 +3369,15 @@
    "at": "2026-11-18T04:15:04.492129+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7184780",
+   "t": "خصم 70 دولاراً لأول مرة.. ساعة Apple Watch Series 12 تسجل أرخص سعر في تاريخها",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 7"
+   ]
   }
  ]
 }
