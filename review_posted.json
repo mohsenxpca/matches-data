@@ -1,41 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro series global launch is set for November 17 in Paris",
-   "url": "https://www.gizmochina.com/2026/11/10/xiaomi-18-pro-series-global-launch-is-set-for-november-17-in-paris/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "Oppo’s 12,000mAh battery phone shows up in official images",
-   "url": "https://www.gizmochina.com/2026/11/10/oppo-pnc110-12000mah-battery-official-images/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
-   ]
-  },
-  {
-   "title": "A new red Honor Magic 9 color and photography master kit may launch soon",
-   "url": "https://www.gizmochina.com/2026/11/10/new-red-honor-magic-9-color-photography-master-kit/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (654 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Purported Redmi K100 Ultra may pack a 2nm chip, 10,000mAh battery and 100W charging",
-   "url": "https://www.gizmochina.com/2026/11/10/redmi-k100-ultra-2nm-10000mah-100w-charging-leak/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (629 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Huawei MateBook Fold S is a smaller foldable PC with a 14.7-inch screen, Richard Yu teases",
    "url": "https://www.gizmochina.com/2026/11/10/huawei-matebook-fold-s-smaller-foldable-pc-14-7-inch-richard-yu-teases/",
    "at": "2026-11-11",
@@ -3233,6 +3198,37 @@
    "ok": true,
    "kind": "news",
    "brand": "موتورولا"
+  },
+  {
+   "title": "Huawei Osta O1 Pro vs Xiaomi 18 Pro",
+   "url": "https://www.gsmarena.com/huawei_osta_o1_pro-15088.php||https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
+  },
+  {
+   "title": "Sharp Aquos sense11 vs Huawei Osta O1 Pro",
+   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/huawei_osta_o1_pro-15088.php",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
+  },
+  {
+   "title": "Motorola Edge 70 Neo set to launch next week, here’s everything confirmed",
+   "url": "https://www.gizmochina.com/2026/11/18/motorola-edge-70-neo-launch-date/",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
+  },
+  {
+   "title": "صراع العمالقة في vivo X Fold7: المعالج الذي سيحسم المنافسة",
+   "cand_title": "Here's what will decide which chipset powers the vivo X Fold7",
+   "url": "https://www.gsmarena.com/heres_what_will_decide_which_chipset_powers_the_vivo_x_fold7-news-75527.php",
+   "post_url": "https://www.review-mobile.com/2026/11/vivo-x-fold7-chipset-battle.html",
+   "at": "2026-11-19T00:22:53+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "فيفو"
   }
  ]
 }
