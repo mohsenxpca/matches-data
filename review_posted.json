@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "ماذا تعني النقطة الزرقاء الصغيرة بهاتفك الأندرويد؟",
-   "cand_title": "What The Tiny Blue Dot On Your Android Phone Is Telling You - Engadget",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONktvdUhlQkRqbkoxMmhWMk1ISDl4MGc2LW9ud2NjQ1pCTGdWNER5LUtBajJXc05tempTcWRwb2lWSWhNU3lIaHhYRmlHbVVOa29iSFo4bDhYOTNoODU5X2VvdU96VDZzWExYNFlkYUhORDd4amZMTHViTF9aU0ZWSXRSNzctczJ1?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/what-tiny-blue-dot-on.html",
-   "at": "2026-11-10T03:21:27+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "Xiaomi 18 Pro Max in for review - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9lWHRjMlkzbS1YUkRIS2tZRHdTY0hYYWFLVjBSZXBqOGYyaER2eGZlcUFQcGd0VXRxYmZ1aVRQM29hbVhQX2JOUGkwZTI2M3FteXdfWFJrb3ZiSjZCZ0ltamJacG14SUZlQlMyNndYam9wTC1UdUxZRUY5WdIBd0FVX3lxTFB0QWxiWWM5ZHhIdjVnUlNnSFhGSm9VYkU3dnU2YzdaNTNtZm5QM1BJSHJuTTRjQUdqZGxjTmx5MlZNQmpGeFB0ZEsxNm1XOU8zY21nQmZicVRzTlNVWGJKU2dhOXBJM3pzWmNjMk1yeG9iQmNzNUs0?oc=5",
    "at": "2026-11-10",
@@ -3232,6 +3222,13 @@
    "at": "2026-11-18",
    "ok": false,
    "reason": "Recent story overlap on key terms ['could', 'bezel', 'beat', 'less']"
+  },
+  {
+   "title": "Samsung’s bezel-less phone display could arrive before Apple’s 20th anniversary iPhone",
+   "url": "https://www.gizmochina.com/2026/11/18/samsung-bezel-less-display-before-apple-20th-anniversary-iphone/",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['bezel', 'less', 'could']"
   }
  ]
 }
