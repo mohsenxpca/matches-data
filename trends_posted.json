@@ -2055,6 +2055,19 @@
    "at": "2026-11-18",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "ذهب اليوم",
+   "at": "2026-11-19",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "جواو كانسيلو",
+   "at": "2026-11-19",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/joao-cancelo-bruno-fernandes-ronaldo.html",
+   "title": "جدل حول جواو كانسيلو وبرونو فيرنانديش في البرتغال"
   }
  ]
 }
