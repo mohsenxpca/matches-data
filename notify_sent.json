@@ -1,8 +1,6 @@
 {
  "sent": [],
  "indexed": [
-  "https://www.egyptaway.com/2026/11/arteta-fights-team-leak-fantasy.html",
-  "https://www.egyptaway.com/2026/11/fuel-prices-stable-egypt-november-2026.html",
   "https://www.egyptaway.com/2026/11/iphone-18-launch-2027-details.html",
   "https://www.egyptaway.com/2026/11/fuel-prices-egypt-november-2026.html",
   "https://www.egyptaway.com/2026/11/gold-prices-egypt-evening-shock-update.html",
@@ -400,11 +398,11 @@
   "https://www.egyptaway.com/2026/11/caviar-gta-vi-luxury-collection-launch.html",
   "https://www.egyptaway.com/2026/11/nico-paz-real-madrid-argentina.html",
   "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-beta-launch.html",
-  "https://www.egyptaway.com/2026/11/iphone-20-anniversary-design-leaks.html"
+  "https://www.egyptaway.com/2026/11/iphone-20-anniversary-design-leaks.html",
+  "https://www.egyptaway.com/2026/11/delta-mills-financial-observations.html",
+  "https://www.egyptaway.com/2026/11/apple-maps-major-india-update.html"
  ],
  "tg": [
-  "https://www.egyptaway.com/2026/11/arteta-fights-team-leak-fantasy.html",
-  "https://www.egyptaway.com/2026/11/fuel-prices-stable-egypt-november-2026.html",
   "https://www.egyptaway.com/2026/11/iphone-18-launch-2027-details.html",
   "https://www.egyptaway.com/2026/11/fuel-prices-egypt-november-2026.html",
   "https://www.egyptaway.com/2026/11/gold-prices-egypt-evening-shock-update.html",
@@ -802,10 +800,13 @@
   "https://www.egyptaway.com/2026/11/caviar-gta-vi-luxury-collection-launch.html",
   "https://www.egyptaway.com/2026/11/nico-paz-real-madrid-argentina.html",
   "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-beta-launch.html",
-  "https://www.egyptaway.com/2026/11/iphone-20-anniversary-design-leaks.html"
+  "https://www.egyptaway.com/2026/11/iphone-20-anniversary-design-leaks.html",
+  "https://www.egyptaway.com/2026/11/delta-mills-financial-observations.html",
+  "https://www.egyptaway.com/2026/11/apple-maps-major-india-update.html"
  ],
  "fb": [
-  "https://www.egyptaway.com/2026/11/samsung-galaxy-tab-a11-plus-android-17.html"
+  "https://www.egyptaway.com/2026/11/samsung-galaxy-tab-a11-plus-android-17.html",
+  "https://www.egyptaway.com/2026/11/iphone-20-anniversary-design-leaks.html"
  ],
  "fb_history": [
   {
@@ -814,6 +815,13 @@
    "mode": "link",
    "at": "2026-11-18T18:02:00+02:00",
    "fb_id": "1959788610952661_1633279502146597"
+  },
+  {
+   "url": "https://www.egyptaway.com/2026/11/iphone-20-anniversary-design-leaks.html",
+   "title": "تسريب: آيفون الذكرى العشرين قادم بتصميم ثوري وشاشات منحنية",
+   "mode": "link",
+   "at": "2026-11-18T19:46:21+02:00",
+   "fb_id": "1959788610952661_1633364802138067"
   }
  ]
 }
