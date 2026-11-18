@@ -150,7 +150,7 @@ def post_phone_to_fb(title, url, image_url=None, content=None, dry=False, record
         if jpg_bytes:
             try:
                 r = requests.post(
-                    f"https://graph.facebook.com/v21.0/{page}/photos",
+                    f"https://graph.facebook.com/{page}/photos",
                     data={"caption": caption, "access_token": tok},
                     files={"source": ("article.jpg", jpg_bytes, "image/jpeg")},
                     timeout=40
@@ -167,7 +167,7 @@ def post_phone_to_fb(title, url, image_url=None, content=None, dry=False, record
         if not ok:
             try:
                 r = requests.post(
-                    f"https://graph.facebook.com/v21.0/{page}/photos",
+                    f"https://graph.facebook.com/{page}/photos",
                     data={"url": img, "caption": caption, "access_token": tok},
                     timeout=30
                 )
@@ -183,7 +183,7 @@ def post_phone_to_fb(title, url, image_url=None, content=None, dry=False, record
     if not ok:
         try:
             r = requests.post(
-                f"https://graph.facebook.com/v21.0/{page}/feed",
+                f"https://graph.facebook.com/{page}/feed",
                 data={"message": caption, "link": clean_url, "access_token": tok},
                 timeout=30
             )
