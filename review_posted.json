@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro Max in for review - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9lWHRjMlkzbS1YUkRIS2tZRHdTY0hYYWFLVjBSZXBqOGYyaER2eGZlcUFQcGd0VXRxYmZ1aVRQM29hbVhQX2JOUGkwZTI2M3FteXdfWFJrb3ZiSjZCZ0ltamJacG14SUZlQlMyNndYam9wTC1UdUxZRUY5WdIBd0FVX3lxTFB0QWxiWWM5ZHhIdjVnUlNnSFhGSm9VYkU3dnU2YzdaNTNtZm5QM1BJSHJuTTRjQUdqZGxjTmx5MlZNQmpGeFB0ZEsxNm1XOU8zY21nQmZicVRzTlNVWGJKU2dhOXBJM3pzWmNjMk1yeG9iQmNzNUs0?oc=5",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
-  },
-  {
    "title": "لماذا يبطئ هاتفك سامسونج جالاكسي؟ 4 أسباب خفية",
    "cand_title": "The 4 Most Common Reasons Your Samsung Galaxy Phone Runs Slowly - BGR",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaG8waHNfNzk2XzlBWUlWWDR3UGhHdmQ4MVFXY01tUzBKd0NRT1hvX3BRcU9hOGNFR2RsaTZaZWtvQnNWYjlxRmcxemFtczZTN19Od2xsNGktOWhQLWRvcm1ySHdvSTdrN1Z2cFpwalpMTm1abGt6ZlQ4QXF5VnN0VnRR?oc=5",
@@ -3229,6 +3222,13 @@
    "at": "2026-11-18",
    "ok": false,
    "reason": "Recent story overlap on key terms ['bezel', 'less', 'could']"
+  },
+  {
+   "title": "iQOO Z12 Lite shows up in the Google Play Console, has key specs revealed - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHRIbHdfVS00MktIaFMtb2pHaXdkVjgwVjB1X2NwUFZwT3RxS1pUakhlQzYwMWNsVkhQdmZpZUN4YVBTQTZtSkN2X3BtaHFiVDdrek5CLTNDUUhha0hWZWVLS0Vwbk5ibXc0dG5JR1FSMDkzT1c5U29XMGxiUzJyanhjUlZlWjNzZ0U0OUFXWm1TX0tubEx2LWdBZE11TDRyTkY5Zk1JdnlaX01CYWk1Mlln0gGuAUFVX3lxTFBubnk3VUF1aTdpdDFDUGJKdHRINHdKYU5OZjRFRzg2RGdrMXViT043VGozZUR5S1hGMmltX3ZBNlEyUjF5TkZ1UklLNGFKZWJ5aXVUWUl0Qnp1clVuUE5acnBPQmp0U3pSdUxKY2NMNkRVX3hydzhSd2hzLUpCU0VfNkFtVkF2WXNkNm1SZlA5SEdIWnNPTWFiX3FLellxaVhPaTBwck92bmZuUkJJdw?oc=5",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['iqoo', 'console', 'play', 'shows']"
   }
  ]
 }
