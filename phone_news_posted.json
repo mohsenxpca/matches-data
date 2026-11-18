@@ -581,6 +581,25 @@
       "has_real_img": true,
       "at": "2026-11-18T13:01:21.264085+02:00",
       "ok": true
+    },
+    {
+      "title": "Samsung launches One UI 9.5 beta program, confirms eligible markets and key features",
+      "orig_link": "https://www.gizmochina.com/2026/11/18/samsung-one-ui-9-5-beta-program-galaxy-s26-features-availability/",
+      "at": "2026-11-18T13:31:07.755954+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (397 كلمة، والمطلوب 450+ كلمة)",
+        "العنوان مكرر أو قريب جداً من خبر منشور: سامسونگ تطلق رسمياً برنامج تجربة One UI 9.5 لسلسلة S26"
+      ]
+    },
+    {
+      "title": "آبل HomeView: كابوس في التصليح وتفكيك معقد من iFixit",
+      "orig_link": "https://www.gsmarena.com/the_apple_homeview_is_a_repairability_nightmare-news-75519.php",
+      "post_url": "https://www.egyptaway.com/2026/11/apple-homeview-ifixit-teardown-nightmare.html",
+      "brand": "Apple",
+      "has_real_img": true,
+      "at": "2026-11-18T13:31:07.755954+02:00",
+      "ok": true
     }
   ]
 }
