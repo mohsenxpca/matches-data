@@ -717,6 +717,33 @@
       "has_real_img": true,
       "at": "2026-11-18T18:06:07.173990+02:00",
       "ok": true
+    },
+    {
+      "title": "رسمياً: انطلاق بيتا واجهة One UI 9.5 لأجهزة سامسونج S26",
+      "orig_link": "https://www.sammobile.com/news/samsung-one-ui-9-5-beta-eligible-galaxy-devices/",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-beta-launch.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-18T19:06:06.770880+02:00",
+      "ok": true
+    },
+    {
+      "title": "New Galaxy Tab Active 5 Pro update brings One UI 9.0",
+      "orig_link": "https://www.sammobile.com/news/new-galaxy-tab-active-5-pro-update-brings-one-ui-9-0/",
+      "at": "2026-11-18T19:06:06.770880+02:00",
+      "ok": false,
+      "err": [
+        "العنوان مكرر أو قريب جداً من خبر منشور: سامسونج تطلق تحديث One UI 9.0 (أندرويد 17) لجهاز Galaxy Tab A11+"
+      ]
+    },
+    {
+      "title": "تسريب: آيفون الذكرى العشرين قادم بتصميم ثوري وشاشات منحنية",
+      "orig_link": "https://www.gsmarena.com/more_details_about_apples_20thanniversary_iphone_emerge-news-75520.php",
+      "post_url": "https://www.egyptaway.com/2026/11/iphone-20-anniversary-design-leaks.html",
+      "brand": "Apple",
+      "has_real_img": true,
+      "at": "2026-11-18T19:06:06.770880+02:00",
+      "ok": true
     }
   ]
 }
