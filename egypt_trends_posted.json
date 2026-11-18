@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.bbc.com/sport/football/articles/cme8rxx2e1w9o",
-   "t": "Cristiano Ronaldo retires: Portugal forward says he is quitting international football",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 6",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ريستيانو', 'رونالدو'}) مع تشابه نصي مع: تكريم جماهيري خاص لكريستيانو رونالدو في مباراة النصر وباختاكور)"
-   ]
-  },
-  {
-   "u": "https://www.goal.com/en/news/officially-hossam-hassan-banned-from-media-appearances/blt0b3bba0ba4c9cfe5",
-   "t": "Officially: Hossam Hassan banned from media appearances",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 452 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حسن', 'حسام'}) مع تشابه نصي مع: حسام حسن ومعتمد جمال ضمن قائمة الأفضل في أفريقيا 2026)"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1GcXdQWUdDMkFWTGZ6LXY2T0o3cDY4ZGFXVkFjSnlKZlVmOWp5XzAzZUlmbmI1UEpGMkszcHE2blZPeUFNVHFF?oc=5",
    "t": "موعد صرف تكافل وكرامة نوفمبر 2026 ورابط الاستعلام بالرقم القومي - صدى البلد",
    "at": "2026-11-05",
@@ -3385,6 +3364,26 @@
    "at": "2026-11-18T18:43:52.270016+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/18/آبل-تضيف-تحديث-جديد-لماك-يمنح-المستخدمين-سيطرة-أكبر-على/7623510",
+   "t": "آبل تضيف تحديث جديد لماك يمنح المستخدمين سيطرة أكبر على الخصوصية",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ياناتك', 'ابل'}) مع تشابه نصي مع: أبل تطلق أدوات أمان جديدة لجهاز Mac لحماية بياناتك)"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/18/دولارات-مقومة-بسعر-قديم-وأذون-خزانة-خارج-الكاش-أبرز-الملاحظات/7623773",
+   "t": "دولارات مقومة بسعر قديم وأذون خزانة خارج الكاش أبرز الملاحظات على \"مطاحن الدلتا\"",
+   "title": "أبرز ملاحظات المركزى للمحاسبات على قوائم مطاحن الدلتا المالية",
+   "url": "https://www.egyptaway.com/2026/11/delta-mills-financial-observations.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202302280226182618.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-18T19:20:18.894058+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
