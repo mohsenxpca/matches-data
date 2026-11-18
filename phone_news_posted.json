@@ -470,6 +470,26 @@
       "has_real_img": true,
       "at": "2026-11-18T08:31:05.474794+02:00",
       "ok": true
+    },
+    {
+      "title": "Every Galaxy phone and tablet eligible to get One UI 9.5 update",
+      "orig_link": "https://www.sammobile.com/news/samsung-one-ui-9-5-supported-galaxy-devices/",
+      "at": "2026-11-18T09:01:05.299245+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (420 كلمة، والمطلوب 450+ كلمة)",
+        "العنوان مكرر أو قريب جداً من خبر منشور: تسريب قائمة هواتف سامسونج المؤهلة لتحديث One UI 9.5 المرتقب"
+      ]
+    },
+    {
+      "title": "Samsung Galaxy A24 gets One UI 9 based on Android 17",
+      "orig_link": "https://www.gsmarena.com/samsung_galaxy_a24_4g_gets_one_ui_9_based_on_android_17-news-75517.php",
+      "at": "2026-11-18T09:01:05.299245+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (426 كلمة، والمطلوب 450+ كلمة)",
+        "العنوان مكرر أو قريب جداً من خبر منشور: رسمياً: سامسونج تطلق تحديث One UI 9.0 المستقر لهاتف Galaxy A25"
+      ]
     }
   ]
 }
