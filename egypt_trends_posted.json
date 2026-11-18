@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1GcXdQWUdDMkFWTGZ6LXY2T0o3cDY4ZGFXVkFjSnlKZlVmOWp5XzAzZUlmbmI1UEpGMkszcHE2blZPeUFNVHFF?oc=5",
-   "t": "موعد صرف تكافل وكرامة نوفمبر 2026 ورابط الاستعلام بالرقم القومي - صدى البلد",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'صرف', 'نوفمبر'}) مع تشابه نصي مع: صرف مقررات نوفمبر التموينية: حصص السلع لكل فرد ومواعيد العمل)"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7169236",
    "t": "«أهلي بنغازي» يكشف حقيقة المفاوضات مع أحمد فتوح وثنائي الأهلي",
    "at": "2026-11-05",
@@ -3384,6 +3374,16 @@
    "at": "2026-11-18T19:20:18.894058+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://arabic.cnn.com/sport/article/2026/11/18/fifa-u-17-world-cup-teams-and-matches",
+   "t": "بمشاركة 5 فرق عربية.. إليك مجموعات وجدول مباريات كأس العالم للناشئين",
+   "title": "كأس العالم للناشئين 2026: قطر تستضيف 5 منتخبات عربية",
+   "url": "https://www.egyptaway.com/2026/11/fifa-u17-world-cup-2026.html",
+   "photo": "https://images.pexels.com/photos/269948/pexels-photo-269948.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+   "at": "2026-11-18T20:21:10.015697+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
