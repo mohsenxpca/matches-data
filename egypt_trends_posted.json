@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/5/ضوء-أخضر-من-الرقابة-المالية-الموافقة-المبدئية-لـ11مشروعا-للتكنولوجيا-المالية/7607004",
-   "t": "ضوء أخضر من الرقابة المالية.. الموافقة المبدئية لـ11مشروعا للتكنولوجيا المالية",
-   "title": "الرقابة المالية تمنح الضوء الأخضر لـ 11 مشروعاً للتكنولوجيا المالية",
-   "url": "https://www.egyptaway.com/2026/11/fra-approves-11-fintech-projects.html",
-   "at": "2026-11-05T12:42:59.086640+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://www.goal.com/en/news/in-video-the-football-association-opens-the-file-on-sacking-hossam-hassan-with-two-candidates-in-line-to-succeed-him/bltd61f0a5d7f7924b6",
    "t": "In video: Football association opens the file on sacking Hossam Hassan, with a duo in line to succeed him",
    "title": "مصير حسام حسن: هل يقترب رحيله عن تدريب منتخب مصر؟",
@@ -3380,6 +3371,17 @@
    "at": "2026-11-18T13:21:44.436313+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMirwRBVV95cUxQOXpiclpVREFCTGpPZE9lUTBhdTAyVEtjT25zdnR3S1Fjdl9ZQ1hwbUExclYyTy1NWkNCLU1qYTRtSktyT1dJMDRWZnpNTFB6T0t1NDJWYXZydXVJX0tMelNXTmVfUy16alcyb0pic3Vtb282LVZVNFMzUFBUdzY0MVB6a2ZPLTFoYjZNSHdsU2NSRGVrOHQ0NnA5TFVxSUtVa2g3eHBoTkhSM0xYV0VGV2QzQ2hYb0xHSjY1eVBINWt0TnFXTUd4VkxIdmxtMEU0Xy1NSmxZN1NIVzh5S25xcDU0VWdZZmtmR0JDaGRNdlNyMGRIVmJQS3h5TmRYeUtodVl1cEEtRzR3ZHR4NGl0WDJiNWxhT2MwV1c3NkxIMlJ5TlMwNnE1ZzNRcjVhWnVqcngyWXBvM3VpTFRBWUFPanVZTGtEWWNMamdzc0F1SGg1TTh4X0dZaXZGVWQzOGtXMEVXMG9uMVp0RWIyMWpBY2M5RWp4dFUwb2JsMlJ3cUFSSG84Nm4ycmJ3ZktTaDdjazZ3N3VudWxtQWpKb1cybFV1YVBkOWZpTm9IaW1JTkpJTHpsSzlJdWlqVVU3YjZkNUxMLWNFWTdMa0JwbmxpY2FlYnhGRG1ndmJ2NmlwWHl3WFRZU0p4SW0tUkUwcTNpWGZKYjJ0U19NUk5hanM3ZVlyTlBRVTFTWkdZM2NqSGpjMTBNNXJMYWN2WGJvLWdDZ1RPV1lfZGhqTXJTQWVn0gGqBEFVX3lxTE4zZUZSLUlKZDNvUEw3cHdzbEFCT21xTzlsaHo1WjFiZDk0dnBSc3FhQUZOakJPZjFvOUVjS2E5cmpCaHluZUp5SEUtdTNIZklFZDB1bFlJTmZFR0VDaWw4cXYydkxDTG1nbExEVlBwRFJfcEVVOXNmLXd5LWFIeHkySDA0RTY5NjlnMU9vdm5DNlk0eFc0V2N1NnJVSUFCMGR2VFM2MnFGSE9YQU9ya1lRRGp0MVRpaGRTZzhpY3M5Wml3aVVPaTROMGd1N2VmdUQ2RG9sbk1XVFBiUUI0RXpUazRCTzgtbE9ac0VyWEdNNHJubGZqOGE5WlpWNFhIUzRjQ09KN2pYSGxzckM5WGhYdFdhdTZPdEZ3TkJJNUJMbmU2WmdrblZkdW9uVUFtbFVuNTRPYTNWMUdodWo5UC0wOWNzN2lMV0ljUlFqXzU1eFNlQlFPd0pfeTF4eFBPS19xYTNpdGZxYXIxNVVxY3hKOUFYZlhuZWR3ZEZLNUUwRzJnU0FJMDdJTE9EQjVfaEJBZHZ6Slluel9SZXJiS2pVWnplbE5TdFVMWFlzYUNraEJGMlU2ZGR0M0tUUmFCalBWZTRpZ09uTFFzQ0dzbldEM1NqTHFxVHZZZUxHbGVENkEyM2ZBaUZpbndQU2NUaXZPOWwxV29tOU13SXg5Q005cFlDdmgxcUktZjhNUVRRM0hxcTZvTXNLMVJDWEZYcTY3ck1oejd3dUxB?oc=5",
+   "t": "موعد وقيمة الزيادات الجديدة فى مرتبات أعضاء هيئة التدريس بالجامعات - اليوم السابع",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 11000، 4000، 5000، 6000",
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 460 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
