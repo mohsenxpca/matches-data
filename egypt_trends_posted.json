@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBUN3hOZnRhZnVZVDRFLS1Gc1RBVWVGOTM0X2xHeS1mdHlBODRHSlRqOTVBaEs2VVVpX01BMnh0R1Bmb2Rud1lV?oc=5",
-   "t": "تعليمات عاجلة بشأن التقدم لامتحانات الصفين الأول والثاني الثانوي “بنظام المنازل” - صدى البلد",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 3، 4"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxOM0NpUDZDdm53TW8wamlMUnpXZUEwOURDTFh0OWFJV0dZbXpFT1VLZGRYRzRkWklEUnNfU0VpSGhwZjJZQ2tzUXBYb3lYQjhLWEVNM3ZFVWR3VlRyNDkxMG93Umd6X0ZQRkp6SFpWRjl0dlZlbHVscnJfQjFWc1hVRXhBOHRZbWRLQWJ4bExJc2lWYjhfdXl2MkdLNWh1TUw2SEc4alRkQ1ZWMXNyT2xUejNIcnR6MXRhTnl5bmFuNWlKc2hHc3FKYU9OR2kxZ1Q2REs2VUpNUzhxcDh0SXZrdEUzOGVvaE8tTy1vQ2ZJeUMtVl81SGh4YUZxTU1tQ0ZDd3VLZTlZNDE1MVZWT1ZjRk44anlfWFJicjNZYzV2aVc3VXllMWk5NVVQZkthOWtUUW9ueXpJRGRWa0Yzc3pVY3RLbS1lSXN3MTlFU0ZKNkF1OE9kQ2xTNGN0N0JqU0c1Y0JybHJfMTI3dw?oc=5",
    "t": "لليوم الـ 5 علي التوالي.. «التموين» تواصل صرف سلع مقررات نوفمبر - بوابة أخبار اليوم الإلكترونية",
    "title": "صرف مقررات نوفمبر التموينية: حصص السلع لكل فرد ومواعيد العمل",
@@ -3383,6 +3374,16 @@
    "at": "2026-11-18T16:03:10.080146+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.skynewsarabia.com/business/1905519-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D9%85%D9%84%D9%83%D9%8A%D8%A9-%D8%B9%D9%85%D8%A7%D9%84%D9%82%D8%A9-%D8%A7%D9%84%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7-%D8%A3%D9%86%D8%AB%D8%B1%D9%88%D8%A8%D9%8A%D9%83",
+   "t": "تفاصيل ملكية عمالقة التكنولوجيا في \"أنثروبيك\"",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 19، 7",
+    "الـ body 479 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
