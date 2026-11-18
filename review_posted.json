@@ -1,41 +1,6 @@
 {
  "done": [
   {
-   "title": "vivo's 12,000mAh battery is in mass production, says tipster",
-   "url": "https://www.gsmarena.com/tipster_says_vivos_12000mah_battery_is_in_mass_production-news-75415.php",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (693 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Xiaomi 18 Pro India launch month leaks along with Xiaomi 18T specs",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_india_launch_month_leaks_along_with_xiaomi_18t_specs-news-75414.php",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "How to set up a Galaxy phone to be as close to an iPhone as possible",
-   "url": "https://www.sammobile.com/news/set-up-samsung-galaxy-phone-close-to-iphone/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (596 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Samsung updates Galaxy S26 with November 2026 security patch",
-   "url": "https://www.sammobile.com/news/samsung-updates-galaxy-s26-with-november-2026-security-patch/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (402 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
    "title": "Google’s November Pixel update packs dozens of bug fixes, and you can get it now",
    "url": "https://www.androidauthority.com/november-2026-pixel-update-3733597/",
    "at": "2026-11-11",
@@ -3227,6 +3192,39 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Here's when iPhone 18 and iPhone Air 2 display production will reportedly start",
+   "url": "https://www.gsmarena.com/heres_when_iphone_18_and_iphone_air_2_display_production_will_reportedly_start-news-75525.php",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Phone 'air 2' already covered in: أبل تباغت الجميع: تسريب هواتف iPhone 18 و Air 2.. هل هذا هو"
+  },
+  {
+   "title": "Google’s mandatory foldable app guidelines are here, and optimized apps are coming in 2027",
+   "url": "https://www.androidauthority.com/google-foldable-app-optimization-guidelines-3736653/",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (667 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "More details about Apple's 20th-anniversary iPhone emerge - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeG1CTDRyR0E2WTlJcy1EOGl6MzBZVkJsWlVtc0hMc3pFbzlZOXRyLUdQVWVGM2RiNlN5ejh2VTNXalcwWUtmYnk2RF8xS1VDT0U2ck13ZW1qaHhZYXp3NUlGQ3lLNGxXZy1qSjVrYW9JXzRjU0Z2NnVHZnZtbE42NUhJaV91WGxxMDFIZ0czUGhlTHkzSzhqT213Y9IBlwFBVV95cUxObC1mZXAwVkFSNzdzQTE2TzVtR2wyR29TX2lCNnV3Qnd4X2RLY2xPYUxrcG5Ndloxemo1a0lXSGlmOFZYWXBzQzQtXzhBa0NEeVMyU2dPOTE5TjNRcXRWTlpBSU9tSlNLWWktUzVTZmotYkFrMVNveFlQV3VxZHpPV0ZXd0V5ZWxSYnVZajA4ZkJlc3pkQWFn?oc=5",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['iphone', '20th', 'anniversary']"
+  },
+  {
+   "title": "مواصفات iQOO Z12 Lite المسربة: معالج Dimensity 6300 وأندرويد 16",
+   "cand_title": "iQOO Z12 Lite Specs: Dimensity 6300, 4GB/6GB, Android 16 - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ1ZfMWFGdjFpNFAwQWVFMUczVEItUld0TGhkUVFLTGt6c3o0cVZwZjdHSDNpV2FmREtXLUJVLV9NblRqY0txb3B1cjQ0ZEhEUWFfSDQ4Y3BHZTQ0amtZRXpMbDl2TlV1WWVRaGRxdXIxb0xxd2N0YUR0ZE94bWJUcTN3cHk2cmFXdldZXzlzMG9rc28?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/iqoo-z12-lite-specs-leak-analysis.html",
+   "at": "2026-11-19T01:24:34+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "فيفو"
   }
  ]
 }
