@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "مواصفات هاتف vivo V80 الجديد قبل إطلاقه رسميا في مصر",
-   "url": "https://www.masrawy.com/news/tech-reports/details/2026/11/2/3072731/%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA-%D9%87%D8%A7%D8%AA%D9%81-vivo-v80-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%82%D8%A8%D9%84-%D8%A5%D8%B7%D9%84%D8%A7%D9%82%D9%87-%D8%B1%D8%B3%D9%85%D9%8A%D8%A7-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1",
-   "at": "2026-11-10",
-   "ok": false,
-   "reason": "Phone 'v80' already covered in: مراجعة vivo V80 2026: كاميرات وبطارية وأداء"
-  },
-  {
    "title": "ثورة تصوير احترافية: كينون تطلق مركز تحكم بـ 200 كاميرا مجاناً!",
    "cand_title": "Canon Camera Control Centre Announced – Free Multi-Camera Software for PTZ and Cinema EOS, Up to 200 Cameras - CineD",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUHh1eUNDbEFRYjRxSUxDbTJIYWZRUkFTVHlSWlZsSFAzeDc3Z1ZzNEFPZUlOeG1weXNpREtPUEFpNWV6RkJkM05VYlE5cHV5MVVQV3p0a3kzb0R4cHZWWWJWMWNRMld3enBtMW14QXdfVktGU01ja1VhNktDRVowV0ZZVnJRclE0WVJTeE94Z1Uwb0FyclN2V0h2NTN0N2pjcGtsRlgzQ1UtX1VOeHM4NlBjTUFqN19OR0ljRkJNTERGT3hZRmpN?oc=5",
@@ -3236,6 +3229,13 @@
    "at": "2026-11-18",
    "ok": false,
    "reason": "Phone 'xiaomi 18' already covered in: حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد"
+  },
+  {
+   "title": "Vivo reportedly undecided between Snapdragon 8 Elite Gen 6 and Dimensity 9600 Pro for its next foldable",
+   "url": "https://www.gizmochina.com/2026/11/18/vivo-x-fold-7-2nm-snapdragon-mediatek-chip-undecided/",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": "Phone 'snapdragon 8' already covered in: موتورولا تحيي سلسلة Moto One بهاتف خارق بمعالج Snapdragon 8 Gen 5"
   }
  ]
 }
