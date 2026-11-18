@@ -517,6 +517,15 @@
       "has_real_img": true,
       "at": "2026-11-18T10:31:04.304435+02:00",
       "ok": true
+    },
+    {
+      "title": "Samsung opens One UI 9.5 beta program for Galaxy S26",
+      "orig_link": "https://www.sammobile.com/news/samsung-opens-one-ui-9-5-beta-program-galaxy-s26/",
+      "at": "2026-11-18T11:01:05.608549+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (samsung-one-ui-9-5-beta-galaxy-s26): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
     }
   ]
 }
