@@ -1053,6 +1053,46 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/corma-ai-cybersecurity-billion-valuation.html",
    "title": "Corma تدخل نادي المليار دولار في 3 شهور فقط"
+  },
+  {
+   "u": "https://www.androidpolice.com/gemini-voice-phone-hands-free-productivity/",
+   "t": "I turned my phone into a hands-free productivity machine with 4 Gemini voice commands",
+   "at": "2026-11-18",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+   "t": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+   "at": "2026-11-18",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+   "t": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+   "at": "2026-11-18",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+   "t": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+   "at": "2026-11-18",
+   "ok": false
+  },
+  {
+   "u": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+   "t": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+   "at": "2026-11-18",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/google-project-zero-security-policy.html",
+   "title": "جوجل تضغط على الشركات: كشف الثغرات الأمنية في 30 يوم فقط"
+  },
+  {
+   "u": "https://www.androidpolice.com/gemini-memory-summary-fixed-what-it-got-wrong/",
+   "t": "I found Gemini's hidden record of what it knows about me, then fixed what it got wrong",
+   "at": "2026-11-18",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/gemini-memory-summary-control.html",
+   "title": "إزاي تتحكم في ذاكرة Gemini وتعرف إيه اللي بيعرفه عنك؟"
   }
  ]
 }
