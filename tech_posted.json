@@ -1093,6 +1093,64 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/gemini-memory-summary-control.html",
    "title": "إزاي تتحكم في ذاكرة Gemini وتعرف إيه اللي بيعرفه عنك؟"
+  },
+  {
+   "u": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+   "t": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+   "at": "2026-11-18",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/sam-altman-instagram-deepfake-ai.html",
+   "title": "سام ألتمان ضحية الـ Deepfake على إنستجرام"
+  },
+  {
+   "u": "https://www.androidpolice.com/google-giving-millions-gemini-users-free-personal-ai-agent/",
+   "t": "Google is giving millions of Gemini users a free personal AI agent",
+   "at": "2026-11-18",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+   "t": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+   "at": "2026-11-18",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+   "t": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+   "at": "2026-11-18",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+   "t": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+   "at": "2026-11-18",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+   "t": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+   "at": "2026-11-18",
+   "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/tech/1035943/instagram-creators-crack-down-copycat-videos",
+   "t": "Instagram is helping creators crack down on copycat videos",
+   "at": "2026-11-18",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+   "t": "Google joins the tech outage trend by announcing it’s not having one",
+   "at": "2026-11-18",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/invisible-google-maps-gestures-to-zoom-tilt-and-drop-pins-with-ease/",
+   "t": "6 invisible Google Maps gestures that let Android users zoom, tilt, and drop pins with ease",
+   "at": "2026-11-18",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/hidden-google-maps-gestures-android.html",
+   "title": "6 حركات سرية في Google Maps هتخليك محترف خرائط"
   }
  ]
 }
