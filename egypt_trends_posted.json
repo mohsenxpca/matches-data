@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.goal.com/en/news/in-video-the-football-association-opens-the-file-on-sacking-hossam-hassan-with-two-candidates-in-line-to-succeed-him/bltd61f0a5d7f7924b6",
-   "t": "In video: Football association opens the file on sacking Hossam Hassan, with a duo in line to succeed him",
-   "title": "مصير حسام حسن: هل يقترب رحيله عن تدريب منتخب مصر؟",
-   "url": "https://www.egyptaway.com/2026/11/hossam-hassan-future-egypt-team.html",
-   "at": "2026-11-05T12:48:09.160839+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/5/3074019/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B3%D9%84%D8%AA%D9%8A%D9%83-%D9%88%D8%A8%D8%B4%D9%83%D8%AA%D8%A7%D8%B4-%D9%81%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D8%B8%D9%87%D9%88%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%80-%D9%87%D9%8A%D8%AB%D9%85-%D8%AD%D8%B3%D9%86-",
    "t": "موعد مباراة سلتيك وبشكتاش في الدوري الأوروبي.. ظهور جديد لـ هيثم حسن",
    "at": "2026-11-05",
@@ -3381,6 +3372,15 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 11000، 4000، 5000، 6000",
     "كلمة رسميًا مش موجودة في المصدر، احذفها",
     "الـ body 460 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7185484",
+   "t": "من يحسم صفقة جوهرة مانشستر سيتي.. برشلونة أم باريس سان جيرمان؟",
+   "at": "2026-11-18",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها"
    ]
   }
  ]
