@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxOM0NpUDZDdm53TW8wamlMUnpXZUEwOURDTFh0OWFJV0dZbXpFT1VLZGRYRzRkWklEUnNfU0VpSGhwZjJZQ2tzUXBYb3lYQjhLWEVNM3ZFVWR3VlRyNDkxMG93Umd6X0ZQRkp6SFpWRjl0dlZlbHVscnJfQjFWc1hVRXhBOHRZbWRLQWJ4bExJc2lWYjhfdXl2MkdLNWh1TUw2SEc4alRkQ1ZWMXNyT2xUejNIcnR6MXRhTnl5bmFuNWlKc2hHc3FKYU9OR2kxZ1Q2REs2VUpNUzhxcDh0SXZrdEUzOGVvaE8tTy1vQ2ZJeUMtVl81SGh4YUZxTU1tQ0ZDd3VLZTlZNDE1MVZWT1ZjRk44anlfWFJicjNZYzV2aVc3VXllMWk5NVVQZkthOWtUUW9ueXpJRGRWa0Yzc3pVY3RLbS1lSXN3MTlFU0ZKNkF1OE9kQ2xTNGN0N0JqU0c1Y0JybHJfMTI3dw?oc=5",
-   "t": "لليوم الـ 5 علي التوالي.. «التموين» تواصل صرف سلع مقررات نوفمبر - بوابة أخبار اليوم الإلكترونية",
-   "title": "صرف مقررات نوفمبر التموينية: حصص السلع لكل فرد ومواعيد العمل",
-   "url": "https://www.egyptaway.com/2026/11/november-ration-cards-distribution-guide.html",
-   "at": "2026-11-05T14:05:29.351511+02:00",
-   "ok": true,
-   "type": "public_query"
-  },
-  {
    "u": "https://www.bbc.com/sport/football/articles/cme8rxx2e1w9o",
    "t": "Cristiano Ronaldo retires: Portugal forward says he is quitting international football",
    "at": "2026-11-05",
@@ -3384,6 +3375,16 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 19، 7",
     "الـ body 479 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.yallakora.com/la-liga/3034/news/573826/-%D8%A3%D8%B9%D8%B7%D9%88%D9%87-%D8%B1%D9%82%D9%85-10-%D9%81%D9%88%D8%B1-%D8%A7-%D9%88%D8%B9%D9%84%D9%8A%D9%87-%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9-%D9%86%D9%8A%D9%83%D9%88-%D8%A8%D8%A7%D8%B2-%D9%8A%D8%B4%D8%B9%D9%84-%D9%85%D8%B7%D8%A7%D9%84%D8%A8-%D8%AC%D9%85%D8%A7%D9%87%D9%8A%D8%B1-%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%88%D8%A7%D9%84%D8%A3%D8%B1%D8%AC%D9%86%D8%AA%D9%8A%D9%86",
+   "t": "\"أعطوه رقم 10 فورًا وعليه العودة\".. نيكو باز يشعل مطالب جماهير ريال مدريد والأرجنتين",
+   "title": "نيكو باز يشعل حماس جماهير ريال مدريد بتألقه مع الأرجنتين",
+   "url": "https://www.egyptaway.com/2026/11/nico-paz-real-madrid-argentina.html",
+   "photo": "https://images.pexels.com/photos/1171084/pexels-photo-1171084.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+   "at": "2026-11-18T18:43:52.270016+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
