@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.gsmarena.com/xiaomi_sets_the_hyperos_4_update_rollout_schedule-news-75340.php",
-   "t": "Xiaomi unveils the HyperOS 4 update rollout schedule - GSMArena.com news",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في 6 كيانات جوهرية ({'HyperOS', 'تكامل', 'شاومي', 'ميزات', 'ايفون', 'تحديث'}) مع: تحديث شاومي HyperOS 4: ميزات جديدة وتكامل مع آيفون)"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBUN3hOZnRhZnVZVDRFLS1Gc1RBVWVGOTM0X2xHeS1mdHlBODRHSlRqOTVBaEs2VVVpX01BMnh0R1Bmb2Rud1lV?oc=5",
    "t": "تعليمات عاجلة بشأن التقدم لامتحانات الصفين الأول والثاني الثانوي “بنظام المنازل” - صدى البلد",
    "at": "2026-11-05",
@@ -3382,6 +3373,16 @@
    "reason": [
     "الـ body 408 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/18/3080732/%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D9%85%D9%86%D8%AA%D8%AE%D8%A8-%D9%85%D8%B5%D8%B1-%D9%88%D9%85%D8%B1%D9%83%D8%B2-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A-%D9%84%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%81%D9%8A-%D8%AA%D8%B5%D9%86%D9%8A%D9%81-%D9%81%D9%8A%D9%81%D8%A7-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+   "t": "تراجع منتخب مصر ومركز تاريخي للمغرب في تصنيف فيفا الجديد",
+   "title": "تراجع منتخب مصر ومركز تاريخي للمغرب في تصنيف فيفا",
+   "url": "https://www.egyptaway.com/2026/11/egypt-morocco-fifa-ranking-update.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.gemini.media/img/large/2026/11/17/2026_11_17_13_16_57_795.webp&w=1200&output=webp&q=80",
+   "at": "2026-11-18T16:03:10.080146+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
