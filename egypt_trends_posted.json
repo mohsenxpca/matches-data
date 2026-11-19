@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.interris.it/glocal-news/primo-assaggio-dinverno-in-molise-la-neve-imbianca-le-localita-montane/",
-   "t": "Primo assaggio d’inverno in Molise, la neve imbianca le località montane",
-   "title": "الشتاء يباغت إيطاليا: ثلوج مبكرة وأمطار غزيرة في موليز",
-   "url": "https://www.egyptaway.com/2026/11/early-winter-snow-molise-italy.html",
-   "at": "2026-11-05T21:46:03.847196+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.masrawy.com/sports/sports-arab-international/details/2026/11/5/3074324/%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%B7%D8%B1%D8%A7%D8%A8%D8%B2%D9%88%D9%86-%D8%A7%D9%84%D9%85%D9%82%D8%A8%D9%84%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D9%85%D9%86-%D9%81%D8%B1%D8%A7%D9%8A%D8%A8%D9%88%D8%B1%D8%AC",
    "t": "موعد مباراة طرابزون المقبلة بعد الخسارة من فرايبورج",
    "at": "2026-11-05",
@@ -3391,6 +3382,17 @@
    "reason": [
     "كلمة رسميًا مش موجودة في المصدر، احذفها",
     "الـ body 429 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.cafonline.com/ar/afcon2025/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D8%AA%D8%A9-%D9%85%D9%86%D8%AA%D8%AE%D8%A8%D8%A7%D8%AA-%D8%AA%D8%AD%D8%AC%D8%B2-%D9%85%D9%82%D8%A7%D8%B9%D8%AF%D9%87%D8%A7-%D9%81%D9%8A-%D8%A8%D8%B7%D9%88%D9%84%D8%A9-%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A9-%D8%AA%D9%88%D8%AA%D8%A7%D9%84-%D8%A5%D9%86%D9%8A%D8%B1%D8%AC%D9%8A%D8%B2-pamoja-2027-%D9%85%D8%B9-%D8%AE%D8%AA%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D9%88%D9%84%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9/",
+   "t": "ستة منتخبات تحجز مقاعدها في بطولة كأس الأمم الأفريقية \"توتال إنيرجيز\" (PAMOJA 2027) مع ختام الجولة الرابعة",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 430 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في 5 كيانات جوهرية ({'2027', 'امم', 'يحجز', 'مغرب', 'مقعده'}) مع: المغرب يغرد في الصدارة ويحجز مقعده في أمم أفريقيا 2027)"
    ]
   }
  ]
