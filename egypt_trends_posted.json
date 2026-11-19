@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.sports.fr/football/ligue-europa-real-sociedad-ol-en-direct-1060322.html",
-   "t": "Ligue Europa: Real Sociedad-OL en direct",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'سوسيداد', 'ريال'}) مع تشابه نصي مع: أتلتيك بلباو يوقف قطار ريال سوسيداد في ديربي الباسك)"
-   ]
-  },
-  {
    "u": "https://rokerreport.sbnation.com/features/158045/score-predictions-how-will-sunlun-do-back-in-europa-league-action",
    "t": "Score Predictions - can SAFC get Past Zagreb?",
    "title": "مواجهة سندرلاند ودينامو زغرب: هل يستعيد أصحاب الأرض توازنهم؟",
@@ -3396,6 +3387,16 @@
    "at": "2026-11-19T20:56:54.540778+02:00",
    "ok": true,
    "type": "public_query"
+  },
+  {
+   "u": "https://www.365scores.com/ar/news/magazine/%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9-%D8%B6%D8%AF-%D8%B4%D8%A8%D9%8A%D8%A8%D8%A9-%D8%A7%D9%84-2/",
+   "t": "مباشر مباراة اتحاد العاصمة ضد شبيبة القبائل في الجولة 10 من الدوري الجزائري 2026/ 2027",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 9",
+    "الموضوع منشور مسبقاً (نسبة تطابق مرتفعة مع مقال منشور: مواعيد مباريات اليوم الثلاثاء 17 نوفمبر والقنوات الناقلة)"
+   ]
   }
  ]
 }
