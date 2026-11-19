@@ -1,31 +1,39 @@
 {
-  "timestamp": "2026-11-18 13:01:56",
+  "timestamp": "2026-11-19 13:04:13",
   "dry_run": false,
-  "scanned": 477,
-  "repaired": 2,
+  "scanned": 485,
+  "repaired": 3,
   "fixes": {
     "broken_links": 0,
     "disclaimers": 0,
     "internal_links": 0,
     "thin_posts": 0,
     "alt_tags": 0,
-    "labels": 2
+    "labels": 3
   },
   "details": [
     {
-      "id": "3981503937462655789",
-      "title": "موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات",
-      "url": "https://www.review-mobile.com/2026/11/motorola-edge-70-neo-teaser-specs.html",
+      "id": "8354985202210626727",
+      "title": "Oppo Reno 17 Pro: المواصفات الكاملة والسعر وموعد التوفر",
+      "url": "https://www.review-mobile.com/2026/11/oppo-reno-17-pro-specs-price.html",
       "fixes": [
-        "Standardized specs/review label ['أخبار هواتف'] -> [موتورولا]"
+        "Standardized specs/review label ['أخبار هواتف'] -> [اوبو]"
       ]
     },
     {
-      "id": "5918883461295313690",
-      "title": "هواوي Enjoy 100 Pro Max ضد Honor X60 Pro: هل يستحق فارق السعر؟",
-      "url": "https://www.review-mobile.com/2026/11/huawei-enjoy-100-pro-max-vs.html",
+      "id": "7553475614563128843",
+      "title": "مواصفات iQOO Z12 Lite المسربة: معالج Dimensity 6300 وأندرويد 16",
+      "url": "https://www.review-mobile.com/2026/11/iqoo-z12-lite-specs-leak-analysis.html",
       "fixes": [
-        "Standardized specs/review label ['أخبار هواتف'] -> [هونر]"
+        "Standardized specs/review label ['أخبار هواتف'] -> [فيفو]"
+      ]
+    },
+    {
+      "id": "8150315194766596730",
+      "title": "سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي",
+      "url": "https://www.review-mobile.com/2026/11/samsung-galaxy-z-fold-8-gta.html",
+      "fixes": [
+        "Standardized specs/review label ['أخبار هواتف'] -> [سامسونج]"
       ]
     }
   ]
