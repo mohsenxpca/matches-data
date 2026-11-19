@@ -1015,6 +1015,15 @@
       "has_real_img": true,
       "at": "2026-11-19T15:41:04.308670+02:00",
       "ok": true
+    },
+    {
+      "title": "Galaxy S26 Ultra gets a new 5x Portrait mode option with One UI 9.5 Beta",
+      "orig_link": "https://www.gizmochina.com/2026/11/19/galaxy-s26-ultra-gets-a-new-5x-portrait-mode-option-with-one-ui-9-5-beta/",
+      "at": "2026-11-19T15:56:49.993479+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (galaxy-s26-ultra-one-ui-9-5-beta): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
     }
   ]
 }
