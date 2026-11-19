@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.wetter.com/news/wetterbericht-fuer-morgen-am-freitag-6-november-2026-tiefdruckrinne-bringt-regional-etwas-regen_aid_6aec30808b52807a7f0f3cf2.html",
-   "t": "Wetter morgen am Freitag: Tiefdruckrinne bringt regional etwas Regen",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'2026', 'نوفمبر'}) مع تشابه نصي مع: أسعار أنابيب البوتاجاز والوقود اليوم الخميس 5 نوفمبر 2026)"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/5/%D8%B3%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D9%83%D8%A7-%D9%8A%D9%83%D8%B4%D9%81-%D9%84%D9%80-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9-%D8%AD%D9%82%D9%8A%D9%82%D8%A9-%D8%A7%D9%84%D8%A8%D9%86%D8%AF-%D8%A7%D9%84%D9%85%D8%AB%D9%8A%D8%B1-%D9%81%D9%8A-%D8%B9%D9%82%D8%AF/7607173",
    "t": "سيراميكا يكشف لـ \"اليوم السابع \"حقيقة البند المثير في عقد علي ماهر",
    "at": "2026-11-05",
@@ -3392,6 +3383,15 @@
    "ok": false,
    "reason": [
     "الـ body 410 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mbTNGVVliM1IyNFhIT0xOSzlKQXRhM3ZQZXdUTjg4anFJT0p6c09FdDUyY3VPbC16ajBmQVJOaGJYZXM1TE80Z1ZUbHNocGhjNEVaa0djLW1nckZkY1lz?oc=5",
+   "t": "وزير التموين ومحافظ القاهرة يفتتحان سوق «اليوم الواحد» بمدينة بدر بمشاركة 50 عارضًا - المصري اليوم",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": [
+    "الـ body 447 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
