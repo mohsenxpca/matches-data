@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://sempremilan.com/official-starting-xis-ac-milan-ferencvaros-2026-27",
-   "t": "Official: Starting XIs for AC Milan vs. Ferencvaros – six changes from Inter win",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 5، 90",
-    "الـ body 453 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.wetter.com/news/wetterbericht-fuer-morgen-am-freitag-6-november-2026-tiefdruckrinne-bringt-regional-etwas-regen_aid_6aec30808b52807a7f0f3cf2.html",
    "t": "Wetter morgen am Freitag: Tiefdruckrinne bringt regional etwas Regen",
    "at": "2026-11-05",
@@ -3394,6 +3384,15 @@
    "at": "2026-11-19T10:42:40.594223+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/19/3081115/%D9%85%D9%8A%D8%AF%D9%88-%D9%8A%D9%83%D8%B4%D9%81-%D9%85%D8%A7-%D9%81%D8%B9%D9%84%D9%87-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%85%D8%B9-%D8%A3%D8%B3%D8%B1%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%AD%D9%84-%D9%85%D8%AD%D9%85%D8%AF-%D8%B5%D8%A8%D8%B1%D9%8A-%D8%AD%D8%A7%D8%AC%D9%87-%D8%AA%D8%AD%D8%B2%D9%86",
+   "t": "ميدو يكشف ما فعله مجلس الزمالك مع أسرة الراحل محمد صبري: حاجه تحزن",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": [
+    "الـ body 410 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
