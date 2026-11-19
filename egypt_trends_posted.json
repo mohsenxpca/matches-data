@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/1/%D9%85%D9%88%D8%B9%D8%AF-%D8%A5%D8%AC%D8%A7%D8%B2%D8%A9-%D9%86%D8%B5%D9%81-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%89-%D9%84%D9%84%D8%B7%D9%84%D8%A7%D8%A8-%D8%A7%D8%B9%D8%B1%D9%81-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84/7600201",
-   "t": "موعد إجازة نصف العام الدراسى للطلاب.. اعرف التفاصيل",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (نسبة تطابق مرتفعة مع مقال منشور: أنواع وعوائد شهادات البنك الأهلي المصري 2026 بالتفصيل)"
-   ]
-  },
-  {
    "u": "https://www.marca.com/futbol/tenerife/2026/11/05/prometo-nina-le-faltar-nunca.html",
    "t": "\"Os prometo que a su niña no le va a faltar nunca de nada\"",
    "title": "تفاصيل رحيل خيسوس دي ميجيل: وعد مؤثر ومساندة من نادي تينيريفي",
@@ -3389,6 +3380,16 @@
    "at": "2026-11-19T07:03:32.324365+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_egypt/details/2026/11/17/3080182/%D8%A7%D9%84%D8%AE%D8%B7-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9-%D9%84%D9%84%D9%85%D8%AA%D8%B1%D9%88-4-%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D8%AA%D8%B1%D8%A8%D8%B7-6-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-%D9%88%D8%A7%D9%84%D8%A3%D9%87%D8%B1%D8%A7%D9%85%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9",
+   "t": "الخط الرابع للمترو| 4 مراحل تربط 6 أكتوبر والأهرامات بالقاهرة الجديدة والعاصمة",
+   "title": "تفاصيل الخط الرابع للمترو: شرايين نقل جديدة تربط الهرم بالعاصمة",
+   "url": "https://www.egyptaway.com/2026/11/line-4-metro-cairo-giza.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.gemini.media/img/large/2026/7/12/2026_7_12_13_11_40_719.webp&w=1200&output=webp&q=80",
+   "at": "2026-11-19T09:06:15.588769+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
