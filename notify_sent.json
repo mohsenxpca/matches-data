@@ -1,8 +1,6 @@
 {
  "sent": [],
  "indexed": [
-  "https://www.egyptaway.com/2026/11/facebook-outage-egypt-2026_01951640186.html",
-  "https://www.egyptaway.com/2026/11/vodafone-cash-outage-egypt-2026.html",
   "https://www.egyptaway.com/2026/11/vodafone-egypt-outage-2026.html",
   "https://www.egyptaway.com/2026/11/alahli-bank-certificates-new-returns.html",
   "https://www.egyptaway.com/2026/11/face-id-vs-password-phone-security.html",
@@ -400,11 +398,11 @@
   "https://www.egyptaway.com/2026/11/ghazl-el-mahalla-fifa-ban.html",
   "https://www.egyptaway.com/2026/11/xiaomi-watch-s5-41mm-review.html",
   "https://www.egyptaway.com/2026/11/danger-of-old-charging-cables.html",
-  "https://www.egyptaway.com/2026/11/best-savings-certificates-egypt-banks.html"
+  "https://www.egyptaway.com/2026/11/best-savings-certificates-egypt-banks.html",
+  "https://www.egyptaway.com/2026/11/honor-magic9-uk-models-confirmed.html",
+  "https://www.egyptaway.com/2026/11/fuel-prices-egypt-november-2026_01233244002.html"
  ],
  "tg": [
-  "https://www.egyptaway.com/2026/11/facebook-outage-egypt-2026_01951640186.html",
-  "https://www.egyptaway.com/2026/11/vodafone-cash-outage-egypt-2026.html",
   "https://www.egyptaway.com/2026/11/vodafone-egypt-outage-2026.html",
   "https://www.egyptaway.com/2026/11/alahli-bank-certificates-new-returns.html",
   "https://www.egyptaway.com/2026/11/face-id-vs-password-phone-security.html",
@@ -802,7 +800,9 @@
   "https://www.egyptaway.com/2026/11/ghazl-el-mahalla-fifa-ban.html",
   "https://www.egyptaway.com/2026/11/xiaomi-watch-s5-41mm-review.html",
   "https://www.egyptaway.com/2026/11/danger-of-old-charging-cables.html",
-  "https://www.egyptaway.com/2026/11/best-savings-certificates-egypt-banks.html"
+  "https://www.egyptaway.com/2026/11/best-savings-certificates-egypt-banks.html",
+  "https://www.egyptaway.com/2026/11/honor-magic9-uk-models-confirmed.html",
+  "https://www.egyptaway.com/2026/11/fuel-prices-egypt-november-2026_01233244002.html"
  ],
  "fb": [
   "https://www.egyptaway.com/2026/11/samsung-galaxy-tab-a11-plus-android-17.html",
@@ -812,7 +812,8 @@
   "https://www.review-mobile.com/2026/11/vivo-x-fold7-chipset-battle.html",
   "https://www.review-mobile.com/2026/11/oppo-reno-17-pro-specs-price.html",
   "https://www.review-mobile.com/2026/11/qencrypt-quantum-safe-encryption-iphone.html",
-  "https://www.egyptaway.com/2026/11/phone-charger-cable-risks.html"
+  "https://www.egyptaway.com/2026/11/phone-charger-cable-risks.html",
+  "https://www.egyptaway.com/2026/11/honor-magic9-uk-models-confirmed.html"
  ],
  "fb_history": [
   {
@@ -870,6 +871,13 @@
    "mode": "link",
    "at": "2026-11-19T06:31:30+02:00",
    "fb_id": "1959788610952661_1633801068761107"
+  },
+  {
+   "url": "https://www.egyptaway.com/2026/11/honor-magic9-uk-models-confirmed.html",
+   "title": "رسمياً: الكشف عن هواتف سلسلة Honor Magic9 القادمة لبريطانيا",
+   "mode": "native",
+   "at": "2026-11-19T08:31:32+02:00",
+   "fb_id": "1959788610952661_1633881738753040"
   }
  ]
 }
