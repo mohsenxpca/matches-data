@@ -1,7 +1,6 @@
 {
  "sent": [],
  "indexed": [
-  "https://www.egyptaway.com/2026/11/nasa-moon-base-student-challenge.html",
   "https://www.egyptaway.com/2026/11/facebook-down-egypt-2026_01305750548.html",
   "https://www.egyptaway.com/2026/11/short-selling-egyptian-exchange.html",
   "https://www.egyptaway.com/2026/11/etisalat-egypt-outage-2026_01450152249.html",
@@ -400,10 +399,10 @@
   "https://www.egyptaway.com/2026/11/redmagic-12-pro-launch-and-accessories.html",
   "https://www.egyptaway.com/2026/11/xiaomi-tridrum-washer-dryer-pro.html",
   "https://www.egyptaway.com/2026/11/one-ui-95-galaxy-s26-ultra-camera.html",
-  "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-features-leak.html"
+  "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-features-leak.html",
+  "https://www.egyptaway.com/2026/11/samsung-developing-android-laptops-leak.html"
  ],
  "tg": [
-  "https://www.egyptaway.com/2026/11/nasa-moon-base-student-challenge.html",
   "https://www.egyptaway.com/2026/11/facebook-down-egypt-2026_01305750548.html",
   "https://www.egyptaway.com/2026/11/short-selling-egyptian-exchange.html",
   "https://www.egyptaway.com/2026/11/etisalat-egypt-outage-2026_01450152249.html",
@@ -802,7 +801,8 @@
   "https://www.egyptaway.com/2026/11/redmagic-12-pro-launch-and-accessories.html",
   "https://www.egyptaway.com/2026/11/xiaomi-tridrum-washer-dryer-pro.html",
   "https://www.egyptaway.com/2026/11/one-ui-95-galaxy-s26-ultra-camera.html",
-  "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-features-leak.html"
+  "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-features-leak.html",
+  "https://www.egyptaway.com/2026/11/samsung-developing-android-laptops-leak.html"
  ],
  "fb": [
   "https://www.egyptaway.com/2026/11/samsung-galaxy-tab-a11-plus-android-17.html",
@@ -816,7 +816,8 @@
   "https://www.egyptaway.com/2026/11/honor-magic9-uk-models-confirmed.html",
   "https://www.egyptaway.com/2026/11/vivo-buds-clip-huawei-freeclip.html",
   "https://www.egyptaway.com/2026/11/oneplus-flagship-240hz-2k-leak.html",
-  "https://www.egyptaway.com/2026/11/one-ui-95-galaxy-s26-ultra-camera.html"
+  "https://www.egyptaway.com/2026/11/one-ui-95-galaxy-s26-ultra-camera.html",
+  "https://www.egyptaway.com/2026/11/samsung-developing-android-laptops-leak.html"
  ],
  "fb_history": [
   {
@@ -902,6 +903,13 @@
    "mode": "native",
    "at": "2026-11-19T14:42:13+02:00",
    "fb_id": "1959788610952661_1634157292058818"
+  },
+  {
+   "url": "https://www.egyptaway.com/2026/11/samsung-developing-android-laptops-leak.html",
+   "title": "تسريب رسمي: سامسونج تطور حواسيب محمولة تعمل بنظام أندرويد",
+   "mode": "link",
+   "at": "2026-11-19T16:31:29+02:00",
+   "fb_id": "1959788610952661_1634260938715120"
   }
  ]
 }
