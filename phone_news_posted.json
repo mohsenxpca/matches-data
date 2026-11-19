@@ -870,6 +870,24 @@
       "err": [
         "طول الخبر قصير (396 كلمة، والمطلوب 420+ كلمة)"
       ]
+    },
+    {
+      "title": "New leak shows Galaxy Studio is a solid AirPods Max and Sony XM6 rival",
+      "orig_link": "https://www.sammobile.com/news/new-galaxy-studio-specs-leak-solid-airpods-max-sony-xm6-rival/",
+      "at": "2026-11-19T11:11:07.587541+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (411 كلمة، والمطلوب 420+ كلمة)"
+      ]
+    },
+    {
+      "title": "رسمياً: إطلاق ساعة هونر Watch 6 Pro في أوروبا مع هدايا قيمة",
+      "orig_link": "https://www.gsmarena.com/the_honor_watch_6_pro_launches_in_europe_with_an_early_bird_price_free_strap_and_clipon_buds-news-75521.php",
+      "post_url": "https://www.egyptaway.com/2026/11/honor-watch-6-pro-europe-launch.html",
+      "brand": "Honor",
+      "has_real_img": true,
+      "at": "2026-11-19T11:11:07.587541+02:00",
+      "ok": true
     }
   ]
 }
