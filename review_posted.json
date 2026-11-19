@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Pixel 11’s better Pixel Search is expanding to every Pixel launched since 2021",
-   "url": "https://www.androidauthority.com/pixel-11-search-natural-language-pixel-6-3733219/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Phone 'pixel 11' already covered in: مراجعة Pixel 11 2026: مواصفات وسعر بيكسل 11"
-  },
-  {
    "title": "Google’s November Pixel Drop brings over 12 new features, and Pixel 10 owners are the big winners",
    "url": "https://www.androidauthority.com/google-pixel-drop-november-2026-all-new-features-3733178/",
    "at": "2026-11-11",
@@ -3224,6 +3217,16 @@
    "ok": true,
    "kind": "news",
    "brand": "اوبو"
+  },
+  {
+   "title": "هاتف Infobar Zero الجديد: عودة الأناقة اليابانية لعصر الـ 4G",
+   "cand_title": "Japanese brand announces new 4G feature phone - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbm1Kbm5KY2FkcU5IQm5sUmp4RlViZi1vbDhjNVItdUFHWjkwTGtxSk1ad2JVU1hTX2Naa0ZRVUJXRmpPY3RlV3JkeFQ4bnktM3pwOHAzSlZ5OGNGdF9wMm01MXhNZTZ4TWNwR2pEaklPRF9iZmJVYTNvb0hKaHBzZXU4aTNNTTJjTTA2RlVObHJSQjhq?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/kddi-infobar-zero-4g-feature-phone.html",
+   "at": "2026-11-19T02:22:48+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "انفينكس"
   }
  ]
 }
