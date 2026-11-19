@@ -2117,6 +2117,18 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/haram-street-metro-project.html",
    "title": "موعد فتح شارع الهرم وعودة حركة المرور"
+  },
+  {
+   "q": "بق الفراش",
+   "at": "2026-11-19",
+   "ok": false,
+   "why": "off-topic"
+  },
+  {
+   "q": "غراند ثفت أوتو",
+   "at": "2026-11-19",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
