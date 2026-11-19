@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiuANBVV95cUxORGpoVTJETmxvYlV2a3VUSkhpRjdEVHQ2WXloeE9LQVJ1MnM4RklZNFZEODlMUjRyQndzTHN2MVYyQ1BBUDVNQ2w4d2lsR3BJUnZvejZzS0N6TlhvTmthUnR4WmdMWHMwd3FBc05MSjVsV0NZeTN1bFZKMzg5b0x6NlpNbWRXMVNkbFcxQUV2MHZQWk15WjdCUnBZTXZVcmpJZ3oxYTBkZWFEcVF6clY2Zjk4eEQwUmMtMkJsRi1vNmJmZVNSc3hfWUZ2ZC1ydk5KSWRPaG5pNUo0TlVhQ2p3eGhMVlg2clBHSl9hcHc4dFpxNEhTWEFCbHB4OGhSVFk1djlwLU5hY0djSVplWGI4Z0R5MGY2aDdnMDVoVFJqejRobl92aDJUbVRRTkxtWWNHMmNVYjF0anMxWHdabWFPVGw5QWVSTnJiQnJnMTJZT2ItXzdlX1ZvQWotbkpyTXZyUE03b2lRcHpUR0RuX1BoVFNHaFQ4MUxYVDl1WEx2emdsZDIzNEw5aGZETktacTRMUGh2NmhIaEFZalJGRnJvTUpNeWJxN1QyOHdDZjBwb3ROVURZOEJaTNIBswNBVV95cUxNblluenI4d1EyMFB3WHc5NkZXQXJiU0M5TjBiVDNXSGwyYUhCTjJiR0ZOWGhpMzdIUDhxSnR6QnZLQ2NQeTdYSU52RmxXanN5c192dHdoM2ZvMkpvQi02Z0JrUGh0TDk2MnFKY19fQ0xDQ1hxTDF3SkRNalhHRmFVRjEtRnRBV0tMQWhocXVGbzRWM3FydVNRWTJVYmNpY0RCWXNJREo0cHotWV9vZWRXcHJ1ZnBybkxyOVJ1aTNkdkhhRnFvaVpaaHdocENad0s1dVlRT05tNXhYUmZIMjJZMFpXMGJDOGVtY1hiS3NOaVhCZ0NqUWRHakVvQ0pzT3JpbGtSb3pvbkRsNGVhTU1CendMNGc5dDYtbk1lS0wxbWRiTXpYZUR6enNsTElJaFBMdWFiczRHdm0wZ0NJT040bldCelNab2Z2V0lTWENJWWZnQzJzbDJ1NjRvZkdxRUVuTl9zZmlibDlaMHB6Z0tXVHUwZGcxdGlpUTFlOEo4bUdLd2tHOGl6OW5WelExRzA1RFBxSVBpSzRtbWNQNTVJekc2NHNiQ19NaThaTGdMQ2g2RHc?oc=5",
-   "t": "الأرصاد تحذر من انخفاض درجات الحرارة إلى 14 درجة ليلا الأسبوع المقبل - اليوم السابع",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 3"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7169425",
    "t": "الداخلية تحصد المراكز الأولى بفعاليات دورة الألعاب العالمية للشرطة بمدينة \"سانتو دومينجو\"",
    "title": "الداخلية المصرية تتألق في دورة الألعاب العالمية للشرطة",
@@ -3385,6 +3376,16 @@
     "الأرقام دي مش موجودة في المصدر، احذفها: 60",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'مصر', 'حقيقه'}) مع تشابه نصي مع: حقيقة فرض ضريبة 1% على إعادة بيع الذهب في مصر)"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/19/كيفية-التقاط-صور-الشاشة-في-ويندوز-11-وكيف-تختار-الطريقة/7623625",
+   "t": "كيفية التقاط صور الشاشة في ويندوز 11.. وكيف تختار الطريقة المناسبة لكل استخدام",
+   "title": "كيفية التقاط صور الشاشة في ويندوز 11.. اختر الطريقة الأنسب لك",
+   "url": "https://www.egyptaway.com/2026/11/windows-11-screenshot-methods-guide.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202608020246594659_181.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-19T03:05:01.954926+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
