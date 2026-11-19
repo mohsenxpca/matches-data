@@ -1,43 +1,6 @@
 {
  "done": [
   {
-   "title": "Google’s November Pixel Drop brings over 12 new features, and Pixel 10 owners are the big winners",
-   "url": "https://www.androidauthority.com/google-pixel-drop-november-2026-all-new-features-3733178/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (631 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Google rolls out Create My Widget to Pixel 10 and 11 series, but the Pixel 10a misses out",
-   "url": "https://www.androidauthority.com/google-create-my-widget-pixel-feature-drop-3733311/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (692 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Google’s beefing up Calculator with Pixel Solver and Unit Conversion tools",
-   "url": "https://www.androidauthority.com/pixel-solver-unit-conversion-3733559/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (547 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "بعد منتصف عام من الانتظار.. إطلاق قطب التتبع من جوجل رسمياً",
-   "cand_title": "After months of waiting, you can finally buy a Pixel Tag",
-   "url": "https://www.androidauthority.com/google-pixel-tag-released-3733213/",
-   "post_url": "https://www.review-mobile.com/2026/11/google-pixel-tag-finally-on-sale.html",
-   "at": "2026-11-11T02:27:07+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "بيكسل"
-  },
-  {
    "title": "جوجل تطلق 10 أنماط أيقونات جديدة لهواتف Pixel.. هل هاتفك مدعوم؟",
    "cand_title": "Pixel phones are getting 10 new custom icon styles",
    "url": "https://www.androidauthority.com/pixel-custom-icon-expansion-3733125/",
@@ -3227,6 +3190,40 @@
    "ok": true,
    "kind": "news",
    "brand": "انفينكس"
+  },
+  {
+   "title": "تطبيق Wi-Fi Nepal الجديد: تحكم كامل في شبكتك من هاتفك الذكي",
+   "cand_title": "Wi-Fi Nepal Launches Mobile App to Manage Internet Services on Smartphone - NepaliTelecom",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNakFiRFBCcldXQ3Rmd0dqOHdIbHlfQm9LNHZ4ZV91WFAwXzVEM3ozYXZrZ1Q2R0JfbnkzUjdSdDF3VUszdklHZHFucW9aeVVfa1diTHJiTEpwOFZhVnZwMENoN2dQd0REWTNPekpkR1FhUDV4eFNPQVZ0YlpsSXBhUmJ3c3puY2lpRFptMUxLaUlEV1FYS25aWDNZclNhUXNsbElwMVJVdw?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/wifi-nepal-app-internet-management.html",
+   "at": "2026-11-19T02:27:53+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "Motorola Edge 70 Neo Set for Debut: Features, Specs, and Expected Price - Nokiamob",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOXzUxcFNCUTlsSU5UUnMtUGJQUllqZDdZTVBGOWNzREltTTBucjlNTkZqVkJQRDl4dC11d3puWFJLVkQzcEdyWS1lRmtocmZ1YVpkSkI3bzE2QXpCYklkZkFLdXBPUVBjajFPQURrMDJMblA3bnNOUld4WUo3Y3RBdnFnLXhXcUQtNHJTdTRnNUZtTm9DUkxLNW0wMXBRUzNrUm81emFkeFlFUEpITE4yRDVkdw?oc=5",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
+  },
+  {
+   "title": "Motorola Edge 70 Neo launches soon with a 6.8-inch screen and a 7,000mAh battery - Techish Kenya",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sZkgwY3JkTjNKU2ltVy1TbTZXRmoxTmpacXBSTEZzMC1mTEZ2UmNBNy02cVpmajY0b3BfeEZqc3JjUnliRlN3aUZfc1RJUDc5ZWp1WnhVc2RfV3h3clM0ejlIcTlocjkwQlAyZDgtRXBQaWFpb2ZnNEItZw?oc=5",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
+  },
+  {
+   "title": "موعد إطلاق iPhone 18 و iPhone Air 2: تسريبات تكشف خطة أبل الجديدة",
+   "cand_title": "iPhone 18, iPhone Air 2 get new release timing updates - 9to5Mac",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQlprZTRxYVdkUlNsM092UHBLZzZ6bmpWRjNhS1hPTTdKLU5oMkxmVlcyUlpWbDlhSm1wYXNfUFFPSXlDaVhoTXN1RGhoRnhtZUREaG1UNjhBOVNzVm84YUlVUVg0ekZHZWRLQXRNZ0tZVGdpUFN4Y1Ata0RXVU5oOGhtQVNTbzVvMGZZM253?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/iphone-18-air-2-release-date.html",
+   "at": "2026-11-19T02:29:18+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
