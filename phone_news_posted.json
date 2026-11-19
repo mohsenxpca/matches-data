@@ -906,6 +906,33 @@
       "err": [
         "الـ slug غير صالح (one-ui-9-5-open-gate-galaxy-s27): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
       ]
+    },
+    {
+      "title": "رسمياً تحديث أمني جديد لهاتف سامسونج جالاكسي A73",
+      "orig_link": "https://www.sammobile.com/news/new-galaxy-a73-update-brings-november-2026-security-patch/",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-galaxy-a73-november-2026.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-19T12:41:08.394748+02:00",
+      "ok": true
+    },
+    {
+      "title": "Xiaomi 18 Pro (Global) review",
+      "orig_link": "https://www.gsmarena.com/xiaomi_18_pro-review-3015.php",
+      "at": "2026-11-19T12:41:08.394748+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (411 كلمة، والمطلوب 420+ كلمة)"
+      ]
+    },
+    {
+      "title": "تسريب: هاتف ون بلس القادم بشاشة خرافية 240Hz ودقة 2K",
+      "orig_link": "https://www.gizmochina.com/2026/11/19/oneplus-17-240hz-boe-display-leak/",
+      "post_url": "https://www.egyptaway.com/2026/11/oneplus-flagship-240hz-2k-leak.html",
+      "brand": "OnePlus",
+      "has_real_img": true,
+      "at": "2026-11-19T12:41:08.394748+02:00",
+      "ok": true
     }
   ]
 }
