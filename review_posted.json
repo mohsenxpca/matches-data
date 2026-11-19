@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro in for review - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WWE84YXlydVFiRWotZlZGZ1kxdXdIeWVsSndBa1ZkRGxhUllMdTlFem43UHNDT1BpYjkwcExiNVB3aE9IRGx4dVVzOGJvOXFQODlWTDg4azZTWGZyYzgzRk1INlpwOU1yR05QTTkweUtGSDZsQ1HSAXJBVV95cUxORHVQQTFodnZLSFBpRXBSbktjX2FZbVVGNkdkcjF3RHg3RlhPRVJTd3VJV2hScTk4SlAtQ25pa0VFTVpUOUFhQ29Wd182WlY2cWcxbUlmVVhDOVFHdFlhSzA4NWU3WkU1Z2ZZYkRRZWVDekE?oc=5",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
-   "title": "Samsung officially details Gallery sync with Google storage - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORWJpV0NYa040MlZDdHdtQzB5VkpUTmF5WUtkMUctLVczM0JEdzZYM2x3Ulg1ZUZENGZRdGdXNHgzWDl2N0ZoUHFKTm0wekNscHpIcnNFNjdkeEt4cFFfbC1nbzY2dHkwTllpeFNUYWJpaU9pcnNrcll1TjZtTldWSGwwbTcwTEtSQ003b0t2aF8wbFhMT0ZwdlBrNXl0akdI0gGcAUFVX3lxTE5ScGVVbFFzZlJVWmRod0ViUXpqQkRuNXpxZU9iY3RkMVo4Ny1mTFlDMGRkc0ZwN1E5WnNIVGx3Wk04dDJ4SUxIOW1ENFlCUzB0VElGd2wzRlQ2eGNZZ0RnZTU1eWFseDUtVmVGQUhLOWlxTDZNdGZyRHAzeGFCZlRzTlM2RXJyN3Bhd3R6X1dSWDlTbFFOeEhGai1zRQ?oc=5",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['storage', 'gallery', 'officially', 'sync']"
-  },
-  {
    "title": "Xiaomi 18 Pro India launch month leaks along with Xiaomi 18T specs - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRE9wem1fZW93Sk9BT2lEZng1QmhkdFphRjk2QWVWRnlPWW1SczdBRldnaUlDdzdHNmwxQkctNndJVlFjLTNBNERSNExIWnBfZnVKUjlpNlhpeWxDZzJYTzhYWXItNnlVenBLUGtFYmpxLTN6UzVReFhsYnJxSmdaNkNxcElqNzd5c2NPYUM5S0FhSElvYmlia0FHVGFZT014YnJEVlhTUXRmUdIBpgFBVV95cUxPNUdTV2VsWHRDSU9XMGRGd2FqMWNuc3ZpQk53YnNHNERpVmZQMmNZUXdldTlDMjFNanlvNHMyYU5YblRfZjk1R0Z5ZGJldzVGNXdOUU5mN2RpZklianlIRXg5UUUyUlNNQ2gtQmloOWNmeFRITjFlNkZTTGJ1ZUhqZVZQc1ZRQm5GRkVsT3BqclFFYk91Rmw5a1lETi15Um5DbjZHTXVR?oc=5",
    "at": "2026-11-11",
@@ -3230,6 +3216,24 @@
    "ok": true,
    "kind": "news",
    "brand": "موتورولا"
+  },
+  {
+   "title": "Huawei OSTA O1 Pro Roundup: Everything you need to know",
+   "url": "https://www.gizmochina.com/2026/11/19/huawei-osta-o1-pro-everything-you-need-to-know/",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
+  },
+  {
+   "title": "هاتف OpenAI القادم: فوكسكون تتولى التصنيع وموعد الإطلاق يكشف المستور",
+   "cand_title": "OpenAI phone assembly order goes to Foxconn’s FIH Mobile, 2027-2028 launch tipped",
+   "url": "https://www.gizmochina.com/2026/11/19/openai-phone-fih-mobile-foxconn-assembly-order/",
+   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2025/02/image-13.png",
+   "post_url": "https://www.review-mobile.com/2026/11/openai-phone-foxconn-assembly-details.html",
+   "at": "2026-11-20T01:12:57+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
