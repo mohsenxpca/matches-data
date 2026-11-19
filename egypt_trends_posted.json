@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7169345",
-   "t": "ضبط 6 أطنان سولار قبل بيعها بالسوق السوداء في حملة تموينية بسوهاج",
-   "title": "ضبط 6 أطنان سولار قبل بيعها بالسوق السوداء في سوهاج",
-   "url": "https://www.egyptaway.com/2026/11/seizure-6-tons-diesel-sohag-black-market.html",
-   "at": "2026-11-05T16:26:07.998424+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiuANBVV95cUxORGpoVTJETmxvYlV2a3VUSkhpRjdEVHQ2WXloeE9LQVJ1MnM4RklZNFZEODlMUjRyQndzTHN2MVYyQ1BBUDVNQ2w4d2lsR3BJUnZvejZzS0N6TlhvTmthUnR4WmdMWHMwd3FBc05MSjVsV0NZeTN1bFZKMzg5b0x6NlpNbWRXMVNkbFcxQUV2MHZQWk15WjdCUnBZTXZVcmpJZ3oxYTBkZWFEcVF6clY2Zjk4eEQwUmMtMkJsRi1vNmJmZVNSc3hfWUZ2ZC1ydk5KSWRPaG5pNUo0TlVhQ2p3eGhMVlg2clBHSl9hcHc4dFpxNEhTWEFCbHB4OGhSVFk1djlwLU5hY0djSVplWGI4Z0R5MGY2aDdnMDVoVFJqejRobl92aDJUbVRRTkxtWWNHMmNVYjF0anMxWHdabWFPVGw5QWVSTnJiQnJnMTJZT2ItXzdlX1ZvQWotbkpyTXZyUE03b2lRcHpUR0RuX1BoVFNHaFQ4MUxYVDl1WEx2emdsZDIzNEw5aGZETktacTRMUGh2NmhIaEFZalJGRnJvTUpNeWJxN1QyOHdDZjBwb3ROVURZOEJaTNIBswNBVV95cUxNblluenI4d1EyMFB3WHc5NkZXQXJiU0M5TjBiVDNXSGwyYUhCTjJiR0ZOWGhpMzdIUDhxSnR6QnZLQ2NQeTdYSU52RmxXanN5c192dHdoM2ZvMkpvQi02Z0JrUGh0TDk2MnFKY19fQ0xDQ1hxTDF3SkRNalhHRmFVRjEtRnRBV0tMQWhocXVGbzRWM3FydVNRWTJVYmNpY0RCWXNJREo0cHotWV9vZWRXcHJ1ZnBybkxyOVJ1aTNkdkhhRnFvaVpaaHdocENad0s1dVlRT05tNXhYUmZIMjJZMFpXMGJDOGVtY1hiS3NOaVhCZ0NqUWRHakVvQ0pzT3JpbGtSb3pvbkRsNGVhTU1CendMNGc5dDYtbk1lS0wxbWRiTXpYZUR6enNsTElJaFBMdWFiczRHdm0wZ0NJT040bldCelNab2Z2V0lTWENJWWZnQzJzbDJ1NjRvZkdxRUVuTl9zZmlibDlaMHB6Z0tXVHUwZGcxdGlpUTFlOEo4bUdLd2tHOGl6OW5WelExRzA1RFBxSVBpSzRtbWNQNTVJekc2NHNiQ19NaThaTGdMQ2g2RHc?oc=5",
    "t": "الأرصاد تحذر من انخفاض درجات الحرارة إلى 14 درجة ليلا الأسبوع المقبل - اليوم السابع",
    "at": "2026-11-05",
@@ -3383,6 +3374,16 @@
    "ok": false,
    "reason": [
     "اكتب الأرقام بالأرقام مش بالحروف (مائة)"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi-ANBVV95cUxNMFp5RTdVcXFUQTlhdTZSWkdpR3c3dHJTemMyb3Q1dWZZUGh3Z19xLWJTNmdoelFHdFphVmZfRmI2MUJJdWE5bHhSUWFIYWpwU2JCMHJwV0NjVzJDdHpoXzl3YWdrU1NNR1VTMWN1UlRHTXVIaHcxSTNDMWE4RkV4ME9lUktpUUJqX3c4UEtjWXRfSVUxZkV5MHp4d1dTdzV5X3lJSFlmTE90V043SzktRlk4bnJ1aFFmSklIT3BNLWdibFNFbWU1QlI2YVY4dmZMX2llNWtqMzRzQ0t6Z09vUW9EVVM2QmduZ2dmbC1yOXl3YjJ4YkFPU2xUYUhUX0Y3UzlleWM5QUlfd1pjZTNUX3lzblV1T2NwUWRpMG1Zc3VCNUNIcDBONWRSQnFrT01zQ2FLbVVyMUt4aFdrbnFodldqNFhMenFYaUFIVVVVNXMwSFFwZ2cwa1RlZTRzY29nWlBwUURuX19OSFU5UFRZOTZWYTBqT3VWUUNTdzNiYThQaExIdXJBd2xZRVZoUlhTY3VjQ242YU5BSXI2WVkyQjlFTzRRLUFjV0JWb1ZtZFNKM0Ewa0xvWC1icGlDM25kVFVUdXhZemxWM1ZGT2VQYmpuS3RGbnB2T1hlMWxsd0JxMnVxbGt0OFlwUXhRLTJua3ZsRWRUNUY?oc=5",
+   "t": "لماذا لم يتحرك ليفربول لحسم مستقبل ماك أليستر منذ الصيف؟ - winwin",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": [
+    "الأرقام دي مش موجودة في المصدر، احذفها: 60",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'مصر', 'حقيقه'}) مع تشابه نصي مع: حقيقة فرض ضريبة 1% على إعادة بيع الذهب في مصر)"
    ]
   }
  ]
