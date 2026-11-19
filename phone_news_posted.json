@@ -780,6 +780,24 @@
       "has_real_img": true,
       "at": "2026-11-18T22:06:06.786726+02:00",
       "ok": true
+    },
+    {
+      "title": "Samsung just broke an 8-year habit with the One UI 9.5 beta",
+      "orig_link": "https://www.sammobile.com/news/samsung-broke-8-year-habit-one-ui-9-5-beta/",
+      "at": "2026-11-19T05:01:04.302131+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (397 كلمة، والمطلوب 420+ كلمة)"
+      ]
+    },
+    {
+      "title": "تسريب: هونر تستعد لإطلاق Magic V7 بتصميم عريض ومواصفات جبارة",
+      "orig_link": "https://www.gsmarena.com/honor_magic_v7_will_reportedly_be_a_wide_foldable-news-75534.php",
+      "post_url": "https://www.egyptaway.com/2026/11/honor-magic-v7-wide-foldable-leak.html",
+      "brand": "Honor",
+      "has_real_img": true,
+      "at": "2026-11-19T05:01:04.302131+02:00",
+      "ok": true
     }
   ]
 }
