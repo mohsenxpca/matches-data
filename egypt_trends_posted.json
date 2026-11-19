@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9NbElDaExMMmJNdVRlc3RZQk93Si1VSGtMd0x6cmRacW16Wkk3RVB5M3pqREN6Tk5JYXB1eU1DeGltemlP?oc=5",
-   "t": "التوقيت الشتوي يبدأ رسميًا يوم جمعة.. تأخير الساعة 60 دقيقة - مصريون في الكويت",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'2026', 'مصر'}) مع تشابه نصي مع: طريقة شحن ليج أوف ليجندز بالـ ID في مصر 2026: خطوات الشحن فودافون كاش)"
-   ]
-  },
-  {
    "u": "https://www.almasryalyoum.com/news/details/4402164",
    "t": "قطاع المعاهد الأزهرية يعلن مواعيد امتحانات الفصل الدراسي الأول 2026-2027.. وموعد إجازة نصف العام",
    "at": "2026-11-05",
@@ -3387,6 +3378,16 @@
    "at": "2026-11-19T06:23:42.082291+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.yallakora.com/egyptian-league/3031/news/573880/%D8%B1%D8%B3%D9%85%D9%8A-%D8%A7-%D9%81%D9%8A%D9%81%D8%A7-%D9%8A%D8%B9%D9%84%D9%86-%D8%A5%D9%8A%D9%82%D8%A7%D9%81-%D9%82%D9%8A%D8%AF-%D8%BA%D8%B2%D9%84-%D8%A7%D9%84%D9%85%D8%AD%D9%84%D8%A9",
+   "t": "رسميًا.. فيفا يعلن إيقاف قيد غزل المحلة",
+   "title": "رسمياً.. فيفا يوقف قيد نادي غزل المحلة بسبب المستحقات",
+   "url": "https://www.egyptaway.com/2026/11/ghazl-el-mahalla-fifa-ban.html",
+   "photo": "https://wsrv.nl/?url=https%3A%2F%2Fplay-lh.googleusercontent.com%2Fqy0IURlLtnWrZgQcCfZv8WMu5wXHAahTudky55ePmmPWWn7xDVgvgjaNuGZF8xREWcXiqTLZJcFxhlyy3Zkg%3Dw1200&w=1200&h=675&fit=cover&output=webp&q=85",
+   "at": "2026-11-19T06:43:15.963031+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
