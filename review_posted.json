@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "نتائج أبل تتجاوز التوقعات بفضل قوة مبيعات آيفون 18",
-   "url": "https://www.masrawy.com/news/tech-reports/details/2026/11/3/3072798/%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A3%D8%A8%D9%84-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D8%A8%D9%81%D8%B6%D9%84-%D9%82%D9%88%D8%A9-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%A2%D9%8A%D9%81%D9%88%D9%86-18",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Phone 'آيفون 18' already covered in: آبل تستعد لإطلاق آيفون 18 بترقيات ضخمة وزيادة جديدة بالأسعار"
-  },
-  {
-   "title": "iPhone Air 2 and iPhone 18 dummy models leak - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUzZfOTMtQ1J5TVpSelNsN2VaVlRBLUpuaVEzd3VOVDNPT3ZscWZvZE1zR2ZXSnlCTEk2dTgtb3dnWHEwN3VhUUM4YzQ3QXlCX0dLMXd3TGF6eXo0NUpVMU94ekFncnh4TmEwemQweUIzbm9tX29hbzk5UUozUXNlbFRESTVONnpWcV83YtIBiAFBVV95cUxNT1F5TkdtSjd0bUczZDY2SnYtNXBueE5Rb0M4di03YUR5R0F1VXpkd05yOVlZWmkyM0hUMk9YbnB6SVUzMWNxczNMc1ZBQTFDazhPM3dJMzk2eFpHdFhXaWdVa0NUQ3lSUzZ3YlpjVG5PSUkwZUpTWGxob1FJSlJHOWJIWTNfTlFw?oc=5",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['models', 'iphone', 'dummy']"
-  },
-  {
-   "title": "More Oppo Find N7 specs emerge - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sVDN2UjV3M0ZQT2dWXzRoalZFbFVaYVBWQlp4b3g4QUUxeUpmclZjMVlrMGYyZmlORWp5NEhCT3JtVXFia0RQWktDRGtSNDl4N2pINmZGc1BhcDRMeUZmbTlCamtZTVZEWmhoc2lHZmVOdDU0SVhFSWdR0gF2QVVfeXFMTm9rUUpUVlRVYzN6dTBsUnR5OWlMaDZXWHJ0NEZ6NEtlaF85WGUyNjViUkdLZDE3WWwyLTY2a1NzZVRKSVZIM2FhUjZuUDZJVXRybm9QcjlPdTJWd0FDeHVYZEFkaFJNWHlQZ25nSWZvZERzUDFOUQ?oc=5",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Phone 'n7' already covered in: رسمياً: هاتف Oppo Find N7 القابل للطي في طريقه للأسواق الأوروبية"
-  },
-  {
    "title": "OnePlus 17 could debut with a wide-screen display, rumor claims - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUEpOOEh2aFJiV1lEbXRoNGpSSExrMFVMb25HbTdidzlRZ0VsVTM5U0IyMkNZTmJwNU1tLWw0ZGtUcTR6ck5iaHR4ZVdKbEJVZ3loWnprVzFlVVYwcThYWXFTa3g5eG85aGw1aTBOcndKMHhxMnp0OVRhbEpCUDdnOGVRQkljNFFnUGFJdGtDZGZ2aG1LVXBuWHc4ZTZ5ZVdFMktn0gGfAUFVX3lxTE1TdGFwWDJzRnZwdFJEXzJDeGRFUC1lVTdHcUpJczZtMDlNelc5dUtsY2tfcWJaQ2FtVVlKZDRHZ2xRR1ZOZGdLUmtXSzlfRW1mTWFYQ1RkalNzdGhXVjlCSnRTMTgyRWE5OXR2N0toemlFLUIwMzZSX2JJY3E4Rm8wbzYtS3V6SkNjVUppRW9hN3V1dmlSQkNrNVFEeENxOA?oc=5",
    "at": "2026-11-11",
@@ -3222,6 +3201,31 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Huawei Osta O1 Pro vs Xiaomi 18 Pro Max",
+   "url": "https://www.gsmarena.com/huawei_osta_o1_pro-15088.php||https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
+  },
+  {
+   "title": "Xiaomi 18 Pro vs Sharp Aquos sense11",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php||https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['sense11', 'sharp', 'aquos']"
+  },
+  {
+   "title": "شاومي تطلق Walkie Talkie 2S بلون جديد: هل تغنيك عن هاتفك؟",
+   "cand_title": "Xiaomi Walkie Talkie 2S gets a new orange colorway",
+   "url": "https://www.gizmochina.com/2026/11/19/xiaomi-walkie-talkie-2s-orange-color-launched-specs-price/",
+   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/11/xiaomi-walkie-talkie-2s-gets-a-new-orange-colorway-2.png",
+   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-walkie-talkie-2s-orange-edition.html",
+   "at": "2026-11-20T00:13:00+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "شاومي"
   }
  ]
 }
