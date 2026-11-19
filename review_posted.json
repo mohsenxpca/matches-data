@@ -1,41 +1,6 @@
 {
  "done": [
   {
-   "title": "جوجل تطلق 10 أنماط أيقونات جديدة لهواتف Pixel.. هل هاتفك مدعوم؟",
-   "cand_title": "Pixel phones are getting 10 new custom icon styles",
-   "url": "https://www.androidauthority.com/pixel-custom-icon-expansion-3733125/",
-   "post_url": "https://www.review-mobile.com/2026/11/google-pixel-new-icon-styles-update.html",
-   "at": "2026-11-11T02:52:01+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "بيكسل"
-  },
-  {
-   "title": "iPhone 18 and iPhone Air 2 dummy models show rear camera layouts in new leak",
-   "url": "https://www.gizmochina.com/2026/11/11/iphone-18-and-iphone-air-2-dummy-models-show-rear-camera-layouts-in-new-leak/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['models', 'iphone', 'dummy']"
-  },
-  {
-   "title": "Poco X8s is now available in Europe, here's how much it costs",
-   "url": "https://www.gsmarena.com/poco_x8s_is_now_available_in_europe_heres_how_much_it_costs-news-75427.php",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (602 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Pixel’s Transit Mode is now automatic, and your daily commutes just got easier",
-   "url": "https://www.androidauthority.com/november-pixel-drop-transit-mode-2-0-3733242/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (506 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "نتائج أبل تتجاوز التوقعات بفضل قوة مبيعات آيفون 18",
    "url": "https://www.masrawy.com/news/tech-reports/details/2026/11/3/3072798/%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A3%D8%A8%D9%84-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D8%A8%D9%81%D8%B6%D9%84-%D9%82%D9%88%D8%A9-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%A2%D9%8A%D9%81%D9%88%D9%86-18",
    "at": "2026-11-11",
@@ -3221,6 +3186,39 @@
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQlprZTRxYVdkUlNsM092UHBLZzZ6bmpWRjNhS1hPTTdKLU5oMkxmVlcyUlpWbDlhSm1wYXNfUFFPSXlDaVhoTXN1RGhoRnhtZUREaG1UNjhBOVNzVm84YUlVUVg0ekZHZWRLQXRNZ0tZVGdpUFN4Y1Ata0RXVU5oOGhtQVNTbzVvMGZZM253?oc=5",
    "post_url": "https://www.review-mobile.com/2026/11/iphone-18-air-2-release-date.html",
    "at": "2026-11-19T02:29:18+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
+  },
+  {
+   "title": "iPhone 20 Pro may bring back titanium",
+   "url": "https://www.gsmarena.com/iphone_20_pro_may_bring_back_titanium-news-75535.php",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Phone 'iphone 20 pro' already covered in: تسريب iPhone 20 Pro: هل نودع الحواف التقليدية في ذكرى أبل العشرين؟"
+  },
+  {
+   "title": "Motorola starts teasing the Edge 70 Neo, hints at when it will be announced - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQmU3VFFLMzdwenRmeWgzS25BNW8zeWswd0U3MTVQV1hXOWtyTmlQZG84NExMOUU3M0x6LXVmcjhiYTEzN3JLcFc5T3RWYVVJbjZQc25xcy1rT1NNQ0JTVHlFbGEtWm54SEttS0ZwbGp4dUtRREowMldGZmFkVFpjMHpUdHlYbmRfNkRoaGNHaWpQT0kwbU1hY3RERkxlWDNFYk82OGk3WUI4R3ZUejYtQ0thQlXSAbABQVVfeXFMUGliUDhLNzBKNmtxalRPNWVVa1lVMEd5YUZxRnkxaDFYZ1hWTWJrT19rNDRmMFpxb2VIa3diaTd5ZFp0eU1rcGdLRU1BV2RWVmNxLWVMZkVaVTNZclpBUTd4UlFiUmZDSTlKLXpQcU9RbXN2R2Foc045bEVpR0dwTGFlUHVMQ05ySkVPRmYtYTZQZE91VDFqVUg3YVhVeExOS2VnUHFkN0tEakttUnljcTE?oc=5",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['when', 'starts', 'hints', 'edge']"
+  },
+  {
+   "title": "Google preps Android Fast Switch feature — iPhone Handoff rival could let you share one number across two phones - TechRadar",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZF9rZ2hFS0JjRHFwS2c1V3czSkNITkQxNWJrampBbFZOdVpxdWRBMHlrZm1ZTWJnWmFsQ0lDTTVZZTByekYtekdoUXFkdnF3MkMwbnZVMldROEQ4eXFyV0Z6WGJBZUlFOVlJTVg1QUVfRnpMSzhTcWNTOF9kWE1GekRWbC1SUGtCakZocEJLWEc2LWMtZG54Qm9fazdfY3AwYkpoQ09MNGZ4VURieGl3bFU2bEFNdEJnZXR4MmhQNnN4bjI5aWREcEpHSW1OSjRRbksydDJuSmFjRmFTdHE0VzVwRzFYdw?oc=5",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (617 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "تشفير كمي لهاتفك: تفاصيل تطبيق QEncrypt لأندرويد وآيفون",
+   "cand_title": "QEncrypt Adds File Encryption to Its iPhone and Android Apps - The Quantum Insider",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnpvZXIyVFJSVDZKajVqRllZeGtTVDhQSTZoVUZPdllQMDJsLXd5WERwS3lUYkt1UWszVjhNb2U1eEJ3NFVGR051dG9XQnZrWmNZOE9DVUF5OHd1Z1JUS3ltXzhQT2o4aVBxR3VHalRSN2ZXN3JBOE1US25kUkRDQ0wyMWNTd1RKalMzbWkyUQ?oc=5",
+   "post_url": "https://www.review-mobile.com/2026/11/qencrypt-quantum-safe-encryption-iphone.html",
+   "at": "2026-11-19T02:58:52+02:00",
    "ok": true,
    "kind": "news",
    "brand": "أبل"
