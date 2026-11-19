@@ -1163,6 +1163,46 @@
    "t": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
    "at": "2026-11-18",
    "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+   "t": "Trump’s latest land grab is an AI hub in the Philippines",
+   "at": "2026-11-19",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+   "t": "Google’s AI feature in Search gets its own incognito mode",
+   "at": "2026-11-19",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/google-ai-mode-temporary-threads.html",
+   "title": "جوجل تطلق ميزة المحادثات المؤقتة في AI Mode"
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+   "t": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+   "at": "2026-11-19",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+   "t": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+   "at": "2026-11-19",
+   "ok": false
+  },
+  {
+   "u": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+   "t": "Sam Altman warns against a future where AI, not humans, calls the shots",
+   "at": "2026-11-19",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/chatgpt-go-ads-vs-gemini-ai-plus/",
+   "t": "I pay for ChatGPT, but this change has convinced me to revive my Gemini subscription",
+   "at": "2026-11-19",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/chatgpt-ads-vs-gemini-subscription.html",
+   "title": "إعلانات ChatGPT بتضايق المستخدمين: هل ده وقت تغيير اشتراكك؟"
   }
  ]
 }
