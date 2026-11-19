@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/5/تسلا-تطور-بطارية-Powerwall-3-لتشغيل-المضخات-الحرارية-وتخزين-الطاقة/7607027",
-   "t": "تسلا تطور بطارية Powerwall 3 لتشغيل المضخات الحرارية وتخزين الطاقة الشمسية",
-   "title": "تسلا تطور بطارية Powerwall 3 لتخزين الطاقة الشمسية",
-   "url": "https://www.egyptaway.com/2026/11/tesla-powerwall-3-heat-pump-optimization.html",
-   "at": "2026-11-05T20:19:42.817991+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
-   "u": "https://www.bournemouthecho.co.uk/sport/26702319.cherries-fans-prague-europa-league-clash/",
-   "t": "'The things dreams are made of' - Cherries fans in Prague for Europa League clash",
-   "title": "رحلة بورنموث الأوروبية: ذكريات لا تُنسى في قلب مدينة براغ",
-   "url": "https://www.egyptaway.com/2026/11/sparta-praha-vs-bournemouth-prague-trip.html",
-   "at": "2026-11-05T20:42:23.085185+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://sempremilan.com/official-starting-xis-ac-milan-ferencvaros-2026-27",
    "t": "Official: Starting XIs for AC Milan vs. Ferencvaros – six changes from Inter win",
    "at": "2026-11-05",
@@ -3391,6 +3373,27 @@
     "الـ body 461 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'2026', 'اسعار', 'نوفمبر'}) مع: أسعار الوقود اليوم 19 نوفمبر 2026: استقرار تام في المحطات)"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7186449",
+   "t": "دونجا: مهند لاشين الخيار الأول لـ علي ماهر.. ومباراة الزمالك أمام الجونة صعبة",
+   "at": "2026-11-19",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 412 كلمة بس، لازم 530 على الأقل",
+    "العنوان لازم أقل من 70 حرف"
+   ]
+  },
+  {
+   "u": "https://www.elconsolto.com/news/health-news/details/2026/11/17/3080200/%D8%B9%D8%A7%D8%AC%D9%84-%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%AA%D8%AD%D8%B3%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%84-%D8%A8%D8%B4%D8%A3%D9%86-%D8%BA%D9%84%D9%82-%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D8%B1%D8%B3-%D8%A8%D8%B9%D8%AF-%D8%A8%D9%84%D8%A7%D8%BA%D8%A7%D8%AA-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D8%A7%D9%84%D8%AD%D8%B4%D8%B1%D8%A7%D8%AA",
+   "t": "عاجل|وزارة الصحة تحسم الجدل بشأن غلق المدارس بعد بلاغات انتشار الحشرات",
+   "title": "حقيقة انتشار بق الفراش بالمدارس.. تحرك عاجل من الصحة",
+   "url": "https://www.egyptaway.com/2026/11/bedbugs-schools-health-ministry.html",
+   "photo": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+   "at": "2026-11-19T10:42:40.594223+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
