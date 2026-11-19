@@ -2098,6 +2098,25 @@
    "at": "2026-11-19",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "19 نوفمبر",
+   "at": "2026-11-19",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "علم الأرصاد الجوية",
+   "at": "2026-11-19",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "الهرم",
+   "at": "2026-11-19",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/haram-street-metro-project.html",
+   "title": "موعد فتح شارع الهرم وعودة حركة المرور"
   }
  ]
 }
