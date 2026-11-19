@@ -888,6 +888,24 @@
       "has_real_img": true,
       "at": "2026-11-19T11:11:07.587541+02:00",
       "ok": true
+    },
+    {
+      "title": "رسمياً تحديث أمني جديد لسلسلة Galaxy Tab S10",
+      "orig_link": "https://www.sammobile.com/news/new-galaxy-tab-s10-series-update-brings-november-2026-security-patch/",
+      "post_url": "https://www.egyptaway.com/2026/11/galaxy-tab-s10-november-security-patch.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-19T12:11:10.533864+02:00",
+      "ok": true
+    },
+    {
+      "title": "One UI 9.5 hints at Open Gate video recording option for the Galaxy S27",
+      "orig_link": "https://www.sammobile.com/news/one-ui-9-5-camera-open-gate-video-recording-galaxy-s27/",
+      "at": "2026-11-19T12:11:10.533864+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (one-ui-9-5-open-gate-galaxy-s27): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
     }
   ]
 }
