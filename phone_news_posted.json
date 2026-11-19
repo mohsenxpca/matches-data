@@ -1024,6 +1024,24 @@
       "err": [
         "الـ slug غير صالح (galaxy-s26-ultra-one-ui-9-5-beta): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
       ]
+    },
+    {
+      "title": "Apple may delay or cancel Samsung Display OLED orders for iMac",
+      "orig_link": "https://www.sammobile.com/news/apple-may-delay-or-cancel-samsung-display-oled-orders-imac/",
+      "at": "2026-11-19T16:26:12.943372+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (402 كلمة، والمطلوب 420+ كلمة)"
+      ]
+    },
+    {
+      "title": "تسريب رسمي: سامسونج تطور حواسيب محمولة تعمل بنظام أندرويد",
+      "orig_link": "https://www.sammobile.com/news/leak-confirms-samsung-working-multiple-android-laptops/",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-developing-android-laptops-leak.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-19T16:26:12.943372+02:00",
+      "ok": true
     }
   ]
 }
