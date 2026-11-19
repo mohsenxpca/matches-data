@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus 17 could debut with a wide-screen display, rumor claims - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUEpOOEh2aFJiV1lEbXRoNGpSSExrMFVMb25HbTdidzlRZ0VsVTM5U0IyMkNZTmJwNU1tLWw0ZGtUcTR6ck5iaHR4ZVdKbEJVZ3loWnprVzFlVVYwcThYWXFTa3g5eG85aGw1aTBOcndKMHhxMnp0OVRhbEpCUDdnOGVRQkljNFFnUGFJdGtDZGZ2aG1LVXBuWHc4ZTZ5ZVdFMktn0gGfAUFVX3lxTE1TdGFwWDJzRnZwdFJEXzJDeGRFUC1lVTdHcUpJczZtMDlNelc5dUtsY2tfcWJaQ2FtVVlKZDRHZ2xRR1ZOZGdLUmtXSzlfRW1mTWFYQ1RkalNzdGhXVjlCSnRTMTgyRWE5OXR2N0toemlFLUIwMzZSX2JJY3E4Rm8wbzYtS3V6SkNjVUppRW9hN3V1dmlSQkNrNVFEeENxOA?oc=5",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['wide', 'claims', 'could', 'debut']"
-  },
-  {
-   "title": "vivo's 12,000mAh battery is in mass production, says tipster - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObUtWeTBMTDZiaTdfdUU5R1RySjZvV1hWYUVxR3lxQ1lKWU9kY1dTVWtYcG9KV043ZkNFejRwTVpfek42aGx2X1NsMHEybEwtWHdKMHg4NFVMZWpnbkdiOEloSzdGc2t5MzJyMlBLaHRpaFBOWEZBQ2d2NEd0R0NWZmJGWVR5XzMzNnBzV0hjcmhqX0lLRnA1R0pqQXdzQQ?oc=5",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['production', 'tipster', '000mah', 'mass']"
-  },
-  {
    "title": "Xiaomi 18 Pro in for review - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WWE84YXlydVFiRWotZlZGZ1kxdXdIeWVsSndBa1ZkRGxhUllMdTlFem43UHNDT1BpYjkwcExiNVB3aE9IRGx4dVVzOGJvOXFQODlWTDg4azZTWGZyYzgzRk1INlpwOU1yR05QTTkweUtGSDZsQ1HSAXJBVV95cUxORHVQQTFodnZLSFBpRXBSbktjX2FZbVVGNkdkcjF3RHg3RlhPRVJTd3VJV2hScTk4SlAtQ25pa0VFTVpUOUFhQ29Wd182WlY2cWcxbUlmVVhDOVFHdFlhSzA4NWU3WkU1Z2ZZYkRRZWVDekE?oc=5",
    "at": "2026-11-11",
@@ -3226,6 +3212,24 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max vs Sharp Aquos sense11",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php||https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['sharp', 'sense11', 'aquos']"
+  },
+  {
+   "title": "ظهور موتورولا Razr Ultra القادم في FCC: هل اقترب موعد الثورة؟",
+   "cand_title": "Motorola’s next Razr Ultra appears in FCC database ahead of 2027 launch",
+   "url": "https://www.gizmochina.com/2026/11/19/motorolas-next-razr-ultra-appears-in-fcc-database-ahead-of-2027-launch/",
+   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/11/motorola-razr-ultra-2027-leak.png",
+   "post_url": "https://www.review-mobile.com/2026/11/motorola-razr-ultra-2027-fcc-leak.html",
+   "at": "2026-11-20T00:43:01+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "موتورولا"
   }
  ]
 }
