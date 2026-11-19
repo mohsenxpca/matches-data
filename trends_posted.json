@@ -2068,6 +2068,24 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/joao-cancelo-bruno-fernandes-ronaldo.html",
    "title": "جدل حول جواو كانسيلو وبرونو فيرنانديش في البرتغال"
+  },
+  {
+   "q": "وزارة الداخلية",
+   "at": "2026-11-19",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "النيابة العامة",
+   "at": "2026-11-19",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "الفجر",
+   "at": "2026-11-19",
+   "ok": false,
+   "why": "off-topic"
   }
  ]
 }
