@@ -969,6 +969,24 @@
       "has_real_img": true,
       "at": "2026-11-19T14:11:08.485707+02:00",
       "ok": true
+    },
+    {
+      "title": "Caviar releases GTA 6-inspired Galaxy Z Fold 8 Ocean Drive edition",
+      "orig_link": "https://www.sammobile.com/news/caviar-releases-gta-6-inspired-galaxy-z-fold-8-ocean-drive-edition/",
+      "at": "2026-11-19T14:41:05.819528+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (caviar-galaxy-z-fold-8-gta-6-edition): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
+    },
+    {
+      "title": "رسمياً تحديث One UI 9.5 يجلب دقة 24 ميجابكسل لكاميرا S26 Ultra",
+      "orig_link": "https://www.sammobile.com/news/one-ui-9-5-notable-change-galaxy-s26-ultra-camera/",
+      "post_url": "https://www.egyptaway.com/2026/11/one-ui-95-galaxy-s26-ultra-camera.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-19T14:41:05.819528+02:00",
+      "ok": true
     }
   ]
 }
