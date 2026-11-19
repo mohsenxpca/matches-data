@@ -987,6 +987,34 @@
       "has_real_img": true,
       "at": "2026-11-19T14:41:05.819528+02:00",
       "ok": true
+    },
+    {
+      "title": "Exclusive: Samsung will use AI to give you weather updates for your destination",
+      "orig_link": "https://www.sammobile.com/news/exclusive-samsung-will-use-ai-to-give-you-weather-updates-for-your-destination/",
+      "at": "2026-11-19T15:41:04.308670+02:00",
+      "ok": false,
+      "err": [
+        "الـ slug غير صالح (samsung-one-ui-9-5-weather-ai-feature): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
+    },
+    {
+      "title": "Samsung and Apple were the only OEMs to increase US phone shipment shares year-on-year in Q3 2026",
+      "orig_link": "https://www.sammobile.com/news/samsung-and-apple-only-oems-increase-us-phone-shipment-share-yoy-q3-2026/",
+      "at": "2026-11-19T15:41:04.308670+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (364 كلمة، والمطلوب 420+ كلمة)",
+        "الـ slug غير صالح (apple-and-samsung-us-shipment-share-q3-2026): يجب أن يتكون من 3 إلى 7 كلمات إنجليزية صغيرة مفصولة بشرطة"
+      ]
+    },
+    {
+      "title": "مزايا تصوير ثورية قادمة لهواتف سامسونج مع تحديث One UI 9.5",
+      "orig_link": "https://www.gsmarena.com/samsung_one_ui_9_5_open_gate_video_recording_dual_cam_panorama-news-75538.php",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-features-leak.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-19T15:41:04.308670+02:00",
+      "ok": true
     }
   ]
 }
