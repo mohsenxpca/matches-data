@@ -560,6 +560,18 @@ def process_clean_image(img_url, slug, index, out_dir=IMG_DIR, phone_name="", su
             px_y = (675 - nh) // 2
             canvas.alpha_composite(s_rgba, (px_x, px_y))
 
+            if index == 0:
+                try:
+                    raw_canvas = canvas.copy()
+                    if clean_name:
+                        # For raw unwatermarked copy, center the phone horizontally without text
+                        raw_bg = Image.new("RGBA", (1200, 675), (255, 255, 255, 255)) if white_bg else bg.convert("RGBA")
+                        raw_bg.alpha_composite(s_rgba, ((1200 - nw) // 2, px_y))
+                        raw_canvas = raw_bg
+                    raw_canvas.convert("RGB").save(os.path.join(out_dir, f"raw-{slug}-0.jpg"), format="JPEG", quality=90, optimize=True)
+                except Exception:
+                    pass
+
             wm_file = WM_LIGHT if white_bg else WM_DARK
             if os.path.exists(wm_file):
                 wm = Image.open(wm_file).convert("RGBA")
@@ -610,6 +622,11 @@ def process_clean_image(img_url, slug, index, out_dir=IMG_DIR, phone_name="", su
             target = ImageEnhance.Contrast(target).enhance(1.04)
             target = ImageEnhance.Color(target).enhance(1.02)
             target = ImageEnhance.Sharpness(target).enhance(1.08)
+            if index == 0:
+                try:
+                    target.save(os.path.join(out_dir, f"raw-{slug}-0.jpg"), format="JPEG", quality=90, optimize=True)
+                except Exception:
+                    pass
             canvas = target.convert("RGBA")
 
             if os.path.exists(WM_DARK):
@@ -1884,6 +1901,7 @@ def main():
                 "title": art["title"],
                 "cand_title": cand_title,
                 "url": cand["link"],
+                "raw_photo": raw_photo_pairs[0][0] if raw_photo_pairs else "",
                 "post_url": post_url,
                 "at": clean_now,
                 "ok": True,
