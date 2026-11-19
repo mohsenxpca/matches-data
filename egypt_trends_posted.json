@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/5/%D9%82%D8%B7%D8%A7%D8%B1-%D9%81%D9%8A%D8%B1%D9%8A%D9%86%D9%83%D9%81%D8%A7%D8%B1%D9%88%D8%B3%D9%8A-%D8%A7%D9%84%D9%85%D8%AC%D8%B1%D9%8A-%D9%8A%D8%AF%D9%87%D8%B3-%D9%85%D9%8A%D9%84%D8%A7%D9%86-%D8%A8%D8%AB%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D9%88%D9%8A%D8%B9%D8%AA%D9%84%D9%8A-%D8%B5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A/7607733",
-   "t": "قطار فيرينكفاروسي المجري يدهس ميلان بثنائية ويعتلي صدارة الدوري الأوروبي",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 4"
-   ]
-  },
-  {
    "u": "https://www.sportsmole.co.uk/football/az/europa-league/preview/az-vs-juventus-prediction-team-news-lineups_608333.html",
    "t": "Preview: AZ Alkmaar vs Juventus - prediction, team news, lineups",
    "at": "2026-11-05",
@@ -3394,6 +3385,16 @@
    "reason": [
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'قطارات', 'رحلات'}) مع تشابه نصي مع: مواعيد قطارات تالجو الجديدة: جدول الرحلات ومحطات الوقوف)"
    ]
+  },
+  {
+   "u": "https://www.yallakora.com/fifa-u-17-world-cup/3071/match/114504/%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%86%D8%A7%D9%86-%D9%83%D8%A3%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%AA%D8%AD%D8%AA-17-%D8%B9%D8%A7%D9%85%D8%A7",
+   "t": "مباراة مصر و اليونان",
+   "title": "مباراة مصر واليونان: ملخص أحداث اللقاء والنتائج المسجلة",
+   "url": "https://www.egyptaway.com/2026/11/egypt-vs-greece-match-summary.html",
+   "photo": "https://images.pexels.com/photos/262524/pexels-photo-262524.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+   "at": "2026-11-19T20:20:40.715708+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
