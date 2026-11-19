@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://football-italia.net/official-juventus-squad-list-az-11-mckennie/",
-   "t": "Official Juventus squad list for AZ Alkmaar: 11 absentees, McKennie decision confirmed",
-   "at": "2026-11-05",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 7"
-   ]
-  },
-  {
    "u": "https://www.sports.fr/football/ligue-europa-real-sociedad-ol-en-direct-1060322.html",
    "t": "Ligue Europa: Real Sociedad-OL en direct",
    "at": "2026-11-05",
@@ -3395,6 +3386,16 @@
    "at": "2026-11-19T20:41:24.436819+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBEeWFweVYwOVVybGExWTNCUUxOdFVSOVdmcDQ1cEtDWU5TUHpMS3BGbEJHTDFXMzV5YmwyN1NyQWR5bkU?oc=5",
+   "t": "شبورة وأمطار ورياح.. ماذا قالت الأرصاد عن طقس الأيام المقبلة؟ - www.eldyar.net",
+   "title": "ارتفاع درجات الحرارة وتحذير من الشبورة المائية في مصر",
+   "url": "https://www.egyptaway.com/2026/11/weather-forecast-temperatures-egypt.html",
+   "photo": "https://images.pexels.com/photos/125457/pexels-photo-125457.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+   "at": "2026-11-19T20:56:54.540778+02:00",
+   "ok": true,
+   "type": "public_query"
   }
  ]
 }
