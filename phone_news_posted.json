@@ -852,6 +852,24 @@
       "has_real_img": true,
       "at": "2026-11-19T09:01:02.708980+02:00",
       "ok": true
+    },
+    {
+      "title": "Galaxy S25, S24 series get November 2026 security update",
+      "orig_link": "https://www.sammobile.com/news/galaxy-s25-s24-series-get-november-2026-security-update/",
+      "at": "2026-11-19T10:41:12.303606+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (404 كلمة، والمطلوب 420+ كلمة)"
+      ]
+    },
+    {
+      "title": "One UI 9.5 beta is out for these Galaxy devices: Here’s how to install it",
+      "orig_link": "https://www.gizmochina.com/2026/11/19/one-ui-9-5-beta-eligible-devices-regions-installation-steps/",
+      "at": "2026-11-19T10:41:12.303606+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (396 كلمة، والمطلوب 420+ كلمة)"
+      ]
     }
   ]
 }
