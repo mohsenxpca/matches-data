@@ -1,8 +1,6 @@
 {
  "sent": [],
  "indexed": [
-  "https://www.egyptaway.com/2026/11/alexandria-weather-and-winter-waves.html",
-  "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-update.html",
   "https://www.egyptaway.com/2026/11/graffiti-artist-tags-gta-6-ad.html",
   "https://www.egyptaway.com/2026/11/social-insurance-funds-egypt-2025.html",
   "https://www.egyptaway.com/2026/11/whatsapp-outage-egypt-2026_01207453969.html",
@@ -400,11 +398,11 @@
   "https://www.egyptaway.com/2026/11/chatgpt-ads-vs-gemini-subscription.html",
   "https://www.egyptaway.com/2026/11/honor-magic-v7-leaks-specs.html",
   "https://www.egyptaway.com/2026/11/honor-magic-v7-wide-foldable-leak.html",
-  "https://www.egyptaway.com/2026/11/one-ui-9-5-privacy-update.html"
+  "https://www.egyptaway.com/2026/11/one-ui-9-5-privacy-update.html",
+  "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-features-removed.html",
+  "https://www.egyptaway.com/2026/11/phone-charger-cable-risks.html"
  ],
  "tg": [
-  "https://www.egyptaway.com/2026/11/alexandria-weather-and-winter-waves.html",
-  "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-update.html",
   "https://www.egyptaway.com/2026/11/graffiti-artist-tags-gta-6-ad.html",
   "https://www.egyptaway.com/2026/11/social-insurance-funds-egypt-2025.html",
   "https://www.egyptaway.com/2026/11/whatsapp-outage-egypt-2026_01207453969.html",
@@ -802,7 +800,9 @@
   "https://www.egyptaway.com/2026/11/chatgpt-ads-vs-gemini-subscription.html",
   "https://www.egyptaway.com/2026/11/honor-magic-v7-leaks-specs.html",
   "https://www.egyptaway.com/2026/11/honor-magic-v7-wide-foldable-leak.html",
-  "https://www.egyptaway.com/2026/11/one-ui-9-5-privacy-update.html"
+  "https://www.egyptaway.com/2026/11/one-ui-9-5-privacy-update.html",
+  "https://www.egyptaway.com/2026/11/samsung-one-ui-9-5-features-removed.html",
+  "https://www.egyptaway.com/2026/11/phone-charger-cable-risks.html"
  ],
  "fb": [
   "https://www.egyptaway.com/2026/11/samsung-galaxy-tab-a11-plus-android-17.html",
@@ -811,7 +811,8 @@
   "https://www.egyptaway.com/2026/11/future-samsung-galaxy-design-rumors.html",
   "https://www.review-mobile.com/2026/11/vivo-x-fold7-chipset-battle.html",
   "https://www.review-mobile.com/2026/11/oppo-reno-17-pro-specs-price.html",
-  "https://www.review-mobile.com/2026/11/qencrypt-quantum-safe-encryption-iphone.html"
+  "https://www.review-mobile.com/2026/11/qencrypt-quantum-safe-encryption-iphone.html",
+  "https://www.egyptaway.com/2026/11/phone-charger-cable-risks.html"
  ],
  "fb_history": [
   {
@@ -862,6 +863,13 @@
    "mode": "link",
    "at": "2026-11-19T04:31:15+02:00",
    "fb_id": "1959788610952661_1633713048769909"
+  },
+  {
+   "url": "https://www.egyptaway.com/2026/11/phone-charger-cable-risks.html",
+   "title": "تحذير لمستخدمي الهواتف.. 5 مخاطر لاستخدام كابلات الشحن التالفة",
+   "mode": "link",
+   "at": "2026-11-19T06:31:30+02:00",
+   "fb_id": "1959788610952661_1633801068761107"
   }
  ]
 }
