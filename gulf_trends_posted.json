@@ -144,6 +144,15 @@
       "err": [
         "banned topic"
       ]
+    },
+    {
+      "q": "مباراة اليوم",
+      "country": "SA",
+      "at": "2026-11-20T16:06:05.980802+02:00",
+      "ok": false,
+      "err": [
+        "banned topic"
+      ]
     }
   ]
 }
