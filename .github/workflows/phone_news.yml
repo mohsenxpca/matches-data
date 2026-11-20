@@ -6,7 +6,7 @@ on:
       count:
         description: "عدد أخبار الهواتف المطلوب نشرها على موقع ايجبتاوى"
         required: false
-        default: "2"
+        default: "1"
       brand:
         description: "ماركة معينة اختيارياً (مثال: سامسونج، أبل، شاومي - اتركه فارغاً للرصد التلقائي وسامسونج أولاً)"
         required: false
@@ -16,7 +16,7 @@ on:
         required: false
         default: "0"
   schedule:
-    - cron: "20 */4 * * *"  # كل 4 ساعات لنشر أهم أخبار وتحديثات الهواتف (One UI وسامسونج وشاومي وآيفون) على ايجبتاوى
+    - cron: "20 8,16 * * *"  # مرتين يومياً (حد أقصى مقالين) لأهم أخبار الهواتف الكبرى على ايجبتاوى
   push:
     branches:
       - main
@@ -42,7 +42,7 @@ jobs:
       - run: pip install requests beautifulsoup4 lxml pillow numpy arabic-reshaper python-bidi
       - run: python -u phone_news.py
         env:
-          COUNT: ${{ github.event.inputs.count || '2' }}
+          COUNT: ${{ github.event.inputs.count || '1' }}
           BRAND: ${{ github.event.inputs.brand || '' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
