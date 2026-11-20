@@ -1,80 +1,6 @@
 {
  "done": [
   {
-   "title": "هاتف بنفس الاسم وسعة بطارية أقل: هل تختلف المواصفات حسب بلد الشراء؟",
-   "cand_title": "Same phone, smaller battery: 5 models that change depending on where you buy",
-   "url": "https://www.gizmochina.com/2026/11/11/5-phones-with-different-battery-capacity-in-different-regions/",
-   "post_url": "https://www.review-mobile.com/2026/11/same-phone-smaller-battery-by-region.html",
-   "at": "2026-11-12T00:26:26+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "Oppo A7 Ultra to pack huge 12,000mAh battery, here’s when it’s coming",
-   "url": "https://www.gizmochina.com/2026/11/11/oppo-a7-ultra-12000mah-battery-launch-timeline/",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (646 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Oppo Reno 17 series to feature four 50MP cameras, details officially confirmed",
-   "url": "https://www.gizmochina.com/2026/11/11/oppo-reno-17-series-four-50mp-cameras-officially-confirmed/",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (652 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Samsung Galaxy W27 vs Samsung Galaxy Z Fold8 Ultra: What’s Actually Different?",
-   "url": "https://www.gizmochina.com/2026/11/11/samsung-galaxy-w27-vs-z-fold8-ultra/",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (538 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Oppo A7 Pro is coming to Europe, here's how much it will cost",
-   "url": "https://www.gsmarena.com/oppo_a7_pro_is_coming_to_europe_heres_how_much_it_will_cost-news-75441.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (583 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Magic10 series might mark the return of variable aperture camera on Honor smartphones",
-   "url": "https://www.gsmarena.com/honor_magic10_series_variable_aperture_camera-news-75438.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (541 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "هاتف أوبو القادم ببطارية 12000 مللي أمبير.. هل تحول المفاهيم؟",
-   "cand_title": "Oppo A7 Ultra tipped to launch next month with a 12,000mAh battery",
-   "url": "https://www.gsmarena.com/oppo_a7_ultra_tipped_to_launch_next_month_with_a_12000mah_battery-news-75437.php",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-a7-ultra-12000mah-battery.html",
-   "at": "2026-11-12T00:58:00+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اوبو"
-  },
-  {
-   "title": "Infinix Smart 20 HD vs Honor Choice T10",
-   "url": "https://www.gsmarena.com/infinix_smart_20_hd-15079.php||https://www.gsmarena.com/honor_choice_t10-15080.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (788 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "vivo V80 FE vs Oppo Reno17 (China)",
    "url": "https://www.gsmarena.com/vivo_v80_fe_5g-15061.php||https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
    "at": "2026-11-12",
@@ -3227,6 +3153,68 @@
    "ok": true,
    "kind": "news",
    "brand": "موتورولا"
+  },
+  {
+   "title": "Motorola Edge 2026 gets a record $200 Black Friday price cut",
+   "url": "https://www.androidauthority.com/motorola-edge-2026-deal-3737378/",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (661 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "نتائج أبل تتجاوز التوقعات بفضل قوة مبيعات آيفون 18",
+   "url": "https://www.masrawy.com/news/tech-reports/details/2026/11/3/3072798/%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A3%D8%A8%D9%84-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D8%A8%D9%81%D8%B6%D9%84-%D9%82%D9%88%D8%A9-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%A2%D9%8A%D9%81%D9%88%D9%86-18",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Phone 'آيفون 18' already covered in: آبل تستعد لإطلاق آيفون 18 بترقيات ضخمة وزيادة جديدة بالأسعار"
+  },
+  {
+   "title": "Motorola confirms key specs for the Edge 70 Neo now - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZWN4XzRMRlNBX19wUkRTdFBNZWJjTER0M29paURyN3h5WE5PZjVwT2F1aWl5N1dibERYS1NlVnlNUHlNMFB0aTY0aG9jTG9MSTktMGhyQjJfbmVqMGlVNDN0OFIxUzQwV0Uyb09aY1U0SWgzTFVVVHVlWWVsS3VfT2JnX3hpWElSdDZsQk12WTB0M1ZyeDVOWUNQcmdNWDUtOE5uTmpWbjFWaHpOWTJpaWNYN1hQYzBQZ2thNFJn0gG6AUFVX3lxTFBkUHVWcHBBMHptYXJEbEhZS0NqalA5aTlXR1JyYmZOQ3RzZDFVc2pjNEV2blBxbEIxT2Uyd3FZUzhWMXFTbXdEQlBFOHRkU1E1N2ExMXc3WTgyVlE2R0dOUUJLa1lqeFpTdmptZnk4RUtKZFlyQTFXRS1kSFVBcWlCbGZPMDNPQnRJT2xBckFVN2RSaDhnRTdjajVuTm9GSVp5MjVFWUhISEpkeldiTTZzTWh1NE1nams0QQ?oc=5",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
+  },
+  {
+   "title": "Huawei Mate 90 Air listed ahead of launch - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObk9OZlBLN0tDby1lWXlwMUNpb1NpcjV3c296b1BCQXBaX01uQmMyRUVEa3NRVC1TVjFHQnd4RENzSmhtZFJ3VmVJcnd3WC1MU09QbS1TZ1hMa0pQSnNCaUN3ckJ1VVdsMnI0aHpvRHU4bS1oYVNMV2xRYjg5eTB0YnhjdEF6dEJh0gGEAUFVX3lxTE95N3Fub1RDUjFtUkhxSXFUOVBmNlVNd1ZIZzlzWWVaZ0hrYk9NOXZXUVc5MmNValVqcl9oaGVkNjhsWE41TWtqaTIwRG1rajY1SlliMGNoaVBXZWZwV3lpUzJaQUpCUmNOTmdFY01XZS1BUktVNEUxNWgxbzBrb3RXdVRkVA?oc=5",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['listed', 'mate', 'ahead']"
+  },
+  {
+   "title": "Xiaomi 18 Pro (Global) review - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0V1gwSHMwS0FaZFRZSUlhcmZEcVh2dnJRaE03NTJjdmc2NXY0ek9xVmc3c1ZLbjA3bkJvMHVKaWpuU1RCQWQzU2h1YXM1bFBoQWlsVDAtTkRpQWV3a0tNdWc3b0o?oc=5",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "Honor Magic V7 will reportedly be a wide foldable - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRF9lbHpKQzg3S2JVdDlTNWNWTUlZYnEzV2d5SjZIOXB4dFJUbzU1MEtaMFRLNWVvUTAtS2xPeXpfNHRiUkQxMVdEdlEtNk1HUW9CS2JUVjdlNGMyQ1VrVklfS2k0S3pxYkxGZDFoYlgtY0tYRndPbUVNT3dQSHlBZjJFWElFNTV0cEdyRGxKUkpnbknSAY8BQVVfeXFMTkQ3aDNWNlp1ZEVxOVV5Vmtrei1Wd3VPYmdNckFzSGpqZVc4RzVCajl6dFNRUWVyNjRWRlhrbm5LMHF6UFNlVUgyQ1Z3UE5oaVFNVEVtM1J1Q0ZfN1E4NEM3R3VKcTlPUjR2Ynd5THZnZ1kwMjdwNHBqV0lSNWJJTzFsLTM3aDlVb0JzSTY3Q1k?oc=5",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['foldable', 'magic', 'wide']"
+  },
+  {
+   "title": "Honor confirms which Magic9 models will be available in the UK - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbHM2TkpGN2lmSjVtREVxaVJzNWk1NlREc3N6WjhTZktGVFlYYktWaEtzYXN0N0tFSVZiVkYwYlRvVWRBV0RpNkUtWno4WjlNWjB6SzAtb1RMTzJZb2FkM0VIamRvTmNyMFdQRFg4T1VMUjJmWWlXWDFkcndBSWVpaE93Vm85RGlBb2xjb2Q2SERmcnJhMU9fczNZZHlmMUpNNktPMtIBoAFBVV95cUxQa1FkTy1PVXlQVmVNOHRpazFLZmVSbV9hU3dFRmFIbWhDelFobGhoejltSnFZbXlqbVE1QjdyZXg5YUs1VGNONVJCd3VfSm1Na0p2Z0x0aDNZUTZnNTdmS2tQSlpkMVJwd01ZcGMxZDk5cEpsVlBBSll4Rm1lNDlxVzhnNEJKX01VYy15QnNJY3hEOEhtdHhKOEw3TUxidVpf?oc=5",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['models', 'available', 'magic9', 'which']"
+  },
+  {
+   "title": "أوبو Reno 17: وحش البطارية الجديد يصل بمواصفات ثورية",
+   "cand_title": "Oppo Reno 17: Price, release date and full specs - TechCabal",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBFTFpzZHkySGN0aTRmSks0bHNLaG95WU9ZTEZPUEdHQ3VJWDBSc0RYUFY2ZVE0MmI0LS1TWV90RFhuNVM5dVczRTNKcG9lVUQ0VG9mZHZfb2ItWjd4Qm5rSkcwdS1wcjg0Z1ctZ2hNRDJILUxkUUlaWF9ldw?oc=5",
+   "raw_photo": "https://c76c7bbc41.mjedge.net/wp-content/uploads/tc/2026/11/Oppo-Reno-17.webp",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-reno-17-specs-analysis.html",
+   "at": "2026-11-20T03:15:04+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اوبو"
   }
  ]
 }
