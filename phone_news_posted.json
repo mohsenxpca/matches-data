@@ -1204,6 +1204,35 @@
       "has_real_img": true,
       "at": "2026-11-20T10:51:05.392095+02:00",
       "ok": true
+    },
+    {
+      "title": "Galaxy Watch 7, Watch Ultra get seventh One UI 9 Watch beta update",
+      "orig_link": "https://www.sammobile.com/news/galaxy-watch-7-watch-ultra-get-seventh-one-ui-9-watch-beta-update/",
+      "at": "2026-11-20T11:21:05.324277+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (409 كلمة، والمطلوب 450+ كلمة)",
+        "العنوان مكرر أو قريب جداً من خبر منشور: سامسونج تطلق التحديث التجريبي الخامس لـ One UI 9 Watch"
+      ]
+    },
+    {
+      "title": "تقرير رسمي: آبل تحكم سيطرتها على سوق الهواتف الأمريكي",
+      "orig_link": "https://www.gsmarena.com/apple_tightens_its_grip_on_a_shrinking_us_smartphone_market-news-75556.php",
+      "post_url": "https://www.egyptaway.com/2026/11/apple-tightens-grip-us-smartphone-market.html",
+      "brand": "Apple",
+      "has_real_img": true,
+      "at": "2026-11-20T11:21:05.324277+02:00",
+      "ok": true
+    },
+    {
+      "title": "Xiaomi Smart Band 11: 5 things international buyers should know",
+      "orig_link": "https://www.gizmochina.com/2026/11/20/xiaomi-smart-band-11-things-to-know/",
+      "at": "2026-11-20T11:21:05.324277+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (424 كلمة، والمطلوب 450+ كلمة)",
+        "العنوان مكرر أو قريب جداً من خبر منشور: رسمياً إطلاق سوار شاومي Smart Band 11 عالمياً"
+      ]
     }
   ]
 }
