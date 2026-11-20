@@ -12,7 +12,13 @@ import argparse, colorsys, datetime, hashlib, html, io, json, os, random, re, sy
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
-from PIL import Image, ImageEnhance, ImageFilter, ImageOps
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
+try:
+    import arabic_reshaper
+    from bidi.algorithm import get_display
+except Exception:
+    arabic_reshaper = None
+    get_display = None
 import football as f
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -23,6 +29,8 @@ STATE_FILE = os.path.join(BASE_DIR, "notify_sent.json")
 REVIEW_STATE_FILE = os.path.join(BASE_DIR, "review_posted.json")
 LOCAL_FB_FILE = os.path.join(BASE_DIR, ".fb_token.json")
 WM_MASK_PATH = os.path.join(BASE_DIR, "img", "mobile_belaraby_wm.png")
+AR_FONT_PATH = os.path.join(BASE_DIR, "fonts", "NotoKufiArabic.ttf")
+AR_FONT_URL = "https://github.com/google/fonts/raw/main/ofl/notokufiarabic/NotoKufiArabic%5Bwght%5D.ttf"
 IMG_DIR = os.path.join(BASE_DIR, "img")
 CDN = "https://cdn.jsdelivr.net/gh/mohsenxpca/matches-data@main/"
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124 Safari/537.36"}
@@ -75,13 +83,13 @@ def load_state():
             state = json.load(fp)
     except Exception:
         state = {}
-    for k in ("sent", "indexed", "tg", "fb", "fb_history"):
+    for k in ("sent", "indexed", "tg", "fb", "fb_history", "fb_stories"):
         state.setdefault(k, [])
     return state
 
 
 def save_state(state):
-    for k in ("sent", "indexed", "tg", "fb", "fb_history"):
+    for k in ("sent", "indexed", "tg", "fb", "fb_history", "fb_stories"):
         if k in state:
             state[k] = state[k][-400:]
     with open(STATE_FILE, "w", encoding="utf-8") as fp:
@@ -667,7 +675,369 @@ def post_by_url(target_url, mode="auto", dry=False, preview_path=None):
         return False
 
 
+def _ensure_ar_font():
+    if os.path.exists(AR_FONT_PATH) and os.path.getsize(AR_FONT_PATH) > 10000:
+        return AR_FONT_PATH
+    try:
+        os.makedirs(os.path.dirname(AR_FONT_PATH), exist_ok=True)
+        r = requests.get(AR_FONT_URL, headers=UA, timeout=25)
+        if r.status_code == 200 and len(r.content) > 10000:
+            with open(AR_FONT_PATH, "wb") as fp:
+                fp.write(r.content)
+            return AR_FONT_PATH
+    except Exception:
+        pass
+    for p in (r"C:\Windows\Fonts\tahoma.ttf", r"C:\Windows\Fonts\arial.ttf",
+              "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"):
+        if os.path.exists(p):
+            return p
+    return None
+
+
+def _load_ar_font(size, bold=False):
+    path = _ensure_ar_font()
+    if not path:
+        return ImageFont.load_default()
+    try:
+        fnt = ImageFont.truetype(path, size)
+        if bold:
+            try:
+                fnt.set_variation_by_name("Bold")
+            except Exception:
+                pass
+        return fnt
+    except Exception:
+        return ImageFont.load_default()
+
+
+def _shape_ar(text):
+    if not text:
+        return ""
+    if arabic_reshaper and get_display:
+        try:
+            return get_display(arabic_reshaper.reshape(text))
+        except Exception:
+            pass
+    return text
+
+
+def _wrap_ar_lines(draw, text, font, max_w, max_lines=3):
+    words = (text or "").split()
+    lines, cur = [], ""
+    for w in words:
+        cand = (cur + " " + w).strip()
+        if draw.textlength(_shape_ar(cand), font=font) <= max_w or not cur:
+            cur = cand
+        else:
+            lines.append(cur)
+            cur = w
+            if len(lines) >= max_lines:
+                break
+    if cur and len(lines) < max_lines:
+        lines.append(cur)
+    return lines
+
+
+def _extract_story_bullets(content):
+    """Extracts 2-3 short, punchy highlights from the phone article for the Story card."""
+    soup = BeautifulSoup(content or "", "html.parser")
+    for tag in soup.find_all(["script", "style", "details"]):
+        tag.decompose()
+    bullets = []
+    tldr = soup.select_one(".rv-tldr, .ea-tldr")
+    if tldr:
+        for li in tldr.find_all("li"):
+            txt = re.sub(r"\s+", " ", li.get_text(" ", strip=True)).strip()
+            if txt and not PROMO_SKIP_RX.search(txt):
+                bullets.append(txt[:95] + ("…" if len(txt) > 95 else ""))
+            if len(bullets) >= 3:
+                break
+    if len(bullets) < 2:
+        table = soup.find("table")
+        if table:
+            for tr in table.find_all("tr"):
+                cells = [re.sub(r"\s+", " ", c.get_text(" ", strip=True)).strip() for c in tr.find_all(["th", "td"])]
+                if len(cells) >= 2 and cells[0] and cells[1]:
+                    if any(k in cells[0] for k in ("المواصفة", "البند", "العنصر")):
+                        continue
+                    item = f"{cells[0]}: {cells[1]}"
+                    if len(item) <= 85 and not PROMO_SKIP_RX.search(item):
+                        bullets.append(item)
+                if len(bullets) >= 3:
+                    break
+    return bullets[:3]
+
+
+def build_story_image_bytes(base_im, title, content="", save_preview_path=None):
+    """Creates a polished 1080x1920 vertical 9:16 Facebook Page Story image with:
+       - Blurred phone-palette background
+       - Transparent «موبايل بالعربى» calligraphy logo at top (adaptive color)
+       - Clean un-watermarked phone hero card
+       - Dark glassmorphism card with Arabic title + 2-3 highlights + page CTA
+    """
+    W, H = 1080, 1920
+    dom_h = _get_dominant_hue(base_im)
+    if dom_h is not None:
+        ar, ag, ab = colorsys.hsv_to_rgb(dom_h, 0.52, 0.98)
+        accent_rgb = (int(ar * 255), int(ag * 255), int(ab * 255))
+        lr, lg, lb = colorsys.hsv_to_rgb(dom_h, 0.25, 1.0)
+        logo_rgb = (int(lr * 255), int(lg * 255), int(lb * 255))
+    else:
+        accent_rgb = (56, 189, 248)
+        logo_rgb = (248, 250, 255)
+
+    # 1. Atmospheric blurred dark backdrop from the phone image itself
+    bg = ImageOps.fit(base_im.convert("RGB"), (W, H), method=Image.Resampling.LANCZOS)
+    bg = bg.filter(ImageFilter.GaussianBlur(46))
+    bg = ImageEnhance.Brightness(bg).enhance(0.36)
+    bg = ImageEnhance.Color(bg).enhance(1.15)
+    canvas = bg.convert("RGBA")
+
+    # Subtle vertical dark gradient scrim for crisp contrast
+    grad = np.zeros((H, W, 4), dtype=np.uint8)
+    for yy in range(H):
+        # Slightly darker at top and bottom
+        t = abs((yy / float(H)) - 0.35)
+        a_val = int(min(185, 70 + t * 145))
+        grad[yy, :, 0] = 8
+        grad[yy, :, 1] = 12
+        grad[yy, :, 2] = 22
+        grad[yy, :, 3] = a_val
+    canvas = Image.alpha_composite(canvas, Image.fromarray(grad))
+
+    # 2. Transparent «موبايل بالعربى» calligraphy logo centered at top
+    if os.path.exists(WM_MASK_PATH):
+        wm_orig = Image.open(WM_MASK_PATH).convert("RGBA")
+        wm_h = 152
+        wm_w = int(wm_orig.width * (wm_h / wm_orig.height))
+        wm_mask = wm_orig.resize((wm_w, wm_h), Image.Resampling.LANCZOS)
+        alpha = np.array(wm_mask)[:, :, 3].astype(np.float32) * 0.96
+
+        sh_arr = np.zeros((wm_h, wm_w, 4), dtype=np.uint8)
+        sh_arr[:, :, 0], sh_arr[:, :, 1], sh_arr[:, :, 2] = (6, 10, 18)
+        sh_arr[:, :, 3] = np.clip(alpha * 0.85, 0, 255).astype(np.uint8)
+        sh_im = Image.fromarray(sh_arr).filter(ImageFilter.GaussianBlur(5))
+
+        fg_arr = np.zeros((wm_h, wm_w, 4), dtype=np.uint8)
+        fg_arr[:, :, 0], fg_arr[:, :, 1], fg_arr[:, :, 2] = logo_rgb
+        fg_arr[:, :, 3] = np.clip(alpha, 0, 255).astype(np.uint8)
+        fg_im = Image.fromarray(fg_arr)
+
+        lx = (W - wm_w) // 2
+        ly = 115
+        canvas.alpha_composite(sh_im, (lx + 2, ly + 3))
+        canvas.alpha_composite(fg_im, (lx, ly))
+
+    # 3. Clean un-watermarked Hero Phone Photo Card (980x551) with rounded corners & shadow
+    card_w, card_h = 980, 551
+    hero = ImageOps.fit(base_im.convert("RGB"), (card_w, card_h), method=Image.Resampling.LANCZOS).convert("RGBA")
+    mask = Image.new("L", (card_w, card_h), 0)
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, card_w, card_h), radius=36, fill=255)
+    hero.putalpha(mask)
+
+    hx, hy = (W - card_w) // 2, 325
+    sh_card = Image.new("RGBA", (card_w + 60, card_h + 60), (0, 0, 0, 0))
+    ImageDraw.Draw(sh_card).rounded_rectangle((30, 30, card_w + 30, card_h + 30), radius=36, fill=(0, 0, 0, 150))
+    sh_card = sh_card.filter(ImageFilter.GaussianBlur(18))
+    canvas.alpha_composite(sh_card, (hx - 30, hy - 20))
+    canvas.alpha_composite(hero, (hx, hy))
+
+    d = ImageDraw.Draw(canvas)
+    d.rounded_rectangle((hx, hy, hx + card_w, hy + card_h), radius=36, outline=(*accent_rgb, 115), width=3)
+
+    # 4. Glassmorphism Info Card (Title + Highlights + CTA)
+    bx1, by1, bx2, by2 = 50, 935, W - 50, 1735
+    d.rounded_rectangle((bx1, by1, bx2, by2), radius=40, fill=(10, 16, 28, 195), outline=(*accent_rgb, 95), width=2)
+
+    # Top-right accent bar inside card
+    d.rounded_rectangle((bx2 - 140, by1 + 42, bx2 - 48, by1 + 52), radius=5, fill=(*accent_rgb, 240))
+
+    # Headline (Right-aligned Arabic)
+    clean_title = html.unescape(title or "").strip()
+    f_title = _load_ar_font(44, bold=True)
+    title_lines = _wrap_ar_lines(d, clean_title, f_title, max_w=(bx2 - bx1 - 96), max_lines=3)
+    ty = by1 + 78
+    for ln in title_lines:
+        shaped = _shape_ar(ln)
+        tw = d.textlength(shaped, font=f_title)
+        d.text((bx2 - 48 - tw, ty), shaped, font=f_title, fill=(255, 255, 255, 255))
+        ty += 68
+
+    # Divider
+    ty += 16
+    d.line([(bx1 + 48, ty), (bx2 - 48, ty)], fill=(255, 255, 255, 38), width=2)
+    ty += 34
+
+    # Highlights bullets
+    bullets = _extract_story_bullets(content)
+    f_bul = _load_ar_font(31, bold=False)
+    for b_txt in bullets:
+        b_lines = _wrap_ar_lines(d, b_txt, f_bul, max_w=(bx2 - bx1 - 135), max_lines=2)
+        if not b_lines:
+            continue
+        # Accent bullet dot on the right
+        d.ellipse((bx2 - 68, ty + 16, bx2 - 52, ty + 32), fill=(*accent_rgb, 245))
+        for bl in b_lines:
+            shaped = _shape_ar(bl)
+            tw = d.textlength(shaped, font=f_bul)
+            d.text((bx2 - 84 - tw, ty), shaped, font=f_bul, fill=(226, 232, 240, 240))
+            ty += 48
+        ty += 18
+        if ty > by2 - 140:
+            break
+
+    # Bottom CTA pill inside the card
+    cta_text = _shape_ar("التفاصيل الكاملة في أحدث بوست على الصفحة")
+    f_cta = _load_ar_font(28, bold=True)
+    cta_w = d.textlength(cta_text, font=f_cta)
+    pill_w = min(bx2 - bx1 - 80, int(cta_w) + 84)
+    px1 = (W - pill_w) // 2
+    py1 = by2 - 102
+    py2 = by2 - 36
+    d.rounded_rectangle((px1, py1, px1 + pill_w, py2), radius=33, fill=(*accent_rgb, 235))
+    # Pick dark or light text on the pill depending on accent brightness
+    acc_lum = 0.299 * accent_rgb[0] + 0.587 * accent_rgb[1] + 0.114 * accent_rgb[2]
+    cta_ink = (10, 16, 28, 255) if acc_lum > 145 else (255, 255, 255, 255)
+    d.text(((W - cta_w) // 2, py1 + 14), cta_text, font=f_cta, fill=cta_ink)
+
+    out_rgb = canvas.convert("RGB")
+    if save_preview_path:
+        try:
+            out_rgb.save(save_preview_path, format="JPEG", quality=92, optimize=True)
+        except Exception:
+            pass
+    buf = io.BytesIO()
+    out_rgb.save(buf, format="JPEG", quality=92, optimize=True)
+    return buf.getvalue()
+
+
+def post_daily_story(title, url, image_url=None, content="", dry=False, force=False, preview_path=None):
+    """Publishes 1 daily Facebook Page Photo Story via /{page_id}/photos (published=false) + /{page_id}/photo_stories."""
+    state = load_state()
+    now = datetime.datetime.now(f.CAIRO)
+    today = now.date().isoformat()
+
+    if not force:
+        if any(s.get("date") == today for s in state.get("fb_stories", [])):
+            print(f"Facebook Story: already posted today ({today}).")
+            return False
+        if now.hour < 11 and not dry:
+            print("Facebook Story: waiting until after 11:00 AM Cairo time.")
+            return False
+
+    clean_title = html.unescape(title or "").strip()
+    clean_url = (url or "").replace("http://", "https://").strip()
+    base_im = resolve_clean_base_image(clean_url, image_url, content=content, title=clean_title)
+    if base_im is None:
+        print("Facebook Story: could not resolve clean base image.")
+        return False
+
+    story_bytes = build_story_image_bytes(base_im, clean_title, content=content, save_preview_path=preview_path)
+    tok, page = get_fb_credentials()
+
+    if dry:
+        print(f"[DRY FB STORY] Would publish daily 9:16 Story to Page ({page}):")
+        print(f"  Title: {clean_title}")
+        print(f"  Bytes: {len(story_bytes)} bytes")
+        if preview_path:
+            print(f"  Saved preview: {preview_path}")
+        return False
+
+    if not tok or not page:
+        print("Facebook Story: missing FB_PAGE_TOKEN / FB_PAGE_ID.")
+        return False
+
+    try:
+        # Step 1: Upload unpublished photo
+        r1 = requests.post(
+            f"https://graph.facebook.com/{page}/photos",
+            data={"published": "false", "access_token": tok},
+            files={"source": ("story.jpg", story_bytes, "image/jpeg")},
+            timeout=40
+        )
+        if not r1.ok or not r1.json().get("id"):
+            print(f"❌ Facebook Story photo upload failed ({r1.status_code}): {r1.text[:200]}")
+            return False
+        photo_id = r1.json()["id"]
+
+        # Step 2: Publish as Page Photo Story
+        r2 = requests.post(
+            f"https://graph.facebook.com/{page}/photo_stories",
+            data={"photo_id": photo_id, "access_token": tok},
+            timeout=30
+        )
+        if r2.ok and r2.json().get("success", True):
+            story_id = r2.json().get("post_id") or photo_id
+            print(f"✅ Facebook Daily Story Published! Title: {clean_title} | story_id={story_id}")
+            state.setdefault("fb_stories", []).append({
+                "date": today,
+                "url": clean_url,
+                "title": clean_title,
+                "at": now.isoformat(timespec="seconds"),
+                "story_id": story_id
+            })
+            save_state(state)
+            return True
+        else:
+            print(f"❌ Facebook photo_stories publish failed ({r2.status_code}): {r2.text[:200]}")
+            return False
+    except Exception as ex:
+        print(f"❌ Facebook Story exception: {ex}")
+        return False
+
+
+def run_daily_story(dry=False, force=False, lookback_hours=36, preview_path=None):
+    """Checks if today's Facebook Page Story has been published; if not, picks the freshest phone article and publishes it."""
+    state = load_state()
+    now = datetime.datetime.now(f.CAIRO)
+    today = now.date().isoformat()
+    if not force:
+        if any(s.get("date") == today for s in state.get("fb_stories", [])):
+            print(f"Facebook Daily Story: already published today ({today}).")
+            return False
+        if now.hour < 11 and not dry:
+            print("Facebook Daily Story: waiting until 11:00 AM Cairo time.")
+            return False
+
+    done_story_urls = {s.get("url") for s in state.get("fb_stories", []) if s.get("url")}
+    since = (now - datetime.timedelta(hours=lookback_hours)).isoformat(timespec="seconds")
+    tok = f.token()
+
+    candidates = []
+    for blog_id, site_name in [(REVIEW_BLOG, "Review"), (EA_BLOG, "Egyptaway")]:
+        try:
+            res = f.api("GET", f"/blogs/{blog_id}/posts", tok, {
+                "status": "live", "startDate": since, "maxResults": 15,
+                "fetchBodies": "true", "fetchImages": "true"
+            })
+            items = res.get("items", []) if isinstance(res, dict) else []
+            for p in items:
+                u = (p.get("url") or "").replace("http://", "https://")
+                if not u or u in done_story_urls:
+                    continue
+                if is_phone_post(p, blog_id=blog_id):
+                    candidates.append((p.get("published", ""), p))
+        except Exception as ex:
+            print(f"Facebook Story scan warning ({site_name}): {ex}")
+
+    if not candidates:
+        print("Facebook Daily Story: no recent phone article candidates found.")
+        return False
+
+    candidates.sort(key=lambda x: x[0], reverse=True)
+    _, p = candidates[0]
+    u = p["url"].replace("http://", "https://")
+    img = first_image(p.get("content"), post=p)
+    return post_daily_story(p["title"], u, image_url=img, content=p.get("content"), dry=dry, force=force, preview_path=preview_path)
+
+
 def run_auto(dry=False, force=False, mode="auto", lookback_hours=24, max_per_run=1, preview_path=None):
+    # Always check & publish the 1-per-day Facebook Page Story automatically
+    try:
+        run_daily_story(dry=dry, force=False, lookback_hours=36)
+    except Exception as ex:
+        print(f"Facebook Daily Story warning: {ex}")
+
     state = load_state()
     now = datetime.datetime.now(f.CAIRO)
 
@@ -725,20 +1095,34 @@ def run_auto(dry=False, force=False, mode="auto", lookback_hours=24, max_per_run
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Auto-publish phone articles to Facebook Page with adaptive «موبايل بالعربى» watermark")
+    ap = argparse.ArgumentParser(description="Auto-publish phone articles & daily Stories to Facebook Page with adaptive «موبايل بالعربى» watermark")
     ap.add_argument("--url", default="", help="Specific article URL to publish immediately")
+    ap.add_argument("--story", action="store_true", help="Publish a 9:16 daily Story on the Facebook Page")
     ap.add_argument("--mode", choices=["auto", "link", "native"], default="auto",
                     help="Post mode: 'link' (Title+Photo+Link), 'native' (Full No-Link Post+Photo), or 'auto'")
     ap.add_argument("--hours", type=int, default=24, help="Lookback window in hours for auto mode")
     ap.add_argument("--max", type=int, default=1, help="Max posts to share in a single run")
-    ap.add_argument("--force", action="store_true", help="Bypass the 75-130 min time gap check")
+    ap.add_argument("--force", action="store_true", help="Bypass the time gap / daily Story limit check")
     ap.add_argument("--dry", action="store_true", help="Dry run without posting")
-    ap.add_argument("--preview", default="", help="Optional local path to save the branded JPEG preview")
+    ap.add_argument("--preview", default="", help="Optional local path to save the JPEG preview")
     args = ap.parse_args()
 
     dry = args.dry or os.environ.get("DRY_RUN") == "1"
     force = args.force or os.environ.get("FORCE") == "1"
-    if args.url:
+    if args.story:
+        if args.url:
+            r = requests.get(args.url.strip(), headers=UA, timeout=20)
+            soup = BeautifulSoup(r.text, "html.parser")
+            og_t = soup.find("meta", property="og:title")
+            title = og_t["content"].strip() if og_t and og_t.get("content") else args.url.strip()
+            og_i = soup.find("meta", property="og:image")
+            img = og_i["content"].strip() if og_i and og_i.get("content") else None
+            box = soup.select_one(".rv-wrap, .ea-wrap, .post-body, article")
+            post_daily_story(title, args.url.strip(), image_url=img, content=str(box) if box else r.text,
+                             dry=dry, force=force, preview_path=args.preview or None)
+        else:
+            run_daily_story(dry=dry, force=force, lookback_hours=max(36, args.hours), preview_path=args.preview or None)
+    elif args.url:
         post_by_url(args.url, mode=args.mode, dry=dry, preview_path=args.preview or None)
     else:
         run_auto(dry=dry, force=force, mode=args.mode, lookback_hours=args.hours, max_per_run=args.max, preview_path=args.preview or None)

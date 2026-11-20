@@ -174,7 +174,7 @@ def main():
         state = json.load(open("notify_sent.json", encoding="utf-8"))
     except Exception:
         state = {}
-    for k in ("sent", "indexed", "tg", "fb", "fb_history"):
+    for k in ("sent", "indexed", "tg", "fb", "fb_history", "fb_stories"):
         state.setdefault(k, [])
     now = datetime.datetime.now(f.CAIRO)
     tok = f.token()
@@ -213,7 +213,7 @@ def main():
     except Exception as ex:
         print("Push step error:", ex)
 
-    for k in ("sent", "indexed", "tg", "fb", "fb_history"):
+    for k in ("sent", "indexed", "tg", "fb", "fb_history", "fb_stories"):
         state[k] = state.get(k, [])[-400:]
     if not dry:
         json.dump(state, open("notify_sent.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
