@@ -1,65 +1,6 @@
 {
  "done": [
   {
-   "title": "vivo V80 FE vs Oppo Reno17 (China)",
-   "url": "https://www.gsmarena.com/vivo_v80_fe_5g-15061.php||https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Phone 'v80 fe' already covered in: إطلاق هاتف Vivo V80 FE ببطارية 7000 ملي أمبير وكاميرات ZEISS"
-  },
-  {
-   "title": "Honor said to be testing a wide-screen phone with an 8,000mAh battery",
-   "url": "https://www.gsmarena.com/honor_said_to_be_testing_a_widescreen_phone_with_an_8000mah_battery-news-75432.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (561 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Samsung reportedly working on a phone with an expandable display",
-   "url": "https://www.gsmarena.com/samsung_reportedly_working_on_a_phone_with_an_expandable_display-news-75431.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (668 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Google's November Pixel Drop brings Gemini Intelligence to the Pixel 10",
-   "url": "https://www.gsmarena.com/googles_november_pixel_drop_brings_gemini_intelligence_to_the_pixel_10-news-75430.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (526 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Galaxy S24 Ultra owners love their phones, and newer models aren’t winning them over",
-   "url": "https://www.sammobile.com/news/samsung-galaxy-s24-ultra-owners-love-their-phones-waiting-upgrade/",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Phone 's24 ultra' already covered in: مقارنة بين Samsung Galaxy S25 Ultra وSamsung Galaxy S24 Ultra"
-  },
-  {
-   "title": "An old Samsung accessory I almost threw away pairs perfectly with my Galaxy Z Fold 8",
-   "url": "https://www.sammobile.com/opinion/old-samsung-accessory-pairs-perfectly-galaxy-z-fold-8/",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (692 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Sam Altman shared his vision of ‘the next version of the smartphone’ with 50 Samsung executives",
-   "url": "https://www.sammobile.com/news/sam-altman-shared-his-vision-of-the-next-version-of-the-smartphone-with-50-samsung-executives/",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (628 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Galaxy Z Fold 8 helps Samsung capture 69% foldable market share, its highest in years",
    "url": "https://www.sammobile.com/news/galaxy-z-fold-8-samsung-capture-69-percent-foldable-market-share-highest-in-years/",
    "at": "2026-11-12",
@@ -3215,6 +3156,62 @@
    "ok": true,
    "kind": "news",
    "brand": "اوبو"
+  },
+  {
+   "title": "Here's what will decide which chipset powers the vivo X Fold7 - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeWNyU05mRk15WThGTUlsT0xlaU5CU0VZN3pBa0Y5ZFA4eEtvSUkxdll2NjZyTVhMb2lZaGpBRmp0dDFmdnkyS3FZTml1MmxYR29yNnllYmNDclhyQ2V3RzBUQ3hQN2c4MmxZTGJNQnk3bktITVZKdnRrUkZYR1J6MldmOHBEck9ETEVDakdUdG5jMHRtTzJBUmJUZDdjNk56ZnfSAZ4BQVVfeXFMTzFjaExSYVAyTmd4VE5BcEJHdU5OSjktZXlQRU15MU5sbVg1SHN0TlJnUnhudWFQZUMxWVdBZll1YTVKbU1EcUdqQzJ2OVRyRGlJalZQU3QwNnpNVlVET3VqeWlralczYTFhRUpVcVpHdDM5Vkw0N0gwMzRiNm8xTzNQT3VfTGZwUExSMUFSOWVncnNIVzdJd3RVMjhfcWc?oc=5",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Phone 'fold7' already covered in: صراع العمالقة في vivo X Fold7: المعالج الذي سيحسم المنافسة"
+  },
+  {
+   "title": "Motorola confirms Edge 70 Neo launch date and key specs - news.lavx.hu",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLUtGb2lsVWs2Uy1UUHZmZDV1LVlXMjBCR3R6Z1NqYl9aZVhZQThOalY4RWtOeEwzTVpRV2xDWEVVaklkQUxUenNXRUFDUnYyLWc2cnBJWVR6LUp0UWZWZHRxQnVaRXRGUnlqaVQ3emNGTGdtWlRjMmlqNmpUXzNfajVfRm9vd29EcnV4dA?oc=5",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
+  },
+  {
+   "title": "Cell Phone Drive Collecting Devices for Victims of Violent Crime - KOTA",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNC1YeFFCTG1mQV9QQ0xfZlR0aFlRWWhHdldoeVFpdlBFc3RVcUhodTdkREJkXzk1UE9uZExQeEMyQXl1SWtINWZHQVJPQ1FENTM3ak1wUHVZcXIxWWRzUzdtcG83SmpJUkNFSjU3bDlXcXI0cmxQWDUtS3ZnMVZvaVBsNXpGbHM0MkhWOWI0dnlSLWJEMmNTRmtoOUwzcVh4Nmpvcg?oc=5",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Pixel 12 Series: Everything We Know About Google’s Next Phones - Droid Life",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYmFLVTh3RWdWQXNUVXl0TFBJcmw0SHJNMG1qMERCekdoeFFFeGc2VWlnUUkzNDFCeFlFcHNzRlVMdGVJN1hCLTAxMWpSZmhVVEFuR1Nfb0RHbHVUMjBZQzRGTmtFRENPNG5ZdUxqVnJPX2xHTHNsTmZpVV9WSGRZX2tVRmpDWldRc0Z6Vko0TUFqQQ?oc=5",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (645 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "T-Mobile Introduces T-Mix, an Innovative Phone Plan That Lets You Choose What's Included - The Hollywood Reporter",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSGdwWFllUTcwc095YkdCNFNSWXNSN1JDSmlvOVMzcS1WakVybkNxQnhtbnVTVkczREx3NWczMFcwWklQb1lLbUVNYmlESW1halZJejhodDRBTnNpUm4xWVU1Qm1ENW5DQ2tmeGo2T3NIQ3pFdmw0eVhVUlhGZHhIRUJ3UzJvcjdQYVRBRHpUTU1uRnRvLUZPMnhpVmMwbUp5SEFlVkJCU1l4QTA5MWo4cGhSTmFEMC1UVUhGTnBVSQ?oc=5",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Xiaomi 18 Pro and Pro Max Singapore: prices, specs and rear screen - https://potions.sg/",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV3Y3czBBa01XdXdHbGNCMktMWjg1cjBrUl90eHU4ZEo5dG9pVFF6VU4xY1Jpb0RYdXVXSFF4NFd1ZkZzQmFnN2daOFFYSVVqREJVMGVFZEcyb09FeUJaNlRYb0JFa0lPcnlUcEMxRjJPc0F4aUdTVDQ1SGpHaFY5U1B3SFVqUWs?oc=5",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
+  },
+  {
+   "title": "مراجعة Huawei Osta O1 Pro: ثورة في التصميم والشاشة بتجربة بصرية",
+   "cand_title": "Huawei Osta O1 Pro",
+   "url": "https://www.gsmarena.com/huawei_osta_o1_pro-15088.php",
+   "raw_photo": "https://fdn2.gsmarena.com/vv/pics/huawei/huawei-osta-o1-pro-1.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/huawei-osta-o1-pro-review-specs.html",
+   "at": "2026-11-20T03:44:44+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "هواوي"
   }
  ]
 }
