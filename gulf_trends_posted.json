@@ -199,6 +199,15 @@
       "err": [
         "banned topic"
       ]
+    },
+    {
+      "q": "نتيجة النصر",
+      "country": "SA",
+      "at": "2026-11-20T23:06:06.038227+02:00",
+      "ok": false,
+      "err": [
+        "banned topic"
+      ]
     }
   ]
 }
