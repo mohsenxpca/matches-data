@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.saarnews.com/service/wetter-im-saarland-am-06-11-2026-die-aktuelle-vorhersage/",
-   "t": "Wetter im Saarland am 06.11.2026: die aktuelle Vorhersage",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "الـ body 340 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حاله', 'طقس'}) مع تشابه نصي مع: حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام)"
-   ]
-  },
-  {
    "u": "https://www.almasryalyoum.com/news/details/4402512",
    "t": "«الشوارع هتغرق».. بيان عاجل بشأن حالة الطقس اليوم : تحول مفاجئ والأمطار تصل القاهرة",
    "at": "2026-11-06",
@@ -3396,6 +3386,16 @@
    "reason": [
     "الأرقام دي مش موجودة في المصدر، احذفها: 3"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7188045",
+   "t": "بقوة 845 حصانا.. المواصفات الكاملة لأيقونة تسلا سايبرتراك",
+   "title": "مواصفات تسلا سايبرتراك بقوة 845 حصانا وشحن سريع",
+   "url": "https://www.egyptaway.com/2026/11/tesla-cybertruck-specs-egypt.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2026/11/large/622146836911020261120070928928.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-21T01:03:29.256748+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
