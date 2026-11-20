@@ -2182,6 +2182,18 @@
    "at": "2026-11-20",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "جنيه",
+   "at": "2026-11-20",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "محمد أنور السادات",
+   "at": "2026-11-20",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
