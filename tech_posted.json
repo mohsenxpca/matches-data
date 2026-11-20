@@ -1291,6 +1291,28 @@
    "t": "Android 17 QPR3 update could bring 'monster' battery life to Pixel phones",
    "at": "2026-11-19",
    "ok": false
+  },
+  {
+   "u": "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming",
+   "t": "FCC greenlights rule allowing prisons to jam cellphone signals",
+   "at": "2026-11-20",
+   "ok": false
+  },
+  {
+   "u": "https://www.androidpolice.com/replaced-gmail-scrolling-with-gemini-features-that-summarize-threads-draft-replies/",
+   "t": "I replaced endless Gmail scrolling with 5 Gemini features that summarize threads and draft replies",
+   "at": "2026-11-20",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/gemini-features-in-gmail.html",
+   "title": "كيف تستخدم Gemini لتلخيص رسايل Gmail وكتابة الردود بسهولة"
+  },
+  {
+   "u": "https://www.androidpolice.com/gemini-decides-where-you-spend/",
+   "t": "Before Gemini does your holiday shopping, make sure it isn't picking the pricier app",
+   "at": "2026-11-20",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/gemini-connected-apps-shopping-warning.html",
+   "title": "Gemini بيسوق بدالك؟ خلى بالك عشان محفظتك"
   }
  ]
 }
