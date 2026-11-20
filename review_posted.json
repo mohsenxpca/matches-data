@@ -1,69 +1,6 @@
 {
  "done": [
   {
-   "title": "Galaxy Z Fold 8 helps Samsung capture 69% foldable market share, its highest in years",
-   "url": "https://www.sammobile.com/news/galaxy-z-fold-8-samsung-capture-69-percent-foldable-market-share-highest-in-years/",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
-   "title": "Apples and Galaxy Z Fold 8 storm the football pitch during Zurich All-Star Game 2026",
-   "url": "https://www.sammobile.com/news/apples-galaxy-z-fold-8-storm-football-pitch-during-zurich-all-star-game-2026/",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (476 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Blue Phone gives Google’s Pixel 10 Pro an AI assistant that goes beyond Gemini",
-   "url": "https://www.androidauthority.com/blue-os-google-pixel-10-pro-3733835/",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (619 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "سامسونج تطور هاتفا بشاشة قابلة للتمدد رأسيًا.. التفاصيل الكاملة",
-   "cand_title": "Samsung reportedly working on a phone with an expandable display - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOazk0RnBvbl9ydVVRdmozVnJFUE42MHBYSTROb2hob2xzWDRmeUJxWUJ0Z2lSNUNFV1VzTjB2V0hYdjNaZWJUYndRTW85ZGhHakw1cnlpdW9MUEFGRnB3dkg2aGdqajFWNlpsZHFhLTdObDdmaW1qWWxLaWphQUZjUmpvWUtHS09qUjBYdHFFMjZ6a2RHMERibkF4MEhXVEhTd1BXU0JmMA?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-expandable-display-phone-details.html",
-   "at": "2026-11-12T01:28:47+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "Infinix Smart 20 HD vs vivo V80 FE",
-   "url": "https://www.gsmarena.com/infinix_smart_20_hd-15079.php||https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Phone 'v80 fe' already covered in: إطلاق هاتف Vivo V80 FE ببطارية 7000 ملي أمبير وكاميرات ZEISS"
-  },
-  {
-   "title": "Honor Choice T10 vs Oppo Reno17 (China)",
-   "url": "https://www.gsmarena.com/honor_choice_t10-15080.php||https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
-  },
-  {
-   "title": "Honor said to be testing a wide-screen phone with an 8,000mAh battery - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNang4b3JvVmZZclowMWdWWTZ0RXUydTJaRE52ZUdYbjE0Sno3UkhiWmZuUGdqdTRYUmRmbHhPRUpLTzg1eUJpLXN1WmVNbnMzRE5WcGcxaTZDRkV0TTYtcWVwb2lCMmhVNy1ud1dYSC01cGs4bzl1OWVla25ZU3JpWkl6bFRPd185c0wzaFh6QURJYjdLeER5NDYyS21qUTR0NTZfLXhnenhVRmM?oc=5",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['said', 'wide', 'testing', '000mah']"
-  },
-  {
-   "title": "Google's November Pixel Drop brings Gemini Intelligence to the Pixel 10 - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY0ZtdHE3c2JRT1pzWEdxbnd0WWdwZlBWb2VzVHBSZmNjZHYtYldhamNzdXdsVlZkWXUyNGtNRTNjSS1aN1RWd3RiU2JuTnpTTXh5MTZJUUFZZFJFTjkyOE9hWlFpa3F4ZlJoQ2lremJDR0lTV3d2bnRyaGJIcEQwcnF4Vzl3eGlxNnJ6cXc1SUhQSnlFLWF0QThxMmw1Q00wekREeE5RTTNHeWdpR1lF?oc=5",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['gemini', 'drop', 'november', 'brings']"
-  },
-  {
    "title": "Poco X8s is now available in Europe, here's how much it costs - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaDZraTZMWU9VajZ0V0ZWNVFUYlo3dTJrelFBLXpRc0RNbjI3c05jbGJQRnlJa2o4TGQzQUtSZWp3azh5LWptWEdCYVBHTk9tcldYcjhiTzFnY290M2xWU1lRcGlfUVZ3YWhZVGRleXZ5b3Vkc0ROVTdMT1FuR0YyV09CcTE5TlNVdlI4WFA2ZEE1ZGpSZklwRDVBUjNsdkN10gGcAUFVX3lxTE41REdUNkxsUWhOdzMwbmczbUlnMEhmdnRQVWtHNWdWRzNsS1RmU3FVdlFfVVdrbEpKUnpOUW1ZUVVRcU1oVmd5Mkdmc2ZOcTRaUXc2NzFZeWQyelV3ZS1hRy1zTkU1a1Vjbnc2UnJMRERVVmwyUUZsWjdTRExiQlR4ZGtQX2FmS01pMkE2a1NFSUpELTlaNnpWdmpjYw?oc=5",
    "at": "2026-11-12",
@@ -3212,6 +3149,70 @@
    "ok": true,
    "kind": "review",
    "brand": "هواوي"
+  },
+  {
+   "title": "Huawei Osta O1 Pro vs itel City 300",
+   "url": "https://www.gsmarena.com/huawei_osta_o1_pro-15088.php||https://www.gsmarena.com/itel_city_300_5g-15092.php",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Phone 'o1 pro' already covered in: مراجعة Huawei Osta O1 Pro: ثورة في التصميم والشاشة بتجربة بصرية"
+  },
+  {
+   "title": "itel City 300 vs Xiaomi 18 Pro",
+   "url": "https://www.gsmarena.com/itel_city_300_5g-15092.php||https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
+  },
+  {
+   "title": "Deal: the Poco F9 Ultra and Poco F9 Pro have £220 discounts on Amazon UK for Black Friday",
+   "url": "https://www.gsmarena.com/deal_the_poco_f9_ultra_and_poco_f9_pro_have_220_discounts_on_amazon_uk_for_black_friday-news-75569.php",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['black', 'friday', 'deal', 'amazon']"
+  },
+  {
+   "title": "Huawei Osta 1 Pro debuts",
+   "url": "https://www.gsmarena.com/huawei_osta_1_pro_debuts_in_china_-news-75562.php",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (540 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Motorola Razr Flex certification reveals an unexpected chipset as a live image leaks",
+   "url": "https://www.gsmarena.com/motorola_razr_flex_certification_reveals_an_unexpected_chipset_as_a_live_image_leaks-news-75553.php",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['motorola', 'flex', 'razr']"
+  },
+  {
+   "title": "Xiaomi 18 pre-reservations are now live in China",
+   "url": "https://www.gsmarena.com/xiaomi_18_prereservations_are_now_live_in_china-news-75561.php",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18' already covered in: حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد"
+  },
+  {
+   "title": "Lava Smart 4 Pro announced with a 7,000 mAh battery",
+   "url": "https://www.gsmarena.com/lava_smart_4_pro_features_price_sale_date-news-75559.php",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (579 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "كيف فرضت أبل سيطرتها على سوق الهواتف الأمريكي المتقلص؟",
+   "cand_title": "Apple tightens its grip on a shrinking US smartphone market",
+   "url": "https://www.gsmarena.com/apple_tightens_its_grip_on_a_shrinking_us_smartphone_market-news-75556.php",
+   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/counterpoint-us-q3-shipments/-952x498w6/gsmarena_000.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/apple-tightens-grip-us-smartphone-market.html",
+   "at": "2026-11-21T00:24:13+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
