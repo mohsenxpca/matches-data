@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.mallorca-services.es/herbstliches-wetter-am-zweiten-novemberwochenende-auf-mallorca/",
-   "t": "Herbstliches Wetter am zweiten Novemberwochenende auf Mallorca",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "الـ body 301 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'طقس', 'حاله'}) مع تشابه نصي مع: حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام)"
-   ]
-  },
-  {
    "u": "https://actus.meteocity.com/previsions-meteo/profitez-de-samedi-ensoleille-en-bretagne-jusque-12-degc-a-saint-brieuc-pluie-et-vent-en-hausse-dimanche-14724",
    "t": "Profitez de samedi ensoleillé en Bretagne : jusque 12 °C à Saint-Brieuc, pluie et vent en hausse dimanche",
    "at": "2026-11-06",
@@ -3395,6 +3385,16 @@
    "reason": [
     "الـ body 447 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/20/رغم-أزمة-رحيل-رئيسها-التنفيدى-إنفيديا-تقفز-بتعاقدات-تصل-لـ390/7625566",
+   "t": "رغم أزمة رحيل رئيسها التنفيدى.. إنفيديا تقفز بتعاقدات تصل لـ390 مليار دولار",
+   "title": "قفزة كبرى لإنفيديا بتعاقدات توريد تصل لـ390 مليار دولار",
+   "url": "https://www.egyptaway.com/2026/11/nvidia-contracts-jump-390-billion.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202510071254405440.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-20T12:11:50.490823+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
