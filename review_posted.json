@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Apple’s iPhone dominates Android phones in CNET’s 120-hour battery life testing - MacDailyNews",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWkFCclFJSVJFMi04UFdhWTRTbWt0OF9RUW56cEdKZ0xPSHIta1lLTi1NTDRUOXk4UG1yeURDRWVFTTEzdlVqZG5TUmRqNk5XZHF0Ukh4dEZfbmJsS3ZNdmlrVllzazhGZ0cxOFNVOTE0SmMxaWRsZ25tMUc5cHEzZzNnZmwxT18xX2lDSEYyUW12WmhYUHY3UDVZX01IZEhGTjdIbHl4Vmx0YjBOcUNyS1l6LV_SAboBQVVfeXFMTnphTWJubkI3RGtqVE5aaHBpeUQxdEk4enZzVUI2QU5uU2FGWXpSWG0yMTE2NzBoc1pRVWFYd1JKUmwwR2Y2XzJpZk1scDB4LTVxZ2NCODYtTFdfOFZ1OGhiRkRUOVdENVdsSTluME9sSUZtaFo2SnNzanJYaHdhSG1oTmJrTUdJVGctb3FQS05fa0YyZlhyQVBEcGJuY19LUFplU3I0dDRMVm5XZHFYVWFFcXViMDJOeXJ3?oc=5",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
    "title": "Samsung Galaxy Z Roll Could Stretch Upward From Compact to Taller Screen - TechEBlog -",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWXNxRzV5ODA5clB3UTZ0eDZmcURENnM3Z2Fmck5TbHpuWXh5dFdDLWlxRDN3dXRaeXRuNEwyMGdjNnZvTllzbnhaeG9EWGhIRjVOMktfemdsUnB1NFR5ZlNzVDE2TFlybFJ5VnBqSjh6NVlwN0I3Z1ktVnl3a1YzWmNzb0VQMzlyV29vUw?oc=5",
    "at": "2026-11-12",
@@ -3211,6 +3204,17 @@
    "ok": true,
    "kind": "news",
    "brand": "اوبو"
+  },
+  {
+   "title": "سامسونج تضع اللمسات الأولى لـ Galaxy Z Fold 9: تفاصيل تقنية وموعد",
+   "cand_title": "Samsung Galaxy Z Fold 9 and Galaxy Z Fold 9 Ultra appear on IMEI database, launch inching closer",
+   "url": "https://www.gizmochina.com/2026/11/20/samsung-galaxy-z-fold-9-imei-database-listing/",
+   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/10/Samsung-Galaxy-Z-Fold-8_1.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-z-fold-9-imei.html",
+   "at": "2026-11-21T01:22:46+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
