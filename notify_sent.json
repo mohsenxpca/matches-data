@@ -1,7 +1,6 @@
 {
  "sent": [],
  "indexed": [
-  "https://www.egyptaway.com/2026/11/housing-minister-follows-up-suis.html",
   "https://www.egyptaway.com/2026/11/human-development-expert-warns-mobile.html",
   "https://www.egyptaway.com/2026/11/harada-slates-xbox-series-s.html",
   "https://www.egyptaway.com/2026/11/playstation-5-reaches-100m-sales.html",
@@ -400,10 +399,10 @@
   "https://www.egyptaway.com/2026/11/samsung-galaxy-a56-a26-november-patch.html",
   "https://www.egyptaway.com/2026/11/xiaomi-smart-band-11-vs-watch-s5.html",
   "https://www.egyptaway.com/2026/11/xiaomi-smart-door-lock-5-face.html",
-  "https://www.egyptaway.com/2026/11/xiaomi-18-pre-reservations-live.html"
+  "https://www.egyptaway.com/2026/11/xiaomi-18-pre-reservations-live.html",
+  "https://www.egyptaway.com/2026/11/samsung-origin-googlebook-one-ui-95.html"
  ],
  "tg": [
-  "https://www.egyptaway.com/2026/11/housing-minister-follows-up-suis.html",
   "https://www.egyptaway.com/2026/11/human-development-expert-warns-mobile.html",
   "https://www.egyptaway.com/2026/11/harada-slates-xbox-series-s.html",
   "https://www.egyptaway.com/2026/11/playstation-5-reaches-100m-sales.html",
@@ -802,7 +801,8 @@
   "https://www.egyptaway.com/2026/11/samsung-galaxy-a56-a26-november-patch.html",
   "https://www.egyptaway.com/2026/11/xiaomi-smart-band-11-vs-watch-s5.html",
   "https://www.egyptaway.com/2026/11/xiaomi-smart-door-lock-5-face.html",
-  "https://www.egyptaway.com/2026/11/xiaomi-18-pre-reservations-live.html"
+  "https://www.egyptaway.com/2026/11/xiaomi-18-pre-reservations-live.html",
+  "https://www.egyptaway.com/2026/11/samsung-origin-googlebook-one-ui-95.html"
  ],
  "fb": [
   "https://www.egyptaway.com/2026/11/samsung-galaxy-tab-a11-plus-android-17.html",
@@ -826,7 +826,8 @@
   "https://www.egyptaway.com/2026/11/xiaomi-19-series-screen-leak.html",
   "https://www.egyptaway.com/2026/11/honor-7-inch-13500mah-phone-leak.html",
   "https://www.egyptaway.com/2026/11/galaxy-s27-pro-chipset-leak.html",
-  "https://www.egyptaway.com/2026/11/xiaomi-smart-band-11-vs-watch-s5.html"
+  "https://www.egyptaway.com/2026/11/xiaomi-smart-band-11-vs-watch-s5.html",
+  "https://www.egyptaway.com/2026/11/samsung-origin-googlebook-one-ui-95.html"
  ],
  "fb_history": [
   {
@@ -982,6 +983,13 @@
    "mode": "link",
    "at": "2026-11-20T14:01:13+02:00",
    "fb_id": "1959788610952661_1635273318613882"
+  },
+  {
+   "url": "https://www.egyptaway.com/2026/11/samsung-origin-googlebook-one-ui-95.html",
+   "title": "سامسونج تطور لابتوب Origin بنظام Googlebook",
+   "mode": "link",
+   "at": "2026-11-20T16:01:20+02:00",
+   "fb_id": "1959788610952661_1635380231936524"
   }
  ]
 }
