@@ -12,13 +12,14 @@ import argparse, colorsys, datetime, hashlib, html, io, json, os, random, re, sy
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
-from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps, features
 try:
     import arabic_reshaper
     from bidi.algorithm import get_display
 except Exception:
     arabic_reshaper = None
     get_display = None
+HAS_RAQM = bool(features.check("raqm"))
 import football as f
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -108,8 +109,28 @@ def first_image(body, post=None):
     return None
 
 
+SAMSUNG_RX = re.compile(r"(سامسونج|جالاكسي|جلاكسي|\bsamsung\b|\bgalaxy\b|\bone\s*ui\b)", re.I)
+
+NON_PHONE_DEVICE_RX = re.compile(
+    r"(لابتوب|لابتوبات|\blaptop\b|\bmacbook\b|\bgooglebook\b|\bchromebook\b|"
+    r"تلفزيون|تلفاز|غسالة|ثلاجة|مكنسة|مكيف|ساعة\s*ذكية|\bsmartwatch\b|\bwalkie[\s-]?talkie\b)",
+    re.I
+)
+
+
+def is_samsung_post(post):
+    title = html.unescape(post.get("title", ""))
+    labels = set(post.get("labels") or [])
+    if "سامسونج" in labels:
+        return True
+    return bool(SAMSUNG_RX.search(title))
+
+
 def is_phone_post(post, blog_id=None):
     url = post.get("url", "")
+    title = html.unescape(post.get("title", ""))
+    if NON_PHONE_DEVICE_RX.search(title) and not re.search(r"(هاتف|موبايل|آيفون|ايفون|\biphone\b|galaxy\s*[sazmf]\d)", title, re.I):
+        return False
     if blog_id == REVIEW_BLOG or "review-mobile.com" in url:
         return True
     labels = set(post.get("labels") or [])
@@ -117,7 +138,6 @@ def is_phone_post(post, blog_id=None):
         return True
     if labels & NON_PHONE_EA_LABELS:
         return False
-    title = html.unescape(post.get("title", ""))
     return bool(PHONE_TITLE_RX.search(title))
 
 
@@ -713,6 +733,8 @@ def _load_ar_font(size, bold=False):
 def _shape_ar(text):
     if not text:
         return ""
+    if HAS_RAQM:
+        return text
     if arabic_reshaper and get_display:
         try:
             return get_display(arabic_reshaper.reshape(text))
@@ -721,12 +743,31 @@ def _shape_ar(text):
     return text
 
 
+def _ar_textlength(draw, text, font):
+    if HAS_RAQM:
+        try:
+            return draw.textlength(text, font=font, direction="rtl", language="ar")
+        except Exception:
+            return draw.textlength(text, font=font)
+    return draw.textlength(_shape_ar(text), font=font)
+
+
+def _draw_ar_text(draw, xy, text, font, fill):
+    if HAS_RAQM:
+        try:
+            draw.text(xy, text, font=font, fill=fill, direction="rtl", language="ar")
+            return
+        except Exception:
+            pass
+    draw.text(xy, _shape_ar(text), font=font, fill=fill)
+
+
 def _wrap_ar_lines(draw, text, font, max_w, max_lines=3):
     words = (text or "").split()
     lines, cur = [], ""
     for w in words:
         cand = (cur + " " + w).strip()
-        if draw.textlength(_shape_ar(cand), font=font) <= max_w or not cur:
+        if _ar_textlength(draw, cand, font) <= max_w or not cur:
             cur = cand
         else:
             lines.append(cur)
@@ -858,9 +899,8 @@ def build_story_image_bytes(base_im, title, content="", save_preview_path=None):
     title_lines = _wrap_ar_lines(d, clean_title, f_title, max_w=(bx2 - bx1 - 96), max_lines=3)
     ty = by1 + 78
     for ln in title_lines:
-        shaped = _shape_ar(ln)
-        tw = d.textlength(shaped, font=f_title)
-        d.text((bx2 - 48 - tw, ty), shaped, font=f_title, fill=(255, 255, 255, 255))
+        tw = _ar_textlength(d, ln, f_title)
+        _draw_ar_text(d, (bx2 - 48 - tw, ty), ln, f_title, (255, 255, 255, 255))
         ty += 68
 
     # Divider
@@ -878,18 +918,17 @@ def build_story_image_bytes(base_im, title, content="", save_preview_path=None):
         # Accent bullet dot on the right
         d.ellipse((bx2 - 68, ty + 16, bx2 - 52, ty + 32), fill=(*accent_rgb, 245))
         for bl in b_lines:
-            shaped = _shape_ar(bl)
-            tw = d.textlength(shaped, font=f_bul)
-            d.text((bx2 - 84 - tw, ty), shaped, font=f_bul, fill=(226, 232, 240, 240))
+            tw = _ar_textlength(d, bl, f_bul)
+            _draw_ar_text(d, (bx2 - 84 - tw, ty), bl, f_bul, (226, 232, 240, 240))
             ty += 48
         ty += 18
         if ty > by2 - 140:
             break
 
     # Bottom CTA pill inside the card
-    cta_text = _shape_ar("التفاصيل الكاملة في أحدث بوست على الصفحة")
+    cta_raw = "التفاصيل الكاملة في أحدث بوست على الصفحة"
     f_cta = _load_ar_font(28, bold=True)
-    cta_w = d.textlength(cta_text, font=f_cta)
+    cta_w = _ar_textlength(d, cta_raw, f_cta)
     pill_w = min(bx2 - bx1 - 80, int(cta_w) + 84)
     px1 = (W - pill_w) // 2
     py1 = by2 - 102
@@ -898,7 +937,7 @@ def build_story_image_bytes(base_im, title, content="", save_preview_path=None):
     # Pick dark or light text on the pill depending on accent brightness
     acc_lum = 0.299 * accent_rgb[0] + 0.587 * accent_rgb[1] + 0.114 * accent_rgb[2]
     cta_ink = (10, 16, 28, 255) if acc_lum > 145 else (255, 255, 255, 255)
-    d.text(((W - cta_w) // 2, py1 + 14), cta_text, font=f_cta, fill=cta_ink)
+    _draw_ar_text(d, ((W - cta_w) // 2, py1 + 14), cta_raw, f_cta, cta_ink)
 
     out_rgb = canvas.convert("RGB")
     if save_preview_path:
@@ -986,8 +1025,8 @@ def post_daily_story(title, url, image_url=None, content="", dry=False, force=Fa
         return False
 
 
-def run_daily_story(dry=False, force=False, lookback_hours=36, preview_path=None):
-    """Checks if today's Facebook Page Story has been published; if not, picks the freshest phone article and publishes it."""
+def run_daily_story(dry=False, force=False, lookback_hours=72, preview_path=None):
+    """Checks if today's Facebook Page Story has been published; prioritizes Samsung phone articles first."""
     state = load_state()
     now = datetime.datetime.now(f.CAIRO)
     today = now.date().isoformat()
@@ -1007,7 +1046,7 @@ def run_daily_story(dry=False, force=False, lookback_hours=36, preview_path=None
     for blog_id, site_name in [(REVIEW_BLOG, "Review"), (EA_BLOG, "Egyptaway")]:
         try:
             res = f.api("GET", f"/blogs/{blog_id}/posts", tok, {
-                "status": "live", "startDate": since, "maxResults": 15,
+                "status": "live", "startDate": since, "maxResults": 20,
                 "fetchBodies": "true", "fetchImages": "true"
             })
             items = res.get("items", []) if isinstance(res, dict) else []
@@ -1016,7 +1055,7 @@ def run_daily_story(dry=False, force=False, lookback_hours=36, preview_path=None
                 if not u or u in done_story_urls:
                     continue
                 if is_phone_post(p, blog_id=blog_id):
-                    candidates.append((p.get("published", ""), p))
+                    candidates.append((1 if is_samsung_post(p) else 0, p.get("published", ""), p))
         except Exception as ex:
             print(f"Facebook Story scan warning ({site_name}): {ex}")
 
@@ -1024,17 +1063,19 @@ def run_daily_story(dry=False, force=False, lookback_hours=36, preview_path=None
         print("Facebook Daily Story: no recent phone article candidates found.")
         return False
 
-    candidates.sort(key=lambda x: x[0], reverse=True)
-    _, p = candidates[0]
+    # Samsung phone articles first, then newest
+    candidates.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    is_sam, _, p = candidates[0]
+    print(f"Facebook Daily Story selected (Samsung={bool(is_sam)}): {p['title']}")
     u = p["url"].replace("http://", "https://")
     img = first_image(p.get("content"), post=p)
     return post_daily_story(p["title"], u, image_url=img, content=p.get("content"), dry=dry, force=force, preview_path=preview_path)
 
 
-def run_auto(dry=False, force=False, mode="auto", lookback_hours=24, max_per_run=1, preview_path=None):
-    # Always check & publish the 1-per-day Facebook Page Story automatically
+def run_auto(dry=False, force=False, mode="auto", lookback_hours=48, max_per_run=1, preview_path=None):
+    # Always check & publish the 1-per-day Facebook Page Story automatically (Samsung priority)
     try:
-        run_daily_story(dry=dry, force=False, lookback_hours=36)
+        run_daily_story(dry=dry, force=False, lookback_hours=72)
     except Exception as ex:
         print(f"Facebook Daily Story warning: {ex}")
 
@@ -1056,7 +1097,7 @@ def run_auto(dry=False, force=False, mode="auto", lookback_hours=24, max_per_run
             res = f.api("GET", f"/blogs/{blog_id}/posts", tok, {
                 "status": "live",
                 "startDate": since,
-                "maxResults": 20,
+                "maxResults": 25,
                 "fetchBodies": "true",
                 "fetchImages": "true"
             })
@@ -1066,15 +1107,17 @@ def run_auto(dry=False, force=False, mode="auto", lookback_hours=24, max_per_run
                 if not u or u in done_fb:
                     continue
                 if is_phone_post(p, blog_id=blog_id):
-                    candidates.append((p.get("published", ""), site_name, p))
+                    candidates.append((1 if is_samsung_post(p) else 0, p.get("published", ""), site_name, p))
         except Exception as ex:
             print(f"Facebook scan warning ({site_name}): {ex}")
 
-    candidates.sort(key=lambda x: x[0], reverse=True)
-    print(f"Facebook Phone Auto-Poster: {len(candidates)} unposted phone post(s) available.")
+    # Samsung phone articles ALWAYS get top priority, then newest
+    candidates.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    sam_count = sum(1 for c in candidates if c[0] == 1)
+    print(f"Facebook Phone Auto-Poster: {len(candidates)} unposted phone post(s) available ({sam_count} Samsung).")
 
     posted_count = 0
-    for _, site_name, p in candidates[:max_per_run]:
+    for is_sam, _, site_name, p in candidates[:max_per_run]:
         u = p["url"].replace("http://", "https://")
         img = first_image(p.get("content"), post=p)
         actual_mode = choose_next_mode(state, mode)
