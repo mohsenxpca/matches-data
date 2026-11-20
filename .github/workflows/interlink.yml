@@ -43,7 +43,7 @@ jobs:
           else
             DAYS="${{ github.event.inputs.days || '2' }}"
             SITE="${{ github.event.inputs.site || 'all' }}"
-            python -u interlink_engine.py --site "$SITE" --days "$DAYS" --confirm
+            python -u interlink_engine.py --site "$SITE" --days "$DAYS" --backfill 15 --confirm
           fi
         env:
           BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}

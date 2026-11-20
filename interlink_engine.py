@@ -462,14 +462,14 @@ def link_new_live_post(site_key, new_post):
         except Exception as e:
             print(f"  Warning reciprocal linking {r_url}: {e}")
 
-def run_interlinker(site_key, limit=30, days=None, all_missing=False, confirm=False):
+def run_interlinker(site_key, limit=30, days=None, all_missing=False, backfill=0, confirm=False):
     blog_id = BLOGS[site_key]["blog_id"]
     domain = BLOGS[site_key]["domain"]
     
     print(f"\n=======================================================")
     print(f"Smart Interlinker for {site_key} ({domain})")
     print(f"Mode: {'CONFIRM (Updating Blogger Live)' if confirm else 'DRY RUN (Preview Only)'}")
-    print(f"Targeting: limit={limit}, days={days}, all_missing={all_missing}")
+    print(f"Targeting: limit={limit}, days={days}, backfill={backfill}, all_missing={all_missing}")
     print(f"=======================================================")
     
     state_file = Path("interlink_posted.json")
@@ -480,43 +480,63 @@ def run_interlinker(site_key, limit=30, days=None, all_missing=False, confirm=Fa
         except Exception:
             done_ids = set()
 
-    catalog = load_catalog(site_key)
+    catalog = load_catalog(site_key, max_posts=500)
     catalog_by_url = {p.get("url", "").split("?")[0]: p for p in catalog}
     print(f"Loaded {len(catalog)} live posts in catalog.")
     
     cutoff_dt = None
-    if days and not all_missing:
+    if days and not all_missing and not backfill:
         cutoff_dt = dt.datetime.now(CAIRO) - dt.timedelta(days=int(days))
 
-    # Fetch posts with bodies
+    # Fetch posts with bodies (collecting recent + up to `backfill` older unprocessed posts)
     posts = []
+    backfill_collected = 0
     page_token = None
-    target_fetch = 200 if all_missing else limit
-    while len(posts) < target_fetch:
+    max_scan = 1500 if (all_missing or backfill) else limit
+    scanned = 0
+    recent_cutoff = dt.datetime.now(CAIRO) - dt.timedelta(days=int(days or 2))
+
+    while scanned < max_scan:
         params = {
             "status": "LIVE",
-            "maxResults": min(100, target_fetch - len(posts)),
+            "maxResults": 50,
             "fetchBodies": "true",
         }
         if page_token: params["pageToken"] = page_token
         res = api_get(f"/blogs/{blog_id}/posts", params)
         items = res.get("items", [])
         if not items: break
+        scanned += len(items)
+        stop_paging = False
         for it in items:
-            if cutoff_dt and it.get("published"):
+            pid = it.get("id")
+            if not all_missing and pid in done_ids:
+                continue
+            is_recent = True
+            if it.get("published"):
                 try:
                     pub_dt = dt.datetime.fromisoformat(it["published"].replace("Z", "+00:00"))
-                    if pub_dt < cutoff_dt:
-                        page_token = None
-                        break
+                    is_recent = pub_dt >= recent_cutoff
                 except Exception:
                     pass
+            if cutoff_dt and not is_recent:
+                stop_paging = True
+                break
+            if not is_recent and backfill > 0:
+                if backfill_collected >= backfill:
+                    stop_paging = True
+                    break
+                backfill_collected += 1
             posts.append(it)
-        else:
-            page_token = res.get("nextPageToken")
+            if not backfill and not all_missing and len(posts) >= limit:
+                stop_paging = True
+                break
+        if stop_paging:
+            break
+        page_token = res.get("nextPageToken")
         if not page_token: break
         
-    print(f"Fetched {len(posts)} posts from Blogger for evaluation.")
+    print(f"Fetched {len(posts)} candidate posts from Blogger (scanned {scanned}).")
     
     # Backup before any modification
     BACKUP_DIR.mkdir(parents=True, exist_ok=True)
@@ -577,7 +597,7 @@ def run_interlinker(site_key, limit=30, days=None, all_missing=False, confirm=Fa
                 state_data = json.loads(state_file.read_text(encoding="utf-8"))
             except Exception:
                 state_data = {}
-        state_data[site_key] = list(done_ids)[-1000:]
+        state_data[site_key] = list(done_ids)[-5000:]
         state_file.write_text(json.dumps(state_data, ensure_ascii=False, indent=2), encoding="utf-8")
         
     print(f"\nSummary for {site_key}:")
@@ -591,10 +611,11 @@ if __name__ == "__main__":
     parser.add_argument("--site", choices=["review", "egyptaway", "all"], default="review")
     parser.add_argument("--limit", type=int, default=30)
     parser.add_argument("--days", type=int, default=None)
+    parser.add_argument("--backfill", type=int, default=0)
     parser.add_argument("--all-missing", action="store_true")
     parser.add_argument("--confirm", action="store_true")
     args = parser.parse_args()
     
     sites = ["review", "egyptaway"] if args.site == "all" else [args.site]
     for s in sites:
-        run_interlinker(s, limit=args.limit, days=args.days, all_missing=args.all_missing, confirm=args.confirm)
+        run_interlinker(s, limit=args.limit, days=args.days, all_missing=args.all_missing, backfill=args.backfill, confirm=args.confirm)
