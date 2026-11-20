@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.yallakora.com/uefa-europa-conference-league/3053/news/572056/%D9%85%D9%87%D8%A7%D8%AC%D9%85-%D8%B7%D8%B1%D8%A7%D8%A8%D8%B2%D9%88%D9%86-%D8%B5%D9%84%D8%A7%D8%AD-%D9%86%D8%AC%D9%85-%D8%B9%D8%A7%D9%84%D9%85%D9%8A-%D9%88%D8%AE%D8%A8%D8%B1%D8%AA%D9%87-%D8%B3%D8%A7%D8%B9%D8%AF%D8%AA%D9%86%D8%A7-%D9%81%D9%8A-%D8%AA%D8%AD%D8%B3%D9%8A%D9%86-%D8%A7%D9%84%D9%86%D8%AA%D8%A7%D8%A6%D8%AC",
-   "t": "مهاجم طرابزون: صلاح نجم عالمي.. وخبرته ساعدتنا في تحسين النتائج",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 0، 1",
-    "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'مؤتمر', 'طرابزون', 'سبور', 'اوروبي'}) مع: محمد صلاح يتألق رغم هزيمة طرابزون سبور في دوري المؤتمر الأوروبي)"
-   ]
-  },
-  {
    "u": "https://www.fanatik.com.tr/en/vincenzo-italiano-was-furious-after-the-loss-we-threw-away-three-points-im-really-angry-2643548",
    "t": "Vincenzo Italiano was furious after the loss! \"We threw away three points—I'm really angry.\"",
    "title": "سيلتيك يهزم بشكتاش 3-2 في الدوري الأوروبي: تفاصيل اللقاء",
@@ -3400,6 +3390,15 @@
    "at": "2026-11-20T00:36:38.226614+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7187048",
+   "t": "12 درجة كاملة.. نزول سريع في الحرارة اليوم والأرصاد تحذر",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": [
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'2026', 'نوفمبر'}) مع تشابه نصي مع: أسعار الوقود اليوم 19 نوفمبر 2026: استقرار تام في المحطات)"
+   ]
   }
  ]
 }
