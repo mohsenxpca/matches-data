@@ -5,9 +5,24 @@ Fixes bad anchors, injects semantic in-text links to related live articles, and 
 import sys, os, re, json, time, urllib.parse
 from pathlib import Path
 from bs4 import BeautifulSoup
-import blogger_api as api
+import football as fb
 from zoneinfo import ZoneInfo
 import datetime as dt
+
+_TOK = None
+def _get_tok():
+    global _TOK
+    if not _TOK:
+        _TOK = fb.token()
+    return _TOK
+
+def api_get(path, params=None):
+    r = fb.api("GET", path, _get_tok(), params=params)
+    return r if isinstance(r, dict) else (r.json() if hasattr(r, "json") else {})
+
+def api_patch_content(blog_id, post_id, new_html):
+    r = fb.api("PATCH", f"/blogs/{blog_id}/posts/{post_id}", _get_tok(), body={"content": new_html})
+    return r if isinstance(r, dict) else (r.json() if hasattr(r, "json") else {})
 
 try:
     sys.stdout.reconfigure(encoding='utf-8', line_buffering=True)
@@ -92,14 +107,43 @@ def extract_phone_brand_or_topic(title, labels):
             return l
     return "general"
 
-def load_catalog(site_key):
-    """Loads all live posts with their metadata and titles."""
+_CATALOG_MEM = {}
+def load_catalog(site_key, max_posts=250):
+    """Loads all live posts with their metadata and titles (from cache or Blogger API)."""
+    if site_key in _CATALOG_MEM:
+        return _CATALOG_MEM[site_key]
     cache_file = CACHE_DIR / f"{site_key}.json"
     if cache_file.exists():
         with open(cache_file, "r", encoding="utf-8") as f:
             data = json.load(f)
-        return [p for p in data if p.get("status") == "live"]
-    return []
+        res_list = [p for p in data if p.get("status") == "live"]
+        _CATALOG_MEM[site_key] = res_list
+        return res_list
+    blog_id = BLOGS[site_key]["blog_id"]
+    out = []
+    page_token = None
+    while len(out) < max_posts:
+        params = {"status": "LIVE", "maxResults": 100, "fetchBodies": "false"}
+        if page_token:
+            params["pageToken"] = page_token
+        res = api_get(f"/blogs/{blog_id}/posts", params)
+        items = res.get("items", [])
+        if not items:
+            break
+        for it in items:
+            out.append({
+                "id": it.get("id"),
+                "url": it.get("url", ""),
+                "title": it.get("title", ""),
+                "labels": it.get("labels", []),
+                "published": it.get("published", ""),
+                "status": "live",
+            })
+        page_token = res.get("nextPageToken")
+        if not page_token:
+            break
+    _CATALOG_MEM[site_key] = out
+    return out
 
 def select_related_articles(post_url, post_title, post_labels, catalog, limit=2):
     """Picks topically closest live articles to link to."""
@@ -254,21 +298,57 @@ def fix_and_interlink_post(content, post_url, post_title, post_labels, site_key,
         if p.find("a") or "ea-rel-link" in p.get("class", []):
             continue
         p_text = p.get_text()
+        matched_here = False
         for kw, (k_url, k_title) in site_keywords.get(site_key, {}).items():
             if kw in p_text and kw not in linked_kws and k_url != clean_post_url:
                 raw_p = str(p)
                 new_p_html = raw_p.replace(kw, f'<a href="{k_url}" title="{k_title}" style="color:#2563eb;font-weight:700;text-decoration:underline;">{kw}</a>', 1)
                 new_p = BeautifulSoup(new_p_html, "html.parser").find("p")
-                p.replace_with(new_p)
-                linked_kws.add(kw)
-                if k_url.startswith("http"):
-                    if "/p/" in k_url:
-                        existing_hub_urls.add(k_url)
-                    else:
-                        existing_article_urls.add(k_url)
-                modified = True
-                fixes_made.append(f"In-text linked keyword '{kw}' inside paragraph -> {k_url}")
-                break
+                if new_p:
+                    p.replace_with(new_p)
+                    linked_kws.add(kw)
+                    if k_url.startswith("http"):
+                        if "/p/" in k_url:
+                            existing_hub_urls.add(k_url)
+                        else:
+                            existing_article_urls.add(k_url)
+                    modified = True
+                    fixes_made.append(f"In-text linked keyword '{kw}' inside paragraph -> {k_url}")
+                    matched_here = True
+                    break
+        if matched_here:
+            continue
+        # Dynamic keyword-to-catalog-article linking for topic entities
+        dyn_kws = [
+            "فودافون كاش", "إنستاباي", "انستاباي", "البنك الأهلي", "بنك مصر",
+            "دريم ليج", "موبايل ليجندز", "روبلوكس", "ببجي", "فري فاير", "GTA 6",
+            "الأهلي", "الزمالك", "محمد صلاح", "منتخب مصر",
+            "سامسونج", "شاومي", "آيفون", "ايفون", "أوبو", "فيفو", "هونر", "ريلمي",
+            "واتساب", "فيسبوك", "اتصالات", "أورنج", "ChatGPT", "الذكاء الاصطناعي"
+        ]
+        for dkw in dyn_kws:
+            if dkw in p_text and dkw not in linked_kws:
+                # Find best live article in catalog whose title contains dkw (and isn't this post or already linked)
+                match_art = next(
+                    (o for o in catalog
+                     if dkw.lower() in o.get("title", "").lower()
+                     and o.get("url", "").split("?")[0] != clean_post_url
+                     and o.get("url", "").split("?")[0] not in existing_article_urls),
+                    None
+                )
+                if match_art:
+                    m_url = match_art["url"].split("?")[0]
+                    m_title = clean_title_for_anchor(match_art["title"])
+                    raw_p = str(p)
+                    new_p_html = raw_p.replace(dkw, f'<a href="{m_url}" title="{m_title}" style="color:#2563eb;font-weight:700;text-decoration:underline;">{dkw}</a>', 1)
+                    new_p = BeautifulSoup(new_p_html, "html.parser").find("p")
+                    if new_p:
+                        p.replace_with(new_p)
+                        linked_kws.add(dkw)
+                        existing_article_urls.add(m_url)
+                        modified = True
+                        fixes_made.append(f"In-text linked keyword '{dkw}' -> {m_url}")
+                        break
 
     # 5. IF 0 HUB LINKS, INJECT A RELEVANT HUB LINK
     if len(existing_hub_urls) == 0 and hubs:
@@ -334,7 +414,7 @@ def link_new_live_post(site_key, new_post):
     fixed_html, fixes = fix_and_interlink_post(new_content, new_url, new_title, new_labels, site_key, catalog_by_url, catalog)
     if fixed_html:
         try:
-            api.update_post(blog_id, new_pid, content=fixed_html)
+            api_patch_content(blog_id, new_pid, fixed_html)
             print("  ✓ Ensured internal links inside the new post itself.")
         except Exception as e:
             print("  Warning updating new post links:", e)
@@ -346,7 +426,7 @@ def link_new_live_post(site_key, new_post):
     for r_url, r_title in related:
         try:
             path = urllib.parse.urlparse(r_url).path
-            old_post = api.call("GET", f"/blogs/{blog_id}/posts/bypath", {"path": path})
+            old_post = api_get(f"/blogs/{blog_id}/posts/bypath", {"path": path})
             if not old_post or not old_post.get("id"):
                 continue
             old_pid = old_post["id"]
@@ -377,41 +457,63 @@ def link_new_live_post(site_key, new_post):
             else:
                 old_soup.append(callout)
                 
-            api.update_post(blog_id, old_pid, content=str(old_soup))
+            api_patch_content(blog_id, old_pid, str(old_soup))
             print(f"  ✓ Added reciprocal backlink in: {old_post.get('title')[:45]}")
         except Exception as e:
             print(f"  Warning reciprocal linking {r_url}: {e}")
 
-def run_interlinker(site_key, limit=100, confirm=False):
+def run_interlinker(site_key, limit=30, days=None, all_missing=False, confirm=False):
     blog_id = BLOGS[site_key]["blog_id"]
     domain = BLOGS[site_key]["domain"]
     
     print(f"\n=======================================================")
     print(f"Smart Interlinker for {site_key} ({domain})")
     print(f"Mode: {'CONFIRM (Updating Blogger Live)' if confirm else 'DRY RUN (Preview Only)'}")
-    print(f"Targeting: up to {limit} posts")
+    print(f"Targeting: limit={limit}, days={days}, all_missing={all_missing}")
     print(f"=======================================================")
     
+    state_file = Path("interlink_posted.json")
+    done_ids = set()
+    if state_file.exists():
+        try:
+            done_ids = set(json.loads(state_file.read_text(encoding="utf-8")).get(site_key, []))
+        except Exception:
+            done_ids = set()
+
     catalog = load_catalog(site_key)
     catalog_by_url = {p.get("url", "").split("?")[0]: p for p in catalog}
     print(f"Loaded {len(catalog)} live posts in catalog.")
     
+    cutoff_dt = None
+    if days and not all_missing:
+        cutoff_dt = dt.datetime.now(CAIRO) - dt.timedelta(days=int(days))
+
     # Fetch posts with bodies
     posts = []
     page_token = None
-    while len(posts) < limit:
+    target_fetch = 200 if all_missing else limit
+    while len(posts) < target_fetch:
         params = {
-            "status": ["live"],
-            "maxResults": min(100, limit - len(posts)),
+            "status": "LIVE",
+            "maxResults": min(100, target_fetch - len(posts)),
             "fetchBodies": "true",
-            "view": "ADMIN"
         }
         if page_token: params["pageToken"] = page_token
-        res = api.call("GET", f"/blogs/{blog_id}/posts", params)
+        res = api_get(f"/blogs/{blog_id}/posts", params)
         items = res.get("items", [])
         if not items: break
-        posts.extend(items)
-        page_token = res.get("nextPageToken")
+        for it in items:
+            if cutoff_dt and it.get("published"):
+                try:
+                    pub_dt = dt.datetime.fromisoformat(it["published"].replace("Z", "+00:00"))
+                    if pub_dt < cutoff_dt:
+                        page_token = None
+                        break
+                except Exception:
+                    pass
+            posts.append(it)
+        else:
+            page_token = res.get("nextPageToken")
         if not page_token: break
         
     print(f"Fetched {len(posts)} posts from Blogger for evaluation.")
@@ -426,6 +528,8 @@ def run_interlinker(site_key, limit=100, confirm=False):
     
     for p in posts:
         pid = p["id"]
+        if not all_missing and pid in done_ids:
+            continue
         purl = p.get("url", "").split("?")[0]
         ptitle = p.get("title", "")
         plabels = p.get("labels", [])
@@ -433,6 +537,7 @@ def run_interlinker(site_key, limit=100, confirm=False):
         
         new_html, fixes = fix_and_interlink_post(pcontent, purl, ptitle, plabels, site_key, catalog_by_url, catalog)
         if not new_html or not fixes:
+            done_ids.add(pid)
             continue
             
         print(f"\n[+] {ptitle[:60]} ({purl})")
@@ -449,10 +554,11 @@ def run_interlinker(site_key, limit=100, confirm=False):
         
         if confirm:
             try:
-                res = api.update_post(blog_id, pid, content=new_html)
+                res = api_patch_content(blog_id, pid, new_html)
                 if res.get("id"):
                     print("      ✓ Updated successfully on Blogger!")
                     updated_posts.append((pid, purl, ptitle, fixes))
+                    done_ids.add(pid)
                 time.sleep(0.5)
             except Exception as e:
                 print(f"      ❌ Error updating on Blogger: {e}")
@@ -463,6 +569,16 @@ def run_interlinker(site_key, limit=100, confirm=False):
         with open(backup_file, "w", encoding="utf-8") as bf:
             json.dump(backups, bf, ensure_ascii=False, indent=2)
         print(f"\nSaved backup of {len(backups)} modified posts to: {backup_file}")
+
+    if confirm:
+        state_data = {}
+        if state_file.exists():
+            try:
+                state_data = json.loads(state_file.read_text(encoding="utf-8"))
+            except Exception:
+                state_data = {}
+        state_data[site_key] = list(done_ids)[-1000:]
+        state_file.write_text(json.dumps(state_data, ensure_ascii=False, indent=2), encoding="utf-8")
         
     print(f"\nSummary for {site_key}:")
     print(f"Evaluated: {len(posts)} posts")
@@ -474,9 +590,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Smart Interlinker for Egyptaway & Review")
     parser.add_argument("--site", choices=["review", "egyptaway", "all"], default="review")
     parser.add_argument("--limit", type=int, default=30)
+    parser.add_argument("--days", type=int, default=None)
+    parser.add_argument("--all-missing", action="store_true")
     parser.add_argument("--confirm", action="store_true")
     args = parser.parse_args()
     
     sites = ["review", "egyptaway"] if args.site == "all" else [args.site]
     for s in sites:
-        run_interlinker(s, limit=args.limit, confirm=args.confirm)
+        run_interlinker(s, limit=args.limit, days=args.days, all_missing=args.all_missing, confirm=args.confirm)
