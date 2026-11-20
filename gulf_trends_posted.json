@@ -208,6 +208,15 @@
       "err": [
         "banned topic"
       ]
+    },
+    {
+      "q": "مباريات",
+      "country": "SA",
+      "at": "2026-11-20T23:36:10.732613+02:00",
+      "ok": false,
+      "err": [
+        "banned topic"
+      ]
     }
   ]
 }
