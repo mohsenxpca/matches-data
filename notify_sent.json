@@ -1,10 +1,6 @@
 {
  "sent": [],
  "indexed": [
-  "https://www.egyptaway.com/2026/11/adel-el-mamour-zamalek-goalkeepers.html",
-  "https://www.egyptaway.com/2026/11/facebook-outage-egypt-2026_0503769740.html",
-  "https://www.egyptaway.com/2026/11/egypt-telecom-balance-transfer-codes.html",
-  "https://www.egyptaway.com/2026/11/saudi-labor-regulations-qiwa-2026.html",
   "https://www.egyptaway.com/2026/11/saudi-super-cup-2026-kuwait.html",
   "https://www.egyptaway.com/2026/11/nbe-certificates-profits-analysis.html",
   "https://www.egyptaway.com/2026/11/ram-vs-storage-difference-explained.html",
@@ -400,12 +396,13 @@
   "https://www.egyptaway.com/2026/11/instagram-amazon-affiliate-program.html",
   "https://www.egyptaway.com/2026/11/samsung-galaxy-s27-pro-geekbench.html",
   "https://www.egyptaway.com/2026/11/samsung-galaxy-s27-ultra-design-leaks.html",
-  "https://www.egyptaway.com/2026/11/apple-tightens-grip-us-smartphone-market.html"
+  "https://www.egyptaway.com/2026/11/apple-tightens-grip-us-smartphone-market.html",
+  "https://www.egyptaway.com/2026/11/gta-6-launch-reactions-comedy.html",
+  "https://www.egyptaway.com/2026/11/xbox-avoids-gta-6-name.html",
+  "https://www.egyptaway.com/2026/11/gta-6-dexter-apartment-easter-egg.html",
+  "https://www.egyptaway.com/2026/11/galaxy-s27-pro-chipset-leak.html"
  ],
  "tg": [
-  "https://www.egyptaway.com/2026/11/adel-el-mamour-zamalek-goalkeepers.html",
-  "https://www.egyptaway.com/2026/11/facebook-outage-egypt-2026_0503769740.html",
-  "https://www.egyptaway.com/2026/11/egypt-telecom-balance-transfer-codes.html",
   "https://www.egyptaway.com/2026/11/saudi-labor-regulations-qiwa-2026.html",
   "https://www.egyptaway.com/2026/11/saudi-super-cup-2026-kuwait.html",
   "https://www.egyptaway.com/2026/11/nbe-certificates-profits-analysis.html",
@@ -802,7 +799,10 @@
   "https://www.egyptaway.com/2026/11/instagram-amazon-affiliate-program.html",
   "https://www.egyptaway.com/2026/11/samsung-galaxy-s27-pro-geekbench.html",
   "https://www.egyptaway.com/2026/11/samsung-galaxy-s27-ultra-design-leaks.html",
-  "https://www.egyptaway.com/2026/11/apple-tightens-grip-us-smartphone-market.html"
+  "https://www.egyptaway.com/2026/11/apple-tightens-grip-us-smartphone-market.html",
+  "https://www.egyptaway.com/2026/11/gta-6-launch-reactions-comedy.html",
+  "https://www.egyptaway.com/2026/11/xbox-avoids-gta-6-name.html",
+  "https://www.egyptaway.com/2026/11/gta-6-dexter-apartment-easter-egg.html"
  ],
  "fb": [
   "https://www.egyptaway.com/2026/11/samsung-galaxy-tab-a11-plus-android-17.html",
@@ -824,7 +824,8 @@
   "https://www.review-mobile.com/2026/11/huawei-osta-o1-pro-review-specs.html",
   "https://www.egyptaway.com/2026/11/ugreen-60w-avs-display-charger.html",
   "https://www.egyptaway.com/2026/11/xiaomi-19-series-screen-leak.html",
-  "https://www.egyptaway.com/2026/11/honor-7-inch-13500mah-phone-leak.html"
+  "https://www.egyptaway.com/2026/11/honor-7-inch-13500mah-phone-leak.html",
+  "https://www.egyptaway.com/2026/11/galaxy-s27-pro-chipset-leak.html"
  ],
  "fb_history": [
   {
@@ -966,6 +967,13 @@
    "mode": "link",
    "at": "2026-11-20T10:01:18+02:00",
    "fb_id": "1959788610952661_1635071011967446"
+  },
+  {
+   "url": "https://www.egyptaway.com/2026/11/galaxy-s27-pro-chipset-leak.html",
+   "title": "تسريب معالج Galaxy S27 Pro لأوروبا وآسيا",
+   "mode": "native",
+   "at": "2026-11-20T12:01:25+02:00",
+   "fb_id": "1959788610952661_1635174491957098"
   }
  ]
 }
