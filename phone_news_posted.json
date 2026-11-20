@@ -1296,6 +1296,24 @@
       "has_real_img": true,
       "at": "2026-11-20T16:41:13.529998+02:00",
       "ok": true
+    },
+    {
+      "title": "Galaxy S27 Pro's Exynos 2700 runs Geekbench, here's how it stacks up against Snapdragon",
+      "orig_link": "https://www.gsmarena.com/galaxy_s27_pros_exynos_2700_runs_geekbench_heres_how_it_stacks_up_against_snapdragon-news-75565.php",
+      "at": "2026-11-21T00:16:11.961148+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (395 كلمة، والمطلوب 420+ كلمة)"
+      ]
+    },
+    {
+      "title": "جوجل توضح سبب عدم دعم هواتف سامسونج لإيموجي Noto 3D",
+      "orig_link": "https://www.sammobile.com/news/google-samsung-galaxy-devices-do-not-support-noto-3d-emojis/",
+      "post_url": "https://www.egyptaway.com/2026/11/google-explains-samsung-noto-3d-emojis.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-21T00:16:11.961148+02:00",
+      "ok": true
     }
   ]
 }
