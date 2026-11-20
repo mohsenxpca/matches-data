@@ -1,40 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro Series Global Launch Date Announced - TelecomTalk",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWjdJa3hNTkt0WmZyVHJXMGc5Qzg5bEgyTWQxQnVlQlAwb0d4OFlmYzk4eFhHS3B5QXgtdkJaVmpfemdoZl9TTkFjT2lwZmhhZ0FkNWtLRlk3SDJPVy1oUDVDM3NaZEM0TE9oWm1yd3FBTWhZeE9QTTc0QmMyQnNoYy1mMTZoc0FzQ2k4?oc=5",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "RedMagic 12 Pro+ vs OnePlus Ace 7 Pro: Specs, Features, Cameras, and Prices Compared - Nokiamob",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVk55bTQxRkY2QUhEZm53NUFGRjB0NWFPblpPY0VVYk5VRXVnR2U1akNQd3N5SU4yNjZjN0RBcWRWc0p5U1hYRXBUbjduWHpDWTZXcFJvTUlvYWEyZUVMLVdtLWVHTlUzcm1IWkNzdUlQSU5xRkt1bThhX3RxYzg0clhyVTFFSXdFTmhaWDFaREttd01HQ3lkVjhhTmlRa1p2Z0k1cHVINU82MDBnbXpXeFJn?oc=5",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Phone 'ace 7 pro' already covered in: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
-   "title": "نهاية دعم هواتف شاومي الشهيرة مع تحديث HyperOS 4.. هل هاتفك ضمن",
-   "cand_title": "These Xiaomi Phones Are No Longer Getting Support With The Latest HyperOS 4 Update - Engadget",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOGFPN3QtelZtQXRnWGs5bi1jSW8yZlhVZHh6UXlfSU9JSnN6R0VlTzhob2ZyUnRVdGlMdV9ucW0tUktJY3BHS3FtcXRJYzVSbzdpWm9BQ1l6d1VxQ19TcVREekRvSVJZcXR0S085NlNtVGlhQktFbzlnMkh6Wm5YaU9Id3I2eHNZU2VKWWxn?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-phones-losing-hyperos-4-support.html",
-   "at": "2026-11-11T04:03:45+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "شاومي"
-  },
-  {
-   "title": "Honor’s first wide-screen phone has a battery bigger than 8000mAh, claims leak",
-   "url": "https://www.gizmochina.com/2026/11/11/honors-first-wide-screen-phone-has-a-battery-bigger-than-8000mah-claims-leak/",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (656 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "العنوان مكرر أو قريب جداً من مقال منشور: هاتف من هونر ببطارية 14,000 مللي أمبير: هل انتهى عصر الشحن اليومي؟"
-   ]
-  },
-  {
    "title": "Xiaomi 18 Pro Max Cheat Sheet: Price, Specs, Features, and Availability - TechRepublic",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORndzRzdHUzUtbFc3N0NnMnJfblN1VGlrSGJvNUZnay1sM1ZpaC1SQlZhM2otbmRENUNJVzhwQkVjUjdZNXMwNVZ1YVlzaE4tWVk0X2tPOTZ3bEZoNExPb0RycjFXdzhNclhkMHI1amFXSnd2RHZBUEpGLU9zZ0ZDR1FpVQ?oc=5",
    "at": "2026-11-11",
@@ -3230,6 +3196,38 @@
    "ok": true,
    "kind": "news",
    "brand": "هواوي"
+  },
+  {
+   "title": "Xiaomi 18 Pro (Global) review",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro-review-3015.php",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "Motorola confirms key specs for the Edge 70 Neo now",
+   "url": "https://www.gsmarena.com/motorola_edge_70_neo_now_has_an_official_launch_date_and_its_main_specs_confirmed-news-75533.php",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
+  },
+  {
+   "title": "Honor confirms which Magic9 models will be available in the UK",
+   "url": "https://www.gsmarena.com/honor_confirms_which_magic9_models_will_be_available_in_the_uk-news-75531.php",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Phone 'magic9' already covered in: مراجعة HONOR Magic9 2026: رائد مدمج بتيليفوتو 200 ميجا"
+  },
+  {
+   "title": "هاتف Honor Magic V7 القادم: تغيير جذري في فلسفة الهواتف القابلة للطي",
+   "cand_title": "Honor Magic V7 will reportedly be a wide foldable",
+   "url": "https://www.gsmarena.com/honor_magic_v7_will_reportedly_be_a_wide_foldable-news-75534.php",
+   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/honor-magic-v7-wide/-952x498w6/gsmarena_000.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/honor-magic-v7-wide-foldable-leak.html",
+   "at": "2026-11-20T02:12:32+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هونر"
   }
  ]
 }
