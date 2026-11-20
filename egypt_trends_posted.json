@@ -1,18 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.goal.com/ar/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%A6%D9%85/%D8%AC%D9%88%D9%86-%D8%AF%D9%88%D8%B1%D8%A7%D9%86-%D9%84%D9%8A%D8%AE-%D8%A8%D9%88%D8%B2%D9%86%D8%A7%D9%86-%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%8A%D8%A7%D9%86%D9%88-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D8%A8%D9%86%D9%81%D9%8A%D9%83%D8%A7-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A/blt5ade7a47caa2fbe0",
-   "t": "جون دوران ضد ليخ بوزنان: عرفنا سبب معاناة كريستيانو رونالدو معك.. وعيوبك قد تحوّلك إلى \"مشروع لاعب فاشل\"!",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "الـ body 0 كلمة بس، لازم 530 على الأقل",
-    "العنوان لازم أقل من 70 حرف",
-    "الـ slug لازم 3-7 كلمات إنجليزي صغير بشرطات",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.mallorcamagazin.com/nachrichten/wetter/2026/11/04/159347/erst-regen-dann-sonnige-grad-diesem-tag-gibt-auf-mallorca-wieder-strandwetter.html",
    "t": "Erst Regen, dann sonnige 27 Grad: Ab diesem Tag gibt es auf Mallorca wieder Strandwetter",
    "at": "2026-11-06",
@@ -3398,6 +3386,16 @@
    "reason": [
     "الـ body 459 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7187571",
+   "t": "ChatGPT Health يصل إلى أندرويد والكمبيوتر.. إليك أبرز المزايا والقيود",
+   "title": "ChatGPT Health يصل لأندرويد والكمبيوتر.. المزايا والقيود",
+   "url": "https://www.egyptaway.com/2026/11/chatgpt-health-android-pc.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2026/11/large/731153588457820261120095002502.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-20T10:31:27.850591+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
