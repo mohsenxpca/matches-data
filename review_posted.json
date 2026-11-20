@@ -1,41 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro Max Cheat Sheet: Price, Specs, Features, and Availability - TechRepublic",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORndzRzdHUzUtbFc3N0NnMnJfblN1VGlrSGJvNUZnay1sM1ZpaC1SQlZhM2otbmRENUNJVzhwQkVjUjdZNXMwNVZ1YVlzaE4tWVk0X2tPOTZ3bEZoNExPb0RycjFXdzhNclhkMHI1amFXSnd2RHZBUEpGLU9zZ0ZDR1FpVQ?oc=5",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro max' already covered in: Xiaomi 18 Pro Max مراجعة سعر ومواصفات أحدث هواتف شاومي الرائدة"
-  },
-  {
-   "title": "Samsung Gallery can finally sync your photos directly to Google Photos - Android Central",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZVZrRUJTcVNkUDdWZV9hSE5tOFNDcWVpRm50c21yLWIyc3JwRnJkbGFOY05QcFNMRElKdDRnUWlXRnp1ZXpVRzd4LUhEU2Z5Z2VmQ1k3SDJwUE1PXzJSa3RBWDY4eUtOcUZFMmd6M3YzWEpvU2dsTGViVUl0QjM4Ml9lNW9DakRSU253VnRnM0tUWnQxS0lKUzR0SVZMejBrdUdUR2FuNW5RNkZ6RTJrbjlYYkxNZw?oc=5",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "I turned an old Android phone into a Jellyfin media server that beats any Raspberry Pi - How-To Geek",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wVVFvQ0xMMU5OdnIzcmtFTzRXQm1iUTZPcUlUSTZ6QzJoMmRWcmp4VlVZbjJUQ3AzT3FpVlliaERqN0o3U0hfYnRWQUNCVExyUjNKZ1h6VVhPbFBUYmpzQTJLSGg3bE5IUUZudHVLVFdjMWkz?oc=5",
-   "at": "2026-11-11",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (649 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "حكم قضائي تاريخي يقيّد صلاحيات الوصول لبيانات الصحفيين على لينكد إن",
-   "cand_title": "Appeals court limits order for LinkedIn to disclose journalists’ communications in leak probe - The Business Journal",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1hEQVRhaF9fWHVWOWdzODhnVm1NanJEc0JBeXdodF9JYWlIdVBOMHluTDNDWm55Y2Zld2ROU1RTOEluNTRjWl9UMjhGTWJ0TlZzVS16Z211NGFvUXlFaTFIV3l4M1UwVDktSENtLV9JbjZYUFR4QzNOZXlzTlZfemY5RkVzRnlZM3R5TXln?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/linkedin-journalist-privacy-ruling.html",
-   "at": "2026-11-11T04:36:08+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "هاتف بنفس الاسم وسعة بطارية أقل: هل تختلف المواصفات حسب بلد الشراء؟",
    "cand_title": "Same phone, smaller battery: 5 models that change depending on where you buy",
    "url": "https://www.gizmochina.com/2026/11/11/5-phones-with-different-battery-capacity-in-different-regions/",
@@ -3228,6 +3193,40 @@
    "ok": true,
    "kind": "news",
    "brand": "هونر"
+  },
+  {
+   "title": "9 things to know about Samsung App Lock on Galaxy phones",
+   "url": "https://www.sammobile.com/news/samsung-galaxy-app-lock-explained/",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Phone '9' already covered in: 9 نصائح ذهبية لإطالة عمر هاتفك القابل للطي"
+  },
+  {
+   "title": "Samsung and Apple were the only OEMs to increase US phone shipment shares year-on-year in Q3 2026",
+   "url": "https://www.sammobile.com/news/samsung-and-apple-only-oems-increase-us-phone-shipment-share-yoy-q3-2026/",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (680 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Caviar releases GTA 6-inspired Galaxy Z Fold 8 Ocean Drive edition",
+   "url": "https://www.sammobile.com/news/caviar-releases-gta-6-inspired-galaxy-z-fold-8-ocean-drive-edition/",
+   "at": "2026-11-20",
+   "ok": false,
+   "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
+  },
+  {
+   "title": "موتورولا Razr Flex: تسريبات تكشف تصميم الهاتف القابل للطي القادم",
+   "cand_title": "New Motorola Razr Flex renders offer best look yet at wide-body foldable",
+   "url": "https://www.androidauthority.com/razr-flex-renders-3737393/",
+   "raw_photo": "https://www.androidauthority.com/wp-content/uploads/2026/11/moto-razr-flex-beige-renders.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/motorola-razr-flex-leaked-renders.html",
+   "at": "2026-11-20T02:44:23+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "موتورولا"
   }
  ]
 }
