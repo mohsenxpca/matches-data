@@ -1,61 +1,6 @@
 {
  "done": [
   {
-   "title": "I used an Android phone as a Wii Remote in Dolphin, and it works better than it has any right to - XDA",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNXI4UHBqZnFPdUF4c2hndkZhY2NpZkxfRHRyaTd2aGpDajBPLTJ3M0Y0bFNFakhNZnpNSTJONFVMU1YxVG1Qd1dZcXNDT1prUHJhcFRvTXIwQmJwNkdoQWlFVFA5RTkyNVFkd2hGX2Z6WVNPc2JfaFRtNFFfN1lWMGdJR3JKekp1aTJhdlBhcTdaSlE5clNUck11TnFPNWNzdE1Z?oc=5",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
-   "title": "تحذير عاجل لمستخدمي آيفون: ثغرات أمنية خطيرة تهدد رسائلك",
-   "cand_title": "Update your iPhone now or risk huge problem, Apple users warned - The Independent",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONml2akZFMGVwb0tCd21HTlg0QU81WXRyczQtbkg2a3FxWWEteG9CZWJ5YUNDV2pPc0UxNnJURDMtbktpVDVaU0JpUnNWMVZYTkJDd3RaUlNIQnVoaURKWE9EUnNVNkRORHpoa0tKOHlNMm9EczVmRHdxX2ozeTFEaTBDMS1aZ25XZm9mRTRCVVJfSkRtaVhhTlNCTThrLXI1?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/apple-urgently-warns-iphone-users.html",
-   "at": "2026-11-12T02:27:34+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
-   "title": "Infinix Smart 20 HD",
-   "url": "https://www.gsmarena.com/infinix_smart_20_hd-15079.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "العنوان مكرر أو قريب جداً من مقال منشور: مراجعة كاملة لهاتف Infinix Smart 8 مواصفاتة وسعرة"
-   ]
-  },
-  {
-   "title": "مراجعة شاملة لهاتف Honor Choice T10: المواصفات، الأداء، السعر،",
-   "cand_title": "Honor Choice T10",
-   "url": "https://www.gsmarena.com/honor_choice_t10-15080.php",
-   "post_url": "https://www.review-mobile.com/2026/11/honor-choice-t10-comprehensive-review.html",
-   "at": "2026-11-12T02:47:19+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "هونر"
-  },
-  {
-   "title": "مراجعة شاملة لهاتف vivo V80 FE: مواصفات عملاق الفئة المتوسطة",
-   "cand_title": "vivo V80 FE",
-   "url": "https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
-   "post_url": "https://www.review-mobile.com/2026/11/vivo-v80-fe-review-specs-price.html",
-   "at": "2026-11-12T02:47:35+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "فيفو"
-  },
-  {
-   "title": "The iQOO 16R (or 16s) is headed to India",
-   "url": "https://www.gsmarena.com/the_iqoo_16r_or_16s_is_headed_to_india-news-75443.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (661 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Score $250 off the Galaxy Z Fold 8 Ultra - Android Authority",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOb3dlTTRpdHBxSjlxQVBYVzk5LUZISWt6aXRoTGpxYW5OYXd4d0xocUdIWXBra01hc2VhUG9FLS1OUkMzYWo4d1pMN3RCdmhtNEpYNUdUVFJZV3RUcXg0QzR1d0Z3RmhRbmI3QWZPN2NBa1RKRXBSU01VOVpwTlR3MA?oc=5",
    "at": "2026-11-12",
@@ -3213,6 +3158,59 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "Google explains why Samsung Galaxy devices don’t support its new Noto 3D emojis",
+   "url": "https://www.sammobile.com/news/google-samsung-galaxy-devices-do-not-support-noto-3d-emojis/",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (629 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "I’m trying something unusual to extend my Galaxy Z Fold 8’s lifespan and stop those sticky sounds when unfolding",
+   "url": "https://www.sammobile.com/opinion/trying-something-unusual-extend-my-galaxy-z-fold-8-lifespan/",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
+  },
+  {
+   "title": "Samsung updates Galaxy A56, Galaxy A26 with November 2026 security patch",
+   "url": "https://www.sammobile.com/news/samsung-updates-galaxy-a56-galaxy-a26-with-november-2026-security-patch/",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (439 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Titan 2 Elite keyboard phone is getting a fresh color, and fans already have guesses",
+   "url": "https://www.androidauthority.com/unihertz-teases-new-titan-2-elite-colorway-3737949/",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (569 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Survey finds Pixel 11 Pro owners are mostly happy with their purchase",
+   "url": "https://www.androidauthority.com/pixel-11-pro-three-months-later-poll-results-3737834/",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Phone 'pixel 11 pro' already covered in: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
+  },
+  {
+   "title": "موتورولا Moto Tag 3: هل هو جيل جديد أم مجرد ألوان إضافية؟",
+   "cand_title": "Motorola ‘Moto Tag 3’ leaks on Amazon, but it looks just like the Moto Tag 2",
+   "url": "https://www.androidauthority.com/motorola-moto-tag-3-amazon-leak-familiar-specs-3737811/",
+   "raw_photo": "https://www.androidauthority.com/wp-content/uploads/2026/01/Motorola-Moto-Tag-2-front-in-hand.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/motorola-moto-tag-3-leak-analysis.html",
+   "at": "2026-11-21T02:56:56+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "موتورولا"
   }
  ]
 }
