@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "تفاصيل آيفون 20 برو.. أكبر إعادة تصميم منذ آيفون X",
-   "cand_title": "iPhone 20 Pro tipped to bring Apple’s biggest redesign since the iPhone X",
-   "url": "https://www.gizmochina.com/2026/11/12/iphone-20-pro-tipped-to-bring-apples-biggest-redesign-since-the-iphone-x/",
-   "post_url": "https://www.review-mobile.com/2026/11/iphone-20-pro-biggest-redesign.html",
-   "at": "2026-11-13T02:21:38+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
    "title": "Vivo X500s tipped to feature 64MP periscope camera, Dimensity 9-series chip",
    "url": "https://www.gizmochina.com/2026/11/12/vivo-x500s-64mp-periscope-dimensity-9-series-chip/",
    "at": "2026-11-13",
@@ -3222,6 +3212,17 @@
    "raw_photo": "https://www.techadvisor.com/wp-content/uploads/2025/12/Samsung-Galaxy-A17-5G-Black-Friday-Deal.png?w=1024",
    "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-a17-5g-black-friday.html",
    "at": "2026-11-21T04:52:58+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
+  },
+  {
+   "title": "سماعات سامسونج Galaxy Studio تقترب من الإطلاق الرسمي",
+   "cand_title": "Galaxy Studio gets BIS approval, pointing to India launch",
+   "url": "https://www.gizmochina.com/2026/11/21/galaxy-studio-gets-bis-approval-pointing-to-india-launch/",
+   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/11/galaxy-studio-gets-bis-approval.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-studio-bis-approval.html",
+   "at": "2026-11-22T00:06:32+02:00",
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
