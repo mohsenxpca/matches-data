@@ -1,36 +1,6 @@
 {
  "done": [
   {
-   "title": "مقارنة Oppo A7 Pro ضد Infinix Smart 20 HD 2026: أيهما أفضل للشراء؟",
-   "cand_title": "Oppo A7 Pro vs Infinix Smart 20 HD",
-   "url": "https://www.gsmarena.com/oppo_a7_pro_5g-14928.php||https://www.gsmarena.com/infinix_smart_20_hd-15079.php",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-a7-pro-vs-infinix-smart.html",
-   "at": "2026-11-13T00:21:29+02:00",
-   "ok": true,
-   "kind": "compare",
-   "brand": "اوبو"
-  },
-  {
-   "title": "مقارنة سامسونج وابل القابلة للطي: هل تستحق السعر المرتفع؟",
-   "cand_title": "Samsung Galaxy W27 vs Apple Duo Fold: Is Samsung’s Premium Price Worth It?",
-   "url": "https://www.gizmochina.com/2026/11/12/samsung-galaxy-w27-vs-apple-duo-fold/",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-w27-vs-apple-duo.html",
-   "at": "2026-11-13T00:51:27+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "ثورة سامسونج القادمة.. هاتف ذكي بشاشة قابلة للتمدد عمودياً",
-   "cand_title": "Samsung’s vertically expandable phone switches between 16:9 and 21:9 aspect ratio",
-   "url": "https://www.gizmochina.com/2026/11/12/samsungs-vertically-expandable-phone-switches-between-169-and-219-aspect-ratio/",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-vertically-expandable-phone.html",
-   "at": "2026-11-13T01:21:52+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
    "title": "OnePlus Turbo 6V ضد Realme Neo7 SE أيهما أفضل؟",
    "cand_title": "OnePlus Turbo 6V vs Realme Neo7 SE: Which Smartphone Offers Better Value?",
    "url": "https://www.gizmochina.com/2026/11/12/oneplus-turbo-6v-vs-realme-neo7-se/",
@@ -3224,6 +3194,36 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Samsung’s new mobile chief has to make young buyers want a Galaxy",
+   "url": "https://www.sammobile.com/news/samsung-new-mobile-chief-make-young-buyers-want-galaxy/",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (538 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Signal is blocking screenshots on iPhone and Android. Here's why. - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DS1dVTG4zUV9FMjlUODhpM3RkSHc1U29NM0pFSV9CWHFGTjZsS0hXM1Y4dkdubVNYRjA5REd4dWp6ajVDaXJqR20wWGE0T1dnSDNDcXdaRWs2QjdVYjZlaE96N2dETllPRWtxOWRaLWtzRGc?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (617 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "هاتفك كبديل لهويتك في المطارات: كيف تفعل ميزة ID الرقمية؟",
+   "cand_title": "What the Tech? Your iPhone, Android can serve as your ID at airport security - WFMZ.com",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdUdINEtwUWNKRnZaeTBnQUlsS2Y0Vi03ak9VVnpSOXRmb3pCaW9ZbmRUR2Y4TXJtWlZpWXVSQUpGS0FzcDlyUFlHaW9CdS1vNjN4QmRhY0NYek95WTlrRldaSklSeHRpcTFaMGFNRmNtRFppWlZ0cURNN180YVBaWWFzZ1A0LUNZSTZENFVSUGJDY3VzSVlpbFBsZFpOblpaY3RnUGdSMldWLTJfTk5RU0ZsVG00clB6UGxOaWM2RW9ORTJiYWVnS3E2MVFCSzFWTUg0SVB3MmF3Z0F6ZEF3QTZYNC1fSkNmLUlRdDE0a3hZMUtxRE1iZDc5dEg?oc=5",
+   "raw_photo": "https://bloximages.newyork1.vip.townnews.com/wfmz.com/content/tncms/assets/v3/editorial/4/60/4608c219-e019-51d1-bcc0-ffd307fc3b20/6b00c1d420825.image.jpg?crop=1280%2C672%2C0%2C23&resize=1200%2C630&order=crop%2Cresize",
+   "post_url": "https://www.review-mobile.com/2026/11/use-iphone-android-digital-id-airport.html",
+   "at": "2026-11-21T04:26:16+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
