@@ -1,29 +1,6 @@
 {
  "done": [
   {
-   "title": "Honor Choice T10 vs vivo V80 FE",
-   "url": "https://www.gsmarena.com/honor_choice_t10-15080.php||https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": "Phone 'v80 fe' already covered in: مراجعة شاملة لهاتف vivo V80 FE: مواصفات عملاق الفئة المتوسطة"
-  },
-  {
-   "title": "Xiaomi 18 Pro gets one step closer to launching in India",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_gets_one_step_closer_to_launching_in_india-news-75472.php",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "vivo X300 Ultra gets new OriginOS 7 update with camera and battery optimizations",
-   "url": "https://www.gsmarena.com/vivo_x300_ultra_china_originos_7_camera_update-news-75467.php",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (519 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Oppo's pocket gimbal camera said to debut this year, wide-foldable also coming soon",
    "url": "https://www.gsmarena.com/oppos_pocket_gimbal_camera_said_to_debut_this_year_widefoldable_also_coming_soon-news-75466.php",
    "at": "2026-11-14",
@@ -3219,6 +3196,33 @@
    "ok": true,
    "kind": "news",
    "brand": "ناثينج"
+  },
+  {
+   "title": "Huawei Osta 1 Pro debuts - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qeHpFdG5aR2p0WGtRUE05TU5SdTNnQkhTelhZZzF0b3d0eDRVd0I5UENuOE9qZnYxYUY4dDNORWZJVHptZzBsd25PZENlVVBHZ1lfc1E5Q2NBRXBHWWViejVoYVVvMjE5bGtlRXhxa1pFaGZEN2k4QTRkYjIxRWs?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (669 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "iPhone Air 2 and iPhone 18 Dummy Models Leak Months Before Spring Launch - Gizmodo",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XVkQxbzY0QkczdkM2UUhUTTltVkF4Y1hwUmFid1RGMjRSbmF4dDlGRlVMWm1fb3B5LXlzd2FYX1dqWjVhLTZobl9FY0ZXd3pRbkVoZkY1cTNKSG9TaENnd0tHQlBNRTczbnNvS1Zyc0wydzVP?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['models', 'dummy', 'iphone']"
+  },
+  {
+   "title": "مراجعة itel City 300 الشاملة: مواصفات حقيقية، أداء المعالج، السعر،",
+   "cand_title": "itel City 300",
+   "url": "https://www.gsmarena.com/itel_city_300_5g-15092.php",
+   "raw_photo": "https://fdn2.gsmarena.com/vv/pics/itel/itel-city300-1.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/itel-city-300-review-specs.html",
+   "at": "2026-11-22T01:06:38+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "اخرى"
   }
  ]
 }
