@@ -8,7 +8,7 @@
    - Automatic alternation between Link posts (Title + Image + Link) and Complete Native No-Link posts (~1/3 of posts)
      as a natural separator.
 """
-import argparse, colorsys, datetime, hashlib, html, io, json, os, random, re, sys, urllib.parse
+import argparse, colorsys, datetime, difflib, hashlib, html, io, json, os, random, re, sys, urllib.parse
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
@@ -112,10 +112,99 @@ def first_image(body, post=None):
 SAMSUNG_RX = re.compile(r"(سامسونج|جالاكسي|جلاكسي|\bsamsung\b|\bgalaxy\b|\bone\s*ui\b)", re.I)
 
 NON_PHONE_DEVICE_RX = re.compile(
-    r"(لابتوب|لابتوبات|\blaptop\b|\bmacbook\b|\bgooglebook\b|\bchromebook\b|"
-    r"تلفزيون|تلفاز|غسالة|ثلاجة|مكنسة|مكيف|ساعة\s*ذكية|\bsmartwatch\b|\bwalkie[\s-]?talkie\b)",
+    r"(لابتوب|لابتوبات|حاسوب|حواسيب|\blaptop\b|\bmacbook\b|\bgooglebook\b|\bchromebook\b|"
+    r"تلفزيون|تلفاز|غسالة|ثلاجة|مكنسة|مكيف|ساعة\s*ذكية|ساعات\s*ذكية|\bsmartwatch\b|\bsmart\s*band\b|\bwatch\b|"
+    r"\bwalkie[\s-]?talkie\b|سماعة|سماعات|\bearbuds\b|\bbuds\b|\bfreeclip\b|\bheadphones\b|"
+    r"شاحن|كابل|كابلات|\bcharger\b|\bcable\b|"
+    r"موبايل\s*ليجندز|ببجي|فري\s*فاير|شحن\s*(?:ماسات|شدات|جواهر)|حساسية|أكواد\s*فودافون|العاب|ألعاب|\bmlbb\b)",
     re.I
 )
+
+MODEL_KEY_RX = re.compile(
+    r"\b((?:galaxy|iphone|xiaomi|redmi|poco|honor|vivo|oppo|realme|oneplus|huawei|pixel|motorola|moto|infinix|tecno|redmagic|nothing|iqoo|one\s*ui)"
+    r"(?:\s+[a-z0-9+]+){1,3})\b",
+    re.I
+)
+
+
+def _normalize_ar(text):
+    t = html.unescape(text or "").lower()
+    t = re.sub(r"[📱📌⚙️💬🔥⚡🚀]", " ", t)
+    t = re.sub(r"[إأآا]", "ا", t)
+    t = re.sub(r"[ىي]", "ي", t)
+    t = re.sub(r"ة", "ه", t)
+    t = re.sub(r"[^\w\s\u0600-\u06FF]", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def _extract_model_keys(title):
+    keys = set()
+    for m in MODEL_KEY_RX.findall(html.unescape(title or "")):
+        norm = re.sub(r"\s+", " ", m.strip().lower())
+        # Keep only model keys that include a digit or specific sub-series (avoid generic 'galaxy phone')
+        if re.search(r"\d|\b(ultra|fold|flip|pro|max|plus|mini|air|neo|lite|magic|reno|razr|edge)\b", norm):
+            # Take first 3 tokens max so 'galaxy z fold 9' or 'honor magic v7' match cleanly
+            parts = norm.split()
+            keys.add(" ".join(parts[:3]))
+            if len(parts) >= 2 and re.search(r"\d", parts[1]):
+                keys.add(" ".join(parts[:2]))
+    return keys
+
+
+def fetch_recent_live_fb_posts(limit=30):
+    """Fetches the actual live recent posts from the Facebook Page to prevent ANY duplicate posts or race conditions."""
+    tok, page = get_fb_credentials()
+    if not tok or not page:
+        return []
+    try:
+        r = requests.get(
+            f"https://graph.facebook.com/{page}/posts",
+            params={"fields": "id,created_time,message", "limit": limit, "access_token": tok},
+            timeout=15
+        )
+        if r.ok:
+            return r.json().get("data", [])
+    except Exception as ex:
+        print(f"  [Live FB check warning] {ex}")
+    return []
+
+
+def is_duplicate_on_fb(title, url, state, live_posts):
+    """Checks exact URL, title similarity, and phone model overlap against BOTH local state and live Facebook posts."""
+    clean_url = (url or "").replace("http://", "https://").strip()
+    if clean_url in set(state.get("fb", [])):
+        return True, "URL already in state['fb']"
+
+    norm_t = _normalize_ar(title)
+    cand_models = _extract_model_keys(title)
+
+    # Check against recent 40 entries in fb_history
+    recent_titles = [(h.get("title") or "", h.get("url") or "") for h in state.get("fb_history", [])[-40:]]
+    # Check against live posts currently on Facebook Page
+    for lp in (live_posts or []):
+        msg = lp.get("message") or ""
+        if clean_url and clean_url in msg:
+            return True, "URL already live on Facebook Page"
+        first_line = msg.splitlines()[0] if msg.splitlines() else ""
+        if first_line:
+            recent_titles.append((first_line, ""))
+
+    for prev_t, prev_u in recent_titles:
+        if prev_u and prev_u.replace("http://", "https://").strip() == clean_url:
+            return True, "URL matched in fb_history"
+        norm_prev = _normalize_ar(prev_t)
+        if not norm_prev:
+            continue
+        ratio = difflib.SequenceMatcher(None, norm_t, norm_prev).ratio()
+        if ratio >= 0.58:
+            return True, f"similar title ({ratio:.2f}) to '{prev_t[:45]}'"
+        if cand_models:
+            prev_models = _extract_model_keys(prev_t)
+            overlap = cand_models & prev_models
+            if overlap:
+                return True, f"same phone model {overlap} already posted in '{prev_t[:45]}'"
+
+    return False, "unique"
 
 
 def is_samsung_post(post):
@@ -1087,7 +1176,20 @@ def run_auto(dry=False, force=False, mode="auto", lookback_hours=48, max_per_run
         print(f"Facebook Policy Guard: skipping run ({reason}).")
         return 0
 
-    done_fb = set(state.get("fb", []))
+    live_posts = fetch_recent_live_fb_posts(limit=30)
+    # Extra live safety check against Facebook's own latest post timestamp
+    if not force and not dry and live_posts:
+        ct = live_posts[0].get("created_time")
+        if ct:
+            try:
+                live_dt = datetime.datetime.strptime(ct, "%Y-%m-%dT%H:%M:%S%z").astimezone(f.CAIRO)
+                live_elapsed = (now - live_dt).total_seconds() / 60.0
+                if live_elapsed < MIN_GAP_MINUTES:
+                    print(f"Facebook Live Policy Guard: latest live FB post was {int(live_elapsed)}m ago (<{MIN_GAP_MINUTES}m). Skipping.")
+                    return 0
+            except Exception:
+                pass
+
     since = (now - datetime.timedelta(hours=lookback_hours)).isoformat(timespec="seconds")
     tok = f.token()
 
@@ -1104,10 +1206,14 @@ def run_auto(dry=False, force=False, mode="auto", lookback_hours=48, max_per_run
             items = res.get("items", []) if isinstance(res, dict) else []
             for p in items:
                 u = (p.get("url") or "").replace("http://", "https://")
-                if not u or u in done_fb:
+                if not u:
                     continue
-                if is_phone_post(p, blog_id=blog_id):
-                    candidates.append((1 if is_samsung_post(p) else 0, p.get("published", ""), site_name, p))
+                if not is_phone_post(p, blog_id=blog_id):
+                    continue
+                is_dup, dup_reason = is_duplicate_on_fb(p.get("title", ""), u, state, live_posts)
+                if is_dup:
+                    continue
+                candidates.append((1 if is_samsung_post(p) else 0, p.get("published", ""), site_name, p))
         except Exception as ex:
             print(f"Facebook scan warning ({site_name}): {ex}")
 

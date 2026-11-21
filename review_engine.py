@@ -1922,12 +1922,6 @@ def main():
     state["done"] = state["done"][-400:]
     if not dry:
         json.dump(state, open(STATE_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-        if published_count > 0:
-            try:
-                import fb_phones
-                fb_phones.run_auto(dry=dry, force=False, max_per_run=1)
-            except Exception as fb_ex:
-                print(f"   FB policy auto-post warning: {fb_ex}")
 
     print(f"\nDone: Published {published_count} post(s) to Review.")
 

@@ -416,11 +416,6 @@ def main():
         valid_urls = [u for u in published_urls if u.startswith("http")]
         if valid_urls:
             ping_indexnow(valid_urls)
-        try:
-            import fb_phones
-            fb_phones.run_auto(dry=dry, force=False, max_per_run=1)
-        except Exception as fb_ex:
-            print(f"  FB policy auto-post warning: {fb_ex}")
 
     print(f"\nPhone news run completed. Published {len(published_urls)} of {target_count} requested story(ies).")
 
