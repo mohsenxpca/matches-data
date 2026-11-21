@@ -2279,6 +2279,24 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/egypt-weather-forecast-tomorrow.html",
    "title": "تفاصيل طقس غدا وتحذيرات الأرصاد"
+  },
+  {
+   "q": "نيوكاسل يونايتد ضد آرسنال",
+   "at": "2026-11-21",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "الشحانية ضد الريان",
+   "at": "2026-11-21",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "بارما ضد روما",
+   "at": "2026-11-21",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
