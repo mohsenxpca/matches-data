@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7170087",
-   "t": "حملات رقابية على المخابز المدعمة.. تحرير 40 محضرا لمخالفات التموين وسلامة الغذاء بالغربية",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://www.vietnam.vn/ar/thoi-tiet-chieu-va-dem-6-11-vung-bien-tu-ca-mau-den-an-giang-co-mua-dong-rai-rac",
    "t": "توقعات الطقس لفترة ما بعد الظهر وليلة 6-11 نوفمبر: عواصف رعدية متفرقة في المنطقة البحرية من كا ماو إلى آن جيانغ.",
    "title": "عاصفة رعدية تضرب عدة مناطق وتحذيرات رسمية",
@@ -3394,6 +3385,15 @@
    "reason": [
     "اكتب الأرقام بالأرقام مش بالحروف (الفين)",
     "الـ body 465 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMikgVBVV95cUxNM3ctM3pVbTI1Qjd6U3NjeGc3aE42ZjhkV3M5NEJYX21DUEhVN0QwV201TEpRVEVsYlNyV3lsSXBDRklXN1lEb25tMl92bFM5NzFGS1VVeGNxR0JHVXZXaU5PLW9NZ1pIa2RJSWhjOF92d3NmSzJ6ai1xTWdueFJVcS1zR0IzQ0JENXVZWXM0a20tSXd4dkJaek55M3BhbjV6ajh3S29hZWp2UWVHbFNlVmFpZWhYcXMzTWhwR2xfSzlYcDBwOUZFNTdEcTByV0k3emF0NVhlYllHbC1fOWJYeERJeFl1Mk1XMlVjR1BQT3U1VTZMUE54bVVLWGlKbnBHUmhWS0RXdXp2ZzJuOWlYMm5RYjRPWThuWXhycnRuXy1qLVRWWnhTLW9BWWdIVUlpZjk5RFdMeHVTMGZhSzdNeTlCVER2RnVLeFB0YTc0R2k5LVNmMzhVTEg3QU9yYmh3X2VXZXZWb1ZrSUhGZ2hXN0U3cERGMEs5cUlCTkE1WWRIaDFKY2JaNGpNU1hnYUVuMmRWN2VLbHpUZ1JiQXRhZTY2bV9uT3g0MVc2VFQ1MXVRcFFfYVlCODdxTlBqQUNGb2RQMTFkSGVHS1pvaHdZcjl0ZjAybDR5YVE3aWxjLXZ2WFRzQko1Q1BxSzBzVWx2dTY4aUpneVc3ekpUbDF5UjAwMzBGSlVORWE4Tk13b3B2V1pxRXZxWjdnUi13eGNqSTlHMlA0czZteEdKLTRWMDVwa2U1SzFwbERpNlpZQ25nNnFjcHJUM0FGUExaUUQzVDhaTnltRU9NRjJzTEFZd3lKbDM5U3AtTXdZQ09wTEhTSTA2WVBRZ09lZEtKVFphakNzSVU2NmswYUhvdjIyVGZR0gHeBEFVX3lxTE9SSUx3ek51bFdOQXlxMU9raTl1LVNQNGJhOGtBdC1DN0pITExkazJ5RFF6SUs1VHQ5M2U5cUlodzhVVFg3ZnVEMzVzYjNRNmVTUzkwV3haalRoY2d4WXN3amtBTUdEUFpyZVhUSUt3TWRURGtXUV9xTS1RcE1sb3ZHb3RqRXNzeEpGanNhcUtUX0IwcTlyQjIzdkswUHRTU3duOS1uLWNlT1RxVlZFcE1qaWJwUm5uN3c0bWQxSkhuSXVwdTBENF9fQWZTN19wSWpIVkthNW56MHZrVURfSm1TMWtUck9Zbl9YVDBrSFVjTWpkakt2anExZW40SFhYOG44blRpcUI0TzhxZVBURUstQmxhd3ZuR0tldFh4YUJlR2g4dUxKenljOW5tWkZSU2hwakFwYUt1N3JxcnhjUWhubGdkLTEtS2JvWk1ORlR1R2VqdHpZMlJmUXNSMDZhRmpkRkU5cTRQSnVIQ0phWjAtbFV0dEdpTnNpbFQyUXlSd3I1SXhjcVQ4bHQ1dVNGNXVMTUhfQnBDYWFFcHJHRlN1UDlRVGVDYkhObjlwdjJHMS1aU3N0MnBYOFI5VVZYbmFpOVVHYXdySFdoY3VQYjN2YjZzX0duU0VBVFpuTy1jblVoV2hjX2VmU191akhESGFEVkJJQWt6UHAzeTdab3Rmc2cwcTUzUmNjS2Jrb2FWY1NxYmNmbGJqZzluVl80RWZJVTNka0NZU0NSYkxNQ095T09iT3hhaWdfT0Q5SFlaQ3M2VEhzeTFWOTVybVlHZUFWRHc2ZHhCR0hpby1SQQ?oc=5",
+   "t": "موعد بث النماذج الاسترشادية لامتحانات الإعدادية على قناة \"مدرستنا 2\" - Masrawy",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": [
+    "الـ body 442 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
