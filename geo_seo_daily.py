@@ -54,22 +54,28 @@ SITES = {
         "blog_id": "8325646053257070334",
         "domain": "www.egyptaway.com",
         "seeds": [
-            "افضل طرق الربح من الانترنت بدون",
-            "حل مشكلة بطء لعبة",
-            "افضل اعدادات ببجي موبايل",
-            "كيفية شحن شدات ببجي",
-            "خطوات التحويل عبر انستاباي",
-            "حد السحب اليومي فودافون كاش",
-            "شروط التقديم على شقق الاسكان",
-            "طريقة حساب فوائد شهادات البنك",
-            "كيفية حماية حساب واتساب من",
-            "افضل تطبيقات تعلم الانجليزية",
+            "اكواد فودافون دقائق ببلاش",
+            "اكواد باقات فودافون نت",
+            "اكواد اتصالات مصر مجانا",
+            "اكواد وي انترنت ومكالمات",
+            "شحن شدات ببجي فودافون كاش",
+            "شحن جواهر فري فاير فودافون كاش",
+            "شحن بلياردو 8 ball pool فودافون كاش",
+            "شحن دومينو كافيه فودافون كاش",
+            "تحميل العاب كمبيوتر خفيفة",
+            "تحميل دريم ليج مود الاهلي والزمالك",
+            "باتش الدوري المصري بيس",
+            "العاب تربح منها فودافون كاش",
+            "حل مشكلة بطء الموبايل اندرويد",
+            "حل مشكلة تهنيج ببجي موبايل",
+            "حل مشكلة التطبيق ليس مثبتا",
+            "حل مشكلة ضعف شبكة فودافون",
         ],
         "hubs": [
-            ("https://www.egyptaway.com/p/mobile-prices-egypt.html", "جدول أسعار الموبايلات في مصر"),
-            ("https://www.egyptaway.com/p/bank-certificates-egypt.html", "حاسبة أرباح شهادات البنوك"),
+            ("https://www.egyptaway.com/2024/04/how-to-get-free-credit-from-vodafone.html", "أكواد دقائق ورصيد فودافون مجاناً"),
             ("https://www.egyptaway.com/p/download-games.html", "دليل تحميل الألعاب الرسمية"),
-            ("https://www.egyptaway.com/p/housing-egypt.html", "دليل طروحات الإسكان الاجتماعي"),
+            ("https://www.egyptaway.com/2024/04/fifa-22-mod-ahly-zamalek.html", "تحميل باتشات فيفا والدوري المصري"),
+            ("https://www.egyptaway.com/p/mobile-prices-egypt.html", "جدول أسعار الموبايلات في مصر"),
         ],
         "default_label": "منوعات",
         "pool": "general",
@@ -175,13 +181,22 @@ def detect_review_brand(text):
 
 def detect_ea_label(text):
     t = text.lower()
-    if any(k in t for k in ["ببجي", "فري فاير", "لعبة", "العاب", "ألعاب", "شحن"]):
+    if any(k in t for k in ["ببجي", "فري فاير", "لعبة", "العاب", "ألعاب", "شحن", "دريم ليج", "باتش", "بيس", "فيفا", "بلياردو", "دومينو"]):
         return "ألعاب"
     if any(k in t for k in ["الربح", "ربح"]):
         return "الربح"
-    if any(k in t for k in ["اسكان", "إسكان", "شقق", "شهادات", "بنك", "فودافون كاش", "انستاباي", "إنستاباي"]):
-        return "خدمات"
+    if any(k in t for k in ["أكواد", "اكواد", "كود", "فودافون", "اتصالات", "أورنج", "اورنج", "وي ", "مشكلة", "بطء", "الشبكة", "اندرويد", "أندرويد", "الموبايل"]):
+        return "شروحات"
     return "منوعات"
+
+
+def detect_ea_pool(text):
+    t = text.lower()
+    if any(k in t for k in ["ببجي", "فري فاير", "لعبة", "العاب", "ألعاب", "شحن", "دريم ليج", "باتش", "بيس", "فيفا", "بلياردو", "دومينو"]):
+        return "gaming"
+    if any(k in t for k in ["موبايل", "أندرويد", "اندرويد", "فودافون", "اتصالات", "شبكة", "كود", "اكواد", "أكواد"]):
+        return "phones"
+    return "general"
 
 
 PROMPT_TEMPLATE = """أنت خبير SEO و GEO (تحسين الظهور في Google Search ومحركات الذكاء الاصطناعي مثل ChatGPT وGoogle AI Overviews) في السوق المصري.
@@ -274,11 +289,12 @@ def process_site(site_key, tok, state, dry=False):
         return False
 
     # Image selection + branding
-    pool = image_guard.POOLS.get(cfg["pool"], image_guard.POOLS["general"])
+    pool_name = cfg["pool"] if site_key == "review" else detect_ea_pool(art["title"] + " " + query)
+    pool = image_guard.POOLS.get(pool_name, image_guard.POOLS["general"])
     cand_img = image_guard.get_guaranteed_image(None, art["title"], pool, site=site_key)
     slug_clean = re.sub(r"[^a-z0-9\-]", "-", (art.get("slug") or f"geo-{site_key}").lower()).strip("-")[:55]
     slug_clean = f"{slug_clean}-{now:%m%d}"
-    branded_cdn, _, _ = image_guard.brand_and_save_photo(cand_img, slug_clean, category=cfg["pool"])
+    branded_cdn, _, _ = image_guard.brand_and_save_photo(cand_img, slug_clean, category=pool_name)
     final_img = branded_cdn or cand_img
 
     # Pick 2 related live articles

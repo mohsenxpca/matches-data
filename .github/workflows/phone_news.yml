@@ -15,8 +15,8 @@ on:
         description: "تجربة بدون نشر (1 = تجربة، 0 = نشر مباشر)"
         required: false
         default: "0"
-  schedule:
-    - cron: "20 8,16 * * *"  # مرتين يومياً (حد أقصى مقالين) لأهم أخبار الهواتف الكبرى على ايجبتاوى
+  # schedule:
+  #   - cron: "20 8,16 * * *"  # disabled on Egyptaway: phone news & reviews belong on Review Mobile (review.yml)
   push:
     branches:
       - main
