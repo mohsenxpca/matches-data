@@ -71,11 +71,20 @@ ENGAGEMENT_QUESTIONS = [
 ]
 
 PROMO_SKIP_RX = re.compile(
-    r"(أدواتنا المجانية|أداة مقارنة الهواتف|جدول أسعار الموبايلات المحدث|أفضل هاتف لميزانيتك|"
+    r"(موضوع يهمك|يمكنك أيضاً قراءة|يمكنك ايضا قراءة|اقرأ أيضاً|اقرأ ايضا|شاهد أيضاً|قد يهمك|"
+    r"لمتابعة كافة التفاصيل|مقالات ذات صلة|مراجعات أخرى قد تهمك|تغطيات ومراجعات أخرى|"
+    r"أدواتنا المجانية|أداة مقارنة الهواتف|جدول أسعار الموبايلات المحدث|أفضل هاتف لميزانيتك|"
     r"قارن الآن في أداة|المصادر الرسمية|المصدر التقني المعلن|هذه المراجعة مبنية على المواصفات|"
-    r"تنويه تحريري|مراجعات أخرى قد تهمك|تغطيات ومراجعات أخرى|https?://|\bwww\.)",
+    r"تنويه تحريري|في هذا المقال|نستعرض في هذا|الخلاصة السريعة في سطرين|https?://|\bwww\.)",
     re.I
 )
+
+FB_VIRAL_STYLES = [
+    ("debate", "أسلوب النقاش والجدل: ابدأ بسؤال أو جملة مثيرة للنقاش عن الهاتف/الميزة، اعرض 3-4 حقائق سريعة، واختم بسؤال يخلي المتابعين يتجادلوا في الكومنتات (مثلاً: هل يستحق ولا أوفر برايسد؟ سامسونج ولا منافس تاني؟)."),
+    ("breakdown", "أسلوب الخلاصة في 30 ثانية: ابدأ بجملة تلخص أهم مفاجأة في الخبر، بعدها نقاط قصيرة جداً (✅ المميزات / ⚠️ الملاحظات أو أبرز الأرقام)، واختم بسؤال مباشر للمتابعين."),
+    ("breaking", "أسلوب الخبر العاجل الخاطف: ابدأ بهوك قوي يوقف السكرول عن أحدث تسريب أو تحديث، اذكر أهم 3 تفاصيل رقمية بوضوح، واختم بسؤال تفاعلي قصير."),
+    ("buyer", "أسلوب نصيحة قبل الشراء: ابدأ بسؤال (لو بتفكر تغير موبايلك..)، لخص مين اللي الموبايل ده مناسب ليه ومين لأ بناءً على الحقائق، واختم بسؤال عن اختيار المتابعين.")
+]
 
 
 def load_state():
@@ -576,12 +585,17 @@ def get_fb_credentials():
     return tok, page
 
 
-def build_native_nolink_caption(title, content):
-    """Builds a complete, rich, link-free Facebook post from the article HTML to act as a natural separator."""
-    clean_title = html.unescape(title or "").strip()
+def _extract_clean_article_facts(title, content):
+    """Extracts clean, blog-boilerplate-free paragraphs, bullets, and specs from article HTML."""
     soup = BeautifulSoup(content or "", "html.parser")
     for tag in soup.find_all(["script", "style", "details"]):
         tag.decompose()
+    # Remove any internal-link callout boxes injected by interlink_engine.py
+    for box in soup.find_all(["div", "p", "aside"]):
+        txt_box = box.get_text(" ", strip=True)
+        if re.search(r"(موضوع يهمك|يمكنك أيضاً قراءة|يمكنك ايضا قراءة|اقرأ أيضاً|أدواتنا المجانية|قارن الآن في أداة)", txt_box):
+            if len(txt_box) < 350:
+                box.decompose()
 
     bullets = []
     tldr = soup.select_one(".rv-tldr, .ea-tldr")
@@ -589,17 +603,17 @@ def build_native_nolink_caption(title, content):
         for li in tldr.find_all("li"):
             txt = re.sub(r"\s+", " ", li.get_text(" ", strip=True)).strip()
             if txt and not PROMO_SKIP_RX.search(txt):
-                bullets.append(f"• {txt}")
+                bullets.append(txt)
 
     paras = []
     for p in soup.find_all("p"):
         txt = re.sub(r"\s+", " ", p.get_text(" ", strip=True)).strip()
-        if len(txt) < 45 or PROMO_SKIP_RX.search(txt):
+        if len(txt) < 40 or PROMO_SKIP_RX.search(txt):
             continue
         txt = re.sub(r"https?://\S+", "", txt).strip()
-        if txt not in paras:
+        if txt and txt not in paras:
             paras.append(txt)
-        if len(paras) >= 3:
+        if len(paras) >= 4:
             break
 
     specs = []
@@ -611,28 +625,163 @@ def build_native_nolink_caption(title, content):
                 if any(k in cells[0] for k in ("المواصفة", "البند", "العنصر")):
                     continue
                 if len(cells[0]) <= 30 and len(cells[1]) <= 110 and not PROMO_SKIP_RX.search(cells[1]):
-                    specs.append(f"▪️ {cells[0]}: {cells[1]}")
-            if len(specs) >= 5:
+                    specs.append(f"{cells[0]}: {cells[1]}")
+            if len(specs) >= 6:
                 break
 
-    parts = [f"📱 {clean_title}"]
-    if paras:
-        parts.append(paras[0])
+    return bullets, paras, specs
+
+
+def _sanitize_fb_text(text, allow_url=False):
+    """Final safety filter: removes any accidental blog phrases or unwanted URLs from Facebook copy."""
+    lines = []
+    for ln in (text or "").splitlines():
+        s = ln.strip()
+        if not s:
+            lines.append("")
+            continue
+        if PROMO_SKIP_RX.search(s):
+            continue
+        if not allow_url:
+            s = re.sub(r"https?://\S+", "", s).strip()
+            if not s:
+                continue
+        lines.append(s)
+    out = "\n".join(lines)
+    out = re.sub(r"\n{3,}", "\n\n", out).strip()
+    return out
+
+
+def _build_hashtags(title):
+    t = (title or "").lower()
+    tags = ["#موبايل_بالعربي"]
+    if any(k in t for k in ("سامسونج", "جالاكسي", "samsung", "galaxy", "one ui")):
+        tags.extend(["#سامسونج", "#جالاكسي"])
+    elif any(k in t for k in ("آيفون", "ايفون", "أبل", "ابل", "iphone", "apple")):
+        tags.extend(["#آيفون", "#أبل"])
+    elif any(k in t for k in ("شاومي", "ريدمي", "بوكو", "xiaomi", "redmi", "poco")):
+        tags.append("#شاومي")
+    elif any(k in t for k in ("هونر", "honor")):
+        tags.append("#هونر")
+    elif any(k in t for k in ("أوبو", "اوبو", "oppo")):
+        tags.append("#أوبو")
+    elif any(k in t for k in ("فيفو", "vivo")):
+        tags.append("#فيفو")
+    elif any(k in t for k in ("ريلمي", "ريلمى", "realme")):
+        tags.append("#ريلمي")
+    else:
+        tags.append("#هواتف")
+    return " ".join(tags[:4])
+
+
+def _gemini_fb_copy(title, bullets, paras, specs, mode="native"):
+    """Uses Gemini to craft a true Facebook-native, high-engagement post in friendly Egyptian/Arabic social tone."""
+    if not f.secret("GEMINI_API_KEY"):
+        return None
+    facts_parts = [f"العنوان: {title}"]
     if bullets:
-        parts.append("📌 أهم النقاط السريعة:\n" + "\n".join(bullets[:3]))
+        facts_parts.append("أهم النقاط:\n- " + "\n- ".join(bullets[:4]))
     if specs:
-        parts.append("⚙️ أبرز المواصفات:\n" + "\n".join(specs[:5]))
+        facts_parts.append("المواصفات:\n- " + "\n- ".join(specs[:6]))
+    if paras:
+        facts_parts.append("تفاصيل إضافية:\n" + "\n".join(paras[:3]))
+    facts_text = "\n\n".join(facts_parts)[:2400]
+
+    style_idx = int(hashlib.md5(title.encode("utf-8")).hexdigest(), 16) % len(FB_VIRAL_STYLES)
+    style_name, style_desc = FB_VIRAL_STYLES[style_idx]
+
+    if mode == "link":
+        prompt = f"""أنت مدير سوشيال ميديا محترف لصفحة فيسبوك تقنية شهيرة اسمها «موبايل بالعربى».
+اكتب نص **بوست فيسبوك قصير وخاطف للانتباه** (مش مقال موقع!) بالعامية المصرية الراقية المبسطة عشان تشجع الناس تضغط على الرابط وتعلق.
+
+القواعد الصارمة:
+- السطر الأول: جملة «هوك» قوية ومثيرة للفضول توقف السكرول (مع إيموجي واحد مناسب).
+- السطر التاني: سطر أو سطرين بحد أقصى بأهم معلومة أو رقم مثير من الحقائق فقط (لا تخترع أرقاماً).
+- السطر التالت: دعوة طبيعية للقراءة زي: «التفاصيل والمواصفات كاملة من هنا 👇» (بدون وضع أي رابط لأن الرابط سيضاف تلقائياً تحت النص).
+- ممنوع تماماً عبارات المواقع والمدونات مثل: (موضوع يهمك، اقرأ أيضاً، في هذا المقال، خاتمة، المصادر).
+- الطول الإجمالي: 25 إلى 50 كلمة فقط.
+
+رجّع JSON بالشكل ده فقط:
+{{"post": "نص بوست الفيسبوك هنا"}}
+
+الحقائق:
+{facts_text}
+"""
+    else:
+        prompt = f"""أنت مدير سوشيال ميديا محترف لصفحة فيسبوك تقنية شهيرة اسمها «موبايل بالعربى».
+اكتب **بوست فيسبوك كامل بدون أي روابط** مصمم خصيصاً لزيادة التفاعل والكومنتات والمشاركات (Engagement & Reach) على فيسبوك.
+
+الأسلوب المطلوب للبوست ده: {style_desc}
+
+القواعد الصارمة:
+- اكتب بأسلوب فيسبوك طبيعي وجذاب (عامية مصرية راقية ومفهومة لكل العرب، سطور قصيرة ومريحة للعين على الموبايل).
+- السطر الأول لازم يكون Hook قوي يوقف السكرول ويشد القارئ يضغط «عرض المزيد».
+- اعرض أهم 3 أو 4 تفاصيل/مواصفات/أسعار حقيقية من الحقائق فقط (ممنوع اختراع أي رقم أو سعر مش موجود) في نقاط سريعة بإيموجي أنيق.
+- اختم بسؤال نقاش قوي ومحدد يخلي الناس ترد في الكومنتات.
+- ضيف في آخر سطر 3 هاشتاجات مناسبة منها #موبايل_بالعربي.
+- ممنوع تماماً وضع أي روابط أو أسماء مواقع، وممنوع نهائياً عبارات المقالات مثل (موضوع يهمك، يمكنك أيضاً قراءة، في هذا المقال، تنويه تحريري).
+- الطول: 80 إلى 140 كلمة فقط.
+
+رجّع JSON بالشكل ده فقط:
+{{"post": "نص بوست الفيسبوك الكامل هنا"}}
+
+الحقائق:
+{facts_text}
+"""
+    try:
+        res = f.gemini(prompt)
+        if isinstance(res, dict) and res.get("post"):
+            cleaned = _sanitize_fb_text(res["post"], allow_url=False)
+            if len(cleaned) >= 35:
+                print(f"  ✍️ Generated viral Facebook copy via Gemini (mode={mode}, style={style_name})")
+                return cleaned
+    except Exception as ex:
+        print(f"  [Gemini FB copy fallback] {ex}")
+    return None
+
+
+def build_link_caption(title, url, content=""):
+    """Builds an engaging Facebook hook + article link underneath."""
+    clean_title = html.unescape(title or "").strip()
+    clean_url = (url or "").replace("http://", "https://").strip()
+    bullets, paras, specs = _extract_clean_article_facts(clean_title, content)
+
+    ai_hook = _gemini_fb_copy(clean_title, bullets, paras, specs, mode="link")
+    if ai_hook:
+        return f"{ai_hook}\n\n{clean_url}"
+
+    # Clean fallback if Gemini is unavailable
+    teaser = bullets[0] if bullets else (paras[0][:140].rsplit(" ", 1)[0] + "…" if paras else "")
+    if teaser:
+        return f"🔥 {clean_title}\n\n{teaser}\n\n👇 التفاصيل كاملة من هنا:\n{clean_url}"
+    return f"🔥 {clean_title}\n\n👇 التفاصيل كاملة من هنا:\n{clean_url}"
+
+
+def build_native_nolink_caption(title, content):
+    """Builds a complete, viral, link-free Facebook post (zero blog boilerplate, zero links)."""
+    clean_title = html.unescape(title or "").strip()
+    bullets, paras, specs = _extract_clean_article_facts(clean_title, content)
+
+    ai_post = _gemini_fb_copy(clean_title, bullets, paras, specs, mode="native")
+    if ai_post:
+        return ai_post
+
+    # Clean fallback if Gemini is unavailable
+    parts = [f"🔥 {clean_title}"]
+    if bullets:
+        parts.append("\n".join(f"✅ {b}" for b in bullets[:3]))
+    elif paras:
+        parts.append(paras[0])
+    if specs:
+        parts.append("⚙️ أبرز الأرقام والمواصفات:\n" + "\n".join(f"▪️ {s}" for s in specs[:5]))
     elif len(paras) > 1:
         parts.append(paras[1])
-    if len(paras) > 2 and not specs:
-        parts.append(paras[2])
 
     q_idx = int(hashlib.md5(clean_title.encode("utf-8")).hexdigest(), 16) % len(ENGAGEMENT_QUESTIONS)
     parts.append(ENGAGEMENT_QUESTIONS[q_idx])
+    parts.append(_build_hashtags(clean_title))
 
-    full_text = "\n\n".join(parts)
-    full_text = re.sub(r"https?://\S+", "", full_text).strip()
-    return full_text
+    return _sanitize_fb_text("\n\n".join(parts), allow_url=False)
 
 
 def choose_next_mode(state, requested_mode="auto"):
@@ -686,7 +835,7 @@ def post_phone_to_fb(title, url, image_url=None, content=None, mode="link", dry=
         caption = build_native_nolink_caption(clean_title, content)
     else:
         actual_mode = "link"
-        caption = f"{clean_title}\n\n{clean_url}"
+        caption = build_link_caption(clean_title, clean_url, content=content)
 
     tok, page = get_fb_credentials()
     jpg_bytes = prepare_fb_branded_jpeg(clean_url, img, content=content, title=clean_title, save_preview_path=preview_path)
