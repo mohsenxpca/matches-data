@@ -1,39 +1,6 @@
 {
  "done": [
   {
-   "title": "OnePlus Turbo 6V ضد Realme Neo7 SE أيهما أفضل؟",
-   "cand_title": "OnePlus Turbo 6V vs Realme Neo7 SE: Which Smartphone Offers Better Value?",
-   "url": "https://www.gizmochina.com/2026/11/12/oneplus-turbo-6v-vs-realme-neo7-se/",
-   "post_url": "https://www.review-mobile.com/2026/11/oneplus-turbo-6v-vs-realme-neo7.html",
-   "at": "2026-11-13T01:51:26+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "ريلمى"
-  },
-  {
-   "title": "Galaxy S26 Ultra 256GB model sees a $250 price cut",
-   "url": "https://www.gizmochina.com/2026/11/12/galaxy-s26-ultra-256gb-model-sees-a-250-price-cut/",
-   "at": "2026-11-13",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (532 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Galaxy Z Fold 8 Ultra gets a $230 discount on Amazon",
-   "url": "https://www.gizmochina.com/2026/11/12/galaxy-z-fold-8-ultra-gets-a-230-discount-on-amazon/",
-   "at": "2026-11-13",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['ultra', 'fold', 'galaxy']"
-  },
-  {
-   "title": "OnePlus 16 vs OnePlus Ace 7 Pro: Which OnePlus Flagship Should You Buy?",
-   "url": "https://www.gizmochina.com/2026/11/12/oneplus-16-vs-oneplus-ace-7-pro/",
-   "at": "2026-11-13",
-   "ok": false,
-   "reason": "Phone 'ace 7 pro' already covered in: معاينة OnePlus Ace 7 Pro 2026: المؤكد والمتوقع قبل الإطلاق"
-  },
-  {
    "title": "تفاصيل آيفون 20 برو.. أكبر إعادة تصميم منذ آيفون X",
    "cand_title": "iPhone 20 Pro tipped to bring Apple’s biggest redesign since the iPhone X",
    "url": "https://www.gizmochina.com/2026/11/12/iphone-20-pro-tipped-to-bring-apples-biggest-redesign-since-the-iphone-x/",
@@ -3224,6 +3191,40 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Samsung might copy the iPhone’s Dynamic Island soon, but it actually looks good [Video] - 9to5Google",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd1lzR29nMFFOTm83ZmEtMU1NeG5nUVJzX3ZsZllWaVlrOWVYLUdBRWRhbWxxSDI1Y0RDa1o5Y3p0V0gtb09ZWGdoWjdhZWZXWjZ5VTVqYXdHWjl6a2VRMmY2UFlEeDRzdmhQb05nNVR5OUFLS0tnaGJ1WkwtTGUwam5EQQ?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (482 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Dummy Models Reveal Dual Cameras on iPhone Air 2 and Familiar Shape for iPhone 18 - TechEBlog -",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oeURZTXZxUWxvSlJYQTdBSXVTR056djYtYTI0NW9GUnFkU2tYQ3VNTnkxc3BHY3NkSWcxWDBNc0JpMjYtS3NxcVVZQ2hDOW5UX1VYU3VUQUlKejk0Y0JzNzNHcC1IRHMzMXZSOU1n?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Phone 'air 2' already covered in: موعد إطلاق iPhone 18 و iPhone Air 2: تسريبات تكشف خطة أبل الجديدة"
+  },
+  {
+   "title": "I delete these 6 Google apps every time I set up a new Android phone - MakeUseOf",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWWRVR2hzTmhjaW5qS1JhbDZoeWVGUzUzYkZvVEEwQ1dxTW9iY1lsMC0yWExqUkRxNVV1TEVSanJfRmE2b1U2N2U0ZEpXcldYdFFySmRucFNxb2pfTTNVWl83cGpqOVlURjd5UUpqSklFWjcxdkRzYms4Z2tSZEFJVkswTW5TWFJYRFcw?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "سامسونج جالاكسي A17 5G بأقل من 200 دولار: التفاصيل الكاملة",
+   "cand_title": "Samsung Galaxy A17 5G Falls Under $200 in Walmart's Black Friday Sale - Tech Advisor",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPekRabkZyZmZRYkUtOVpLZnRrTk1ZWHJxLUt5ZGxJQzdYMTRDcEpXMHl2Q3ZoNngtT0NndkpmUHladjJyTDF1Vk85Z1NfS1IzRnBJVDZiSnBjV09fNkhWV2wyMHhndmZieXdPbURqSlRRRTNybi1GUTZWclh3RVNmb1ZzX3N1MmgyQmhXUkJSWnVjbnVHWDlWZHhzR0dJSF9HcTlob2FqNC1ma1g5NWtIYkY4Yjh6LWM?oc=5",
+   "raw_photo": "https://www.techadvisor.com/wp-content/uploads/2025/12/Samsung-Galaxy-A17-5G-Black-Friday-Deal.png?w=1024",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-a17-5g-black-friday.html",
+   "at": "2026-11-21T04:52:58+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
