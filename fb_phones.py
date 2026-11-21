@@ -740,17 +740,74 @@ def _gemini_fb_copy(title, bullets, paras, specs, mode="native"):
     return None
 
 
-def build_link_caption(title, url, content=""):
-    """Builds an engaging Facebook hook + article link underneath."""
+_COMMENT_PERM_CACHE = {}
+
+
+def _token_can_comment(tok):
+    """Checks whether the Facebook Page token has 'pages_manage_engagement' to post first comments."""
+    if not tok:
+        return False
+    k = tok[:24]
+    if k in _COMMENT_PERM_CACHE:
+        return _COMMENT_PERM_CACHE[k]
+    try:
+        r = requests.get("https://graph.facebook.com/debug_token",
+                         params={"input_token": tok, "access_token": tok}, timeout=12)
+        if r.ok:
+            scopes = set(r.json().get("data", {}).get("scopes") or [])
+            ok = "pages_manage_engagement" in scopes
+            _COMMENT_PERM_CACHE[k] = ok
+            return ok
+    except Exception:
+        pass
+    return False
+
+
+def post_first_comment_link(fb_post_id, clean_url, tok):
+    """Posts the article URL as the first comment under the Facebook post."""
+    if not fb_post_id or not clean_url or not tok:
+        return False
+    msg = f"🔗 التفاصيل والمواصفات الكاملة من هنا:\n{clean_url}"
+    try:
+        r = requests.post(
+            f"https://graph.facebook.com/{fb_post_id}/comments",
+            data={"message": msg, "access_token": tok},
+            timeout=25
+        )
+        if r.ok:
+            print(f"  💬 First comment posted with link! comment_id={r.json().get('id')}")
+            return True
+        print(f"  ⚠️ First comment failed ({r.status_code}): {r.text[:180]}")
+    except Exception as ex:
+        print(f"  ⚠️ First comment exception: {ex}")
+    return False
+
+
+def build_link_caption(title, url, content="", link_in_comment=True):
+    """Builds an engaging Facebook hook. When link_in_comment=True, puts ZERO links in the post body
+       and directs readers to the first comment for maximum Facebook organic reach.
+    """
     clean_title = html.unescape(title or "").strip()
     clean_url = (url or "").replace("http://", "https://").strip()
     bullets, paras, specs = _extract_clean_article_facts(clean_title, content)
 
     ai_hook = _gemini_fb_copy(clean_title, bullets, paras, specs, mode="link")
+    if link_in_comment:
+        tags = _build_hashtags(clean_title)
+        if ai_hook:
+            # Replace any generic 'من هنا' CTA with 'في أول تعليق'
+            hook = re.sub(r"التفاصيل[^\n]*من هنا[^\n]*", "👇 رابط التفاصيل والمواصفات الكاملة في أول تعليق", ai_hook)
+            if "أول تعليق" not in hook and "التعليقات" not in hook:
+                hook += "\n\n👇 رابط التفاصيل والمواصفات الكاملة في أول تعليق"
+            return _sanitize_fb_text(f"{hook}\n\n{tags}", allow_url=False)
+        teaser = bullets[0] if bullets else (paras[0][:140].rsplit(" ", 1)[0] + "…" if paras else "")
+        if teaser:
+            return _sanitize_fb_text(f"🔥 {clean_title}\n\n{teaser}\n\n👇 رابط التفاصيل والمواصفات الكاملة في أول تعليق\n\n{tags}", allow_url=False)
+        return _sanitize_fb_text(f"🔥 {clean_title}\n\n👇 رابط التفاصيل والمواصفات الكاملة في أول تعليق\n\n{tags}", allow_url=False)
+
+    # Fallback when token doesn't have pages_manage_engagement yet
     if ai_hook:
         return f"{ai_hook}\n\n{clean_url}"
-
-    # Clean fallback if Gemini is unavailable
     teaser = bullets[0] if bullets else (paras[0][:140].rsplit(" ", 1)[0] + "…" if paras else "")
     if teaser:
         return f"🔥 {clean_title}\n\n{teaser}\n\n👇 التفاصيل كاملة من هنا:\n{clean_url}"
@@ -831,20 +888,25 @@ def post_phone_to_fb(title, url, image_url=None, content=None, mode="link", dry=
     state = load_state() if record_state else None
     actual_mode = choose_next_mode(state or {}, mode)
 
+    tok, page = get_fb_credentials()
+    can_comment = _token_can_comment(tok) if tok else False
+    use_comment_link = can_comment or dry
+
     if actual_mode == "native" and content:
         caption = build_native_nolink_caption(clean_title, content)
     else:
         actual_mode = "link"
-        caption = build_link_caption(clean_title, clean_url, content=content)
+        caption = build_link_caption(clean_title, clean_url, content=content, link_in_comment=use_comment_link)
 
-    tok, page = get_fb_credentials()
     jpg_bytes = prepare_fb_branded_jpeg(clean_url, img, content=content, title=clean_title, save_preview_path=preview_path)
 
     if dry:
-        print(f"[DRY FB - mode={actual_mode.upper()}] Would post to Facebook Page ({page}):")
+        print(f"[DRY FB - mode={actual_mode.upper()}, link_in_comment={use_comment_link}, token_has_comment_perm={can_comment}] Would post to Facebook Page ({page}):")
         print(f"  Source Image: {img}")
         print(f"  Branded JPEG: {'Ready (' + str(len(jpg_bytes)) + ' bytes)' if jpg_bytes else 'Failed'}")
         print("  Caption:\n" + "\n".join("    " + line for line in caption.splitlines()))
+        if actual_mode == "link" and use_comment_link:
+            print(f"  First Comment: 🔗 التفاصيل والمواصفات الكاملة من هنا: {clean_url}")
         return False
 
     if not tok or not page:
@@ -892,6 +954,9 @@ def post_phone_to_fb(title, url, image_url=None, content=None, mode="link", dry=
                 print(f"❌ Facebook post failed ({r.status_code}): {r.text[:200]}")
         except Exception as ex:
             print(f"❌ Facebook feed exception: {ex}")
+
+    if ok and actual_mode == "link" and use_comment_link and fb_post_id:
+        post_first_comment_link(fb_post_id, clean_url, tok)
 
     if ok and state is not None:
         now_iso = datetime.datetime.now(f.CAIRO).isoformat(timespec="seconds")
