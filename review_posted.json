@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo's pocket gimbal camera said to debut this year, wide-foldable also coming soon",
-   "url": "https://www.gsmarena.com/oppos_pocket_gimbal_camera_said_to_debut_this_year_widefoldable_also_coming_soon-news-75466.php",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (612 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Samsung Galaxy A18 5G gets Bluetooth certified",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a18_5g_bluetooth_certified-news-75465.php",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": "Phone 'a18' already covered in: مراجعة Samsung Galaxy A18 4G: معالج Exynos 1610 وشاشة AMOLED و6 تحديثات أندرويد"
-  },
-  {
    "title": "هل تستحق سلسلة Redmi Note 18 الانتظار؟ بطارية عملاقة وشحن سريع",
    "cand_title": "Redmi Note 18 series spotted online, charging speed revealed",
    "url": "https://www.gsmarena.com/redmi_note_18_charging_speed_revealed_via_online_listing-news-75464.php",
@@ -3223,6 +3207,24 @@
    "ok": true,
    "kind": "review",
    "brand": "اخرى"
+  },
+  {
+   "title": "A 13,500 mAh battery? Honor could be taking smartphone endurance to another level - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUTlCOHplT3JqcHFQa1RKOWlfdk4zZXRMaXlfemNDOUVQcjNTRnhWZmQtZ0JoUmxQUUptVmZZU2R1akQyMC1zNTZ5RmZuZGpMSHpIYkpmeHZRcE5oeVhReXFyRUs4RVZHcWdwR09NQjkxTkxpQmhURHhWS0lJRlFTOGlhOXpiS2JiT0J6Z2w1TmxXNjJlRW1Vbm5RYU9EUHdvZHB0MHRuSHdqVHJKTnpUZGVQZS1KcTdzTHc?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Phone '13 500' already covered in: هاتف Honor القادم ببطارية خرافية 13,500 مللي أمبير: هل هذا هو"
+  },
+  {
+   "title": "مراجعة Motorola Edge 70 Neo: المواصفات الكاملة، السعر، والمميزات",
+   "cand_title": "Motorola Edge 70 Neo",
+   "url": "https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php",
+   "raw_photo": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-70-neo-11.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/motorola-edge-70-neo-review.html",
+   "at": "2026-11-22T01:36:32+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "موتورولا"
   }
  ]
 }
