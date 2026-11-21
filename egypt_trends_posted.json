@@ -1,26 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.almasryalyoum.com/news/details/4402512",
-   "t": "«الشوارع هتغرق».. بيان عاجل بشأن حالة الطقس اليوم : تحول مفاجئ والأمطار تصل القاهرة",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "الـ body 367 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حاله', 'طقس'}) مع تشابه نصي مع: حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام)"
-   ]
-  },
-  {
-   "u": "https://www.wetter.net/wetter-news/spruehregen-im-norden-im-westen-lichtblicke-kuehler-nordostwind",
-   "t": "Sprühregen im Norden, im Westen Lichtblicke: kühler Nordostwind",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "الـ body 447 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'طقس', 'حاله'}) مع تشابه نصي مع: حالة الطقس غداً: أجواء مشمسة ودافئة تسيطر على فيتنام)"
-   ]
-  },
-  {
    "u": "https://www.almasryalyoum.com/news/details/4402537",
    "t": "رسميًا.. سعر أنبوبة البوتاجاز للمنازل اليوم الجمعة بعد قرار لجنة التسعير",
    "at": "2026-11-06",
@@ -3394,6 +3374,25 @@
    "url": "https://www.egyptaway.com/2026/11/tesla-cybertruck-specs-egypt.html",
    "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2026/11/large/622146836911020261120070928928.jpg&w=1200&output=webp&q=80",
    "at": "2026-11-21T01:03:29.256748+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/21/تسريبات-آيفون-إير-2-كاميرا-إضافية-وترقيات-قوية-فى-الهاتف/7626937",
+   "t": "تسريبات آيفون إير 2.. كاميرا إضافية وترقيات قوية فى الهاتف فائق النحافة",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": [
+    "الـ body 469 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/21/3082380/%D9%85%D9%81%D8%A7%D8%AC%D8%A3%D8%A9-%D8%A8%D8%B4%D8%A3%D9%86-%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%B9%D8%AF%D9%8A-%D8%A7%D9%84%D8%AF%D8%A8%D8%A7%D8%BA-%D9%85%D8%B9-%D8%A7%D9%84%D8%B2%D9%85%D8%A7%D9%84%D9%83-%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D9%85%D9%8A%D8%B1%D9%83%D8%A7%D8%AA%D9%88",
+   "t": "مفاجأة بشأن مستقبل عدي الدباغ مع الزمالك قبل الميركاتو",
+   "title": "مفاجأة بشأن مستقبل عدي الدباغ مع الزمالك قبل الميركاتو",
+   "url": "https://www.egyptaway.com/2026/11/adi-aldabbagh-zamalek-future.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.gemini.media/img/large/2026/11/21/2026_11_21_23_21_57_607.webp&w=1200&output=webp&q=80",
+   "at": "2026-11-22T00:01:47.758697+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
