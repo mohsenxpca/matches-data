@@ -1,109 +1,6 @@
 {
  "done": [
   {
-   "title": "Score $250 off the Galaxy Z Fold 8 Ultra - Android Authority",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOb3dlTTRpdHBxSjlxQVBYVzk5LUZISWt6aXRoTGpxYW5OYXd4d0xocUdIWXBra01hc2VhUG9FLS1OUkMzYWo4d1pMN3RCdmhtNEpYNUdUVFJZV3RUcXg0QzR1d0Z3RmhRbmI3QWZPN2NBa1RKRXBSU01VOVpwTlR3MA?oc=5",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (670 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Oppo Reno17 (China)",
-   "url": "https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [reno17] with variants set() found in review: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
-  },
-  {
-   "title": "Oppo Find X10 Pro Max",
-   "url": "https://www.gsmarena.com/oppo_find_x10_pro_max-14939.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [x10] with variants {'pro', 'max'} found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
-   "title": "Apple iPhone 18 Pro Max",
-   "url": "https://www.gsmarena.com/apple_iphone_18_pro_max-14716.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [18] with variants {'pro', 'max'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
-  },
-  {
-   "title": "Huawei Enjoy 100 Pro Max",
-   "url": "https://www.gsmarena.com/huawei_enjoy_100_pro_max-15035.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [100] with variants {'pro', 'max'} found in review: مراجعة Redmi Note 17 Pro Max 2026: بطارية 10000 وشحن 100 واط والسعر"
-  },
-  {
-   "title": "Huawei Enjoy 100 Pro",
-   "url": "https://www.gsmarena.com/huawei_enjoy_100_pro-15036.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [100] with variants {'pro'} found in review: مراجعة Xiaomi 17T Pro: كاميرات Leica وبطارية 7000 مللي أمبير وشحن 100 وات"
-  },
-  {
-   "title": "Oppo Find X10",
-   "url": "https://www.gsmarena.com/oppo_find_x10-14953.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [x10] with variants set() found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
-   "title": "Samsung Galaxy S26 Ultra",
-   "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-14320.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [s26] with variants {'ultra'} found in review: مراجعة Samsung Galaxy S26 Ultra: كاميرا 200 ميجابكسل وشاشة الخصوصية وشحن 60 وات"
-  },
-  {
-   "title": "Samsung Galaxy A57",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a57-14379.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [a57] with variants set() found in review: مراجعة ZTE nubia A57 2026: موبايل اقتصادي بشاشة 120 هرتز والسعر"
-  },
-  {
-   "title": "Xiaomi 18 Pro Max",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_max-14958.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [18] with variants {'pro', 'max'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
-  },
-  {
-   "title": "Samsung Galaxy A17",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a17-14041.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [a17] with variants set() found in review: مراجعة Samsung Galaxy A17 5G: شاشة AMOLED وكاميرا بمثبت بصري و6 تحديثات أندرويد"
-  },
-  {
-   "title": "OnePlus 15",
-   "url": "https://www.gsmarena.com/oneplus_15-14206.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [15] with variants set() found in review: مراجعة Huawei nova 15 Max 2026: بطارية 8500 وشاشة 120Hz"
-  },
-  {
-   "title": "Xiaomi 17 Pro Max",
-   "url": "https://www.gsmarena.com/xiaomi_17_pro_max-14181.php",
-   "at": "2026-11-12",
-   "ok": false,
-   "reason": "Model code [17] with variants {'pro', 'max'} found in review: مراجعة Redmi Note 17 Pro Max 2026: بطارية 10000 وشحن 100 واط والسعر"
-  },
-  {
-   "title": "مراجعة شاملة لهاتف Xiaomi 17 Ultra: وحش التصوير بمعالج خارق",
-   "cand_title": "Xiaomi 17 Ultra",
-   "url": "https://www.gsmarena.com/xiaomi_17_ultra-14380.php",
-   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-17-ultra-full-review.html",
-   "at": "2026-11-12T03:17:02+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "شاومي"
-  },
-  {
    "title": "مقارنة Oppo A7 Pro ضد Infinix Smart 20 HD 2026: أيهما أفضل للشراء؟",
    "cand_title": "Oppo A7 Pro vs Infinix Smart 20 HD",
    "url": "https://www.gsmarena.com/oppo_a7_pro_5g-14928.php||https://www.gsmarena.com/infinix_smart_20_hd-15079.php",
@@ -3211,6 +3108,122 @@
    "ok": true,
    "kind": "news",
    "brand": "موتورولا"
+  },
+  {
+   "title": "Motorola's wide Razr Flex now leaks in two colors showing off a lot of angles",
+   "url": "https://www.gsmarena.com/motorolas_wide_razr_flex_now_leaks_in_two_colors_showing_off_a_lot_of_angles-news-75578.php",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['razr', 'motorola', 'flex']"
+  },
+  {
+   "title": "Google gains US smartphone market ground as Samsung and Motorola slip",
+   "url": "https://www.androidauthority.com/google-pixel-11-us-market-share-q3-2026-3737766/",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (663 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Motorola Razr Flex certification reveals an unexpected chipset as a live image leaks - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMmIzNENtckZBQkRQR21Kb1d1UlhPNDk2M19uWFh0ZEwzSzF5RmhacEs1aTBPN0ljRGhBc3pMekJld1A4NUlWSnpYUEpONmEzX1N5NWZYZWxWeDhENzd0SFZtd3p0WE9XenRqR3dWU2txZDFJb0ZkS1pxTkNzckpnQ014V2l4VGRfenNSX3h0Q0RNakIxdVZQbklaYXpSa3VlZGdhU2w4enNHdThLSElLZXhFb2pNWHdZX2E4S0drblVWd9IBvgFBVV95cUxQN2RwZ1Z2dkI0aE1QVUZxRm53a1dwd1FidWhnNWxmbWpuYW9teDhSX3djTFIxcVBRUE9HbVl5YjkyT3YzakJQS0d5UkFsd0RqT2N0LXMtLVpMQkZVbW8ydXZUYWc0dEF2YnduamJ2WXNiUnFfOXFrd0g2ZTlMa0twQklzcEdveUNQVUg5T19ZMWZDTGtPZThpdVlDVXptay1uSHlrX1FTb1ZLOGNPamxBY3BYWkp6czBzbGVvOC1R?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['flex', 'unexpected', 'chipset', 'live']"
+  },
+  {
+   "title": "Huawei Osta 1 Pro debuts - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qeHpFdG5aR2p0WGtRUE05TU5SdTNnQkhTelhZZzF0b3d0eDRVd0I5UENuOE9qZnYxYUY4dDNORWZJVHptZzBsd25PZENlVVBHZ1lfc1E5Q2NBRXBHWWViejVoYVVvMjE5bGtlRXhxa1pFaGZEN2k4QTRkYjIxRWvSAXtBVV95cUxNcWUyRF84LTRPZHRGSDM0d3N0NGFuek1lSDlnemFPRkZjMUlpX3BELTFnYnRMT3JBTldYX1BDWnJKQlpFNVM3RmhBWTU3YjFyTmxxUUxpWEhZa0t5Vkw2a210ODFBQlEwZF9mOFQ4ZFRCc0V1UmFHVFlTdkU?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (643 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "OpenAI's first smartphone is rumored to be made by a well-known iPhone assembler - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWRieldHYWpHelJjb0JucnZYWlptSHEzUmNHLTJIR0pzTVpISVhTNnF3STdKeThyTllrc3dIN0xnZ0F1dGltTlhHUllGVGx5YnNTVVU5MGMyUDBjOWxkRTl5Q1pDazhSa1o1dGNpcDJIOS01bnVjQ19pOWJSLUxHdzg3ZmJxSHhQZ0RHd1Jidl9TSS1zSEZvazBLdF9UMjZkSzZiWTdUeGhrQTJMS1NxTlhGaW1hMk5rN2fSAbYBQVVfeXFMUHUxQW1aZ293RmxhYUplN3MxTW9VSTVTQklZaklhS0tWakxpQ2JodjAzdHJ5VXdIMWFDLU0zcXpXa05aY0c5OUNOa3hxQ2c0U0pjblNWYmYxVGxQeFZ0dElFelJ0c2FZYnhSaWw5T0ZDNUk1UWJZQ01pRFRkZmJTR0RKVFhYOXloQmRCMHdNNGEzM04xb1RiN0VJa3ptNWRDMVFId1FRX0pOdjFsSHBnRkM4TlV2YWc?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['well', 'known', 'assembler', 'made']"
+  },
+  {
+   "title": "Apple tightens its grip on a shrinking US smartphone market - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbm5ZTHR0LXJ3NTJiZmZVMXg1VFVpM0hpaEQtRnhvYXQtWGlDTVRzVVB4Vk5ua0NvN1U0VTdVSXF2WWVncEliVmZETFE3SVJURmladHVVZzdLTmppVnVxMkRGNUFqYWRQWkFOaVlxWFF1MUNzdlpYekQyU2dDYi1zZ2xkWW5fOG5JQ1Y4aDlDdHhEV1VrejlxcklWbnQ0d1FL0gGcAUFVX3lxTE9sS1RicXBpdV80X2t6WDdFNjk4SnY4OHoxSWNVU0tQdzE5S1RuYmdGR1FxQ3dnOUFkamY1VmUyMG50VGY2bzByRDRYNVJGdUlRS255aFFSaXBqM2t2RnoyLWc4ZmRLTmNoVGo3OTdETFhoRFJoQzc3T3lmSE1EaUloMFlodmdXLW5tRkFteDhfY0QyOVlTVTBqbVZnNQ?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['shrinking', 'grip', 'market', 'tightens']"
+  },
+  {
+   "title": "Xiaomi 18 pre-reservations are now live in China - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcV9kU3pJMU91ZzNYRFZkSlhFQXBneFlfS1lYS2dqRWt1RjEzcUZ3MzBLaVdiUWlxb1dISWxfOHl6ek5ZandPcEFsb2lSbWVwXzJMb3pCQTlndFItdXEzcUZfUDF4d1BIM21qTExxZ2U2S29WM3p6RkR4NnJlRnBibnN1M203Qk9BZGQyMkhfUWHSAYwBQVVfeXFMT29oZlM3a0tHaW9iYUVabFlGcF9XQ0xYdWxmbC1Xa2xleFZ3UHlfb0FsNGpiMndiTGtEQXNwTnBUc01zSDd6bHk3cXdaQURYcmhNckFQVFIwaHhpLTJGZ25QYkpaazBIWklha3JVcU1YcVFYb0xlQXhkSUJMR3NuU2hkN1g0VThVV1BwU04?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18' already covered in: حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد"
+  },
+  {
+   "title": "This phone company launched a landline built for kids, and it's a safer, cheaper alternative to handing your child a smartphone - Android Central",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcVZvaGhieEtzTGItbTl1ZzZjcTE5SHZHWUNEbzA2dVdCSEFKZ1RGbVhBeXV2bVBXa3FDWW9SX0xZc3Rhb1p0b054R3hkZEZRMmNha1UwNXZrUFl3UnQxenJrcDdwRG4tR09OZ1g2QU9DS003SFZzNVVOTFYwVlBKU3Z2cXRQZ3UzSURWS1JjeDVfQ2xYTEozbkdJTnAtMGJITkU2QVMtSllrbzU5WWV0RzV6REQxVmhJRTlNNnRDcHhDUTRTcXNfeUx1VmxRRW4xbkZuR0lpMDM3RGpsN05CN2Q1RE9oNVdlMkd6RmhvMjhrbl8y?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (606 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "العنوان مكرر أو قريب جداً من مقال منشور: هاتف «Tin Can» الجديد: هل هو البديل الآمن للهواتف الذكية؟"
+   ]
+  },
+  {
+   "title": "Your Android phone needs surprisingly beefy specs for Google's new emoji - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWU85TGkzUExmcE5NdWF3THRTTXBYSUVnVFczZVY0ODlyN05jQUhFRjRXZW01bDhVTG1abWc1aWlDNTYwcXozMHZRWGM1MjJYMFd6cVk4bFJFS1h1MUhLUEtneE9TMEV1VFF5RWdXNEpKTm9xWHNoWWwxLU5yeUFiUmZtMnpfeE8zVlhacXFHWE1HakNyRkRwSGNZU3h6U2c?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (649 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Lava Smart 4 Pro announced with a 7,000 mAh battery - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVDF2UkcxLUxreFVzdEZrRGNZeUJTUmlqaXFXTEgtRnNEMjB1NmdHR1dzS2pQYUx2YVBvUjg2U0lMMlpzUTNaclRhdXpreV9kUHMyaVZPWkpNalRBWVU1alJfVWhtTzVuc0drZ3ByWXNaUTJ2OUJnNVF3SWZiQkg3bERqUV8wZzNi0gGEAUFVX3lxTE55dVFyUkVwODdpN2hYQUtzd1FyNjZmQ3BjSjNsWEt4N3g5WDNYclhjczRXdGJPNEpLT2VSQklRQk8zUFdaMS1HZTI4Vks4dTc5Umx1dERPYlFjeVhndmRTb1RLczZtbm9peHlCZ1l2NEpxeEstend5V3BWdmJYXzlvWlRaRQ?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (589 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Lava Smart 4 Pro announced with a 7,000 mAh battery - news.lavx.hu",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcDhNYm1OSjlfTDZBc0YzMDZnREhHU2JDU2tqQ0dhQmdLdHlrVGY3cEN5ZDFTdV9IRTBXUjFQU2FyT09vX1IxRHVQNnNhQ19Bb0s3aG8tRzlwWmx6S0tnYW91MVYwRUJ5REhvWFNXd1RCS3BvdTljb0NLX0tfN3c4ZjBiMzJtR00?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (651 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Huawei OSTA O1 Pro Cheat Sheet: Price, Specs, and What Makes It Different - TechRepublic",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTEJvX2Z0a0tSV2JDR2k1djYwNjFmRzczZjFDdjNueXlYMHJtaF91Q05zSk1nSWNKODczMDdsMXQ5Q0FhaUxUeFBpS2xZVGJYS3FiR3RxZUtjQWZUY21DOVR0c3JfeG9LLVc3M3NhQWRSY1lvVjhkaUdJMHU0NGZtZmN6bXE?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Phone 'o1 pro' already covered in: مراجعة Huawei Osta O1 Pro: ثورة في التصميم والشاشة بتجربة بصرية"
+  },
+  {
+   "title": "Redmi Note 15 Series Comparison: Price & Specs - Nokiamob",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdGxnZjBrT3VvU1hSNVhNY3VobldhQmJ0T2RJNERIUFRpMUlUMkF0YllVcFRvRW81TTJFcnVDamRzSktRUjNsaDBDM1dpMk56aElFUmdIZnJCNHBrcm5rWXk5MTVGZ001VXFfMFEtZTRWMm01cEI5NmJnOF9aV0FUVFZNQVpfLXF4aThrWXFUbHpJWTNpdjZFYkd3Y3hmbWs1R092bnhNcE1ndw?oc=5",
+   "at": "2026-11-21",
+   "ok": false,
+   "reason": "Phone 'note 15' already covered in: مراجعة Redmi Note 15 5G: معالج Snapdragon 6 Gen 3 وكاميرا 108 ميجابكسل وشحن 45 وات"
+  },
+  {
+   "title": "أقوى معالجات الهواتف في 2026: من يتربع على العرش؟",
+   "cand_title": "Fastest mobile chipsets ranked: compare smartphone processor performance - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa19ZWHN2XzhSRG9rQThabk9UaDRPaHF4UnZLeVZkZXVrbFd3Z21DLWNxTTNWaFk5N3hNQlM1OXV5Q0EtbWp4b3lFWnFIQ3ctb2pfckc5S2ZiOXZuRFYxNkJGdmdRc0d3c0ltQzBIcUZCckY5WEYzZklHV19EX2U5UVhNcW5Bb0JGWElYRGFMZU1zNnVSRW5uUHNPZ1FOaFVPZEdhN0l3U2NrVGVIc3Y0Zw?oc=5",
+   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/06/big-2026-chipset-showdown/-952x498w6/gsmarena_003.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/fastest-mobile-chipsets-performance.html",
+   "at": "2026-11-21T04:03:08+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
