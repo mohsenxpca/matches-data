@@ -1,11 +1,6 @@
 {
  "done": [
   {
-   "q": "al-shamal vs al-hilal",
-   "at": "2026-10-27",
-   "ok": false
-  },
-  {
    "q": "الدخول العالمي",
    "at": "2026-10-27",
    "ok": false
@@ -2310,6 +2305,13 @@
    "at": "2026-11-21",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "إنتر ميامي ضد كولومبوس كرو",
+   "at": "2026-11-22",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/inter-miami-columbus-crew-mls-2026.html",
+   "title": "تفاصيل مباراة إنتر ميامي وكولومبوس كرو"
   }
  ]
 }
