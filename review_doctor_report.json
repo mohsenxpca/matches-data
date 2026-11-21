@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-20 12:53:14",
+  "timestamp": "2026-11-21 12:40:03",
   "dry_run": false,
-  "scanned": 493,
-  "repaired": 1,
+  "scanned": 500,
+  "repaired": 26,
   "fixes": {
-    "broken_links": 0,
+    "broken_links": 59,
     "disclaimers": 0,
     "internal_links": 0,
     "thin_posts": 0,
@@ -13,11 +13,245 @@
   },
   "details": [
     {
-      "id": "3321606508864553890",
-      "title": "أوبو Reno 17: وحش البطارية الجديد يصل بمواصفات ثورية",
-      "url": "https://www.review-mobile.com/2026/11/oppo-reno-17-specs-analysis.html",
+      "id": "2410579713137383714",
+      "title": "مفاجأة شاومي 19.. شاشات مسطحة ومنحنية معاً لهذا السبب",
+      "url": "https://www.review-mobile.com/2026/11/xiaomi-19-series-flat-curved-screens.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/xiaomi-15-ultra-review.html -> /2026/11/xiaomi-17-ultra-full-review.html"
+      ]
+    },
+    {
+      "id": "2801597711933934650",
+      "title": "سامسونج تضع اللمسات الأولى لـ Galaxy Z Fold 9: تفاصيل تقنية وموعد",
+      "url": "https://www.review-mobile.com/2026/11/samsung-galaxy-z-fold-9-imei.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
+      ]
+    },
+    {
+      "id": "4606542392832867417",
+      "title": "مواصفات Oppo Reno 17: وحش البطارية بكاميرا 200 ميجابكسل",
+      "url": "https://www.review-mobile.com/2026/11/oppo-reno-17-pro-launch-analysis.html",
       "fixes": [
         "Standardized specs/review label ['أخبار هواتف'] -> [اوبو]"
+      ]
+    },
+    {
+      "id": "2148737565535424310",
+      "title": "موتورولا Razr Flex: تسريبات تكشف تصميم الهاتف القابل للطي القادم",
+      "url": "https://www.review-mobile.com/2026/11/motorola-razr-flex-leaked-renders.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
+      ]
+    },
+    {
+      "id": "8150315194766596730",
+      "title": "سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي",
+      "url": "https://www.review-mobile.com/2026/11/samsung-galaxy-z-fold-8-gta.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
+      ]
+    },
+    {
+      "id": "8484670487765216580",
+      "title": "سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة",
+      "url": "https://www.review-mobile.com/2026/11/samsung-galaxy-a38-firmware-spotted.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
+      ]
+    },
+    {
+      "id": "8638535735393469180",
+      "title": "تفاصيل ثورة سامسونج القادمة.. هاتف بلا حواف بحلول 2027",
+      "url": "https://www.review-mobile.com/2026/11/samsung-bezel-less-display-2027.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
+      ]
+    },
+    {
+      "id": "8809464509173735584",
+      "title": "مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات",
+      "url": "https://www.review-mobile.com/2026/10/samsung-galaxy-z-flip8-review.html",
+      "fixes": [
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "4642369746558208163",
+      "title": "أرخص موبايل يدعم NFC في 2026: أفضل هواتف تدعم الدفع اللاتلامسي",
+      "url": "https://www.review-mobile.com/2024/04/mobile-phones-support-nfc.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "379202171990963510",
+      "title": "مراجعة هواتف Galaxy A35 و A55 الجديدة - المواصفات والأداء",
+      "url": "https://www.review-mobile.com/2024/03/galaxy-a35-a55.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "7322997553484496385",
+      "title": "مراجعة الهاتف الجديد Oppo F25 Pro – الإمكانيات والسعر",
+      "url": "https://www.review-mobile.com/2024/03/Oppo-f25-pro.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "3351048067430726036",
+      "title": "افضل هواتف اصدرتها شركة اوبو هذا العام دليل شامل",
+      "url": "https://www.review-mobile.com/2023/12/phones-oppo.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "8191098259159552503",
+      "title": "افضل هواتف سامسونج نزلت عام 2024 اليك دليل شامل بها",
+      "url": "https://www.review-mobile.com/2024/02/new-phones.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "745477773005752265",
+      "title": "سعر ومواصفات iPhone 15 (آيفون 15): المميزات والعيوب الكاملة",
+      "url": "https://www.review-mobile.com/2024/02/iPhone-15.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "7592931094523924810",
+      "title": "سعر ومواصفات Oppo Reno 10 5G: المميزات والعيوب الكاملة",
+      "url": "https://www.review-mobile.com/2024/02/oppo-reno-10-5g.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "1759330925052043017",
+      "title": "سعر ومواصفات Vivo V29: المميزات والعيوب الكاملة",
+      "url": "https://www.review-mobile.com/2024/02/vivo-v29.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "5585140765411103538",
+      "title": "سعر ومواصفات Redmi Note 12 (ريدمي نوت 12): المميزات والعيوب",
+      "url": "https://www.review-mobile.com/2023/12/redmi-note-12.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "698332627693168080",
+      "title": "سعر ومواصفات Realme C53 (ريلمي C53): المميزات والعيوب الكاملة",
+      "url": "https://www.review-mobile.com/2023/12/realme-c53.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "8770602798165570136",
+      "title": "سعر ومواصفات Redmi 8 (ريدمي 8): المميزات والعيوب الكاملة",
+      "url": "https://www.review-mobile.com/2024/02/redmi-8.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "8901085180189626522",
+      "title": "مراجعة شاملة لهاتف Realme 11 سعره و مواصفات الجهاز بالكامل",
+      "url": "https://www.review-mobile.com/2024/02/realme-11.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "2434441675462924112",
+      "title": "مواصفات هاتف Oppo Reno 8 4G ومراجعة شاملة وكم سعره بالاسواق",
+      "url": "https://www.review-mobile.com/2023/12/oppo-reno-8-4g.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "2067222771795310160",
+      "title": "سعر ومواصفات Oppo Reno 8T: المميزات والعيوب الكاملة",
+      "url": "https://www.review-mobile.com/2024/02/oppo-reno-8t.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "7982059899187026101",
+      "title": "سعر ومواصفات Nokia G20 (نوكيا G20): المميزات والعيوب الكاملة",
+      "url": "https://www.review-mobile.com/2023/12/nokia-g20.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "7043891449379445721",
+      "title": "سعر ومواصفات Samsung Galaxy A05: المميزات والعيوب الكاملة",
+      "url": "https://www.review-mobile.com/2024/01/samsung-galaxy-a05-review.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "8086182294902648354",
+      "title": "سعر ومواصفات Honor X40 GT Racing: المميزات والعيوب الكاملة",
+      "url": "https://www.review-mobile.com/2023/12/x-40-gt-racing .html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+      ]
+    },
+    {
+      "id": "9132685744051241253",
+      "title": "سعر ومواصفات XHONOR 5: المميزات والعيوب الكاملة",
+      "url": "https://www.review-mobile.com/2023/12/xhonor-5-review.html",
+      "fixes": [
+        "Fixed broken link: /2023/12/samsung-galaxy-s23-fe-review.html -> /2026/10/samsung-galaxy-s26-fe-review.html",
+        "Fixed broken link: /2023/12/oppo-a78-5g-review.html -> /2026/10/oppo-reno17-f-5g-review.html",
+        "Fixed broken link: /2023/10/samsung-galaxy-zflip3.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
       ]
     }
   ]
