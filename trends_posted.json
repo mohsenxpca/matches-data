@@ -2261,6 +2261,24 @@
    "at": "2026-11-21",
    "ok": false,
    "why": "off-topic"
+  },
+  {
+   "q": "مطر",
+   "at": "2026-11-21",
+   "ok": false
+  },
+  {
+   "q": "كومو ضد كالياري",
+   "at": "2026-11-21",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "طقس غدا",
+   "at": "2026-11-21",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/egypt-weather-forecast-tomorrow.html",
+   "title": "تفاصيل طقس غدا وتحذيرات الأرصاد"
   }
  ]
 }
