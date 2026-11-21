@@ -1,11 +1,6 @@
 {
  "done": [
   {
-   "q": "weather tomorrow",
-   "at": "2026-10-27",
-   "ok": false
-  },
-  {
    "q": "al-shamal vs al-hilal",
    "at": "2026-10-27",
    "ok": false
@@ -2294,6 +2289,24 @@
   },
   {
    "q": "بارما ضد روما",
+   "at": "2026-11-21",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "الريال ضد سلتا فيغو",
+   "at": "2026-11-21",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "الريال ضد سلتا فيغو",
+   "at": "2026-11-21",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "نابولي ضد تورينو",
    "at": "2026-11-21",
    "ok": false,
    "why": "banned topic"
