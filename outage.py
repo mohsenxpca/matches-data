@@ -302,7 +302,7 @@ def main():
             print("Gemini generation failed for", sid)
             continue
 
-        if f.dup(art["title"], existing):
+        if f.is_semantic_duplicate(art["title"], existing)[0]:
             print(f"Skipping {sid}: title '{art['title']}' is too similar to existing post.")
             continue
 
