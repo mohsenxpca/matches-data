@@ -1,26 +1,6 @@
 {
  "done": [
   {
-   "title": "Motorola’s $1600 flagship has a surprising battery downgrade in some regions",
-   "url": "https://www.gizmochina.com/2026/11/14/motorola-signature-27-has-a-surprising-battery-downgrade-in-some-regions/",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (570 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "تسريب هاتف HMD 2320 Flip 4G.. مواصفات خارقة أم عودة للماضي؟",
-   "cand_title": "HMD 2320 Flip 4G leak reveals a basic flip phone with GPS and SOS features",
-   "url": "https://www.gizmochina.com/2026/11/14/hmd-2320-flip-4g-leak-reveals-a-basic-flip-phone-with-gps-and-sos-features/",
-   "post_url": "https://www.review-mobile.com/2026/11/hmd-2320-flip-4g-leak-specs.html",
-   "at": "2026-11-15T01:17:31+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "Honor Magic10 series might feature a 200MP primary camera with LOFIC tech",
    "url": "https://www.gsmarena.com/honor_magic10_series_200mp_camera_lofic_tech_dual_layer_oled_display-news-75485.php",
    "at": "2026-11-15",
@@ -3208,6 +3188,22 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (622 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Punjab BJP launches phone numbers to seek suggestions for 2027 poll manifesto - Rediff",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPekhQWEtrN281OF9TZ3NGMW1QeEJKR0sxNU9MYWUycHBITlBKZUlQQjlJWTdaSVpGRS1KRXJLeDMxZmlNMk43WWtjYVBWSHA2NDZJdnIyMDBMb050bzM0TmZiUl9uV1lNZ2hWSWhzSUNyQV9uQ1kyZmEzSG10X0xRTlpVSFBmdWdmNE1keTFNSnY2VWlmanZyWFJDZEppOTNJSmJkc3dCcW9Mb0tKbFB4WVh1MHpucF9zLXhiUmRXbVZvVkx3ZVhEQ3RaRjYzWnA5YTNQaW1laTNnQzRSMEw5NVFqNW03aUJTMExkclg5WnpjbFE?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['numbers', 'manifesto', '2027', 'punjab']"
+  },
+  {
+   "title": "Honor Readies 13,500mAh Battery Smartphone and Speeds Up Power3 Development - hi-Tech.ua",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZVJCcW9tWE1BenJiWkFfZWZkMW9XOVAtOUxYeXd4NHdMalVzWDFOVFNsQ0dJbGhEYmMtVDg5aVY4N3lzRi1EOWtQdmRRVElsUmE3UXBMS0ZFZFRNS3F1RTRDX2h4MmdBX042b0pkdDltSzkyRkI4YU9GZ0pIRFhlUlVRNEIxb3JPNjN1SDdZanppUV93Tmp4OFRISjlhUQ?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (626 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
   }
  ]
