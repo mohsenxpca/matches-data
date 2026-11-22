@@ -1,33 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/6/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D9%85%D9%88%D9%8A%D9%86-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%A7%D9%82-%D9%8A%D8%AA%D8%A3%D8%AB%D8%B1-%D8%A8%D8%A7%D9%84%D8%AA%D8%B7%D9%88%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/7608105",
-   "t": "وزير التموين: استقرار الأسواق يتأثر بالتطورات الاقتصادية والمالية العالمية",
-   "title": "استراتيجية التموين لضبط الأسواق وتأمين السلع الأساسية",
-   "url": "https://www.egyptaway.com/2026/11/supply-ministry-market-stability.html",
-   "at": "2026-11-06T20:34:28.551045+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
-   "u": "https://www.youm7.com/story/2026/11/6/تحذير-لمستخدمي-واتساب-8-إعدادات-مهمة-يجب-تفعيلها-لحماية-حسابك/7608737",
-   "t": "تحذير لمستخدمي واتساب.. 8 إعدادات مهمة يجب تفعيلها لحماية حسابك من الاختراق",
-   "title": "واتساب يحذر: 8 إعدادات ضرورية لحماية حسابك من الاختراق",
-   "url": "https://www.egyptaway.com/2026/11/whatsapp-security-settings-guide.html",
-   "at": "2026-11-06T20:54:13.474798+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
-   "u": "https://www.almasryalyoum.com/news/details/4403102",
-   "t": "«كفاية ظلم».. رسالة غامضة من سيد معوض تزامنًا مع استبعاد نجله من قائمة الأهلي",
-   "title": "سيد معوض يثير الجدل برسالة غامضة حول استبعاد نجله من الأهلي",
-   "url": "https://www.egyptaway.com/2026/11/sayed-moawad-controversial-post.html",
-   "at": "2026-11-06T21:15:58.286654+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.elbalad.news/7170486",
    "t": "بعد استبعاد نجله من قائمة الأهلي.. سيد معوض يثير الجدل: كده كتير.. كفاية ظلم",
    "at": "2026-11-06",
@@ -3399,6 +3372,33 @@
    "at": "2026-11-23T00:04:29.300766+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxPUUItcWdkN3B2YllmeVd3RDZwaTg1VmZPZXYwTkwxTGJHUGk4Q29ndXl4RWtjQnBqTFRLRU81MkNGRnEwNktjTVNHVGpVVUJBSUwySWlVYy12NnRWNDVHcFplREFUSFMybU9sZFJhMHlLWmxjLTdTbE9kTklZdk8xQ0VNUDlMMzRHV0JCd0ZKYkZSZXFia3loM050X0hhcDN2UmtfWnlBODlEclVqYllaWU1OWlNYVDFRa0pBMzFiQmQ1TGdPcVk4WDJwb2dpcG5DUC0zN19vWlFXc0N1UzN4dmNTVlRRdjF2S1B5NzJ2SnJjdjJiOXJkNzk3c00yTjQ1Vm1kdjN3aUJlRm1PT1FDQ1BmeDlqdGxPUlIzblZqeEVRZWVTZEJtWFpJVHFPc3Z1a2pLMm1aZVI5V001LXBPeGRCblpyZ1lnRDdSazVkSTVtQkxlR1VFb1JiLUtka2dwYmZPVHctRFM5Zw?oc=5",
+   "t": "التموين تستعد لصرف مقررات ديسمبر لـ40 ألف منفذ - بوابة أخبار اليوم الإلكترونية",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "الـ body 464 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxORk1yZ1dZc25lT09rLXQzaER5Qm9pd0pnY3BwdXVwd0FrQUFfemU4Y1pMRy1TcEwzOVZURENtYmFKU0R1SnBvaURPc2s2cUpUeU41eEJrMzdIeEJTS3duN3ZIMGpYbldXc3VVYndHTmxJVTQ0QWtnMEtqZGVoV3B4Z3VXNUtCZnJIQUlGeWUzel9jdHdtUXBGaEZrS0dvR1JSRkVNY09CVFVIU1BKZXFxdFk5QnFLcEFzU2lXUTluS05tX2JCRkp2V2d4ajkxU0djZjhZTUllVDRWQjlOZVJsRTBxemVXNmxyVXBGYXp3RDdYOTZzWTlnQXd3X0RnS1FJQWY5QjZpNnh1QkdldE8zUjlEMGhjbmk5c0RwSFlWbzUyTy1BdzRocFRCSTM5TGVkOWU3aDdsQ0p6NnFuLURCcEhYTUZSTnZ6dFZWTVFyUWtTZ05pMWg2WjBBWkRRdlVqMU40aWRwRXo0Ti0zeTBrc1F2QVZEYXJUVFdiTzJR?oc=5",
+   "t": "موعد امتحانات شهر نوفمبر لطلاب الابتدائي والإعدادي والثانوي بالقاهرة - بوابة أخبار اليوم الإلكترونية",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها"
+   ]
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91ZHY0MzlybzJQdzBtR0psbUVLMHI3M1ozRVJMNjlvTHZ3RmJ3RkhVRnpZLThsNUJkeUduN252OWx2c0JlbWNoN0lhMUR5LUlFTEhLMVR3TDlmcVJMUGFz?oc=5",
+   "t": "التأخير يتخطى ساعة ونصف.. «السكة الحديد» تعتذر للمسافرين بسبب تخفيض سرعات القطارات - المصري اليوم",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "الـ body 479 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
