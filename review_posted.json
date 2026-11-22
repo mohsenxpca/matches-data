@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Galaxy Z Fold 7, Z Flip 7 get November 2026 security update",
-   "url": "https://www.sammobile.com/news/galaxy-z-fold-7-z-flip-7-get-november-2026-security-update/",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['2026', 'security', 'galaxy']"
-  },
-  {
    "title": "Gemini’s AI task automation will work with dozens of apps on Galaxy phones",
    "url": "https://www.sammobile.com/news/geminis-ai-task-automation-will-work-with-dozens-of-apps-on-galaxy-phones/",
    "at": "2026-11-14",
@@ -3219,6 +3212,13 @@
    "reason": [
     "طول المقال قصير (641 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "Poco X8s vs Vivo V80 Lite 5G: Specs and Value in 2026 - Memeburn",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzQ0h6VnoxSGR5TnFHNWRKeDdpdFgxYlIzTFdwWVdNdkJHbU5pYkxkYWlyRUk1dkdXd2Q5U3lKU292Y1k5azZ6Q0k0a1VFUHJVT000dE41Y0tQZVo3MTV3?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Phone 'x8s' already covered in: مراجعة Xiaomi Poco X8s: هل يغير قواعد الفئة المتوسطة في 2026؟"
   }
  ]
 }
