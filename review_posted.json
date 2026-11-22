@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Deals: the Galaxy S26 series is up to £570 off, Pixel 11 series also discounted, Oppo Find X10 price drops",
-   "url": "https://www.gsmarena.com/deals_the_galaxy_s26_series_is_up_to_570_off_pixel_11_series_also_discounted_oppo_find_x10_price_dro-news-75473.php",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (649 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Samsung Galaxy A18 4G launched in Singapore, but with a different chip",
    "url": "https://www.gsmarena.com/samsung_galaxy_a18_4g_singapore_price_sale_date-news-75483.php",
    "at": "2026-11-15",
@@ -3199,6 +3190,17 @@
    "at": "2026-11-22",
    "ok": false,
    "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "هواوي تفاجئ السوق بهاتف OSTA O1 Pro ونظام HarmonyOS 7",
+   "cand_title": "Huawei launches OSTA Xingmang sub-brand, with first HarmonyOS AI phone starting at 5,699 yuan - 联合早报",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM0FUVXpSaVZUUnlQM2JHaUZjU0d2T2o1ZkNPSGRUS2VBVjdxdS1rOGpLOEEtdzk2WjBwUDZTVHJLTmJkbmZnMWVmVXZrbjdNMktMMFRmQXdaakRuTmpUS1hEXy01THpnSDZVS1BrVmRxdlc4RzZZR2RqWTJYOGdQZHUyUnJZUUVaTE16Q3dGMW9NNnNxTWZ1QThubVBYVkxicXFlSmhNYjZhU2R0b1F4MFpTQjcwQWVvTC1FOXZzd3Y?oc=5",
+   "raw_photo": "https://cassette.sphdigital.com.sg/image/zaobao/99c8e361cd6d380dc7ecbf044941102fedb60b658533a4c956dae901416cc498",
+   "post_url": "https://www.review-mobile.com/2026/11/huawei-osta-o1-pro-harmonyos-7.html",
+   "at": "2026-11-22T13:16:41+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هواوي"
   }
  ]
 }
