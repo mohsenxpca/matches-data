@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung One UI Update Schedule: November 2026 - Droid Life",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWUhYQ0IwdHpJaDRRNmdDcEM2a19GVDdTSk9uUlYzZHdhOWpqNXFpVWVFMXhmdEVRVFM3RkZHTUhYRkVISEdYOXFSSjZRZ3dhWEdzTThDYTBmS3JvRElCbXVmQlRGWlh2ZE9GWjhZYXdQVWVwQ0prRml1TUdjZnFQSmVENmJpUTNtQzRYeg?oc=5",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (651 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "مراجعة Honor 700S: وحش الفئة المتوسطة بمواصفات الفلاجشيب",
    "cand_title": "Honor 700S",
    "url": "https://www.gsmarena.com/honor_700s_5g-15085.php",
@@ -3206,6 +3197,13 @@
    "at": "2026-11-22",
    "ok": false,
    "reason": "Phone 'iphone 20 pro max' already covered in: مواصفات iPhone 20 Pro Max: هل يغير قواعد اللعبة في 2027؟"
+  },
+  {
+   "title": "Honor reportedly has a 13,500 mAh phone coming, and the Power3 isn't far behind - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeXZhQUJDTjA1Snc3NUNUZmNaOEMzMGluZmVqQXBNQTRWM3ZwN1pRMV9YazBkOExTa3ZKbGNMbHVrQ1Q3VWJzV1dkWDR0VXZFV1QzTU5BSHEtQ1lwQ29IMkNNRUd2REJ1dVhmQ09HeU5tU3Nra1FSTkI4VmRuUUlBRUl0bm0wVGh1cmxLMnBkUXFYbkpIdDJId2w5MVNROXZ4Mmd5bVhLQ0NQRWlzT2tqYU1ZMNIBswFBVV95cUxOeXZhQUJDTjA1Snc3NUNUZmNaOEMzMGluZmVqQXBNQTRWM3ZwN1pRMV9YazBkOExTa3ZKbGNMbHVrQ1Q3VWJzV1dkWDR0VXZFV1QzTU5BSHEtQ1lwQ29IMkNNRUd2REJ1dVhmQ09HeU5tU3Nra1FSTkI4VmRuUUlBRUl0bm0wVGh1cmxLMnBkUXFYbkpIdDJId2w5MVNROXZ4Mmd5bVhLQ0NQRWlzT2tqYU1ZMA?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Phone '13 500' already covered in: هاتف Honor القادم ببطارية خرافية 13,500 مللي أمبير: هل هذا هو"
   }
  ]
 }
