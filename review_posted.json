@@ -1,30 +1,6 @@
 {
  "done": [
   {
-   "title": "Redmi Note 18 makes its first appearance online, confirming charging speed",
-   "url": "https://www.gizmochina.com/2026/11/13/redmi-note-18-makes-its-first-appearance-online-confirming-charging-speed/",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['speed', 'online', 'redmi', 'note']"
-  },
-  {
-   "title": "Samsung’s Galaxy A18 reaches another market with a different chip",
-   "url": "https://www.sammobile.com/news/samsungs-galaxy-a18-reaches-another-market-with-a-different-chip/",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": "Phone 'a18' already covered in: مراجعة Samsung Galaxy A18 4G: معالج Exynos 1610 وشاشة AMOLED و6 تحديثات أندرويد"
-  },
-  {
-   "title": "One tweak makes the Galaxy Z Fold 8 multi-window experience even better",
-   "url": "https://www.sammobile.com/news/one-tweak-makes-galaxy-z-fold-8-split-screen-better/",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (576 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
    "title": "New Galaxy A37 update brings October 2026 security patch",
    "url": "https://www.sammobile.com/news/new-galaxy-a37-update-brings-october-2026-security-patch/",
    "at": "2026-11-14",
@@ -3219,6 +3195,31 @@
    "at": "2026-11-22",
    "ok": false,
    "reason": "Model code [17] with variants {'ultra'} found in review: مراجعة شاملة لهاتف Xiaomi 17 Ultra: وحش التصوير بمعالج خارق"
+  },
+  {
+   "title": "Xiaomi launches new $8 Mijia Coffee Cup with premium stainless steel build and 6-hour insulation",
+   "url": "https://www.gizmochina.com/2026/11/22/xiaomi-mijia-coffee-cup-launched-specs-price/",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Motorola Moto Tag 3 listed on Amazon",
+   "url": "https://www.gsmarena.com/motorola_moto_tag_3_features_design_amazon_listing-news-75585.php",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Phone 'tag 3' already covered in: موتورولا Moto Tag 3: هل هو جيل جديد أم مجرد ألوان إضافية؟"
+  },
+  {
+   "title": "أخطاء قاتلة تدمر هاتفك الأندرويد ببطء.. تجنبها فوراً",
+   "cand_title": "10 Things You Should Never Do On Your Android Phone - Engadget",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLUEpINnNhNHJ0WXV1ekdzdERHQVRTN2pRQWdCWTNralpGSGtWUzVIbUdSZkFNMkhOMUs5cS13eWVuYWI0QjJSX25YMlhwWTVYZDY3Q2ZGVzlNbFZmZGNrSUdJSTNRRVVvT3dnSkxuLV9fa3BldGxzRlgwQ1M?oc=5",
+   "raw_photo": "https://www.engadget.com/img/gallery/10-things-you-should-never-do-on-your-android-phone/l-intro-1793984732.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/dangerous-mistakes-to-avoid-on-android.html",
+   "at": "2026-11-22T02:36:38+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
