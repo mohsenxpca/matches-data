@@ -331,12 +331,14 @@ def fix_and_interlink_post(content, post_url, post_title, post_labels, site_key,
         ]
         for dkw in dyn_kws:
             if dkw in p_text and dkw not in linked_kws:
-                # Find best live article in catalog whose title contains dkw (and isn't this post or already linked)
+                # Find best live article in catalog whose title contains dkw (matching topic, never sports for telecom)
+                is_sports_post = any(l in {"أخبار الكورة", "الدوري المصري", "رياضة"} for l in post_labels)
                 match_art = next(
                     (o for o in catalog
                      if dkw.lower() in o.get("title", "").lower()
                      and o.get("url", "").split("?")[0] != clean_post_url
-                     and o.get("url", "").split("?")[0] not in existing_article_urls),
+                     and o.get("url", "").split("?")[0] not in existing_article_urls
+                     and (is_sports_post or not any(l in {"أخبار الكورة", "الدوري المصري", "رياضة"} for l in o.get("labels", [])))),
                     None
                 )
                 if match_art:
