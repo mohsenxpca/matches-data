@@ -1,11 +1,6 @@
 {
  "done": [
   {
-   "q": "الدخول العالمي",
-   "at": "2026-10-27",
-   "ok": false
-  },
-  {
    "q": "ballistic missile",
    "at": "2026-10-28",
    "ok": false,
@@ -2312,6 +2307,12 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/inter-miami-columbus-crew-mls-2026.html",
    "title": "تفاصيل مباراة إنتر ميامي وكولومبوس كرو"
+  },
+  {
+   "q": "محمد الشناوي",
+   "at": "2026-11-22",
+   "ok": false,
+   "why": "off-topic"
   }
  ]
 }
