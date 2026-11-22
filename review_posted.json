@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "New Galaxy A37 update brings October 2026 security patch",
-   "url": "https://www.sammobile.com/news/new-galaxy-a37-update-brings-october-2026-security-patch/",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (405 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
    "title": "Galaxy Z Fold 7, Z Flip 7 get November 2026 security update",
    "url": "https://www.sammobile.com/news/galaxy-z-fold-7-z-flip-7-get-november-2026-security-update/",
    "at": "2026-11-14",
@@ -3220,6 +3210,15 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "T-Mobile leak reveals major phone plan change for core customers - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY3JMdTdIMHJaQzJyRm41Q2NPOW5BVDQzWXRtYU42UkZhWG1saEw3SHFIZjBEWWc1WWZYYkpwbXl3M2RlNVBnaHBpVTBhaEU5Wmt1aXA4R1ROanlXUmEzeVlMLXlLSW85Mm1CRkNQczJ4NTk5NDc4NE5JRkdiZ0VEUGZWMVE2dGpqSDJkY3ctT0hnRDdqWm5oSlAtNA?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (641 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
