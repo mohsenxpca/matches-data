@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "title": "Google gets ready to kill off Pixel 10 Magic Cue in favor of Proactive Assistance",
-   "url": "https://www.androidauthority.com/google-kill-magic-cue-3735173/",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (564 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Amazon cuts Nothing Phone (3) by $200 in early Black Friday deal",
-   "url": "https://www.androidauthority.com/nothing-phone-3-black-friday-deal-amazon-3735110/",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (661 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "‘It just looks like R2-D2’ — This new gaming phone offers flagship specs and PC game emulation at a killer price, but its design is something else - Android Central",
    "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOREFPd1I0UXdpVHVCd3FUaUczMmVGMmk3T3F1VEprT0N3SnRsaFRES1ptelJQS2pyM3ZBX0dMVVBnbWJrVHBzcUZtRlBqc3AxbmQzR01FemdrWnJabFJ4WktFR1c1TlZ4bDAyLUZxaVJkNVZUbjZoQndybkxuUHdKODdvSlBrak93S2g1a0JhRGJMeFlUZXhDc2VybmVud1d2NFh5VG1FMWJhcWR5RTNiMlRCYjhlSzdaSXJSMzZuVUVPZFFGRVJORlJ2MGlfWUEwSW5wZ29GX092MURmb2haRXhueGdXaWx2aDlDazBvVVhxT29Hdkt4VHNCbVVJQkU0cmdwd0I0SUI4QjNfYVlGYXgwQUVxU2l3UWN6Mg?oc=5",
    "at": "2026-11-14",
@@ -3220,6 +3202,22 @@
    "ok": true,
    "kind": "news",
    "brand": "فيفو"
+  },
+  {
+   "title": "Doogee Note 70 borrows design from Samsung, rear screen from Xiaomi",
+   "url": "https://www.gizmochina.com/2026/11/22/doogee-note-70-borrows-design-from-samsung-rear-screen-from-xiaomi/",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (612 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Google Maps was draining my phone's battery until I made these 5 tweaks - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORUMzekUzNzNyVWIxcGNTNERFYnJCYXdkdDMwMWczVGpqRlVtV0U0WlZUZnFqQmp1cHBLRDRBSXpUZHVGYS1oOF93eksyak1rWEFIMmhCOVhBb2xYaUJ1OFM2c1hjRk5FTFNvMDF3ZVN0UVdKVTJ5MW52MjhpaGRqTXhMYnNzRWNJ?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['these', 'until', 'police']"
   }
  ]
 }
