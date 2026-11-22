@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Deals: Samsung Galaxy S26 Ultra and Z Fold8 on sale, Nothing Phone (3) gets a price cut",
-   "url": "https://www.gsmarena.com/deals_samsung_galaxy_s26_ultra_and_z_fold8_on_sale_nothing_phone_3_gets_a_price_cut-news-75470.php",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (519 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Oppo Reno17 and Reno17 Pro's full specs tipped ahead of November 16 launch",
    "url": "https://www.gsmarena.com/oppo_reno17_reno17_pro_full_specs_tipped-news-75484.php",
    "at": "2026-11-15",
@@ -3201,6 +3192,13 @@
    "at": "2026-11-22",
    "ok": false,
    "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
+  },
+  {
+   "title": "iPhone Air 2 (2027) release date expectations, price estimates, and upgrades - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUElNV1lCMEFmNEZMOGIyQjlwVXlMV2EzelNoNUEyN2xBeUFzYU1USnloQWR3eklQZmFYT0s2YU80WDJXYTRIQmtkRlFhaVZiRDY4cGZTSWVua1IzMTA4VTlENkZhcWNWSXhrbnBQUk1jdlRHWGp2U2t3SW16ZUx4MA?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['date', 'iphone', 'upgrades', 'expectations']"
   }
  ]
 }
