@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Reno17 and Reno17 Pro's full specs tipped ahead of November 16 launch",
-   "url": "https://www.gsmarena.com/oppo_reno17_reno17_pro_full_specs_tipped-news-75484.php",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
-  },
-  {
-   "title": "Here's what the OnePlus 16's launch in India is rumored to depend on",
-   "url": "https://www.gsmarena.com/heres_what_the_oneplus_16s_launch_in_india_is_rumored_to_depend_on-news-75475.php",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": "Phone 'oneplus 16' already covered in: مراجعة OnePlus 16 قبل الإطلاق: Snapdragon 8 Elite Extreme وشاشة 185Hz"
-  },
-  {
    "title": "Deals: the Galaxy S26 series is up to £570 off, Pixel 11 series also discounted, Oppo Find X10 price drops",
    "url": "https://www.gsmarena.com/deals_the_galaxy_s26_series_is_up_to_570_off_pixel_11_series_also_discounted_oppo_find_x10_price_dro-news-75473.php",
    "at": "2026-11-15",
@@ -3199,6 +3185,20 @@
    "at": "2026-11-22",
    "ok": false,
    "reason": "Recent story overlap on key terms ['date', 'iphone', 'upgrades', 'expectations']"
+  },
+  {
+   "title": "Weekly poll: the Xiaomi 18 Pro and 18 Pro Max are global now, have you changed your mind about them?",
+   "url": "https://www.gsmarena.com/weekly_poll_the_xiaomi_18_pro_and_18_pro_max_are_global_now_have_you_changed_your_mind_about_them-news-75551.php",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
+  },
+  {
+   "title": "Phone numbers, QR code: Punjab BJP's new push to seek public input for 2027 'people's manifesto' - The Times of India",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ3UxT3VRQTZMVHJ3TXQzaXZvdDFyYi1jVWpxU1FmYTVUQ0tKRWNnXy0wMmlSTkdlcW5SNXVtSnN0U3JjRFJVeWFaOWJRaWd4YXVGY0JTUDdtNHJhbnRnZkFhd0FRVE9DZ3d4NDVxR183SGlHY09iWmlxZktCUlhpclFrZnJHbVh6aXJXQkgzM0RpNHIzX09RTG5ZNTJUc2c2V3BaQVBWR0VlbWxfZDU2Y0paWmtrRGRyTmZzc0FnOVdjS2pQZVFlQ1pKWVNUNmJqSXhYTzBvb1YtcXFzWmpuOWxTTnJfdnRpSlJvU3lZNNIB9AFBVV95cUxPODlWZ29BdVczVG00OEhySHJzc1pNOGhvSWwtZ1dVMDA4Rjh3aVBoQ3lJVlNpcDdpUk52dlQzQkotcWJRbUJrSnRuRXBTbVlybzhRSi1nVkh6d3VyUFhud3pjd0hCbGRXUjBKcks0ZVFIaWZ5ZTMybGpWN1puck5GcVlQYUZ0Ul9oZjl4TGp1aHRRRnZ3MlBhM1RuUnpWX0FIMWpTajNmRUdnbXdCQV90c3BBSy1obk8xOUhrSkxrYV9qQjdPUzZLX2hRSmRHTmx5OEFvSGNpZGtQd1RNMGpqOXJhTEJnQnhFa25MeENqYm9PWUQ5?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "out_of_phone_scope"
   }
  ]
 }
