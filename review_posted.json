@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "Gemini’s AI task automation will work with dozens of apps on Galaxy phones",
-   "url": "https://www.sammobile.com/news/geminis-ai-task-automation-will-work-with-dozens-of-apps-on-galaxy-phones/",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (619 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
    "title": "Google gets ready to kill off Pixel 10 Magic Cue in favor of Proactive Assistance",
    "url": "https://www.androidauthority.com/google-kill-magic-cue-3735173/",
    "at": "2026-11-14",
@@ -3219,6 +3209,17 @@
    "at": "2026-11-22",
    "ok": false,
    "reason": "Phone 'x8s' already covered in: مراجعة Xiaomi Poco X8s: هل يغير قواعد الفئة المتوسطة في 2026؟"
+  },
+  {
+   "title": "تسريب مواصفات سلسلة فيفو Y الاقتصادية الجديدة كلياً",
+   "cand_title": "vivo Y21s 5G, Y11s 5G, Y05s 4G specs and images leak",
+   "url": "https://www.gsmarena.com/vivo_y21s_5g_y11s_5g_y05s_4g_specs_and_images_leak-news-75584.php",
+   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/vivo-y21s-y11s-y05s-leak/-952x498w6/gsmarena_001.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/vivo-y21s-y11s-y05s-specs-leak.html",
+   "at": "2026-11-22T04:46:30+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "فيفو"
   }
  ]
 }
