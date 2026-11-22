@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung Galaxy A18 4G launched in Singapore, but with a different chip",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a18_4g_singapore_price_sale_date-news-75483.php",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['chip', 'galaxy', 'different']"
-  },
-  {
    "title": "ثورة في هواتف هواوي القابلة للطي: هل تتخلى عن تصميم Flip؟",
    "cand_title": "Huawei's next nova Flip could switch to a wide form factor",
    "url": "https://www.gsmarena.com/huaweis_next_nova_flip_could_switch_to_a_wide_form_factor-news-75479.php",
@@ -3201,6 +3194,13 @@
    "ok": true,
    "kind": "news",
    "brand": "هواوي"
+  },
+  {
+   "title": "Weekly poll: the Xiaomi 18 Pro and 18 Pro Max are global now, have you changed your mind about them? - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNWpkeE5lcDNTZmlXeE5XWWdydFVvazZhenFBaTNUNGZDYUl3ODQ1VUVuWlJVRWlKUUp6THE4NUp6R3JrMGNraG1KVGNUaWtoWTVPMTY1YjktaFR3SUM2NjNWMHdybWw4Z3JYa0dkel9TdjJTdkwwT0d0N0dva2ZPZDByZGIwM0NNcG1nTVdnT2xzZWstemQyNFVPeHZWSUtXcVFmT1pJbGV2VGViSG9XbFl6OTV3cWVCb0hyUUxoSXRhb2VDSmY2WjFuM01HZk1taUJn0gHPAUFVX3lxTE5qUXotQThoa2NPSUtadnVBTVYyOFR1cGx4TThveEs2OEktWVBnYWFkaEpoQmpNcHE3RlpGOW9UX2UxM1FWUlBsTHJvM0g0OWRPYVpHaks3UDVCNzNfaDJYc2lhVTI5eFFLd0ZqdHRaU0x0SWJUMHB6X2E5SmRUSjE1ZUJGc2k5WDlvaDhEaFBoMHNQaUdWZmU5QkRnanh0NzRvR0JlU2NyMW9LeWt5NzBheDJyd3ZqT3BibU5CbjI1TWh6bkpZSEVSOF82c1kzOA?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['have', 'your', 'changed', 'mind']"
   }
  ]
 }
