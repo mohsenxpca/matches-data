@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "‘It just looks like R2-D2’ — This new gaming phone offers flagship specs and PC game emulation at a killer price, but its design is something else - Android Central",
-   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOREFPd1I0UXdpVHVCd3FUaUczMmVGMmk3T3F1VEprT0N3SnRsaFRES1ptelJQS2pyM3ZBX0dMVVBnbWJrVHBzcUZtRlBqc3AxbmQzR01FemdrWnJabFJ4WktFR1c1TlZ4bDAyLUZxaVJkNVZUbjZoQndybkxuUHdKODdvSlBrak93S2g1a0JhRGJMeFlUZXhDc2VybmVud1d2NFh5VG1FMWJhcWR5RTNiMlRCYjhlSzdaSXJSMzZuVUVPZFFGRVJORlJ2MGlfWUEwSW5wZ29GX092MURmb2haRXhueGdXaWx2aDlDazBvVVhxT29Hdkt4VHNCbVVJQkU0cmdwd0I0SUI4QjNfYVlGYXgwQUVxU2l3UWN6Mg?oc=5",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (662 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "هاتف Poco X8s الجديد: هل يغير قواعد المنافسة في الفئة المتوسطة؟",
    "cand_title": "Poco X8s Debuts in Europe: Specs, Cameras, and Pricing - hi-Tech.ua",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNaUlvaWVmdW5tS1IyTXdtczAzTEpfRjFNLWR0aENxNUZDVmZXcUxSRkN3Y0NMTHBrQXZ4YnNuLW1OSmN4U2RxbmxmUjZGSnVicmVEM2JDWU9WdDVpVXJjVlRla0RDVGFnTUxhSW0yYVpVVVFQcXRMYlBSMW5EME0?oc=5",
@@ -3218,6 +3209,15 @@
    "at": "2026-11-22",
    "ok": false,
    "reason": "Recent story overlap on key terms ['these', 'until', 'police']"
+  },
+  {
+   "title": "You Can Downgrade One UI On Your Samsung Galaxy Phone - But There's A Catch - BGR",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxb1pDakpLRXdfVGsyZGZ2bXlwV1pFR3BHVHdiLWhfVE82S2dkeEZua1RJX0tYeXJaU2RWWW9sSERjSlBvYkxtbU5yYnBqdlBZUlgwRVNVblprM015NlF0Y3o2czdGbFJWRV95YjktUEhQemFzMi1MdnZ3?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (654 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
