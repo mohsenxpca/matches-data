@@ -121,6 +121,12 @@ _FRESH = {}  # access tokens last ~1 hour; long runs (slow Gemini) get a new one
 
 
 def api(method, path, tok, params=None, body=None):
+    if method == "POST" and path.rstrip("/").endswith("/posts") and isinstance(body, dict) and body.get("content"):
+        try:
+            import interlink_engine
+            interlink_engine.auto_interlink_before_publish(path, body, tok)
+        except Exception as e:
+            print(f"[Auto-Interlink hook warning]: {e}")
     if method in ("POST", "PUT", "PATCH"):
         import html_guard
         html_guard.check(body, path)  # unbalanced <div> in a post breaks the theme layout (sidebar under the post)

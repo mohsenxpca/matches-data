@@ -300,7 +300,7 @@ def fix_and_interlink_post(content, post_url, post_title, post_labels, site_key,
         p_text = p.get_text()
         matched_here = False
         for kw, (k_url, k_title) in site_keywords.get(site_key, {}).items():
-            if kw in p_text and kw not in linked_kws and k_url != clean_post_url:
+            if kw in p_text and kw not in linked_kws and k_url != clean_post_url and k_url not in existing_article_urls and k_url not in existing_hub_urls:
                 raw_p = str(p)
                 new_p_html = raw_p.replace(kw, f'<a href="{k_url}" title="{k_title}" style="color:#2563eb;font-weight:700;text-decoration:underline;">{kw}</a>', 1)
                 new_p = BeautifulSoup(new_p_html, "html.parser").find("p")
@@ -320,11 +320,14 @@ def fix_and_interlink_post(content, post_url, post_title, post_labels, site_key,
             continue
         # Dynamic keyword-to-catalog-article linking for topic entities
         dyn_kws = [
-            "فودافون كاش", "إنستاباي", "انستاباي", "البنك الأهلي", "بنك مصر",
-            "دريم ليج", "موبايل ليجندز", "روبلوكس", "ببجي", "فري فاير", "GTA 6",
-            "الأهلي", "الزمالك", "محمد صلاح", "منتخب مصر",
-            "سامسونج", "شاومي", "آيفون", "ايفون", "أوبو", "فيفو", "هونر", "ريلمي",
-            "واتساب", "فيسبوك", "اتصالات", "أورنج", "ChatGPT", "الذكاء الاصطناعي"
+            "فودافون كاش", "اتصالات كاش", "أورنج كاش", "WE Pay", "إنستاباي", "انستاباي",
+            "إلغاء الخدمات", "سحب الرصيد", "أكواد فودافون", "باقات فودافون", "أكواد اتصالات",
+            "شحن شدات ببجي", "حزمة الازدهار", "شدات ببجي", "عملات واو", "جواهر فري فاير",
+            "دريم ليج", "موبايل ليجندز", "روبلوكس", "ببجي موبايل", "ببجي", "فري فاير", "GTA 6",
+            "شهادات البنك الأهلي", "البنك الأهلي", "بنك مصر", "سكن لكل المصريين", "الإسكان الاجتماعي",
+            "الأهلي", "الزمالك", "محمد صلاح", "منتخب مصر", "الدوري المصري",
+            "سامسونج", "شاومي", "آيفون", "ايفون", "أوبو", "فيفو", "هونر", "ريلمي", "أندرويد",
+            "واتساب", "فيسبوك", "اتصالات", "فودافون", "أورنج", "ChatGPT", "الذكاء الاصطناعي"
         ]
         for dkw in dyn_kws:
             if dkw in p_text and dkw not in linked_kws:
@@ -348,6 +351,33 @@ def fix_and_interlink_post(content, post_url, post_title, post_labels, site_key,
                         existing_article_urls.add(m_url)
                         modified = True
                         fixes_made.append(f"In-text linked keyword '{dkw}' -> {m_url}")
+                        break
+        # Fallback: match any 2-word topic phrase from top related catalog titles inside this paragraph
+        if not any(kw in str(p) for kw in linked_kws) and len(linked_kws) < 2:
+            rel_cands = select_related_articles(post_url, post_title, post_labels, catalog, limit=6)
+            stop_words = {"في", "من", "على", "إلى", "عن", "مع", "أو", "هل", "كيف", "طريقة", "دليل", "شرح", "تحديث", "مصر", "اليوم", "جديد", "2025", "2026", "2027", "عبر", "أفضل"}
+            for r_url, r_title in rel_cands:
+                if r_url == clean_post_url or r_url in existing_article_urls:
+                    continue
+                words = [w for w in re.findall(r"[\u0600-\u06FFa-zA-Z0-9]+", r_title) if len(w) >= 3]
+                phrase_found = None
+                for idx in range(len(words) - 1):
+                    if words[idx] in stop_words and words[idx + 1] in stop_words:
+                        continue
+                    ph = words[idx] + " " + words[idx + 1]
+                    if len(ph) >= 7 and ph in p_text and ph not in linked_kws:
+                        phrase_found = ph
+                        break
+                if phrase_found:
+                    raw_p = str(p)
+                    new_p_html = raw_p.replace(phrase_found, f'<a href="{r_url}" title="{r_title}" style="color:#2563eb;font-weight:700;text-decoration:underline;">{phrase_found}</a>', 1)
+                    new_p = BeautifulSoup(new_p_html, "html.parser").find("p")
+                    if new_p:
+                        p.replace_with(new_p)
+                        linked_kws.add(phrase_found)
+                        existing_article_urls.add(r_url)
+                        modified = True
+                        fixes_made.append(f"In-text linked phrase '{phrase_found}' -> {r_url}")
                         break
 
     # 5. IF 0 HUB LINKS, INJECT A RELEVANT HUB LINK
@@ -604,6 +634,49 @@ def run_interlinker(site_key, limit=30, days=None, all_missing=False, backfill=0
     print(f"Evaluated: {len(posts)} posts")
     print(f"Modified/Updated: {len(updated_posts)} posts")
     return updated_posts
+
+_IN_AUTO_INTERLINK = False
+
+def auto_interlink_before_publish(api_path, body, tok=None):
+    """Automatically injects contextual in-text keyword backlinks & related card BEFORE a post is published to Blogger."""
+    global _TOK, _IN_AUTO_INTERLINK
+    if _IN_AUTO_INTERLINK or not isinstance(body, dict) or not body.get("content"):
+        return
+    site_key = None
+    for k, cfg in BLOGS.items():
+        if cfg["blog_id"] in api_path:
+            site_key = k
+            break
+    if not site_key:
+        return
+    _IN_AUTO_INTERLINK = True
+    try:
+        if tok:
+            _TOK = tok
+        catalog = load_catalog(site_key, max_posts=200)
+        if not catalog:
+            return
+        catalog_by_url = {p.get("url", "").split("?")[0]: p for p in catalog}
+        raw_content = body["content"]
+        # Extract real Arabic title if body["title"] is an English slug during draft creation
+        post_title = body.get("title", "")
+        if not re.search(r"[\u0600-\u06FF]", post_title):
+            m_alt = re.search(r'<img[^>]+alt=["\']([^"\']*[\u0600-\u06FF][^"\']*)["\']', raw_content)
+            m_h2 = re.search(r"<h2[^>]*>(.*?)</h2>", raw_content, re.S)
+            if m_alt:
+                post_title = m_alt.group(1)
+            elif m_h2:
+                post_title = re.sub(r"<[^>]+>", "", m_h2.group(1)).strip()
+        post_labels = body.get("labels", []) or []
+        new_html, fixes = fix_and_interlink_post(raw_content, "", post_title, post_labels, site_key, catalog_by_url, catalog)
+        if new_html and fixes:
+            body["content"] = new_html
+            print(f"[Auto-Interlink @Publish] Added {len(fixes)} internal backlinks for '{post_title[:45]}'")
+    except Exception as e:
+        print(f"[Auto-Interlink @Publish] Warning (skipped safely): {e}")
+    finally:
+        _IN_AUTO_INTERLINK = False
+
 
 if __name__ == "__main__":
     import argparse

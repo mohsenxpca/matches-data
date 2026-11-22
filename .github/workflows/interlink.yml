@@ -2,7 +2,7 @@ name: الربط الداخلي التلقائي (Contextual Interlinking)
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # كل ربع ساعة على مدار الـ 24 ساعة
+    - cron: "10 * * * *"   # كل ساعة (أكثر استقراراً على GitHub Actions من كل ربع ساعة) مع زحف للأرشيف القديم
   workflow_dispatch:
     inputs:
       site:
