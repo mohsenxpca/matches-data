@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Did Apple release 'Live Listen' update that lets someone else remotely access your phone? - Snopes.com",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0xWkU0d2tkdWdlN1d2V1RlRF9XT3FjbmNzY19SWXh3ZkwyQWE3N1BUcEJNVmdIZzZQN3NVczlpU09ZcGNLb0g2TU9ZWkRpOTV0YnZLcVl0ZllZVWZ2N2RuWC1CLUNDbDJWQ1hN?oc=5",
-   "at": "2026-11-14",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
    "title": "لماذا يجب أن تتوقف فوراً عن إغلاق التطبيقات في الخلفية؟",
    "cand_title": "I finally stopped micromanaging my Android phone, and you should too - How-To Geek",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdm9JYWcyWVRoZElmQm0wSERCM1JUWXp5cmxqVThlR3Y3NVFYSmdmNlNNUHdIcy1uR24yTG1aZWJTTGJFQmNyRFRZckplUlRkY0RXcFNZWkxHWHZ4YVpZNktVWldGVzdZWEUxWkROU2U5ajF2TjZMOTY0WUQyeF9Jc25SNFpodUQxa0lRc0xuakpuOXBZU1IxWUNB?oc=5",
@@ -3214,6 +3207,13 @@
    "at": "2026-11-22",
    "ok": false,
    "reason": "Phone 'iphone 18 pro' already covered in: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "The revamped My Georgia Southern app is free and available for iPhone and Android mobile users - The George-Anne Media Group",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONTNfR1ZoSVk2WnRTV2VnZlplZTREbjB5a2RxMUNubEpCZUx3eTl3SlE0U2lYRVVXZHYxNDlhcnJmclFGR3ZLdHZZM2VpOWJTQzNvOThvYmx0NlpydnRZMzB4cGd3YW9ab2lhSU5PWUdPdXFZaUQ5aEtycDE0MlAwUVowRHVfd2t0OWtDa2JMZHBYektyaGNBbGVXdmU2MmNlWkdPb0pJbjFkMGItcEQ2bzBZamlXWGpYcUNoLWFCcFpqMElBRk9oc09MVQ?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "out_of_phone_scope"
   }
  ]
 }
