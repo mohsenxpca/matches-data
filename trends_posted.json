@@ -1,19 +1,6 @@
 {
  "done": [
   {
-   "q": "zimbabwe vs india",
-   "at": "2026-10-28",
-   "ok": false,
-   "why": "no source text"
-  },
-  {
-   "q": "مطعم",
-   "at": "2026-10-28",
-   "ok": true,
-   "url": "https://www.egyptaway.com/2026/10/winter-hours-restaurants-shops-egypt.html",
-   "title": "مواعيد غلق المطاعم والمحلات مع تطبيق التوقيت الشتوي في مصر"
-  },
-  {
    "q": "harleen deol",
    "at": "2026-10-28",
    "ok": false,
@@ -2311,6 +2298,18 @@
   },
   {
    "q": "شهادة استثمار",
+   "at": "2026-11-22",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "منتخب قطر لكرة القدم",
+   "at": "2026-11-22",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "محمد رمضان",
    "at": "2026-11-22",
    "ok": false,
    "why": "banned topic"
