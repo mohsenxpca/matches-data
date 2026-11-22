@@ -1,26 +1,6 @@
 {
  "done": [
   {
-   "title": "هاتف Poco X8s الجديد: هل يغير قواعد المنافسة في الفئة المتوسطة؟",
-   "cand_title": "Poco X8s Debuts in Europe: Specs, Cameras, and Pricing - hi-Tech.ua",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNaUlvaWVmdW5tS1IyTXdtczAzTEpfRjFNLWR0aENxNUZDVmZXcUxSRkN3Y0NMTHBrQXZ4YnNuLW1OSmN4U2RxbmxmUjZGSnVicmVEM2JDWU9WdDVpVXJjVlRla0RDVGFnTUxhSW0yYVpVVVFQcXRMYlBSMW5EME0?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/poco-x8s-european-launch-analysis.html",
-   "at": "2026-11-14T01:45:04+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "شاومي"
-  },
-  {
-   "title": "ميزة ثورية من ميتا: وكيل AI يقوم بالمكالمات الهاتفية بدلاً منك",
-   "cand_title": "Meta's AI Agent Muse Launches Phone-Call Delegation Feature for Paid Subscribers in the US - BigGo Finance",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfU1RWUmo3VnM2WHRpNkJmU0t2d09FelRXdUtPU3FBN3hSUjQ3RS1OZzQ0dkIyT3dtQkFSSFRFc2ZRWC1pQkFjTFloVS1JYXJkZF9ESmpMRzFNLTVwZWZXekJSR2RFRUMwS3BaclV3YnprZS1uOXc?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/meta-muse-ai-phone-call-delegation.html",
-   "at": "2026-11-14T02:12:07+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "Honor Magic9 Pro Max's Malaysia launch date announced - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS21ESHE5Y1hsc2t1cnlWc21EWUVhdTEta1NFdG53R0UzUEVoMGtkNEZLd1lqSlpuZHBMaTFaMWhnaXBLMWFoYkptR3FqVm1KVFN5SERuMUFWaTBBS1pCWGZ5RUx0QXdRdjNWa0RVdm1NU3FFOUxJa1BNV01JUjN0bHRJeFhfUUJx0gGEAUFVX3lxTE40M3FoTkJ2MU0tTWVvV01IUEs0cnE0My1GSFZWaWJLRm4zOG9nRmVzRG1PYkdmVDVia0UxLVRvRHNvbXJjSDdaNVFrU0NkUThPakJDUHdiaU96cnNLaWQ2UVZXSFV0cDRlc3AyenFtNUFZanp6Q1NYTktUbHlST0FPSzdnWA?oc=5",
    "at": "2026-11-14",
@@ -3217,6 +3197,22 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (654 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "The OSTA O1 Pro is the latest slab phone to join the wide-screen trend - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd1Q2enp4Y2FsQ1NiSTJYRjhCWlBYQlYtTlc3M0lHSUw2QWpvTGpERk1QdjFFY3pIcDZoR0lLdDV2NENHNGxTbVFJWjZLcUZaem1rUXJSVzNZZG5xckh5dDhCSnJQY0Z1ZENBV29ILTlNNWptbmlxSWdxbG82STV3M2dudUxadlJ5VTZz?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Phone 'o1 pro' already covered in: مراجعة Huawei Osta O1 Pro: ثورة في التصميم والشاشة بتجربة بصرية"
+  },
+  {
+   "title": "AliExpress has launched discounts on six Redmi smartphones, with prices starting from $107 - hi-Tech.ua",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYUxYcUQtUk1hdW92dGtiSmJhaTVHMnF6TVdaR1RWd1pIMFNDNmFuemJRRDBBSDJsVU8yNEVnZFo1OUVDbEpnOGpoanh4ZzAyUmJDQlpJdUFCMHQ2R2FNZWhSSnlpTzdPSFBBaDBBeFpLbURoRjdhSVhrc0pWdjVSM1RYNkVUaElwRmwtaFlfejZ2MjIzMXhaRHdiWW9lSDc1NnNCbEFVa0JVdw?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (571 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
   }
  ]
