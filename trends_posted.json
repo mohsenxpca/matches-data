@@ -1,19 +1,6 @@
 {
  "done": [
   {
-   "q": "harleen deol",
-   "at": "2026-10-28",
-   "ok": false,
-   "why": "no source text"
-  },
-  {
-   "q": "عداد كهرباء",
-   "at": "2026-10-28",
-   "ok": true,
-   "url": "https://www.egyptaway.com/2026/10/electricity-meters-update-2026.html",
-   "title": "تطورات عدادات الكهرباء وأسعار التركيب"
-  },
-  {
    "q": "عداد",
    "at": "2026-10-28",
    "ok": false
@@ -2310,6 +2297,18 @@
   },
   {
    "q": "محمد رمضان",
+   "at": "2026-11-22",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "الزمالك",
+   "at": "2026-11-22",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "مترو القاهرة",
    "at": "2026-11-22",
    "ok": false,
    "why": "banned topic"
