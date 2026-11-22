@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "q": "ballistic missile",
-   "at": "2026-10-28",
-   "ok": false,
-   "why": "no source text"
-  },
-  {
-   "q": "منصه كيريو",
-   "at": "2026-10-28",
-   "ok": false
-  },
-  {
-   "q": "zimbabwe women's national cricket team vs india women's national cricket team match scorecard",
-   "at": "2026-10-28",
-   "ok": false
-  },
-  {
    "q": "zimbabwe vs india",
    "at": "2026-10-28",
    "ok": false,
@@ -2313,6 +2297,23 @@
    "at": "2026-11-22",
    "ok": false,
    "why": "off-topic"
+  },
+  {
+   "q": "حسام حسن",
+   "at": "2026-11-22",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "موعد صلاة الفجر",
+   "at": "2026-11-22",
+   "ok": false
+  },
+  {
+   "q": "شهادة استثمار",
+   "at": "2026-11-22",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
