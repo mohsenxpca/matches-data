@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0pXRy1sRGppQW5fQkFKZi11N2ItWFR6VDlPM3lGLUVFM2tZNXpicHRRX2dSU2ZZcXp4N29KRER5dUk4cENMcngyOGRBaDlBWnBKRjJxNUUxNnFpcTRJTUhiYUNyNVZpT0FibW9EdXpySW9RZ19OamY5ZTRBTEQxVlI3UlJkTDZyUmNQenI3Q1VjVjRpTkxXZVI0dmhWLTNacnlhSVkxTVVaUnNXVTVPRWhOOVZVb0stVjJmZ3lFMWhjSzA?oc=5",
-   "t": "قائمة ريال مدريد لمباراة فالنسيا - Real Madrid CF | Web Oficial",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "الـ body 330 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'مدريد', 'ريال'}) مع تشابه نصي مع: نتيجة مباراة ايك اثينا وريال مدريد 2-3)"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7170358",
    "t": "تراجع 1000 جنيه.. مفاجأة في سعر الجنيه الذهب وهذا ثمن عيار 21 الآن",
    "title": "تراجع 1000 جنيه.. مفاجأة في سعر الجنيه الذهب وعيار 21 اليوم",
@@ -3395,6 +3385,16 @@
    "reason": [
     "الـ body 445 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'مصر', '2027'}) مع تشابه نصي مع: أسعار الحج 2027 في مصر: تفاصيل برامج السياحة والجمعيات الأهلية)"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7189636",
+   "t": "سعر الدولار اليوم الأحد مستهل التعاملات في البنوك",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": [
+    "الـ body 450 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'دولار', 'بنوك', 'مصريه'}) مع: دليلك الكامل للحصول على دخل شهري بالدولار من البنوك المصرية)"
    ]
   }
  ]
