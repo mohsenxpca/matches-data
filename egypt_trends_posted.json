@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/6/احذر-قبل-تحميل-التطبيقات-ثغرة-جديدة-تهدد-بتعطيل-هواتف-أندرويد/7608265",
-   "t": "احذر قبل تحميل التطبيقات.. ثغرة جديدة تهدد بتعطيل هواتف أندرويد بضغطة واحدة",
-   "title": "احذر ثغرة GhostMap الجديدة لتعطيل هواتف أندرويد بضغطة واحدة",
-   "url": "https://www.egyptaway.com/2026/11/ghostmap-android-vulnerability.html",
-   "at": "2026-11-06T14:26:25.054313+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://www.voiceofemirates.com/en/sport/2026/11/06/todays-matches-friday-and-broadcast-channels-zamalek-vs-misr-insurance-in-the-egypt-cup/",
    "t": "Today's matches (Friday) and broadcast channels: Zamalek vs Misr Insurance in the Egypt Cup",
    "title": "مواعيد مباريات كأس مصر اليوم الجمعة والقنوات الناقلة",
@@ -3395,6 +3386,15 @@
    "ok": false,
    "reason": [
     "الـ body 459 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7189616",
+   "t": "جونسون: «موكوينا» يُجيد التعامل النفسي مع اللاعبين ويبث الثقة داخل بيراميدز",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": [
+    "الـ body 433 كلمة بس، لازم 530 على الأقل"
    ]
   }
  ]
