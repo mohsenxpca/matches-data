@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة Honor 700S: وحش الفئة المتوسطة بمواصفات الفلاجشيب",
-   "cand_title": "Honor 700S",
-   "url": "https://www.gsmarena.com/honor_700s_5g-15085.php",
-   "post_url": "https://www.review-mobile.com/2026/11/honor-700s-comprehensive-review-2026.html",
-   "at": "2026-11-14T03:44:01+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "هونر"
-  },
-  {
    "title": "Deals: Samsung Galaxy S26 Ultra and Z Fold8 on sale, Nothing Phone (3) gets a price cut",
    "url": "https://www.gsmarena.com/deals_samsung_galaxy_s26_ultra_and_z_fold8_on_sale_nothing_phone_3_gets_a_price_cut-news-75470.php",
    "at": "2026-11-15",
@@ -3204,6 +3194,13 @@
    "at": "2026-11-22",
    "ok": false,
    "reason": "Phone '13 500' already covered in: هاتف Honor القادم ببطارية خرافية 13,500 مللي أمبير: هل هذا هو"
+  },
+  {
+   "title": "Motorola's Galaxy Z Fold 8 rival might be dead on arrival - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMzhTdWhhbU96VnFMR3p2blFkdDVPb21qMFdxeUgwclc2M01Ed09uSlpKUk9ZYWhabXpUZEVGamd4a0R3eW9KZVMyNUoxYV9nUENzemQwTmNIUHlCOGlaSDRDQjVMdDFhejdWYUVjWlE0YkoxalRDZ1loME9DaFJLLWs3bmRYaGZfcGk5cmZKalJCTjlBMjFRRkxUWUQ?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
   }
  ]
 }
