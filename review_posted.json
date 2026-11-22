@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "title": "ثورة في هواتف هواوي القابلة للطي: هل تتخلى عن تصميم Flip؟",
-   "cand_title": "Huawei's next nova Flip could switch to a wide form factor",
-   "url": "https://www.gsmarena.com/huaweis_next_nova_flip_could_switch_to_a_wide_form_factor-news-75479.php",
-   "post_url": "https://www.review-mobile.com/2026/11/huawei-nova-flip-wide-form-factor.html",
-   "at": "2026-11-15T00:18:15+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هواوي"
-  },
-  {
-   "title": "Huawei Pura 90 Plus vs iPhone 17 Pro: Huawei Wins on Hardware, But Is Apple Still Better?",
-   "url": "https://www.gizmochina.com/2026/11/14/huawei-pura-90-plus-vs-iphone-17-pro/",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": "Phone 'iphone 17 pro' already covered in: مراجعة iPhone 17 Pro: اختبار الأداء والكاميرا 48MP والسعر"
-  },
-  {
    "title": "Exclusive: Samsung Health getting Galaxy AI feature that scans meals and estimates calories",
    "url": "https://www.sammobile.com/news/samsung-health-galaxy-ai-scan-meal-feature-one-ui-9-5/",
    "at": "2026-11-15",
@@ -3201,6 +3184,24 @@
    "at": "2026-11-22",
    "ok": false,
    "reason": "Recent story overlap on key terms ['have', 'your', 'changed', 'mind']"
+  },
+  {
+   "title": "Samsung Expandable Phone: 5.1 to 6.7 Inches, Unconfirmed - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTHRuaEtqeUFhWDBscnhWbHNoejBJOGNpV3NHVnc4aXRHdUo0RUJYUWlJM0xienFGWXh0YmJtNzRBOE9SUEROdm92Qjl1ZnVXSXUzMlRLRnNqVWp4SGpLQnRjZ0dhLUkzYTl5bDlCOGZaOE1sUTJCVE5PT3NjejB6OEdaZjdwcng4TnlqS0xhZTNNTWVNTG56WVJSMUtrQ1k2Nmc?oc=5",
+   "at": "2026-11-22",
+   "ok": false,
+   "reason": "Phone '6 7' already covered in: مراجعة Samsung Galaxy S26+: شاشة QHD+ مقاس 6.7 بوصة وبطارية 4900 وشحن 45 وات"
+  },
+  {
+   "title": "مراجعة OPPO Find X10 Pro Max: أفضل هاتف ذكي بتسعير خاطئ",
+   "cand_title": "Review: OPPO Find X10 Pro Max —- best smartphone, wrongly priced - EFTM",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNlYtLUxxb3Y0dGFhUlZJMU8yZ0xfUE96empOSWRLREprRldkX0tUN1BWUDVleldWbTFjMVRXVlhEUU45Q0s4LWlzMWRqZnlXLXFVNnBRQmhmRUgxMnpIVVZsc1VGMEFreTRlXzFERDcxTzVxblFBMUpGZHpMVFhfLXJKQ1RpUE9Hal9oc3R1UHYxYzJPb1HSAZsBQVVfeXFMT3JpSzlac2pKaXE2dHFvSGFxR0dJUlRpMVJNdHJDUjVYaVdrME1TYlA3aFo3TWQ3QlcxMFVMbGtZaXZnX1VOVmZ0Yjk1cE55X05vcXBISU04bHVsNE5TWm9yYm1hZmhSRHY1RTh4XzdEQWFmd29KcDI1bTBRUkJBMXZDamhldUVNU0QxLW9CMXVHbTlOODZnZzlfdEU?oc=5",
+   "raw_photo": "https://eftm.com/wp-content/uploads/2026/11/IMG20261119082259-scaled.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-find-x10-pro-max-review.html",
+   "at": "2026-11-22T14:16:34+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "اوبو"
   }
  ]
 }
