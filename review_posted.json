@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "title": "iPhone 20 Pro’s 3D quad-curved cover glass leaks in hands-on video",
-   "url": "https://www.gizmochina.com/2026/11/14/iphone-20-pros-3d-quad-curved-cover-glass-leaks-in-hands-on-video/",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (485 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Honor Magic 10 tipped with 200MP LOFIC camera, tandem OLED display",
-   "url": "https://www.gizmochina.com/2026/11/14/honor-magic-10-tipped-with-200mp-lofic-camera-tandem-oled-display/",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (566 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Motorola’s $1600 flagship has a surprising battery downgrade in some regions",
    "url": "https://www.gizmochina.com/2026/11/14/motorola-signature-27-has-a-surprising-battery-downgrade-in-some-regions/",
    "at": "2026-11-15",
@@ -3211,6 +3193,22 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Western Sierra County Phone and Internet Outage Update November 2026 - SierraDailyNews.com",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZUdOZ0tFX3N4WWQ1OHpkSWhSWUtYYTJRaW54WmFqRUJITlppNU1yUEVsTTF0X0RrXy1VOHEyUEtNR0hSU1RDVUFGeDhUY3ZzMnlsWGJlRDlyamxFb0Q3ZllVX2tMRC14U2l2Wkl0V3VkWWhSalk5QmQzY18taFpFSDlyZ011WVllbVhub2N5V3hOcnc3S1loZGRmM3pvTW5QN1RhLU1Ta2NBbHM?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "This Free App Connects Your Android Phone To Your Windows PC Wirelessly - Engadget",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRVJNek9mS09DZV9WNkpFZ1pLSDgtdlM3aWVBSFFpcEh3ZjlSWWlKenM0UnZMaWV5QURLdF9IdUM2ejFHVVJ1aUNHeEhDYWNHSjBmZHpuWHh5Ymd6SzNvenFLeC1kTDVsMUVPZC1KTndDZjA5eUI5cjZKSjI3dHhlY2RZU3hIWTF4STRCX0VGNWdXLTBBZVNGQmJhczA?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (622 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
