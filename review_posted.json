@@ -1,54 +1,6 @@
 {
  "done": [
   {
-   "title": "How to pay with your Android phone anywhere in the world - Android Authority",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVDNEZGhEdzM5MGM4d3BzczNyXy14T0tqWHNTUFRRdWdoOW1kWHBJaDJkWGlFNzJmY3hHZURKUldaQkZvZnBNXzhQLTFxODBMYzZhSkxPbFk4NDhyTlhad3hDb25oWTdnSXhjN1pBZGF1YW1CWkhma2JLVGQxb2xLcjB6NTJWZDBZQXJ2TUFVSjQ3RUVFYkVFMHhQazYyZzQ?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['world', 'your', 'anywhere']"
-  },
-  {
-   "title": "Why you shouldn't buy the latest flagship phone — and what to get instead - Android Authority",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNakhZOUR1bjAyYzA2NkpndUVRcjhUYm81RGVZSlh5dWlsYjV0c2RhTHBMOGZxVFJiSUpWX0RNNU81S2FuTGFwVGhpbHJfMnN5N2dhRHQ3c2RtdTd5b19XZV8tVThVYWpVU2FXNjZmM1A3djV4S2twVGI5X1dzZ2t0emJxZkxjQQ?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['shouldn', 'latest', 'flagship', 'instead']"
-  },
-  {
-   "title": "تفاصيل سلسلة أوبو رينو 17.. بطارية عملاقة وكاميرا 200 ميجابكسل",
-   "cand_title": "Oppo launches Reno 17 and Reno 17 Pro with 200MP camera and rather large 8000mAh battery",
-   "url": "https://www.gizmochina.com/2026/11/16/oppo-launches-reno-17-and-reno-17-pro-with-200mp-camera-and-rather-large-8000mah-battery/",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-reno-17-pro-launch-specs.html",
-   "at": "2026-11-16T15:07:10+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اوبو"
-  },
-  {
-   "title": "Xiaomi Redmi M100 Pro vs vivo V80 FE",
-   "url": "https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php||https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'v80 fe' already covered in: مراجعة شاملة لهاتف vivo V80 FE: مواصفات عملاق الفئة المتوسطة"
-  },
-  {
-   "title": "Oppo Reno17 Pro (China) vs Xiaomi Redmi M100 Pro",
-   "url": "https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php||https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'reno17 pro' already covered in: مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،"
-  },
-  {
-   "title": "تسريب iPhone 20 Pro: هل نودع الحواف التقليدية في ذكرى أبل العشرين؟",
-   "cand_title": "iPhone 20 Pro leak shows a quad-curved front glass with a Dynamic Island",
-   "url": "https://www.gizmochina.com/2026/11/16/iphone-20-pro-quad-curved-front-glass-new-video/",
-   "post_url": "https://www.review-mobile.com/2026/11/iphone-20-pro-quad-curved-leak.html",
-   "at": "2026-11-17T00:07:22+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
    "title": "Oppo Reno17 (China) vs vivo V80 FE",
    "url": "https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php||https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
    "at": "2026-11-17",
@@ -3194,6 +3146,52 @@
    "at": "2026-11-23",
    "ok": false,
    "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "What I want from the Galaxy Z Fold 9 under Won-Joon Choi",
+   "url": "https://www.sammobile.com/opinion/what-i-want-from-galaxy-z-fold-9-under-won-joon-choi/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'fold 9' already covered in: سامسونج تضع اللمسات الأولى لـ Galaxy Z Fold 9: تفاصيل تقنية وموعد"
+  },
+  {
+   "title": "Mobile phone ban in Danish schools! They will not be allowed in primary and lower secondary schools starting from 2027-2028. - Haberler.com",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUm4zSXRET2FrcjVFdmtzNGJ5MmVsOU5tcE9WcEppMDRmNnBzMk0ybVVmWkIwYUxrQWVHR0dLbDRhN3R1N2JiVVJBWllBeUIzdTVrb3pjOV9rdzhuU2VuTnlqVjZna3c4LVRaNWNuWlFERlVMZ19xd0NiQ0hwa19DQzNQWElBMXUw?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "GrapheneOS Says Google Is Pressuring Phone Makers to Drop Its Privacy-Focused Android Fork - BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5UbGhpZWE2NlZBMGtITEU2dkRYX3VmeGR1SVd1UEZuZUNfWHl3WG9KSnhUQUcyNkdvUnFoODJfTXRyNjAzOTRnU0dDcGVLZEdtdEJiV0c4V0hfNlhLbFlxaGU4Z1padW13MnI5VVpBcVhlQWhJaFE?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "14 of the Best Android Accessories to Upgrade Your Phone - Gadget Review",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeVpXS001c0UwNmdDUWx2M081c2tncE5RVmNDOEJQOU9MN1dsenJYNkI3dnY5NmxyU0daYkpBYWQ5Z2dUX01TZldtQkcxbC14dGNHbUJKcWJFcGJJSWtMSHhLSVZYOFFUSDVnSGo3RHZQOEhzRFFyOWduVXYtQXBwSw?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Model code [14] with variants set() found in review: مراجعة سعر ومواصفات هاتف Realme 14 Pro"
+  },
+  {
+   "title": "Samsung Galaxy Fit 4 leak suggests a price increase and three colors - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZ2NTZFp0S2Qwc3Q0cDZ0dURobVRwdjA1YXhScG1RWDl0ZGxfZS12bmJvbF9xa2dBN0swZmN0MW1GR3N4SFZWRVpxMnJQY3JzcDF5ckpNaURTZjU2ZENyMFFGQVR6Yi1jeEZidzJEYUNhcllzZ09rMklTcFRfb2dQSENFV0xCM2VXeXlKYQ?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'fit 4' already covered in: مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع"
+  },
+  {
+   "title": "5 نصائح ذهبية لشراء هاتف أندرويد في الجمعة السوداء",
+   "cand_title": "Buying an Android phone this Black Friday? Here are five expert tips to help you get the very best value for your money - Android Central",
+   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNbEh6cmlRTVlHSmsyalpocEdTYmhESW40RDZYcmp2YXpwZldGUkRObHQyVnBkMjI1OHlaYUJaV0VfcUtMa3oyWWVpZHV3TnZfZzVtR25iaU56Z3pLSHE4bFp4SldxV2FKemVTTHZ5YlY3UHFDR3kwbVRfaHQ1MDB3NHk3VVB4SDZ1OWgtSlZDUV9mR2JheUxLVndEWklGMy0xTGttQjZKeG80UEhRQ1pzTHN3cXZvSmQ2SEVRS05TZnJTdFEzUnpxekYzWE50YTZqV3U1ZWVOcjNqNEFqMFh1VF9iTUZoNklUQk1FRXgwZXZ2VWhDYVZweDZPWVNOakYwT0hBbDZaMVdDMnpNSlk0Y3BoWUdXUVVKUmFudWRaSVdrT1FUbGtVWE5nQTdiTk1SZW5F?oc=5",
+   "raw_photo": "https://cdn.mos.cms.futurecdn.net/aoRhEkSRequMSH65KkSrBe-2560-80.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/black-friday-android-buying-guide.html",
+   "at": "2026-11-23T21:57:54+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
