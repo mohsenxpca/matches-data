@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei Osta O1 Pro's live image leaks ahead of launch",
-   "url": "https://www.gsmarena.com/huawei_osta_o1_pros_live_image_leaks_ahead_of_launch-news-75493.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
-  },
-  {
    "title": "Huawei Mate X8 RAM and storage options revealed as reservations open",
    "url": "https://www.gsmarena.com/huawei_mate_x8_ram_and_storage_options_revealed_as_reservations_open-news-75490.php",
    "at": "2026-11-17",
@@ -3197,6 +3190,17 @@
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
+  },
+  {
+   "title": "سامسونج تقتبس Dynamic Island: هكذا ستتغير واجهة هواتف Galaxy قريباً",
+   "cand_title": "Samsung's next One UI update could make Galaxy phones look a little more like iPhones - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONFM1bEVHT05iampHdlRXZDk3NDNmQWl5bXVSRHJ4WWZLUkNQbmVYS0hnZHRRQ1lMWVNQTzJaVHBnaHBvaWg5V3JlZE5SUmxUZ01wcDlFa1VKaFBLZGJiQ0xrUU8tQnpGQmY0RDctcVhhUVBNT2wzVjN3Y21uLXFzdE1zc2wxY2ll?oc=5",
+   "raw_photo": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/11/live-activities-iphone-1.jpg?w=1600&h=900&fit=crop",
+   "post_url": "https://www.review-mobile.com/2026/11/samsung-one-ui-redesign-dynamic-island.html",
+   "at": "2026-11-24T00:48:19+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
