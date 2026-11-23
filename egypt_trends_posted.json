@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/6/شهادة-ثقة-بـ22-مليار-جنيه-المؤسسات-الأجنبية-تقود-أضخم-سيولة/7608503",
-   "t": "شهادة ثقة بـ22 مليار جنيه.. المؤسسات الأجنبية تقود أضخم سيولة بالأسواق المصرية",
-   "title": "22 مليار جنيه.. شهادة ثقة دولية في الأسواق المصرية",
-   "url": "https://www.egyptaway.com/2026/11/foreign-institutions-investments.html",
-   "at": "2026-11-06T23:15:43.707349+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://www.elbalad.news/7170753",
    "t": "الدوري أهم بالنسبالي | أحمد رضوان بعد مواجهة الزمالك: قلت للاعبين أظهروا للجميع أنكم لاعبون كبار",
    "at": "2026-11-06",
@@ -3403,6 +3394,15 @@
    "at": "2026-11-24T00:25:38.941312+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxONV9CQVhLR0JRMFpBdTFHTW14ME55YkRtNFJXZ3RFRzgyLW9uaGx5MzhqU2EwaGZEaGhfRDNyRzgybXNSYkFNeWxBTXB1b1FTWWh3NUgzVXBYaXNtc0g1d3pBY3p4LU5lVk5SZWRXLVRJMFRsSVNDa282WkkyR2hSUDlHTkRDZHZGeHZCaEU1cHJEUmZwM3U2T0VGem9JUkVoNHdtbkI3Q2N0ZGM5bnN6ajU3T3o1SElXbGw5MVRyOXI5TU0xOU5Qd0Yxa2xSa243TkRBT1ZrdU9OZ21IcUwxUFpPVy02V0s1U2dwd25rZTJJSk04QXBVVld1MHgycUtJVHpZMHBNbTdCaERKRzRlcGFXUTNxUDFUZ0t0Mm53c3NjdnpHZDJxUXB3Qlo1dXQtbHVaMmZWSDFmX3FvaG5DcDB2TFVFa2pVYkZyaGVsb1hVRDkyM0NWV1A3cE13M3o5WlY3Ri1kOXBJcW8yYzI4MHg0NTRQNTNWTHYtSVJtRlZjcnBWOE03TnVzR1kxSy03dGVjYUQtaFc4UzVaWEdQV0xBTFNkOFJ6QVI1cDZ2WnFncC02SEY2TURSSUtTVjc2MjR3?oc=5",
+   "t": "الأربعاء.. بورصة مسقط تبدأ عطلتها بمناسبة العيد الوطني - Mubasher",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها"
+   ]
   }
  ]
 }
