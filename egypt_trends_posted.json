@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://enfoquenoticias.com.mx/noticias/fritz-sera-el-rival-de-alcaraz",
-   "t": "Fritz será el rival de Alcaraz",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 1000، 12"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/6/شهادة-ثقة-بـ22-مليار-جنيه-المؤسسات-الأجنبية-تقود-أضخم-سيولة/7608503",
    "t": "شهادة ثقة بـ22 مليار جنيه.. المؤسسات الأجنبية تقود أضخم سيولة بالأسواق المصرية",
    "title": "22 مليار جنيه.. شهادة ثقة دولية في الأسواق المصرية",
@@ -3402,6 +3393,16 @@
    "at": "2026-11-24T00:05:01.976253+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7189273",
+   "t": "كولر يكشف أصعب رحلاته مع الأهلي.. ويؤكد: دوري أبطال أفريقيا له مكانة خاصة",
+   "title": "تصريحات كولر عن الأهلي وصعوبات أفريقيا",
+   "url": "https://www.egyptaway.com/2026/11/marcel-koller-ahly-africa-challenges.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2026/11/large/758213865952420261121080922922.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-24T00:25:38.941312+02:00",
+   "ok": true,
+   "type": "trends"
   }
  ]
 }
