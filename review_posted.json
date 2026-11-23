@@ -1,37 +1,6 @@
 {
  "done": [
   {
-   "title": "New Samsung Galaxy A27: Official Introduction | Launch Date + Price, Specs, Features! Phones 2026! Joe Gelhardt (46C8xfPmG3) - Unisba Media",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTTFETkhxY2hVRVNNTkZHVU16eXFMYUNFWTkyamFpdXFQXzFKMTVHTklQVVhCT2Y1WnprZS1ua0hSRURVWG1wXzZ2OVEtQlo4S20yU1BQNklOaFhYZkNiVUtlbHBFWS1RWGxTcjJRdUVKYTdCTUZ6RWRWQzZYd25hdVJ3?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'a27' already covered in: مراجعة Samsung Galaxy A27 المميزات والعيوب والسعر في مصر"
-  },
-  {
-   "title": "Xiaomi Redmi Note 17",
-   "url": "https://www.gsmarena.com/xiaomi_redmi_note_17-14846.php",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Model code [17] with variants set() found in review: مراجعة شاملة لهاتف Xiaomi 17 Ultra: وحش التصوير بمعالج خارق"
-  },
-  {
-   "title": "Your Android phone can reveal more wireless activity than its Wi-Fi list shows - MakeUseOf",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdWhoZUVKZFhIam14ckF3eUp3a0M5YnZhZFh5SVRGNzRHMzk3bzB3UFRCZzlDOWNvcE1rRVJUcFVYYjFMN0phSWdFM1RSM1RZYXNtY2daRU0wWXViaUFTakFxdzk4UTU0VUVLbFp2T3FtQS1nR05DbjNjYXBBOWNrLTVDTkRicTcwQjRYTTlEQmtxQQ?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
-   "title": "Pixel Tag أم Galaxy SmartTag 3؟ أيهما تشتري؟",
-   "cand_title": "Should You Buy A Google Pixel Tag Instead Of The Galaxy SmartTag? - BGR",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU09pVGtKTTE4SzJPWjdrTHhzYTVvTzZwalNCa29IbzFoUWcwUk54OHRBRklHcUgxdWdheVc5ZTZMR0FBS2xyb1BmMUZhUXUtODVLTnppTWQ3YzZ1OW03ODFxaGkwSjVONmFZZ3UyWmptYVJSNEpHOEZSOXhBWFp2NnRqRUJqdDg?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/pixel-tag-vs-galaxy-smarttag-3.html",
-   "at": "2026-11-16T01:57:03+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
    "title": "Tilta Khronos Oppo Find X10 Pro Max Creator Kit hands-on - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSmp3WDJRUUg3Z3RGTG9FdUNxSWkwS05YYjROX2lEZER4RU5yZ244cElCa044Y1ZxdWQtNmJPWmJGckpJN0ZCZW1JQzZ4QUZES1VoNjYycDFoelMyQmtkbVFVV0FQR1BKbFN6a1BvWEx4bTBkMkdhVjBIbW1FXzRjQkxlelEzRURLSXhsSlFXVmI5OFNxTnpIUUZSSQ?oc=5",
    "at": "2026-11-16",
@@ -3202,6 +3171,37 @@
    "at": "2026-11-23",
    "ok": false,
    "reason": "Phone 'c85' already covered in: مراجعة realme C85 5G: بطارية 7000 مللي أمبير وحماية IP69 وشاشة 144 هرتز"
+  },
+  {
+   "title": "Honor 700S vs vivo Y21s",
+   "url": "https://www.gsmarena.com/honor_700s_5g-15085.php||https://www.gsmarena.com/vivo_y21s_5g-15096.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone '700s' already covered in: مراجعة Honor 700S: وحش الفئة المتوسطة بمواصفات الفلاجشيب"
+  },
+  {
+   "title": "Samsung Galaxy A38 vs Huawei Osta O1 Pro",
+   "url": "https://www.gsmarena.com/samsung_galaxy_a38_5g-15095.php||https://www.gsmarena.com/huawei_osta_o1_pro-15088.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'o1 pro' already covered in: هواوي تفاجئ السوق بهاتف OSTA O1 Pro ونظام HarmonyOS 7"
+  },
+  {
+   "title": "Upcoming Oppo, Samsung and Xiaomi flagships tipped to pack curved displays following iPhone 20 Pro",
+   "url": "https://www.gizmochina.com/2026/11/23/upcoming-oppo-samsung-and-xiaomi-flagships-tipped-to-pack-curved-displays-following-iphone-20-pro/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'iphone 20 pro' already covered in: تسريب iPhone 20 Pro: هل نودع الحواف التقليدية في ذكرى أبل العشرين؟"
+  },
+  {
+   "title": "Xiaomi 19 series rumored to get a much wider ultrawide camera",
+   "url": "https://www.gsmarena.com/xiaomi_19_series_rumored_to_get_a_much_wider_ultrawide_camera-news-75593.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
