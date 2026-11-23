@@ -1,23 +1,31 @@
 {
-  "timestamp": "2026-11-22 12:35:57",
+  "timestamp": "2026-11-23 14:37:20",
   "dry_run": false,
   "scanned": 500,
-  "repaired": 26,
+  "repaired": 14,
   "fixes": {
-    "broken_links": 44,
+    "broken_links": 13,
     "disclaimers": 0,
     "internal_links": 0,
-    "thin_posts": 1,
+    "thin_posts": 2,
     "alt_tags": 0,
-    "labels": 1
+    "labels": 0
   },
   "details": [
     {
-      "id": "4714341735638973345",
-      "title": "تسريب مواصفات سلسلة فيفو Y الاقتصادية الجديدة كلياً",
-      "url": "https://www.review-mobile.com/2026/11/vivo-y21s-y11s-y05s-specs-leak.html",
+      "id": "6805181497437786509",
+      "title": "هاتف OpenAI القادم يهز عرش سامسونج وجالاكسي",
+      "url": "https://www.review-mobile.com/2026/11/openais-smartphone-could-challenge.html",
       "fixes": [
-        "Standardized specs/review label ['أخبار هواتف'] -> [فيفو]"
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
+      ]
+    },
+    {
+      "id": "2949379779514604203",
+      "title": "افضل موبايل للالعاب بسعر 6000 جنيه في 2026",
+      "url": "https://www.review-mobile.com/2026/11/6000-2026.html",
+      "fixes": [
+        "Enriched thin content (445 words -> FAQ & buying guide added)"
       ]
     },
     {
@@ -25,51 +33,47 @@
       "title": "افضل موبايل للتصوير بسعر رخيص 2026",
       "url": "https://www.review-mobile.com/2026/11/2026.html",
       "fixes": [
-        "Enriched thin content (460 words -> FAQ & buying guide added)"
+        "Enriched thin content (605 words -> FAQ & buying guide added)"
       ]
     },
     {
-      "id": "8191346293207897456",
-      "title": "تسريب مواصفات Realme GT 7 Pro: كاميرا تحت الماء ومعالج SD 8 Elite",
-      "url": "https://www.review-mobile.com/2026/10/realme-gt7-pro-underwater-camera-specs.html",
+      "id": "2867930639321867313",
+      "title": "9 نصائح ذهبية لإطالة عمر هاتفك القابل للطي",
+      "url": "https://www.review-mobile.com/2026/11/9-tips-to-keep-foldable-alive.html",
       "fixes": [
-        "Fixed broken link: /2024/01/realme-gt5-pro-review.html -> /2026/11/realme-16-pro-harry-potter-edition.html"
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
       ]
     },
     {
-      "id": "8984071569406508624",
-      "title": "مراجعة Samsung Galaxy Z Fold 7: بطارية 4400mAh والمواصفات والسعر",
-      "url": "https://www.review-mobile.com/2025/09/samsung-galaxy-z-fold-7.html",
+      "id": "2901230819394766822",
+      "title": "أندرويد يغلق 23 ثغرة أمنية خطيرة في تحديث نوفمبر.. حدث هاتفك الآن",
+      "url": "https://www.review-mobile.com/2026/11/android-november-security-update.html",
       "fixes": [
-        "Fixed broken link: /2024/01/samsung-galaxy-a15-review.html -> /2026/11/samsung-galaxy-studio-bis-approval.html",
-        "Fixed broken link: /2024/01/samsung-galaxy-a25-5g-review.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
       ]
     },
     {
-      "id": "7709725160799576568",
-      "title": "أقوى وأفضل هواتف يمكنك شراؤها في عام 2025",
-      "url": "https://www.review-mobile.com/2025/01/best-phones-buying-2025.html",
+      "id": "8250597509178199213",
+      "title": "لماذا تظل هواتف سامسونج الخيار الأول للمستخدمين؟",
+      "url": "https://www.review-mobile.com/2026/11/why-samsung-galaxy-remains-top-choice.html",
       "fixes": [
-        "Fixed broken link: /2024/01/samsung-galaxy-a25-5g-review.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html",
-        "Fixed broken link: /2024/01/samsung-galaxy-a15-review.html -> /2026/11/samsung-galaxy-studio-bis-approval.html"
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
       ]
     },
     {
-      "id": "6584269294878737283",
-      "title": "مراجعة Realme 14 Pro plus: الأداء ببطارية 6000mAh وهل يستحق؟",
-      "url": "https://www.review-mobile.com/2024/12/realme-14-pro-plus.html",
+      "id": "5908133705912962781",
+      "title": "رسمياً: إطلاق Redmi M100 Pro بشاشة منحنية ومعالج Dimensity 7300",
+      "url": "https://www.review-mobile.com/2026/11/redmi-m100-pro-launch-specs.html",
       "fixes": [
-        "Fixed broken link: /2024/01/realme-gt5-pro-review.html -> /2026/11/realme-16-pro-harry-potter-edition.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
+        "Fixed broken link: /2026/11/xiaomi-15-ultra-review.html -> /2026/11/xiaomi-17-ultra-full-review.html"
       ]
     },
     {
-      "id": "1431297234683495261",
-      "title": "مراجعة HONOR X6b الشاملة: شاشة 6.56 بوصة وكاميرا 50MP",
-      "url": "https://www.review-mobile.com/2024/12/honor-x6b.html",
+      "id": "3192446137268706407",
+      "title": "مراجعة iPhone 17 Pro: اختبار الأداء والكاميرا 48MP والسعر",
+      "url": "https://www.review-mobile.com/2025/09/iphone-17-pro.html",
       "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/11/huawei-enjoy-100-pro-max-vs.html"
+        "Fixed broken link: /2024/01/iphone-15-pro-max-review.html -> /2026/11/apple-iphone-20-pro-max-expectations.html"
       ]
     },
     {
@@ -77,42 +81,24 @@
       "title": "مواصفات وسعر Oppo A3x: كاميرا 50MP وشحن 45W",
       "url": "https://www.review-mobile.com/2024/12/oppo-a3x.html",
       "fixes": [
-        "Fixed broken link: /2024/01/oppo-find-x7-review.html -> /2026/11/oppo-find-x10-pro-max-review.html"
+        "Fixed broken link: /2024/01/oppo-a59.html -> /2026/11/oppo-find-x10-pro-max-review.html"
       ]
     },
     {
-      "id": "5637170321046600530",
-      "title": "سعر ومواصفات ومراجعه هاتف realme-13-5g",
-      "url": "https://www.review-mobile.com/2024/11/realme-13-5g.html",
+      "id": "5063375912831145305",
+      "title": "تقييم Oppo Reno 12 F 4G: مقارنة مع المنافسين وهل يستحق سعره؟",
+      "url": "https://www.review-mobile.com/2024/10/oppo-reno-12-f-4g.html",
       "fixes": [
-        "Fixed broken link: /2024/01/realme-gt5-pro-review.html -> /2026/11/realme-16-pro-harry-potter-edition.html"
+        "Fixed broken link: /2024/01/oppo-a59.html -> /2026/11/oppo-find-x10-pro-max-review.html",
+        "Fixed broken link: /2024/01/oppo-reno11-pro-review.html -> /2026/11/oppo-find-x10-pro-max-review.html"
       ]
     },
     {
-      "id": "3118239448374769559",
-      "title": "مراجعة Samsung Galaxy A06: اختبار الأداء والكاميرا 50MP والسعر",
-      "url": "https://www.review-mobile.com/2024/12/samsung-galaxy-a06.html",
+      "id": "8126781911126008267",
+      "title": "مراجعة هاتف Vivo V40 من سعر ومواصفات",
+      "url": "https://www.review-mobile.com/2024/10/v40.html",
       "fixes": [
-        "Fixed broken link: /2024/01/samsung-galaxy-a15-review.html -> /2026/11/samsung-galaxy-studio-bis-approval.html",
-        "Fixed broken link: /2024/01/samsung-galaxy-a25-5g-review.html -> /2026/11/samsung-galaxy-a17-5g-black-friday.html"
-      ]
-    },
-    {
-      "id": "379202171990963510",
-      "title": "مراجعة هواتف Galaxy A35 و A55 الجديدة - المواصفات والأداء",
-      "url": "https://www.review-mobile.com/2024/03/galaxy-a35-a55.html",
-      "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/11/samsung-galaxy-z-fold-8-gta.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
-      ]
-    },
-    {
-      "id": "7322997553484496385",
-      "title": "مراجعة الهاتف الجديد Oppo F25 Pro – الإمكانيات والسعر",
-      "url": "https://www.review-mobile.com/2024/03/Oppo-f25-pro.html",
-      "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/11/oppo-find-x10-pro-max-review.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
+        "Fixed broken link: /2024/01/vivo-y27s-review.html -> /2026/11/vivo-y21s-y11s-y05s-specs-leak.html"
       ]
     },
     {
@@ -120,124 +106,23 @@
       "title": "سعر ومواصفات HONOR X9b: تقييم الأداء والمميزات والعيوب",
       "url": "https://www.review-mobile.com/2024/02/honor-x9b.html",
       "fixes": [
-        "Fixed broken link: /2023/12/x-40-gt-racing .html -> /2026/11/huawei-enjoy-100-pro-max-vs.html",
-        "Fixed broken link: /2024/01/honor-x8b-review.html -> /2026/11/huawei-enjoy-100-pro-max-vs.html"
+        "Fixed broken link: /2024/01/honor-x7b-review.html -> /2026/11/huawei-enjoy-100-pro-max-vs.html"
       ]
     },
     {
-      "id": "3351048067430726036",
-      "title": "افضل هواتف اصدرتها شركة اوبو هذا العام دليل شامل",
-      "url": "https://www.review-mobile.com/2023/12/phones-oppo.html",
+      "id": "939201850598469932",
+      "title": "مقارنة شاملة بين Samsung Galaxy S24 Ultra وiPhone 15 Pro Max",
+      "url": "https://www.review-mobile.com/2024/02/samsung-galaxy-s24-ultra-iphone-15-pro.html",
       "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/11/oppo-find-x10-pro-max-review.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
+        "Fixed broken link: /2024/01/iphone-15-pro-max-review.html -> /2026/11/apple-iphone-20-pro-max-expectations.html"
       ]
     },
     {
-      "id": "8191098259159552503",
-      "title": "افضل هواتف سامسونج نزلت عام 2024 اليك دليل شامل بها",
-      "url": "https://www.review-mobile.com/2024/02/new-phones.html",
+      "id": "6642649133373668713",
+      "title": "مراجعة كاملة لهاتف Redmi Note 13 5G مواصفاتة وسعرة",
+      "url": "https://www.review-mobile.com/2024/02/redmi-note-13-5g.html",
       "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/11/samsung-galaxy-z-fold-8-gta.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
-      ]
-    },
-    {
-      "id": "745477773005752265",
-      "title": "سعر ومواصفات iPhone 15 (آيفون 15): المميزات والعيوب الكاملة",
-      "url": "https://www.review-mobile.com/2024/02/iPhone-15.html",
-      "fixes": [
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html",
-        "Fixed broken link: /2023/12/x-40-gt-racing .html -> /2026/11/apple-iphone-20-pro-max-expectations.html"
-      ]
-    },
-    {
-      "id": "7592931094523924810",
-      "title": "سعر ومواصفات Oppo Reno 10 5G: المميزات والعيوب الكاملة",
-      "url": "https://www.review-mobile.com/2024/02/oppo-reno-10-5g.html",
-      "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/11/oppo-find-x10-pro-max-review.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
-      ]
-    },
-    {
-      "id": "1759330925052043017",
-      "title": "سعر ومواصفات Vivo V29: المميزات والعيوب الكاملة",
-      "url": "https://www.review-mobile.com/2024/02/vivo-v29.html",
-      "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/11/iqoo-z12-lite-specs-leak-analysis.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
-      ]
-    },
-    {
-      "id": "5585140765411103538",
-      "title": "سعر ومواصفات Redmi Note 12 (ريدمي نوت 12): المميزات والعيوب",
-      "url": "https://www.review-mobile.com/2023/12/redmi-note-12.html",
-      "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/11/xiaomi-poco-x8s-review-specs-price.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
-      ]
-    },
-    {
-      "id": "698332627693168080",
-      "title": "سعر ومواصفات Realme C53 (ريلمي C53): المميزات والعيوب الكاملة",
-      "url": "https://www.review-mobile.com/2023/12/realme-c53.html",
-      "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/10/realme-gt7-pro-underwater-camera-specs.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
-      ]
-    },
-    {
-      "id": "8770602798165570136",
-      "title": "سعر ومواصفات Redmi 8 (ريدمي 8): المميزات والعيوب الكاملة",
-      "url": "https://www.review-mobile.com/2024/02/redmi-8.html",
-      "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/11/xiaomi-poco-x8s-review-specs-price.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
-      ]
-    },
-    {
-      "id": "8901085180189626522",
-      "title": "مراجعة شاملة لهاتف Realme 11 سعره و مواصفات الجهاز بالكامل",
-      "url": "https://www.review-mobile.com/2024/02/realme-11.html",
-      "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/10/realme-gt7-pro-underwater-camera-specs.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
-      ]
-    },
-    {
-      "id": "2434441675462924112",
-      "title": "مواصفات هاتف Oppo Reno 8 4G ومراجعة شاملة وكم سعره بالاسواق",
-      "url": "https://www.review-mobile.com/2023/12/oppo-reno-8-4g.html",
-      "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/11/oppo-find-x10-pro-max-review.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
-      ]
-    },
-    {
-      "id": "2067222771795310160",
-      "title": "سعر ومواصفات Oppo Reno 8T: المميزات والعيوب الكاملة",
-      "url": "https://www.review-mobile.com/2024/02/oppo-reno-8t.html",
-      "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/11/oppo-find-x10-pro-max-review.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
-      ]
-    },
-    {
-      "id": "7982059899187026101",
-      "title": "سعر ومواصفات Nokia G20 (نوكيا G20): المميزات والعيوب الكاملة",
-      "url": "https://www.review-mobile.com/2023/12/nokia-g20.html",
-      "fixes": [
-        "Fixed broken link: /2023/12/xhonor-5-review.html -> /2026/10/nokia-2360-flip-review.html",
-        "Fixed broken link: /2024/01/realme-c67-4g-review.html -> /2024/10/realme-12-4g.html"
-      ]
-    },
-    {
-      "id": "1223399577674408024",
-      "title": "سعر ومواصفات Xiaomi Poco X6: المميزات والعيوب الكاملة",
-      "url": "https://www.review-mobile.com/2024/01/xiaomi-poco-x6-.html",
-      "fixes": [
-        "Fixed broken link: /2024/01/realme-gt5-pro-review.html -> /2026/11/realme-16-pro-harry-potter-edition.html"
+        "Fixed broken link: /2024/01/xiaomi-poco-m6-review.html -> /2026/11/xiaomi-poco-x8s-review-specs-price.html"
       ]
     }
   ]
