@@ -1,50 +1,6 @@
 {
  "done": [
   {
-   "title": "New Galaxy A57 update makes it more secure",
-   "url": "https://www.sammobile.com/news/new-galaxy-a57-update-makes-it-more-secure-2/",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (570 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Samsung’s Phone app could start checking if calls from contacts are being spoofed",
-   "url": "https://www.androidauthority.com/samsung-one-ui-phone-fake-call-scam-3735478/",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (529 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "Purism Aiming To Deliver New Librem 5 Smartphone With RISC-V SoC - Phoronix",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85eVZPZUtQZlFuM2hDYjRpSG40Uk5PVmJTV0ZsSzRwS2ZHM3dzdUNnUXZlVTgyMzlCejlRMkxuSDJ5NDlPUEozUWtZNlZGTTBtNDhWaEpmOGE0dmlDUkw3MA?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (507 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Huawei Enjoy 100 Pro Max Tops Week 45 Sales at CNY 1,999 - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94STRxV3BmNnZXazZJUTZuWVNmbXJvdV9fOFFqR2x1U1MxVF9yRXFzS2MtT2hVaUh5UmV3c1J4aEJzWnExYUdVQ0lMeWt5RTBOMThUUUFZN3Vmc292T3ZaV3lsWjQxSEhETjU5cFRjcEV0bFA5ZkZHTHpIaUVPdTQ?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (660 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Samsung’s Phone app could start checking if calls from contacts are being spoofed - Android Authority",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQzdYMURRLXFtNnJRaElpY2ZXb2VkUC1POEVhQUtwUXo3LThwaFpsWnFIYTRJbG5NZ1NtZk5zeGtfamlDcU05RGxsRzEtMGpmUU1seVd6SlJJQlNreVJBWlFOSUttd21SRUhON1I2MlJKcWJzVUF2Y1JmSi1kcXJLZWp3MA?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['could', 'calls', 'spoofed', 'being']"
-  },
-  {
    "title": "How to pay with your Android phone anywhere in the world - Android Authority",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVDNEZGhEdzM5MGM4d3BzczNyXy14T0tqWHNTUFRRdWdoOW1kWHBJaDJkWGlFNzJmY3hHZURKUldaQkZvZnBNXzhQLTFxODBMYzZhSkxPbFk4NDhyTlhad3hDb25oWTdnSXhjN1pBZGF1YW1CWkhma2JLVGQxb2xLcjB6NTJWZDBZQXJ2TUFVSjQ3RUVFYkVFMHhQazYyZzQ?oc=5",
    "at": "2026-11-16",
@@ -3203,6 +3159,41 @@
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
+  },
+  {
+   "title": "Xiaomi’s temperature and humidity sensor with CO₂ sensor launches globally",
+   "url": "https://www.gizmochina.com/2026/11/23/xiaomis-temperature-and-humidity-sensor-with-co%e2%82%82-sensor-launches-globally/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Job Panel launches as phone-based app for small lawn care companies - Lawn & Landscape",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTzRTdk44QkYyMXFJdkk2bkFNYUZIQVNTbUFjSS15MVlLU3pIR1drLTk3WXV0NGxlb25BRTFmQTRYLW5WeG81SWFGT1ZUSjd4MEhETUpDSkNaVW96V0lNYzdDWU9nNGxWZGNoQzFBMi1fQ0hhZGh4alVISjU0VlpWd2JLMHdLY2hUTmFNdkNvOWlJU01ibHpKX3ZUSnBEU0VyNXVVTF84MHNlUQ?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Xiaomi 17T Pro vs Pixel 11: 7 Rounds Comparison - Memeburn",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54Rl94dks1TWc5NUloRFYyT3dyY3g3NTNLU2xVc1JJLTZ3LXdXbko5djd4LUJQZU5UVW9JQV9POEN0Mk01T2JIYnVJVG1DMU5PbE9zckZfYUh3Y0Nf?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'pixel 11' already covered in: مراجعة Pixel 11 2026: مواصفات وسعر بيكسل 11"
+  },
+  {
+   "title": "OpenAI’s reported phone could free ChatGPT from Apple and Google’s rules - Techish Kenya",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9KZmVqTXRnRGxqQkt6YXB4ajVXdm1zcl9Ib3k4Q2g1QWdVb0h3Y0dqazZYVllwZzdxY3NPOEdnU1dHbl9rXzhGZllJczhzTXVzSFB4U2ZzSE9rSVk4M2FnWmdkbkF1YWFtN1pxVUozRmJ5MktIb3c?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "78% of Android users want to switch to iPhone - mobidevices.com",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QRlVSaEFHbjFGZHhuMzhsWEoza1JBWmdHYm9YLV9mUnhBN2FOQ3YtaG1Va0xLbzBWTDhZbEIxOUVPeTVCZHhBR0ZiWllIVnRucjJNVnM1RDc4SlI4eldtdDh3UG9FNUlP?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "out_of_phone_scope"
   }
  ]
 }
