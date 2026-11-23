@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "Redmi Note 18 5G may pack an 8,888mAh battery!",
-   "url": "https://www.gizmochina.com/2026/11/16/redmi-note-18-5g-rebrand-note-17-5g-battery-leak/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'note 18' already covered in: هل تستحق سلسلة Redmi Note 18 الانتظار؟ بطارية عملاقة وشحن سريع"
-  },
-  {
-   "title": "Samsung Galaxy Z Fold8 and Fold8 Ultra win CES 2027 Best of Innovation awards",
-   "url": "https://www.gsmarena.com/samsung_galaxy_z_fold8_and_fold8_ultra_win_ces_2027_best_of_innovation_awards-news-75498.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['galaxy', 'innovation', 'awards', '2027']"
-  },
-  {
-   "title": "iPhone 20 Pro tipped to feature new main camera sensor and ISP",
-   "url": "https://www.gsmarena.com/iphone_20_pro_tipped_to_feature_new_main_camera_sensor_and_isp-news-75497.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'iphone 20 pro' already covered in: تسريب iPhone 20 Pro: هل نودع الحواف التقليدية في ذكرى أبل العشرين؟"
-  },
-  {
    "title": "Huawei Osta O1 Pro's live image leaks ahead of launch",
    "url": "https://www.gsmarena.com/huawei_osta_o1_pros_live_image_leaks_ahead_of_launch-news-75493.php",
    "at": "2026-11-17",
@@ -3194,6 +3173,30 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "Motorola Edge 70 Neo is here with a 7,000 mAh battery and 144Hz screen",
+   "url": "https://www.gsmarena.com/motorola_edge_70_neo_is_here_with_a_7000_mah_battery_and_144hz_screen-news-75602.php",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: مراجعة Motorola Edge 70 Neo: المواصفات الكاملة، السعر، والمميزات"
+  },
+  {
+   "title": "The Samsung Galaxy A38 tipped to have a downgraded camera, the A58 stays the same - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMElSSTJvTW00MWduYjlNVzktZnNZaFBZUFF2dzY1RW03ZmtISTFwaDhHallQNnVDa2otMl9zN2EyYnFENE5rZjJyb0t4anZBSGNtLURETjdzc3hhXzlzMmtfZGo4b3BVZlBGb0JSbXlnc2Fxc2otaHZnQ21iOTFvRjhZTndoeDEtQkJpZ3pSUEs5VVdrcUhucjRiZW5vRHV1Sm5lbk5pTHpSVTBLSVRIbThzWEhvRF9hT1BJadIBuAFBVV95cUxPOEg5dFpQNzF4bzhzeFd1TnppMHVnaVFXZjNHc0daNkVWWnhfS2xmUnJUMWtkU05VQy1xR1ZJZDJDR0hwTUlmcHNPVGRMTHdud0NwVzJNOFZlSTV1Rm1NRlpnWkYzUEJHY3MyUXV0NGlvQ3duSzF4ajNhUFhZZklteEdMaE1jTFphYjdJdk8wRjRoa3hXZl9yU2tiUVJEMmFrSUVndjRSb2R2d0tpd25LTmdRUEN0SDAw?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['have', 'downgraded', 'same', 'stays']"
+  },
+  {
+   "title": "Your Android phone has a 'Bedtime Mode,' and it's better than you think - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeDZnMk84TE92WTJlb0o1a050TkZnOGp5cmhYREY0Nzl3WF9LSVpQRmthczNiVG16ckFKZEZqZHdpVWdHWVh4RzV2c2pUTFZnYXR1RlZhZ1FsSWJiMWFmbFVmQktIZEtsQ1FONTlpelRKNUNCdWd0QXZLLUhnem9uZ1JZQ3dXQQ?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
