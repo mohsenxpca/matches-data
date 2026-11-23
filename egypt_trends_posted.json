@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7170540",
-   "t": "عودة قوية.. موتورولا تطلق هاتف Signature 27 بمواصفات جبارة وسعر صادم",
-   "title": "موتورولا تطلق هاتف Signature 27 بمواصفات خيالية وسعر مرتفع",
-   "url": "https://www.egyptaway.com/2026/11/motorola-signature-27-launch-specs.html",
-   "at": "2026-11-06T22:34:13.084150+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://www.vietnam.vn/ar/truc-tieptruc-tiep-oxford-city-vs-leicester-doi-hinh-xuat-phat",
    "t": "مباراة مباشرة بين أكسفورد سيتي وليستر: التشكيلات الأساسية",
    "title": "موعد نهائي أكسفورد سيتي وليستر سيتي والقنوات الناقلة",
@@ -3400,6 +3391,16 @@
     "الـ body 418 كلمة بس، لازم 530 على الأقل",
     "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ارصاد', 'تضرب'}) مع تشابه نصي مع: أمطار تضرب العاصمة المقدسة: الأرصاد السعودية تحذر حتى 8 مساءً)"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/23/Signal-يحظر-لقطات-الشاشة-على-آيفون-لحماية-المحادثات-من-Siri/7627191",
+   "t": "Signal يحظر لقطات الشاشة على آيفون لحماية المحادثات من Siri",
+   "title": "Signal يحظر لقطات الشاشة على آيفون لحماية المحادثات من Siri",
+   "url": "https://www.egyptaway.com/2026/11/signal-blocks-screenshots-iphone-siri.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/201612200258185818.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-23T05:16:34.863447+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
