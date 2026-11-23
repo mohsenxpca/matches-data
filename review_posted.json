@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "ENHYPEN's JUNGWON, JAKE & SUNGHOON shine as vivo Friends for V80 smartphone launch - Bandwagon",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRDNpdFRiLXdfclZVUFlpNHk4cGNidFhDZXhZcDM4SnJoQ25EUVVldUZqTzdIYU9GNWFzUUpzUEVfUURBQjc5VG9lQ1c0eDlwWmN2ZnpjQzZBUmFJQUV6VWxGZWhJTHJIQnFobllHVkFpVUc0bmV2R18tV3B0dmNSV0pfRDY0bUtOSEZfN3JnNExLZjZqNGp3eWVRR2xYOEdDdUNhSDZnMG5jekdmVmx1dVFEejJKUQ?oc=5",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'v80' already covered in: مراجعة vivo V80 2026: كاميرات وبطارية وأداء"
-  },
-  {
-   "title": "Android Fast Switch looks like Google’s answer to iPhone Handoff - Android Authority",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1oR21LTWNsTGdTUXFJajZsSlR6SW1LZXp0a0NHOG91N3JqaV92OHBhaHBOaUptSDNFa3pWRURmX3lBeFpvUVRORGJiT0Y0RGpaTWR6VWJ0MklWWkJidl9DbXlHYXZ3bko1eFh5X04tRVV4anZNcDRUQg?oc=5",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['switch', 'fast', 'iphone', 'looks']"
-  },
-  {
    "title": "Xiaomi launches stunning new Sand Gold version of its 1,000-lumen flashlight for just $14",
    "url": "https://www.gizmochina.com/2026/11/16/xiaomi-mijia-portable-flashlight-sand-gold-color-launched-specs-price/",
    "at": "2026-11-17",
@@ -3201,6 +3187,24 @@
    "ok": true,
    "kind": "review",
    "brand": "هواوي"
+  },
+  {
+   "title": "Mobile phone ban in Danish schools! They will not be allowed in primary and lower secondary schools starting from 2027-2028. - Haberler.com",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcHFmaWZqWUl6NTFyNWlWbDV5c01SNHNJVTMzc1VCdUZqeXBORWI5RXVNNHZ5RGh4ekQyV3laUVZHNkFYbFJDMTBHZzJGRi16VFppclVvUU5XQ0dfV3I5NW1yRlB5TzVCUDU3R01seV95TG9XeHZvREc3OHZuS2Zaem5INThnZVE?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['2028', 'they', 'danish', 'primary']"
+  },
+  {
+   "title": "مراجعة vivo Y21s: هل لا يزال خياراً اقتصادياً ذكياً في 2026؟",
+   "cand_title": "vivo Y21s",
+   "url": "https://www.gsmarena.com/vivo_y21s_5g-15096.php",
+   "raw_photo": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-y21s-5g-11.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/vivo-y21s-review-specs-price.html",
+   "at": "2026-11-24T01:48:10+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "فيفو"
   }
  ]
 }
