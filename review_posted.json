@@ -1,34 +1,6 @@
 {
  "done": [
   {
-   "title": "Honor is testing four OmniVision camera sensors, including the 200MP OVB0D",
-   "url": "https://www.gizmochina.com/2026/11/14/honor-is-testing-four-omnivision-camera-sensors-including-the-200mp-ovb0d/",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (626 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Oppo Reno 17, Reno 17 Pro full specs leaked ahead of launch",
-   "url": "https://www.gizmochina.com/2026/11/14/oppo-reno-17-reno-17-pro-full-specs-leaked-ahead-launch/",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (637 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "كيف استعدت 36 جيجابايت من هاتفك دون حذف أي صورة؟",
-   "cand_title": "How I freed up 36GB on my Android phone without deleting a single photo",
-   "url": "https://www.androidauthority.com/free-up-android-storage-tips-3734228/",
-   "post_url": "https://www.review-mobile.com/2026/11/free-up-36gb-android-without-deleting.html",
-   "at": "2026-11-15T02:46:47+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "قفزة تاريخية لأرباح سامسونج بفضل رقائق الذكاء الاصطناعي",
    "cand_title": "سامسونج تٌسجل أعلى أرباحها في الربع الثالث بسبب رقائق الذكاء الاصطناعي",
    "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/29/3070349/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%AA-%D8%B3%D8%AC%D9%84-%D8%A3%D8%B9%D9%84%D9%89-%D8%A3%D8%B1%D8%A8%D8%A7%D8%AD%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
@@ -3197,6 +3169,27 @@
    "reason": [
     "طول المقال قصير (651 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "Oppo Find X9 Pro",
+   "url": "https://www.gsmarena.com/oppo_find_x9_pro-14094.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Model code [x9] with variants {'pro'} found in review: مراجعة Oppo Find X9 Pro: شاشة LTPO AMOLED 120Hz والسعر والمواصفات"
+  },
+  {
+   "title": "Apple iPhone 17 Pro Max",
+   "url": "https://www.gsmarena.com/apple_iphone_17_pro_max-13964.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Model code [17] with variants {'max', 'pro'} found in review: مراجعة Redmi Note 17 Pro Max 2026: بطارية 10000 وشحن 100 واط والسعر"
+  },
+  {
+   "title": "Xiaomi Poco F7",
+   "url": "https://www.gsmarena.com/xiaomi_poco_f7-13951.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Model code [f7] with variants set() found in review: مراجعة Xiaomi Poco F7 الشاملة: مواصفات عملاق الأداء والسعر في السوق"
   }
  ]
 }
