@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "title": "The Galaxy Z Fold 8 is making me question my allegiance to Samsung’s best phone lineup",
-   "url": "https://www.sammobile.com/opinion/galaxy-z-fold-8-making-me-question-allegiance-samsung-best-phone/",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (577 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Honor Magic8 Pro",
-   "url": "https://www.gsmarena.com/honor_magic8_pro-14231.php",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Model code [magic8] with variants {'pro'} found in review: مراجعة HONOR Magic8 Pro: تليفوتو 200 ميجابكسل وبطارية 7100 مللي أمبير وSnapdragon 8 Elite Gen 5"
-  },
-  {
    "title": "New Samsung Galaxy A27: Official Introduction | Launch Date + Price, Specs, Features! Phones 2026! Joe Gelhardt (46C8xfPmG3) - Unisba Media",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTTFETkhxY2hVRVNNTkZHVU16eXFMYUNFWTkyamFpdXFQXzFKMTVHTklQVVhCT2Y1WnprZS1ua0hSRURVWG1wXzZ2OVEtQlo4S20yU1BQNklOaFhYZkNiVUtlbHBFWS1RWGxTcjJRdUVKYTdCTUZ6RWRWQzZYd25hdVJ3?oc=5",
    "at": "2026-11-16",
@@ -3204,6 +3188,20 @@
     "طول المقال قصير (0 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
+  },
+  {
+   "title": "iQOO 16 Amazon and iQOO 16R Geekbench listings spotted, launch fast approaching",
+   "url": "https://www.gizmochina.com/2026/11/23/iqoo-16-amazon-and-iqoo-16r-geekbench-listings-spotted-launch-fast-approaching/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'iqoo 16' already covered in: مراجعة iQOO 16 2026: المواصفات والسعر وهل يستحق الانتظار"
+  },
+  {
+   "title": "Poco C85 5G vs Realme C100i: The ₹2,000 Upset in 2026 - Memeburn",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhRlo3VDdReWZVVldaMDJxZ1VCZ1k5N2V2UjJPXzdCeGI3QTBRMEdsSHZRTXZYa1llSzZETFBvTnBlbEx4S2ZDYWlJNDNVcEFKU1dxQ1NQUk5tbGs1Znc?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'c85' already covered in: مراجعة realme C85 5G: بطارية 7000 مللي أمبير وحماية IP69 وشاشة 144 هرتز"
   }
  ]
 }
