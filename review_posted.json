@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "title": "تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً",
-   "cand_title": "Huawei OSTA O1 Pro leaks in real-life photos ahead of launch",
-   "url": "https://www.gizmochina.com/2026/11/16/huawei-osta-o1-pro-leaks-in-real-life-photos-ahead-of-launch/",
-   "post_url": "https://www.review-mobile.com/2026/11/huawei-osta-o1-pro-leaks-photos.html",
-   "at": "2026-11-16T06:26:40+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هواوي"
-  },
-  {
-   "title": "Huawei Mate X8 official renders with color options, RAM and storage options revealed",
-   "url": "https://www.gizmochina.com/2026/11/16/huawei-mate-x8-official-renders-color-ram-storage-options/",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
-  },
-  {
    "title": "OPPO Reno 17, Reno 17 Pro complete specs leak ahead of China launch - 91Mobiles",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYnRQRExyXzVaZF9WTkVjNUZ6ODI1WDlaTTdndFVUZjFrWVpGOURFWnJYYW84NzRiZ19WbEFRZVM2S0s3QjA0TkRodU5lOFhONktDXzZINmJPQ0dPQlJ0cDAycGJFLUIyYVZYWDMzSUprcWhxV3A2UUZJeEpsc2NIeDluV0Iyd9IBiwFBVV95cUxNWGxVdWFtZXI4TWlMSXFvSkhpRU9lNmpYblJWR3R4eHdOSVB2RGtYU2ljdWdHWkpqOTQ0R0NSbDJtLXRDOWpKZGtWZ0kxLTFTb3g1MFpiR3VjTmtFZzh1ajAzVXVWV2lVUnloQjRpcGMyXzA1NU1UdFppQjFVcWRPVTNxbENDV3dBTWsw?oc=5",
    "at": "2026-11-16",
@@ -3207,6 +3190,23 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Huawei Mate 90 Air vs vivo Y21s",
+   "url": "https://www.gsmarena.com/huawei_mate_90_air_5g-15099.php||https://www.gsmarena.com/vivo_y21s_5g-15096.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'mate 90 air' already covered in: هواوي Mate 90 Air قادم بتصميم فائق النحافة: كل ما نعرفه عن المفاجأة"
+  },
+  {
+   "title": "vivo Y11s vs vivo Y05s",
+   "url": "https://www.gsmarena.com/vivo_y11s_5g-15097.php||https://www.gsmarena.com/vivo_y05s-15098.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
   }
