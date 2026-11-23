@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei shows Mate X8 foldable but keeps specs and price secret - Tbreak UAE",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82Nm5fbWhoelVxUDk0TnVHd3FaZHVjV19iXzVuNlQzazktaWloYTM1dE9LTkZxUGliOXBkXzdjNHREMzluOE5PTTMtZHhoVWRRemZBLWtLeXJkX01mQjBR?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Model code [x8] with variants set() found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
-  },
-  {
-   "title": "Oppo Reno17 and Reno17 Pro specs leak ahead of November 16 launch - news.lavx.hu",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNE03cUJJTGVvRDhOOUIxMnF0VTBaRXdiampxVVpSVzZaSG1zdExmMU05UTdBdkphcWlscDRHaDdEQUxoeGxJMlB1dHpnb0J1eWM0aDgtTE1hOUNrSzJjcVVOeTVyZG4yTk5XbVE2clVUU28wRzJJbnlyVFhha2stYU5lOFMzbUYyaWZvU0hPQ1A4dGsxVkNfUFZn?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['reno17', 'ahead', 'november']"
-  },
-  {
-   "title": "OPPO Find X10 Series: Compare Specs, Prices & Ultra News - ThinBorne",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeE1QRGVIQWtmMU0tc1h0Qi0yLWoxSDQ3S1BtVmlyTTgxYS1XLWkzSTF6aHpYYVRNa0FkUHFHWkZ1TlY4eW5uVXNsVUcxZTlkZDEtMUpMMTRFMElkaVE5NWJOLTExVE9yM250aHhCRVg4VklxNWpuWjNobWkyR2RtcVZ5TUJpNkI5dEZFdkY0V0pvOFRRb0w0?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'x10' already covered in: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
    "title": "Oppo Reno 17 series complete specs leaked ahead of launch - Sportskeeda Tech",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXgwOFozencxd1NiSk51Vl8xWm5tODdIbkVPb1J5X0laZ1pPNDNhLXFndTRXV2FzY1lISWtNeEwyNkxCQUFIQTZVQ29hTndXZnlFbENVZVhPdHlFNGdjS3JZdkxGVDdwX2VUcEsxdkt0c19Dbkx4ci1KNmlWb0h0cjE3VlRrN0dPdk1xazNMd1J4SndvRVFCRjdKZTg?oc=5",
    "at": "2026-11-16",
@@ -3198,6 +3177,27 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Second November 2026 patch reaches Galaxy Z Fold 8 and Flip 8 in Europe",
+   "url": "https://www.sammobile.com/news/second-november-2026-patch-galaxy-z-fold-flip-8-europe/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
+  },
+  {
+   "title": "Motorola Razr Plus 2025 is half price in a Black Friday deal",
+   "url": "https://www.androidauthority.com/motorola-razr-plus-2025-deal-amazon-3737919/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['black', 'friday', 'deal']"
+  },
+  {
+   "title": "Galaxy A38 leak points to a smaller main camera than Galaxy A37",
+   "url": "https://www.androidauthority.com/samsung-galaxy-a38-main-camera-downgrade-3738145/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'a38' already covered in: سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة"
   }
  ]
 }
