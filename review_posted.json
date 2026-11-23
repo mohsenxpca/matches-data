@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "New King of Foldables? Huawei Surfaces Mate X8 Design - hi-Tech.ua",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeW50VFRkRzhfbWdYbXk2bkdHSS1EREQzSFhMV3hqa3lBWWo0dEZUbEZwbUw3NXducE11NFlPUFN0cXN3bDg3YUVocEpnbUZOVmJYSm95d2J6d1NtWVZfRk05Z0xZRkJEZkRRWEJHbXBvblQ4MDktVzFVUlVpbmFXNQ?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
-  },
-  {
    "title": "Meta Muse AI Agent Can Now Make Phone Calls for You - hi-Tech.ua",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BZmF0emlFWnc1ZzdKcnNtVmhLMTMwSDRvaHhocTJWb1E2a25TS2hqeXpSOUtpYjF4X0w4MlNMVkx4U2hIaWl1Um5uM3EyNXVHWnNrelVuVjJqejZfdUZMRVRPdW84enJWX2RTVWJwdDNETXV1X0tKTWJIWDJhMkk?oc=5",
    "at": "2026-11-16",
@@ -3206,6 +3199,16 @@
   {
    "title": "Honor claims its 2027 wide foldable has “absolutely no creases”",
    "url": "https://www.gizmochina.com/2026/11/23/honor-claims-its-2027-wide-foldable-has-absolutely-no-creases/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "RedMagic is the official gaming phone sponsor of the 2026 PUBG Mobile Global Championship",
+   "url": "https://www.gsmarena.com/redmagic_is_the_official_gaming_phone_sponsor_of_the_2026_pubg_mobile_global_championship-news-75597.php",
    "at": "2026-11-23",
    "ok": false,
    "reason": [
