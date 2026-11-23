@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.goal.com/ar/%D8%A7%D9%84%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D8%A7%D9%84%D8%B3%D9%81%D8%B1/%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84-%D8%B9%D9%84%D9%89-%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A7%D9%95%D9%8A%D9%81%D8%B1%D8%AA%D9%88%D9%86-%D9%88%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84-%D8%A7%D9%94%D8%B3%D8%B9%D8%A7%D8%B1-%D8%AA%D8%B0%D8%A7%D9%83%D8%B1-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%95%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-%D8%A7%D9%84%D9%85%D9%85%D8%AA%D8%A7%D8%B2-%D9%88%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D9%88%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D8%AD%D8%B8%D8%A9-%D8%A7%D9%84%D8%A7%D9%94%D8%AE%D9%8A%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF/A~blt3ed37b5643e3c027",
-   "t": "كيفية الحصول على تذاكر مباراة إيفرتون وليفربول: أسعار تذاكر الدوري الإنجليزي الممتاز، ومعلومات المباراة، ومبيعات اللحظة الأخيرة، والمزيد",
-   "at": "2026-11-06",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7170540",
    "t": "عودة قوية.. موتورولا تطلق هاتف Signature 27 بمواصفات جبارة وسعر صادم",
    "title": "موتورولا تطلق هاتف Signature 27 بمواصفات خيالية وسعر مرتفع",
@@ -3399,6 +3390,16 @@
    "at": "2026-11-23T00:41:33.260795+02:00",
    "ok": true,
    "type": "trends"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMi_gNBVV95cUxPMzdkRXBxaWt5YUY1YXRmWU91b2ZuY213Z3kxVkRMdmYtT29oX3NSYlpBWC05c19yUmJXUXVUUWxJRTZfWmR6Q1dRY0hlU2ZJZ2RKbkowOVZxdWRjX1RzMkVocDlBMmJLdE5mOGMxZ1RRUHNsREdpMWVBWXA2aFA1Y1RlLTFDRHd4dGMtSUlDQi1yeTZBNi1rekpycWhEb0owN21PSTV5OThla3pxVzVtMHFKcEd3ZzcyRTVxZ0tqXzJUQUpuMzJBRlg0UHltRU1IMnZwcVpvVkctLWszOElnUkhJTTU2UnJ1d2NLMC0ybjFFZjgtdms3STFpXzcyRHhmcUR0SkFlVEZZZmRhQjJEX0J0dHgwbVZpZm4xWjhscVJRYXE2dDFmcjFBVTltSVhRdEd2NU1LWTdTTWVCNXdyWUZyWnBoMHhWdHBhNFh2S01ZUXNubmxlWi15MWt3U3ROQm5DSHRkX2JnVTAzLVdiOGdKdDBieTVHZFBIY2hWdmlyMUxwaDhMbUxvY3ZsOURXdE1qc0FQdmlvZFhSc3VwQlZMVWVDLTktTmN3VVU4RnJfZHRNRnhHUVM3Y2x1SWJtZGdKWHM3N0t4Z2JMSjROQmhpYkdPblNiSkdqcUsycVFyTmQzM2VwNUhCdG45MTNSX1NpQ2RaOGdfbTQxSXfSAYMEQVVfeXFMTWlpbkMycHFSb1BMa3ptTzE1Qkx2aW1mUzlndUktelZUbDhLUWRZUllPTnR4VVMzbWZyVVhSSm95VFppQVhCR2NNYWlYZl9naXFtZzRTS2VuZmtKeXoxZ2Y2QlZrMzVIc05PckhibnFzLVk3bm1CbzMyLU1NcUhZNjF4U21fRnUwSTJuRnpKek9YekNkbEtvX1FMXzlqUG15MkJ1T1hfUDF2SnlQaWJaZzRIZWMwMDhJenhxLWEyVXVWMjc2ckFRelJJUDB1TE1PeWRjb0EweVhfalV5NGN3UUtlTkxBaDFkWEVXeXNuWGxDSWlBdFJkUmowSFlCR1NnYjNvMWV3OVNrc0tQX0xXeGllcEZKdGs3ZnRXUjhmV3o2Nm5sRGJRZjlXLUdhUkc3aGZJRUJGaUNJbnVWc1lYNVlBLUxaU1lRS21CaGQ4Vzd1bEVnZ2RaeEdTeThDQnUzYVN5SE5wSG03V21YeXo0eHNCZmNFZzliTnRKTVZObUlrbWJDSFZibXM2aUFYcGhRVktKc1R1NENReWV4OGtxNDJxZXBkVjZKQmlOOFdRVDJCYnBNSXQ0dGpNWlhWTElDclN0M3dlMXo4QkNJR2g4cWd0eVoySUVyUURFOURJNmtLLURYelpEWHlfT21xMEpLM0dlYnJBYXUwT2NBODBOYzFTMDQ?oc=5",
+   "t": "الأرصاد تحذر من شبورة كثيفة تصل لحد الضباب لمدة 8 ساعات غدا - Masrawy",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "الـ body 418 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ارصاد', 'تضرب'}) مع تشابه نصي مع: أمطار تضرب العاصمة المقدسة: الأرصاد السعودية تحذر حتى 8 مساءً)"
+   ]
   }
  ]
 }
