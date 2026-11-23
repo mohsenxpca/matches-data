@@ -1,16 +1,6 @@
 {
   "done": [
     {
-      "title": "السعودية تفتح أبوابها: 72 دولة مشمولة بالتأشيرة السياحية الجديدة",
-      "orig": "الدول المسموح لها بالتأشيرة السياحية السعودية 2026: قائمة الـ72 دولة بعد إضافة المكسيك وصربيا",
-      "url": "https://rahhal.wego.com/blog/%D8%A7%D9%84%D8%AF%D9%88%D9%84-%D8%A7%D9%84%D9%85%D8%B3%D9%85%D9%88%D8%AD-%D9%84%D9%87%D8%A7-%D8%A8%D8%A7%D9%84%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A%D8%A9/",
-      "post_url": "https://www.egyptaway.com/2026/11/saudi-tourist-visa-expansion-2026.html",
-      "topic": "gulf_visas",
-      "has_real_photo": false,
-      "at": "2026-11-05T19:36:05.338405+02:00",
-      "ok": true
-    },
-    {
       "title": "مد فترة التقديم على شقق سكن لكل المصريين 9: تفاصيل وشروط الحجز",
       "orig": "شقق سكن لكل المصريين 9 في مصر.. تفاصيل الحجز والدعم الحكومي",
       "url": "https://al-ain.com/article/egypt-social-housing-9-rent-application-deadline",
@@ -2906,6 +2896,15 @@
       "has_real_photo": false,
       "at": "2026-11-23T11:26:05.766940+02:00",
       "ok": true
+    },
+    {
+      "title": "رئيس جامعة العاصمة يوجه بتسريع معدلات الإنجاز للانتهاء من المرحلة الأولى للمجمع الطبي",
+      "url": "https://www.baladnaelyoum.com/1162863",
+      "at": "2026-11-24T00:21:04.623965+02:00",
+      "ok": false,
+      "err": [
+        "رد Gemini فارغ أو غير صالح"
+      ]
     }
   ]
 }
