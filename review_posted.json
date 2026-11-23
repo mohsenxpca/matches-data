@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Oscal Bolt 2",
-   "url": "https://www.gsmarena.com/oscal_bolt_2-15084.php",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": "Model code [2] with variants set() found in review: مراجعة Ai+ Pulse 2 FE 2026: شاشة 120 هرتز وبطارية 5000 بسعر اقتصادي"
-  },
-  {
    "title": "Apple iPhone 17 Pro Max",
    "url": "https://www.gsmarena.com/apple_iphone_17_pro_max-13964.php",
    "at": "2026-11-15",
@@ -3198,6 +3191,13 @@
    "at": "2026-11-23",
    "ok": false,
    "reason": "Phone 'iphone 18 pro' already covered in: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "The Xiaomi 18 Pro back display is a masterpiece - and Google needs to add it to android - Android Central",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPandXLWZ6azFGMlh2RTBsSnZlR2syQzZuV0JsUG1Za1VkVEhPS0tRSUxQMnY3QjRhZGswcXFMNnB3LWNKbVZSWUYtWUFIa0cxbWxNTlVGQU9KbE4wbVpwM2RmWkxheE1JZEVXRlBwYzNwbHFhRDBud2VpUURYMTBkSFBxa1cxU3NHNmdvandFbXBNMkdmdHBlaXFWYnVNSXJLX3Q2b1ZFY04zdmVKX0k1ck9BbG83aS0tTE5mUEJNdVgzb01UVHhmSHh3?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
   }
  ]
 }
