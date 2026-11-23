@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "title": "Your Pixel Phone Just Got a Super Handy Family Hub - Droid Life",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOThzYnlPbU9KeXAxRG8zSU94YnJab3RUeTNZRzVncEozeWpxOGtyRUFJQjktVjU5OEhzRm41ZXE5RERoMkl1R3ZMQ0M5Zk85U3VHMnZfc0hVYmNrZGtDQlFKVFpJdDloUFBLQzJwNVJGaE11SzBiMUd4OVVPeXdlUjNpRFRRQnp4bmQybUxoMlNRZEE?oc=5",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (485 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Why your Android phone keeps waking up in your pocket (And how to fix it) - How-To Geek",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTnpPQnl4b3d6Rnp4RXFYM2VZVjlVRVBNQ3ZMcHhLSFBoRHJJeEpiSXViUEl0SHJuT0hpM3RtRVZ1ZHE3N09vQWpZZ3BzYTFDd2NoUWpnYWlfSW5Zem9UMkJmS29TRl8zZVJRVXM3XzZaR19WdXFwa212WDJyU2lYUnpMRExVRW9UODJkdjlrYU1VY2c?oc=5",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (508 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "I used Pixel 10's Magic Cue and Galaxy's Now Nudge side by side; only one showed up when I needed it - Android Police",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQam8yZGRRcWlZbU1kVllneUlyN3R1TDJ6cU5qXy1zcmtTZDVkcDJiQXY4UDcwemljOVRZanV5WGIxLWs1ZjRPMnZRbmpxV1I4cHZuSkItenNPSHlWdmZwRDJ0R0dINWg5ZXMwbW50VVF0SFhGaHR2YWdLRVF4NDJJcVJOSjNmcU5oWlA0MnY1bGNKN3otck9ZUUV4R3dWVG5SaHF6RFhqWENXenpOWWg5TEttV0VsWEVPaWRv?oc=5",
    "at": "2026-11-15",
@@ -3206,6 +3188,20 @@
     "طول المقال قصير (357 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
    ]
+  },
+  {
+   "title": "Xiaomi 18 Pro series goes global, anniversary iPhone details surface, Week 47 in review",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_series_goes_global_anniversary_iphone_details_surface_week_47_in_review-news-75581.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "The Huawei OSTA O1 Pro launched with a 16:9.5 aspect ratio display, a 200MP main camera, a 7,000mAh battery, and HarmonyOS 7. - Vietnam.vn",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbEpPUG1MNGhOQ2lCZHhZdjdZRGhvaVNnSW1xVGhTT0M1dzN0cUFOVGRheW1QN3d2Ty1mSWIwRFZQNXZQMmxQVnotU2ZDOGsyOWV3eEZ0Zm5OdVZYcEw2cnpqZmxqMl90bDNiNEhpZ0hzdWZBMF9mQ2szdW8xRmFhOU1PX2lsc2JVc0hRUnBZc0NLYl9SQmFKWGhGYnRFQzE0QXBlcE9HYVBHX0FLUkFsc01maDV5akp4V2c?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'harmonyos 7' already covered in: هواوي تفاجئ السوق بهاتف OSTA O1 Pro ونظام HarmonyOS 7"
   }
  ]
 }
