@@ -1,11 +1,6 @@
 {
  "done": [
   {
-   "q": "ترتيب هدافي الدوري السعودي",
-   "at": "2026-10-30",
-   "ok": false
-  },
-  {
    "q": "shahid",
    "at": "2026-10-30",
    "ok": true,
@@ -2313,6 +2308,13 @@
    "at": "2026-11-23",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "برينتفورد ضد إيفرتون",
+   "at": "2026-11-24",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/brentford-everton-premier-league-match.html",
+   "title": "برينتفورد يُسقط إيفرتون برباعية في الدوري الإنجليزي"
   }
  ]
 }
