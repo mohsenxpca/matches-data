@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 17",
-   "url": "https://www.gsmarena.com/xiaomi_17-14134.php",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": "Model code [17] with variants set() found in review: مراجعة شاملة لهاتف Xiaomi 17 Ultra: وحش التصوير بمعالج خارق"
-  },
-  {
    "title": "مراجعة Oppo Find X9 Ultra: العملاق الجديد يغزو الأسواق العالمية",
    "cand_title": "Oppo Find X9 Ultra",
    "url": "https://www.gsmarena.com/oppo_find_x9_ultra-14548.php",
@@ -3191,6 +3184,15 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "سامسونج تٌسجل أعلى أرباحها في الربع الثالث بسبب رقائق الذكاء الاصطناعي",
+   "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/29/3070349/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%AA-%D8%B3%D8%AC%D9%84-%D8%A3%D8%B9%D9%84%D9%89-%D8%A3%D8%B1%D8%A8%D8%A7%D8%AD%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (622 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
