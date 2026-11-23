@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "title": "قفزة تاريخية لأرباح سامسونج بفضل رقائق الذكاء الاصطناعي",
-   "cand_title": "سامسونج تٌسجل أعلى أرباحها في الربع الثالث بسبب رقائق الذكاء الاصطناعي",
-   "url": "https://www.masrawy.com/news/tech-reports/details/2026/10/29/3070349/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC-%D8%AA-%D8%B3%D8%AC%D9%84-%D8%A3%D8%B9%D9%84%D9%89-%D8%A3%D8%B1%D8%A8%D8%A7%D8%AD%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D8%B9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB-%D8%A8%D8%B3%D8%A8%D8%A8-%D8%B1%D9%82%D8%A7%D8%A6%D9%82-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-record-profits-ai-chips.html",
-   "at": "2026-11-15T03:16:28+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "How I freed up 36GB on my Android phone without deleting a single photo - Android Authority",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KTzNtZW0tRmtpMC1rdUV0Z09YUDdiNzJ2eVF5SS05V0VReWVIeTUtTEplcWlSZTM0djFSenBQa1YxUi1OZFlkTE1QNzZyRGFTUF9FYzF1aW55aGlXbVlpYUFMSnd0WFNoVUZXaVRmWVBtVVNhbXdnLVBR?oc=5",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['deleting', 'freed', 'photo', 'single']"
-  },
-  {
    "title": "Xiaomi 17",
    "url": "https://www.gsmarena.com/xiaomi_17-14134.php",
    "at": "2026-11-15",
@@ -3190,6 +3173,24 @@
    "at": "2026-11-23",
    "ok": false,
    "reason": "Model code [f7] with variants set() found in review: مراجعة Xiaomi Poco F7 الشاملة: مواصفات عملاق الأداء والسعر في السوق"
+  },
+  {
+   "title": "Motorola Razr Flex 2027 Leak: 165Hz, Book-Style Fold - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM1o5MG5ZZUdjVnpQZndjN0ZveU85VHJNd3ZhbnNPcjI5YWUxMWktaGJCbWU5R0ZiMEJFLXVCT1hMNXdLSzZtNkhGTzNKYXFqV3dOWWZmZmVwSUFlYXNLWUlydHM4Y0VlZkdUVTRUbDRDd1M3UTRLTEM3cXlIYWlWcktwR1ZJYU44ZnJzcTE0V0lTdTQ?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['2027', 'razr', 'flex', '165hz']"
+  },
+  {
+   "title": "كيف تتخلص نهائياً من المكالمات المزعجة على آيفون وأندرويد؟",
+   "cand_title": "How to Block Robocalls and Spam Calls on iPhone and Android - Online Tech Tips",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeU5fT3MxUDN5cUxxRWhuX0ZwcEVfUjhUS0FLeUdVZFloWkJwTDFqWUt5Y0R6VmhlUlpFOXNKdi1HZkRCNUVic0hISVlMWlhzekdUME9wRlRZdUI5N1hENnc2ejNtOC12bWNOVEJjMW92MUZ6VzRHNnVnWmtQMl9ndHFUb1dOZnhNV3VwczJTZmpIdFRvZG1PVg?oc=5",
+   "raw_photo": "https://www.online-tech-tips.com/wp-content/uploads/2026/11/how-to-block-robocalls-and-spam-calls-on-iphone-and-android-featured.webp",
+   "post_url": "https://www.review-mobile.com/2026/11/block-robocalls-iphone-android.html",
+   "at": "2026-11-23T08:51:31+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
