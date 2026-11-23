@@ -363,6 +363,15 @@
       "err": [
         "banned topic"
       ]
+    },
+    {
+      "q": "الاتحاد",
+      "country": "SA",
+      "at": "2026-11-23T19:36:20.547088+02:00",
+      "ok": false,
+      "err": [
+        "banned topic"
+      ]
     }
   ]
 }
