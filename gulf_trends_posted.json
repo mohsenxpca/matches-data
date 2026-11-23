@@ -408,6 +408,15 @@
       "err": [
         "banned topic"
       ]
+    },
+    {
+      "q": "لعبة gta 6",
+      "country": "SA",
+      "at": "2026-11-23T22:06:08.753982+02:00",
+      "ok": false,
+      "err": [
+        "banned topic"
+      ]
     }
   ]
 }
