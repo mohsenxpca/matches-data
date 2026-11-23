@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Tilta Khronos Oppo Find X10 Pro Max Creator Kit hands-on - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSmp3WDJRUUg3Z3RGTG9FdUNxSWkwS05YYjROX2lEZER4RU5yZ244cElCa044Y1ZxdWQtNmJPWmJGckpJN0ZCZW1JQzZ4QUZES1VoNjYycDFoelMyQmtkbVFVV0FQR1BKbFN6a1BvWEx4bTBkMkdhVjBIbW1FXzRjQkxlelEzRURLSXhsSlFXVmI5OFNxTnpIUUZSSQ?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['creator', 'khronos', 'find', 'tilta']"
-  },
-  {
-   "title": "Weekly poll: how long do you plan to keep your current phone? - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSmNrTWsxMmxabHg3WEd6M2t4eUZXamw0ajFGQ096NzJpS1ZZUEtLeXk2M1lZaFRLSWg2T0IwYjlTQnlaNmVXOXBhQXVqMlVlc3hnTXNvWGZJSFNSck04OWp3dVNrSkJCb016OGxXUU9hWTk2UEJ3WTczSjRwZjEzb0ZlcWxqYW5YMmJIYWlTMld2Tm9xXzBjMGdUM0ladGxW0gGcAUFVX3lxTE9UT1pHVkg5aDEwc20xazZsMWh5anROQmF5NmFtSmRyRXBSZm00cThJbVRqTFVCQW50aG40WVd0QV9NY2pxZjJOZU1tSzlib3BCckdZcnVUalVwR3daTUkxcFI4dWVRd2thTEtpYTU2T0ZDd3BPMER1STBLeTViZ1lGVGtIeE03MTdoU1AyR2NmeXdGRzQ5dUxnemFvYg?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['plan', 'current', 'poll', 'your']"
-  },
-  {
    "title": "Honor Choice T10 - Full phone specifications - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGbHo2N2xUSlp4MEZEc0F5Ul9abHpWR0oyTjkzand4S1h3N1c0UjQ5LThZeWtjcndudUQ0MUpjUExRWTZlR3VGcDJTVXdtWVYydWlqV3l2TXZOWEV4b09KUw?oc=5",
    "at": "2026-11-16",
@@ -3200,6 +3186,23 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Samsung Galaxy A38 vs vivo Y11s",
+   "url": "https://www.gsmarena.com/samsung_galaxy_a38_5g-15095.php||https://www.gsmarena.com/vivo_y11s_5g-15097.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'a38' already covered in: سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة"
+  },
+  {
+   "title": "vivo Y21s vs vivo Y11s",
+   "url": "https://www.gsmarena.com/vivo_y21s_5g-15096.php||https://www.gsmarena.com/vivo_y11s_5g-15097.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
   }
