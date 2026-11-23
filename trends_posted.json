@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "q": "نادي أربيل",
-   "at": "2026-10-29",
-   "ok": true,
-   "url": "https://www.egyptaway.com/2026/10/arbil-and-al-ettifaq-crisis.html",
-   "title": "تفاصيل أزمة نادي أربيل والاتفاق السعودي"
-  },
-  {
-   "q": "موعد صلاة الظهر",
-   "at": "2026-10-29",
-   "ok": true,
-   "url": "https://www.egyptaway.com/2026/10/duhr-prayer-time-egypt.html",
-   "title": "موعد صلاة الظهر في مصر اليوم الخميس 29 أكتوبر 2026"
-  },
-  {
    "q": "كهرباء",
    "at": "2026-10-29",
    "ok": false
@@ -2313,6 +2299,17 @@
   },
   {
    "q": "رسوم الأراضي البيضاء",
+   "at": "2026-11-23",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "عطلة رسمية",
+   "at": "2026-11-23",
+   "ok": false
+  },
+  {
+   "q": "ال",
    "at": "2026-11-23",
    "ok": false,
    "why": "no source text"
