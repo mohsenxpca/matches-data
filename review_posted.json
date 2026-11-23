@@ -1,29 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Reno17 (China) vs vivo V80 FE",
-   "url": "https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php||https://www.gsmarena.com/vivo_v80_fe_5g-15061.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'v80 fe' already covered in: مراجعة شاملة لهاتف vivo V80 FE: مواصفات عملاق الفئة المتوسطة"
-  },
-  {
-   "title": "Oppo A7 Pro vs Oscal Bolt 2",
-   "url": "https://www.gsmarena.com/oppo_a7_pro_5g-14928.php||https://www.gsmarena.com/oscal_bolt_2-15084.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'a7 pro' already covered in: مراجعة Oppo A7 Pro: المواصفات الشاملة، السعر، المميزات والعيوب"
-  },
-  {
-   "title": "Xiaomi’s wide-screen phone in works, display details emerge",
-   "url": "https://www.gizmochina.com/2026/11/16/xiaomi-wide-screen-bar-phone-16-9-display-leak/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (605 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Redmi Note 18 5G may pack an 8,888mAh battery!",
    "url": "https://www.gizmochina.com/2026/11/16/redmi-note-18-5g-rebrand-note-17-5g-battery-leak/",
    "at": "2026-11-17",
@@ -3192,6 +3169,31 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "The Samsung Galaxy A38 tipped to have a downgraded camera, the A58 stays the same",
+   "url": "https://www.gsmarena.com/the_samsung_galaxy_a38_tipped_to_have_a_downgraded_camera_the_a58_stays_the_same-news-75598.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'a38' already covered in: سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة"
+  },
+  {
+   "title": "Is the Samsung Galaxy S26 Ultra Worth Buying in 2026? - Droid Life",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOR2JwSWtaLUZYTVBqdVJ2d2x1VFdiY1ZMcXRRSVR3cUxUZ3JyeGlSZG1MaUlScW9nOUVfdGl1eWpWckxDNi05NHFyUnpKYzREdnVIQ1VxVFdHdlBteWVGVFZZNXlDbFhjbGtUdjctRGdwMnBTU29fejBVbk94TGNDakpzSk1uQ1lkM2hLM3JhcUVxZUFTU1E?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 's26 ultra' already covered in: خصم هائل على Samsung Galaxy S26 Ultra قبل الجمعة البيضاء"
+  },
+  {
+   "title": "دليلك الشامل لتفعيل الـ eSIM أثناء السفر: خطوات تضمن بقاءك متصلاً",
+   "cand_title": "The Complete Guide to Setting Up a Travel eSIM on iPhone and Android - Newsweek",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdVd5aWVkeElNTG1VWmVUOHBRUThPVEU4ZnNkRE1mX0JKMkdpU0U2dlVQTWJJUXIzcG1US0NtcTFBcmw0MW9TcEJTMDVHNk9mTFZ4TC1sT0RMemV6N0ZweW9TeXZ5dVJZVEdaUHZWQktwSHFDOVFvM0wzWTRwY0JXNGhic1JqbzhXNkVQbWx3ZnBWUFlRa1NaSjctNDJzNDg?oc=5",
+   "raw_photo": "https://assets.newsweek.com/wp-content/uploads/2026/11/GettyImages-2245401267.jpg?w=1200&crop=1",
+   "post_url": "https://www.review-mobile.com/2026/11/complete-guide-travel-esim-setup.html",
+   "at": "2026-11-23T22:18:49+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
