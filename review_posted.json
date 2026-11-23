@@ -1,44 +1,6 @@
 {
  "done": [
   {
-   "title": "Space42 starts production of ThurayaTwo satellite phone - Tbreak UAE",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DLTNlY3UyUkVEZ1BjM2podmtIZ184RFB2NjdLYXNxLTB3QjB2aGh3TjVKUHhROXVKRkxFMk5NbEdlUXdaS3RHWHJzZXNyM3hPT3FzeDY2VXRRQU13SU5VUnB2ZXlzZ2RtMjdMT3JIMDRvazA?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (668 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "هاتف شاومي الجديد يمهد لبطارية خرافية بسعة 10,000 مللي أمبير",
-   "cand_title": "Redmi Note 18 Pro Max tipped for 10,000mAh as a 67W Xiaomi phone clears China's checks - Techish Kenya",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBObU1YbjJfLUFIQWFYRk8tQUJZQjYyX2h0TW5jdnRvNnNtNjgyT0tvV0VKNTZvOVVIbHpKdEFlN1dHRnVMSUpaOXI2Y3NSOXhXem9ZZzF1eWtrTUNod3JsMjBYbll3c1lHR3BCdUNrTE1xN3dRdThieTg0Yw?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-10000mah-battery-redmi-note-18.html",
-   "at": "2026-11-16T13:38:00+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "شاومي"
-  },
-  {
-   "title": "How to pay with your Android phone anywhere in the world",
-   "url": "https://www.androidauthority.com/how-to-pay-with-your-android-phone-anywhere-in-the-world-3734363/",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (626 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "لماذا لا يجب شراء أحدث الهواتف الرائدة؟ البديل الأفضل",
-   "cand_title": "Why you shouldn’t buy the latest flagship phone — and what to get instead",
-   "url": "https://www.androidauthority.com/2025-phone-hardware-thats-still-great-3732895/",
-   "post_url": "https://www.review-mobile.com/2026/11/why-not-buy-latest-flagship-phone.html",
-   "at": "2026-11-16T14:07:59+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "New Galaxy A57 update makes it more secure",
    "url": "https://www.sammobile.com/news/new-galaxy-a57-update-makes-it-more-secure-2/",
    "at": "2026-11-16",
@@ -3210,6 +3172,37 @@
    "at": "2026-11-23",
    "ok": false,
    "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Motorola Edge 70 Neo vs Samsung Galaxy A38",
+   "url": "https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php||https://www.gsmarena.com/samsung_galaxy_a38_5g-15095.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: مراجعة Motorola Edge 70 Neo: المواصفات الكاملة، السعر، والمميزات"
+  },
+  {
+   "title": "Here's when the vivo S70 series will become official",
+   "url": "https://www.gsmarena.com/heres_when_the_vivo_s70_series_will_become_official-news-75599.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 's70' already covered in: مراجعة هاتف vivo S70: المواصفات الكاملة والتحليل الشامل للكاميرات"
+  },
+  {
+   "title": "Honor Magic 9 Pro Max is made official with an Academy Award-worthy camera setup - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ3h3aGd0S3ROTUg4YlR6M3JrN0t5TURndUw3Zk5hTm5JdUVuYmNEWlF2bjFqX1dyLUhXVGQ4WG1nTTA0ajR4ZkQ1Ti1WbEY2V083Tnh5eWRHdFdfYXFvQlF3VmJJMXc2WWM4ZERzcnVVazJiWS1ERmY5RUFoZ0lxM2NiZDNHdw?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'magic 9 pro max' already covered in: مراجعة Honor Magic 9 Pro Max 2026: المواصفات والسعر"
+  },
+  {
+   "title": "Karbonn Rebel Brings 50 MP Camera, 7,000 mAh Battery At Rs 11,999 - Rediff.com",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdzFNV2tJQXhyYUlpVnI2V21LNGZ6T3k4TTd4Q0I2Q0c5d0o0YzVRQnI3RlJnM3FsSFEwUDVVMnM5QWNjRUNsNGl3WU1JdUNoY0NvZktiZkZtV2EwX2hka3RrYVVaTmhhMUVmSnEyWm1adGUyaDE4SFBVRHUwUldUQjJNV1A2WEpQTUVidDRLMFg3VzVlbExsajdSNnpKb2R4T1JpLU9zSzdXcWRYd3hsTVJ6THFRcGJWaS1Ja21UWlRoSUhxNXhBV0NLVGYyN0pUQlNxRzNQVFVncGvSAd4BQVVfeXFMUDgydFUzR2tKRzd3RmZtYVZJbWhoQzFlUjZ6V3d2Vl9QeGtCbkUtN3NBTlgxWUhtb2UweXRlSTI5NEpqcXdpWWNoaWVKNTNzbERkVlk0RHFIWHYzX0tyRVdOU3E0VUllYlhHTF9MaUtQeXFtVVZyYW1UNkJEbWJnQU0wT0hTSnlQUmpKNzdhNGttSjlRa2Nkb0NtVXlRTjhwaVNXX2FiLTlxNWJnYzJSbWpGTGpMZTB1S3NHZV9Vc0J4cDIyXzRSVzl2bVNDdy1RcTJVQTdJZ1FrWDNHUFp3?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
   }
  ]
 }
