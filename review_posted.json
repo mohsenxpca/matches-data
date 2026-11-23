@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "I’ve spent three weeks with a Googlebook — is it better than my Android phone with desktop mode? - Tom's Guide",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOX3pFaEZXOGJHQm40S3JuWVJRbmpGb3hGWWo0SWJSclJ5RHlQNGNSM3E1cEVpT09ocFBRbGR4SDhtR1Z6dFpXSmgwSjNZT05NV1NPaXZBcmpvLXItRVZQOEJTWG10VXcxTDRla250YmM0WE1nbktzVm0tUDNRMThUd1pnOTF4VVFidHZBdEF4QzdsczU4bVkzT28wZl8xRnFvY1UwRm1yakNIeTY3RlA3aVFzd0pTRHN4WFJxZ1NhYXo5Szl2c09DdHZPV2FZMmM4VUE?oc=5",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
    "title": "مراجعة Oppo A7 Pro: المواصفات الشاملة، السعر، المميزات والعيوب",
    "cand_title": "Oppo A7 Pro",
    "url": "https://www.gsmarena.com/oppo_a7_pro_5g-14928.php",
@@ -3200,6 +3193,13 @@
    "at": "2026-11-23",
    "ok": false,
    "reason": "Recent story overlap on key terms ['i2606', 'powered', 'snapdragon']"
+  },
+  {
+   "title": "Punjab BJP launches phone numbers, QR code to seek suggestions for 2027 poll manifesto - ThePrint",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb0FRMXc3ZXQ4TktMN0hBUEVKb3hXSXdncHJuMkN6cThEcjlzZC1LRXZoeDZITEVvY3Yya1hVWmxXbThqNUxOd2RWa2k2c3YwNEdCQ21RQ2Y4YVdZVVQwSkM3Y2NuY0x0OThmczdBMURrYXhqNWRpM1NnZ29rVkdWcFlkaHJIQ25YZ1lrT1lkWjRGQ3d3OGJKeEJLc1B5Y2E5cUFfX2d3SHB2dmMtTER0UXdUaC1TWGJ5dWlzddIBwgFBVV95cUxNWGpPc2NnS1E0LS1NY2dhdjVoU3M3eXgwcEVIczBHeTREU0lOQnUzc2ZVamQ5dXVVQ21uRzZkTmtwYm81WmdZQjZJUGpCaFh3UmNRWW1FYldvdHAwYzk2STFlc0RiSGp4QmU1cU5SNC1kcXUwYzNYWHJUbkpDM1hKMEFJSXgyc1dUbHNqMWpEZVZiWEEyM2l3YmRHZTd4dEJkUUNTUVZHYWpXMnQyV1FBNXdFekhpLWpsa2F4OExPak9iUQ?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['punjab', 'manifesto', 'numbers', 'seek']"
   }
  ]
 }
