@@ -50,15 +50,18 @@ PHONE_LABELS = {
 
 NON_PHONE_EA_LABELS = {
     "أخبار الكورة", "مواعيد المباريات", "الدوري المصري", "الزمالك", "الأهلي",
-    "رصد الأعطال", "ذهب وعملات", "مواقيت الصلاة", "الطقس"
+    "رصد الأعطال", "ذهب وعملات", "مواقيت الصلاة", "الطقس",
+    "العاب", "ألعاب", "أخبار الألعاب", "تحميل ألعاب", "شحن ألعاب", "عروض",
+    "طرق الربح", "كمبيوتر", "الذكاء الاصطناعى", "شروحات", "تطبيقات", "تقنية", "اندرويد"
 }
 
-PHONE_TITLE_RX = re.compile(
-    r"(هاتف|هواتف|موبايل|موبايلات|جالاكسي|آيفون|ايفون|سامسونج|شاومي|ريدمي|بوكو|ريلمي|ريلمى|"
-    r"أوبو|اوبو|فيفو|هونر|انفنكس|انفينكس|تكنو|تيكنو|ون بلس|وان بلس|موتورولا|بيكسل|هواوي|ريد ماجيك|ناثينج|"
+REAL_PHONE_BRAND_RX = re.compile(
+    r"(جالاكسي|جلاكسي|سامسونج|آيفون|ايفون|شاومي|ريدمي|بوكو|ريلمي|ريلمى|"
+    r"أوبو|اوبو|فيفو|هونر|انفنكس|انفينكس|تكنو|تيكنو|ون بلس|وان بلس|موتورولا|بيكسل|هواوي|ريد ماجيك|ناثينج|نثينج|"
     r"\bgalaxy\b|\biphone\b|\bsamsung\b|\bxiaomi\b|\bredmi\b|\bpoco\b|\brealme\b|\boppo\b|\bvivo\b|"
     r"\biqoo\b|\bhonor\b|\binfinix\b|\btecno\b|\boneplus\b|\bmotorola\b|\bpixel\b|\bhuawei\b|"
-    r"\bredmagic\b|\bnothing\s*phone\b|\bone\s*ui\b|\bios\s*\d+)",
+    r"\bredmagic\b|\bnothing\s*phone\b|\bone\s*ui\b|\bhyperos\b|\bcoloros\b|\bmagic\s*os\b|\bios\s*\d+|"
+    r"معالج(?:ات)?\s*الهواتف|\bsnapdragon\b|\bdimensity\b|\bexynos\b|أفضل\s*هاتف|أفضل\s*هواتف|مقارنة\s*هواتف)",
     re.I
 )
 
@@ -118,14 +121,24 @@ def first_image(body, post=None):
     return None
 
 
-SAMSUNG_RX = re.compile(r"(سامسونج|جالاكسي|جلاكسي|\bsamsung\b|\bgalaxy\b|\bone\s*ui\b)", re.I)
+SAMSUNG_RX = re.compile(
+    r"(سامسونج|جالاكسي|جلاكسي|جود\s*لوك|بيكسبي|نوكس|إكسينوس|"
+    r"\bsamsung\b|\bgalaxy\b|\bone\s*ui\b|\bgood\s*lock\b|\bbixby\b|\bknox\b|\bexynos\b|"
+    r"\bsmart\s*switch\b|\bgalaxy\s*ai\b|\bgalaxy\s*store\b|"
+    r"samsung\s*(?:notes|wallet|health|gallery|internet|pay|pass|members|camera|dex|flow|cloud))",
+    re.I
+)
 
 NON_PHONE_DEVICE_RX = re.compile(
     r"(لابتوب|لابتوبات|حاسوب|حواسيب|\blaptop\b|\bmacbook\b|\bgooglebook\b|\bchromebook\b|"
     r"تلفزيون|تلفاز|غسالة|ثلاجة|مكنسة|مكيف|ساعة\s*ذكية|ساعات\s*ذكية|\bsmartwatch\b|\bsmart\s*band\b|\bwatch\b|"
     r"\bwalkie[\s-]?talkie\b|سماعة|سماعات|\bearbuds\b|\bbuds\b|\bfreeclip\b|\bheadphones\b|"
-    r"شاحن|كابل|كابلات|\bcharger\b|\bcable\b|"
-    r"موبايل\s*ليجندز|ببجي|فري\s*فاير|شحن\s*(?:ماسات|شدات|جواهر)|حساسية|أكواد\s*فودافون|العاب|ألعاب|\bmlbb\b)",
+    r"شاحن|كابل|كابلات|\bcharger\b|\bcable\b|سيارة|\bzeekr\b|"
+    r"موبايل\s*ليجندز|ببجي|\bpubg\b|فري\s*فاير|\bfree\s*fire\b|شحن\s*(?:ماسات|شدات|جواهر)|"
+    r"حساسية|سرعة\s*البيك|فريم|\bfps\b|أكواد\s*فودافون|العاب|ألعاب|لعبة|\bmlbb\b|\bgta\b|فيفا|دريم\s*ليج|روبلوكس|"
+    r"مكالمات\s*مزعجة|حظر\s*المكالمات|\brobocalls\b|بطاقتك|المطارات|هويتك|راكن\s*في\s*الدرج|قديم.*كمبيوتر|"
+    r"تشفير\s*كمي|\bqencrypt\b|واي\s*فاي\s*نيبال|\bwifi\s*nepal\b|نقل\s*محادثات\s*واتساب|واتساب|فيسبوك|إنستجرام|تيك\s*توك|"
+    r"تقسيم\s*الشاشة|تطبيقين\s*على\s*شاشة|كنا\s*بنعشقها|مميزات\s*قديمة|بدون\s*انترنت|خفيفة\s*للموبايل)",
     re.I
 )
 
@@ -225,18 +238,35 @@ def is_samsung_post(post):
 
 
 def is_phone_post(post, blog_id=None):
+    """Strict smartphone-only filter:
+       - Allows ALL Samsung phone news, Samsung apps (Good Lock, Galaxy AI, etc.), and One UI updates.
+       - Rejects ALL games (PUBG, Free Fire, MLBB, etc.), accessories, laptops, watches, earbuds, and generic tips.
+       - For non-Samsung posts, requires an explicit smartphone brand/model/hardware topic.
+    """
     url = post.get("url", "")
     title = html.unescape(post.get("title", ""))
-    if NON_PHONE_DEVICE_RX.search(title) and not re.search(r"(هاتف|موبايل|آيفون|ايفون|\biphone\b|galaxy\s*[sazmf]\d)", title, re.I):
-        return False
-    if blog_id == REVIEW_BLOG or "review-mobile.com" in url:
-        return True
     labels = set(post.get("labels") or [])
-    if labels & PHONE_LABELS:
-        return True
-    if labels & NON_PHONE_EA_LABELS:
-        return False
-    return bool(PHONE_TITLE_RX.search(title))
+
+    # Always reject non-phone devices, games, and generic fluff
+    if NON_PHONE_DEVICE_RX.search(title):
+        # Exception ONLY if it's an explicit Samsung phone/One UI/Good Lock update or app
+        if not (is_samsung_post(post) and re.search(r"(one\s*ui|good\s*lock|جود\s*لوك|galaxy\s*[sazmf]|تحديث|تطبيق|هاتف|هواتف|جالاكسي)", title, re.I)):
+            return False
+
+    # Samsung phones, Samsung apps, and One UI updates ALWAYS pass
+    if is_samsung_post(post):
+        if not re.search(r"(لابتوب|حاسوب|laptop|googlebook|تلفزيون|غسالة|ثلاجة|مكنسة|مكيف)", title, re.I):
+            return True
+
+    # On Egyptaway, reject non-phone sections immediately
+    if blog_id != REVIEW_BLOG and "review-mobile.com" not in url:
+        if labels & NON_PHONE_EA_LABELS:
+            return False
+        if not (labels & PHONE_LABELS):
+            return False
+
+    # Must explicitly be about a real smartphone brand, phone model, or mobile chipset
+    return bool(REAL_PHONE_BRAND_RX.search(title))
 
 
 def _is_white_backdrop(im):
@@ -699,6 +729,7 @@ def _gemini_fb_copy(title, bullets, paras, specs, mode="native"):
 - السطر التاني: سطر أو سطرين بحد أقصى بأهم معلومة أو رقم مثير من الحقائق فقط (لا تخترع أرقاماً).
 - السطر التالت: دعوة طبيعية للقراءة زي: «التفاصيل والمواصفات كاملة من هنا 👇» (بدون وضع أي رابط لأن الرابط سيضاف تلقائياً تحت النص).
 - ممنوع تماماً عبارات المواقع والمدونات مثل: (موضوع يهمك، اقرأ أيضاً، في هذا المقال، خاتمة، المصادر).
+- ممنوع تماماً إدخال حروف إنجليزية داخل كلمة عربية (مثل عandك) — اكتب بعربية سليمة تماماً.
 - الطول الإجمالي: 25 إلى 50 كلمة فقط.
 
 رجّع JSON بالشكل ده فقط:
@@ -1328,8 +1359,8 @@ def post_daily_story(title, url, image_url=None, content="", dry=False, force=Fa
         return False
 
 
-def run_daily_story(dry=False, force=False, lookback_hours=72, preview_path=None):
-    """Checks if today's Facebook Page Story has been published; prioritizes Samsung phone articles first."""
+def run_daily_story(dry=False, force=False, lookback_hours=120, preview_path=None):
+    """Checks if today's Facebook Page Story has been published; prioritizes Samsung phones, apps & updates first."""
     state = load_state()
     now = datetime.datetime.now(f.CAIRO)
     today = now.date().isoformat()
@@ -1349,7 +1380,7 @@ def run_daily_story(dry=False, force=False, lookback_hours=72, preview_path=None
     for blog_id, site_name in [(REVIEW_BLOG, "Review"), (EA_BLOG, "Egyptaway")]:
         try:
             res = f.api("GET", f"/blogs/{blog_id}/posts", tok, {
-                "status": "live", "startDate": since, "maxResults": 20,
+                "status": "live", "startDate": since, "maxResults": 40,
                 "fetchBodies": "true", "fetchImages": "true"
             })
             items = res.get("items", []) if isinstance(res, dict) else []
@@ -1366,7 +1397,7 @@ def run_daily_story(dry=False, force=False, lookback_hours=72, preview_path=None
         print("Facebook Daily Story: no recent phone article candidates found.")
         return False
 
-    # Samsung phone articles first, then newest
+    # Samsung phone/app/update articles first, then newest
     candidates.sort(key=lambda x: (x[0], x[1]), reverse=True)
     is_sam, _, p = candidates[0]
     print(f"Facebook Daily Story selected (Samsung={bool(is_sam)}): {p['title']}")
@@ -1375,10 +1406,10 @@ def run_daily_story(dry=False, force=False, lookback_hours=72, preview_path=None
     return post_daily_story(p["title"], u, image_url=img, content=p.get("content"), dry=dry, force=force, preview_path=preview_path)
 
 
-def run_auto(dry=False, force=False, mode="auto", lookback_hours=48, max_per_run=1, preview_path=None):
+def run_auto(dry=False, force=False, mode="auto", lookback_hours=120, max_per_run=1, preview_path=None):
     # Always check & publish the 1-per-day Facebook Page Story automatically (Samsung priority)
     try:
-        run_daily_story(dry=dry, force=False, lookback_hours=72)
+        run_daily_story(dry=dry, force=False, lookback_hours=120)
     except Exception as ex:
         print(f"Facebook Daily Story warning: {ex}")
 
@@ -1413,7 +1444,7 @@ def run_auto(dry=False, force=False, mode="auto", lookback_hours=48, max_per_run
             res = f.api("GET", f"/blogs/{blog_id}/posts", tok, {
                 "status": "live",
                 "startDate": since,
-                "maxResults": 25,
+                "maxResults": 40,
                 "fetchBodies": "true",
                 "fetchImages": "true"
             })
