@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة Oppo A7 Pro: المواصفات الشاملة، السعر، المميزات والعيوب",
-   "cand_title": "Oppo A7 Pro",
-   "url": "https://www.gsmarena.com/oppo_a7_pro_5g-14928.php",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-a7-pro-review-specs.html",
-   "at": "2026-11-15T01:47:16+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "اوبو"
-  },
-  {
    "title": "There's A Hidden Way You Can Check Which Services Are Running On Your Android Phone - Engadget",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZGYtaWFsMkRiX05SWnRPY0xQWjR1TmhXcmRiNXBmLVRxdy1IM1hUQl95WFg4SmJqalRlVm1WRmxqaG5rQXdWRHo5QmVuWUNDVUN5b091RVhIUWZHZHRNM245NmxqUW42VURDY3pMMW1qQzdiR0JhREdqek5zampXZjd0U0FINjRkbU1wdVlNYWhhbW94?oc=5",
    "at": "2026-11-15",
@@ -3200,6 +3190,16 @@
    "at": "2026-11-23",
    "ok": false,
    "reason": "Recent story overlap on key terms ['punjab', 'manifesto', 'numbers', 'seek']"
+  },
+  {
+   "title": "Motorola Razr Flex 2027 Leaks With Book-Style Design, 165Hz Display - NepaliTelecom",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GNkJLWkdOU19FRE81dW9wWG9TRm8xdExLamppNk5QbjRSVTJhUDAwY3ZkY25yTDU3cjN2NHJqN0pPdUtDWlNTNXBXbk5Ib1gtM2F2OFJsVFNDN1RRVHNvejlwV0ZzekhhakhqWHR2SzZCUUlZaWtZ?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (557 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
   }
  ]
 }
