@@ -1,32 +1,6 @@
 {
  "done": [
   {
-   "title": "NordVPN on Windows, Mac, Android and iPhone: Which Protections Do You Get in 2026? - Yonkers Times",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN1pKTF9kX0xrZU1OZ3JtdFBEMmg2RHJnZHMxdDJvSjBsQ0U3bXotS21paHhsVFJ4S0x3eUo5YVJEQjJORXpxWGZ0ZHh2NGJYdHVhRThFbzkwX2JKTUJuRGN3SDEzaURFcGNMb3k4bnhlMkFhQUs4ZjY5aDdxSWlkckhzR2hFOFJRZ1JRTDgtbzlLeEV2RnJEVVduY2NKdnVyejVRSjRTVQ?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
-   "title": "These overlooked storage hogs could be taking up gigabytes on your phone - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRmo2V21qQUltdVJydnVYa2d3QU5rR0dzVll6UkNuczdPdkVpQUFqR2QxdzV4MFpNZFRnRVdrSHByMHQ1TmQ0TmNUazlTc09qaU5wYUxIaXAzZTgwU3JnMEs2cTQwNUloZ2RITWhoUGd1X0kwLVhFbXQ2MC15b2p1ZS1iYVRvbDQzNTcw?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (627 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،",
-   "cand_title": "Oppo Reno17 Pro (China)",
-   "url": "https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-reno17-pro-china-review.html",
-   "at": "2026-11-16T00:17:03+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "اوبو"
-  },
-  {
    "title": "Oppo Reno17 (China) vs Oppo A7 Pro",
    "url": "https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php||https://www.gsmarena.com/oppo_a7_pro_5g-14928.php",
    "at": "2026-11-16",
@@ -3204,6 +3178,29 @@
    "ok": true,
    "kind": "news",
    "brand": "اوبو"
+  },
+  {
+   "title": "There and back again: Galaxy Z Fold 8 battery life is fit for The Lord of the Rings movie marathons",
+   "url": "https://www.sammobile.com/news/galaxy-z-fold-8-battery-life-lord-of-the-rings-movie-marathons/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
+  },
+  {
+   "title": "Samsung Galaxy Fit 4 leak suggests a price increase and three colors",
+   "url": "https://www.androidauthority.com/samsung-galaxy-fit-4-eu-prices-colors-leak-3738249/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'fit 4' already covered in: مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع"
+  },
+  {
+   "title": "Leak points to €79.90 price for Samsung Galaxy Fit4 - Mezha.net",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uWTRieDlrYm8xeTl1MWh5Zno0cWxjNFFnZzVPR2FOOGtWVXFrR2VqSzUyS1dQc0IzLWxPelA4ZXhJUDlxQ3ZvS2hNLTVZeGlXdFEtZkJteGVnU3Z0VFBsXy15RGd3cmNGeTNrTEFOYTYyQjdCUEIzeW1JQTZTQQ?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (668 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
