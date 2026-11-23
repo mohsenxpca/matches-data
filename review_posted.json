@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "Gaming performance evolution: iPhone 15 Pro to iPhone 18 Pro - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYllpc3VIQ1g0UjFmTWF5U2ZaUllveWpyemFDR2ZfMTl1RmFvUUhsaTFtN1p0amYyRGJHS196emd2aS1WbzIxTkI0T1NUdDRSOHBDZHVMc3FNNktPR0tDMmU1Vk9ZWFFhYWlNZmdKbnBYSUU0cVo1WG85YnRiQjFIZVNEd09SQ3prV212RU9kd05uazMyNE4xQm1WRTRiRExn0gGcAUFVX3lxTE85TU1TcWFvSE9od1lPTE81VWltdThZQzR0dVA3RzNCU1ctYVZUaDh1V2VxNHFfbDRVLW5CdlBsQjNtdFFzSDNFMVYzZjVVY1EycnJFb1ZVRzVzZ3ZJWWxleDFvOC0wcV9SZ1FfNUpsS1EtNjV6azVoeWc1NHhWVU84bG9VWUdCQlc3YmZDamJOUUlOT003Sm9sZDJDRw?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['iphone', 'performance', 'gaming', 'evolution']"
-  },
-  {
-   "title": "OPPO Find X10 Series: Compare Specs, Prices & Ultra News - ThinBorne",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcGo0dlJ3dGVOVDhWR3I5RUY2Vmp4X0dBaWduVEVxQXV5ZXJjQnFfUFg0X2JnRlRGUWFWUDF4SndOV0I5S0VLUEM5WDZBNEpNSURidGVhSTg4TF9kOVI1RnNNSGZNR2lpLXYwS29lT0QxdG1yUmF5Y01GNFdMbVFzd0tOdWc5V1RJRk5TSE9vUUpiYVJZQzU0?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['thinborne', 'compare', 'find', 'ultra']"
-  },
-  {
-   "title": "Huawei Mate X8 launch date set for November 24",
-   "url": "https://www.gizmochina.com/2026/11/16/huawei-mate-x8-launch-date-set-for-november-24/",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
-  },
-  {
    "title": "تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً",
    "cand_title": "Huawei OSTA O1 Pro leaks in real-life photos ahead of launch",
    "url": "https://www.gizmochina.com/2026/11/16/huawei-osta-o1-pro-leaks-in-real-life-photos-ahead-of-launch/",
@@ -3200,6 +3179,30 @@
   {
    "title": "Xiaomi 19 series tipped with wider 50MP ultrawide camera with 114-degree field of view",
    "url": "https://www.gizmochina.com/2026/11/23/xiaomi-19-series-tipped-with-wider-50mp-ultrawide-camera-with-114-degree-field-of-view/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Huawei Mate 90 Air vs Honor 700S",
+   "url": "https://www.gsmarena.com/huawei_mate_90_air_5g-15099.php||https://www.gsmarena.com/honor_700s_5g-15085.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'mate 90 air' already covered in: هواوي Mate 90 Air قادم بتصميم فائق النحافة: كل ما نعرفه عن المفاجأة"
+  },
+  {
+   "title": "vivo Y21s vs Samsung Galaxy A38",
+   "url": "https://www.gsmarena.com/vivo_y21s_5g-15096.php||https://www.gsmarena.com/samsung_galaxy_a38_5g-15095.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'a38' already covered in: سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة"
+  },
+  {
+   "title": "Motorola Razr Flex gets certified, wireless charging speed revealed",
+   "url": "https://www.gsmarena.com/motorola_razr_flex_gets_certified_wireless_charging_speed_revealed-news-75592.php",
    "at": "2026-11-23",
    "ok": false,
    "reason": [
