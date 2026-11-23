@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "I used Pixel 10's Magic Cue and Galaxy's Now Nudge side by side; only one showed up when I needed it - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQam8yZGRRcWlZbU1kVllneUlyN3R1TDJ6cU5qXy1zcmtTZDVkcDJiQXY4UDcwemljOVRZanV5WGIxLWs1ZjRPMnZRbmpxV1I4cHZuSkItenNPSHlWdmZwRDJ0R0dINWg5ZXMwbW50VVF0SFhGaHR2YWdLRVF4NDJJcVJOSjNmcU5oWlA0MnY1bGNKN3otck9ZUUV4R3dWVG5SaHF6RFhqWENXenpOWWg5TEttV0VsWEVPaWRv?oc=5",
-   "at": "2026-11-15",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (522 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "I’ve spent three weeks with a Googlebook — is it better than my Android phone with desktop mode? - Tom's Guide",
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOX3pFaEZXOGJHQm40S3JuWVJRbmpGb3hGWWo0SWJSclJ5RHlQNGNSM3E1cEVpT09ocFBRbGR4SDhtR1Z6dFpXSmgwSjNZT05NV1NPaXZBcmpvLXItRVZQOEJTWG10VXcxTDRla250YmM0WE1nbktzVm0tUDNRMThUd1pnOTF4VVFidHZBdEF4QzdsczU4bVkzT28wZl8xRnFvY1UwRm1yakNIeTY3RlA3aVFzd0pTRHN4WFJxZ1NhYXo5Szl2c09DdHZPV2FZMmM4VUE?oc=5",
    "at": "2026-11-15",
@@ -3202,6 +3193,13 @@
    "at": "2026-11-23",
    "ok": false,
    "reason": "Phone 'harmonyos 7' already covered in: هواوي تفاجئ السوق بهاتف OSTA O1 Pro ونظام HarmonyOS 7"
+  },
+  {
+   "title": "The rumored vivo I2606 is powered by the Snapdragon 8s Gen 4 - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRmhLQ01jNHhnX0I5MVB4TlA2UEFaVGk2NzhRQ01sam10YVB4RkNNUEEwdl9nR2NvQWpWaWNjYlZRNzJwZjVCTmRaVHgxcHhOR2ZsVlQ1VlFZbjUxeEZ3WkVrWUdpMlBoRm5XV0E1MWQyeHI0OUo5UVFLMjFfc3RIRk9scU9TbTczTE5TZ2syM0lmNEhMa2FsYXFkNDdlelM5RFHSAZ4BQVVfeXFMTmR5azNTdy1EMWZ2dm5PYXpLcUxpcVNPb2dCTnVFWkoxN08xd2pxRHNnSWJoV1lnaV9udG9EZkJpaGc4cUx5Q0NkN3pFUnhaa1VVQTNCVC14MmxoOHJTT0xFZTdYRG11LWxwOHFVZm5vRGNPX0o2a0ZZVVdvZ3dEajR3OEE0TnNIeWpzRzVjMGRTeXRzMzZvTDc3QXFIQnc?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['i2606', 'powered', 'snapdragon']"
   }
  ]
 }
