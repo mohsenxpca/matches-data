@@ -1,11 +1,6 @@
 {
  "done": [
   {
-   "q": "كهرباء",
-   "at": "2026-10-29",
-   "ok": false
-  },
-  {
    "q": "england vs sri lanka",
    "at": "2026-10-29",
    "ok": false,
@@ -2313,6 +2308,11 @@
    "at": "2026-11-23",
    "ok": false,
    "why": "no source text"
+  },
+  {
+   "q": "gold price",
+   "at": "2026-11-23",
+   "ok": false
   }
  ]
 }
