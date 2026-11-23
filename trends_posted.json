@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "q": "المغرب اليوم",
-   "at": "2026-10-29",
-   "ok": true,
-   "url": "https://www.egyptaway.com/2026/10/prayer-times-egypt-winter-time.html",
-   "title": "مواقيت الصلاة اليوم بعد التوقيت الشتوي"
-  },
-  {
    "q": "موعد اذان الفجر",
    "at": "2026-10-30",
    "ok": false
@@ -2309,6 +2302,12 @@
   },
   {
    "q": "فيرمين لوبيز",
+   "at": "2026-11-23",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "نخبة اسيا",
    "at": "2026-11-23",
    "ok": false,
    "why": "banned topic"
