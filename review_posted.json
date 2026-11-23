@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "OPPO Reno 17, Reno 17 Pro complete specs leak ahead of China launch - 91Mobiles",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYnRQRExyXzVaZF9WTkVjNUZ6ODI1WDlaTTdndFVUZjFrWVpGOURFWnJYYW84NzRiZ19WbEFRZVM2S0s3QjA0TkRodU5lOFhONktDXzZINmJPQ0dPQlJ0cDAycGJFLUIyYVZYWDMzSUprcWhxV3A2UUZJeEpsc2NIeDluV0Iyd9IBiwFBVV95cUxNWGxVdWFtZXI4TWlMSXFvSkhpRU9lNmpYblJWR3R4eHdOSVB2RGtYU2ljdWdHWkpqOTQ0R0NSbDJtLXRDOWpKZGtWZ0kxLTFTb3g1MFpiR3VjTmtFZzh1ajAzVXVWV2lVUnloQjRpcGMyXzA1NU1UdFppQjFVcWRPVTNxbENDV3dBTWsw?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['ahead', 'reno', 'complete']"
-  },
-  {
    "title": "حقيقة هاتف سامسونج القابل للطي والقابل للسحب Galaxy Z Roll",
    "cand_title": "Galaxy Z Roll Leaks: 16:9 to 21:9, 0 Samsung Confirms - shattered.io",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYkxkenRRVFR4WnJfUlVhNWRCTmVuX2pLQnYxWTlkWDAwQXFBWWcwTkh1RmNoSmItanE1Xy0yeC1OWkZ3ZGk5dTBKemp0ZTNIeV9LYkNDaVRsYjREeW9wYkNXcFNJQmNUeEVReXM0VTVIckEzbU9FYTdnbEZ1OHo3dnlQT2Y2NTg1bENiMVJ3T0Q1WmFvWFE?oc=5",
@@ -3207,6 +3200,16 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (0 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "Honor Magic9 Lite+ tipped to pack a 9,530mAh battery in Europe, more specs surface",
+   "url": "https://www.gsmarena.com/honor_magic9_lite_tipped_to_pack_a_9530mah_battery_in_europe_more_specs_surface-news-75595.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
   }
