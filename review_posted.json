@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "title": "Honor Choice T10 - Full phone specifications - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGbHo2N2xUSlp4MEZEc0F5Ul9abHpWR0oyTjkzand4S1h3N1c0UjQ5LThZeWtjcndudUQ0MUpjUExRWTZlR3VGcDJTVXdtWVYydWlqV3l2TXZOWEV4b09KUw?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 't10' already covered in: مراجعة شاملة لهاتف Honor Choice T10: المواصفات، الأداء، السعر،"
-  },
-  {
-   "title": "This launcher let me play Steam games on my Android phone, no streaming required - How-To Geek",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTEcyaDBwZENDWXltSmNEZ21nXzkzNk0xTWdtaFhDeDh2TGZmWUdqS29iTTNMQi13ZldubTU0V0VTNmZJY1ZEUlFFdk5NbHZieXdDOUwwTW1pUGJvX1lSc3ZFX21pRHBIQkRObFlhNGJrS081LXdOT1RpTDdBLTFxOVdYYWlGNndkclgwWlJhTEc4aUlKVTU0YVp4dw?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (554 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Gaming performance evolution: iPhone 15 Pro to iPhone 18 Pro - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYllpc3VIQ1g0UjFmTWF5U2ZaUllveWpyemFDR2ZfMTl1RmFvUUhsaTFtN1p0amYyRGJHS196emd2aS1WbzIxTkI0T1NUdDRSOHBDZHVMc3FNNktPR0tDMmU1Vk9ZWFFhYWlNZmdKbnBYSUU0cVo1WG85YnRiQjFIZVNEd09SQ3prV212RU9kd05uazMyNE4xQm1WRTRiRExn0gGcAUFVX3lxTE85TU1TcWFvSE9od1lPTE81VWltdThZQzR0dVA3RzNCU1ctYVZUaDh1V2VxNHFfbDRVLW5CdlBsQjNtdFFzSDNFMVYzZjVVY1EycnJFb1ZVRzVzZ3ZJWWxleDFvOC0wcV9SZ1FfNUpsS1EtNjV6azVoeWc1NHhWVU84bG9VWUdCQlc3YmZDamJOUUlOT003Sm9sZDJDRw?oc=5",
    "at": "2026-11-16",
@@ -3203,6 +3187,23 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (0 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
+   ]
+  },
+  {
+   "title": "vivo Y05s vs Huawei Osta O1 Pro",
+   "url": "https://www.gsmarena.com/vivo_y05s-15098.php||https://www.gsmarena.com/huawei_osta_o1_pro-15088.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'o1 pro' already covered in: هواوي تفاجئ السوق بهاتف OSTA O1 Pro ونظام HarmonyOS 7"
+  },
+  {
+   "title": "Xiaomi 19 series tipped with wider 50MP ultrawide camera with 114-degree field of view",
+   "url": "https://www.gizmochina.com/2026/11/23/xiaomi-19-series-tipped-with-wider-50mp-ultrawide-camera-with-114-degree-field-of-view/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
   }
