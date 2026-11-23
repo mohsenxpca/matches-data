@@ -1,36 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Reno17 Pro (China) vs Honor 700S",
-   "url": "https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php||https://www.gsmarena.com/honor_700s_5g-15085.php",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone '700s' already covered in: مراجعة Honor 700S: وحش الفئة المتوسطة بمواصفات الفلاجشيب"
-  },
-  {
-   "title": "Gaming performance evolution: iPhone 15 Pro to iPhone 18 Pro",
-   "url": "https://www.gsmarena.com/gaming_performance_evolution_iphone_15_pro_to_iphone_18_pro-news-75486.php",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'iphone 18 pro' already covered in: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
-   "title": "Tilta Khronos Oppo Find X10 Pro Max Creator Kit hands-on",
-   "url": "https://www.gsmarena.com/tilta_khronos_oppo_find_x10_pro_max_creator_kit_handson-news-75476.php",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'x10 pro max' already covered in: مراجعة OPPO Find X10 Pro Max 2026: ثلاث كاميرات 200 ميجا وبطارية 8000"
-  },
-  {
-   "title": "Weekly poll: how long do you plan to keep your current phone?",
-   "url": "https://www.gsmarena.com/weekly_poll_how_long_do_you_plan_to_keep_your_current_phone-news-75477.php",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (560 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Weekly poll: how long do you plan to keep your current phone? - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSmNrTWsxMmxabHg3WEd6M2t4eUZXamw0ajFGQ096NzJpS1ZZUEtLeXk2M1lZaFRLSWg2T0IwYjlTQnlaNmVXOXBhQXVqMlVlc3hnTXNvWGZJSFNSck04OWp3dVNrSkJCb016OGxXUU9hWTk2UEJ3WTczSjRwZjEzb0ZlcWxqYW5YMmJIYWlTMld2Tm9xXzBjMGdUM0ladGxW?oc=5",
    "at": "2026-11-16",
@@ -3190,6 +3160,34 @@
    "at": "2026-11-23",
    "ok": false,
    "reason": "Model code [17] with variants set() found in review: مراجعة شاملة لهاتف Xiaomi 17 Ultra: وحش التصوير بمعالج خارق"
+  },
+  {
+   "title": "Honor 700S vs Huawei Osta O1 Pro",
+   "url": "https://www.gsmarena.com/honor_700s_5g-15085.php||https://www.gsmarena.com/huawei_osta_o1_pro-15088.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'o1 pro' already covered in: هواوي تفاجئ السوق بهاتف OSTA O1 Pro ونظام HarmonyOS 7"
+  },
+  {
+   "title": "itel City 300 vs Xiaomi 18 Pro Max",
+   "url": "https://www.gsmarena.com/itel_city_300_5g-15092.php||https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'city 300' already covered in: مراجعة itel City 300 الشاملة: مواصفات حقيقية، أداء المعالج، السعر،"
+  },
+  {
+   "title": "Honor 700S",
+   "url": "https://www.gsmarena.com/honor_700s_5g-15085.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Model code [700s] with variants set() found in review: مراجعة Honor 700S: وحش الفئة المتوسطة بمواصفات الفلاجشيب"
+  },
+  {
+   "title": "Oppo Find X9 Ultra",
+   "url": "https://www.gsmarena.com/oppo_find_x9_ultra-14548.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Model code [x9] with variants {'ultra'} found in review: مراجعة Oppo Find X9 Ultra: العملاق الجديد يغزو الأسواق العالمية"
   }
  ]
 }
