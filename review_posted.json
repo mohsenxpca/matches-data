@@ -1,45 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei Mate X8 RAM and storage options revealed as reservations open",
-   "url": "https://www.gsmarena.com/huawei_mate_x8_ram_and_storage_options_revealed_as_reservations_open-news-75490.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['storage', 'options', 'mate', 'revealed']"
-  },
-  {
-   "title": "Oppo Reno17 and Reno17 Pro are now official and they're quite familiar",
-   "url": "https://www.gsmarena.com/oppo_reno17_and_reno17_pro_are_now_official_and_theyre_quite_familiar-news-75492.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'reno17 pro' already covered in: مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،"
-  },
-  {
-   "title": "Samsung increases prices of ten Galaxy A, F, M series phones in India",
-   "url": "https://www.sammobile.com/news/samsung-increases-prices-ten-galaxy-a-f-m-series-phones-india/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (608 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Android Fast Switch looks like Google’s answer to iPhone Handoff",
-   "url": "https://www.androidauthority.com/android-fast-switch-handoff-3735737/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (589 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Linux smartphone with 8-core RISC-V chip and 8 GB RAM goes official with hefty price tag - Notebookcheck",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVTFGZC1KNTZkWVU3ZnFmcmcyTkROdWd2dlZieHpVaWFlbmttdmZweGl3aTVIWXM1WG5IS3dDaUtNYVh4azhlZk53SzJLSXdfclh4ckNQeHhGNmRqNnFIZGNTQ09qdGt3TDduWVpYamJZaWJMZmU1bmdXNGlGUUpRSmp2bHZFbnc1c3hTZVFQcG5oTWVCRUNUdzV0TDJKdXJuWjhWem5QbHd5SEg1YTVuYjFHd1FDWEN0b2RqZEdRWC13RWRCRmZQLUxsSWpHUQ?oc=5",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Model code [8] with variants set() found in review: مراجعة OnePlus 16 قبل الإطلاق: Snapdragon 8 Elite Extreme وشاشة 185Hz"
-  },
-  {
    "title": "ENHYPEN's JUNGWON, JAKE & SUNGHOON shine as vivo Friends for V80 smartphone launch - Bandwagon",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRDNpdFRiLXdfclZVUFlpNHk4cGNidFhDZXhZcDM4SnJoQ25EUVVldUZqTzdIYU9GNWFzUUpzUEVfUURBQjc5VG9lQ1c0eDlwWmN2ZnpjQzZBUmFJQUV6VWxGZWhJTHJIQnFobllHVkFpVUc0bmV2R18tV3B0dmNSV0pfRDY0bUtOSEZfN3JnNExLZjZqNGp3eWVRR2xYOEdDdUNhSDZnMG5jekdmVmx1dVFEejJKUQ?oc=5",
    "at": "2026-11-17",
@@ -3201,6 +3162,45 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Samsung details the tech behind the Galaxy SmartTag3's longer finding range",
+   "url": "https://www.gsmarena.com/samsung_details_the_tech_behind_the_galaxy_smarttag3s_longer_finding_range-news-75596.php",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'smarttag3' already covered in: Galaxy SmartTag3 رسميًا.. تصميم أصغر، دعم iOS لأول مرة، وبطارية تدوم حتى 790 يومًا"
+  },
+  {
+   "title": "Here's when the vivo S70 series will become official - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ1FQYmtZUnNqakNKbVJZWVZqZ3NqV0k3QXlZTlk1X09uRzJLRHFTWTBlNF9fbjNqdDNwdGZ3WDhlUVFSaXhaR2tGaVRYQnhIdW05VXFtRFEtbzdQaDdfLUc0WThOVGRNZm9wQklULWVINlB5cXhiMzFEWFVWTkFNQ3NhSEdKUFY4VEhlUlJ2X202Z1lkQWfSAZIBQVVfeXFMTzNGd3JUd1NYbzUzaGZLeWI1MVhmQ25UWUlhTXJ2c1lSSjV0YlRlaDM5ZlZmVW5RQXJLWVVGQ0djTnhvSEJYWGhlQjZ4bGd6VjVNaVpFTU5Gc3BzbnQxZ21YUDVhNjFTVExsLXhXMU1jcUNWWkdtNnhaMzN4WTlwYUtQY0ZxZnhRZkF1ckxOdGxqTmc?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 's70' already covered in: مراجعة هاتف vivo S70: المواصفات الكاملة والتحليل الشامل للكاميرات"
+  },
+  {
+   "title": "GrapheneOS Accuses Google of Pressuring Android Phone Makers Over GMS Licensing - Technology Org",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV0VCV2RnY1l0eEs3eW5WSWRJSE1DOFYzOGJiUDFIRlRFcGdnemMtdFd2WDNOZjlYZkt3TXRtVS0zX3JSZkJxRm0wNGRoajBZVVpvYjN0Z1R0Y3BmNExUTVlSdmR4UlB0b25YZTVINVNHODdsRkRCVGM5WUZhOGZnVXBXbUNIeF9yelJKSEJPZTRtRy1GdkxHLUhIUG1oenpxeFVEUQ?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['pressuring', 'makers', 'grapheneos']"
+  },
+  {
+   "title": "Snag this 25% off Nothing Phone 3 Black Friday deal before it's gone - Android Central",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOX2x4ZnIyakRfRUxGX0RjaFBScDA3VDlrMHZLYkRicjVaSGxGd1NlWjFjbVJVXzJ1dUprYzdCYktEc3ZMaUltNlQ5THdjV1BZeU50LWtWNEJhWmlJZDUtc3VFSUlDNkh3MWZFdHlGT1RIVHJxWHZrRUpHUGExREh1Y2pITTI1cU4wZEVtbEFmRjRVUWJibWVQLVJnQmJzaVQxc2E2Yzdpdk54ZTl6OTVIZVRGbFRVdURtdUtOTDZPalJnUFYyanptMQ?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['black', 'friday', 'central']"
+  },
+  {
+   "title": "مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف",
+   "cand_title": "Huawei Mate 90 Air",
+   "url": "https://www.gsmarena.com/huawei_mate_90_air_5g-15099.php",
+   "raw_photo": "https://fdn2.gsmarena.com/vv/pics/huawei/huawei-mate-90-air-0.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/huawei-mate-90-air-review-specs.html",
+   "at": "2026-11-24T01:19:02+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "هواوي"
   }
  ]
 }
