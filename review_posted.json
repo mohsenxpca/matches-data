@@ -1,27 +1,6 @@
 {
  "done": [
   {
-   "title": "Weekly poll: how long do you plan to keep your current phone? - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSmNrTWsxMmxabHg3WEd6M2t4eUZXamw0ajFGQ096NzJpS1ZZUEtLeXk2M1lZaFRLSWg2T0IwYjlTQnlaNmVXOXBhQXVqMlVlc3hnTXNvWGZJSFNSck04OWp3dVNrSkJCb016OGxXUU9hWTk2UEJ3WTczSjRwZjEzb0ZlcWxqYW5YMmJIYWlTMld2Tm9xXzBjMGdUM0ladGxW?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['your', 'current', 'keep', 'long']"
-  },
-  {
-   "title": "Tilta Khronos Oppo Find X10 Pro Max Creator Kit hands-on - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSmp3WDJRUUg3Z3RGTG9FdUNxSWkwS05YYjROX2lEZER4RU5yZ244cElCa044Y1ZxdWQtNmJPWmJGckpJN0ZCZW1JQzZ4QUZES1VoNjYycDFoelMyQmtkbVFVV0FQR1BKbFN6a1BvWEx4bTBkMkdhVjBIbW1FXzRjQkxlelEzRURLSXhsSlFXVmI5OFNxTnpIUUZSSdIBlwFBVV95cUxONWVETTZCSE4wRlB0cTVHbFE4Y0dXeEp3Sjd3Z2hQMjl0MUVWMlpLMUNNQXhKV0NMZHRVWnM2bG1XS3pTdlZFcnBJdjlFTnBXelZGVXFBRmk1X0pFNFdiWndRSThzUXdwMFMtMUxWbEFPUTFyUDNNdmZBd2lxN19uV0JDckhkRHk3UnA0TTNFczFYWjBXUjJN?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['creator', 'find', 'khronos', 'tilta']"
-  },
-  {
-   "title": "Honor Magic10 series might feature a 200MP primary camera with LOFIC tech - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeVlPYTFTQzdYZk5sUWh6ejhiZlIzY2pTT0pBRjFaNFI5QXRwRFU4UDZKMmhUbVhnUW54Z1RwS3RoSXVwV2laZzhDUF9NUnQzYVdsYmhUQXl2bWNzZFAxX1pzZ1hhMFJFeTNyUWU2MjJubkVSMHUxc3N2WldPamlLcUlKTTRvRDRzdUZLb09LdXowRHZqTGgwUWN1UmV3MElodU1RTkQ3UDlaWlR30gGoAUFVX3lxTFBXMlBjOTNJVmdmZHFIWnA5UW4tX1EzQUxzUHZlcjJ5Zm9ubXlMUzlfd2Y0U3RZWFZtTFFwQ0lHUUpFQnI5bll1Rmh0Mzk5MnBuMDRpa1ZiQlBIdTBJUEVINlFWTzJZX2NIUExRN0QyVFVRcGtXMUhFNEdyeWV6ckJsT0dLaGprSGtMNXRGRkVfM3JlTDhIeGozMURhQm5vNmt6Y0txeFRFMg?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['might', 'primary', 'lofic', 'magic10']"
-  },
-  {
    "title": "Samsung Galaxy S26 - Full phone specifications - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JeDZyZ3VreGJkdXhzQUFZazQ1MlRWcHUxOGpVQWRubkR1WFYzTzZGV2JPd1FDVkYxeXZkdTEtcG55QUlEUTFkRnZhOFZ3SnZyZjFyWk5uNU1LeDNNdXdvN2lfQ18?oc=5",
    "at": "2026-11-16",
@@ -3188,6 +3167,31 @@
    "at": "2026-11-23",
    "ok": false,
    "reason": "Model code [x9] with variants {'ultra'} found in review: مراجعة Oppo Find X9 Ultra: العملاق الجديد يغزو الأسواق العالمية"
+  },
+  {
+   "title": "Honor 700S vs itel City 300",
+   "url": "https://www.gsmarena.com/honor_700s_5g-15085.php||https://www.gsmarena.com/itel_city_300_5g-15092.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'city 300' already covered in: مراجعة itel City 300 الشاملة: مواصفات حقيقية، أداء المعالج، السعر،"
+  },
+  {
+   "title": "Samsung mentions Galaxy Fit 4 publicaly for the first time",
+   "url": "https://www.sammobile.com/news/samsung-officially-mentions-galaxy-fit-4-first-time/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'fit 4' already covered in: مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع"
+  },
+  {
+   "title": "هاتف OpenAI القادم يهز عرش سامسونج وجالاكسي",
+   "cand_title": "OpenAI’s smartphone could challenge Samsung Galaxy phones",
+   "url": "https://www.sammobile.com/news/openai-smartphone-challenge-samsung-galaxy-phones/",
+   "raw_photo": "https://www.sammobile.com/wp-content/uploads/2026/02/Galaxy-S26-Ultra-colors-2.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/openais-smartphone-could-challenge.html",
+   "at": "2026-11-23T10:51:24+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
