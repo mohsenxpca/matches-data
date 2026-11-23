@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.vietnam.vn/ar/truc-tieptruc-tiep-oxford-city-vs-leicester-doi-hinh-xuat-phat",
-   "t": "مباراة مباشرة بين أكسفورد سيتي وليستر: التشكيلات الأساسية",
-   "title": "موعد نهائي أكسفورد سيتي وليستر سيتي والقنوات الناقلة",
-   "url": "https://www.egyptaway.com/2026/11/oxford-city-vs-leicester-city-final.html",
-   "at": "2026-11-06T22:38:26.584410+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://enfoquenoticias.com.mx/noticias/fritz-sera-el-rival-de-alcaraz",
    "t": "Fritz será el rival de Alcaraz",
    "at": "2026-11-06",
@@ -3399,6 +3390,16 @@
    "url": "https://www.egyptaway.com/2026/11/signal-blocks-screenshots-iphone-siri.html",
    "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/201612200258185818.jpg&w=1200&output=webp&q=80",
    "at": "2026-11-23T05:16:34.863447+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/23/الاستخبارات-الأمريكية-تحذر-من-موجة-أعطال-تكنولوجية-جديدة/7629405",
+   "t": "الاستخبارات الأمريكية تحذر من موجة أعطال تكنولوجية جديدة",
+   "title": "تحذير أمريكي من موجة أعطال تكنولوجية جديدة: ما القصة؟",
+   "url": "https://www.egyptaway.com/2026/11/us-intelligence-tech-outage-warning.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/20260522075802582_37.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-24T00:05:01.976253+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
