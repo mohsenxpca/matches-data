@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "UPDATE: Polk Co. Sheriff’s Department phone lines back up - Local 3 News",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNalpfZzc5a21qTnlUVnN4aGNLSVI0b3lDZU9oUjFmWnNJYnpobGR2cUhTT0F0dGVNR3hicmFWN2xXUkZ3MlItMFFHRldxUTIxZnhqb21MeEZvN2p4VGZCR3BPRWhOa3czMmhWQnE4ZzBNS1owTHo1Qk9oSEtCYW4ya3Q2dVFYUjEyckJNVk8zRWY0SnVHMUEtOTFaSzJkR3FZc3dmZTJsaEVyQS1jSEg4aVROalVrem9mb0kwT3lhS0xfTWdDUG9VVGlZajNkRmxnbzh5VGcydzdFQlE?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
    "title": "NordVPN on Windows, Mac, Android and iPhone: Which Protections Do You Get in 2026? - Yonkers Times",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN1pKTF9kX0xrZU1OZ3JtdFBEMmg2RHJnZHMxdDJvSjBsQ0U3bXotS21paHhsVFJ4S0x3eUo5YVJEQjJORXpxWGZ0ZHh2NGJYdHVhRThFbzkwX2JKTUJuRGN3SDEzaURFcGNMb3k4bnhlMkFhQUs4ZjY5aDdxSWlkckhzR2hFOFJRZ1JRTDgtbzlLeEV2RnJEVVduY2NKdnVyejVRSjRTVQ?oc=5",
    "at": "2026-11-16",
@@ -3200,6 +3193,17 @@
    "reason": [
     "طول المقال قصير (640 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "تفاصيل تحديث ColorOS 17 وأبرز مزايا الكاميرا والصور الجديدة",
+   "cand_title": "Oppo rolls out ColorOS 17 November update in India, Flexible Image Export and OSee added",
+   "url": "https://www.gizmochina.com/2026/11/23/oppo-rolls-out-coloros-17-november-update-in-india-flexible-image-export-and-osee-added/",
+   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/11/featured-1200x675-13.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-coloros-17-november-update.html",
+   "at": "2026-11-23T14:21:27+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اوبو"
   }
  ]
 }
