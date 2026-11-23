@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "LG's Signage Manager app lets store staff run e-paper signs from a phone - MarketScale",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPa2c2eWs1b1Y5UE1lWGdqS056VTAtLU9mWEpwcWVlU3Y3M28xQTdTOHBwa1lIbjZOd0E4Y1Z6cm43TlAyMXN0UGs4UEQ4b2phYXQ3MmJFUGRjZkV4Y2pkWGdsR0hkejBYYUtQWWRWWE9OVko4OEJIXzgzUGkwdzczRHpHMTJBYXdVOU5VSG5ETG9DVzVQbS1DeGVQX2FIMlBxcUhCemN6NXJENFBhenVDTWQ0NDh4Mzh0?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
    "title": "Huawei shows Mate X8 foldable but keeps specs and price secret - Tbreak UAE",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82Nm5fbWhoelVxUDk0TnVHd3FaZHVjV19iXzVuNlQzazktaWloYTM1dE9LTkZxUGliOXBkXzdjNHREMzluOE5PTTMtZHhoVWRRemZBLWtLeXJkX01mQjBR?oc=5",
    "at": "2026-11-16",
@@ -3194,6 +3187,17 @@
    "at": "2026-11-23",
    "ok": false,
    "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "مزايا هواتف الزمن الجميل التي نفتقدها بشدة اليوم",
+   "cand_title": "5 vintage smartphone features I didn’t realize I missed - Pocket-lint",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB1ejZtQlpDM2h6YUVVb0ZxWDkzSHVYWWI4RDZfbEo3Uk9nOU9YaGt3bVgwekxJRTJ4LVY1VF9PMS1NQ2FiZVZkY092V3VpbU1CaUwtRFh2R3NSYnF1dnIxdUk1VVpOUU9KdFJMQXF5S1Y2cHZlLWJLbTlIci1iQQ?oc=5",
+   "raw_photo": "https://static0.pocketlintimages.com/wordpress/wp-content/uploads/wm/2024/05/repurpose-old-android-phone-4.jpg?w=1600&h=900&fit=crop",
+   "post_url": "https://www.review-mobile.com/2026/11/vintage-smartphone-features-we-miss.html",
+   "at": "2026-11-23T12:51:34+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
