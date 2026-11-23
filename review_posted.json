@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة Oppo Find X9 Ultra: العملاق الجديد يغزو الأسواق العالمية",
-   "cand_title": "Oppo Find X9 Ultra",
-   "url": "https://www.gsmarena.com/oppo_find_x9_ultra-14548.php",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-find-x9-ultra-review.html",
-   "at": "2026-11-15T03:46:32+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "اوبو"
-  },
-  {
-   "title": "Oppo Reno17 Pro (China) vs Oppo Reno17 (China)",
-   "url": "https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php||https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'reno17' already covered in: مراجعة هاتف Oppo Reno17 F 5G: المواصفات، السعر والتقييم الشامل"
-  },
-  {
    "title": "Oppo Reno17 Pro (China) vs Honor 700S",
    "url": "https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php||https://www.gsmarena.com/honor_700s_5g-15085.php",
    "at": "2026-11-16",
@@ -3193,6 +3176,20 @@
    "reason": [
     "طول المقال قصير (622 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "Xiaomi’s new smart blind motor turns regular roller blinds into automated ones",
+   "url": "https://www.gizmochina.com/2026/11/23/xiaomis-new-smart-blind-motor-turns-regular-roller-blinds-into-automated-ones/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Xiaomi 17",
+   "url": "https://www.gsmarena.com/xiaomi_17-14134.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Model code [17] with variants set() found in review: مراجعة شاملة لهاتف Xiaomi 17 Ultra: وحش التصوير بمعالج خارق"
   }
  ]
 }
