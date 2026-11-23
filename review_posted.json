@@ -1,74 +1,6 @@
 {
  "done": [
   {
-   "title": "Meta Muse AI Agent Can Now Make Phone Calls for You - hi-Tech.ua",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BZmF0emlFWnc1ZzdKcnNtVmhLMTMwSDRvaHhocTJWb1E2a25TS2hqeXpSOUtpYjF4X0w4MlNMVkx4U2hIaWl1Um5uM3EyNXVHWnNrelVuVjJqejZfdUZMRVRPdW84enJWX2RTVWJwdDNETXV1X0tKTWJIWDJhMkk?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
-   "title": "Japan's Defense Secrets Leak Through Cheap Phone Location Data Sold Abroad, Probe Finds - BigGo Finance",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sLVlOdzVoWUMxdDhYNWFXdGlWVkdGbnV0SFF0QmUtR0Jremd1SFBuNjZSVlhyekZYR3owVTl2M1lzUWE3S1Fua3QtZTEwa0VtQVVFdmhGLUNidG5Mandzc29KQ3RnMG81RjkyYWNNTnRvQi1xMkE?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
-   "title": "iPhone 18 launch date, expected price, specifications and everything we know so far - India Today",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNd3JmdDlhc1J0TjBJbXV2VTFBQTR0T1pUS0FxQTJlZ3I0N01EUHhrX1FqeGtzNjlWZVJaY3M0ZElKRU5hN0l5aVFMWGVwTDd2T0tUU2kyVmFwV29DSFNXTDZlQnhHcDZ6SXZCbldmeGh5Rjl3VlBNd3g3bzNXVC01eTBFdUhmdXdGU3lOS2ZCOVVvVlllOUdBVnVVRVlpSXY3Nm1mWFkzSW1Pd0ZLWENGU3Y2V3piTEZfQ3dxRU1wX05LTVQwa1ZOU3VvRC1CQ2NKUy1MZjdDMWR6SkZKcENkQ2NB0gHnAUFVX3lxTFBXMnd6alVPNGVCRHJFOWNrMFZPaEg2bnFfTERNWXR0N05LQ2ZVZ0JSZXJyR3p4NDNNX3RjM2pDWEVSWm4yNjJmNWlKNGl4WHFNdGQzXzhaVTN6TXlueXdGeURQSEtrUXBFT1FGU1l0bko1T3YwVkltUDQ1YmJGci1LVTFtQXM3MUdPSDlXdVJXalgzUHZic0pMQ0JxX3lCa0ZMSEIxTWFJM1JGQThyMTdlenp6UU1Nc1JGU0c2MGVJQWZUV3VTOU1JV2lUWkRkSWExWm9YNmQ2OS1UeFE4YjNZN01qaE5OYw?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'iphone 18' already covered in: أبل تباغت الجميع: تسريب هواتف iPhone 18 و Air 2.. هل هذا هو"
-  },
-  {
-   "title": "Google’s Pixel 11 Pro HiLight finally supports WhatsApp message notifications",
-   "url": "https://www.androidauthority.com/pixel-11-pro-hilight-whatsapp-notifications-3735409/",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'pixel 11 pro' already covered in: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
-  },
-  {
-   "title": "HONOR RANKS NO. 1 AMONG ANDROID SMARTPHONE BRANDS IN CHINA AS MAGIC9 SERIES SALES SURPASS 500,000 UNITS - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaFA3Q1ZxY2lTY0RXcDV2M3Vmc1M2aWtxUmpfbjN5ckZpdjJrMDNkUDN5RS1BWmdpMlNuVkY3eW5vMUdQRkJ6akcxSnZSNjh3LXcweG5mV2RNVFNXVHRNZjRnLS0xU0lkc0VjZVZHUnVHQjQzd1VEeFdQZkMwSVhKM0kwYXI0OFlMN2VV?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (688 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "هاتف Honor القادم ببطارية خرافية 13,500 مللي أمبير: هل هذا هو",
-   "cand_title": "Honor’s next smartphone leaks with 7-inch screen, 13,500mAh battery",
-   "url": "https://www.gizmochina.com/2026/11/16/honors-next-smartphone-leaks-with-7-inch-screen-13500mah-battery/",
-   "post_url": "https://www.review-mobile.com/2026/11/honor-new-phone-13500mah-battery-leak.html",
-   "at": "2026-11-16T11:37:02+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هونر"
-  },
-  {
-   "title": "Galaxy Z Fold 8/8 Ultra secure CES 2027 Best Innovation Awards for Samsung",
-   "url": "https://www.sammobile.com/news/galaxy-z-fold-8-and-ultra-secure-ces-2027-best-innovation-awards-for-samsung/",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['best', 'galaxy', 'fold']"
-  },
-  {
-   "title": "Xiaomi 18 Pro Max - Full phone specifications - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHeWtFejNWbGpURVM5U0E4Y3dtYm9hTHhVMkFxaS1XUGJhc0Z2bk43R0JXN0FjdGVQeUVRdlVPcy1iMm1FZU16djRTWkJxazcxbnVvcm80bWZrMm1salByYTlFWVJ0Zw?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro max' already covered in: Xiaomi 18 Pro Max مراجعة سعر ومواصفات أحدث هواتف شاومي الرائدة"
-  },
-  {
-   "title": "Gaming performance evolution: iPhone 15 Pro to iPhone 18 Pro - Reader comments - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DZDVoTmhUTDFqLTJYYWM2VzB4WE1pSVhSVHpVTHVPTVBWMW9DVkRPX0M2czlQU2p4RVZBUXlHZkZYSkdscDZGZHhJQVE5NFRzaFItbHVn?oc=5",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['iphone', 'gaming', 'performance', 'evolution']"
-  },
-  {
    "title": "Space42 starts production of ThurayaTwo satellite phone - Tbreak UAE",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DLTNlY3UyUkVEZ1BjM2podmtIZ184RFB2NjdLYXNxLTB3QjB2aGh3TjVKUHhROXVKRkxFMk5NbEdlUXdaS3RHWHJzZXNyM3hPT3FzeDY2VXRRQU13SU5VUnB2ZXlzZ2RtMjdMT3JIMDRvazA?oc=5",
    "at": "2026-11-16",
@@ -3215,6 +3147,69 @@
     "طول المقال قصير (0 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
+  },
+  {
+   "title": "Huawei Mate 90 Air vs Motorola Edge 70 Neo",
+   "url": "https://www.gsmarena.com/huawei_mate_90_air_5g-15099.php||https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: مراجعة Motorola Edge 70 Neo: المواصفات الكاملة، السعر، والمميزات"
+  },
+  {
+   "title": "Motorola Edge 70 Neo vs vivo Y21s",
+   "url": "https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php||https://www.gsmarena.com/vivo_y21s_5g-15096.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: مراجعة Motorola Edge 70 Neo: المواصفات الكاملة، السعر، والمميزات"
+  },
+  {
+   "title": "We’re giving away four Galaxy Z Fold 8 phones: Here’s how to enter!",
+   "url": "https://www.sammobile.com/news/giveaway-four-galaxy-z-fold-8-phones-how-to-enter/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
+  },
+  {
+   "title": "Galaxy Z Flip 9, Fold 9, Fold 9 Ultra camera details leak",
+   "url": "https://www.sammobile.com/news/galaxy-z-flip-9-fold-9-fold-9-ultra-camera-details-leak/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['fold', 'galaxy', 'flip']"
+  },
+  {
+   "title": "Motorola Razr Flex gets certified, wireless charging speed revealed - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWWZfTUdYZFQ4WUJ3Z2tMNV9iYUxPUlJQUGxnc2FVU3I4LTNLcTNTOUQ4cXRYRDZqTmFnVV90RVFBQ2tDSzZibzYwS2tLa2xQOUNpd2hWLTRSMUhjRGVBOWZkNTgtVHFNNEYwSzVhSGVYeFh6U1h6MXBacmJLMFl6ZTRNdXJhMnUyRjVULW15OXMxUHdLeEZ3dkhDRXhrSnpraVRzc2pMSnJ4Z9IBpgFBVV95cUxQa0RlcUpiN2FJbFhUQVFrYTg2QWUyNGk2X20yeDNJZFdBckxhMVlGeXF1U0RpOHJEcWlKQzMxZHdQd3hRU2pzUmlwUm9XVVNrYW4zeG9RdEpNZzBXLVBic0RqUWpiem4wUG9JelhjWWc0VFNrbVVxcEZyWDdtbkx4cHZlNDg0aW9sbUlxd3liREtyLVdIUzNwNW5tUnBXWmxtSTdzdjRB?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['certified', 'flex', 'motorola', 'wireless']"
+  },
+  {
+   "title": "Honor Magic9 Lite+ tipped to pack a 9,530mAh battery in Europe, more specs surface - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlVfMUJmNUxSczJab1RqaU5BVGIxeG1HMmh1V3FkdDVWSWVnYUYyTFNBSnliaWlYdHc1ZmJ4Zi1VSW9iakcxUWpfTXB2bmRCb3Rva3lfTGRPa1lka3ZYQm81NlhfWEpwTXZXOU5DSk9wTmZfNEY0UXo1WHYtbDdacmczQnc0clhlZklqQlJEVE9UYVZ4T2dGekduYXNuSjJQNmFCeXBuOWFTQ0pFSEFQSnRkZjd5c2lnVUkw0gG3AUFVX3lxTE9rSVQ4aWNUMlRWWGhMWDMwaENSNUNHcXVxTDVMcElheUl2OGdPMUxxbi1BUi05c2Q3aG1DelJCWEllUnMxVGV5VUFJTVcxbVYzc1loTzh3c3lVS0JwXzRWSFAybUNTSEVmcVlOU3NFLXRfYVpsVV9KUzVJNl9qcHduNHhBVFFETkFXRTlUY25CbHhKbnVLN3hVVW15ZmNSY2QzWTZmbzhNSmpMZDlIUW84dzVNa3FfRQ?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['lite', 'magic9', 'europe', 'pack']"
+  },
+  {
+   "title": "Xiaomi 19 series rumored to get a much wider ultrawide camera - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZF96TUtQbE9OdEJIVHhsQmlQMFRJVTFSaFUyYTJFMWxWT28xbURGYTlVYzctdklzQmxEOWd6STZLRTRjdE0xZ0ZKOW1UTm1hSVNNYl9oWE1uTXQ1ZXVScVlleHUxQ253NEc3c3pJNEJjd3JlcVViYlJZS1JBcUVqNGlWMVExTVo4dkI0MmxPVjItejU4U25nMVJGSWx5Rk1wR0hJ0gGfAUFVX3lxTE1UQnAzVXY0bUIzd2l5d3BLU2FXZm51b0xKSEZNUHEwRXREM0VXQ0tmM0o2QWNvTEVkVXpwdkc0eDh3S3JaUTgtY1VIMVl6V0x5SGQtT1B2U1hmcUFpc0QwNHQyR2VqVGYtODd6YXpZTzJ2TmxKamlGMDVYY2l2RC1Gbi1md3RHZ0tlbkYwUTJ0UkJEOTZ6R25Lb3JtT0haVQ?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['wider', 'much', 'ultrawide']"
+  },
+  {
+   "title": "GTA 6 Update Fixes Phone Call Bugs That Blocked Story Progress - VICE",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TZm1YMkJpN0pDSGhzYkNMMWRUOWpyZ3VNdGdrTGJGS1BOX1RyNzg5Z3Bma2MxQUxuWFlFdVZmeGp5Mi1qWkEtMUFxS1FfYl9QZUdwdUUzRzFWZi01dFo1V1RmWkYtcWdFNkM0THBodHYtOFpFc2tLM3NyMzQ?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Kodak SlideTag is a $35 Android & iPhone tracker with an E-Ink display to show your photos and more [Gallery] - 9to5Google",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMzhwQmd6VVNMNlg5by1ncGNDZUh1YklDVnJTSlVPWC0xUjd0X2l2NDVKRXJneEdhdXFqNWR2dkRfX19nSGpXZlJEM2h0UzVoMnlRWEFUbV8wbElyNUtXM0xzT3ZUTzVZOFQxM1ZscFFDdlVTVGEyaHJqLTA0eGhPWlNOLUU?oc=5",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "out_of_phone_scope"
   }
  ]
 }
