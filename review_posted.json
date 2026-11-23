@@ -1,34 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Reno17 (China) vs Oppo A7 Pro",
-   "url": "https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php||https://www.gsmarena.com/oppo_a7_pro_5g-14928.php",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'a7 pro' already covered in: مراجعة Oppo A7 Pro: المواصفات الشاملة، السعر، المميزات والعيوب"
-  },
-  {
-   "title": "Oscal Bolt 2 vs Xiaomi Poco X8s",
-   "url": "https://www.gsmarena.com/oscal_bolt_2-15084.php||https://www.gsmarena.com/xiaomi_poco_x8s_5g-15038.php",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'x8s' already covered in: هاتف Poco X8s الجديد: هل يغير قواعد المنافسة في الفئة المتوسطة؟"
-  },
-  {
-   "title": "OnePlus Turbo 6V vs Turbo 6: Is the More Expensive Model Really Worth It?",
-   "url": "https://www.gizmochina.com/2026/11/15/oneplus-turbo-6v-vs-oneplus-turbo-6/",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone '6v' already covered in: OnePlus Turbo 6V ضد Realme Neo7 SE أيهما أفضل؟"
-  },
-  {
-   "title": "Here’s your first look at the Huawei Mate X8 from the front and back",
-   "url": "https://www.gizmochina.com/2026/11/15/heres-your-first-look-at-the-huawei-mate-x8-from-the-front-and-back/",
-   "at": "2026-11-16",
-   "ok": false,
-   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
-  },
-  {
    "title": "The Galaxy Z Fold 8 is making me question my allegiance to Samsung’s best phone lineup",
    "url": "https://www.sammobile.com/opinion/galaxy-z-fold-8-making-me-question-allegiance-samsung-best-phone/",
    "at": "2026-11-16",
@@ -3200,6 +3172,37 @@
    "ok": false,
    "reason": [
     "طول المقال قصير (668 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Honor 700S vs Samsung Galaxy A38",
+   "url": "https://www.gsmarena.com/honor_700s_5g-15085.php||https://www.gsmarena.com/samsung_galaxy_a38_5g-15095.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'a38' already covered in: سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة"
+  },
+  {
+   "title": "Samsung Galaxy A38 vs Xiaomi 18 Pro Max",
+   "url": "https://www.gsmarena.com/samsung_galaxy_a38_5g-15095.php||https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'a38' already covered in: سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة"
+  },
+  {
+   "title": "Galaxy A38 could feature a two-generation-old camera sensor",
+   "url": "https://www.sammobile.com/news/galaxy-a38-could-feature-two-generation-old-camera-sensor/",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": "Phone 'a38' already covered in: سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة"
+  },
+  {
+   "title": "Samsung Galaxy A38",
+   "url": "https://www.gsmarena.com/samsung_galaxy_a38_5g-15095.php",
+   "at": "2026-11-23",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (0 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يجب أن يحتوي على عناوين فرعية <h2>"
    ]
   }
  ]
