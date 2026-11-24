@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.eastrennews.co.uk/sport/national/26708125.leicester-avoid-potential-fa-cup-upset-victory-non-league-oxford-city/",
-   "t": "Leicester avoid potential FA Cup upset with victory at non-league Oxford City",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 30، 58، 64",
-    "الموضوع منشور مسبقاً (تطابق في 3 كيانات جوهرية ({'اكسفورد', 'يستر', 'سيتي'}) مع: موعد نهائي أكسفورد سيتي وليستر سيتي والقنوات الناقلة)"
-   ]
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/7/Cursor-يحول-وصف-فكرتك-إلى-تطبيق-منشور-على-الإنترنت/7608077",
    "t": "Cursor يحول وصف فكرتك إلى تطبيق منشور على الإنترنت",
    "title": "تحويل أفكارك لتطبيق ويب جاهز بضغطة زر عبر أداة Cursor الجديدة",
@@ -3403,6 +3393,16 @@
    "url": "https://www.egyptaway.com/2026/11/gold-market-floor-price-prediction.html",
    "photo": "https://wsrv.nl/?url=https%3A//media.gemini.media/img/large/2026/11/4/2026_11_4_9_38_25_815.webp&w=1200&output=webp&q=80",
    "at": "2026-11-25T00:37:10.485221+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports-others/details/2026/11/25/3084088/-%D8%B3%D8%AA%D9%88%D8%B1%D9%8A-%D9%86%D8%AC%D9%88%D9%85-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%B2%D9%88%D8%AC%D8%A9-%D9%85%D8%B5%D8%B7%D9%81%D9%89-%D9%81%D8%AA%D8%AD%D9%8A-%D8%AA%D8%AD%D8%AA%D9%81%D9%84-%D9%88%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%8A%D8%A7%D9%86%D9%88-%D8%B1%D9%88%D9%86%D8%A7%D9%84%D8%AF%D9%88-%D9%81%D9%8A-%D9%85%D8%A8%D8%A7%D8%B1%D8%A7%D8%A9-%D8%A3%D9%85%D8%B3-",
+   "t": "ستوري نجوم الكرة.. زوجة مصطفى فتحي تحتفل وكريستيانو رونالدو في مباراة أمس",
+   "title": "ستوري نجوم الكرة.. احتفالات واسعة وظهور خاص للنجوم",
+   "url": "https://www.egyptaway.com/2026/11/football-stars-instagram-stories.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.gemini.media/img/large/2026/11/25/2026_11_25_0_40_9_333.webp&w=1200&output=webp&q=80",
+   "at": "2026-11-25T00:56:37.721817+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
