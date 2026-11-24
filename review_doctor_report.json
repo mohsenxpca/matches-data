@@ -1,23 +1,31 @@
 {
-  "timestamp": "2026-11-23 14:37:20",
+  "timestamp": "2026-11-24 14:52:13",
   "dry_run": false,
   "scanned": 500,
-  "repaired": 14,
+  "repaired": 21,
   "fixes": {
-    "broken_links": 13,
+    "broken_links": 21,
     "disclaimers": 0,
     "internal_links": 0,
     "thin_posts": 2,
     "alt_tags": 0,
-    "labels": 0
+    "labels": 1
   },
   "details": [
     {
-      "id": "6805181497437786509",
-      "title": "هاتف OpenAI القادم يهز عرش سامسونج وجالاكسي",
-      "url": "https://www.review-mobile.com/2026/11/openais-smartphone-could-challenge.html",
+      "id": "7199880830325708577",
+      "title": "موبايل شاومي في حدود 7000 جنيه: أفضل الخيارات المتاحة 2026",
+      "url": "https://www.review-mobile.com/2026/11/7000-2026.html",
       "fixes": [
-        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
+        "Standardized news label ['شاومي'] -> ['أخبار هواتف']"
+      ]
+    },
+    {
+      "id": "8677009506698270290",
+      "title": "مراجعة vivo Y21s: هل لا يزال خياراً اقتصادياً ذكياً في 2026؟",
+      "url": "https://www.review-mobile.com/2026/11/vivo-y21s-review-specs-price.html",
+      "fixes": [
+        "Fixed broken link: /2026/11/vivo-x200-pro-review.html -> /2026/10/vivo-x200-pro-camera-specs-review.html"
       ]
     },
     {
@@ -25,7 +33,7 @@
       "title": "افضل موبايل للالعاب بسعر 6000 جنيه في 2026",
       "url": "https://www.review-mobile.com/2026/11/6000-2026.html",
       "fixes": [
-        "Enriched thin content (445 words -> FAQ & buying guide added)"
+        "Enriched thin content (592 words -> FAQ & buying guide added)"
       ]
     },
     {
@@ -33,55 +41,104 @@
       "title": "افضل موبايل للتصوير بسعر رخيص 2026",
       "url": "https://www.review-mobile.com/2026/11/2026.html",
       "fixes": [
-        "Enriched thin content (605 words -> FAQ & buying guide added)"
+        "Enriched thin content (750 words -> FAQ & buying guide added)"
       ]
     },
     {
-      "id": "2867930639321867313",
-      "title": "9 نصائح ذهبية لإطالة عمر هاتفك القابل للطي",
-      "url": "https://www.review-mobile.com/2026/11/9-tips-to-keep-foldable-alive.html",
+      "id": "5244129284912055066",
+      "title": "مراجعة هاتف Nokia 2360 Flip: شاشة مزدوجة وزر طوارئ SOS لسلامة العائلة",
+      "url": "https://www.review-mobile.com/2026/10/nokia-2360-flip-review.html",
       "fixes": [
-        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
+        "Fixed broken link: /2024/01/nokia-54-review.html -> /2026/10/nokia-2360-flip-review.html"
       ]
     },
     {
-      "id": "2901230819394766822",
-      "title": "أندرويد يغلق 23 ثغرة أمنية خطيرة في تحديث نوفمبر.. حدث هاتفك الآن",
-      "url": "https://www.review-mobile.com/2026/11/android-november-security-update.html",
+      "id": "2157514237145566440",
+      "title": "مواصفات سامسونج Galaxy Z Fold Special Edition الرسمية والأسعار",
+      "url": "https://www.review-mobile.com/2026/10/samsung-galaxy-z-fold-special-edition.html",
       "fixes": [
-        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html",
+        "Fixed broken link: /2024/01/samsung-galaxy-s24-ultra-review.html -> /2024/02/samsung-galaxy-s24-ultra-iphone-15-pro.html"
       ]
     },
     {
-      "id": "8250597509178199213",
-      "title": "لماذا تظل هواتف سامسونج الخيار الأول للمستخدمين؟",
-      "url": "https://www.review-mobile.com/2026/11/why-samsung-galaxy-remains-top-choice.html",
-      "fixes": [
-        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
-      ]
-    },
-    {
-      "id": "5908133705912962781",
-      "title": "رسمياً: إطلاق Redmi M100 Pro بشاشة منحنية ومعالج Dimensity 7300",
-      "url": "https://www.review-mobile.com/2026/11/redmi-m100-pro-launch-specs.html",
+      "id": "4241311167929348270",
+      "title": "مراجعة POCO C95 Pro 2026: بطارية 7500 وشحن 45 واط وشاشة 6.9 بوصة",
+      "url": "https://www.review-mobile.com/2026/10/poco-c95-pro-7500mah-45w-review.html",
       "fixes": [
         "Fixed broken link: /2026/11/xiaomi-15-ultra-review.html -> /2026/11/xiaomi-17-ultra-full-review.html"
       ]
     },
     {
-      "id": "3192446137268706407",
-      "title": "مراجعة iPhone 17 Pro: اختبار الأداء والكاميرا 48MP والسعر",
-      "url": "https://www.review-mobile.com/2025/09/iphone-17-pro.html",
+      "id": "7804009354547121923",
+      "title": "مراجعة Realme 16x 2026: بطارية 7000 وشاشة 144 هرتز والسعر",
+      "url": "https://www.review-mobile.com/2026/10/realme-16x-7000mah-144hz-review.html",
       "fixes": [
-        "Fixed broken link: /2024/01/iphone-15-pro-max-review.html -> /2026/11/apple-iphone-20-pro-max-expectations.html"
+        "Fixed broken link: /2026/11/realme-gt-7-pro-review.html -> /2026/11/huawei-osta-o1-pro-harmonyos-7.html"
       ]
     },
     {
-      "id": "3996382109379285562",
-      "title": "مواصفات وسعر Oppo A3x: كاميرا 50MP وشحن 45W",
-      "url": "https://www.review-mobile.com/2024/12/oppo-a3x.html",
+      "id": "7968516739832696297",
+      "title": "مراجعة Samsung Galaxy F70 2026: شاشة AMOLED وكاميرا OIS والسعر",
+      "url": "https://www.review-mobile.com/2026/10/samsung-galaxy-f70-amoled-ois.html",
       "fixes": [
-        "Fixed broken link: /2024/01/oppo-a59.html -> /2026/11/oppo-find-x10-pro-max-review.html"
+        "Fixed broken link: /2026/11/samsung-galaxy-s25-ultra-leaks-specs.html -> /2025/01/samsung-galaxy-s25-ultra-samsung-galaxy.html"
+      ]
+    },
+    {
+      "id": "7551079058110028275",
+      "title": "مقارنة بين Samsung Galaxy S25 Ultra وSamsung Galaxy S24 Ultra",
+      "url": "https://www.review-mobile.com/2025/01/samsung-galaxy-s25-ultra-samsung-galaxy_29.html",
+      "fixes": [
+        "Fixed broken link: /2024/01/samsung-galaxy-s24-ultra-review.html -> /2024/02/samsung-galaxy-s24-ultra-iphone-15-pro.html"
+      ]
+    },
+    {
+      "id": "7709725160799576568",
+      "title": "أقوى وأفضل هواتف يمكنك شراؤها في عام 2025",
+      "url": "https://www.review-mobile.com/2025/01/best-phones-buying-2025.html",
+      "fixes": [
+        "Fixed broken link: /2024/01/samsung-galaxy-s24-ultra-review.html -> /2024/02/samsung-galaxy-s24-ultra-iphone-15-pro.html"
+      ]
+    },
+    {
+      "id": "6584269294878737283",
+      "title": "مراجعة Realme 14 Pro plus: الأداء ببطارية 6000mAh وهل يستحق؟",
+      "url": "https://www.review-mobile.com/2024/12/realme-14-pro-plus.html",
+      "fixes": [
+        "Fixed broken link: /2024/01/realme-note-50-review.html -> /2024/11/realme-note-60.html"
+      ]
+    },
+    {
+      "id": "4704128430346259455",
+      "title": "مراجعة Xiaomi Redmi Note 14: اختبار الأداء والكاميرا 50MP والسعر",
+      "url": "https://www.review-mobile.com/2024/12/xiaomi-redmi-note-14.html",
+      "fixes": [
+        "Fixed broken link: /2024/01/xiaomi-redmi-note-13-pro-4g-review.html -> /2025/01/xiaomi-redmi-note-14-pro-4g.html"
+      ]
+    },
+    {
+      "id": "5637170321046600530",
+      "title": "سعر ومواصفات ومراجعه هاتف realme-13-5g",
+      "url": "https://www.review-mobile.com/2024/11/realme-13-5g.html",
+      "fixes": [
+        "Fixed broken link: /2024/01/realme-note-50-review.html -> /2024/11/realme-note-60.html"
+      ]
+    },
+    {
+      "id": "7269327857982253201",
+      "title": "مراجعة كاملة لسعر ومواصفات هاتف Realme 13 Pro Plus",
+      "url": "https://www.review-mobile.com/2024/11/realme-13-pro-plus.html",
+      "fixes": [
+        "Fixed broken link: /2024/01/realme-note-50-review.html -> /2024/11/realme-note-60.html"
+      ]
+    },
+    {
+      "id": "971830343960970379",
+      "title": "مراجعة Realme 12 4G: الأداء ببطارية 5000mAh وهل يستحق؟",
+      "url": "https://www.review-mobile.com/2024/10/realme-12-4g.html",
+      "fixes": [
+        "Fixed broken link: /2024/01/realme-note-50-review.html -> /2024/11/realme-note-60.html"
       ]
     },
     {
@@ -89,32 +146,33 @@
       "title": "تقييم Oppo Reno 12 F 4G: مقارنة مع المنافسين وهل يستحق سعره؟",
       "url": "https://www.review-mobile.com/2024/10/oppo-reno-12-f-4g.html",
       "fixes": [
-        "Fixed broken link: /2024/01/oppo-a59.html -> /2026/11/oppo-find-x10-pro-max-review.html",
-        "Fixed broken link: /2024/01/oppo-reno11-pro-review.html -> /2026/11/oppo-find-x10-pro-max-review.html"
+        "Fixed broken link: /2024/01/oppo-reno11-5g-.html -> /2026/10/oppo-reno17-f-5g-review.html"
       ]
     },
     {
-      "id": "8126781911126008267",
-      "title": "مراجعة هاتف Vivo V40 من سعر ومواصفات",
-      "url": "https://www.review-mobile.com/2024/10/v40.html",
+      "id": "6456235856346012344",
+      "title": "مراجعة iPhone 16 Plus: بطارية 4674mAh والمواصفات والسعر",
+      "url": "https://www.review-mobile.com/2024/10/iphone-16-plus.html",
       "fixes": [
-        "Fixed broken link: /2024/01/vivo-y27s-review.html -> /2026/11/vivo-y21s-y11s-y05s-specs-leak.html"
+        "Fixed broken link: /2024/01/iphone-15-pro-review.html -> /2024/02/samsung-galaxy-s24-ultra-iphone-15-pro.html"
       ]
     },
     {
-      "id": "3554568438904198436",
-      "title": "سعر ومواصفات HONOR X9b: تقييم الأداء والمميزات والعيوب",
-      "url": "https://www.review-mobile.com/2024/02/honor-x9b.html",
+      "id": "4642369746558208163",
+      "title": "أرخص موبايل يدعم NFC في 2026: أفضل هواتف تدعم الدفع اللاتلامسي",
+      "url": "https://www.review-mobile.com/2024/04/mobile-phones-support-nfc.html",
       "fixes": [
-        "Fixed broken link: /2024/01/honor-x7b-review.html -> /2026/11/huawei-enjoy-100-pro-max-vs.html"
+        "Fixed broken link: /2024/01/samsung-galaxy-s24-plus-review.html -> /2026/10/samsung-galaxy-s26-plus-review.html",
+        "Fixed broken link: /2024/01/realme-note-50-review.html -> /2024/11/realme-note-60.html",
+        "Fixed broken link: /2024/01/xiaomi-redmi-note-13-pro-4g-review.html -> /2025/01/xiaomi-redmi-note-14-pro-4g.html"
       ]
     },
     {
-      "id": "939201850598469932",
-      "title": "مقارنة شاملة بين Samsung Galaxy S24 Ultra وiPhone 15 Pro Max",
-      "url": "https://www.review-mobile.com/2024/02/samsung-galaxy-s24-ultra-iphone-15-pro.html",
+      "id": "3252556397412158903",
+      "title": "سعر ومواصفات سلسلة Redmi Note 13 في مصر: المميزات والعيوب",
+      "url": "https://www.review-mobile.com/2024/02/redmi-note-13.html",
       "fixes": [
-        "Fixed broken link: /2024/01/iphone-15-pro-max-review.html -> /2026/11/apple-iphone-20-pro-max-expectations.html"
+        "Fixed broken link: /2024/01/xiaomi-redmi-note-13-pro-4g-review.html -> /2025/01/xiaomi-redmi-note-14-pro-4g.html"
       ]
     },
     {
@@ -122,7 +180,7 @@
       "title": "مراجعة كاملة لهاتف Redmi Note 13 5G مواصفاتة وسعرة",
       "url": "https://www.review-mobile.com/2024/02/redmi-note-13-5g.html",
       "fixes": [
-        "Fixed broken link: /2024/01/xiaomi-poco-m6-review.html -> /2026/11/xiaomi-poco-x8s-review-specs-price.html"
+        "Fixed broken link: /2024/01/xiaomi-poco-x6-.html -> /2024/02/xiaomi-poco-x6-pro.html"
       ]
     }
   ]
