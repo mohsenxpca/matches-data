@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "SKT Launches BOOX Palma 3 Smartphone-Style E-Paper Device in Japan at ¥54,800, Running Android 16 - BigGo Finance",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QdDhMTW0yb09LeDFFX2h1V2FIVGdBSDNScVFtaGtfUE5CaWV2ZnMwNVI3WW45YTkzQ0lEMGUtU2NuNjBfTVhRQ2xCMXBaTjVWeFJqUVJGN25TSW5wNkp4cnphOF9XU3Q5cThEbEVxcGRxRjFJWUE?oc=5",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (571 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "تسريب مواصفات iQOO Z12 Lite 5G.. موعد الإطلاق وأبرز المزايا",
    "cand_title": "iQOO Z12 Lite 5G’s image, key specs emerge, launching soon",
    "url": "https://www.gizmochina.com/2026/11/17/iqoo-z12-lite-5g-google-play-console-listing/",
@@ -3201,6 +3192,13 @@
    "at": "2026-11-24",
    "ok": false,
    "reason": "Phone 'fit 4' already covered in: مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع"
+  },
+  {
+   "title": "Honor's first wide foldable set to arrive in March 2027 with zero-crease display - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaWNmbVpVM1YzLWxOd0JTb3R3T0ZwNVBwU1VROUJ3WkJhOVg2a2RVTk5YYVphSDRESXRtcWtFUnBCZ0tjbWhnR2J6Yk85VVppTFNZMWZxeGxIVE1VSDNoa2lKNV9NYkFfYXRyUFFBeHJCMkgzcExWUDZfZEltMmttWXhXYW1rTURyS0Q2aWtEWENOQ082Mm9CbWo3b1VzVDZBYlZlUnJZcFF4dVgycjFtdXduMTF6ZzZCOHfSAbYBQVVfeXFMUExqR01meTdLc2ZEdm1VVU1mT3h3M1htZmExTTZSV0hyT2pXNTFSU3lUZ01VWEs2ZkhXbG9aSUhoelFMaFFMaGpIZEVsT1dfSVQ4eXBDc2N4VFZ4UXA4NDN0a1Y2dE04TXRwbElQUzFsSGVvQk1QaGNNTVZRNU90WF92S2N3OS1OTUU2cVJrWVVDbloyaGM5TERlN2NIQ09KSi1wZ1JiaW02aXNWQWNhN3hvOVlQdkE?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['crease', 'wide', 'arrive', '2027']"
   }
  ]
 }
