@@ -1,30 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة Xiaomi Poco X8s: هل يغير قواعد الفئة المتوسطة في 2026؟",
-   "cand_title": "Xiaomi Poco X8s",
-   "url": "https://www.gsmarena.com/xiaomi_poco_x8s_5g-15038.php",
-   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-poco-x8s-review-specs-price.html",
-   "at": "2026-11-17T17:06:52+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "شاومي"
-  },
-  {
-   "title": "Xiaomi 18 Pro Max (Global) review",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_max-review-3013.php",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
-  },
-  {
-   "title": "Your paid Galaxy AI subscription could unlock extra custom cards in Now Brief",
-   "url": "https://www.androidauthority.com/samsung-galaxy-ai-custom-cards-now-brief-limit-credits-3736153/",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['custom', 'galaxy', 'your']"
-  },
-  {
    "title": "Xiaomi 18 Pro Max review - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVeU41VC1ZVnkwN0VQd0NIeVg0NzdncUNHNzI1VGFmNVhQbkoxdl9XTlFvbTRpbnB6RzFNRkJ6MG9naHRjb2J6Vy03STBHY25GdWtPWUNBYnJUcllpcnJlWGdMOGpQTGlVcXc?oc=5",
    "at": "2026-11-18",
@@ -3191,6 +3167,31 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Samsung Galaxy A38 vs Honor 700S",
+   "url": "https://www.gsmarena.com/samsung_galaxy_a38_5g-15095.php||https://www.gsmarena.com/honor_700s_5g-15085.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'a38' already covered in: سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة"
+  },
+  {
+   "title": "2 Good Lock multi-window tricks to try on your Galaxy Z Fold 8",
+   "url": "https://www.sammobile.com/news/two-good-lock-multi-window-tricks-try-on-galaxy-z-fold-8/",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
+  },
+  {
+   "title": "لماذا هاتفك القديم أثمن الآن؟ مفاجأة في سوق الاستبدال",
+   "cand_title": "Your old smartphone is likely worth more now as a trade-in than it was last year",
+   "url": "https://www.androidauthority.com/us-trade-in-values-increasing-3738967/",
+   "raw_photo": "https://www.androidauthority.com/wp-content/uploads/2025/08/Android-camera-phones-H2-2025.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/old-smartphone-trade-in-values-surging.html",
+   "at": "2026-11-25T00:56:39+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
