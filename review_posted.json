@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro vs Oppo Reno17 Pro (China)",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php||https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'reno17 pro' already covered in: مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،"
-  },
-  {
    "title": "Xiaomi 18 Pro and 18 Pro Max go global with rear display and dual 200MP cameras",
    "url": "https://www.gizmochina.com/2026/11/17/xiaomi-18-pro-and-18-pro-max-go-global-with-rear-display-and-dual-200mp-cameras/",
    "at": "2026-11-17",
@@ -3181,6 +3174,17 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "هاتف هونر القابل للطي: موعد الإطلاق والسر الخفي للشاشة",
+   "cand_title": "HONOR Wide Foldable: March 2027 Launch, 0 Specs Confirmed - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWlE1OEVOdktDeVZfSUFGTjZ0b2ZpUGplTHJvTVNMazBzczRiQmVqaWJiM2dSUjFDQ3Y0Rm5LYzVaUDFvZzFlMlFpM0NvMHRxeFhVVzM4WlZUZm1qNVlmTGlEcnd3ZkhQbGJFeGoyU3I0UGNQUk5obGF0LVJWT2hlUDdqaXlTQUVFdFhuUw?oc=5",
+   "raw_photo": "https://shattered.io/wp-content/uploads/2026/11/honor-first-wide-foldable-march-2027-zero-creases-claim-nov-24-img13.webp",
+   "post_url": "https://www.review-mobile.com/2026/11/honor-wide-foldable-march-2027-launch.html",
+   "at": "2026-11-24T14:29:02+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هونر"
   }
  ]
 }
