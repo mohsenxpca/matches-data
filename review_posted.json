@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei Osta O1 Pro's live image leaks ahead of launch - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWmp4ck1pQmNvOElQUUFWV0d3R3EzUUNFVkpsbmx3RkFpMU1KR0xiSU1JbHNXN2wyQmlRaV9ob3k5MHd2blV2SzJqVUZoXzN5U0t4cEh3eXlQS2t6bVJ6VjQ3a0Y4RFR3YWxjcFBqUThnNmE3NGF4emo2dEZ4V1dLRUlRWE5qMEJjcHBENVdsVXlFMUFub3M40gGTAUFVX3lxTE9DYXRNQUpvQXlmeVI2RG5SbVpFNU43UnhpNkQtVDZ0ajNJcVZsYWRzVnJHc0pobEF3YUdkekxiRGgxYm1mcDAxVHR4dnlpRXZ6anFVanYwbEphN1Nvb1RJS1BtTmIxc04wZlJEWVpIRFRTQ2ppcktBaVU5WTZqa1B0RHNTV21NYjE1WU5xdW9SejFKQQ?oc=5",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['image', 'ahead', 'osta', 'live']"
-  },
-  {
-   "title": "خصم هائل 350 دولار على سامسونج جالاكسي زد فولد 8 قبل العروض",
-   "cand_title": "Save $350 on the Galaxy Z Fold 8 before the holiday rush - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNEdDWVkwb1BkVTZ3ekV2NjNqcm1KcnNWVlZOcUZzSkNuaGxuaE9QSWMxak4tZU1abjhGUVE4RFB6MF96ZzhlbXpSTVdoYjA5RTlidjg0R0tyaW1scEFabTJSaU8zaTdYRDdySGNfX1huWE1WM1NfTTkwTHJ1SlRLZVNwR1NUM3ZFdlJxeDUwLUFFNFNZRHk0?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-z-fold-8-discount.html",
-   "at": "2026-11-17T02:36:49+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
    "title": "تسريبات سلسلة أوبو رينو 17: بطارية عملاقة ومواصفات نارية",
    "cand_title": "The Oppo Reno 17 and 17 Pro will be unveiled next week, but the specs have already leaked - Android Central",
    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQVAycXU1RDFLWjFkcWtvWlEyVWxsdGZlNzJKd2FHWXFQMENRS1JrSXExWGhDRy1senpwMC1LSmdUc2ZTdjcxaEhCV3pMTGhhY1BET2pobTZsUjE4RHBZUEZKY0x3d2t2Wm45ODdtWGFrbTVLR2ttblB4Wjhha19CTTk5RVVDSVFhNV95aEVuLW02dUl4emtOb1RNYXNYREJGeWEwNWd0VDJldnpnNTVraUQ4a3hoMjlDWTRxc3hWN0dIRWJhbnc2RXBjZzdwRFIySFY3ckUzTkg1S3BvOTBOVUkxUEthX1BTZXlOODZIdjY2OHlwcWIzamJR?oc=5",
@@ -3213,6 +3196,20 @@
    "ok": true,
    "kind": "review",
    "brand": "فيفو"
+  },
+  {
+   "title": "Huawei Mate 90 Air specs leak, and they sound awfully familiar",
+   "url": "https://www.gsmarena.com/huawei_mate_90_air_specs_leak_and_they_sound_awfully_familiar-news-75600.php",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'mate 90 air' already covered in: مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف"
+  },
+  {
+   "title": "Honor Magic8 Pro",
+   "url": "https://www.gsmarena.com/honor_magic8_pro-14231.php",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Model code [magic8] with variants {'pro'} found in review: مراجعة HONOR Magic8 Pro: تليفوتو 200 ميجابكسل وبطارية 7100 مللي أمبير وSnapdragon 8 Elite Gen 5"
   }
  ]
 }
