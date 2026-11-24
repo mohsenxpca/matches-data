@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "How to back up your entire Android phone to a local PC (without Google Drive) - How-To Geek",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUNRRmN3MmFoVlE5V2RBb2tnWEZDa2N1V3ZiNl9zMHF0UmtwUWxzdjlsXzQyeUlDS2ZPUVdjNjRwc0NqLTJKU0NoM0JLcDhJS1N3eXRQNm5nSERPdURHeXFxZnAyLU9KektqTXAtVEgwMUJHaFNRcktQcUFvcC0xeF9Ba05HZ0c4N24xYnZxaDlrZVk5MGg4RVcySQ?oc=5",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (580 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Huawei Osta O1 Pro's live image leaks ahead of launch - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWmp4ck1pQmNvOElQUUFWV0d3R3EzUUNFVkpsbmx3RkFpMU1KR0xiSU1JbHNXN2wyQmlRaV9ob3k5MHd2blV2SzJqVUZoXzN5U0t4cEh3eXlQS2t6bVJ6VjQ3a0Y4RFR3YWxjcFBqUThnNmE3NGF4emo2dEZ4V1dLRUlRWE5qMEJjcHBENVdsVXlFMUFub3M4?oc=5",
    "at": "2026-11-17",
@@ -3207,6 +3198,13 @@
    "at": "2026-11-24",
    "ok": false,
    "reason": "Recent story overlap on key terms ['motorola', 'edge', '144hz']"
+  },
+  {
+   "title": "Denmark Plans Nationwide School Phone Ban for 2027 - Medya Press",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WYzBoeVMxUEhiX1RlTXJtT04wZ3VrMVlZR0F1Z3V3Y0NTLTBEbi0tZmhjVXBhTXNKMUZtXzhQZm42ekY5Zk02Z0ZzUFRpTEVfMkY1WGpmMGloYTBVb2RybkUwbWh3ZlZ6QUNyZ09qTW1yemh1SDJndURBcTVfckU?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "out_of_phone_scope"
   }
  ]
 }
