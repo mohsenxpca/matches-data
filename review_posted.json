@@ -1,53 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung could beat Apple to market with a bezel-less phone display",
-   "url": "https://www.gsmarena.com/samsung_could_beat_apple_to_market_with_a_bezelless_phone_display-news-75510.php",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (495 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "I Didn’t Expect to Like Xiaomi’s Bizarre Dual-Screen Phone So Much - CNET",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QRVdYenB5ZEJUc00tY3FaUG8wUEVneHhyYWd4NmZZVW9DYms4YmJJZ3drVWRsOUd3ejUtM2tDdXROTVp2cmR0RnRYY3gzaXRVV2QybnNCdWs5STBqb0RaNg?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (601 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Own 2 Android phones? Google may let you switch service fast – like iPhone Handoff - ZDNET",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1teXdJb0swaWZ1Tm1URUFVSlNUdGRDcWh5aGhvT0hlRzZycHRvdUhmdGwxdU45bXV0VDVSSWExOTlTYkFlZm91X0JtRGtMZFNLRzl4bXJEQ0M1LXV0cHRFd3NlN3NobTVDWi1WS05pSVhkVkVSY2c?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (547 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "كيف تحصل على ميزة Dynamic Island على هاتفك الأندرويد؟ أفضل 5 تطبيقات",
-   "cand_title": "5 Apps To Replicate Apple's Dynamic Island On Your Android Phone - BGR",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTVZDcDZBdHB2dG0tR1RzX0p5TEJXMlBBRHRLLTFyQU5UdnVzcTR3eTZEUW8yU2xSYnlab1g3bHpFNW9zT3BjZmRORUF3cExGbWlZM29MVUhVR1hkRWU0WGM3LU9aTkI1U3pnT3FRallLcU5RY0hiQzNPNjVYR0Vpag?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/get-dynamic-island-on-android.html",
-   "at": "2026-11-18T00:29:04+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
-   "title": "جوجل تختبر ميزة Android Fast Switch لاستخدام رقم هاتف واحد على",
-   "cand_title": "Google is testing a way to use one phone number on two phones - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6ellrbVNfXzZNZHp5SGJHeWFfMlhfazdjVnRTQnltdE5DTmpoYXY5djVlbEsxN0JSUEtrSEVucXlFRFBGQ3ZrYWFJV3g2S3lmQjhSbTJHX3RYbmlmcmE4SGVFa21qS0ttT2FCZDQ5eFhveEpt?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/google-testing-android-fast-switch.html",
-   "at": "2026-11-18T00:57:16+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "WINNERS ANNOUNCED AT SMART PHONE OPERA HOUSE FINALS - FilmInk",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc01lbVI2N2tEcWtjNVhjOGJkQ0g4d2FpZXBSV2ZFaHJfRHBxWU9qSkVYY0F4M0FHUjJxdlRRMEd2TWRLbXNfLWpjWUdjX0pDc1ZMeTFwOWUzY1J1WDJFYzZyaHd0MjFSWmR2M1RYQzZzNmRtYkhxbGY5a0w0UnJXY213b1Bzb3RlSUFVX0pwYTBSY2hFS01rNQ?oc=5",
    "at": "2026-11-18",
@@ -3196,6 +3149,50 @@
    "ok": true,
    "kind": "news",
    "brand": "اوبو"
+  },
+  {
+   "title": "The 12-year-old OnePlus One is now running Android 16 thanks to LineageOS",
+   "url": "https://www.androidauthority.com/oneplus-one-android-16-update-3738957/",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (615 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Best Black Friday phone deals on Samsung, Google, Nothing, and more",
+   "url": "https://www.androidauthority.com/best-black-friday-phone-deals-3738947/",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (656 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Huawei Mate 90 Air Specs Leak, but the Phone Sounds Familiar - Gizchina.com",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUWUtTm5XZ3RQR0R3UmNhdVR0SUNsbVpjMldGMEo4blI4b3N6Q2Njb1VHVkVxNGJSM1VTRklSUFV6bjk2SW9oRWx4VS1ESmltbmxiZXg1MnY1ZnYtVVQyZFpycXZ4RHZQWmVFWWs2em5ka0ZjU2lhR25FSDFlLVhkbWp2blctSWNkdk1GczFWM3l0MXp3WkJWOHg0T0MtNlE?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'mate 90 air' already covered in: مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف"
+  },
+  {
+   "title": "Leak suggests the iPhone 18e will have a revamped rear camera design - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OajhDSGh4SVI2NjRrMHdtSkJyaktGdmNyNXBQMHBQckpoVE9QeHhYTUNiMloycmM5aDd6S1JKSTdZVUVxYkcwODlLd3ZFMEJfU1FGN1VER044eDk1dDRYaTRrendaY1lIYldzZ3RKdmc3U2pMNHdlSE1yNA?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone '18e' already covered in: تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق"
+  },
+  {
+   "title": "أزمة خط الشاشة الأخضر في جالاكسي S21 FE وفاتورة باهظة",
+   "cand_title": "Older Galaxy S21 FE Green Line: ₹31,320 Quote After Update - shattered.io",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTS1SeHNPOF9BTHR2QVJvY0hzeHlGUTRmb1JTY0JXUnNYOEh0YXN1Q1NwTHM4bnV2VFZBc2swSzFXTXNEeUlwdVhzRVRDa0lLbWRlZGJjYWtPQ3ZRbE5SSnBPelZLbXlJck1PUnUzYm1QOU5FMHVTLVNLMVdmRXJaT2x2aVpNN0swRkM4YkN5d1gxY1U?oc=5",
+   "raw_photo": "https://shattered.io/wp-content/uploads/2026/11/samsung-galaxy-s21-fe-5g-green-line-update-31320-rupee-quote-nov-24-img13.webp",
+   "post_url": "https://www.review-mobile.com/2026/11/galaxy-s21-fe-green-line-crisis.html",
+   "at": "2026-11-25T01:58:08+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
