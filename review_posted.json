@@ -1,87 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro and 18 Pro Max go global with rear display and dual 200MP cameras",
-   "url": "https://www.gizmochina.com/2026/11/17/xiaomi-18-pro-and-18-pro-max-go-global-with-rear-display-and-dual-200mp-cameras/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "Xiaomi 18 Pro Max",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
-  },
-  {
-   "title": "Xiaomi 18 Pro",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
-   "title": "Xiaomi Redmi M100 Pro",
-   "url": "https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Model code [m100] with variants {'pro'} found in review: مراجعة شاملة هاتف Xiaomi Redmi M100 Pro: مواصفات عملاق الفئة"
-  },
-  {
-   "title": "Sharp Aquos sense11 vs Xiaomi 18 Pro",
-   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['sense11', 'aquos', 'sharp']"
-  },
-  {
-   "title": "Xiaomi 18 Pro Max vs Oppo Reno17 Pro (China)",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php||https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'reno17 pro' already covered in: مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،"
-  },
-  {
-   "title": "Xiaomi 18 Pro and 18 Pro Max go global with rear display and dual 200MP cameras",
-   "url": "https://www.gizmochina.com/2026/11/17/xiaomi-18-pro-and-xiaomi-18-pro-max-launch-global-rear-display-200mp-camera-specs-price/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['cameras', 'dual', 'rear', '200mp']"
-  },
-  {
-   "title": "Galaxy Z Fold 8 now costs only $1,550 thanks to the early Black Friday sale",
-   "url": "https://www.gizmochina.com/2026/11/17/galaxy-z-fold-8-now-costs-only-1550-thanks-to-the-early-black-friday-sale/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (662 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Xiaomi 18 Pro and 18 Pro Max begin their international rollout",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_18_pro_max_international_launch-news-75505.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "Xiaomi 18 Pro series goes global with privacy displays and rear screens",
-   "url": "https://www.androidauthority.com/xiaomi-18-pro-series-global-launch-3735934/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "Galaxy Z Fold 8 drops to a record low with $350 off",
-   "url": "https://www.androidauthority.com/samsung-galaxy-z-fold-8-record-low-deal-3736119/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (587 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "مراجعة Xiaomi Poco X8s: هل يغير قواعد الفئة المتوسطة في 2026؟",
    "cand_title": "Xiaomi Poco X8s",
    "url": "https://www.gsmarena.com/xiaomi_poco_x8s_5g-15038.php",
@@ -3185,6 +3104,93 @@
    "ok": true,
    "kind": "news",
    "brand": "هونر"
+  },
+  {
+   "title": "Motorola Edge 70 Neo vs Ulefone Armor 35 Pro",
+   "url": "https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php||https://www.gsmarena.com/ulefone_armor_35_pro-15101.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: مراجعة Motorola Edge 70 Neo: المواصفات الكاملة، السعر، والمميزات"
+  },
+  {
+   "title": "Huawei Mate 90 Air vs Ulefone Armor 35 Pro",
+   "url": "https://www.gsmarena.com/huawei_mate_90_air_5g-15099.php||https://www.gsmarena.com/ulefone_armor_35_pro-15101.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'mate 90 air' already covered in: مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف"
+  },
+  {
+   "title": "Galaxy Fit 4 European price leaks",
+   "url": "https://www.gizmochina.com/2026/11/24/galaxy-fit-4-european-price-leaks/",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'fit 4' already covered in: مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع"
+  },
+  {
+   "title": "iPhone 18e leak points to nearly square camera island",
+   "url": "https://www.gizmochina.com/2026/11/24/iphone-18e-leak-points-to-nearly-square-camera-island/",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone '18e' already covered in: تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق"
+  },
+  {
+   "title": "Honor Magic 9 Pro Max debuts globally with dual 200MP cameras, SD 8 Elite Extreme Gen 6 & 8000mAh battery",
+   "url": "https://www.gizmochina.com/2026/11/24/honor-magic-9-pro-max-launched-malaysia-specs-price/",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'sd 8' already covered in: تسريب مواصفات Realme GT 7 Pro: كاميرا تحت الماء ومعالج SD 8 Elite"
+  },
+  {
+   "title": "OnePlus strips US website of products as its exit from the market becomes more final",
+   "url": "https://www.gizmochina.com/2026/11/24/oneplus-strips-us-website-of-products-as-its-exit-from-the-market-becomes-more-final/",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (563 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Deal: the Samsung Galaxy Z Fold8 is $350 off during Amazon's Black Friday sale",
+   "url": "https://www.gsmarena.com/deal_the_samsung_galaxy_z_fold8_is_350_off_during_amazons_black_friday_sale-news-75619.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (692 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Huawei Mate X8 launches with a magnetic controlled flattening hinge system",
+   "url": "https://www.gsmarena.com/huawei_mate_x8_launches_with_a_magnetic_controlled_flattening_hinge_system_-news-75620.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
+  },
+  {
+   "title": "Deal: the Oppo Find X10 is £200 off",
+   "url": "https://www.gsmarena.com/deal_the_oppo_find_x10_is_200_off-news-75616.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (562 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "I picked up my Galaxy S25 Edge again: Samsung should bring it back",
+   "url": "https://www.sammobile.com/opinion/i-picked-up-galaxy-s25-edge-again-samsung-should-bring-it-back/",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 's25 edge' already covered in: مراجعة سعر ومواصفات هاتف Samsung Galaxy S25 Edge"
+  },
+  {
+   "title": "كيف تجعل خلفية هاتفك متحركة في سامسونج؟ 3 طرق سهلة",
+   "cand_title": "3 ways to make your wallpaper move on a Samsung Galaxy phone",
+   "url": "https://www.sammobile.com/news/3-ways-make-wallpaper-move-samsung-galaxy-phone/",
+   "raw_photo": "https:///wp-content/uploads/2026/11/One-UI-9.5-lock-screen-live-effect-wallpaper.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/3-ways-make-wallpaper-move-samsung.html",
+   "at": "2026-11-25T00:28:07+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
