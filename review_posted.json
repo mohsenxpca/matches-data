@@ -1,66 +1,6 @@
 {
  "done": [
   {
-   "title": "I tested Pixel 10 Extreme Charging, but there’s nothing extreme about it",
-   "url": "https://www.androidauthority.com/pixel-10-extreme-charging-update-3733303/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (665 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "vivo V80",
-   "url": "https://www.gsmarena.com/vivo_v80-14989.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Model code [v80] with variants set() found in review: مراجعة شاملة لهاتف vivo V80 FE: مواصفات عملاق الفئة المتوسطة"
-  },
-  {
-   "title": "Sharp Aquos sense11 vs Oppo Reno17 Pro (China)",
-   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'reno17 pro' already covered in: مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،"
-  },
-  {
-   "title": "Oppo Reno17 (China) vs Xiaomi Redmi M100 Pro",
-   "url": "https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php||https://www.gsmarena.com/xiaomi_redmi_m100_pro_5g-15054.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'm100 pro' already covered in: مراجعة شاملة هاتف Xiaomi Redmi M100 Pro: مواصفات عملاق الفئة"
-  },
-  {
-   "title": "ميزة Live Caption في أندرويد: كيف تحول أي فيديو إلى نص مكتوب فوراً؟",
-   "cand_title": "Android can subtitle almost anything playing on your phone, and it's useful in unexpected places - MakeUseOf",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwaDFvS2pSd0tkN2pvVTJFSE5rQVFjYzVOQU5CMmRybHV5aktfalhwXzZnci1qbEJQU3dpWGVZaUdtUU9iR2JQMTYwb2xqQVU3YWl4T2VhVlM0Vms1YTluaGppdUNqRTFwRWtzdjNDdVlXM3BTZmQ5bQ?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/android-live-caption-feature-guide.html",
-   "at": "2026-11-17T14:58:15+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "ماذا تعني علامة التعجب بجانب أيقونة الواي فاي في أندرويد؟",
-   "cand_title": "Why There's An Exclamation Point Next To Your Android Phone's Wi-Fi Symbol - SlashGear",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVHYzRGVyQUQtWl9OZzctWWdkT1hPSndxUG1YUFZtWjF3LTR6Q1BHUWZSRXMtWTAtcVZSUGtfT1hCeVh6cW1EU2NkY1p2Wll1aGhHcXVZOVBLdHNLZ19LTzJRQWJySkNVRk95UlVYVGl1LUFKS3A3VjJnZGNiV3NMcENIRzdUZ0RHYnc?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/android-wifi-exclamation-mark-meaning.html",
-   "at": "2026-11-17T15:28:50+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "Sharp Aquos sense11",
-   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (794 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
    "title": "Sharp Aquos sense11 vs Oppo Reno17 (China)",
    "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
    "at": "2026-11-17",
@@ -3188,6 +3128,55 @@
    "at": "2026-11-24",
    "ok": false,
    "reason": "Model code [x8] with variants set() found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "Motorola Edge 70 Neo's price and sale date announced",
+   "url": "https://www.gsmarena.com/motorola_edge_70_neo_price_sale_date-news-75606.php",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['motorola', 'sale', 'edge', 'date']"
+  },
+  {
+   "title": "HUAWEI Mate X8 launched with foldable hardware that embarrasses Samsung, Google",
+   "url": "https://www.androidauthority.com/huawei-mate-x8-foldable-launched-3738728/",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Model code [x8] with variants set() found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "Motorola Edge 70 Neo With Snapdragon 7s Gen 3 SoC, MIL-STD-810H durability Launched In India - News18",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNcVRTNUd3Z3MtbHFyZG5BaVhUbDNrQlRBWlBRRkZvMkI3blFaaHZpNEl1UUFFUm9xYjVNeEIwb1JHX083aDN1WGFDMU5NRklva3lKMEtINGoybHdEX2d4a2VFdU90NjZYcVRWTGhWc0xQbUEtSUtGVzhXV01XRzE2V3RCNGI4MlVPaDFaZEtyamVqaldNcGNxWkhhSmRKVmdpWGcyejhFU08tNGJyZXJtUnhFcDNVdXVZTDZLYmdka2dURTViWEp0dnpCTUp1ZHprUjBRejA1d9IB3AFBVV95cUxNZmdHdmpXZUt4b2hXM2VFVnpHbXdIal9EbjB3ZHdpalpjVENHV3NvT2w1Y2t1S1JPTU9QQkI3Wjc5MWNmS1BIWVFRZkNsOWR4cDR3Zk1ENk92UUdzWXJERTkwMlQxbW9LUDdZM1QwQi1KLXc2QmRDTGMxZGhUZDI3NktyZG9VWnEyQWt3N2lYdk1fcW03YjFjU09BZ2JuSTZCVzBxblgzeVFjNzZFT3JEQkFYSlVURXgwTGVqcnBsUUduRUhHdVRORnAyb0F0VWpMNmNrTUhCNWs4RnF2?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['motorola', 'edge', 'snapdragon']"
+  },
+  {
+   "title": "Motorola Edge 70 Neo Launches In India Today: Check Full Specs - Gizbot",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZXRPMVJzV0FJSFRfU2NXQURwQUFnU3hfNDFCMFhsS3ZhTENvdVhsTU52ZmVQQkRiUHhldUtOUm1PeE9LbHM5Mm00VlpCeHFQUndfMjBQZ1Q4YmROQUJxWXJyOGE0VTZ0Qkp4MVo1VURZeF8zMnhYQ3BXb2dndmxpZFRIMU1ja1ZGcFJ2WHpQX1BrU1ZqUXBiaXBFdzk0Nkpqa1ZuLThpOXYyVlln?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['motorola', 'launches', 'edge']"
+  },
+  {
+   "title": "The iPhone 18 Pro tempted me for weeks, but the Galaxy S26 Ultra wins where it counts - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWF92S1k0WkRwaTRPMTBrc2FXa2sxa1NPaVFfZGZrWldMcnFjd1Myb201TzBLdmszRWx5YVpHRE5QbXJxaC1WLW9Tc1R5VUdVTGxHZ3JoeFJ5NnBLOXZJdjFSa0RLUm5RWThyZDNJc0g0MXZBaWpnQjhoaWxKSDZ0RGpZeUUwMXFjSGZPRG8zb1dmaWM?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['counts', 'weeks', 'galaxy', 'ultra']"
+  },
+  {
+   "title": "iPhone Air 2 leak hints iPhone 18 Pro feature won’t make it to the sequel - Trusted Reviews",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcVVEX2RCY0MxQmR6cFRVS2ItUWRVbUNsaVFuSmNjWU1jZmR0eko2Tm5GTmp4ckw0aC0xLVliVXNDVUJYN1ZOakxFZ0xKcFI3Ulc1N2RJWTlqQ010UGtQeTY5T1FQOGRKLXd3ZEM5VGJtU2RUaDlid0ZHNzZjempPTTR0UTFFVmtWWUVEYVVMbWZhOUNwancwT3hrUnUwZFVqN0RZRUtwNU16bC04?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'air 2' already covered in: موعد إطلاق iPhone 18 و iPhone Air 2: تسريبات تكشف خطة أبل الجديدة"
+  },
+  {
+   "title": "Huawei Mate 90 Air",
+   "url": "https://www.gsmarena.com/huawei_mate_90_air-15099.php",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Model code [90] with variants {'air'} found in review: مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف"
   }
  ]
 }
