@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi launches stunning new Sand Gold version of its 1,000-lumen flashlight for just $14",
-   "url": "https://www.gizmochina.com/2026/11/16/xiaomi-mijia-portable-flashlight-sand-gold-color-launched-specs-price/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
    "title": "Huawei Mate X8 RAM and storage options revealed as reservations open - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNW83MFF3Z3p2OGVrOUpHeENNOTVzeldoZWdBajFYTGNkMjBIeWFOdml6NzlZb3N5ZHk2OHNBcW9wS05NZU0xbWlzLVBKYkFPOWpXbFhBRUN4b1RpdmpZdno5OWFSTVFPZFlHcjhtaVFRemZtZEVKZExwbFplN2g1VllyT0w4NEl2d0MxZHNpLVM5a2xFcUJTcTV2azBqV1JDbU9YN1RUTTVJbkl4?oc=5",
    "at": "2026-11-17",
@@ -3202,6 +3195,17 @@
    "raw_photo": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-y21s-5g-11.jpg",
    "post_url": "https://www.review-mobile.com/2026/11/vivo-y21s-review-specs-price.html",
    "at": "2026-11-24T01:48:10+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "فيفو"
+  },
+  {
+   "title": "مراجعة شاملة لهاتف vivo Y11s: المواصفات، السعر، المميزات والعيوب",
+   "cand_title": "vivo Y11s",
+   "url": "https://www.gsmarena.com/vivo_y11s_5g-15097.php",
+   "raw_photo": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-y11s-5g-11.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/vivo-y11s-comprehensive-review-specs.html",
+   "at": "2026-11-24T02:17:56+02:00",
    "ok": true,
    "kind": "review",
    "brand": "فيفو"
