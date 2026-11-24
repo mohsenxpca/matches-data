@@ -1,18 +1,6 @@
 {
  "done": [
   {
-   "q": "shahid",
-   "at": "2026-10-30",
-   "ok": true,
-   "url": "https://www.egyptaway.com/2026/10/shahid-drones-bases-update.html",
-   "title": "تفاصيل تطورات قواعد طائرات شاهد في القرم وروسيا"
-  },
-  {
-   "q": "هيئة الارصاد الجوية حالة الطقس غدا",
-   "at": "2026-10-30",
-   "ok": false
-  },
-  {
    "q": "hb køge women vs fc barcelona femení standings",
    "at": "2026-10-30",
    "ok": false
@@ -2315,6 +2303,19 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/brentford-everton-premier-league-match.html",
    "title": "برينتفورد يُسقط إيفرتون برباعية في الدوري الإنجليزي"
+  },
+  {
+   "q": "سعر الدينار العراقي",
+   "at": "2026-11-24",
+   "ok": false,
+   "why": "no source text"
+  },
+  {
+   "q": "حسام البدري",
+   "at": "2026-11-24",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/hossam-el-badry-alahly-news.html",
+   "title": "مستقبل الجهاز الفني للأهلي: حقيقة مفاوضات حسام البدري"
   }
  ]
 }
