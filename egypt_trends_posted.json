@@ -1,26 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/7/Cursor-يحول-وصف-فكرتك-إلى-تطبيق-منشور-على-الإنترنت/7608077",
-   "t": "Cursor يحول وصف فكرتك إلى تطبيق منشور على الإنترنت",
-   "title": "تحويل أفكارك لتطبيق ويب جاهز بضغطة زر عبر أداة Cursor الجديدة",
-   "url": "https://www.egyptaway.com/2026/11/cursor-build-live-apps-feature.html",
-   "at": "2026-11-07T01:24:26.285823+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
-   "u": "https://elpais.com/deportes/tenis/2026-11-06/alcaraz-pone-a-paris-en-pie-y-premia-a-jodar-ya-maestro.html",
-   "t": "Alcaraz pone a París en pie y premia a Jódar, ya maestro",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 1.96",
-    "الـ body 452 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'ارلوس', 'يتالق', 'كاراز', 'اريس'}) مع: كارلوس ألكاراز يتألق ويحقق إنجازاً تاريخياً في باريس)"
-   ]
-  },
-  {
    "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9LNDFBbGg1VXpuQmZVd051VDduRG5NZUJWcDJSQ3RWelktX2M3OEY5ekpvaGFKbURVSEs1VGFwWWFMR0s0eGZTa0wxN1BfUEVPRTktYWNoQ3dXb2lLWFZr?oc=5",
    "t": "قبل بدء تشغيله.. أسماء محطات مترو الإسكندرية بالكامل وموعد انطلاق المرحلة الأولى (تعرف عليها) - المصري اليوم",
    "title": "مترو الإسكندرية الجديد: موعد التشغيل وخريطة المحطات الكاملة",
@@ -3405,6 +3385,24 @@
    "at": "2026-11-25T00:56:37.721817+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/25/3084080/%D8%AA%D8%AD%D9%88%D9%8A%D9%84-%D8%B1%D8%B6%D8%A7-%D9%84%D9%84%D8%AA%D8%AD%D9%82%D9%8A%D9%82-%D9%88%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D9%82%D9%85%D8%B5%D8%A7%D9%86-%D9%85%D8%A7%D8%B0%D8%A7-%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D8%A3%D9%85%D8%B3-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-",
+   "t": "تحويل رضا للتحقيق وتعيين قمصان.. ماذا حدث في الأهلي أمس الثلاثاء؟",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "الـ body 476 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.elbalad.news/7193563",
+   "t": "«هات مدرب فرز أول» .. أحمد عبد الباسط يُحذّر الأهلي من التسرّع في اختيار المدرب | فيديو",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "الـ body 420 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
