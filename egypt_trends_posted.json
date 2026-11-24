@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "u": "https://elpais.com/deportes/2026-11-06/carlos-alcaraz-taylor-fritz-el-partido-de-cuartos-de-final-del-masters-atp-de-paris-en-vivo.html",
-   "t": "Carlos Alcaraz - Taylor Fritz, el partido de cuartos de final del Masters ATP de París en vivo|Fritz gana el primer set",
-   "title": "كارلوس ألكاراز يتألق ويحقق إنجازاً تاريخياً في باريس",
-   "url": "https://www.egyptaway.com/2026/11/carlos-alcaraz-paris-masters-victory.html",
-   "at": "2026-11-06T23:54:09.236412+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
-   "u": "https://www.youm7.com/story/2026/11/7/تقرير-أبل-تستحوذ-على-نصف-إيرادات-سوق-الهواتف-الذكية-عالميًا/7608563",
-   "t": "تقرير: أبل تستحوذ على نصف إيرادات سوق الهواتف الذكية عالميًا خلال الربع الثالث",
-   "title": "أبل تسيطر على نصف إيرادات سوق الهواتف الذكية عالميًا",
-   "url": "https://www.egyptaway.com/2026/11/apple-dominates-global-smartphone.html",
-   "at": "2026-11-07T00:24:39.000190+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://www.elbalad.news/7170803",
    "t": "أجواء شتوية في الإسكندرية.. الأرصاد تكشف مفاجآت وتوقعات الطقس في المحافظات",
    "at": "2026-11-07",
@@ -3403,6 +3385,25 @@
    "at": "2026-11-24T02:05:11.860691+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.masrawy.com/news/news_economy/details/2026/11/24/3083869/%D9%87%D9%88%D8%A7%D8%AA%D9%81-%D8%A3%D9%86%D8%AF%D8%B1%D9%88%D9%8A%D8%AF-%D9%85%D8%AD%D8%B1%D9%88%D9%85%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D9%81%D8%B9-%D8%A7%D9%84%D9%84%D8%A7%D8%AA%D9%84%D8%A7%D9%85%D8%B3%D9%8A-%D8%A8%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D9%86%D9%83%D9%8A%D8%A9-%D9%87%D9%84-%D9%87%D8%A7%D8%AA%D9%81%D9%83-%D8%A8%D9%8A%D9%86%D9%87%D8%A7-",
+   "t": "هواتف أندرويد محرومة من الدفع اللاتلامسي بالبطاقات البنكية.. هل هاتفك بينها؟",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "الـ body 473 كلمة بس، لازم 530 على الأقل"
+   ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/22/%D8%B1%D9%8A%D8%A7%D9%84-%D9%85%D8%AF%D8%B1%D9%8A%D8%AF-%D9%8A%D8%AD%D9%82%D9%82-%D8%A3%D8%B7%D9%88%D9%84-%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D9%86%D8%B0-%D9%85%D9%88%D8%B3%D9%85-2022-2023/7628244",
+   "t": "ريال مدريد يحقق أطول سلسلة انتصارات منذ موسم 2022-2023",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "الـ body 366 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'فوز', 'مثير'}) مع تشابه نصي مع: الأهلي بطلاً لكأس السوبر المصري لكرة اليد بعد فوز مثير على الزمالك)"
+   ]
   }
  ]
 }
