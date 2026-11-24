@@ -1,29 +1,6 @@
 {
  "done": [
   {
-   "title": "iQOO Z12 Lite 5G appears on Google Play Console with key specs - Mezha.net",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uNndMQ1VtcWNCcmhCWE1iTHlUSzJkVUdTb1Jodk12MTFTbEpQRm1DRG9JWnVwUGNzeGx5VDNlcFNSNzRWdzd2OVJSZFdoNkItQ0cwTU42cGpNaHV0MzRLaE1rZG1hakJLam5PdmE4QnBIUEtTa01EYlluZUo?oc=5",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['play', 'lite', 'console', 'iqoo']"
-  },
-  {
-   "title": "Xiaomi 18 appears in real, Xiaomi CEO flaunts it at APEC",
-   "url": "https://www.gizmochina.com/2026/11/17/xiaomi-18-appears-in-real-ceo-flaunts-it-at-apec/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18' already covered in: حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد"
-  },
-  {
-   "title": "Galaxy A38 development progresses further",
-   "url": "https://www.sammobile.com/news/galaxy-a38-development-progresses-further/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (641 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Set custom Routines based on your Galaxy Z Fold 8’s folding status",
    "url": "https://www.sammobile.com/news/set-custom-routines-based-on-your-galaxy-z-fold-8-folding-status/",
    "at": "2026-11-17",
@@ -3194,6 +3171,31 @@
    "at": "2026-11-24",
    "ok": false,
    "reason": "Recent story overlap on key terms ['offers', 'edge', 'motorola']"
+  },
+  {
+   "title": "Huawei Mate X8 vs Huawei Mate 90 Air",
+   "url": "https://www.gsmarena.com/huawei_mate_x8_5g-15022.php||https://www.gsmarena.com/huawei_mate_90_air_5g-15099.php",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'mate 90 air' already covered in: مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف"
+  },
+  {
+   "title": "Huawei Mate X8 vs Motorola Edge 70 Neo",
+   "url": "https://www.gsmarena.com/huawei_mate_x8_5g-15022.php||https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: مراجعة Motorola Edge 70 Neo: المواصفات الكاملة، السعر، والمميزات"
+  },
+  {
+   "title": "مراجعة Honor Magic9 Pro Max: وحش الكاميرات بشراكة ARRI وبطارية",
+   "cand_title": "Honor Magic9 Pro Max review - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5KeFlHcXotX1lTSWhPSkw1UTBoQVFZVklqcy0yN2lERHRVQU1WOXlRbXFlMVhpeURRRFdLWmpnSTQ0YVFLZXhfTm9teEpJcDhtekdpYmwyeGN3UDJZUWhuUGVjTFJJamhBMkprX3NR?oc=5",
+   "raw_photo": "https://fdn.gsmarena.com/imgroot/reviews/26/honor-magic9-pro-max/-728x314/gsmarena_001.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/honor-magic-9-pro-max-review.html",
+   "at": "2026-11-24T12:26:48+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "هونر"
   }
  ]
 }
