@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "title": "تسريب مواصفات iQOO Z12 Lite 5G.. موعد الإطلاق وأبرز المزايا",
-   "cand_title": "iQOO Z12 Lite 5G’s image, key specs emerge, launching soon",
-   "url": "https://www.gizmochina.com/2026/11/17/iqoo-z12-lite-5g-google-play-console-listing/",
-   "post_url": "https://www.review-mobile.com/2026/11/iqoo-z12-lite-5g-specs-launch.html",
-   "at": "2026-11-17T08:32:40+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "فيفو"
-  },
-  {
-   "title": "Samsung Phone app to get better at catching spoofed calls from contacts",
-   "url": "https://www.sammobile.com/news/samsung-phone-app-to-get-better-at-catching-spoofed-calls-from-contacts/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (690 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "iQOO Z12 Lite 5G Specs Leaked on Google Play Console Before Launch - Nokiamob",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZGdDNE4tRTZUREF0cEtIbEQ1Y3Q4TXlZNEVoWUR2QlhKYmo2RGtrWTk0THVmWXlZbzF6Zk93OEpEY1dBN3VzVHhORG56RjRkbGVNcUpBb1pkQzF2bmZYTlZab0hZRFdvRWM1UXZwcWM2ZmhrQVZsbnhQang3WmR6cXl5eDRRTm9PZVpJUjZpNzA5MU5GcFlmR3l3ZExqbWotbGdvZnJaMTktSzJnemc?oc=5",
    "at": "2026-11-17",
@@ -3199,6 +3180,20 @@
    "at": "2026-11-24",
    "ok": false,
    "reason": "Recent story overlap on key terms ['crease', 'wide', 'arrive', '2027']"
+  },
+  {
+   "title": "Motorola Edge 70 Neo launches with 5200 nits AMOLED screen, 7000mAh battery",
+   "url": "https://www.gizmochina.com/2026/11/24/motorola-edge-70-neo-launches-with-5200-nits-amoled-screen-7000mah-battery/",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: مراجعة Motorola Edge 70 Neo: المواصفات الكاملة، السعر، والمميزات"
+  },
+  {
+   "title": "Huawei Mate X8 launches with 8.2-inch inner display, Kirin 9050 Pro, 6,200mAh battery",
+   "url": "https://www.gizmochina.com/2026/11/24/huawei-mate-x8-launches-8-2-inch-kirin-9050-pro-6200mah-battery/",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
   }
  ]
 }
