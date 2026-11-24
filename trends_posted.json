@@ -1,21 +1,6 @@
 {
  "done": [
   {
-   "q": "hb køge women vs fc barcelona femení standings",
-   "at": "2026-10-30",
-   "ok": false
-  },
-  {
-   "q": "مدير المدرسة",
-   "at": "2026-10-30",
-   "ok": false
-  },
-  {
-   "q": "صلاه الجمعه",
-   "at": "2026-10-30",
-   "ok": false
-  },
-  {
    "q": "new zealand vs india",
    "at": "2026-10-30",
    "ok": false
@@ -2316,6 +2301,24 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/hossam-el-badry-alahly-news.html",
    "title": "مستقبل الجهاز الفني للأهلي: حقيقة مفاوضات حسام البدري"
+  },
+  {
+   "q": "درجة الحرارة",
+   "at": "2026-11-24",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "لعبة gta 6",
+   "at": "2026-11-24",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "شهاب الدين أحمد",
+   "at": "2026-11-24",
+   "ok": false,
+   "why": "off-topic"
   }
  ]
 }
