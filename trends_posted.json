@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "q": "new zealand vs india",
-   "at": "2026-10-30",
-   "ok": false
-  },
-  {
-   "q": "new zealand national cricket team vs india national cricket team match scorecard",
-   "at": "2026-10-30",
-   "ok": false
-  },
-  {
    "q": "الدكتور زهير فايز",
    "at": "2026-10-30",
    "ok": false
@@ -2319,6 +2309,18 @@
    "at": "2026-11-24",
    "ok": false,
    "why": "off-topic"
+  },
+  {
+   "q": "إنستاباي",
+   "at": "2026-11-24",
+   "ok": false
+  },
+  {
+   "q": "منصة كيريو اليابانية",
+   "at": "2026-11-24",
+   "ok": true,
+   "url": "https://www.egyptaway.com/2026/11/qureo-japanese-platform-egypt.html",
+   "title": "تفاصيل منصة كيريو اليابانية ومواعيد التدريبات"
   }
  ]
 }
