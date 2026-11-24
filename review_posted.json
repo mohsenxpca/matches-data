@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "title": "iPhone 20 Pro tipped to feature new main camera sensor and ISP - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeE5MT2EwYkQ0NTAwWVRSdVVmald4b0ZTdlg0bkd2LWt4cGQ4QTVWcFlwTHFsME5tNGJ4S2JRT3NxY0ZvQXV3c3IwT3lQVjZvUGt0ckNnLTBvTGUtZTJDVV9XelRoZWJWSURmVWhwTXkyYldfeGpucHRhU0N2TVNlQzRaaVNWRmR0anpwX1A1UmRlZmsxaC14Y3RkRnp4ZWZpQUJsQ9IBoAFBVV95cUxOT2ZXZV9vR3hXODNZRnpGTnJuUTRBcTA1R1JUOHJSVHJTOFB6QjNoUERPVExpdUFGb3UyeWtIWnlFcFNna0hLVEZ6dkhzYWZReGxFTEF1VEdhQ1JvMlNIczItQU5MSEo1YTMyREFWQ0tJWnFVVVZ4Z1M4MkV2YUh1ak10dnlLS25oOW1LUzBJRzQ4YjFTWlpKcnNkZnA5Mlhz?oc=5",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['iphone', 'sensor', 'tipped', 'main']"
-  },
-  {
-   "title": "Oppo's next Pro Max may hide its bezels under four-sided curved glass",
-   "url": "https://www.gsmarena.com/oppos_next_pro_max_may_hide_its_bezels_under_foursided_curved_glass-news-75495.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (571 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Could your driver’s licence soon be on your phone? - NorfolkToday.ca",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xY2lCUTZSa01GaFM3cVNpLTFGYUZwT1llVlRYVVJBXzdfeXJWOXdIUlZwRDFaZXhORlBVZm9sT0ZmWXcxXzYtMUlDUGhhc0lpT2pLamJnbFpudw?oc=5",
    "at": "2026-11-17",
@@ -3205,6 +3189,20 @@
    "at": "2026-11-24",
    "ok": false,
    "reason": "Phone 's26 ultra' already covered in: خصم هائل على Samsung Galaxy S26 Ultra قبل الجمعة البيضاء"
+  },
+  {
+   "title": "Samsung’s Galaxy Z Flip 9, Fold 9 may bring disappointing camera upgrades - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTEtkXzZ6WDBKT2wydFRhemdfZ21Vd2ZQVUlRVDQtaTRGbngxRFAyN3BMa1E3MEZYcmpoSUlrWWJsMXhMUHB3aGdGbHZoUTF0ZnZaYTl0RThPam5KS2pxQ25BSGpsSTN4WmwtbVA5Y0twVEJkVlJXZTlMZGZHSlR2NUFmTXRnZ0FsNld6NWN3M0NZMF9MaURFV08zY3F2ejRDQU4tbnA1OS05Wm85?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'fold 9' already covered in: سامسونج تضع اللمسات الأولى لـ Galaxy Z Fold 9: تفاصيل تقنية وموعد"
+  },
+  {
+   "title": "Samsung November Updates: Galaxy S25, S24 and Fold 6 Get Freshies - Droid Life",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTXRGXzhieFB4MWRHb2plQlpFdlhPQURNb05kOFhZdW04RTRYaFVucnpFZnZ4Umw2R3duT2dTckVuQ2FfWm54WU1fcTBXYnpXV0syWnhYTk9Hak5nb0QyQVI1SklTbGFpbDItQkphRW1IUS1TaDM2RWhQc0Z4QmUyVGdFM0syczc1dTJCeFZpRU16V21nRmZtV0VmeFlfVTY2SkJTMw?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['galaxy', 'droid', 'life']"
   }
  ]
 }
