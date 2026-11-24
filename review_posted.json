@@ -1,60 +1,6 @@
 {
  "done": [
   {
-   "title": "Set custom Routines based on your Galaxy Z Fold 8’s folding status",
-   "url": "https://www.sammobile.com/news/set-custom-routines-based-on-your-galaxy-z-fold-8-folding-status/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (670 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "How Galaxy AI Premium will affect custom cards in Now Brief",
-   "url": "https://www.sammobile.com/news/samsung-galaxy-ai-premium-raise-now-brief-custom-cards-limit/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (600 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Oukitel C17 Mini - Full phone specifications - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zZ1dJaC1LVFN4UW1tVzlJZFhOSGxhQVF2S2EteXB5c3lzM1BldkZoeDlTUS1Makk1dS1sdFUxYS1tWHZ2ZS1XWTBHMzRRVlI3eXNINlFFSGx2YUhBOV9UMA?oc=5",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (601 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Redmi Turbo 6 series phone bags an important certification",
-   "url": "https://www.gizmochina.com/2026/11/17/redmi-turbo-6-series-phone-bags-an-important-certification/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (676 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Motorola Edge 70 Neo India launch soon, official page hints launch date",
-   "url": "https://www.gizmochina.com/2026/11/17/motorola-edge-70-neo-india-launch-soon-official-page-hints-date/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (572 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Android Time Machine lets you try Android 2.1 through 7.1 right in your browser",
-   "url": "https://www.androidauthority.com/android-time-machine-old-android-versions-browser-3735996/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (698 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "I tested Pixel 10 Extreme Charging, but there’s nothing extreme about it",
    "url": "https://www.androidauthority.com/pixel-10-extreme-charging-update-3733303/",
    "at": "2026-11-17",
@@ -3196,6 +3142,52 @@
    "ok": true,
    "kind": "review",
    "brand": "هونر"
+  },
+  {
+   "title": "Huawei Mate 90 Air vs Samsung Galaxy A38",
+   "url": "https://www.gsmarena.com/huawei_mate_90_air_5g-15099.php||https://www.gsmarena.com/samsung_galaxy_a38_5g-15095.php",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'mate 90 air' already covered in: مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف"
+  },
+  {
+   "title": "Huawei Mate 90 Air arrives with familiar specs",
+   "url": "https://www.gsmarena.com/huawei_mate_90_air_arrives_with_familiar_specs_-news-75607.php",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'mate 90 air' already covered in: مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف"
+  },
+  {
+   "title": "Huawei Mate 90 Air Specs Leak, but the Phone Sounds Familiar - Gizchina.com",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaldMTEdRSU1KRGVZUjgtQzQ3WEgzWnZuc3kzY1E3N0doM0J5X1FweFFiTG1MczloUlJxV0diMHpqMFB6WmRXa1c4am8zckYyVV9aY3RHTXVUUkJvUzJ2VENoTTZVSktVYW9FSmRTbkdiTzV4a1dzNWhxRFBzT05zZ21ETHVfOFZ5dG1INFFTM1ZRVUxlb0lteVVZanQ1UQ?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'mate 90 air' already covered in: مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف"
+  },
+  {
+   "title": "The Xiaomi 19 series could get a camera update that we rarely see - Trusted Reviews",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlFYRGh4cnFQVHZtYUI3M1piMF9QZkltUmZYQ1hGZUkycHpEMGwxYzhhejBHVjRRZ0RlLUdfd3N5bEJxZlVFZUlneEFJT1h5N2tnV0NqVWhCU25FY2lnckt4SU8yMTNUYlMzeGU2dUxzM0djQnltYjNLWU5USW0wLW93Q3dSQi1XVTRqYm1ObmJpdGRzUl9zZjZiTTlTVDVudDlZ?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (627 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung's next One UI update could make Galaxy phones look a little more like iPhones - Yahoo Tech",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT1V0aHZhOVcwNE01Y2w2VWNUYmdUc0lXMVJNRURPeVREMHllX3Fhc0ZxODAzWE9OSUd1STBFYTlsYUhSNlU2MWZtbFZNc0QzeWlFdGZFYUpNemM4M3czX2ZDZ3JWdDRfRVJiM2xfdFFZcnVKTXZjbmFoN2laZnNRb2JrNlJqNzg?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (621 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Huawei Mate X8",
+   "url": "https://www.gsmarena.com/huawei_mate_x8_5g-15022.php",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Model code [x8] with variants set() found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
   }
  ]
 }
