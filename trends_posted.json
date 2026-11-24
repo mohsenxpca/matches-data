@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "q": "الدكتور زهير فايز",
-   "at": "2026-10-30",
-   "ok": false
-  },
-  {
-   "q": "عماد متعب",
-   "at": "2026-10-30",
-   "ok": true,
-   "url": "https://www.egyptaway.com/2026/10/emad-meteb-comments-ahly-players.html",
-   "title": "تصريحات عماد متعب تثير الجدل حول استبعاد ثنائي الأهلي"
-  },
-  {
-   "q": "موعد اذان العصر",
-   "at": "2026-10-30",
-   "ok": false
-  },
-  {
    "q": "أبها ضد الاتحاد",
    "at": "2026-10-30",
    "ok": false
@@ -2321,6 +2304,23 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/qureo-japanese-platform-egypt.html",
    "title": "تفاصيل منصة كيريو اليابانية ومواعيد التدريبات"
+  },
+  {
+   "q": "مكالمة هاتفية",
+   "at": "2026-11-24",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "ساند",
+   "at": "2026-11-24",
+   "ok": false
+  },
+  {
+   "q": "أحمد السقا",
+   "at": "2026-11-24",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
