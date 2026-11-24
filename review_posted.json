@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei Mate X8 RAM and storage options revealed as reservations open - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNW83MFF3Z3p2OGVrOUpHeENNOTVzeldoZWdBajFYTGNkMjBIeWFOdml6NzlZb3N5ZHk2OHNBcW9wS05NZU0xbWlzLVBKYkFPOWpXbFhBRUN4b1RpdmpZdno5OWFSTVFPZFlHcjhtaVFRemZtZEVKZExwbFplN2g1VllyT0w4NEl2d0MxZHNpLVM5a2xFcUJTcTV2azBqV1JDbU9YN1RUTTVJbkl4?oc=5",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['mate', 'storage', 'revealed', 'reservations']"
-  },
-  {
-   "title": "Oppo Reno17 and Reno17 Pro are now official and they're quite familiar - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa3YxRUVGSGpjY1NrUHQ0dGVOY1VmZ2V6a0xUaWFGSzlNOHc4bXE1c2xhRnNNaDR6SEM3MWMxdUpBMmI2aEVWOG85Qk1lVnpYWXAyVlJHc2VVSHRUNnlEd2xudXR2LTdHckoxTjJDWHZwaGQybGNGT18yU2owd3p4N0lWZWlrczdPSUFYS2VXeEI0dmNEa2ZUdUt5TDFZNzRmdVB4UHFBSGxjZnVZQUHSAaoBQVVfeXFMTnR1QUozai03X1FJU1JmTFZVRlI4ZHBKWkphSHpOUVRraVZiempyRnZsZ0xiRjJEaUphaUF0QmVBUVVJa2RSVjZvQ20wU3ZRUUNEV1FyejZnaGRZQWh5ODkwX2RFUmlCbkNCQjlyR1lZS0ZxNnlMVXIxTEVQenJMNTlOd29LQmhVNXF2ODZ1ZTVWX1kwM0RMQTB0Q3d5VDBfckNkeVFXRW4yenc?oc=5",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['quite', 'familiar', 'they', 'reno17']"
-  },
-  {
    "title": "Huawei Osta O1 Pro's live image leaks ahead of launch - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWmp4ck1pQmNvOElQUUFWV0d3R3EzUUNFVkpsbmx3RkFpMU1KR0xiSU1JbHNXN2wyQmlRaV9ob3k5MHd2blV2SzJqVUZoXzN5U0t4cEh3eXlQS2t6bVJ6VjQ3a0Y4RFR3YWxjcFBqUThnNmE3NGF4emo2dEZ4V1dLRUlRWE5qMEJjcHBENVdsVXlFMUFub3M40gGTAUFVX3lxTE9DYXRNQUpvQXlmeVI2RG5SbVpFNU43UnhpNkQtVDZ0ajNJcVZsYWRzVnJHc0pobEF3YUdkekxiRGgxYm1mcDAxVHR4dnlpRXZ6anFVanYwbEphN1Nvb1RJS1BtTmIxc04wZlJEWVpIRFRTQ2ppcktBaVU5WTZqa1B0RHNTV21NYjE1WU5xdW9SejFKQQ?oc=5",
    "at": "2026-11-17",
@@ -3206,6 +3192,24 @@
    "raw_photo": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-y11s-5g-11.jpg",
    "post_url": "https://www.review-mobile.com/2026/11/vivo-y11s-comprehensive-review-specs.html",
    "at": "2026-11-24T02:17:56+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "فيفو"
+  },
+  {
+   "title": "iPhone Air 2 camera leak: two dummy layouts compared - NeoTeo",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObXdSZEJ0aXBlczZ2b1pCMVlfUHdycnNlUENhaEROa2RPbV9IUUlTUzhLcHZBYTdIRXlyLTZHTTRUZnAzajF3YnEtS3FrT2JKTExvMEhURHpqQllkdDhqZnRGM0FVSTVFN1lpR01oUGVmNnJkVWt1TEJqUExnNU04QnFpWQ?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'air 2' already covered in: موعد إطلاق iPhone 18 و iPhone Air 2: تسريبات تكشف خطة أبل الجديدة"
+  },
+  {
+   "title": "مراجعة vivo Y05s: هل يقدم قيمة حقيقية في الفئة الاقتصادية؟ تحليل",
+   "cand_title": "vivo Y05s",
+   "url": "https://www.gsmarena.com/vivo_y05s-15098.php",
+   "raw_photo": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-y05-1.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/vivo-y05s-review-specs-price.html",
+   "at": "2026-11-24T02:47:53+02:00",
    "ok": true,
    "kind": "review",
    "brand": "فيفو"
