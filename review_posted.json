@@ -1,41 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro Max review - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVeU41VC1ZVnkwN0VQd0NIeVg0NzdncUNHNzI1VGFmNVhQbkoxdl9XTlFvbTRpbnB6RzFNRkJ6MG9naHRjb2J6Vy03STBHY25GdWtPWUNBYnJUcllpcnJlWGdMOGpQTGlVcXc?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
-  },
-  {
-   "title": "Xiaomi 18 Pro and 18 Pro Max begin their international rollout - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd01yM0dpSk5mMk8tb1lQR3p0TnRZTEl3djZzZkplUUJCOFZzd1duc2dOZ2R3dVZhbjRMUTV3YmZXcWthc0xjYjJTOFFRejFjQkpGV3otWm5XWkRGXzR2QTNELUtyX1drb3hYdl9WbnVobUFKWktpVXVSQjl3WjlUUWdReXRGMXpkckJCZ05R0gGKAUFVX3lxTE5PUm1EVE1CZ3ZLQmN6Qjdzd1BlTGI4QUZ3R240NlB6cXJFQzE1ZTFNRkFzS1hweEF2Mnhqd213eXAzenhZYWhUWkVJUUdpd0ZXTHBtVUZCZDc2bjdLcENCRkNfLV9za0kwR2kxY3dtZi1OY1RkSDB4UXVJSHhnZlhTS1dTZFVpV09LUQ?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['international', 'begin', 'rollout', 'their']"
-  },
-  {
-   "title": "New leak offers a first look at the iPhone 20 Pro's front glass - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWTdySWhTVVF2MXRkOTJ3c1pLcWMwQlVNdDNPeVNEanNfbFVwbFRRSGRyaHlLamwyXy1IUmY4Z0FSOFZoOUhnbmdmVkN5aWpiQkc4a3hZZTladTJaZ3B4NFZXaGtsWDZPaG9vQ1ZvakhQTEJWMHBBZ29VNmx6VzBHZlc0SVdEbmhETEw0VUdpTjNsaUFOQWxQUVBqTUMwcGRuV0FmRNIBoAFBVV95cUxObzFOWHIzMTBVem05Q0VLMndkQURpNWsyTzYwWk9LTXo4akEtTTRRUzVYeS1Fc2J1YWZvNHVLYXptYmlpMHI5OHJHYWY3SUpPUzlrd0RHR2QzczNuNVRpNHl0cE5rRDE2d1A0XzdBZS10MlMzMWdsV0tmdE50UnJuV2JZMmtvM2EwYWJZNktjLTlKc290Smg3a0FJMzV5OHcw?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['front', 'look', 'glass', 'offers']"
-  },
-  {
-   "title": "Xiaomi 18 Pro Series Australia: Price, Specs & Black Friday Deals - Digital Reviews Network",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZFFiZG81dmkyR1pvejRDMlhMcG9MWWJWUkQ4Y3NMaHZuVVdlTUdFdF9xMVBuR3V0LVdNYXAxajNNSmFRcEV0NG4yalN1QkU1MHZsbnNNbnE4cHdMXzZhWlg5TzVBT055YVRONHRpcGhWT3R3WDAzZGJjX0VQSms2dGlydmgxUmJDQ2QyVnd0US1KZHlYUV9sUkJ3ZC1WZzlLc3haaw?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
-   "title": "Xiaomi 18 Pro",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro-14959.php",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
    "title": "Samsung could beat Apple to market with a bezel-less phone display",
    "url": "https://www.gsmarena.com/samsung_could_beat_apple_to_market_with_a_bezelless_phone_display-news-75510.php",
    "at": "2026-11-18",
@@ -3192,6 +3157,45 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "iPhone 18e is reportedly getting a redesigned camera island",
+   "url": "https://www.gsmarena.com/iphone_18e_is_reportedly_getting_a_redesigned_camera_island-news-75613.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone '18e' already covered in: تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق"
+  },
+  {
+   "title": "Huawei Mate X8 launches with a magnetic controlled flattening hinge system - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYkpkamptZXV0YWZKRHA2aDFQUW8wZ1pzQTRxSm9NZ0o4OHpyNjY4ekxrNnNvTHliOEt0Zy1CSkZISWFhX3BBM1dvUVlvNExWcXpwTlRaUk5NaFdjX1ljOHNXOFladzdCMWJMRjRrYk11V3ZDX3NsMDhIVVd1cWJENE9wcXRFMFhKdERrMDBmVHVkWW51cURVRk5DM1lHMDBpcDNZT3BIMVg3d2N5R3JpYVpER3ZyZ9IBsgFBVV95cUxNVHJSTGp1WFIyb1NUd2FuU1dBWXlSWmJMUUFlWDlPYm4yVjFRNmVHOHEwZ0xldVM3dFg2VDFJdmZTRWhwa05xa2lFUUNrV004U0MxOUN3Tmd5Ym9GYWNNbW1HUWxrQjNqRHR6SENZR0hmQlV2YVBnSW9HNkkyaE9QZ3ptdWRVd1pFZHFnbURYdDhBUndMQ1QyNVo3UFFNMUNDX2ZPWXVpaG1iTUZsV0tROGln?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['controlled', 'flattening', 'mate', 'system']"
+  },
+  {
+   "title": "Huawei Mate 90 Air arrives with familiar specs - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc0dRLXdaWFdlcnJ0OWlMRENvWS1FOVM1Tkh2M0J0NzlUYlNPVTZEVFZPTXM5NTBhcVJhMElVNkxJWGtZRlZ4YTdTM3VBU0ljQW9uTzdsYzZnRmJLUFhraHEwb1hkSFgxeWY0alViVVdUcUhTdFViSkk0SkRPRTJ2TW9DWkhFWTEzVGZJVXVJOW_SAYwBQVVfeXFMT0ZPaVZwb0d0UUhFOVY1QTl3bjBvdzNESG1xZkRfay1aN0Zqb3FtbHROVGRJM1BWUGVrWEdUdENvN1B3czFHTXVyY3JhVldIQTM0dk4xNUFMRkhoeGhoRXVYdjdZbE1qOTVIWXJnZjVXaWMxNlZDMUR5TktsRzJzWXVKNVRrUFJ6azNGMkM?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['arrives', 'mate', 'familiar']"
+  },
+  {
+   "title": "Motorola Edge 70 Neo's price and sale date announced - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUHdOOC1tTnBORlNNbldNc2tnWDh4X0RQa1ZDTUkzWW9xZ0VMMGFyTkJESDk3T0llcE1LU2s3TVYzckhZTUtyazNPWnc3YV9nSEVEN1NNUlFtc25lU2wtbFpFRDdTRW15SC0wbVBXMEsyOG84YTUzamx1aFlETURELTJR0gF-QVVfeXFMT0F3MHhSNDFzSGowOHRVY1FScGtJSGk5cl85c0dHbFJpNzJ0dkM3YTZPR3V0dUNIZk5yY1B2OTZUSzFmUjBvVlU5TmczalFPZzNMcDVIRzQ0Y3BzLTZTNVdTMDVIeVNOY2Y5OFpIb25HVWFkNlhBSTRFM0RrLU93?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['motorola', 'edge', 'date', 'sale']"
+  },
+  {
+   "title": "فرصة ذهبية: خصم 200 جنيه إسترليني على Oppo Find X10 بمناسبة الجمعة",
+   "cand_title": "Deal: the Oppo Find X10 is £200 off - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TckpyX0VBZEpjQmE4OWxQTDIwYzlaeTROTHdGZW1uQUtZZXoyN2dHU1BrZUlUa3JzV2tTX1hINm1KWTVLMTZzUXB2UU43elBZbndlTklJRnNFbGVQOFRpUnFVbVp1LWlSM3hna3hDYkxMMHlndVhJbzNGRDI1Z9IBekFVX3lxTE9UVFJLVnJWZTEzcXZybkN2U05oaFRTQzVJN0tnX1NGYms2cU5mZU5FWUw5U3RGVHRkX0g2TjlwclByMVJ1QURHZk0tM3RkUDB4NFF6emJCdmpyY2J6OEJtWERaZy1QLWpJSmVBWlNPdHJPdm4tNU9SMkR3?oc=5",
+   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/deals-uk-oppo-find-x10/-952x498w6/gsmarena_001.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/oppo-find-x10-black-friday-deal.html",
+   "at": "2026-11-25T01:27:57+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اوبو"
   }
  ]
 }
