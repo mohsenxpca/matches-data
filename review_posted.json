@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Google’s ‘Pixel virtual gamepad’ is finally rolling out for foldable Pixels",
-   "url": "https://www.androidauthority.com/google-pixel-virtual-gamepad-rollout-3735792/",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (649 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "SKT Launches BOOX Palma 3 Smartphone-Style E-Paper Device in Japan at ¥54,800, Running Android 16 - BigGo Finance",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QdDhMTW0yb09LeDFFX2h1V2FIVGdBSDNScVFtaGtfUE5CaWV2ZnMwNVI3WW45YTkzQ0lEMGUtU2NuNjBfTVhRQ2xCMXBaTjVWeFJqUVJGN25TSW5wNkp4cnphOF9XU3Q5cThEbEVxcGRxRjFJWUE?oc=5",
    "at": "2026-11-17",
@@ -3203,6 +3194,13 @@
    "at": "2026-11-24",
    "ok": false,
    "reason": "Recent story overlap on key terms ['awfully', 'familiar', 'sound', 'mate']"
+  },
+  {
+   "title": "Galaxy Fit 4 could be slightly pricier than the Galaxy Fit 3",
+   "url": "https://www.sammobile.com/news/galaxy-fit-4-slightly-pricier-than-fit-3/",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'fit 4' already covered in: مراجعة Galaxy Fit 4: تسريبات التطبيق تكشف المواصفات الكاملة والسعر والمتوقع"
   }
  ]
 }
