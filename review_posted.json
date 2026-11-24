@@ -1,34 +1,6 @@
 {
  "done": [
   {
-   "title": "Sharp Aquos sense11 vs Oppo Reno17 (China)",
-   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['sharp', 'reno17', 'aquos', 'sense11']"
-  },
-  {
-   "title": "vivo V80 FE vs Oppo A7 Pro",
-   "url": "https://www.gsmarena.com/vivo_v80_fe_5g-15061.php||https://www.gsmarena.com/oppo_a7_pro_5g-14928.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'a7 pro' already covered in: مراجعة Oppo A7 Pro: المواصفات الشاملة، السعر، المميزات والعيوب"
-  },
-  {
-   "title": "New leak offers a first look at the iPhone 20 Pro's front glass",
-   "url": "https://www.gsmarena.com/new_leak_offers_a_first_look_at_the_iphone_20_pros_front_glass-news-75503.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Phone 'iphone 20 pro' already covered in: تسريب iPhone 20 Pro: هل نودع الحواف التقليدية في ذكرى أبل العشرين؟"
-  },
-  {
-   "title": "Sharp Aquos sense11 vs Xiaomi 18 Pro Max",
-   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php",
-   "at": "2026-11-17",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['sharp', 'sense11', 'aquos']"
-  },
-  {
    "title": "Xiaomi 18 Pro vs Oppo Reno17 Pro (China)",
    "url": "https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php||https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php",
    "at": "2026-11-17",
@@ -3177,6 +3149,38 @@
    "at": "2026-11-24",
    "ok": false,
    "reason": "Model code [90] with variants {'air'} found in review: مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف"
+  },
+  {
+   "title": "Android Canary 2611 hides an iPhone-style scroll-to-top shortcut, and we got it working",
+   "url": "https://www.androidauthority.com/android-scroll-to-top-feature-canary-2611-apk-teardown-3738735/",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'canary 2611' already covered in: إطلاق Android Canary 2611: تحديثات جديدة لهواتف Pixel"
+  },
+  {
+   "title": "HUAWEI Mate X8 launched with foldable hardware that embarrasses Samsung, Google - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KTF9lVU96bk9VcU9ianA3UGlNZGZJTWYtemhRanV2V2VEeXZBb1F2RzV6M0NoR3NPSFhwZ0hWR21vT05QRmd3TFZHeDlVaGFINTFOSTVFU01kZW9FWEJ5X1c3SlRYT3JUOG9IMWRpdjJyNFNyeGlhUUVYNFBJMmM?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Model code [x8] with variants set() found in review: مراجعة POCO X8 Pro Max 2026: بطارية 8500 وشاشة 6.83 بوصة"
+  },
+  {
+   "title": "Xiaomi 18 Pro Series: Specs & Where to Buy - Singtel",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeWtsc01XZ3hKYjBrVWtZRjFqNkVCYnR0dDFRb0xzZlV6dmJrMEVLWUtackR4SkU0WGJWQ3AyUm9PbjFpS002aXk0dnl1ZXAyaWhoaHFiTXY4M3h5Y0FJNm5aLU9pWGxmdHUxMGQzN1dZcXlEcGxaMVdQVV93cjVMaC1UaW9vM2FUbjJaSjRsQzZaUGdvU1hkeXAwZlpodUd5OUF5TmliQ0lhZw?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
+  },
+  {
+   "title": "كيف تحمي نومك بهاتفك؟ ميزة سحرية في أندرويد لا تعرفها",
+   "cand_title": "Your Android phone has a 'Bedtime Mode,' and it's better than you think - Yahoo Tech",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLVJ2TDRxbzJ5emJ1b2JVWFliWkZ6UUZzZEd5bzVHYmN2X0RVZEE1aDd2XzhEektBaFBfN1FNc3BEUlJZRVpER09zdTU1RURCY0JuSjZrWWRsTDd2QzZiTHVLSUlxMFUxWV9IVzZkUDhjMEtuQ1NyMmlZYnJGZDY2a0hoc3Y2UlVqM21jQnY0YTk?oc=5",
+   "raw_photo": "https://s.yimg.com/lo/mysterio/api/b7ec47aa2c5ef4e134103a5501f84fe15fd6d5acf4f891e83171c0c04680bf38/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fhow_to_geek_999%2F05b823c525abc5526c99cd0642c96159.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/android-bedtime-mode-review.html",
+   "at": "2026-11-24T13:56:52+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
