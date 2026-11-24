@@ -40,6 +40,9 @@ _RESOLVED_TOKEN_CACHE = {}
 MIN_GAP_MINUTES = 75
 MAX_GAP_MINUTES = 130
 DAILY_CAP = 10
+DAILY_LINK_CAP = 1
+DAILY_STORIES_CAP = 4
+STORY_MIN_GAP_MINUTES = 210  # 3.5 hours between Stories -> 3-4 Stories/day naturally
 
 PHONE_LABELS = {
     "هواتف", "أخبار هواتف", "اخبار هواتف", "موبايلات", "اسعار الموبايلات", "أسعار الموبايلات",
@@ -66,11 +69,11 @@ REAL_PHONE_BRAND_RX = re.compile(
 )
 
 ENGAGEMENT_QUESTIONS = [
-    "💬 شاركنا رأيك في التعليقات: شايف المواصفات دي مناسبة ولا كنت تتوقع أفضل؟",
-    "💬 إيه أكتر ميزة لفتت نظرك في الموبايل ده؟ شاركنا رأيك!",
-    "💬 من وجهة نظرك، هل الهاتف ده هينافس بقوة في فئته السعرية؟",
-    "💬 لو بتفكر تجدد موبايلك قريب، هل الموديل ده هيكون ضمن اختياراتك؟",
-    "💬 تفضل الشركة دي في الموبايلات ولا ليك تجربة أفضل مع ماركة تانية؟"
+    "بصراحة بقى ومن غير تحيز.. تدفع فلوسك في الموبايل ده ولا شايف إن فيه بديل أحسن منه؟ 👇",
+    "قولي رأيك بصراحة في الكومنتات: دي نقلة حقيقية فعلاً ولا مجرد كلام تسويق عشان يرفعوا السعر؟ 🤔",
+    "سؤال للي جربوا الشركة دي: لسه واثق فيها ولا المنافسين سبقوها بكتير؟ شاركنا تجربتك 👇",
+    "لو معاك تمن الموبايل ده دلوقتي.. تشتريه ولا تروح لماركة تانية؟ اكتب اختيارك 👇",
+    "إنت شايف الشركة دي بتسمع للناس فعلاً ولا بتعمل اللي في دماغها وخلاص؟ مستني رأيك في التعليقات 👇"
 ]
 
 PROMO_SKIP_RX = re.compile(
@@ -83,10 +86,10 @@ PROMO_SKIP_RX = re.compile(
 )
 
 FB_VIRAL_STYLES = [
-    ("debate", "أسلوب النقاش والجدل: ابدأ بسؤال أو جملة مثيرة للنقاش عن الهاتف/الميزة، اعرض 3-4 حقائق سريعة، واختم بسؤال يخلي المتابعين يتجادلوا في الكومنتات (مثلاً: هل يستحق ولا أوفر برايسد؟ سامسونج ولا منافس تاني؟)."),
-    ("breakdown", "أسلوب الخلاصة في 30 ثانية: ابدأ بجملة تلخص أهم مفاجأة في الخبر، بعدها نقاط قصيرة جداً (✅ المميزات / ⚠️ الملاحظات أو أبرز الأرقام)، واختم بسؤال مباشر للمتابعين."),
-    ("breaking", "أسلوب الخبر العاجل الخاطف: ابدأ بهوك قوي يوقف السكرول عن أحدث تسريب أو تحديث، اذكر أهم 3 تفاصيل رقمية بوضوح، واختم بسؤال تفاعلي قصير."),
-    ("buyer", "أسلوب نصيحة قبل الشراء: ابدأ بسؤال (لو بتفكر تغير موبايلك..)، لخص مين اللي الموبايل ده مناسب ليه ومين لأ بناءً على الحقائق، واختم بسؤال عن اختيار المتابعين.")
+    ("hot_take", "أسلوب الرأي الجريء المستفز للنقاش: ابدأ بجملة بشرية صادمة أو مستفزة بذكاء زي (بصراحة بقى ومن غير زعل..) أو (أنا مش فاهم إيه اللي الشركة دي بتعمله..)، احكي الخبر كأنك بتدردش مع صاحبك، واختم بسؤال يخلي الناس تدخل تعترض أو توافقك في الكومنتات."),
+    ("versus_clash", "أسلوب إشعال المنافسة بين الماركات: ابدأ بمقارنة ساخنة تثير عشاق سامسونج والمنافسين، اذكر أهم 2-3 أرقام حقيقية في الخبر بأسلوب عفوي، واختم بسؤال يخلّي كل فريق يدافع عن ماركته في التعليقات."),
+    ("truth_bomb", "أسلوب كشف الحقيقة بدون تجميل: ابدأ بسؤال مستفز عن ميزة أو عيب أو سعر في الخبر (هل فعلاً يستاهل ولا ضحك على الدقون؟)، اشرح التفاصيل ببساطة وبأسلوب بشري تلقائي، واختم بسؤال مباشر للمتابعين."),
+    ("wallet_check", "أسلوب اختبار المشتري: ابدأ بجملة (تخيل تدفع المبلغ ده وفي الآخر..) أو (لو ناوي تغير موبايلك استنى لحظة..)، لخص الحقيقة بأسلوب مصري خفيف ومباشر، واختم بسؤال: تشتريه ولا تطنشه؟")
 ]
 
 
@@ -721,16 +724,16 @@ def _gemini_fb_copy(title, bullets, paras, specs, mode="native"):
     style_name, style_desc = FB_VIRAL_STYLES[style_idx]
 
     if mode == "link":
-        prompt = f"""أنت مدير سوشيال ميديا محترف لصفحة فيسبوك تقنية شهيرة اسمها «موبايل بالعربى».
-اكتب نص **بوست فيسبوك قصير وخاطف للانتباه** (مش مقال موقع!) بالعامية المصرية الراقية المبسطة عشان تشجع الناس تضغط على الرابط وتعلق.
+        prompt = f"""أنت شاب مصري فاهم موبايلات كويس جداً وبتدير صفحة فيسبوك شهيرة اسمها «موبايل بالعربى».
+اكتب **بوست فيسبوك قصير وبشري ومستفز للنقاش بذكاء** (مش أسلوب روبوت ولا أسلوب مواقع!) بالعامية المصرية الطبيعية التلقائية.
 
 القواعد الصارمة:
-- السطر الأول: جملة «هوك» قوية ومثيرة للفضول توقف السكرول (مع إيموجي واحد مناسب).
-- السطر التاني: سطر أو سطرين بحد أقصى بأهم معلومة أو رقم مثير من الحقائق فقط (لا تخترع أرقاماً).
-- السطر التالت: دعوة طبيعية للقراءة زي: «التفاصيل والمواصفات كاملة من هنا 👇» (بدون وضع أي رابط لأن الرابط سيضاف تلقائياً تحت النص).
-- ممنوع تماماً عبارات المواقع والمدونات مثل: (موضوع يهمك، اقرأ أيضاً، في هذا المقال، خاتمة، المصادر).
+- السطر الأول: جملة بشرية جريئة ومستفزة للفضول توقف السكرول فوراً (زي: «بصراحة بقى ومن غير زعل..» أو «حد يفهمني إيه اللي بيحصل ده؟!»).
+- السطر التاني: معلومة أو رقم حقيقي صادم من الحقائق فقط (لا تخترع أرقاماً).
+- السطر التالت: دعوة طبيعية: «لو عايز تشوف التفاصيل والمواصفات كاملة سبتهالك في أول تعليق 👇» (بدون وضع أي رابط).
+- ممنوع تماماً لغة الذكاء الاصطناعي والنشرات الصحفية (ممنوع: في خطوة تعكس، أعلنت شركة، مما يجعله خياراً، موضوع يهمك، في هذا المقال).
 - ممنوع تماماً إدخال حروف إنجليزية داخل كلمة عربية (مثل عandك) — اكتب بعربية سليمة تماماً.
-- الطول الإجمالي: 25 إلى 50 كلمة فقط.
+- الطول الإجمالي: 30 إلى 55 كلمة فقط.
 
 رجّع JSON بالشكل ده فقط:
 {{"post": "نص بوست الفيسبوك هنا"}}
@@ -739,19 +742,20 @@ def _gemini_fb_copy(title, bullets, paras, specs, mode="native"):
 {facts_text}
 """
     else:
-        prompt = f"""أنت مدير سوشيال ميديا محترف لصفحة فيسبوك تقنية شهيرة اسمها «موبايل بالعربى».
-اكتب **بوست فيسبوك كامل بدون أي روابط** مصمم خصيصاً لزيادة التفاعل والكومنتات والمشاركات (Engagement & Reach) على فيسبوك.
+        prompt = f"""أنت شاب مصري خبير موبايلات وبتدير صفحة فيسبوك شهيرة اسمها «موبايل بالعربى».
+اكتب **بوست فيسبوك كامل بدون أي روابط** يبان 100% إنه مكتوب بإيد إنسان حقيقي بيدردش مع متابعينه، بأسلوب جريء ومستفز للنقاش بذكاء عشان يولّع التعليقات والمشاركات.
 
 الأسلوب المطلوب للبوست ده: {style_desc}
 
 القواعد الصارمة:
-- اكتب بأسلوب فيسبوك طبيعي وجذاب (عامية مصرية راقية ومفهومة لكل العرب، سطور قصيرة ومريحة للعين على الموبايل).
-- السطر الأول لازم يكون Hook قوي يوقف السكرول ويشد القارئ يضغط «عرض المزيد».
-- اعرض أهم 3 أو 4 تفاصيل/مواصفات/أسعار حقيقية من الحقائق فقط (ممنوع اختراع أي رقم أو سعر مش موجود) في نقاط سريعة بإيموجي أنيق.
-- اختم بسؤال نقاش قوي ومحدد يخلي الناس ترد في الكومنتات.
+- اتكلم بالعامية المصرية العفوية الطبيعية (كأنك بتحكي لصاحبك على القهوة بس بأسلوب محترم ومفهوم لكل العرب).
+- ممنوع تماماً أسلوب الذكاء الاصطناعي والصحافة الرسمية! (ممنوع جمل زي: في خطوة تعكس، أعلنت الشركة العملاقة، مما يعزز مكانة، يمثل هذا الإعلان، في الختام، موضوع يهمك، اقرأ أيضاً).
+- بلاش تخلي كل البوست قايمة مملة من علامات ✅ و ⚙️ — اكتب سطور بشرية قصيرة مريحة للعين على الموبايل، وممكن 2-3 نقاط سريعة بالأرقام الحقيقية من الحقائق فقط (ممنوع اختراع أي رقم أو سعر).
+- قلل الإيموجي (2 أو 3 إيموجي طبيعيين بس في البوست كله عشان ميبانش سبام).
+- اختم بسؤال مستفز بذكاء يخلي الناس تنقسم في الرأي وترد في الكومنتات (مثلاً: تدفع فيه المبلغ ده ولا شايفه ضحك على الدقون؟ سامسونج ولا غيرها؟).
 - ضيف في آخر سطر 3 هاشتاجات مناسبة منها #موبايل_بالعربي.
-- ممنوع تماماً وضع أي روابط أو أسماء مواقع، وممنوع نهائياً عبارات المقالات مثل (موضوع يهمك، يمكنك أيضاً قراءة، في هذا المقال، تنويه تحريري).
-- الطول: 80 إلى 140 كلمة فقط.
+- ممنوع تماماً وضع أي روابط أو أسماء مواقع، وممنوع حروف إنجليزية جوه كلمات عربية.
+- الطول: 75 إلى 130 كلمة فقط.
 
 رجّع JSON بالشكل ده فقط:
 {{"post": "نص بوست الفيسبوك الكامل هنا"}}
@@ -873,16 +877,22 @@ def build_native_nolink_caption(title, content):
 
 
 def choose_next_mode(state, requested_mode="auto"):
-    """Alternates between 'link' posts and full 'native' (no-link) posts so the page never looks like a link farm."""
+    """Policy requested by Mohsen (2026-11-24):
+       - MAX 1 link-in-comment post per day (DAILY_LINK_CAP = 1).
+       - ALL other posts of the day are 100% full native no-link posts for maximum reach & engagement.
+    """
     if requested_mode in ("link", "native"):
         return requested_mode
     hist = state.get("fb_history", [])
-    if not hist:
-        return "link"
-    recent_modes = [h.get("mode", "link") for h in hist[-2:]]
-    if len(recent_modes) == 2 and all(m == "link" for m in recent_modes):
+    today = datetime.datetime.now(f.CAIRO).date().isoformat()
+    today_posts = [h for h in hist if (h.get("at") or "").startswith(today)]
+    today_links = sum(1 for h in today_posts if h.get("mode") == "link")
+    if today_links >= DAILY_LINK_CAP:
         return "native"
-    return "link"
+    # Publish the 1 daily link post as the 2nd post of the day (start the day with a viral native post first!)
+    if len(today_posts) >= 1:
+        return "link"
+    return "native"
 
 
 def check_timing_policy(state, now, force=False):
@@ -1284,19 +1294,41 @@ def build_story_image_bytes(base_im, title, content="", save_preview_path=None):
     return buf.getvalue()
 
 
+def _can_post_story_now(state, now, force=False, dry=False):
+    """Allows 3-4 Stories per day (DAILY_STORIES_CAP = 4), spaced at least STORY_MIN_GAP_MINUTES (3.5h) apart."""
+    if force:
+        return True, "forced"
+    today = now.date().isoformat()
+    today_stories = [s for s in state.get("fb_stories", []) if s.get("date") == today]
+    if len(today_stories) >= DAILY_STORIES_CAP:
+        return False, f"daily stories cap reached ({len(today_stories)}/{DAILY_STORIES_CAP} today)"
+    if now.hour < 9 and not dry:
+        return False, "waiting until 9:00 AM Cairo time"
+    if today_stories and not dry:
+        last_at_str = today_stories[-1].get("at")
+        if last_at_str:
+            try:
+                last_at = datetime.datetime.fromisoformat(last_at_str)
+                if last_at.tzinfo is None:
+                    last_at = last_at.replace(tzinfo=f.CAIRO)
+                elapsed = (now - last_at).total_seconds() / 60.0
+                if elapsed < STORY_MIN_GAP_MINUTES:
+                    return False, f"last Story was {int(elapsed)}m ago (waiting for {STORY_MIN_GAP_MINUTES}m gap)"
+            except Exception:
+                pass
+    return True, f"ok ({len(today_stories) + 1}/{DAILY_STORIES_CAP} today)"
+
+
 def post_daily_story(title, url, image_url=None, content="", dry=False, force=False, preview_path=None):
-    """Publishes 1 daily Facebook Page Photo Story via /{page_id}/photos (published=false) + /{page_id}/photo_stories."""
+    """Publishes up to 4 daily Facebook Page Photo Stories spaced naturally throughout the day."""
     state = load_state()
     now = datetime.datetime.now(f.CAIRO)
     today = now.date().isoformat()
 
-    if not force:
-        if any(s.get("date") == today for s in state.get("fb_stories", [])):
-            print(f"Facebook Story: already posted today ({today}).")
-            return False
-        if now.hour < 11 and not dry:
-            print("Facebook Story: waiting until after 11:00 AM Cairo time.")
-            return False
+    allowed, reason = _can_post_story_now(state, now, force=force, dry=dry)
+    if not allowed:
+        print(f"Facebook Story: skipping ({reason}).")
+        return False
 
     clean_title = html.unescape(title or "").strip()
     clean_url = (url or "").replace("http://", "https://").strip()
@@ -1360,17 +1392,13 @@ def post_daily_story(title, url, image_url=None, content="", dry=False, force=Fa
 
 
 def run_daily_story(dry=False, force=False, lookback_hours=120, preview_path=None):
-    """Checks if today's Facebook Page Story has been published; prioritizes Samsung phones, apps & updates first."""
+    """Checks if another Facebook Page Story is due today (up to 4/day spaced 3.5h apart); prioritizes Samsung first."""
     state = load_state()
     now = datetime.datetime.now(f.CAIRO)
-    today = now.date().isoformat()
-    if not force:
-        if any(s.get("date") == today for s in state.get("fb_stories", [])):
-            print(f"Facebook Daily Story: already published today ({today}).")
-            return False
-        if now.hour < 11 and not dry:
-            print("Facebook Daily Story: waiting until 11:00 AM Cairo time.")
-            return False
+    allowed, reason = _can_post_story_now(state, now, force=force, dry=dry)
+    if not allowed:
+        print(f"Facebook Daily Story: skipping ({reason}).")
+        return False
 
     done_story_urls = {s.get("url") for s in state.get("fb_stories", []) if s.get("url")}
     since = (now - datetime.timedelta(hours=lookback_hours)).isoformat(timespec="seconds")
