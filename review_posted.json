@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "تسريبات سلسلة أوبو رينو 17: بطارية عملاقة ومواصفات نارية",
-   "cand_title": "The Oppo Reno 17 and 17 Pro will be unveiled next week, but the specs have already leaked - Android Central",
-   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQVAycXU1RDFLWjFkcWtvWlEyVWxsdGZlNzJKd2FHWXFQMENRS1JrSXExWGhDRy1senpwMC1LSmdUc2ZTdjcxaEhCV3pMTGhhY1BET2pobTZsUjE4RHBZUEZKY0x3d2t2Wm45ODdtWGFrbTVLR2ttblB4Wjhha19CTTk5RVVDSVFhNV95aEVuLW02dUl4emtOb1RNYXNYREJGeWEwNWd0VDJldnpnNTVraUQ4a3hoMjlDWTRxc3hWN0dIRWJhbnc2RXBjZzdwRFIySFY3ckUzTkg1S3BvOTBOVUkxUEthX1BTZXlOODZIdjY2OHlwcWIzamJR?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-reno-17-series-leaks.html",
-   "at": "2026-11-17T03:37:02+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اوبو"
-  },
-  {
    "title": "How to back up your entire Android phone to a local PC (without Google Drive) - How-To Geek",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUNRRmN3MmFoVlE5V2RBb2tnWEZDa2N1V3ZiNl9zMHF0UmtwUWxzdjlsXzQyeUlDS2ZPUVdjNjRwc0NqLTJKU0NoM0JLcDhJS1N3eXRQNm5nSERPdURHeXFxZnAyLU9KektqTXAtVEgwMUJHaFNRcktQcUFvcC0xeF9Ba05HZ0c4N24xYnZxaDlrZVk5MGg4RVcySQ?oc=5",
    "at": "2026-11-17",
@@ -3210,6 +3200,13 @@
    "at": "2026-11-24",
    "ok": false,
    "reason": "Model code [magic8] with variants {'pro'} found in review: مراجعة HONOR Magic8 Pro: تليفوتو 200 ميجابكسل وبطارية 7100 مللي أمبير وSnapdragon 8 Elite Gen 5"
+  },
+  {
+   "title": "Motorola Edge 70 Neo is here with a 7,000 mAh battery and 144Hz screen - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTWNCc09VdjVQQXRhUFkzLTFlNldwclJCaXpjY21yQ3QxcWFMdlJObjM1TzA2Nzd2MDJHTjNQZ3NHRXFyNGJtbmc4S2ZxbHdzdHJHRFI1NGRoZVZtU3NVU3I5M0twSFJPRk84QXhUTFpYM2NKbFEtbXVIWmNSMVJSYzd2S2lBaGlHbld2aE00NzR3LWpReDBxQjdFeEx3VkhPNHJjZG90c1RadDJ5UkHSAaoBQVVfeXFMTW43cjZMVmY4YlZKNzN6MUFwVF9RWngxWjBYUFNHQlIxMzM1aVR2aGJOOVlVZHVlWWRIdE84dHFjZnFQcWZSblhFUnVjLS15cXIzRXF2LWxIT1NqZ1lUbVNlU0o4RFBxOXpCU19FQnJXUEo2S3IyRWdEdFVSMTBBRzM4NjRONVRzYUhXZl9qdDJFdWhBT3hPYUxhYnJJTWoxRHdKcWlMdWVLRlE?oc=5",
+   "at": "2026-11-24",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['motorola', 'edge', '144hz']"
   }
  ]
 }
