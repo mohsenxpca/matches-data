@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "تحديث Zeekr X الجديد: تحكم كامل بهاتفك ولكن بشرط واحد",
-   "cand_title": "Your Zeekr X can now be controlled with a phone, but there’s a catch - AutoBuzz.my",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSm9MRUNkVDlMQjJpVXZrQnkzNmp0b2hvc3FOTFlhNXFvVDBDSERBeHA1TXJOSTJkamx0LVVfVm94SGluT2JwSEpqYnBZSl9SdEo4ejdsdjV6THhUbE8tV0p5YktWbGtOR25KR1daZldtdXd4SUE2cUtiSUhvU09BQjJoMGVCamFIckdicjRuaHZsamN0Y2FWOXZTVVdmVUk?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/zeekr-x-phone-control-update-analysis.html",
-   "at": "2026-11-18T09:35:18+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات",
    "cand_title": "Motorola starts teasing the Edge 70 Neo, hints at when it will be announced",
    "url": "https://www.gsmarena.com/motorola_starts_teasing_the_edge_70_neo_hints_at_when_it_will_be_announced-news-75516.php",
@@ -3191,6 +3181,13 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "T-Mobile announces Black Friday 2026 deals: Free Pixel 11 Pro, Galaxy S26 Plus, and more",
+   "url": "https://www.androidauthority.com/t-mobile-black-friday-2026-deals-3739162/",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['deals', 'black', 'friday']"
   }
  ]
 }
