@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "q": "مان سيتي ضد برايتون",
-   "at": "2026-10-31",
-   "ok": false,
-   "why": "banned topic"
-  },
-  {
-   "q": "الهلال",
-   "at": "2026-10-31",
-   "ok": true,
-   "url": "https://www.egyptaway.com/2026/10/al-hilal-squad-news-update.html",
-   "title": "غيابات وعودة في قائمة الهلال لمواجهة الفتح"
-  },
-  {
-   "q": "أشرف بن شرقي",
-   "at": "2026-11-01",
-   "ok": false,
-   "why": "banned topic"
-  },
-  {
    "q": "رافينيا",
    "at": "2026-11-01",
    "ok": false,
@@ -2326,6 +2307,24 @@
    "at": "2026-11-25",
    "ok": false,
    "why": "banned topic"
+  },
+  {
+   "q": "نادي صباح ضد برشلونة",
+   "at": "2026-11-25",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "نادي صباح ضد برشلونة",
+   "at": "2026-11-25",
+   "ok": false,
+   "why": "banned topic"
+  },
+  {
+   "q": "البنك المركزي المصري",
+   "at": "2026-11-25",
+   "ok": false,
+   "why": "no source text"
   }
  ]
 }
