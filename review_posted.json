@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung’s bezel-less phone display could arrive before Apple’s 20th anniversary iPhone",
-   "url": "https://www.gizmochina.com/2026/11/18/samsung-bezel-less-display-before-apple-20th-anniversary-iphone/",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['bezel', 'less', 'could']"
-  },
-  {
    "title": "iQOO Z12 Lite shows up in the Google Play Console, has key specs revealed - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHRIbHdfVS00MktIaFMtb2pHaXdkVjgwVjB1X2NwUFZwT3RxS1pUakhlQzYwMWNsVkhQdmZpZUN4YVBTQTZtSkN2X3BtaHFiVDdrek5CLTNDUUhha0hWZWVLS0Vwbk5ibXc0dG5JR1FSMDkzT1c5U29XMGxiUzJyanhjUlZlWjNzZ0U0OUFXWm1TX0tubEx2LWdBZE11TDRyTkY5Zk1JdnlaX01CYWk1Mlln0gGuAUFVX3lxTFBubnk3VUF1aTdpdDFDUGJKdHRINHdKYU5OZjRFRzg2RGdrMXViT043VGozZUR5S1hGMmltX3ZBNlEyUjF5TkZ1UklLNGFKZWJ5aXVUWUl0Qnp1clVuUE5acnBPQmp0U3pSdUxKY2NMNkRVX3hydzhSd2hzLUpCU0VfNkFtVkF2WXNkNm1SZlA5SEdIWnNPTWFiX3FLellxaVhPaTBwck92bmZuUkJJdw?oc=5",
    "at": "2026-11-18",
@@ -3185,6 +3178,16 @@
    "at": "2026-11-25",
    "ok": false,
    "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "This brand is bringing the most surprising Android trend of 2026 to a budget smartphone - Android Central",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc3l6Wm9jRks0T3oxZ0lsNkRPUUc3NnAxeHZlcnUyRGJpRDBiWTZ6ck1hU0NXamNGcE53ek1seTJYaE5CVHhaTTIzaWlfNXlib3lkSUl4YTQyeEFVMEk2VHkzMkRicHdabERIaFpMMGhubGxXLUNDRTZQSnRxTVF4TXpuZ3pSTTMwVXJFVGxRXzVsZEhJZEtKalZ1eklHdkxRRjZjMGg0T2JmQlY0alhVeWtiVnN1SHp6UmMyUVBBR1NGRm8?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (455 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
   }
  ]
 }
