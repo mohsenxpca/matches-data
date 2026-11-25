@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Motorola Edge 70 Neo vs Oppo Reno17 Pro (China)",
-   "url": "https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php||https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
-  },
-  {
    "title": "More details about Apple's 20th-anniversary iPhone emerge",
    "url": "https://www.gsmarena.com/more_details_about_apples_20thanniversary_iphone_emerge-news-75520.php",
    "at": "2026-11-19",
@@ -3184,6 +3177,17 @@
    "at": "2026-11-25",
    "ok": false,
    "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "أزمة الهواتف الذكية 2027: لماذا ستنخفض المبيعات وترتفع الأسعار؟",
+   "cand_title": "Most smartphone brands, including Samsung, expect sales to fall in 2027",
+   "url": "https://www.sammobile.com/news/most-smartphone-brands-including-samsung-expect-sales-to-fall-in-2027/",
+   "raw_photo": "https://www.sammobile.com/wp-content/uploads/2026/05/Galaxy-S26-Ultra-design-violet-400x225.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/smartphone-market-decline-forecast-2027.html",
+   "at": "2026-11-25T09:22:11+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
