@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "WINNERS ANNOUNCED AT SMART PHONE OPERA HOUSE FINALS - FilmInk",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc01lbVI2N2tEcWtjNVhjOGJkQ0g4d2FpZXBSV2ZFaHJfRHBxWU9qSkVYY0F4M0FHUjJxdlRRMEd2TWRLbXNfLWpjWUdjX0pDc1ZMeTFwOWUzY1J1WDJFYzZyaHd0MjFSWmR2M1RYQzZzNmRtYkhxbGY5a0w0UnJXY213b1Bzb3RlSUFVX0pwYTBSY2hFS01rNQ?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (652 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "Google's Answer to iPhone Handoff: Android Fast Switch - Droid Life",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUDRUTnJITzZsRXg3VG5LV1dIcGJ0dE5KQngwMWM5SEVRc2ozMzRnalVyYnZ1Vnhuc1d6dDM2eUNwM05xVndhNE44b29jXzM0SzIyb2x3bjBvZ2hTRHdtYWZaR3U0dTU4ZVZsejAzZXJSa3luNWcxTXBSN0NjT1hqRWsxdGlDcWYyWm94Q3htaFFIYUpIR2c?oc=5",
    "at": "2026-11-18",
@@ -3193,6 +3184,17 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "مراجعة Ulefone Armor 35 Pro: هاتف متين بإضاءة كشاف قوية وكاميرا",
+   "cand_title": "Ulefone Armor 35 Pro",
+   "url": "https://www.gsmarena.com/ulefone_armor_35_pro-15101.php",
+   "raw_photo": "https://fdn2.gsmarena.com/vv/pics/ulefone/ulefone-armor35-pro-1.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/ulefone-armor-35-pro-review.html",
+   "at": "2026-11-25T02:27:15+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "اخرى"
   }
  ]
 }
