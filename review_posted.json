@@ -1,62 +1,6 @@
 {
  "done": [
   {
-   "title": "iPhone owners targeted in ‘staggering’ bid to steal crypto and credit card details - The Independent",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYjNTYTVMdG5tZ254YmVNZ1hwV091OVlpQXI3bDJtd2o1SS0yT2xHUjBLRjNEOTdoMGFremhQQ0NUc2VPZ1FWdzB2U2p0cDd1R0NIMGVld2s5QlVzUmt6dU1EMHgwNFpqTjduYWlzWEZ2aHR5SmJEd21tZC1PSWhiUmRjTm5qdFA4R1hKa1NqMjMzM0R0cEFBTERWQzFCOEp5MzFj?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (689 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "QEncrypt Adds Quantum-safe Encryption For Photos On IPhone And Android - Quantum Zeitgeist",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tYk12ZUdqa0VKcjdFNDJnVEtacWtNeFZkaEM4QXN2S0FkYnNYQURLMzMxSENnSzNFNTlCZVNIdm55WFRoZDdGVno4VWpFZzZMekJWNVlQb0ZyUWlnQ0pBdVZSb2xzS0Z4LTE5SHI4T09iVmZmaktlM0VFRk51RFU?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (643 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Is Apple cooked? The Xiaomi 18 Pro is coming for iPhone with the fastest Android chipset and a built-in back display - Android Central",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPS2tyMXlNaElqSFhEQjNjSmJWSWk5RV9FTzFyajVJVFdCenhfS0xMV2UwX2RkUEFPNUxNZFRYODhibEdEZVA0Nllwam93NkJnOEdXc2trNXFkNW1jcEFEYlNnRUVWRVhyQkhMSGNtV0Y5NHdiN0NSWnlkVlNzUWFOMEQ3bzNuXzlDYzhmblVxTnp2T2RmVWZlY1N1eE9qQTlUQzF3bDV6TS1DUGtFSWY2ZHNlNFlKNXhTWXNNQXBRdnphZXR6TEZEOHU0eExPTGFtYzVkeHloVE9KcWU3Y2FaX0NxQ1hGWFVSZEp3Tk95SHpWZw?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "لا تتخلص من هاتفك القديم: 5 طرق ذكية لاستخدامه في منزلك",
-   "cand_title": "Don't e-waste your old Android phone: 5 ways to use it in your smart home instead - How-To Geek",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE82MUg4aXJCNkJDLVZhS2cyRVdJYlhNeEpiY3NIRW1ZRW9PYVBLelkzbDRScHNMM3I2aTlXZ2xRdUdEUlNabWxtazE2MHliTGU4R1RVY1FwVXJjb1FVN2hRWkJjUnJlVVYxY3lwMVF4QUxLakNHc0FfT3Nn?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/reuse-old-android-phone-smart-home.html",
-   "at": "2026-11-18T02:27:29+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة",
-   "cand_title": "Galaxy A38 firmware spotted on Samsung’s test servers in Europe and the US",
-   "url": "https://www.gizmochina.com/2026/11/17/galaxy-a38-firmware-spotted-on-samsungs-test-servers/",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-a38-firmware-spotted.html",
-   "at": "2026-11-18T03:26:59+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "هواوي Enjoy 100 Pro Max ضد Honor X60 Pro: هل يستحق فارق السعر؟",
-   "cand_title": "Huawei Enjoy 100 Pro Max vs Honor X60 Pro: Is the $70 Price Difference Worth It?",
-   "url": "https://www.gizmochina.com/2026/11/17/huawei-enjoy-100-pro-max-vs-honor-x60-pro/",
-   "post_url": "https://www.review-mobile.com/2026/11/huawei-enjoy-100-pro-max-vs.html",
-   "at": "2026-11-18T03:57:01+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هونر"
-  },
-  {
    "title": "Xiaomi 18 purportedly leaks in live image",
    "url": "https://www.gsmarena.com/xiaomi_18_purportedly_leaks_in_live_image-news-75515.php",
    "at": "2026-11-18",
@@ -3199,6 +3143,48 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "iPhone 18e is reportedly getting a redesigned camera island - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY0FWQktvcmRUNGs2Zk5aS2kxR0x6QWdzbXBxNG91YVJPVkppbkVaTHdQVlhMaHBXZVNoS2FPeGQxdnpRdDRSaG0tVER1cVRKRXluNFVzVUxvbkRmWVRqRy1BSkczZlA3XzNZeE9vQjV5bGFJRC13V25HdmJjUjdWZENkRVczWFpFb1N5T0pzajlXM1Y5eDBQdlNYOVN4SmFS0gGcAUFVX3lxTE1uSXBhUGFWaGVuUXNxdEEtN0EycFBFWkdjSGx6c0pWazZnb1FXbGRNUVVHMU01MFEwaGZxeHAtWE1pRlh2U0Q0bUdmZnJyVVpZWW1lS3RPR29ERkdlMk9hSWVMS1pmRklyWFd1RlY2LV9sRFZZN3JySFFXbS01X21fM19ZdWtHSExFRjNSTHhONTlyek0tVVI0RWhaeQ?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['getting', 'iphone', 'island', 'redesigned']"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Model code [18] with variants {'pro', 'max'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
+  },
+  {
+   "title": "Xiaomi 18 Pro",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "Xiaomi Poco X8s",
+   "url": "https://www.gsmarena.com/xiaomi_poco_x8s_5g-15038.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Model code [x8s] with variants set() found in review: مراجعة Xiaomi Poco X8s: هل يغير قواعد الفئة المتوسطة في 2026؟"
+  },
+  {
+   "title": "Xiaomi 18 Pro",
+   "url": "https://www.gsmarena.com/xiaomi_18_pro-14959.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
+  },
+  {
+   "title": "Xiaomi Redmi Note 17",
+   "url": "https://www.gsmarena.com/xiaomi_redmi_note_17-14846.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Model code [17] with variants set() found in review: مراجعة شاملة لهاتف Xiaomi 17 Ultra: وحش التصوير بمعالج خارق"
   }
  ]
 }
