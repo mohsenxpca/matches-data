@@ -26,9 +26,22 @@ import football as f
 import fb_phones as fbp
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DAILY_REELS_CAP = 2
-REEL_MIN_GAP_MINUTES = 240  # at least 4 hours between the 2 daily Reels
-PEAK_WINDOWS = [(14, 17), (20, 23)]  # Cairo hours: Afternoon Peak (2-5 PM) & Prime Evening Peak (8-11 PM)
+RAMP_START_DATE = datetime.date(2026, 11, 25)
+
+
+def _get_daily_reel_policy(today_date):
+    """Automatic 3-stage Reels ramp-up requested by Mohsen (2026-11-25):
+       - Week 1 (2026-11-25 .. 2026-12-01): 2 Reels/day (Afternoon 14:00 & Evening 21:00)
+       - Week 2 (2026-12-02 .. 2026-12-08): 3 Reels/day (14:00, 17:00, 21:30)
+       - Week 3+ (from 2026-12-09 forever): 5 Reels/day (11:00, 14:00, 17:00, 20:00, 22:30)
+    """
+    days_elapsed = (today_date - RAMP_START_DATE).days
+    if days_elapsed < 7:
+        return 2, 240, [(13, 17), (20, 23)], "Stage 1 (Week 1: 2 Reels/day)"
+    elif days_elapsed < 14:
+        return 3, 165, [(12, 16), (16, 20), (20, 24)], "Stage 2 (Week 2: 3 Reels/day)"
+    else:
+        return 5, 130, [(10, 24)], "Stage 3 (Permanent: 5 Reels/day)"
 
 
 def _find_ffmpeg():
@@ -400,17 +413,18 @@ def build_reel_mp4(title, url, image_url, content, out_mp4_path):
 
 
 def _can_post_reel_now(state, now, force=False, dry=False):
+    cap, min_gap, peak_windows, stage_label = _get_daily_reel_policy(now.date())
     if force:
-        return True, "forced"
+        return True, f"forced ({stage_label})"
     today = now.date().isoformat()
     today_reels = [r for r in state.get("fb_reels", []) if r.get("date") == today]
-    if len(today_reels) >= DAILY_REELS_CAP:
-        return False, f"daily reels cap reached ({len(today_reels)}/{DAILY_REELS_CAP} today)"
+    if len(today_reels) >= cap:
+        return False, f"daily reels cap reached ({len(today_reels)}/{cap} today - {stage_label})"
 
     if not dry:
-        in_peak = any(lo <= now.hour < hi for lo, hi in PEAK_WINDOWS)
+        in_peak = any(lo <= now.hour < hi for lo, hi in peak_windows)
         if not in_peak:
-            return False, f"outside Reels peak hours (Cairo {now.hour}:00; peaks 14-17 & 20-23)"
+            return False, f"outside Reels peak hours (Cairo {now.hour}:00; {stage_label})"
         if today_reels:
             last_at_str = today_reels[-1].get("at")
             if last_at_str:
@@ -419,11 +433,11 @@ def _can_post_reel_now(state, now, force=False, dry=False):
                     if last_at.tzinfo is None:
                         last_at = last_at.replace(tzinfo=f.CAIRO)
                     elapsed = (now - last_at).total_seconds() / 60.0
-                    if elapsed < REEL_MIN_GAP_MINUTES:
-                        return False, f"last Reel was {int(elapsed)}m ago (waiting {REEL_MIN_GAP_MINUTES}m)"
+                    if elapsed < min_gap:
+                        return False, f"last Reel was {int(elapsed)}m ago (waiting {min_gap}m - {stage_label})"
                 except Exception:
                     pass
-    return True, f"ok ({len(today_reels) + 1}/{DAILY_REELS_CAP} today)"
+    return True, f"ok ({len(today_reels) + 1}/{cap} today - {stage_label})"
 
 
 def upload_and_publish_reel(mp4_path, description, tok, page):
