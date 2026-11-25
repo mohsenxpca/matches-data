@@ -1,72 +1,6 @@
 {
  "done": [
   {
-   "title": "More details about Apple's 20th-anniversary iPhone emerge",
-   "url": "https://www.gsmarena.com/more_details_about_apples_20thanniversary_iphone_emerge-news-75520.php",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['anniversary', '20th', 'iphone']"
-  },
-  {
-   "title": "OnePlus Turbo 7 Pro gets certified ahead of launch, more specs leak",
-   "url": "https://www.gsmarena.com/oneplus_turbo_7_pro_gets_certified_ahead_of_launch_more_specs_leak-news-75524.php",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['certified', 'oneplus', 'turbo', 'ahead']"
-  },
-  {
-   "title": "Every unique Galaxy design Samsung has the potential to explore in the coming years",
-   "url": "https://www.sammobile.com/news/every-unique-galaxy-design-samsung-could-explore-coming-years/",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (648 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
-   "title": "Galaxy Z Fold 8 series and Flip 8 get second November update",
-   "url": "https://www.sammobile.com/news/galaxy-z-fold-8-series-and-flip-8-get-second-november-update/",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (647 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي",
-   "cand_title": "The Galaxy Z Fold 8 series just got a special edition that celebrates GTA VI",
-   "url": "https://www.androidauthority.com/galaxy-z-fold-8-gta-vi-edition-3736869/",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-z-fold-8-gta.html",
-   "at": "2026-11-19T00:55:41+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "Here's when iPhone 18 and iPhone Air 2 display production will reportedly start",
-   "url": "https://www.gsmarena.com/heres_when_iphone_18_and_iphone_air_2_display_production_will_reportedly_start-news-75525.php",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Phone 'air 2' already covered in: أبل تباغت الجميع: تسريب هواتف iPhone 18 و Air 2.. هل هذا هو"
-  },
-  {
-   "title": "Google’s mandatory foldable app guidelines are here, and optimized apps are coming in 2027",
-   "url": "https://www.androidauthority.com/google-foldable-app-optimization-guidelines-3736653/",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (667 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "More details about Apple's 20th-anniversary iPhone emerge - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeG1CTDRyR0E2WTlJcy1EOGl6MzBZVkJsWlVtc0hMc3pFbzlZOXRyLUdQVWVGM2RiNlN5ejh2VTNXalcwWUtmYnk2RF8xS1VDT0U2ck13ZW1qaHhZYXp3NUlGQ3lLNGxXZy1qSjVrYW9JXzRjU0Z2NnVHZnZtbE42NUhJaV91WGxxMDFIZ0czUGhlTHkzSzhqT213Y9IBlwFBVV95cUxObC1mZXAwVkFSNzdzQTE2TzVtR2wyR29TX2lCNnV3Qnd4X2RLY2xPYUxrcG5Ndloxemo1a0lXSGlmOFZYWXBzQzQtXzhBa0NEeVMyU2dPOTE5TjNRcXRWTlpBSU9tSlNLWWktUzVTZmotYkFrMVNveFlQV3VxZHpPV0ZXd0V5ZWxSYnVZajA4ZkJlc3pkQWFn?oc=5",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['iphone', '20th', 'anniversary']"
-  },
-  {
    "title": "مواصفات iQOO Z12 Lite المسربة: معالج Dimensity 6300 وأندرويد 16",
    "cand_title": "iQOO Z12 Lite Specs: Dimensity 6300, 4GB/6GB, Android 16 - shattered.io",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ1ZfMWFGdjFpNFAwQWVFMUczVEItUld0TGhkUVFLTGt6c3o0cVZwZjdHSDNpV2FmREtXLUJVLV9NblRqY0txb3B1cjQ0ZEhEUWFfSDQ4Y3BHZTQ0amtZRXpMbDl2TlV1WWVRaGRxdXIxb0xxd2N0YUR0ZE94bWJUcTN3cHk2cmFXdldZXzlzMG9rc28?oc=5",
@@ -3188,6 +3122,68 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "Huawei Mate X8 vs Honor Choice T20",
+   "url": "https://www.gsmarena.com/huawei_mate_x8_5g-15022.php||https://www.gsmarena.com/honor_choice_t20-15105.php",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
+  },
+  {
+   "title": "Honor Choice T20 vs Motorola Edge 70 Neo",
+   "url": "https://www.gsmarena.com/honor_choice_t20-15105.php||https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: مراجعة Motorola Edge 70 Neo: المواصفات الكاملة، السعر، والمميزات"
+  },
+  {
+   "title": "New iPhone accessory adds up to 15x optical zoom with a detachable teleconverter",
+   "url": "https://www.gizmochina.com/2026/11/25/new-iphone-accessory-adds-up-to-15x-optical-zoom-with-a-detachable-teleconverter/",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (633 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Redmi K100 flagship may arrive next year with Snapdragon 8 Elite Gen 6 and triple 50MP cameras",
+   "url": "https://www.gizmochina.com/2026/11/25/redmi-k100-flagship-may-arrive-next-year-with-snapdragon-8-elite-gen-6-and-triple-50mp-cameras/",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'snapdragon 8' already covered in: موتورولا تحيي سلسلة Moto One بهاتف خارق بمعالج Snapdragon 8 Gen 5"
+  },
+  {
+   "title": "Redmi Note 18 secures 45W charging certification",
+   "url": "https://www.gizmochina.com/2026/11/25/redmi-note-18-secures-45w-charging-certification/",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'note 18' already covered in: هل تستحق سلسلة Redmi Note 18 الانتظار؟ بطارية عملاقة وشحن سريع"
+  },
+  {
+   "title": "Galaxy SmartTag3 vs AirTag 2 vs Pixel Tag: Which tracker is best for you?",
+   "url": "https://www.gizmochina.com/2026/11/25/galaxy-smarttag3-vs-airtag-2-vs-pixel-tag-which-tracker-is-best-for-your-phone/",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'smarttag3' already covered in: Galaxy SmartTag3 رسميًا.. تصميم أصغر، دعم iOS لأول مرة، وبطارية تدوم حتى 790 يومًا"
+  },
+  {
+   "title": "Oppo Find N7: Everything We Know About Oppo’s Wide Foldable",
+   "url": "https://www.gizmochina.com/2026/11/25/oppo-find-n7-everything-we-know-about-oppos-wide-foldable/",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'n7' already covered in: رسمياً: هاتف Oppo Find N7 القابل للطي في طريقه للأسواق الأوروبية"
+  },
+  {
+   "title": "هاتف هونر القادم ببطارية 9530 مللي أمبير.. هل يعيد كتابة قواعد",
+   "cand_title": "Honor Magic 9 Lite+ 5G European renders leak with 9,530mAh battery",
+   "url": "https://www.gizmochina.com/2026/11/25/honor-magic-9-lite-5g-european-renders-leak-with-9530mah-battery/",
+   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/11/Honor-Magic-9-Lite-Plus-Design.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/honor-magic-9-lite-plus-5g.html",
+   "at": "2026-11-26T00:17:33+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هونر"
   }
  ]
 }
