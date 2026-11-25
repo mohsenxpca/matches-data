@@ -1,16 +1,6 @@
 {
   "done": [
     {
-      "title": "إعلان هام: فتح باب تأجير 247 شقة إسكان اجتماعي في باك نينه",
-      "orig": "إعلان عام عن أسعار الإيجار للإسكان الاجتماعي في المرحلة الأولى، المبنى CT2-4، من مشروع الإسكان الاجتماعي للعمال في المنطقة الحضرية الجديدة في حي نينه.",
-      "url": "https://www.vietnam.vn/ar/cong-khai-gia-cho-thue-noxh-dot-1-toa-ct2-4-du-an-noxh-danh-cho-cong-nhan-tai-khu-do-thi-moi-phuong-nenh",
-      "post_url": "https://www.egyptaway.com/2026/11/social-housing-rental-bac-ninh.html",
-      "topic": "coordination",
-      "has_real_photo": false,
-      "at": "2026-11-06T21:46:06.305241+02:00",
-      "ok": true
-    },
-    {
       "title": "تنسيق عمليات التفتيش ومعالجة المشكلات القائمة على الطريق السريع نوي باي - لاو كاي.",
       "url": "https://www.vietnam.vn/ar/phoi-hop-kiem-tra-khac-phuc-ton-tai-tren-cao-toc-noi-bai-lao-cai",
       "at": "2026-11-06T22:46:05.892832+02:00",
@@ -2905,6 +2895,15 @@
       "err": [
         "العنوان مكرر أو قريب جداً من مقال منشور: تفاصيل شهادات الادخار الجديدة في البنك ا",
         "طول المقال قصير جداً (393 كلمة، المطلوب 450+)"
+      ]
+    },
+    {
+      "title": "أسعار فائدة شهادة استثمار «أ» من البنك الأهلي المصري",
+      "url": "https://www.bankygate.com/203139",
+      "at": "2026-11-25T12:56:10.327394+02:00",
+      "ok": false,
+      "err": [
+        "طول المقال قصير جداً (379 كلمة، المطلوب 450+)"
       ]
     }
   ]
