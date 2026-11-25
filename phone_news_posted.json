@@ -1395,6 +1395,24 @@
       "has_real_img": true,
       "at": "2026-11-25T00:36:09.185608+02:00",
       "ok": true
+    },
+    {
+      "title": "Case maker reveals camera layout of Galaxy S27, S27+, S27 Pro, and S27 Ultra",
+      "orig_link": "https://www.gizmochina.com/2026/11/25/case-maker-reveals-entire-galaxy-s27-series-back-design/",
+      "at": "2026-11-26T00:11:08.649542+02:00",
+      "ok": false,
+      "err": [
+        "العنوان مكرر أو قريب جداً من خبر منشور: تسريب تصميم كمرام هواتف سامسونج جلاكسي S27"
+      ]
+    },
+    {
+      "title": "ميزة قفل تطبيق Samsung Health في واجهة One UI 9.5",
+      "orig_link": "https://www.sammobile.com/news/why-you-should-lock-samsung-health-one-ui-9-5/",
+      "post_url": "https://www.egyptaway.com/2026/11/samsung-health-app-lock-one-ui-95.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-26T00:11:08.649542+02:00",
+      "ok": true
     }
   ]
 }
