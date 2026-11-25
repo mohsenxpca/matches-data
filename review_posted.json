@@ -1,33 +1,6 @@
 {
  "done": [
   {
-   "title": "هاتف Infobar Zero الجديد: عودة الأناقة اليابانية لعصر الـ 4G",
-   "cand_title": "Japanese brand announces new 4G feature phone - Notebookcheck",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbm1Kbm5KY2FkcU5IQm5sUmp4RlViZi1vbDhjNVItdUFHWjkwTGtxSk1ad2JVU1hTX2Naa0ZRVUJXRmpPY3RlV3JkeFQ4bnktM3pwOHAzSlZ5OGNGdF9wMm01MXhNZTZ4TWNwR2pEaklPRF9iZmJVYTNvb0hKaHBzZXU4aTNNTTJjTTA2RlVObHJSQjhq?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/kddi-infobar-zero-4g-feature-phone.html",
-   "at": "2026-11-19T02:22:48+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "انفينكس"
-  },
-  {
-   "title": "تطبيق Wi-Fi Nepal الجديد: تحكم كامل في شبكتك من هاتفك الذكي",
-   "cand_title": "Wi-Fi Nepal Launches Mobile App to Manage Internet Services on Smartphone - NepaliTelecom",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNakFiRFBCcldXQ3Rmd0dqOHdIbHlfQm9LNHZ4ZV91WFAwXzVEM3ozYXZrZ1Q2R0JfbnkzUjdSdDF3VUszdklHZHFucW9aeVVfa1diTHJiTEpwOFZhVnZwMENoN2dQd0REWTNPekpkR1FhUDV4eFNPQVZ0YlpsSXBhUmJ3c3puY2lpRFptMUxLaUlEV1FYS25aWDNZclNhUXNsbElwMVJVdw?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/wifi-nepal-app-internet-management.html",
-   "at": "2026-11-19T02:27:53+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "Motorola Edge 70 Neo Set for Debut: Features, Specs, and Expected Price - Nokiamob",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOXzUxcFNCUTlsSU5UUnMtUGJQUllqZDdZTVBGOWNzREltTTBucjlNTkZqVkJQRDl4dC11d3puWFJLVkQzcEdyWS1lRmtocmZ1YVpkSkI3bzE2QXpCYklkZkFLdXBPUVBjajFPQURrMDJMblA3bnNOUld4WUo3Y3RBdnFnLXhXcUQtNHJTdTRnNUZtTm9DUkxLNW0wMXBRUzNrUm81emFkeFlFUEpITE4yRDVkdw?oc=5",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
-  },
-  {
    "title": "Motorola Edge 70 Neo launches soon with a 6.8-inch screen and a 7,000mAh battery - Techish Kenya",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sZkgwY3JkTjNKU2ltVy1TbTZXRmoxTmpacXBSTEZzMC1mTEZ2UmNBNy02cVpmajY0b3BfeEZqc3JjUnliRlN3aUZfc1RJUDc5ZWp1WnhVc2RfV3h3clM0ejlIcTlocjkwQlAyZDgtRXBQaWFpb2ZnNEItZw?oc=5",
    "at": "2026-11-19",
@@ -3185,6 +3158,35 @@
    "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/vivo-wide-phone-more-details/-952x498w6/gsmarena_000.jpg",
    "post_url": "https://www.review-mobile.com/2026/11/vivo-first-wide-candybar-smartphone.html",
    "at": "2026-11-26T01:16:51+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "فيفو"
+  },
+  {
+   "title": "Samsung Galaxy Z Trifold2 codename and availability details leak",
+   "url": "https://www.gsmarena.com/samsung_galaxy_z_trifold2_codename_and_availability_details_leak-news-75630.php",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (684 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Honor Magic9 Lite+ breaks cover with 9,530mAh battery, new chipset",
+   "url": "https://www.gsmarena.com/honor_magic9_lite_breaks_cover_with_9530mah_battery_new_chipset-news-75628.php",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (663 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "تفاصيل تصميم وألوان iQOO 16s.. هاتف ذكي بمواصفات ثورية",
+   "cand_title": "iQOO 16s' design and colors revealed",
+   "url": "https://www.gsmarena.com/iqoo_16s_design_colors-news-75626.php",
+   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/iqoo-16s-design-colors/-952x498w6/gsmarena_001.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/iqoo-16s-design-colors-revealed.html",
+   "at": "2026-11-26T01:46:55+02:00",
    "ok": true,
    "kind": "news",
    "brand": "فيفو"
