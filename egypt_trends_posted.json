@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.leedsunited.com/en/news/team-news-injury-updates-on-calvert-lewin-okafor-and-stach",
-   "t": "Team News: Injury updates on Calvert-Lewin, Okafor & Stach",
-   "title": "موقف جو رودون وجاهزية الفريق قبل مواجهة توتنهام المرتقبة",
-   "url": "https://www.egyptaway.com/2026/11/leeds-united-tottenham-standings-team.html",
-   "at": "2026-11-07T17:47:50.657628+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.skynewsarabia.com/sport/1903259-%D8%A3%D8%B2%D9%85%D8%A9-%D8%AD%D8%B3%D8%A7%D9%85-%D8%AD%D8%B3%D9%86-%D8%AA%D8%AA%D9%81%D8%A7%D9%82%D9%85-%D9%88%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%8A%D8%AF%D8%B9%D9%88-%D9%84%D9%84%D8%AA%D9%87%D8%AF%D8%A6%D8%A9",
    "t": "أزمة حسام حسن تتفاقم.. واتحاد الكرة المصري يدعو للتهدئة",
    "at": "2026-11-07",
@@ -3405,6 +3396,15 @@
    "at": "2026-11-26T00:02:22.323998+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xN1pnMW1uS1hubUZaVGZEelFIWnNnZW1aemZDa2pNMWFsLU54cjBUR21MQ0kxY1MyWUVqYVpCZkx5RlhsWER6cEoxYTBUM0J5dWVQbHRoWkg0clE?oc=5",
+   "t": "مواقيت الصلاة في السويد اليوم: ستوكهولم ويوتيبوري ومالمو وأوبسالا ومدن أخرى - المركز السويدي للمعلومات",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "الـ body 453 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
