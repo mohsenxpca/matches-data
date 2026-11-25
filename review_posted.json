@@ -1,41 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 purportedly leaks in live image",
-   "url": "https://www.gsmarena.com/xiaomi_18_purportedly_leaks_in_live_image-news-75515.php",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18' already covered in: حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد"
-  },
-  {
-   "title": "Vivo reportedly undecided between Snapdragon 8 Elite Gen 6 and Dimensity 9600 Pro for its next foldable",
-   "url": "https://www.gizmochina.com/2026/11/18/vivo-x-fold-7-2nm-snapdragon-mediatek-chip-undecided/",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Phone 'snapdragon 8' already covered in: موتورولا تحيي سلسلة Moto One بهاتف خارق بمعالج Snapdragon 8 Gen 5"
-  },
-  {
-   "title": "Huawei Osta O1 Pro design and color options officially revealed",
-   "url": "https://www.gsmarena.com/huawei_osta_o1_pro_design_and_color_options_officially_revealed-news-75512.php",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
-  },
-  {
-   "title": "مواصفات هاتف vivo V80 الجديد قبل إطلاقه رسميا في مصر",
-   "url": "https://www.masrawy.com/news/tech-reports/details/2026/11/2/3072731/%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA-%D9%87%D8%A7%D8%AA%D9%81-vivo-v80-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%82%D8%A8%D9%84-%D8%A5%D8%B7%D9%84%D8%A7%D9%82%D9%87-%D8%B1%D8%B3%D9%85%D9%8A%D8%A7-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Phone 'v80' already covered in: مراجعة vivo V80 2026: كاميرات وبطارية وأداء"
-  },
-  {
-   "title": "Xiaomi 18 purportedly leaks in live image - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUHZ0MFEwWVc1YURPWTNJN0pqSk1GMW9QVDIyTUItYm5pSFduazZ6dEpIMHJjVFlldmx3eDBsRUxpNEh0M19NSUpFMjd4STdIMHIzeW0tX0VYV0tUVER0eVBRMzZtckg3d2NITHJBRERrZmRoNlRaVlg5WG8wZ1lnQU5jcjdHNHNv0gGEAUFVX3lxTFBpQUoyelo0dlF0dVo3blM2cVB4R2ZVTjhRUVVPUldLcnFTWnJKY3Nra3l3TVh4Y3RvYXZ6MFZUZWJXSEdrQzAtcS1YLWtlTEM0Q2RZMkdRVDMxTFNoNF9nbmpZa05LN2wtb25YYi1qbS1XQWRGdWV5Nlh1azBmZWctcHNZbA?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['live', 'image', 'purportedly']"
-  },
-  {
    "title": "Huawei Osta O1 Pro design and color options officially revealed - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYTlONnZ0RERMQ3NwNTBzUWRCV09ucldYU25Yd0pFV05oQ2pNQzFjcnNBRGppQ3RHa2ZmZzlGSWI0STdoUmdSOV9zTzYyOWpyZmxrenBNSmk2bndhT2NDVUM2UnNfbDZkRmxLb01DR3dRY1N2bHRCNENBQld2OVpJeFFRZlhDc0ZqV0NtV1Q3cTF4RWg5cGNIdlBFVUVLdDhJNU9jdFpR0gGiAUFVX3lxTE5jMHNsdWEtZGhHc1ltVXBkTWhiS19HM2xFYzFyY2dEaWFRVFd6enVNUXY5M25OMXpoR0pOamtyYUllSHI5ZWFNX3BQZGtPQU00Uy1yVG1ZLWxub1FRN0c2TG01SHVPNHlZcmhtRzRxQ0tHRjdTM3dMcW1RLUxWdzVVZHZYQmNfU3hHNFJIdy1YdXdrMGNpZmczc2tBbkM0MERTQQ?oc=5",
    "at": "2026-11-18",
@@ -3185,6 +3150,41 @@
    "at": "2026-11-25",
    "ok": false,
    "reason": "Model code [17] with variants set() found in review: مراجعة شاملة لهاتف Xiaomi 17 Ultra: وحش التصوير بمعالج خارق"
+  },
+  {
+   "title": "Huawei Mate 90 Air Launched With 7-inch Display, 6,500mAh Battery and Kirin 9020 - NepaliTelecom",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQU1gydmxYcnRYeUI1eU9Pa0w2bW12NnhGXzVsZkVfMk42UGRhSW50R29ydlhpbEtjM2l0c3hQNWZYWlh4bUxkZThFMnY2X3VGekQ0UVZ3bkJ2MVNURElVUTV5VXNaQlhmcDl3ZVVQY0E?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Model code [90] with variants {'air'} found in review: مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف"
+  },
+  {
+   "title": "Leak suggests the iPhone 18e will have a revamped rear camera design - Mashable SEA",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNzhvMkxBV19NSDBtYkpCRnBRdjdSR3hZMmIyandBUWpoMTk5LTJ4VkMtc3ZUUWpXRWs2YUlLUTRtSDZPTDh5azFsTnBLZ3RSSmhtWE12MHduSnlqdzlBSG5hN2hnS1pQQ0lvX0gxX0tpTkxmak1ZVGl0SVo0M1ItS0RlUkhpS0k0WFY4VXY2WDl2WjlTUmU4S3A5akY1a0ppejlIWWkxOA?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['design', 'rear', 'suggests', 'have']"
+  },
+  {
+   "title": "iPhone 18e leak points to a redesigned rear camera module - The American Bazaar",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU3E2bURsdXdPNG5laGxIRElaLXBaemxOWkVNekZnYUtqT2V2czBnMDJySDdfdGEyalA3OElLYlFXOE95MEVRMXNDNm5Ba2xReHRQeGdYWFBPbXRYX3RIMXYybXhVYmFQekJsM1d4SzhOVjJ0ekZJbXBwNXVyaW9mXzVJX3VYU2EzRzdFeFIza2twTG9ENmJNdE5rYW9hQnRyaW5KN1JvX0lYWk5MZ2c?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone '18e' already covered in: تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق"
+  },
+  {
+   "title": "iPhone 18e: New leak points to major change for new budget iPhone - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYWFHUGNvSXU4RExzTV85Q3RsWTdmOHN2cThtWktGeDY3UkVCUUh4REtEUkFvejMyOHF4c2JIS0FMenQ0T1B0V1A0N05tT3hQX0Q0RHRWRjlfUGdJQ3JCbmNKT2czNHFKMEhkbjdwdmlSTlEwWHJLMW9XMXgzTzNjUEhEcm5RNHhqQVNhTHlLNGJFcWcxNUlTdWlsV3prU0I3VFlCZl8zMW1rSF8tUUE?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone '18e' already covered in: تسريبات iPhone 18e: المواصفات والأسعار وموعد الإطلاق"
+  },
+  {
+   "title": "Android Canary 2611 hides an iPhone-style scroll-to-top shortcut, and we got it working - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWHo1WG5WZzBzMm1jOHdfU2tOOVdvVU1PWHY3TDR0NUk5M2hNOWlaYmx1TVNTTmc5SXk1R1dLV2ppbEY2ajlkMGJiX1lHbkRxdDgxSlRONm91RmdicXJYaFhkcGxuZldsYjVlQUlTbWcwa3hiaXI4dFJGTU1pVTE1ZzB3M2xrU1JWZzNJdVdyNDU5WEhGVVRUVHBpTW8?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'canary 2611' already covered in: إطلاق Android Canary 2611: تحديثات جديدة لهواتف Pixel"
   }
  ]
 }
