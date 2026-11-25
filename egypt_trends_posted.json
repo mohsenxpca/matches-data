@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.youm7.com/story/2026/11/7/%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%8A%D8%AA%D8%B1%D8%A8%D8%B9-%D8%B9%D9%84%D9%89-%D8%B9%D8%B1%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%A8%D8%B1-%D8%A7%D9%84%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A-%D9%82%D8%A8%D9%84-%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%B5%D9%86-%D8%AF%D8%A7%D9%88%D9%86%D8%B2/7608051",
-   "t": "الأهلي يتربع على عرش السوبر الأفريقي قبل مواجهة صن داونز واتحاد الجزائر",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "الـ body 443 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.leedsunited.com/en/news/team-news-injury-updates-on-calvert-lewin-okafor-and-stach",
    "t": "Team News: Injury updates on Calvert-Lewin, Okafor & Stach",
    "title": "موقف جو رودون وجاهزية الفريق قبل مواجهة توتنهام المرتقبة",
@@ -3402,6 +3393,16 @@
    "url": "https://www.egyptaway.com/2026/11/amer-el-amayra-sami-qomsan-ahly.html",
    "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2024/10/large/946/0/514.jpeg&w=1200&output=webp&q=80",
    "at": "2026-11-25T01:56:31.425648+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/25/كيف-تستعيد-الصور-المحذوفة-من-هاتفك-خطوات-بسيطة-لاسترجاع-ذكرياتك/7632014",
+   "t": "كيف تستعيد الصور المحذوفة من هاتفك؟.. خطوات بسيطة لاسترجاع ذكرياتك",
+   "title": "كيف تستعيد صورك المحذوفة من هاتفك؟.. خطوات بسيطة لاسترجاع ذكرياتك",
+   "url": "https://www.egyptaway.com/2026/11/recover-deleted-photos-phone-guide.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202606200218541854_24.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-26T00:02:22.323998+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
