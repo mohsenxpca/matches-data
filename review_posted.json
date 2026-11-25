@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei Osta O1 Pro vs Xiaomi 18 Pro",
-   "url": "https://www.gsmarena.com/huawei_osta_o1_pro-15088.php||https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
-  },
-  {
    "title": "Sharp Aquos sense11 vs Huawei Osta O1 Pro",
    "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/huawei_osta_o1_pro-15088.php",
    "at": "2026-11-19",
@@ -3185,6 +3178,13 @@
    "at": "2026-11-25",
    "ok": false,
    "reason": "Phone 'iqoo 16' already covered in: مراجعة iQOO 16 2026: المواصفات والسعر وهل يستحق الانتظار"
+  },
+  {
+   "title": "Oppo Find X10 Pro Max Titanium Grey hands-on",
+   "url": "https://www.gsmarena.com/oppo_find_x10_pro_max_titanium_grey_hands_on-news-75615.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'x10 pro max' already covered in: مراجعة OPPO Find X10 Pro Max: أفضل هاتف ذكي بتسعير خاطئ"
   }
  ]
 }
