@@ -1,18 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.skynewsarabia.com/sport/1903259-%D8%A3%D8%B2%D9%85%D8%A9-%D8%AD%D8%B3%D8%A7%D9%85-%D8%AD%D8%B3%D9%86-%D8%AA%D8%AA%D9%81%D8%A7%D9%82%D9%85-%D9%88%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%8A%D8%AF%D8%B9%D9%88-%D9%84%D9%84%D8%AA%D9%87%D8%AF%D8%A6%D8%A9",
-   "t": "أزمة حسام حسن تتفاقم.. واتحاد الكرة المصري يدعو للتهدئة",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 3",
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 443 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'حسن', 'حسام'}) مع تشابه نصي مع: مصير حسام حسن: هل يقترب رحيله عن تدريب منتخب مصر؟)"
-   ]
-  },
-  {
    "u": "https://www.themag.co.uk/2026/11/confirmed-newcastle-united-team-v-fulham-as-steur-thiaw-murphy-wissa-all-start/",
    "t": "Confirmed Newcastle United team v Fulham as Steur, Thiaw, Murphy, Wissa all start",
    "at": "2026-11-07",
@@ -3405,6 +3393,16 @@
    "reason": [
     "الـ body 453 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/26/5-نصائح-لتقليل-استهلاك-الوقود-اثناء-قيادة-السيارة-تعرف-عليها/7627747",
+   "t": "5 نصائح لتقليل استهلاك الوقود اثناء قيادة السيارة.. تعرف عليها",
+   "title": "5 نصائح ذهبية لتقليل استهلاك الوقود أثناء قيادة السيارة",
+   "url": "https://www.egyptaway.com/2026/11/reduce-car-fuel-consumption-tips.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/20261025044402442_271.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-26T00:42:16.519768+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
