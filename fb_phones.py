@@ -99,13 +99,13 @@ def load_state():
             state = json.load(fp)
     except Exception:
         state = {}
-    for k in ("sent", "indexed", "tg", "fb", "fb_history", "fb_stories"):
+    for k in ("sent", "indexed", "tg", "fb", "fb_history", "fb_stories", "fb_reels"):
         state.setdefault(k, [])
     return state
 
 
 def save_state(state):
-    for k in ("sent", "indexed", "tg", "fb", "fb_history", "fb_stories"):
+    for k in ("sent", "indexed", "tg", "fb", "fb_history", "fb_stories", "fb_reels"):
         if k in state:
             state[k] = state[k][-400:]
     with open(STATE_FILE, "w", encoding="utf-8") as fp:
