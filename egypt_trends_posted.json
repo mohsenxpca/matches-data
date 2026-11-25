@@ -1,17 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.themag.co.uk/2026/11/confirmed-newcastle-united-team-v-fulham-as-steur-thiaw-murphy-wissa-all-start/",
-   "t": "Confirmed Newcastle United team v Fulham as Steur, Thiaw, Murphy, Wissa all start",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 13، 4، 5",
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 286 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.chroniclelive.co.uk/sport/football/football-news/matthias-jaissle-must-show-newcastle-34871248",
    "t": "Matthias Jaissle must show Newcastle are addressing Eddie Howe's final complaint at Fulham",
    "at": "2026-11-07",
@@ -3403,6 +3392,15 @@
    "at": "2026-11-26T00:42:16.519768+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.alahlyegypt.com/ar/news/article/%D8%B1%D8%AC%D8%A7%D9%84-%D8%B3%D9%84%D8%A9-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A-%D9%8A%D8%AE%D8%B3%D8%B1-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D9%83%D9%86%D8%AF%D9%8A-69-63-%D9%81%D9%8A-%D8%A3%D9%88%D9%84%D9%89-%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA-%D9%86%D9%87%D8%A7%D8%A6%D9%8A-%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%B1%D8%AA%D8%A8%D8%B7",
+   "t": "«رجال سلة الأهلي» يخسر أمام الاتحاد السكندي 69-63 في أولى مباريات نهائي دوري المرتبط",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "الـ body 457 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
