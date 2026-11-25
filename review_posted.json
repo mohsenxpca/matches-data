@@ -1,30 +1,6 @@
 {
  "done": [
   {
-   "title": "iQOO Z12 Lite shows up in the Google Play Console, has key specs revealed - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTHRIbHdfVS00MktIaFMtb2pHaXdkVjgwVjB1X2NwUFZwT3RxS1pUakhlQzYwMWNsVkhQdmZpZUN4YVBTQTZtSkN2X3BtaHFiVDdrek5CLTNDUUhha0hWZWVLS0Vwbk5ibXc0dG5JR1FSMDkzT1c5U29XMGxiUzJyanhjUlZlWjNzZ0U0OUFXWm1TX0tubEx2LWdBZE11TDRyTkY5Zk1JdnlaX01CYWk1Mlln0gGuAUFVX3lxTFBubnk3VUF1aTdpdDFDUGJKdHRINHdKYU5OZjRFRzg2RGdrMXViT043VGozZUR5S1hGMmltX3ZBNlEyUjF5TkZ1UklLNGFKZWJ5aXVUWUl0Qnp1clVuUE5acnBPQmp0U3pSdUxKY2NMNkRVX3hydzhSd2hzLUpCU0VfNkFtVkF2WXNkNm1SZlA5SEdIWnNPTWFiX3FLellxaVhPaTBwck92bmZuUkJJdw?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['iqoo', 'console', 'play', 'shows']"
-  },
-  {
-   "title": "Huawei Mate X8 crease nearly invisible in leaked video, launch on November 24",
-   "url": "https://www.gizmochina.com/2026/11/18/huawei-mate-x8-crease-nearly-invisible-leaked-video/",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
-  },
-  {
-   "title": "كيف تحول هاتفك إلى مساعد ذكي بـ 4 أوامر صوتية من Gemini؟",
-   "cand_title": "I turned my phone into a hands-free productivity machine with 4 Gemini voice commands - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BZ1hCVWxseDUtSHU3MmswQi0tWHBLNEpXQVRtSGFhd3JMY2x4Y3lBNDV1TUxvemJfZ0JiUlZxeXhqNG5sUDY1SjQ5Q1I3bDZjZlpuX1NNdVVXclBWTEdDWWYwTlY3Q2RWVWpLdzlMTDFoLV9sQmF6YUNSeVFlQQ?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/transform-phone-productivity-gemini.html",
-   "at": "2026-11-18T09:28:02+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "تحديث Zeekr X الجديد: تحكم كامل بهاتفك ولكن بشرط واحد",
    "cand_title": "Your Zeekr X can now be controlled with a phone, but there’s a catch - AutoBuzz.my",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSm9MRUNkVDlMQjJpVXZrQnkzNmp0b2hvc3FOTFlhNXFvVDBDSERBeHA1TXJOSTJkamx0LVVfVm94SGluT2JwSEpqYnBZSl9SdEo4ejdsdjV6THhUbE8tV0p5YktWbGtOR25KR1daZldtdXd4SUE2cUtiSUhvU09BQjJoMGVCamFIckdicjRuaHZsamN0Y2FWOXZTVVdmVUk?oc=5",
@@ -3188,6 +3164,33 @@
     "طول المقال قصير (455 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
     "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
    ]
+  },
+  {
+   "title": "Here's how much the Samsung Galaxy Fit4 will cost",
+   "url": "https://www.gsmarena.com/heres_how_much_the_samsung_galaxy_fit4_will_cost-news-75612.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (563 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Oppo Find X10 Pro Max gets optimized Blackmagic Camera support - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLWNETzY4WGFXMzNwSlVydEs3UVdEVEhaTmVDcDZoTUlpbjZ0bnJfbmo1cEhfblg5RjlzYzZjR0d0UzhDbnR0eS1zWXlaVHdVdExvVktmVk1jb255Mk80N1hvMkJrNlpRUnFVU05jeDlsd3V3QlNSVnNOTzhlZU1raDBrdC0yUFpPdWFUVjVkOWxwSjZuX21UQnlMVFk3amhmWXJUc9IBoAFBVV95cUxPZ2pCTldCTmVCeW1PcC1PLTFBMl9ROVd2RUU3ZWZXN1FZaGxxUmJVZFJRQkt0VDItMTBaQnN3bUtkTVl0RU9LYUNzWU9rejFleDVSVmdydFpjeFF2V3o5WGx5ZngwbDRzOVpfQXFfWXFsRjlCYTU3QjRPQlZHVml4bm9NTW5BUzR4eFRmVE80SU1mXy0tUGkycGFnblhmZ1NK?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['find', 'optimized', 'blackmagic', 'support']"
+  },
+  {
+   "title": "موتورولا رازر 2027 تهدد عرش جالاكسي زد فليب 8 بمواصفات جبارة",
+   "cand_title": "Motorola’s Razr 2027 leak shows it could put Samsung’s Galaxy Z Flip 8 to shame - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN3ZVeTdSTG53bjloZ2k0RWtVQ3ZaLW5aVmNJUG1VVk1lQ2pFMzJHMVZtQy1GQkVOV2N6OEhqbnVXYkY0M0RWeFotcW0yS2N5a3VhQzJBLVVFMktobXk5YWhqWlJRekFCRWxrN2JOeExteW9feUloRE92cXBYOS1FR2FWTXRLU0ZrbkQtcTVBbnlsZTk3Q0JWM3J1MlN0aGxqTVBoZXNWV0lzZw?oc=5",
+   "raw_photo": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2026/05/motorola-razr-2026-70-back-in-hand.JPG?w=1600&h=900&fit=crop",
+   "post_url": "https://www.review-mobile.com/2026/11/motorola-razr-2027-leaks-specs.html",
+   "at": "2026-11-25T06:21:51+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "سامسونج"
   }
  ]
 }
