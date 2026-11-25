@@ -538,6 +538,15 @@
       "err": [
         "banned topic"
       ]
+    },
+    {
+      "q": "برشلونة",
+      "country": "KW",
+      "at": "2026-11-25T23:21:07.893733+02:00",
+      "ok": false,
+      "err": [
+        "banned topic"
+      ]
     }
   ]
 }
