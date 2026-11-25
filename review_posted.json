@@ -1,37 +1,6 @@
 {
  "done": [
   {
-   "title": "Sharp Aquos sense11 vs Huawei Osta O1 Pro",
-   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/huawei_osta_o1_pro-15088.php",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
-  },
-  {
-   "title": "Motorola Edge 70 Neo set to launch next week, here’s everything confirmed",
-   "url": "https://www.gizmochina.com/2026/11/18/motorola-edge-70-neo-launch-date/",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
-  },
-  {
-   "title": "صراع العمالقة في vivo X Fold7: المعالج الذي سيحسم المنافسة",
-   "cand_title": "Here's what will decide which chipset powers the vivo X Fold7",
-   "url": "https://www.gsmarena.com/heres_what_will_decide_which_chipset_powers_the_vivo_x_fold7-news-75527.php",
-   "post_url": "https://www.review-mobile.com/2026/11/vivo-x-fold7-chipset-battle.html",
-   "at": "2026-11-19T00:22:53+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "فيفو"
-  },
-  {
-   "title": "Xiaomi 18 Pro Max vs Xiaomi 18 Pro",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php||https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
    "title": "Motorola Edge 70 Neo vs Oppo Reno17 Pro (China)",
    "url": "https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php||https://www.gsmarena.com/oppo_reno17_pro_5g_(china)-15024.php",
    "at": "2026-11-19",
@@ -3185,6 +3154,36 @@
    "at": "2026-11-25",
    "ok": false,
    "reason": "Phone 'x10 pro max' already covered in: مراجعة OPPO Find X10 Pro Max: أفضل هاتف ذكي بتسعير خاطئ"
+  },
+  {
+   "title": "Xiaomi 18 Pro Max Global Version Now Available at Giztop for $1,599",
+   "url": "https://www.gizmochina.com/2026/11/25/xiaomi-18-pro-max-global-version-price-availability/",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'xiaomi 18 pro max' already covered in: Xiaomi 18 Pro Max مراجعة سعر ومواصفات أحدث هواتف شاومي الرائدة"
+  },
+  {
+   "title": "Here's our first look at OnePlus' next Nord",
+   "url": "https://www.gsmarena.com/heres_our_first_look_at_oneplus_next_nord-news-75625.php",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (614 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Here's how much the Samsung Galaxy Fit4 will cost - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZmgwa1VleWxHajl1NEprMzA2cUdXRk9Hc1ZVNk1IUG1DRGtwWUl2bS1EcUxwWmttSUVVYzNRUXpnaE00eGVncUpMZDFMLWhsTXhEVzJmZUJJVWhONjJzTkZSdFNPMkltNkphcHg5eXJOVlE5TGNKOUFZOG52OWlzVDUzSmhsU0lIMHVlcjQwTXBTZ9IBjgFBVV95cUxNYTdscWpkd0pTYm5CRWd3YnUyWFVVbFFIREVidWVvaFBJRHQ2SW5DclRSdmlJc0tybDdra0R4YUxYckQ0aXFjMmZ6SjdRNUZuNGQ5U0lSZmp0RDhYS1A3NDdoRzVrbTBpRXpPdlh1MmZxRUsyV3ZWNUUtbXloR01ocjQtR21wbkF0WllfNnRn?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['galaxy', 'cost', 'fit4', 'much']"
+  },
+  {
+   "title": "Three AI Agents, One Android Phone, and a Clock - HackerNoon",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1wLWNTN2pVdWZRYm9HOVlXRS1BUlVOamNDWEs5V1VBY045N0NBdDl4aHhZM2plVVdwN3QtN1pqdDA5VHNFTTdaUDg3YXNrTFVQbDJxSkpsQTdtSVpQUkJkZlQxVVUtVDFrdDdzRlpNVmZDUWlfQ3dj?oc=5",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "out_of_phone_scope"
   }
  ]
 }
