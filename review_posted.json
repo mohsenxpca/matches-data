@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Reno 17 Pro: المواصفات الكاملة والسعر وموعد التوفر",
-   "cand_title": "Oppo Reno 17 Pro: Price, release date and full specs - TechCabal",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNalBIdzE3cks0Mmc3RXphbVpJSHNiUHlfaUx5ZGFZeVB4b1hLNGtCQ2VCVm5teWVRS3NDNGJJbVhad1VYa3kxR1o1TV9Dbk5ueUQ3VGRBeElHMmhIMnJGM0dLN0d6eE1XMzdPMUZwUmJRYTh4aGw1N2VHRW9FRzU3RA?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-reno-17-pro-specs-price.html",
-   "at": "2026-11-19T01:52:08+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اوبو"
-  },
-  {
    "title": "هاتف Infobar Zero الجديد: عودة الأناقة اليابانية لعصر الـ 4G",
    "cand_title": "Japanese brand announces new 4G feature phone - Notebookcheck",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbm1Kbm5KY2FkcU5IQm5sUmp4RlViZi1vbDhjNVItdUFHWjkwTGtxSk1ad2JVU1hTX2Naa0ZRVUJXRmpPY3RlV3JkeFQ4bnktM3pwOHAzSlZ5OGNGdF9wMm01MXhNZTZ4TWNwR2pEaklPRF9iZmJVYTNvb0hKaHBzZXU4aTNNTTJjTTA2RlVObHJSQjhq?oc=5",
@@ -3187,6 +3177,17 @@
    "ok": true,
    "kind": "news",
    "brand": "هونر"
+  },
+  {
+   "title": "تفاصيل هاتف فيفو العريض المرتقب: ثورة في تصميم الهواتف الذكية",
+   "cand_title": "More details about vivo's first wide candybar smartphone appear",
+   "url": "https://www.gsmarena.com/more_details_about_vivos_first_wide_candybar_smartphone_appear-news-75632.php",
+   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/vivo-wide-phone-more-details/-952x498w6/gsmarena_000.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/vivo-first-wide-candybar-smartphone.html",
+   "at": "2026-11-26T01:16:51+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "فيفو"
   }
  ]
 }
