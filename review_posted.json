@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "title": "موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات",
-   "cand_title": "Motorola starts teasing the Edge 70 Neo, hints at when it will be announced",
-   "url": "https://www.gsmarena.com/motorola_starts_teasing_the_edge_70_neo_hints_at_when_it_will_be_announced-news-75516.php",
-   "post_url": "https://www.review-mobile.com/2026/11/motorola-edge-70-neo-teaser-specs.html",
-   "at": "2026-11-18T10:07:16+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "موتورولا"
-  },
-  {
    "title": "Huawei Osta O1 Pro vs Xiaomi 18 Pro",
    "url": "https://www.gsmarena.com/huawei_osta_o1_pro-15088.php||https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php",
    "at": "2026-11-19",
@@ -3188,6 +3178,13 @@
    "at": "2026-11-25",
    "ok": false,
    "reason": "Recent story overlap on key terms ['deals', 'black', 'friday']"
+  },
+  {
+   "title": "iQOO 16 and iQOO 16s launch in Malaysia on December 8, RM1 pre-book now open",
+   "url": "https://www.gizmochina.com/2026/11/25/iqoo-16-16s-malaysia-launch-december-8/",
+   "at": "2026-11-25",
+   "ok": false,
+   "reason": "Phone 'iqoo 16' already covered in: مراجعة iQOO 16 2026: المواصفات والسعر وهل يستحق الانتظار"
   }
  ]
 }
