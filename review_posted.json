@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Google's Answer to iPhone Handoff: Android Fast Switch - Droid Life",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUDRUTnJITzZsRXg3VG5LV1dIcGJ0dE5KQngwMWM5SEVRc2ozMzRnalVyYnZ1Vnhuc1d6dDM2eUNwM05xVndhNE44b29jXzM0SzIyb2x3bjBvZ2hTRHdtYWZaR3U0dTU4ZVZsejAzZXJSa3luNWcxTXBSN0NjT1hqRWsxdGlDcWYyWm94Q3htaFFIYUpIR2c?oc=5",
-   "at": "2026-11-18",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['switch', 'iphone', 'fast', 'handoff']"
-  },
-  {
    "title": "iPhone owners targeted in ‘staggering’ bid to steal crypto and credit card details - The Independent",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYjNTYTVMdG5tZ254YmVNZ1hwV091OVlpQXI3bDJtd2o1SS0yT2xHUjBLRjNEOTdoMGFremhQQ0NUc2VPZ1FWdzB2U2p0cDd1R0NIMGVld2s5QlVzUmt6dU1EMHgwNFpqTjduYWlzWEZ2aHR5SmJEd21tZC1PSWhiUmRjTm5qdFA4R1hKa1NqMjMzM0R0cEFBTERWQzFCOEp5MzFj?oc=5",
    "at": "2026-11-18",
@@ -3194,6 +3187,17 @@
    "at": "2026-11-25T02:27:15+02:00",
    "ok": true,
    "kind": "review",
+   "brand": "اخرى"
+  },
+  {
+   "title": "كيف تحول هاتفك الأندرويد القديم إلى قارئ إلكتروني ذكي؟",
+   "cand_title": "I stopped buying Kindles once I turned my old Android phone into the perfect ereader - MakeUseOf",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJ4SUNoN0lOYkxhcWhURTd5Nl83T0IyOVZmWXFrZTdWSnliZ2xBMVhWVVdOR0ZVLUJ2a0xoTXRRcUs3V0pBSG5fSjJGNHlNUTNISmppTlJDa3VfVE03QzE0Ym94cHIwcHJqMHZISjVIRHEzbzBUTTh4NjBLT2ppMW1CZW5peXljNURzN242SlhXNllESFNTekpJM3I1UWtDSU5qdUFjRWNoT29xaTlkUw?oc=5",
+   "raw_photo": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/wm/2026/11/my-books-on-old-pixel.jpg?w=1600&h=900&fit=crop",
+   "post_url": "https://www.review-mobile.com/2026/11/turn-old-android-phone-into-ereader.html",
+   "at": "2026-11-25T02:48:31+02:00",
+   "ok": true,
+   "kind": "news",
    "brand": "اخرى"
   }
  ]
