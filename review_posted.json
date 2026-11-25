@@ -1,30 +1,6 @@
 {
  "done": [
   {
-   "title": "مواصفات iQOO Z12 Lite المسربة: معالج Dimensity 6300 وأندرويد 16",
-   "cand_title": "iQOO Z12 Lite Specs: Dimensity 6300, 4GB/6GB, Android 16 - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ1ZfMWFGdjFpNFAwQWVFMUczVEItUld0TGhkUVFLTGt6c3o0cVZwZjdHSDNpV2FmREtXLUJVLV9NblRqY0txb3B1cjQ0ZEhEUWFfSDQ4Y3BHZTQ0amtZRXpMbDl2TlV1WWVRaGRxdXIxb0xxd2N0YUR0ZE94bWJUcTN3cHk2cmFXdldZXzlzMG9rc28?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/iqoo-z12-lite-specs-leak-analysis.html",
-   "at": "2026-11-19T01:24:34+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "فيفو"
-  },
-  {
-   "title": "Xiaomi 18 purportedly leaks in live image - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUHZ0MFEwWVc1YURPWTNJN0pqSk1GMW9QVDIyTUItYm5pSFduazZ6dEpIMHJjVFlldmx3eDBsRUxpNEh0M19NSUpFMjd4STdIMHIzeW0tX0VYV0tUVER0eVBRMzZtckg3d2NITHJBRERrZmRoNlRaVlg5WG8wZ1lnQU5jcjdHNHNv?oc=5",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['live', 'purportedly', 'image']"
-  },
-  {
-   "title": "Will next year's 20th Anniversary iPhone be worth a two-decade wait? - Macworld",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcVJ5TjRxV3BrNklJX3V2SUNjc0VRTXBBOEtSTUtSSmxzTlpUa09nc1E1RDFiWUVEaFVubEl0REdrMDlQVmtKaVJMVDU2WEptWGNZODRzQ05pMTZ6cXd6aFVqOGo5Z3VNNUU1bG82djZyVW1GNjlDOFptazJWVjN4Y1pFYmxDUEYxd1Ixa0tNd1ZWeC1NT2xWeHRXeGdNVG8ydERPSUtuS2lPR0ExaWZ6T2xLWm42UQ?oc=5",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['iphone', '20th', 'anniversary']"
-  },
-  {
    "title": "Oppo Reno 17 Pro: المواصفات الكاملة والسعر وموعد التوفر",
    "cand_title": "Oppo Reno 17 Pro: Price, release date and full specs - TechCabal",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNalBIdzE3cks0Mmc3RXphbVpJSHNiUHlfaUx5ZGFZeVB4b1hLNGtCQ2VCVm5teWVRS3NDNGJJbVhad1VYa3kxR1o1TV9Dbk5ueUQ3VGRBeElHMmhIMnJGM0dLN0d6eE1XMzdPMUZwUmJRYTh4aGw1N2VHRW9FRzU3RA?oc=5",
@@ -3181,6 +3157,33 @@
    "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/11/Honor-Magic-9-Lite-Plus-Design.jpg",
    "post_url": "https://www.review-mobile.com/2026/11/honor-magic-9-lite-plus-5g.html",
    "at": "2026-11-26T00:17:33+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "هونر"
+  },
+  {
+   "title": "Umidigi A75 Pro vs Ulefone Armor 35 Pro",
+   "url": "https://www.gsmarena.com/umidigi_a75_pro-15104.php||https://www.gsmarena.com/ulefone_armor_35_pro-15101.php",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'armor 35 pro' already covered in: مراجعة Ulefone Armor 35 Pro: هاتف متين بإضاءة كشاف قوية وكاميرا"
+  },
+  {
+   "title": "Realme 17 Pro design fully revealed in leaked images",
+   "url": "https://www.gsmarena.com/realme_17_pro_design_fully_revealed_in_leaked_images-news-75636.php",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (647 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "هونر تشويس T20: بطارية عملاقة 7000 مللي أمبير وأندرويد جو",
+   "cand_title": "Honor Choice T20 launches with bigger 7,000mAh battery, still runs Android Go edition",
+   "url": "https://www.gsmarena.com/honor_choice_t20_launches_with_bigger_7000mah_battery_still_runs_android_go_edition-news-75633.php",
+   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/honor-choice-t20/-952x498w6/gsmarena_000.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/honor-choice-t20-7000mah-android-go.html",
+   "at": "2026-11-26T00:47:57+02:00",
    "ok": true,
    "kind": "news",
    "brand": "هونر"
