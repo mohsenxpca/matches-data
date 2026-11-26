@@ -547,6 +547,15 @@
       "err": [
         "banned topic"
       ]
+    },
+    {
+      "q": "محمد صلاح",
+      "country": "AE",
+      "at": "2026-11-27T00:51:03.664166+02:00",
+      "ok": false,
+      "err": [
+        "banned topic"
+      ]
     }
   ]
 }
