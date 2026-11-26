@@ -1,7 +1,6 @@
 {
  "sent": [],
  "indexed": [
-  "https://www.egyptaway.com/2026/11/hisham-nasr-zamalek-board-evaluation.html",
   "https://www.egyptaway.com/2026/11/samsung-galaxy-s27-ultra-iphone-18-pro.html",
   "https://www.egyptaway.com/2026/11/etisalat-egypt-outage-2026_01221587721.html",
   "https://www.egyptaway.com/2026/11/zamalek-financial-crisis-sports.html",
@@ -400,10 +399,10 @@
   "https://www.egyptaway.com/2026/11/ministry-reveals-warraq-tanker-accident.html",
   "https://www.egyptaway.com/2026/11/elon-musk-samsung-chip-plant-rejected.html",
   "https://www.egyptaway.com/2026/11/uk-crypto-regulation-after-binance-hack.html",
-  "https://www.egyptaway.com/2026/11/galaxy-s27-ultra-cb-certification-60w.html"
+  "https://www.egyptaway.com/2026/11/galaxy-s27-ultra-cb-certification-60w.html",
+  "https://www.egyptaway.com/2026/11/trabzonspor-remontada-matches-results.html"
  ],
  "tg": [
-  "https://www.egyptaway.com/2026/11/hisham-nasr-zamalek-board-evaluation.html",
   "https://www.egyptaway.com/2026/11/samsung-galaxy-s27-ultra-iphone-18-pro.html",
   "https://www.egyptaway.com/2026/11/etisalat-egypt-outage-2026_01221587721.html",
   "https://www.egyptaway.com/2026/11/zamalek-financial-crisis-sports.html",
@@ -802,7 +801,8 @@
   "https://www.egyptaway.com/2026/11/ministry-reveals-warraq-tanker-accident.html",
   "https://www.egyptaway.com/2026/11/elon-musk-samsung-chip-plant-rejected.html",
   "https://www.egyptaway.com/2026/11/uk-crypto-regulation-after-binance-hack.html",
-  "https://www.egyptaway.com/2026/11/galaxy-s27-ultra-cb-certification-60w.html"
+  "https://www.egyptaway.com/2026/11/galaxy-s27-ultra-cb-certification-60w.html",
+  "https://www.egyptaway.com/2026/11/trabzonspor-remontada-matches-results.html"
  ],
  "fb": [
   "https://www.egyptaway.com/2026/11/samsung-galaxy-tab-a11-plus-android-17.html",
@@ -881,7 +881,8 @@
   "https://www.review-mobile.com/2026/11/vivo-first-wide-candybar-smartphone.html",
   "https://www.review-mobile.com/2026/11/honor-play-20a-review.html",
   "https://www.review-mobile.com/2026/11/honor-choice-t20-7000mah-android-go.html",
-  "https://www.review-mobile.com/2026/11/a16-a17-2026.html"
+  "https://www.review-mobile.com/2026/11/a16-a17-2026.html",
+  "https://www.egyptaway.com/2026/11/elon-musk-samsung-chip-plant-rejected.html"
  ],
  "fb_history": [
   {
@@ -1422,6 +1423,13 @@
    "mode": "native",
    "at": "2026-11-27T00:01:20+02:00",
    "fb_id": "1959788610952661_1642778574530023"
+  },
+  {
+   "url": "https://www.egyptaway.com/2026/11/elon-musk-samsung-chip-plant-rejected.html",
+   "title": "إيلون ماسك يعرض تمويل مصنع سامسونج وجاي واي لي يرفض",
+   "mode": "link",
+   "at": "2026-11-27T01:36:19+02:00",
+   "fb_id": "1959788610952661_1642842921190255"
   }
  ],
  "fb_stories": [
