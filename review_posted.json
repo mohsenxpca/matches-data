@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "title": "Motorola Edge 70 Neo launches soon with a 6.8-inch screen and a 7,000mAh battery - Techish Kenya",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sZkgwY3JkTjNKU2ltVy1TbTZXRmoxTmpacXBSTEZzMC1mTEZ2UmNBNy02cVpmajY0b3BfeEZqc3JjUnliRlN3aUZfc1RJUDc5ZWp1WnhVc2RfV3h3clM0ejlIcTlocjkwQlAyZDgtRXBQaWFpb2ZnNEItZw?oc=5",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
-  },
-  {
-   "title": "موعد إطلاق iPhone 18 و iPhone Air 2: تسريبات تكشف خطة أبل الجديدة",
-   "cand_title": "iPhone 18, iPhone Air 2 get new release timing updates - 9to5Mac",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQlprZTRxYVdkUlNsM092UHBLZzZ6bmpWRjNhS1hPTTdKLU5oMkxmVlcyUlpWbDlhSm1wYXNfUFFPSXlDaVhoTXN1RGhoRnhtZUREaG1UNjhBOVNzVm84YUlVUVg0ekZHZWRLQXRNZ0tZVGdpUFN4Y1Ata0RXVU5oOGhtQVNTbzVvMGZZM253?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/iphone-18-air-2-release-date.html",
-   "at": "2026-11-19T02:29:18+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
    "title": "iPhone 20 Pro may bring back titanium",
    "url": "https://www.gsmarena.com/iphone_20_pro_may_bring_back_titanium-news-75535.php",
    "at": "2026-11-19",
@@ -3190,6 +3173,26 @@
    "ok": true,
    "kind": "news",
    "brand": "فيفو"
+  },
+  {
+   "title": "Xiaomi's Q3 revenue stays above CNY 100 billion as phone prices climb",
+   "url": "https://www.gsmarena.com/xiaomis_q3_revenue_stays_above_cny_100_billion_as_phone_prices_climb-news-75622.php",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (655 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "موتورولا تستعد لقلب الطاولة: تسريبات هاتف Razr الجديد كلياً",
+   "cand_title": "Motorola's next base Razr has its specs and launch window leaked",
+   "url": "https://www.gsmarena.com/motorolas_next_base_razr_has_its_specs_and_launch_window_leaked-news-75624.php",
+   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/motorola-razr-2027-leak/-952x498w6/gsmarena_000.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/motorola-razr-2025-specs-leak.html",
+   "at": "2026-11-26T02:17:25+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "موتورولا"
   }
  ]
 }
