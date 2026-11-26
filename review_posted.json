@@ -1,52 +1,6 @@
 {
  "done": [
   {
-   "title": "OpenAI's first smartphone is rumored to be made by a well-known iPhone assembler",
-   "url": "https://www.gsmarena.com/openais_first_smartphone_is_rumored_to_be_made_by_a_wellknown_iphone_assembler-news-75555.php",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (677 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "مفاجأة شاومي 19.. شاشات مسطحة ومنحنية معاً لهذا السبب",
-   "cand_title": "Xiaomi 19 series might have both flat and curved screens",
-   "url": "https://www.gsmarena.com/xiaomi_19_series_rumored_to_come_with_both_flat_and_curved_screens-news-75547.php",
-   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/xiaomi-19-series-glass-options-rumor/-952x498w6/gsmarena_000.jpg",
-   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-19-series-flat-curved-screens.html",
-   "at": "2026-11-21T02:24:45+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "شاومي"
-  },
-  {
-   "title": "Google explains why Samsung Galaxy devices don’t support its new Noto 3D emojis",
-   "url": "https://www.sammobile.com/news/google-samsung-galaxy-devices-do-not-support-noto-3d-emojis/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (629 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "I’m trying something unusual to extend my Galaxy Z Fold 8’s lifespan and stop those sticky sounds when unfolding",
-   "url": "https://www.sammobile.com/opinion/trying-something-unusual-extend-my-galaxy-z-fold-8-lifespan/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
-  },
-  {
-   "title": "Samsung updates Galaxy A56, Galaxy A26 with November 2026 security patch",
-   "url": "https://www.sammobile.com/news/samsung-updates-galaxy-a56-galaxy-a26-with-november-2026-security-patch/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (439 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
    "title": "Titan 2 Elite keyboard phone is getting a fresh color, and fans already have guesses",
    "url": "https://www.androidauthority.com/unihertz-teases-new-titan-2-elite-colorway-3737949/",
    "at": "2026-11-21",
@@ -3187,6 +3141,51 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Xiaomi Redmi K100 Ultra vs Huawei Mate 90 Air",
+   "url": "https://www.gsmarena.com/xiaomi_redmi_k100_ultra_5g-15106.php||https://www.gsmarena.com/huawei_mate_90_air_5g-15099.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['redmi', 'ultra', 'k100']"
+  },
+  {
+   "title": "Motorola Edge 70 Neo vs Cubot KingKong 12",
+   "url": "https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php||https://www.gsmarena.com/cubot_kingkong_12_5g-15107.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Phone 'edge 70 neo' already covered in: سعر ومواصفات Motorola Edge 70 Neo رسميًا.. كشف التفاصيل الكاملة"
+  },
+  {
+   "title": "Xiaomi shipments plunge 29% as Samsung holds lead amid memory crunch - The Korea Herald",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GTGlWNU44azhfTmZTMEpZTXZsa2ozc1FwZmJlVzZ4MzBEYWcyVzhuOGJXZkhUa0VqREtZNHpJcXBWMUxrRWJmZ3Y1TW1QZW4zSVlhMEtSaw?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (602 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "هاتف ذكي جديد لكبار السن بكشف الاحتيال وGemini",
+   "cand_title": "Japan's FCNT Unveils Senior-Focused 'Rakuraku Smartphone F-53G' With Scam Detection and Gemini - BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45ZHhkai1IaGZNWnVpN0VMZ3FJeUl3R29feHdGV1Z0ZEdRT0NianlpamM3X253QlBQWFJ6Q3IweXZBQ0N5bkdyOVZLWHBIM3p1WVVpSlQ5dUNZd2xmSkhiMjJRMTFGLUdMU19CTHNKa0ttVGM5Z1E?oc=5",
+   "raw_photo": "https://img.biggo.com/1JzZbnksJ_mqos1R1Wja3f-B0Kwht7eTFzi1rJZQm-w/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTExL2FiOTRjNDUxLWY2MDQtNGRlYS1iZDdlLTNiMGU5Y2M1ZGI1YV8xNzk1NjY2OTE0X2RlZmF1bHQuanBn.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/fcnt-rakuraku-smartphone-f-53g.html",
+   "at": "2026-11-27T01:00:55+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
+  },
+  {
+   "title": "تفاصيل رلمي 17 برو.. بطارية عملاقة وتصميم جديد كلياً",
+   "cand_title": "Realme 17 Pro Specs Surface: 10,000mAh Battery and Redesigned Look - hi-Tech.ua",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVjR3dTE4aEpEQmYtQnZiajNKNDZmeFNWMy1XVnJtVlBJVXgzOXlTNEZnNzk5bVE0UGdsekMtNGswNzVUdjJycTJXVDNOeXZTQUdfSTlpREU1NGhiRW51RnFwRFIxZkJRTGxpcm9SOVNvWTNhNm4wWnA3Y1djdFdzR2tRcFFrMXE5a0FaQmZBTUU?oc=5",
+   "raw_photo": "https://hi-tech.ua/wp-content/uploads/2026/11/4810a435e1d4b9bbec7f4b4c055b8e49.webp",
+   "post_url": "https://www.review-mobile.com/2026/11/realme-17-pro-specs-battery-design.html",
+   "at": "2026-11-27T01:01:18+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "ريلمى"
   }
  ]
 }
