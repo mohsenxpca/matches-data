@@ -1,72 +1,6 @@
 {
  "done": [
   {
-   "title": "Titan 2 Elite keyboard phone is getting a fresh color, and fans already have guesses",
-   "url": "https://www.androidauthority.com/unihertz-teases-new-titan-2-elite-colorway-3737949/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (569 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Survey finds Pixel 11 Pro owners are mostly happy with their purchase",
-   "url": "https://www.androidauthority.com/pixel-11-pro-three-months-later-poll-results-3737834/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'pixel 11 pro' already covered in: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
-  },
-  {
-   "title": "موتورولا Moto Tag 3: هل هو جيل جديد أم مجرد ألوان إضافية؟",
-   "cand_title": "Motorola ‘Moto Tag 3’ leaks on Amazon, but it looks just like the Moto Tag 2",
-   "url": "https://www.androidauthority.com/motorola-moto-tag-3-amazon-leak-familiar-specs-3737811/",
-   "raw_photo": "https://www.androidauthority.com/wp-content/uploads/2026/01/Motorola-Moto-Tag-2-front-in-hand.jpg",
-   "post_url": "https://www.review-mobile.com/2026/11/motorola-moto-tag-3-leak-analysis.html",
-   "at": "2026-11-21T02:56:56+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "موتورولا"
-  },
-  {
-   "title": "Motorola's wide Razr Flex now leaks in two colors showing off a lot of angles",
-   "url": "https://www.gsmarena.com/motorolas_wide_razr_flex_now_leaks_in_two_colors_showing_off_a_lot_of_angles-news-75578.php",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['razr', 'motorola', 'flex']"
-  },
-  {
-   "title": "Google gains US smartphone market ground as Samsung and Motorola slip",
-   "url": "https://www.androidauthority.com/google-pixel-11-us-market-share-q3-2026-3737766/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (663 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Motorola Razr Flex certification reveals an unexpected chipset as a live image leaks - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMmIzNENtckZBQkRQR21Kb1d1UlhPNDk2M19uWFh0ZEwzSzF5RmhacEs1aTBPN0ljRGhBc3pMekJld1A4NUlWSnpYUEpONmEzX1N5NWZYZWxWeDhENzd0SFZtd3p0WE9XenRqR3dWU2txZDFJb0ZkS1pxTkNzckpnQ014V2l4VGRfenNSX3h0Q0RNakIxdVZQbklaYXpSa3VlZGdhU2w4enNHdThLSElLZXhFb2pNWHdZX2E4S0drblVWd9IBvgFBVV95cUxQN2RwZ1Z2dkI0aE1QVUZxRm53a1dwd1FidWhnNWxmbWpuYW9teDhSX3djTFIxcVBRUE9HbVl5YjkyT3YzakJQS0d5UkFsd0RqT2N0LXMtLVpMQkZVbW8ydXZUYWc0dEF2YnduamJ2WXNiUnFfOXFrd0g2ZTlMa0twQklzcEdveUNQVUg5T19ZMWZDTGtPZThpdVlDVXptay1uSHlrX1FTb1ZLOGNPamxBY3BYWkp6czBzbGVvOC1R?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['flex', 'unexpected', 'chipset', 'live']"
-  },
-  {
-   "title": "Huawei Osta 1 Pro debuts - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qeHpFdG5aR2p0WGtRUE05TU5SdTNnQkhTelhZZzF0b3d0eDRVd0I5UENuOE9qZnYxYUY4dDNORWZJVHptZzBsd25PZENlVVBHZ1lfc1E5Q2NBRXBHWWViejVoYVVvMjE5bGtlRXhxa1pFaGZEN2k4QTRkYjIxRWvSAXtBVV95cUxNcWUyRF84LTRPZHRGSDM0d3N0NGFuek1lSDlnemFPRkZjMUlpX3BELTFnYnRMT3JBTldYX1BDWnJKQlpFNVM3RmhBWTU3YjFyTmxxUUxpWEhZa0t5Vkw2a210ODFBQlEwZF9mOFQ4ZFRCc0V1UmFHVFlTdkU?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (643 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "OpenAI's first smartphone is rumored to be made by a well-known iPhone assembler - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWRieldHYWpHelJjb0JucnZYWlptSHEzUmNHLTJIR0pzTVpISVhTNnF3STdKeThyTllrc3dIN0xnZ0F1dGltTlhHUllGVGx5YnNTVVU5MGMyUDBjOWxkRTl5Q1pDazhSa1o1dGNpcDJIOS01bnVjQ19pOWJSLUxHdzg3ZmJxSHhQZ0RHd1Jidl9TSS1zSEZvazBLdF9UMjZkSzZiWTdUeGhrQTJMS1NxTlhGaW1hMk5rN2fSAbYBQVVfeXFMUHUxQW1aZ293RmxhYUplN3MxTW9VSTVTQklZaklhS0tWakxpQ2JodjAzdHJ5VXdIMWFDLU0zcXpXa05aY0c5OUNOa3hxQ2c0U0pjblNWYmYxVGxQeFZ0dElFelJ0c2FZYnhSaWw5T0ZDNUk1UWJZQ01pRFRkZmJTR0RKVFhYOXloQmRCMHdNNGEzM04xb1RiN0VJa3ptNWRDMVFId1FRX0pOdjFsSHBnRkM4TlV2YWc?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['well', 'known', 'assembler', 'made']"
-  },
-  {
    "title": "Apple tightens its grip on a shrinking US smartphone market - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbm5ZTHR0LXJ3NTJiZmZVMXg1VFVpM0hpaEQtRnhvYXQtWGlDTVRzVVB4Vk5ua0NvN1U0VTdVSXF2WWVncEliVmZETFE3SVJURmladHVVZzdLTmppVnVxMkRGNUFqYWRQWkFOaVlxWFF1MUNzdlpYekQyU2dDYi1zZ2xkWW5fOG5JQ1Y4aDlDdHhEV1VrejlxcklWbnQ0d1FL0gGcAUFVX3lxTE9sS1RicXBpdV80X2t6WDdFNjk4SnY4OHoxSWNVU0tQdzE5S1RuYmdGR1FxQ3dnOUFkamY1VmUyMG50VGY2bzByRDRYNVJGdUlRS255aFFSaXBqM2t2RnoyLWc4ZmRLTmNoVGo3OTdETFhoRFJoQzc3T3lmSE1EaUloMFlodmdXLW5tRkFteDhfY0QyOVlTVTBqbVZnNQ?oc=5",
    "at": "2026-11-21",
@@ -3186,6 +3120,66 @@
    "ok": true,
    "kind": "news",
    "brand": "ريلمى"
+  },
+  {
+   "title": "Enough Phone Upgrades Specs Without Raising Price During Kickstarter Campaign - Udaipur Kiran",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZHZnOFNtMEZtQXdXUi1CZmlrX3lhN1ZzdjhZNHJvSkVCRk9YclBCUDN0aVFULTZ4WWVyeHBxbTZyX0k1c0kwRUxOLUctdVJkbW15dEpDRjVNU0hRdzRCaFlQeUpyNlVpQUlrLUxqVnFTa0VKLXMwVi04YThaSU1PN1QzZ3NnQVp0R0EwcXJwdWhiSkR2TWFsenF2SGFGVFVhQkV1RVN3?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Exciting Huawei Mate 90 Air Specs Leak: A Familiar Upgrade? - PhonesWiki",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMMklqWUpnWDlKcDNzT29Mai1jNE1DVkZsRnM4Uk9mTXFnRXBOWVFrXzZJQ2xrY3JtcF9oeXZGRTRUbFdxOFFCOHd5WVFkc1ZKTy01b09BcE1tLTlGc2FmYUh4UkZRVVZk?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Phone 'mate 90 air' already covered in: مراجعة Huawei Mate 90 Air: هل يقدم ثورة تقنية في عالم الهواتف"
+  },
+  {
+   "title": "Put a new iPhone or Android in your pocket for less with these Black Friday phone deals - ZDNET",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5NeVRhVU1mZHNQS1d6c1c1Y0xJWmpwOGo2d3VONk5RNWE3a3U5ODVENGdRNXpzTzdoX0ZFZ2pEcnpDY0V6VU1HUGx5X0xNNGdCSW5Pdm5OOGpaTlF6SHZRVlVoMXUxeWViYVlMdVVXRWQxVzJJaHBnXw?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['friday', 'black', 'deals']"
+  },
+  {
+   "title": "I found the 36 best Black Friday phone deals on iPhones, Samsung Galaxy, Google Pixel, and more - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xVlpjQ2Rfb2JNS2xjVzIxMDVITjFhUUxWVWZQS25Fc3lSbFRLN0hfNXRBcmFxZlFXUkJtbUJueFpxMlBJMEJFVWpoZ2h3Y3dnX3YwdmxtdkxTY1ljaWlNOXZ1b3VnTTVyQkgtbWJBQkdGcEF5elU2UQ?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['friday', 'black', 'deals', 'best']"
+  },
+  {
+   "title": "Exclusive: Samsung is working on a private cloud for Galaxy AI, and it could look a lot like Apple’s - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ2trMlRsMFlvWUNTU1V3VjNCbXBlN2hrNUNfOXpRMDEtNDNWOVJvOGMxZFhIc3g0S043blhmekgxZzd6TTJJRHhUVk9VZXhlTEJ5eWI2RFBjV0dfUk5VRjFmU1d3T1Y2N3JReXZkZlQyZUxJNVZtVTFXR1NMYUFCQnpnTlVUZDJRRzBTdEl0cGdIYVdrcjZxUDhKdG5NU0o3RGotbQ?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['exclusive', 'could', 'working', 'look']"
+  },
+  {
+   "title": "The best Black Friday Android flagship smartphone deals: find the right phone for you - Android Central",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMnJIZHBaTmtGNXFPcjNDV01xVm9NMjR0WVV3ck5DMUtibUpmRl9wLUVZWmpQaWtRMlNkQTRoeHlTZlM1cDRJZWJXbld5RWgwalEwZTF2UjNsdFJtWjU0RGNuUzVTR3RmNXJ2UlRraEplWVlzc3RxbUsxX0gyZkx2RnJFSFJNQktsNzJCaUp6LUZad05EYjdRVGtZUnc0SVFMMER3b1ByRkxLTHMwVjVGWVFvZTZCUUt4NVdDYXR1WQ?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['friday', 'black', 'deals', 'best']"
+  },
+  {
+   "title": "Samsung is building a private AI cloud that could make Galaxy AI far more powerful - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdk9rYXFGUGxidFVyelBqdEJvQTc4UzlhLV9TYk1IUjhULTRCUDc2M25xSk5XeEg1bGR4RFZWZFRVc3cxTHhJRUJLN19YUjQteVRsc0k1RFU3Qnd4X3ZsZXJBaHVEX0kwZTFpWFR4RndYdjZQR3BHQS1sMDNsTDJGWjZCdDBRaHpsNXZWOU5YSjZ2UnBTUGNXdWxrSVYtalliTWNsSnlvSQ?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['galaxy', 'private', 'cloud', 'could']"
+  },
+  {
+   "title": "مراجعة Xiaomi Redmi K100 Ultra: مواصفات عملاق شاومي الجديد وسعره",
+   "cand_title": "Xiaomi Redmi K100 Ultra",
+   "url": "https://www.gsmarena.com/xiaomi_redmi_k100_ultra_5g-15106.php",
+   "raw_photo": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k90-ultra.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-redmi-k100-ultra-review.html",
+   "at": "2026-11-27T01:31:40+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "شاومي"
   }
  ]
 }
