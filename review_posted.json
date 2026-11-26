@@ -1,20 +1,6 @@
 {
  "done": [
   {
-   "title": "نتائج أبل تتجاوز التوقعات بفضل قوة مبيعات آيفون 18",
-   "url": "https://www.masrawy.com/news/tech-reports/details/2026/11/3/3072798/%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A3%D8%A8%D9%84-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D8%A8%D9%81%D8%B6%D9%84-%D9%82%D9%88%D8%A9-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%A2%D9%8A%D9%81%D9%88%D9%86-18",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Phone 'آيفون 18' already covered in: آبل تستعد لإطلاق آيفون 18 بترقيات ضخمة وزيادة جديدة بالأسعار"
-  },
-  {
-   "title": "Motorola confirms key specs for the Edge 70 Neo now - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZWN4XzRMRlNBX19wUkRTdFBNZWJjTER0M29paURyN3h5WE5PZjVwT2F1aWl5N1dibERYS1NlVnlNUHlNMFB0aTY0aG9jTG9MSTktMGhyQjJfbmVqMGlVNDN0OFIxUzQwV0Uyb09aY1U0SWgzTFVVVHVlWWVsS3VfT2JnX3hpWElSdDZsQk12WTB0M1ZyeDVOWUNQcmdNWDUtOE5uTmpWbjFWaHpOWTJpaWNYN1hQYzBQZ2thNFJn0gG6AUFVX3lxTFBkUHVWcHBBMHptYXJEbEhZS0NqalA5aTlXR1JyYmZOQ3RzZDFVc2pjNEV2blBxbEIxT2Uyd3FZUzhWMXFTbXdEQlBFOHRkU1E1N2ExMXc3WTgyVlE2R0dOUUJLa1lqeFpTdmptZnk4RUtKZFlyQTFXRS1kSFVBcWlCbGZPMDNPQnRJT2xBckFVN2RSaDhnRTdjajVuTm9GSVp5MjVFWUhISEpkeldiTTZzTWh1NE1nams0QQ?oc=5",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
-  },
-  {
    "title": "Huawei Mate 90 Air listed ahead of launch - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObk9OZlBLN0tDby1lWXlwMUNpb1NpcjV3c296b1BCQXBaX01uQmMyRUVEa3NRVC1TVjFHQnd4RENzSmhtZFJ3VmVJcnd3WC1MU09QbS1TZ1hMa0pQSnNCaUN3ckJ1VVdsMnI0aHpvRHU4bS1oYVNMV2xRYjg5eTB0YnhjdEF6dEJh0gGEAUFVX3lxTE95N3Fub1RDUjFtUkhxSXFUOVBmNlVNd1ZIZzlzWWVaZ0hrYk9NOXZXUVc5MmNValVqcl9oaGVkNjhsWE41TWtqaTIwRG1rajY1SlliMGNoaVBXZWZwV3lpUzJaQUpCUmNOTmdFY01XZS1BUktVNEUxNWgxbzBrb3RXdVRkVA?oc=5",
    "at": "2026-11-20",
@@ -3182,6 +3168,27 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "This brand is bringing the most surprising Android trend of 2026 to a budget smartphone - Yahoo Tech",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNjlLTUxhbEdsdzgyd0I4ckFjNTU0anBsUWdpWE02b1kxY3U1bk82SU1VRlEyYTFTckZNc1NUREJBNVBYY0RYLU43a1RZb1FsU29MUmNENlh0NmQwVUpvZy01MU16ZklyQlliWjBXNmpBSWZNYUNIUzlteEdrZlZvSVBmNVpLanpiSGNLN2lDNWk3NWFJczNn?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (387 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "سعر ومواصفات Motorola Edge 70 Neo رسميًا.. كشف التفاصيل الكاملة",
+   "cand_title": "Motorola Edge 70 Neo's price and sale date announced - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJcUh4bDY5dXktUFJfQlZwX3hkUWJyUU5ncllCbU14SjdaOUdMUE5VZGZQejgtdDh0a1BiVHBmMllLaWl5UUZiNnFaQ2tobF9hS3libEVtLWhWVVk1R1plbFdLb2JUQ1hSSWJtbVBpUENGZi1NVTh5RURFaC13ZGPSAX5BVV95cUxPQXcweFI0MXNIajA4dFVjUVJwa0lIaTlyXzlzR0dsUmk3MnR2QzdhNk9HdXR1Q0hmTnJjUHY5NlRLMWZSMG9WVTlOZzNqUU9nM0xwNUhHNDRjcHMtNlM1V1MwNUh5U05jZjk4WkhvbkdVYWQ2WEFJNEUzRGstT3c?oc=5",
+   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/motorola-edge-70-neo-price-sale-date/-952x498w6/gsmarena_001.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/motorola-edge-70-neo-price-specs.html",
+   "at": "2026-11-26T03:46:55+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "موتورولا"
   }
  ]
 }
