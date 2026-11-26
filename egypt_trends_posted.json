@@ -1,17 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.bild.de/sport/fussball/fc-bayern-manuel-neuer-in-mainz-verletzt-ausgewechselt-6aef401a2f874a5744a43778",
-   "t": "FC Bayern: Manuel Neuer in Mainz verletzt ausgewechselt",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "كلمة رسميًا مش موجودة في المصدر، احذفها",
-    "الـ body 392 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ايرن', 'ميونخ'}) مع تشابه نصي مع: هاري كين الأغلى في أوروبا.. تفاصيل عقد بايرن ميونخ التاريخي)"
-   ]
-  },
-  {
    "u": "https://www.albayan.ae/sports/uae-stadiums/1563178",
    "t": "3 قمم تشعل صراع الصدارة مع عودة دوري أدنوك للمحترفين",
    "title": "الشارقة ضد شباب الأهلي.. قمة نارية بدوري أدنوك",
@@ -3400,6 +3389,16 @@
    "url": "https://www.egyptaway.com/2026/11/ahmed-galal-reveals-zizo-zamalek-case.html",
    "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2026/7/large/18241058786985202607150824432443.jpg&w=1200&output=webp&q=80",
    "at": "2026-11-26T04:46:24.486628+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/26/بعد-اختراق-باينانس-بـ6-3-مليار-دولار-بريطانيا-تتحرك-لفرض/7633443",
+   "t": "بعد اختراق باينانس بـ6.3 مليار دولار.. بريطانيا تتحرك لفرض رقابة على العملات المشفرة",
+   "title": "تحرك بريطاني عاجل لفرض رقابة صارمة على العملات المشفرة",
+   "url": "https://www.egyptaway.com/2026/11/uk-crypto-regulation-after-binance-hack.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202102130130513051.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-27T00:16:34.258259+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
