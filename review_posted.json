@@ -1,65 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei OSTA O1 Pro launches with wide 16:9.5 display, 200MP camera, 7,000mAh battery",
-   "url": "https://www.gizmochina.com/2026/11/20/huawei-osta-o1-pro-launches-specs-price/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'o1 pro' already covered in: مراجعة Huawei Osta O1 Pro: ثورة في التصميم والشاشة بتجربة بصرية"
-  },
-  {
-   "title": "مواصفات Oppo Reno 17: وحش البطارية بكاميرا 200 ميجابكسل",
-   "cand_title": "Oppo Reno 17 and Reno 17 Pro on first sale with 8000mAh battery, 200MP camera",
-   "url": "https://www.gizmochina.com/2026/11/20/oppo-reno-17-and-reno-17-pro-on-first-sale-with-8000mah-battery-200mp-camera/",
-   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/11/Oppo-Reno-17-and-Reno-17-Pro-Launch-Specs-Price.jpg",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-reno-17-pro-launch-analysis.html",
-   "at": "2026-11-21T00:53:12+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اوبو"
-  },
-  {
-   "title": "سامسونج تضع اللمسات الأولى لـ Galaxy Z Fold 9: تفاصيل تقنية وموعد",
-   "cand_title": "Samsung Galaxy Z Fold 9 and Galaxy Z Fold 9 Ultra appear on IMEI database, launch inching closer",
-   "url": "https://www.gizmochina.com/2026/11/20/samsung-galaxy-z-fold-9-imei-database-listing/",
-   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/10/Samsung-Galaxy-Z-Fold-8_1.jpg",
-   "post_url": "https://www.review-mobile.com/2026/11/samsung-galaxy-z-fold-9-imei.html",
-   "at": "2026-11-21T01:22:46+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "سامسونج"
-  },
-  {
-   "title": "Honor is working on a 7-inch phone with 13,500mAh battery",
-   "url": "https://www.gizmochina.com/2026/11/20/honor-is-working-on-a-7-inch-phone-with-13500mah-battery/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (497 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Tensor G6 vs. Snapdragon 8 Gen 5: Benchmark score, spec sheet, and more",
-   "url": "https://www.gizmochina.com/2026/11/20/tensor-g6-vs-snapdragon-8-gen-5-benchmark-score-spec-sheet-and-more/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'gen 5' already covered in: موتورولا تحيي سلسلة Moto One بهاتف خارق بمعالج Snapdragon 8 Gen 5"
-  },
-  {
-   "title": "Xiaomi 18 reservations begin, here’s what to expect",
-   "url": "https://www.gizmochina.com/2026/11/20/xiaomi-18-reservations-open-china-teaser-december-launch/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18' already covered in: حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد"
-  },
-  {
-   "title": "Ugreen announces first 60W AVS display charger for iPhone 18 Pro and Pro Max",
-   "url": "https://www.gizmochina.com/2026/11/20/ugreen-announces-first-60w-avs-display-charger-for-iphone-18-pro-and-pro-max/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'iphone 18 pro' already covered in: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
    "title": "OpenAI's first smartphone is rumored to be made by a well-known iPhone assembler",
    "url": "https://www.gsmarena.com/openais_first_smartphone_is_rumored_to_be_made_by_a_wellknown_iphone_assembler-news-75555.php",
    "at": "2026-11-21",
@@ -3190,6 +3131,62 @@
    "ok": true,
    "kind": "news",
    "brand": "وان بلس"
+  },
+  {
+   "title": "Huawei Mate X8 vs Xiaomi Redmi K100 Ultra",
+   "url": "https://www.gsmarena.com/huawei_mate_x8_5g-15022.php||https://www.gsmarena.com/xiaomi_redmi_k100_ultra_5g-15106.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['redmi', 'k100', 'ultra']"
+  },
+  {
+   "title": "Honor Choice T20 vs Huawei Mate 90 Air",
+   "url": "https://www.gsmarena.com/honor_choice_t20-15105.php||https://www.gsmarena.com/huawei_mate_90_air_5g-15099.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Phone 't20' already covered in: هونر تشويس T20: بطارية عملاقة 7000 مللي أمبير وأندرويد جو"
+  },
+  {
+   "title": "Galaxy S26 FE drops to a record low with $200 off",
+   "url": "https://www.androidauthority.com/galaxy-s26-fe-record-low-deal-3740545/",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Phone 's26 fe' already covered in: مراجعة Samsung Galaxy S26 FE: بديل أرخص لـ S26 2026"
+  },
+  {
+   "title": "Exclusive: Samsung is working on a private cloud for Galaxy AI, and it could look a lot like Apple’s",
+   "url": "https://www.androidauthority.com/samsung-one-ui-9-5-spac-private-cloud-galaxy-ai-apk-teardown-3739743/",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (598 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Counterpoint: Smartphone shipments on track for record drop in 2026 - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTGNRa29UdkpBOHYxWERHYkhOS0NPenBLWGViZWxfOE5LSjdoQThlS2dkMDdCWVlBMFR3YjhRcFZoN29peDdtTXJZYk1rbzBlaTZrcTY2SEtBbDJUM0pVbGw3b3VNWmVEZVRJZUZRazdWQlVwMS1vSEpvUVN2eXpDMnlsY2ZtcmFNNi13bzUyZmQzeHBNcDZXZNIBlAFBVV95cUxQdXZ2dnl2YjlMU0tCaGo1RmwzODN5VzFhR3p2RzN5ZGgzSndEcllubi1zd3F4d1NvRHhsaFVQVlM1OGtwM29TZFBzcVhtcnlsY0lrdllWQW95N1FoblE3NWxZZ05yc1N0cl94ZDN4QnBpTUYzWUZ0U3JOU1BhWHRkRFpXZUhyMHQyRl92NUhaNEtrRkJa?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['2026', 'counterpoint', 'shipments', 'record']"
+  },
+  {
+   "title": "Here's what the vanilla Huawei Osta O1 is rumored to bring - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0lQakRENmE2NkhNNEZRaUQtZEhLSENpb21aNktxbExTR0tvSVpMbUswZHRNSUJmNlhsTjQ3VlRHVFVfSDhxQjAwVHlPWGVDcnhLUVJCOEFQVVFZWlNETDl1SDB5bUtocFpFTUtSdDIwRi01LWk5RmlBczhOQVdqTVdVdnFzdzJ2MTlDNG13ME5GTzJzX0ZoUnhBNHpFUdIBmgFBVV95cUxQbEFIODRScm1ZN3ByT0ZxQUFsVGl1bXJiTzg4YlFmSjRPUXFCeERhS2p0VTZOU3BtYUNvRGxMdmxkTEVYenc5R0M1Z211bWZveGZGNENURnJVR2g2SndzWklRcFNDc2w4SG9jbXJmaXFicmYxNmltbU9BYmJBUVJ4OE5UWGtkTlFwdDc5dUwxMHRFaHJZeFBfcmR3?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['vanilla', 'osta', 'bring']"
+  },
+  {
+   "title": "هاتف ذكي بحجم صغير.. ترقية مفاجئة للرام والتخزين بلا زيادة بالسعر",
+   "cand_title": "This Compact Phone Project Upped Storage and RAM Without a Price Hike - PCMag UK",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ1lzazBUM0hTZlNGSjd0cHRIdVhSZWVlRHpLS0dsbTdkRF9BNDNKdUNkQTR5V2s3NnNBUm5JaVdBaTZmcmsybS1aWjI5bFJNLUtTMkZyOFpORmU1Znd0T0RMRkpSZ1NLQzhqN2VtNVVNcTV3ZkY5SENaelJwdWk3b2lTZWZGTnNYOVdhT085dF9CN25wc184VmZOaUE2dU9nQV8wOVhaWVg1emtBZXlqMw?oc=5",
+   "raw_photo": "https://sm.pcmag.com/t/pcmag_uk/news/t/this-compa/this-compact-phone-project-upped-storage-and-ram-without-a-p_1eg2.1200.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/enough-phone-storage-ram-upgrade.html",
+   "at": "2026-11-27T00:57:11+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
