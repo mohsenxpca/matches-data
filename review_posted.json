@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "T-Mobile Introduces T-Mix, an Innovative Phone Plan That Lets You Choose What's Included - The Hollywood Reporter",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSGdwWFllUTcwc095YkdCNFNSWXNSN1JDSmlvOVMzcS1WakVybkNxQnhtbnVTVkczREx3NWczMFcwWklQb1lLbUVNYmlESW1halZJejhodDRBTnNpUm4xWVU1Qm1ENW5DQ2tmeGo2T3NIQ3pFdmw0eVhVUlhGZHhIRUJ3UzJvcjdQYVRBRHpUTU1uRnRvLUZPMnhpVmMwbUp5SEFlVkJCU1l4QTA5MWo4cGhSTmFEMC1UVUhGTnBVSQ?oc=5",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
    "title": "Xiaomi 18 Pro and Pro Max Singapore: prices, specs and rear screen - https://potions.sg/",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV3Y3czBBa01XdXdHbGNCMktMWjg1cjBrUl90eHU4ZEo5dG9pVFF6VU4xY1Jpb0RYdXVXSFF4NFd1ZkZzQmFnN2daOFFYSVVqREJVMGVFZEcyb09FeUJaNlRYb0JFa0lPcnlUcEMxRjJPc0F4aUdTVDQ1SGpHaFY5U1B3SFVqUWs?oc=5",
    "at": "2026-11-20",
@@ -3186,6 +3179,17 @@
    "at": "2026-11-26",
    "ok": false,
    "reason": "Recent story overlap on key terms ['2026', 'market', '2027']"
+  },
+  {
+   "title": "مراجعة هاتف HONOR Play 20A: هاتف اقتصادي بشاشة خلفية ذكية ومبتكرة",
+   "cand_title": "HONOR Play 20A review: A budget phone with a clever trick on its back - REVU Philippines",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jUlRnVUNrRXRFRENONWNKR3hKNGQ2MUNsckk4ckVSSnNMQ3Vsc2ZwUS03TFlKdXpfZWdNNzhTXzl5RlBDQzVTT19IaU00N0JrZ1p5eE56cHUza2RvNTNvN1VSaEl4TU41RU9ldkJGZWR4M0p5?oc=5",
+   "raw_photo": "https://www.revu.com.ph/wp-content/uploads/2026/11/HONOR-Play-20A-review-price-specs-REVU-Philippines-b.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/honor-play-20a-review.html",
+   "at": "2026-11-26T06:41:32+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "هونر"
   }
  ]
 }
