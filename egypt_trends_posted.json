@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.chroniclelive.co.uk/sport/football/football-news/matthias-jaissle-must-show-newcastle-34871248",
-   "t": "Matthias Jaissle must show Newcastle are addressing Eddie Howe's final complaint at Fulham",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 7، 9"
-   ]
-  },
-  {
    "u": "https://www.bild.de/sport/fussball/fc-bayern-manuel-neuer-in-mainz-verletzt-ausgewechselt-6aef401a2f874a5744a43778",
    "t": "FC Bayern: Manuel Neuer in Mainz verletzt ausgewechselt",
    "at": "2026-11-07",
@@ -3401,6 +3392,16 @@
    "reason": [
     "الـ body 457 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7194935",
+   "t": "أحمد جلال يكشف تفاصيل قرار النيابة العامة في قضية زيزو والزمالك",
+   "title": "أحمد جلال يكشف قرار النيابة في أزمة الزمالك وأحمد زيزو",
+   "url": "https://www.egyptaway.com/2026/11/ahmed-galal-reveals-zizo-zamalek-case.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2026/7/large/18241058786985202607150824432443.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-26T04:46:24.486628+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
