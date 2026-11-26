@@ -1,42 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung and Apple were the only OEMs to increase US phone shipment shares year-on-year in Q3 2026",
-   "url": "https://www.sammobile.com/news/samsung-and-apple-only-oems-increase-us-phone-shipment-share-yoy-q3-2026/",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (680 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Caviar releases GTA 6-inspired Galaxy Z Fold 8 Ocean Drive edition",
-   "url": "https://www.sammobile.com/news/caviar-releases-gta-6-inspired-galaxy-z-fold-8-ocean-drive-edition/",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
-  },
-  {
-   "title": "موتورولا Razr Flex: تسريبات تكشف تصميم الهاتف القابل للطي القادم",
-   "cand_title": "New Motorola Razr Flex renders offer best look yet at wide-body foldable",
-   "url": "https://www.androidauthority.com/razr-flex-renders-3737393/",
-   "raw_photo": "https://www.androidauthority.com/wp-content/uploads/2026/11/moto-razr-flex-beige-renders.jpg",
-   "post_url": "https://www.review-mobile.com/2026/11/motorola-razr-flex-leaked-renders.html",
-   "at": "2026-11-20T02:44:23+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "موتورولا"
-  },
-  {
-   "title": "Motorola Edge 2026 gets a record $200 Black Friday price cut",
-   "url": "https://www.androidauthority.com/motorola-edge-2026-deal-3737378/",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (661 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "نتائج أبل تتجاوز التوقعات بفضل قوة مبيعات آيفون 18",
    "url": "https://www.masrawy.com/news/tech-reports/details/2026/11/3/3072798/%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A3%D8%A8%D9%84-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D8%A8%D9%81%D8%B6%D9%84-%D9%82%D9%88%D8%A9-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%A2%D9%8A%D9%81%D9%88%D9%86-18",
    "at": "2026-11-20",
@@ -3184,6 +3148,40 @@
    "reason": [
     "العنوان مكرر أو قريب جداً من مقال منشور: مراجعة Oppo A7 Pro: المواصفات الشاملة، السعر، المميزات والعيوب"
    ]
+  },
+  {
+   "title": "5 Google apps I uninstall on every new Android phone - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbnZJN2pPbjNVU3ZHTTZVYWk5Nk80el95MEJvWWp4Ymx5QW9JSHBxLUM2LWlYcjJFS25NM3kxZUMyeks5S3RydUlKalpKZEVjcERnOThRak1xbkVVQ2hZVUY2TlBhWDhzREs5VWtramlaMDAyd0RsZ2t2Y0NNVll4U2I2WmxaQQ?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone '5' already covered in: 5 نصائح ذهبية لشراء هاتف أندرويد في الجمعة السوداء"
+  },
+  {
+   "title": "Samsung Galaxy Z TriFold 2 codename leak hints at another limited release - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNLW1LTVVLbnFRMlBCS0JoQktLZWNYWFJkV0ZkOHpYQjdMN0pWNEs2Y2lBNDNOUUVZSGtSRnlLbC1VZEdBQll3cUNoRzVoTF9LNllRV295ZzROcWxXUXc3Z2xjRzdmZ3l5SXJqYXZtbFdJbzBHUFRvemVsTmlYVEM3UDRRbjVuSUNqWXFwTlpqSEJMQQ?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['galaxy', 'trifold', 'codename', 'limited']"
+  },
+  {
+   "title": "The phone market struggled in 2026, and 2027 might see fewer phones shipped - Android Central",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYlZQN1BockRWaW5yQkx5T1U0U2hCX0FhajFFT1JERW9WUXhwbm9EU1Ata3A1RG9ZNXBCbFlZbERhYnNndlZyZ3FNdHZ4SG5PNGRWeTZTRVRqTDdONGRqSFlWVFJ4R3ZzNnJMdXRhTVlaTUlOTkpDblgzSnBJN2NRMUN3WjdIcmFCLTI0TWJGRTJ1TFJWZ0p6LWc0Y3piZUVYSjM0amhPdXVsSFFjVmM2S0QxMEVGNVNFNGhpMzNTVV9wV0dv?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (573 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "تحذير أمني عاجل لمستخدمي تطبيق Pancake: كيف تحمي بياناتك من",
+   "cand_title": "PancakeSwap warns users of fake Android and iPhone apps - Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aQjNGZ1RsalgzQmRzTnNHdUgyZFJORkVWa1B4a2RNTEFXdU9qSzV3S0xyNTVaTTEzREtoSUZNSlBLY1czd24wRk4wdHZUeUxMUUg2UXpGelYtdEctUFhBSmt5WE5RUEZpWmM5Qzl0UQ?oc=5",
+   "raw_photo": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/25083707/library-pancakeswap-warns-users-of-fake-android-and-iphone-apps-800x450.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/pancakeswap-fake-apps-security-warning.html",
+   "at": "2026-11-26T03:18:39+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
