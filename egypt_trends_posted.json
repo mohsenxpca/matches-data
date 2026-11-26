@@ -1,17 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.yallakora.com/bundesliga/3036/news/572129/%D8%A8%D8%A7%D9%8A%D8%B1%D9%86-%D9%85%D9%8A%D9%88%D9%86%D8%AE-%D9%8A%D8%AA%D8%B1%D9%82%D8%A8-%D8%B9%D9%88%D8%AF%D8%A9-%D9%83%D9%88%D9%85%D8%A8%D8%A7%D9%86%D9%8A-%D9%88%D8%AA%D8%B7%D9%88%D8%B1%D8%A7%D8%AA-%D8%A5%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A8%D8%B4%D8%A3%D9%86-%D9%85%D9%88%D8%B3%D9%8A%D8%A7%D9%84%D8%A7-%D9%88%D8%AF%D9%8A%D8%A7%D8%B2",
-   "t": "بايرن ميونخ يترقب عودة كومباني.. وتطورات إيجابية بشأن موسيالا ودياز",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "الـ body 424 كلمة بس، لازم 530 على الأقل",
-    "الموضوع منشور مسبقاً (تطابق في الكيانات ({'ميونخ', 'ايرن'}) مع تشابه نصي مع: هاري كين الأغلى في أوروبا.. تفاصيل عقد بايرن ميونخ التاريخي)",
-    "الوصف لازم 140-160 حرف"
-   ]
-  },
-  {
    "u": "https://www.mancity.com/news/mens/nottingham-forest-manchester-city-team-news-tactics-63929664",
    "t": "Maresca makes three changes for Forest trip",
    "title": "تفاصيل مواجهة نوتينغهام فورست ضد مان سيتي في الدوري",
@@ -3399,6 +3388,16 @@
    "url": "https://www.egyptaway.com/2026/11/trabzonspor-remontada-matches-results.html",
    "photo": "https://wsrv.nl/?url=https%3A//media.gemini.media/img/large/2026/8/25/2026_8_25_10_45_13_330.webp&w=1200&output=webp&q=80",
    "at": "2026-11-27T01:16:40.099455+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.elbalad.news/7196167",
+   "t": "بركات: تغيير المدربين غير معتاد بالأهلي.. وزيزو قادر على استعادة مستواه",
+   "title": "بركات: تغيير المدربين غير معتاد بالأهلي وزيزو يستعيد مستواه",
+   "url": "https://www.egyptaway.com/2026/11/barakat-ahly-zizo-coaches.html",
+   "photo": "https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
+   "at": "2026-11-27T01:36:27.510317+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
