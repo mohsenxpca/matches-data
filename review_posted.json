@@ -1,34 +1,6 @@
 {
  "done": [
   {
-   "title": "Huawei Mate 90 Air listed ahead of launch - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObk9OZlBLN0tDby1lWXlwMUNpb1NpcjV3c296b1BCQXBaX01uQmMyRUVEa3NRVC1TVjFHQnd4RENzSmhtZFJ3VmVJcnd3WC1MU09QbS1TZ1hMa0pQSnNCaUN3ckJ1VVdsMnI0aHpvRHU4bS1oYVNMV2xRYjg5eTB0YnhjdEF6dEJh0gGEAUFVX3lxTE95N3Fub1RDUjFtUkhxSXFUOVBmNlVNd1ZIZzlzWWVaZ0hrYk9NOXZXUVc5MmNValVqcl9oaGVkNjhsWE41TWtqaTIwRG1rajY1SlliMGNoaVBXZWZwV3lpUzJaQUpCUmNOTmdFY01XZS1BUktVNEUxNWgxbzBrb3RXdVRkVA?oc=5",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['listed', 'mate', 'ahead']"
-  },
-  {
-   "title": "Xiaomi 18 Pro (Global) review - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0V1gwSHMwS0FaZFRZSUlhcmZEcVh2dnJRaE03NTJjdmc2NXY0ek9xVmc3c1ZLbjA3bkJvMHVKaWpuU1RCQWQzU2h1YXM1bFBoQWlsVDAtTkRpQWV3a0tNdWc3b0o?oc=5",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
-   "title": "Honor Magic V7 will reportedly be a wide foldable - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRF9lbHpKQzg3S2JVdDlTNWNWTUlZYnEzV2d5SjZIOXB4dFJUbzU1MEtaMFRLNWVvUTAtS2xPeXpfNHRiUkQxMVdEdlEtNk1HUW9CS2JUVjdlNGMyQ1VrVklfS2k0S3pxYkxGZDFoYlgtY0tYRndPbUVNT3dQSHlBZjJFWElFNTV0cEdyRGxKUkpnbknSAY8BQVVfeXFMTkQ3aDNWNlp1ZEVxOVV5Vmtrei1Wd3VPYmdNckFzSGpqZVc4RzVCajl6dFNRUWVyNjRWRlhrbm5LMHF6UFNlVUgyQ1Z3UE5oaVFNVEVtM1J1Q0ZfN1E4NEM3R3VKcTlPUjR2Ynd5THZnZ1kwMjdwNHBqV0lSNWJJTzFsLTM3aDlVb0JzSTY3Q1k?oc=5",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['foldable', 'magic', 'wide']"
-  },
-  {
-   "title": "Honor confirms which Magic9 models will be available in the UK - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbHM2TkpGN2lmSjVtREVxaVJzNWk1NlREc3N6WjhTZktGVFlYYktWaEtzYXN0N0tFSVZiVkYwYlRvVWRBV0RpNkUtWno4WjlNWjB6SzAtb1RMTzJZb2FkM0VIamRvTmNyMFdQRFg4T1VMUjJmWWlXWDFkcndBSWVpaE93Vm85RGlBb2xjb2Q2SERmcnJhMU9fczNZZHlmMUpNNktPMtIBoAFBVV95cUxQa1FkTy1PVXlQVmVNOHRpazFLZmVSbV9hU3dFRmFIbWhDelFobGhoejltSnFZbXlqbVE1QjdyZXg5YUs1VGNONVJCd3VfSm1Na0p2Z0x0aDNZUTZnNTdmS2tQSlpkMVJwd01ZcGMxZDk5cEpsVlBBSll4Rm1lNDlxVzhnNEJKX01VYy15QnNJY3hEOEhtdHhKOEw3TUxidVpf?oc=5",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['models', 'available', 'magic9', 'which']"
-  },
-  {
    "title": "أوبو Reno 17: وحش البطارية الجديد يصل بمواصفات ثورية",
    "cand_title": "Oppo Reno 17: Price, release date and full specs - TechCabal",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBFTFpzZHkySGN0aTRmSks0bHNLaG95WU9ZTEZPUEdHQ3VJWDBSc0RYUFY2ZVE0MmI0LS1TWV90RFhuNVM5dVczRTNKcG9lVUQ0VG9mZHZfb2ItWjd4Qm5rSkcwdS1wcjg0Z1ctZ2hNRDJILUxkUUlaWF9ldw?oc=5",
@@ -3189,6 +3161,34 @@
    "ok": true,
    "kind": "news",
    "brand": "موتورولا"
+  },
+  {
+   "title": "Redmi Note 18 5G has seemingly been certified, here's its charging speed",
+   "url": "https://www.gsmarena.com/redmi_note_18_5g_has_seemingly_been_certified_heres_its_charging_speed-news-75634.php",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'note 18' already covered in: هل تستحق سلسلة Redmi Note 18 الانتظار؟ بطارية عملاقة وشحن سريع"
+  },
+  {
+   "title": "نتائج أبل تتجاوز التوقعات بفضل قوة مبيعات آيفون 18",
+   "url": "https://www.masrawy.com/news/tech-reports/details/2026/11/3/3072798/%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D8%A3%D8%A8%D9%84-%D8%AA%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D8%A8%D9%81%D8%B6%D9%84-%D9%82%D9%88%D8%A9-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%A2%D9%8A%D9%81%D9%88%D9%86-18",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'آيفون 18' already covered in: آبل تستعد لإطلاق آيفون 18 بترقيات ضخمة وزيادة جديدة بالأسعار"
+  },
+  {
+   "title": "WhatsApp rolls out stickers with audio on Android and iPhone, How to create your own, add sound, and where to find them - Revista Merca2.0",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYnFBbzlhcVY3c1hTUVVRUWJJb3VxcFNsR1UtbkI1WGZNbzFOVGRGS2NweHcyX1FVei1fMnFMT09tRXo1QzdZUWkyNS1ta1VBSWlxNVJLTmZmMFhMZ3BENnJUUXJfeVVoUldZY050b1V1amlyMG5mTjVmZ290Sm82LWZxWXEwWXRFNFFkdlNLNjRzZnhxRkY2UnlGYjdHczExa1p4UVBHVFBNZ1RIdU1iMGtEVTJxbU9nNzh2RExrbEdTX3AzQXJfNnRlZlZ5emI0WUt4WjkxYlg?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "Samsung’s Galaxy Z Fold 9 lineup looks like it’ll include a new TriFold, leak suggests - 9to5Google",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVTjJqdTlVZUV4S2F4ZlZNeXY2a2Y3VXRFcHotd1RuLWtDWk1jallYU1ZQS2ZiNHdWY3M4eVJjQ3k4Tm1aanMxZDAyUFpJbjg1bDduYUl3ajRiY2xmSHVmel90Vi1hVER3UnN4NEpzM3VnZmF4UEN6NENQbnZRQQ?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'fold 9' already covered in: سامسونج تضع اللمسات الأولى لـ Galaxy Z Fold 9: تفاصيل تقنية وموعد"
   }
  ]
 }
