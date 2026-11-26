@@ -1,102 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Pro and Pro Max Singapore: prices, specs and rear screen - https://potions.sg/",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV3Y3czBBa01XdXdHbGNCMktMWjg1cjBrUl90eHU4ZEo5dG9pVFF6VU4xY1Jpb0RYdXVXSFF4NFd1ZkZzQmFnN2daOFFYSVVqREJVMGVFZEcyb09FeUJaNlRYb0JFa0lPcnlUcEMxRjJPc0F4aUdTVDQ1SGpHaFY5U1B3SFVqUWs?oc=5",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "مراجعة Huawei Osta O1 Pro: ثورة في التصميم والشاشة بتجربة بصرية",
-   "cand_title": "Huawei Osta O1 Pro",
-   "url": "https://www.gsmarena.com/huawei_osta_o1_pro-15088.php",
-   "raw_photo": "https://fdn2.gsmarena.com/vv/pics/huawei/huawei-osta-o1-pro-1.jpg",
-   "post_url": "https://www.review-mobile.com/2026/11/huawei-osta-o1-pro-review-specs.html",
-   "at": "2026-11-20T03:44:44+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "هواوي"
-  },
-  {
-   "title": "Huawei Osta O1 Pro vs itel City 300",
-   "url": "https://www.gsmarena.com/huawei_osta_o1_pro-15088.php||https://www.gsmarena.com/itel_city_300_5g-15092.php",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'o1 pro' already covered in: مراجعة Huawei Osta O1 Pro: ثورة في التصميم والشاشة بتجربة بصرية"
-  },
-  {
-   "title": "itel City 300 vs Xiaomi 18 Pro",
-   "url": "https://www.gsmarena.com/itel_city_300_5g-15092.php||https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "Deal: the Poco F9 Ultra and Poco F9 Pro have £220 discounts on Amazon UK for Black Friday",
-   "url": "https://www.gsmarena.com/deal_the_poco_f9_ultra_and_poco_f9_pro_have_220_discounts_on_amazon_uk_for_black_friday-news-75569.php",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['black', 'friday', 'deal', 'amazon']"
-  },
-  {
-   "title": "Huawei Osta 1 Pro debuts",
-   "url": "https://www.gsmarena.com/huawei_osta_1_pro_debuts_in_china_-news-75562.php",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (540 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Motorola Razr Flex certification reveals an unexpected chipset as a live image leaks",
-   "url": "https://www.gsmarena.com/motorola_razr_flex_certification_reveals_an_unexpected_chipset_as_a_live_image_leaks-news-75553.php",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['motorola', 'flex', 'razr']"
-  },
-  {
-   "title": "Xiaomi 18 pre-reservations are now live in China",
-   "url": "https://www.gsmarena.com/xiaomi_18_prereservations_are_now_live_in_china-news-75561.php",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18' already covered in: حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد"
-  },
-  {
-   "title": "Lava Smart 4 Pro announced with a 7,000 mAh battery",
-   "url": "https://www.gsmarena.com/lava_smart_4_pro_features_price_sale_date-news-75559.php",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (579 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "كيف فرضت أبل سيطرتها على سوق الهواتف الأمريكي المتقلص؟",
-   "cand_title": "Apple tightens its grip on a shrinking US smartphone market",
-   "url": "https://www.gsmarena.com/apple_tightens_its_grip_on_a_shrinking_us_smartphone_market-news-75556.php",
-   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/counterpoint-us-q3-shipments/-952x498w6/gsmarena_000.jpg",
-   "post_url": "https://www.review-mobile.com/2026/11/apple-tightens-grip-us-smartphone-market.html",
-   "at": "2026-11-21T00:24:13+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
-   "title": "Sharp Aquos sense11 vs Motorola Edge 70 Neo",
-   "url": "https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php||https://www.gsmarena.com/motorola_edge_70_neo_5g-15040.php",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
-  },
-  {
-   "title": "Xiaomi adds palm vein recognition to its newest smart door lock",
-   "url": "https://www.gizmochina.com/2026/11/20/xiaomi-adds-face-and-palm-vein-recognition-to-its-newest-smart-door-lock/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
    "title": "Huawei OSTA O1 Pro launches with wide 16:9.5 display, 200MP camera, 7,000mAh battery",
    "url": "https://www.gizmochina.com/2026/11/20/huawei-osta-o1-pro-launches-specs-price/",
    "at": "2026-11-21",
@@ -3190,6 +3094,102 @@
    "ok": true,
    "kind": "review",
    "brand": "هونر"
+  },
+  {
+   "title": "iPhone 20 Pro and Pro Max: Everything We Know About the 20th-Anniversary iPhone",
+   "url": "https://www.gizmochina.com/2026/11/26/iphone-20-pro-and-pro-max-everything-we-know-about-the-20th-anniversary-iphone/",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Phone 'iphone 20 pro' already covered in: تسريب iPhone 20 Pro: هل نودع الحواف التقليدية في ذكرى أبل العشرين؟"
+  },
+  {
+   "title": "Vivo X500s could use customized Dimensity 9600 Pro",
+   "url": "https://www.gizmochina.com/2026/11/26/vivo-x500s-could-use-customized-dimensity-9600-pro/",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Phone 'x500s' already covered in: تفاصيل vivo X500s المسربة: هل يغير قواعد أداء الهواتف الرائدة؟"
+  },
+  {
+   "title": "Samsung Galaxy Z TriFold 2 leaked with Q9m codename, 2027 Fold 9 launch",
+   "url": "https://www.gizmochina.com/2026/11/26/samsung-galaxy-z-trifold-2-q9m-codename-2027-launch/",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['trifold', 'codename', 'galaxy']"
+  },
+  {
+   "title": "Amazon US Black Friday deals: the best smartphone offers",
+   "url": "https://www.gsmarena.com/amazon_us_black_friday_deals_last_call_for_the_best_smartphone_offers-news-75650.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['friday', 'black', 'amazon']"
+  },
+  {
+   "title": "Global Xiaomi 17 Ultra starts receiving HyperOS 4",
+   "url": "https://www.gsmarena.com/global_xiaomi_17_ultra_starts_receiving_hyperos_4-news-75656.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (477 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "vivo X500s rumored to launch with Dimensity 9600 Pro",
+   "url": "https://www.gsmarena.com/vivo_x500s_rumored_to_launch_with_dimensity_9600_pro-news-75654.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['dimensity', 'x500s', '9600']"
+  },
+  {
+   "title": "Counterpoint: Smartphone shipments on track for record drop in 2026",
+   "url": "https://www.gsmarena.com/smartphone_shipments_on_track_for_record_drop_in_2026-news-75647.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (674 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Here's what the vanilla Huawei Osta O1 is rumored to bring",
+   "url": "https://www.gsmarena.com/heres_what_the_vanilla_huawei_osta_o1_is_rumored_to_bring-news-75642.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (578 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Redmi K100 Ultra camera details leak, big upgrades incoming",
+   "url": "https://www.gsmarena.com/redmi_k100_ultra_camera_details_leak_big_upgrades_incoming-news-75644.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (632 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Why the Galaxy Z Fold 8 and Fold 8 Ultra are about more than just camera quality",
+   "url": "https://www.sammobile.com/opinion/why-galaxy-z-fold-8-fold-8-ultra-more-than-just-camera-quality/",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
+  },
+  {
+   "title": "Galaxy A55 gets November 2026 security update",
+   "url": "https://www.sammobile.com/news/galaxy-a55-gets-november-2026-security-update/",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "مستقبل ColorOS 17: مزايا ذكاء اصطناعي مدفوعة وتطبيقات جديدة",
+   "cand_title": "OnePlus reveals ColorOS 17 plans for native apps, paid AI features, and more",
+   "url": "https://www.androidauthority.com/oneplus-coloros-17-ama-native-apps-ai-features-3740647/",
+   "raw_photo": "https://www.androidauthority.com/wp-content/uploads/2026/10/ColorOS-17-on-OnePlus-15-showing-software-screen.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/oneplus-coloros-17-ai-features-apps.html",
+   "at": "2026-11-27T00:28:01+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "وان بلس"
   }
  ]
 }
