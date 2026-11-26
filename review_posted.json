@@ -1,189 +1,6 @@
 {
  "done": [
   {
-   "title": "iPhone 20 Pro may bring back titanium",
-   "url": "https://www.gsmarena.com/iphone_20_pro_may_bring_back_titanium-news-75535.php",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Phone 'iphone 20 pro' already covered in: تسريب iPhone 20 Pro: هل نودع الحواف التقليدية في ذكرى أبل العشرين؟"
-  },
-  {
-   "title": "Motorola starts teasing the Edge 70 Neo, hints at when it will be announced - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQmU3VFFLMzdwenRmeWgzS25BNW8zeWswd0U3MTVQV1hXOWtyTmlQZG84NExMOUU3M0x6LXVmcjhiYTEzN3JLcFc5T3RWYVVJbjZQc25xcy1rT1NNQ0JTVHlFbGEtWm54SEttS0ZwbGp4dUtRREowMldGZmFkVFpjMHpUdHlYbmRfNkRoaGNHaWpQT0kwbU1hY3RERkxlWDNFYk82OGk3WUI4R3ZUejYtQ0thQlXSAbABQVVfeXFMUGliUDhLNzBKNmtxalRPNWVVa1lVMEd5YUZxRnkxaDFYZ1hWTWJrT19rNDRmMFpxb2VIa3diaTd5ZFp0eU1rcGdLRU1BV2RWVmNxLWVMZkVaVTNZclpBUTd4UlFiUmZDSTlKLXpQcU9RbXN2R2Foc045bEVpR0dwTGFlUHVMQ05ySkVPRmYtYTZQZE91VDFqVUg3YVhVeExOS2VnUHFkN0tEakttUnljcTE?oc=5",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['when', 'starts', 'hints', 'edge']"
-  },
-  {
-   "title": "Google preps Android Fast Switch feature — iPhone Handoff rival could let you share one number across two phones - TechRadar",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZF9rZ2hFS0JjRHFwS2c1V3czSkNITkQxNWJrampBbFZOdVpxdWRBMHlrZm1ZTWJnWmFsQ0lDTTVZZTByekYtekdoUXFkdnF3MkMwbnZVMldROEQ4eXFyV0Z6WGJBZUlFOVlJTVg1QUVfRnpMSzhTcWNTOF9kWE1GekRWbC1SUGtCakZocEJLWEc2LWMtZG54Qm9fazdfY3AwYkpoQ09MNGZ4VURieGl3bFU2bEFNdEJnZXR4MmhQNnN4bjI5aWREcEpHSW1OSjRRbksydDJuSmFjRmFTdHE0VzVwRzFYdw?oc=5",
-   "at": "2026-11-19",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (617 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "تشفير كمي لهاتفك: تفاصيل تطبيق QEncrypt لأندرويد وآيفون",
-   "cand_title": "QEncrypt Adds File Encryption to Its iPhone and Android Apps - The Quantum Insider",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYnpvZXIyVFJSVDZKajVqRllZeGtTVDhQSTZoVUZPdllQMDJsLXd5WERwS3lUYkt1UWszVjhNb2U1eEJ3NFVGR051dG9XQnZrWmNZOE9DVUF5OHd1Z1JUS3ltXzhQT2o4aVBxR3VHalRSN2ZXN3JBOE1US25kUkRDQ0wyMWNTd1RKalMzbWkyUQ?oc=5",
-   "post_url": "https://www.review-mobile.com/2026/11/qencrypt-quantum-safe-encryption-iphone.html",
-   "at": "2026-11-19T02:58:52+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "أبل"
-  },
-  {
-   "title": "Huawei Osta O1 Pro vs Xiaomi 18 Pro Max",
-   "url": "https://www.gsmarena.com/huawei_osta_o1_pro-15088.php||https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
-  },
-  {
-   "title": "Xiaomi 18 Pro vs Sharp Aquos sense11",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_5g-14959.php||https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['sense11', 'sharp', 'aquos']"
-  },
-  {
-   "title": "شاومي تطلق Walkie Talkie 2S بلون جديد: هل تغنيك عن هاتفك؟",
-   "cand_title": "Xiaomi Walkie Talkie 2S gets a new orange colorway",
-   "url": "https://www.gizmochina.com/2026/11/19/xiaomi-walkie-talkie-2s-orange-color-launched-specs-price/",
-   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/11/xiaomi-walkie-talkie-2s-gets-a-new-orange-colorway-2.png",
-   "post_url": "https://www.review-mobile.com/2026/11/xiaomi-walkie-talkie-2s-orange-edition.html",
-   "at": "2026-11-20T00:13:00+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "شاومي"
-  },
-  {
-   "title": "Xiaomi 18 Pro Max vs Sharp Aquos sense11",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_max_5g-14958.php||https://www.gsmarena.com/sharp_aquos_sense11_5g-15087.php",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['sharp', 'sense11', 'aquos']"
-  },
-  {
-   "title": "ظهور موتورولا Razr Ultra القادم في FCC: هل اقترب موعد الثورة؟",
-   "cand_title": "Motorola’s next Razr Ultra appears in FCC database ahead of 2027 launch",
-   "url": "https://www.gizmochina.com/2026/11/19/motorolas-next-razr-ultra-appears-in-fcc-database-ahead-of-2027-launch/",
-   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/11/motorola-razr-ultra-2027-leak.png",
-   "post_url": "https://www.review-mobile.com/2026/11/motorola-razr-ultra-2027-fcc-leak.html",
-   "at": "2026-11-20T00:43:01+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "موتورولا"
-  },
-  {
-   "title": "Huawei OSTA O1 Pro Roundup: Everything you need to know",
-   "url": "https://www.gizmochina.com/2026/11/19/huawei-osta-o1-pro-everything-you-need-to-know/",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Phone 'o1 pro' already covered in: تسريب صور هاتف هواوي OSTA O1 Pro الجديد كلياً"
-  },
-  {
-   "title": "هاتف OpenAI القادم: فوكسكون تتولى التصنيع وموعد الإطلاق يكشف المستور",
-   "cand_title": "OpenAI phone assembly order goes to Foxconn’s FIH Mobile, 2027-2028 launch tipped",
-   "url": "https://www.gizmochina.com/2026/11/19/openai-phone-fih-mobile-foxconn-assembly-order/",
-   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2025/02/image-13.png",
-   "post_url": "https://www.review-mobile.com/2026/11/openai-phone-foxconn-assembly-details.html",
-   "at": "2026-11-20T01:12:57+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
-   "title": "Upcoming OnePlus flagship to pack a 2K 240Hz OLED panel with 6.89-inch size and ultra-narrow bezels",
-   "url": "https://www.gizmochina.com/2026/11/19/oneplus-17-240hz-boe-display-leak/",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (688 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Amazon US Black Friday deal: the Galaxy S26 Ultra and Z Fold8 Ultra are both $350 off",
-   "url": "https://www.gsmarena.com/amazon_us_black_friday_deal_the_galaxy_s26_ultra_and_z_fold8_ultra_are_both_350_off-news-75548.php",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (660 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Amazon UK drops the prices of the new Xiaomi 18 Pro and Xiaomi 18 Pro Max for Prime subscribers",
-   "url": "https://www.gsmarena.com/amazon_uk_drops_the_prices_of_the_new_xiaomi_18_pro_and_xiaomi_18_pro_max_for_prime_subscribers-news-75546.php",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18 pro' already covered in: مراجعة Xiaomi 18 Pro 2026: المواصفات والسعر"
-  },
-  {
-   "title": "Black Friday deals from Amazon Germany: deals ranging from flagship to mid-range",
-   "url": "https://www.gsmarena.com/black_friday_deals_from_amazon_germany_deals_ranging_from_flagship_to_midrange-news-75542.php",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['friday', 'black', 'amazon']"
-  },
-  {
-   "title": "Amazon US Black Friday deals: here are the best smartphone offers",
-   "url": "https://www.gsmarena.com/amazon_us_black_friday_deals_here_are_the_best_smartphone_offers-news-75539.php",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['friday', 'black', 'amazon']"
-  },
-  {
-   "title": "هواوي Mate 90 Air قادم بتصميم فائق النحافة: كل ما نعرفه عن المفاجأة",
-   "cand_title": "Huawei Mate 90 Air listed ahead of launch",
-   "url": "https://www.gsmarena.com/huawei_mate_90_air_listed_ahead_of_launch-news-75537.php",
-   "raw_photo": "https://fdn.gsmarena.com/imgroot//news/26/11/huawei-mate-90-air-listed/-952x498w6/gsmarena_00.jpg",
-   "post_url": "https://www.review-mobile.com/2026/11/huawei-mate-90-air-official-details.html",
-   "at": "2026-11-20T01:47:02+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هواوي"
-  },
-  {
-   "title": "Xiaomi 18 Pro (Global) review",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro-review-3015.php",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Model code [18] with variants {'pro'} found in review: مراجعة iPhone 18 Pro 2026: الحجم المدمج ومعالج A20 Pro والسعر"
-  },
-  {
-   "title": "Motorola confirms key specs for the Edge 70 Neo now",
-   "url": "https://www.gsmarena.com/motorola_edge_70_neo_now_has_an_official_launch_date_and_its_main_specs_confirmed-news-75533.php",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Phone 'edge 70 neo' already covered in: موتورولا تشوق لهاتف Edge 70 Neo.. الموعد والمواصفات"
-  },
-  {
-   "title": "Honor confirms which Magic9 models will be available in the UK",
-   "url": "https://www.gsmarena.com/honor_confirms_which_magic9_models_will_be_available_in_the_uk-news-75531.php",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Phone 'magic9' already covered in: مراجعة HONOR Magic9 2026: رائد مدمج بتيليفوتو 200 ميجا"
-  },
-  {
-   "title": "هاتف Honor Magic V7 القادم: تغيير جذري في فلسفة الهواتف القابلة للطي",
-   "cand_title": "Honor Magic V7 will reportedly be a wide foldable",
-   "url": "https://www.gsmarena.com/honor_magic_v7_will_reportedly_be_a_wide_foldable-news-75534.php",
-   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/11/honor-magic-v7-wide/-952x498w6/gsmarena_000.jpg",
-   "post_url": "https://www.review-mobile.com/2026/11/honor-magic-v7-wide-foldable-leak.html",
-   "at": "2026-11-20T02:12:32+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "هونر"
-  },
-  {
-   "title": "9 things to know about Samsung App Lock on Galaxy phones",
-   "url": "https://www.sammobile.com/news/samsung-galaxy-app-lock-explained/",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "Phone '9' already covered in: 9 نصائح ذهبية لإطالة عمر هاتفك القابل للطي"
-  },
-  {
    "title": "Samsung and Apple were the only OEMs to increase US phone shipment shares year-on-year in Q3 2026",
    "url": "https://www.sammobile.com/news/samsung-and-apple-only-oems-increase-us-phone-shipment-share-yoy-q3-2026/",
    "at": "2026-11-20",
@@ -3193,6 +3010,180 @@
    "ok": true,
    "kind": "news",
    "brand": "موتورولا"
+  },
+  {
+   "title": "The best hardware upgrade paths for Galaxy Z Fold 5 users in 2026-2027",
+   "url": "https://www.sammobile.com/news/best-hardware-upgrade-paths-galaxy-z-fold-5-users-2026-2027/",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (516 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung will use Galaxy AI to enhance the quality of your zoom photos",
+   "url": "https://www.sammobile.com/news/enhance-zoom-photos-quality-galaxy-ai-one-ui-9-5/",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (583 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
+    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
+   ]
+  },
+  {
+   "title": "Galaxy Z TriFold 2 could be a limited release, codename revealed",
+   "url": "https://www.sammobile.com/news/galaxy-z-trifold-2-codename-limited-release/",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (643 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "The tiny $449 enough phone just got a huge battery, storage, and RAM upgrade",
+   "url": "https://www.androidauthority.com/enough-phone-upgrades-3739459/",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (521 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Honor Magic9 Lite+ breaks cover with 9,530mAh battery, new chipset - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ3NwX0xhVk9FUXloTFZEY2ZadTY2S2t1VGhDT3lZTW4xX0tobEwzbFppbWRaM3dkM3RMTEdlNWxVNWhrLWhjQjUxcm9aTFRPNUYwLUZzXzVrLXY1ZU9pMDRQa2d2TGVGRTNUZE9feFNtRUV1TTA2SGVqRko1UVZzMHB0bHNWRWg3bVUySjNrb0xMcEdyVkQtVnVreFowT08xWmZ2TlRR0gGiAUFVX3lxTE1sMlZkWi1vZjhibE9JYW5UMmdnU3ZEdmE0Z1JMeHc3TUlZTURHRFJfNVYxejR5bGptM3RPT0dmWW5udEFNVWFjRk1iVjVUUWVSQk13ajh3aUxncHMzaVJYd1BqWHpSc3NWQnpqV3FmQldpODM4VHV3R2NHTUZlWmxKSHdNa0ZVVXIxLXI0T2d6T3lFTkZIR0NMNklVM0czUkxUZw?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['breaks', 'chipset', 'cover', 'lite']"
+  },
+  {
+   "title": "Samsung Galaxy Z Trifold2 codename and availability details leak - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUVNhLUtGZVcyU3BDRkxyclh1dWpZVFdYWDQ3RG0wdktsR0tTSnZDY0hraTZtQURPQU9rTFBsR244QTg0X0c5SEM0RUlSWHZXVU1QZC0wdHQ3S3J4dDh2NW5pb0QtdkI4TjRiRGV6bDBZVHdfeVlIZ2xGTFhWaHBZV2JPLXBvWmhmZC11TXE3NmlYY2FYVUdfTEhIMkJSQzhiZk9iSnU4NNIBowFBVV95cUxOQkxsX3JEaUd5M1NQcDQxem1nVjA4S2lEZnpBY0VCX3FVeWZsM1VOeUJmbklxNHVBN19HQnBpUmZYSHdCTzdiNVBLRVRRSFMydXdodnBoaV9fSWhJQkhsa3dIbTY4V3BOcXpPbjM5VkNVdS1RNDFKWGF3MjdzaXlzMHVSYlUyaFFTWm9hQTdOVTkyNk5BaUlWb0lqQnkwR3VVbm9j?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['galaxy', 'codename', 'trifold2', 'availability']"
+  },
+  {
+   "title": "Motorola's next base Razr has its specs and launch window leaked - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEtFcHBwUXp1LVFiQjgxMEFvMTN0c0swbnMzVmlWUVd6Z3JQZ044b3hocjhGeEtEZDdJQ2xBTGZmNnF2bU1kUWJHUnhCbnN3RjROeDg4SE9VUnZBQWNac3JjNk1jVWgxMUxVTzVPVmZ2cnpqNVpMSW52TVpUNHR4M0xuanlyVnNxcmFzcmVMZFlabU15cXByRDFFZERsTm9RbnhvYUV30gGiAUFVX3lxTE9WT3lCVnE2emllRWgtMy0tY2MwZk42eHJLSkVlS09veGR4RzNXa3lod0lnU0VhX2UycUVBR19UcEt4cExhbTkxSUljY1JiaEhCNWtqS1pTWlNCN3NNM3ViSWFoeHNVb203d0wtODZFSE56MVl5dVBxd0lRWEFsSDFvNWV2RDZ5VlV5NjVXZGs0WG9CTW5BaVRJNWlpR29KUXhEQQ?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['base', 'window', 'motorola', 'razr']"
+  },
+  {
+   "title": "iQOO 16s' design and colors revealed - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wdERCY2I3dWNvSVg1OTRCc25oaHlCaHhTdWd0and0UDNVN0NPdXpzODFEVFlXRVhCX2V2eVB3Q3NMVXZqYWpRY0hwZVdseXNOdTlSeFY2UFBTNzI2cUF5YzJIbkItX3ByN0FvSE5QUdIBa0FVX3lxTE1SeTQ0UUdxZmxxcmNhVlBlRWw1c0VvV2ZfNHRrZ1ZoWmVpTFRwOC1Ha3dpdmduZXN1NDJEQ1R0RmZDVThoYWRHOHR5Z1RlVi1EYmZPVzRSQzFBSWM3dDdFeW9IWkJUdEl1ZXJj?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['colors', 'iqoo', 'design', 'revealed']"
+  },
+  {
+   "title": "Xiaomi's Q3 revenue stays above CNY 100 billion as phone prices climb - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd0VsU2N2cFF2WmJoRDRMbEptVUs0SHZibk5ZSVQ3anllV2VPMFB0dWdpcmxfSk4zT09ZVFNZWDFjZWNFb09JV3RaMkRzM01ITkZJcVByQU1wbmRsa29TZV9veTdLczg0YWhvQTc0NFhNNUQyVXMwdDhTaGd2M2U1ZjlmV0IyNnhJY0h4NzFhVFhwZ2pUZjRCYml5MVByQ1hnTnZWcHc0ZldxWlFf0gGoAUFVX3lxTE9OYWNqbGhTR2s0YkN5SFY1emU1aVBsYjQzSGJNRFY3ZUdtaDg1ZjdFbHNUZm5LX1VqZ2xGcy03VXo2S3hlWVVHVklrTmVpYnZWQUF4OGphOXJUUGNkaVJRQ2U5R3JhMHMwTnhiQWo2UmtZU01BbE45bFc1SDIzM1JTSE5YWjhkMTd6UmxDa0VQQnRPMXdsbUczSzZuYXFNUHByclJ5NlRFTg?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['revenue', 'above', 'stays', 'climb']"
+  },
+  {
+   "title": "Here's our first look at OnePlus' next Nord - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbWo1TDRDXy1mZXM3Vk1xMzQwOGZCSHAxNTQ3M1RoMVZfTnpJU0ZyZndjcDZLSlVhMHBjSndTdnY5SVY1UXUtS1R6azVIWHp0aHA0RmpzX0NXYnc0UjliSU5PbDdDYUtOd2dxRHlBNDN0R2QzY3JjdHBkSnp2U1VUN21UT1ItUTRZ0gGEAUFVX3lxTE91RTVkdTVvWjloQmZER1MzbWRPSE9UVzdQNzJRclpHWXUzLUN6TkVzVTJGX3RGdExsdG5jRkFUSDluNHR1OTBsWDFZUVVaLVdvZkNXZFdIMldfUnBfc3l5ODZtZ2JpblJwcERtVG1PMVVROURKVkJmdlpHNkpiSVhYeUw5aA?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['look', 'nord', 'oneplus', 'next']"
+  },
+  {
+   "title": "Oppo Find X10 Pro Max gets optimized Blackmagic Camera support - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLWNETzY4WGFXMzNwSlVydEs3UVdEVEhaTmVDcDZoTUlpbjZ0bnJfbmo1cEhfblg5RjlzYzZjR0d0UzhDbnR0eS1zWXlaVHdVdExvVktmVk1jb255Mk80N1hvMkJrNlpRUnFVU05jeDlsd3V3QlNSVnNOTzhlZU1raDBrdC0yUFpPdWFUVjVkOWxwSjZuX21UQnlMVFk3amhmWXJUcw?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'x10 pro max' already covered in: مراجعة OPPO Find X10 Pro Max: أفضل هاتف ذكي بتسعير خاطئ"
+  },
+  {
+   "title": "The tiny Enough Phone gets a much-needed specs bump as it nears market release - Digital Trends",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUG8xdGhBS1VDbldMaHd5ZF8wMUNEc1BFVnNrM2lzR3NNTXZXSlpMd3U1ZEJPZUg3T043ejVQMUZWV01WVzRjVElWaUJwTVdwQ3hYTXlrS05NclhFM09VTmVHLXhpUXZxTEdJZmtYTTcwUFhjd2JNRUlKejNVV3ZIUnhoeFVkbmtmdG9xWmNJaDViQUJmTmtIUjlyZ2hyVTBlaVZwcVdKMlBWNEpLNElCSjRpREZVV0U?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (517 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Compact Enough Phone gets three upgrades without a price increase - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPS2YzaE14OUhKTWZkamJQWVBTSm5qVHlISy1yUFNvOWZSVnVzd1RLaGNPbmI3TTF6end3U3IzTTBvZm8tclNJdTJyNUtSNmpOX2k2TlBFRXhxZ3J3QUZLckFBaEF6Z3dKOFZUeWV0TXlmakZwbnlXemFVbjBUb19PUjktR3hWUFpOSmN4SGxpSi15c3NqNFZYdmVPd3VhdlZDcV8tdFFZQ2FVaVBBcFNz?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "'Enough Phone' is stuffing a bigger battery, more RAM & storage into its small Android phone at no extra cost - 9to5Google",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM000bm1LdE53cTZ6cWFsS0ZmQnZxQkRSWGh3MzZibVEzNFFhLTFHd0IxOXhMQUlMbHRsRHhHbkI3U2lDRWJYdF9acWFnWjI2b3lFc09zMnFncTZGZkE1M1EydlZNeHg3NURrR1JSS2Z3bE9wQlR4VVYxdmNucndSQWFB?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (623 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Samsung Galaxy A38 Specs Surface: Camera Downgrade and Battery Boost - hi-Tech.ua",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY1lmWHlERU5Vajg5dXpTLWVaTHc5MjlIQXdRMEhlcVlTUlh6U213NnkwUXFESnpSX0xWSjNWTExUSXM4OHpyb0N2T19WSk1MOTFReWhNazZ5OGc4a011UDRmam1qSWhKdXgyblNkOC1ka0FyUHlqNHlvbFlPNTBEeFMwSkJOTkFhNGlCV0w0X0hVM0pE?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'a38' already covered in: سامسونج تضع اللمسات الأخيرة على Galaxy A38: البطارية العملاقة قادمة"
+  },
+  {
+   "title": "The tiny $449 enough phone just got a huge battery, storage, and RAM upgrade - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5HRTdLX1JUay1ZanZranFfdVNycDZPN0lRTlV3dkFrSlVvUEtTSVNsVW1MdFlhOE13S1hYRGgyMmVGWHBiQjFZMl94NmFPOXhNV3Axc0JMbHlXZDRTczFSdlhTdnVwV3NBQ3Y5T1RQYWw?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['just', 'upgrade', 'enough', 'tiny']"
+  },
+  {
+   "title": "Brand-New Xiaomi 18 Pro Series Flagship Phones Included in Amazon's Black Friday Sale - Tech Advisor",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVkhWV3RjLWlWRW16MFloYkFYQkRwU2pubjBPVFQxQXlQNGVwODlJMnJTZWh2T1R0VllGSll0WHkyN3AzNVpDRWJ6bmRyM3BVZEdMamtDbDFxYUpZTUFjalVrZ0pMSDRHY3U2UHZiMS1FZGE5SFJaSFZPdW1VbWpVa1JtZ0ZYcllqVTFuZi1RaDFyeDNqdDRWQXpBSnVld0RjZE03QnhvX0syeHlGcG9tc1lYQ01zSExMdVI0S21aMGRNOW1CaEJuZg?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (694 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Huawei Mate X8: Price, Release Dates and Specs - TechRepublic",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVzdHYjB5MWhxdkZHNE5EckFLU1FtRkhRdENzMl9zM21hZDFVNWhtVWpua29FUHJiMk9TQlQwYTd4MGxBd3o0Nm1idEJMYlBJTXdiVWxGSWdGTFJOTWpnS2FzZklyWTRtdHpRQ1AxTm5VTjVRSG1pV19WWnJDdW5HWTBucGZqMk0?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
+  },
+  {
+   "title": "'Enough Phone' is stuffing a bigger battery, more RAM & storage into its small Android phone at no extra cost - 9to5Google",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ1ZOemJiZXI5VjRXdkZ5V2N0OF9MY19wbEl4NlZzVFFjbFpYcVRNVFExb21SNGRMYzhlQVIyaThvUTNfSVM0UDh1Sk1ka19KSzdCM0V2Mzl0QkFCX0dUWGtJTENMZGhkQ1FjUE1kdmwzSWJSb1o2M2lzUDBma21KSllWdVBXdHNqS2w3ZkZpZWlNUnNaaDRlcFNDX3E?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['storage', 'enough', 'stuffing', 'bigger']"
+  },
+  {
+   "title": "Oppo Find X10 Pro Max launched in Bangladesh - The Daily Star",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSTVfdEFkTEV1NXlCcGF1SWlOOENSeUtaN0dicmNWZ2h3Z3RDT0o4aExJUjBSNlA1bnE3aWhGTGs1QUZKRDZwajVVX25KR0ZPSUE3WC1Gb25WSEhhV05IWWJpME1NTU5Pc1NPaXBmeHh0OTROdDJtcmNlc0dlOEEzczVGZjlHemNxY1lUX2MwNkpuOGF2M3BnQjlzRGRfbFBR?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'x10 pro max' already covered in: مراجعة OPPO Find X10 Pro Max: أفضل هاتف ذكي بتسعير خاطئ"
+  },
+  {
+   "title": "Honor Choice T20",
+   "url": "https://www.gsmarena.com/honor_choice_t20-15105.php",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (759 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "العنوان مكرر أو قريب جداً من مقال منشور: مراجعة شاملة لهاتف vivo Y11s: المواصفات، السعر، المميزات والعيوب"
+   ]
+  },
+  {
+   "title": "Umidigi A75 Pro",
+   "url": "https://www.gsmarena.com/umidigi_a75_pro-15104.php",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": [
+    "العنوان مكرر أو قريب جداً من مقال منشور: مراجعة Oppo A7 Pro: المواصفات الشاملة، السعر، المميزات والعيوب"
+   ]
   }
  ]
 }
