@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.albayan.ae/sports/uae-stadiums/1563178",
-   "t": "3 قمم تشعل صراع الصدارة مع عودة دوري أدنوك للمحترفين",
-   "title": "الشارقة ضد شباب الأهلي.. قمة نارية بدوري أدنوك",
-   "url": "https://www.egyptaway.com/2026/11/sharjah-vs-shabab-alahli-adnoc-league.html",
-   "at": "2026-11-07T18:47:23.254764+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.youm7.com/story/2026/11/7/إنستجرام-يطرح-Edits-على-ماك-مجانًا-مونتاج-4K-وأدوات-ذكاء/7609502",
    "t": "إنستجرام يطرح Edits على ماك مجانًا.. مونتاج 4K وأدوات ذكاء اصطناعي",
    "title": "إنستجرام تطرح تطبيق Edits لأجهزة ماك مجانًا وبدون علامات مائية",
@@ -3401,6 +3392,16 @@
    "at": "2026-11-27T00:16:34.258259+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DSlk3VWsxR0hfd1hnTWwwOHEyWFp3VUprQjdGUUhET3JsNERJYnF1dVY4eTBqVVhia3d3XzdNV1pTOVotM0hnZUVYdV9vaWNnUHFrRWtMREt1OWJiOFFN?oc=5",
+   "t": "«هدوء ما قبل العاصفة».. بيان عاجل بشأن تقلبات حالة الطقس في القاهرة والمحافظات - المصري اليوم",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": [
+    "الـ body 440 كلمة بس، لازم 530 على الأقل",
+    "الموضوع منشور مسبقاً (تطابق في 4 كيانات جوهرية ({'تحذيرات', 'طقس', 'غدا', 'ارصاد'}) مع: تفاصيل طقس غدا وتحذيرات الأرصاد)"
+   ]
   }
  ]
 }
