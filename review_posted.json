@@ -1,23 +1,6 @@
 {
  "done": [
   {
-   "title": "Cell Phone Drive Collecting Devices for Victims of Violent Crime - KOTA",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNC1YeFFCTG1mQV9QQ0xfZlR0aFlRWWhHdldoeVFpdlBFc3RVcUhodTdkREJkXzk1UE9uZExQeEMyQXl1SWtINWZHQVJPQ1FENTM3ak1wUHVZcXIxWWRzUzdtcG83SmpJUkNFSjU3bDlXcXI0cmxQWDUtS3ZnMVZvaVBsNXpGbHM0MkhWOWI0dnlSLWJEMmNTRmtoOUwzcVh4Nmpvcg?oc=5",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
-   "title": "Pixel 12 Series: Everything We Know About Google’s Next Phones - Droid Life",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYmFLVTh3RWdWQXNUVXl0TFBJcmw0SHJNMG1qMERCekdoeFFFeGc2VWlnUUkzNDFCeFlFcHNzRlVMdGVJN1hCLTAxMWpSZmhVVEFuR1Nfb0RHbHVUMjBZQzRGTmtFRENPNG5ZdUxqVnJPX2xHTHNsTmZpVV9WSGRZX2tVRmpDWldRc0Z6Vko0TUFqQQ?oc=5",
-   "at": "2026-11-20",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (645 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
    "title": "T-Mobile Introduces T-Mix, an Innovative Phone Plan That Lets You Choose What's Included - The Hollywood Reporter",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSGdwWFllUTcwc095YkdCNFNSWXNSN1JDSmlvOVMzcS1WakVybkNxQnhtbnVTVkczREx3NWczMFcwWklQb1lLbUVNYmlESW1halZJejhodDRBTnNpUm4xWVU1Qm1ENW5DQ2tmeGo2T3NIQ3pFdmw0eVhVUlhGZHhIRUJ3UzJvcjdQYVRBRHpUTU1uRnRvLUZPMnhpVmMwbUp5SEFlVkJCU1l4QTA5MWo4cGhSTmFEMC1UVUhGTnBVSQ?oc=5",
    "at": "2026-11-20",
@@ -3189,6 +3172,20 @@
    "reason": [
     "طول المقال قصير (693 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "Huawei Mate X8 officially unveiled: specs, prices, and release date - mobidevices.com",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1EVVBGMTJyM0dYMDBRTl8yb1k4NkF0S1YwR1BHOGMta0l0MEN3N0F0cWl0c0R1RjJyR3U2aF9zZzlhdTA0QjFZTFpLRHdqdmYzeERn?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Phone 'x8' already covered in: مراجعة POCO X8 2026: بطارية حتى 9000 ومقاومة IP69K وشاشة AMOLED والسعر"
+  },
+  {
+   "title": "Apple will likely edge out Samsung for the top spot in the slumping 2026 and 2027 smartphone market - PhoneArena",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSkFzdXNZWWdwRzA2NDR4bFhtb1lMcVlqVDFjME8xX3RyNGJka2xseEpicmxYRFUyTEVvdFJIbGdtT1NiMTJwLVQ1WktBa0VoNlA4STY5S053V0xRR2RSaFY1TFBZdlRfU1NNVFh0M053LXZqOFlaQW56bVVQVXBYOHU2aVRXYnQ0VHR4cHFoYlV0dnl3OFhhUDg1d1RBQVJHM3htcG1WTnNnRUxKclJ4VlZGemV6eUNGWjIwdUhBWUU?oc=5",
+   "at": "2026-11-26",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['2026', 'market', '2027']"
   }
  ]
 }
