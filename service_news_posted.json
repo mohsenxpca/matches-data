@@ -1,16 +1,6 @@
 {
   "done": [
     {
-      "title": "الشهادة البلاتينية — البنك الاهلي المصري",
-      "url": "https://www.bankygate.com/products/cds/6",
-      "at": "2026-11-08T12:51:04.508092+02:00",
-      "ok": false,
-      "err": [
-        "العنوان مكرر أو قريب جداً من مقال منشور: تفاصيل الشهادة البلاتينية ذات العائد الم",
-        "طول المقال قصير جداً (400 كلمة، المطلوب 450+)"
-      ]
-    },
-    {
       "title": "أعلى عائد يومي على شهادات الادخار في مصر.. أسعار الفائدة والحد الأدنى للشراء",
       "url": "https://www.almasryalyoum.com/news/details/4404605",
       "at": "2026-11-08T15:01:07.262885+02:00",
@@ -2899,6 +2889,16 @@
       "err": [
         "طول المقال قصير جداً (338 كلمة، المطلوب 450+)"
       ]
+    },
+    {
+      "title": "تفاصيل شهادة Excellence Variable CD بعائد يصل إلى 21%",
+      "orig": "شهادة Excellence Variable CD — بنك الشركة المصرفية العربية الدولية",
+      "url": "https://www.bankygate.com/products/cds/2122",
+      "post_url": "https://www.egyptaway.com/2026/11/excellence-variable-cd-saib-bank.html",
+      "topic": "banks",
+      "has_real_photo": false,
+      "at": "2026-11-26T18:01:07.999645+02:00",
+      "ok": true
     }
   ]
 }
