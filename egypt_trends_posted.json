@@ -1,16 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/7/3075173/%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%8032-%D8%A8%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1",
-   "t": "تعرف على تشكيل بيراميدز لمواجهة الداخلية في دور الـ32 بكأس مصر",
-   "at": "2026-11-07",
-   "ok": false,
-   "reason": [
-    "الأرقام دي مش موجودة في المصدر، احذفها: 90",
-    "الـ body 351 كلمة بس، لازم 530 على الأقل"
-   ]
-  },
-  {
    "u": "https://www.elbalad.news/7171737",
    "t": "إعلامي ينفي تدخل أي جهة بالدولة في قرارات مجلس إدارة الزمالك",
    "title": "إعلامي ينفي تدخل أي جهة بالدولة في قرارات الزمالك",
@@ -3401,6 +3391,16 @@
    "at": "2026-11-28T00:16:35.440720+02:00",
    "ok": true,
    "type": "publisher_rss"
+  },
+  {
+   "u": "https://news.google.com/rss/articles/CBMiigRBVV95cUxPdWpjbkIwa3JTYlB1elQwS1FYZzI4YnRrZFkyNE1RcEEtcEpmaVd4VFFLcjBOWFluYXlQM2ZzZ2czVmFSYVFRYi1MeVJVZlM4N3NQTHlabXFRV0lub3EwTzFncHl1UmxMMWo3UzU0SER1Nmc0X3pmQU45WExyYzlZNmdnMHRYdnVNY2lyM3M4dGlnREE5MGlSNFFjNzhRMFRRMXRKSVFESUJFQzdiY0RFcnRpME1KVDIyQ1BteUdoWWl1blVfZS1jdWpJTXRyM2lOWERNRGpFME1yUktfYXp1TW84c1pld096LU02Z3JzMWJPb0V5V05vRHlfUHFyREJMWUFyeFVpZHRoYnhUc0NXNFNSSnhhZWNoaVNRaG0tYXNGUVpvQ2FQTWQ5SFlUekJsZEpIREtucnRQWkkzUHZVSGpxbzB3V2NGRHlJbzlfM0FGOHF6cWdSNWltWDBNYlF1a3lNSjJabzluUG9hTVFxMDFkZGozNmFrSkpYZTBsZldSYUpuSmJ0Y0FqVEE5U1d0azRpeW50NEQwUVpTdm52RFh4SS1XbXVYT0szb2E3dV8xenVNcXd1RXB5eEtVclFEaWRIS3dWbndWUGkydTZEVnhZLXY1T1FLSzJFSmZ4cFdEY0xrdkhKYnUyT1VFY2xJa1I4TU5yMFljeVlWUmNvNUNjTWI1T214emfSAY8EQVVfeXFMT05FdVZjcHphNnZFMG1Bdjc1WWlENHdsOUR1bGtMOWVCNkFQUlR1N0hSeEx4eldyRVNVV3VSWWFVYmxPc09ybVUyMHhvZ0tSZTFkMTlibHhfaWJ2djJMNzIzc2xKbVVjRW9rcHpQcFRnRTJTWDRXczE4Uko0a0VoLW5zYklTc0Rxelg4OTFfMXhISmJPa1N6aEFQeUY3UmdydHlvR21GczgxRnpOa1NWaGhVSHV6aHQweGJGV3JSV3N1Y2lRNkpUYklSbEJiNTFXS3JpMGpfbEk0VFVPZGpVdzJ1bDNhYXAzR285enpGS01qNHg4WEx1SzhkYXZTdkUwbGdNSVlZRWp3VjZhd3Y4bjlKUDZKekR0WEF3eU9nSWpTR2Z1UUkzX1FfeXZkQ3BBYmVoMm9hRkR6eTR6d004VUdaVmNMdTBjTGozZ1Y4TnZWS1AySVlrc25wbmEtREgwelROd1ZYOU4zczZMVDZ3U216VlBKMmpxTkVkb0JJeGsyQnB2UEZXOEU3RXM2SHhFSFJncFoyVVEwWk1hVFh6MnpXdlFvLWZoRTNNY2VQbkR5LWVQTXlCemVQX2Nlc1hMTE9hTEdEMEYwZXV6XzN3ZVB5YUNDdkJ1dGFkNlJXWVcxajd0emdCTWhadlRTQ01iYUtFZWNsRGZ1ejRnZnZoOGQ1a3JicWRVaVk3TkVqTzg?oc=5",
+   "t": "تأخيرات بقطارات قنا والأقصر بعد خروج عربة قطار VIP عن القضبان - Masrawy",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": [
+    "كلمة رسميًا مش موجودة في المصدر، احذفها",
+    "الـ body 460 كلمة بس، لازم 530 على الأقل"
+   ]
   }
  ]
 }
