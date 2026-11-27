@@ -1,22 +1,6 @@
 {
  "done": [
   {
-   "title": "Deal: the Oppo Find X10 and Find X10 Pro Max now have an even bigger discount for Black Friday",
-   "url": "https://www.gsmarena.com/deal_the_oppo_find_x10_and_find_x10_pro_max_now_have_an_even_bigger_discount_for_black_friday-news-75566.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['black', 'friday', 'deal']"
-  },
-  {
-   "title": "HMD could bring Nokia's PureView branding back with a new phone",
-   "url": "https://www.gsmarena.com/hmd_could_bring_nokias_pureview_branding_back_with_a_new_phone-news-75572.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (628 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "HMD could bring Nokia's PureView branding back with a new phone - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUzlNaDNBdlpubjlzbkVaNl81MFZ5dk1jOU9selBSbVBhLWFiUmdZOWJzNEpiSm02NVAxUG1Mak4xQmM0NGk3aWlVZ3FyZEJPR1lnaGpCcXdhRGJxbHlJRjBENUxKbU52T1cwQ2U1NW5mS1JGY1REOXhienc1X0N0LV9IZ05kUFlFekJVSmVOVWZfOEhTX09sV2kzUlFod09ZQkhLWQ?oc=5",
    "at": "2026-11-22",
@@ -3173,6 +3157,24 @@
    "ok": true,
    "kind": "news",
    "brand": "وان بلس"
+  },
+  {
+   "title": "Xiaomi Redmi K100 Ultra vs Huawei Mate X8",
+   "url": "https://www.gsmarena.com/xiaomi_redmi_k100_ultra_5g-15106.php||https://www.gsmarena.com/huawei_mate_x8_5g-15022.php",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['redmi', 'k100', 'ultra']"
+  },
+  {
+   "title": "مقارنة TCL K70 ضد ZTE Blade A35e 2026: أيهما أفضل للشراء؟",
+   "cand_title": "TCL K70 vs ZTE Blade A35e",
+   "url": "https://www.gsmarena.com/tcl_k70_5g-15110.php||https://www.gsmarena.com/zte_blade_a35e-15111.php",
+   "raw_photo": "https://fdn2.gsmarena.com/vv/pics/tcl/tcl-k70-5g-2.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/compare-tcl-k70-vs-zte-blade.html",
+   "at": "2026-11-28T00:31:32+02:00",
+   "ok": true,
+   "kind": "compare",
+   "brand": "اخرى"
   }
  ]
 }
