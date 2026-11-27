@@ -203,6 +203,11 @@ def main():
         if not dry:
             json.dump(state, open("notify_sent.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         fb_phones.run_auto(dry=dry, force=force, max_per_run=1)
+        try:
+            import fb_reels
+            fb_reels.run_daily_reels(dry=dry, force=False)
+        except Exception as rex:
+            print("Facebook Reels step error:", rex)
         if not dry:
             state = json.load(open("notify_sent.json", encoding="utf-8"))
     except Exception as ex:

@@ -26,22 +26,19 @@ import football as f
 import fb_phones as fbp
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-RAMP_START_DATE = datetime.date(2026, 11, 25)
+RAMP_START_DATE = datetime.date(2026, 11, 27)
 
 
 def _get_daily_reel_policy(today_date):
-    """Automatic 3-stage Reels ramp-up requested by Mohsen (2026-11-25):
-       - Week 1 (2026-11-25 .. 2026-12-01): 2 Reels/day (Afternoon 14:00 & Evening 21:00)
-       - Week 2 (2026-12-02 .. 2026-12-08): 3 Reels/day (14:00, 17:00, 21:30)
-       - Week 3+ (from 2026-12-09 forever): 5 Reels/day (11:00, 14:00, 17:00, 20:00, 22:30)
+    """Automatic Reels schedule requested by Mohsen (2026-11-27):
+       - Week 1 (2026-11-27 .. 2026-12-03): 3 Reels/day (11:00 AM - 11:59 PM Cairo, min gap 3h)
+       - Week 2+ (from 2026-12-04 forever): 5 Reels/day (10:00 AM - 11:59 PM Cairo, min gap 2h 10m)
     """
     days_elapsed = (today_date - RAMP_START_DATE).days
     if days_elapsed < 7:
-        return 2, 240, [(13, 17), (20, 23)], "Stage 1 (Week 1: 2 Reels/day)"
-    elif days_elapsed < 14:
-        return 3, 165, [(12, 16), (16, 20), (20, 24)], "Stage 2 (Week 2: 3 Reels/day)"
+        return 3, 180, [(11, 24)], "Stage 1 (3 Reels/day)"
     else:
-        return 5, 130, [(10, 24)], "Stage 3 (Permanent: 5 Reels/day)"
+        return 5, 130, [(10, 24)], "Stage 2 (Permanent: 5 Reels/day)"
 
 
 def _find_ffmpeg():
