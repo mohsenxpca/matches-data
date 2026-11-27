@@ -1,25 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung’s new mobile chief has to make young buyers want a Galaxy",
-   "url": "https://www.sammobile.com/news/samsung-new-mobile-chief-make-young-buyers-want-galaxy/",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (538 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Signal is blocking screenshots on iPhone and Android. Here's why. - Mashable",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DS1dVTG4zUV9FMjlUODhpM3RkSHc1U29NM0pFSV9CWHFGTjZsS0hXM1Y4dkdubVNYRjA5REd4dWp6ajVDaXJqR20wWGE0T1dnSDNDcXdaRWs2QjdVYjZlaE96N2dETllPRWtxOWRaLWtzRGc?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (617 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
    "title": "هاتفك كبديل لهويتك في المطارات: كيف تفعل ميزة ID الرقمية؟",
    "cand_title": "What the Tech? Your iPhone, Android can serve as your ID at airport security - WFMZ.com",
    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdUdINEtwUWNKRnZaeTBnQUlsS2Y0Vi03ak9VVnpSOXRmb3pCaW9ZbmRUR2Y4TXJtWlZpWXVSQUpGS0FzcDlyUFlHaW9CdS1vNjN4QmRhY0NYek95WTlrRldaSklSeHRpcTFaMGFNRmNtRFppWlZ0cURNN180YVBaWWFzZ1A0LUNZSTZENFVSUGJDY3VzSVlpbFBsZFpOblpaY3RnUGdSMldWLTJfTk5RU0ZsVG00clB6UGxOaWM2RW9ORTJiYWVnS3E2MVFCSzFWTUg0SVB3MmF3Z0F6ZEF3QTZYNC1fSkNmLUlRdDE0a3hZMUtxRE1iZDc5dEg?oc=5",
@@ -3174,6 +3155,24 @@
    "at": "2026-11-27",
    "ok": false,
    "reason": "Model code [o1] with variants {'pro'} found in review: مراجعة Huawei Osta O1 Pro: ثورة في التصميم والشاشة بتجربة بصرية"
+  },
+  {
+   "title": "Q3 2026 US Smartphone Shipments Fell 9% YoY as Memory Costs Squeeze Android; Apple Share Climbs to 57% - Counterpoint Research",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX1Nwc09vQm5XQjgtaGYzdUM0V1dqTGhsX0FvR2FXVmJiVWdLSUNmSU9FSnExOXdBQlVyZzFHdkg0RFE4NXBNVV83dHhqWXRkdHB3dGZoYWUxZDl6VnBzZ08yR2lvMFRTVXVMTGh0dmgyZ21iMGJFQkxlQ1U3c2JuUHlEOFRjVWJMWDBib0s4a3ZMQ0Y3YlVJMG00WGZJeHl0X1ptaFRfVEFPLU1PeWJkLUNvamxfTFlHa1Qw?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['shipments', 'counterpoint', '2026']"
+  },
+  {
+   "title": "أفضل أوقات شراء هاتف ذكي جديد لتوفير المال",
+   "cand_title": "These are the best times to buy a new phone if you want to save money - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUE4tbzJRZFMzMVljU083X21WSTBfZEFoRE01bFdhNWJlZk1YNmRPU1NZRl9UT0YzLUNrNkkwaW1nV1dhSFRMdWJSWFZoMWtIVmx0SGYtUGFwRlJ5eUE2Q3oyTUNJYi1CRDdKOTB5UHdEVV9wSkFYWEVONmttcEltMGk5cw?oc=5",
+   "raw_photo": "https://www.androidauthority.com/wp-content/uploads/2026/11/Side-by-side-design-comparison-of-the-Galaxy-S26-Ultra-and-iPhone-18-Pro.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/best-times-to-buy-new.html",
+   "at": "2026-11-27T04:01:31+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
