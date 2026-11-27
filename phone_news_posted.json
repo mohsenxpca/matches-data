@@ -1476,6 +1476,24 @@
       "has_real_img": true,
       "at": "2026-11-28T00:11:09.996508+02:00",
       "ok": true
+    },
+    {
+      "title": "First software update for Galaxy Buds On is here",
+      "orig_link": "https://www.sammobile.com/news/first-software-update-galaxy-buds-on-here/",
+      "at": "2026-11-28T00:41:06.963753+02:00",
+      "ok": false,
+      "err": [
+        "طول الخبر قصير (320 كلمة، والمطلوب 420+ كلمة)"
+      ]
+    },
+    {
+      "title": "تسريب سامسونج جالاكسي A38: بطارية ضخمة ومعالج جديد",
+      "orig_link": "https://www.sammobile.com/news/galaxy-a38-mediatek-processor-longer-battery-life/",
+      "post_url": "https://www.egyptaway.com/2026/11/galaxy-a38-leak-specs-battery.html",
+      "brand": "Samsung",
+      "has_real_img": true,
+      "at": "2026-11-28T00:41:06.963753+02:00",
+      "ok": true
     }
   ]
 }
