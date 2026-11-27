@@ -1,24 +1,6 @@
 {
  "done": [
   {
-   "title": "Redmi Note 15 Series Comparison: Price & Specs - Nokiamob",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdGxnZjBrT3VvU1hSNVhNY3VobldhQmJ0T2RJNERIUFRpMUlUMkF0YllVcFRvRW81TTJFcnVDamRzSktRUjNsaDBDM1dpMk56aElFUmdIZnJCNHBrcm5rWXk5MTVGZ001VXFfMFEtZTRWMm01cEI5NmJnOF9aV0FUVFZNQVpfLXF4aThrWXFUbHpJWTNpdjZFYkd3Y3hmbWs1R092bnhNcE1ndw?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'note 15' already covered in: مراجعة Redmi Note 15 5G: معالج Snapdragon 6 Gen 3 وكاميرا 108 ميجابكسل وشحن 45 وات"
-  },
-  {
-   "title": "أقوى معالجات الهواتف في 2026: من يتربع على العرش؟",
-   "cand_title": "Fastest mobile chipsets ranked: compare smartphone processor performance - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPa19ZWHN2XzhSRG9rQThabk9UaDRPaHF4UnZLeVZkZXVrbFd3Z21DLWNxTTNWaFk5N3hNQlM1OXV5Q0EtbWp4b3lFWnFIQ3ctb2pfckc5S2ZiOXZuRFYxNkJGdmdRc0d3c0ltQzBIcUZCckY5WEYzZklHV19EX2U5UVhNcW5Bb0JGWElYRGFMZU1zNnVSRW5uUHNPZ1FOaFVPZEdhN0l3U2NrVGVIc3Y0Zw?oc=5",
-   "raw_photo": "https://fdn.gsmarena.com/imgroot/news/26/06/big-2026-chipset-showdown/-952x498w6/gsmarena_003.jpg",
-   "post_url": "https://www.review-mobile.com/2026/11/fastest-mobile-chipsets-performance.html",
-   "at": "2026-11-21T04:03:08+02:00",
-   "ok": true,
-   "kind": "news",
-   "brand": "اخرى"
-  },
-  {
    "title": "Samsung’s new mobile chief has to make young buyers want a Galaxy",
    "url": "https://www.sammobile.com/news/samsung-new-mobile-chief-make-young-buyers-want-galaxy/",
    "at": "2026-11-21",
@@ -3178,6 +3160,20 @@
    "ok": true,
    "kind": "news",
    "brand": "اخرى"
+  },
+  {
+   "title": "Cubot KingKong 12",
+   "url": "https://www.gsmarena.com/cubot_kingkong_12_5g-15107.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Model code [12] with variants set() found in review: مراجعة RedMagic 12 Pro+ 2026: تبريد سائل وشاشة 185 هرتز والسعر"
+  },
+  {
+   "title": "Huawei Osta O1 Pro",
+   "url": "https://www.gsmarena.com/huawei_osta_o1_pro-15088.php",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Model code [o1] with variants {'pro'} found in review: مراجعة Huawei Osta O1 Pro: ثورة في التصميم والشاشة بتجربة بصرية"
   }
  ]
 }
