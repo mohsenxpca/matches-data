@@ -1,40 +1,6 @@
 {
  "done": [
   {
-   "title": "Apple tightens its grip on a shrinking US smartphone market - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbm5ZTHR0LXJ3NTJiZmZVMXg1VFVpM0hpaEQtRnhvYXQtWGlDTVRzVVB4Vk5ua0NvN1U0VTdVSXF2WWVncEliVmZETFE3SVJURmladHVVZzdLTmppVnVxMkRGNUFqYWRQWkFOaVlxWFF1MUNzdlpYekQyU2dDYi1zZ2xkWW5fOG5JQ1Y4aDlDdHhEV1VrejlxcklWbnQ0d1FL0gGcAUFVX3lxTE9sS1RicXBpdV80X2t6WDdFNjk4SnY4OHoxSWNVU0tQdzE5S1RuYmdGR1FxQ3dnOUFkamY1VmUyMG50VGY2bzByRDRYNVJGdUlRS255aFFSaXBqM2t2RnoyLWc4ZmRLTmNoVGo3OTdETFhoRFJoQzc3T3lmSE1EaUloMFlodmdXLW5tRkFteDhfY0QyOVlTVTBqbVZnNQ?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['shrinking', 'grip', 'market', 'tightens']"
-  },
-  {
-   "title": "Xiaomi 18 pre-reservations are now live in China - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcV9kU3pJMU91ZzNYRFZkSlhFQXBneFlfS1lYS2dqRWt1RjEzcUZ3MzBLaVdiUWlxb1dISWxfOHl6ek5ZandPcEFsb2lSbWVwXzJMb3pCQTlndFItdXEzcUZfUDF4d1BIM21qTExxZ2U2S29WM3p6RkR4NnJlRnBibnN1M203Qk9BZGQyMkhfUWHSAYwBQVVfeXFMT29oZlM3a0tHaW9iYUVabFlGcF9XQ0xYdWxmbC1Xa2xleFZ3UHlfb0FsNGpiMndiTGtEQXNwTnBUc01zSDd6bHk3cXdaQURYcmhNckFQVFIwaHhpLTJGZ25QYkpaazBIWklha3JVcU1YcVFYb0xlQXhkSUJMR3NuU2hkN1g0VThVV1BwU04?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'xiaomi 18' already covered in: حجز مسبق لـ Xiaomi 18 بالصين: المواصفات الكاملة والموعد"
-  },
-  {
-   "title": "This phone company launched a landline built for kids, and it's a safer, cheaper alternative to handing your child a smartphone - Android Central",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcVZvaGhieEtzTGItbTl1ZzZjcTE5SHZHWUNEbzA2dVdCSEFKZ1RGbVhBeXV2bVBXa3FDWW9SX0xZc3Rhb1p0b054R3hkZEZRMmNha1UwNXZrUFl3UnQxenJrcDdwRG4tR09OZ1g2QU9DS003SFZzNVVOTFYwVlBKU3Z2cXRQZ3UzSURWS1JjeDVfQ2xYTEozbkdJTnAtMGJITkU2QVMtSllrbzU5WWV0RzV6REQxVmhJRTlNNnRDcHhDUTRTcXNfeUx1VmxRRW4xbkZuR0lpMDM3RGpsN05CN2Q1RE9oNVdlMkd6RmhvMjhrbl8y?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (606 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "العنوان مكرر أو قريب جداً من مقال منشور: هاتف «Tin Can» الجديد: هل هو البديل الآمن للهواتف الذكية؟"
-   ]
-  },
-  {
-   "title": "Your Android phone needs surprisingly beefy specs for Google's new emoji - Android Police",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWU85TGkzUExmcE5NdWF3THRTTXBYSUVnVFczZVY0ODlyN05jQUhFRjRXZW01bDhVTG1abWc1aWlDNTYwcXozMHZRWGM1MjJYMFd6cVk4bFJFS1h1MUhLUEtneE9TMEV1VFF5RWdXNEpKTm9xWHNoWWwxLU5yeUFiUmZtMnpfeE8zVlhacXFHWE1HakNyRkRwSGNZU3h6U2c?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (649 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)",
-    "المقال يحتوي على هواتف أو مواصفات خيالية محظورة (مثل S27 أو أندرويد 17)"
-   ]
-  },
-  {
    "title": "Lava Smart 4 Pro announced with a 7,000 mAh battery - GSMArena.com news - GSMArena.com",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVDF2UkcxLUxreFVzdEZrRGNZeUJTUmlqaXFXTEgtRnNEMjB1NmdHR1dzS2pQYUx2YVBvUjg2U0lMMlpzUTNaclRhdXpreV9kUHMyaVZPWkpNalRBWVU1alJfVWhtTzVuc0drZ3ByWXNaUTJ2OUJnNVF3SWZiQkg3bERqUV8wZzNi0gGEAUFVX3lxTE55dVFyUkVwODdpN2hYQUtzd1FyNjZmQ3BjSjNsWEt4N3g5WDNYclhjczRXdGJPNEpLT2VSQklRQk8zUFdaMS1HZTI4Vks4dTc5Umx1dERPYlFjeVhndmRTb1RLczZtbm9peHlCZ1l2NEpxeEstend5V3BWdmJYXzlvWlRaRQ?oc=5",
    "at": "2026-11-21",
@@ -3179,6 +3145,38 @@
    "at": "2026-11-27T01:31:40+02:00",
    "ok": true,
    "kind": "review",
+   "brand": "شاومي"
+  },
+  {
+   "title": "Global Xiaomi 17 Ultra starts receiving HyperOS 4 - GSMArena.com news - GSMArena.com",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdktBLTREdWs5eG5Ka3hRajc3LXhNNk5qb1BIMV9zUTlrTGt4aDV2dlZRMVlrYzhDcDNSdWF6UE9qYzQwbnBMSVI0d1Y2S0R0VnZhR0M4cFlUQjcwLTlpQlVQc2JNaDliMGZsenJldDlER1dlRWJMeG9mbmtrZUdrTDY0N2E5ZzI1X2JCMWtfU0NzNE3SAY8BQVVfeXFMTzRZN1RjMk5ac1ExTTF0YjB6eE9RRmt2R3FwN0JyaF9PcE1jd2NJZlhUUUpfQmNLUi1hM0Nta2N2YXFrcHMzd0p3eHIyY2k4bzE2Y1RKd1pVMGJLZmNDWmVISHhVdTI4TUJIZjRNWUdjUjF0TkJKQVBZUXl6dmctcmdhTUc3TVdOdThhNVU1dDg?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['starts', 'ultra', 'hyperos', 'receiving']"
+  },
+  {
+   "title": "BBSS Launches \"Miyaburu Phone,\" a Japan Anti-Fraud App That Uses AI to Analyze Call Content in Real Time - BigGo Finance",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vN3A0bzBacEs4ajk5WjFHRGVfbEhGTUdwR1ZDWG05Y0k0WkZOX2xRdkFoTlRNOU40OHlOa1hWWDlIdk03b05CM2dQZzlfdmxrRGJURUxJRzRkSk1ZNWVjZExZcFR4cVVTOTVnLTFHSEFjb2VkakE?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['biggo', 'japan', 'finance']"
+  },
+  {
+   "title": "Rail users in Wales can now get journey alerts on their phone - RailAdvent",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWUdnV1BablN5Z0JKcTFjazJDMHZ4RW9XcUtJYWZfXzJ1V051UDlOZHgydFFNREYya2hNaFozVmhvU0VqUzdxazRYRjRrNU53a09jblNQcDMtZ1ZsNHdMUVhiY2dRNXN2aXktcmk1aU5ESDYzY0ppMi1DRjlaNjNyejhhS0cxaUNMYnhQelRRYkh0WHBTcUhkcXNzZFRMZTZWOFJyRlVB?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "هل إلغاء شاومي 18 ألترا حقيقي؟ الموعد والمواصفات",
+   "cand_title": "Is the Xiaomi 18 Ultra Cancelled? Release Date, Specs, Leaks - Gizmochina",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYVZkQWk5ZzVkMVBSUkFOVU91bmxzUFM1eEFGcGI5VVNXSVNNRWMtMHRaRzZ1aVhIV3V3b0lhNzVIOS1VeVUzZ2NXeFRaVDdJeXZUYXB0LXdJZEhic2E3enVuQWdyVUVpZ0ZzMno1a2t0eFBPUVpaMHJmSUFyVHV2U09nZEc3M21sSWhKY2dEMTRIWm5pU083Sy1nMkF0S3JfbXVFU0pn?oc=5",
+   "raw_photo": "https://www.gizmochina.com/wp-content/uploads/2026/01/G_rGZSFbkAA2jAs.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/is-xiaomi-18-ultra-cancelled.html",
+   "at": "2026-11-27T02:01:36+02:00",
+   "ok": true,
+   "kind": "news",
    "brand": "شاومي"
   }
  ]
