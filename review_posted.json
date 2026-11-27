@@ -1,31 +1,6 @@
 {
  "done": [
   {
-   "title": "Lava Smart 4 Pro announced with a 7,000 mAh battery - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVDF2UkcxLUxreFVzdEZrRGNZeUJTUmlqaXFXTEgtRnNEMjB1NmdHR1dzS2pQYUx2YVBvUjg2U0lMMlpzUTNaclRhdXpreV9kUHMyaVZPWkpNalRBWVU1alJfVWhtTzVuc0drZ3ByWXNaUTJ2OUJnNVF3SWZiQkg3bERqUV8wZzNi0gGEAUFVX3lxTE55dVFyUkVwODdpN2hYQUtzd1FyNjZmQ3BjSjNsWEt4N3g5WDNYclhjczRXdGJPNEpLT2VSQklRQk8zUFdaMS1HZTI4Vks4dTc5Umx1dERPYlFjeVhndmRTb1RLczZtbm9peHlCZ1l2NEpxeEstend5V3BWdmJYXzlvWlRaRQ?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (589 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Lava Smart 4 Pro announced with a 7,000 mAh battery - news.lavx.hu",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcDhNYm1OSjlfTDZBc0YzMDZnREhHU2JDU2tqQ0dhQmdLdHlrVGY3cEN5ZDFTdV9IRTBXUjFQU2FyT09vX1IxRHVQNnNhQ19Bb0s3aG8tRzlwWmx6S0tnYW91MVYwRUJ5REhvWFNXd1RCS3BvdTljb0NLX0tfN3c4ZjBiMzJtR00?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (651 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
-   "title": "Huawei OSTA O1 Pro Cheat Sheet: Price, Specs, and What Makes It Different - TechRepublic",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTEJvX2Z0a0tSV2JDR2k1djYwNjFmRzczZjFDdjNueXlYMHJtaF91Q05zSk1nSWNKODczMDdsMXQ5Q0FhaUxUeFBpS2xZVGJYS3FiR3RxZUtjQWZUY21DOVR0c3JfeG9LLVc3M3NhQWRSY1lvVjhkaUdJMHU0NGZtZmN6bXE?oc=5",
-   "at": "2026-11-21",
-   "ok": false,
-   "reason": "Phone 'o1 pro' already covered in: مراجعة Huawei Osta O1 Pro: ثورة في التصميم والشاشة بتجربة بصرية"
-  },
-  {
    "title": "Redmi Note 15 Series Comparison: Price & Specs - Nokiamob",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdGxnZjBrT3VvU1hSNVhNY3VobldhQmJ0T2RJNERIUFRpMUlUMkF0YllVcFRvRW81TTJFcnVDamRzSktRUjNsaDBDM1dpMk56aElFUmdIZnJCNHBrcm5rWXk5MTVGZ001VXFfMFEtZTRWMm01cEI5NmJnOF9aV0FUVFZNQVpfLXF4aThrWXFUbHpJWTNpdjZFYkd3Y3hmbWs1R092bnhNcE1ndw?oc=5",
    "at": "2026-11-21",
@@ -3178,6 +3153,31 @@
    "ok": true,
    "kind": "news",
    "brand": "شاومي"
+  },
+  {
+   "title": "Japanese brand unveils 5G smartphone for seniors with physical buttons and AI scam call detection - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU1phQmRMdThQQ09uSHNWY1RmTmtkSWdVbUlacmZZY3FmSXBXNElmYUJyOG9zeGNFNHJFVWVlVWRxX2J1UjBjVkJrT3k1SmJPckFjdWZfVXJKMkhvMEtLV3JPekJ1VkY0dGJ1ZlhKR3BFV2t0LUwyTXNZbjhaVmMzcGVkaEwyV1FRdGZFT1dTTVBPQWpqTFN2WXNmaldnRFdrMThqU1k2OUF1S1U1UkRpWk1WcU9XWGlFTlhPZjJER0YzVVJaT2lqazF3TnF4X3BVTlQwMFNBNXNIQQ?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['detection', 'scam', 'unveils']"
+  },
+  {
+   "title": "KT launches 'Sanrio Characters Kids Phone' based on Galaxy A18… priced at 450,000 won - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwcGRYSkZVb3R2eHRrSTFpZS02dl9QX3JuMkMxSVRuYTFZejNxdkh2dmlGbW14VUktQ1Q0elhaYVhjQnJCVmFqZTU2RDZnRkJXZndyVVNzQS1Eb3BiT0xYWW4yZDcxTDA1Q0xr?oc=5",
+   "at": "2026-11-27",
+   "ok": false,
+   "reason": "Phone 'a18' already covered in: مراجعة Samsung Galaxy A18 4G: معالج Exynos 1610 وشاشة AMOLED و6 تحديثات أندرويد"
+  },
+  {
+   "title": "كيف تستعيد واجهة أندرويد القديمة على هاتفك الحديث؟",
+   "cand_title": "Android used to have personality, so I gave my phone a Gingerbread makeover - How-To Geek",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVF8xa1duRVhoZlRLSm5UUldESTFBcTR6VnlHVWlsa052RzhfLUxqZ2ltcXVxenUteWFyX0IxVWE0VWQwSUNCUkRrNU41OE5rakctNVcxb3BhSVRyeUxaODYzQ3RkaHlQMnZHMjg2bTZXdzB4cXZYYzlLeWpJRXBLcHFqSE5ZZGh2Q3p3WHVnRnVXdUJJUkN4MS15SUMxLXdSUU40?oc=5",
+   "raw_photo": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/wm/2026/11/gingerbread.jpg?w=1600&h=900&fit=crop",
+   "post_url": "https://www.review-mobile.com/2026/11/android-gingerbread-makeover-modern.html",
+   "at": "2026-11-27T02:31:33+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "اخرى"
   }
  ]
 }
