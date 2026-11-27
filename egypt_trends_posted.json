@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.mancity.com/news/mens/nottingham-forest-manchester-city-team-news-tactics-63929664",
-   "t": "Maresca makes three changes for Forest trip",
-   "title": "تفاصيل مواجهة نوتينغهام فورست ضد مان سيتي في الدوري",
-   "url": "https://www.egyptaway.com/2026/11/nottingham-forest-vs-man-city-preview.html",
-   "at": "2026-11-07T19:46:39.255260+02:00",
-   "ok": true,
-   "type": "trends"
-  },
-  {
    "u": "https://www.masrawy.com/sports/sports_news/details/2026/11/7/3075173/%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%AA%D8%B4%D9%83%D9%8A%D9%84-%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D9%84%D9%85%D9%88%D8%A7%D8%AC%D9%87%D8%A9-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%8032-%D8%A8%D9%83%D8%A3%D8%B3-%D9%85%D8%B5%D8%B1",
    "t": "تعرف على تشكيل بيراميدز لمواجهة الداخلية في دور الـ32 بكأس مصر",
    "at": "2026-11-07",
@@ -3398,6 +3389,16 @@
    "url": "https://www.egyptaway.com/2026/11/barakat-ahly-zizo-coaches.html",
    "photo": "https://images.pexels.com/photos/399187/pexels-photo-399187.jpeg?auto=compress&cs=tinysrgb&w=1200&h=675&fit=crop",
    "at": "2026-11-27T01:36:27.510317+02:00",
+   "ok": true,
+   "type": "publisher_rss"
+  },
+  {
+   "u": "https://www.youm7.com/story/2026/11/27/الذهب-كسب-6-في-أسبوع-هل-حان-وقت-جني-الأرباح/7634671",
+   "t": "الذهب كسب 6% في أسبوع.. هل حان وقت جني الأرباح أم تنتظر صعودا جديدا؟",
+   "title": "الذهب يكسب 6% في أسبوع بمصر.. هل حان وقت جني الأرباح؟",
+   "url": "https://www.egyptaway.com/2026/11/gold-prices-egypt-profit-taking.html",
+   "photo": "https://wsrv.nl/?url=https%3A//img.youm7.com/xlarge/202605240739393939_22650.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-28T00:16:35.440720+02:00",
    "ok": true,
    "type": "publisher_rss"
   }
