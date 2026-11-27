@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "q": "نيو إنجلاند ضد إنتر ميامي",
-   "at": "2026-11-02",
-   "ok": true,
-   "url": "https://www.egyptaway.com/2026/11/messi-inter-miami-new-england-rule.html",
-   "title": "لماذا يشارك ميسي ضد نيو إنجلاند رغم تراكم الإنذارات؟"
-  },
-  {
    "q": "قائمة منتخب مصر",
    "at": "2026-11-02",
    "ok": false
@@ -2334,6 +2327,12 @@
    "ok": true,
    "url": "https://www.egyptaway.com/2026/11/saudi-social-insurance-updates.html",
    "title": "تفاصيل الضمان الاجتماعي المطور في السعودية"
+  },
+  {
+   "q": "الجنيه المصري مقابل الريال",
+   "at": "2026-11-27",
+   "ok": false,
+   "why": "banned topic"
   }
  ]
 }
