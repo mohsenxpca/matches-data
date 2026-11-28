@@ -1,69 +1,6 @@
 {
  "done": [
   {
-   "title": "Oppo Find X10",
-   "url": "https://www.gsmarena.com/oppo_find_x10-14953.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Model code [x10] with variants set() found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
-   "title": "Xiaomi 18 Pro Max",
-   "url": "https://www.gsmarena.com/xiaomi_18_pro_max-14958.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
-  },
-  {
-   "title": "Samsung Galaxy S26 Ultra",
-   "url": "https://www.gsmarena.com/samsung_galaxy_s26_ultra-14320.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Model code [s26] with variants {'ultra'} found in review: مراجعة Samsung Galaxy S26 Ultra: كاميرا 200 ميجابكسل وشاشة الخصوصية وشحن 60 وات"
-  },
-  {
-   "title": "Samsung Galaxy A57",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a57-14379.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Model code [a57] with variants set() found in review: مراجعة ZTE nubia A57 2026: موبايل اقتصادي بشاشة 120 هرتز والسعر"
-  },
-  {
-   "title": "Samsung Galaxy A17",
-   "url": "https://www.gsmarena.com/samsung_galaxy_a17-14041.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Model code [a17] with variants set() found in review: مراجعة Samsung Galaxy A17 5G: شاشة AMOLED وكاميرا بمثبت بصري و6 تحديثات أندرويد"
-  },
-  {
-   "title": "OnePlus 15",
-   "url": "https://www.gsmarena.com/oneplus_15-14206.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Model code [15] with variants set() found in review: مراجعة Huawei nova 15 Max 2026: بطارية 8500 وشاشة 120Hz"
-  },
-  {
-   "title": "Xiaomi 17 Pro Max",
-   "url": "https://www.gsmarena.com/xiaomi_17_pro_max-14181.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Model code [17] with variants {'max', 'pro'} found in review: مراجعة Redmi Note 17 Pro Max 2026: بطارية 10000 وشحن 100 واط والسعر"
-  },
-  {
-   "title": "Xiaomi 17 Ultra",
-   "url": "https://www.gsmarena.com/xiaomi_17_ultra-14380.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Model code [17] with variants {'ultra'} found in review: مراجعة شاملة لهاتف Xiaomi 17 Ultra: وحش التصوير بمعالج خارق"
-  },
-  {
-   "title": "Xiaomi launches new $8 Mijia Coffee Cup with premium stainless steel build and 6-hour insulation",
-   "url": "https://www.gizmochina.com/2026/11/22/xiaomi-mijia-coffee-cup-launched-specs-price/",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "out_of_phone_scope"
-  },
-  {
    "title": "Motorola Moto Tag 3 listed on Amazon",
    "url": "https://www.gsmarena.com/motorola_moto_tag_3_features_design_amazon_listing-news-75585.php",
    "at": "2026-11-22",
@@ -3176,6 +3113,77 @@
    "reason": [
     "طول المقال قصير (605 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "The best Black Friday phone deals offer up to $450 off Android phones, plus up to 50% off mobile plans - Business Insider",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSENkdTZpN1dtYXZ0MEhhTW5BZVFDOVNNTDI3RnptLXJWOEE4RGFOQjc0bHN3eTZCX3A4V3NTQmZEWEF4UzFHY1htTWVMZnlrbDl5WHF6MFFqWEVDMGQyZE9WNDV0X3dMY3dvVndMdUVuaFdXQmtUczBiY0w4MTlOTnlZaU9zOHgtTmp3NVRn?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (640 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "I found 36 of the best Black Friday phone deals on iPhones, Samsung Galaxy, Google Pixel, and more - Mashable",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsQ3UxaGs1MGQ3Qmw5NGhWSXJPMDdzS0lhOWFOMVJ0NURJWUlyRWd0aTN0MlAzSWNwOExMczNJQVg0WUU3TWxrSXVrRnZRc255NWRhMi15dVk4SEJ1TEQ1SGhYN3V0dzVRZUdKMkN0bnpGalMxMDhHcg?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['galaxy', 'friday', 'black']"
+  },
+  {
+   "title": "Apple gains smartphone share as memory crunch squeezes budget Android phones - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ2pSTEc2SDJ2dUdVNnN4cXVLNW1IUW1xSm9qQ2h1UWE3TjRxek9iOVFGRjVoNHcteGNycUEzaDFKSk5uRnBqZkVfUktqMmxKX3pDN0o4dmQ3dC1nbldleThiZkh6ajVNOHJuNUpVd0VDTC01M2VMV1F0Q0p2WURwWmZnNnlEQWp3ZUF0Qy05RllGNFlPaDhJQnhvbmJtVWVQRWM5NWh2c2Zvc0xFazJOYTJHaGEybEZfNzJ3SWJfRVhfeVhTbUZoYWtjbERZRzFtVnc?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (697 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "I'm trading my Samsung Galaxy S25 Ultra for a Pixel 11 Pro for this single feature - Android Police",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRjRzMmJmOFNQNl9ScDZqRGxHN0Q4QUpDelZKRHNHU2tSWXZTNmNqUEp6WVhZUWk4RzljemdZTHRkdjJyZWhwY3M5cVo0MW9lYmVpZ1lQY1ctQkR2ZmhuVXFLdmttS214WDZ0TWl5S1ktU0NISkhZNFRRZE9HZVhyYXZ3aVA5elNmRThOSkE5QXpjdmdDaFFSd0w3SDV2enVOeEhtLU5mTWJLd29RaHNZczNIX05VWmxB?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "Phone 'pixel 11 pro' already covered in: مراجعة Google Pixel 11 Pro 2026: نتائج الاختبار والبطارية والسعر"
+  },
+  {
+   "title": "Forget the iPhone – these Black Friday Android phone deals are too good to miss - PC Guide",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWnRpWVFsanBucmFjeTFRUk5lelhEVmxtam44ZWZUOG1qUFBEeXdWMW9Tamx3Q1hvM2Jzd25oZnpnTlhfZDB0eDFsZERPT0Y5V0Yxa0kxSnVQOHFRTUxoQk5qZUhOcnhVbVRsM3pzbFBrZFdad3hnYlVKbFRqYzFCbHA4Mjl6QTRpV2NSUzItbkNheHBncHNEMVFESU9COWFZWVExNS15TS1PakZM?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['deals', 'friday', 'black']"
+  },
+  {
+   "title": "Black Friday knocks $450 off the Samsung Galaxy S26 Ultra - Android Authority",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbk0tcVZlZDRDRTZPYS1qTUVlZ1h1NGtvVjRLeWhyc0M5Uld5OFBqcDBUM0o1WGlDQXZnMks1WW5SYWZTVVVaclVBWGEyNHRaeFFqR2ZJYXBCcGh6d3F2NVd1Qk5naVVsYXpDcHBpcDJQUUlRWjlHM1VhanVCTFdnRzR3?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['galaxy', 'friday', 'black']"
+  },
+  {
+   "title": "Galaxy S26 Ultra Sinks to an All-Time Low on Amazon, Leaving the iPhone 18 Out of the Black Friday Bargain Race - Gizmodo",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQX1ZnR3ZFYWhqaHh6czVZNVJjREUwYVMxRk40V1ZiTXRycThGNjdLUW92TFhyZnZQblV3VERwSm1uRGpKcVRwd2ZCZEd2bmppV3pfY3VoT1JHSmdzaEE5cW93U2tKUjU0LVlueFI0RmRUdDZ0SXAzbk9aSUx3SDVmSmM3OVBka2NGTHpHVEgzZFl0VXBZZXJ0RkVKcUtsaXZvWnpXTmsyRGxKS3daOU9DajdCNUdVbmt3Mk1zeU92RkpzeDFsczkwalhYM3JnZGszdUxXMzk2ZGo?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['galaxy', 'amazon', 'ultra']"
+  },
+  {
+   "title": "The Galaxy S26 Ultra just got a massive $450 discount with no trade-in required - Android Central",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSnNtSUJRRERENVRGRkY2OHF5X3ZKREF4TEtrSUQ0REhrYkVZb21JczBrd1kzb2R0R3IxN2JleHdmaE92Z01aaUE5S2pUNzVjdjNwRzFpcWlZd0hkM256QjQ4RmoyQXNPU0NURWw3U1RZcl9MNml6MnBxQXVuWTVaTjM5dVMwMlk3aVBJaG1tVnhHMDU1UkdkZE9iWm1IbGh4eTh4UldJaDBqajlyWXBjZ3F1SkxCMmJmQlJJ?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['galaxy', 'just', 'ultra']"
+  },
+  {
+   "title": "مراجعة هاتف TCL K70: التحليل الشامل للمواصفات، الأسعار، المميزات",
+   "cand_title": "TCL K70",
+   "url": "https://www.gsmarena.com/tcl_k70_5g-15110.php",
+   "raw_photo": "https://fdn2.gsmarena.com/vv/pics/tcl/tcl-k70-5g-2.jpg",
+   "post_url": "https://www.review-mobile.com/2026/11/tcl-k70-comprehensive-review-specs.html",
+   "at": "2026-11-28T02:32:24+02:00",
+   "ok": true,
+   "kind": "review",
+   "brand": "اخرى"
   }
  ]
 }
