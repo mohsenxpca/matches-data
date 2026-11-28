@@ -1,17 +1,6 @@
 {
  "done": [
   {
-   "title": "مراجعة OPPO Find X10 Pro Max: أفضل هاتف ذكي بتسعير خاطئ",
-   "cand_title": "Review: OPPO Find X10 Pro Max —- best smartphone, wrongly priced - EFTM",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNlYtLUxxb3Y0dGFhUlZJMU8yZ0xfUE96empOSWRLREprRldkX0tUN1BWUDVleldWbTFjMVRXVlhEUU45Q0s4LWlzMWRqZnlXLXFVNnBRQmhmRUgxMnpIVVZsc1VGMEFreTRlXzFERDcxTzVxblFBMUpGZHpMVFhfLXJKQ1RpUE9Hal9oc3R1UHYxYzJPb1HSAZsBQVVfeXFMT3JpSzlac2pKaXE2dHFvSGFxR0dJUlRpMVJNdHJDUjVYaVdrME1TYlA3aFo3TWQ3QlcxMFVMbGtZaXZnX1VOVmZ0Yjk1cE55X05vcXBISU04bHVsNE5TWm9yYm1hZmhSRHY1RTh4XzdEQWFmd29KcDI1bTBRUkJBMXZDamhldUVNU0QxLW9CMXVHbTlOODZnZzlfdEU?oc=5",
-   "raw_photo": "https://eftm.com/wp-content/uploads/2026/11/IMG20261119082259-scaled.jpg",
-   "post_url": "https://www.review-mobile.com/2026/11/oppo-find-x10-pro-max-review.html",
-   "at": "2026-11-22T14:16:34+02:00",
-   "ok": true,
-   "kind": "review",
-   "brand": "اوبو"
-  },
-  {
    "title": "Deal: Amazon's Black Friday deal discounts the Pixel 11 Pro and Pixel 11 Pro XL by 31%",
    "url": "https://www.gsmarena.com/deal_amazons_black_friday_deal_discounts_the_pixel_11_pro_and_pixel_11_pro_xl_by_31-news-75570.php",
    "at": "2026-11-23",
@@ -3179,6 +3168,13 @@
    "reason": [
     "طول المقال قصير (686 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "OPPO Reno17 Pro vs iPhone SE 3: Specs, Price & AnTuTu Compared | Phone Specs Hub - 懂球帝",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUGIwTmlhMXYtSFhhZ1g4ZzRueEVYTTFIU2ZoamV4aGxqRTY3NFZBak9LeWVaYklURDNzaDdQdjNTMXpPTG9kczNoZFdVaUhOTGdxZjRSSllEa3RHNG05UlY3bTJrSXRNMy1xcW43TGh2eFN5TTQyUlhadTg1SFB4dkNyYw?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "Phone 'reno17 pro' already covered in: مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،"
   }
  ]
 }
