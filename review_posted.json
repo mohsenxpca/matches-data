@@ -1,34 +1,6 @@
 {
  "done": [
   {
-   "title": "Xiaomi 18 Max may use Snapdragon 8 Elite Gen 6 and a battery above 8,000mAh - Mezha.net",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mYWlkUGFGYjh3eEw5YWFMOGY2NFdMcVBqbTE2RWkwZlBxMkhGZzk3N1NXZGs5aGp1ZmhMZjZlYVRwTXNFMWU0V1hGNjFQV1p3V0ZhTTUyemRQaDdrWmNfTExidGl5c3lvb2VZT2E2R1hyZzF5Wm9OOGtKZUI?oc=5",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['000mah', 'snapdragon', 'above', 'elite']"
-  },
-  {
-   "title": "Oppo Reno17 (China)",
-   "url": "https://www.gsmarena.com/oppo_reno17_5g_(china)-15071.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Model code [reno17] with variants set() found in review: مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،"
-  },
-  {
-   "title": "Oppo Find X10 Pro Max",
-   "url": "https://www.gsmarena.com/oppo_find_x10_pro_max-14939.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Model code [x10] with variants {'max', 'pro'} found in review: مراجعة OPPO Find X10 2026: الكاميرات والفرق عن Pro Max والسعر"
-  },
-  {
-   "title": "Apple iPhone 18 Pro Max",
-   "url": "https://www.gsmarena.com/apple_iphone_18_pro_max-14716.php",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Model code [18] with variants {'max', 'pro'} found in review: مراجعة iPhone 18 Pro Max 2026: أداء أقوى وتصميم مألوف"
-  },
-  {
    "title": "Oppo Find X10",
    "url": "https://www.gsmarena.com/oppo_find_x10-14953.php",
    "at": "2026-11-22",
@@ -3172,6 +3144,38 @@
    "ok": true,
    "kind": "news",
    "brand": "سامسونج"
+  },
+  {
+   "title": "This Compact Phone Project Upped Storage and RAM Without a Price Hike - PCMag Middle East",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbVpyT3lFSmZ5cWFNaHdrekxGNzRXNFF1S3JfRlEtQjhDa014QlJpMUtVX0N2bXJ0MHE2YW94aGhEMDRfa0hJUWc5SElBR2RpcEY4U1FnZDg0cWs2MklyYWQ2LUhIWU9VWVZMOWZSVWdQMnNpTlJCZVlKejl4RlRkMXBmMFhjUVJGSHlNN3d0UDhNUTZfRzV0Z3ZOd0tzMmtHSjF2SUxCQkc1R1lrY0JFNFJyUQ?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "Recent story overlap on key terms ['storage', 'project', 'hike', 'without']"
+  },
+  {
+   "title": "Samsung Galaxy Z Flip8 Cheat Sheet: Price, Specs, Features, and More - TechRepublic",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSDdTQUhlZHVnMnp3NUR0OGx5eWRxY0tUYjBzM0R2QjhCWVNBNUwzYnVJZGIySTFQQ21nLVA0SUo0aFV4R2Uya0NSSEFucHNFYXZhRm1Yb3F3ekxPY2VCZy1MYWN0LW9IRUhhWHJXZUVpeGFjN19FZFZBd0IzMFJ4NUVXSQ?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "Phone 'flip8' already covered in: مراجعة Samsung Galaxy Z Flip8 2026: السعر والمواصفات"
+  },
+  {
+   "title": "Honor's Robot Phone 2 is in limbo, and a new kind of camera device is taking shape - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWjB1WFhpRENFeXkyRnZDeU1wOGxPYXRwOGNaRnA3UGtwY2ZDcmJvMzR2dkwxWFNoNkthaDVER1FVcnZzRXlBMUdyMW1DNXJwY0lPMjZ3bG5sbV8yejAxRTFieFROS3NwejVoMm9uaGFETDhJcWlfRHU1ZmhUbkhhM1UzQUd4dC04dG5KSFVRYW0wSmtlVXdRamFDZkdxeUVlWlZqRzJMTUZtV0Frc01EdlExLTJkN2x1OGtEZm96YzBib2Ji?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (568 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
+  },
+  {
+   "title": "Realme 17 Ultra Specs Leak with 200 MP Camera, 9,000mAh Battery and More - Beebom Gadgets",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMFUzeDVfaTVybXJNWjRwbGNlUHBsTFZISkxxYU95UUMtdWJOWGM0VVI1ZGRQQUNrdHRyaVVvUWVLRm0yXzB2bENoaUhHallzZEItTEhERWh3a3FiZ1BKMjI0Ym02YjIyYndwQnZzeWVDWjJPeDhjSkRRMVFwM2V1dk5UWjlIVlU?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (605 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
