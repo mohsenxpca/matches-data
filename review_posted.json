@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Samsung Expandable Phone: 5.1 to 6.7 Inches, Unconfirmed - shattered.io",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTHRuaEtqeUFhWDBscnhWbHNoejBJOGNpV3NHVnc4aXRHdUo0RUJYUWlJM0xienFGWXh0YmJtNzRBOE9SUEROdm92Qjl1ZnVXSXUzMlRLRnNqVWp4SGpLQnRjZ0dhLUkzYTl5bDlCOGZaOE1sUTJCVE5PT3NjejB6OEdaZjdwcng4TnlqS0xhZTNNTWVNTG56WVJSMUtrQ1k2Nmc?oc=5",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Phone '6 7' already covered in: مراجعة Samsung Galaxy S26+: شاشة QHD+ مقاس 6.7 بوصة وبطارية 4900 وشحن 45 وات"
-  },
-  {
    "title": "مراجعة OPPO Find X10 Pro Max: أفضل هاتف ذكي بتسعير خاطئ",
    "cand_title": "Review: OPPO Find X10 Pro Max —- best smartphone, wrongly priced - EFTM",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNlYtLUxxb3Y0dGFhUlZJMU8yZ0xfUE96empOSWRLREprRldkX0tUN1BWUDVleldWbTFjMVRXVlhEUU45Q0s4LWlzMWRqZnlXLXFVNnBRQmhmRUgxMnpIVVZsc1VGMEFreTRlXzFERDcxTzVxblFBMUpGZHpMVFhfLXJKQ1RpUE9Hal9oc3R1UHYxYzJPb1HSAZsBQVVfeXFMT3JpSzlac2pKaXE2dHFvSGFxR0dJUlRpMVJNdHJDUjVYaVdrME1TYlA3aFo3TWQ3QlcxMFVMbGtZaXZnX1VOVmZ0Yjk1cE55X05vcXBISU04bHVsNE5TWm9yYm1hZmhSRHY1RTh4XzdEQWFmd29KcDI1bTBRUkJBMXZDamhldUVNU0QxLW9CMXVHbTlOODZnZzlfdEU?oc=5",
@@ -3177,6 +3170,15 @@
    "ok": true,
    "kind": "news",
    "brand": "أبل"
+  },
+  {
+   "title": "WhatsApp Now Allows Scheduled Messages Even When Phone Is Off, Here Is How - Aktualita.co",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZGNKMmoxMWZYVFVsdWhVQ1dSSzZ4NTdrdHNLNDRMSEw4STJLa2FOYzVHVjE5eFJuQjlWakRlQ056N0NhZFdMY09SbEFfM0xaRmVkR210aEhYbXBwRkJNTnR5RHptLW83dmYySEQ3bnFFd29zVXNBWFVUMEdQYVFUamdn?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (686 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
+   ]
   }
  ]
 }
