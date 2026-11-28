@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "u": "https://www.elbalad.news/7171737",
-   "t": "إعلامي ينفي تدخل أي جهة بالدولة في قرارات مجلس إدارة الزمالك",
-   "title": "إعلامي ينفي تدخل أي جهة بالدولة في قرارات الزمالك",
-   "url": "https://www.egyptaway.com/2026/11/media-figure-denies-state-interference.html",
-   "at": "2026-11-07T20:06:54.579939+02:00",
-   "ok": true,
-   "type": "publisher_rss"
-  },
-  {
    "u": "https://www.elbalad.news/7171758",
    "t": "دون تغيير.. العملات العربية والريال السعودي والدينار الكويتي في البنوك الآن",
    "at": "2026-11-07",
@@ -3401,6 +3392,16 @@
     "كلمة رسميًا مش موجودة في المصدر، احذفها",
     "الـ body 460 كلمة بس، لازم 530 على الأقل"
    ]
+  },
+  {
+   "u": "https://www.elbalad.news/7197038",
+   "t": "سماعات Sony WH-1000XM6 بخصم 111 دولاراً وسعر قياسي جديد",
+   "title": "سماعات سوني WH-1000XM6 بخصم 111 دولاراً وسعر قياسي جديد",
+   "url": "https://www.egyptaway.com/2026/11/sony-wh-1000xm6-discount-amazon.html",
+   "photo": "https://wsrv.nl/?url=https%3A//media.elbalad.news/2026/11/large/6112092248255202611271116401640.jpg&w=1200&output=webp&q=80",
+   "at": "2026-11-28T02:06:11.272900+02:00",
+   "ok": true,
+   "type": "publisher_rss"
   }
  ]
 }
