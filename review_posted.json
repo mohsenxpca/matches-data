@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "The rumored vivo I2606 is powered by the Snapdragon 8s Gen 4",
-   "url": "https://www.gsmarena.com/the_rumored_vivo_i2606_is_powered_by_the_snapdragon_8s_gen_4-news-75586.php",
-   "at": "2026-11-23",
-   "ok": false,
-   "reason": "Phone 'gen 4' already covered in: مراجعة vivo V70: تليفوتو ZEISS بتقريب 3x ومعالج Snapdragon 7 Gen 4 وبطارية 6500"
-  },
-  {
    "title": "Ulefone Armor 35 Pro with a 1.2 km laser rangefinder and 11,000 mAh battery goes on sale next month for $430",
    "url": "https://www.gsmarena.com/ulefone_armor_35_pro_features_price_sale_date-news-75579.php",
    "at": "2026-11-23",
@@ -3170,6 +3163,13 @@
   {
    "title": "Telegram iPhone Warning: Durov Urges Updates to Older iOS - Bitcoin Foundation",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUWtxaFZGektGT28xSm5IaTQ2MnBvejN5WjlFc0JNbXc5c3JUeXh3cFp1bnB6RkVCV2x4RVJQTHViVEcyMzZxV2FmMkJHQ1pMdWw1WmlqeWhUbmwyQl8yZzY3T2tKSy1pMTZ6TFY5XzNZaHhNaFBZLVJMLUl6eHpXZXRxbmcxMXJtMWJRN1oySHZBWXVNTXJOVDM0bllodTIxcmNZc3pwR2JFLVBLbXdUbEIwckxoR09u?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "out_of_phone_scope"
+  },
+  {
+   "title": "BoU backs MTN-MOGO smartphone financing drive - The Independent Uganda",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbEpyVEo4Z0o4SzZTRTZQRXA4Q3MwX0hwcU5DM3p0cVBtVHVOSlBpQTZWblJOT1NpQ0wzcERHTzhfNFV4SmpKNjc5d0F5LUlPbEpMMDJ4SjQwTkFsSmhkck42V2Z2bmtsMWNudTBVWEVDN1ZuODc5SUkwTHJjc1dzeDhn?oc=5",
    "at": "2026-11-28",
    "ok": false,
    "reason": "out_of_phone_scope"
