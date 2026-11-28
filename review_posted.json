@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Weekly poll: the Xiaomi 18 Pro and 18 Pro Max are global now, have you changed your mind about them? - GSMArena.com news - GSMArena.com",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNWpkeE5lcDNTZmlXeE5XWWdydFVvazZhenFBaTNUNGZDYUl3ODQ1VUVuWlJVRWlKUUp6THE4NUp6R3JrMGNraG1KVGNUaWtoWTVPMTY1YjktaFR3SUM2NjNWMHdybWw4Z3JYa0dkel9TdjJTdkwwT0d0N0dva2ZPZDByZGIwM0NNcG1nTVdnT2xzZWstemQyNFVPeHZWSUtXcVFmT1pJbGV2VGViSG9XbFl6OTV3cWVCb0hyUUxoSXRhb2VDSmY2WjFuM01HZk1taUJn0gHPAUFVX3lxTE5qUXotQThoa2NPSUtadnVBTVYyOFR1cGx4TThveEs2OEktWVBnYWFkaEpoQmpNcHE3RlpGOW9UX2UxM1FWUlBsTHJvM0g0OWRPYVpHaks3UDVCNzNfaDJYc2lhVTI5eFFLd0ZqdHRaU0x0SWJUMHB6X2E5SmRUSjE1ZUJGc2k5WDlvaDhEaFBoMHNQaUdWZmU5QkRnanh0NzRvR0JlU2NyMW9LeWt5NzBheDJyd3ZqT3BibU5CbjI1TWh6bkpZSEVSOF82c1kzOA?oc=5",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Recent story overlap on key terms ['have', 'your', 'changed', 'mind']"
-  },
-  {
    "title": "Samsung Expandable Phone: 5.1 to 6.7 Inches, Unconfirmed - shattered.io",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTHRuaEtqeUFhWDBscnhWbHNoejBJOGNpV3NHVnc4aXRHdUo0RUJYUWlJM0xienFGWXh0YmJtNzRBOE9SUEROdm92Qjl1ZnVXSXUzMlRLRnNqVWp4SGpLQnRjZ0dhLUkzYTl5bDlCOGZaOE1sUTJCVE5PT3NjejB6OEdaZjdwcng4TnlqS0xhZTNNTWVNTG56WVJSMUtrQ1k2Nmc?oc=5",
    "at": "2026-11-22",
@@ -3173,6 +3166,17 @@
    "reason": [
     "طول المقال قصير (650 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
    ]
+  },
+  {
+   "title": "أبل تسيطر على 57% من سوق الهواتف الأمريكي: ما القصة؟",
+   "cand_title": "Apple’s US smartphone market share climbs to 57% as memory crisis hits Android rivals - Notebookcheck",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2JoYTdqdEF5aU56N19qbGpCZ1A5cERRLVNpa3BnQVVHTlZYV1dzSWVoWlJGSjd5VDFENVRPX3RPbWRqTlNZN3czbXlWaFFSVkRONnhwYmdBd3cxek10bFFKRnppY2kyMzdkQm93NzhaMi1aR3VveVF2M01XUGFybHpWdDM2N0l3VnJjakNjVTUxenl0NlRmOE16WmZjTFN6M0dHdmdxVFZ1eElJYXlZWU85bU8wMDF6VVdMWjBmU3hZUEl3NXBlSw?oc=5",
+   "raw_photo": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Unsplash-iPhone-Air-combo-Nov-2026.webp",
+   "post_url": "https://www.review-mobile.com/2026/11/apple-market-share-57-percent-surge.html",
+   "at": "2026-11-28T09:19:34+02:00",
+   "ok": true,
+   "kind": "news",
+   "brand": "أبل"
   }
  ]
 }
