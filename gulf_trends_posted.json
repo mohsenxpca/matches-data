@@ -629,6 +629,15 @@
       "err": [
         "banned topic"
       ]
+    },
+    {
+      "q": "تشات جي بي تي",
+      "country": "SA",
+      "at": "2026-11-28T15:51:12.075120+02:00",
+      "ok": false,
+      "err": [
+        "banned topic"
+      ]
     }
   ]
 }
