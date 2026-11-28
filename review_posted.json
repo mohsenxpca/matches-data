@@ -1,15 +1,6 @@
 {
  "done": [
   {
-   "title": "Deal: Amazon's Black Friday deal discounts the Pixel 11 Pro and Pixel 11 Pro XL by 31%",
-   "url": "https://www.gsmarena.com/deal_amazons_black_friday_deal_discounts_the_pixel_11_pro_and_pixel_11_pro_xl_by_31-news-75570.php",
-   "at": "2026-11-23",
-   "ok": false,
-   "reason": [
-    "طول المقال قصير (635 كلمة، والمطلوب 700+ كلمة للتوافق مع معايير أدسنس)"
-   ]
-  },
-  {
    "title": "The rumored vivo I2606 is powered by the Snapdragon 8s Gen 4",
    "url": "https://www.gsmarena.com/the_rumored_vivo_i2606_is_powered_by_the_snapdragon_8s_gen_4-news-75586.php",
    "at": "2026-11-23",
@@ -3175,6 +3166,13 @@
    "at": "2026-11-28",
    "ok": false,
    "reason": "Phone 'reno17 pro' already covered in: مراجعة شاملة لهاتف Oppo Reno17 Pro النسخة الصينية: المواصفات،"
+  },
+  {
+   "title": "Telegram iPhone Warning: Durov Urges Updates to Older iOS - Bitcoin Foundation",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUWtxaFZGektGT28xSm5IaTQ2MnBvejN5WjlFc0JNbXc5c3JUeXh3cFp1bnB6RkVCV2x4RVJQTHViVEcyMzZxV2FmMkJHQ1pMdWw1WmlqeWhUbmwyQl8yZzY3T2tKSy1pMTZ6TFY5XzNZaHhNaFBZLVJMLUl6eHpXZXRxbmcxMXJtMWJRN1oySHZBWXVNTXJOVDM0bllodTIxcmNZc3pwR2JFLVBLbXdUbEIwckxoR09u?oc=5",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": "out_of_phone_scope"
   }
  ]
 }
