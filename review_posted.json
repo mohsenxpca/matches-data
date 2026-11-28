@@ -1,13 +1,6 @@
 {
  "done": [
   {
-   "title": "Motorola's Galaxy Z Fold 8 rival might be dead on arrival - PhoneArena",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMzhTdWhhbU96VnFMR3p2blFkdDVPb21qMFdxeUgwclc2M01Ed09uSlpKUk9ZYWhabXpUZEVGamd4a0R3eW9KZVMyNUoxYV9nUENzemQwTmNIUHlCOGlaSDRDQjVMdDFhejdWYUVjWlE0YkoxalRDZ1loME9DaFJLLWs3bmRYaGZfcGk5cmZKalJCTjlBMjFRRkxUWUQ?oc=5",
-   "at": "2026-11-22",
-   "ok": false,
-   "reason": "Phone 'fold 8' already covered in: سامسونج Galaxy Z Fold 8 بإصدار GTA VI: فخامة استثنائية بسعر فلكي"
-  },
-  {
    "title": "iPhone Air 2 (2027) release date expectations, price estimates, and upgrades - PhoneArena",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUElNV1lCMEFmNEZMOGIyQjlwVXlMV2EzelNoNUEyN2xBeUFzYU1USnloQWR3eklQZmFYT0s2YU80WDJXYTRIQmtkRlFhaVZiRDY4cGZTSWVua1IzMTA4VTlENkZhcWNWSXhrbnBQUk1jdlRHWGp2U2t3SW16ZUx4MA?oc=5",
    "at": "2026-11-22",
@@ -3172,6 +3165,16 @@
    "at": "2026-11-28",
    "ok": false,
    "reason": "Phone 'iphone 18' already covered in: موعد إطلاق iPhone 18 و iPhone Air 2: تسريبات تكشف خطة أبل الجديدة"
+  },
+  {
+   "title": "ZTE Blade A35e",
+   "url": "https://www.gsmarena.com/zte_blade_a35e-15111.php",
+   "at": "2026-11-28",
+   "ok": false,
+   "reason": [
+    "طول المقال قصير (562 كلمة، والمطلوب 850+ كلمة للتوافق مع معايير أدسنس)",
+    "العنوان مكرر أو قريب جداً من مقال منشور: مراجعة Motorola Edge 70 Neo: المواصفات الكاملة، السعر، والمميزات"
+   ]
   }
  ]
 }
